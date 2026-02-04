@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { PenTool, Send, AlertCircle } from 'lucide-react';
+import { PenTool, Send, AlertCircle, ArrowRight } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 
 interface EmailTemplate {
@@ -27,7 +27,6 @@ export default function EmailTaskActivity({ template, onComplete }: EmailTaskPro
   const handleSubmit = () => {
     if (response.length < 20) return;
     setIsSubmitted(true);
-    setTimeout(() => onComplete({ response }), 1500);
   };
 
   return (
@@ -77,15 +76,25 @@ export default function EmailTaskActivity({ template, onComplete }: EmailTaskPro
             )}
           </div>
 
-          <div className="flex justify-end pt-4">
-            <Button
-              onClick={handleSubmit}
-              disabled={response.length < 20 || isSubmitted}
-              className="bg-slate-900 hover:bg-slate-800 text-white font-bold px-8 py-6 rounded-2xl gap-2 min-w-[180px]"
-            >
-              {isSubmitted ? 'Sending...' : 'Send Message'}
-              <Send className="w-4 h-4" />
-            </Button>
+          <div className="flex justify-end pt-4 gap-3">
+            {!isSubmitted ? (
+              <Button
+                onClick={handleSubmit}
+                disabled={response.length < 20}
+                className="bg-slate-900 hover:bg-slate-800 text-white font-bold px-8 py-6 rounded-2xl gap-2 min-w-[180px]"
+              >
+                Send Message
+                <Send className="w-4 h-4" />
+              </Button>
+            ) : (
+              <Button
+                onClick={() => onComplete({ response })}
+                className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 py-6 rounded-2xl gap-2 min-w-[180px] shadow-lg shadow-green-100 animate-in fade-in zoom-in duration-300"
+              >
+                Next Activity
+                <ArrowRight className="w-5 h-5" />
+              </Button>
+            )}
           </div>
         </CardContent>
       </Card>

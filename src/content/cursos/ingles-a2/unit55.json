@@ -1,0 +1,1182 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U55",
+    "unit_title": "Relative Clauses: People & Things",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Describing People, Objects & Places",
+      "content": [
+        {
+          "interaction_id": "U55_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Alguien'?",
+          "options": [
+            { "id": "o1", "text": "Someone / Somebody" },
+            { "id": "o2", "text": "Anyone" },
+            { "id": "o3", "text": "Everyone" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Algo'?",
+          "options": [
+            { "id": "o1", "text": "Something" },
+            { "id": "o2", "text": "Anything" },
+            { "id": "o3", "text": "Everything" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Algún lugar'?",
+          "options": [
+            { "id": "o1", "text": "Somewhere" },
+            { "id": "o2", "text": "Anywhere" },
+            { "id": "o3", "text": "Everywhere" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Que' (para personas)?",
+          "options": [
+            { "id": "o1", "text": "Who" },
+            { "id": "o2", "text": "Which" },
+            { "id": "o3", "text": "Where" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Que' (para cosas)?",
+          "options": [
+            { "id": "o1", "text": "Which" },
+            { "id": "o2", "text": "Who" },
+            { "id": "o3", "text": "Where" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Donde' (para lugares)?",
+          "options": [
+            { "id": "o1", "text": "Where" },
+            { "id": "o2", "text": "Which" },
+            { "id": "o3", "text": "When" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Músico'?",
+          "options": [
+            { "id": "o1", "text": "Musician" },
+            { "id": "o2", "text": "Musical" },
+            { "id": "o3", "text": "Music" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Escritor'?",
+          "options": [
+            { "id": "o1", "text": "Writer" },
+            { "id": "o2", "text": "Write" },
+            { "id": "o3", "text": "Written" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Herramienta'?",
+          "options": [
+            { "id": "o1", "text": "Tool" },
+            { "id": "o2", "text": "Object" },
+            { "id": "o3", "text": "Thing" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aparato / Máquina'?",
+          "options": [
+            { "id": "o1", "text": "Gadget / Machine" },
+            { "id": "o2", "text": "Tool" },
+            { "id": "o3", "text": "Object" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I11",
+          "type": "matching",
+          "prompt_es": "Empareja los pronombres relativos con su uso.",
+          "pairs": [
+            { "id": "p1", "left": "Who", "right": "People" },
+            { "id": "p2", "left": "Which", "right": "Things / Animals" },
+            { "id": "p3", "left": "Where", "right": "Places" },
+            { "id": "p4", "left": "That", "right": "People / Things" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I12",
+          "type": "flashcard",
+          "prompt_es": "Vocabulario de definiciones.",
+          "flashcards": [
+            { "front": "Person", "back": "Persona", "pronunciation": "/ˈpɜːrsn/" },
+            { "front": "Thing", "back": "Cosa", "pronunciation": "/θɪŋ/" },
+            { "front": "Place", "back": "Lugar", "pronunciation": "/pleɪs/" },
+            { "front": "Object", "back": "Objeto", "pronunciation": "/ˈɑːbdʒekt/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Artista'?",
+          "options": [
+            { "id": "o1", "text": "Artist" },
+            { "id": "o2", "text": "Artistic" },
+            { "id": "o3", "text": "Art" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Científico'?",
+          "options": [
+            { "id": "o1", "text": "Scientist" },
+            { "id": "o2", "text": "Science" },
+            { "id": "o3", "text": "Scientific" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Invento'?",
+          "options": [
+            { "id": "o1", "text": "Invention" },
+            { "id": "o2", "text": "Invent" },
+            { "id": "o3", "text": "Inventor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Descubrimiento'?",
+          "options": [
+            { "id": "o1", "text": "Discovery" },
+            { "id": "o2", "text": "Discover" },
+            { "id": "o3", "text": "Found" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Famoso'?",
+          "options": [
+            { "id": "o1", "text": "Famous" },
+            { "id": "o2", "text": "Known" },
+            { "id": "o3", "text": "Popular" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Útil'?",
+          "options": [
+            { "id": "o1", "text": "Useful" },
+            { "id": "o2", "text": "Helpful" },
+            { "id": "o3", "text": "Used" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Inútil'?",
+          "options": [
+            { "id": "o1", "text": "Useless" },
+            { "id": "o2", "text": "No useful" },
+            { "id": "o3", "text": "Bad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Increíble'?",
+          "options": [
+            { "id": "o1", "text": "Incredible / Amazing" },
+            { "id": "o2", "text": "Believe" },
+            { "id": "o3", "text": "Great" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I21",
+          "type": "matching",
+          "prompt_es": "Empareja los objetos con su definición.",
+          "pairs": [
+            { "id": "p1", "left": "Oven", "right": "Thing which you use to cook" },
+            { "id": "p2", "left": "Chef", "right": "Person who cooks" },
+            { "id": "p3", "left": "Kitchen", "right": "Place where you cook" },
+            { "id": "p4", "left": "Knife", "right": "Object that cuts" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vecino'?",
+          "options": [
+            { "id": "o1", "text": "Neighbor" },
+            { "id": "o2", "text": "Friend" },
+            { "id": "o3", "text": "Next door" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Colega / Compañero de trabajo'?",
+          "options": [
+            { "id": "o1", "text": "Colleague" },
+            { "id": "o2", "text": "Partner" },
+            { "id": "o3", "text": "Friend" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Extraño / Raro'?",
+          "options": [
+            { "id": "o1", "text": "Strange / Weird" },
+            { "id": "o2", "text": "Stranger" },
+            { "id": "o3", "text": "New" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aburrido'?",
+          "options": [
+            { "id": "o1", "text": "Boring" },
+            { "id": "o2", "text": "Bored" },
+            { "id": "o3", "text": "Slow" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I26",
+          "type": "flashcard",
+          "prompt_es": "Más palabras descriptivas.",
+          "flashcards": [
+            { "front": "Smart", "back": "Listo / Inteligente", "pronunciation": "/smɑːrt/" },
+            { "front": "Heavy", "back": "Pesado", "pronunciation": "/ˈhevi/" },
+            { "front": "Light", "back": "Ligero", "pronunciation": "/laɪt/" },
+            { "front": "Expensive", "back": "Caro", "pronunciation": "/ɪkˈspensɪv/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Barato'?",
+          "options": [
+            { "id": "o1", "text": "Cheap" },
+            { "id": "o2", "text": "Low" },
+            { "id": "o3", "text": "Small" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Peligroso'?",
+          "options": [
+            { "id": "o1", "text": "Dangerous" },
+            { "id": "o2", "text": "Danger" },
+            { "id": "o3", "text": "Risk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Seguro' (sin peligro)?",
+          "options": [
+            { "id": "o1", "text": "Safe" },
+            { "id": "o2", "text": "Sure" },
+            { "id": "o3", "text": "Secure" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Antiguo / Viejo'?",
+          "options": [
+            { "id": "o1", "text": "Old / Ancient" },
+            { "id": "o2", "text": "New" },
+            { "id": "o3", "text": "Past" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Moderno'?",
+          "options": [
+            { "id": "o1", "text": "Modern" },
+            { "id": "o2", "text": "New" },
+            { "id": "o3", "text": "Current" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sencillo'?",
+          "options": [
+            { "id": "o1", "text": "Simple / Easy" },
+            { "id": "o2", "text": "Hard" },
+            { "id": "o3", "text": "Normal" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Complicado'?",
+          "options": [
+            { "id": "o1", "text": "Complicated / Difficult" },
+            { "id": "o2", "text": "Simple" },
+            { "id": "o3", "text": "Easy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Divertido'?",
+          "options": [
+            { "id": "o1", "text": "Fun" },
+            { "id": "o2", "text": "Funny" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aburrido' (la persona)?",
+          "options": [
+            { "id": "o1", "text": "Bored" },
+            { "id": "o2", "text": "Boring" },
+            { "id": "o3", "text": "Sad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Defining Relative Clauses",
+      "content": [
+        {
+          "interaction_id": "U55_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué pronombre relativo usamos para personas?",
+          "options": [
+            { "id": "o1", "text": "Who" },
+            { "id": "o2", "text": "Which" },
+            { "id": "o3", "text": "Where" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué pronombre relativo usamos para cosas?",
+          "options": [
+            { "id": "o1", "text": "Which" },
+            { "id": "o2", "text": "Who" },
+            { "id": "o3", "text": "Where" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The man ___ lives next door is nice.'",
+          "stimulus_en": "The man ___ lives next door is nice.",
+          "correct_answer": "who",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The book ___ I am reading is great.'",
+          "stimulus_en": "The book ___ I am reading is great.",
+          "correct_answer": "which",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Este es el restaurante donde comimos.'",
+          "options": [
+            { "id": "w1", "text": "This" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "restaurant" },
+            { "id": "w5", "text": "where" },
+            { "id": "w6", "text": "we" },
+            { "id": "w7", "text": "ate." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué pronombre se puede usar para personas Y cosas?",
+          "options": [
+            { "id": "o1", "text": "That" },
+            { "id": "o2", "text": "Where" },
+            { "id": "o3", "text": "What" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I42",
+          "type": "true_false",
+          "prompt_es": "'The city which I live' es correcto.",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I know a girl ___ speaks five languages.'",
+          "stimulus_en": "I know a girl ___ speaks five languages.",
+          "correct_answer": "who",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "The phone that I bought is broken." },
+            { "id": "o2", "text": "The phone who I bought is broken." },
+            { "id": "o3", "text": "The phone where I bought is broken." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I45",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ella es la mujer que trabaja conmigo.'",
+          "options": [
+            { "id": "w1", "text": "She" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "woman" },
+            { "id": "w5", "text": "who" },
+            { "id": "w6", "text": "works" },
+            { "id": "w7", "text": "with" },
+            { "id": "w8", "text": "me." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This is the place ___ I lost my keys.'",
+          "stimulus_en": "This is the place ___ I lost my keys.",
+          "correct_answer": "where",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ese es el perro que me atacó'?",
+          "options": [
+            { "id": "o1", "text": "That is the dog which attacked me." },
+            { "id": "o2", "text": "That is the dog who attacked me." },
+            { "id": "o3", "text": "That is the dog where attacked me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The movie ___ we saw was boring.'",
+          "stimulus_en": "The movie ___ we saw was boring.",
+          "correct_answer": "that",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I49",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Me gusta la gente que es amable.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "like" },
+            { "id": "w3", "text": "people" },
+            { "id": "w4", "text": "who" },
+            { "id": "w5", "text": "are" },
+            { "id": "w6", "text": "kind." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "The shop where I work is near here." },
+            { "id": "o2", "text": "The shop which I work is near here." },
+            { "id": "o3", "text": "The shop who I work is near here." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A dentist is a person ___ looks after your teeth.'",
+          "stimulus_en": "A dentist is a person ___ looks after your teeth.",
+          "correct_answer": "who",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I52",
+          "type": "true_false",
+          "prompt_es": "Usamos 'Where' para cosas.",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es un objeto que usamos para abrir latas'?",
+          "options": [
+            { "id": "o1", "text": "It is an object which we use to open cans." },
+            { "id": "o2", "text": "It is an object who we use to open cans." },
+            { "id": "o3", "text": "It is an object where we use to open cans." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I want to live in a house ___ has a garden.'",
+          "stimulus_en": "I want to live in a house ___ has a garden.",
+          "correct_answer": "that",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El hotel donde nos alojamos era caro'?",
+          "options": [
+            { "id": "o1", "text": "The hotel where we stayed was expensive." },
+            { "id": "o2", "text": "The hotel which we stayed was expensive." },
+            { "id": "o3", "text": "The hotel who we stayed was expensive." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She is the scientist ___ discovered the cure.'",
+          "stimulus_en": "She is the scientist ___ discovered the cure.",
+          "correct_answer": "who",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I57",
+          "type": "true_false",
+          "prompt_es": "No puedes usar 'That' para personas en el habla cotidiana.",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Este es el coche que quiero comprar.'",
+          "options": [
+            { "id": "w1", "text": "This" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "car" },
+            { "id": "w5", "text": "that" },
+            { "id": "w6", "text": "I" },
+            { "id": "w7", "text": "want" },
+            { "id": "w8", "text": "to" },
+            { "id": "w9", "text": "buy." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I met a man ___ knows your father.'",
+          "stimulus_en": "I met a man ___ knows your father.",
+          "correct_answer": "who",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "The bike which I bought is blue." },
+            { "id": "o2", "text": "The bike who I bought is blue." },
+            { "id": "o3", "text": "The bike where I bought is blue." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you know a shop ___ sells stamps?'",
+          "stimulus_en": "Do you know a shop ___ sells stamps?",
+          "correct_answer": "which",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I62",
+          "type": "true_false",
+          "prompt_es": "'Who' se usa para animales si tienen nombre.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La casa donde nací es vieja'?",
+          "options": [
+            { "id": "o1", "text": "The house where I was born is old." },
+            { "id": "o2", "text": "The house which I was born is old." },
+            { "id": "o3", "text": "The house who I was born is old." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'An iPhone is a gadget ___ many people have.'",
+          "stimulus_en": "An iPhone is a gadget ___ many people have.",
+          "correct_answer": "that",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "The students who study pass the exam." },
+            { "id": "o2", "text": "The students which study pass the exam." },
+            { "id": "o3", "text": "The students where study pass the exam." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'That's the museum ___ the stolen painting was.'",
+          "stimulus_en": "That's the museum ___ the stolen painting was.",
+          "correct_answer": "where",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I67",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ella es la actriz que ganó el premio.'",
+          "options": [
+            { "id": "w1", "text": "She" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "actress" },
+            { "id": "w5", "text": "who" },
+            { "id": "w6", "text": "won" },
+            { "id": "w7", "text": "the" },
+            { "id": "w8", "text": "award." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A dictionary is a book ___ gives meanings of words.'",
+          "stimulus_en": "A dictionary is a book ___ gives meanings of words.",
+          "correct_answer": "which",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Dónde está el chico que nos ayudó?'?",
+          "options": [
+            { "id": "o1", "text": "Where is the boy who helped us?" },
+            { "id": "o2", "text": "Where is the boy which helped us?" },
+            { "id": "o3", "text": "Where is the boy where helped us?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I70",
+          "type": "true_false",
+          "prompt_es": "No puedes omitir 'who/which/that' si son el sujeto de la oración relativa.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Giving Definitions & Descriptions",
+      "content": [
+        {
+          "interaction_id": "U55_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo defines a un 'médico'?",
+          "options": [
+            { "id": "o1", "text": "A person who treats sick people." },
+            { "id": "o2", "text": "A person which treats sick people." },
+            { "id": "o3", "text": "A person where treats sick people." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo defines un 'bolígrafo'?",
+          "options": [
+            { "id": "o1", "text": "A thing which you use to write." },
+            { "id": "o2", "text": "A thing who you use to write." },
+            { "id": "o3", "text": "A thing where you use to write." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo defines una 'escuela'?",
+          "options": [
+            { "id": "o1", "text": "A place where students learn." },
+            { "id": "o2", "text": "A place which students learn." },
+            { "id": "o3", "text": "A place who students learn." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I74",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la definición: 'Un camarero es una persona que sirve comida.'",
+          "options": [
+            { "id": "w1", "text": "A" },
+            { "id": "w2", "text": "waiter" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "a" },
+            { "id": "w5", "text": "person" },
+            { "id": "w6", "text": "who" },
+            { "id": "w7", "text": "serves" },
+            { "id": "w8", "text": "food." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides una definición?",
+          "options": [
+            { "id": "o1", "text": "What does this word mean?" },
+            { "id": "o2", "text": "Can you define this?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es un tipo de... que...'?",
+          "options": [
+            { "id": "o1", "text": "It's a kind of... that..." },
+            { "id": "o2", "text": "It's a type of... which..." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo describes a alguien que no conoces?",
+          "options": [
+            { "id": "o1", "text": "He's the guy who has long hair." },
+            { "id": "o2", "text": "He's the guy which has long hair." },
+            { "id": "o3", "text": "He's the guy where has long hair." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo describes un lugar famoso?",
+          "options": [
+            { "id": "o1", "text": "It's the place where the Eifell Tower is." },
+            { "id": "o2", "text": "It's the place which the Eifell Tower is." },
+            { "id": "o3", "text": "It's the place who the Eifell Tower is." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No sé cómo se llama el objeto'?",
+          "options": [
+            { "id": "o1", "text": "I don't know what it's called." },
+            { "id": "o2", "text": "I don't know its name." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I80",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Este es el libro que me prestaste.'",
+          "options": [
+            { "id": "w1", "text": "This" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "book" },
+            { "id": "w5", "text": "that" },
+            { "id": "w6", "text": "you" },
+            { "id": "w7", "text": "lent" },
+            { "id": "w8", "text": "me." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo describes a un 'amigo'?",
+          "options": [
+            { "id": "o1", "text": "A person who is always there for you." },
+            { "id": "o2", "text": "A person which is always there for you." },
+            { "id": "o3", "text": "A person where is always there for you." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo describes un 'teléfono inteligente'?",
+          "options": [
+            { "id": "o1", "text": "A gadget which can do many things." },
+            { "id": "o2", "text": "A gadget who can do many things." },
+            { "id": "o3", "text": "A gadget where can do many things." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Es este el bus que va al centro?'?",
+          "options": [
+            { "id": "o1", "text": "Is this the bus that goes to the center?" },
+            { "id": "o2", "text": "Is this the bus which goes to the center?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Esa es la chica con la que hablé'?",
+          "options": [
+            { "id": "o1", "text": "That's the girl I talked to." },
+            { "id": "o2", "text": "That's the girl who I talked to." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No recuerdo el nombre del lugar donde estuvimos'?",
+          "options": [
+            { "id": "o1", "text": "I don't remember the name of the place where we were." },
+            { "id": "o2", "text": "I don't remember the name of the place which we were." },
+            { "id": "o3", "text": "I don't remember the name of the place who we were." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él es el hombre que me vendió el coche'?",
+          "options": [
+            { "id": "o1", "text": "He's the man who sold me the car." },
+            { "id": "o2", "text": "He's the man which sold me the car." },
+            { "id": "o3", "text": "He's the man that sold me the car." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es una película que todo el mundo conoce'?",
+          "options": [
+            { "id": "o1", "text": "It's a movie which everyone knows." },
+            { "id": "o2", "text": "It's a movie that everyone knows." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Busco a alguien que hable francés'?",
+          "options": [
+            { "id": "o1", "text": "I'm looking for someone who speaks French." },
+            { "id": "o2", "text": "I'm looking for someone that speaks French." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Conoces a alguien que viva en Londres?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know anyone who lives in London?" },
+            { "id": "o2", "text": "Do you know anyone which lives in London?" },
+            { "id": "o3", "text": "Do you know anyone that lives in London?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Este es el hotel donde se alojó el presidente'?",
+          "options": [
+            { "id": "o1", "text": "This is the hotel where the president stayed." },
+            { "id": "o2", "text": "This is the hotel which the president stayed." },
+            { "id": "o3", "text": "This is the hotel who the president stayed." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es un lugar que visito a menudo'?",
+          "options": [
+            { "id": "o1", "text": "It's a place that I visit often." },
+            { "id": "o2", "text": "It's a place which I visit often." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella es la vecina que tiene cinco gatos'?",
+          "options": [
+            { "id": "o1", "text": "She is the neighbor who has five cats." },
+            { "id": "o2", "text": "She is the neighbor which has five cats." },
+            { "id": "o3", "text": "She is the neighbor that has five cats." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Esa es la canción que me gusta'?",
+          "options": [
+            { "id": "o1", "text": "That's the song which I like." },
+            { "id": "o2", "text": "That's the song who I like." },
+            { "id": "o3", "text": "That's the song that I like." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Dónde está la caja que estaba aquí?'?",
+          "options": [
+            { "id": "o1", "text": "Where is the box that was here?" },
+            { "id": "o2", "text": "Where is the box which was here?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es un libro que me cambió la vida'?",
+          "options": [
+            { "id": "o1", "text": "It's a book which changed my life." },
+            { "id": "o2", "text": "It's a book that changed my life." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Esa es la calle donde vivo'?",
+          "options": [
+            { "id": "o1", "text": "That's the street where I live." },
+            { "id": "o2", "text": "That's the street which I live." },
+            { "id": "o3", "text": "That's the street that I live." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Quién es el hombre que está hablando con María?'?",
+          "options": [
+            { "id": "o1", "text": "Who is the man who is talking to Maria?" },
+            { "id": "o2", "text": "Who is the man that is talking to Maria?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Este es el restaurante que me recomendaste'?",
+          "options": [
+            { "id": "o1", "text": "This is the restaurant that you recommended." },
+            { "id": "o2", "text": "This is the restaurant which you recommended." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No conozco a nadie que trabaje allí'?",
+          "options": [
+            { "id": "o1", "text": "I don't know anyone who works there." },
+            { "id": "o2", "text": "I don't know anyone which works there." },
+            { "id": "o3", "text": "I don't know anyone that works there." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ella es la doctora que trabaja en el hospital donde nació mi hijo.'",
+          "stimulus_es": "Ella es la doctora que trabaja en el hospital donde nació mi hijo.",
+          "correct_answer": "She is the doctor who works in the hospital where my son was born.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

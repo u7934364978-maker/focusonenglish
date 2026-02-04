@@ -1,0 +1,1130 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U49",
+    "unit_title": "Telling Stories: The Narrative",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Storytelling & Events",
+      "content": [
+        {
+          "interaction_id": "U49_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Primero'?",
+          "options": [
+            { "id": "o1", "text": "First" },
+            { "id": "o2", "text": "Firstly" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Luego / Después'?",
+          "options": [
+            { "id": "o1", "text": "Then / Next" },
+            { "id": "o2", "text": "Later" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Después de eso'?",
+          "options": [
+            { "id": "o1", "text": "After that" },
+            { "id": "o2", "text": "Behind that" },
+            { "id": "o3", "text": "Before that" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Finalmente / Por último'?",
+          "options": [
+            { "id": "o1", "text": "Finally / In the end" },
+            { "id": "o2", "text": "Lastly" },
+            { "id": "o3", "text": "All are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'De repente'?",
+          "options": [
+            { "id": "o1", "text": "Suddenly" },
+            { "id": "o2", "text": "Suddenlyly" },
+            { "id": "o3", "text": "Quickly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mientras'?",
+          "options": [
+            { "id": "o1", "text": "While" },
+            { "id": "o2", "text": "When" },
+            { "id": "o3", "text": "During" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuando'?",
+          "options": [
+            { "id": "o1", "text": "When" },
+            { "id": "o2", "text": "While" },
+            { "id": "o3", "text": "Where" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Anécdota'?",
+          "options": [
+            { "id": "o1", "text": "Anecdote / Short story" },
+            { "id": "o2", "text": "Tale" },
+            { "id": "o3", "text": "Story" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Personaje'?",
+          "options": [
+            { "id": "o1", "text": "Character" },
+            { "id": "o2", "text": "Personage" },
+            { "id": "o3", "text": "Actor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Principio'?",
+          "options": [
+            { "id": "o1", "text": "Beginning / Start" },
+            { "id": "o2", "text": "First" },
+            { "id": "o3", "text": "Base" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mitad / Nudo'?",
+          "options": [
+            { "id": "o1", "text": "Middle" },
+            { "id": "o2", "text": "Half" },
+            { "id": "o3", "text": "Center" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Final / Desenlace'?",
+          "options": [
+            { "id": "o1", "text": "End / Ending" },
+            { "id": "o2", "text": "Finish" },
+            { "id": "o3", "text": "Last" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aventurero'?",
+          "options": [
+            { "id": "o1", "text": "Adventurous" },
+            { "id": "o2", "text": "Adventure" },
+            { "id": "o3", "text": "Exciting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sorprendente'?",
+          "options": [
+            { "id": "o1", "text": "Surprising / Amazing" },
+            { "id": "o2", "text": "Surprised" },
+            { "id": "o3", "text": "Amazed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Afortunadamente'?",
+          "options": [
+            { "id": "o1", "text": "Fortunately / Luckily" },
+            { "id": "o2", "text": "Happily" },
+            { "id": "o3", "text": "Sadly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I16",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "First", "right": "Primero" },
+            { "id": "p2", "left": "Then", "right": "Luego" },
+            { "id": "p3", "left": "Finally", "right": "Finalmente" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I17",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Suddenly", "right": "De repente" },
+            { "id": "p2", "left": "Fortunately", "right": "Afortunadamente" },
+            { "id": "p3", "left": "Unfortunately", "right": "Desafortunadamente" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Plot'?",
+          "options": [
+            { "id": "o1", "text": "La trama / El argumento" },
+            { "id": "o2", "text": "El dibujo" },
+            { "id": "o3", "text": "El piloto" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Villain'?",
+          "options": [
+            { "id": "o1", "text": "Villano" },
+            { "id": "o2", "text": "Héroe" },
+            { "id": "o3", "text": "Amigo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Hero'?",
+          "options": [
+            { "id": "o1", "text": "Héroe" },
+            { "id": "o2", "text": "Villano" },
+            { "id": "o3", "text": "Secundario" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Había una vez'?",
+          "options": [
+            { "id": "o1", "text": "Once upon a time" },
+            { "id": "o2", "text": "There was a time" },
+            { "id": "o3", "text": "One time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hace mucho tiempo'?",
+          "options": [
+            { "id": "o1", "text": "A long time ago" },
+            { "id": "o2", "text": "Long time back" },
+            { "id": "o3", "text": "Before much time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sorpresa'?",
+          "options": [
+            { "id": "o1", "text": "Surprise" },
+            { "id": "o2", "text": "Shock" },
+            { "id": "o3", "text": "Amazing" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Accidente'?",
+          "options": [
+            { "id": "o1", "text": "Accident" },
+            { "id": "o2", "text": "Mistake" },
+            { "id": "o3", "text": "Crash" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aventura'?",
+          "options": [
+            { "id": "o1", "text": "Adventure" },
+            { "id": "o2", "text": "Journey" },
+            { "id": "o3", "text": "Trip" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Misterio'?",
+          "options": [
+            { "id": "o1", "text": "Mystery" },
+            { "id": "o2", "text": "Secret" },
+            { "id": "o3", "text": "Unknown" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Acción'?",
+          "options": [
+            { "id": "o1", "text": "Action" },
+            { "id": "o2", "text": "Activity" },
+            { "id": "o3", "text": "Movement" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Suspense'?",
+          "options": [
+            { "id": "o1", "text": "Suspense / Thriller" },
+            { "id": "o2", "text": "Drama" },
+            { "id": "o3", "text": "Mystery" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Diálogo'?",
+          "options": [
+            { "id": "o1", "text": "Dialogue" },
+            { "id": "o2", "text": "Conversation" },
+            { "id": "o3", "text": "Talk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Escena'?",
+          "options": [
+            { "id": "o1", "text": "Scene" },
+            { "id": "o2", "text": "Stage" },
+            { "id": "o3", "text": "Place" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Título'?",
+          "options": [
+            { "id": "o1", "text": "Title" },
+            { "id": "o2", "text": "Name" },
+            { "id": "o3", "text": "Header" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Escritor'?",
+          "options": [
+            { "id": "o1", "text": "Writer / Author" },
+            { "id": "o2", "text": "Reader" },
+            { "id": "o3", "text": "Bookman" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lector'?",
+          "options": [
+            { "id": "o1", "text": "Reader" },
+            { "id": "o2", "text": "Writer" },
+            { "id": "o3", "text": "Viewer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Interesante'?",
+          "options": [
+            { "id": "o1", "text": "Interesting" },
+            { "id": "o2", "text": "Boring" },
+            { "id": "o3", "text": "Funny" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I35",
+          "type": "flashcard",
+          "prompt_es": "Narrativa Básica",
+          "flashcards": [
+            { "front": "Once upon a time", "back": "Había una vez", "pronunciation": "/wʌns əˈpɒn ə taɪm/" },
+            { "front": "Suddenly", "back": "De repente", "pronunciation": "/ˈsʌdənli/" },
+            { "front": "Fortunately", "back": "Afortunadamente", "pronunciation": "/ˈfɔːrtʃənətli/" },
+            { "front": "In the end", "back": "Al final", "pronunciation": "/ɪn ðə ɛnd/" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Past Continuous & Narrative Tenses",
+      "content": [
+        {
+          "interaction_id": "U49_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se forma el Past Continuous?",
+          "options": [
+            { "id": "o1", "text": "Was/Were + verb -ing" },
+            { "id": "o2", "text": "Am/Is/Are + verb -ing" },
+            { "id": "o3", "text": "Verb + -ed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Para qué usamos el Past Continuous?",
+          "options": [
+            { "id": "o1", "text": "Para acciones terminadas" },
+            { "id": "o2", "text": "Para acciones en progreso en el pasado" },
+            { "id": "o3", "text": "Para rutinas diarias" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (estaba caminando) in the park.'",
+          "stimulus_en": "I ___ in the park.",
+          "correct_answer": "was walking",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (estaban durmiendo) at 10 PM.'",
+          "stimulus_en": "They ___ at 10 PM.",
+          "correct_answer": "were sleeping",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (estaba leyendo) a book.'",
+          "stimulus_en": "She ___ a book.",
+          "correct_answer": "was reading",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Negación: 'We ___ (no estábamos mirando) TV.'",
+          "stimulus_en": "We ___ TV.",
+          "correct_answer": "were not watching / weren't watching",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ he ___ (estaba él trabajando)?'",
+          "stimulus_en": "___ he ___?",
+          "correct_answer": "Was, working",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: 'What ___ you ___ (estabas haciendo)?'",
+          "stimulus_en": "What ___ you ___?",
+          "correct_answer": "were, doing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "While I was walking, I saw him." },
+            { "id": "o2", "text": "When I was walking, I saw him." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué tiempo usamos para la acción que interrumpe?",
+          "options": [
+            { "id": "o1", "text": "Past Simple" },
+            { "id": "o2", "text": "Past Continuous" },
+            { "id": "o3", "text": "Present Simple" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (estaba cocinando) when the phone ___ (sonó).'",
+          "stimulus_en": "I ___ when the phone ___.",
+          "correct_answer": "was cooking, rang",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It ___ (estaba lloviendo) when we ___ (salimos).'",
+          "stimulus_en": "It ___ when we ___.",
+          "correct_answer": "was raining, left",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (estaban jugando) while I ___ (estaba estudiando).'",
+          "stimulus_en": "They ___ while I ___.",
+          "correct_answer": "were playing, was studying",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "I was having a shower when you called." },
+            { "id": "o2", "text": "I had a shower when you were calling." },
+            { "id": "o3", "text": "I was shower when you call." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "What were you doing at 8:00?" },
+            { "id": "o2", "text": "What did you doing at 8:00?" },
+            { "id": "o3", "text": "What you were doing?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (estaba desayunando) at 7 AM.'",
+          "stimulus_en": "I ___ breakfast at 7 AM.",
+          "correct_answer": "was having / was eating",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (no estaba escuchando) to the music.'",
+          "stimulus_en": "He ___ to the music.",
+          "correct_answer": "was not listening / wasn't listening",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Were you ___ (esperando) for the bus?'",
+          "stimulus_en": "Were you ___ for the bus?",
+          "correct_answer": "waiting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The sun ___ (estaba brillando).'",
+          "stimulus_en": "The sun ___.",
+          "correct_answer": "was shining",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The birds ___ (estaban cantando).'",
+          "stimulus_en": "The birds ___.",
+          "correct_answer": "were singing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'While I ___ (estaba trabajando), my cat ___ (saltó) on the table.'",
+          "stimulus_en": "While I ___, my cat ___ on the table.",
+          "correct_answer": "was working, jumped",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (se cayó) while he ___ (estaba corriendo).'",
+          "stimulus_en": "He ___ while he ___.",
+          "correct_answer": "fell, was running",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (estábamos almorzando) when we ___ (oímos) the news.'",
+          "stimulus_en": "We ___ when we ___ the news.",
+          "correct_answer": "were having lunch, heard",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (vi) an accident while I ___ (estaba conduciendo) to work.'",
+          "stimulus_en": "I ___ an accident while I ___ to work.",
+          "correct_answer": "saw, was driving",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The teacher ___ (entró) while the students ___ (estaban hablando).'",
+          "stimulus_en": "The teacher ___ while the students ___.",
+          "correct_answer": "came in, were talking",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma interrogativa de 'You were sleeping'?",
+          "options": [
+            { "id": "o1", "text": "Were you sleeping?" },
+            { "id": "o2", "text": "Was you sleeping?" },
+            { "id": "o3", "text": "You were sleeping?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa de 'She was working'?",
+          "options": [
+            { "id": "o1", "text": "She wasn't working." },
+            { "id": "o2", "text": "She didn't working." },
+            { "id": "o3", "text": "She was no working." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (estaba esperando) for my friend.'",
+          "stimulus_en": "I ___ for my friend.",
+          "correct_answer": "was waiting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (estaban bailando) all night.'",
+          "stimulus_en": "They ___ all night.",
+          "correct_answer": "were dancing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Who ___ you ___ (estabas hablando) to?'",
+          "stimulus_en": "Who ___ you ___ to?",
+          "correct_answer": "were, talking",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no estaba haciendo) anything special.'",
+          "stimulus_en": "I ___ anything special.",
+          "correct_answer": "was not doing / wasn't doing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The children ___ (estaban riendo).'",
+          "stimulus_en": "The children ___.",
+          "correct_answer": "were laughing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It ___ (estaba nevando) heavily.'",
+          "stimulus_en": "It ___ heavily.",
+          "correct_answer": "was snowing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'What ___ (estaba pasando)?'",
+          "stimulus_en": "What ___?",
+          "correct_answer": "was happening",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (estaba intentando) to call you.'",
+          "stimulus_en": "I ___ to call you.",
+          "correct_answer": "was trying",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Telling Anecdotes & Sequential Events",
+      "content": [
+        {
+          "interaction_id": "U49_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo empiezas una historia? '___, I was walking to school.'",
+          "options": [
+            { "id": "o1", "text": "First of all" },
+            { "id": "o2", "text": "Finally" },
+            { "id": "o3", "text": "Suddenly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo introduces un giro inesperado?",
+          "options": [
+            { "id": "o1", "text": "Suddenly, I saw a big dog." },
+            { "id": "o2", "text": "Then, I saw a dog." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo terminas una historia?",
+          "options": [
+            { "id": "o1", "text": "In the end, everything was fine." },
+            { "id": "o2", "text": "Finally, I arrived home." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Mientras estaba esperando...'?",
+          "options": [
+            { "id": "o1", "text": "While I was waiting..." },
+            { "id": "o2", "text": "When I waited..." },
+            { "id": "o3", "text": "During I waited..." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué pasó después?'?",
+          "options": [
+            { "id": "o1", "text": "What happened next?" },
+            { "id": "o2", "text": "What happened after?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No vas a creer lo que pasó'?",
+          "options": [
+            { "id": "o1", "text": "You won't believe what happened!" },
+            { "id": "o2", "text": "You not believe that!" },
+            { "id": "o3", "text": "Unbelievable what happen!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I77",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Suddenly / , / I / heard / a / loud / noise / .'",
+          "options": [
+            { "id": "w1", "text": "Suddenly" },
+            { "id": "w2", "text": "," },
+            { "id": "w3", "text": "I" },
+            { "id": "w4", "text": "heard" },
+            { "id": "w5", "text": "a" },
+            { "id": "w6", "text": "loud" },
+            { "id": "w7", "text": "noise" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I78",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'First / , / I / woke / up / late / .'",
+          "options": [
+            { "id": "w1", "text": "First" },
+            { "id": "w2", "text": "," },
+            { "id": "w3", "text": "I" },
+            { "id": "w4", "text": "woke" },
+            { "id": "w5", "text": "up" },
+            { "id": "w6", "text": "late" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I79",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'In / the / end / , / we / went / home / .'",
+          "options": [
+            { "id": "w1", "text": "In" },
+            { "id": "w2", "text": "the" },
+            { "id": "w3", "text": "end" },
+            { "id": "w4", "text": "," },
+            { "id": "w5", "text": "we" },
+            { "id": "w6", "text": "went" },
+            { "id": "w7", "text": "home" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Cuéntame más'?",
+          "options": [
+            { "id": "o1", "text": "Tell me more." },
+            { "id": "o2", "text": "Say me more." },
+            { "id": "o3", "text": "Talk me more." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Qué interesante!'?",
+          "options": [
+            { "id": "o1", "text": "How interesting!" },
+            { "id": "o2", "text": "What interesting!" },
+            { "id": "o3", "text": "How much interesting!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Qué susto!'?",
+          "options": [
+            { "id": "o1", "text": "What a shock / scare!" },
+            { "id": "o2", "text": "How scare!" },
+            { "id": "o3", "text": "What fright!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Qué suerte!'?",
+          "options": [
+            { "id": "o1", "text": "How lucky!" },
+            { "id": "o2", "text": "What luck!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Estabas bromeando?'?",
+          "options": [
+            { "id": "o1", "text": "Were you joking?" },
+            { "id": "o2", "text": "Was you joking?" },
+            { "id": "o3", "text": "You were joke?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Entonces decidimos irnos'?",
+          "options": [
+            { "id": "o1", "text": "Then we decided to leave." },
+            { "id": "o2", "text": "Next we decide to leave." },
+            { "id": "o3", "text": "After we decided leaving." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I86",
+          "type": "flashcard",
+          "prompt_es": "Frases para Historias",
+          "flashcards": [
+            { "front": "And then...", "back": "Y entonces...", "pronunciation": "/ænd ðɛn/" },
+            { "front": "A few minutes later", "back": "Unos minutos después", "pronunciation": "/ə fjuː ˈmɪnɪts ˈleɪtər/" },
+            { "front": "Luckily", "back": "Por suerte", "pronunciation": "/ˈlʌkɪli/" },
+            { "front": "Unluckily", "back": "Por desgracia", "pronunciation": "/ʌnˈlʌkɪli/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Un poco después, el cartero llegó'?",
+          "options": [
+            { "id": "o1", "text": "A bit later, the postman arrived." },
+            { "id": "o2", "text": "After a bit, postman come." },
+            { "id": "o3", "text": "Short later, the postman arrived." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estaba nevando cuando salimos de casa'?",
+          "options": [
+            { "id": "o1", "text": "It was snowing when we left home." },
+            { "id": "o2", "text": "It snowed when we were leaving." },
+            { "id": "o3", "text": "Snowing was when we left." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Mientras caminaba, me encontré con un viejo amigo'?",
+          "options": [
+            { "id": "o1", "text": "While I was walking, I met an old friend." },
+            { "id": "o2", "text": "When I was walking, I meet an old friend." },
+            { "id": "o3", "text": "During I walked, I saw a friend." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'De repente, las luces se apagaron'?",
+          "options": [
+            { "id": "o1", "text": "Suddenly, the lights went out." },
+            { "id": "o2", "text": "Quickly, the lights off." },
+            { "id": "o3", "text": "Suddenly, the lights were out." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Fue una experiencia increíble'?",
+          "options": [
+            { "id": "o1", "text": "It was an amazing experience." },
+            { "id": "o2", "text": "It was amazing experience." },
+            { "id": "o3", "text": "Is amazing experience." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡No me digas!' (sorpresa)?",
+          "options": [
+            { "id": "o1", "text": "You don't say!" },
+            { "id": "o2", "text": "No tell me!" },
+            { "id": "o3", "text": "Don't say me!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Y qué hiciste?'?",
+          "options": [
+            { "id": "o1", "text": "And what did you do?" },
+            { "id": "o2", "text": "What did you done?" },
+            { "id": "o3", "text": "What you did?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Al final, perdimos el tren'?",
+          "options": [
+            { "id": "o1", "text": "In the end, we missed the train." },
+            { "id": "o2", "text": "Finally, we lost the train." },
+            { "id": "o3", "text": "At last, we miss train." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Fue una noche terrible'?",
+          "options": [
+            { "id": "o1", "text": "It was a terrible night." },
+            { "id": "o2", "text": "It was terrible night." },
+            { "id": "o3", "text": "Is a terrible night." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Menos mal!'?",
+          "options": [
+            { "id": "o1", "text": "Thank goodness!" },
+            { "id": "o2", "text": "Less bad!" },
+            { "id": "o3", "text": "Lucky for that!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Qué pena / Lástima!'?",
+          "options": [
+            { "id": "o1", "text": "What a pity / shame!" },
+            { "id": "o2", "text": "How pity!" },
+            { "id": "o3", "text": "How bad!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Te estabas divirtiendo?'?",
+          "options": [
+            { "id": "o1", "text": "Were you having fun?" },
+            { "id": "o2", "text": "Was you having fun?" },
+            { "id": "o3", "text": "Did you having fun?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Afortunadamente, encontramos el camino'?",
+          "options": [
+            { "id": "o1", "text": "Fortunately, we found the way." },
+            { "id": "o2", "text": "Luckily, we find the road." },
+            { "id": "o3", "text": "Finally we find the way." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U49_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Estábamos cenando cuando de repente escuchamos un ruido extraño en el jardín.'",
+          "stimulus_es": "Estábamos cenando cuando de repente escuchamos un ruido extraño en el jardín.",
+          "correct_answer": "We were having dinner when suddenly we heard a strange noise in the garden.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

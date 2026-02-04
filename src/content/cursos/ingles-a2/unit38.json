@@ -1,0 +1,1124 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U38",
+    "unit_title": "Present Perfect: For & Since",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Durations & Points in Time",
+      "content": [
+        {
+          "interaction_id": "U38_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usas 'For'?",
+          "options": [
+            { "id": "o1", "text": "Para un periodo de tiempo (duración)" },
+            { "id": "o2", "text": "Para un punto específico en el tiempo" },
+            { "id": "o3", "text": "Para el futuro" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usas 'Since'?",
+          "options": [
+            { "id": "o1", "text": "Para un punto específico en el tiempo (inicio)" },
+            { "id": "o2", "text": "Para una duración" },
+            { "id": "o3", "text": "Para el pasado simple solamente" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál usa 'For'?",
+          "options": [
+            { "id": "o1", "text": "Ten minutes" },
+            { "id": "o2", "text": "Monday" },
+            { "id": "o3", "text": "2010" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál usa 'Since'?",
+          "options": [
+            { "id": "o1", "text": "Yesterday" },
+            { "id": "o2", "text": "Two hours" },
+            { "id": "o3", "text": "A long time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál usa 'For'?",
+          "options": [
+            { "id": "o1", "text": "Two weeks" },
+            { "id": "o2", "text": "Last week" },
+            { "id": "o3", "text": "Christmas" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál usa 'Since'?",
+          "options": [
+            { "id": "o1", "text": "10 o'clock" },
+            { "id": "o2", "text": "An hour" },
+            { "id": "o3", "text": "Three days" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál usa 'For'?",
+          "options": [
+            { "id": "o1", "text": "A long time" },
+            { "id": "o2", "text": "I was a child" },
+            { "id": "o3", "text": "Lunchtime" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál usa 'Since'?",
+          "options": [
+            { "id": "o1", "text": "I was born" },
+            { "id": "o2", "text": "A few months" },
+            { "id": "o3", "text": "Five minutes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Durante años'?",
+          "options": [
+            { "id": "o1", "text": "For years" },
+            { "id": "o2", "text": "Since years" },
+            { "id": "o3", "text": "During years" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Desde el año pasado'?",
+          "options": [
+            { "id": "o1", "text": "Since last year" },
+            { "id": "o2", "text": "For last year" },
+            { "id": "o3", "text": "From last year" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I11",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "For", "right": "A period (2 days, 1 month)" },
+            { "id": "p2", "left": "Since", "right": "A point (Monday, 2015)" },
+            { "id": "p3", "left": "How long", "right": "Question about duration" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Desde hace poco'?",
+          "options": [
+            { "id": "o1", "text": "For a short time" },
+            { "id": "o2", "text": "Since a short time" },
+            { "id": "o3", "text": "Recently" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Desde junio'?",
+          "options": [
+            { "id": "o1", "text": "Since June" },
+            { "id": "o2", "text": "For June" },
+            { "id": "o3", "text": "From June" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Durante toda mi vida'?",
+          "options": [
+            { "id": "o1", "text": "For my whole life" },
+            { "id": "o2", "text": "Since my whole life" },
+            { "id": "o3", "text": "All my life" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "note": "o1 and o3 are both very common."
+        },
+        {
+          "interaction_id": "U38_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Desde las 8 AM'?",
+          "options": [
+            { "id": "o1", "text": "Since 8 AM" },
+            { "id": "o2", "text": "For 8 AM" },
+            { "id": "o3", "text": "From 8 AM" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I16",
+          "type": "flashcard",
+          "prompt_es": "For vs Since",
+          "flashcards": [
+            { "front": "For two weeks", "back": "Durante dos semanas", "pronunciation": "/fɔːr tuː wiːks/" },
+            { "front": "Since Monday", "back": "Desde el lunes", "pronunciation": "/sɪns ˈmʌndeɪ/" },
+            { "front": "Since 2020", "back": "Desde 2020", "pronunciation": "/sɪns ˈtwenti ˈtwenti/" },
+            { "front": "For an hour", "back": "Durante una hora", "pronunciation": "/fɔːr ən ˈaʊər/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tener un perro'?",
+          "options": [
+            { "id": "o1", "text": "To have a dog" },
+            { "id": "o2", "text": "To own a dog" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Conocer a alguien'?",
+          "options": [
+            { "id": "o1", "text": "To know someone" },
+            { "id": "o2", "text": "To meet someone" },
+            { "id": "o3", "text": "To see someone" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "note": "Know for state, Meet for first time."
+        },
+        {
+          "interaction_id": "U38_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vivir en Londres'?",
+          "options": [
+            { "id": "o1", "text": "To live in London" },
+            { "id": "o2", "text": "To stay in London" },
+            { "id": "o3", "text": "To be in London" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Trabajar en un banco'?",
+          "options": [
+            { "id": "o1", "text": "To work in a bank" },
+            { "id": "o2", "text": "To do in a bank" },
+            { "id": "o3", "text": "To be in a bank" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estar casado'?",
+          "options": [
+            { "id": "o1", "text": "To be married" },
+            { "id": "o2", "text": "To get married" },
+            { "id": "o3", "text": "To stay married" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer este curso'?",
+          "options": [
+            { "id": "o1", "text": "To do this course" },
+            { "id": "o2", "text": "To make this course" },
+            { "id": "o3", "text": "To take this course" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tener este coche'?",
+          "options": [
+            { "id": "o1", "text": "To have this car" },
+            { "id": "o2", "text": "To own this car" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estar aquí'?",
+          "options": [
+            { "id": "o1", "text": "To be here" },
+            { "id": "o2", "text": "To stay here" },
+            { "id": "o3", "text": "To come here" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tener hambre'?",
+          "options": [
+            { "id": "o1", "text": "To be hungry" },
+            { "id": "o2", "text": "To have hungry" },
+            { "id": "o3", "text": "To get hungry" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estar en casa'?",
+          "options": [
+            { "id": "o1", "text": "To be at home" },
+            { "id": "o2", "text": "To stay at home" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ser profesor'?",
+          "options": [
+            { "id": "o1", "text": "To be a teacher" },
+            { "id": "o2", "text": "To work as a teacher" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tener un secreto'?",
+          "options": [
+            { "id": "o1", "text": "To have a secret" },
+            { "id": "o2", "text": "To keep a secret" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estar cansado'?",
+          "options": [
+            { "id": "o1", "text": "To be tired" },
+            { "id": "o2", "text": "To feel tired" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Saber la verdad'?",
+          "options": [
+            { "id": "o1", "text": "To know the truth" },
+            { "id": "o2", "text": "To see the truth" },
+            { "id": "o3", "text": "To do the truth" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tener un problema'?",
+          "options": [
+            { "id": "o1", "text": "To have a problem" },
+            { "id": "o2", "text": "To got a problem" },
+            { "id": "o3", "text": "Both are correct (informal o2)" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estar ocupado'?",
+          "options": [
+            { "id": "o1", "text": "To be busy" },
+            { "id": "o2", "text": "To stay busy" },
+            { "id": "o3", "text": "To work busy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Saber inglés'?",
+          "options": [
+            { "id": "o1", "text": "To know English" },
+            { "id": "o2", "text": "To speak English" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tener tiempo'?",
+          "options": [
+            { "id": "o1", "text": "To have time" },
+            { "id": "o2", "text": "To take time" },
+            { "id": "o3", "text": "To do time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U38_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estar enfermo'?",
+          "options": [
+            { "id": "o1", "text": "To be ill" },
+            { "id": "o2", "text": "To be sick" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: For & Since in Present Perfect",
+      "content": [
+        {
+          "interaction_id": "U38_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'I have lived here ___ 2010.'",
+          "stimulus_en": "I have lived here ___ 2010.",
+          "correct_answer": "since",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'We have been friends ___ ten years.'",
+          "stimulus_en": "We have been friends ___ ten years.",
+          "correct_answer": "for",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'She has worked here ___ March.'",
+          "stimulus_en": "She has worked here ___ March.",
+          "correct_answer": "since",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'They have had that car ___ six months.'",
+          "stimulus_en": "They have had that car ___ six months.",
+          "correct_answer": "for",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'I haven't seen him ___ last week.'",
+          "stimulus_en": "I haven't seen him ___ last week.",
+          "correct_answer": "since",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'He has been ill ___ two days.'",
+          "stimulus_en": "He has been ill ___ two days.",
+          "correct_answer": "for",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'We've been married ___ 2005.'",
+          "stimulus_en": "We've been married ___ 2005.",
+          "correct_answer": "since",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'I've known her ___ a long time.'",
+          "stimulus_en": "I've known her ___ a long time.",
+          "correct_answer": "for",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'It has been raining ___ this morning.'",
+          "stimulus_en": "It has been raining ___ this morning.",
+          "correct_answer": "since",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'She hasn't called ___ three days.'",
+          "stimulus_en": "She hasn't called ___ three days.",
+          "correct_answer": "for",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / have / been / here / since / 9 AM / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "been" },
+            { "id": "w4", "text": "here" },
+            { "id": "w5", "text": "since" },
+            { "id": "w6", "text": "9 AM" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I47",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'We / have / lived / here / for / five / years / .'",
+          "options": [
+            { "id": "w1", "text": "We" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "lived" },
+            { "id": "w4", "text": "here" },
+            { "id": "w5", "text": "for" },
+            { "id": "w6", "text": "five" },
+            { "id": "w7", "text": "years" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta: '___ ___ have you been here?'",
+          "stimulus_en": "___ ___ have you been here?",
+          "correct_answer": "How long",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta: '___ ___ has she lived in Spain?'",
+          "stimulus_en": "___ ___ has she lived in Spain?",
+          "correct_answer": "How long",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (tener) this phone for two years.'",
+          "stimulus_en": "I ___ this phone for two years.",
+          "correct_answer": "have had",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (ser) a nurse since 2018.'",
+          "stimulus_en": "She ___ a nurse since 2018.",
+          "correct_answer": "has been",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (conocer) each other since school.'",
+          "stimulus_en": "They ___ each other since school.",
+          "correct_answer": "have known",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (trabajar) together for months.'",
+          "stimulus_en": "We ___ together for months.",
+          "correct_answer": "have worked",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (estar) in the hospital since Tuesday.'",
+          "stimulus_en": "He ___ in the hospital since Tuesday.",
+          "correct_answer": "has been",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no ver) my parents for weeks.'",
+          "stimulus_en": "I ___ my parents for weeks.",
+          "correct_answer": "haven't seen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "I've been here for three hours." },
+            { "id": "o2", "text": "I've been here since three hours." },
+            { "id": "o3", "text": "I'm here for three hours." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "She has lived in Paris since she was 10." },
+            { "id": "o2", "text": "She has lived in Paris for she was 10." },
+            { "id": "o3", "text": "She lives in Paris since she was 10." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta correcta?",
+          "options": [
+            { "id": "o1", "text": "How long have you known him?" },
+            { "id": "o2", "text": "How long do you know him?" },
+            { "id": "o3", "text": "How long has you know him?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'I have studied English ___ three years.'",
+          "stimulus_en": "I have studied English ___ three years.",
+          "correct_answer": "for",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'He has been here ___ 8 o'clock.'",
+          "stimulus_en": "He has been here ___ 8 o'clock.",
+          "correct_answer": "since",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'We have had this dog ___ a long time.'",
+          "stimulus_en": "We have had this dog ___ a long time.",
+          "correct_answer": "for",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'I haven't eaten ___ breakfast.'",
+          "stimulus_en": "I haven't eaten ___ breakfast.",
+          "correct_answer": "since",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'They have played football ___ two hours.'",
+          "stimulus_en": "They have played football ___ two hours.",
+          "correct_answer": "for",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'She hasn't seen her sister ___ Christmas.'",
+          "stimulus_en": "She hasn't seen her sister ___ Christmas.",
+          "correct_answer": "since",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'I've had this headache ___ hours.'",
+          "stimulus_en": "I've had this headache ___ hours.",
+          "correct_answer": "for",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'He has lived in this house ___ he was born.'",
+          "stimulus_en": "He has lived in this house ___ he was born.",
+          "correct_answer": "since",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'We have stayed here ___ a week.'",
+          "stimulus_en": "We have stayed here ___ a week.",
+          "correct_answer": "for",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'I haven't called her ___ yesterday.'",
+          "stimulus_en": "I haven't called her ___ yesterday.",
+          "correct_answer": "since",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'It hasn't rained ___ a month.'",
+          "stimulus_en": "It hasn't rained ___ a month.",
+          "correct_answer": "for",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'for' o 'since': 'They have been here ___ lunchtime.'",
+          "stimulus_en": "They have been here ___ lunchtime.",
+          "correct_answer": "since",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Duration of States & Habits",
+      "content": [
+        {
+          "interaction_id": "U38_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuánto tiempo hace que vives aquí?'?",
+          "options": [
+            { "id": "o1", "text": "How long have you lived here?" },
+            { "id": "o2", "text": "How much time you live here?" },
+            { "id": "o3", "text": "How long do you live here?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Vivo aquí desde hace cinco años'?",
+          "options": [
+            { "id": "o1", "text": "I've lived here for five years." },
+            { "id": "o2", "text": "I've lived here since five years." },
+            { "id": "o3", "text": "I live here for five years." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella trabaja aquí desde enero'?",
+          "options": [
+            { "id": "o1", "text": "She's worked here since January." },
+            { "id": "o2", "text": "She's worked here for January." },
+            { "id": "o3", "text": "She works here since January." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No nos vemos desde hace meses'?",
+          "options": [
+            { "id": "o1", "text": "We haven't seen each other for months." },
+            { "id": "o2", "text": "We haven't seen each other since months." },
+            { "id": "o3", "text": "We don't see each other for months." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Desde cuándo estás casado?'?",
+          "options": [
+            { "id": "o1", "text": "How long have you been married?" },
+            { "id": "o2", "text": "Since when are you married?" },
+            { "id": "o3", "text": "How much time have you been married?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estoy casado desde 2015'?",
+          "options": [
+            { "id": "o1", "text": "I've been married since 2015." },
+            { "id": "o2", "text": "I've been married for 2015." },
+            { "id": "o3", "text": "I am married since 2015." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo este coche desde el año pasado'?",
+          "options": [
+            { "id": "o1", "text": "I've had this car since last year." },
+            { "id": "o2", "text": "I've had this car for last year." },
+            { "id": "o3", "text": "I have this car since last year." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él es profesor desde hace diez años'?",
+          "options": [
+            { "id": "o1", "text": "He's been a teacher for ten years." },
+            { "id": "o2", "text": "He's been a teacher since ten years." },
+            { "id": "o3", "text": "He is a teacher for ten years." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuánto tiempo hace que conoces a Sarah?'?",
+          "options": [
+            { "id": "o1", "text": "How long have you known Sarah?" },
+            { "id": "o2", "text": "How long do you know Sarah?" },
+            { "id": "o3", "text": "How much time have you known Sarah?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La conozco desde que éramos niños'?",
+          "options": [
+            { "id": "o1", "text": "I've known her since we were children." },
+            { "id": "o2", "text": "I've known her for we were children." },
+            { "id": "o3", "text": "I know her since we were children." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No he comido nada desde esta mañana'?",
+          "options": [
+            { "id": "o1", "text": "I haven't eaten anything since this morning." },
+            { "id": "o2", "text": "I haven't eaten anything for this morning." },
+            { "id": "o3", "text": "I don't eat anything since this morning." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Lleva lloviendo dos horas'?",
+          "options": [
+            { "id": "o1", "text": "It has been raining for two hours." },
+            { "id": "o2", "text": "It has rained since two hours." },
+            { "id": "o3", "text": "It rains for two hours." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No voy al gimnasio desde hace un mes'?",
+          "options": [
+            { "id": "o1", "text": "I haven't been to the gym for a month." },
+            { "id": "o2", "text": "I haven't been to the gym since a month." },
+            { "id": "o3", "text": "I don't go to the gym for a month." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella tiene el mismo trabajo desde 2012'?",
+          "options": [
+            { "id": "o1", "text": "She's had the same job since 2012." },
+            { "id": "o2", "text": "She's had the same job for 2012." },
+            { "id": "o3", "text": "She has the same job since 2012." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuánto tiempo hace que estás aquí?'?",
+          "options": [
+            { "id": "o1", "text": "How long have you been here?" },
+            { "id": "o2", "text": "How long are you here?" },
+            { "id": "o3", "text": "How much time have you been here?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I86",
+          "type": "flashcard",
+          "prompt_es": "Preguntas de Duración",
+          "flashcards": [
+            { "front": "How long...?", "back": "¿Cuánto tiempo...?", "pronunciation": "/haʊ lɒŋ/" },
+            { "front": "For a long time", "back": "Durante mucho tiempo", "pronunciation": "/fɔːr ə lɒŋ taɪm/" },
+            { "front": "Since I was young", "back": "Desde que era joven", "pronunciation": "/sɪns aɪ wəz jʌŋ/" },
+            { "front": "Since then", "back": "Desde entonces", "pronunciation": "/sɪns ðen/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I87",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'How / long / has / he / worked / there / ?'",
+          "options": [
+            { "id": "w1", "text": "How" },
+            { "id": "w2", "text": "long" },
+            { "id": "w3", "text": "has" },
+            { "id": "w4", "text": "he" },
+            { "id": "w5", "text": "worked" },
+            { "id": "w6", "text": "there" },
+            { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / haven't / seen / her / since / Monday / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "haven't" },
+            { "id": "w3", "text": "seen" },
+            { "id": "w4", "text": "her" },
+            { "id": "w5", "text": "since" },
+            { "id": "w6", "text": "Monday" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Vivimos en este piso desde mayo'?",
+          "options": [
+            { "id": "o1", "text": "We've lived in this flat since May." },
+            { "id": "o2", "text": "We've lived in this flat for May." },
+            { "id": "o3", "text": "We live in this flat since May." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él tiene ese coche desde hace años'?",
+          "options": [
+            { "id": "o1", "text": "He's had that car for years." },
+            { "id": "o2", "text": "He's had that car since years." },
+            { "id": "o3", "text": "He has that car for years." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No ha parado de llover desde ayer'?",
+          "options": [
+            { "id": "o1", "text": "It hasn't stopped raining since yesterday." },
+            { "id": "o2", "text": "It hasn't stopped raining for yesterday." },
+            { "id": "o3", "text": "It doesn't stop raining since yesterday." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuánto tiempo hace que tienes este perro?'?",
+          "options": [
+            { "id": "o1", "text": "How long have you had this dog?" },
+            { "id": "o2", "text": "How long do you have this dog?" },
+            { "id": "o3", "text": "How much time have you had this dog?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Lo tengo desde hace una semana'?",
+          "options": [
+            { "id": "o1", "text": "I've had it for a week." },
+            { "id": "o2", "text": "I've had it since a week." },
+            { "id": "o3", "text": "I have it for a week." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella conoce a mi familia desde hace mucho tiempo'?",
+          "options": [
+            { "id": "o1", "text": "She's known my family for a long time." },
+            { "id": "o2", "text": "She's known my family since a long time." },
+            { "id": "o3", "text": "She knows my family for a long time." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuánto tiempo hace que eres profesor?'?",
+          "options": [
+            { "id": "o1", "text": "How long have you been a teacher?" },
+            { "id": "o2", "text": "How long are you a teacher?" },
+            { "id": "o3", "text": "How much time have you been a teacher?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Soy profesor desde que terminé la universidad'?",
+          "options": [
+            { "id": "o1", "text": "I've been a teacher since I finished university." },
+            { "id": "o2", "text": "I've been a teacher for I finished university." },
+            { "id": "o3", "text": "I am a teacher since I finished university." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No hemos hablado desde hace tres días'?",
+          "options": [
+            { "id": "o1", "text": "We haven't spoken for three days." },
+            { "id": "o2", "text": "We haven't spoken since three days." },
+            { "id": "o3", "text": "We don't speak for three days." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella está en el hospital desde el domingo'?",
+          "options": [
+            { "id": "o1", "text": "She's been in the hospital since Sunday." },
+            { "id": "o2", "text": "She's been in the hospital for Sunday." },
+            { "id": "o3", "text": "She is in the hospital since Sunday." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo este secreto desde hace mucho'?",
+          "options": [
+            { "id": "o1", "text": "I've kept this secret for a long time." },
+            { "id": "o2", "text": "I've kept this secret since a long time." },
+            { "id": "o3", "text": "I keep this secret for a long time." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U38_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ella ha sido mi mejor amiga desde hace diez años.'",
+          "stimulus_es": "Ella ha sido mi mejor amiga desde hace diez años.",
+          "correct_answer": "She has been my best friend for ten years.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

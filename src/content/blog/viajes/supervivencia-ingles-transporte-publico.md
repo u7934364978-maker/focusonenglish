@@ -1,6 +1,6 @@
 ---
 title: "Guía de Supervivencia: Inglés para el Transporte Público"
-date: "2026-02-01"
+date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "¿Metro, tren o autobús? Moverte por una ciudad extranjera es mucho más fácil cuando dominas el vocabulario del transporte. Descubre cómo las clases de inglés te ayudan a no perderte."
 category: "viajes"

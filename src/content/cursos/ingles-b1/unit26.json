@@ -36,13 +36,13 @@
             },
             {
               "id": "p1",
-              "left": "Amphibian",
-              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
+              "left": "Wildlife",
+              "right": "Wild animals collectively"
             },
             {
               "id": "p2",
-              "left": "Predator",
-              "right": "An animal that naturally preys on others"
+              "left": "Camouflage",
+              "right": "The use of materials or coloration for concealment"
             }
           ],
           "correct_answer": {
@@ -64,8 +64,8 @@
         {
           "interaction_id": "U26_I3",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Wildlife is conservation vital for maintaining biodiversity.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Insects are the most diverse group of invertebrates.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -76,6 +76,26 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
+              "id": "w2",
+              "text": "snakes"
+            },
+            {
+              "id": "w7",
+              "text": "reptiles"
+            },
+            {
+              "id": "w0",
+              "text": "Crocodiles"
+            },
+            {
+              "id": "w6",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "both"
+            },
+            {
               "id": "w5",
               "text": "types"
             },
@@ -84,28 +104,8 @@
               "text": "and"
             },
             {
-              "id": "w2",
-              "text": "snakes"
-            },
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
-              "id": "w0",
-              "text": "Crocodiles"
-            },
-            {
-              "id": "w4",
-              "text": "both"
-            },
-            {
               "id": "w3",
               "text": "are"
-            },
-            {
-              "id": "w7",
-              "text": "reptiles"
             }
           ],
           "correct_answer": [
@@ -124,41 +124,41 @@
           "interaction_id": "U26_I5",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Crocodiles and snakes are both types of reptiles.\"",
+          "stimulus_en": "Speaker A: \"Birds use migration to find warmer climates in winter.\"",
           "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
             {
               "id": "r15",
               "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U26_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The protection of plants and animals\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"An animal lacking a backbone\"",
           "options": [
             {
+              "id": "o1",
+              "text": "Invertebrate"
+            },
+            {
               "id": "o3",
-              "text": "Wildlife"
+              "text": "Domesticated"
             },
             {
               "id": "o2",
-              "text": "Predator"
-            },
-            {
-              "id": "o1",
-              "text": "Conservation"
+              "text": "Habitat"
             }
           ],
           "correct_answer": "o1",
@@ -172,18 +172,18 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Amphibian",
+              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
+            },
+            {
+              "id": "p1",
               "left": "Habitat",
               "right": "The natural home or environment of an animal"
             },
             {
-              "id": "p1",
-              "left": "Conservation",
-              "right": "The protection of plants and animals"
-            },
-            {
               "id": "p2",
-              "left": "Camouflage",
-              "right": "The use of materials or coloration for concealment"
+              "left": "Mammal",
+              "right": "A warm-blooded vertebrate animal"
             }
           ],
           "correct_answer": {
@@ -197,15 +197,15 @@
           "interaction_id": "U26_I8",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (be) ________ a veterinarian for ten years.",
-          "correct_answer": "has been",
+          "stimulus_en": "They (study) ________ the behavior of lions for years.",
+          "correct_answer": "have been studying",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U26_I9",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The lion is a powerful predator in the savanna.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The dodo became extinct in the 17th century.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -218,35 +218,35 @@
           "options": [
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w0",
-              "text": "Protecting"
+              "text": "identified"
             },
             {
               "id": "w3",
-              "text": "essential"
-            },
-            {
-              "id": "w6",
-              "text": "healthy"
-            },
-            {
-              "id": "w5",
               "text": "a"
             },
             {
-              "id": "w7",
-              "text": "planet"
+              "id": "w0",
+              "text": "Scientists"
+            },
+            {
+              "id": "w4",
+              "text": "new"
+            },
+            {
+              "id": "w6",
+              "text": "of"
+            },
+            {
+              "id": "w5",
+              "text": "species"
             },
             {
               "id": "w1",
-              "text": "biodiversity"
+              "text": "have"
+            },
+            {
+              "id": "w7",
+              "text": "butterfly"
             }
           ],
           "correct_answer": [
@@ -265,41 +265,41 @@
           "interaction_id": "U26_I11",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The lion is a powerful predator in the savanna.\"",
+          "stimulus_en": "Speaker A: \"Scientists have identified a new species of butterfly.\"",
           "options": [
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             }
           ],
-          "correct_answer": "r3",
+          "correct_answer": "r5",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U26_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An animal that naturally preys on others\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Tamed and kept as a pet or on a farm\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Predator"
+              "id": "o3",
+              "text": "Wildlife"
             },
             {
               "id": "o2",
-              "text": "Habitat"
+              "text": "Reptile"
             },
             {
-              "id": "o3",
-              "text": "Camouflage"
+              "id": "o1",
+              "text": "Domesticated"
             }
           ],
           "correct_answer": "o1",
@@ -313,8 +313,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Wildlife",
-              "right": "Wild animals collectively"
+              "left": "Migration",
+              "right": "Seasonal movement of animals from one region to another"
             },
             {
               "id": "p1",
@@ -323,8 +323,8 @@
             },
             {
               "id": "p2",
-              "left": "Camouflage",
-              "right": "The use of materials or coloration for concealment"
+              "left": "Predator",
+              "right": "An animal that naturally preys on others"
             }
           ],
           "correct_answer": {
@@ -338,16 +338,16 @@
           "interaction_id": "U26_I14",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (study) ________ the behavior of lions for years.",
-          "correct_answer": "have been studying",
+          "stimulus_en": "I (wish) ________ I could see a whale in real life.",
+          "correct_answer": "wish",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U26_I15",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Insects the are most diverse group of invertebrates.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Protecting biodiversity is essential for a healthy planet.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -358,36 +358,44 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "one"
-            },
-            {
-              "id": "w0",
-              "text": "Dogs"
-            },
-            {
-              "id": "w1",
-              "text": "were"
-            },
-            {
               "id": "w4",
-              "text": "the"
+              "text": "of"
             },
             {
-              "id": "w6",
-              "text": "domesticated"
+              "id": "w8",
+              "text": "safari"
             },
             {
               "id": "w7",
-              "text": "animals"
-            },
-            {
-              "id": "w5",
-              "text": "first"
+              "text": "our"
             },
             {
               "id": "w3",
-              "text": "of"
+              "text": "lot"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w9",
+              "text": "trip"
+            },
+            {
+              "id": "w1",
+              "text": "saw"
+            },
+            {
+              "id": "w6",
+              "text": "on"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "wildlife"
             }
           ],
           "correct_answer": [
@@ -398,7 +406,9 @@
             "w4",
             "w5",
             "w6",
-            "w7"
+            "w7",
+            "w8",
+            "w9"
           ],
           "mastery_tag": "syntax"
         },
@@ -406,41 +416,41 @@
           "interaction_id": "U26_I17",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The dodo became extinct in the 17th century.\"",
+          "stimulus_en": "Speaker A: \"Crocodiles and snakes are both types of reptiles.\"",
           "options": [
             {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             }
           ],
-          "correct_answer": "r1",
+          "correct_answer": "r19",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U26_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A vertebrate animal of a class that includes snakes\"",
+          "prompt_es": "Identifica la palabra correcta para: \"Having no living members; no longer in existence\"",
           "options": [
             {
               "id": "o3",
+              "text": "Conservation"
+            },
+            {
+              "id": "o1",
               "text": "Extinct"
             },
             {
               "id": "o2",
-              "text": "Predator"
-            },
-            {
-              "id": "o1",
-              "text": "Reptile"
+              "text": "Biodiversity"
             }
           ],
           "correct_answer": "o1",
@@ -459,13 +469,13 @@
             },
             {
               "id": "p1",
-              "left": "Extinct",
-              "right": "Having no living members; no longer in existence"
+              "left": "Domesticated",
+              "right": "Tamed and kept as a pet or on a farm"
             },
             {
               "id": "p2",
-              "left": "Camouflage",
-              "right": "The use of materials or coloration for concealment"
+              "left": "Amphibian",
+              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
             }
           ],
           "correct_answer": {
@@ -478,17 +488,17 @@
         {
           "interaction_id": "U26_I20",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "You (not/should/feed) ________ the wild animals.",
-          "correct_answer": "should not feed",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ a veterinarian for ten years.",
+          "correct_answer": "has been",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U26_I21",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We saw a lot of wildlife on our safari trip.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Crocodiles snakes and are both types of reptiles.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -499,32 +509,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "wetlands"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w2",
-              "text": "common"
-            },
-            {
-              "id": "w0",
-              "text": "Frogs"
-            },
-            {
-              "id": "w4",
-              "text": "found"
-            },
-            {
               "id": "w1",
-              "text": "are"
+              "text": "chameleon"
+            },
+            {
+              "id": "w6",
+              "text": "from"
+            },
+            {
+              "id": "w7",
+              "text": "predators"
             },
             {
               "id": "w3",
-              "text": "amphibians"
+              "text": "camouflage"
+            },
+            {
+              "id": "w5",
+              "text": "hide"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "uses"
             }
           ],
           "correct_answer": [
@@ -534,7 +548,8 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7"
           ],
           "mastery_tag": "syntax"
         },
@@ -542,37 +557,37 @@
           "interaction_id": "U26_I23",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Scientists have identified a new species of butterfly.\"",
+          "stimulus_en": "Speaker A: \"Frogs are common amphibians found in wetlands.\"",
           "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
             },
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             }
           ],
-          "correct_answer": "r15",
+          "correct_answer": "r4",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U26_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A biological community of interacting organisms\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A biological community of interacting organisms\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Amphibian"
+              "id": "o3",
+              "text": "Biodiversity"
             },
             {
-              "id": "o3",
-              "text": "Camouflage"
+              "id": "o2",
+              "text": "Predator"
             },
             {
               "id": "o1",
@@ -590,18 +605,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Wildlife",
-              "right": "Wild animals collectively"
+              "left": "Migration",
+              "right": "Seasonal movement of animals from one region to another"
             },
             {
               "id": "p1",
-              "left": "Camouflage",
-              "right": "The use of materials or coloration for concealment"
+              "left": "Domesticated",
+              "right": "Tamed and kept as a pet or on a farm"
             },
             {
               "id": "p2",
-              "left": "Conservation",
-              "right": "The protection of plants and animals"
+              "left": "Predator",
+              "right": "An animal that naturally preys on others"
             }
           ],
           "correct_answer": {
@@ -615,16 +630,16 @@
           "interaction_id": "U26_I26",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (visit) ________ the safari park tomorrow.",
-          "correct_answer": "are going to visit",
+          "stimulus_en": "I (wish) ________ I could see a whale in real life.",
+          "correct_answer": "wish",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U26_I27",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The dodo became extinct the in 17th century.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The chameleon uses camouflage to hide from predators.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -635,36 +650,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "are"
-            },
-            {
-              "id": "w0",
-              "text": "Crocodiles"
-            },
-            {
               "id": "w2",
-              "text": "snakes"
-            },
-            {
-              "id": "w1",
-              "text": "and"
-            },
-            {
-              "id": "w6",
-              "text": "of"
+              "text": "is"
             },
             {
               "id": "w5",
-              "text": "types"
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "essential"
+            },
+            {
+              "id": "w0",
+              "text": "Protecting"
+            },
+            {
+              "id": "w1",
+              "text": "biodiversity"
             },
             {
               "id": "w7",
-              "text": "reptiles"
+              "text": "planet"
+            },
+            {
+              "id": "w6",
+              "text": "healthy"
             },
             {
               "id": "w4",
-              "text": "both"
+              "text": "for"
             }
           ],
           "correct_answer": [
@@ -683,41 +698,41 @@
           "interaction_id": "U26_I29",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Many animals are losing their natural habitat due to deforestation.\"",
+          "stimulus_en": "Speaker A: \"The dodo became extinct in the 17th century.\"",
           "options": [
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
             }
           ],
-          "correct_answer": "r19",
+          "correct_answer": "r4",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U26_I30",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"An animal lacking a backbone\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The use of materials or coloration for concealment\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Predator"
+              "id": "o3",
+              "text": "Conservation"
             },
             {
-              "id": "o3",
-              "text": "Wildlife"
+              "id": "o2",
+              "text": "Extinct"
             },
             {
               "id": "o1",
-              "text": "Invertebrate"
+              "text": "Camouflage"
             }
           ],
           "correct_answer": "o1",
@@ -731,13 +746,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Domesticated",
-              "right": "Tamed and kept as a pet or on a farm"
+              "left": "Species",
+              "right": "A group of living organisms consisting of similar individuals"
             },
             {
               "id": "p1",
-              "left": "Extinct",
-              "right": "Having no living members; no longer in existence"
+              "left": "Ecosystem",
+              "right": "A biological community of interacting organisms"
             },
             {
               "id": "p2",
@@ -755,16 +770,16 @@
         {
           "interaction_id": "U26_I32",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "That (be/could) ________ true, but I doubt it.",
-          "correct_answer": "could be",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Did you (know) ________ that some birds can't fly?",
+          "correct_answer": "know",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U26_I33",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Dolphins are highly marine intelligent mammals.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Scientists identified have a new species of butterfly.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -777,43 +792,35 @@
           "options": [
             {
               "id": "w3",
-              "text": "lot"
-            },
-            {
-              "id": "w6",
-              "text": "on"
-            },
-            {
-              "id": "w1",
-              "text": "saw"
-            },
-            {
-              "id": "w9",
-              "text": "trip"
+              "text": "essential"
             },
             {
               "id": "w7",
-              "text": "our"
-            },
-            {
-              "id": "w5",
-              "text": "wildlife"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w4",
-              "text": "of"
+              "text": "planet"
             },
             {
               "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
               "text": "a"
             },
             {
-              "id": "w8",
-              "text": "safari"
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w0",
+              "text": "Protecting"
+            },
+            {
+              "id": "w1",
+              "text": "biodiversity"
+            },
+            {
+              "id": "w6",
+              "text": "healthy"
             }
           ],
           "correct_answer": [
@@ -824,9 +831,7 @@
             "w4",
             "w5",
             "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w7"
           ],
           "mastery_tag": "syntax"
         },
@@ -834,41 +839,41 @@
           "interaction_id": "U26_I35",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Frogs are common amphibians found in wetlands.\"",
+          "stimulus_en": "Speaker A: \"Birds use migration to find warmer climates in winter.\"",
           "options": [
             {
               "id": "r3",
               "text": "Could you tell me more? I'm curious."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             }
           ],
-          "correct_answer": "r10",
+          "correct_answer": "r1",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U26_I36",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A cold-blooded vertebrate animal of a class that comprises frogs\"",
+          "prompt_es": "Identifica la palabra correcta para: \"The natural home or environment of an animal\"",
           "options": [
             {
+              "id": "o2",
+              "text": "Conservation"
+            },
+            {
               "id": "o3",
-              "text": "Extinct"
+              "text": "Migration"
             },
             {
               "id": "o1",
-              "text": "Amphibian"
-            },
-            {
-              "id": "o2",
-              "text": "Migration"
+              "text": "Habitat"
             }
           ],
           "correct_answer": "o1",
@@ -882,18 +887,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Extinct",
-              "right": "Having no living members; no longer in existence"
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
             },
             {
               "id": "p1",
-              "left": "Mammal",
-              "right": "A warm-blooded vertebrate animal"
+              "left": "Biodiversity",
+              "right": "The variety of life in the world or in a particular habitat"
             },
             {
               "id": "p2",
-              "left": "Ecosystem",
-              "right": "A biological community of interacting organisms"
+              "left": "Camouflage",
+              "right": "The use of materials or coloration for concealment"
             }
           ],
           "correct_answer": {
@@ -907,16 +912,16 @@
           "interaction_id": "U26_I38",
           "type": "transformation",
           "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "They (come/might not) ________ to the party.",
-          "correct_answer": "might not come",
+          "stimulus_en": "You (feed/not/should) ________ the wild animals.",
+          "correct_answer": "should not feed",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U26_I39",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Insects the are most diverse group of invertebrates.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We saw a lot of wildlife on our safari trip.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -927,36 +932,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "first"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "one"
-            },
-            {
               "id": "w6",
-              "text": "domesticated"
+              "text": "from"
             },
             {
               "id": "w3",
-              "text": "of"
-            },
-            {
-              "id": "w7",
-              "text": "animals"
-            },
-            {
-              "id": "w0",
-              "text": "Dogs"
+              "text": "camouflage"
             },
             {
               "id": "w1",
-              "text": "were"
+              "text": "chameleon"
+            },
+            {
+              "id": "w2",
+              "text": "uses"
+            },
+            {
+              "id": "w5",
+              "text": "hide"
+            },
+            {
+              "id": "w7",
+              "text": "predators"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "to"
             }
           ],
           "correct_answer": [
@@ -975,19 +980,19 @@
           "interaction_id": "U26_I41",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Wildlife conservation is vital for maintaining biodiversity.\"",
+          "stimulus_en": "Speaker A: \"Every species plays a role in the ecosystem.\"",
           "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
             {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             }
           ],
           "correct_answer": "r1",
@@ -997,19 +1002,19 @@
         {
           "interaction_id": "U26_I42",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Tamed and kept as a pet or on a farm\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A cold-blooded vertebrate animal of a class that comprises frogs\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Domesticated"
-            },
-            {
               "id": "o3",
-              "text": "Amphibian"
+              "text": "Extinct"
             },
             {
               "id": "o2",
-              "text": "Habitat"
+              "text": "Ecosystem"
+            },
+            {
+              "id": "o1",
+              "text": "Amphibian"
             }
           ],
           "correct_answer": "o1",
@@ -1023,18 +1028,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Amphibian",
-              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
+              "left": "Migration",
+              "right": "Seasonal movement of animals from one region to another"
             },
             {
               "id": "p1",
-              "left": "Domesticated",
-              "right": "Tamed and kept as a pet or on a farm"
+              "left": "Invertebrate",
+              "right": "An animal lacking a backbone"
             },
             {
               "id": "p2",
-              "left": "Migration",
-              "right": "Seasonal movement of animals from one region to another"
+              "left": "Ecosystem",
+              "right": "A biological community of interacting organisms"
             }
           ],
           "correct_answer": {
@@ -1048,16 +1053,16 @@
           "interaction_id": "U26_I44",
           "type": "transformation",
           "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (be/may) ________ at home, but I'm not sure.",
-          "correct_answer": "may be",
+          "stimulus_en": "They (come/might not) ________ to the party.",
+          "correct_answer": "might not come",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U26_I45",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Birds migration use to find warmer climates in winter.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Wildlife conservation is vital for maintaining biodiversity.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1068,36 +1073,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "extinct"
-            },
-            {
               "id": "w2",
-              "text": "became"
+              "text": "snakes"
             },
             {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "The"
+              "id": "w3",
+              "text": "are"
             },
             {
               "id": "w7",
-              "text": "century"
-            },
-            {
-              "id": "w6",
-              "text": "17th"
+              "text": "reptiles"
             },
             {
               "id": "w4",
-              "text": "in"
+              "text": "both"
             },
             {
               "id": "w1",
-              "text": "dodo"
+              "text": "and"
+            },
+            {
+              "id": "w5",
+              "text": "types"
+            },
+            {
+              "id": "w6",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "Crocodiles"
             }
           ],
           "correct_answer": [
@@ -1116,41 +1121,41 @@
           "interaction_id": "U26_I47",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Protecting biodiversity is essential for a healthy planet.\"",
+          "stimulus_en": "Speaker A: \"We saw a lot of wildlife on our safari trip.\"",
           "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
             }
           ],
-          "correct_answer": "r19",
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U26_I48",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The natural home or environment of an animal\"",
+          "prompt_es": "Identifica la palabra correcta para: \"An animal lacking a backbone\"",
           "options": [
             {
+              "id": "o2",
+              "text": "Biodiversity"
+            },
+            {
               "id": "o3",
-              "text": "Mammal"
+              "text": "Reptile"
             },
             {
               "id": "o1",
-              "text": "Habitat"
-            },
-            {
-              "id": "o2",
-              "text": "Amphibian"
+              "text": "Invertebrate"
             }
           ],
           "correct_answer": "o1",
@@ -1164,18 +1169,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Mammal",
-              "right": "A warm-blooded vertebrate animal"
+              "left": "Predator",
+              "right": "An animal that naturally preys on others"
             },
             {
               "id": "p1",
-              "left": "Conservation",
-              "right": "The protection of plants and animals"
+              "left": "Amphibian",
+              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
             },
             {
               "id": "p2",
-              "left": "Reptile",
-              "right": "A vertebrate animal of a class that includes snakes"
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
             }
           ],
           "correct_answer": {
@@ -1188,17 +1193,17 @@
         {
           "interaction_id": "U26_I50",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "If we (protect/not) ________ them, they will go extinct.",
-          "correct_answer": "don't protect",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (wish) ________ I could see a whale in real life.",
+          "correct_answer": "wish",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U26_I51",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Protecting biodiversity is essential for a healthy planet.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The lion is a powerful predator in savanna. the\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1209,36 +1214,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "both"
-            },
-            {
-              "id": "w0",
-              "text": "Crocodiles"
-            },
-            {
-              "id": "w3",
-              "text": "are"
-            },
-            {
               "id": "w1",
-              "text": "and"
-            },
-            {
-              "id": "w5",
-              "text": "types"
+              "text": "chameleon"
             },
             {
               "id": "w6",
-              "text": "of"
+              "text": "from"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "camouflage"
             },
             {
               "id": "w2",
-              "text": "snakes"
+              "text": "uses"
+            },
+            {
+              "id": "w5",
+              "text": "hide"
             },
             {
               "id": "w7",
-              "text": "reptiles"
+              "text": "predators"
+            },
+            {
+              "id": "w4",
+              "text": "to"
             }
           ],
           "correct_answer": [
@@ -1260,8 +1265,8 @@
           "stimulus_en": "Speaker A: \"Every species plays a role in the ecosystem.\"",
           "options": [
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r5",
@@ -1272,26 +1277,26 @@
               "text": "I completely agree, it makes sense."
             }
           ],
-          "correct_answer": "r5",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U26_I54",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A warm-blooded vertebrate animal\"",
+          "prompt_es": "Identifica la palabra correcta para: \"The use of materials or coloration for concealment\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Mammal"
+              "id": "o3",
+              "text": "Biodiversity"
             },
             {
-              "id": "o3",
-              "text": "Migration"
+              "id": "o1",
+              "text": "Camouflage"
             },
             {
               "id": "o2",
-              "text": "Predator"
+              "text": "Wildlife"
             }
           ],
           "correct_answer": "o1",
@@ -1305,18 +1310,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Invertebrate",
-              "right": "An animal lacking a backbone"
+              "left": "Amphibian",
+              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
             },
             {
               "id": "p1",
-              "left": "Predator",
-              "right": "An animal that naturally preys on others"
+              "left": "Extinct",
+              "right": "Having no living members; no longer in existence"
             },
             {
               "id": "p2",
-              "left": "Camouflage",
-              "right": "The use of materials or coloration for concealment"
+              "left": "Species",
+              "right": "A group of living organisms consisting of similar individuals"
             }
           ],
           "correct_answer": {
@@ -1330,16 +1335,16 @@
           "interaction_id": "U26_I56",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "A new species (discover) ________ in the Amazon.",
-          "correct_answer": "was discovered",
+          "stimulus_en": "We (visit) ________ the safari park tomorrow.",
+          "correct_answer": "are going to visit",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U26_I57",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The lion is a powerful predator in savanna. the\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Dolphins are highly intelligent marine mammals.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1350,40 +1355,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "climates"
-            },
-            {
-              "id": "w0",
-              "text": "Birds"
-            },
-            {
-              "id": "w4",
-              "text": "find"
-            },
-            {
-              "id": "w8",
-              "text": "winter"
-            },
-            {
               "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w6",
               "text": "in"
             },
             {
-              "id": "w1",
-              "text": "use"
+              "id": "w5",
+              "text": "predator"
             },
             {
               "id": "w3",
-              "text": "to"
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "powerful"
+            },
+            {
+              "id": "w8",
+              "text": "savanna"
+            },
+            {
+              "id": "w1",
+              "text": "lion"
             },
             {
               "id": "w2",
-              "text": "migration"
+              "text": "is"
             },
             {
-              "id": "w5",
-              "text": "warmer"
+              "id": "w0",
+              "text": "The"
             }
           ],
           "correct_answer": [
@@ -1403,41 +1408,41 @@
           "interaction_id": "U26_I59",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Protecting biodiversity is essential for a healthy planet.\"",
+          "stimulus_en": "Speaker A: \"Scientists have identified a new species of butterfly.\"",
           "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
             {
               "id": "r5",
               "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
             }
           ],
-          "correct_answer": "r5",
+          "correct_answer": "r19",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U26_I60",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Having no living members; no longer in existence\"",
+          "prompt_es": "Identifica la palabra correcta para: \"The use of materials or coloration for concealment\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Extinct"
-            },
-            {
               "id": "o2",
-              "text": "Mammal"
+              "text": "Wildlife"
             },
             {
               "id": "o3",
-              "text": "Species"
+              "text": "Reptile"
+            },
+            {
+              "id": "o1",
+              "text": "Camouflage"
             }
           ],
           "correct_answer": "o1",
@@ -1451,18 +1456,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Invertebrate",
-              "right": "An animal lacking a backbone"
+              "left": "Migration",
+              "right": "Seasonal movement of animals from one region to another"
             },
             {
               "id": "p1",
-              "left": "Biodiversity",
-              "right": "The variety of life in the world or in a particular habitat"
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
             },
             {
               "id": "p2",
-              "left": "Wildlife",
-              "right": "Wild animals collectively"
+              "left": "Reptile",
+              "right": "A vertebrate animal of a class that includes snakes"
             }
           ],
           "correct_answer": {
@@ -1476,16 +1481,16 @@
           "interaction_id": "U26_I62",
           "type": "transformation",
           "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "That (be/could) ________ true, but I doubt it.",
-          "correct_answer": "could be",
+          "stimulus_en": "You (not/feed/should) ________ the wild animals.",
+          "correct_answer": "should not feed",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U26_I63",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We saw a lot of wildlife on our safari trip.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Protecting biodiversity is essential for a planet. healthy\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1496,16 +1501,153 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w7",
+              "text": "predators"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "camouflage"
+            },
+            {
+              "id": "w1",
+              "text": "chameleon"
+            },
+            {
+              "id": "w5",
+              "text": "hide"
+            },
+            {
+              "id": "w6",
+              "text": "from"
+            },
+            {
+              "id": "w2",
+              "text": "uses"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Insects are the most diverse group of invertebrates.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I66",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Seasonal movement of animals from one region to another\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Migration"
+            },
+            {
+              "id": "o2",
+              "text": "Camouflage"
+            },
+            {
+              "id": "o3",
+              "text": "Wildlife"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Domesticated",
+              "right": "Tamed and kept as a pet or on a farm"
+            },
+            {
+              "id": "p1",
+              "left": "Extinct",
+              "right": "Having no living members; no longer in existence"
+            },
+            {
+              "id": "p2",
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I68",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The tiger (hunt) ________ for its prey.",
+          "correct_answer": "is hunting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Dogs were one the of first domesticated animals.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
               "id": "w3",
               "text": "losing"
             },
             {
-              "id": "w7",
-              "text": "due"
-            },
-            {
-              "id": "w9",
-              "text": "deforestation"
+              "id": "w8",
+              "text": "to"
             },
             {
               "id": "w1",
@@ -1516,24 +1658,28 @@
               "text": "are"
             },
             {
-              "id": "w8",
-              "text": "to"
-            },
-            {
-              "id": "w4",
-              "text": "their"
+              "id": "w7",
+              "text": "due"
             },
             {
               "id": "w0",
               "text": "Many"
             },
             {
-              "id": "w5",
-              "text": "natural"
-            },
-            {
               "id": "w6",
               "text": "habitat"
+            },
+            {
+              "id": "w4",
+              "text": "their"
+            },
+            {
+              "id": "w9",
+              "text": "deforestation"
+            },
+            {
+              "id": "w5",
+              "text": "natural"
             }
           ],
           "correct_answer": [
@@ -1551,43 +1697,43 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U26_I65",
+          "interaction_id": "U26_I71",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Every species plays a role in the ecosystem.\"",
+          "stimulus_en": "Speaker A: \"Birds use migration to find warmer climates in winter.\"",
           "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
             {
               "id": "r3",
               "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             }
           ],
-          "correct_answer": "r15",
+          "correct_answer": "r4",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U26_I66",
+          "interaction_id": "U26_I72",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The natural home or environment of an animal\"",
+          "prompt_es": "Identifica la palabra correcta para: \"Having no living members; no longer in existence\"",
           "options": [
             {
+              "id": "o1",
+              "text": "Extinct"
+            },
+            {
               "id": "o3",
-              "text": "Species"
+              "text": "Camouflage"
             },
             {
               "id": "o2",
-              "text": "Amphibian"
-            },
-            {
-              "id": "o1",
               "text": "Habitat"
             }
           ],
@@ -1596,24 +1742,24 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U26_I67",
+          "interaction_id": "U26_I73",
           "type": "matching",
           "prompt_es": "Une cada término con su definición correspondiente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Migration",
-              "right": "Seasonal movement of animals from one region to another"
+              "left": "Camouflage",
+              "right": "The use of materials or coloration for concealment"
             },
             {
               "id": "p1",
-              "left": "Biodiversity",
-              "right": "The variety of life in the world or in a particular habitat"
+              "left": "Habitat",
+              "right": "The natural home or environment of an animal"
             },
             {
               "id": "p2",
-              "left": "Amphibian",
-              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
+              "left": "Predator",
+              "right": "An animal that naturally preys on others"
             }
           ],
           "correct_answer": {
@@ -1624,28 +1770,32 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U26_I68",
+          "interaction_id": "U26_I74",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "A new species (discover) ________ in the Amazon.",
-          "correct_answer": "was discovered",
+          "stimulus_en": "Did you (know) ________ that some birds can't fly?",
+          "correct_answer": "know",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U26_I69",
+          "interaction_id": "U26_I75",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Birds use migration find to warmer climates in winter.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Insects are the most diverse of group invertebrates.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U26_I70",
+          "interaction_id": "U26_I76",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
+            {
+              "id": "w3",
+              "text": "to"
+            },
             {
               "id": "w5",
               "text": "warmer"
@@ -1655,32 +1805,28 @@
               "text": "use"
             },
             {
-              "id": "w2",
-              "text": "migration"
-            },
-            {
-              "id": "w0",
-              "text": "Birds"
-            },
-            {
-              "id": "w3",
-              "text": "to"
-            },
-            {
               "id": "w7",
               "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "migration"
             },
             {
               "id": "w6",
               "text": "climates"
             },
             {
+              "id": "w8",
+              "text": "winter"
+            },
+            {
               "id": "w4",
               "text": "find"
             },
             {
-              "id": "w8",
-              "text": "winter"
+              "id": "w0",
+              "text": "Birds"
             }
           ],
           "correct_answer": [
@@ -1697,22 +1843,22 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U26_I71",
+          "interaction_id": "U26_I77",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Frogs are common amphibians found in wetlands.\"",
+          "stimulus_en": "Speaker A: \"The chameleon uses camouflage to hide from predators.\"",
           "options": [
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             }
           ],
           "correct_answer": "r5",
@@ -1720,21 +1866,21 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U26_I72",
+          "interaction_id": "U26_I78",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A vertebrate animal of a class that includes snakes\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The variety of life in the world or in a particular habitat\"",
           "options": [
             {
+              "id": "o3",
+              "text": "Predator"
+            },
+            {
               "id": "o2",
-              "text": "Ecosystem"
+              "text": "Migration"
             },
             {
               "id": "o1",
-              "text": "Reptile"
-            },
-            {
-              "id": "o3",
-              "text": "Domesticated"
+              "text": "Biodiversity"
             }
           ],
           "correct_answer": "o1",
@@ -1742,24 +1888,24 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U26_I73",
+          "interaction_id": "U26_I79",
           "type": "matching",
           "prompt_es": "Une cada término con su definición correspondiente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Wildlife",
-              "right": "Wild animals collectively"
-            },
-            {
-              "id": "p1",
               "left": "Migration",
               "right": "Seasonal movement of animals from one region to another"
             },
             {
+              "id": "p1",
+              "left": "Invertebrate",
+              "right": "An animal lacking a backbone"
+            },
+            {
               "id": "p2",
-              "left": "Amphibian",
-              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
+              "left": "Mammal",
+              "right": "A warm-blooded vertebrate animal"
             }
           ],
           "correct_answer": {
@@ -1770,59 +1916,59 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U26_I74",
+          "interaction_id": "U26_I80",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (be) ________ a veterinarian for ten years.",
-          "correct_answer": "has been",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "You (feed/should/not) ________ the wild animals.",
+          "correct_answer": "should not feed",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U26_I75",
+          "interaction_id": "U26_I81",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Crocodiles and snakes are both types reptiles. of\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We saw lot a of wildlife on our safari trip.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U26_I76",
+          "interaction_id": "U26_I82",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "invertebrates"
-            },
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
               "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w0",
-              "text": "Insects"
-            },
-            {
-              "id": "w4",
-              "text": "diverse"
+              "text": "dodo"
             },
             {
               "id": "w3",
-              "text": "most"
+              "text": "extinct"
+            },
+            {
+              "id": "w6",
+              "text": "17th"
+            },
+            {
+              "id": "w7",
+              "text": "century"
+            },
+            {
+              "id": "w2",
+              "text": "became"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w5",
-              "text": "group"
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -1838,191 +1984,40 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U26_I77",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Birds use migration to find warmer climates in winter.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I78",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Having no living members; no longer in existence\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Conservation"
-            },
-            {
-              "id": "o1",
-              "text": "Extinct"
-            },
-            {
-              "id": "o2",
-              "text": "Species"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I79",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Invertebrate",
-              "right": "An animal lacking a backbone"
-            },
-            {
-              "id": "p1",
-              "left": "Mammal",
-              "right": "A warm-blooded vertebrate animal"
-            },
-            {
-              "id": "p2",
-              "left": "Amphibian",
-              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I80",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (be/may) ________ at home, but I'm not sure.",
-          "correct_answer": "may be",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I81",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Wildlife conservation is vital for maintaining biodiversity.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I82",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "losing"
-            },
-            {
-              "id": "w1",
-              "text": "animals"
-            },
-            {
-              "id": "w6",
-              "text": "habitat"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w9",
-              "text": "deforestation"
-            },
-            {
-              "id": "w4",
-              "text": "their"
-            },
-            {
-              "id": "w0",
-              "text": "Many"
-            },
-            {
-              "id": "w5",
-              "text": "natural"
-            },
-            {
-              "id": "w7",
-              "text": "due"
-            },
-            {
-              "id": "w8",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
           "interaction_id": "U26_I83",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The chameleon uses camouflage to hide from predators.\"",
+          "stimulus_en": "Speaker A: \"The lion is a powerful predator in the savanna.\"",
           "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
             },
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U26_I84",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Wild animals collectively\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A cold-blooded vertebrate animal of a class that comprises frogs\"",
           "options": [
             {
               "id": "o2",
-              "text": "Species"
+              "text": "Reptile"
             },
             {
               "id": "o1",
-              "text": "Wildlife"
+              "text": "Amphibian"
             },
             {
               "id": "o3",
@@ -2040,18 +2035,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Extinct",
-              "right": "Having no living members; no longer in existence"
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
             },
             {
               "id": "p1",
-              "left": "Reptile",
-              "right": "A vertebrate animal of a class that includes snakes"
+              "left": "Ecosystem",
+              "right": "A biological community of interacting organisms"
             },
             {
               "id": "p2",
-              "left": "Wildlife",
-              "right": "Wild animals collectively"
+              "left": "Amphibian",
+              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
             }
           ],
           "correct_answer": {
@@ -2064,16 +2059,16 @@
         {
           "interaction_id": "U26_I86",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (be) ________ a veterinarian for ten years.",
-          "correct_answer": "has been",
+          "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
+          "stimulus_en": "It (take/may) ________ longer than expected.",
+          "correct_answer": "may take",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U26_I87",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Dolphins are intelligent highly marine mammals.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We saw a lot of on wildlife our safari trip.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -2085,28 +2080,8 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "lion"
-            },
-            {
-              "id": "w4",
-              "text": "powerful"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "The"
+              "text": "identified"
             },
             {
               "id": "w3",
@@ -2114,153 +2089,27 @@
             },
             {
               "id": "w5",
-              "text": "predator"
+              "text": "species"
             },
             {
-              "id": "w8",
-              "text": "savanna"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I89",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Frogs are common amphibians found in wetlands.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "w0",
+              "text": "Scientists"
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "w4",
+              "text": "new"
             },
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I90",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The variety of life in the world or in a particular habitat\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Camouflage"
+              "id": "w1",
+              "text": "have"
             },
-            {
-              "id": "o1",
-              "text": "Biodiversity"
-            },
-            {
-              "id": "o3",
-              "text": "Invertebrate"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I91",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Reptile",
-              "right": "A vertebrate animal of a class that includes snakes"
-            },
-            {
-              "id": "p1",
-              "left": "Habitat",
-              "right": "The natural home or environment of an animal"
-            },
-            {
-              "id": "p2",
-              "left": "Ecosystem",
-              "right": "A biological community of interacting organisms"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I92",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I could see a whale in real life.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I93",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The dodo became extinct in the century. 17th\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I94",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
             {
               "id": "w6",
               "text": "of"
             },
             {
-              "id": "w4",
-              "text": "diverse"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
               "id": "w7",
-              "text": "invertebrates"
-            },
-            {
-              "id": "w0",
-              "text": "Insects"
-            },
-            {
-              "id": "w3",
-              "text": "most"
-            },
-            {
-              "id": "w5",
-              "text": "group"
+              "text": "butterfly"
             }
           ],
           "correct_answer": [
@@ -2276,44 +2125,180 @@
           "mastery_tag": "syntax"
         },
         {
+          "interaction_id": "U26_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We saw a lot of wildlife on our safari trip.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I90",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A vertebrate animal of a class that includes snakes\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reptile"
+            },
+            {
+              "id": "o2",
+              "text": "Predator"
+            },
+            {
+              "id": "o3",
+              "text": "Wildlife"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Predator",
+              "right": "An animal that naturally preys on others"
+            },
+            {
+              "id": "p1",
+              "left": "Species",
+              "right": "A group of living organisms consisting of similar individuals"
+            },
+            {
+              "id": "p2",
+              "left": "Amphibian",
+              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I92",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "They (come/might not) ________ to the party.",
+          "correct_answer": "might not come",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Crocodiles and snakes are both types of reptiles.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "biodiversity"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "maintaining"
+            },
+            {
+              "id": "w1",
+              "text": "conservation"
+            },
+            {
+              "id": "w0",
+              "text": "Wildlife"
+            },
+            {
+              "id": "w3",
+              "text": "vital"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
           "interaction_id": "U26_I95",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Many animals are losing their natural habitat due to deforestation.\"",
+          "stimulus_en": "Speaker A: \"Birds use migration to find warmer climates in winter.\"",
           "options": [
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
             },
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             }
           ],
-          "correct_answer": "r10",
+          "correct_answer": "r2",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U26_I96",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A cold-blooded vertebrate animal of a class that comprises frogs\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The protection of plants and animals\"",
           "options": [
             {
+              "id": "o3",
+              "text": "Predator"
+            },
+            {
               "id": "o2",
-              "text": "Biodiversity"
+              "text": "Extinct"
             },
             {
               "id": "o1",
-              "text": "Amphibian"
-            },
-            {
-              "id": "o3",
-              "text": "Mammal"
+              "text": "Conservation"
             }
           ],
           "correct_answer": "o1",
@@ -2327,18 +2312,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Species",
-              "right": "A group of living organisms consisting of similar individuals"
-            },
-            {
-              "id": "p1",
               "left": "Domesticated",
               "right": "Tamed and kept as a pet or on a farm"
             },
             {
+              "id": "p1",
+              "left": "Extinct",
+              "right": "Having no living members; no longer in existence"
+            },
+            {
               "id": "p2",
-              "left": "Invertebrate",
-              "right": "An animal lacking a backbone"
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
             }
           ],
           "correct_answer": {
@@ -2360,7 +2345,7 @@
         {
           "interaction_id": "U26_I99",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Dogs were one of the first domesticated animals.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Protecting biodiversity is essential for a healthy planet.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -2372,619 +2357,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "ecosystem"
-            },
-            {
-              "id": "w1",
-              "text": "species"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "plays"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w4",
-              "text": "role"
-            },
-            {
-              "id": "w0",
-              "text": "Every"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I101",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Protecting biodiversity is essential for a healthy planet.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I102",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A biological community of interacting organisms\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Camouflage"
-            },
-            {
-              "id": "o1",
-              "text": "Ecosystem"
-            },
-            {
-              "id": "o2",
-              "text": "Invertebrate"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I103",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Extinct",
-              "right": "Having no living members; no longer in existence"
-            },
-            {
-              "id": "p1",
-              "left": "Domesticated",
-              "right": "Tamed and kept as a pet or on a farm"
-            },
-            {
-              "id": "p2",
-              "left": "Invertebrate",
-              "right": "An animal lacking a backbone"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I104",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (be/may) ________ at home, but I'm not sure.",
-          "correct_answer": "may be",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I105",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Frogs common are amphibians found in wetlands.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I106",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "safari"
-            },
-            {
-              "id": "w5",
-              "text": "wildlife"
-            },
-            {
-              "id": "w1",
-              "text": "saw"
-            },
-            {
-              "id": "w7",
-              "text": "our"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w9",
-              "text": "trip"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w6",
-              "text": "on"
-            },
-            {
-              "id": "w3",
-              "text": "lot"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I107",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Dolphins are highly intelligent marine mammals.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I108",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The natural home or environment of an animal\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Habitat"
-            },
-            {
-              "id": "o3",
-              "text": "Predator"
-            },
-            {
-              "id": "o2",
-              "text": "Invertebrate"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I109",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Predator",
-              "right": "An animal that naturally preys on others"
-            },
-            {
-              "id": "p1",
-              "left": "Wildlife",
-              "right": "Wild animals collectively"
-            },
-            {
-              "id": "p2",
-              "left": "Migration",
-              "right": "Seasonal movement of animals from one region to another"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I110",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "A new species (discover) ________ in the Amazon.",
-          "correct_answer": "was discovered",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I111",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Crocodiles and are snakes both types of reptiles.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I112",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Wildlife"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w1",
-              "text": "conservation"
-            },
-            {
-              "id": "w5",
-              "text": "maintaining"
-            },
-            {
               "id": "w6",
-              "text": "biodiversity"
-            },
-            {
-              "id": "w3",
-              "text": "vital"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I113",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Dolphins are highly intelligent marine mammals.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I114",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Having no living members; no longer in existence\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Domesticated"
-            },
-            {
-              "id": "o3",
-              "text": "Biodiversity"
-            },
-            {
-              "id": "o1",
-              "text": "Extinct"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I115",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Conservation",
-              "right": "The protection of plants and animals"
-            },
-            {
-              "id": "p1",
-              "left": "Camouflage",
-              "right": "The use of materials or coloration for concealment"
-            },
-            {
-              "id": "p2",
-              "left": "Species",
-              "right": "A group of living organisms consisting of similar individuals"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I116",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The tiger (hunt) ________ for its prey.",
-          "correct_answer": "is hunting",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I117",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Scientists have a identified new species of butterfly.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I118",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "our"
-            },
-            {
-              "id": "w1",
-              "text": "saw"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w9",
-              "text": "trip"
-            },
-            {
-              "id": "w5",
-              "text": "wildlife"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w8",
-              "text": "safari"
-            },
-            {
-              "id": "w6",
-              "text": "on"
-            },
-            {
-              "id": "w3",
-              "text": "lot"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I119",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Every species plays a role in the ecosystem.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I120",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The variety of life in the world or in a particular habitat\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Biodiversity"
-            },
-            {
-              "id": "o2",
-              "text": "Migration"
-            },
-            {
-              "id": "o3",
-              "text": "Predator"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I121",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Ecosystem",
-              "right": "A biological community of interacting organisms"
-            },
-            {
-              "id": "p1",
-              "left": "Domesticated",
-              "right": "Tamed and kept as a pet or on a farm"
-            },
-            {
-              "id": "p2",
-              "left": "Predator",
-              "right": "An animal that naturally preys on others"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I122",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "That (be/could) ________ true, but I doubt it.",
-          "correct_answer": "could be",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I123",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The became dodo extinct in the 17th century.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I124",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "migration"
-            },
-            {
-              "id": "w7",
               "text": "in"
             },
             {
-              "id": "w1",
-              "text": "use"
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w3",
-              "text": "to"
-            },
-            {
-              "id": "w8",
-              "text": "winter"
-            },
-            {
-              "id": "w4",
-              "text": "find"
-            },
-            {
-              "id": "w0",
-              "text": "Birds"
-            },
-            {
-              "id": "w6",
-              "text": "climates"
+              "text": "a"
             },
             {
               "id": "w5",
-              "text": "warmer"
+              "text": "predator"
+            },
+            {
+              "id": "w1",
+              "text": "lion"
+            },
+            {
+              "id": "w8",
+              "text": "savanna"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "powerful"
             }
           ],
           "correct_answer": [
@@ -2999,1800 +2405,6 @@
             "w8"
           ],
           "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I125",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Crocodiles and snakes are both types of reptiles.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I126",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Tamed and kept as a pet or on a farm\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Extinct"
-            },
-            {
-              "id": "o3",
-              "text": "Amphibian"
-            },
-            {
-              "id": "o1",
-              "text": "Domesticated"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I127",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Biodiversity",
-              "right": "The variety of life in the world or in a particular habitat"
-            },
-            {
-              "id": "p1",
-              "left": "Habitat",
-              "right": "The natural home or environment of an animal"
-            },
-            {
-              "id": "p2",
-              "left": "Conservation",
-              "right": "The protection of plants and animals"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I128",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "That (be/could) ________ true, but I doubt it.",
-          "correct_answer": "could be",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I129",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Dogs were one of the first domesticated animals.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I130",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "animals"
-            },
-            {
-              "id": "w6",
-              "text": "domesticated"
-            },
-            {
-              "id": "w0",
-              "text": "Dogs"
-            },
-            {
-              "id": "w5",
-              "text": "first"
-            },
-            {
-              "id": "w3",
-              "text": "of"
-            },
-            {
-              "id": "w2",
-              "text": "one"
-            },
-            {
-              "id": "w1",
-              "text": "were"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I131",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Scientists have identified a new species of butterfly.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I132",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A cold-blooded vertebrate animal of a class that comprises frogs\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Wildlife"
-            },
-            {
-              "id": "o2",
-              "text": "Mammal"
-            },
-            {
-              "id": "o1",
-              "text": "Amphibian"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I133",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Ecosystem",
-              "right": "A biological community of interacting organisms"
-            },
-            {
-              "id": "p1",
-              "left": "Amphibian",
-              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
-            },
-            {
-              "id": "p2",
-              "left": "Species",
-              "right": "A group of living organisms consisting of similar individuals"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I134",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "You (not/should/feed) ________ the wild animals.",
-          "correct_answer": "should not feed",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I135",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Birds use migration to find climates warmer in winter.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I136",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "of"
-            },
-            {
-              "id": "w1",
-              "text": "were"
-            },
-            {
-              "id": "w7",
-              "text": "animals"
-            },
-            {
-              "id": "w6",
-              "text": "domesticated"
-            },
-            {
-              "id": "w5",
-              "text": "first"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "Dogs"
-            },
-            {
-              "id": "w2",
-              "text": "one"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I137",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Dolphins are highly intelligent marine mammals.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I138",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A warm-blooded vertebrate animal\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Ecosystem"
-            },
-            {
-              "id": "o1",
-              "text": "Mammal"
-            },
-            {
-              "id": "o3",
-              "text": "Amphibian"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I139",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Extinct",
-              "right": "Having no living members; no longer in existence"
-            },
-            {
-              "id": "p1",
-              "left": "Camouflage",
-              "right": "The use of materials or coloration for concealment"
-            },
-            {
-              "id": "p2",
-              "left": "Predator",
-              "right": "An animal that naturally preys on others"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I140",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "You (not/should/feed) ________ the wild animals.",
-          "correct_answer": "should not feed",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I141",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Wildlife conservation is vital for maintaining biodiversity.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I142",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "climates"
-            },
-            {
-              "id": "w2",
-              "text": "migration"
-            },
-            {
-              "id": "w0",
-              "text": "Birds"
-            },
-            {
-              "id": "w1",
-              "text": "use"
-            },
-            {
-              "id": "w3",
-              "text": "to"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w4",
-              "text": "find"
-            },
-            {
-              "id": "w8",
-              "text": "winter"
-            },
-            {
-              "id": "w5",
-              "text": "warmer"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I143",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Every species plays a role in the ecosystem.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I144",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Seasonal movement of animals from one region to another\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Migration"
-            },
-            {
-              "id": "o2",
-              "text": "Wildlife"
-            },
-            {
-              "id": "o3",
-              "text": "Ecosystem"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I145",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Reptile",
-              "right": "A vertebrate animal of a class that includes snakes"
-            },
-            {
-              "id": "p1",
-              "left": "Predator",
-              "right": "An animal that naturally preys on others"
-            },
-            {
-              "id": "p2",
-              "left": "Wildlife",
-              "right": "Wild animals collectively"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I146",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (visit) ________ the safari park tomorrow.",
-          "correct_answer": "are going to visit",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I147",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Frogs are common amphibians in found wetlands.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I148",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "use"
-            },
-            {
-              "id": "w3",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "warmer"
-            },
-            {
-              "id": "w0",
-              "text": "Birds"
-            },
-            {
-              "id": "w6",
-              "text": "climates"
-            },
-            {
-              "id": "w8",
-              "text": "winter"
-            },
-            {
-              "id": "w4",
-              "text": "find"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w2",
-              "text": "migration"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I149",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Frogs are common amphibians found in wetlands.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I150",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A vertebrate animal of a class that includes snakes\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Wildlife"
-            },
-            {
-              "id": "o3",
-              "text": "Habitat"
-            },
-            {
-              "id": "o1",
-              "text": "Reptile"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I151",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Habitat",
-              "right": "The natural home or environment of an animal"
-            },
-            {
-              "id": "p1",
-              "left": "Camouflage",
-              "right": "The use of materials or coloration for concealment"
-            },
-            {
-              "id": "p2",
-              "left": "Invertebrate",
-              "right": "An animal lacking a backbone"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I152",
-          "type": "transformation",
-          "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
-          "stimulus_en": "It (take/may) ________ longer than expected.",
-          "correct_answer": "may take",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I153",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Insects are the most diverse group of invertebrates.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I154",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w5",
-              "text": "maintaining"
-            },
-            {
-              "id": "w3",
-              "text": "vital"
-            },
-            {
-              "id": "w0",
-              "text": "Wildlife"
-            },
-            {
-              "id": "w6",
-              "text": "biodiversity"
-            },
-            {
-              "id": "w1",
-              "text": "conservation"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I155",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Dogs were one of the first domesticated animals.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I156",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Tamed and kept as a pet or on a farm\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Domesticated"
-            },
-            {
-              "id": "o3",
-              "text": "Wildlife"
-            },
-            {
-              "id": "o2",
-              "text": "Invertebrate"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I157",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Predator",
-              "right": "An animal that naturally preys on others"
-            },
-            {
-              "id": "p1",
-              "left": "Ecosystem",
-              "right": "A biological community of interacting organisms"
-            },
-            {
-              "id": "p2",
-              "left": "Invertebrate",
-              "right": "An animal lacking a backbone"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I158",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Did you (know) ________ that some birds can't fly?",
-          "correct_answer": "know",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I159",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Frogs are common amphibians in found wetlands.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I160",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "Every"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "ecosystem"
-            },
-            {
-              "id": "w4",
-              "text": "role"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "species"
-            },
-            {
-              "id": "w2",
-              "text": "plays"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I161",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The dodo became extinct in the 17th century.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I162",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A warm-blooded vertebrate animal\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Predator"
-            },
-            {
-              "id": "o3",
-              "text": "Species"
-            },
-            {
-              "id": "o1",
-              "text": "Mammal"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I163",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Conservation",
-              "right": "The protection of plants and animals"
-            },
-            {
-              "id": "p1",
-              "left": "Extinct",
-              "right": "Having no living members; no longer in existence"
-            },
-            {
-              "id": "p2",
-              "left": "Mammal",
-              "right": "A warm-blooded vertebrate animal"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I164",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (study) ________ the behavior of lions for years.",
-          "correct_answer": "have been studying",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I165",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The lion is a powerful predator the in savanna.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I166",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "new"
-            },
-            {
-              "id": "w2",
-              "text": "identified"
-            },
-            {
-              "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "Scientists"
-            },
-            {
-              "id": "w5",
-              "text": "species"
-            },
-            {
-              "id": "w7",
-              "text": "butterfly"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I167",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Insects are the most diverse group of invertebrates.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I168",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A warm-blooded vertebrate animal\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Camouflage"
-            },
-            {
-              "id": "o1",
-              "text": "Mammal"
-            },
-            {
-              "id": "o3",
-              "text": "Predator"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I169",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Camouflage",
-              "right": "The use of materials or coloration for concealment"
-            },
-            {
-              "id": "p1",
-              "left": "Wildlife",
-              "right": "Wild animals collectively"
-            },
-            {
-              "id": "p2",
-              "left": "Habitat",
-              "right": "The natural home or environment of an animal"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I170",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (visit) ________ the safari park tomorrow.",
-          "correct_answer": "are going to visit",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I171",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Dolphins are highly marine intelligent mammals.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I172",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "healthy"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w3",
-              "text": "essential"
-            },
-            {
-              "id": "w1",
-              "text": "biodiversity"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "planet"
-            },
-            {
-              "id": "w0",
-              "text": "Protecting"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I173",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The chameleon uses camouflage to hide from predators.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I174",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The protection of plants and animals\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Conservation"
-            },
-            {
-              "id": "o3",
-              "text": "Domesticated"
-            },
-            {
-              "id": "o2",
-              "text": "Wildlife"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I175",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Domesticated",
-              "right": "Tamed and kept as a pet or on a farm"
-            },
-            {
-              "id": "p1",
-              "left": "Reptile",
-              "right": "A vertebrate animal of a class that includes snakes"
-            },
-            {
-              "id": "p2",
-              "left": "Wildlife",
-              "right": "Wild animals collectively"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I176",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Did you (know) ________ that some birds can't fly?",
-          "correct_answer": "know",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I177",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Wildlife conservation is vital for maintaining biodiversity.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I178",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w3",
-              "text": "lot"
-            },
-            {
-              "id": "w9",
-              "text": "trip"
-            },
-            {
-              "id": "w6",
-              "text": "on"
-            },
-            {
-              "id": "w8",
-              "text": "safari"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w7",
-              "text": "our"
-            },
-            {
-              "id": "w1",
-              "text": "saw"
-            },
-            {
-              "id": "w5",
-              "text": "wildlife"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I179",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Scientists have identified a new species of butterfly.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I180",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The use of materials or coloration for concealment\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Camouflage"
-            },
-            {
-              "id": "o2",
-              "text": "Biodiversity"
-            },
-            {
-              "id": "o3",
-              "text": "Reptile"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I181",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Conservation",
-              "right": "The protection of plants and animals"
-            },
-            {
-              "id": "p1",
-              "left": "Amphibian",
-              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
-            },
-            {
-              "id": "p2",
-              "left": "Migration",
-              "right": "Seasonal movement of animals from one region to another"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I182",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (study) ________ the behavior of lions for years.",
-          "correct_answer": "have been studying",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I183",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Wildlife conservation is vital for maintain biodiversity.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I184",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "amphibians"
-            },
-            {
-              "id": "w6",
-              "text": "wetlands"
-            },
-            {
-              "id": "w4",
-              "text": "found"
-            },
-            {
-              "id": "w0",
-              "text": "Frogs"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w2",
-              "text": "common"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I185",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Dogs were one of the first domesticated animals.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I186",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The use of materials or coloration for concealment\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Domesticated"
-            },
-            {
-              "id": "o3",
-              "text": "Extinct"
-            },
-            {
-              "id": "o1",
-              "text": "Camouflage"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I187",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Migration",
-              "right": "Seasonal movement of animals from one region to another"
-            },
-            {
-              "id": "p1",
-              "left": "Camouflage",
-              "right": "The use of materials or coloration for concealment"
-            },
-            {
-              "id": "p2",
-              "left": "Amphibian",
-              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I188",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "It (rain/might) ________ later, so take an umbrella.",
-          "correct_answer": "might rain",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I189",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Wildlife conservation is vital for maintaining biodiversity.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I190",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "butterfly"
-            },
-            {
-              "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w0",
-              "text": "Scientists"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "identified"
-            },
-            {
-              "id": "w5",
-              "text": "species"
-            },
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
-              "id": "w4",
-              "text": "new"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I191",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The lion is a powerful predator in the savanna.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I192",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An animal lacking a backbone\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Camouflage"
-            },
-            {
-              "id": "o2",
-              "text": "Domesticated"
-            },
-            {
-              "id": "o1",
-              "text": "Invertebrate"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I193",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Reptile",
-              "right": "A vertebrate animal of a class that includes snakes"
-            },
-            {
-              "id": "p1",
-              "left": "Wildlife",
-              "right": "Wild animals collectively"
-            },
-            {
-              "id": "p2",
-              "left": "Amphibian",
-              "right": "A cold-blooded vertebrate animal of a class that comprises frogs"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I194",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (be/may) ________ at home, but I'm not sure.",
-          "correct_answer": "may be",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I195",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The chameleon camouflage uses to hide from predators.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I196",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "to"
-            },
-            {
-              "id": "w7",
-              "text": "due"
-            },
-            {
-              "id": "w5",
-              "text": "natural"
-            },
-            {
-              "id": "w6",
-              "text": "habitat"
-            },
-            {
-              "id": "w0",
-              "text": "Many"
-            },
-            {
-              "id": "w3",
-              "text": "losing"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w9",
-              "text": "deforestation"
-            },
-            {
-              "id": "w4",
-              "text": "their"
-            },
-            {
-              "id": "w1",
-              "text": "animals"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I197",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Dolphins are highly intelligent marine mammals.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U26_I198",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"An animal lacking a backbone\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Reptile"
-            },
-            {
-              "id": "o3",
-              "text": "Biodiversity"
-            },
-            {
-              "id": "o1",
-              "text": "Invertebrate"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I199",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Ecosystem",
-              "right": "A biological community of interacting organisms"
-            },
-            {
-              "id": "p1",
-              "left": "Wildlife",
-              "right": "Wild animals collectively"
-            },
-            {
-              "id": "p2",
-              "left": "Conservation",
-              "right": "The protection of plants and animals"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I200",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "Animals (adapt/must) ________ to their environment.",
-          "correct_answer": "must adapt",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
         }
       ]
     }

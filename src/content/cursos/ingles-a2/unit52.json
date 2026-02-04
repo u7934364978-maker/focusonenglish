@@ -1,0 +1,1160 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U52",
+    "unit_title": "Social Life: Events & Invitations",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Events & Socializing",
+      "content": [
+        {
+          "interaction_id": "U52_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fiesta'?",
+          "options": [
+            { "id": "o1", "text": "Party" },
+            { "id": "o2", "text": "Meeting" },
+            { "id": "o3", "text": "Event" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Boda'?",
+          "options": [
+            { "id": "o1", "text": "Wedding" },
+            { "id": "o2", "text": "Marriage" },
+            { "id": "o3", "text": "Ceremony" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Concierto'?",
+          "options": [
+            { "id": "o1", "text": "Concert" },
+            { "id": "o2", "text": "Gig" },
+            { "id": "o3", "text": "Show" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cena'?",
+          "options": [
+            { "id": "o1", "text": "Dinner" },
+            { "id": "o2", "text": "Lunch" },
+            { "id": "o3", "text": "Supper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Invitación'?",
+          "options": [
+            { "id": "o1", "text": "Invitation" },
+            { "id": "o2", "text": "Invite" },
+            { "id": "o3", "text": "Inviting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cumpleaños'?",
+          "options": [
+            { "id": "o1", "text": "Birthday" },
+            { "id": "o2", "text": "Birth" },
+            { "id": "o3", "text": "Date" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reunión'?",
+          "options": [
+            { "id": "o1", "text": "Meeting" },
+            { "id": "o2", "text": "Gathering" },
+            { "id": "o3", "text": "Session" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Festival'?",
+          "options": [
+            { "id": "o1", "text": "Festival" },
+            { "id": "o2", "text": "Fiesta" },
+            { "id": "o3", "text": "Celebration" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Barbacoa'?",
+          "options": [
+            { "id": "o1", "text": "Barbecue (BBQ)" },
+            { "id": "o2", "text": "Grill" },
+            { "id": "o3", "text": "Picnic" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aniversario'?",
+          "options": [
+            { "id": "o1", "text": "Anniversary" },
+            { "id": "o2", "text": "Year" },
+            { "id": "o3", "text": "Celebration" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I11",
+          "type": "matching",
+          "prompt_es": "Empareja los verbos de invitación con su traducción.",
+          "pairs": [
+            { "id": "p1", "left": "Invite", "right": "Invitar" },
+            { "id": "p2", "left": "Accept", "right": "Aceptar" },
+            { "id": "p3", "left": "Decline", "right": "Rechazar" },
+            { "id": "p4", "left": "Celebrate", "right": "Celebrar" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I12",
+          "type": "flashcard",
+          "prompt_es": "Revisa el vocabulario de eventos.",
+          "flashcards": [
+            { "front": "Party", "back": "Fiesta", "pronunciation": "/ˈpɑːrti/" },
+            { "front": "Wedding", "back": "Boda", "pronunciation": "/ˈwedɪŋ/" },
+            { "front": "Concert", "back": "Concierto", "pronunciation": "/ˈkɑːnsərt/" },
+            { "front": "Dinner", "back": "Cena", "pronunciation": "/ˈdɪnər/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Organizar'?",
+          "options": [
+            { "id": "o1", "text": "Organize" },
+            { "id": "o2", "text": "Plan" },
+            { "id": "o3", "text": "Make" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Asistir a'?",
+          "options": [
+            { "id": "o1", "text": "Attend" },
+            { "id": "o2", "text": "Assist" },
+            { "id": "o3", "text": "Go to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Llevar (algo a una fiesta)'?",
+          "options": [
+            { "id": "o1", "text": "Bring" },
+            { "id": "o2", "text": "Take" },
+            { "id": "o3", "text": "Carry" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tener lugar / Celebrarse'?",
+          "options": [
+            { "id": "o1", "text": "Take place" },
+            { "id": "o2", "text": "Happen" },
+            { "id": "o3", "text": "Be" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Anfitrión'?",
+          "options": [
+            { "id": "o1", "text": "Host" },
+            { "id": "o2", "text": "Owner" },
+            { "id": "o3", "text": "Leader" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Invitado'?",
+          "options": [
+            { "id": "o1", "text": "Guest" },
+            { "id": "o2", "text": "Visitor" },
+            { "id": "o3", "text": "Friend" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Regalo'?",
+          "options": [
+            { "id": "o1", "text": "Gift / Present" },
+            { "id": "o2", "text": "Box" },
+            { "id": "o3", "text": "Suprise" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Divertirse'?",
+          "options": [
+            { "id": "o1", "text": "Have fun" },
+            { "id": "o2", "text": "Enjoy" },
+            { "id": "o3", "text": "Amuse" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I21",
+          "type": "matching",
+          "prompt_es": "Empareja los eventos con su descripción lógica.",
+          "pairs": [
+            { "id": "p1", "left": "Birthday", "right": "Celebrate a birth date" },
+            { "id": "p2", "left": "Wedding", "right": "Two people getting married" },
+            { "id": "p3", "left": "Concert", "right": "Live music performance" },
+            { "id": "p4", "left": "Dinner", "right": "Eating together in the evening" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Confirmar asistencia'?",
+          "options": [
+            { "id": "o1", "text": "RSVP" },
+            { "id": "o2", "text": "Confirm" },
+            { "id": "o3", "text": "Answer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lugar (del evento)'?",
+          "options": [
+            { "id": "o1", "text": "Venue" },
+            { "id": "o2", "text": "Place" },
+            { "id": "o3", "text": "Site" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tarde (después de las 6pm)'?",
+          "options": [
+            { "id": "o1", "text": "Evening" },
+            { "id": "o2", "text": "Afternoon" },
+            { "id": "o3", "text": "Night" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fin de semana'?",
+          "options": [
+            { "id": "o1", "text": "Weekend" },
+            { "id": "o2", "text": "Week" },
+            { "id": "o3", "text": "Holiday" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I26",
+          "type": "flashcard",
+          "prompt_es": "Más verbos sociales.",
+          "flashcards": [
+            { "front": "Meet", "back": "Quedar / Conocer", "pronunciation": "/miːt/" },
+            { "front": "Join", "back": "Unirse", "pronunciation": "/dʒɔɪn/" },
+            { "front": "Stay", "back": "Quedarse", "pronunciation": "/steɪ/" },
+            { "front": "Leave", "back": "Irse / Salir", "pronunciation": "/liːv/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pronto'?",
+          "options": [
+            { "id": "o1", "text": "Soon" },
+            { "id": "o2", "text": "Early" },
+            { "id": "o3", "text": "Fast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tarde'?",
+          "options": [
+            { "id": "o1", "text": "Late" },
+            { "id": "o2", "text": "Slow" },
+            { "id": "o3", "text": "Behind" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'A tiempo'?",
+          "options": [
+            { "id": "o1", "text": "On time" },
+            { "id": "o2", "text": "In time" },
+            { "id": "o3", "text": "By time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pasarlo bien'?",
+          "options": [
+            { "id": "o1", "text": "Have a good time" },
+            { "id": "o2", "text": "Pass it well" },
+            { "id": "o3", "text": "Enjoy it" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sorpresa'?",
+          "options": [
+            { "id": "o1", "text": "Surprise" },
+            { "id": "o2", "text": "Shock" },
+            { "id": "o3", "text": "Astonishment" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Globos'?",
+          "options": [
+            { "id": "o1", "text": "Balloons" },
+            { "id": "o2", "text": "Balls" },
+            { "id": "o3", "text": "Bubbles" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pastel'?",
+          "options": [
+            { "id": "o1", "text": "Cake" },
+            { "id": "o2", "text": "Pie" },
+            { "id": "o3", "text": "Sweet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Bebidas'?",
+          "options": [
+            { "id": "o1", "text": "Drinks" },
+            { "id": "o2", "text": "Beverages" },
+            { "id": "o3", "text": "Liquids" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Comida'?",
+          "options": [
+            { "id": "o1", "text": "Food" },
+            { "id": "o2", "text": "Meal" },
+            { "id": "o3", "text": "Dish" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Future Arrangements & Prepositions",
+      "content": [
+        {
+          "interaction_id": "U52_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la preposición correcta: 'The party is ___ Saturday.'",
+          "stimulus_en": "The party is ___ Saturday.",
+          "correct_answer": "on",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la preposición correcta: 'The concert starts ___ 8:00 PM.'",
+          "stimulus_en": "The concert starts ___ 8:00 PM.",
+          "correct_answer": "at",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la preposición correcta: 'My birthday is ___ July.'",
+          "stimulus_en": "My birthday is ___ July.",
+          "correct_answer": "in",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta del Present Continuous para un plan futuro?",
+          "options": [
+            { "id": "o1", "text": "I am meeting my friends tonight." },
+            { "id": "o2", "text": "I meet my friends tonight." },
+            { "id": "o3", "text": "I will meet my friends tonight." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntarías sobre los planes de alguien?",
+          "options": [
+            { "id": "o1", "text": "What are you doing this weekend?" },
+            { "id": "o2", "text": "What do you do this weekend?" },
+            { "id": "o3", "text": "What you are doing this weekend?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I41",
+          "type": "true_false",
+          "prompt_es": "'I'm going to a wedding on Friday' es correcto para un plan ya organizado.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I42",
+          "type": "true_false",
+          "prompt_es": "Usamos 'at' para los días de la semana.",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I43",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la pregunta: '¿Vas a venir a la fiesta?'",
+          "options": [
+            { "id": "w1", "text": "Are" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "coming" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "party?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U52_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (have) dinner with them tomorrow.' (Plan)",
+          "stimulus_en": "We ___ dinner with them tomorrow.",
+          "correct_answer": "are having",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la preposición para 'la noche' (en general)?",
+          "options": [
+            { "id": "o1", "text": "At night" },
+            { "id": "o2", "text": "In the night" },
+            { "id": "o3", "text": "On night" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (get) married next month.'",
+          "stimulus_en": "She ___ married next month.",
+          "correct_answer": "is getting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Nosotros no vamos a salir este sábado'?",
+          "options": [
+            { "id": "o1", "text": "We aren't going out this Saturday." },
+            { "id": "o2", "text": "We don't go out this Saturday." },
+            { "id": "o3", "text": "We not going out this Saturday." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Preposición para fechas completas: 'The wedding is ___ June 12th.'",
+          "stimulus_en": "The wedding is ___ June 12th.",
+          "correct_answer": "on",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I49",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Estamos organizando una fiesta sorpresa.'",
+          "options": [
+            { "id": "w1", "text": "We" },
+            { "id": "w2", "text": "are" },
+            { "id": "w3", "text": "organizing" },
+            { "id": "w4", "text": "a" },
+            { "id": "w5", "text": "surprise" },
+            { "id": "w6", "text": "party." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U52_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto para un plan?",
+          "options": [
+            { "id": "o1", "text": "They are having a BBQ on Sunday." },
+            { "id": "o2", "text": "They have a BBQ on Sunday." },
+            { "id": "o3", "text": "They will have a BBQ on Sunday." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (play) tennis with Paul at 5.'",
+          "stimulus_en": "I ___ tennis with Paul at 5.",
+          "correct_answer": "am playing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I52",
+          "type": "true_false",
+          "prompt_es": "Present Continuous no puede usarse para el futuro.",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿A qué hora empieza el concierto?'?",
+          "options": [
+            { "id": "o1", "text": "What time does the concert start?" },
+            { "id": "o2", "text": "What time starts the concert?" },
+            { "id": "o3", "text": "When the concert starting?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Are you ___ (work) tomorrow?'",
+          "stimulus_en": "Are you ___ tomorrow?",
+          "correct_answer": "working",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No voy a hacer nada especial'?",
+          "options": [
+            { "id": "o1", "text": "I'm not doing anything special." },
+            { "id": "o2", "text": "I don't do anything special." },
+            { "id": "o3", "text": "I not doing anything." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Preposición: 'See you ___ the weekend!'",
+          "stimulus_en": "See you ___ the weekend!",
+          "correct_answer": "at",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I57",
+          "type": "true_false",
+          "prompt_es": "Usamos 'on' para los meses (sin día).",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Viene ella a la cena?'",
+          "options": [
+            { "id": "w1", "text": "Is" },
+            { "id": "w2", "text": "she" },
+            { "id": "w3", "text": "coming" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "dinner?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U52_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (go) to the cinema with my sister.'",
+          "stimulus_en": "I ___ to the cinema with my sister.",
+          "correct_answer": "am going",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta correcta?",
+          "options": [
+            { "id": "o1", "text": "Who are you going with?" },
+            { "id": "o2", "text": "With who are you going?" },
+            { "id": "o3", "text": "Who you going with?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Preposición: 'The festival is ___ summer.'",
+          "stimulus_en": "The festival is ___ summer.",
+          "correct_answer": "in",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I62",
+          "type": "true_false",
+          "prompt_es": "'I'm meeting him in Friday' es correcto.",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Dónde se celebra la fiesta?'?",
+          "options": [
+            { "id": "o1", "text": "Where is the party taking place?" },
+            { "id": "o2", "text": "Where is the party being?" },
+            { "id": "o3", "text": "Where the party takes place?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (not / study) this afternoon.'",
+          "stimulus_en": "We ___ this afternoon.",
+          "correct_answer": "are not studying",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Pregunta sobre planes: '___ to the match tomorrow?'",
+          "options": [
+            { "id": "o1", "text": "Are you going" },
+            { "id": "o2", "text": "Do you go" },
+            { "id": "o3", "text": "Will you go" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Preposición: 'The meeting is ___ 10 am.'",
+          "stimulus_en": "The meeting is ___ 10 am.",
+          "correct_answer": "at",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I67",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Voy a visitar a mis abuelos.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "am" },
+            { "id": "w3", "text": "visiting" },
+            { "id": "w4", "text": "my" },
+            { "id": "w5", "text": "grandparents." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U52_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Vas a salir con nosotros?'?",
+          "options": [
+            { "id": "o1", "text": "Are you coming out with us?" },
+            { "id": "o2", "text": "Do you come out with us?" },
+            { "id": "o3", "text": "Are you going out with us?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (stay) at a hotel next week.'",
+          "stimulus_en": "They ___ at a hotel next week.",
+          "correct_answer": "are staying",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I70",
+          "type": "true_false",
+          "prompt_es": "Usamos 'on' para las estaciones del año.",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Making & Responding to Invitations",
+      "content": [
+        {
+          "interaction_id": "U52_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo invitas formalmente a alguien?",
+          "options": [
+            { "id": "o1", "text": "Would you like to come to my party?" },
+            { "id": "o2", "text": "Do you want to come to my party?" },
+            { "id": "o3", "text": "Are you coming to my party?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo aceptas una invitación con entusiasmo?",
+          "options": [
+            { "id": "o1", "text": "I'd love to! Thanks." },
+            { "id": "o2", "text": "Yes, I come." },
+            { "id": "o3", "text": "OK, I am there." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo rechazas una invitación educadamente?",
+          "options": [
+            { "id": "o1", "text": "I'm afraid I can't. I'm busy." },
+            { "id": "o2", "text": "No, I don't want to." },
+            { "id": "o3", "text": "I can't go." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I74",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Te gustaría venir a cenar?'",
+          "options": [
+            { "id": "w1", "text": "Would" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "like" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "come" },
+            { "id": "w6", "text": "for" },
+            { "id": "w7", "text": "dinner?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U52_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué respondes a 'Thanks for inviting me'?",
+          "options": [
+            { "id": "o1", "text": "You're welcome!" },
+            { "id": "o2", "text": "Please." },
+            { "id": "o3", "text": "Nothing." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Qué pena / Lástima'?",
+          "options": [
+            { "id": "o1", "text": "That's a pity / That's a shame." },
+            { "id": "o2", "text": "What a pain." },
+            { "id": "o3", "text": "How bad." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué debo llevar?'?",
+          "options": [
+            { "id": "o1", "text": "What should I bring?" },
+            { "id": "o2", "text": "What I bring?" },
+            { "id": "o3", "text": "Which thing I carry?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I78",
+          "type": "multiple_choice",
+          "prompt_es": "Respuesta a una invitación: 'That sounds great!' significa...",
+          "options": [
+            { "id": "o1", "text": "¡Eso suena genial!" },
+            { "id": "o2", "text": "¡Eso es ruidoso!" },
+            { "id": "o3", "text": "¡Eso es grande!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te veo allí'?",
+          "options": [
+            { "id": "o1", "text": "See you there!" },
+            { "id": "o2", "text": "I see you." },
+            { "id": "o3", "text": "Look you there." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I80",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Me encantaría ir, pero tengo que trabajar.'",
+          "options": [
+            { "id": "w1", "text": "I'd" },
+            { "id": "w2", "text": "love" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "go," },
+            { "id": "w5", "text": "but" },
+            { "id": "w6", "text": "I" },
+            { "id": "w7", "text": "have" },
+            { "id": "w8", "text": "to" },
+            { "id": "w9", "text": "work." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U52_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas si alguien está libre?",
+          "options": [
+            { "id": "o1", "text": "Are you free on Friday?" },
+            { "id": "o2", "text": "Have you free on Friday?" },
+            { "id": "o3", "text": "Do you free?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tal vez la próxima vez'?",
+          "options": [
+            { "id": "o1", "text": "Maybe next time." },
+            { "id": "o2", "text": "Perhaps other time." },
+            { "id": "o3", "text": "May next." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo invitas a alguien a salir (informal)?",
+          "options": [
+            { "id": "o1", "text": "Do you want to go out tonight?" },
+            { "id": "o2", "text": "You want go out?" },
+            { "id": "o3", "text": "Are you wanting to go out?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿A qué hora nos vemos?'?",
+          "options": [
+            { "id": "o1", "text": "What time shall we meet?" },
+            { "id": "o2", "text": "What time we meet?" },
+            { "id": "o3", "text": "When we see?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No puedo esperar' (ilusión)?",
+          "options": [
+            { "id": "o1", "text": "I can't wait!" },
+            { "id": "o2", "text": "I can't expect." },
+            { "id": "o3", "text": "I no wait." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿A quién más has invitado?'?",
+          "options": [
+            { "id": "o1", "text": "Who else have you invited?" },
+            { "id": "o2", "text": "Who more you invited?" },
+            { "id": "o3", "text": "Who else invited you?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Necesitas ayuda con algo?'?",
+          "options": [
+            { "id": "o1", "text": "Do you need help with anything?" },
+            { "id": "o2", "text": "Do you need help with something?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Dónde quedamos?'?",
+          "options": [
+            { "id": "o1", "text": "Where shall we meet?" },
+            { "id": "o2", "text": "Where we stay?" },
+            { "id": "o3", "text": "Where we meet?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Gracias de todos modos'?",
+          "options": [
+            { "id": "o1", "text": "Thanks anyway." },
+            { "id": "o2", "text": "Thanks for all." },
+            { "id": "o3", "text": "Anyway thanks." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Lo siento mucho'?",
+          "options": [
+            { "id": "o1", "text": "I'm so sorry." },
+            { "id": "o2", "text": "I sorry very much." },
+            { "id": "o3", "text": "I so sorry." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué tipo de fiesta es?'?",
+          "options": [
+            { "id": "o1", "text": "What kind of party is it?" },
+            { "id": "o2", "text": "What type party is?" },
+            { "id": "o3", "text": "Which party kind is it?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es una fiesta de disfraces'?",
+          "options": [
+            { "id": "o1", "text": "It's a fancy dress party." },
+            { "id": "o2", "text": "It's a costume party." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Pásalo bien!'?",
+          "options": [
+            { "id": "o1", "text": "Have a great time!" },
+            { "id": "o2", "text": "Enjoy yourself!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Podemos invitar a más gente?'?",
+          "options": [
+            { "id": "o1", "text": "Can we invite more people?" },
+            { "id": "o2", "text": "May we invite more people?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Por supuesto'?",
+          "options": [
+            { "id": "o1", "text": "Of course." },
+            { "id": "o2", "text": "Sure." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No te preocupes'?",
+          "options": [
+            { "id": "o1", "text": "Don't worry." },
+            { "id": "o2", "text": "No worries." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Salud!' (brindis)?",
+          "options": [
+            { "id": "o1", "text": "Cheers!" },
+            { "id": "o2", "text": "Health!" },
+            { "id": "o3", "text": "Salute!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Vendrás?'?",
+          "options": [
+            { "id": "o1", "text": "Are you coming?" },
+            { "id": "o2", "text": "Will you come?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Me encantaría!'?",
+          "options": [
+            { "id": "o1", "text": "I'd love to!" },
+            { "id": "o2", "text": "I would love it!" },
+            { "id": "o3", "text": "I love it!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U52_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Te gustaría venir a mi fiesta de cumpleaños el sábado a las ocho?'",
+          "stimulus_es": "¿Te gustaría venir a mi fiesta de cumpleaños el sábado a las ocho?",
+          "correct_answer": "Would you like to come to my birthday party on Saturday at eight?",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

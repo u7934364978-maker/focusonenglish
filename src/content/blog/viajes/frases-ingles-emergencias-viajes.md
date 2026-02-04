@@ -1,6 +1,6 @@
 ---
 title: "Frases de Emergencia en Inglés: Qué Decir Cuando Algo Sale Mal"
-date: "2026-02-01"
+date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Nadie quiere pensar en emergencias durante las vacaciones, pero estar preparado es vital. Aprende las frases clave y cómo las clases de inglés pueden salvarte de un apuro."
 category: "viajes"

@@ -1,6 +1,6 @@
 ---
 title: "Cómo escribir un CV en inglés que destaque: Guía definitiva y ejemplos 2026"
-date: "2026-02-10"
+date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Domina la redacción de tu currículum en inglés. Aprende las diferencias entre CV y Resume, verbos de acción y secciones clave para destacar en el mercado global en 2026."
 category: "trabajo"

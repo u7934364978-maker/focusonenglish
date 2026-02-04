@@ -31,13 +31,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Witness",
-              "right": "A person who sees an event"
+              "left": "Suspect",
+              "right": "A person thought to be guilty of a crime"
             },
             {
               "id": "p1",
-              "left": "Verdict",
-              "right": "A decision on a disputed issue in a civil or criminal case"
+              "left": "Innocent",
+              "right": "Not guilty of a crime or offense"
             },
             {
               "id": "p2",
@@ -56,15 +56,15 @@
           "interaction_id": "U21_I2",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "A new law (introduce) ________ next month.",
-          "correct_answer": "will be introduced",
+          "stimulus_en": "They (investigate) ________ the case since January.",
+          "correct_answer": "have been investigating",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U21_I3",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He maintains that he is completely innocent.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The jury found the defendant guilty of all charges.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -77,31 +77,39 @@
           "options": [
             {
               "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "sentence"
-            },
-            {
-              "id": "w1",
-              "text": "judge"
-            },
-            {
-              "id": "w3",
-              "text": "down"
+              "text": "defendant"
             },
             {
               "id": "w5",
-              "text": "ten-year"
+              "text": "guilty"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "found"
             },
             {
               "id": "w0",
               "text": "The"
             },
             {
-              "id": "w2",
-              "text": "handed"
+              "id": "w8",
+              "text": "charges"
+            },
+            {
+              "id": "w7",
+              "text": "all"
+            },
+            {
+              "id": "w1",
+              "text": "jury"
+            },
+            {
+              "id": "w6",
+              "text": "of"
             }
           ],
           "correct_answer": [
@@ -111,7 +119,9 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7",
+            "w8"
           ],
           "mastery_tag": "syntax"
         },
@@ -122,38 +132,38 @@
           "stimulus_en": "Speaker A: \"He hired a famous attorney to represent him.\"",
           "options": [
             {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
               "id": "r3",
               "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
             }
           ],
-          "correct_answer": "r2",
+          "correct_answer": "r15",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U21_I6",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Not guilty of a crime or offense\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Illegal entry of a building with intent to commit a crime\"",
           "options": [
-            {
-              "id": "o2",
-              "text": "Punishment"
-            },
             {
               "id": "o3",
               "text": "Offense"
             },
             {
               "id": "o1",
-              "text": "Innocent"
+              "text": "Burglary"
+            },
+            {
+              "id": "o2",
+              "text": "Justice"
             }
           ],
           "correct_answer": "o1",
@@ -167,18 +177,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Punishment",
-              "right": "The infliction of a penalty as retribution"
+              "left": "Guilty",
+              "right": "Culpable of or responsible for a specified wrongdoing"
             },
             {
               "id": "p1",
-              "left": "Suspect",
-              "right": "A person thought to be guilty of a crime"
+              "left": "Justice",
+              "right": "Just behavior or treatment"
             },
             {
               "id": "p2",
-              "left": "Guilty",
-              "right": "Culpable of or responsible for a specified wrongdoing"
+              "left": "Innocent",
+              "right": "Not guilty of a crime or offense"
             }
           ],
           "correct_answer": {
@@ -192,15 +202,15 @@
           "interaction_id": "U21_I8",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If he (commit) ________ the crime, he will go to prison.",
-          "correct_answer": "commits",
+          "stimulus_en": "A new law (introduce) ________ next month.",
+          "correct_answer": "will be introduced",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U21_I9",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He maintains he that is completely innocent.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The criminal justice system needs be to fair for everyone.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -212,16 +222,16 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
+              "id": "w1",
+              "text": "witness"
+            },
+            {
+              "id": "w4",
+              "text": "suspect"
+            },
+            {
               "id": "w6",
-              "text": "last"
-            },
-            {
-              "id": "w8",
-              "text": "several"
-            },
-            {
-              "id": "w3",
-              "text": "is"
+              "text": "court"
             },
             {
               "id": "w0",
@@ -229,166 +239,15 @@
             },
             {
               "id": "w2",
-              "text": "trial"
-            },
-            {
-              "id": "w4",
-              "text": "expected"
-            },
-            {
-              "id": "w1",
-              "text": "murder"
-            },
-            {
-              "id": "w7",
-              "text": "for"
-            },
-            {
-              "id": "w9",
-              "text": "weeks"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I11",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He maintains that he is completely innocent.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person who sees an event\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Witness"
-            },
-            {
-              "id": "o3",
-              "text": "Sentence"
-            },
-            {
-              "id": "o2",
-              "text": "Evidence"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I13",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Suspect",
-              "right": "A person thought to be guilty of a crime"
-            },
-            {
-              "id": "p1",
-              "left": "Verdict",
-              "right": "A decision on a disputed issue in a civil or criminal case"
-            },
-            {
-              "id": "p2",
-              "left": "Punishment",
-              "right": "The infliction of a penalty as retribution"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I14",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The bank (rob) ________ yesterday.",
-          "correct_answer": "was robbed",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I15",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The identified witness the suspect in court.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I16",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
+              "text": "identified"
             },
             {
               "id": "w3",
-              "text": "empty"
-            },
-            {
-              "id": "w4",
-              "text": "during"
-            },
-            {
-              "id": "w1",
-              "text": "house"
-            },
-            {
-              "id": "w5",
               "text": "the"
             },
             {
-              "id": "w2",
-              "text": "was"
-            },
-            {
-              "id": "w6",
-              "text": "burglary"
+              "id": "w5",
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -403,44 +262,200 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U21_I17",
+          "interaction_id": "U21_I11",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The police are looking for a key suspect in the case.\"",
+          "stimulus_en": "Speaker A: \"The jury found the defendant guilty of all charges.\"",
           "options": [
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             },
             {
               "id": "r2",
               "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U21_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The punishment assigned to a defendant found guilty\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Suspect"
+            },
+            {
+              "id": "o1",
+              "text": "Sentence"
+            },
+            {
+              "id": "o2",
+              "text": "Offense"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Offense",
+              "right": "A breach of a law or rule; an illegal act"
+            },
+            {
+              "id": "p1",
+              "left": "Innocent",
+              "right": "Not guilty of a crime or offense"
+            },
+            {
+              "id": "p2",
+              "left": "Witness",
+              "right": "A person who sees an event"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The painting (steal) ________ last night.",
+          "correct_answer": "was stolen",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The house was empty during the burglary.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "looking"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w10",
+              "text": "case"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "key"
+            },
+            {
+              "id": "w7",
+              "text": "suspect"
+            },
+            {
+              "id": "w8",
+              "text": "in"
+            },
+            {
+              "id": "w9",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w1",
+              "text": "police"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U21_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He maintains that he is completely innocent.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r2",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U21_I18",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Relating to the treatment and rehabilitation of offenders\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Just behavior or treatment\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Correctional"
-            },
-            {
-              "id": "o2",
+              "id": "o3",
               "text": "Suspect"
             },
             {
-              "id": "o3",
-              "text": "Crime"
+              "id": "o1",
+              "text": "Justice"
+            },
+            {
+              "id": "o2",
+              "text": "Punishment"
             }
           ],
           "correct_answer": "o1",
@@ -459,8 +474,8 @@
             },
             {
               "id": "p1",
-              "left": "Suspect",
-              "right": "A person thought to be guilty of a crime"
+              "left": "Punishment",
+              "right": "The infliction of a penalty as retribution"
             },
             {
               "id": "p2",
@@ -479,16 +494,16 @@
           "interaction_id": "U21_I20",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ there was less crime in our city.",
-          "correct_answer": "wish",
+          "stimulus_en": "The evidence (examine) ________ in the lab.",
+          "correct_answer": "is being examined",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U21_I21",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The was house empty during the burglary.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The jury reached a verdict after three hours.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -499,40 +514,44 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "jury"
-            },
-            {
-              "id": "w2",
-              "text": "found"
-            },
-            {
               "id": "w6",
-              "text": "of"
+              "text": "be"
+            },
+            {
+              "id": "w9",
+              "text": "everyone"
             },
             {
               "id": "w8",
-              "text": "charges"
+              "text": "for"
             },
             {
-              "id": "w7",
-              "text": "all"
+              "id": "w1",
+              "text": "criminal"
+            },
+            {
+              "id": "w2",
+              "text": "justice"
+            },
+            {
+              "id": "w4",
+              "text": "needs"
             },
             {
               "id": "w5",
-              "text": "guilty"
+              "text": "to"
             },
             {
               "id": "w0",
               "text": "The"
             },
             {
-              "id": "w4",
-              "text": "defendant"
+              "id": "w7",
+              "text": "fair"
+            },
+            {
+              "id": "w3",
+              "text": "system"
             }
           ],
           "correct_answer": [
@@ -544,7 +563,8 @@
             "w5",
             "w6",
             "w7",
-            "w8"
+            "w8",
+            "w9"
           ],
           "mastery_tag": "syntax"
         },
@@ -552,41 +572,41 @@
           "interaction_id": "U21_I23",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He hired a famous attorney to represent him.\"",
+          "stimulus_en": "Speaker A: \"He maintains that he is completely innocent.\"",
           "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
             {
               "id": "r19",
               "text": "That would be perfect, thank you."
             },
             {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             }
           ],
-          "correct_answer": "r1",
+          "correct_answer": "r19",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U21_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Not guilty of a crime or offense\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Illegal entry of a building with intent to commit a crime\"",
           "options": [
             {
-              "id": "o3",
-              "text": "Trial"
+              "id": "o1",
+              "text": "Burglary"
             },
             {
               "id": "o2",
-              "text": "Witness"
+              "text": "Evidence"
             },
             {
-              "id": "o1",
-              "text": "Innocent"
+              "id": "o3",
+              "text": "Witness"
             }
           ],
           "correct_answer": "o1",
@@ -600,18 +620,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Suspect",
-              "right": "A person thought to be guilty of a crime"
+              "left": "Trial",
+              "right": "A formal examination of evidence by a judge"
             },
             {
               "id": "p1",
-              "left": "Correctional",
-              "right": "Relating to the treatment and rehabilitation of offenders"
+              "left": "Evidence",
+              "right": "Information indicating whether a belief is true"
             },
             {
               "id": "p2",
-              "left": "Offense",
-              "right": "A breach of a law or rule; an illegal act"
+              "left": "Crime",
+              "right": "An action or omission which constitutes an offense"
             }
           ],
           "correct_answer": {
@@ -625,16 +645,16 @@
           "interaction_id": "U21_I26",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (plead) ________ guilty to the charges.",
-          "correct_answer": "pleaded",
+          "stimulus_en": "Did you (see) ________ the news about the trial?",
+          "correct_answer": "see",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U21_I27",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is the maximum punishment this for crime?\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He maintains that he is completely innocent.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -645,32 +665,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "identified"
-            },
-            {
-              "id": "w6",
-              "text": "court"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "The"
+              "id": "w4",
+              "text": "punishment"
             },
             {
               "id": "w1",
-              "text": "witness"
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "this"
             },
             {
               "id": "w5",
-              "text": "in"
+              "text": "for"
             },
             {
-              "id": "w4",
-              "text": "suspect"
+              "id": "w7",
+              "text": "crime?"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "maximum"
             }
           ],
           "correct_answer": [
@@ -680,7 +704,8 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7"
           ],
           "mastery_tag": "syntax"
         },
@@ -688,41 +713,41 @@
           "interaction_id": "U21_I29",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"It was his first offense, so he received a light sentence.\"",
+          "stimulus_en": "Speaker A: \"The police are looking for a key suspect in the case.\"",
           "options": [
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r15",
               "text": "That's very kind of you to offer."
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             }
           ],
-          "correct_answer": "r15",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U21_I30",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The punishment assigned to a defendant found guilty\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Information indicating whether a belief is true\"",
           "options": [
             {
               "id": "o2",
+              "text": "Punishment"
+            },
+            {
+              "id": "o3",
               "text": "Verdict"
             },
             {
               "id": "o1",
-              "text": "Sentence"
-            },
-            {
-              "id": "o3",
-              "text": "Innocent"
+              "text": "Evidence"
             }
           ],
           "correct_answer": "o1",
@@ -741,13 +766,13 @@
             },
             {
               "id": "p1",
-              "left": "Justice",
-              "right": "Just behavior or treatment"
+              "left": "Punishment",
+              "right": "The infliction of a penalty as retribution"
             },
             {
               "id": "p2",
-              "left": "Attorney",
-              "right": "A person, typically a lawyer, who is appointed to act for another"
+              "left": "Justice",
+              "right": "Just behavior or treatment"
             }
           ],
           "correct_answer": {
@@ -761,16 +786,16 @@
           "interaction_id": "U21_I32",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (accuse) ________ of shoplifting.",
-          "correct_answer": "was accused",
+          "stimulus_en": "A new law (introduce) ________ next month.",
+          "correct_answer": "will be introduced",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U21_I33",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He hired a famous attorney to represent him.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The criminal justice system needs to fair be for everyone.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -781,44 +806,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "murder"
+              "id": "w6",
+              "text": "of"
             },
             {
-              "id": "w9",
-              "text": "weeks"
-            },
-            {
-              "id": "w2",
-              "text": "trial"
+              "id": "w4",
+              "text": "defendant"
             },
             {
               "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w7",
-              "text": "for"
-            },
-            {
-              "id": "w8",
-              "text": "several"
+              "text": "the"
             },
             {
               "id": "w0",
               "text": "The"
             },
             {
-              "id": "w4",
-              "text": "expected"
+              "id": "w5",
+              "text": "guilty"
             },
             {
-              "id": "w6",
-              "text": "last"
+              "id": "w7",
+              "text": "all"
+            },
+            {
+              "id": "w1",
+              "text": "jury"
+            },
+            {
+              "id": "w2",
+              "text": "found"
+            },
+            {
+              "id": "w8",
+              "text": "charges"
             }
           ],
           "correct_answer": [
@@ -830,8 +851,7 @@
             "w5",
             "w6",
             "w7",
-            "w8",
-            "w9"
+            "w8"
           ],
           "mastery_tag": "syntax"
         },
@@ -839,41 +859,41 @@
           "interaction_id": "U21_I35",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The criminal justice system needs to be fair for everyone.\"",
+          "stimulus_en": "Speaker A: \"The jury reached a verdict after three hours.\"",
           "options": [
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             },
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U21_I36",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A person thought to be guilty of a crime\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A person thought to be guilty of a crime\"",
           "options": [
-            {
-              "id": "o2",
-              "text": "Offense"
-            },
             {
               "id": "o1",
               "text": "Suspect"
             },
             {
               "id": "o3",
-              "text": "Innocent"
+              "text": "Verdict"
+            },
+            {
+              "id": "o2",
+              "text": "Burglary"
             }
           ],
           "correct_answer": "o1",
@@ -887,13 +907,149 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Innocent",
-              "right": "Not guilty of a crime or offense"
+              "left": "Justice",
+              "right": "Just behavior or treatment"
             },
             {
               "id": "p1",
+              "left": "Evidence",
+              "right": "Information indicating whether a belief is true"
+            },
+            {
+              "id": "p2",
+              "left": "Sentence",
+              "right": "The punishment assigned to a defendant found guilty"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (plead) ________ guilty to the charges.",
+          "correct_answer": "pleaded",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The police are looking for a key suspect in the case.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "court"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "witness"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "suspect"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "identified"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U21_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The witness identified the suspect in court.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U21_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person, typically a lawyer, who is appointed to act for another\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Suspect"
+            },
+            {
+              "id": "o2",
+              "text": "Offense"
+            },
+            {
+              "id": "o1",
+              "text": "Attorney"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
               "left": "Offense",
               "right": "A breach of a law or rule; an illegal act"
+            },
+            {
+              "id": "p1",
+              "left": "Burglary",
+              "right": "Illegal entry of a building with intent to commit a crime"
             },
             {
               "id": "p2",
@@ -909,159 +1065,18 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U21_I38",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (investigate) ________ the case since January.",
-          "correct_answer": "have been investigating",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I39",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He maintains that he is completely innocent.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I40",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "hired"
-            },
-            {
-              "id": "w6",
-              "text": "represent"
-            },
-            {
-              "id": "w4",
-              "text": "attorney"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "him"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w3",
-              "text": "famous"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I41",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The witness identified the suspect in court.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I42",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The infliction of a penalty as retribution\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Justice"
-            },
-            {
-              "id": "o3",
-              "text": "Suspect"
-            },
-            {
-              "id": "o1",
-              "text": "Punishment"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I43",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Crime",
-              "right": "An action or omission which constitutes an offense"
-            },
-            {
-              "id": "p1",
-              "left": "Punishment",
-              "right": "The infliction of a penalty as retribution"
-            },
-            {
-              "id": "p2",
-              "left": "Burglary",
-              "right": "Illegal entry of a building with intent to commit a crime"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U21_I44",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The letters (deliver) ________ this morning.",
-          "correct_answer": "were delivered",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "The suspects (catch/already) ________.",
+          "correct_answer": "have already been caught",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U21_I45",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The jury reached verdict a after three hours.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The criminal justice system needs to fair be for everyone.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1073,32 +1088,32 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "wasn't"
-            },
-            {
-              "id": "w6",
-              "text": "him"
-            },
-            {
-              "id": "w3",
-              "text": "evidence"
-            },
-            {
-              "id": "w5",
-              "text": "convict"
-            },
-            {
               "id": "w4",
-              "text": "to"
+              "text": "a"
             },
             {
               "id": "w0",
-              "text": "There"
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "sentence"
+            },
+            {
+              "id": "w1",
+              "text": "judge"
             },
             {
               "id": "w2",
-              "text": "enough"
+              "text": "handed"
+            },
+            {
+              "id": "w5",
+              "text": "ten-year"
+            },
+            {
+              "id": "w3",
+              "text": "down"
             }
           ],
           "correct_answer": [
@@ -1116,41 +1131,41 @@
           "interaction_id": "U21_I47",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The jury found the defendant guilty of all charges.\"",
+          "stimulus_en": "Speaker A: \"It was his first offense, so he received a light sentence.\"",
           "options": [
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             },
             {
               "id": "r5",
               "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U21_I48",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A breach of a law or rule; an illegal act\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person who sees an event\"",
           "options": [
             {
-              "id": "o3",
-              "text": "Evidence"
-            },
-            {
               "id": "o2",
-              "text": "Correctional"
+              "text": "Suspect"
             },
             {
               "id": "o1",
-              "text": "Offense"
+              "text": "Witness"
+            },
+            {
+              "id": "o3",
+              "text": "Crime"
             }
           ],
           "correct_answer": "o1",
@@ -1164,13 +1179,164 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Evidence",
-              "right": "Information indicating whether a belief is true"
+              "left": "Witness",
+              "right": "A person who sees an event"
             },
             {
               "id": "p1",
-              "left": "Guilty",
-              "right": "Culpable of or responsible for a specified wrongdoing"
+              "left": "Trial",
+              "right": "A formal examination of evidence by a judge"
+            },
+            {
+              "id": "p2",
+              "left": "Burglary",
+              "right": "Illegal entry of a building with intent to commit a crime"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (accuse) ________ of shoplifting.",
+          "correct_answer": "was accused",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"It was first his offense, so he received a light sentence.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "be"
+            },
+            {
+              "id": "w9",
+              "text": "everyone"
+            },
+            {
+              "id": "w4",
+              "text": "needs"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "criminal"
+            },
+            {
+              "id": "w8",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "justice"
+            },
+            {
+              "id": "w7",
+              "text": "fair"
+            },
+            {
+              "id": "w3",
+              "text": "system"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U21_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"There wasn't enough evidence to convict him.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U21_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A person thought to be guilty of a crime\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Punishment"
+            },
+            {
+              "id": "o1",
+              "text": "Suspect"
+            },
+            {
+              "id": "o3",
+              "text": "Innocent"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Verdict",
+              "right": "A decision on a disputed issue in a civil or criminal case"
+            },
+            {
+              "id": "p1",
+              "left": "Attorney",
+              "right": "A person, typically a lawyer, who is appointed to act for another"
             },
             {
               "id": "p2",
@@ -1186,67 +1352,67 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U21_I50",
+          "interaction_id": "U21_I56",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (investigate) ________ the case since January.",
-          "correct_answer": "have been investigating",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "The suspects (catch/already) ________.",
+          "correct_answer": "have already been caught",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U21_I51",
+          "interaction_id": "U21_I57",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The house empty was during the burglary.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He hired a famous attorney to represent him.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U21_I52",
+          "interaction_id": "U21_I58",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "looking"
-            },
-            {
               "id": "w4",
               "text": "for"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w8",
-              "text": "in"
-            },
-            {
-              "id": "w10",
-              "text": "case"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "key"
             },
             {
               "id": "w7",
               "text": "suspect"
             },
             {
-              "id": "w1",
-              "text": "police"
+              "id": "w10",
+              "text": "case"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w6",
+              "text": "key"
             },
             {
               "id": "w9",
               "text": "the"
+            },
+            {
+              "id": "w8",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "police"
+            },
+            {
+              "id": "w3",
+              "text": "looking"
             },
             {
               "id": "w5",
@@ -1269,7 +1435,7 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U21_I53",
+          "interaction_id": "U21_I59",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
           "stimulus_en": "Speaker A: \"The jury found the defendant guilty of all charges.\"",
@@ -1283,166 +1449,30 @@
               "text": "That would be perfect, thank you."
             },
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             }
           ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I54",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A person thought to be guilty of a crime\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Attorney"
-            },
-            {
-              "id": "o3",
-              "text": "Justice"
-            },
-            {
-              "id": "o1",
-              "text": "Suspect"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I55",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Trial",
-              "right": "A formal examination of evidence by a judge"
-            },
-            {
-              "id": "p1",
-              "left": "Witness",
-              "right": "A person who sees an event"
-            },
-            {
-              "id": "p2",
-              "left": "Crime",
-              "right": "An action or omission which constitutes an offense"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I56",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (plead) ________ guilty to the charges.",
-          "correct_answer": "pleaded",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I57",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The police are looking a for key suspect in the case.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I58",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "burglary"
-            },
-            {
-              "id": "w4",
-              "text": "during"
-            },
-            {
-              "id": "w2",
-              "text": "was"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "house"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "empty"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I59",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He hired a famous attorney to represent him.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r2",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U21_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Illegal entry of a building with intent to commit a crime\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Relating to the treatment and rehabilitation of offenders\"",
           "options": [
-            {
-              "id": "o1",
-              "text": "Burglary"
-            },
-            {
-              "id": "o2",
-              "text": "Punishment"
-            },
             {
               "id": "o3",
               "text": "Innocent"
+            },
+            {
+              "id": "o2",
+              "text": "Attorney"
+            },
+            {
+              "id": "o1",
+              "text": "Correctional"
             }
           ],
           "correct_answer": "o1",
@@ -1456,18 +1486,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Guilty",
-              "right": "Culpable of or responsible for a specified wrongdoing"
+              "left": "Evidence",
+              "right": "Information indicating whether a belief is true"
             },
             {
               "id": "p1",
-              "left": "Trial",
-              "right": "A formal examination of evidence by a judge"
+              "left": "Sentence",
+              "right": "The punishment assigned to a defendant found guilty"
             },
             {
               "id": "p2",
-              "left": "Innocent",
-              "right": "Not guilty of a crime or offense"
+              "left": "Witness",
+              "right": "A person who sees an event"
             }
           ],
           "correct_answer": {
@@ -1481,15 +1511,15 @@
           "interaction_id": "U21_I62",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (accuse) ________ of shoplifting.",
-          "correct_answer": "was accused",
+          "stimulus_en": "The letters (deliver) ________ this morning.",
+          "correct_answer": "were delivered",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U21_I63",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The jury found the defendant guilty of all charges.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The judge handed down a ten-year sentence.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1501,44 +1531,497 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "works"
+              "id": "w7",
+              "text": "him"
             },
             {
               "id": "w6",
-              "text": "a"
+              "text": "represent"
             },
             {
-              "id": "w5",
-              "text": "at"
-            },
-            {
-              "id": "w7",
-              "text": "local"
+              "id": "w3",
+              "text": "famous"
             },
             {
               "id": "w0",
               "text": "He"
             },
             {
-              "id": "w4",
-              "text": "guard"
+              "id": "w2",
+              "text": "a"
             },
+            {
+              "id": "w4",
+              "text": "attorney"
+            },
+            {
+              "id": "w1",
+              "text": "hired"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U21_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The murder trial is expected to last for several weeks.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U21_I66",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Not guilty of a crime or offense\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Correctional"
+            },
+            {
+              "id": "o1",
+              "text": "Innocent"
+            },
+            {
+              "id": "o2",
+              "text": "Burglary"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Correctional",
+              "right": "Relating to the treatment and rehabilitation of offenders"
+            },
+            {
+              "id": "p1",
+              "left": "Offense",
+              "right": "A breach of a law or rule; an illegal act"
+            },
+            {
+              "id": "p2",
+              "left": "Evidence",
+              "right": "Information indicating whether a belief is true"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I68",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The bank (rob) ________ yesterday.",
+          "correct_answer": "was robbed",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The judge handed down a ten-year sentence.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
             {
               "id": "w9",
-              "text": "facility"
+              "text": "the"
             },
             {
-              "id": "w2",
-              "text": "as"
+              "id": "w5",
+              "text": "a"
             },
             {
-              "id": "w8",
-              "text": "correctional"
+              "id": "w10",
+              "text": "case"
+            },
+            {
+              "id": "w6",
+              "text": "key"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w7",
+              "text": "suspect"
             },
             {
               "id": "w3",
+              "text": "looking"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w8",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "police"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U21_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He works as a guard at a local correctional facility.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U21_I72",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Illegal entry of a building with intent to commit a crime\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Punishment"
+            },
+            {
+              "id": "o1",
+              "text": "Burglary"
+            },
+            {
+              "id": "o3",
+              "text": "Guilty"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Verdict",
+              "right": "A decision on a disputed issue in a civil or criminal case"
+            },
+            {
+              "id": "p1",
+              "left": "Innocent",
+              "right": "Not guilty of a crime or offense"
+            },
+            {
+              "id": "p2",
+              "left": "Offense",
+              "right": "A breach of a law or rule; an illegal act"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Did you (see) ________ the news about the trial?",
+          "correct_answer": "see",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The jury reached a verdict after three hours.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "police"
+            },
+            {
+              "id": "w10",
+              "text": "case"
+            },
+            {
+              "id": "w7",
+              "text": "suspect"
+            },
+            {
+              "id": "w8",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "key"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w5",
               "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "looking"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U21_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The house was empty during the burglary.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U21_I78",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A breach of a law or rule; an illegal act\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Offense"
+            },
+            {
+              "id": "o2",
+              "text": "Justice"
+            },
+            {
+              "id": "o3",
+              "text": "Guilty"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Offense",
+              "right": "A breach of a law or rule; an illegal act"
+            },
+            {
+              "id": "p1",
+              "left": "Correctional",
+              "right": "Relating to the treatment and rehabilitation of offenders"
+            },
+            {
+              "id": "p2",
+              "left": "Burglary",
+              "right": "Illegal entry of a building with intent to commit a crime"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "A new law (introduce) ________ next month.",
+          "correct_answer": "will be introduced",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The police are looking for a key suspect in the case.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "for"
+            },
+            {
+              "id": "w4",
+              "text": "needs"
+            },
+            {
+              "id": "w1",
+              "text": "criminal"
+            },
+            {
+              "id": "w9",
+              "text": "everyone"
+            },
+            {
+              "id": "w3",
+              "text": "system"
+            },
+            {
+              "id": "w2",
+              "text": "justice"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "be"
+            },
+            {
+              "id": "w7",
+              "text": "fair"
+            },
+            {
+              "id": "w5",
+              "text": "to"
             }
           ],
           "correct_answer": [
@@ -1556,18 +2039,18 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U21_I65",
+          "interaction_id": "U21_I83",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What is the maximum punishment for this crime?\"",
+          "stimulus_en": "Speaker A: \"The witness identified the suspect in court.\"",
           "options": [
             {
               "id": "r15",
               "text": "That's very kind of you to offer."
             },
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             },
             {
               "id": "r4",
@@ -1579,439 +2062,21 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U21_I66",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Not guilty of a crime or offense\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Innocent"
-            },
-            {
-              "id": "o3",
-              "text": "Trial"
-            },
-            {
-              "id": "o2",
-              "text": "Guilty"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I67",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Trial",
-              "right": "A formal examination of evidence by a judge"
-            },
-            {
-              "id": "p1",
-              "left": "Witness",
-              "right": "A person who sees an event"
-            },
-            {
-              "id": "p2",
-              "left": "Punishment",
-              "right": "The infliction of a penalty as retribution"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I68",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (investigate) ________ the case since January.",
-          "correct_answer": "have been investigating",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I69",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He hired a famous attorney to represent him.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I70",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "attorney"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w1",
-              "text": "hired"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "famous"
-            },
-            {
-              "id": "w7",
-              "text": "him"
-            },
-            {
-              "id": "w6",
-              "text": "represent"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I71",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The witness identified the suspect in court.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I72",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A breach of a law or rule; an illegal act\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Verdict"
-            },
-            {
-              "id": "o2",
-              "text": "Innocent"
-            },
-            {
-              "id": "o1",
-              "text": "Offense"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I73",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Trial",
-              "right": "A formal examination of evidence by a judge"
-            },
-            {
-              "id": "p1",
-              "left": "Correctional",
-              "right": "Relating to the treatment and rehabilitation of offenders"
-            },
-            {
-              "id": "p2",
-              "left": "Sentence",
-              "right": "The punishment assigned to a defendant found guilty"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I74",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (plead) ________ guilty to the charges.",
-          "correct_answer": "pleaded",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I75",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The criminal justice system needs to be fair for everyone.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I76",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "evidence"
-            },
-            {
-              "id": "w6",
-              "text": "him"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w1",
-              "text": "wasn't"
-            },
-            {
-              "id": "w2",
-              "text": "enough"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            },
-            {
-              "id": "w5",
-              "text": "convict"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I77",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The witness identified the suspect in court.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I78",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Relating to the treatment and rehabilitation of offenders\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Correctional"
-            },
-            {
-              "id": "o3",
-              "text": "Sentence"
-            },
-            {
-              "id": "o2",
-              "text": "Innocent"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I79",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Justice",
-              "right": "Just behavior or treatment"
-            },
-            {
-              "id": "p1",
-              "left": "Suspect",
-              "right": "A person thought to be guilty of a crime"
-            },
-            {
-              "id": "p2",
-              "left": "Witness",
-              "right": "A person who sees an event"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I80",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ there was less crime in our city.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I81",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The murder trial is expected to last for several weeks.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I82",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "hours"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "jury"
-            },
-            {
-              "id": "w5",
-              "text": "after"
-            },
-            {
-              "id": "w2",
-              "text": "reached"
-            },
-            {
-              "id": "w6",
-              "text": "three"
-            },
-            {
-              "id": "w4",
-              "text": "verdict"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I83",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The jury reached a verdict after three hours.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
           "interaction_id": "U21_I84",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A formal examination of evidence by a judge\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Not guilty of a crime or offense\"",
           "options": [
             {
+              "id": "o3",
+              "text": "Punishment"
+            },
+            {
               "id": "o1",
-              "text": "Trial"
+              "text": "Innocent"
             },
             {
               "id": "o2",
-              "text": "Evidence"
-            },
-            {
-              "id": "o3",
-              "text": "Justice"
+              "text": "Crime"
             }
           ],
           "correct_answer": "o1",
@@ -2025,18 +2090,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Justice",
-              "right": "Just behavior or treatment"
+              "left": "Innocent",
+              "right": "Not guilty of a crime or offense"
             },
             {
               "id": "p1",
-              "left": "Crime",
-              "right": "An action or omission which constitutes an offense"
+              "left": "Correctional",
+              "right": "Relating to the treatment and rehabilitation of offenders"
             },
             {
               "id": "p2",
-              "left": "Punishment",
-              "right": "The infliction of a penalty as retribution"
+              "left": "Trial",
+              "right": "A formal examination of evidence by a judge"
             }
           ],
           "correct_answer": {
@@ -2058,7 +2123,7 @@
         {
           "interaction_id": "U21_I87",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There wasn't evidence enough to convict him.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The jury reached a verdict after hours. three\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -2070,32 +2135,44 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "maintains"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w3",
-              "text": "he"
-            },
-            {
-              "id": "w6",
-              "text": "innocent"
-            },
-            {
               "id": "w5",
-              "text": "completely"
+              "text": "to"
             },
             {
-              "id": "w2",
-              "text": "that"
+              "id": "w7",
+              "text": "for"
             },
             {
               "id": "w4",
+              "text": "expected"
+            },
+            {
+              "id": "w8",
+              "text": "several"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "murder"
+            },
+            {
+              "id": "w9",
+              "text": "weeks"
+            },
+            {
+              "id": "w6",
+              "text": "last"
+            },
+            {
+              "id": "w3",
               "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "trial"
             }
           ],
           "correct_answer": [
@@ -2105,7 +2182,10 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7",
+            "w8",
+            "w9"
           ],
           "mastery_tag": "syntax"
         },
@@ -2113,41 +2193,41 @@
           "interaction_id": "U21_I89",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He hired a famous attorney to represent him.\"",
+          "stimulus_en": "Speaker A: \"The criminal justice system needs to be fair for everyone.\"",
           "options": [
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
             }
           ],
-          "correct_answer": "r3",
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U21_I90",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The infliction of a penalty as retribution\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A formal examination of evidence by a judge\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Witness"
+              "id": "o3",
+              "text": "Evidence"
             },
             {
               "id": "o1",
-              "text": "Punishment"
+              "text": "Trial"
             },
             {
-              "id": "o3",
-              "text": "Justice"
+              "id": "o2",
+              "text": "Correctional"
             }
           ],
           "correct_answer": "o1",
@@ -2171,8 +2251,8 @@
             },
             {
               "id": "p2",
-              "left": "Suspect",
-              "right": "A person thought to be guilty of a crime"
+              "left": "Justice",
+              "right": "Just behavior or treatment"
             }
           ],
           "correct_answer": {
@@ -2186,15 +2266,15 @@
           "interaction_id": "U21_I92",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If he (commit) ________ the crime, he will go to prison.",
-          "correct_answer": "commits",
+          "stimulus_en": "I (wish) ________ there was less crime in our city.",
+          "correct_answer": "wish",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U21_I93",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The murder trial is expected to last for weeks. several\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The judge handed down a sentence. ten-year\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -2206,48 +2286,44 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w8",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "looking"
-            },
-            {
               "id": "w6",
-              "text": "key"
-            },
-            {
-              "id": "w1",
-              "text": "police"
-            },
-            {
-              "id": "w10",
-              "text": "case"
-            },
-            {
-              "id": "w9",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "suspect"
-            },
-            {
-              "id": "w5",
               "text": "a"
             },
             {
+              "id": "w0",
+              "text": "He"
+            },
+            {
               "id": "w4",
-              "text": "for"
+              "text": "guard"
+            },
+            {
+              "id": "w2",
+              "text": "as"
+            },
+            {
+              "id": "w8",
+              "text": "correctional"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "at"
+            },
+            {
+              "id": "w1",
+              "text": "works"
+            },
+            {
+              "id": "w9",
+              "text": "facility"
+            },
+            {
+              "id": "w7",
+              "text": "local"
             }
           ],
           "correct_answer": [
@@ -2260,8 +2336,7 @@
             "w6",
             "w7",
             "w8",
-            "w9",
-            "w10"
+            "w9"
           ],
           "mastery_tag": "syntax"
         },
@@ -2269,41 +2344,41 @@
           "interaction_id": "U21_I95",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The witness identified the suspect in court.\"",
+          "stimulus_en": "Speaker A: \"It was his first offense, so he received a light sentence.\"",
           "options": [
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
             }
           ],
-          "correct_answer": "r2",
+          "correct_answer": "r15",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U21_I96",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A person who sees an event\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The punishment assigned to a defendant found guilty\"",
           "options": [
             {
               "id": "o1",
-              "text": "Witness"
-            },
-            {
-              "id": "o3",
               "text": "Sentence"
             },
             {
               "id": "o2",
-              "text": "Crime"
+              "text": "Guilty"
+            },
+            {
+              "id": "o3",
+              "text": "Witness"
             }
           ],
           "correct_answer": "o1",
@@ -2317,18 +2392,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Attorney",
-              "right": "A person, typically a lawyer, who is appointed to act for another"
+              "left": "Guilty",
+              "right": "Culpable of or responsible for a specified wrongdoing"
             },
             {
               "id": "p1",
-              "left": "Sentence",
-              "right": "The punishment assigned to a defendant found guilty"
+              "left": "Innocent",
+              "right": "Not guilty of a crime or offense"
             },
             {
               "id": "p2",
-              "left": "Justice",
-              "right": "Just behavior or treatment"
+              "left": "Witness",
+              "right": "A person who sees an event"
             }
           ],
           "correct_answer": {
@@ -2350,7 +2425,7 @@
         {
           "interaction_id": "U21_I99",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The jury found the defendant guilty all of charges.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The police looking are for a key suspect in the case.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -2362,2311 +2437,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "crime"
-            },
-            {
-              "id": "w3",
-              "text": "decreased"
-            },
-            {
               "id": "w7",
-              "text": "recently"
-            },
-            {
-              "id": "w0",
-              "text": "Violent"
+              "text": "hours"
             },
             {
               "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w5",
-              "text": "the"
+              "text": "verdict"
             },
             {
               "id": "w6",
-              "text": "area"
-            },
-            {
-              "id": "w2",
-              "text": "has"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I101",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The police are looking for a key suspect in the case.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I102",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The punishment assigned to a defendant found guilty\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Witness"
-            },
-            {
-              "id": "o1",
-              "text": "Sentence"
-            },
-            {
-              "id": "o2",
-              "text": "Trial"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I103",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Punishment",
-              "right": "The infliction of a penalty as retribution"
-            },
-            {
-              "id": "p1",
-              "left": "Witness",
-              "right": "A person who sees an event"
-            },
-            {
-              "id": "p2",
-              "left": "Evidence",
-              "right": "Information indicating whether a belief is true"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I104",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ there was less crime in our city.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I105",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He hired a famous attorney to represent him.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I106",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w7",
-              "text": "suspect"
-            },
-            {
-              "id": "w3",
-              "text": "looking"
-            },
-            {
-              "id": "w6",
-              "text": "key"
-            },
-            {
-              "id": "w8",
-              "text": "in"
+              "text": "three"
             },
             {
               "id": "w0",
               "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "police"
-            },
-            {
-              "id": "w10",
-              "text": "case"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w9",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I107",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The judge handed down a ten-year sentence.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I108",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Not guilty of a crime or offense\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Burglary"
-            },
-            {
-              "id": "o1",
-              "text": "Innocent"
-            },
-            {
-              "id": "o2",
-              "text": "Guilty"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I109",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Burglary",
-              "right": "Illegal entry of a building with intent to commit a crime"
-            },
-            {
-              "id": "p1",
-              "left": "Verdict",
-              "right": "A decision on a disputed issue in a civil or criminal case"
-            },
-            {
-              "id": "p2",
-              "left": "Crime",
-              "right": "An action or omission which constitutes an offense"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I110",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The painting (steal) ________ last night.",
-          "correct_answer": "was stolen",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I111",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There wasn't evidence enough to convict him.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I112",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w1",
-              "text": "hired"
-            },
-            {
-              "id": "w7",
-              "text": "him"
-            },
-            {
-              "id": "w4",
-              "text": "attorney"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w6",
-              "text": "represent"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "famous"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I113",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The criminal justice system needs to be fair for everyone.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I114",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The punishment assigned to a defendant found guilty\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Suspect"
-            },
-            {
-              "id": "o3",
-              "text": "Offense"
-            },
-            {
-              "id": "o1",
-              "text": "Sentence"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I115",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sentence",
-              "right": "The punishment assigned to a defendant found guilty"
-            },
-            {
-              "id": "p1",
-              "left": "Verdict",
-              "right": "A decision on a disputed issue in a civil or criminal case"
-            },
-            {
-              "id": "p2",
-              "left": "Correctional",
-              "right": "Relating to the treatment and rehabilitation of offenders"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I116",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The evidence (examine) ________ in the lab.",
-          "correct_answer": "is being examined",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I117",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is the maximum punishment for this crime?\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I118",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "for"
-            },
-            {
-              "id": "w2",
-              "text": "justice"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w4",
-              "text": "needs"
-            },
-            {
-              "id": "w9",
-              "text": "everyone"
-            },
-            {
-              "id": "w6",
-              "text": "be"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "system"
-            },
-            {
-              "id": "w7",
-              "text": "fair"
-            },
-            {
-              "id": "w1",
-              "text": "criminal"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I119",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The witness identified the suspect in court.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I120",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Illegal entry of a building with intent to commit a crime\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Burglary"
-            },
-            {
-              "id": "o3",
-              "text": "Evidence"
-            },
-            {
-              "id": "o2",
-              "text": "Sentence"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I121",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Verdict",
-              "right": "A decision on a disputed issue in a civil or criminal case"
-            },
-            {
-              "id": "p1",
-              "left": "Witness",
-              "right": "A person who sees an event"
-            },
-            {
-              "id": "p2",
-              "left": "Sentence",
-              "right": "The punishment assigned to a defendant found guilty"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I122",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "A new law (introduce) ________ next month.",
-          "correct_answer": "will be introduced",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I123",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The judge handed down a ten-year sentence.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I124",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "him"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w4",
-              "text": "attorney"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "represent"
-            },
-            {
-              "id": "w1",
-              "text": "hired"
-            },
-            {
-              "id": "w3",
-              "text": "famous"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I125",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The jury reached a verdict after three hours.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I126",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A decision on a disputed issue in a civil or criminal case\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Verdict"
-            },
-            {
-              "id": "o3",
-              "text": "Burglary"
-            },
-            {
-              "id": "o2",
-              "text": "Crime"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I127",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Attorney",
-              "right": "A person, typically a lawyer, who is appointed to act for another"
-            },
-            {
-              "id": "p1",
-              "left": "Suspect",
-              "right": "A person thought to be guilty of a crime"
-            },
-            {
-              "id": "p2",
-              "left": "Trial",
-              "right": "A formal examination of evidence by a judge"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I128",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ there was less crime in our city.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I129",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The house was empty dur the burglary.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I130",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "fair"
-            },
-            {
-              "id": "w8",
-              "text": "for"
-            },
-            {
-              "id": "w3",
-              "text": "system"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w4",
-              "text": "needs"
-            },
-            {
-              "id": "w2",
-              "text": "justice"
-            },
-            {
-              "id": "w9",
-              "text": "everyone"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w1",
-              "text": "criminal"
-            },
-            {
-              "id": "w6",
-              "text": "be"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I131",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He works as a guard at a local correctional facility.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I132",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Not guilty of a crime or offense\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Sentence"
-            },
-            {
-              "id": "o2",
-              "text": "Attorney"
-            },
-            {
-              "id": "o1",
-              "text": "Innocent"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I133",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Trial",
-              "right": "A formal examination of evidence by a judge"
-            },
-            {
-              "id": "p1",
-              "left": "Suspect",
-              "right": "A person thought to be guilty of a crime"
-            },
-            {
-              "id": "p2",
-              "left": "Correctional",
-              "right": "Relating to the treatment and rehabilitation of offenders"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I134",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The letters (deliver) ________ this morning.",
-          "correct_answer": "were delivered",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I135",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He hired famous a attorney to represent him.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I136",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "evidence"
-            },
-            {
-              "id": "w1",
-              "text": "wasn't"
-            },
-            {
-              "id": "w2",
-              "text": "enough"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "him"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            },
-            {
-              "id": "w5",
-              "text": "convict"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I137",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"It was his first offense, so he received a light sentence.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I138",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A person thought to be guilty of a crime\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Evidence"
-            },
-            {
-              "id": "o2",
-              "text": "Burglary"
-            },
-            {
-              "id": "o1",
-              "text": "Suspect"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I139",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Justice",
-              "right": "Just behavior or treatment"
-            },
-            {
-              "id": "p1",
-              "left": "Verdict",
-              "right": "A decision on a disputed issue in a civil or criminal case"
-            },
-            {
-              "id": "p2",
-              "left": "Crime",
-              "right": "An action or omission which constitutes an offense"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I140",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "When (build/the house) ________?",
-          "correct_answer": "was the house built",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I141",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The witness identified the suspect in court.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I142",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "him"
-            },
-            {
-              "id": "w3",
-              "text": "evidence"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "convict"
-            },
-            {
-              "id": "w2",
-              "text": "enough"
-            },
-            {
-              "id": "w1",
-              "text": "wasn't"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I143",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The police are looking for a key suspect in the case.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I144",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A formal examination of evidence by a judge\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Trial"
-            },
-            {
-              "id": "o3",
-              "text": "Evidence"
-            },
-            {
-              "id": "o2",
-              "text": "Punishment"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I145",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Verdict",
-              "right": "A decision on a disputed issue in a civil or criminal case"
-            },
-            {
-              "id": "p1",
-              "left": "Offense",
-              "right": "A breach of a law or rule; an illegal act"
-            },
-            {
-              "id": "p2",
-              "left": "Witness",
-              "right": "A person who sees an event"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I146",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The witness (question) ________ for three hours.",
-          "correct_answer": "was questioned",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I147",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The police are looking for a key suspect in the case.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I148",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "attorney"
-            },
-            {
-              "id": "w7",
-              "text": "him"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "famous"
-            },
-            {
-              "id": "w1",
-              "text": "hired"
-            },
-            {
-              "id": "w6",
-              "text": "represent"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I149",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He maintains that he is completely innocent.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I150",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person who sees an event\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Correctional"
-            },
-            {
-              "id": "o2",
-              "text": "Crime"
-            },
-            {
-              "id": "o1",
-              "text": "Witness"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I151",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Witness",
-              "right": "A person who sees an event"
-            },
-            {
-              "id": "p1",
-              "left": "Trial",
-              "right": "A formal examination of evidence by a judge"
-            },
-            {
-              "id": "p2",
-              "left": "Justice",
-              "right": "Just behavior or treatment"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I152",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The letters (deliver) ________ this morning.",
-          "correct_answer": "were delivered",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I153",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The jury found the defendant guilty of all charges.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I154",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "punishment"
-            },
-            {
-              "id": "w3",
-              "text": "maximum"
-            },
-            {
-              "id": "w7",
-              "text": "crime?"
-            },
-            {
-              "id": "w6",
-              "text": "this"
-            },
-            {
-              "id": "w5",
-              "text": "for"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I155",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The judge handed down a ten-year sentence.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I156",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Just behavior or treatment\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Crime"
-            },
-            {
-              "id": "o1",
-              "text": "Justice"
-            },
-            {
-              "id": "o3",
-              "text": "Suspect"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I157",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Correctional",
-              "right": "Relating to the treatment and rehabilitation of offenders"
-            },
-            {
-              "id": "p1",
-              "left": "Attorney",
-              "right": "A person, typically a lawyer, who is appointed to act for another"
-            },
-            {
-              "id": "p2",
-              "left": "Trial",
-              "right": "A formal examination of evidence by a judge"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I158",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (investigate) ________ the case since January.",
-          "correct_answer": "have been investigating",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I159",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There wasn't enough evidence to convict him.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I160",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "for"
-            },
-            {
-              "id": "w3",
-              "text": "maximum"
-            },
-            {
-              "id": "w4",
-              "text": "punishment"
-            },
-            {
-              "id": "w6",
-              "text": "this"
-            },
-            {
-              "id": "w7",
-              "text": "crime?"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I161",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The jury found the defendant guilty of all charges.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I162",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Information indicating whether a belief is true\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Evidence"
-            },
-            {
-              "id": "o2",
-              "text": "Burglary"
-            },
-            {
-              "id": "o3",
-              "text": "Offense"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I163",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Offense",
-              "right": "A breach of a law or rule; an illegal act"
-            },
-            {
-              "id": "p1",
-              "left": "Attorney",
-              "right": "A person, typically a lawyer, who is appointed to act for another"
-            },
-            {
-              "id": "p2",
-              "left": "Evidence",
-              "right": "Information indicating whether a belief is true"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I164",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "When (build/the house) ________?",
-          "correct_answer": "was the house built",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I165",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is the maximum punishment for this crime?\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I166",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "court"
-            },
-            {
-              "id": "w4",
-              "text": "suspect"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "identified"
-            },
-            {
-              "id": "w1",
-              "text": "witness"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I167",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What is the maximum punishment for this crime?\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I168",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A breach of a law or rule; an illegal act\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Offense"
-            },
-            {
-              "id": "o3",
-              "text": "Innocent"
-            },
-            {
-              "id": "o2",
-              "text": "Punishment"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I169",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sentence",
-              "right": "The punishment assigned to a defendant found guilty"
-            },
-            {
-              "id": "p1",
-              "left": "Punishment",
-              "right": "The infliction of a penalty as retribution"
-            },
-            {
-              "id": "p2",
-              "left": "Evidence",
-              "right": "Information indicating whether a belief is true"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I170",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "When (the house/build) ________?",
-          "correct_answer": "was the house built",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I171",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The murder trial is expected to last for several weeks.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I172",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "for"
-            },
-            {
-              "id": "w8",
-              "text": "several"
-            },
-            {
-              "id": "w2",
-              "text": "trial"
-            },
-            {
-              "id": "w1",
-              "text": "murder"
-            },
-            {
-              "id": "w4",
-              "text": "expected"
-            },
-            {
-              "id": "w9",
-              "text": "weeks"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "last"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I173",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What is the maximum punishment for this crime?\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I174",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The infliction of a penalty as retribution\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Guilty"
-            },
-            {
-              "id": "o3",
-              "text": "Suspect"
-            },
-            {
-              "id": "o1",
-              "text": "Punishment"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I175",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Offense",
-              "right": "A breach of a law or rule; an illegal act"
-            },
-            {
-              "id": "p1",
-              "left": "Trial",
-              "right": "A formal examination of evidence by a judge"
-            },
-            {
-              "id": "p2",
-              "left": "Crime",
-              "right": "An action or omission which constitutes an offense"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I176",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "The suspects (catch/already) ________.",
-          "correct_answer": "have already been caught",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I177",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He works as a guard at a local correctional facility.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I178",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "identified"
-            },
-            {
-              "id": "w4",
-              "text": "suspect"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w6",
-              "text": "court"
-            },
-            {
-              "id": "w1",
-              "text": "witness"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I179",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Violent crime has decreased in the area recently.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I180",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The punishment assigned to a defendant found guilty\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Punishment"
-            },
-            {
-              "id": "o2",
-              "text": "Justice"
-            },
-            {
-              "id": "o1",
-              "text": "Sentence"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I181",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Crime",
-              "right": "An action or omission which constitutes an offense"
-            },
-            {
-              "id": "p1",
-              "left": "Punishment",
-              "right": "The infliction of a penalty as retribution"
-            },
-            {
-              "id": "p2",
-              "left": "Burglary",
-              "right": "Illegal entry of a building with intent to commit a crime"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I182",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "The suspects (catch/already) ________.",
-          "correct_answer": "have already been caught",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I183",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The murder trial is expected to last several for weeks.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I184",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            },
-            {
-              "id": "w5",
-              "text": "convict"
-            },
-            {
-              "id": "w3",
-              "text": "evidence"
-            },
-            {
-              "id": "w6",
-              "text": "him"
-            },
-            {
-              "id": "w1",
-              "text": "wasn't"
-            },
-            {
-              "id": "w2",
-              "text": "enough"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I185",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He works as a guard at a local correctional facility.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I186",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Culpable of or responsible for a specified wrongdoing\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Suspect"
-            },
-            {
-              "id": "o1",
-              "text": "Guilty"
-            },
-            {
-              "id": "o2",
-              "text": "Justice"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I187",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Guilty",
-              "right": "Culpable of or responsible for a specified wrongdoing"
-            },
-            {
-              "id": "p1",
-              "left": "Verdict",
-              "right": "A decision on a disputed issue in a civil or criminal case"
-            },
-            {
-              "id": "p2",
-              "left": "Attorney",
-              "right": "A person, typically a lawyer, who is appointed to act for another"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I188",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "A new law (introduce) ________ next month.",
-          "correct_answer": "will be introduced",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I189",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He maintains that he is completely innocent.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I190",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "evidence"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w2",
-              "text": "enough"
-            },
-            {
-              "id": "w6",
-              "text": "him"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            },
-            {
-              "id": "w1",
-              "text": "wasn't"
-            },
-            {
-              "id": "w5",
-              "text": "convict"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I191",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He maintains that he is completely innocent.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I192",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Culpable of or responsible for a specified wrongdoing\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Trial"
-            },
-            {
-              "id": "o2",
-              "text": "Crime"
-            },
-            {
-              "id": "o1",
-              "text": "Guilty"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I193",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Attorney",
-              "right": "A person, typically a lawyer, who is appointed to act for another"
-            },
-            {
-              "id": "p1",
-              "left": "Punishment",
-              "right": "The infliction of a penalty as retribution"
-            },
-            {
-              "id": "p2",
-              "left": "Burglary",
-              "right": "Illegal entry of a building with intent to commit a crime"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I194",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The witness (question) ________ for three hours.",
-          "correct_answer": "was questioned",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I195",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The police are looking a for key suspect in the case.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I196",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "charges"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "found"
-            },
-            {
-              "id": "w5",
-              "text": "guilty"
             },
             {
               "id": "w1",
               "text": "jury"
             },
             {
-              "id": "w6",
-              "text": "of"
-            },
-            {
               "id": "w3",
-              "text": "the"
+              "text": "a"
             },
             {
-              "id": "w7",
-              "text": "all"
+              "id": "w5",
+              "text": "after"
             },
             {
-              "id": "w4",
-              "text": "defendant"
+              "id": "w2",
+              "text": "reached"
             }
           ],
           "correct_answer": [
@@ -4677,92 +2477,9 @@
             "w4",
             "w5",
             "w6",
-            "w7",
-            "w8"
+            "w7"
           ],
           "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U21_I197",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The jury found the defendant guilty of all charges.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U21_I198",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Information indicating whether a belief is true\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Evidence"
-            },
-            {
-              "id": "o2",
-              "text": "Punishment"
-            },
-            {
-              "id": "o3",
-              "text": "Justice"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I199",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sentence",
-              "right": "The punishment assigned to a defendant found guilty"
-            },
-            {
-              "id": "p1",
-              "left": "Justice",
-              "right": "Just behavior or treatment"
-            },
-            {
-              "id": "p2",
-              "left": "Burglary",
-              "right": "Illegal entry of a building with intent to commit a crime"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I200",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "When (the house/build) ________?",
-          "correct_answer": "was the house built",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
         }
       ]
     }

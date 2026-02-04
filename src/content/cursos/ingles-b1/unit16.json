@@ -31,18 +31,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Innovation",
-              "right": "A new method, idea, or product"
+              "left": "Theory",
+              "right": "A system of ideas intended to explain something"
             },
             {
               "id": "p1",
-              "left": "Data",
-              "right": "Facts and statistics collected together for reference or analysis"
+              "left": "Microscope",
+              "right": "An optical instrument for viewing very small objects"
             },
             {
               "id": "p2",
-              "left": "Analysis",
-              "right": "Detailed examination of the elements or structure of something"
+              "left": "Invention",
+              "right": "The action of inventing something"
             }
           ],
           "correct_answer": {
@@ -56,15 +56,15 @@
           "interaction_id": "U16_I2",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (visit) ________ my grandmother this weekend.",
-          "correct_answer": "am going to visit",
+          "stimulus_en": "He (lose) ________ his notes in the fire.",
+          "correct_answer": "lost",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I3",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The invention the of internet changed the world.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She uses scientific a approach to solve problems.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -77,31 +77,35 @@
           "options": [
             {
               "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "your"
+              "text": "under"
             },
             {
               "id": "w6",
-              "text": "experiment?"
+              "text": "a"
             },
             {
-              "id": "w3",
-              "text": "hypothesis"
+              "id": "w7",
+              "text": "microscope"
             },
             {
               "id": "w0",
-              "text": "What"
+              "text": "You"
             },
             {
               "id": "w4",
-              "text": "for"
+              "text": "cells"
             },
             {
               "id": "w1",
-              "text": "is"
+              "text": "can"
+            },
+            {
+              "id": "w2",
+              "text": "see"
+            },
+            {
+              "id": "w3",
+              "text": "the"
             }
           ],
           "correct_answer": [
@@ -111,7 +115,8 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7"
           ],
           "mastery_tag": "syntax"
         },
@@ -119,19 +124,19 @@
           "interaction_id": "U16_I5",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The discovery of penicillin was a major breakthrough.\"",
+          "stimulus_en": "Speaker A: \"He spent all day working in the laboratory.\"",
           "options": [
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             },
             {
               "id": "r19",
               "text": "That would be perfect, thank you."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             }
           ],
           "correct_answer": "r19",
@@ -141,19 +146,19 @@
         {
           "interaction_id": "U16_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Detailed examination of the elements or structure of something\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A judgment or decision reached by reasoning\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Laboratory"
+              "id": "o1",
+              "text": "Conclusion"
             },
             {
               "id": "o3",
-              "text": "Scientific"
+              "text": "Discovery"
             },
             {
-              "id": "o1",
-              "text": "Analysis"
+              "id": "o2",
+              "text": "Hypothesis"
             }
           ],
           "correct_answer": "o1",
@@ -167,13 +172,154 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Discovery",
-              "right": "The act of finding or learning something for the first time"
+              "left": "Microscope",
+              "right": "An optical instrument for viewing very small objects"
             },
             {
               "id": "p1",
-              "left": "Data",
-              "right": "Facts and statistics collected together for reference or analysis"
+              "left": "Conclusion",
+              "right": "A judgment or decision reached by reasoning"
+            },
+            {
+              "id": "p2",
+              "left": "Experiment",
+              "right": "A scientific procedure to make a discovery"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (study) ________ physics for five years.",
+          "correct_answer": "has been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You see can the cells under a microscope.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "was"
+            },
+            {
+              "id": "w1",
+              "text": "discovery"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w7",
+              "text": "breakthrough"
+            },
+            {
+              "id": "w6",
+              "text": "major"
+            },
+            {
+              "id": "w3",
+              "text": "penicillin"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U16_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We need to perform a detailed analysis of the results.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The act of finding or learning something for the first time\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Discovery"
+            },
+            {
+              "id": "o3",
+              "text": "Observation"
+            },
+            {
+              "id": "o2",
+              "text": "Conclusion"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Scientific",
+              "right": "Based on or characterized by the methods and principles of science"
+            },
+            {
+              "id": "p1",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain something"
             },
             {
               "id": "p2",
@@ -189,63 +335,63 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U16_I8",
+          "interaction_id": "U16_I14",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (visit) ________ my grandmother this weekend.",
-          "correct_answer": "am going to visit",
+          "stimulus_en": "We (meet) ________ at the lab at 9 AM.",
+          "correct_answer": "are meeting",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U16_I9",
+          "interaction_id": "U16_I15",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You can see the cells a under microscope.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Technological innovation is key to progress.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U16_I10",
+          "interaction_id": "U16_I16",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w8",
-              "text": "cancer"
-            },
-            {
               "id": "w3",
-              "text": "working"
+              "text": "conclusion"
             },
             {
               "id": "w4",
-              "text": "on"
-            },
-            {
-              "id": "w6",
-              "text": "cure"
-            },
-            {
-              "id": "w5",
-              "text": "a"
+              "text": "after"
             },
             {
               "id": "w1",
-              "text": "researchers"
+              "text": "reached"
             },
             {
-              "id": "w0",
-              "text": "Many"
+              "id": "w8",
+              "text": "evidence"
             },
             {
-              "id": "w7",
-              "text": "for"
+              "id": "w6",
+              "text": "all"
             },
             {
               "id": "w2",
-              "text": "are"
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w5",
+              "text": "reviewing"
             }
           ],
           "correct_answer": [
@@ -262,175 +408,44 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U16_I11",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The invention of the internet changed the world.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I12",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"An optical instrument for viewing very small objects\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Analysis"
-            },
-            {
-              "id": "o2",
-              "text": "Researcher"
-            },
-            {
-              "id": "o1",
-              "text": "Microscope"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I13",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Observation",
-              "right": "The action or process of observing something carefully"
-            },
-            {
-              "id": "p1",
-              "left": "Data",
-              "right": "Facts and statistics collected together for reference or analysis"
-            },
-            {
-              "id": "p2",
-              "left": "Biology",
-              "right": "The study of living organisms"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I14",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Next year, we (travel) ________ to Japan.",
-          "correct_answer": "are going to travel",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I15",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You can see the cells under a microscope.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I16",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Technological"
-            },
-            {
-              "id": "w3",
-              "text": "key"
-            },
-            {
-              "id": "w1",
-              "text": "innovation"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "progress"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
           "interaction_id": "U16_I17",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Einstein is famous for his theory of relativity.\"",
+          "stimulus_en": "Speaker A: \"Biology is the study of life and living organisms.\"",
           "options": [
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             },
             {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r19",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U16_I18",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"An optical instrument for viewing very small objects\"",
+          "prompt_es": "Identifica la palabra correcta para: \"The study of living organisms\"",
           "options": [
             {
               "id": "o2",
-              "text": "Biology"
-            },
-            {
-              "id": "o1",
               "text": "Microscope"
             },
             {
               "id": "o3",
-              "text": "Laboratory"
+              "text": "Observation"
+            },
+            {
+              "id": "o1",
+              "text": "Biology"
             }
           ],
           "correct_answer": "o1",
@@ -444,18 +459,18 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Analysis",
+              "right": "Detailed examination of the elements or structure of something"
+            },
+            {
+              "id": "p1",
               "left": "Conclusion",
               "right": "A judgment or decision reached by reasoning"
             },
             {
-              "id": "p1",
-              "left": "Laboratory",
-              "right": "A room or building for scientific research"
-            },
-            {
               "id": "p2",
-              "left": "Microscope",
-              "right": "An optical instrument for viewing very small objects"
+              "left": "Scientific",
+              "right": "Based on or characterized by the methods and principles of science"
             }
           ],
           "correct_answer": {
@@ -469,16 +484,16 @@
           "interaction_id": "U16_I20",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If we (discover) ________ a new planet, it would be amazing.",
-          "correct_answer": "discovered",
+          "stimulus_en": "He (study) ________ physics for five years.",
+          "correct_answer": "has been studying",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I21",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is your hypothesis for the experiment?\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The invention of the internet the changed world.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -489,44 +504,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w8",
-              "text": "your"
-            },
-            {
               "id": "w4",
-              "text": "all"
-            },
-            {
-              "id": "w2",
-              "text": "record"
-            },
-            {
-              "id": "w6",
-              "text": "observations"
-            },
-            {
-              "id": "w9",
-              "text": "notebook"
-            },
-            {
-              "id": "w0",
-              "text": "Keep"
-            },
-            {
-              "id": "w1",
-              "text": "a"
+              "text": "on"
             },
             {
               "id": "w7",
-              "text": "in"
+              "text": "for"
             },
             {
               "id": "w3",
-              "text": "of"
+              "text": "working"
+            },
+            {
+              "id": "w0",
+              "text": "Many"
+            },
+            {
+              "id": "w1",
+              "text": "researchers"
+            },
+            {
+              "id": "w2",
+              "text": "are"
             },
             {
               "id": "w5",
-              "text": "your"
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "cancer"
+            },
+            {
+              "id": "w6",
+              "text": "cure"
             }
           ],
           "correct_answer": [
@@ -538,8 +549,7 @@
             "w5",
             "w6",
             "w7",
-            "w8",
-            "w9"
+            "w8"
           ],
           "mastery_tag": "syntax"
         },
@@ -547,41 +557,41 @@
           "interaction_id": "U16_I23",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What is your hypothesis for the experiment?\"",
+          "stimulus_en": "Speaker A: \"She uses a scientific approach to solve problems.\"",
           "options": [
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
             },
             {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             }
           ],
-          "correct_answer": "r10",
+          "correct_answer": "r19",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U16_I24",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The study of living organisms\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A scientific procedure to make a discovery\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Biology"
+              "id": "o3",
+              "text": "Laboratory"
             },
             {
-              "id": "o3",
-              "text": "Conclusion"
+              "id": "o1",
+              "text": "Experiment"
             },
             {
               "id": "o2",
-              "text": "Invention"
+              "text": "Observation"
             }
           ],
           "correct_answer": "o1",
@@ -595,18 +605,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Analysis",
-              "right": "Detailed examination of the elements or structure of something"
+              "left": "Biology",
+              "right": "The study of living organisms"
             },
             {
               "id": "p1",
-              "left": "Microscope",
-              "right": "An optical instrument for viewing very small objects"
+              "left": "Scientific",
+              "right": "Based on or characterized by the methods and principles of science"
             },
             {
               "id": "p2",
-              "left": "Observation",
-              "right": "The action or process of observing something carefully"
+              "left": "Discovery",
+              "right": "The act of finding or learning something for the first time"
             }
           ],
           "correct_answer": {
@@ -620,16 +630,16 @@
           "interaction_id": "U16_I26",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (lose) ________ his notes in the fire.",
-          "correct_answer": "lost",
+          "stimulus_en": "Wait, I (help) ________ you with those bags.",
+          "correct_answer": "will help",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I27",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The data supports the initial findings of study. the\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You can see the cells under a microscope.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -640,40 +650,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Biology"
-            },
-            {
-              "id": "w7",
-              "text": "living"
-            },
-            {
               "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w3",
-              "text": "study"
+              "text": "on"
             },
             {
               "id": "w6",
-              "text": "and"
+              "text": "cure"
             },
             {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w8",
-              "text": "organisms"
-            },
-            {
-              "id": "w5",
-              "text": "life"
+              "id": "w7",
+              "text": "for"
             },
             {
               "id": "w2",
-              "text": "the"
+              "text": "are"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "working"
+            },
+            {
+              "id": "w1",
+              "text": "researchers"
+            },
+            {
+              "id": "w0",
+              "text": "Many"
+            },
+            {
+              "id": "w8",
+              "text": "cancer"
             }
           ],
           "correct_answer": [
@@ -693,8 +703,12 @@
           "interaction_id": "U16_I29",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The data supports the initial findings of the study.\"",
+          "stimulus_en": "Speaker A: \"Einstein is famous for his theory of relativity.\"",
           "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
             {
               "id": "r15",
               "text": "That's very kind of you to offer."
@@ -702,32 +716,28 @@
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
             }
           ],
-          "correct_answer": "r15",
+          "correct_answer": "r2",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U16_I30",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A system of ideas intended to explain something\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The action of inventing something\"",
           "options": [
             {
               "id": "o3",
-              "text": "Conclusion"
-            },
-            {
-              "id": "o1",
-              "text": "Theory"
+              "text": "Analysis"
             },
             {
               "id": "o2",
-              "text": "Analysis"
+              "text": "Scientific"
+            },
+            {
+              "id": "o1",
+              "text": "Invention"
             }
           ],
           "correct_answer": "o1",
@@ -741,18 +751,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Biology",
-              "right": "The study of living organisms"
+              "left": "Researcher",
+              "right": "A person who carries out academic or scientific research"
             },
             {
               "id": "p1",
-              "left": "Microscope",
-              "right": "An optical instrument for viewing very small objects"
+              "left": "Innovation",
+              "right": "A new method, idea, or product"
             },
             {
               "id": "p2",
-              "left": "Researcher",
-              "right": "A person who carries out academic or scientific research"
+              "left": "Microscope",
+              "right": "An optical instrument for viewing very small objects"
             }
           ],
           "correct_answer": {
@@ -766,15 +776,15 @@
           "interaction_id": "U16_I32",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (meet) ________ at the lab at 9 AM.",
-          "correct_answer": "are meeting",
+          "stimulus_en": "They (find) ________ a cure for the disease soon.",
+          "correct_answer": "will find",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I33",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is your hypothesis for experiment? the\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He spent all day working in laboratory. the\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -787,39 +797,35 @@
           "options": [
             {
               "id": "w6",
-              "text": "and"
-            },
-            {
-              "id": "w5",
-              "text": "life"
-            },
-            {
-              "id": "w0",
-              "text": "Biology"
-            },
-            {
-              "id": "w8",
-              "text": "organisms"
+              "text": "major"
             },
             {
               "id": "w1",
-              "text": "is"
+              "text": "discovery"
             },
             {
               "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "living"
+              "text": "of"
             },
             {
               "id": "w3",
-              "text": "study"
+              "text": "penicillin"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "breakthrough"
             },
             {
               "id": "w4",
-              "text": "of"
+              "text": "was"
             }
           ],
           "correct_answer": [
@@ -830,8 +836,7 @@
             "w4",
             "w5",
             "w6",
-            "w7",
-            "w8"
+            "w7"
           ],
           "mastery_tag": "syntax"
         },
@@ -839,41 +844,41 @@
           "interaction_id": "U16_I35",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The discovery of penicillin was a major breakthrough.\"",
+          "stimulus_en": "Speaker A: \"Keep a record of all your observations in your notebook.\"",
           "options": [
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             },
             {
               "id": "r3",
               "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U16_I36",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The study of living organisms\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A scientific procedure to make a discovery\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Biology"
+              "id": "o2",
+              "text": "Discovery"
             },
             {
               "id": "o3",
-              "text": "Invention"
+              "text": "Researcher"
             },
             {
-              "id": "o2",
-              "text": "Analysis"
+              "id": "o1",
+              "text": "Experiment"
             }
           ],
           "correct_answer": "o1",
@@ -887,13 +892,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Microscope",
-              "right": "An optical instrument for viewing very small objects"
+              "left": "Theory",
+              "right": "A system of ideas intended to explain something"
             },
             {
               "id": "p1",
-              "left": "Scientific",
-              "right": "Based on or characterized by the methods and principles of science"
+              "left": "Microscope",
+              "right": "An optical instrument for viewing very small objects"
             },
             {
               "id": "p2",
@@ -912,16 +917,16 @@
           "interaction_id": "U16_I38",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The theory (prove) ________ by many researchers.",
-          "correct_answer": "has been proved",
+          "stimulus_en": "Scientists (conduct) ________ an experiment right now.",
+          "correct_answer": "are conducting",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I39",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The discovery of penicillin was a breakthrough. major\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She uses a scientific approach to solve problems.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -932,44 +937,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "all"
-            },
-            {
-              "id": "w3",
-              "text": "of"
-            },
-            {
-              "id": "w9",
-              "text": "notebook"
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w5",
-              "text": "your"
+              "text": "findings"
             },
             {
-              "id": "w8",
-              "text": "your"
-            },
-            {
-              "id": "w2",
-              "text": "record"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "Keep"
-            },
-            {
-              "id": "w6",
-              "text": "observations"
+              "id": "w4",
+              "text": "initial"
             },
             {
               "id": "w1",
-              "text": "a"
+              "text": "data"
+            },
+            {
+              "id": "w8",
+              "text": "study"
+            },
+            {
+              "id": "w6",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "supports"
             }
           ],
           "correct_answer": [
@@ -981,8 +982,7 @@
             "w5",
             "w6",
             "w7",
-            "w8",
-            "w9"
+            "w8"
           ],
           "mastery_tag": "syntax"
         },
@@ -990,41 +990,41 @@
           "interaction_id": "U16_I41",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Keep a record of all your observations in your notebook.\"",
+          "stimulus_en": "Speaker A: \"You can see the cells under a microscope.\"",
           "options": [
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             }
           ],
-          "correct_answer": "r5",
+          "correct_answer": "r1",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U16_I42",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The action of inventing something\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A judgment or decision reached by reasoning\"",
           "options": [
             {
               "id": "o3",
-              "text": "Researcher"
-            },
-            {
-              "id": "o2",
-              "text": "Experiment"
+              "text": "Microscope"
             },
             {
               "id": "o1",
-              "text": "Invention"
+              "text": "Conclusion"
+            },
+            {
+              "id": "o2",
+              "text": "Hypothesis"
             }
           ],
           "correct_answer": "o1",
@@ -1038,18 +1038,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Data",
-              "right": "Facts and statistics collected together for reference or analysis"
+              "left": "Analysis",
+              "right": "Detailed examination of the elements or structure of something"
             },
             {
               "id": "p1",
-              "left": "Scientific",
-              "right": "Based on or characterized by the methods and principles of science"
+              "left": "Researcher",
+              "right": "A person who carries out academic or scientific research"
             },
             {
               "id": "p2",
-              "left": "Observation",
-              "right": "The action or process of observing something carefully"
+              "left": "Innovation",
+              "right": "A new method, idea, or product"
             }
           ],
           "correct_answer": {
@@ -1063,15 +1063,15 @@
           "interaction_id": "U16_I44",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Scientists (conduct) ________ an experiment right now.",
-          "correct_answer": "are conducting",
+          "stimulus_en": "I think it (rain) ________ tomorrow.",
+          "correct_answer": "will rain",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I45",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The scientists are conducting a new experiment.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Einstein is famous for his theory of relativity.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1083,36 +1083,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "for"
+              "id": "w6",
+              "text": "a"
             },
             {
               "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
-              "id": "w0",
-              "text": "Einstein"
-            },
-            {
-              "id": "w5",
-              "text": "theory"
+              "text": "can"
             },
             {
               "id": "w7",
-              "text": "relativity"
+              "text": "microscope"
             },
             {
-              "id": "w2",
-              "text": "famous"
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w5",
+              "text": "under"
             },
             {
               "id": "w4",
-              "text": "his"
+              "text": "cells"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "see"
             }
           ],
           "correct_answer": [
@@ -1131,41 +1131,41 @@
           "interaction_id": "U16_I47",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The discovery of penicillin was a major breakthrough.\"",
+          "stimulus_en": "Speaker A: \"What is your hypothesis for the experiment?\"",
           "options": [
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             },
             {
               "id": "r3",
               "text": "Could you tell me more? I'm curious."
             },
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r2",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U16_I48",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A judgment or decision reached by reasoning\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Facts and statistics collected together for reference or analysis\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Conclusion"
+              "id": "o3",
+              "text": "Theory"
             },
             {
               "id": "o2",
-              "text": "Laboratory"
+              "text": "Researcher"
             },
             {
-              "id": "o3",
-              "text": "Researcher"
+              "id": "o1",
+              "text": "Data"
             }
           ],
           "correct_answer": "o1",
@@ -1184,13 +1184,13 @@
             },
             {
               "id": "p1",
-              "left": "Theory",
-              "right": "A system of ideas intended to explain something"
+              "left": "Invention",
+              "right": "The action of inventing something"
             },
             {
               "id": "p2",
-              "left": "Laboratory",
-              "right": "A room or building for scientific research"
+              "left": "Theory",
+              "right": "A system of ideas intended to explain something"
             }
           ],
           "correct_answer": {
@@ -1204,15 +1204,15 @@
           "interaction_id": "U16_I50",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The theory (prove) ________ by many researchers.",
-          "correct_answer": "has been proved",
+          "stimulus_en": "He (lose) ________ his notes in the fire.",
+          "correct_answer": "lost",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I51",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The invention of the internet the changed world.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Keep a record of all your observations in notebook. your\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1224,20 +1224,8 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "invention"
-            },
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w4",
-              "text": "internet"
-            },
-            {
               "id": "w7",
-              "text": "world"
+              "text": "breakthrough"
             },
             {
               "id": "w0",
@@ -1245,15 +1233,27 @@
             },
             {
               "id": "w6",
-              "text": "the"
+              "text": "major"
+            },
+            {
+              "id": "w1",
+              "text": "discovery"
             },
             {
               "id": "w3",
-              "text": "the"
+              "text": "penicillin"
+            },
+            {
+              "id": "w2",
+              "text": "of"
             },
             {
               "id": "w5",
-              "text": "changed"
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "was"
             }
           ],
           "correct_answer": [
@@ -1272,41 +1272,41 @@
           "interaction_id": "U16_I53",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Biology is the study of life and living organisms.\"",
+          "stimulus_en": "Speaker A: \"The discovery of penicillin was a major breakthrough.\"",
           "options": [
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
             },
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U16_I54",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Detailed examination of the elements or structure of something\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An optical instrument for viewing very small objects\"",
           "options": [
             {
               "id": "o1",
-              "text": "Analysis"
+              "text": "Microscope"
             },
             {
               "id": "o3",
-              "text": "Hypothesis"
+              "text": "Laboratory"
             },
             {
               "id": "o2",
-              "text": "Laboratory"
+              "text": "Analysis"
             }
           ],
           "correct_answer": "o1",
@@ -1320,18 +1320,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Hypothesis",
-              "right": "A proposed explanation made on the basis of limited evidence"
+              "left": "Laboratory",
+              "right": "A room or building for scientific research"
             },
             {
               "id": "p1",
-              "left": "Analysis",
-              "right": "Detailed examination of the elements or structure of something"
+              "left": "Biology",
+              "right": "The study of living organisms"
             },
             {
               "id": "p2",
-              "left": "Theory",
-              "right": "A system of ideas intended to explain something"
+              "left": "Conclusion",
+              "right": "A judgment or decision reached by reasoning"
             }
           ],
           "correct_answer": {
@@ -1345,16 +1345,16 @@
           "interaction_id": "U16_I56",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (find) ________ a cure for the disease soon.",
-          "correct_answer": "will find",
+          "stimulus_en": "Look at those clouds! It (rain) ________.",
+          "correct_answer": "is going to rain",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I57",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You can see the cells under a microscope.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The of discovery penicillin was a major breakthrough.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1365,44 +1365,44 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w7",
-              "text": "of"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
               "id": "w5",
-              "text": "detailed"
-            },
-            {
-              "id": "w9",
-              "text": "results"
-            },
-            {
-              "id": "w6",
-              "text": "analysis"
-            },
-            {
-              "id": "w3",
-              "text": "perform"
+              "text": "your"
             },
             {
               "id": "w1",
-              "text": "need"
+              "text": "a"
             },
             {
-              "id": "w0",
-              "text": "We"
+              "id": "w4",
+              "text": "all"
             },
             {
               "id": "w2",
-              "text": "to"
+              "text": "record"
+            },
+            {
+              "id": "w9",
+              "text": "notebook"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "observations"
+            },
+            {
+              "id": "w0",
+              "text": "Keep"
+            },
+            {
+              "id": "w8",
+              "text": "your"
+            },
+            {
+              "id": "w3",
+              "text": "of"
             }
           ],
           "correct_answer": [
@@ -1423,41 +1423,41 @@
           "interaction_id": "U16_I59",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Einstein is famous for his theory of relativity.\"",
+          "stimulus_en": "Speaker A: \"The invention of the internet changed the world.\"",
           "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
             {
               "id": "r2",
               "text": "I completely agree, it makes sense."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r5",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U16_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A judgment or decision reached by reasoning\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The action or process of observing something carefully\"",
           "options": [
             {
               "id": "o3",
-              "text": "Hypothesis"
-            },
-            {
-              "id": "o1",
-              "text": "Conclusion"
+              "text": "Invention"
             },
             {
               "id": "o2",
-              "text": "Innovation"
+              "text": "Discovery"
+            },
+            {
+              "id": "o1",
+              "text": "Observation"
             }
           ],
           "correct_answer": "o1",
@@ -1471,159 +1471,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Discovery",
-              "right": "The act of finding or learning something for the first time"
-            },
-            {
-              "id": "p1",
-              "left": "Scientific",
-              "right": "Based on or characterized by the methods and principles of science"
-            },
-            {
-              "id": "p2",
-              "left": "Biology",
-              "right": "The study of living organisms"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I62",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Scientists (conduct) ________ an experiment right now.",
-          "correct_answer": "are conducting",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I63",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We reached a conclusion after reviewing all the evidence.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I64",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "need"
-            },
-            {
-              "id": "w9",
-              "text": "results"
-            },
-            {
-              "id": "w6",
-              "text": "analysis"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w7",
-              "text": "of"
-            },
-            {
-              "id": "w3",
-              "text": "perform"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "detailed"
-            },
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I65",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She uses a scientific approach to solve problems.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I66",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A judgment or decision reached by reasoning\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Conclusion"
-            },
-            {
-              "id": "o2",
-              "text": "Experiment"
-            },
-            {
-              "id": "o3",
-              "text": "Hypothesis"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I67",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Innovation",
-              "right": "A new method, idea, or product"
+              "left": "Laboratory",
+              "right": "A room or building for scientific research"
             },
             {
               "id": "p1",
@@ -1644,19 +1493,160 @@
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U16_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (meet) ________ at the lab at 9 AM.",
+          "correct_answer": "are meeting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The of discovery penicillin was a major breakthrough.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "internet"
+            },
+            {
+              "id": "w1",
+              "text": "invention"
+            },
+            {
+              "id": "w7",
+              "text": "world"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w5",
+              "text": "changed"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U16_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The scientists are conducting a new experiment.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A scientific procedure to make a discovery\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Theory"
+            },
+            {
+              "id": "o3",
+              "text": "Researcher"
+            },
+            {
+              "id": "o1",
+              "text": "Experiment"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Discovery",
+              "right": "The act of finding or learning something for the first time"
+            },
+            {
+              "id": "p1",
+              "left": "Researcher",
+              "right": "A person who carries out academic or scientific research"
+            },
+            {
+              "id": "p2",
+              "left": "Experiment",
+              "right": "A scientific procedure to make a discovery"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
           "interaction_id": "U16_I68",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The result (depend) ________ on the variables.",
-          "correct_answer": "depends",
+          "stimulus_en": "I think it (rain) ________ tomorrow.",
+          "correct_answer": "will rain",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I69",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You can see the cells under a microscope.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The scientists are conducting new a experiment.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1667,32 +1657,44 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "the"
-            },
-            {
               "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "your"
+              "text": "a"
             },
             {
               "id": "w3",
-              "text": "hypothesis"
-            },
-            {
-              "id": "w0",
-              "text": "What"
+              "text": "of"
             },
             {
               "id": "w6",
-              "text": "experiment?"
+              "text": "observations"
+            },
+            {
+              "id": "w8",
+              "text": "your"
+            },
+            {
+              "id": "w5",
+              "text": "your"
             },
             {
               "id": "w4",
-              "text": "for"
+              "text": "all"
+            },
+            {
+              "id": "w9",
+              "text": "notebook"
+            },
+            {
+              "id": "w2",
+              "text": "record"
+            },
+            {
+              "id": "w0",
+              "text": "Keep"
+            },
+            {
+              "id": "w7",
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -1702,7 +1704,10 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7",
+            "w8",
+            "w9"
           ],
           "mastery_tag": "syntax"
         },
@@ -1710,41 +1715,41 @@
           "interaction_id": "U16_I71",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We reached a conclusion after reviewing all the evidence.\"",
+          "stimulus_en": "Speaker A: \"Many researchers are working on a cure for cancer.\"",
           "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
             },
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             }
           ],
-          "correct_answer": "r5",
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U16_I72",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Facts and statistics collected together for reference or analysis\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A new method, idea, or product\"",
           "options": [
             {
+              "id": "o1",
+              "text": "Innovation"
+            },
+            {
               "id": "o2",
-              "text": "Researcher"
+              "text": "Theory"
             },
             {
               "id": "o3",
-              "text": "Experiment"
-            },
-            {
-              "id": "o1",
-              "text": "Data"
+              "text": "Invention"
             }
           ],
           "correct_answer": "o1",
@@ -1758,18 +1763,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Analysis",
-              "right": "Detailed examination of the elements or structure of something"
+              "left": "Data",
+              "right": "Facts and statistics collected together for reference or analysis"
             },
             {
               "id": "p1",
-              "left": "Hypothesis",
-              "right": "A proposed explanation made on the basis of limited evidence"
+              "left": "Observation",
+              "right": "The action or process of observing something carefully"
             },
             {
               "id": "p2",
-              "left": "Laboratory",
-              "right": "A room or building for scientific research"
+              "left": "Invention",
+              "right": "The action of inventing something"
             }
           ],
           "correct_answer": {
@@ -1783,16 +1788,16 @@
           "interaction_id": "U16_I74",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I think it (rain) ________ tomorrow.",
-          "correct_answer": "will rain",
+          "stimulus_en": "The result (depend) ________ on the variables.",
+          "correct_answer": "depends",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I75",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She uses a scientific approach to solve problems.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Technological is innovation key to progress.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1803,32 +1808,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "scientists"
-            },
-            {
-              "id": "w4",
-              "text": "a"
+              "id": "w8",
+              "text": "evidence"
             },
             {
               "id": "w3",
-              "text": "conducting"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "new"
-            },
-            {
-              "id": "w6",
-              "text": "experiment"
+              "text": "conclusion"
             },
             {
               "id": "w2",
-              "text": "are"
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "reached"
+            },
+            {
+              "id": "w4",
+              "text": "after"
+            },
+            {
+              "id": "w6",
+              "text": "all"
+            },
+            {
+              "id": "w5",
+              "text": "reviewing"
+            },
+            {
+              "id": "w0",
+              "text": "We"
             }
           ],
           "correct_answer": [
@@ -1838,7 +1851,9 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7",
+            "w8"
           ],
           "mastery_tag": "syntax"
         },
@@ -1846,41 +1861,41 @@
           "interaction_id": "U16_I77",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We reached a conclusion after reviewing all the evidence.\"",
+          "stimulus_en": "Speaker A: \"Einstein is famous for his theory of relativity.\"",
           "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             }
           ],
-          "correct_answer": "r1",
+          "correct_answer": "r4",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U16_I78",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The action or process of observing something carefully\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Detailed examination of the elements or structure of something\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Researcher"
+              "id": "o3",
+              "text": "Biology"
             },
             {
               "id": "o1",
-              "text": "Observation"
+              "text": "Analysis"
             },
             {
-              "id": "o3",
-              "text": "Experiment"
+              "id": "o2",
+              "text": "Observation"
             }
           ],
           "correct_answer": "o1",
@@ -1894,18 +1909,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Laboratory",
-              "right": "A room or building for scientific research"
+              "left": "Microscope",
+              "right": "An optical instrument for viewing very small objects"
             },
             {
               "id": "p1",
-              "left": "Biology",
-              "right": "The study of living organisms"
+              "left": "Invention",
+              "right": "The action of inventing something"
             },
             {
               "id": "p2",
-              "left": "Researcher",
-              "right": "A person who carries out academic or scientific research"
+              "left": "Conclusion",
+              "right": "A judgment or decision reached by reasoning"
             }
           ],
           "correct_answer": {
@@ -1919,16 +1934,16 @@
           "interaction_id": "U16_I80",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Look at those clouds! It (rain) ________.",
-          "correct_answer": "is going to rain",
+          "stimulus_en": "They (find) ________ a cure for the disease soon.",
+          "correct_answer": "will find",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I81",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Biology is the study of life and living organisms.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The data the supports initial findings of the study.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1940,39 +1955,35 @@
           "options": [
             {
               "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "findings"
+              "text": "problems"
             },
             {
               "id": "w3",
-              "text": "the"
+              "text": "scientific"
             },
             {
-              "id": "w1",
-              "text": "data"
+              "id": "w0",
+              "text": "She"
             },
             {
-              "id": "w2",
-              "text": "supports"
+              "id": "w5",
+              "text": "to"
             },
             {
               "id": "w4",
-              "text": "initial"
+              "text": "approach"
             },
             {
-              "id": "w8",
-              "text": "study"
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "uses"
             },
             {
               "id": "w6",
-              "text": "of"
+              "text": "solve"
             }
           ],
           "correct_answer": [
@@ -1983,8 +1994,7 @@
             "w4",
             "w5",
             "w6",
-            "w7",
-            "w8"
+            "w7"
           ],
           "mastery_tag": "syntax"
         },
@@ -1992,12 +2002,8 @@
           "interaction_id": "U16_I83",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Einstein is famous for his theory of relativity.\"",
+          "stimulus_en": "Speaker A: \"You can see the cells under a microscope.\"",
           "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
@@ -2005,6 +2011,10 @@
             {
               "id": "r3",
               "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             }
           ],
           "correct_answer": "r3",
@@ -2014,19 +2024,19 @@
         {
           "interaction_id": "U16_I84",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The action or process of observing something carefully\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A room or building for scientific research\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Observation"
+              "id": "o2",
+              "text": "Conclusion"
             },
             {
               "id": "o3",
-              "text": "Biology"
+              "text": "Invention"
             },
             {
-              "id": "o2",
-              "text": "Scientific"
+              "id": "o1",
+              "text": "Laboratory"
             }
           ],
           "correct_answer": "o1",
@@ -2040,18 +2050,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Conclusion",
-              "right": "A judgment or decision reached by reasoning"
+              "left": "Researcher",
+              "right": "A person who carries out academic or scientific research"
             },
             {
               "id": "p1",
-              "left": "Analysis",
-              "right": "Detailed examination of the elements or structure of something"
+              "left": "Experiment",
+              "right": "A scientific procedure to make a discovery"
             },
             {
               "id": "p2",
-              "left": "Scientific",
-              "right": "Based on or characterized by the methods and principles of science"
+              "left": "Analysis",
+              "right": "Detailed examination of the elements or structure of something"
             }
           ],
           "correct_answer": {
@@ -2065,15 +2075,15 @@
           "interaction_id": "U16_I86",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Scientists (conduct) ________ an experiment right now.",
-          "correct_answer": "are conducting",
+          "stimulus_en": "Next year, we (travel) ________ to Japan.",
+          "correct_answer": "are going to travel",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I87",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She uses a approach scientific to solve problems.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He spent all day working the in laboratory.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -2085,40 +2095,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "Many"
-            },
-            {
               "id": "w7",
-              "text": "for"
-            },
-            {
-              "id": "w8",
-              "text": "cancer"
-            },
-            {
-              "id": "w3",
-              "text": "working"
-            },
-            {
-              "id": "w6",
-              "text": "cure"
-            },
-            {
-              "id": "w1",
-              "text": "researchers"
+              "text": "world"
             },
             {
               "id": "w4",
-              "text": "on"
+              "text": "internet"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w2",
-              "text": "are"
+              "text": "of"
+            },
+            {
+              "id": "w5",
+              "text": "changed"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "invention"
+            },
+            {
+              "id": "w3",
+              "text": "the"
             }
           ],
           "correct_answer": [
@@ -2129,8 +2135,7 @@
             "w4",
             "w5",
             "w6",
-            "w7",
-            "w8"
+            "w7"
           ],
           "mastery_tag": "syntax"
         },
@@ -2138,41 +2143,41 @@
           "interaction_id": "U16_I89",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We need to perform a detailed analysis of the results.\"",
+          "stimulus_en": "Speaker A: \"You can see the cells under a microscope.\"",
           "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             }
           ],
-          "correct_answer": "r10",
+          "correct_answer": "r5",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U16_I90",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A new method, idea, or product\"",
+          "prompt_es": "Identifica la palabra correcta para: \"Detailed examination of the elements or structure of something\"",
           "options": [
             {
               "id": "o3",
+              "text": "Researcher"
+            },
+            {
+              "id": "o1",
               "text": "Analysis"
             },
             {
               "id": "o2",
-              "text": "Invention"
-            },
-            {
-              "id": "o1",
-              "text": "Innovation"
+              "text": "Scientific"
             }
           ],
           "correct_answer": "o1",
@@ -2191,13 +2196,13 @@
             },
             {
               "id": "p1",
-              "left": "Hypothesis",
-              "right": "A proposed explanation made on the basis of limited evidence"
+              "left": "Invention",
+              "right": "The action of inventing something"
             },
             {
               "id": "p2",
-              "left": "Experiment",
-              "right": "A scientific procedure to make a discovery"
+              "left": "Hypothesis",
+              "right": "A proposed explanation made on the basis of limited evidence"
             }
           ],
           "correct_answer": {
@@ -2211,16 +2216,16 @@
           "interaction_id": "U16_I92",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I was better at chemistry.",
-          "correct_answer": "wish",
+          "stimulus_en": "Did you (see) ________ the latest discovery?",
+          "correct_answer": "see",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I93",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He spent all day work in the laboratory.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Technological innovation is key to progress.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -2231,452 +2236,8 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "experiment?"
-            },
-            {
-              "id": "w3",
-              "text": "hypothesis"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
               "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I95",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Keep a record of all your observations in your notebook.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I96",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Facts and statistics collected together for reference or analysis\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Data"
-            },
-            {
-              "id": "o3",
-              "text": "Experiment"
-            },
-            {
-              "id": "o2",
-              "text": "Theory"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I97",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Innovation",
-              "right": "A new method, idea, or product"
-            },
-            {
-              "id": "p1",
-              "left": "Experiment",
-              "right": "A scientific procedure to make a discovery"
-            },
-            {
-              "id": "p2",
-              "left": "Microscope",
-              "right": "An optical instrument for viewing very small objects"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I98",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Scientists (conduct) ________ an experiment right now.",
-          "correct_answer": "are conducting",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I99",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He spent all day working in the laboratory.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I100",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "living"
-            },
-            {
-              "id": "w6",
-              "text": "and"
-            },
-            {
-              "id": "w5",
-              "text": "life"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w8",
-              "text": "organisms"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "Biology"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "study"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I101",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"You can see the cells under a microscope.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I102",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Detailed examination of the elements or structure of something\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Hypothesis"
-            },
-            {
-              "id": "o1",
-              "text": "Analysis"
-            },
-            {
-              "id": "o2",
-              "text": "Biology"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I103",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Data",
-              "right": "Facts and statistics collected together for reference or analysis"
-            },
-            {
-              "id": "p1",
-              "left": "Microscope",
-              "right": "An optical instrument for viewing very small objects"
-            },
-            {
-              "id": "p2",
-              "left": "Analysis",
-              "right": "Detailed examination of the elements or structure of something"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I104",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Look at those clouds! It (rain) ________.",
-          "correct_answer": "is going to rain",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I105",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Einstein is famous for his theory of relativity.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I106",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "living"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "and"
-            },
-            {
-              "id": "w0",
-              "text": "Biology"
-            },
-            {
-              "id": "w3",
-              "text": "study"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w5",
-              "text": "life"
-            },
-            {
-              "id": "w8",
-              "text": "organisms"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I107",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She uses a scientific approach to solve problems.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I108",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A new method, idea, or product\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Innovation"
-            },
-            {
-              "id": "o2",
-              "text": "Laboratory"
-            },
-            {
-              "id": "o3",
-              "text": "Microscope"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I109",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Microscope",
-              "right": "An optical instrument for viewing very small objects"
-            },
-            {
-              "id": "p1",
-              "left": "Conclusion",
-              "right": "A judgment or decision reached by reasoning"
-            },
-            {
-              "id": "p2",
-              "left": "Laboratory",
-              "right": "A room or building for scientific research"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I110",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Scientists (conduct) ________ an experiment right now.",
-          "correct_answer": "are conducting",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I111",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The of invention the internet changed the world.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I112",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "microscope"
-            },
-            {
-              "id": "w6",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "cells"
-            },
-            {
-              "id": "w1",
-              "text": "can"
-            },
-            {
-              "id": "w0",
-              "text": "You"
+              "text": "under"
             },
             {
               "id": "w2",
@@ -2687,8 +2248,24 @@
               "text": "the"
             },
             {
-              "id": "w5",
-              "text": "under"
+              "id": "w7",
+              "text": "microscope"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w1",
+              "text": "can"
+            },
+            {
+              "id": "w4",
+              "text": "cells"
+            },
+            {
+              "id": "w6",
+              "text": "a"
             }
           ],
           "correct_answer": [
@@ -2704,195 +2281,44 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U16_I113",
+          "interaction_id": "U16_I95",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Einstein is famous for his theory of relativity.\"",
+          "stimulus_en": "Speaker A: \"Many researchers are working on a cure for cancer.\"",
           "options": [
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             },
             {
               "id": "r2",
               "text": "I completely agree, it makes sense."
             },
             {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             }
           ],
-          "correct_answer": "r2",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U16_I114",
+          "interaction_id": "U16_I96",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The study of living organisms\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A scientific procedure to make a discovery\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Biology"
-            },
-            {
-              "id": "o3",
+              "id": "o2",
               "text": "Discovery"
             },
             {
-              "id": "o2",
-              "text": "Laboratory"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I115",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Scientific",
-              "right": "Based on or characterized by the methods and principles of science"
-            },
-            {
-              "id": "p1",
-              "left": "Biology",
-              "right": "The study of living organisms"
-            },
-            {
-              "id": "p2",
-              "left": "Data",
-              "right": "Facts and statistics collected together for reference or analysis"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I116",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Next year, we (travel) ________ to Japan.",
-          "correct_answer": "are going to travel",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I117",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She uses a scientific approach to solve problems.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I118",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "observations"
-            },
-            {
-              "id": "w0",
-              "text": "Keep"
-            },
-            {
-              "id": "w4",
-              "text": "all"
-            },
-            {
-              "id": "w9",
-              "text": "notebook"
-            },
-            {
-              "id": "w2",
-              "text": "record"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "your"
-            },
-            {
-              "id": "w3",
-              "text": "of"
-            },
-            {
-              "id": "w8",
-              "text": "your"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I119",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Keep a record of all your observations in your notebook.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I120",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A system of ideas intended to explain something\"",
-          "options": [
-            {
               "id": "o1",
-              "text": "Theory"
-            },
-            {
-              "id": "o2",
-              "text": "Conclusion"
+              "text": "Experiment"
             },
             {
               "id": "o3",
-              "text": "Experiment"
+              "text": "Microscope"
             }
           ],
           "correct_answer": "o1",
@@ -2900,7 +2326,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U16_I121",
+          "interaction_id": "U16_I97",
           "type": "matching",
           "prompt_es": "Une cada término con su definición correspondiente:",
           "pairs": [
@@ -2911,8 +2337,8 @@
             },
             {
               "id": "p1",
-              "left": "Observation",
-              "right": "The action or process of observing something carefully"
+              "left": "Experiment",
+              "right": "A scientific procedure to make a discovery"
             },
             {
               "id": "p2",
@@ -2928,1578 +2354,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U16_I122",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (visit) ________ my grandmother this weekend.",
-          "correct_answer": "am going to visit",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I123",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We reached a conclusion reviewing after all the evidence.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I124",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "problems"
-            },
-            {
-              "id": "w6",
-              "text": "solve"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w4",
-              "text": "approach"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w1",
-              "text": "uses"
-            },
-            {
-              "id": "w3",
-              "text": "scientific"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I125",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The scientists are conducting a new experiment.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I126",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A judgment or decision reached by reasoning\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Conclusion"
-            },
-            {
-              "id": "o3",
-              "text": "Hypothesis"
-            },
-            {
-              "id": "o2",
-              "text": "Data"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I127",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Data",
-              "right": "Facts and statistics collected together for reference or analysis"
-            },
-            {
-              "id": "p1",
-              "left": "Biology",
-              "right": "The study of living organisms"
-            },
-            {
-              "id": "p2",
-              "left": "Researcher",
-              "right": "A person who carries out academic or scientific research"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I128",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (visit) ________ my grandmother this weekend.",
-          "correct_answer": "am going to visit",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I129",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The discovery of penicillin was a major breakthrough.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I130",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "life"
-            },
-            {
-              "id": "w6",
-              "text": "and"
-            },
-            {
-              "id": "w8",
-              "text": "organisms"
-            },
-            {
-              "id": "w7",
-              "text": "living"
-            },
-            {
-              "id": "w3",
-              "text": "study"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w0",
-              "text": "Biology"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I131",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The invention of the internet changed the world.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I132",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Detailed examination of the elements or structure of something\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Hypothesis"
-            },
-            {
-              "id": "o2",
-              "text": "Discovery"
-            },
-            {
-              "id": "o1",
-              "text": "Analysis"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I133",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Microscope",
-              "right": "An optical instrument for viewing very small objects"
-            },
-            {
-              "id": "p1",
-              "left": "Data",
-              "right": "Facts and statistics collected together for reference or analysis"
-            },
-            {
-              "id": "p2",
-              "left": "Biology",
-              "right": "The study of living organisms"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I134",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Scientists (conduct) ________ an experiment right now.",
-          "correct_answer": "are conducting",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I135",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The data supports the initial findings of the study.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I136",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w6",
-              "text": "experiment?"
-            },
-            {
-              "id": "w3",
-              "text": "hypothesis"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I137",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We reached a conclusion after reviewing all the evidence.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I138",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Detailed examination of the elements or structure of something\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Analysis"
-            },
-            {
-              "id": "o2",
-              "text": "Microscope"
-            },
-            {
-              "id": "o3",
-              "text": "Theory"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I139",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Data",
-              "right": "Facts and statistics collected together for reference or analysis"
-            },
-            {
-              "id": "p1",
-              "left": "Discovery",
-              "right": "The act of finding or learning something for the first time"
-            },
-            {
-              "id": "p2",
-              "left": "Experiment",
-              "right": "A scientific procedure to make a discovery"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I140",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I was better at chemistry.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I141",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The are scientists conducting a new experiment.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I142",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w6",
-              "text": "experiment"
-            },
-            {
-              "id": "w5",
-              "text": "new"
-            },
-            {
-              "id": "w3",
-              "text": "conducting"
-            },
-            {
-              "id": "w1",
-              "text": "scientists"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I143",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We reached a conclusion after reviewing all the evidence.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I144",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A system of ideas intended to explain something\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Theory"
-            },
-            {
-              "id": "o2",
-              "text": "Innovation"
-            },
-            {
-              "id": "o3",
-              "text": "Invention"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I145",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Discovery",
-              "right": "The act of finding or learning something for the first time"
-            },
-            {
-              "id": "p1",
-              "left": "Scientific",
-              "right": "Based on or characterized by the methods and principles of science"
-            },
-            {
-              "id": "p2",
-              "left": "Innovation",
-              "right": "A new method, idea, or product"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I146",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Next year, we (travel) ________ to Japan.",
-          "correct_answer": "are going to travel",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I147",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Keep a record of all your observations in your notebook.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I148",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Keep"
-            },
-            {
-              "id": "w4",
-              "text": "all"
-            },
-            {
-              "id": "w5",
-              "text": "your"
-            },
-            {
-              "id": "w6",
-              "text": "observations"
-            },
-            {
-              "id": "w2",
-              "text": "record"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "your"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w9",
-              "text": "notebook"
-            },
-            {
-              "id": "w3",
-              "text": "of"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I149",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Keep a record of all your observations in your notebook.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I150",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Facts and statistics collected together for reference or analysis\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Innovation"
-            },
-            {
-              "id": "o1",
-              "text": "Data"
-            },
-            {
-              "id": "o2",
-              "text": "Invention"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I151",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Analysis",
-              "right": "Detailed examination of the elements or structure of something"
-            },
-            {
-              "id": "p1",
-              "left": "Innovation",
-              "right": "A new method, idea, or product"
-            },
-            {
-              "id": "p2",
-              "left": "Laboratory",
-              "right": "A room or building for scientific research"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I152",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (find) ________ a cure for the disease soon.",
-          "correct_answer": "will find",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I153",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We reached a conclusion after reviewing all the evidence.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I154",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "observations"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "Keep"
-            },
-            {
-              "id": "w9",
-              "text": "notebook"
-            },
-            {
-              "id": "w2",
-              "text": "record"
-            },
-            {
-              "id": "w3",
-              "text": "of"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w4",
-              "text": "all"
-            },
-            {
-              "id": "w8",
-              "text": "your"
-            },
-            {
-              "id": "w5",
-              "text": "your"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I155",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Biology is the study of life and living organisms.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I156",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A judgment or decision reached by reasoning\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Hypothesis"
-            },
-            {
-              "id": "o3",
-              "text": "Discovery"
-            },
-            {
-              "id": "o1",
-              "text": "Conclusion"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I157",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Data",
-              "right": "Facts and statistics collected together for reference or analysis"
-            },
-            {
-              "id": "p1",
-              "left": "Laboratory",
-              "right": "A room or building for scientific research"
-            },
-            {
-              "id": "p2",
-              "left": "Microscope",
-              "right": "An optical instrument for viewing very small objects"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I158",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Scientists (conduct) ________ an experiment right now.",
-          "correct_answer": "are conducting",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I159",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Keep a record all of your observations in your notebook.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I160",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w3",
-              "text": "hypothesis"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w6",
-              "text": "experiment?"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I161",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The discovery of penicillin was a major breakthrough.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I162",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Facts and statistics collected together for reference or analysis\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Data"
-            },
-            {
-              "id": "o2",
-              "text": "Theory"
-            },
-            {
-              "id": "o3",
-              "text": "Biology"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I163",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Researcher",
-              "right": "A person who carries out academic or scientific research"
-            },
-            {
-              "id": "p1",
-              "left": "Analysis",
-              "right": "Detailed examination of the elements or structure of something"
-            },
-            {
-              "id": "p2",
-              "left": "Data",
-              "right": "Facts and statistics collected together for reference or analysis"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I164",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Did you (see) ________ the latest discovery?",
-          "correct_answer": "see",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I165",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You can see the cells under a microscope.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I166",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "need"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "of"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "perform"
-            },
-            {
-              "id": "w9",
-              "text": "results"
-            },
-            {
-              "id": "w6",
-              "text": "analysis"
-            },
-            {
-              "id": "w5",
-              "text": "detailed"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I167",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Technological innovation is key to progress.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I168",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A system of ideas intended to explain something\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Laboratory"
-            },
-            {
-              "id": "o3",
-              "text": "Invention"
-            },
-            {
-              "id": "o1",
-              "text": "Theory"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I169",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Innovation",
-              "right": "A new method, idea, or product"
-            },
-            {
-              "id": "p1",
-              "left": "Laboratory",
-              "right": "A room or building for scientific research"
-            },
-            {
-              "id": "p2",
-              "left": "Invention",
-              "right": "The action of inventing something"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I170",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (lose) ________ his notes in the fire.",
-          "correct_answer": "lost",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I171",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is your hypothesis for the experiment?\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I172",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "Technological"
-            },
-            {
-              "id": "w3",
-              "text": "key"
-            },
-            {
-              "id": "w5",
-              "text": "progress"
-            },
-            {
-              "id": "w1",
-              "text": "innovation"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I173",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Einstein is famous for his theory of relativity.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I174",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The action of inventing something\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Theory"
-            },
-            {
-              "id": "o1",
-              "text": "Invention"
-            },
-            {
-              "id": "o2",
-              "text": "Discovery"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I175",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Biology",
-              "right": "The study of living organisms"
-            },
-            {
-              "id": "p1",
-              "left": "Innovation",
-              "right": "A new method, idea, or product"
-            },
-            {
-              "id": "p2",
-              "left": "Conclusion",
-              "right": "A judgment or decision reached by reasoning"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I176",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I think it (rain) ________ tomorrow.",
-          "correct_answer": "will rain",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I177",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She uses a scientific to approach solve problems.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I178",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "internet"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "changed"
-            },
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w1",
-              "text": "invention"
-            },
-            {
-              "id": "w7",
-              "text": "world"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I179",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The invention of the internet changed the world.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I180",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A judgment or decision reached by reasoning\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Biology"
-            },
-            {
-              "id": "o3",
-              "text": "Experiment"
-            },
-            {
-              "id": "o1",
-              "text": "Conclusion"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I181",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Conclusion",
-              "right": "A judgment or decision reached by reasoning"
-            },
-            {
-              "id": "p1",
-              "left": "Discovery",
-              "right": "The act of finding or learning something for the first time"
-            },
-            {
-              "id": "p2",
-              "left": "Microscope",
-              "right": "An optical instrument for viewing very small objects"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I182",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I think it (rain) ________ tomorrow.",
-          "correct_answer": "will rain",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I183",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Keep a of record all your observations in your notebook.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I184",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "Keep"
-            },
-            {
-              "id": "w2",
-              "text": "record"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w4",
-              "text": "all"
-            },
-            {
-              "id": "w6",
-              "text": "observations"
-            },
-            {
-              "id": "w3",
-              "text": "of"
-            },
-            {
-              "id": "w8",
-              "text": "your"
-            },
-            {
-              "id": "w9",
-              "text": "notebook"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I185",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He spent all day working in the laboratory.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I186",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A room or building for scientific research\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Theory"
-            },
-            {
-              "id": "o1",
-              "text": "Laboratory"
-            },
-            {
-              "id": "o2",
-              "text": "Analysis"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I187",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Analysis",
-              "right": "Detailed examination of the elements or structure of something"
-            },
-            {
-              "id": "p1",
-              "left": "Scientific",
-              "right": "Based on or characterized by the methods and principles of science"
-            },
-            {
-              "id": "p2",
-              "left": "Innovation",
-              "right": "A new method, idea, or product"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I188",
+          "interaction_id": "U16_I98",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
           "stimulus_en": "Look at those clouds! It (rain) ________.",
@@ -4508,172 +2363,22 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U16_I189",
+          "interaction_id": "U16_I99",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The discovery of penicillin was a major breakthrough.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I190",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w3",
-              "text": "working"
-            },
-            {
-              "id": "w0",
-              "text": "Many"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "cancer"
-            },
-            {
-              "id": "w4",
-              "text": "on"
-            },
-            {
-              "id": "w1",
-              "text": "researchers"
-            },
-            {
-              "id": "w6",
-              "text": "cure"
-            },
-            {
-              "id": "w7",
-              "text": "for"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I191",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Technological innovation is key to progress.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I192",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A person who carries out academic or scientific research\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Researcher"
-            },
-            {
-              "id": "o3",
-              "text": "Scientific"
-            },
-            {
-              "id": "o2",
-              "text": "Observation"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I193",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Discovery",
-              "right": "The act of finding or learning something for the first time"
-            },
-            {
-              "id": "p1",
-              "left": "Researcher",
-              "right": "A person who carries out academic or scientific research"
-            },
-            {
-              "id": "p2",
-              "left": "Hypothesis",
-              "right": "A proposed explanation made on the basis of limited evidence"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I194",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The result (depend) ________ on the variables.",
-          "correct_answer": "depends",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I195",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She uses scientific a approach to solve problems.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We to need perform a detailed analysis of the results.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U16_I196",
+          "interaction_id": "U16_I100",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w5",
-              "text": "the"
+              "id": "w6",
+              "text": "experiment?"
             },
             {
               "id": "w4",
@@ -4684,16 +2389,20 @@
               "text": "What"
             },
             {
-              "id": "w1",
-              "text": "is"
-            },
-            {
               "id": "w3",
               "text": "hypothesis"
             },
             {
-              "id": "w6",
-              "text": "experiment?"
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w1",
+              "text": "is"
             }
           ],
           "correct_answer": [
@@ -4706,88 +2415,6 @@
             "w6"
           ],
           "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I197",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The data supports the initial findings of the study.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U16_I198",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The action of inventing something\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Data"
-            },
-            {
-              "id": "o1",
-              "text": "Invention"
-            },
-            {
-              "id": "o3",
-              "text": "Scientific"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I199",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Analysis",
-              "right": "Detailed examination of the elements or structure of something"
-            },
-            {
-              "id": "p1",
-              "left": "Invention",
-              "right": "The action of inventing something"
-            },
-            {
-              "id": "p2",
-              "left": "Researcher",
-              "right": "A person who carries out academic or scientific research"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I200",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (lose) ________ his notes in the fire.",
-          "correct_answer": "lost",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
         }
       ]
     }

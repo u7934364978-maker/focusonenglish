@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion, Reorder, AnimatePresence } from 'framer-motion';
-import { Check, X, RotateCcw, Lightbulb } from 'lucide-react';
+import { Check, X, RotateCcw, Lightbulb, ArrowRight } from 'lucide-react';
 
 interface DragDropContent {
   title?: string;
@@ -55,10 +55,6 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
     const correct = normalizedCurrent === normalizedTarget;
     setIsCorrect(correct);
     setSubmitted(true);
-    
-    if (correct) {
-      onComplete(true);
-    }
   };
 
   const handleReset = () => {
@@ -131,13 +127,22 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
               </button>
             </>
           ) : (
-            <button
-              onClick={handleReset}
-              className="flex-1 bg-slate-900 text-white px-6 py-4 rounded-2xl font-black hover:bg-slate-800 transition-all shadow-lg flex items-center justify-center gap-2"
-            >
-              <RotateCcw className="w-5 h-5" />
-              Intentar de nuevo
-            </button>
+            <div className="flex gap-3 w-full">
+              <button
+                onClick={handleReset}
+                className="flex-1 bg-slate-100 text-slate-600 px-6 py-4 rounded-2xl font-black hover:bg-slate-200 transition-all shadow-sm flex items-center justify-center gap-2 border border-slate-200"
+              >
+                <RotateCcw className="w-5 h-5" />
+                Intentar de nuevo
+              </button>
+              <button
+                onClick={() => onComplete(isCorrect)}
+                className="flex-1 bg-green-600 text-white px-6 py-4 rounded-2xl font-black hover:bg-green-700 transition-all shadow-lg flex items-center justify-center gap-2 shadow-green-100"
+              >
+                Siguiente
+                <ArrowRight className="w-5 h-5" />
+              </button>
+            </div>
           )}
         </div>
 

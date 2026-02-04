@@ -1,6 +1,6 @@
 ---
 title: "Guía 2026: Cómo hacer presentaciones en inglés con impacto"
-date: "2026-02-25"
+date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Domina el arte de hablar en público en inglés. Aprende las frases clave para estructurar tu discurso, describir gráficos y manejar preguntas con seguridad en 2026."
 category: "trabajo"

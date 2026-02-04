@@ -31,18 +31,18 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Relaxation",
+              "right": "The state of being free from tension and anxiety"
+            },
+            {
+              "id": "p1",
               "left": "Skill",
               "right": "The ability to do something well"
             },
             {
-              "id": "p1",
-              "left": "Facility",
-              "right": "A place, amenity, or piece of equipment provided for a particular purpose"
-            },
-            {
               "id": "p2",
-              "left": "Membership",
-              "right": "The fact of being a member of a group"
+              "left": "Hobby",
+              "right": "An activity done regularly in one's leisure time"
             }
           ],
           "correct_answer": {
@@ -55,17 +55,17 @@
         {
           "interaction_id": "U25_I2",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (tea/prefers) ________ to coffee.",
-          "correct_answer": "prefers tea",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (spend) ________ their weekends at the beach.",
+          "correct_answer": "spend",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U25_I3",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"My main hobby is reading historical novels.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What kind outdoor of activities do you enjoy?\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -76,44 +76,32 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "find"
-            },
-            {
-              "id": "w7",
-              "text": "form"
-            },
-            {
-              "id": "w6",
-              "text": "great"
-            },
-            {
               "id": "w2",
-              "text": "gardening"
-            },
-            {
-              "id": "w4",
-              "text": "be"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "of"
-            },
-            {
-              "id": "w3",
               "text": "to"
             },
             {
-              "id": "w9",
-              "text": "relaxation"
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w3",
+              "text": "develop"
+            },
+            {
+              "id": "w1",
+              "text": "need"
+            },
+            {
+              "id": "w5",
+              "text": "computer"
+            },
+            {
+              "id": "w4",
+              "text": "your"
+            },
+            {
+              "id": "w6",
+              "text": "skills"
             }
           ],
           "correct_answer": [
@@ -123,10 +111,7 @@
             "w3",
             "w4",
             "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w6"
           ],
           "mastery_tag": "syntax"
         },
@@ -134,41 +119,41 @@
           "interaction_id": "U25_I5",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The park provides many opportunities for recreation.\"",
+          "stimulus_en": "Speaker A: \"There is plenty of entertainment in the city center.\"",
           "options": [
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r15",
               "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r5",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U25_I6",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A short journey or trip, especially one taken as a leisure activity\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Activity done for enjoyment when one is not working\"",
           "options": [
             {
+              "id": "o1",
+              "text": "Recreation"
+            },
+            {
               "id": "o3",
-              "text": "Festival"
+              "text": "Enthusiast"
             },
             {
               "id": "o2",
               "text": "Skill"
-            },
-            {
-              "id": "o1",
-              "text": "Excursion"
             }
           ],
           "correct_answer": "o1",
@@ -187,13 +172,13 @@
             },
             {
               "id": "p1",
-              "left": "Facility",
-              "right": "A place, amenity, or piece of equipment provided for a particular purpose"
+              "left": "Pastime",
+              "right": "An activity done regularly for enjoyment"
             },
             {
               "id": "p2",
-              "left": "Interest",
-              "right": "The feeling of wanting to know or learn about something"
+              "left": "Recreation",
+              "right": "Activity done for enjoyment when one is not working"
             }
           ],
           "correct_answer": {
@@ -206,16 +191,16 @@
         {
           "interaction_id": "U25_I8",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (go) ________ to the cinema once a week.",
-          "correct_answer": "go",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (read/prefer) ________ to watching TV.",
+          "correct_answer": "prefer reading",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U25_I9",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I find gardening to be a great of form relaxation.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Yoga is great for and relaxation stress relief.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -227,36 +212,172 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "an"
-            },
-            {
-              "id": "w1",
-              "text": "school"
-            },
-            {
               "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "organized"
+              "text": "in"
             },
             {
               "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "museum"
+              "text": "photography"
             },
             {
               "id": "w4",
-              "text": "excursion"
+              "text": "interest"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "keen"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U25_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We went to the amusement park last Saturday.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U25_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The action of providing or being provided with amusement\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Relaxation"
+            },
+            {
+              "id": "o1",
+              "text": "Entertainment"
+            },
+            {
+              "id": "o2",
+              "text": "Facility"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Amusement",
+              "right": "The state or experience of finding something funny"
+            },
+            {
+              "id": "p1",
+              "left": "Membership",
+              "right": "The fact of being a member of a group"
+            },
+            {
+              "id": "p2",
+              "left": "Enthusiast",
+              "right": "A person who is highly interested in a particular activity"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I14",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "He (not/prefers/go) ________ out today.",
+          "correct_answer": "prefers not to go",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Socializing with friends is a great way to unwind.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "park"
+            },
+            {
+              "id": "w7",
+              "text": "Saturday"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "amusement"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w1",
+              "text": "went"
+            },
+            {
+              "id": "w6",
+              "text": "last"
+            },
+            {
+              "id": "w3",
+              "text": "the"
             }
           ],
           "correct_answer": [
@@ -272,176 +393,40 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U25_I11",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"You need to develop your computer skills.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The fact of being a member of a group\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Activity"
-            },
-            {
-              "id": "o1",
-              "text": "Membership"
-            },
-            {
-              "id": "o3",
-              "text": "Amusement"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I13",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Facility",
-              "right": "A place, amenity, or piece of equipment provided for a particular purpose"
-            },
-            {
-              "id": "p1",
-              "left": "Amusement",
-              "right": "The state or experience of finding something funny"
-            },
-            {
-              "id": "p2",
-              "left": "Festival",
-              "right": "A day or period of celebration"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I14",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (meet) ________ our friends at the cafe later.",
-          "correct_answer": "are meeting",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I15",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The school organized an excursion to the museum.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I16",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "hobby"
-            },
-            {
-              "id": "w5",
-              "text": "historical"
-            },
-            {
-              "id": "w1",
-              "text": "main"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w4",
-              "text": "reading"
-            },
-            {
-              "id": "w6",
-              "text": "novels"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
           "interaction_id": "U25_I17",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"My main hobby is reading historical novels.\"",
+          "stimulus_en": "Speaker A: \"There is plenty of entertainment in the city center.\"",
           "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
             {
               "id": "r19",
               "text": "That would be perfect, thank you."
             },
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             }
           ],
-          "correct_answer": "r19",
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U25_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A short journey or trip, especially one taken as a leisure activity\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The ability to do something well\"",
           "options": [
             {
               "id": "o1",
-              "text": "Excursion"
+              "text": "Skill"
             },
             {
               "id": "o2",
-              "text": "Socializing"
+              "text": "Recreation"
             },
             {
               "id": "o3",
@@ -459,18 +444,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Activity",
-              "right": "A thing that a person or group does or has done"
+              "left": "Entertainment",
+              "right": "The action of providing or being provided with amusement"
             },
             {
               "id": "p1",
-              "left": "Pastime",
-              "right": "An activity done regularly for enjoyment"
+              "left": "Excursion",
+              "right": "A short journey or trip, especially one taken as a leisure activity"
             },
             {
               "id": "p2",
-              "left": "Recreation",
-              "right": "Activity done for enjoyment when one is not working"
+              "left": "Interest",
+              "right": "The feeling of wanting to know or learn about something"
             }
           ],
           "correct_answer": {
@@ -483,17 +468,17 @@
         {
           "interaction_id": "U25_I20",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (read/prefer) ________ to watching TV.",
-          "correct_answer": "prefer reading",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (prefer) ________ playing video games to watching TV.",
+          "correct_answer": "prefers",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U25_I21",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The park offers many recreation facilities for children.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The park many provides opportunities for recreation.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -505,31 +490,35 @@
           "options": [
             {
               "id": "w4",
-              "text": "your"
+              "text": "amusement"
+            },
+            {
+              "id": "w3",
+              "text": "the"
             },
             {
               "id": "w2",
               "text": "to"
             },
             {
-              "id": "w1",
-              "text": "need"
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w7",
+              "text": "Saturday"
             },
             {
               "id": "w5",
-              "text": "computer"
+              "text": "park"
             },
             {
               "id": "w6",
-              "text": "skills"
+              "text": "last"
             },
             {
-              "id": "w3",
-              "text": "develop"
-            },
-            {
-              "id": "w0",
-              "text": "You"
+              "id": "w1",
+              "text": "went"
             }
           ],
           "correct_answer": [
@@ -539,7 +528,8 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7"
           ],
           "mastery_tag": "syntax"
         },
@@ -547,41 +537,41 @@
           "interaction_id": "U25_I23",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He is a classic car enthusiast.\"",
+          "stimulus_en": "Speaker A: \"The school organized an excursion to the museum.\"",
           "options": [
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             },
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             }
           ],
-          "correct_answer": "r15",
+          "correct_answer": "r1",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U25_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A thing that a person or group does or has done\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A place, amenity, or piece of equipment provided for a particular purpose\"",
           "options": [
             {
               "id": "o3",
-              "text": "Excursion"
-            },
-            {
-              "id": "o2",
-              "text": "Facility"
+              "text": "Interest"
             },
             {
               "id": "o1",
-              "text": "Activity"
+              "text": "Facility"
+            },
+            {
+              "id": "o2",
+              "text": "Entertainment"
             }
           ],
           "correct_answer": "o1",
@@ -595,18 +585,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Skill",
-              "right": "The ability to do something well"
+              "left": "Interest",
+              "right": "The feeling of wanting to know or learn about something"
             },
             {
               "id": "p1",
-              "left": "Relaxation",
-              "right": "The state of being free from tension and anxiety"
+              "left": "Activity",
+              "right": "A thing that a person or group does or has done"
             },
             {
               "id": "p2",
-              "left": "Pastime",
-              "right": "An activity done regularly for enjoyment"
+              "left": "Entertainment",
+              "right": "The action of providing or being provided with amusement"
             }
           ],
           "correct_answer": {
@@ -619,17 +609,17 @@
         {
           "interaction_id": "U25_I26",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Would you rather (go) ________ by train or by bus?",
-          "correct_answer": "go",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (stay/usually) ________ at home on Friday nights.",
+          "correct_answer": "usually stay",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U25_I27",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You need to develop your computer skills.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Socializing with friends is a way great to unwind.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -640,176 +630,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "recreation"
-            },
-            {
-              "id": "w4",
-              "text": "opportunities"
-            },
-            {
               "id": "w3",
-              "text": "many"
-            },
-            {
-              "id": "w2",
-              "text": "provides"
-            },
-            {
-              "id": "w1",
-              "text": "park"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "for"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I29",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What kind of outdoor activities do you enjoy?\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I30",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The state of being free from tension and anxiety\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Pastime"
-            },
-            {
-              "id": "o1",
-              "text": "Relaxation"
-            },
-            {
-              "id": "o2",
-              "text": "Enthusiast"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I31",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Enthusiast",
-              "right": "A person who is highly interested in a particular activity"
-            },
-            {
-              "id": "p1",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
-            },
-            {
-              "id": "p2",
-              "left": "Facility",
-              "right": "A place, amenity, or piece of equipment provided for a particular purpose"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I32",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (prefer) ________ playing video games to watching TV.",
-          "correct_answer": "prefers",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I33",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Photography is favorite my pastime.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I34",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "with"
+              "text": "is"
             },
             {
               "id": "w7",
               "text": "to"
             },
             {
-              "id": "w5",
-              "text": "great"
-            },
-            {
               "id": "w6",
               "text": "way"
-            },
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "Socializing"
-            },
-            {
-              "id": "w3",
-              "text": "is"
             },
             {
               "id": "w8",
               "text": "unwind"
             },
             {
+              "id": "w1",
+              "text": "with"
+            },
+            {
               "id": "w2",
               "text": "friends"
+            },
+            {
+              "id": "w0",
+              "text": "Socializing"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "great"
             }
           ],
           "correct_answer": [
@@ -826,44 +680,44 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U25_I35",
+          "interaction_id": "U25_I29",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The park provides many opportunities for recreation.\"",
+          "stimulus_en": "Speaker A: \"The park offers many recreation facilities for children.\"",
           "options": [
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             }
           ],
-          "correct_answer": "r19",
+          "correct_answer": "r15",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U25_I36",
+          "interaction_id": "U25_I30",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A short journey or trip, especially one taken as a leisure activity\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A person who is highly interested in a particular activity\"",
           "options": [
             {
-              "id": "o3",
-              "text": "Socializing"
-            },
-            {
               "id": "o1",
-              "text": "Excursion"
+              "text": "Enthusiast"
             },
             {
               "id": "o2",
-              "text": "Interest"
+              "text": "Socializing"
+            },
+            {
+              "id": "o3",
+              "text": "Pastime"
             }
           ],
           "correct_answer": "o1",
@@ -871,7 +725,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U25_I37",
+          "interaction_id": "U25_I31",
           "type": "matching",
           "prompt_es": "Une cada término con su definición correspondiente:",
           "pairs": [
@@ -882,13 +736,13 @@
             },
             {
               "id": "p1",
-              "left": "Skill",
-              "right": "The ability to do something well"
+              "left": "Amusement",
+              "right": "The state or experience of finding something funny"
             },
             {
               "id": "p2",
-              "left": "Amusement",
-              "right": "The state or experience of finding something funny"
+              "left": "Relaxation",
+              "right": "The state of being free from tension and anxiety"
             }
           ],
           "correct_answer": {
@@ -899,195 +753,59 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U25_I38",
+          "interaction_id": "U25_I32",
           "type": "transformation",
           "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (read/prefer) ________ to watching TV.",
-          "correct_answer": "prefer reading",
+          "stimulus_en": "He (not/go/prefers) ________ out today.",
+          "correct_answer": "prefers not to go",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U25_I39",
+          "interaction_id": "U25_I33",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He is a classic car enthusiast.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The school organized an excursion to the museum.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U25_I40",
+          "interaction_id": "U25_I34",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "a"
-            },
-            {
               "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w4",
-              "text": "interest"
-            },
-            {
-              "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w6",
-              "text": "photography"
-            },
-            {
-              "id": "w3",
-              "text": "keen"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I41",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"My main hobby is reading historical novels.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I42",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A place, amenity, or piece of equipment provided for a particular purpose\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Activity"
-            },
-            {
-              "id": "o2",
-              "text": "Pastime"
-            },
-            {
-              "id": "o1",
-              "text": "Facility"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I43",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
-            },
-            {
-              "id": "p1",
-              "left": "Pastime",
-              "right": "An activity done regularly for enjoyment"
-            },
-            {
-              "id": "p2",
-              "left": "Recreation",
-              "right": "Activity done for enjoyment when one is not working"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I44",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (go) ________ to the cinema once a week.",
-          "correct_answer": "go",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There plenty is of entertainment in the city center.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I46",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "for"
-            },
-            {
-              "id": "w0",
-              "text": "Yoga"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "relaxation"
+              "text": "facilities"
             },
             {
               "id": "w2",
-              "text": "great"
+              "text": "offers"
             },
             {
               "id": "w7",
-              "text": "relief"
+              "text": "children"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "recreation"
             },
             {
               "id": "w6",
-              "text": "stress"
+              "text": "for"
+            },
+            {
+              "id": "w1",
+              "text": "park"
+            },
+            {
+              "id": "w3",
+              "text": "many"
             }
           ],
           "correct_answer": [
@@ -1103,7 +821,7 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U25_I47",
+          "interaction_id": "U25_I35",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
           "stimulus_en": "Speaker A: \"I find gardening to be a great form of relaxation.\"",
@@ -1113,30 +831,297 @@
               "text": "I completely agree, it makes sense."
             },
             {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U25_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Activity done for enjoyment when one is not working\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Recreation"
+            },
+            {
+              "id": "o3",
+              "text": "Excursion"
+            },
+            {
+              "id": "o2",
+              "text": "Membership"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Excursion",
+              "right": "A short journey or trip, especially one taken as a leisure activity"
+            },
+            {
+              "id": "p1",
+              "left": "Interest",
+              "right": "The feeling of wanting to know or learn about something"
+            },
+            {
+              "id": "p2",
+              "left": "Festival",
+              "right": "A day or period of celebration"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (go) ________ to the cinema once a week.",
+          "correct_answer": "go",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The park provides many opportunities recreation. for\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "outdoor"
+            },
+            {
+              "id": "w6",
+              "text": "you"
+            },
+            {
+              "id": "w7",
+              "text": "enjoy?"
+            },
+            {
+              "id": "w1",
+              "text": "kind"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w4",
+              "text": "activities"
+            },
+            {
+              "id": "w5",
+              "text": "do"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U25_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"There is plenty of entertainment in the city center.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U25_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person who is highly interested in a particular activity\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Interest"
+            },
+            {
+              "id": "o3",
+              "text": "Pastime"
+            },
+            {
+              "id": "o1",
+              "text": "Enthusiast"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Socializing",
+              "right": "The activity of spending time with others for pleasure"
+            },
+            {
+              "id": "p1",
+              "left": "Recreation",
+              "right": "Activity done for enjoyment when one is not working"
+            },
+            {
+              "id": "p2",
+              "left": "Hobby",
+              "right": "An activity done regularly in one's leisure time"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (prefer) ________ playing video games to watching TV.",
+          "correct_answer": "prefers",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Socializ with friends is a great way to unwind.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "pastime"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "Photography"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U25_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"My main hobby is reading historical novels.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             },
             {
               "id": "r3",
               "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             }
           ],
-          "correct_answer": "r1",
+          "correct_answer": "r5",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U25_I48",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An activity done regularly in one's leisure time\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"An activity done regularly in one's leisure time\"",
           "options": [
             {
               "id": "o3",
-              "text": "Festival"
+              "text": "Amusement"
             },
             {
               "id": "o2",
-              "text": "Amusement"
+              "text": "Facility"
             },
             {
               "id": "o1",
@@ -1154,18 +1139,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Skill",
-              "right": "The ability to do something well"
+              "left": "Activity",
+              "right": "A thing that a person or group does or has done"
             },
             {
               "id": "p1",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
+              "left": "Pastime",
+              "right": "An activity done regularly for enjoyment"
             },
             {
               "id": "p2",
-              "left": "Membership",
-              "right": "The fact of being a member of a group"
+              "left": "Excursion",
+              "right": "A short journey or trip, especially one taken as a leisure activity"
             }
           ],
           "correct_answer": {
@@ -1178,17 +1163,17 @@
         {
           "interaction_id": "U25_I50",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Would you rather (go) ________ by train or by bus?",
-          "correct_answer": "go",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (stay/would rather) ________ at home tonight.",
+          "correct_answer": "would rather stay",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U25_I51",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I find gardening to be a great form of relaxation.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Photography my is favorite pastime.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1199,32 +1184,32 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "recreation"
-            },
-            {
-              "id": "w3",
-              "text": "many"
-            },
-            {
-              "id": "w4",
-              "text": "opportunities"
-            },
-            {
               "id": "w2",
-              "text": "provides"
+              "text": "to"
             },
             {
               "id": "w5",
-              "text": "for"
+              "text": "computer"
+            },
+            {
+              "id": "w3",
+              "text": "develop"
+            },
+            {
+              "id": "w4",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w6",
+              "text": "skills"
             },
             {
               "id": "w1",
-              "text": "park"
+              "text": "need"
             }
           ],
           "correct_answer": [
@@ -1242,32 +1227,32 @@
           "interaction_id": "U25_I53",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Photography is my favorite pastime.\"",
+          "stimulus_en": "Speaker A: \"My main hobby is reading historical novels.\"",
           "options": [
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             },
             {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             }
           ],
-          "correct_answer": "r3",
+          "correct_answer": "r1",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U25_I54",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"An activity done regularly for enjoyment\"",
+          "prompt_es": "Identifica la palabra correcta para: \"The fact of being a member of a group\"",
           "options": [
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Membership"
             },
             {
@@ -1275,7 +1260,7 @@
               "text": "Amusement"
             },
             {
-              "id": "o1",
+              "id": "o3",
               "text": "Pastime"
             }
           ],
@@ -1290,18 +1275,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Skill",
-              "right": "The ability to do something well"
+              "left": "Interest",
+              "right": "The feeling of wanting to know or learn about something"
             },
             {
               "id": "p1",
-              "left": "Relaxation",
-              "right": "The state of being free from tension and anxiety"
+              "left": "Entertainment",
+              "right": "The action of providing or being provided with amusement"
             },
             {
               "id": "p2",
-              "left": "Recreation",
-              "right": "Activity done for enjoyment when one is not working"
+              "left": "Skill",
+              "right": "The ability to do something well"
             }
           ],
           "correct_answer": {
@@ -1315,15 +1300,15 @@
           "interaction_id": "U25_I56",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (spend) ________ their weekends at the beach.",
-          "correct_answer": "spend",
+          "stimulus_en": "I (enjoy) ________ going for walks in the park.",
+          "correct_answer": "enjoy",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U25_I57",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We went to amusement the park last Saturday.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The offers park many recreation facilities for children.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1335,28 +1320,44 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w5",
-              "text": "enthusiast"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
               "id": "w4",
-              "text": "car"
+              "text": "be"
             },
             {
-              "id": "w3",
-              "text": "classic"
+              "id": "w9",
+              "text": "relaxation"
+            },
+            {
+              "id": "w0",
+              "text": "I"
             },
             {
               "id": "w2",
+              "text": "gardening"
+            },
+            {
+              "id": "w1",
+              "text": "find"
+            },
+            {
+              "id": "w5",
               "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w7",
+              "text": "form"
+            },
+            {
+              "id": "w6",
+              "text": "great"
+            },
+            {
+              "id": "w8",
+              "text": "of"
             }
           ],
           "correct_answer": [
@@ -1365,7 +1366,11 @@
             "w2",
             "w3",
             "w4",
-            "w5"
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
           ],
           "mastery_tag": "syntax"
         },
@@ -1373,41 +1378,41 @@
           "interaction_id": "U25_I59",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What kind of outdoor activities do you enjoy?\"",
+          "stimulus_en": "Speaker A: \"I have a keen interest in photography.\"",
           "options": [
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U25_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The activity of spending time with others for pleasure\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The state of being free from tension and anxiety\"",
           "options": [
             {
+              "id": "o2",
+              "text": "Hobby"
+            },
+            {
               "id": "o1",
-              "text": "Socializing"
+              "text": "Relaxation"
             },
             {
               "id": "o3",
-              "text": "Amusement"
-            },
-            {
-              "id": "o2",
-              "text": "Skill"
+              "text": "Pastime"
             }
           ],
           "correct_answer": "o1",
@@ -1421,18 +1426,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Interest",
-              "right": "The feeling of wanting to know or learn about something"
+              "left": "Membership",
+              "right": "The fact of being a member of a group"
             },
             {
               "id": "p1",
-              "left": "Recreation",
-              "right": "Activity done for enjoyment when one is not working"
+              "left": "Hobby",
+              "right": "An activity done regularly in one's leisure time"
             },
             {
               "id": "p2",
-              "left": "Activity",
-              "right": "A thing that a person or group does or has done"
+              "left": "Excursion",
+              "right": "A short journey or trip, especially one taken as a leisure activity"
             }
           ],
           "correct_answer": {
@@ -1454,7 +1459,7 @@
         {
           "interaction_id": "U25_I63",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The park offers many recreation facilities children. for\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Yoga is great relaxation for and stress relief.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1466,40 +1471,32 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "entertainment"
-            },
-            {
               "id": "w2",
-              "text": "plenty"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            },
-            {
-              "id": "w7",
-              "text": "city"
+              "text": "a"
             },
             {
               "id": "w5",
               "text": "in"
             },
             {
-              "id": "w8",
-              "text": "center"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
               "id": "w3",
-              "text": "of"
+              "text": "keen"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "interest"
             },
             {
               "id": "w6",
-              "text": "the"
+              "text": "photography"
+            },
+            {
+              "id": "w1",
+              "text": "have"
             }
           ],
           "correct_answer": [
@@ -1509,9 +1506,7 @@
             "w3",
             "w4",
             "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w6"
           ],
           "mastery_tag": "syntax"
         },
@@ -1526,34 +1521,34 @@
               "text": "Really? I had no idea about that."
             },
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             },
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             }
           ],
-          "correct_answer": "r15",
+          "correct_answer": "r1",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U25_I66",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A thing that a person or group does or has done\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A place, amenity, or piece of equipment provided for a particular purpose\"",
           "options": [
             {
               "id": "o3",
-              "text": "Relaxation"
-            },
-            {
-              "id": "o2",
-              "text": "Enthusiast"
+              "text": "Pastime"
             },
             {
               "id": "o1",
-              "text": "Activity"
+              "text": "Facility"
+            },
+            {
+              "id": "o2",
+              "text": "Amusement"
             }
           ],
           "correct_answer": "o1",
@@ -1567,154 +1562,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Facility",
-              "right": "A place, amenity, or piece of equipment provided for a particular purpose"
+              "left": "Socializing",
+              "right": "The activity of spending time with others for pleasure"
             },
             {
               "id": "p1",
-              "left": "Hobby",
-              "right": "An activity done regularly in one's leisure time"
-            },
-            {
-              "id": "p2",
-              "left": "Skill",
-              "right": "The ability to do something well"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I68",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (tea/prefers) ________ to coffee.",
-          "correct_answer": "prefers tea",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I69",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The park provides many opportunities for recreation.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I70",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "children"
-            },
-            {
-              "id": "w3",
-              "text": "many"
-            },
-            {
-              "id": "w1",
-              "text": "park"
-            },
-            {
-              "id": "w4",
-              "text": "recreation"
-            },
-            {
-              "id": "w2",
-              "text": "offers"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "for"
-            },
-            {
-              "id": "w5",
-              "text": "facilities"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I71",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I find gardening to be a great form of relaxation.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I72",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A day or period of celebration\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Hobby"
-            },
-            {
-              "id": "o1",
-              "text": "Festival"
-            },
-            {
-              "id": "o3",
-              "text": "Membership"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I73",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Facility",
-              "right": "A place, amenity, or piece of equipment provided for a particular purpose"
-            },
-            {
-              "id": "p1",
-              "left": "Interest",
-              "right": "The feeling of wanting to know or learn about something"
+              "left": "Excursion",
+              "right": "A short journey or trip, especially one taken as a leisure activity"
             },
             {
               "id": "p2",
@@ -1730,31 +1584,31 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U25_I74",
+          "interaction_id": "U25_I68",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Would you rather (go) ________ by train or by bus?",
-          "correct_answer": "go",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "He (not/go/prefers) ________ out today.",
+          "correct_answer": "prefers not to go",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U25_I75",
+          "interaction_id": "U25_I69",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Yoga is great for and relaxation stress relief.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The park offers many recreation facilities for children.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U25_I76",
+          "interaction_id": "U25_I70",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "of"
+              "id": "w3",
+              "text": "outdoor"
             },
             {
               "id": "w4",
@@ -1765,12 +1619,12 @@
               "text": "kind"
             },
             {
-              "id": "w3",
-              "text": "outdoor"
-            },
-            {
               "id": "w0",
               "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "of"
             },
             {
               "id": "w7",
@@ -1798,44 +1652,185 @@
           "mastery_tag": "syntax"
         },
         {
+          "interaction_id": "U25_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Photography is my favorite pastime.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U25_I72",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The activity of spending time with others for pleasure\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Entertainment"
+            },
+            {
+              "id": "o3",
+              "text": "Excursion"
+            },
+            {
+              "id": "o1",
+              "text": "Socializing"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Recreation",
+              "right": "Activity done for enjoyment when one is not working"
+            },
+            {
+              "id": "p1",
+              "left": "Membership",
+              "right": "The fact of being a member of a group"
+            },
+            {
+              "id": "p2",
+              "left": "Pastime",
+              "right": "An activity done regularly for enjoyment"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (travel) ________ a lot during their holidays.",
+          "correct_answer": "travel",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There is plenty of entertainment in the center. city\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "popular"
+            },
+            {
+              "id": "w6",
+              "text": "many"
+            },
+            {
+              "id": "w0",
+              "text": "Chess"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "countries"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "pastime"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
           "interaction_id": "U25_I77",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
           "stimulus_en": "Speaker A: \"I have a keen interest in photography.\"",
           "options": [
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             },
             {
               "id": "r3",
               "text": "Could you tell me more? I'm curious."
             },
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             }
           ],
-          "correct_answer": "r2",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U25_I78",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"An activity done regularly in one's leisure time\"",
+          "prompt_es": "Identifica la palabra correcta para: \"The ability to do something well\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Hobby"
-            },
-            {
               "id": "o3",
-              "text": "Skill"
+              "text": "Socializing"
             },
             {
               "id": "o2",
-              "text": "Membership"
+              "text": "Festival"
+            },
+            {
+              "id": "o1",
+              "text": "Skill"
             }
           ],
           "correct_answer": "o1",
@@ -1854,13 +1849,13 @@
             },
             {
               "id": "p1",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
+              "left": "Membership",
+              "right": "The fact of being a member of a group"
             },
             {
               "id": "p2",
-              "left": "Activity",
-              "right": "A thing that a person or group does or has done"
+              "left": "Relaxation",
+              "right": "The state of being free from tension and anxiety"
             }
           ],
           "correct_answer": {
@@ -1873,16 +1868,16 @@
         {
           "interaction_id": "U25_I80",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (spend) ________ their weekends at the beach.",
-          "correct_answer": "spend",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (read/prefer) ________ to watching TV.",
+          "correct_answer": "prefer reading",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U25_I81",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The offers park many recreation facilities for children.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The park offers many recreation facilities children. for\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1894,36 +1889,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
+              "id": "w7",
+              "text": "relief"
+            },
+            {
               "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "an"
-            },
-            {
-              "id": "w2",
-              "text": "organized"
+              "text": "Yoga"
             },
             {
               "id": "w4",
-              "text": "excursion"
+              "text": "relaxation"
             },
             {
-              "id": "w6",
-              "text": "the"
+              "id": "w3",
+              "text": "for"
             },
             {
               "id": "w5",
-              "text": "to"
+              "text": "and"
             },
             {
               "id": "w1",
-              "text": "school"
+              "text": "is"
             },
             {
-              "id": "w7",
-              "text": "museum"
+              "id": "w6",
+              "text": "stress"
+            },
+            {
+              "id": "w2",
+              "text": "great"
             }
           ],
           "correct_answer": [
@@ -1942,12 +1937,8 @@
           "interaction_id": "U25_I83",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I find gardening to be a great form of relaxation.\"",
+          "stimulus_en": "Speaker A: \"He is a classic car enthusiast.\"",
           "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
             {
               "id": "r2",
               "text": "I completely agree, it makes sense."
@@ -1955,6 +1946,10 @@
             {
               "id": "r19",
               "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             }
           ],
           "correct_answer": "r2",
@@ -1964,15 +1959,15 @@
         {
           "interaction_id": "U25_I84",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The activity of spending time with others for pleasure\"",
+          "prompt_es": "Identifica la palabra correcta para: \"The activity of spending time with others for pleasure\"",
           "options": [
             {
               "id": "o3",
-              "text": "Membership"
+              "text": "Recreation"
             },
             {
               "id": "o2",
-              "text": "Interest"
+              "text": "Pastime"
             },
             {
               "id": "o1",
@@ -1990,18 +1985,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Recreation",
-              "right": "Activity done for enjoyment when one is not working"
+              "left": "Relaxation",
+              "right": "The state of being free from tension and anxiety"
             },
             {
               "id": "p1",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
+              "left": "Festival",
+              "right": "A day or period of celebration"
             },
             {
               "id": "p2",
-              "left": "Entertainment",
-              "right": "The action of providing or being provided with amusement"
+              "left": "Pastime",
+              "right": "An activity done regularly for enjoyment"
             }
           ],
           "correct_answer": {
@@ -2015,15 +2010,15 @@
           "interaction_id": "U25_I86",
           "type": "transformation",
           "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (stay/usually) ________ at home on Friday nights.",
-          "correct_answer": "usually stay",
+          "stimulus_en": "He (go/prefers/not) ________ out today.",
+          "correct_answer": "prefers not to go",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U25_I87",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He is a classic car enthusiast.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"My main hobby is reading historical novels.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -2036,35 +2031,39 @@
           "options": [
             {
               "id": "w1",
-              "text": "park"
-            },
-            {
-              "id": "w3",
-              "text": "many"
-            },
-            {
-              "id": "w2",
-              "text": "offers"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w7",
-              "text": "children"
-            },
-            {
-              "id": "w5",
-              "text": "facilities"
+              "text": "with"
             },
             {
               "id": "w6",
-              "text": "for"
+              "text": "way"
+            },
+            {
+              "id": "w5",
+              "text": "great"
             },
             {
               "id": "w4",
-              "text": "recreation"
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "Socializing"
+            },
+            {
+              "id": "w8",
+              "text": "unwind"
+            },
+            {
+              "id": "w7",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "friends"
             }
           ],
           "correct_answer": [
@@ -2075,7 +2074,8 @@
             "w4",
             "w5",
             "w6",
-            "w7"
+            "w7",
+            "w8"
           ],
           "mastery_tag": "syntax"
         },
@@ -2083,19 +2083,19 @@
           "interaction_id": "U25_I89",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The park provides many opportunities for recreation.\"",
+          "stimulus_en": "Speaker A: \"I have a keen interest in photography.\"",
           "options": [
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             },
             {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             }
           ],
           "correct_answer": "r10",
@@ -2105,19 +2105,19 @@
         {
           "interaction_id": "U25_I90",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Activity done for enjoyment when one is not working\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The feeling of wanting to know or learn about something\"",
           "options": [
             {
-              "id": "o3",
-              "text": "Amusement"
+              "id": "o1",
+              "text": "Interest"
             },
             {
               "id": "o2",
-              "text": "Activity"
+              "text": "Hobby"
             },
             {
-              "id": "o1",
-              "text": "Recreation"
+              "id": "o3",
+              "text": "Socializing"
             }
           ],
           "correct_answer": "o1",
@@ -2131,18 +2131,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Entertainment",
-              "right": "The action of providing or being provided with amusement"
+              "left": "Interest",
+              "right": "The feeling of wanting to know or learn about something"
             },
             {
               "id": "p1",
-              "left": "Amusement",
-              "right": "The state or experience of finding something funny"
+              "left": "Facility",
+              "right": "A place, amenity, or piece of equipment provided for a particular purpose"
             },
             {
               "id": "p2",
-              "left": "Festival",
-              "right": "A day or period of celebration"
+              "left": "Hobby",
+              "right": "An activity done regularly in one's leisure time"
             }
           ],
           "correct_answer": {
@@ -2155,16 +2155,16 @@
         {
           "interaction_id": "U25_I92",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "He (prefers/go/not) ________ out today.",
-          "correct_answer": "prefers not to go",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Would you rather (go) ________ by train or by bus?",
+          "correct_answer": "go",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U25_I93",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Photography is my pastime. favorite\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Yoga is for great relaxation and stress relief.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -2176,36 +2176,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "the"
+              "id": "w6",
+              "text": "last"
             },
             {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "park"
-            },
-            {
-              "id": "w1",
-              "text": "went"
+              "id": "w7",
+              "text": "Saturday"
             },
             {
               "id": "w4",
               "text": "amusement"
             },
             {
-              "id": "w6",
-              "text": "last"
+              "id": "w1",
+              "text": "went"
             },
             {
               "id": "w0",
               "text": "We"
             },
             {
-              "id": "w7",
-              "text": "Saturday"
+              "id": "w5",
+              "text": "park"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "to"
             }
           ],
           "correct_answer": [
@@ -2224,19 +2224,19 @@
           "interaction_id": "U25_I95",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The school organized an excursion to the museum.\"",
+          "stimulus_en": "Speaker A: \"He is a classic car enthusiast.\"",
           "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
             },
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             }
           ],
           "correct_answer": "r10",
@@ -2246,19 +2246,19 @@
         {
           "interaction_id": "U25_I96",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A place, amenity, or piece of equipment provided for a particular purpose\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The state or experience of finding something funny\"",
           "options": [
             {
               "id": "o1",
-              "text": "Facility"
-            },
-            {
-              "id": "o3",
-              "text": "Excursion"
+              "text": "Amusement"
             },
             {
               "id": "o2",
-              "text": "Relaxation"
+              "text": "Skill"
+            },
+            {
+              "id": "o3",
+              "text": "Socializing"
             }
           ],
           "correct_answer": "o1",
@@ -2272,18 +2272,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
+              "left": "Enthusiast",
+              "right": "A person who is highly interested in a particular activity"
             },
             {
               "id": "p1",
-              "left": "Entertainment",
-              "right": "The action of providing or being provided with amusement"
+              "left": "Relaxation",
+              "right": "The state of being free from tension and anxiety"
             },
             {
               "id": "p2",
-              "left": "Amusement",
-              "right": "The state or experience of finding something funny"
+              "left": "Socializing",
+              "right": "The activity of spending time with others for pleasure"
             }
           ],
           "correct_answer": {
@@ -2317,1954 +2317,9 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w1",
-              "text": "went"
-            },
-            {
-              "id": "w5",
-              "text": "park"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
               "id": "w4",
-              "text": "amusement"
+              "text": "car"
             },
-            {
-              "id": "w7",
-              "text": "Saturday"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "last"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I101",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"There is plenty of entertainment in the city center.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I102",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The ability to do something well\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Skill"
-            },
-            {
-              "id": "o3",
-              "text": "Enthusiast"
-            },
-            {
-              "id": "o2",
-              "text": "Recreation"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I103",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Membership",
-              "right": "The fact of being a member of a group"
-            },
-            {
-              "id": "p1",
-              "left": "Interest",
-              "right": "The feeling of wanting to know or learn about something"
-            },
-            {
-              "id": "p2",
-              "left": "Amusement",
-              "right": "The state or experience of finding something funny"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I104",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (stay/usually) ________ at home on Friday nights.",
-          "correct_answer": "usually stay",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I105",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We went to amusement the park last Saturday.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I106",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "last"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w1",
-              "text": "went"
-            },
-            {
-              "id": "w4",
-              "text": "amusement"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "park"
-            },
-            {
-              "id": "w7",
-              "text": "Saturday"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I107",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The park provides many opportunities for recreation.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I108",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A day or period of celebration\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Activity"
-            },
-            {
-              "id": "o1",
-              "text": "Festival"
-            },
-            {
-              "id": "o3",
-              "text": "Pastime"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I109",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Festival",
-              "right": "A day or period of celebration"
-            },
-            {
-              "id": "p1",
-              "left": "Amusement",
-              "right": "The state or experience of finding something funny"
-            },
-            {
-              "id": "p2",
-              "left": "Pastime",
-              "right": "An activity done regularly for enjoyment"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I110",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (prefer) ________ playing video games to watching TV.",
-          "correct_answer": "prefers",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I111",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I has a keen interest in photography.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I112",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "recreation"
-            },
-            {
-              "id": "w5",
-              "text": "for"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "park"
-            },
-            {
-              "id": "w2",
-              "text": "provides"
-            },
-            {
-              "id": "w3",
-              "text": "many"
-            },
-            {
-              "id": "w4",
-              "text": "opportunities"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I113",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"There is plenty of entertainment in the city center.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I114",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A day or period of celebration\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Entertainment"
-            },
-            {
-              "id": "o1",
-              "text": "Festival"
-            },
-            {
-              "id": "o3",
-              "text": "Skill"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I115",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Amusement",
-              "right": "The state or experience of finding something funny"
-            },
-            {
-              "id": "p1",
-              "left": "Enthusiast",
-              "right": "A person who is highly interested in a particular activity"
-            },
-            {
-              "id": "p2",
-              "left": "Hobby",
-              "right": "An activity done regularly in one's leisure time"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I116",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (read/prefer) ________ to watching TV.",
-          "correct_answer": "prefer reading",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I117",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We went to the amusement park last Saturday.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I118",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "interest"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w3",
-              "text": "keen"
-            },
-            {
-              "id": "w6",
-              "text": "photography"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I119",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We went to the amusement park last Saturday.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I120",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The activity of spending time with others for pleasure\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Skill"
-            },
-            {
-              "id": "o3",
-              "text": "Entertainment"
-            },
-            {
-              "id": "o1",
-              "text": "Socializing"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I121",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Interest",
-              "right": "The feeling of wanting to know or learn about something"
-            },
-            {
-              "id": "p1",
-              "left": "Hobby",
-              "right": "An activity done regularly in one's leisure time"
-            },
-            {
-              "id": "p2",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I122",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Would you rather (go) ________ by train or by bus?",
-          "correct_answer": "go",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I123",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Photography is my pastime. favorite\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I124",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "for"
-            },
-            {
-              "id": "w7",
-              "text": "children"
-            },
-            {
-              "id": "w4",
-              "text": "recreation"
-            },
-            {
-              "id": "w3",
-              "text": "many"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "park"
-            },
-            {
-              "id": "w2",
-              "text": "offers"
-            },
-            {
-              "id": "w5",
-              "text": "facilities"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I125",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Socializing with friends is a great way to unwind.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I126",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The ability to do something well\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Excursion"
-            },
-            {
-              "id": "o1",
-              "text": "Skill"
-            },
-            {
-              "id": "o3",
-              "text": "Pastime"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I127",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Festival",
-              "right": "A day or period of celebration"
-            },
-            {
-              "id": "p1",
-              "left": "Amusement",
-              "right": "The state or experience of finding something funny"
-            },
-            {
-              "id": "p2",
-              "left": "Pastime",
-              "right": "An activity done regularly for enjoyment"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I128",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (travel) ________ a lot during their holidays.",
-          "correct_answer": "travel",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I129",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I have a keen interest photography. in\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I130",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "for"
-            },
-            {
-              "id": "w4",
-              "text": "opportunities"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "many"
-            },
-            {
-              "id": "w2",
-              "text": "provides"
-            },
-            {
-              "id": "w6",
-              "text": "recreation"
-            },
-            {
-              "id": "w1",
-              "text": "park"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I131",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"My main hobby is reading historical novels.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I132",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A thing that a person or group does or has done\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Activity"
-            },
-            {
-              "id": "o2",
-              "text": "Socializing"
-            },
-            {
-              "id": "o3",
-              "text": "Interest"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I133",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Pastime",
-              "right": "An activity done regularly for enjoyment"
-            },
-            {
-              "id": "p1",
-              "left": "Recreation",
-              "right": "Activity done for enjoyment when one is not working"
-            },
-            {
-              "id": "p2",
-              "left": "Relaxation",
-              "right": "The state of being free from tension and anxiety"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I134",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If I (have) ________ more free time, I would learn to paint.",
-          "correct_answer": "had",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I135",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The park provides many opportunities recreation. for\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I136",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "historical"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w4",
-              "text": "reading"
-            },
-            {
-              "id": "w1",
-              "text": "main"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "hobby"
-            },
-            {
-              "id": "w6",
-              "text": "novels"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I137",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I find gardening to be a great form of relaxation.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I138",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"An activity done regularly in one's leisure time\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Skill"
-            },
-            {
-              "id": "o3",
-              "text": "Relaxation"
-            },
-            {
-              "id": "o1",
-              "text": "Hobby"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I139",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Membership",
-              "right": "The fact of being a member of a group"
-            },
-            {
-              "id": "p1",
-              "left": "Amusement",
-              "right": "The state or experience of finding something funny"
-            },
-            {
-              "id": "p2",
-              "left": "Hobby",
-              "right": "An activity done regularly in one's leisure time"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I140",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (read/prefer) ________ to watching TV.",
-          "correct_answer": "prefer reading",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I141",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"My main hobby is reading historical novels.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I142",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "organized"
-            },
-            {
-              "id": "w4",
-              "text": "excursion"
-            },
-            {
-              "id": "w1",
-              "text": "school"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "museum"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "an"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I143",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I find gardening to be a great form of relaxation.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I144",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An activity done regularly for enjoyment\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Excursion"
-            },
-            {
-              "id": "o1",
-              "text": "Pastime"
-            },
-            {
-              "id": "o2",
-              "text": "Skill"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I145",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Hobby",
-              "right": "An activity done regularly in one's leisure time"
-            },
-            {
-              "id": "p1",
-              "left": "Pastime",
-              "right": "An activity done regularly for enjoyment"
-            },
-            {
-              "id": "p2",
-              "left": "Amusement",
-              "right": "The state or experience of finding something funny"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I146",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (read/prefer) ________ to watching TV.",
-          "correct_answer": "prefer reading",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I147",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We went to the amusement park last Saturday.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I148",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "offers"
-            },
-            {
-              "id": "w5",
-              "text": "facilities"
-            },
-            {
-              "id": "w3",
-              "text": "many"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w4",
-              "text": "recreation"
-            },
-            {
-              "id": "w1",
-              "text": "park"
-            },
-            {
-              "id": "w6",
-              "text": "for"
-            },
-            {
-              "id": "w7",
-              "text": "children"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I149",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The school organized an excursion to the museum.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I150",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The ability to do something well\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Entertainment"
-            },
-            {
-              "id": "o3",
-              "text": "Excursion"
-            },
-            {
-              "id": "o1",
-              "text": "Skill"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I151",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Skill",
-              "right": "The ability to do something well"
-            },
-            {
-              "id": "p1",
-              "left": "Activity",
-              "right": "A thing that a person or group does or has done"
-            },
-            {
-              "id": "p2",
-              "left": "Interest",
-              "right": "The feeling of wanting to know or learn about something"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I152",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (enjoy) ________ going for walks in the park.",
-          "correct_answer": "enjoy",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I153",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"My main hobby is reading historical novels.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I154",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w4",
-              "text": "activities"
-            },
-            {
-              "id": "w5",
-              "text": "do"
-            },
-            {
-              "id": "w6",
-              "text": "you"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w3",
-              "text": "outdoor"
-            },
-            {
-              "id": "w1",
-              "text": "kind"
-            },
-            {
-              "id": "w7",
-              "text": "enjoy?"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I155",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I find gardening to be a great form of relaxation.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I156",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The activity of spending time with others for pleasure\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Interest"
-            },
-            {
-              "id": "o3",
-              "text": "Festival"
-            },
-            {
-              "id": "o1",
-              "text": "Socializing"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I157",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Facility",
-              "right": "A place, amenity, or piece of equipment provided for a particular purpose"
-            },
-            {
-              "id": "p1",
-              "left": "Membership",
-              "right": "The fact of being a member of a group"
-            },
-            {
-              "id": "p2",
-              "left": "Relaxation",
-              "right": "The state of being free from tension and anxiety"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I158",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (enjoy) ________ going for walks in the park.",
-          "correct_answer": "enjoy",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I159",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I find garden to be a great form of relaxation.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I160",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "Chess"
-            },
-            {
-              "id": "w7",
-              "text": "countries"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w4",
-              "text": "pastime"
-            },
-            {
-              "id": "w6",
-              "text": "many"
-            },
-            {
-              "id": "w3",
-              "text": "popular"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I161",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The park provides many opportunities for recreation.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I162",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The action of providing or being provided with amusement\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Entertainment"
-            },
-            {
-              "id": "o2",
-              "text": "Recreation"
-            },
-            {
-              "id": "o3",
-              "text": "Skill"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I163",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Enthusiast",
-              "right": "A person who is highly interested in a particular activity"
-            },
-            {
-              "id": "p1",
-              "left": "Membership",
-              "right": "The fact of being a member of a group"
-            },
-            {
-              "id": "p2",
-              "left": "Facility",
-              "right": "A place, amenity, or piece of equipment provided for a particular purpose"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I164",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (stay/would rather) ________ at home tonight.",
-          "correct_answer": "would rather stay",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I165",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Chess is a popular pastime in countries. many\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I166",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "many"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "recreation"
-            },
-            {
-              "id": "w1",
-              "text": "park"
-            },
-            {
-              "id": "w4",
-              "text": "opportunities"
-            },
-            {
-              "id": "w5",
-              "text": "for"
-            },
-            {
-              "id": "w2",
-              "text": "provides"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I167",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"You need to develop your computer skills.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I168",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"An activity done regularly for enjoyment\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Festival"
-            },
-            {
-              "id": "o1",
-              "text": "Pastime"
-            },
-            {
-              "id": "o2",
-              "text": "Membership"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I169",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Facility",
-              "right": "A place, amenity, or piece of equipment provided for a particular purpose"
-            },
-            {
-              "id": "p1",
-              "left": "Relaxation",
-              "right": "The state of being free from tension and anxiety"
-            },
-            {
-              "id": "p2",
-              "left": "Skill",
-              "right": "The ability to do something well"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I170",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (stay/would rather) ________ at home tonight.",
-          "correct_answer": "would rather stay",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I171",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The park provides opportunities many for recreation.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I172",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "your"
-            },
-            {
-              "id": "w5",
-              "text": "computer"
-            },
-            {
-              "id": "w1",
-              "text": "need"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "skills"
-            },
-            {
-              "id": "w0",
-              "text": "You"
-            },
-            {
-              "id": "w3",
-              "text": "develop"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I173",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The park offers many recreation facilities for children.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I174",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"An activity done regularly for enjoyment\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Activity"
-            },
-            {
-              "id": "o2",
-              "text": "Facility"
-            },
-            {
-              "id": "o1",
-              "text": "Pastime"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I175",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Pastime",
-              "right": "An activity done regularly for enjoyment"
-            },
-            {
-              "id": "p1",
-              "left": "Activity",
-              "right": "A thing that a person or group does or has done"
-            },
-            {
-              "id": "p2",
-              "left": "Entertainment",
-              "right": "The action of providing or being provided with amusement"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I176",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (enjoy) ________ going for walks in the park.",
-          "correct_answer": "enjoy",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I177",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"My main hobby is reading historical novels.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I178",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "unwind"
-            },
-            {
-              "id": "w7",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "Socializing"
-            },
-            {
-              "id": "w6",
-              "text": "way"
-            },
-            {
-              "id": "w1",
-              "text": "with"
-            },
-            {
-              "id": "w5",
-              "text": "great"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "friends"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I179",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Photography is my favorite pastime.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I180",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The fact of being a member of a group\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Membership"
-            },
-            {
-              "id": "o2",
-              "text": "Skill"
-            },
-            {
-              "id": "o3",
-              "text": "Interest"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I181",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Recreation",
-              "right": "Activity done for enjoyment when one is not working"
-            },
-            {
-              "id": "p1",
-              "left": "Socializing",
-              "right": "The activity of spending time with others for pleasure"
-            },
-            {
-              "id": "p2",
-              "left": "Membership",
-              "right": "The fact of being a member of a group"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I182",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (go) ________ to the cinema once a week.",
-          "correct_answer": "go",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I183",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We went to amusement the park last Saturday.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I184",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
             {
               "id": "w1",
               "text": "is"
@@ -4274,20 +2329,16 @@
               "text": "He"
             },
             {
+              "id": "w3",
+              "text": "classic"
+            },
+            {
               "id": "w2",
               "text": "a"
             },
             {
               "id": "w5",
               "text": "enthusiast"
-            },
-            {
-              "id": "w3",
-              "text": "classic"
-            },
-            {
-              "id": "w4",
-              "text": "car"
             }
           ],
           "correct_answer": [
@@ -4299,375 +2350,6 @@
             "w5"
           ],
           "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I185",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"My main hobby is reading historical novels.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I186",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The feeling of wanting to know or learn about something\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Hobby"
-            },
-            {
-              "id": "o1",
-              "text": "Interest"
-            },
-            {
-              "id": "o3",
-              "text": "Recreation"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I187",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Entertainment",
-              "right": "The action of providing or being provided with amusement"
-            },
-            {
-              "id": "p1",
-              "left": "Pastime",
-              "right": "An activity done regularly for enjoyment"
-            },
-            {
-              "id": "p2",
-              "left": "Membership",
-              "right": "The fact of being a member of a group"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I188",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (travel) ________ a lot during their holidays.",
-          "correct_answer": "travel",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I189",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I have a interest keen in photography.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I190",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "do"
-            },
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w4",
-              "text": "activities"
-            },
-            {
-              "id": "w7",
-              "text": "enjoy?"
-            },
-            {
-              "id": "w3",
-              "text": "outdoor"
-            },
-            {
-              "id": "w6",
-              "text": "you"
-            },
-            {
-              "id": "w1",
-              "text": "kind"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I191",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The school organized an excursion to the museum.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I192",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"An activity done regularly for enjoyment\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Membership"
-            },
-            {
-              "id": "o3",
-              "text": "Entertainment"
-            },
-            {
-              "id": "o1",
-              "text": "Pastime"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I193",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Membership",
-              "right": "The fact of being a member of a group"
-            },
-            {
-              "id": "p1",
-              "left": "Amusement",
-              "right": "The state or experience of finding something funny"
-            },
-            {
-              "id": "p2",
-              "left": "Facility",
-              "right": "A place, amenity, or piece of equipment provided for a particular purpose"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I194",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (enjoy) ________ going for walks in the park.",
-          "correct_answer": "enjoy",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I195",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Socializing with friends is a great way to unwind.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I196",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "plenty"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "of"
-            },
-            {
-              "id": "w4",
-              "text": "entertainment"
-            },
-            {
-              "id": "w7",
-              "text": "city"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w8",
-              "text": "center"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I197",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I find gardening to be a great form of relaxation.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U25_I198",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A short journey or trip, especially one taken as a leisure activity\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Skill"
-            },
-            {
-              "id": "o1",
-              "text": "Excursion"
-            },
-            {
-              "id": "o2",
-              "text": "Socializing"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I199",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Enthusiast",
-              "right": "A person who is highly interested in a particular activity"
-            },
-            {
-              "id": "p1",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
-            },
-            {
-              "id": "p2",
-              "left": "Activity",
-              "right": "A thing that a person or group does or has done"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I200",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (enjoy) ________ going for walks in the park.",
-          "correct_answer": "enjoy",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
         }
       ]
     }

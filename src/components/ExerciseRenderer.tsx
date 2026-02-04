@@ -26,6 +26,8 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
   const [showConfetti, setShowConfetti] = useState(false);
   const [isAnimating, setIsAnimating] = useState(true);
   const [isEvaluating, setIsEvaluating] = useState(false);
+  const [showFinishButton, setShowFinishButton] = useState(false);
+  const [finishScore, setFinishScore] = useState(0);
   const [aiEvaluation, setAiEvaluation] = useState<MultipleChoiceEvaluationResponse | TextAnswerEvaluationResponse | null>(null);
 
   // Animación de entrada y reset de estado cuando cambia el ejercicio
@@ -36,6 +38,8 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
     setIsCorrect(false);
     setShowConfetti(false);
     setIsEvaluating(false);
+    setShowFinishButton(false);
+    setFinishScore(0);
     setAiEvaluation(null);
     setIsAnimating(true);
     
@@ -165,17 +169,29 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
     if (exercise.type === 'speaking-analysis' && exercise.content.questions && Array.isArray(exercise.content.questions)) {
       const question = exercise.content.questions[0]; // Use first question for now
       return (
-        <SpeakingExercise
-          question={question}
-          level={exercise.level}
-          onComplete={(evaluation) => {
-            console.log('Speaking evaluation:', evaluation);
-            // Mark as complete after evaluation
-            setTimeout(() => {
-              onComplete();
-            }, 3000);
-          }}
-        />
+        <div className="space-y-6">
+          <SpeakingExercise
+            question={question}
+            level={exercise.level}
+            onComplete={(evaluation) => {
+              console.log('Speaking evaluation:', evaluation);
+              // Mark as complete but don't transition yet
+              setShowFinishButton(true);
+              setFinishScore(evaluation.score || 100);
+            }}
+          />
+          {showFinishButton && (
+            <div className="mt-8 flex justify-center animate-in fade-in zoom-in duration-300">
+              <button
+                onClick={() => onComplete(finishScore)}
+                className="bg-green-600 text-white px-12 py-4 rounded-2xl font-black hover:bg-green-700 transition-all shadow-lg flex items-center justify-center gap-2 shadow-green-100"
+              >
+                Siguiente Ejercicio
+                <ArrowRight className="w-6 h-6" />
+              </button>
+            </div>
+          )}
+        </div>
       );
     }
 
@@ -196,12 +212,21 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
             onComplete={() => {
               setShowConfetti(true);
               completeExercise(exercise.id, 1, 1);
-              setTimeout(() => {
-                setShowConfetti(false);
-                onComplete();
-              }, 3000);
+              setShowFinishButton(true);
+              setFinishScore(100);
             }} 
           />
+          {showFinishButton && (
+            <div className="mt-8 flex justify-center animate-in fade-in zoom-in duration-300">
+              <button
+                onClick={() => onComplete(finishScore)}
+                className="bg-green-600 text-white px-12 py-4 rounded-2xl font-black hover:bg-green-700 transition-all shadow-lg flex items-center justify-center gap-2 shadow-green-100"
+              >
+                Siguiente Ejercicio
+                <ArrowRight className="w-6 h-6" />
+              </button>
+            </div>
+          )}
         </div>
       );
     }
@@ -221,12 +246,21 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
             onComplete={() => {
               setShowConfetti(true);
               completeExercise(exercise.id, 1, 1);
-              setTimeout(() => {
-                setShowConfetti(false);
-                onComplete();
-              }, 3000);
+              setShowFinishButton(true);
+              setFinishScore(100);
             }} 
           />
+          {showFinishButton && (
+            <div className="mt-8 flex justify-center animate-in fade-in zoom-in duration-300">
+              <button
+                onClick={() => onComplete(finishScore)}
+                className="bg-green-600 text-white px-12 py-4 rounded-2xl font-black hover:bg-green-700 transition-all shadow-lg flex items-center justify-center gap-2 shadow-green-100"
+              >
+                Siguiente Ejercicio
+                <ArrowRight className="w-6 h-6" />
+              </button>
+            </div>
+          )}
         </div>
       );
     }
@@ -251,12 +285,21 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
               );
 
               completeExercise(exercise.id, quality, 5);
-              setTimeout(() => {
-                setShowConfetti(false);
-                onComplete((quality / 5) * 100);
-              }, 2000);
+              setShowFinishButton(true);
+              setFinishScore((quality / 5) * 100);
             }} 
           />
+          {showFinishButton && (
+            <div className="mt-8 flex justify-center animate-in fade-in zoom-in duration-300">
+              <button
+                onClick={() => onComplete(finishScore)}
+                className="bg-green-600 text-white px-12 py-4 rounded-2xl font-black hover:bg-green-700 transition-all shadow-lg flex items-center justify-center gap-2 shadow-green-100"
+              >
+                Siguiente Ejercicio
+                <ArrowRight className="w-6 h-6" />
+              </button>
+            </div>
+          )}
         </div>
       );
     }
@@ -273,10 +316,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
               if (isCorrect) {
                 setShowConfetti(true);
                 completeExercise(exercise.id, 1, 1);
-                setTimeout(() => {
-                  setShowConfetti(false);
-                  onComplete(100);
-                }, 3000);
+                onComplete(100);
               } else {
                 onComplete(0);
               }

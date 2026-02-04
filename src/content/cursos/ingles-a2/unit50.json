@@ -1,0 +1,1149 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U50",
+    "unit_title": "Media & Entertainment: News",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Media, News & Social Networks",
+      "content": [
+        {
+          "interaction_id": "U50_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Periodista'?",
+          "options": [
+            { "id": "o1", "text": "Journalist / Reporter" },
+            { "id": "o2", "text": "Writer" },
+            { "id": "o3", "text": "Newsman" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Noticias'?",
+          "options": [
+            { "id": "o1", "text": "News" },
+            { "id": "o2", "text": "Notices" },
+            { "id": "o3", "text": "Papers" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Periódico'?",
+          "options": [
+            { "id": "o1", "text": "Newspaper" },
+            { "id": "o2", "text": "Journal" },
+            { "id": "o3", "text": "Magazine" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Revista'?",
+          "options": [
+            { "id": "o1", "text": "Magazine" },
+            { "id": "o2", "text": "Booklet" },
+            { "id": "o3", "text": "Store" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Artículo'?",
+          "options": [
+            { "id": "o1", "text": "Article" },
+            { "id": "o2", "text": "Post" },
+            { "id": "o3", "text": "Report" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Titular'?",
+          "options": [
+            { "id": "o1", "text": "Headline" },
+            { "id": "o2", "text": "Title" },
+            { "id": "o3", "text": "Header" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Redes sociales'?",
+          "options": [
+            { "id": "o1", "text": "Social media" },
+            { "id": "o2", "text": "Social networks" },
+            { "id": "o3", "text": "Internet life" },
+            { "id": "o4", "text": "o1 and o2 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Compartir'?",
+          "options": [
+            { "id": "o1", "text": "To share" },
+            { "id": "o2", "text": "To divide" },
+            { "id": "o3", "text": "To post" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Publicar'?",
+          "options": [
+            { "id": "o1", "text": "To post / To publish" },
+            { "id": "o2", "text": "To share" },
+            { "id": "o3", "text": "To upload" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Subir (archivos)'?",
+          "options": [
+            { "id": "o1", "text": "To upload" },
+            { "id": "o2", "text": "To download" },
+            { "id": "o3", "text": "To up" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Descargar'?",
+          "options": [
+            { "id": "o1", "text": "To download" },
+            { "id": "o2", "text": "To upload" },
+            { "id": "o3", "text": "To take down" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Comentario'?",
+          "options": [
+            { "id": "o1", "text": "Comment" },
+            { "id": "o2", "text": "Opinion" },
+            { "id": "o3", "text": "Post" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Famoso / Celebridad'?",
+          "options": [
+            { "id": "o1", "text": "Famous / Celebrity" },
+            { "id": "o2", "text": "Important" },
+            { "id": "o3", "text": "Star" },
+            { "id": "o4", "text": "All are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Canal (de TV)'?",
+          "options": [
+            { "id": "o1", "text": "Channel" },
+            { "id": "o2", "text": "Station" },
+            { "id": "o3", "text": "Program" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Anuncio / Publicidad'?",
+          "options": [
+            { "id": "o1", "text": "Advertisement / Ad / Advert" },
+            { "id": "o2", "text": "Commercial" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I16",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Newspaper", "right": "Periódico" },
+            { "id": "p2", "left": "Headline", "right": "Titular" },
+            { "id": "p3", "left": "Journalist", "right": "Periodista" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I17",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Share", "right": "Compartir" },
+            { "id": "p2", "left": "Post", "right": "Publicar / Publicación" },
+            { "id": "p3", "left": "Comment", "right": "Comentario" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Viral'?",
+          "options": [
+            { "id": "o1", "text": "Que se extiende rápidamente por internet" },
+            { "id": "o2", "text": "Que tiene un virus" },
+            { "id": "o3", "text": "Que es peligroso" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Trending'?",
+          "options": [
+            { "id": "o1", "text": "Tendencia / De moda" },
+            { "id": "o2", "text": "Aburrido" },
+            { "id": "o3", "text": "Antiguo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Live' (en TV/radio)?",
+          "options": [
+            { "id": "o1", "text": "En vivo / En directo" },
+            { "id": "o2", "text": "Grabado" },
+            { "id": "o3", "text": "Vivir" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Público / Audiencia'?",
+          "options": [
+            { "id": "o1", "text": "Audience / Public" },
+            { "id": "o2", "text": "Viewers" },
+            { "id": "o3", "text": "Listeners" },
+            { "id": "o4", "text": "All are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Espectador (de TV)'?",
+          "options": [
+            { "id": "o1", "text": "Viewer" },
+            { "id": "o2", "text": "Listener" },
+            { "id": "o3", "text": "Reader" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Oyente'?",
+          "options": [
+            { "id": "o1", "text": "Listener" },
+            { "id": "o2", "text": "Viewer" },
+            { "id": "o3", "text": "User" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Usuario'?",
+          "options": [
+            { "id": "o1", "text": "User" },
+            { "id": "o2", "text": "Customer" },
+            { "id": "o3", "text": "Member" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Seguidor'?",
+          "options": [
+            { "id": "o1", "text": "Follower" },
+            { "id": "o2", "text": "Fan" },
+            { "id": "o3", "text": "Friend" },
+            { "id": "o4", "text": "o1 and o2 are common" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Suscribirse'?",
+          "options": [
+            { "id": "o1", "text": "To subscribe" },
+            { "id": "o2", "text": "To sign up" },
+            { "id": "o3", "text": "To join" },
+            { "id": "o4", "text": "All are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer clic'?",
+          "options": [
+            { "id": "o1", "text": "To click" },
+            { "id": "o2", "text": "To push" },
+            { "id": "o3", "text": "To touch" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Enlace'?",
+          "options": [
+            { "id": "o1", "text": "Link" },
+            { "id": "o2", "text": "Url" },
+            { "id": "o3", "text": "Website" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sitio web'?",
+          "options": [
+            { "id": "o1", "text": "Website" },
+            { "id": "o2", "text": "Web place" },
+            { "id": "o3", "text": "Internet page" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Blog'?",
+          "options": [
+            { "id": "o1", "text": "Blog" },
+            { "id": "o2", "text": "Dairy" },
+            { "id": "o3", "text": "Log" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Influencer'?",
+          "options": [
+            { "id": "o1", "text": "Influencer" },
+            { "id": "o2", "text": "Leader" },
+            { "id": "o3", "text": "Expert" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Podcast'?",
+          "options": [
+            { "id": "o1", "text": "Podcast" },
+            { "id": "o2", "text": "Radio show" },
+            { "id": "o3", "text": "Music file" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pantalla'?",
+          "options": [
+            { "id": "o1", "text": "Screen" },
+            { "id": "o2", "text": "Monitor" },
+            { "id": "o3", "text": "Display" },
+            { "id": "o4", "text": "All are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Teclado'?",
+          "options": [
+            { "id": "o1", "text": "Keyboard" },
+            { "id": "o2", "text": "Keypad" },
+            { "id": "o3", "text": "Board" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I35",
+          "type": "flashcard",
+          "prompt_es": "Medios Digitales",
+          "flashcards": [
+            { "front": "Social media", "back": "Redes sociales", "pronunciation": "/ˈsoʊʃəl ˈmiːdiə/" },
+            { "front": "Follower", "back": "Seguidor", "pronunciation": "/ˈfɒloʊər/" },
+            { "front": "To upload", "back": "Subir (archivo)", "pronunciation": "/tə ʌpˈloʊd/" },
+            { "front": "To download", "back": "Descargar (archivo)", "pronunciation": "/tə ˌdaʊnˈloʊd/" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Past Habits with 'Used to'",
+      "content": [
+        {
+          "interaction_id": "U50_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Para qué usamos 'Used to'?",
+          "options": [
+            { "id": "o1", "text": "Para hábitos o estados en el pasado que ya no ocurren" },
+            { "id": "o2", "text": "Para lo que estoy haciendo ahora" },
+            { "id": "o3", "text": "Para planes futuros" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (solía jugar) football every Saturday.'",
+          "stimulus_en": "I ___ football every Saturday.",
+          "correct_answer": "used to play",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (solía vivir) in London.'",
+          "stimulus_en": "She ___ in London.",
+          "correct_answer": "used to live",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Negación: 'I ___ (no solía ver) much TV.'",
+          "stimulus_en": "I ___ much TV.",
+          "correct_answer": "didn't use to watch",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ you ___ (solías tener) long hair?'",
+          "stimulus_en": "___ you ___ long hair?",
+          "correct_answer": "Did, use to have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta en la pregunta?",
+          "options": [
+            { "id": "o1", "text": "Did you used to?" },
+            { "id": "o2", "text": "Did you use to?" },
+            { "id": "o3", "text": "Do you use to?" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta en negación?",
+          "options": [
+            { "id": "o1", "text": "I didn't used to." },
+            { "id": "o2", "text": "I didn't use to." },
+            { "id": "o3", "text": "I not used to." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (solíamos ser) friends.'",
+          "stimulus_en": "We ___ friends.",
+          "correct_answer": "used to be",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (solían ir) to the beach every summer.'",
+          "stimulus_en": "They ___ to the beach every summer.",
+          "correct_answer": "used to go",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (no solía comer) vegetables.'",
+          "stimulus_en": "He ___ vegetables.",
+          "correct_answer": "didn't use to eat",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'I used to smoke'?",
+          "options": [
+            { "id": "o1", "text": "Solía fumar (pero ya no)" },
+            { "id": "o2", "text": "Estoy acostumbrado a fumar" },
+            { "id": "o3", "text": "Fumé una vez" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Before social media, people ___ (solían escribir) letters.'",
+          "stimulus_en": "Before social media, people ___ letters.",
+          "correct_answer": "used to write",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: 'Where ___ you ___ (solías vivir) before?'",
+          "stimulus_en": "Where ___ you ___ before?",
+          "correct_answer": "did, use to live",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It ___ (solía ser) a very quiet town.'",
+          "stimulus_en": "It ___ a very quiet town.",
+          "correct_answer": "used to be",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'My grandfather ___ (solía contarnos) stories.'",
+          "stimulus_en": "My grandfather ___ us stories.",
+          "correct_answer": "used to tell",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'No solía gustarme el pescado'?",
+          "options": [
+            { "id": "o1", "text": "I didn't use to like fish." },
+            { "id": "o2", "text": "I not used to like fish." },
+            { "id": "o3", "text": "I didn't used to like fish." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Solías ir al cine los domingos?'?",
+          "options": [
+            { "id": "o1", "text": "Did you use to go to the cinema on Sundays?" },
+            { "id": "o2", "text": "Used you to go to cinema?" },
+            { "id": "o3", "text": "Did you used to go?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (solía tener) a cat when I was a child.'",
+          "stimulus_en": "I ___ a cat when I was a child.",
+          "correct_answer": "used to have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (solían trabajar) together.'",
+          "stimulus_en": "They ___ together.",
+          "correct_answer": "used to work",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (no solía hablar) English very well.'",
+          "stimulus_en": "She ___ English very well.",
+          "correct_answer": "didn't use to speak",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'What games ___ you ___ (solías jugar)?'",
+          "stimulus_en": "What games ___ you ___?",
+          "correct_answer": "did, use to play",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (solía levantarme) late.'",
+          "stimulus_en": "I ___ late.",
+          "correct_answer": "used to get up",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (solíamos ir) to the park.'",
+          "stimulus_en": "We ___ to the park.",
+          "correct_answer": "used to go",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (no solía conducir) to work.'",
+          "stimulus_en": "He ___ to work.",
+          "correct_answer": "didn't use to drive",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (solía odiar) mushrooms.'",
+          "stimulus_en": "I ___ mushrooms.",
+          "correct_answer": "used to hate",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I61",
+          "type": "multiple_choice",
+          "prompt_es": "Passive awareness: 'This book ___ (fue escrito) in 1950.'",
+          "options": [
+            { "id": "o1", "text": "was written" },
+            { "id": "o2", "text": "is written" },
+            { "id": "o3", "text": "wrote" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I62",
+          "type": "multiple_choice",
+          "prompt_es": "Passive awareness: 'The news ___ (son dadas) every hour.'",
+          "options": [
+            { "id": "o1", "text": "are given" },
+            { "id": "o2", "text": "is given" },
+            { "id": "o3", "text": "gives" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I63",
+          "type": "multiple_choice",
+          "prompt_es": "Passive awareness: 'This phone ___ (está hecho) in China.'",
+          "options": [
+            { "id": "o1", "text": "is made" },
+            { "id": "o2", "text": "was made" },
+            { "id": "o3", "text": "made" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I64",
+          "type": "multiple_choice",
+          "prompt_es": "Passive awareness: 'The Eiffel Tower ___ (fue construida) in 1889.'",
+          "options": [
+            { "id": "o1", "text": "was built" },
+            { "id": "o2", "text": "is built" },
+            { "id": "o3", "text": "builded" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Passive awareness: 'Portuguese ___ (es hablado) in Brazil.'",
+          "options": [
+            { "id": "o1", "text": "is spoken" },
+            { "id": "o2", "text": "was spoken" },
+            { "id": "o3", "text": "speaks" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (solía estudiar) French.'",
+          "stimulus_en": "I ___ French.",
+          "correct_answer": "used to study",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (no solían viajar) much.'",
+          "stimulus_en": "They ___ much.",
+          "correct_answer": "didn't use to travel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ she ___ (solía bailar) ballet?'",
+          "stimulus_en": "___ she ___ ballet?",
+          "correct_answer": "Did, use to dance",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (solía amar) this song.'",
+          "stimulus_en": "I ___ this song.",
+          "correct_answer": "used to love",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (solíamos comprar) the newspaper every day.'",
+          "stimulus_en": "We ___ the newspaper every day.",
+          "correct_answer": "used to buy",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Discussing Media Habits & Past Times",
+      "content": [
+        {
+          "interaction_id": "U50_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas por hábitos pasados? '___ have a pet?'",
+          "options": [
+            { "id": "o1", "text": "Did you use to" },
+            { "id": "o2", "text": "Did you used to" },
+            { "id": "o3", "text": "Used you to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Solía ver dibujos animados'?",
+          "options": [
+            { "id": "o1", "text": "I used to watch cartoons." },
+            { "id": "o2", "text": "I was watching cartoons." },
+            { "id": "o3", "text": "I use to watch cartoons." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Has visto las noticias hoy?'?",
+          "options": [
+            { "id": "o1", "text": "Have you seen the news today?" },
+            { "id": "o2", "text": "Did you see the news today?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'He leído un artículo interesante'?",
+          "options": [
+            { "id": "o1", "text": "I've read an interesting article." },
+            { "id": "o2", "text": "I read an interesting article." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué redes sociales usas?'?",
+          "options": [
+            { "id": "o1", "text": "Which social media do you use?" },
+            { "id": "o2", "text": "What social networks do you use?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No suelo usar Twitter'?",
+          "options": [
+            { "id": "o1", "text": "I don't usually use Twitter." },
+            { "id": "o2", "text": "I'm not usually use Twitter." },
+            { "id": "o3", "text": "I not use to use Twitter." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I77",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / used / to / listen / to / the / radio / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "used" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "listen" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "the" },
+            { "id": "w7", "text": "radio" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I78",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'She / didn't / use / to / have / a / blog / .'",
+          "options": [
+            { "id": "w1", "text": "She" },
+            { "id": "w2", "text": "didn't" },
+            { "id": "w3", "text": "use" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "have" },
+            { "id": "w6", "text": "a" },
+            { "id": "w7", "text": "blog" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I79",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Did / you / use / to / read / magazines / ?'",
+          "options": [
+            { "id": "w1", "text": "Did" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "use" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "read" },
+            { "id": "w6", "text": "magazines" },
+            { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'He publicado una foto en Instagram'?",
+          "options": [
+            { "id": "o1", "text": "I've posted a photo on Instagram." },
+            { "id": "o2", "text": "I post a photo in Instagram." },
+            { "id": "o3", "text": "I have share a photo." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Puedo compartir esto?'?",
+          "options": [
+            { "id": "o1", "text": "Can I share this?" },
+            { "id": "o2", "text": "May I share this?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me gusta tu comentario'?",
+          "options": [
+            { "id": "o1", "text": "I like your comment." },
+            { "id": "o2", "text": "Your comment likes me." },
+            { "id": "o3", "text": "I'm like your comment." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Quién es tu famoso favorito?'?",
+          "options": [
+            { "id": "o1", "text": "Who is your favourite celebrity?" },
+            { "id": "o2", "text": "Who is your favorite famous?" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hay demasiada publicidad en la televisión'?",
+          "options": [
+            { "id": "o1", "text": "There are too many adverts on TV." },
+            { "id": "o2", "text": "There is too much advertising on TV." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿A qué canales estás suscrito?'?",
+          "options": [
+            { "id": "o1", "text": "Which channels are you subscribed to?" },
+            { "id": "o2", "text": "To what channels you subscribe?" },
+            { "id": "o3", "text": "What channels you are subscribe?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I86",
+          "type": "flashcard",
+          "prompt_es": "Frases de Redes Sociales",
+          "flashcards": [
+            { "front": "Follow me!", "back": "¡Sígueme!", "pronunciation": "/ˈfɒloʊ miː/" },
+            { "front": "Send me a link", "back": "Envíame un enlace", "pronunciation": "/sɛnd miː ə lɪŋk/" },
+            { "front": "Tag your friends", "back": "Etiqueta a tus amigos", "pronunciation": "/tæɡ jər frɛndz/" },
+            { "front": "Check my new post", "back": "Mira mi nueva publicación", "pronunciation": "/tʃɛk maɪ njuː poʊst/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te enviaré el enlace'?",
+          "options": [
+            { "id": "o1", "text": "I'll send you the link." },
+            { "id": "o2", "text": "I send you the link." },
+            { "id": "o3", "text": "I am sending you the link." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Has visto este vídeo viral?'?",
+          "options": [
+            { "id": "o1", "text": "Have you seen this viral video?" },
+            { "id": "o2", "text": "Did you see this viral video?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Solía pasar mucho tiempo en internet'?",
+          "options": [
+            { "id": "o1", "text": "I used to spend a lot of time on the internet." },
+            { "id": "o2", "text": "I was spending time on internet." },
+            { "id": "o3", "text": "I use to spend time." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué solías hacer antes de tener internet?'?",
+          "options": [
+            { "id": "o1", "text": "What did you use to do before you had internet?" },
+            { "id": "o2", "text": "What you used to do?" },
+            { "id": "o3", "text": "Used you to do what?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Solía leer más libros'?",
+          "options": [
+            { "id": "o1", "text": "I used to read more books." },
+            { "id": "o2", "text": "I readed more books." },
+            { "id": "o3", "text": "I was reading more books." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No solía gustarme la tecnología'?",
+          "options": [
+            { "id": "o1", "text": "I didn't use to like technology." },
+            { "id": "o2", "text": "I not used to like technology." },
+            { "id": "o3", "text": "I didn't used to like technology." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Viste el titular de hoy?'?",
+          "options": [
+            { "id": "o1", "text": "Did you see today's headline?" },
+            { "id": "o2", "text": "Have you seen today's headline?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La noticia fue publicada ayer'?",
+          "options": [
+            { "id": "o1", "text": "The news was published yesterday." },
+            { "id": "o2", "text": "The news published yesterday." },
+            { "id": "o3", "text": "News was post yesterday." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Esta canción fue escrita por él'?",
+          "options": [
+            { "id": "o1", "text": "This song was written by him." },
+            { "id": "o2", "text": "This song wrote by him." },
+            { "id": "o3", "text": "This song was write by him." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Dónde fue hecha esta película?'?",
+          "options": [
+            { "id": "o1", "text": "Where was this movie made?" },
+            { "id": "o2", "text": "Where this movie was made?" },
+            { "id": "o3", "text": "Where did this movie made?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Fue hecha en Hollywood'?",
+          "options": [
+            { "id": "o1", "text": "It was made in Hollywood." },
+            { "id": "o2", "text": "Is made in Hollywood." },
+            { "id": "o3", "text": "It made in Hollywood." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Suscríbete a mi canal para más vídeos'?",
+          "options": [
+            { "id": "o1", "text": "Subscribe to my channel for more videos." },
+            { "id": "o2", "text": "Sign up to my channel." },
+            { "id": "o3", "text": "Subscribe my channel." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No te olvides de darle a like'?",
+          "options": [
+            { "id": "o1", "text": "Don't forget to like." },
+            { "id": "o2", "text": "Not forget like." },
+            { "id": "o3", "text": "Don't forget to give a like." },
+            { "id": "o4", "text": "o1 and o3 are common" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Solía leer el periódico todos los días, pero ahora leo las noticias en mi móvil.'",
+          "stimulus_es": "Solía leer el periódico todos los días, pero ahora leo las noticias en mi móvil.",
+          "correct_answer": "I used to read the newspaper every day, but now I read the news on my mobile.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 ---
 title: "Guía 2026: Inglés para Hoteles: Check-in, Servicios y Reclamaciones"
-date: "2026-02-20"
+date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Aprende las frases esenciales para tu estancia en un hotel. Desde el check-in hasta cómo reclamar una avería en inglés con total seguridad."
 category: "viajes"

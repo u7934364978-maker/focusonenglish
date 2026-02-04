@@ -66,19 +66,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Categorías del blog
   const categories = Array.from(new Set(articles.map(a => a.category)));
   urls.push(
-    ...categories.map((category) => ({
-      url: `${baseUrl}/blog/${category}`,
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 0.75,
-    }))
+    ...categories.map((category) => {
+      const categoryArticles = articles.filter(a => a.category === category);
+      const latestDate = categoryArticles.length > 0 
+        ? new Date(categoryArticles[0].date) 
+        : now;
+
+      return {
+        url: `${baseUrl}/blog/${category}`,
+        lastModified: latestDate,
+        changeFrequency: "weekly" as const,
+        priority: 0.75,
+      };
+    })
   );
 
   // Artículos individuales
   urls.push(
     ...articles.map((article) => ({
       url: `${baseUrl}/blog/${article.category}/${article.slug}`,
-      lastModified: now,
+      lastModified: new Date(article.date),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     }))

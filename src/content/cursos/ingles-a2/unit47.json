@@ -1,0 +1,1154 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U47",
+    "unit_title": "Expressing Opinions: Agreements",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Opinions & Perspectives",
+      "content": [
+        {
+          "interaction_id": "U47_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estar de acuerdo'?",
+          "options": [
+            { "id": "o1", "text": "To agree" },
+            { "id": "o2", "text": "To be agree" },
+            { "id": "o3", "text": "To stay agree" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'No estar de acuerdo'?",
+          "options": [
+            { "id": "o1", "text": "To disagree" },
+            { "id": "o2", "text": "To not agree" },
+            { "id": "o3", "text": "To be disagree" },
+            { "id": "o4", "text": "o1 and o2 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Opinión'?",
+          "options": [
+            { "id": "o1", "text": "Opinion" },
+            { "id": "o2", "text": "Thought" },
+            { "id": "o3", "text": "Idea" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Punto de vista'?",
+          "options": [
+            { "id": "o1", "text": "Point of view" },
+            { "id": "o2", "text": "Viewpoint" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tienes razón'?",
+          "options": [
+            { "id": "o1", "text": "You are right" },
+            { "id": "o2", "text": "You have reason" },
+            { "id": "o3", "text": "You are correct" },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estás equivocado'?",
+          "options": [
+            { "id": "o1", "text": "You are wrong" },
+            { "id": "o2", "text": "You have no reason" },
+            { "id": "o3", "text": "You are mistaken" },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Personalmente'?",
+          "options": [
+            { "id": "o1", "text": "Personally" },
+            { "id": "o2", "text": "Selfish" },
+            { "id": "o3", "text": "Private" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Quizás'?",
+          "options": [
+            { "id": "o1", "text": "Maybe / Perhaps" },
+            { "id": "o2", "text": "Surely" },
+            { "id": "o3", "text": "Always" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Exactamente'?",
+          "options": [
+            { "id": "o1", "text": "Exactly" },
+            { "id": "o2", "text": "Directly" },
+            { "id": "o3", "text": "Totally" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Absolutamente'?",
+          "options": [
+            { "id": "o1", "text": "Absolutely" },
+            { "id": "o2", "text": "Maybe" },
+            { "id": "o3", "text": "Not at all" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Para ser honesto'?",
+          "options": [
+            { "id": "o1", "text": "To be honest" },
+            { "id": "o2", "text": "Honestly" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'De hecho'?",
+          "options": [
+            { "id": "o1", "text": "In fact / Actually" },
+            { "id": "o2", "text": "Directly" },
+            { "id": "o3", "text": "Really" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Depende'?",
+          "options": [
+            { "id": "o1", "text": "It depends" },
+            { "id": "o2", "text": "Is depending" },
+            { "id": "o3", "text": "Depend" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Por un lado...'?",
+          "options": [
+            { "id": "o1", "text": "On the one hand..." },
+            { "id": "o2", "text": "In one side..." },
+            { "id": "o3", "text": "For one part..." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Por otro lado...'?",
+          "options": [
+            { "id": "o1", "text": "On the other hand..." },
+            { "id": "o2", "text": "In other side..." },
+            { "id": "o3", "text": "For other part..." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I16",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Agree", "right": "Estar de acuerdo" },
+            { "id": "p2", "left": "Disagree", "right": "No estar de acuerdo" },
+            { "id": "p3", "left": "Opinion", "right": "Opinión" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I17",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Right", "right": "Correcto / Razón" },
+            { "id": "p2", "left": "Wrong", "right": "Equivocado" },
+            { "id": "p3", "left": "Maybe", "right": "Tal vez" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Point' en 'Good point'?",
+          "options": [
+            { "id": "o1", "text": "Punto / Argumento" },
+            { "id": "o2", "text": "Lugar" },
+            { "id": "o3", "text": "Hora" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Belief'?",
+          "options": [
+            { "id": "o1", "text": "Creencia" },
+            { "id": "o2", "text": "Duda" },
+            { "id": "o3", "text": "Verdad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Truth'?",
+          "options": [
+            { "id": "o1", "text": "Verdad" },
+            { "id": "o2", "text": "Mentira" },
+            { "id": "o3", "text": "Idea" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Discusión / Debate'?",
+          "options": [
+            { "id": "o1", "text": "Discussion / Debate" },
+            { "id": "o2", "text": "Argument (pelea)" },
+            { "id": "o3", "text": "Talk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pelea / Discusión fuerte'?",
+          "options": [
+            { "id": "o1", "text": "Argument / Fight" },
+            { "id": "o2", "text": "Discussion" },
+            { "id": "o3", "text": "Talk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Seguro' (certain)?",
+          "options": [
+            { "id": "o1", "text": "Sure / Certain" },
+            { "id": "o2", "text": "Safe" },
+            { "id": "o3", "text": "True" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Interesante'?",
+          "options": [
+            { "id": "o1", "text": "Interesting" },
+            { "id": "o2", "text": "Boring" },
+            { "id": "o3", "text": "Exciting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aburrido'?",
+          "options": [
+            { "id": "o1", "text": "Boring" },
+            { "id": "o2", "text": "Interested" },
+            { "id": "o3", "text": "Funny" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Injusto'?",
+          "options": [
+            { "id": "o1", "text": "Unfair" },
+            { "id": "o2", "text": "Fair" },
+            { "id": "o3", "text": "Bad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Justo'?",
+          "options": [
+            { "id": "o1", "text": "Fair" },
+            { "id": "o2", "text": "Unfair" },
+            { "id": "o3", "text": "Equal" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Importante'?",
+          "options": [
+            { "id": "o1", "text": "Important" },
+            { "id": "o2", "text": "Main" },
+            { "id": "o3", "text": "Key" },
+            { "id": "o4", "text": "All are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ridículo'?",
+          "options": [
+            { "id": "o1", "text": "Ridiculous" },
+            { "id": "o2", "text": "Funny" },
+            { "id": "o3", "text": "Silly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Increíble'?",
+          "options": [
+            { "id": "o1", "text": "Incredible / Amazing" },
+            { "id": "o2", "text": "Unbelievable" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Totalmente'?",
+          "options": [
+            { "id": "o1", "text": "Totally / Completely" },
+            { "id": "o2", "text": "Partially" },
+            { "id": "o3", "text": "Maybe" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Parcialmente'?",
+          "options": [
+            { "id": "o1", "text": "Partially / In part" },
+            { "id": "o2", "text": "Totally" },
+            { "id": "o3", "text": "Half" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'De ninguna manera'?",
+          "options": [
+            { "id": "o1", "text": "No way" },
+            { "id": "o2", "text": "Not way" },
+            { "id": "o3", "text": "In no side" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me parece que...'?",
+          "options": [
+            { "id": "o1", "text": "It seems to me that..." },
+            { "id": "o2", "text": "I think that..." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I35",
+          "type": "flashcard",
+          "prompt_es": "Opiniones y Acuerdo",
+          "flashcards": [
+            { "front": "I agree", "back": "Estoy de acuerdo", "pronunciation": "/aɪ əˈɡriː/" },
+            { "front": "I disagree", "back": "No estoy de acuerdo", "pronunciation": "/aɪ ˌdɪsəˈɡriː/" },
+            { "front": "In my opinion", "back": "En mi opinión", "pronunciation": "/ɪn maɪ əˈpɪnjən/" },
+            { "front": "You're right", "back": "Tienes razón", "pronunciation": "/jʊər raɪt/" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Agreeing with 'So' & 'Neither'",
+      "content": [
+        {
+          "interaction_id": "U47_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Yo también' tras una frase afirmativa con 'I like...'?",
+          "options": [
+            { "id": "o1", "text": "So do I" },
+            { "id": "o2", "text": "Me too" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Yo tampoco' tras 'I don't like...'?",
+          "options": [
+            { "id": "o1", "text": "Neither do I" },
+            { "id": "o2", "text": "Me neither" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A: I am hungry. B: So ___ I.'",
+          "stimulus_en": "A: I am hungry. B: So ___ I.",
+          "correct_answer": "am",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A: I was tired. B: So ___ I.'",
+          "stimulus_en": "A: I was tired. B: So ___ I.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A: I play tennis. B: So ___ I.'",
+          "stimulus_en": "A: I play tennis. B: So ___ I.",
+          "correct_answer": "do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A: I can swim. B: So ___ I.'",
+          "stimulus_en": "A: I can swim. B: So ___ I.",
+          "correct_answer": "can",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A: I will go. B: So ___ I.'",
+          "stimulus_en": "A: I will go. B: So ___ I.",
+          "correct_answer": "will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A: I don't smoke. B: Neither ___ I.'",
+          "stimulus_en": "A: I don't smoke. B: Neither ___ I.",
+          "correct_answer": "do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A: I'm not tired. B: Neither ___ I.'",
+          "stimulus_en": "A: I'm not tired. B: Neither ___ I.",
+          "correct_answer": "am",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A: I haven't seen it. B: Neither ___ I.'",
+          "stimulus_en": "A: I haven't seen it. B: Neither ___ I.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I46",
+          "type": "multiple_choice",
+          "prompt_es": "A: I love pizza. B: ___.",
+          "options": [
+            { "id": "o1", "text": "So do I" },
+            { "id": "o2", "text": "So am I" },
+            { "id": "o3", "text": "Neither do I" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I47",
+          "type": "multiple_choice",
+          "prompt_es": "A: I am Spanish. B: ___.",
+          "options": [
+            { "id": "o1", "text": "So am I" },
+            { "id": "o2", "text": "So do I" },
+            { "id": "o3", "text": "I too" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I48",
+          "type": "multiple_choice",
+          "prompt_es": "A: I can't cook. B: ___.",
+          "options": [
+            { "id": "o1", "text": "Neither can I" },
+            { "id": "o2", "text": "So can I" },
+            { "id": "o3", "text": "Neither do I" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I49",
+          "type": "multiple_choice",
+          "prompt_es": "A: I didn't go. B: ___.",
+          "options": [
+            { "id": "o1", "text": "Neither did I" },
+            { "id": "o2", "text": "Neither do I" },
+            { "id": "o3", "text": "So did I" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I50",
+          "type": "multiple_choice",
+          "prompt_es": "A: I've finished. B: ___.",
+          "options": [
+            { "id": "o1", "text": "So have I" },
+            { "id": "o2", "text": "So do I" },
+            { "id": "o3", "text": "So I have" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I agree ___ (con) you.'",
+          "stimulus_en": "I agree ___ you.",
+          "correct_answer": "with",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I disagree ___ (con) her.'",
+          "stimulus_en": "I disagree ___ her.",
+          "correct_answer": "with",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "I am agree." },
+            { "id": "o2", "text": "I agree." },
+            { "id": "o3", "text": "I'm agree." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "I don't agree." },
+            { "id": "o2", "text": "I am not agree." },
+            { "id": "o3", "text": "I disagree." },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (está de acuerdo) with us.'",
+          "stimulus_en": "He ___ with us.",
+          "correct_answer": "agrees",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (no está de acuerdo) with me.'",
+          "stimulus_en": "She ___ with me.",
+          "correct_answer": "disagrees",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (no estuvimos de acuerdo) last night.' (past)",
+          "stimulus_en": "We ___ last night.",
+          "correct_answer": "disagreed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (estuvieron de acuerdo) to go.' (past)",
+          "stimulus_en": "They ___ to go.",
+          "correct_answer": "agreed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I think ___ (que) you are right.'",
+          "stimulus_en": "I think ___ you are right.",
+          "correct_answer": "that",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I don't think ___ (que) it is true.'",
+          "stimulus_en": "I don't think ___ it is true.",
+          "correct_answer": "that",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I61",
+          "type": "multiple_choice",
+          "prompt_es": "A: I'm not going. B: ___.",
+          "options": [
+            { "id": "o1", "text": "Neither am I" },
+            { "id": "o2", "text": "So am I" },
+            { "id": "o3", "text": "I'm not too" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I62",
+          "type": "multiple_choice",
+          "prompt_es": "A: I want a coffee. B: ___.",
+          "options": [
+            { "id": "o1", "text": "So do I" },
+            { "id": "o2", "text": "So am I" },
+            { "id": "o3", "text": "I too" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I63",
+          "type": "multiple_choice",
+          "prompt_es": "A: I'll be there. B: ___.",
+          "options": [
+            { "id": "o1", "text": "So will I" },
+            { "id": "o2", "text": "So I will" },
+            { "id": "o3", "text": "Neither will I" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I64",
+          "type": "multiple_choice",
+          "prompt_es": "A: I shouldn't go. B: ___.",
+          "options": [
+            { "id": "o1", "text": "Neither should I" },
+            { "id": "o2", "text": "So should I" },
+            { "id": "o3", "text": "I shouldn't too" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I completely ___ (estoy de acuerdo).'",
+          "stimulus_en": "I completely ___.",
+          "correct_answer": "agree",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I don't ___ (estoy de acuerdo) at all.'",
+          "stimulus_en": "I don't ___ at all.",
+          "correct_answer": "agree",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you ___ (estás de acuerdo) with me?'",
+          "stimulus_en": "Do you ___ with me?",
+          "correct_answer": "agree",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (estuvimos de acuerdo) on the price.' (past)",
+          "stimulus_en": "We ___ on the price.",
+          "correct_answer": "agreed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It depends ___ (de) the weather.'",
+          "stimulus_en": "It depends ___ the weather.",
+          "correct_answer": "on",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'That's what I ___ (creo/pienso).'",
+          "stimulus_en": "That's what I ___.",
+          "correct_answer": "think",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Giving Opinions & Discussing Topics",
+      "content": [
+        {
+          "interaction_id": "U47_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides una opinión? 'What ___ this?'",
+          "options": [
+            { "id": "o1", "text": "do you think of" },
+            { "id": "o2", "text": "are you thinking" },
+            { "id": "o3", "text": "do you think about" },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo das tu opinión? '___, it's a great film.'",
+          "options": [
+            { "id": "o1", "text": "In my opinion" },
+            { "id": "o2", "text": "Personally" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo expresas acuerdo total?",
+          "options": [
+            { "id": "o1", "text": "I totally agree." },
+            { "id": "o2", "text": "You're absolutely right." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo expresas desacuerdo educado?",
+          "options": [
+            { "id": "o1", "text": "I'm not sure I agree." },
+            { "id": "o2", "text": "I see your point, but..." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Estás de acuerdo?'?",
+          "options": [
+            { "id": "o1", "text": "Do you agree?" },
+            { "id": "o2", "text": "Are you agree?" },
+            { "id": "o3", "text": "You agree?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Me temo que no estoy de acuerdo'?",
+          "options": [
+            { "id": "o1", "text": "I'm afraid I disagree." },
+            { "id": "o2", "text": "I'm afraid I'm not agree." },
+            { "id": "o3", "text": "I am not agreeing." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I77",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / think / you / are / right / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "think" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "are" },
+            { "id": "w5", "text": "right" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I78",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'In / my / opinion / , / it's / too / expensive / .'",
+          "options": [
+            { "id": "w1", "text": "In" },
+            { "id": "w2", "text": "my" },
+            { "id": "w3", "text": "opinion" },
+            { "id": "w4", "text": "," },
+            { "id": "w5", "text": "it's" },
+            { "id": "w6", "text": "too" },
+            { "id": "w7", "text": "expensive" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I79",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / don't / agree / with / that / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "don't" },
+            { "id": "w3", "text": "agree" },
+            { "id": "w4", "text": "with" },
+            { "id": "w5", "text": "that" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Eso es verdad'?",
+          "options": [
+            { "id": "o1", "text": "That's true." },
+            { "id": "o2", "text": "That is truth." },
+            { "id": "o3", "text": "Is true." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No estoy tan seguro'?",
+          "options": [
+            { "id": "o1", "text": "I'm not so sure." },
+            { "id": "o2", "text": "I don't sure." },
+            { "id": "o3", "text": "I'm not security." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Pienso lo mismo'?",
+          "options": [
+            { "id": "o1", "text": "I think the same." },
+            { "id": "o2", "text": "I think same." },
+            { "id": "o3", "text": "Same I think." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Eso es un buen argumento/punto'?",
+          "options": [
+            { "id": "o1", "text": "That's a good point." },
+            { "id": "o2", "text": "That is good point." },
+            { "id": "o3", "text": "Good point that." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No puedo estar más de acuerdo'?",
+          "options": [
+            { "id": "o1", "text": "I couldn't agree more." },
+            { "id": "o2", "text": "I can't agree more." },
+            { "id": "o3", "text": "Both are used" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué opinas sobre el nuevo profesor?'?",
+          "options": [
+            { "id": "o1", "text": "What do you think about the new teacher?" },
+            { "id": "o2", "text": "What do you think of the new teacher?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I86",
+          "type": "flashcard",
+          "prompt_es": "Expresiones de Debate",
+          "flashcards": [
+            { "front": "I see what you mean", "back": "Entiendo lo que quieres decir", "pronunciation": "/aɪ siː wɒt juː miːn/" },
+            { "front": "That's exactly what I think", "back": "Eso es exactamente lo que pienso", "pronunciation": "/ðæts ɪɡˈzæktli wɒt aɪ θɪŋk/" },
+            { "front": "I don't think so", "back": "No lo creo", "pronunciation": "/aɪ doʊnt θɪŋk soʊ/" },
+            { "front": "It depends on...", "back": "Depende de...", "pronunciation": "/ɪt dɪˈpɛndz ɒn/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Creo que tienes razón'?",
+          "options": [
+            { "id": "o1", "text": "I think you're right." },
+            { "id": "o2", "text": "I think you have reason." },
+            { "id": "o3", "text": "Think you are right." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No estoy seguro de eso'?",
+          "options": [
+            { "id": "o1", "text": "I'm not sure about that." },
+            { "id": "o2", "text": "I'm not sure of that." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es una pérdida de tiempo'?",
+          "options": [
+            { "id": "o1", "text": "It's a waste of time." },
+            { "id": "o2", "text": "Is a loss of time." },
+            { "id": "o3", "text": "Time waste." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Vale la pena'?",
+          "options": [
+            { "id": "o1", "text": "It's worth it." },
+            { "id": "o2", "text": "It is worth." },
+            { "id": "o3", "text": "Worth it is." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Estás a favor o en contra?'?",
+          "options": [
+            { "id": "o1", "text": "Are you for or against it?" },
+            { "id": "o2", "text": "Are you in favor or against?" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estoy a favor'?",
+          "options": [
+            { "id": "o1", "text": "I'm for it / I'm in favor." },
+            { "id": "o2", "text": "I am favorite." },
+            { "id": "o3", "text": "I favor it." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estoy en contra'?",
+          "options": [
+            { "id": "o1", "text": "I'm against it." },
+            { "id": "o2", "text": "I am contrary." },
+            { "id": "o3", "text": "I am not for." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué quieres decir con eso?'?",
+          "options": [
+            { "id": "o1", "text": "What do you mean by that?" },
+            { "id": "o2", "text": "What you want to say?" },
+            { "id": "o3", "text": "Mean what you?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Entiendo tu punto de vista'?",
+          "options": [
+            { "id": "o1", "text": "I understand your point of view." },
+            { "id": "o2", "text": "I see your point of view." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Para ser sincero, no me gusta'?",
+          "options": [
+            { "id": "o1", "text": "To be honest, I don't like it." },
+            { "id": "o2", "text": "Honestly, I don't like it." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No importa' (it's not important)?",
+          "options": [
+            { "id": "o1", "text": "It doesn't matter." },
+            { "id": "o2", "text": "No matter." },
+            { "id": "o3", "text": "Is not important." },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Eso es ridículo'?",
+          "options": [
+            { "id": "o1", "text": "That's ridiculous." },
+            { "id": "o2", "text": "Is ridiculous." },
+            { "id": "o3", "text": "Ridiculous that." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Estás bromeando?'?",
+          "options": [
+            { "id": "o1", "text": "Are you joking / kidding?" },
+            { "id": "o2", "text": "Do you joke?" },
+            { "id": "o3", "text": "You kidding?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U47_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'En mi opinión, es una buena idea, pero mi hermano no está de acuerdo conmigo.'",
+          "stimulus_es": "En mi opinión, es una buena idea, pero mi hermano no está de acuerdo conmigo.",
+          "correct_answer": "In my opinion, it's a good idea, but my brother disagrees with me.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

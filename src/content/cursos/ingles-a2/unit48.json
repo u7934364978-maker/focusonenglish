@@ -1,0 +1,1138 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U48",
+    "unit_title": "Module 6 Review & Assessment",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary Review: Health, Tech & Problems",
+      "content": [
+        {
+          "interaction_id": "U48_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estar en forma'?",
+          "options": [
+            { "id": "o1", "text": "To be fit / Stay in shape" },
+            { "id": "o2", "text": "To be form" },
+            { "id": "o3", "text": "Stay healthy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fontanero'?",
+          "options": [
+            { "id": "o1", "text": "Plumber" },
+            { "id": "o2", "text": "Electrician" },
+            { "id": "o3", "text": "Technician" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nave espacial'?",
+          "options": [
+            { "id": "o1", "text": "Spaceship" },
+            { "id": "o2", "text": "Starship" },
+            { "id": "o3", "text": "Plane" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estar de acuerdo'?",
+          "options": [
+            { "id": "o1", "text": "To agree" },
+            { "id": "o2", "text": "To be agree" },
+            { "id": "o3", "text": "To stay agree" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cambio climático'?",
+          "options": [
+            { "id": "o1", "text": "Climate change" },
+            { "id": "o2", "text": "Weather change" },
+            { "id": "o3", "text": "Hot world" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Comida basura'?",
+          "options": [
+            { "id": "o1", "text": "Junk food" },
+            { "id": "o2", "text": "Trash food" },
+            { "id": "o3", "text": "Bad food" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Arreglar'?",
+          "options": [
+            { "id": "o1", "text": "Fix / Repair" },
+            { "id": "o2", "text": "Make" },
+            { "id": "o3", "text": "Break" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tal vez'?",
+          "options": [
+            { "id": "o1", "text": "Maybe / Perhaps" },
+            { "id": "o2", "text": "Surely" },
+            { "id": "o3", "text": "Likely" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Saludable'?",
+          "options": [
+            { "id": "o1", "text": "Healthy" },
+            { "id": "o2", "text": "Unhealthy" },
+            { "id": "o3", "text": "Health" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Roto'?",
+          "options": [
+            { "id": "o1", "text": "Broken" },
+            { "id": "o2", "text": "Break" },
+            { "id": "o3", "text": "Broke" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Opinión'?",
+          "options": [
+            { "id": "o1", "text": "Opinion" },
+            { "id": "o2", "text": "Idea" },
+            { "id": "o3", "text": "Thought" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Inteligencia Artificial'?",
+          "options": [
+            { "id": "o1", "text": "AI / Artificial Intelligence" },
+            { "id": "o2", "text": "Smart computer" },
+            { "id": "o3", "text": "Fake Brain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Atascado'?",
+          "options": [
+            { "id": "o1", "text": "Stuck" },
+            { "id": "o2", "text": "Stop" },
+            { "id": "o3", "text": "Stick" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Enchufe'?",
+          "options": [
+            { "id": "o1", "text": "Plug / Socket" },
+            { "id": "o2", "text": "Connect" },
+            { "id": "o3", "text": "Electricity" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Descubrimiento'?",
+          "options": [
+            { "id": "o1", "text": "Discovery" },
+            { "id": "o2", "text": "Finding" },
+            { "id": "o3", "text": "Invention" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I16",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Plumber", "right": "Fontanero" },
+            { "id": "p2", "left": "Broken", "right": "Roto" },
+            { "id": "p3", "left": "Discovery", "right": "Descubrimiento" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I17",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Agree", "right": "Acuerdo" },
+            { "id": "p2", "left": "Disagree", "right": "Desacuerdo" },
+            { "id": "p3", "left": "Opinion", "right": "Opinión" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Junk food'?",
+          "options": [
+            { "id": "o1", "text": "Comida basura" },
+            { "id": "o2", "text": "Comida sana" },
+            { "id": "o3", "text": "Comida rápida" },
+            { "id": "o4", "text": "o1 and o3 are similar" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Out of order'?",
+          "options": [
+            { "id": "o1", "text": "Fuera de servicio" },
+            { "id": "o2", "text": "Ordenado" },
+            { "id": "o3", "text": "Desordenado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Maybe'?",
+          "options": [
+            { "id": "o1", "text": "Tal vez" },
+            { "id": "o2", "text": "Seguro" },
+            { "id": "o3", "text": "Nunca" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Energía solar'?",
+          "options": [
+            { "id": "o1", "text": "Solar energy" },
+            { "id": "o2", "text": "Sun power" },
+            { "id": "o3", "text": "Light energy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reciclar'?",
+          "options": [
+            { "id": "o1", "text": "Recycle" },
+            { "id": "o2", "text": "Reuse" },
+            { "id": "o3", "text": "Reduce" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer ejercicio'?",
+          "options": [
+            { "id": "o1", "text": "Work out / Do exercise" },
+            { "id": "o2", "text": "Make exercise" },
+            { "id": "o3", "text": "Gyming" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Medio ambiente'?",
+          "options": [
+            { "id": "o1", "text": "Environment" },
+            { "id": "o2", "text": "Nature" },
+            { "id": "o3", "text": "Surroundings" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Punto de vista'?",
+          "options": [
+            { "id": "o1", "text": "Point of view" },
+            { "id": "o2", "text": "Opinion" },
+            { "id": "o3", "text": "Belief" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Probable'?",
+          "options": [
+            { "id": "o1", "text": "Likely" },
+            { "id": "o2", "text": "Unlikely" },
+            { "id": "o3", "text": "Maybe" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tener cuidado'?",
+          "options": [
+            { "id": "o1", "text": "Be careful" },
+            { "id": "o2", "text": "Have care" },
+            { "id": "o3", "text": "Take care" },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Evitar'?",
+          "options": [
+            { "id": "o1", "text": "Avoid" },
+            { "id": "o2", "text": "Stop" },
+            { "id": "o3", "text": "Prevent" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Invento'?",
+          "options": [
+            { "id": "o1", "text": "Invention" },
+            { "id": "o2", "text": "Discovery" },
+            { "id": "o3", "text": "Creation" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mecánico'?",
+          "options": [
+            { "id": "o1", "text": "Mechanic" },
+            { "id": "o2", "text": "Driver" },
+            { "id": "o3", "text": "Builder" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Queja'?",
+          "options": [
+            { "id": "o1", "text": "Complaint" },
+            { "id": "o2", "text": "Problem" },
+            { "id": "o3", "text": "Order" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Quizás'?",
+          "options": [
+            { "id": "o1", "text": "Perhaps / Maybe" },
+            { "id": "o2", "text": "Sure" },
+            { "id": "o3", "text": "Likely" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'En mi opinión'?",
+          "options": [
+            { "id": "o1", "text": "In my opinion" },
+            { "id": "o2", "text": "Personally" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dieta equilibrada'?",
+          "options": [
+            { "id": "o1", "text": "Balanced diet" },
+            { "id": "o2", "text": "Equal diet" },
+            { "id": "o3", "text": "Good food" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I35",
+          "type": "flashcard",
+          "prompt_es": "Repaso Vocabulario M6",
+          "flashcards": [
+            { "front": "Plumber", "back": "Fontanero", "pronunciation": "/ˈplʌmər/" },
+            { "front": "Environment", "back": "Medio ambiente", "pronunciation": "/ɪnˈvaɪrənmənt/" },
+            { "front": "Discovery", "back": "Descubrimiento", "pronunciation": "/dɪˈskʌvəri/" },
+            { "front": "Agree", "back": "Estar de acuerdo", "pronunciation": "/əˈɡriː/" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar Review: Modal Verbs & Future",
+      "content": [
+        {
+          "interaction_id": "U48_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál se usa para dar consejos?",
+          "options": [
+            { "id": "o1", "text": "Should" },
+            { "id": "o2", "text": "Must" },
+            { "id": "o3", "text": "Will" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál se usa para obligación?",
+          "options": [
+            { "id": "o1", "text": "Have to" },
+            { "id": "o2", "text": "Should" },
+            { "id": "o3", "text": "May" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál se usa para posibilidad?",
+          "options": [
+            { "id": "o1", "text": "Might / May" },
+            { "id": "o2", "text": "Will" },
+            { "id": "o3", "text": "Have to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál se usa para predicciones?",
+          "options": [
+            { "id": "o1", "text": "Will" },
+            { "id": "o2", "text": "May" },
+            { "id": "o3", "text": "Can" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Consejo: 'You ___ (deberías) sleep more.'",
+          "stimulus_en": "You ___ sleep more.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Obligación: 'I ___ (tengo que) work tomorrow.'",
+          "stimulus_en": "I ___ work tomorrow.",
+          "correct_answer": "have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Posibilidad: 'It ___ (podría) rain later.'",
+          "stimulus_en": "It ___ rain later.",
+          "correct_answer": "might",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Predicción: 'The world ___ (cambiará) a lot.'",
+          "stimulus_en": "The world ___ change a lot.",
+          "correct_answer": "will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Negación consejo: 'You ___ (no deberías) smoke.'",
+          "stimulus_en": "You ___ smoke.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Negación obligación: 'You ___ (no tienes que) pay.'",
+          "stimulus_en": "You ___ pay.",
+          "correct_answer": "don't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I46",
+          "type": "multiple_choice",
+          "prompt_es": "A: I'm tired. B: So ___ I.",
+          "options": [
+            { "id": "o1", "text": "am" },
+            { "id": "o2", "text": "do" },
+            { "id": "o3", "text": "have" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I47",
+          "type": "multiple_choice",
+          "prompt_es": "A: I like coffee. B: So ___ I.",
+          "options": [
+            { "id": "o1", "text": "do" },
+            { "id": "o2", "text": "am" },
+            { "id": "o3", "text": "will" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I48",
+          "type": "multiple_choice",
+          "prompt_es": "A: I don't like tea. B: Neither ___ I.",
+          "options": [
+            { "id": "o1", "text": "do" },
+            { "id": "o2", "text": "am" },
+            { "id": "o3", "text": "can" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I49",
+          "type": "multiple_choice",
+          "prompt_es": "A: I can't swim. B: Neither ___ I.",
+          "options": [
+            { "id": "o1", "text": "can" },
+            { "id": "o2", "text": "do" },
+            { "id": "o3", "text": "am" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "He has to go." },
+            { "id": "o2", "text": "He have to go." },
+            { "id": "o3", "text": "He has go." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (no deberías) drink too much coffee.'",
+          "stimulus_en": "You ___ drink too much coffee.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (tiene que) buy a new car.'",
+          "stimulus_en": "She ___ buy a new car.",
+          "correct_answer": "has to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (quizás) travel to Japan.'",
+          "stimulus_en": "I ___ travel to Japan.",
+          "correct_answer": "might",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (no irán) to the party.'",
+          "stimulus_en": "They ___ to the party.",
+          "correct_answer": "won't go",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you ___ (tienes que) work today?'",
+          "stimulus_en": "Do you ___ work today?",
+          "correct_answer": "have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (¿Debería) I call her?'",
+          "stimulus_en": "___ I call her?",
+          "correct_answer": "Should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (no debería) be late.'",
+          "stimulus_en": "He ___ be late.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (necesitamos) more information.'",
+          "stimulus_en": "We ___ more information.",
+          "correct_answer": "need",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Maybe it ___ (lloverá).'",
+          "stimulus_en": "Maybe it ___.",
+          "correct_answer": "will rain",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no tengo que) do it now.'",
+          "stimulus_en": "I ___ do it now.",
+          "correct_answer": "don't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I61",
+          "type": "multiple_choice",
+          "prompt_es": "Past: 'I ___ stay late yesterday.'",
+          "options": [
+            { "id": "o1", "text": "had to" },
+            { "id": "o2", "text": "have to" },
+            { "id": "o3", "text": "has to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I62",
+          "type": "multiple_choice",
+          "prompt_es": "Past: 'I ___ need any help.'",
+          "options": [
+            { "id": "o1", "text": "didn't" },
+            { "id": "o2", "text": "don't" },
+            { "id": "o3", "text": "not" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'If you are sick, you ___ (deberías) stay in bed.'",
+          "stimulus_en": "If you are sick, you ___ stay in bed.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (no tienes que) pay for the coffee, it's free.'",
+          "stimulus_en": "You ___ pay for the coffee.",
+          "correct_answer": "don't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (te ayudaré) with your bags.' (spontaneous)",
+          "stimulus_en": "I ___ with your bags.",
+          "correct_answer": "will help you",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It's very late. They ___ (quizás no vengan).'",
+          "stimulus_en": "It's very late. They ___.",
+          "correct_answer": "might not come",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I agree ___ you.'",
+          "stimulus_en": "I agree ___ you.",
+          "correct_answer": "with",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She disagrees ___ her parents.'",
+          "stimulus_en": "She disagrees ___ her parents.",
+          "correct_answer": "with",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you ___ (estás de acuerdo)?'",
+          "stimulus_en": "Do you ___?",
+          "correct_answer": "agree",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (¿Deberíamos) we start?'",
+          "stimulus_en": "___ we start?",
+          "correct_answer": "Should",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication Review: Health & Opinions",
+      "content": [
+        {
+          "interaction_id": "U48_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides consejo?",
+          "options": [
+            { "id": "o1", "text": "What should I do?" },
+            { "id": "o2", "text": "What I should do?" },
+            { "id": "o3", "text": "How should I do?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo das un consejo?",
+          "options": [
+            { "id": "o1", "text": "I think you should..." },
+            { "id": "o2", "text": "You should..." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo informas un problema?",
+          "options": [
+            { "id": "o1", "text": "There's a problem with..." },
+            { "id": "o2", "text": "My ... is broken." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides una opinión?",
+          "options": [
+            { "id": "o1", "text": "What do you think of...?" },
+            { "id": "o2", "text": "Do you agree with...?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo expresas acuerdo?",
+          "options": [
+            { "id": "o1", "text": "I agree." },
+            { "id": "o2", "text": "You're right." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo expresas desacuerdo?",
+          "options": [
+            { "id": "o1", "text": "I disagree." },
+            { "id": "o2", "text": "I don't think so." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I77",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'You / should / see / a / doctor / .'",
+          "options": [
+            { "id": "w1", "text": "You" },
+            { "id": "w2", "text": "should" },
+            { "id": "w3", "text": "see" },
+            { "id": "w4", "text": "a" },
+            { "id": "w5", "text": "doctor" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I78",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / have / to / work / late / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "work" },
+            { "id": "w5", "text": "late" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I79",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'It / might / snow / tonight / .'",
+          "options": [
+            { "id": "w1", "text": "It" },
+            { "id": "w2", "text": "might" },
+            { "id": "w3", "text": "snow" },
+            { "id": "w4", "text": "tonight" },
+            { "id": "w5", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El aire acondicionado no funciona'?",
+          "options": [
+            { "id": "o1", "text": "The AC isn't working." },
+            { "id": "o2", "text": "The AC not working." },
+            { "id": "o3", "text": "The AC don't work." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te traeré una linterna'?",
+          "options": [
+            { "id": "o1", "text": "I'll bring you a flashlight." },
+            { "id": "o2", "text": "I bring you a flashlight." },
+            { "id": "o3", "text": "I am bringing flashlight." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No te preocupes'?",
+          "options": [
+            { "id": "o1", "text": "Don't worry." },
+            { "id": "o2", "text": "Not worry." },
+            { "id": "o3", "text": "Worry not." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Entiendo lo que quieres decir'?",
+          "options": [
+            { "id": "o1", "text": "I see what you mean." },
+            { "id": "o2", "text": "I understand your meaning." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es una buena idea'?",
+          "options": [
+            { "id": "o1", "text": "That's a good idea." },
+            { "id": "o2", "text": "Is good idea." },
+            { "id": "o3", "text": "Good idea that." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué opinas del futuro?'?",
+          "options": [
+            { "id": "o1", "text": "What do you think of the future?" },
+            { "id": "o2", "text": "What do you think about the future?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I86",
+          "type": "flashcard",
+          "prompt_es": "Frases Clave M6",
+          "flashcards": [
+            { "front": "Can you help me?", "back": "¿Puedes ayudarme?", "pronunciation": "/kæn juː help miː/" },
+            { "front": "I'll take a look", "back": "Echaré un vistazo", "pronunciation": "/aɪl teɪk ə lʊk/" },
+            { "front": "Personally, I think...", "back": "Personalmente, creo que...", "pronunciation": "/ˈpɜːrsənəli aɪ θɪŋk/" },
+            { "front": "It's worth it", "back": "Vale la pena", "pronunciation": "/ɪts wɜːrθ ɪt/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Deberías comer más fruta'?",
+          "options": [
+            { "id": "o1", "text": "You should eat more fruit." },
+            { "id": "o2", "text": "You should to eat more fruit." },
+            { "id": "o3", "text": "Eat more fruit, you should." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No tengo que trabajar el sábado'?",
+          "options": [
+            { "id": "o1", "text": "I don't have to work on Saturday." },
+            { "id": "o2", "text": "I haven't to work." },
+            { "id": "o3", "text": "I don't have work." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Quizás llueva mañana'?",
+          "options": [
+            { "id": "o1", "text": "It might rain tomorrow." },
+            { "id": "o2", "text": "Maybe it will rain tomorrow." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Los robots no harán todo el trabajo'?",
+          "options": [
+            { "id": "o1", "text": "Robots won't do all the work." },
+            { "id": "o2", "text": "Robots aren't doing all work." },
+            { "id": "o3", "text": "Robots don't do all work." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estoy de acuerdo contigo'?",
+          "options": [
+            { "id": "o1", "text": "I agree with you." },
+            { "id": "o2", "text": "I am agree with you." },
+            { "id": "o3", "text": "I agree you." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No estoy de acuerdo con ella'?",
+          "options": [
+            { "id": "o1", "text": "I disagree with her." },
+            { "id": "o2", "text": "I don't agree with her." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'A: No me gusta la lluvia. B: A mí tampoco'?",
+          "options": [
+            { "id": "o1", "text": "Neither do I." },
+            { "id": "o2", "text": "Me neither." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'A: Soy muy feliz. B: Yo también'?",
+          "options": [
+            { "id": "o1", "text": "So am I." },
+            { "id": "o2", "text": "Me too." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué quieres decir?'?",
+          "options": [
+            { "id": "o1", "text": "What do you mean?" },
+            { "id": "o2", "text": "What you mean?" },
+            { "id": "o3", "text": "Mean what?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Eso es ridículo'?",
+          "options": [
+            { "id": "o1", "text": "That's ridiculous." },
+            { "id": "o2", "text": "Is ridiculous." },
+            { "id": "o3", "text": "Ridiculous that." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Crees que el clima empeorará?'?",
+          "options": [
+            { "id": "o1", "text": "Do you think the climate will get worse?" },
+            { "id": "o2", "text": "Do you think the climate gets worse?" },
+            { "id": "o3", "text": "Think you climate will worsen?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Deberíamos reciclar más'?",
+          "options": [
+            { "id": "o1", "text": "We should recycle more." },
+            { "id": "o2", "text": "We should to recycle more." },
+            { "id": "o3", "text": "Recycle more we should." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No es culpa mía'?",
+          "options": [
+            { "id": "o1", "text": "It's not my fault." },
+            { "id": "o2", "text": "No is my fault." },
+            { "id": "o3", "text": "Fault is not mine." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U48_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Deberías ir al médico si te sientes mal, y yo también debería ir.'",
+          "stimulus_es": "Deberías ir al médico si te sientes mal, y yo también debería ir.",
+          "correct_answer": "You should go to the doctor if you feel sick, and I should go too.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

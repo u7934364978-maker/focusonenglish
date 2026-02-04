@@ -4,35 +4,44 @@ import { premiumCourseService } from '@/lib/services/premium-course-service';
 import { createClient } from '@/lib/supabase/client';
 import Link from 'next/link';
 import { Trophy, Play, CheckCircle2, LayoutGrid, Target, Clock } from 'lucide-react';
+import { ALL_B2_UNITS, B2_MODULES } from '@/lib/course-data-b2';
 
 export default async function B2CoursePage() {
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 
-  // Authentication disabled for now
-  /*
-  if (!user) {
-    return (
-      <>
-        <Navigation />
-        <main className="min-h-screen pt-32 flex items-center justify-center">
-          <p className="text-slate-600">Por favor, inicia sesión para acceder al curso.</p>
-        </main>
-      </>
-    );
-  }
-  */
-
   const userId = user?.id || 'anonymous';
 
-  // Fetch all units and user progress
-  const units = await premiumCourseService.getUnits('ingles-b2');
+  // Use the new B2 units from ALL_B2_UNITS
+  const units = ALL_B2_UNITS.map(unit => {
+    const interactionIds: string[] = [];
+    unit.exercises.forEach(ex => {
+      if ('questions' in ex && Array.isArray(ex.questions)) {
+        ex.questions.forEach(q => interactionIds.push(q.id));
+      } else if ('transformations' in ex && Array.isArray(ex.transformations)) {
+        ex.transformations.forEach(t => interactionIds.push(t.id));
+      } else if ('challenges' in ex && Array.isArray(ex.challenges)) {
+        ex.challenges.forEach(c => interactionIds.push(c.id));
+      } else if ('sentences' in ex && Array.isArray(ex.sentences)) {
+        ex.sentences.forEach(s => interactionIds.push(s.id));
+      }
+    });
+
+    return {
+      id: unit.id,
+      title: unit.title,
+      description: unit.description,
+      file: unit.id, // unit-1, unit-2, etc.
+      totalExercises: interactionIds.length,
+      interactionIds
+    };
+  });
+
   const completedIds = await premiumCourseService.getB2Progress(userId);
   const completedSet = new Set(completedIds);
   
-  const allInteractions = await premiumCourseService.getAllB2Interactions();
-  const totalExercises = allInteractions.length;
-  const completedExercises = completedIds.length;
+  const totalExercises = units.reduce((acc, u) => acc + u.totalExercises, 0);
+  const completedExercises = Array.from(completedSet).filter(id => id.startsWith('b2-u')).length;
   const progressPercentage = totalExercises > 0 
     ? Math.round((completedExercises / totalExercises) * 100) 
     : 0;
@@ -48,13 +57,13 @@ export default async function B2CoursePage() {
               Curso <span className="text-[#FF6B6B]">Inglés B2</span>
             </h1>
             <p className="text-xl text-slate-600">
-              Estructura oficial por unidades para un aprendizaje progresivo.
+              60 Unidades y 6,000 Ejercicios de nivel Real B2 (Upper Intermediate).
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Main Stats and Units Card */}
-            <div className="lg:col-span-2 space-y-6">
+            <div className="lg:col-span-2 space-y-12">
               <div className="bg-white p-8 rounded-3xl shadow-xl border border-slate-100 overflow-hidden relative">
                 <div className="absolute top-0 right-0 p-8 opacity-10">
                   <Trophy size={160} className="text-coral-600" />
@@ -97,57 +106,70 @@ export default async function B2CoursePage() {
                 </div>
               </div>
 
-              {/* Units Grid */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {units.map((unit: any, index: number) => {
-                  const unitCompletedCount = unit.interactionIds.filter((id: string) => completedSet.has(id)).length;
-                  const unitProgress = unit.totalExercises > 0 
-                    ? Math.round((unitCompletedCount / unit.totalExercises) * 100) 
-                    : 0;
-                  const isCompleted = unitProgress === 100;
+              {/* Modules and Units */}
+              {B2_MODULES.map((module, mIdx) => (
+                <div key={module.id} className="space-y-6">
+                  <div className="flex items-center gap-4">
+                    <div className="bg-[#FF6B6B] text-white w-10 h-10 rounded-xl flex items-center justify-center font-black shadow-lg">
+                      {mIdx + 1}
+                    </div>
+                    <h2 className="text-3xl font-black text-slate-900">{module.title}</h2>
+                  </div>
 
-                  return (
-                    <Link 
-                      key={unit.id}
-                      href={`/curso/ingles-b2/${unit.file}`}
-                      className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md hover:border-coral-200 transition-all group relative overflow-hidden"
-                    >
-                      <div className="absolute top-0 right-0 w-24 h-24 bg-coral-50 rounded-bl-full -mr-12 -mt-12 group-hover:scale-110 transition-transform" />
-                      
-                      <div className="relative z-10">
-                        <div className="flex justify-between items-start mb-4">
-                          <span className="text-xs font-black text-coral-500 uppercase tracking-wider">
-                            Unidad {index + 1}
-                          </span>
-                          {isCompleted && (
-                            <CheckCircle2 size={20} className="text-green-500" />
-                          )}
-                        </div>
-                        
-                        <h3 className="text-lg font-black text-slate-900 mb-2 group-hover:text-coral-600 transition-colors line-clamp-1">
-                          {unit.title}
-                        </h3>
-                        
-                        <div className="flex items-center gap-4">
-                          <div className="flex-1 h-2 bg-slate-100 rounded-full overflow-hidden">
-                            <div 
-                              className={`h-full rounded-full transition-all duration-500 ${isCompleted ? 'bg-green-500' : 'bg-coral-500'}`}
-                              style={{ width: `${unitProgress}%` }}
-                            />
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {module.units.map((unit, uIdx) => {
+                      const unitData = units.find(u => u.id === unit.id)!;
+                      const unitCompletedCount = unitData.interactionIds.filter((id: string) => completedSet.has(id)).length;
+                      const unitProgress = unitData.totalExercises > 0 
+                        ? Math.round((unitCompletedCount / unitData.totalExercises) * 100) 
+                        : 0;
+                      const isCompleted = unitProgress === 100;
+                      const globalUnitIndex = mIdx * 10 + uIdx + 1;
+
+                      return (
+                        <Link 
+                          key={unit.id}
+                          href={`/curso/ingles-b2/${unit.id}`}
+                          className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md hover:border-coral-200 transition-all group relative overflow-hidden"
+                        >
+                          <div className="absolute top-0 right-0 w-24 h-24 bg-coral-50 rounded-bl-full -mr-12 -mt-12 group-hover:scale-110 transition-transform" />
+                          
+                          <div className="relative z-10">
+                            <div className="flex justify-between items-start mb-4">
+                              <span className="text-xs font-black text-coral-500 uppercase tracking-wider">
+                                Unidad {globalUnitIndex}
+                              </span>
+                              {isCompleted && (
+                                <CheckCircle2 size={20} className="text-green-500" />
+                              )}
+                            </div>
+                            
+                            <h3 className="text-lg font-black text-slate-900 mb-2 group-hover:text-coral-600 transition-colors line-clamp-1">
+                              {unit.title}
+                            </h3>
+                            
+                            <div className="flex items-center gap-4">
+                              <div className="flex-1 h-2 bg-slate-100 rounded-full overflow-hidden">
+                                <div 
+                                  className={`h-full rounded-full transition-all duration-500 ${isCompleted ? 'bg-green-500' : 'bg-coral-500'}`}
+                                  style={{ width: `${unitProgress}%` }}
+                                />
+                              </div>
+                              <span className="text-xs font-bold text-slate-400">
+                                {unitProgress}%
+                              </span>
+                            </div>
+                            
+                            <p className="text-xs text-slate-400 mt-2 font-medium">
+                              {unitCompletedCount}/{unitData.totalExercises} Ejercicios
+                            </p>
                           </div>
-                          <span className="text-xs font-bold text-slate-400">
-                            {unitProgress}%
-                          </span>
-                        </div>
-                        
-                        <p className="text-xs text-slate-400 mt-2 font-medium">
-                          {unitCompletedCount}/{unit.totalExercises} Ejercicios
-                        </p>
-                      </div>
-                    </Link>
-                  );
-                })}
-              </div>
+                        </Link>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
             </div>
 
             {/* Sidebar / Info */}
@@ -158,7 +180,7 @@ export default async function B2CoursePage() {
                 <div className="relative z-10">
                   <h3 className="text-2xl font-black mb-4">Práctica Aleatoria</h3>
                   <p className="text-blue-100 text-sm mb-6">
-                    Mezclamos ejercicios de todas las unidades para un desafío extra.
+                    Mezclamos ejercicios de las 60 unidades para un desafío extra.
                   </p>
                   
                   <Link 
@@ -180,13 +202,13 @@ export default async function B2CoursePage() {
                   <li className="flex gap-3">
                     <div className="mt-1"><CheckCircle2 size={18} className="text-green-500" /></div>
                     <p className="text-slate-600 text-sm">
-                      Cada unidad se centra en objetivos específicos de Cambridge.
+                      Cada unidad se centra en objetivos específicos del nivel B2 Upper Intermediate.
                     </p>
                   </li>
                   <li className="flex gap-3">
                     <div className="mt-1"><CheckCircle2 size={18} className="text-green-500" /></div>
                     <p className="text-slate-600 text-sm">
-                      Tu progreso es <strong>persistente</strong>. El sistema recuerda qué ejercicios ya dominas.
+                      Tu progreso es <strong>persistente</strong>. El sistema recuerda cada uno de los 6,000 ejercicios.
                     </p>
                   </li>
                 </ul>
@@ -198,10 +220,10 @@ export default async function B2CoursePage() {
                   Estructura B2
                 </h4>
                 <p className="text-coral-700 text-sm mb-4">
-                  El curso cubre gramática, vocabulario y comunicación de nivel intermedio alto.
+                  El curso cubre gramática avanzada, vocabulario temático y preparación de exámenes.
                 </p>
                 <div className="text-xs font-bold text-coral-600 uppercase tracking-wider">
-                  {totalExercises}+ Ejercicios Disponibles
+                  {totalExercises} Ejercicios Disponibles
                 </div>
               </div>
             </div>

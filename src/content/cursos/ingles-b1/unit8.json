@@ -31,13 +31,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lecture",
-              "right": "An educational talk to an audience of students"
+              "left": "Curriculum",
+              "right": "The subjects comprising a course of study"
             },
             {
               "id": "p1",
-              "left": "Scholarship",
-              "right": "A grant to support a student's education"
+              "left": "Literacy",
+              "right": "The ability to read and write"
             },
             {
               "id": "p2",
@@ -64,7 +64,7 @@
         {
           "interaction_id": "U8_I3",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"A private tutor helped him with his maths.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The professor gave a fascinating lecture on economics.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -76,32 +76,44 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "I'm"
+              "id": "w5",
+              "text": "primary"
+            },
+            {
+              "id": "w8",
+              "text": "the"
             },
             {
               "id": "w6",
-              "text": "semester"
-            },
-            {
-              "id": "w4",
-              "text": "subjects"
-            },
-            {
-              "id": "w5",
-              "text": "this"
+              "text": "goal"
             },
             {
               "id": "w1",
-              "text": "taking"
+              "text": "literacy"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "program"
             },
             {
               "id": "w3",
-              "text": "different"
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "of"
             },
             {
               "id": "w2",
-              "text": "four"
+              "text": "rates"
+            },
+            {
+              "id": "w0",
+              "text": "Improving"
             }
           ],
           "correct_answer": [
@@ -111,7 +123,10 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7",
+            "w8",
+            "w9"
           ],
           "mastery_tag": "syntax"
         },
@@ -119,41 +134,41 @@
           "interaction_id": "U8_I5",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She won a scholarship to study in New York.\"",
+          "stimulus_en": "Speaker A: \"The professor gave a fascinating lecture on economics.\"",
           "options": [
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             },
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
             }
           ],
-          "correct_answer": "r19",
+          "correct_answer": "r15",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U8_I6",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A qualification given by a university\"",
+          "prompt_es": "Identifica la palabra correcta para: \"The position of a student or trainee who works\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Semester"
+              "id": "o3",
+              "text": "Assignment"
             },
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Degree"
             },
             {
-              "id": "o3",
-              "text": "Academic"
+              "id": "o1",
+              "text": "Internship"
             }
           ],
           "correct_answer": "o1",
@@ -167,18 +182,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Academic",
-              "right": "Relating to education and scholarship"
+              "left": "Tuition",
+              "right": "Teaching or instruction, especially of individuals"
             },
             {
               "id": "p1",
-              "left": "Semester",
-              "right": "A half-year term in a school or college"
+              "left": "Degree",
+              "right": "A qualification given by a university"
             },
             {
               "id": "p2",
-              "left": "Assignment",
-              "right": "A task or piece of work allocated to someone"
+              "left": "Literacy",
+              "right": "The ability to read and write"
             }
           ],
           "correct_answer": {
@@ -192,15 +207,15 @@
           "interaction_id": "U8_I8",
           "type": "transformation",
           "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (can/not) ________ understand this complex theory.",
-          "correct_answer": "can't",
+          "stimulus_en": "The lesson (start/already) ________ when I arrived.",
+          "correct_answer": "had already started",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I9",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"An internship is a great way to gain practical experience.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Improving literacy rates is a primary goal of the program.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -212,36 +227,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "now"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "for"
-            },
-            {
-              "id": "w0",
-              "text": "Enrollment"
-            },
-            {
               "id": "w7",
-              "text": "open"
+              "text": "maths"
             },
             {
-              "id": "w3",
-              "text": "new"
+              "id": "w6",
+              "text": "his"
             },
             {
               "id": "w5",
-              "text": "is"
+              "text": "with"
+            },
+            {
+              "id": "w3",
+              "text": "helped"
+            },
+            {
+              "id": "w2",
+              "text": "tutor"
+            },
+            {
+              "id": "w1",
+              "text": "private"
+            },
+            {
+              "id": "w0",
+              "text": "A"
             },
             {
               "id": "w4",
-              "text": "course"
+              "text": "him"
             }
           ],
           "correct_answer": [
@@ -260,19 +275,19 @@
           "interaction_id": "U8_I11",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Improving literacy rates is a primary goal of the program.\"",
+          "stimulus_en": "Speaker A: \"An internship is a great way to gain practical experience.\"",
           "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
             {
               "id": "r5",
               "text": "That sounds interesting, tell me more."
             },
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             }
           ],
           "correct_answer": "r5",
@@ -282,19 +297,19 @@
         {
           "interaction_id": "U8_I12",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A person who has successfully completed a course\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Relating to education and scholarship\"",
           "options": [
             {
               "id": "o2",
-              "text": "Tuition"
+              "text": "Tutor"
             },
             {
               "id": "o3",
-              "text": "Enrollment"
+              "text": "Lecture"
             },
             {
               "id": "o1",
-              "text": "Graduate"
+              "text": "Academic"
             }
           ],
           "correct_answer": "o1",
@@ -308,18 +323,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Semester",
-              "right": "A half-year term in a school or college"
+              "left": "Graduate",
+              "right": "A person who has successfully completed a course"
             },
             {
               "id": "p1",
-              "left": "Dissertation",
-              "right": "A long essay on a particular subject"
+              "left": "Curriculum",
+              "right": "The subjects comprising a course of study"
             },
             {
               "id": "p2",
-              "left": "Tuition",
-              "right": "Teaching or instruction, especially of individuals"
+              "left": "Semester",
+              "right": "A half-year term in a school or college"
             }
           ],
           "correct_answer": {
@@ -332,16 +347,16 @@
         {
           "interaction_id": "U8_I14",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "She (study) ________ English for five years now.",
-          "correct_answer": "has studied",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "The lesson (start/already) ________ when I arrived.",
+          "correct_answer": "had already started",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I15",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She is currently writing her dissertation on linguistics.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Improving literacy rates is a primary goal of the program.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -353,32 +368,28 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "semester"
-            },
-            {
               "id": "w4",
-              "text": "subjects"
-            },
-            {
-              "id": "w2",
-              "text": "four"
-            },
-            {
-              "id": "w3",
-              "text": "different"
-            },
-            {
-              "id": "w1",
-              "text": "taking"
+              "text": "you"
             },
             {
               "id": "w5",
-              "text": "this"
+              "text": "have?"
+            },
+            {
+              "id": "w3",
+              "text": "do"
+            },
+            {
+              "id": "w2",
+              "text": "qualifications"
             },
             {
               "id": "w0",
-              "text": "I'm"
+              "text": "What"
+            },
+            {
+              "id": "w1",
+              "text": "professional"
             }
           ],
           "correct_answer": [
@@ -387,8 +398,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -396,41 +406,41 @@
           "interaction_id": "U8_I17",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What professional qualifications do you have?\"",
+          "stimulus_en": "Speaker A: \"Improving literacy rates is a primary goal of the program.\"",
           "options": [
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             },
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             },
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r19",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U8_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person who has successfully completed a course\"",
+          "prompt_es": "Identifica la palabra correcta para: \"The ability to read and write\"",
           "options": [
             {
+              "id": "o2",
+              "text": "Assignment"
+            },
+            {
               "id": "o1",
-              "text": "Graduate"
+              "text": "Literacy"
             },
             {
               "id": "o3",
-              "text": "Lecture"
-            },
-            {
-              "id": "o2",
-              "text": "Tuition"
+              "text": "Internship"
             }
           ],
           "correct_answer": "o1",
@@ -444,18 +454,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Graduate",
-              "right": "A person who has successfully completed a course"
+              "left": "Internship",
+              "right": "The position of a student or trainee who works"
             },
             {
               "id": "p1",
-              "left": "Enrollment",
-              "right": "The action of enrolling or being enrolled"
+              "left": "Tuition",
+              "right": "Teaching or instruction, especially of individuals"
             },
             {
               "id": "p2",
-              "left": "Literacy",
-              "right": "The ability to read and write"
+              "left": "Dissertation",
+              "right": "A long essay on a particular subject"
             }
           ],
           "correct_answer": {
@@ -469,16 +479,16 @@
           "interaction_id": "U8_I20",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The school (open) ________ at 8 AM every day.",
-          "correct_answer": "opens",
+          "stimulus_en": "I (graduate) ________ in 2010.",
+          "correct_answer": "graduated",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I21",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She is currently writing dissertation her on linguistics.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"An internship is a great way to gain practical experience.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -489,40 +499,28 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "to"
-            },
-            {
               "id": "w1",
-              "text": "won"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w8",
-              "text": "York"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "scholarship"
+              "text": "university"
             },
             {
               "id": "w5",
-              "text": "study"
-            },
-            {
-              "id": "w7",
-              "text": "New"
+              "text": "updated"
             },
             {
               "id": "w2",
-              "text": "a"
+              "text": "curriculum"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "being"
             }
           ],
           "correct_answer": [
@@ -531,10 +529,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -542,41 +537,41 @@
           "interaction_id": "U8_I23",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He graduated with a degree in Engineering.\"",
+          "stimulus_en": "Speaker A: \"Enrollment for the new course is now open.\"",
           "options": [
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
             },
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             }
           ],
-          "correct_answer": "r10",
+          "correct_answer": "r1",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U8_I24",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A half-year term in a school or college\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A private teacher\"",
           "options": [
             {
               "id": "o3",
-              "text": "Internship"
+              "text": "Qualification"
             },
             {
               "id": "o1",
-              "text": "Semester"
+              "text": "Tutor"
             },
             {
               "id": "o2",
-              "text": "Qualification"
+              "text": "Curriculum"
             }
           ],
           "correct_answer": "o1",
@@ -595,13 +590,13 @@
             },
             {
               "id": "p1",
-              "left": "Tutor",
-              "right": "A private teacher"
+              "left": "Scholarship",
+              "right": "A grant to support a student's education"
             },
             {
               "id": "p2",
-              "left": "Dissertation",
-              "right": "A long essay on a particular subject"
+              "left": "Lecture",
+              "right": "An educational talk to an audience of students"
             }
           ],
           "correct_answer": {
@@ -615,15 +610,15 @@
           "interaction_id": "U8_I26",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (have) ________ a big test next Monday.",
-          "correct_answer": "are having",
+          "stimulus_en": "We (be) ________ friends since primary school.",
+          "correct_answer": "have been",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I27",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She currently is writing her dissertation on linguistics.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The university curriculum is be updated.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -635,28 +630,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
+              "id": "w7",
+              "text": "New"
+            },
+            {
               "id": "w0",
-              "text": "The"
+              "text": "She"
             },
             {
               "id": "w2",
-              "text": "curriculum"
-            },
-            {
-              "id": "w4",
-              "text": "being"
-            },
-            {
-              "id": "w1",
-              "text": "university"
+              "text": "a"
             },
             {
               "id": "w3",
-              "text": "is"
+              "text": "scholarship"
             },
             {
               "id": "w5",
-              "text": "updated"
+              "text": "study"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "won"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w8",
+              "text": "York"
             }
           ],
           "correct_answer": [
@@ -665,7 +672,10 @@
             "w2",
             "w3",
             "w4",
-            "w5"
+            "w5",
+            "w6",
+            "w7",
+            "w8"
           ],
           "mastery_tag": "syntax"
         },
@@ -673,41 +683,41 @@
           "interaction_id": "U8_I29",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What professional qualifications do you have?\"",
+          "stimulus_en": "Speaker A: \"A private tutor helped him with his maths.\"",
           "options": [
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             },
             {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r19",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U8_I30",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The ability to read and write\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A private teacher\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Qualification"
+              "id": "o1",
+              "text": "Tutor"
             },
             {
               "id": "o3",
-              "text": "Curriculum"
+              "text": "Semester"
             },
             {
-              "id": "o1",
-              "text": "Literacy"
+              "id": "o2",
+              "text": "Degree"
             }
           ],
           "correct_answer": "o1",
@@ -721,18 +731,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Assignment",
-              "right": "A task or piece of work allocated to someone"
+              "left": "Tutor",
+              "right": "A private teacher"
             },
             {
               "id": "p1",
-              "left": "Enrollment",
-              "right": "The action of enrolling or being enrolled"
+              "left": "Literacy",
+              "right": "The ability to read and write"
             },
             {
               "id": "p2",
-              "left": "Qualification",
-              "right": "A quality or accomplishment that fits a person for a task"
+              "left": "Tuition",
+              "right": "Teaching or instruction, especially of individuals"
             }
           ],
           "correct_answer": {
@@ -745,16 +755,16 @@
         {
           "interaction_id": "U8_I32",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (can/not) ________ understand this complex theory.",
-          "correct_answer": "can't",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (graduate) ________ in 2010.",
+          "correct_answer": "graduated",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I33",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The university is curriculum being updated.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"A private tutor helped him his with maths.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -766,36 +776,182 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "currently"
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "study"
+            },
+            {
+              "id": "w1",
+              "text": "won"
             },
             {
               "id": "w4",
-              "text": "her"
+              "text": "to"
+            },
+            {
+              "id": "w7",
+              "text": "New"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "scholarship"
             },
             {
               "id": "w0",
               "text": "She"
             },
             {
-              "id": "w7",
-              "text": "linguistics"
+              "id": "w8",
+              "text": "York"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U8_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The professor gave a fascinating lecture on economics.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I36",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A private teacher\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Dissertation"
+            },
+            {
+              "id": "o2",
+              "text": "Degree"
+            },
+            {
+              "id": "o1",
+              "text": "Tutor"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Graduate",
+              "right": "A person who has successfully completed a course"
+            },
+            {
+              "id": "p1",
+              "left": "Scholarship",
+              "right": "A grant to support a student's education"
+            },
+            {
+              "id": "p2",
+              "left": "Degree",
+              "right": "A qualification given by a university"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If I (study) ________ harder, I would get better grades.",
+          "correct_answer": "studied",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She won a scholarship to study in New York.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
             {
               "id": "w3",
               "text": "writing"
             },
             {
-              "id": "w6",
-              "text": "on"
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "linguistics"
+            },
+            {
+              "id": "w4",
+              "text": "her"
             },
             {
               "id": "w5",
               "text": "dissertation"
             },
             {
-              "id": "w1",
-              "text": "is"
+              "id": "w6",
+              "text": "on"
+            },
+            {
+              "id": "w2",
+              "text": "currently"
+            },
+            {
+              "id": "w0",
+              "text": "She"
             }
           ],
           "correct_answer": [
@@ -811,195 +967,44 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U8_I35",
+          "interaction_id": "U8_I41",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
           "stimulus_en": "Speaker A: \"She won a scholarship to study in New York.\"",
           "options": [
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I36",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A long essay on a particular subject\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Tuition"
-            },
-            {
-              "id": "o1",
-              "text": "Dissertation"
-            },
-            {
-              "id": "o3",
-              "text": "Qualification"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I37",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Academic",
-              "right": "Relating to education and scholarship"
-            },
-            {
-              "id": "p1",
-              "left": "Enrollment",
-              "right": "The action of enrolling or being enrolled"
-            },
-            {
-              "id": "p2",
-              "left": "Graduate",
-              "right": "A person who has successfully completed a course"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I38",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "She (plan) ________ to take a gap year after school.",
-          "correct_answer": "is planning",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I39",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She is currently writing her dissertation on linguistics.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I40",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "great"
-            },
-            {
-              "id": "w1",
-              "text": "internship"
-            },
-            {
-              "id": "w9",
-              "text": "experience"
-            },
-            {
-              "id": "w6",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "An"
-            },
-            {
-              "id": "w8",
-              "text": "practical"
-            },
-            {
-              "id": "w5",
-              "text": "way"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w7",
-              "text": "gain"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I41",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"A private tutor helped him with his maths.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
               "id": "r2",
               "text": "I completely agree, it makes sense."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             }
           ],
-          "correct_answer": "r15",
+          "correct_answer": "r2",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U8_I42",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A qualification given by a university\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A qualification given by a university\"",
           "options": [
-            {
-              "id": "o2",
-              "text": "Tutor"
-            },
-            {
-              "id": "o3",
-              "text": "Tuition"
-            },
             {
               "id": "o1",
               "text": "Degree"
+            },
+            {
+              "id": "o2",
+              "text": "Internship"
+            },
+            {
+              "id": "o3",
+              "text": "Literacy"
             }
           ],
           "correct_answer": "o1",
@@ -1013,18 +1018,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Degree",
-              "right": "A qualification given by a university"
+              "left": "Curriculum",
+              "right": "The subjects comprising a course of study"
             },
             {
               "id": "p1",
-              "left": "Qualification",
-              "right": "A quality or accomplishment that fits a person for a task"
+              "left": "Scholarship",
+              "right": "A grant to support a student's education"
             },
             {
               "id": "p2",
-              "left": "Dissertation",
-              "right": "A long essay on a particular subject"
+              "left": "Tuition",
+              "right": "Teaching or instruction, especially of individuals"
             }
           ],
           "correct_answer": {
@@ -1037,16 +1042,16 @@
         {
           "interaction_id": "U8_I44",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "The lesson (start/already) ________ when I arrived.",
-          "correct_answer": "had already started",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (study) ________ English for five years now.",
+          "correct_answer": "has studied",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I45",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"University tuition fees have increased recently.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Thousands of graduates enter the job market every year.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1058,28 +1063,32 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "academic"
-            },
-            {
               "id": "w2",
-              "text": "year"
+              "text": "four"
             },
             {
               "id": "w3",
-              "text": "begins"
-            },
-            {
-              "id": "w0",
-              "text": "The"
+              "text": "different"
             },
             {
               "id": "w4",
-              "text": "in"
+              "text": "subjects"
             },
             {
               "id": "w5",
-              "text": "September"
+              "text": "this"
+            },
+            {
+              "id": "w0",
+              "text": "I'm"
+            },
+            {
+              "id": "w6",
+              "text": "semester"
+            },
+            {
+              "id": "w1",
+              "text": "taking"
             }
           ],
           "correct_answer": [
@@ -1088,7 +1097,8 @@
             "w2",
             "w3",
             "w4",
-            "w5"
+            "w5",
+            "w6"
           ],
           "mastery_tag": "syntax"
         },
@@ -1096,41 +1106,41 @@
           "interaction_id": "U8_I47",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She won a scholarship to study in New York.\"",
+          "stimulus_en": "Speaker A: \"The university curriculum is being updated.\"",
           "options": [
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             },
             {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             },
             {
               "id": "r3",
               "text": "Could you tell me more? I'm curious."
             }
           ],
-          "correct_answer": "r1",
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U8_I48",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A qualification given by a university\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Teaching or instruction, especially of individuals\"",
           "options": [
             {
               "id": "o3",
-              "text": "Semester"
+              "text": "Dissertation"
             },
             {
               "id": "o2",
-              "text": "Tutor"
+              "text": "Graduate"
             },
             {
               "id": "o1",
-              "text": "Degree"
+              "text": "Tuition"
             }
           ],
           "correct_answer": "o1",
@@ -1144,18 +1154,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lecture",
-              "right": "An educational talk to an audience of students"
+              "left": "Degree",
+              "right": "A qualification given by a university"
             },
             {
               "id": "p1",
-              "left": "Assignment",
-              "right": "A task or piece of work allocated to someone"
+              "left": "Curriculum",
+              "right": "The subjects comprising a course of study"
             },
             {
               "id": "p2",
-              "left": "Academic",
-              "right": "Relating to education and scholarship"
+              "left": "Semester",
+              "right": "A half-year term in a school or college"
             }
           ],
           "correct_answer": {
@@ -1168,17 +1178,17 @@
         {
           "interaction_id": "U8_I50",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (fail/never) ________ an exam in my life.",
-          "correct_answer": "have never failed",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If I (study) ________ harder, I would get better grades.",
+          "correct_answer": "studied",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I51",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"A tutor private helped him with his maths.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The professor gave a fascinating lecture on economics.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1188,6 +1198,26 @@
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
+            {
+              "id": "w2",
+              "text": "graduates"
+            },
+            {
+              "id": "w5",
+              "text": "job"
+            },
+            {
+              "id": "w0",
+              "text": "Thousands"
+            },
+            {
+              "id": "w3",
+              "text": "enter"
+            },
+            {
+              "id": "w7",
+              "text": "every"
+            },
             {
               "id": "w6",
               "text": "market"
@@ -1201,28 +1231,8 @@
               "text": "year"
             },
             {
-              "id": "w5",
-              "text": "job"
-            },
-            {
-              "id": "w3",
-              "text": "enter"
-            },
-            {
-              "id": "w0",
-              "text": "Thousands"
-            },
-            {
-              "id": "w2",
-              "text": "graduates"
-            },
-            {
               "id": "w4",
               "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "every"
             }
           ],
           "correct_answer": [
@@ -1242,7 +1252,7 @@
           "interaction_id": "U8_I53",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"University tuition fees have increased recently.\"",
+          "stimulus_en": "Speaker A: \"An internship is a great way to gain practical experience.\"",
           "options": [
             {
               "id": "r4",
@@ -1253,30 +1263,30 @@
               "text": "That's a pity. I'm sorry to hear that."
             },
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             }
           ],
-          "correct_answer": "r5",
+          "correct_answer": "r4",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U8_I54",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An educational talk to an audience of students\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The position of a student or trainee who works\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Lecture"
-            },
-            {
               "id": "o3",
-              "text": "Enrollment"
+              "text": "Graduate"
             },
             {
               "id": "o2",
-              "text": "Literacy"
+              "text": "Tutor"
+            },
+            {
+              "id": "o1",
+              "text": "Internship"
             }
           ],
           "correct_answer": "o1",
@@ -1290,18 +1300,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Tutor",
-              "right": "A private teacher"
+              "left": "Degree",
+              "right": "A qualification given by a university"
             },
             {
               "id": "p1",
-              "left": "Tuition",
-              "right": "Teaching or instruction, especially of individuals"
+              "left": "Internship",
+              "right": "The position of a student or trainee who works"
             },
             {
               "id": "p2",
-              "left": "Curriculum",
-              "right": "The subjects comprising a course of study"
+              "left": "Dissertation",
+              "right": "A long essay on a particular subject"
             }
           ],
           "correct_answer": {
@@ -1315,15 +1325,15 @@
           "interaction_id": "U8_I56",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Did you (finish) ________ your degree last year?",
-          "correct_answer": "finish",
+          "stimulus_en": "I (wish) ________ I knew more about biology.",
+          "correct_answer": "wish",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I57",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What professional do qualifications you have?\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She won a scholarship to study in York. New\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1335,36 +1345,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w7",
-              "text": "Friday"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w3",
-              "text": "assignments"
-            },
-            {
               "id": "w6",
-              "text": "by"
-            },
-            {
-              "id": "w2",
-              "text": "two"
-            },
-            {
-              "id": "w4",
-              "text": "to"
+              "text": "on"
             },
             {
               "id": "w5",
-              "text": "finish"
+              "text": "dissertation"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w2",
+              "text": "currently"
+            },
+            {
+              "id": "w7",
+              "text": "linguistics"
+            },
+            {
+              "id": "w3",
+              "text": "writing"
+            },
+            {
+              "id": "w4",
+              "text": "her"
+            },
+            {
+              "id": "w1",
+              "text": "is"
             }
           ],
           "correct_answer": [
@@ -1383,19 +1393,19 @@
           "interaction_id": "U8_I59",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"University tuition fees have increased recently.\"",
+          "stimulus_en": "Speaker A: \"Improving literacy rates is a primary goal of the program.\"",
           "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
             }
           ],
           "correct_answer": "r10",
@@ -1405,19 +1415,19 @@
         {
           "interaction_id": "U8_I60",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Teaching or instruction, especially of individuals\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A grant to support a student's education\"",
           "options": [
             {
+              "id": "o3",
+              "text": "Dissertation"
+            },
+            {
               "id": "o2",
-              "text": "Tutor"
+              "text": "Qualification"
             },
             {
               "id": "o1",
-              "text": "Tuition"
-            },
-            {
-              "id": "o3",
-              "text": "Literacy"
+              "text": "Scholarship"
             }
           ],
           "correct_answer": "o1",
@@ -1431,18 +1441,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Enrollment",
-              "right": "The action of enrolling or being enrolled"
+              "left": "Qualification",
+              "right": "A quality or accomplishment that fits a person for a task"
             },
             {
               "id": "p1",
-              "left": "Literacy",
-              "right": "The ability to read and write"
+              "left": "Academic",
+              "right": "Relating to education and scholarship"
             },
             {
               "id": "p2",
-              "left": "Curriculum",
-              "right": "The subjects comprising a course of study"
+              "left": "Internship",
+              "right": "The position of a student or trainee who works"
             }
           ],
           "correct_answer": {
@@ -1456,15 +1466,15 @@
           "interaction_id": "U8_I62",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (be) ________ friends since primary school.",
-          "correct_answer": "have been",
+          "stimulus_en": "The school (open) ________ at 8 AM every day.",
+          "correct_answer": "opens",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I63",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What professional qualifications you do have?\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"An internship is a great way gain to practical experience.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1476,36 +1486,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "two"
+              "id": "w7",
+              "text": "New"
             },
             {
               "id": "w6",
-              "text": "by"
+              "text": "in"
             },
             {
-              "id": "w7",
-              "text": "Friday"
+              "id": "w5",
+              "text": "study"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w8",
+              "text": "York"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "won"
+            },
+            {
+              "id": "w3",
+              "text": "scholarship"
             },
             {
               "id": "w4",
               "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "assignments"
-            },
-            {
-              "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w5",
-              "text": "finish"
             }
           ],
           "correct_answer": [
@@ -1516,7 +1530,8 @@
             "w4",
             "w5",
             "w6",
-            "w7"
+            "w7",
+            "w8"
           ],
           "mastery_tag": "syntax"
         },
@@ -1527,38 +1542,38 @@
           "stimulus_en": "Speaker A: \"She won a scholarship to study in New York.\"",
           "options": [
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             }
           ],
-          "correct_answer": "r5",
+          "correct_answer": "r2",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U8_I66",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person who has successfully completed a course\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A long essay on a particular subject\"",
           "options": [
             {
-              "id": "o3",
-              "text": "Assignment"
+              "id": "o1",
+              "text": "Dissertation"
             },
             {
               "id": "o2",
-              "text": "Internship"
+              "text": "Graduate"
             },
             {
-              "id": "o1",
-              "text": "Graduate"
+              "id": "o3",
+              "text": "Curriculum"
             }
           ],
           "correct_answer": "o1",
@@ -1572,18 +1587,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Tuition",
-              "right": "Teaching or instruction, especially of individuals"
+              "left": "Degree",
+              "right": "A qualification given by a university"
             },
             {
               "id": "p1",
-              "left": "Assignment",
-              "right": "A task or piece of work allocated to someone"
+              "left": "Semester",
+              "right": "A half-year term in a school or college"
             },
             {
               "id": "p2",
-              "left": "Dissertation",
-              "right": "A long essay on a particular subject"
+              "left": "Lecture",
+              "right": "An educational talk to an audience of students"
             }
           ],
           "correct_answer": {
@@ -1596,17 +1611,17 @@
         {
           "interaction_id": "U8_I68",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "She (study) ________ English for five years now.",
-          "correct_answer": "has studied",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "The lesson (start/already) ________ when I arrived.",
+          "correct_answer": "had already started",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I69",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What professional qualifications do you have?\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I has two assignments to finish by Friday.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1617,157 +1632,16 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "Enrollment"
-            },
-            {
-              "id": "w3",
-              "text": "new"
-            },
-            {
-              "id": "w1",
-              "text": "for"
-            },
-            {
-              "id": "w7",
-              "text": "open"
-            },
-            {
-              "id": "w4",
-              "text": "course"
-            },
-            {
-              "id": "w6",
-              "text": "now"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I71",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"A private tutor helped him with his maths.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I72",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The position of a student or trainee who works\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Internship"
-            },
-            {
-              "id": "o3",
-              "text": "Tutor"
-            },
-            {
-              "id": "o2",
-              "text": "Literacy"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I73",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Internship",
-              "right": "The position of a student or trainee who works"
-            },
-            {
-              "id": "p1",
-              "left": "Enrollment",
-              "right": "The action of enrolling or being enrolled"
-            },
-            {
-              "id": "p2",
-              "left": "Degree",
-              "right": "A qualification given by a university"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I74",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "She (study) ________ English for five years now.",
-          "correct_answer": "has studied",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I75",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I have two assignments to finish Friday. by\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I76",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "practical"
-            },
-            {
               "id": "w0",
               "text": "An"
             },
             {
               "id": "w2",
               "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "internship"
             },
             {
               "id": "w6",
@@ -1782,20 +1656,20 @@
               "text": "gain"
             },
             {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "way"
-            },
-            {
               "id": "w9",
               "text": "experience"
             },
             {
-              "id": "w1",
-              "text": "internship"
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "practical"
+            },
+            {
+              "id": "w5",
+              "text": "way"
             }
           ],
           "correct_answer": [
@@ -1813,44 +1687,175 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U8_I77",
+          "interaction_id": "U8_I71",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"University tuition fees have increased recently.\"",
+          "stimulus_en": "Speaker A: \"I have two assignments to finish by Friday.\"",
           "options": [
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             },
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r15",
               "text": "That's very kind of you to offer."
             }
           ],
-          "correct_answer": "r5",
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A private teacher\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tutor"
+            },
+            {
+              "id": "o2",
+              "text": "Internship"
+            },
+            {
+              "id": "o3",
+              "text": "Semester"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Academic",
+              "right": "Relating to education and scholarship"
+            },
+            {
+              "id": "p1",
+              "left": "Internship",
+              "right": "The position of a student or trainee who works"
+            },
+            {
+              "id": "p2",
+              "left": "Scholarship",
+              "right": "A grant to support a student's education"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The school (open) ________ at 8 AM every day.",
+          "correct_answer": "opens",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Enrollment for the course new is now open.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "being"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "curriculum"
+            },
+            {
+              "id": "w1",
+              "text": "university"
+            },
+            {
+              "id": "w5",
+              "text": "updated"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U8_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"I'm taking four different subjects this semester.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U8_I78",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A half-year term in a school or college\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A grant to support a student's education\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Semester"
+              "id": "o2",
+              "text": "Tutor"
             },
             {
-              "id": "o2",
-              "text": "Tuition"
+              "id": "o1",
+              "text": "Scholarship"
             },
             {
               "id": "o3",
-              "text": "Graduate"
+              "text": "Tuition"
             }
           ],
           "correct_answer": "o1",
@@ -1864,18 +1869,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Semester",
-              "right": "A half-year term in a school or college"
+              "left": "Degree",
+              "right": "A qualification given by a university"
             },
             {
               "id": "p1",
-              "left": "Tutor",
-              "right": "A private teacher"
+              "left": "Enrollment",
+              "right": "The action of enrolling or being enrolled"
             },
             {
               "id": "p2",
-              "left": "Graduate",
-              "right": "A person who has successfully completed a course"
+              "left": "Assignment",
+              "right": "A task or piece of work allocated to someone"
             }
           ],
           "correct_answer": {
@@ -1889,16 +1894,16 @@
           "interaction_id": "U8_I80",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "She (study) ________ English for five years now.",
-          "correct_answer": "has studied",
+          "stimulus_en": "They (build) ________ a new library on campus.",
+          "correct_answer": "are building",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I81",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Improving literacy rates is a primary goal of the program.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I has two assignments to finish by Friday.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1909,36 +1914,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "his"
-            },
-            {
               "id": "w1",
-              "text": "private"
-            },
-            {
-              "id": "w4",
-              "text": "him"
+              "text": "is"
             },
             {
               "id": "w7",
-              "text": "maths"
-            },
-            {
-              "id": "w3",
-              "text": "helped"
+              "text": "linguistics"
             },
             {
               "id": "w0",
-              "text": "A"
-            },
-            {
-              "id": "w5",
-              "text": "with"
+              "text": "She"
             },
             {
               "id": "w2",
-              "text": "tutor"
+              "text": "currently"
+            },
+            {
+              "id": "w6",
+              "text": "on"
+            },
+            {
+              "id": "w5",
+              "text": "dissertation"
+            },
+            {
+              "id": "w3",
+              "text": "writing"
+            },
+            {
+              "id": "w4",
+              "text": "her"
             }
           ],
           "correct_answer": [
@@ -1957,40 +1962,40 @@
           "interaction_id": "U8_I83",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The university curriculum is being updated.\"",
+          "stimulus_en": "Speaker A: \"A private tutor helped him with his maths.\"",
           "options": [
             {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             },
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r1",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U8_I84",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"An educational talk to an audience of students\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The action of enrolling or being enrolled\"",
           "options": [
             {
-              "id": "o3",
-              "text": "Assignment"
-            },
-            {
               "id": "o1",
-              "text": "Lecture"
+              "text": "Enrollment"
             },
             {
               "id": "o2",
+              "text": "Assignment"
+            },
+            {
+              "id": "o3",
               "text": "Curriculum"
             }
           ],
@@ -2005,18 +2010,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Degree",
-              "right": "A qualification given by a university"
+              "left": "Assignment",
+              "right": "A task or piece of work allocated to someone"
             },
             {
               "id": "p1",
-              "left": "Internship",
-              "right": "The position of a student or trainee who works"
+              "left": "Academic",
+              "right": "Relating to education and scholarship"
             },
             {
               "id": "p2",
-              "left": "Qualification",
-              "right": "A quality or accomplishment that fits a person for a task"
+              "left": "Scholarship",
+              "right": "A grant to support a student's education"
             }
           ],
           "correct_answer": {
@@ -2029,16 +2034,16 @@
         {
           "interaction_id": "U8_I86",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (fail/never) ________ an exam in my life.",
-          "correct_answer": "have never failed",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If I (study) ________ harder, I would get better grades.",
+          "correct_answer": "studied",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I87",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Improving literacy rates is a goal primary of the program.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Improv literacy rates is a primary goal of the program.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -2050,28 +2055,32 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "increased"
-            },
-            {
-              "id": "w2",
-              "text": "fees"
+              "id": "w3",
+              "text": "different"
             },
             {
               "id": "w5",
-              "text": "recently"
-            },
-            {
-              "id": "w3",
-              "text": "have"
+              "text": "this"
             },
             {
               "id": "w1",
-              "text": "tuition"
+              "text": "taking"
+            },
+            {
+              "id": "w2",
+              "text": "four"
+            },
+            {
+              "id": "w4",
+              "text": "subjects"
+            },
+            {
+              "id": "w6",
+              "text": "semester"
             },
             {
               "id": "w0",
-              "text": "University"
+              "text": "I'm"
             }
           ],
           "correct_answer": [
@@ -2080,7 +2089,8 @@
             "w2",
             "w3",
             "w4",
-            "w5"
+            "w5",
+            "w6"
           ],
           "mastery_tag": "syntax"
         },
@@ -2088,41 +2098,41 @@
           "interaction_id": "U8_I89",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I'm taking four different subjects this semester.\"",
+          "stimulus_en": "Speaker A: \"The university curriculum is being updated.\"",
           "options": [
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             },
             {
               "id": "r5",
               "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
             }
           ],
-          "correct_answer": "r15",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U8_I90",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The subjects comprising a course of study\"",
+          "prompt_es": "Identifica la palabra correcta para: \"Relating to education and scholarship\"",
           "options": [
             {
               "id": "o1",
-              "text": "Curriculum"
-            },
-            {
-              "id": "o2",
-              "text": "Internship"
+              "text": "Academic"
             },
             {
               "id": "o3",
-              "text": "Enrollment"
+              "text": "Graduate"
+            },
+            {
+              "id": "o2",
+              "text": "Degree"
             }
           ],
           "correct_answer": "o1",
@@ -2136,18 +2146,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Literacy",
-              "right": "The ability to read and write"
+              "left": "Enrollment",
+              "right": "The action of enrolling or being enrolled"
             },
             {
               "id": "p1",
-              "left": "Dissertation",
-              "right": "A long essay on a particular subject"
+              "left": "Assignment",
+              "right": "A task or piece of work allocated to someone"
             },
             {
               "id": "p2",
-              "left": "Degree",
-              "right": "A qualification given by a university"
+              "left": "Graduate",
+              "right": "A person who has successfully completed a course"
             }
           ],
           "correct_answer": {
@@ -2160,17 +2170,17 @@
         {
           "interaction_id": "U8_I92",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The school (open) ________ at 8 AM every day.",
-          "correct_answer": "opens",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (fail/never) ________ an exam in my life.",
+          "correct_answer": "have never failed",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I93",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What qualifications professional do you have?\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"An internship is a great way to gain practical experience.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -2181,8 +2191,16 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
+              "id": "w9",
+              "text": "experience"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "way"
             },
             {
               "id": "w6",
@@ -2201,24 +2219,16 @@
               "text": "internship"
             },
             {
-              "id": "w5",
-              "text": "way"
-            },
-            {
-              "id": "w9",
-              "text": "experience"
-            },
-            {
-              "id": "w7",
-              "text": "gain"
-            },
-            {
-              "id": "w3",
-              "text": "a"
+              "id": "w2",
+              "text": "is"
             },
             {
               "id": "w8",
               "text": "practical"
+            },
+            {
+              "id": "w7",
+              "text": "gain"
             }
           ],
           "correct_answer": [
@@ -2239,19 +2249,19 @@
           "interaction_id": "U8_I95",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The university curriculum is being updated.\"",
+          "stimulus_en": "Speaker A: \"She won a scholarship to study in New York.\"",
           "options": [
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             },
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             }
           ],
           "correct_answer": "r2",
@@ -2261,19 +2271,19 @@
         {
           "interaction_id": "U8_I96",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The ability to read and write\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The subjects comprising a course of study\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Curriculum"
+              "id": "o3",
+              "text": "Tutor"
             },
             {
               "id": "o1",
-              "text": "Literacy"
+              "text": "Curriculum"
             },
             {
-              "id": "o3",
-              "text": "Internship"
+              "id": "o2",
+              "text": "Assignment"
             }
           ],
           "correct_answer": "o1",
@@ -2287,8 +2297,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Literacy",
-              "right": "The ability to read and write"
+              "left": "Assignment",
+              "right": "A task or piece of work allocated to someone"
             },
             {
               "id": "p1",
@@ -2297,8 +2307,8 @@
             },
             {
               "id": "p2",
-              "left": "Curriculum",
-              "right": "The subjects comprising a course of study"
+              "left": "Dissertation",
+              "right": "A long essay on a particular subject"
             }
           ],
           "correct_answer": {
@@ -2312,16 +2322,16 @@
           "interaction_id": "U8_I98",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (teach) ________ history for over twenty years.",
-          "correct_answer": "has been teaching",
+          "stimulus_en": "They (build) ________ a new library on campus.",
+          "correct_answer": "are building",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I99",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She won a scholarship study to in New York.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I have two assignments to finish by Friday.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -2333,1024 +2343,27 @@
           "options": [
             {
               "id": "w0",
-              "text": "The"
+              "text": "What"
             },
             {
               "id": "w1",
-              "text": "professor"
-            },
-            {
-              "id": "w4",
-              "text": "fascinating"
-            },
-            {
-              "id": "w7",
-              "text": "economics"
-            },
-            {
-              "id": "w2",
-              "text": "gave"
-            },
-            {
-              "id": "w6",
-              "text": "on"
+              "text": "professional"
             },
             {
               "id": "w3",
-              "text": "a"
+              "text": "do"
             },
             {
               "id": "w5",
-              "text": "lecture"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I101",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Improving literacy rates is a primary goal of the program.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I102",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A person who has successfully completed a course\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Literacy"
-            },
-            {
-              "id": "o2",
-              "text": "Academic"
-            },
-            {
-              "id": "o1",
-              "text": "Graduate"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I103",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Literacy",
-              "right": "The ability to read and write"
-            },
-            {
-              "id": "p1",
-              "left": "Enrollment",
-              "right": "The action of enrolling or being enrolled"
-            },
-            {
-              "id": "p2",
-              "left": "Graduate",
-              "right": "A person who has successfully completed a course"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I104",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I knew more about biology.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I105",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Enrollment for the course new is now open.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I106",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "different"
-            },
-            {
-              "id": "w5",
-              "text": "this"
-            },
-            {
-              "id": "w4",
-              "text": "subjects"
-            },
-            {
-              "id": "w6",
-              "text": "semester"
-            },
-            {
-              "id": "w0",
-              "text": "I'm"
-            },
-            {
-              "id": "w1",
-              "text": "taking"
+              "text": "have?"
             },
             {
               "id": "w2",
-              "text": "four"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I107",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What professional qualifications do you have?\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I108",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The position of a student or trainee who works\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Qualification"
-            },
-            {
-              "id": "o1",
-              "text": "Internship"
-            },
-            {
-              "id": "o3",
-              "text": "Degree"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I109",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Curriculum",
-              "right": "The subjects comprising a course of study"
-            },
-            {
-              "id": "p1",
-              "left": "Tuition",
-              "right": "Teaching or instruction, especially of individuals"
-            },
-            {
-              "id": "p2",
-              "left": "Degree",
-              "right": "A qualification given by a university"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I110",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (graduate) ________ in 2010.",
-          "correct_answer": "graduated",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I111",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"An internship is a great way to gain practical experience.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I112",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w7",
-              "text": "Friday"
-            },
-            {
-              "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w5",
-              "text": "finish"
-            },
-            {
-              "id": "w3",
-              "text": "assignments"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w6",
-              "text": "by"
-            },
-            {
-              "id": "w2",
-              "text": "two"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I113",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"University tuition fees have increased recently.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I114",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Relating to education and scholarship\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Graduate"
-            },
-            {
-              "id": "o2",
-              "text": "Degree"
-            },
-            {
-              "id": "o1",
-              "text": "Academic"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I115",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Tuition",
-              "right": "Teaching or instruction, especially of individuals"
-            },
-            {
-              "id": "p1",
-              "left": "Literacy",
-              "right": "The ability to read and write"
-            },
-            {
-              "id": "p2",
-              "left": "Semester",
-              "right": "A half-year term in a school or college"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I116",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "She (plan) ________ to take a gap year after school.",
-          "correct_answer": "is planning",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I117",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I'm taking four different subjects this semester.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I118",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "New"
-            },
-            {
-              "id": "w1",
-              "text": "won"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w5",
-              "text": "study"
-            },
-            {
-              "id": "w2",
-              "text": "a"
+              "text": "qualifications"
             },
             {
               "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "scholarship"
-            },
-            {
-              "id": "w8",
-              "text": "York"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I119",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I'm taking four different subjects this semester.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I120",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A qualification given by a university\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Tuition"
-            },
-            {
-              "id": "o1",
-              "text": "Degree"
-            },
-            {
-              "id": "o2",
-              "text": "Curriculum"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I121",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Assignment",
-              "right": "A task or piece of work allocated to someone"
-            },
-            {
-              "id": "p1",
-              "left": "Lecture",
-              "right": "An educational talk to an audience of students"
-            },
-            {
-              "id": "p2",
-              "left": "Internship",
-              "right": "The position of a student or trainee who works"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I122",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Did you (finish) ________ your degree last year?",
-          "correct_answer": "finish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I123",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She won a scholarship to in study New York.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I124",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "won"
-            },
-            {
-              "id": "w5",
-              "text": "study"
-            },
-            {
-              "id": "w8",
-              "text": "York"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w7",
-              "text": "New"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "scholarship"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I125",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"University tuition fees have increased recently.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I126",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A half-year term in a school or college\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Academic"
-            },
-            {
-              "id": "o2",
-              "text": "Dissertation"
-            },
-            {
-              "id": "o1",
-              "text": "Semester"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I127",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Tutor",
-              "right": "A private teacher"
-            },
-            {
-              "id": "p1",
-              "left": "Qualification",
-              "right": "A quality or accomplishment that fits a person for a task"
-            },
-            {
-              "id": "p2",
-              "left": "Dissertation",
-              "right": "A long essay on a particular subject"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I128",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (graduate) ________ in 2010.",
-          "correct_answer": "graduated",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I129",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She won a scholarship study to in New York.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I130",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "professor"
-            },
-            {
-              "id": "w6",
-              "text": "on"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "lecture"
-            },
-            {
-              "id": "w4",
-              "text": "fascinating"
-            },
-            {
-              "id": "w2",
-              "text": "gave"
-            },
-            {
-              "id": "w7",
-              "text": "economics"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I131",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Improving literacy rates is a primary goal of the program.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I132",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The position of a student or trainee who works\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Qualification"
-            },
-            {
-              "id": "o2",
-              "text": "Scholarship"
-            },
-            {
-              "id": "o1",
-              "text": "Internship"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I133",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Enrollment",
-              "right": "The action of enrolling or being enrolled"
-            },
-            {
-              "id": "p1",
-              "left": "Assignment",
-              "right": "A task or piece of work allocated to someone"
-            },
-            {
-              "id": "p2",
-              "left": "Degree",
-              "right": "A qualification given by a university"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I134",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (fail/never) ________ an exam in my life.",
-          "correct_answer": "have never failed",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I135",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"University tuition have fees increased recently.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I136",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "every"
-            },
-            {
-              "id": "w1",
-              "text": "of"
-            },
-            {
-              "id": "w6",
-              "text": "market"
-            },
-            {
-              "id": "w5",
-              "text": "job"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "Thousands"
-            },
-            {
-              "id": "w8",
-              "text": "year"
-            },
-            {
-              "id": "w2",
-              "text": "graduates"
-            },
-            {
-              "id": "w3",
-              "text": "enter"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I137",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"An internship is a great way to gain practical experience.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I138",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A task or piece of work allocated to someone\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Enrollment"
-            },
-            {
-              "id": "o1",
-              "text": "Assignment"
-            },
-            {
-              "id": "o3",
-              "text": "Curriculum"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I139",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Semester",
-              "right": "A half-year term in a school or college"
-            },
-            {
-              "id": "p1",
-              "left": "Lecture",
-              "right": "An educational talk to an audience of students"
-            },
-            {
-              "id": "p2",
-              "left": "Academic",
-              "right": "Relating to education and scholarship"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I140",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The school (open) ________ at 8 AM every day.",
-          "correct_answer": "opens",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I141",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Thousands of graduates enter the job market year. every\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I142",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "university"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "curriculum"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "being"
-            },
-            {
-              "id": "w5",
-              "text": "updated"
+              "text": "you"
             }
           ],
           "correct_answer": [
@@ -3362,1342 +2375,6 @@
             "w5"
           ],
           "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I143",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I'm taking four different subjects this semester.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I144",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A quality or accomplishment that fits a person for a task\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Tutor"
-            },
-            {
-              "id": "o1",
-              "text": "Qualification"
-            },
-            {
-              "id": "o3",
-              "text": "Semester"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I145",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Graduate",
-              "right": "A person who has successfully completed a course"
-            },
-            {
-              "id": "p1",
-              "left": "Degree",
-              "right": "A qualification given by a university"
-            },
-            {
-              "id": "p2",
-              "left": "Internship",
-              "right": "The position of a student or trainee who works"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I146",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (have) ________ a big test next Monday.",
-          "correct_answer": "are having",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I147",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I two have assignments to finish by Friday.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I148",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "A"
-            },
-            {
-              "id": "w1",
-              "text": "private"
-            },
-            {
-              "id": "w4",
-              "text": "him"
-            },
-            {
-              "id": "w7",
-              "text": "maths"
-            },
-            {
-              "id": "w2",
-              "text": "tutor"
-            },
-            {
-              "id": "w6",
-              "text": "his"
-            },
-            {
-              "id": "w3",
-              "text": "helped"
-            },
-            {
-              "id": "w5",
-              "text": "with"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I149",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Improving literacy rates is a primary goal of the program.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I150",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The position of a student or trainee who works\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Tutor"
-            },
-            {
-              "id": "o1",
-              "text": "Internship"
-            },
-            {
-              "id": "o3",
-              "text": "Lecture"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I151",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Enrollment",
-              "right": "The action of enrolling or being enrolled"
-            },
-            {
-              "id": "p1",
-              "left": "Tuition",
-              "right": "Teaching or instruction, especially of individuals"
-            },
-            {
-              "id": "p2",
-              "left": "Degree",
-              "right": "A qualification given by a university"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I152",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I knew more about biology.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I153",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"An internship is a great way to gain practical experience.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I154",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w4",
-              "text": "fascinating"
-            },
-            {
-              "id": "w7",
-              "text": "economics"
-            },
-            {
-              "id": "w6",
-              "text": "on"
-            },
-            {
-              "id": "w1",
-              "text": "professor"
-            },
-            {
-              "id": "w5",
-              "text": "lecture"
-            },
-            {
-              "id": "w2",
-              "text": "gave"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I155",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"A private tutor helped him with his maths.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I156",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A task or piece of work allocated to someone\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Graduate"
-            },
-            {
-              "id": "o1",
-              "text": "Assignment"
-            },
-            {
-              "id": "o3",
-              "text": "Semester"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I157",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Degree",
-              "right": "A qualification given by a university"
-            },
-            {
-              "id": "p1",
-              "left": "Academic",
-              "right": "Relating to education and scholarship"
-            },
-            {
-              "id": "p2",
-              "left": "Literacy",
-              "right": "The ability to read and write"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I158",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The school (open) ________ at 8 AM every day.",
-          "correct_answer": "opens",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I159",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"University tuition fees have increased recently.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I160",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "with"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w4",
-              "text": "degree"
-            },
-            {
-              "id": "w1",
-              "text": "graduated"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "Engineering"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I161",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Thousands of graduates enter the job market every year.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I162",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A half-year term in a school or college\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Graduate"
-            },
-            {
-              "id": "o3",
-              "text": "Qualification"
-            },
-            {
-              "id": "o1",
-              "text": "Semester"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I163",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Degree",
-              "right": "A qualification given by a university"
-            },
-            {
-              "id": "p1",
-              "left": "Graduate",
-              "right": "A person who has successfully completed a course"
-            },
-            {
-              "id": "p2",
-              "left": "Literacy",
-              "right": "The ability to read and write"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I164",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (have) ________ a big test next Monday.",
-          "correct_answer": "are having",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I165",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She is currently writing her dissertation on linguistics.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I166",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w7",
-              "text": "Friday"
-            },
-            {
-              "id": "w2",
-              "text": "two"
-            },
-            {
-              "id": "w3",
-              "text": "assignments"
-            },
-            {
-              "id": "w6",
-              "text": "by"
-            },
-            {
-              "id": "w5",
-              "text": "finish"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I167",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She is currently writing her dissertation on linguistics.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I168",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The subjects comprising a course of study\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Curriculum"
-            },
-            {
-              "id": "o3",
-              "text": "Tutor"
-            },
-            {
-              "id": "o2",
-              "text": "Qualification"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I169",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Academic",
-              "right": "Relating to education and scholarship"
-            },
-            {
-              "id": "p1",
-              "left": "Semester",
-              "right": "A half-year term in a school or college"
-            },
-            {
-              "id": "p2",
-              "left": "Literacy",
-              "right": "The ability to read and write"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I170",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (build) ________ a new library on campus.",
-          "correct_answer": "are building",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I171",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I have assignments two to finish by Friday.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I172",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "fees"
-            },
-            {
-              "id": "w4",
-              "text": "increased"
-            },
-            {
-              "id": "w1",
-              "text": "tuition"
-            },
-            {
-              "id": "w5",
-              "text": "recently"
-            },
-            {
-              "id": "w0",
-              "text": "University"
-            },
-            {
-              "id": "w3",
-              "text": "have"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I173",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He graduated with a degree in Engineering.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I174",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The ability to read and write\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Scholarship"
-            },
-            {
-              "id": "o1",
-              "text": "Literacy"
-            },
-            {
-              "id": "o2",
-              "text": "Curriculum"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I175",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Dissertation",
-              "right": "A long essay on a particular subject"
-            },
-            {
-              "id": "p1",
-              "left": "Tutor",
-              "right": "A private teacher"
-            },
-            {
-              "id": "p2",
-              "left": "Academic",
-              "right": "Relating to education and scholarship"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I176",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I knew more about biology.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I177",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Improving literacy rates is a primary goal of the program.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I178",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "private"
-            },
-            {
-              "id": "w4",
-              "text": "him"
-            },
-            {
-              "id": "w2",
-              "text": "tutor"
-            },
-            {
-              "id": "w5",
-              "text": "with"
-            },
-            {
-              "id": "w3",
-              "text": "helped"
-            },
-            {
-              "id": "w6",
-              "text": "his"
-            },
-            {
-              "id": "w0",
-              "text": "A"
-            },
-            {
-              "id": "w7",
-              "text": "maths"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I179",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Improving literacy rates is a primary goal of the program.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I180",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Teaching or instruction, especially of individuals\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Degree"
-            },
-            {
-              "id": "o2",
-              "text": "Academic"
-            },
-            {
-              "id": "o1",
-              "text": "Tuition"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I181",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Curriculum",
-              "right": "The subjects comprising a course of study"
-            },
-            {
-              "id": "p1",
-              "left": "Graduate",
-              "right": "A person who has successfully completed a course"
-            },
-            {
-              "id": "p2",
-              "left": "Literacy",
-              "right": "The ability to read and write"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I182",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "The lesson (start/already) ________ when I arrived.",
-          "correct_answer": "had already started",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I183",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"An internship is a great way to gain practical experience.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I184",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I'm"
-            },
-            {
-              "id": "w2",
-              "text": "four"
-            },
-            {
-              "id": "w6",
-              "text": "semester"
-            },
-            {
-              "id": "w5",
-              "text": "this"
-            },
-            {
-              "id": "w3",
-              "text": "different"
-            },
-            {
-              "id": "w4",
-              "text": "subjects"
-            },
-            {
-              "id": "w1",
-              "text": "taking"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I185",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"An internship is a great way to gain practical experience.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I186",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The position of a student or trainee who works\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Internship"
-            },
-            {
-              "id": "o2",
-              "text": "Graduate"
-            },
-            {
-              "id": "o3",
-              "text": "Degree"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I187",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Semester",
-              "right": "A half-year term in a school or college"
-            },
-            {
-              "id": "p1",
-              "left": "Academic",
-              "right": "Relating to education and scholarship"
-            },
-            {
-              "id": "p2",
-              "left": "Curriculum",
-              "right": "The subjects comprising a course of study"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I188",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (teach) ________ history for over twenty years.",
-          "correct_answer": "has been teaching",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I189",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She is currently writing dissertation her on linguistics.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I190",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w5",
-              "text": "study"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w8",
-              "text": "York"
-            },
-            {
-              "id": "w3",
-              "text": "scholarship"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w7",
-              "text": "New"
-            },
-            {
-              "id": "w1",
-              "text": "won"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I191",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I'm taking four different subjects this semester.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I192",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The position of a student or trainee who works\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Internship"
-            },
-            {
-              "id": "o3",
-              "text": "Tuition"
-            },
-            {
-              "id": "o2",
-              "text": "Assignment"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I193",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Enrollment",
-              "right": "The action of enrolling or being enrolled"
-            },
-            {
-              "id": "p1",
-              "left": "Semester",
-              "right": "A half-year term in a school or college"
-            },
-            {
-              "id": "p2",
-              "left": "Dissertation",
-              "right": "A long essay on a particular subject"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I194",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "She (study) ________ English for five years now.",
-          "correct_answer": "has studied",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I195",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Enrollment for the new course is now open.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I196",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "on"
-            },
-            {
-              "id": "w3",
-              "text": "writing"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "dissertation"
-            },
-            {
-              "id": "w4",
-              "text": "her"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w2",
-              "text": "currently"
-            },
-            {
-              "id": "w7",
-              "text": "linguistics"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I197",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She won a scholarship to study in New York.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I198",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The action of enrolling or being enrolled\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Degree"
-            },
-            {
-              "id": "o3",
-              "text": "Qualification"
-            },
-            {
-              "id": "o1",
-              "text": "Enrollment"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I199",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Internship",
-              "right": "The position of a student or trainee who works"
-            },
-            {
-              "id": "p1",
-              "left": "Lecture",
-              "right": "An educational talk to an audience of students"
-            },
-            {
-              "id": "p2",
-              "left": "Degree",
-              "right": "A qualification given by a university"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I200",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (fail/never) ________ an exam in my life.",
-          "correct_answer": "have never failed",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
         }
       ]
     }

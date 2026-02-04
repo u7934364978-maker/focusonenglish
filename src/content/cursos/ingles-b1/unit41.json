@@ -1,0 +1,2757 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "U41",
+    "unit_title": "Social Media Impact",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [
+    "Understand and use B1 Social Media Impact vocabulary",
+    "Apply B1 grammar structures in context",
+    "Develop communicative competence"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "syntax",
+    "communication"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1_UNIT_41_PRACTICE",
+      "title": "B1 Practice: Social Media Impact",
+      "duration_minutes": 600,
+      "content": [
+        {
+          "interaction_id": "U41_I1",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Impact",
+              "right": "The effect of social media impact on society"
+            },
+            {
+              "id": "p1",
+              "left": "social media impact specialist",
+              "right": "An expert in the field of social media impact"
+            },
+            {
+              "id": "p2",
+              "left": "Fundamentals",
+              "right": "The basic principles of social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (visit) ________ a museum about social media impact tomorrow.",
+          "correct_answer": "are visiting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Learning about social media impact is a great way to expand your horizons.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w13",
+              "text": "unit"
+            },
+            {
+              "id": "w8",
+              "text": "social"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w9",
+              "text": "media"
+            },
+            {
+              "id": "w4",
+              "text": "explore"
+            },
+            {
+              "id": "w6",
+              "text": "fundamentals"
+            },
+            {
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w10",
+              "text": "impact"
+            },
+            {
+              "id": "w12",
+              "text": "this"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w11",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We face many challenges when studying the complexities of social media impact.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A high level of knowledge in social media impact\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Advanced"
+            },
+            {
+              "id": "o3",
+              "text": "Innovation"
+            },
+            {
+              "id": "o2",
+              "text": "Theory"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I7",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Practice",
+              "right": "The application of social media impact in real life"
+            },
+            {
+              "id": "p1",
+              "left": "Research",
+              "right": "The systematic investigation into social media impact"
+            },
+            {
+              "id": "p2",
+              "left": "Advanced",
+              "right": "A high level of knowledge in social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about social media impact in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We are going to explore the fundamentals of social media impact in this unit.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "impact"
+            },
+            {
+              "id": "w10",
+              "text": "new"
+            },
+            {
+              "id": "w8",
+              "text": "to"
+            },
+            {
+              "id": "w7",
+              "text": "led"
+            },
+            {
+              "id": "w1",
+              "text": "research"
+            },
+            {
+              "id": "w6",
+              "text": "has"
+            },
+            {
+              "id": "w11",
+              "text": "discoveries"
+            },
+            {
+              "id": "w9",
+              "text": "many"
+            },
+            {
+              "id": "w3",
+              "text": "social"
+            },
+            {
+              "id": "w4",
+              "text": "media"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The impact of social media impact on our daily lives is significant.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The systematic investigation into social media impact\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Research"
+            },
+            {
+              "id": "o2",
+              "text": "Theory"
+            },
+            {
+              "id": "o3",
+              "text": "Advanced"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Innovation",
+              "right": "A new idea or method in social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain social media impact"
+            },
+            {
+              "id": "p2",
+              "left": "Impact",
+              "right": "The effect of social media impact on society"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about social media impact in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The impact of social media impact on our daily is lives significant.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w11",
+              "text": "difficult"
+            },
+            {
+              "id": "w4",
+              "text": "social"
+            },
+            {
+              "id": "w7",
+              "text": "into"
+            },
+            {
+              "id": "w8",
+              "text": "practice"
+            },
+            {
+              "id": "w2",
+              "text": "theory"
+            },
+            {
+              "id": "w5",
+              "text": "media"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Putting"
+            },
+            {
+              "id": "w10",
+              "text": "be"
+            },
+            {
+              "id": "w6",
+              "text": "impact"
+            },
+            {
+              "id": "w9",
+              "text": "can"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Putting the theory of social media impact into practice can be difficult.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I18",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A difficult task in the context of social media impact\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Solution"
+            },
+            {
+              "id": "o1",
+              "text": "Challenge"
+            },
+            {
+              "id": "o2",
+              "text": "Impact"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fundamentals",
+              "right": "The basic principles of social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain social media impact"
+            },
+            {
+              "id": "p2",
+              "left": "social media impact specialist",
+              "right": "An expert in the field of social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I20",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (read/usually) ________ about social media impact on weekends.",
+          "correct_answer": "usually reads",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has been a in specialist social media impact for over ten years.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "way"
+            },
+            {
+              "id": "w2",
+              "text": "social"
+            },
+            {
+              "id": "w4",
+              "text": "impact"
+            },
+            {
+              "id": "w12",
+              "text": "horizons"
+            },
+            {
+              "id": "w9",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w10",
+              "text": "expand"
+            },
+            {
+              "id": "w7",
+              "text": "great"
+            },
+            {
+              "id": "w3",
+              "text": "media"
+            },
+            {
+              "id": "w11",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "Learning"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We are going to explore the fundamentals of social media impact in this unit.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I24",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A new idea or method in social media impact\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Theory"
+            },
+            {
+              "id": "o2",
+              "text": "Practice"
+            },
+            {
+              "id": "o1",
+              "text": "Innovation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I25",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Challenge",
+              "right": "A difficult task in the context of social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in social media impact"
+            },
+            {
+              "id": "p2",
+              "left": "Innovation",
+              "right": "A new idea or method in social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I26",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (read/usually) ________ about social media impact on weekends.",
+          "correct_answer": "usually reads",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We face many challenges when studying the complexities social of media impact.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w11",
+              "text": "main"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "media"
+            },
+            {
+              "id": "w4",
+              "text": "this"
+            },
+            {
+              "id": "w10",
+              "text": "our"
+            },
+            {
+              "id": "w2",
+              "text": "solution"
+            },
+            {
+              "id": "w12",
+              "text": "priority"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "social"
+            },
+            {
+              "id": "w0",
+              "text": "Finding"
+            },
+            {
+              "id": "w7",
+              "text": "impact"
+            },
+            {
+              "id": "w9",
+              "text": "is"
+            },
+            {
+              "id": "w8",
+              "text": "problem"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"There are many different theories about how social media impact works.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The application of social media impact in real life\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Advanced"
+            },
+            {
+              "id": "o3",
+              "text": "Innovation"
+            },
+            {
+              "id": "o1",
+              "text": "Practice"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Solution",
+              "right": "A way to solve a problem related to social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in social media impact"
+            },
+            {
+              "id": "p2",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ interested in social media impact since he was a child.",
+          "correct_answer": "has been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Many people find social media impact to be a challenging but rewarding subject.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w11",
+              "text": "discoveries"
+            },
+            {
+              "id": "w7",
+              "text": "led"
+            },
+            {
+              "id": "w3",
+              "text": "social"
+            },
+            {
+              "id": "w5",
+              "text": "impact"
+            },
+            {
+              "id": "w1",
+              "text": "research"
+            },
+            {
+              "id": "w8",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "media"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "has"
+            },
+            {
+              "id": "w10",
+              "text": "new"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w9",
+              "text": "many"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He has been a specialist in social media impact for over ten years.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A difficult task in the context of social media impact\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Challenge"
+            },
+            {
+              "id": "o2",
+              "text": "Research"
+            },
+            {
+              "id": "o3",
+              "text": "Advanced"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advanced",
+              "right": "A high level of knowledge in social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "social media impact specialist",
+              "right": "An expert in the field of social media impact"
+            },
+            {
+              "id": "p2",
+              "left": "Challenge",
+              "right": "A difficult task in the context of social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I38",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (know/not) ________ much about social media impact yet.",
+          "correct_answer": "doesn't know",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has been a specialist in social media impact for over ten years.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w11",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "explore"
+            },
+            {
+              "id": "w12",
+              "text": "this"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w13",
+              "text": "unit"
+            },
+            {
+              "id": "w9",
+              "text": "media"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w8",
+              "text": "social"
+            },
+            {
+              "id": "w6",
+              "text": "fundamentals"
+            },
+            {
+              "id": "w10",
+              "text": "impact"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many people find social media impact to be a challenging but rewarding subject.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I42",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The effect of social media impact on society\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Solution"
+            },
+            {
+              "id": "o1",
+              "text": "Impact"
+            },
+            {
+              "id": "o3",
+              "text": "Research"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Impact",
+              "right": "The effect of social media impact on society"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in social media impact"
+            },
+            {
+              "id": "p2",
+              "left": "social media impact specialist",
+              "right": "An expert in the field of social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I44",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (know/not) ________ much about social media impact yet.",
+          "correct_answer": "doesn't know",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We face many challenges when the studying complexities of social media impact.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w6",
+              "text": "how"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            },
+            {
+              "id": "w3",
+              "text": "different"
+            },
+            {
+              "id": "w8",
+              "text": "media"
+            },
+            {
+              "id": "w10",
+              "text": "works"
+            },
+            {
+              "id": "w7",
+              "text": "social"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w9",
+              "text": "impact"
+            },
+            {
+              "id": "w4",
+              "text": "theories"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He has been a specialist in social media impact for over ten years.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I48",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The effect of social media impact on society\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Impact"
+            },
+            {
+              "id": "o2",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o3",
+              "text": "Practice"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I49",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advanced",
+              "right": "A high level of knowledge in social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "Practice",
+              "right": "The application of social media impact in real life"
+            },
+            {
+              "id": "p2",
+              "left": "Research",
+              "right": "The systematic investigation into social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I think social media impact (be) ________ very important for the future.",
+          "correct_answer": "is",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The of impact social media impact on our daily lives is significant.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w11",
+              "text": "significant"
+            },
+            {
+              "id": "w5",
+              "text": "impact"
+            },
+            {
+              "id": "w9",
+              "text": "lives"
+            },
+            {
+              "id": "w4",
+              "text": "media"
+            },
+            {
+              "id": "w1",
+              "text": "impact"
+            },
+            {
+              "id": "w6",
+              "text": "on"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w7",
+              "text": "our"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w10",
+              "text": "is"
+            },
+            {
+              "id": "w8",
+              "text": "daily"
+            },
+            {
+              "id": "w3",
+              "text": "social"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Putting the theory of social media impact into practice can be difficult.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A system of ideas intended to explain social media impact\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Research"
+            },
+            {
+              "id": "o1",
+              "text": "Theory"
+            },
+            {
+              "id": "o2",
+              "text": "Challenge"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Challenge",
+              "right": "A difficult task in the context of social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "Innovation",
+              "right": "A new idea or method in social media impact"
+            },
+            {
+              "id": "p2",
+              "left": "Fundamentals",
+              "right": "The basic principles of social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I56",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (study) ________ social media impact lately.",
+          "correct_answer": "have been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Find a solution to this social media impact problem is our main priority.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "for"
+            },
+            {
+              "id": "w2",
+              "text": "been"
+            },
+            {
+              "id": "w8",
+              "text": "impact"
+            },
+            {
+              "id": "w10",
+              "text": "over"
+            },
+            {
+              "id": "w7",
+              "text": "media"
+            },
+            {
+              "id": "w4",
+              "text": "specialist"
+            },
+            {
+              "id": "w11",
+              "text": "ten"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w12",
+              "text": "years"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "social"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I59",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He has been a specialist in social media impact for over ten years.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I60",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A system of ideas intended to explain social media impact\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Research"
+            },
+            {
+              "id": "o1",
+              "text": "Theory"
+            },
+            {
+              "id": "o3",
+              "text": "Practice"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I61",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Solution",
+              "right": "A way to solve a problem related to social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in social media impact"
+            },
+            {
+              "id": "p2",
+              "left": "social media impact specialist",
+              "right": "An expert in the field of social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (discuss) ________ social media impact when I arrived.",
+          "correct_answer": "were discussing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Learning about social media impact is a great way to expand your horizons.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "social"
+            },
+            {
+              "id": "w10",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "impact"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w7",
+              "text": "our"
+            },
+            {
+              "id": "w11",
+              "text": "significant"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "on"
+            },
+            {
+              "id": "w1",
+              "text": "impact"
+            },
+            {
+              "id": "w9",
+              "text": "lives"
+            },
+            {
+              "id": "w8",
+              "text": "daily"
+            },
+            {
+              "id": "w4",
+              "text": "media"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Putting the theory of social media impact into practice can be difficult.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I66",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The application of social media impact in real life\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Practice"
+            },
+            {
+              "id": "o3",
+              "text": "Solution"
+            },
+            {
+              "id": "o2",
+              "text": "Innovation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "Practice",
+              "right": "The application of social media impact in real life"
+            },
+            {
+              "id": "p2",
+              "left": "social media impact specialist",
+              "right": "An expert in the field of social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I68",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (read/usually) ________ about social media impact on weekends.",
+          "correct_answer": "usually reads",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We are going to explore fundamentals the of social media impact in this unit.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Finding"
+            },
+            {
+              "id": "w7",
+              "text": "impact"
+            },
+            {
+              "id": "w5",
+              "text": "social"
+            },
+            {
+              "id": "w11",
+              "text": "main"
+            },
+            {
+              "id": "w6",
+              "text": "media"
+            },
+            {
+              "id": "w2",
+              "text": "solution"
+            },
+            {
+              "id": "w12",
+              "text": "priority"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w8",
+              "text": "problem"
+            },
+            {
+              "id": "w4",
+              "text": "this"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w10",
+              "text": "our"
+            },
+            {
+              "id": "w9",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"There are many different theories about how social media impact works.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I72",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The effect of social media impact on society\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Research"
+            },
+            {
+              "id": "o1",
+              "text": "Impact"
+            },
+            {
+              "id": "o3",
+              "text": "Theory"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fundamentals",
+              "right": "The basic principles of social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "Practice",
+              "right": "The application of social media impact in real life"
+            },
+            {
+              "id": "p2",
+              "left": "Research",
+              "right": "The systematic investigation into social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (discuss) ________ social media impact when I arrived.",
+          "correct_answer": "were discussing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Many people find social media impact to be a challenging but subject. rewarding\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "media"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Putting"
+            },
+            {
+              "id": "w7",
+              "text": "into"
+            },
+            {
+              "id": "w6",
+              "text": "impact"
+            },
+            {
+              "id": "w4",
+              "text": "social"
+            },
+            {
+              "id": "w9",
+              "text": "can"
+            },
+            {
+              "id": "w8",
+              "text": "practice"
+            },
+            {
+              "id": "w10",
+              "text": "be"
+            },
+            {
+              "id": "w11",
+              "text": "difficult"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w2",
+              "text": "theory"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The impact of social media impact on our daily lives is significant.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An expert in the field of social media impact\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "social media impact specialist"
+            },
+            {
+              "id": "o3",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o2",
+              "text": "Impact"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Innovation",
+              "right": "A new idea or method in social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "Solution",
+              "right": "A way to solve a problem related to social media impact"
+            },
+            {
+              "id": "p2",
+              "left": "Impact",
+              "right": "The effect of social media impact on society"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about social media impact in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There are many different about theories how social media impact works.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w3",
+              "text": "social"
+            },
+            {
+              "id": "w11",
+              "text": "discoveries"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "media"
+            },
+            {
+              "id": "w6",
+              "text": "has"
+            },
+            {
+              "id": "w8",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "impact"
+            },
+            {
+              "id": "w10",
+              "text": "new"
+            },
+            {
+              "id": "w9",
+              "text": "many"
+            },
+            {
+              "id": "w7",
+              "text": "led"
+            },
+            {
+              "id": "w1",
+              "text": "research"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I83",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"There are many different theories about how social media impact works.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I84",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The application of social media impact in real life\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Theory"
+            },
+            {
+              "id": "o1",
+              "text": "Practice"
+            },
+            {
+              "id": "o3",
+              "text": "Solution"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I85",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Research",
+              "right": "The systematic investigation into social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "social media impact specialist",
+              "right": "An expert in the field of social media impact"
+            },
+            {
+              "id": "p2",
+              "left": "Solution",
+              "right": "A way to solve a problem related to social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ interested in social media impact since he was a child.",
+          "correct_answer": "has been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has been a specialist in media social impact for over ten years.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "media"
+            },
+            {
+              "id": "w9",
+              "text": "many"
+            },
+            {
+              "id": "w7",
+              "text": "led"
+            },
+            {
+              "id": "w11",
+              "text": "discoveries"
+            },
+            {
+              "id": "w6",
+              "text": "has"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w5",
+              "text": "impact"
+            },
+            {
+              "id": "w10",
+              "text": "new"
+            },
+            {
+              "id": "w8",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "research"
+            },
+            {
+              "id": "w3",
+              "text": "social"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He has been a specialist in social media impact for over ten years.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I90",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The effect of social media impact on society\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Innovation"
+            },
+            {
+              "id": "o1",
+              "text": "Impact"
+            },
+            {
+              "id": "o2",
+              "text": "social media impact specialist"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "Impact",
+              "right": "The effect of social media impact on society"
+            },
+            {
+              "id": "p2",
+              "left": "social media impact specialist",
+              "right": "An expert in the field of social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ interested in social media impact since he was a child.",
+          "correct_answer": "has been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The research on social media impact has led to many new discoveries.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "how"
+            },
+            {
+              "id": "w7",
+              "text": "social"
+            },
+            {
+              "id": "w10",
+              "text": "works"
+            },
+            {
+              "id": "w3",
+              "text": "different"
+            },
+            {
+              "id": "w8",
+              "text": "media"
+            },
+            {
+              "id": "w4",
+              "text": "theories"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            },
+            {
+              "id": "w9",
+              "text": "impact"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I95",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We face many challenges when studying the complexities of social media impact.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The effect of social media impact on society\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Impact"
+            },
+            {
+              "id": "o2",
+              "text": "Challenge"
+            },
+            {
+              "id": "o3",
+              "text": "Practice"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I97",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Challenge",
+              "right": "A difficult task in the context of social media impact"
+            },
+            {
+              "id": "p1",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain social media impact"
+            },
+            {
+              "id": "p2",
+              "left": "Innovation",
+              "right": "A new idea or method in social media impact"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (visit) ________ a museum about social media impact tomorrow.",
+          "correct_answer": "are visiting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has been a specialist in social media impact for over ten years.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Finding"
+            },
+            {
+              "id": "w11",
+              "text": "main"
+            },
+            {
+              "id": "w9",
+              "text": "is"
+            },
+            {
+              "id": "w8",
+              "text": "problem"
+            },
+            {
+              "id": "w2",
+              "text": "solution"
+            },
+            {
+              "id": "w10",
+              "text": "our"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "this"
+            },
+            {
+              "id": "w7",
+              "text": "impact"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "media"
+            },
+            {
+              "id": "w12",
+              "text": "priority"
+            },
+            {
+              "id": "w5",
+              "text": "social"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

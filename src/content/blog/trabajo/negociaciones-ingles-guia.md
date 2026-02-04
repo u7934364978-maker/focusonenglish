@@ -1,6 +1,6 @@
 ---
 title: "Guía 2026: Negociaciones en Inglés: Cómo cerrar tratos con éxito"
-date: "2026-02-28"
+date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Domina el arte de la negociación en inglés. Aprende las frases clave para persuadir, hacer concesiones y cerrar acuerdos beneficiosos en un entorno global."
 category: "trabajo"

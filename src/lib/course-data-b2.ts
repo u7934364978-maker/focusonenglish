@@ -1,57 +1,38 @@
-import type { Lesson } from './exercise-types';
+import { B2_UNITS } from './b2-units';
 
-export const MODULE_1_LESSONS: Lesson[] = [
-  {
-    id: 'b2-m1-l1',
-    title: 'Lesson 1: Past Perfect',
-    description: 'Master the past perfect tense in narrative contexts',
-    duration: 60,
-    objectives: ['Understand past perfect formation', 'Use past perfect in stories'],
-    exercises: [
-      {
-        id: 'b2-m1-l1-grammar-1',
-        type: 'grammar',
-        title: 'Past Perfect vs Past Simple',
-        grammarPoint: 'Past Perfect',
-        explanation: 'The past perfect is used to talk about actions that happened before another action in the past.',
-        examples: ['I had already eaten when he arrived.'],
-        questions: [
-          {
-            id: 'q1',
-            type: 'fill-blank',
-            question: 'When I arrived at the station, the train ___ (already/leave).',
-            correctAnswer: 'had already left',
-            explanation: 'The train left before I arrived, so we use Past Perfect.',
-            points: 1
-          }
-        ]
-      },
-      {
-        id: 'b2-m1-l1-grammar-2',
-        type: 'grammar',
-        title: 'Narrative Tenses',
-        grammarPoint: 'Past Perfect Continuous',
-        explanation: 'Used for continuous actions that happened before another point in the past.',
-        examples: ['He had been working for three hours when I called.'],
-        questions: [
-          {
-            id: 'q1',
-            type: 'fill-blank',
-            question: 'She ___ (wait) for an hour when the bus finally came.',
-            correctAnswer: 'had been waiting',
-            explanation: 'Continuous action before another past event.',
-            points: 1
-          }
-        ]
-      }
-    ]
-  }
-];
+export const ALL_B2_UNITS = B2_UNITS;
 
-export const ALL_MODULES = [
+export const B2_MODULES = [
   {
     id: 'b2-m1',
-    title: 'Module 1: Narrative Tenses & Experiences',
-    lessons: MODULE_1_LESSONS
+    title: 'Module 1: Narrative & Relationships',
+    units: B2_UNITS.slice(0, 10)
+  },
+  {
+    id: 'b2-m2',
+    title: 'Module 2: Work, Technology & Innovation',
+    units: B2_UNITS.slice(10, 20)
+  },
+  {
+    id: 'b2-m3',
+    title: 'Module 3: Social Issues & Media',
+    units: B2_UNITS.slice(20, 30)
+  },
+  {
+    id: 'b2-m4',
+    title: 'Module 4: Culture, Lifestyle & Travel',
+    units: B2_UNITS.slice(30, 40)
+  },
+  {
+    id: 'b2-m5',
+    title: 'Module 5: Science & Education',
+    units: B2_UNITS.slice(40, 50)
+  },
+  {
+    id: 'b2-m6',
+    title: 'Module 6: Global Trends & Final Prep',
+    units: B2_UNITS.slice(50, 60)
   }
 ];
+
+export const ALL_MODULES = B2_MODULES;

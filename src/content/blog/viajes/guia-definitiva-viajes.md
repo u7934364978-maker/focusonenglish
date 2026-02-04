@@ -1,6 +1,6 @@
 ---
 title: "La Guía Definitiva de Inglés para Viajar en 2026: Todo lo que necesitas saber"
-date: "2026-02-01"
+date: "2026-01-30"
 author: "Focus Team"
 excerpt: "Domina el inglés para viajar con nuestra guía completa. Aprende frases esenciales, vocabulario clave y descubre cómo nuestra plataforma te prepara para situaciones reales en tiempo récord."
 category: "viajes"

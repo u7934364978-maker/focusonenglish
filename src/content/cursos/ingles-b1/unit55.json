@@ -1,0 +1,2747 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "U55",
+    "unit_title": "Technological Ethics (AI)",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [
+    "Understand and use B1 Technological Ethics (AI) vocabulary",
+    "Apply B1 grammar structures in context",
+    "Develop communicative competence"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "syntax",
+    "communication"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1_UNIT_55_PRACTICE",
+      "title": "B1 Practice: Technological Ethics (AI)",
+      "duration_minutes": 600,
+      "content": [
+        {
+          "interaction_id": "U55_I1",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "technological ethics (ai) specialist",
+              "right": "An expert in the field of technological ethics (ai)"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "Innovation",
+              "right": "A new idea or method in technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about technological ethics (ai) in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The research on ethics technological (ai) has led to many new discoveries.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "technological"
+            },
+            {
+              "id": "w6",
+              "text": "how"
+            },
+            {
+              "id": "w10",
+              "text": "works"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w9",
+              "text": "(ai)"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w4",
+              "text": "theories"
+            },
+            {
+              "id": "w8",
+              "text": "ethics"
+            },
+            {
+              "id": "w3",
+              "text": "different"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The impact of technological ethics (ai) on our daily lives is significant.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A high level of knowledge in technological ethics (ai)\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o1",
+              "text": "Advanced"
+            },
+            {
+              "id": "o2",
+              "text": "Theory"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I7",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Solution",
+              "right": "A way to solve a problem related to technological ethics (ai)"
+            },
+            {
+              "id": "p1",
+              "left": "Research",
+              "right": "The systematic investigation into technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "Practice",
+              "right": "The application of technological ethics (ai) in real life"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about technological ethics (ai) in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We are going explore to the fundamentals of technological ethics (ai) in this unit.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "complexities"
+            },
+            {
+              "id": "w9",
+              "text": "technological"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w10",
+              "text": "ethics"
+            },
+            {
+              "id": "w11",
+              "text": "(ai)"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w8",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "challenges"
+            },
+            {
+              "id": "w4",
+              "text": "when"
+            },
+            {
+              "id": "w1",
+              "text": "face"
+            },
+            {
+              "id": "w5",
+              "text": "studying"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We face many challenges when studying the complexities of technological ethics (ai).\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A difficult task in the context of technological ethics (ai)\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Challenge"
+            },
+            {
+              "id": "o2",
+              "text": "Advanced"
+            },
+            {
+              "id": "o3",
+              "text": "technological ethics (ai) specialist"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Practice",
+              "right": "The application of technological ethics (ai) in real life"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "Solution",
+              "right": "A way to solve a problem related to technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (study) ________ technological ethics (ai) lately.",
+          "correct_answer": "have been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There are many theories different about how technological ethics (ai) works.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w10",
+              "text": "(ai)"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w12",
+              "text": "this"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w11",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "fundamentals"
+            },
+            {
+              "id": "w8",
+              "text": "technological"
+            },
+            {
+              "id": "w4",
+              "text": "explore"
+            },
+            {
+              "id": "w13",
+              "text": "unit"
+            },
+            {
+              "id": "w9",
+              "text": "ethics"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many people find technological ethics (ai) to be a challenging but rewarding subject.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I18",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The effect of technological ethics (ai) on society\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Research"
+            },
+            {
+              "id": "o1",
+              "text": "Impact"
+            },
+            {
+              "id": "o3",
+              "text": "Solution"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Impact",
+              "right": "The effect of technological ethics (ai) on society"
+            },
+            {
+              "id": "p1",
+              "left": "Fundamentals",
+              "right": "The basic principles of technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "Advanced",
+              "right": "A high level of knowledge in technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (visit) ________ a museum about technological ethics (ai) tomorrow.",
+          "correct_answer": "are visiting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Many people find technological ethics (ai) to be a challenging but rewarding subject.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "can"
+            },
+            {
+              "id": "w7",
+              "text": "into"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "(ai)"
+            },
+            {
+              "id": "w10",
+              "text": "be"
+            },
+            {
+              "id": "w8",
+              "text": "practice"
+            },
+            {
+              "id": "w11",
+              "text": "difficult"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "technological"
+            },
+            {
+              "id": "w5",
+              "text": "ethics"
+            },
+            {
+              "id": "w2",
+              "text": "theory"
+            },
+            {
+              "id": "w0",
+              "text": "Putting"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Finding a solution to this technological ethics (ai) problem is our main priority.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I24",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A new idea or method in technological ethics (ai)\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Innovation"
+            },
+            {
+              "id": "o3",
+              "text": "Challenge"
+            },
+            {
+              "id": "o2",
+              "text": "Practice"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I25",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Impact",
+              "right": "The effect of technological ethics (ai) on society"
+            },
+            {
+              "id": "p1",
+              "left": "Solution",
+              "right": "A way to solve a problem related to technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (visit) ________ a museum about technological ethics (ai) tomorrow.",
+          "correct_answer": "are visiting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We are going to the explore fundamentals of technological ethics (ai) in this unit.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w12",
+              "text": "years"
+            },
+            {
+              "id": "w8",
+              "text": "(ai)"
+            },
+            {
+              "id": "w11",
+              "text": "ten"
+            },
+            {
+              "id": "w4",
+              "text": "specialist"
+            },
+            {
+              "id": "w9",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "technological"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "been"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "ethics"
+            },
+            {
+              "id": "w10",
+              "text": "over"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Putting the theory of technological ethics (ai) into practice can be difficult.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A new idea or method in technological ethics (ai)\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Innovation"
+            },
+            {
+              "id": "o2",
+              "text": "Challenge"
+            },
+            {
+              "id": "o3",
+              "text": "Theory"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advanced",
+              "right": "A high level of knowledge in technological ethics (ai)"
+            },
+            {
+              "id": "p1",
+              "left": "Solution",
+              "right": "A way to solve a problem related to technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "Research",
+              "right": "The systematic investigation into technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If you (want) ________ to master technological ethics (ai), you must practice.",
+          "correct_answer": "want",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has been a in specialist technological ethics (ai) for over ten years.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "to"
+            },
+            {
+              "id": "w8",
+              "text": "way"
+            },
+            {
+              "id": "w0",
+              "text": "Learning"
+            },
+            {
+              "id": "w2",
+              "text": "technological"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "great"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w3",
+              "text": "ethics"
+            },
+            {
+              "id": "w10",
+              "text": "expand"
+            },
+            {
+              "id": "w12",
+              "text": "horizons"
+            },
+            {
+              "id": "w4",
+              "text": "(ai)"
+            },
+            {
+              "id": "w11",
+              "text": "your"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He has been a specialist in technological ethics (ai) for over ten years.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A way to solve a problem related to technological ethics (ai)\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Solution"
+            },
+            {
+              "id": "o2",
+              "text": "Practice"
+            },
+            {
+              "id": "o3",
+              "text": "Research"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain technological ethics (ai)"
+            },
+            {
+              "id": "p1",
+              "left": "Practice",
+              "right": "The application of technological ethics (ai) in real life"
+            },
+            {
+              "id": "p2",
+              "left": "Innovation",
+              "right": "A new idea or method in technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (discuss) ________ technological ethics (ai) when I arrived.",
+          "correct_answer": "were discussing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The research on technological ethics (ai) has led to many new discoveries.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w11",
+              "text": "(ai)"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w10",
+              "text": "ethics"
+            },
+            {
+              "id": "w9",
+              "text": "technological"
+            },
+            {
+              "id": "w5",
+              "text": "studying"
+            },
+            {
+              "id": "w3",
+              "text": "challenges"
+            },
+            {
+              "id": "w7",
+              "text": "complexities"
+            },
+            {
+              "id": "w4",
+              "text": "when"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w8",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "face"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The research on technological ethics (ai) has led to many new discoveries.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I42",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The systematic investigation into technological ethics (ai)\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Research"
+            },
+            {
+              "id": "o3",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o2",
+              "text": "Impact"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Practice",
+              "right": "The application of technological ethics (ai) in real life"
+            },
+            {
+              "id": "p1",
+              "left": "Impact",
+              "right": "The effect of technological ethics (ai) on society"
+            },
+            {
+              "id": "p2",
+              "left": "Advanced",
+              "right": "A high level of knowledge in technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (visit) ________ a museum about technological ethics (ai) tomorrow.",
+          "correct_answer": "are visiting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Learning about technological ethics (ai) is a great way to expand your horizons.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w10",
+              "text": "over"
+            },
+            {
+              "id": "w11",
+              "text": "ten"
+            },
+            {
+              "id": "w4",
+              "text": "specialist"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w9",
+              "text": "for"
+            },
+            {
+              "id": "w6",
+              "text": "technological"
+            },
+            {
+              "id": "w2",
+              "text": "been"
+            },
+            {
+              "id": "w8",
+              "text": "(ai)"
+            },
+            {
+              "id": "w7",
+              "text": "ethics"
+            },
+            {
+              "id": "w12",
+              "text": "years"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The impact of technological ethics (ai) on our daily lives is significant.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I48",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A difficult task in the context of technological ethics (ai)\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Theory"
+            },
+            {
+              "id": "o2",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o1",
+              "text": "Challenge"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I49",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Practice",
+              "right": "The application of technological ethics (ai) in real life"
+            },
+            {
+              "id": "p1",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "Challenge",
+              "right": "A difficult task in the context of technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If you (want) ________ to master technological ethics (ai), you must practice.",
+          "correct_answer": "want",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There are many different theories about how ethics technological (ai) works.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "into"
+            },
+            {
+              "id": "w5",
+              "text": "ethics"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "(ai)"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "technological"
+            },
+            {
+              "id": "w2",
+              "text": "theory"
+            },
+            {
+              "id": "w9",
+              "text": "can"
+            },
+            {
+              "id": "w0",
+              "text": "Putting"
+            },
+            {
+              "id": "w8",
+              "text": "practice"
+            },
+            {
+              "id": "w11",
+              "text": "difficult"
+            },
+            {
+              "id": "w10",
+              "text": "be"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Learning about technological ethics (ai) is a great way to expand your horizons.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An expert in the field of technological ethics (ai)\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "technological ethics (ai) specialist"
+            },
+            {
+              "id": "o2",
+              "text": "Practice"
+            },
+            {
+              "id": "o3",
+              "text": "Research"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain technological ethics (ai)"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "Challenge",
+              "right": "A difficult task in the context of technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I56",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ interested in technological ethics (ai) since he was a child.",
+          "correct_answer": "has been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The on research technological ethics (ai) has led to many new discoveries.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "technological"
+            },
+            {
+              "id": "w5",
+              "text": "(ai)"
+            },
+            {
+              "id": "w8",
+              "text": "daily"
+            },
+            {
+              "id": "w9",
+              "text": "lives"
+            },
+            {
+              "id": "w10",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "our"
+            },
+            {
+              "id": "w1",
+              "text": "impact"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "ethics"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "on"
+            },
+            {
+              "id": "w11",
+              "text": "significant"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I59",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We are going to explore the fundamentals of technological ethics (ai) in this unit.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A difficult task in the context of technological ethics (ai)\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Solution"
+            },
+            {
+              "id": "o3",
+              "text": "technological ethics (ai) specialist"
+            },
+            {
+              "id": "o1",
+              "text": "Challenge"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I61",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advanced",
+              "right": "A high level of knowledge in technological ethics (ai)"
+            },
+            {
+              "id": "p1",
+              "left": "Fundamentals",
+              "right": "The basic principles of technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "Innovation",
+              "right": "A new idea or method in technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If you (want) ________ to master technological ethics (ai), you must practice.",
+          "correct_answer": "want",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We are go to explore the fundamentals of technological ethics (ai) in this unit.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "problem"
+            },
+            {
+              "id": "w12",
+              "text": "priority"
+            },
+            {
+              "id": "w6",
+              "text": "ethics"
+            },
+            {
+              "id": "w0",
+              "text": "Finding"
+            },
+            {
+              "id": "w2",
+              "text": "solution"
+            },
+            {
+              "id": "w11",
+              "text": "main"
+            },
+            {
+              "id": "w9",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "this"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "(ai)"
+            },
+            {
+              "id": "w10",
+              "text": "our"
+            },
+            {
+              "id": "w5",
+              "text": "technological"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Learning about technological ethics (ai) is a great way to expand your horizons.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I66",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The application of technological ethics (ai) in real life\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Practice"
+            },
+            {
+              "id": "o3",
+              "text": "Research"
+            },
+            {
+              "id": "o2",
+              "text": "Impact"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Innovation",
+              "right": "A new idea or method in technological ethics (ai)"
+            },
+            {
+              "id": "p1",
+              "left": "Impact",
+              "right": "The effect of technological ethics (ai) on society"
+            },
+            {
+              "id": "p2",
+              "left": "Advanced",
+              "right": "A high level of knowledge in technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I68",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I think technological ethics (ai) (be) ________ very important for the future.",
+          "correct_answer": "is",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Many people find technological ethics (ai) to be a challeng but reward subject.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w10",
+              "text": "over"
+            },
+            {
+              "id": "w2",
+              "text": "been"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w12",
+              "text": "years"
+            },
+            {
+              "id": "w11",
+              "text": "ten"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w9",
+              "text": "for"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "technological"
+            },
+            {
+              "id": "w8",
+              "text": "(ai)"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "specialist"
+            },
+            {
+              "id": "w7",
+              "text": "ethics"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He has been a specialist in technological ethics (ai) for over ten years.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I72",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A way to solve a problem related to technological ethics (ai)\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Solution"
+            },
+            {
+              "id": "o3",
+              "text": "Advanced"
+            },
+            {
+              "id": "o2",
+              "text": "Challenge"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advanced",
+              "right": "A high level of knowledge in technological ethics (ai)"
+            },
+            {
+              "id": "p1",
+              "left": "Research",
+              "right": "The systematic investigation into technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "technological ethics (ai) specialist",
+              "right": "An expert in the field of technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I74",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (read/usually) ________ about technological ethics ",
+          "correct_answer": "usually reads",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Learning about technological ethics (ai) a is great way to expand your horizons.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w12",
+              "text": "this"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w10",
+              "text": "(ai)"
+            },
+            {
+              "id": "w8",
+              "text": "technological"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "fundamentals"
+            },
+            {
+              "id": "w9",
+              "text": "ethics"
+            },
+            {
+              "id": "w4",
+              "text": "explore"
+            },
+            {
+              "id": "w11",
+              "text": "in"
+            },
+            {
+              "id": "w13",
+              "text": "unit"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"There are many different theories about how technological ethics (ai) works.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An expert in the field of technological ethics (ai)\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Practice"
+            },
+            {
+              "id": "o1",
+              "text": "technological ethics (ai) specialist"
+            },
+            {
+              "id": "o2",
+              "text": "Advanced"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fundamentals",
+              "right": "The basic principles of technological ethics (ai)"
+            },
+            {
+              "id": "p1",
+              "left": "Solution",
+              "right": "A way to solve a problem related to technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "Advanced",
+              "right": "A high level of knowledge in technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ interested in technological ethics (ai) since he was a child.",
+          "correct_answer": "has been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Learning about technological ethics (ai) is a way great to expand your horizons.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w7",
+              "text": "technological"
+            },
+            {
+              "id": "w6",
+              "text": "how"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            },
+            {
+              "id": "w10",
+              "text": "works"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w4",
+              "text": "theories"
+            },
+            {
+              "id": "w8",
+              "text": "ethics"
+            },
+            {
+              "id": "w3",
+              "text": "different"
+            },
+            {
+              "id": "w9",
+              "text": "(ai)"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I83",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Finding a solution to this technological ethics (ai) problem is our main priority.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I84",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A difficult task in the context of technological ethics (ai)\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Challenge"
+            },
+            {
+              "id": "o3",
+              "text": "Solution"
+            },
+            {
+              "id": "o2",
+              "text": "Practice"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I85",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Challenge",
+              "right": "A difficult task in the context of technological ethics (ai)"
+            },
+            {
+              "id": "p1",
+              "left": "Research",
+              "right": "The systematic investigation into technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "Innovation",
+              "right": "A new idea or method in technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (study) ________ technological ethics (ai) lately.",
+          "correct_answer": "have been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The impact of technological ethics (ai) on our daily lives is significant.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "technological"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            },
+            {
+              "id": "w8",
+              "text": "ethics"
+            },
+            {
+              "id": "w6",
+              "text": "how"
+            },
+            {
+              "id": "w4",
+              "text": "theories"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w3",
+              "text": "different"
+            },
+            {
+              "id": "w9",
+              "text": "(ai)"
+            },
+            {
+              "id": "w10",
+              "text": "works"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Finding a solution to this technological ethics (ai) problem is our main priority.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A system of ideas intended to explain technological ethics (ai)\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Impact"
+            },
+            {
+              "id": "o2",
+              "text": "Research"
+            },
+            {
+              "id": "o1",
+              "text": "Theory"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Research",
+              "right": "The systematic investigation into technological ethics (ai)"
+            },
+            {
+              "id": "p1",
+              "left": "Solution",
+              "right": "A way to solve a problem related to technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "Fundamentals",
+              "right": "The basic principles of technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about technological ethics (ai) in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There many are different theories about how technological ethics (ai) works.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w8",
+              "text": "ethics"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            },
+            {
+              "id": "w6",
+              "text": "how"
+            },
+            {
+              "id": "w10",
+              "text": "works"
+            },
+            {
+              "id": "w7",
+              "text": "technological"
+            },
+            {
+              "id": "w4",
+              "text": "theories"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w9",
+              "text": "(ai)"
+            },
+            {
+              "id": "w3",
+              "text": "different"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I95",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Learning about technological ethics (ai) is a great way to expand your horizons.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U55_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The application of technological ethics (ai) in real life\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Practice"
+            },
+            {
+              "id": "o2",
+              "text": "Impact"
+            },
+            {
+              "id": "o3",
+              "text": "Solution"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I97",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain technological ethics (ai)"
+            },
+            {
+              "id": "p1",
+              "left": "Research",
+              "right": "The systematic investigation into technological ethics (ai)"
+            },
+            {
+              "id": "p2",
+              "left": "technological ethics (ai) specialist",
+              "right": "An expert in the field of technological ethics (ai)"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ interested in technological ethics (ai) since he was a child.",
+          "correct_answer": "has been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We face many challenges when studying the complexities of technological ethics (ai).\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U55_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "ethics"
+            },
+            {
+              "id": "w9",
+              "text": "lives"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w8",
+              "text": "daily"
+            },
+            {
+              "id": "w6",
+              "text": "on"
+            },
+            {
+              "id": "w3",
+              "text": "technological"
+            },
+            {
+              "id": "w1",
+              "text": "impact"
+            },
+            {
+              "id": "w7",
+              "text": "our"
+            },
+            {
+              "id": "w5",
+              "text": "(ai)"
+            },
+            {
+              "id": "w11",
+              "text": "significant"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w10",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 ---
 title: "LinkedIn en Inglés: Cómo optimizar tu perfil para atraer reclutadores internacionales"
-date: "2026-02-15"
+date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Transforma tu presencia profesional en 2026. Aprende a redactar un titular de impacto, un extracto convincente y a hacer networking efectivo en LinkedIn usando inglés profesional."
 category: "trabajo"

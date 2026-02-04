@@ -1,0 +1,1123 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U43",
+    "unit_title": "Comparing Lifestyles: City vs Country",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Lifestyle & Environment",
+      "content": [
+        {
+          "interaction_id": "U43_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estilo de vida'?",
+          "options": [
+            { "id": "o1", "text": "Lifestyle" },
+            { "id": "o2", "text": "Life mode" },
+            { "id": "o3", "text": "Way of life" },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Campo / Zona rural'?",
+          "options": [
+            { "id": "o1", "text": "Countryside / Rural area" },
+            { "id": "o2", "text": "Field" },
+            { "id": "o3", "text": "Ground" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ciudad / Zona urbana'?",
+          "options": [
+            { "id": "o1", "text": "City / Urban area" },
+            { "id": "o2", "text": "Town center" },
+            { "id": "o3", "text": "Village" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tráfico'?",
+          "options": [
+            { "id": "o1", "text": "Traffic" },
+            { "id": "o2", "text": "Cars" },
+            { "id": "o3", "text": "Movement" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ruido'?",
+          "options": [
+            { "id": "o1", "text": "Noise" },
+            { "id": "o2", "text": "Sound" },
+            { "id": "o3", "text": "Loud" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aire fresco'?",
+          "options": [
+            { "id": "o1", "text": "Fresh air" },
+            { "id": "o2", "text": "Cool wind" },
+            { "id": "o3", "text": "Pure gas" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Paz y tranquilidad'?",
+          "options": [
+            { "id": "o1", "text": "Peace and quiet" },
+            { "id": "o2", "text": "Silence and rest" },
+            { "id": "o3", "text": "Calm and peace" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vida nocturna'?",
+          "options": [
+            { "id": "o1", "text": "Nightlife" },
+            { "id": "o2", "text": "Night party" },
+            { "id": "o3", "text": "Dark life" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Instalaciones / Servicios' (ej. gimnasios, cines)?",
+          "options": [
+            { "id": "o1", "text": "Facilities" },
+            { "id": "o2", "text": "Services" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Transporte público'?",
+          "options": [
+            { "id": "o1", "text": "Public transport" },
+            { "id": "o2", "text": "Common bus" },
+            { "id": "o3", "text": "City travel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Coste de vida'?",
+          "options": [
+            { "id": "o1", "text": "Cost of living" },
+            { "id": "o2", "text": "Price of life" },
+            { "id": "o3", "text": "Spend of living" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Oportunidades de trabajo'?",
+          "options": [
+            { "id": "o1", "text": "Job opportunities" },
+            { "id": "o2", "text": "Work chances" },
+            { "id": "o3", "text": "Employment options" },
+            { "id": "o4", "text": "All are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Saludable'?",
+          "options": [
+            { "id": "o1", "text": "Healthy" },
+            { "id": "o2", "text": "Health" },
+            { "id": "o3", "text": "Heal" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estresante'?",
+          "options": [
+            { "id": "o1", "text": "Stressful" },
+            { "id": "o2", "text": "Stressed" },
+            { "id": "o3", "text": "Stress" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Relajado / Relajante'?",
+          "options": [
+            { "id": "o1", "text": "Relaxed / Relaxing" },
+            { "id": "o2", "text": "Calm" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I16",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Traffic", "right": "Tráfico" },
+            { "id": "p2", "left": "Nightlife", "right": "Vida nocturna" },
+            { "id": "p3", "left": "Fresh air", "right": "Aire fresco" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I17",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Stressful", "right": "Estresante" },
+            { "id": "p2", "left": "Healthy", "right": "Saludable" },
+            { "id": "p3", "left": "Relaxing", "right": "Relajante" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué es un 'Farmer'?",
+          "options": [
+            { "id": "o1", "text": "Un granjero" },
+            { "id": "o2", "text": "Un ciudadano" },
+            { "id": "o3", "text": "Un conductor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué es 'Nature'?",
+          "options": [
+            { "id": "o1", "text": "Naturaleza" },
+            { "id": "o2", "text": "Natural" },
+            { "id": "o3", "text": "Bosque" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Commute'?",
+          "options": [
+            { "id": "o1", "text": "Desplazarse al trabajo" },
+            { "id": "o2", "text": "Comer" },
+            { "id": "o3", "text": "Comunicar" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventaja'?",
+          "options": [
+            { "id": "o1", "text": "Advantage" },
+            { "id": "o2", "text": "Disadvantage" },
+            { "id": "o3", "text": "Profit" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Desventaja'?",
+          "options": [
+            { "id": "o1", "text": "Disadvantage" },
+            { "id": "o2", "text": "Advantage" },
+            { "id": "o3", "text": "Problem" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Edificios'?",
+          "options": [
+            { "id": "o1", "text": "Buildings" },
+            { "id": "o2", "text": "Houses" },
+            { "id": "o3", "text": "Towers" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Calles'?",
+          "options": [
+            { "id": "o1", "text": "Streets" },
+            { "id": "o2", "text": "Roads" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Gente'?",
+          "options": [
+            { "id": "o1", "text": "People" },
+            { "id": "o2", "text": "Persons" },
+            { "id": "o3", "text": "Humans" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cerca de'?",
+          "options": [
+            { "id": "o1", "text": "Near / Close to" },
+            { "id": "o2", "text": "Far from" },
+            { "id": "o3", "text": "Next" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lejos de'?",
+          "options": [
+            { "id": "o1", "text": "Far from" },
+            { "id": "o2", "text": "Near to" },
+            { "id": "o3", "text": "Away" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vivir'?",
+          "options": [
+            { "id": "o1", "text": "To live" },
+            { "id": "o2", "text": "To stay" },
+            { "id": "o3", "text": "To be" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Trabajar'?",
+          "options": [
+            { "id": "o1", "text": "To work" },
+            { "id": "o2", "text": "To job" },
+            { "id": "o3", "text": "To do" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Divertirse'?",
+          "options": [
+            { "id": "o1", "text": "To have fun" },
+            { "id": "o2", "text": "To fun" },
+            { "id": "o3", "text": "To enjoy" },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visitar'?",
+          "options": [
+            { "id": "o1", "text": "To visit" },
+            { "id": "o2", "text": "To see" },
+            { "id": "o3", "text": "To go" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Caminar'?",
+          "options": [
+            { "id": "o1", "text": "To walk" },
+            { "id": "o2", "text": "To run" },
+            { "id": "o3", "text": "To go" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Conducir'?",
+          "options": [
+            { "id": "o1", "text": "To drive" },
+            { "id": "o2", "text": "To ride" },
+            { "id": "o3", "text": "To lead" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mudarse'?",
+          "options": [
+            { "id": "o1", "text": "To move" },
+            { "id": "o2", "text": "To change" },
+            { "id": "o3", "text": "To leave" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I35",
+          "type": "flashcard",
+          "prompt_es": "Vocabulario de Vida",
+          "flashcards": [
+            { "front": "Lifestyle", "back": "Estilo de vida", "pronunciation": "/ˈlaɪfstaɪl/" },
+            { "front": "Countryside", "back": "El campo", "pronunciation": "/ˈkʌntrisaɪd/" },
+            { "front": "Cost of living", "back": "Coste de vida", "pronunciation": "/kɒst əv ˈlɪvɪŋ/" },
+            { "front": "Facilities", "back": "Instalaciones / Servicios", "pronunciation": "/fəˈsɪlɪtiz/" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Comparison Review & 'Less... than'",
+      "content": [
+        {
+          "interaction_id": "U43_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Menos ruidoso que'?",
+          "options": [
+            { "id": "o1", "text": "Less noisy than" },
+            { "id": "o2", "text": "Lesser noisy than" },
+            { "id": "o3", "text": "Not noisy than" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Menos caro que'?",
+          "options": [
+            { "id": "o1", "text": "Less expensive than" },
+            { "id": "o2", "text": "Least expensive than" },
+            { "id": "o3", "text": "No expensive than" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The country is ___ (menos contaminado) than the city.'",
+          "stimulus_en": "The country is ___ than the city.",
+          "correct_answer": "less polluted",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Public transport is ___ (menos caro) than a car.'",
+          "stimulus_en": "Public transport is ___ than a car.",
+          "correct_answer": "less expensive",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'City life is ___ (menos relajante) than country life.'",
+          "stimulus_en": "City life is ___ than country life.",
+          "correct_answer": "less relaxing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (tan... como): 'The village is not ___ exciting ___ the city.'",
+          "stimulus_en": "The village is not ___ exciting ___ the city.",
+          "correct_answer": "as... as",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (tan... como): 'The air in the city is not ___ clean ___ in the country.'",
+          "stimulus_en": "The air in the city is not ___ clean ___ in the country.",
+          "correct_answer": "as... as",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'The least'? (ej. The least expensive)",
+          "options": [
+            { "id": "o1", "text": "El menos / Lo menos" },
+            { "id": "o2", "text": "El más" },
+            { "id": "o3", "text": "Mucho menos" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Superlativo): 'This is the ___ (menos) stressful place.'",
+          "stimulus_en": "This is the ___ stressful place.",
+          "correct_answer": "least",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Comparativo): 'My new job is ___ (mejor) than the old one.'",
+          "stimulus_en": "My new job is ___ than the old one.",
+          "correct_answer": "better",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U42_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Comparativo): 'The traffic here is ___ (peor) than in my town.'",
+          "stimulus_en": "The traffic here is ___ than in my town.",
+          "correct_answer": "worse",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "The city is more noisy than the country." },
+            { "id": "o2", "text": "The city is noisier than the country." },
+            { "id": "o3", "text": "Both are used, but o2 is more natural." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "It's less hot today than yesterday." },
+            { "id": "o2", "text": "It isn't as hot today as yesterday." },
+            { "id": "o3", "text": "Both are correct." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'There are ___ (más) facilities in the city.'",
+          "stimulus_en": "There are ___ facilities in the city.",
+          "correct_answer": "more",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'There is ___ (menos) space in the city.'",
+          "stimulus_en": "There is ___ space in the city.",
+          "correct_answer": "less",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'People in the village are ___ (más amigables) than in the city.'",
+          "stimulus_en": "People in the village are ___ than in the city.",
+          "correct_answer": "friendlier / more friendly",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The streets are ___ (más sucias) in the center.'",
+          "stimulus_en": "The streets are ___ in the center.",
+          "correct_answer": "dirtier",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Life is ___ (más tranquila) in the countryside.'",
+          "stimulus_en": "Life is ___ in the countryside.",
+          "correct_answer": "quieter",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Everything is ___ (más caro) in London.'",
+          "stimulus_en": "Everything is ___ in London.",
+          "correct_answer": "more expensive",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The houses are ___ (más grandes) here.'",
+          "stimulus_en": "The houses are ___ here.",
+          "correct_answer": "bigger / larger",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The gardens are ___ (más bonitos) in spring.'",
+          "stimulus_en": "The gardens are ___ in spring.",
+          "correct_answer": "more beautiful",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It's ___ (más seguro) to walk at night in my village.'",
+          "stimulus_en": "It's ___ to walk at night in my village.",
+          "correct_answer": "safer",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The shops are ___ (más modernas) in the city.'",
+          "stimulus_en": "The shops are ___ in the city.",
+          "correct_answer": "more modern",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It's ___ (más difícil) to find a job here.'",
+          "stimulus_en": "It's ___ to find a job here.",
+          "correct_answer": "more difficult",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The nightlife is ___ (más emocionante) in Madrid.'",
+          "stimulus_en": "The nightlife is ___ in Madrid.",
+          "correct_answer": "more exciting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'There is ___ (más) pollution in big cities.'",
+          "stimulus_en": "There is ___ pollution in big cities.",
+          "correct_answer": "more",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Big cities are ___ (más peligrosas) than small towns.'",
+          "stimulus_en": "Big cities are ___ than small towns.",
+          "correct_answer": "more dangerous",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The air is ___ (más limpio) in the mountains.'",
+          "stimulus_en": "The air is ___ in the mountains.",
+          "correct_answer": "cleaner",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The cinema is ___ (más cerca) than the park.'",
+          "stimulus_en": "The cinema is ___ than the park.",
+          "correct_answer": "nearer / closer",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This town is ___ (menos poblado) than that city.'",
+          "stimulus_en": "This town is ___ than that city.",
+          "correct_answer": "less populated",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The bus is ___ (más lento) than the train.'",
+          "stimulus_en": "The bus is ___ than the train.",
+          "correct_answer": "slower",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A bicycle is ___ (más barata) than a motorcycle.'",
+          "stimulus_en": "A bicycle is ___ than a motorcycle.",
+          "correct_answer": "cheaper",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The library is ___ (más tranquila) place in the city.' (Superlativo)",
+          "stimulus_en": "The library is the ___ place in the city.",
+          "correct_answer": "quietest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This is the ___ (peor) traffic of the week.' (Superlativo)",
+          "stimulus_en": "This is the ___ traffic of the week.",
+          "correct_answer": "worst",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Today is the ___ (mejor) day of my trip.' (Superlativo)",
+          "stimulus_en": "Today is the ___ day of my trip.",
+          "correct_answer": "best",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Expressing Preferences & Comparisons",
+      "content": [
+        {
+          "interaction_id": "U43_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué prefieres, la ciudad o el campo?'?",
+          "options": [
+            { "id": "o1", "text": "Which do you prefer, the city or the country?" },
+            { "id": "o2", "text": "What do you prefer, city or country?" },
+            { "id": "o3", "text": "Both are common." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Prefiero el campo porque es más relajante'?",
+          "options": [
+            { "id": "o1", "text": "I prefer the country because it's more relaxing." },
+            { "id": "o2", "text": "I prefer country because is relaxinger." },
+            { "id": "o3", "text": "I like more country because is better." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La ciudad es mucho más ruidosa que el campo'?",
+          "options": [
+            { "id": "o1", "text": "The city is much noisier than the country." },
+            { "id": "o2", "text": "The city is more noisy than country." },
+            { "id": "o3", "text": "Both are common (o1 is more accurate)." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No hay tanto tráfico en mi pueblo'?",
+          "options": [
+            { "id": "o1", "text": "There isn't so much traffic in my town." },
+            { "id": "o2", "text": "There is not many traffic." },
+            { "id": "o3", "text": "There aren't many traffic." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Vivir en la ciudad es más estresante'?",
+          "options": [
+            { "id": "o1", "text": "Living in the city is more stressful." },
+            { "id": "o2", "text": "Life in city is stresser." },
+            { "id": "o3", "text": "To live in city is most stressful." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El aire es más puro aquí'?",
+          "options": [
+            { "id": "o1", "text": "The air is purer here." },
+            { "id": "o2", "text": "The air is more pure here." },
+            { "id": "o3", "text": "Both are correct." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I77",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'City / life / is / more / exciting / than / country / life / .'",
+          "options": [
+            { "id": "w1", "text": "City" },
+            { "id": "w2", "text": "life" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "more" },
+            { "id": "w5", "text": "exciting" },
+            { "id": "w6", "text": "than" },
+            { "id": "w7", "text": "country" },
+            { "id": "w8", "text": "life" },
+            { "id": "w9", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I78",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'There / is / less / pollution / in / the / country / .'",
+          "options": [
+            { "id": "w1", "text": "There" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "less" },
+            { "id": "w4", "text": "pollution" },
+            { "id": "w5", "text": "in" },
+            { "id": "w6", "text": "the" },
+            { "id": "w7", "text": "country" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I79",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / like / the / peace / and / quiet / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "like" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "peace" },
+            { "id": "w5", "text": "and" },
+            { "id": "w6", "text": "quiet" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Las tiendas están más cerca en la ciudad'?",
+          "options": [
+            { "id": "o1", "text": "The shops are closer in the city." },
+            { "id": "o2", "text": "The shops are more close in the city." },
+            { "id": "o3", "text": "Shops are near city." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El coste de vida es más bajo aquí'?",
+          "options": [
+            { "id": "o1", "text": "The cost of living is lower here." },
+            { "id": "o2", "text": "The cost of living is more low." },
+            { "id": "o3", "text": "Cost life is down." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hay mejores hospitales en la ciudad'?",
+          "options": [
+            { "id": "o1", "text": "There are better hospitals in the city." },
+            { "id": "o2", "text": "There are more good hospitals." },
+            { "id": "o3", "text": "Have better hospitals." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es más fácil encontrar un trabajo'?",
+          "options": [
+            { "id": "o1", "text": "It is easier to find a job." },
+            { "id": "o2", "text": "It is more easy find job." },
+            { "id": "o3", "text": "Easy to find work." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La vida en el campo es más saludable'?",
+          "options": [
+            { "id": "o1", "text": "Life in the country is healthier." },
+            { "id": "o2", "text": "Life in the country is more healthy." },
+            { "id": "o3", "text": "Both are correct." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El tráfico es el peor problema'?",
+          "options": [
+            { "id": "o1", "text": "Traffic is the worst problem." },
+            { "id": "o2", "text": "Traffic is the worse problem." },
+            { "id": "o3", "text": "Traffic is baddest problem." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I86",
+          "type": "flashcard",
+          "prompt_es": "Opiniones",
+          "flashcards": [
+            { "front": "In my opinion...", "back": "En mi opinión...", "pronunciation": "/ɪn maɪ əˈpɪnjən/" },
+            { "front": "I think that...", "back": "Pienso que...", "pronunciation": "/aɪ θɪŋk ðæt/" },
+            { "front": "The best thing is...", "back": "Lo mejor es...", "pronunciation": "/ðə best θɪŋ ɪz/" },
+            { "front": "The main problem is...", "back": "El problema principal es...", "pronunciation": "/ðə meɪn ˈprɒbləm ɪz/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Lo mejor del campo es el aire fresco'?",
+          "options": [
+            { "id": "o1", "text": "The best thing about the country is the fresh air." },
+            { "id": "o2", "text": "The better thing of country is fresh air." },
+            { "id": "o3", "text": "Most good thing is air." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Lo peor de la ciudad es el ruido'?",
+          "options": [
+            { "id": "o1", "text": "The worst thing about the city is the noise." },
+            { "id": "o2", "text": "The worse thing of city is noise." },
+            { "id": "o3", "text": "Worst thing is noisy." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Mi vida ahora es más relajada'?",
+          "options": [
+            { "id": "o1", "text": "My life now is more relaxed." },
+            { "id": "o2", "text": "My life now is relaxer." },
+            { "id": "o3", "text": "I am more relaxing now." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La gente es más amable aquí'?",
+          "options": [
+            { "id": "o1", "text": "People are kinder here." },
+            { "id": "o2", "text": "People are more kind here." },
+            { "id": "o3", "text": "Both are correct." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hay menos que hacer por las noches'?",
+          "options": [
+            { "id": "o1", "text": "There is less to do at night." },
+            { "id": "o2", "text": "There are less to do." },
+            { "id": "o3", "text": "Have less to do." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Los edificios son más modernos'?",
+          "options": [
+            { "id": "o1", "text": "The buildings are more modern." },
+            { "id": "o2", "text": "The buildings are moderners." },
+            { "id": "o3", "text": "Buildings are most modern." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El transporte es más frecuente'?",
+          "options": [
+            { "id": "o1", "text": "Transport is more frequent." },
+            { "id": "o2", "text": "Transport is frequenter." },
+            { "id": "o3", "text": "Transport is frequent." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Es más barato vivir allí?'?",
+          "options": [
+            { "id": "o1", "text": "Is it cheaper to live there?" },
+            { "id": "o2", "text": "Is it more cheap to live there?" },
+            { "id": "o3", "text": "Both are common." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No es tan caro como Londres'?",
+          "options": [
+            { "id": "o1", "text": "It isn't as expensive as London." },
+            { "id": "o2", "text": "It isn't than expensive as London." },
+            { "id": "o3", "text": "It is less expensive as London." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es la ciudad más interesante que he visitado'?",
+          "options": [
+            { "id": "o1", "text": "It's the most interesting city I've visited." },
+            { "id": "o2", "text": "It's more interesting city I've visited." },
+            { "id": "o3", "text": "It's interestingest city." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La vida allí es más lenta'?",
+          "options": [
+            { "id": "o1", "text": "Life there is slower." },
+            { "id": "o2", "text": "Life there is more slow." },
+            { "id": "o3", "text": "Life is slow there." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Prefiero caminar por el bosque'?",
+          "options": [
+            { "id": "o1", "text": "I prefer walking in the forest." },
+            { "id": "o2", "text": "I like more walk in forest." },
+            { "id": "o3", "text": "I prefer to walk in woods." },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué es lo más difícil de vivir allí?'?",
+          "options": [
+            { "id": "o1", "text": "What is the most difficult thing about living there?" },
+            { "id": "o2", "text": "What is difficultest thing?" },
+            { "id": "o3", "text": "Which is more difficult thing?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Prefiero vivir en la ciudad porque hay más oportunidades de trabajo y mejor vida nocturna.'",
+          "stimulus_es": "Prefiero vivir en la ciudad porque hay más oportunidades de trabajo y mejor vida nocturna.",
+          "correct_answer": "I prefer to live in the city because there are more job opportunities and better nightlife.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

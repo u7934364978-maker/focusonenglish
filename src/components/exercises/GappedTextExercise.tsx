@@ -25,9 +25,10 @@ interface GappedTextExerciseProps {
     correctAnswers: GappedTextAnswer[];
   };
   onComplete?: (score: number) => void;
+  onQuestionCorrect?: (questionId: string) => void;
 }
 
-export default function GappedTextExercise({ exercise, onComplete }: GappedTextExerciseProps) {
+export default function GappedTextExercise({ exercise, onComplete, onQuestionCorrect }: GappedTextExerciseProps) {
   const [answers, setAnswers] = useState<{ [key: number]: string }>({});
   const [showFeedback, setShowFeedback] = useState(false);
   const [evaluating, setEvaluating] = useState(false);
@@ -46,16 +47,15 @@ export default function GappedTextExercise({ exercise, onComplete }: GappedTextE
     exercise.correctAnswers.forEach(answer => {
       if (answers[answer.gapNumber]?.toUpperCase() === answer.correctLetter.toUpperCase()) {
         correct++;
+        if (onQuestionCorrect) {
+          onQuestionCorrect(`${exercise.id}-${answer.gapNumber}`);
+        }
       }
     });
     
     const score = (correct / totalGaps) * 100;
     setShowFeedback(true);
     setEvaluating(false);
-    
-    if (onComplete) {
-      onComplete(score);
-    }
   };
 
   const resetExercise = () => {
@@ -272,7 +272,7 @@ export default function GappedTextExercise({ exercise, onComplete }: GappedTextE
               Try Again
             </button>
             <button
-              onClick={() => {/* Navigate to next exercise */}}
+              onClick={() => onComplete && onComplete(calculateScore())}
               className="flex-1 py-4 bg-gradient-to-r from-emerald-600 to-teal-600 text-white rounded-xl hover:from-emerald-700 hover:to-teal-700 transition-all font-bold text-lg shadow-lg"
             >
               Next Exercise →

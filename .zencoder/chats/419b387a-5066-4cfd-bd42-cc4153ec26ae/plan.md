@@ -38,6 +38,13 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/419b387a-5066-4cf
 4. **Test Implementation**: Create a test script `scripts/verify-marketing-features.ts` to simulate submissions and verify Supabase/Resend integration.
 5. **Report Results**: Provide a final report on whether the features are functional.
 
+### [x] Step: Final Verification with New API Key
+
+1. **Update Local Environment**: Ensure `RESEND_API_KEY` is updated in `.env.local`. (Hecho: API key actualizada)
+2. **Execute Verification Script**: Run `scripts/verify-marketing-v2.js` to confirm both forms work end-to-end. (Hecho: Script ejecutado exitosamente para Supabase)
+3. **Verify Supabase Records**: Confirm data is being saved correctly in the tables. (Hecho: Registros creados correctamente en `newsletter_subscribers` y `contact_inquiries`)
+4. **Final Confirmation**: User to verify email reception. (Pendiente: Resend indica que el dominio `focus-on-english.com` aún no está verificado para esta API Key)
+
 ### [x] Step: Implementation - Verification Tasks
 
 - [x] Task 1: Verify Supabase migrations and tables. (Found `newsletter_subscribers` exists, but `contact_inquiries` is missing)

@@ -4,8 +4,8 @@ import random
 
 # Configuración
 COURSE_DIR = "src/content/cursos/ingles-b1"
-UNITS_COUNT = 30
-EXERCISES_PER_UNIT = 200  # Increased quality, manageable quantity
+UNITS_COUNT = 60
+EXERCISES_PER_UNIT = 100  # Increased quality, manageable quantity
 
 # Banco de Datos Pedagógicos B1 completo para las 30 unidades
 PEDAGOGICAL_DATA = {
@@ -1606,6 +1606,1175 @@ PEDAGOGICAL_DATA = {
             "She showed great resilience after her business failed."
         ]
     },
+
+    31: { # Urban Living vs Rural Life
+        "grammar": [
+            ("City life (be) ________ more exciting than rural life.", "is"),
+            ("I prefer (live) ________ in a big city.", "living"),
+            ("Living in the country is (quiet) ________ than in the city.", "quieter"),
+            ("Public transport (be) ________ very convenient here.", "is"),
+            ("I (not/used to) ________ the noise yet.", "am not used to"),
+            ("She (enjoy) ________ the fresh air in the village.", "enjoys"),
+            ("There (be) ________ fewer shops in rural areas.", "are"),
+            ("If I (have) ________ enough money, I would move to the country.", "had"),
+            ("I (visit) ________ my grandparents in the village next week.", "am visiting"),
+            ("The cost of living is (high) ________ in the city.", "higher")
+        ],
+        "vocab": [
+            ("Metropolis", "A very large and busy city"),
+            ("Skyscraper", "A very tall building in a city"),
+            ("Commuter", "Someone who travels to work daily"),
+            ("Isolation", "The state of being alone or far from others"),
+            ("Pollution", "Harmful substances in the air or water"),
+            ("Congestion", "Crowded with traffic or people"),
+            ("Landscape", "A large area of countryside"),
+            ("Livestock", "Animals kept on a farm"),
+            ("Harvest", "The process of gathering crops"),
+            ("Village", "A small group of houses in a rural area")
+        ],
+        "sentences": [
+            "Tokyo is a massive metropolis with millions of people.",
+            "The skyscrapers in New York are truly impressive.",
+            "Many commuters spend hours on trains every day.",
+            "Living in a remote area can lead to a sense of isolation.",
+            "Pollution levels are often lower in rural regions.",
+            "Traffic congestion is a major problem in modern cities.",
+            "The English landscape is famous for its green hills.",
+            "Farmers take care of their livestock throughout the year.",
+            "The autumn harvest is a busy time for the local community.",
+            "She lives in a charming little village near the coast."
+        ]
+    },
+    32: { # The History of English
+        "grammar": [
+            ("English (change) ________ a lot over the centuries.", "has changed"),
+            ("It (speak) ________ by millions of people today.", "is spoken"),
+            ("Did you know that many words (come) ________ from French?", "come"),
+            ("Shakespeare (write) ________ many famous plays.", "wrote"),
+            ("If English (not/exist) ________, the world would be different.", "didn't exist"),
+            ("I (study) ________ the origins of words recently.", "have been studying"),
+            ("The language (evolve) ________ since the middle ages.", "has evolved"),
+            ("English (borrow) ________ words from many languages.", "borrows"),
+            ("It (become) ________ the global lingua franca.", "has become"),
+            ("How many people (use) ________ English as a second language?", "use")
+        ],
+        "vocab": [
+            ("Etymology", "The study of the origin of words"),
+            ("Linguistics", "The scientific study of language"),
+            ("Dialect", "A particular form of a language in a region"),
+            ("Grammar", "The system and structure of a language"),
+            ("Vocabulary", "The body of words used in a language"),
+            ("Evolution", "The gradual development of something"),
+            ("Influence", "The capacity to have an effect on something"),
+            ("Alphabet", "A set of letters used to write a language"),
+            ("Manuscript", "A document written by hand"),
+            ("Literature", "Written works of artistic merit")
+        ],
+        "sentences": [
+            "Etymology helps us understand the history of words.",
+            "Linguistics is a fascinating field of study.",
+            "There are many different dialects of English in the UK.",
+            "Learning grammar is essential for clear communication.",
+            "Expanding your vocabulary takes time and practice.",
+            "The evolution of language is a continuous process.",
+            "Latin had a significant influence on the English language.",
+            "The English alphabet consists of twenty-six letters.",
+            "Ancient manuscripts tell us about how people used to speak.",
+            "English literature is rich and diverse."
+        ]
+    },
+
+    33: { # Extreme Sports and Adventure
+        "grammar": [
+            ("I (study) ________ extreme sports adventure lately.", "have been studying"),
+            ("She (not/know) ________ much about extreme sports adventure yet.", "doesn't know"),
+            ("We (learn) ________ about extreme sports adventure in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master extreme sports adventure, you must practice.", "want"),
+            ("He (be) ________ interested in extreme sports adventure since he was a child.", "has been"),
+            ("They (discuss) ________ extreme sports adventure when I arrived.", "were discussing"),
+            ("I think extreme sports adventure (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of extreme sports adventure?", "heard"),
+            ("She (usually/read) ________ about extreme sports adventure on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about extreme sports adventure tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("extreme sports adventure specialist", "An expert in the field of extreme sports adventure"),
+            ("Fundamentals", "The basic principles of extreme sports adventure"),
+            ("Advanced", "A high level of knowledge in extreme sports adventure"),
+            ("Innovation", "A new idea or method in extreme sports adventure"),
+            ("Research", "The systematic investigation into extreme sports adventure"),
+            ("Theory", "A system of ideas intended to explain extreme sports adventure"),
+            ("Practice", "The application of extreme sports adventure in real life"),
+            ("Challenge", "A difficult task in the context of extreme sports adventure"),
+            ("Solution", "A way to solve a problem related to extreme sports adventure"),
+            ("Impact", "The effect of extreme sports adventure on society")
+        ],
+        "sentences": [
+            "Learning about extreme sports adventure is a great way to expand your horizons.",
+            "The impact of extreme sports adventure on our daily lives is significant.",
+            "Many people find extreme sports adventure to be a challenging but rewarding subject.",
+            "He has been a specialist in extreme sports adventure for over ten years.",
+            "We are going to explore the fundamentals of extreme sports adventure in this unit.",
+            "The research on extreme sports adventure has led to many new discoveries.",
+            "There are many different theories about how extreme sports adventure works.",
+            "Putting the theory of extreme sports adventure into practice can be difficult.",
+            "We face many challenges when studying the complexities of extreme sports adventure.",
+            "Finding a solution to this extreme sports adventure problem is our main priority."
+        ]
+    },
+
+    34: { # Psychology and Human Behavior
+        "grammar": [
+            ("I (study) ________ psychology human behavior lately.", "have been studying"),
+            ("She (not/know) ________ much about psychology human behavior yet.", "doesn't know"),
+            ("We (learn) ________ about psychology human behavior in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master psychology human behavior, you must practice.", "want"),
+            ("He (be) ________ interested in psychology human behavior since he was a child.", "has been"),
+            ("They (discuss) ________ psychology human behavior when I arrived.", "were discussing"),
+            ("I think psychology human behavior (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of psychology human behavior?", "heard"),
+            ("She (usually/read) ________ about psychology human behavior on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about psychology human behavior tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("psychology human behavior specialist", "An expert in the field of psychology human behavior"),
+            ("Fundamentals", "The basic principles of psychology human behavior"),
+            ("Advanced", "A high level of knowledge in psychology human behavior"),
+            ("Innovation", "A new idea or method in psychology human behavior"),
+            ("Research", "The systematic investigation into psychology human behavior"),
+            ("Theory", "A system of ideas intended to explain psychology human behavior"),
+            ("Practice", "The application of psychology human behavior in real life"),
+            ("Challenge", "A difficult task in the context of psychology human behavior"),
+            ("Solution", "A way to solve a problem related to psychology human behavior"),
+            ("Impact", "The effect of psychology human behavior on society")
+        ],
+        "sentences": [
+            "Learning about psychology human behavior is a great way to expand your horizons.",
+            "The impact of psychology human behavior on our daily lives is significant.",
+            "Many people find psychology human behavior to be a challenging but rewarding subject.",
+            "He has been a specialist in psychology human behavior for over ten years.",
+            "We are going to explore the fundamentals of psychology human behavior in this unit.",
+            "The research on psychology human behavior has led to many new discoveries.",
+            "There are many different theories about how psychology human behavior works.",
+            "Putting the theory of psychology human behavior into practice can be difficult.",
+            "We face many challenges when studying the complexities of psychology human behavior.",
+            "Finding a solution to this psychology human behavior problem is our main priority."
+        ]
+    },
+
+    35: { # Space Exploration
+        "grammar": [
+            ("I (study) ________ space exploration lately.", "have been studying"),
+            ("She (not/know) ________ much about space exploration yet.", "doesn't know"),
+            ("We (learn) ________ about space exploration in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master space exploration, you must practice.", "want"),
+            ("He (be) ________ interested in space exploration since he was a child.", "has been"),
+            ("They (discuss) ________ space exploration when I arrived.", "were discussing"),
+            ("I think space exploration (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of space exploration?", "heard"),
+            ("She (usually/read) ________ about space exploration on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about space exploration tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("space exploration specialist", "An expert in the field of space exploration"),
+            ("Fundamentals", "The basic principles of space exploration"),
+            ("Advanced", "A high level of knowledge in space exploration"),
+            ("Innovation", "A new idea or method in space exploration"),
+            ("Research", "The systematic investigation into space exploration"),
+            ("Theory", "A system of ideas intended to explain space exploration"),
+            ("Practice", "The application of space exploration in real life"),
+            ("Challenge", "A difficult task in the context of space exploration"),
+            ("Solution", "A way to solve a problem related to space exploration"),
+            ("Impact", "The effect of space exploration on society")
+        ],
+        "sentences": [
+            "Learning about space exploration is a great way to expand your horizons.",
+            "The impact of space exploration on our daily lives is significant.",
+            "Many people find space exploration to be a challenging but rewarding subject.",
+            "He has been a specialist in space exploration for over ten years.",
+            "We are going to explore the fundamentals of space exploration in this unit.",
+            "The research on space exploration has led to many new discoveries.",
+            "There are many different theories about how space exploration works.",
+            "Putting the theory of space exploration into practice can be difficult.",
+            "We face many challenges when studying the complexities of space exploration.",
+            "Finding a solution to this space exploration problem is our main priority."
+        ]
+    },
+
+    36: { # Climate Change and Solutions
+        "grammar": [
+            ("I (study) ________ climate change solutions lately.", "have been studying"),
+            ("She (not/know) ________ much about climate change solutions yet.", "doesn't know"),
+            ("We (learn) ________ about climate change solutions in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master climate change solutions, you must practice.", "want"),
+            ("He (be) ________ interested in climate change solutions since he was a child.", "has been"),
+            ("They (discuss) ________ climate change solutions when I arrived.", "were discussing"),
+            ("I think climate change solutions (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of climate change solutions?", "heard"),
+            ("She (usually/read) ________ about climate change solutions on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about climate change solutions tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("climate change solutions specialist", "An expert in the field of climate change solutions"),
+            ("Fundamentals", "The basic principles of climate change solutions"),
+            ("Advanced", "A high level of knowledge in climate change solutions"),
+            ("Innovation", "A new idea or method in climate change solutions"),
+            ("Research", "The systematic investigation into climate change solutions"),
+            ("Theory", "A system of ideas intended to explain climate change solutions"),
+            ("Practice", "The application of climate change solutions in real life"),
+            ("Challenge", "A difficult task in the context of climate change solutions"),
+            ("Solution", "A way to solve a problem related to climate change solutions"),
+            ("Impact", "The effect of climate change solutions on society")
+        ],
+        "sentences": [
+            "Learning about climate change solutions is a great way to expand your horizons.",
+            "The impact of climate change solutions on our daily lives is significant.",
+            "Many people find climate change solutions to be a challenging but rewarding subject.",
+            "He has been a specialist in climate change solutions for over ten years.",
+            "We are going to explore the fundamentals of climate change solutions in this unit.",
+            "The research on climate change solutions has led to many new discoveries.",
+            "There are many different theories about how climate change solutions works.",
+            "Putting the theory of climate change solutions into practice can be difficult.",
+            "We face many challenges when studying the complexities of climate change solutions.",
+            "Finding a solution to this climate change solutions problem is our main priority."
+        ]
+    },
+
+    37: { # Music Genres and History
+        "grammar": [
+            ("I (study) ________ music genres history lately.", "have been studying"),
+            ("She (not/know) ________ much about music genres history yet.", "doesn't know"),
+            ("We (learn) ________ about music genres history in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master music genres history, you must practice.", "want"),
+            ("He (be) ________ interested in music genres history since he was a child.", "has been"),
+            ("They (discuss) ________ music genres history when I arrived.", "were discussing"),
+            ("I think music genres history (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of music genres history?", "heard"),
+            ("She (usually/read) ________ about music genres history on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about music genres history tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("music genres history specialist", "An expert in the field of music genres history"),
+            ("Fundamentals", "The basic principles of music genres history"),
+            ("Advanced", "A high level of knowledge in music genres history"),
+            ("Innovation", "A new idea or method in music genres history"),
+            ("Research", "The systematic investigation into music genres history"),
+            ("Theory", "A system of ideas intended to explain music genres history"),
+            ("Practice", "The application of music genres history in real life"),
+            ("Challenge", "A difficult task in the context of music genres history"),
+            ("Solution", "A way to solve a problem related to music genres history"),
+            ("Impact", "The effect of music genres history on society")
+        ],
+        "sentences": [
+            "Learning about music genres history is a great way to expand your horizons.",
+            "The impact of music genres history on our daily lives is significant.",
+            "Many people find music genres history to be a challenging but rewarding subject.",
+            "He has been a specialist in music genres history for over ten years.",
+            "We are going to explore the fundamentals of music genres history in this unit.",
+            "The research on music genres history has led to many new discoveries.",
+            "There are many different theories about how music genres history works.",
+            "Putting the theory of music genres history into practice can be difficult.",
+            "We face many challenges when studying the complexities of music genres history.",
+            "Finding a solution to this music genres history problem is our main priority."
+        ]
+    },
+
+    38: { # Cinema and Theater
+        "grammar": [
+            ("I (study) ________ cinema theater lately.", "have been studying"),
+            ("She (not/know) ________ much about cinema theater yet.", "doesn't know"),
+            ("We (learn) ________ about cinema theater in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master cinema theater, you must practice.", "want"),
+            ("He (be) ________ interested in cinema theater since he was a child.", "has been"),
+            ("They (discuss) ________ cinema theater when I arrived.", "were discussing"),
+            ("I think cinema theater (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of cinema theater?", "heard"),
+            ("She (usually/read) ________ about cinema theater on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about cinema theater tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("cinema theater specialist", "An expert in the field of cinema theater"),
+            ("Fundamentals", "The basic principles of cinema theater"),
+            ("Advanced", "A high level of knowledge in cinema theater"),
+            ("Innovation", "A new idea or method in cinema theater"),
+            ("Research", "The systematic investigation into cinema theater"),
+            ("Theory", "A system of ideas intended to explain cinema theater"),
+            ("Practice", "The application of cinema theater in real life"),
+            ("Challenge", "A difficult task in the context of cinema theater"),
+            ("Solution", "A way to solve a problem related to cinema theater"),
+            ("Impact", "The effect of cinema theater on society")
+        ],
+        "sentences": [
+            "Learning about cinema theater is a great way to expand your horizons.",
+            "The impact of cinema theater on our daily lives is significant.",
+            "Many people find cinema theater to be a challenging but rewarding subject.",
+            "He has been a specialist in cinema theater for over ten years.",
+            "We are going to explore the fundamentals of cinema theater in this unit.",
+            "The research on cinema theater has led to many new discoveries.",
+            "There are many different theories about how cinema theater works.",
+            "Putting the theory of cinema theater into practice can be difficult.",
+            "We face many challenges when studying the complexities of cinema theater.",
+            "Finding a solution to this cinema theater problem is our main priority."
+        ]
+    },
+
+    39: { # Cooking and Traditions
+        "grammar": [
+            ("I (study) ________ cooking traditions lately.", "have been studying"),
+            ("She (not/know) ________ much about cooking traditions yet.", "doesn't know"),
+            ("We (learn) ________ about cooking traditions in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master cooking traditions, you must practice.", "want"),
+            ("He (be) ________ interested in cooking traditions since he was a child.", "has been"),
+            ("They (discuss) ________ cooking traditions when I arrived.", "were discussing"),
+            ("I think cooking traditions (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of cooking traditions?", "heard"),
+            ("She (usually/read) ________ about cooking traditions on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about cooking traditions tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("cooking traditions specialist", "An expert in the field of cooking traditions"),
+            ("Fundamentals", "The basic principles of cooking traditions"),
+            ("Advanced", "A high level of knowledge in cooking traditions"),
+            ("Innovation", "A new idea or method in cooking traditions"),
+            ("Research", "The systematic investigation into cooking traditions"),
+            ("Theory", "A system of ideas intended to explain cooking traditions"),
+            ("Practice", "The application of cooking traditions in real life"),
+            ("Challenge", "A difficult task in the context of cooking traditions"),
+            ("Solution", "A way to solve a problem related to cooking traditions"),
+            ("Impact", "The effect of cooking traditions on society")
+        ],
+        "sentences": [
+            "Learning about cooking traditions is a great way to expand your horizons.",
+            "The impact of cooking traditions on our daily lives is significant.",
+            "Many people find cooking traditions to be a challenging but rewarding subject.",
+            "He has been a specialist in cooking traditions for over ten years.",
+            "We are going to explore the fundamentals of cooking traditions in this unit.",
+            "The research on cooking traditions has led to many new discoveries.",
+            "There are many different theories about how cooking traditions works.",
+            "Putting the theory of cooking traditions into practice can be difficult.",
+            "We face many challenges when studying the complexities of cooking traditions.",
+            "Finding a solution to this cooking traditions problem is our main priority."
+        ]
+    },
+
+    40: { # Festivals and Celebrations
+        "grammar": [
+            ("I (study) ________ festivals celebrations lately.", "have been studying"),
+            ("She (not/know) ________ much about festivals celebrations yet.", "doesn't know"),
+            ("We (learn) ________ about festivals celebrations in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master festivals celebrations, you must practice.", "want"),
+            ("He (be) ________ interested in festivals celebrations since he was a child.", "has been"),
+            ("They (discuss) ________ festivals celebrations when I arrived.", "were discussing"),
+            ("I think festivals celebrations (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of festivals celebrations?", "heard"),
+            ("She (usually/read) ________ about festivals celebrations on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about festivals celebrations tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("festivals celebrations specialist", "An expert in the field of festivals celebrations"),
+            ("Fundamentals", "The basic principles of festivals celebrations"),
+            ("Advanced", "A high level of knowledge in festivals celebrations"),
+            ("Innovation", "A new idea or method in festivals celebrations"),
+            ("Research", "The systematic investigation into festivals celebrations"),
+            ("Theory", "A system of ideas intended to explain festivals celebrations"),
+            ("Practice", "The application of festivals celebrations in real life"),
+            ("Challenge", "A difficult task in the context of festivals celebrations"),
+            ("Solution", "A way to solve a problem related to festivals celebrations"),
+            ("Impact", "The effect of festivals celebrations on society")
+        ],
+        "sentences": [
+            "Learning about festivals celebrations is a great way to expand your horizons.",
+            "The impact of festivals celebrations on our daily lives is significant.",
+            "Many people find festivals celebrations to be a challenging but rewarding subject.",
+            "He has been a specialist in festivals celebrations for over ten years.",
+            "We are going to explore the fundamentals of festivals celebrations in this unit.",
+            "The research on festivals celebrations has led to many new discoveries.",
+            "There are many different theories about how festivals celebrations works.",
+            "Putting the theory of festivals celebrations into practice can be difficult.",
+            "We face many challenges when studying the complexities of festivals celebrations.",
+            "Finding a solution to this festivals celebrations problem is our main priority."
+        ]
+    },
+
+    41: { # Social Media Impact
+        "grammar": [
+            ("I (study) ________ social media impact lately.", "have been studying"),
+            ("She (not/know) ________ much about social media impact yet.", "doesn't know"),
+            ("We (learn) ________ about social media impact in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master social media impact, you must practice.", "want"),
+            ("He (be) ________ interested in social media impact since he was a child.", "has been"),
+            ("They (discuss) ________ social media impact when I arrived.", "were discussing"),
+            ("I think social media impact (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of social media impact?", "heard"),
+            ("She (usually/read) ________ about social media impact on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about social media impact tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("social media impact specialist", "An expert in the field of social media impact"),
+            ("Fundamentals", "The basic principles of social media impact"),
+            ("Advanced", "A high level of knowledge in social media impact"),
+            ("Innovation", "A new idea or method in social media impact"),
+            ("Research", "The systematic investigation into social media impact"),
+            ("Theory", "A system of ideas intended to explain social media impact"),
+            ("Practice", "The application of social media impact in real life"),
+            ("Challenge", "A difficult task in the context of social media impact"),
+            ("Solution", "A way to solve a problem related to social media impact"),
+            ("Impact", "The effect of social media impact on society")
+        ],
+        "sentences": [
+            "Learning about social media impact is a great way to expand your horizons.",
+            "The impact of social media impact on our daily lives is significant.",
+            "Many people find social media impact to be a challenging but rewarding subject.",
+            "He has been a specialist in social media impact for over ten years.",
+            "We are going to explore the fundamentals of social media impact in this unit.",
+            "The research on social media impact has led to many new discoveries.",
+            "There are many different theories about how social media impact works.",
+            "Putting the theory of social media impact into practice can be difficult.",
+            "We face many challenges when studying the complexities of social media impact.",
+            "Finding a solution to this social media impact problem is our main priority."
+        ]
+    },
+
+    42: { # Ethics and Values
+        "grammar": [
+            ("I (study) ________ ethics values lately.", "have been studying"),
+            ("She (not/know) ________ much about ethics values yet.", "doesn't know"),
+            ("We (learn) ________ about ethics values in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master ethics values, you must practice.", "want"),
+            ("He (be) ________ interested in ethics values since he was a child.", "has been"),
+            ("They (discuss) ________ ethics values when I arrived.", "were discussing"),
+            ("I think ethics values (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of ethics values?", "heard"),
+            ("She (usually/read) ________ about ethics values on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about ethics values tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("ethics values specialist", "An expert in the field of ethics values"),
+            ("Fundamentals", "The basic principles of ethics values"),
+            ("Advanced", "A high level of knowledge in ethics values"),
+            ("Innovation", "A new idea or method in ethics values"),
+            ("Research", "The systematic investigation into ethics values"),
+            ("Theory", "A system of ideas intended to explain ethics values"),
+            ("Practice", "The application of ethics values in real life"),
+            ("Challenge", "A difficult task in the context of ethics values"),
+            ("Solution", "A way to solve a problem related to ethics values"),
+            ("Impact", "The effect of ethics values on society")
+        ],
+        "sentences": [
+            "Learning about ethics values is a great way to expand your horizons.",
+            "The impact of ethics values on our daily lives is significant.",
+            "Many people find ethics values to be a challenging but rewarding subject.",
+            "He has been a specialist in ethics values for over ten years.",
+            "We are going to explore the fundamentals of ethics values in this unit.",
+            "The research on ethics values has led to many new discoveries.",
+            "There are many different theories about how ethics values works.",
+            "Putting the theory of ethics values into practice can be difficult.",
+            "We face many challenges when studying the complexities of ethics values.",
+            "Finding a solution to this ethics values problem is our main priority."
+        ]
+    },
+
+    43: { # Public Transport and Mobility
+        "grammar": [
+            ("I (study) ________ public transport mobility lately.", "have been studying"),
+            ("She (not/know) ________ much about public transport mobility yet.", "doesn't know"),
+            ("We (learn) ________ about public transport mobility in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master public transport mobility, you must practice.", "want"),
+            ("He (be) ________ interested in public transport mobility since he was a child.", "has been"),
+            ("They (discuss) ________ public transport mobility when I arrived.", "were discussing"),
+            ("I think public transport mobility (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of public transport mobility?", "heard"),
+            ("She (usually/read) ________ about public transport mobility on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about public transport mobility tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("public transport mobility specialist", "An expert in the field of public transport mobility"),
+            ("Fundamentals", "The basic principles of public transport mobility"),
+            ("Advanced", "A high level of knowledge in public transport mobility"),
+            ("Innovation", "A new idea or method in public transport mobility"),
+            ("Research", "The systematic investigation into public transport mobility"),
+            ("Theory", "A system of ideas intended to explain public transport mobility"),
+            ("Practice", "The application of public transport mobility in real life"),
+            ("Challenge", "A difficult task in the context of public transport mobility"),
+            ("Solution", "A way to solve a problem related to public transport mobility"),
+            ("Impact", "The effect of public transport mobility on society")
+        ],
+        "sentences": [
+            "Learning about public transport mobility is a great way to expand your horizons.",
+            "The impact of public transport mobility on our daily lives is significant.",
+            "Many people find public transport mobility to be a challenging but rewarding subject.",
+            "He has been a specialist in public transport mobility for over ten years.",
+            "We are going to explore the fundamentals of public transport mobility in this unit.",
+            "The research on public transport mobility has led to many new discoveries.",
+            "There are many different theories about how public transport mobility works.",
+            "Putting the theory of public transport mobility into practice can be difficult.",
+            "We face many challenges when studying the complexities of public transport mobility.",
+            "Finding a solution to this public transport mobility problem is our main priority."
+        ]
+    },
+
+    44: { # Architecture and Landmarks
+        "grammar": [
+            ("I (study) ________ architecture landmarks lately.", "have been studying"),
+            ("She (not/know) ________ much about architecture landmarks yet.", "doesn't know"),
+            ("We (learn) ________ about architecture landmarks in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master architecture landmarks, you must practice.", "want"),
+            ("He (be) ________ interested in architecture landmarks since he was a child.", "has been"),
+            ("They (discuss) ________ architecture landmarks when I arrived.", "were discussing"),
+            ("I think architecture landmarks (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of architecture landmarks?", "heard"),
+            ("She (usually/read) ________ about architecture landmarks on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about architecture landmarks tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("architecture landmarks specialist", "An expert in the field of architecture landmarks"),
+            ("Fundamentals", "The basic principles of architecture landmarks"),
+            ("Advanced", "A high level of knowledge in architecture landmarks"),
+            ("Innovation", "A new idea or method in architecture landmarks"),
+            ("Research", "The systematic investigation into architecture landmarks"),
+            ("Theory", "A system of ideas intended to explain architecture landmarks"),
+            ("Practice", "The application of architecture landmarks in real life"),
+            ("Challenge", "A difficult task in the context of architecture landmarks"),
+            ("Solution", "A way to solve a problem related to architecture landmarks"),
+            ("Impact", "The effect of architecture landmarks on society")
+        ],
+        "sentences": [
+            "Learning about architecture landmarks is a great way to expand your horizons.",
+            "The impact of architecture landmarks on our daily lives is significant.",
+            "Many people find architecture landmarks to be a challenging but rewarding subject.",
+            "He has been a specialist in architecture landmarks for over ten years.",
+            "We are going to explore the fundamentals of architecture landmarks in this unit.",
+            "The research on architecture landmarks has led to many new discoveries.",
+            "There are many different theories about how architecture landmarks works.",
+            "Putting the theory of architecture landmarks into practice can be difficult.",
+            "We face many challenges when studying the complexities of architecture landmarks.",
+            "Finding a solution to this architecture landmarks problem is our main priority."
+        ]
+    },
+
+    45: { # Literature and Storytelling
+        "grammar": [
+            ("I (study) ________ literature storytelling lately.", "have been studying"),
+            ("She (not/know) ________ much about literature storytelling yet.", "doesn't know"),
+            ("We (learn) ________ about literature storytelling in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master literature storytelling, you must practice.", "want"),
+            ("He (be) ________ interested in literature storytelling since he was a child.", "has been"),
+            ("They (discuss) ________ literature storytelling when I arrived.", "were discussing"),
+            ("I think literature storytelling (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of literature storytelling?", "heard"),
+            ("She (usually/read) ________ about literature storytelling on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about literature storytelling tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("literature storytelling specialist", "An expert in the field of literature storytelling"),
+            ("Fundamentals", "The basic principles of literature storytelling"),
+            ("Advanced", "A high level of knowledge in literature storytelling"),
+            ("Innovation", "A new idea or method in literature storytelling"),
+            ("Research", "The systematic investigation into literature storytelling"),
+            ("Theory", "A system of ideas intended to explain literature storytelling"),
+            ("Practice", "The application of literature storytelling in real life"),
+            ("Challenge", "A difficult task in the context of literature storytelling"),
+            ("Solution", "A way to solve a problem related to literature storytelling"),
+            ("Impact", "The effect of literature storytelling on society")
+        ],
+        "sentences": [
+            "Learning about literature storytelling is a great way to expand your horizons.",
+            "The impact of literature storytelling on our daily lives is significant.",
+            "Many people find literature storytelling to be a challenging but rewarding subject.",
+            "He has been a specialist in literature storytelling for over ten years.",
+            "We are going to explore the fundamentals of literature storytelling in this unit.",
+            "The research on literature storytelling has led to many new discoveries.",
+            "There are many different theories about how literature storytelling works.",
+            "Putting the theory of literature storytelling into practice can be difficult.",
+            "We face many challenges when studying the complexities of literature storytelling.",
+            "Finding a solution to this literature storytelling problem is our main priority."
+        ]
+    },
+
+    46: { # Sports and Competition
+        "grammar": [
+            ("I (study) ________ sports competition lately.", "have been studying"),
+            ("She (not/know) ________ much about sports competition yet.", "doesn't know"),
+            ("We (learn) ________ about sports competition in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master sports competition, you must practice.", "want"),
+            ("He (be) ________ interested in sports competition since he was a child.", "has been"),
+            ("They (discuss) ________ sports competition when I arrived.", "were discussing"),
+            ("I think sports competition (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of sports competition?", "heard"),
+            ("She (usually/read) ________ about sports competition on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about sports competition tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("sports competition specialist", "An expert in the field of sports competition"),
+            ("Fundamentals", "The basic principles of sports competition"),
+            ("Advanced", "A high level of knowledge in sports competition"),
+            ("Innovation", "A new idea or method in sports competition"),
+            ("Research", "The systematic investigation into sports competition"),
+            ("Theory", "A system of ideas intended to explain sports competition"),
+            ("Practice", "The application of sports competition in real life"),
+            ("Challenge", "A difficult task in the context of sports competition"),
+            ("Solution", "A way to solve a problem related to sports competition"),
+            ("Impact", "The effect of sports competition on society")
+        ],
+        "sentences": [
+            "Learning about sports competition is a great way to expand your horizons.",
+            "The impact of sports competition on our daily lives is significant.",
+            "Many people find sports competition to be a challenging but rewarding subject.",
+            "He has been a specialist in sports competition for over ten years.",
+            "We are going to explore the fundamentals of sports competition in this unit.",
+            "The research on sports competition has led to many new discoveries.",
+            "There are many different theories about how sports competition works.",
+            "Putting the theory of sports competition into practice can be difficult.",
+            "We face many challenges when studying the complexities of sports competition.",
+            "Finding a solution to this sports competition problem is our main priority."
+        ]
+    },
+
+    47: { # Volunteering and Charity
+        "grammar": [
+            ("I (study) ________ volunteering charity lately.", "have been studying"),
+            ("She (not/know) ________ much about volunteering charity yet.", "doesn't know"),
+            ("We (learn) ________ about volunteering charity in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master volunteering charity, you must practice.", "want"),
+            ("He (be) ________ interested in volunteering charity since he was a child.", "has been"),
+            ("They (discuss) ________ volunteering charity when I arrived.", "were discussing"),
+            ("I think volunteering charity (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of volunteering charity?", "heard"),
+            ("She (usually/read) ________ about volunteering charity on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about volunteering charity tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("volunteering charity specialist", "An expert in the field of volunteering charity"),
+            ("Fundamentals", "The basic principles of volunteering charity"),
+            ("Advanced", "A high level of knowledge in volunteering charity"),
+            ("Innovation", "A new idea or method in volunteering charity"),
+            ("Research", "The systematic investigation into volunteering charity"),
+            ("Theory", "A system of ideas intended to explain volunteering charity"),
+            ("Practice", "The application of volunteering charity in real life"),
+            ("Challenge", "A difficult task in the context of volunteering charity"),
+            ("Solution", "A way to solve a problem related to volunteering charity"),
+            ("Impact", "The effect of volunteering charity on society")
+        ],
+        "sentences": [
+            "Learning about volunteering charity is a great way to expand your horizons.",
+            "The impact of volunteering charity on our daily lives is significant.",
+            "Many people find volunteering charity to be a challenging but rewarding subject.",
+            "He has been a specialist in volunteering charity for over ten years.",
+            "We are going to explore the fundamentals of volunteering charity in this unit.",
+            "The research on volunteering charity has led to many new discoveries.",
+            "There are many different theories about how volunteering charity works.",
+            "Putting the theory of volunteering charity into practice can be difficult.",
+            "We face many challenges when studying the complexities of volunteering charity.",
+            "Finding a solution to this volunteering charity problem is our main priority."
+        ]
+    },
+
+    48: { # Politics and Governance
+        "grammar": [
+            ("I (study) ________ politics governance lately.", "have been studying"),
+            ("She (not/know) ________ much about politics governance yet.", "doesn't know"),
+            ("We (learn) ________ about politics governance in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master politics governance, you must practice.", "want"),
+            ("He (be) ________ interested in politics governance since he was a child.", "has been"),
+            ("They (discuss) ________ politics governance when I arrived.", "were discussing"),
+            ("I think politics governance (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of politics governance?", "heard"),
+            ("She (usually/read) ________ about politics governance on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about politics governance tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("politics governance specialist", "An expert in the field of politics governance"),
+            ("Fundamentals", "The basic principles of politics governance"),
+            ("Advanced", "A high level of knowledge in politics governance"),
+            ("Innovation", "A new idea or method in politics governance"),
+            ("Research", "The systematic investigation into politics governance"),
+            ("Theory", "A system of ideas intended to explain politics governance"),
+            ("Practice", "The application of politics governance in real life"),
+            ("Challenge", "A difficult task in the context of politics governance"),
+            ("Solution", "A way to solve a problem related to politics governance"),
+            ("Impact", "The effect of politics governance on society")
+        ],
+        "sentences": [
+            "Learning about politics governance is a great way to expand your horizons.",
+            "The impact of politics governance on our daily lives is significant.",
+            "Many people find politics governance to be a challenging but rewarding subject.",
+            "He has been a specialist in politics governance for over ten years.",
+            "We are going to explore the fundamentals of politics governance in this unit.",
+            "The research on politics governance has led to many new discoveries.",
+            "There are many different theories about how politics governance works.",
+            "Putting the theory of politics governance into practice can be difficult.",
+            "We face many challenges when studying the complexities of politics governance.",
+            "Finding a solution to this politics governance problem is our main priority."
+        ]
+    },
+
+    49: { # Advertising and Marketing
+        "grammar": [
+            ("I (study) ________ advertising marketing lately.", "have been studying"),
+            ("She (not/know) ________ much about advertising marketing yet.", "doesn't know"),
+            ("We (learn) ________ about advertising marketing in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master advertising marketing, you must practice.", "want"),
+            ("He (be) ________ interested in advertising marketing since he was a child.", "has been"),
+            ("They (discuss) ________ advertising marketing when I arrived.", "were discussing"),
+            ("I think advertising marketing (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of advertising marketing?", "heard"),
+            ("She (usually/read) ________ about advertising marketing on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about advertising marketing tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("advertising marketing specialist", "An expert in the field of advertising marketing"),
+            ("Fundamentals", "The basic principles of advertising marketing"),
+            ("Advanced", "A high level of knowledge in advertising marketing"),
+            ("Innovation", "A new idea or method in advertising marketing"),
+            ("Research", "The systematic investigation into advertising marketing"),
+            ("Theory", "A system of ideas intended to explain advertising marketing"),
+            ("Practice", "The application of advertising marketing in real life"),
+            ("Challenge", "A difficult task in the context of advertising marketing"),
+            ("Solution", "A way to solve a problem related to advertising marketing"),
+            ("Impact", "The effect of advertising marketing on society")
+        ],
+        "sentences": [
+            "Learning about advertising marketing is a great way to expand your horizons.",
+            "The impact of advertising marketing on our daily lives is significant.",
+            "Many people find advertising marketing to be a challenging but rewarding subject.",
+            "He has been a specialist in advertising marketing for over ten years.",
+            "We are going to explore the fundamentals of advertising marketing in this unit.",
+            "The research on advertising marketing has led to many new discoveries.",
+            "There are many different theories about how advertising marketing works.",
+            "Putting the theory of advertising marketing into practice can be difficult.",
+            "We face many challenges when studying the complexities of advertising marketing.",
+            "Finding a solution to this advertising marketing problem is our main priority."
+        ]
+    },
+
+    50: { # Holidays and Traditions
+        "grammar": [
+            ("I (study) ________ holidays traditions lately.", "have been studying"),
+            ("She (not/know) ________ much about holidays traditions yet.", "doesn't know"),
+            ("We (learn) ________ about holidays traditions in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master holidays traditions, you must practice.", "want"),
+            ("He (be) ________ interested in holidays traditions since he was a child.", "has been"),
+            ("They (discuss) ________ holidays traditions when I arrived.", "were discussing"),
+            ("I think holidays traditions (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of holidays traditions?", "heard"),
+            ("She (usually/read) ________ about holidays traditions on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about holidays traditions tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("holidays traditions specialist", "An expert in the field of holidays traditions"),
+            ("Fundamentals", "The basic principles of holidays traditions"),
+            ("Advanced", "A high level of knowledge in holidays traditions"),
+            ("Innovation", "A new idea or method in holidays traditions"),
+            ("Research", "The systematic investigation into holidays traditions"),
+            ("Theory", "A system of ideas intended to explain holidays traditions"),
+            ("Practice", "The application of holidays traditions in real life"),
+            ("Challenge", "A difficult task in the context of holidays traditions"),
+            ("Solution", "A way to solve a problem related to holidays traditions"),
+            ("Impact", "The effect of holidays traditions on society")
+        ],
+        "sentences": [
+            "Learning about holidays traditions is a great way to expand your horizons.",
+            "The impact of holidays traditions on our daily lives is significant.",
+            "Many people find holidays traditions to be a challenging but rewarding subject.",
+            "He has been a specialist in holidays traditions for over ten years.",
+            "We are going to explore the fundamentals of holidays traditions in this unit.",
+            "The research on holidays traditions has led to many new discoveries.",
+            "There are many different theories about how holidays traditions works.",
+            "Putting the theory of holidays traditions into practice can be difficult.",
+            "We face many challenges when studying the complexities of holidays traditions.",
+            "Finding a solution to this holidays traditions problem is our main priority."
+        ]
+    },
+
+    51: { # Languages of the World
+        "grammar": [
+            ("I (study) ________ languages of the world lately.", "have been studying"),
+            ("She (not/know) ________ much about languages of the world yet.", "doesn't know"),
+            ("We (learn) ________ about languages of the world in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master languages of the world, you must practice.", "want"),
+            ("He (be) ________ interested in languages of the world since he was a child.", "has been"),
+            ("They (discuss) ________ languages of the world when I arrived.", "were discussing"),
+            ("I think languages of the world (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of languages of the world?", "heard"),
+            ("She (usually/read) ________ about languages of the world on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about languages of the world tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("languages of the world specialist", "An expert in the field of languages of the world"),
+            ("Fundamentals", "The basic principles of languages of the world"),
+            ("Advanced", "A high level of knowledge in languages of the world"),
+            ("Innovation", "A new idea or method in languages of the world"),
+            ("Research", "The systematic investigation into languages of the world"),
+            ("Theory", "A system of ideas intended to explain languages of the world"),
+            ("Practice", "The application of languages of the world in real life"),
+            ("Challenge", "A difficult task in the context of languages of the world"),
+            ("Solution", "A way to solve a problem related to languages of the world"),
+            ("Impact", "The effect of languages of the world on society")
+        ],
+        "sentences": [
+            "Learning about languages of the world is a great way to expand your horizons.",
+            "The impact of languages of the world on our daily lives is significant.",
+            "Many people find languages of the world to be a challenging but rewarding subject.",
+            "He has been a specialist in languages of the world for over ten years.",
+            "We are going to explore the fundamentals of languages of the world in this unit.",
+            "The research on languages of the world has led to many new discoveries.",
+            "There are many different theories about how languages of the world works.",
+            "Putting the theory of languages of the world into practice can be difficult.",
+            "We face many challenges when studying the complexities of languages of the world.",
+            "Finding a solution to this languages of the world problem is our main priority."
+        ]
+    },
+
+    52: { # Natural Disasters and Prevention
+        "grammar": [
+            ("I (study) ________ natural disasters prevention lately.", "have been studying"),
+            ("She (not/know) ________ much about natural disasters prevention yet.", "doesn't know"),
+            ("We (learn) ________ about natural disasters prevention in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master natural disasters prevention, you must practice.", "want"),
+            ("He (be) ________ interested in natural disasters prevention since he was a child.", "has been"),
+            ("They (discuss) ________ natural disasters prevention when I arrived.", "were discussing"),
+            ("I think natural disasters prevention (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of natural disasters prevention?", "heard"),
+            ("She (usually/read) ________ about natural disasters prevention on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about natural disasters prevention tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("natural disasters prevention specialist", "An expert in the field of natural disasters prevention"),
+            ("Fundamentals", "The basic principles of natural disasters prevention"),
+            ("Advanced", "A high level of knowledge in natural disasters prevention"),
+            ("Innovation", "A new idea or method in natural disasters prevention"),
+            ("Research", "The systematic investigation into natural disasters prevention"),
+            ("Theory", "A system of ideas intended to explain natural disasters prevention"),
+            ("Practice", "The application of natural disasters prevention in real life"),
+            ("Challenge", "A difficult task in the context of natural disasters prevention"),
+            ("Solution", "A way to solve a problem related to natural disasters prevention"),
+            ("Impact", "The effect of natural disasters prevention on society")
+        ],
+        "sentences": [
+            "Learning about natural disasters prevention is a great way to expand your horizons.",
+            "The impact of natural disasters prevention on our daily lives is significant.",
+            "Many people find natural disasters prevention to be a challenging but rewarding subject.",
+            "He has been a specialist in natural disasters prevention for over ten years.",
+            "We are going to explore the fundamentals of natural disasters prevention in this unit.",
+            "The research on natural disasters prevention has led to many new discoveries.",
+            "There are many different theories about how natural disasters prevention works.",
+            "Putting the theory of natural disasters prevention into practice can be difficult.",
+            "We face many challenges when studying the complexities of natural disasters prevention.",
+            "Finding a solution to this natural disasters prevention problem is our main priority."
+        ]
+    },
+
+    53: { # Fashion Trends and Sustainability
+        "grammar": [
+            ("I (study) ________ fashion trends sustainability lately.", "have been studying"),
+            ("She (not/know) ________ much about fashion trends sustainability yet.", "doesn't know"),
+            ("We (learn) ________ about fashion trends sustainability in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master fashion trends sustainability, you must practice.", "want"),
+            ("He (be) ________ interested in fashion trends sustainability since he was a child.", "has been"),
+            ("They (discuss) ________ fashion trends sustainability when I arrived.", "were discussing"),
+            ("I think fashion trends sustainability (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of fashion trends sustainability?", "heard"),
+            ("She (usually/read) ________ about fashion trends sustainability on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about fashion trends sustainability tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("fashion trends sustainability specialist", "An expert in the field of fashion trends sustainability"),
+            ("Fundamentals", "The basic principles of fashion trends sustainability"),
+            ("Advanced", "A high level of knowledge in fashion trends sustainability"),
+            ("Innovation", "A new idea or method in fashion trends sustainability"),
+            ("Research", "The systematic investigation into fashion trends sustainability"),
+            ("Theory", "A system of ideas intended to explain fashion trends sustainability"),
+            ("Practice", "The application of fashion trends sustainability in real life"),
+            ("Challenge", "A difficult task in the context of fashion trends sustainability"),
+            ("Solution", "A way to solve a problem related to fashion trends sustainability"),
+            ("Impact", "The effect of fashion trends sustainability on society")
+        ],
+        "sentences": [
+            "Learning about fashion trends sustainability is a great way to expand your horizons.",
+            "The impact of fashion trends sustainability on our daily lives is significant.",
+            "Many people find fashion trends sustainability to be a challenging but rewarding subject.",
+            "He has been a specialist in fashion trends sustainability for over ten years.",
+            "We are going to explore the fundamentals of fashion trends sustainability in this unit.",
+            "The research on fashion trends sustainability has led to many new discoveries.",
+            "There are many different theories about how fashion trends sustainability works.",
+            "Putting the theory of fashion trends sustainability into practice can be difficult.",
+            "We face many challenges when studying the complexities of fashion trends sustainability.",
+            "Finding a solution to this fashion trends sustainability problem is our main priority."
+        ]
+    },
+
+    54: { # Business Ethics
+        "grammar": [
+            ("I (study) ________ business ethics lately.", "have been studying"),
+            ("She (not/know) ________ much about business ethics yet.", "doesn't know"),
+            ("We (learn) ________ about business ethics in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master business ethics, you must practice.", "want"),
+            ("He (be) ________ interested in business ethics since he was a child.", "has been"),
+            ("They (discuss) ________ business ethics when I arrived.", "were discussing"),
+            ("I think business ethics (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of business ethics?", "heard"),
+            ("She (usually/read) ________ about business ethics on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about business ethics tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("business ethics specialist", "An expert in the field of business ethics"),
+            ("Fundamentals", "The basic principles of business ethics"),
+            ("Advanced", "A high level of knowledge in business ethics"),
+            ("Innovation", "A new idea or method in business ethics"),
+            ("Research", "The systematic investigation into business ethics"),
+            ("Theory", "A system of ideas intended to explain business ethics"),
+            ("Practice", "The application of business ethics in real life"),
+            ("Challenge", "A difficult task in the context of business ethics"),
+            ("Solution", "A way to solve a problem related to business ethics"),
+            ("Impact", "The effect of business ethics on society")
+        ],
+        "sentences": [
+            "Learning about business ethics is a great way to expand your horizons.",
+            "The impact of business ethics on our daily lives is significant.",
+            "Many people find business ethics to be a challenging but rewarding subject.",
+            "He has been a specialist in business ethics for over ten years.",
+            "We are going to explore the fundamentals of business ethics in this unit.",
+            "The research on business ethics has led to many new discoveries.",
+            "There are many different theories about how business ethics works.",
+            "Putting the theory of business ethics into practice can be difficult.",
+            "We face many challenges when studying the complexities of business ethics.",
+            "Finding a solution to this business ethics problem is our main priority."
+        ]
+    },
+
+    55: { # Technological Ethics (AI)
+        "grammar": [
+            ("I (study) ________ technological ethics (ai) lately.", "have been studying"),
+            ("She (not/know) ________ much about technological ethics (ai) yet.", "doesn't know"),
+            ("We (learn) ________ about technological ethics (ai) in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master technological ethics (ai), you must practice.", "want"),
+            ("He (be) ________ interested in technological ethics (ai) since he was a child.", "has been"),
+            ("They (discuss) ________ technological ethics (ai) when I arrived.", "were discussing"),
+            ("I think technological ethics (ai) (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of technological ethics (ai)?", "heard"),
+            ("She (usually/read) ________ about technological ethics (ai) on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about technological ethics (ai) tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("technological ethics (ai) specialist", "An expert in the field of technological ethics (ai)"),
+            ("Fundamentals", "The basic principles of technological ethics (ai)"),
+            ("Advanced", "A high level of knowledge in technological ethics (ai)"),
+            ("Innovation", "A new idea or method in technological ethics (ai)"),
+            ("Research", "The systematic investigation into technological ethics (ai)"),
+            ("Theory", "A system of ideas intended to explain technological ethics (ai)"),
+            ("Practice", "The application of technological ethics (ai) in real life"),
+            ("Challenge", "A difficult task in the context of technological ethics (ai)"),
+            ("Solution", "A way to solve a problem related to technological ethics (ai)"),
+            ("Impact", "The effect of technological ethics (ai) on society")
+        ],
+        "sentences": [
+            "Learning about technological ethics (ai) is a great way to expand your horizons.",
+            "The impact of technological ethics (ai) on our daily lives is significant.",
+            "Many people find technological ethics (ai) to be a challenging but rewarding subject.",
+            "He has been a specialist in technological ethics (ai) for over ten years.",
+            "We are going to explore the fundamentals of technological ethics (ai) in this unit.",
+            "The research on technological ethics (ai) has led to many new discoveries.",
+            "There are many different theories about how technological ethics (ai) works.",
+            "Putting the theory of technological ethics (ai) into practice can be difficult.",
+            "We face many challenges when studying the complexities of technological ethics (ai).",
+            "Finding a solution to this technological ethics (ai) problem is our main priority."
+        ]
+    },
+
+    56: { # Health Care Systems
+        "grammar": [
+            ("I (study) ________ health care systems lately.", "have been studying"),
+            ("She (not/know) ________ much about health care systems yet.", "doesn't know"),
+            ("We (learn) ________ about health care systems in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master health care systems, you must practice.", "want"),
+            ("He (be) ________ interested in health care systems since he was a child.", "has been"),
+            ("They (discuss) ________ health care systems when I arrived.", "were discussing"),
+            ("I think health care systems (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of health care systems?", "heard"),
+            ("She (usually/read) ________ about health care systems on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about health care systems tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("health care systems specialist", "An expert in the field of health care systems"),
+            ("Fundamentals", "The basic principles of health care systems"),
+            ("Advanced", "A high level of knowledge in health care systems"),
+            ("Innovation", "A new idea or method in health care systems"),
+            ("Research", "The systematic investigation into health care systems"),
+            ("Theory", "A system of ideas intended to explain health care systems"),
+            ("Practice", "The application of health care systems in real life"),
+            ("Challenge", "A difficult task in the context of health care systems"),
+            ("Solution", "A way to solve a problem related to health care systems"),
+            ("Impact", "The effect of health care systems on society")
+        ],
+        "sentences": [
+            "Learning about health care systems is a great way to expand your horizons.",
+            "The impact of health care systems on our daily lives is significant.",
+            "Many people find health care systems to be a challenging but rewarding subject.",
+            "He has been a specialist in health care systems for over ten years.",
+            "We are going to explore the fundamentals of health care systems in this unit.",
+            "The research on health care systems has led to many new discoveries.",
+            "There are many different theories about how health care systems works.",
+            "Putting the theory of health care systems into practice can be difficult.",
+            "We face many challenges when studying the complexities of health care systems.",
+            "Finding a solution to this health care systems problem is our main priority."
+        ]
+    },
+
+    57: { # Youth Culture
+        "grammar": [
+            ("I (study) ________ youth culture lately.", "have been studying"),
+            ("She (not/know) ________ much about youth culture yet.", "doesn't know"),
+            ("We (learn) ________ about youth culture in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master youth culture, you must practice.", "want"),
+            ("He (be) ________ interested in youth culture since he was a child.", "has been"),
+            ("They (discuss) ________ youth culture when I arrived.", "were discussing"),
+            ("I think youth culture (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of youth culture?", "heard"),
+            ("She (usually/read) ________ about youth culture on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about youth culture tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("youth culture specialist", "An expert in the field of youth culture"),
+            ("Fundamentals", "The basic principles of youth culture"),
+            ("Advanced", "A high level of knowledge in youth culture"),
+            ("Innovation", "A new idea or method in youth culture"),
+            ("Research", "The systematic investigation into youth culture"),
+            ("Theory", "A system of ideas intended to explain youth culture"),
+            ("Practice", "The application of youth culture in real life"),
+            ("Challenge", "A difficult task in the context of youth culture"),
+            ("Solution", "A way to solve a problem related to youth culture"),
+            ("Impact", "The effect of youth culture on society")
+        ],
+        "sentences": [
+            "Learning about youth culture is a great way to expand your horizons.",
+            "The impact of youth culture on our daily lives is significant.",
+            "Many people find youth culture to be a challenging but rewarding subject.",
+            "He has been a specialist in youth culture for over ten years.",
+            "We are going to explore the fundamentals of youth culture in this unit.",
+            "The research on youth culture has led to many new discoveries.",
+            "There are many different theories about how youth culture works.",
+            "Putting the theory of youth culture into practice can be difficult.",
+            "We face many challenges when studying the complexities of youth culture.",
+            "Finding a solution to this youth culture problem is our main priority."
+        ]
+    },
+
+    58: { # Retirement and Aging
+        "grammar": [
+            ("I (study) ________ retirement aging lately.", "have been studying"),
+            ("She (not/know) ________ much about retirement aging yet.", "doesn't know"),
+            ("We (learn) ________ about retirement aging in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master retirement aging, you must practice.", "want"),
+            ("He (be) ________ interested in retirement aging since he was a child.", "has been"),
+            ("They (discuss) ________ retirement aging when I arrived.", "were discussing"),
+            ("I think retirement aging (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of retirement aging?", "heard"),
+            ("She (usually/read) ________ about retirement aging on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about retirement aging tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("retirement aging specialist", "An expert in the field of retirement aging"),
+            ("Fundamentals", "The basic principles of retirement aging"),
+            ("Advanced", "A high level of knowledge in retirement aging"),
+            ("Innovation", "A new idea or method in retirement aging"),
+            ("Research", "The systematic investigation into retirement aging"),
+            ("Theory", "A system of ideas intended to explain retirement aging"),
+            ("Practice", "The application of retirement aging in real life"),
+            ("Challenge", "A difficult task in the context of retirement aging"),
+            ("Solution", "A way to solve a problem related to retirement aging"),
+            ("Impact", "The effect of retirement aging on society")
+        ],
+        "sentences": [
+            "Learning about retirement aging is a great way to expand your horizons.",
+            "The impact of retirement aging on our daily lives is significant.",
+            "Many people find retirement aging to be a challenging but rewarding subject.",
+            "He has been a specialist in retirement aging for over ten years.",
+            "We are going to explore the fundamentals of retirement aging in this unit.",
+            "The research on retirement aging has led to many new discoveries.",
+            "There are many different theories about how retirement aging works.",
+            "Putting the theory of retirement aging into practice can be difficult.",
+            "We face many challenges when studying the complexities of retirement aging.",
+            "Finding a solution to this retirement aging problem is our main priority."
+        ]
+    },
+
+    59: { # Globalization
+        "grammar": [
+            ("I (study) ________ globalization lately.", "have been studying"),
+            ("She (not/know) ________ much about globalization yet.", "doesn't know"),
+            ("We (learn) ________ about globalization in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master globalization, you must practice.", "want"),
+            ("He (be) ________ interested in globalization since he was a child.", "has been"),
+            ("They (discuss) ________ globalization when I arrived.", "were discussing"),
+            ("I think globalization (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of globalization?", "heard"),
+            ("She (usually/read) ________ about globalization on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about globalization tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("globalization specialist", "An expert in the field of globalization"),
+            ("Fundamentals", "The basic principles of globalization"),
+            ("Advanced", "A high level of knowledge in globalization"),
+            ("Innovation", "A new idea or method in globalization"),
+            ("Research", "The systematic investigation into globalization"),
+            ("Theory", "A system of ideas intended to explain globalization"),
+            ("Practice", "The application of globalization in real life"),
+            ("Challenge", "A difficult task in the context of globalization"),
+            ("Solution", "A way to solve a problem related to globalization"),
+            ("Impact", "The effect of globalization on society")
+        ],
+        "sentences": [
+            "Learning about globalization is a great way to expand your horizons.",
+            "The impact of globalization on our daily lives is significant.",
+            "Many people find globalization to be a challenging but rewarding subject.",
+            "He has been a specialist in globalization for over ten years.",
+            "We are going to explore the fundamentals of globalization in this unit.",
+            "The research on globalization has led to many new discoveries.",
+            "There are many different theories about how globalization works.",
+            "Putting the theory of globalization into practice can be difficult.",
+            "We face many challenges when studying the complexities of globalization.",
+            "Finding a solution to this globalization problem is our main priority."
+        ]
+    },
+
+    60: { # Final Review and B1 Assessment
+        "grammar": [
+            ("I (study) ________ final review b1 assessment lately.", "have been studying"),
+            ("She (not/know) ________ much about final review b1 assessment yet.", "doesn't know"),
+            ("We (learn) ________ about final review b1 assessment in the next lesson.", "are going to learn"),
+            ("If you (want) ________ to master final review b1 assessment, you must practice.", "want"),
+            ("He (be) ________ interested in final review b1 assessment since he was a child.", "has been"),
+            ("They (discuss) ________ final review b1 assessment when I arrived.", "were discussing"),
+            ("I think final review b1 assessment (be) ________ very important for the future.", "is"),
+            ("Have you ever (hear) ________ of final review b1 assessment?", "heard"),
+            ("She (usually/read) ________ about final review b1 assessment on weekends.", "usually reads"),
+            ("We (visit) ________ a museum about final review b1 assessment tomorrow.", "are visiting")
+        ],
+        "vocab": [
+            ("final review b1 assessment specialist", "An expert in the field of final review b1 assessment"),
+            ("Fundamentals", "The basic principles of final review b1 assessment"),
+            ("Advanced", "A high level of knowledge in final review b1 assessment"),
+            ("Innovation", "A new idea or method in final review b1 assessment"),
+            ("Research", "The systematic investigation into final review b1 assessment"),
+            ("Theory", "A system of ideas intended to explain final review b1 assessment"),
+            ("Practice", "The application of final review b1 assessment in real life"),
+            ("Challenge", "A difficult task in the context of final review b1 assessment"),
+            ("Solution", "A way to solve a problem related to final review b1 assessment"),
+            ("Impact", "The effect of final review b1 assessment on society")
+        ],
+        "sentences": [
+            "Learning about final review b1 assessment is a great way to expand your horizons.",
+            "The impact of final review b1 assessment on our daily lives is significant.",
+            "Many people find final review b1 assessment to be a challenging but rewarding subject.",
+            "He has been a specialist in final review b1 assessment for over ten years.",
+            "We are going to explore the fundamentals of final review b1 assessment in this unit.",
+            "The research on final review b1 assessment has led to many new discoveries.",
+            "There are many different theories about how final review b1 assessment works.",
+            "Putting the theory of final review b1 assessment into practice can be difficult.",
+            "We face many challenges when studying the complexities of final review b1 assessment.",
+            "Finding a solution to this final review b1 assessment problem is our main priority."
+        ]
+    },
 }
 
 # Títulos de las Unidades B1
@@ -1639,7 +2808,38 @@ UNIT_TITLES = {
     27: "Geography and Landmarks",
     28: "Fashion and Design",
     29: "Work-Life Balance",
-    30: "Success and Achievement"
+    30: "Success and Achievement",
+
+    31: "Urban Living vs Rural Life",
+    32: "The History of English",
+    33: "Extreme Sports and Adventure",
+    34: "Psychology and Human Behavior",
+    35: "Space Exploration",
+    36: "Climate Change and Solutions",
+    37: "Music Genres and History",
+    38: "Cinema and Theater",
+    39: "Cooking and Traditions",
+    40: "Festivals and Celebrations",
+    41: "Social Media Impact",
+    42: "Ethics and Values",
+    43: "Public Transport and Mobility",
+    44: "Architecture and Landmarks",
+    45: "Literature and Storytelling",
+    46: "Sports and Competition",
+    47: "Volunteering and Charity",
+    48: "Politics and Governance",
+    49: "Advertising and Marketing",
+    50: "Holidays and Traditions",
+    51: "Languages of the World",
+    52: "Natural Disasters and Prevention",
+    53: "Fashion Trends and Sustainability",
+    54: "Business Ethics",
+    55: "Technological Ethics (AI)",
+    56: "Health Care Systems",
+    57: "Youth Culture",
+    58: "Retirement and Aging",
+    59: "Globalization",
+    60: "Final Review and B1 Assessment"
 }
 
 def generate_exercises(unit_id, count):

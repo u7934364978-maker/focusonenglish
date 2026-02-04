@@ -1,0 +1,1140 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U36",
+    "unit_title": "Present Perfect: Past Participles & Experiences",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Irregular Past Participles",
+      "content": [
+        {
+          "interaction_id": "U36_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Go'?",
+          "options": [
+            { "id": "o1", "text": "Went" },
+            { "id": "o2", "text": "Gone" },
+            { "id": "o3", "text": "Goed" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'See'?",
+          "options": [
+            { "id": "o1", "text": "Saw" },
+            { "id": "o2", "text": "Seen" },
+            { "id": "o3", "text": "Seed" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Eat'?",
+          "options": [
+            { "id": "o1", "text": "Ate" },
+            { "id": "o2", "text": "Eaten" },
+            { "id": "o3", "text": "Eat" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Drink'?",
+          "options": [
+            { "id": "o1", "text": "Drank" },
+            { "id": "o2", "text": "Drunk" },
+            { "id": "o3", "text": "Drinken" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Do'?",
+          "options": [
+            { "id": "o1", "text": "Did" },
+            { "id": "o2", "text": "Done" },
+            { "id": "o3", "text": "Doed" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Write'?",
+          "options": [
+            { "id": "o1", "text": "Wrote" },
+            { "id": "o2", "text": "Written" },
+            { "id": "o3", "text": "Writed" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Read'?",
+          "options": [
+            { "id": "o1", "text": "Read (pronounced /red/)" },
+            { "id": "o2", "text": "Readed" },
+            { "id": "o3", "text": "Road" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Be'?",
+          "options": [
+            { "id": "o1", "text": "Was/Were" },
+            { "id": "o2", "text": "Been" },
+            { "id": "o3", "text": "Beed" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Make'?",
+          "options": [
+            { "id": "o1", "text": "Made" },
+            { "id": "o2", "text": "Maked" },
+            { "id": "o3", "text": "Make" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Take'?",
+          "options": [
+            { "id": "o1", "text": "Took" },
+            { "id": "o2", "text": "Taken" },
+            { "id": "o3", "text": "Taked" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I11",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Buy", "right": "Bought" },
+            { "id": "p2", "left": "Sell", "right": "Sold" },
+            { "id": "p3", "left": "Lose", "right": "Lost" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Give'?",
+          "options": [
+            { "id": "o1", "text": "Gave" },
+            { "id": "o2", "text": "Given" },
+            { "id": "o3", "text": "Gived" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Know'?",
+          "options": [
+            { "id": "o1", "text": "Knew" },
+            { "id": "o2", "text": "Known" },
+            { "id": "o3", "text": "Knowed" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Speak'?",
+          "options": [
+            { "id": "o1", "text": "Spoke" },
+            { "id": "o2", "text": "Spoken" },
+            { "id": "o3", "text": "Speaked" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Break'?",
+          "options": [
+            { "id": "o1", "text": "Broke" },
+            { "id": "o2", "text": "Broken" },
+            { "id": "o3", "text": "Breaked" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I16",
+          "type": "flashcard",
+          "prompt_es": "Partícipios Comunes",
+          "flashcards": [
+            { "front": "Run", "back": "Run", "pronunciation": "/rʌn/" },
+            { "front": "Come", "back": "Come", "pronunciation": "/kʌm/" },
+            { "front": "Find", "back": "Found", "pronunciation": "/faʊnd/" },
+            { "front": "Hear", "back": "Heard", "pronunciation": "/hɜːrd/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Subir una montaña'?",
+          "options": [
+            { "id": "o1", "text": "To climb a mountain" },
+            { "id": "o2", "text": "To up a mountain" },
+            { "id": "o3", "text": "To walk a mountain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Volar en un helicóptero'?",
+          "options": [
+            { "id": "o1", "text": "To fly in a helicopter" },
+            { "id": "o2", "text": "To drive a helicopter" },
+            { "id": "o3", "text": "To go a helicopter" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ganar un premio'?",
+          "options": [
+            { "id": "o1", "text": "To win a prize" },
+            { "id": "o2", "text": "To earn a prize" },
+            { "id": "o3", "text": "To get a prize" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Conocer a un famoso'?",
+          "options": [
+            { "id": "o1", "text": "To meet a celebrity" },
+            { "id": "o2", "text": "To know a celebrity" },
+            { "id": "o3", "text": "To see a celebrity" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Actuar en una película'?",
+          "options": [
+            { "id": "o1", "text": "To act in a movie" },
+            { "id": "o2", "text": "To play in a movie" },
+            { "id": "o3", "text": "To be in a movie" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viajar al extranjero'?",
+          "options": [
+            { "id": "o1", "text": "To travel abroad" },
+            { "id": "o2", "text": "To travel out" },
+            { "id": "o3", "text": "To travel away" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aprender una habilidad'?",
+          "options": [
+            { "id": "o1", "text": "To learn a skill" },
+            { "id": "o2", "text": "To study a skill" },
+            { "id": "o3", "text": "To get a skill" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Probar comida exótica'?",
+          "options": [
+            { "id": "o1", "text": "To try exotic food" },
+            { "id": "o2", "text": "To eat exotic food" },
+            { "id": "o3", "text": "To test exotic food" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Bucear'?",
+          "options": [
+            { "id": "o1", "text": "To go scuba diving" },
+            { "id": "o2", "text": "To swim under" },
+            { "id": "o3", "text": "To dive in" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Montar en camello'?",
+          "options": [
+            { "id": "o1", "text": "To ride a camel" },
+            { "id": "o2", "text": "To go a camel" },
+            { "id": "o3", "text": "To walk a camel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ver la aurora boreal'?",
+          "options": [
+            { "id": "o1", "text": "To see the Northern Lights" },
+            { "id": "o2", "text": "To watch the Northern Lights" },
+            { "id": "o3", "text": "To look the Northern Lights" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Correr una maratón'?",
+          "options": [
+            { "id": "o1", "text": "To run a marathon" },
+            { "id": "o2", "text": "To do a marathon" },
+            { "id": "o3", "text": "To play a marathon" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dormir en una tienda de campaña'?",
+          "options": [
+            { "id": "o1", "text": "To sleep in a tent" },
+            { "id": "o2", "text": "To sleep in a camp" },
+            { "id": "o3", "text": "To sleep outside" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tocar en una banda'?",
+          "options": [
+            { "id": "o1", "text": "To play in a band" },
+            { "id": "o2", "text": "To sing in a band" },
+            { "id": "o3", "text": "To do in a band" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer paracaidismo'?",
+          "options": [
+            { "id": "o1", "text": "To go skydiving" },
+            { "id": "o2", "text": "To jump sky" },
+            { "id": "o3", "text": "To fall down" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Escribir un blog'?",
+          "options": [
+            { "id": "o1", "text": "To write a blog" },
+            { "id": "o2", "text": "To do a blog" },
+            { "id": "o3", "text": "To make a blog" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer puenting'?",
+          "options": [
+            { "id": "o1", "text": "To go bungee jumping" },
+            { "id": "o2", "text": "To jump bridge" },
+            { "id": "o3", "text": "To fall rope" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aprender un idioma'?",
+          "options": [
+            { "id": "o1", "text": "To learn a language" },
+            { "id": "o2", "text": "To study a language" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tener una experiencia'?",
+          "options": [
+            { "id": "o1", "text": "To have an experience" },
+            { "id": "o2", "text": "To do an experience" },
+            { "id": "o3", "text": "To make an experience" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Present Perfect for Experiences",
+      "content": [
+        {
+          "interaction_id": "U36_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'have' o 'has': 'I ___ seen that movie.'",
+          "stimulus_en": "I ___ seen that movie.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'have' o 'has': 'She ___ been to London.'",
+          "stimulus_en": "She ___ been to London.",
+          "correct_answer": "has",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'have' o 'has': 'They ___ eaten sushi.'",
+          "stimulus_en": "They ___ eaten sushi.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'have' o 'has': 'He ___ written a book.'",
+          "stimulus_en": "He ___ written a book.",
+          "correct_answer": "has",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'have' o 'has': 'We ___ met him before.'",
+          "stimulus_en": "We ___ met him before.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el participio: 'I have ___ (ir) to France.'",
+          "stimulus_en": "I have ___ to France.",
+          "correct_answer": "been",
+          "mastery_tag": "grammar",
+          "note": "Use 'been' for 'ir y volver'."
+        },
+        {
+          "interaction_id": "U36_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el participio: 'She has ___ (comer) octopus.'",
+          "stimulus_en": "She has ___ octopus.",
+          "correct_answer": "eaten",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el participio: 'They have ___ (beber) tequila.'",
+          "stimulus_en": "They have ___ tequila.",
+          "correct_answer": "drunk",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el participio: 'We have ___ (ver) a ghost!'",
+          "stimulus_en": "We have ___ a ghost!",
+          "correct_answer": "seen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el participio: 'He has ___ (hacer) skydiving.'",
+          "stimulus_en": "He has ___ skydiving.",
+          "correct_answer": "done",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa de 'I have been'?",
+          "options": [
+            { "id": "o1", "text": "I haven't been" },
+            { "id": "o2", "text": "I have not been" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa de 'She has seen'?",
+          "options": [
+            { "id": "o1", "text": "She hasn't seen" },
+            { "id": "o2", "text": "She has not seen" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se hace la pregunta?",
+          "options": [
+            { "id": "o1", "text": "Have you seen...?" },
+            { "id": "o2", "text": "Do you have seen...?" },
+            { "id": "o3", "text": "Did you seen...?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se hace la pregunta para 'She'?",
+          "options": [
+            { "id": "o1", "text": "Has she been...?" },
+            { "id": "o2", "text": "Have she been...?" },
+            { "id": "o3", "text": "Does she has been...?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta: '___ you ever ___ (montar) a horse?'",
+          "stimulus_en": "___ you ever ___ a horse?",
+          "correct_answer": "Have... ridden",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta: '___ he ever ___ (perder) his passport?'",
+          "stimulus_en": "___ he ever ___ his passport?",
+          "correct_answer": "Has... lost",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / have / never / eaten / snails / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "never" },
+            { "id": "w4", "text": "eaten" },
+            { "id": "w5", "text": "snails" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I53",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Has / she / ever / visited / China / ?'",
+          "options": [
+            { "id": "w1", "text": "Has" },
+            { "id": "w2", "text": "she" },
+            { "id": "w3", "text": "ever" },
+            { "id": "w4", "text": "visited" },
+            { "id": "w5", "text": "China" },
+            { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Ever' en preguntas?",
+          "options": [
+            { "id": "o1", "text": "Alguna vez" },
+            { "id": "o2", "text": "Nunca" },
+            { "id": "o3", "text": "Siempre" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Never'?",
+          "options": [
+            { "id": "o1", "text": "Nunca" },
+            { "id": "o2", "text": "Alguna vez" },
+            { "id": "o3", "text": "Todavía" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no he) finished yet.'",
+          "stimulus_en": "I ___ finished yet.",
+          "correct_answer": "haven't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (no ha) called me.'",
+          "stimulus_en": "She ___ called me.",
+          "correct_answer": "hasn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (hemos) been waiting for hours.'",
+          "stimulus_en": "We ___ been waiting for hours.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Have they ___ (llegado)?'",
+          "stimulus_en": "Have they ___?",
+          "correct_answer": "arrived",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Has he ___ (comprado) the tickets?'",
+          "stimulus_en": "Has he ___ the tickets?",
+          "correct_answer": "bought",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la respuesta corta afirmativa para 'Have you...?'?",
+          "options": [
+            { "id": "o1", "text": "Yes, I have." },
+            { "id": "o2", "text": "Yes, I do." },
+            { "id": "o3", "text": "Yes, I have seen." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la respuesta corta negativa para 'Has she...?'?",
+          "options": [
+            { "id": "o1", "text": "No, she hasn't." },
+            { "id": "o2", "text": "No, she doesn't." },
+            { "id": "o3", "text": "No, she hasn't been." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I've ___ (leer) this book three times.'",
+          "stimulus_en": "I've ___ this book three times.",
+          "correct_answer": "read",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She's ___ (vender) her car.'",
+          "stimulus_en": "She's ___ her car.",
+          "correct_answer": "sold",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We've ___ (encontrar) your keys.'",
+          "stimulus_en": "We've ___ your keys.",
+          "correct_answer": "found",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They've ___ (romper) the window.'",
+          "stimulus_en": "They've ___ the window.",
+          "correct_answer": "broken",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I've ___ (hablar) to him about it.'",
+          "stimulus_en": "I've ___ to him about it.",
+          "correct_answer": "spoken",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She's ___ (ganar) the competition.'",
+          "stimulus_en": "She's ___ the competition.",
+          "correct_answer": "won",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I've ___ (perder) my wallet.'",
+          "stimulus_en": "I've ___ my wallet.",
+          "correct_answer": "lost",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U36_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Have you ___ (oír) the news?'",
+          "stimulus_en": "Have you ___ the news?",
+          "correct_answer": "heard",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Talking About Life Experiences",
+      "content": [
+        {
+          "interaction_id": "U36_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Has estado alguna vez en Japón?'?",
+          "options": [
+            { "id": "o1", "text": "Have you ever been to Japan?" },
+            { "id": "o2", "text": "Have you ever gone to Japan?" },
+            { "id": "o3", "text": "Did you ever been to Japan?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Nunca he comido insectos'?",
+          "options": [
+            { "id": "o1", "text": "I have never eaten insects." },
+            { "id": "o2", "text": "I haven't never eaten insects." },
+            { "id": "o3", "text": "I never eaten insects." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella ha conocido a mucha gente interesante'?",
+          "options": [
+            { "id": "o1", "text": "She has met a lot of interesting people." },
+            { "id": "o2", "text": "She have met a lot of interesting people." },
+            { "id": "o3", "text": "She meets a lot of interesting people." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'He visto esa película cinco veces'?",
+          "options": [
+            { "id": "o1", "text": "I have seen that movie five times." },
+            { "id": "o2", "text": "I saw that movie five times." },
+            { "id": "o3", "text": "I have see that movie five times." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Alguna vez has perdido las llaves?'?",
+          "options": [
+            { "id": "o1", "text": "Have you ever lost your keys?" },
+            { "id": "o2", "text": "Did you ever lose your keys?" },
+            { "id": "o3", "text": "Have you ever lose your keys?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hemos estado en Nueva York dos veces'?",
+          "options": [
+            { "id": "o1", "text": "We have been to New York twice." },
+            { "id": "o2", "text": "We have gone to New York twice." },
+            { "id": "o3", "text": "We were to New York twice." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Nunca he montado en camello'?",
+          "options": [
+            { "id": "o1", "text": "I've never ridden a camel." },
+            { "id": "o2", "text": "I've never road a camel." },
+            { "id": "o3", "text": "I've never ride a camel." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él ha escrito tres blogs esta semana'?",
+          "options": [
+            { "id": "o1", "text": "He has written three blogs this week." },
+            { "id": "o2", "text": "He have written three blogs this week." },
+            { "id": "o3", "text": "He wrote three blogs this week." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Ha ganado ella alguna vez un premio?'?",
+          "options": [
+            { "id": "o1", "text": "Has she ever won a prize?" },
+            { "id": "o2", "text": "Have she ever won a prize?" },
+            { "id": "o3", "text": "Did she ever win a prize?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No he terminado mi trabajo todavía'?",
+          "options": [
+            { "id": "o1", "text": "I haven't finished my work yet." },
+            { "id": "o2", "text": "I have not finish my work yet." },
+            { "id": "o3", "text": "I didn't finished my work yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Has probado alguna vez el ceviche?'?",
+          "options": [
+            { "id": "o1", "text": "Have you ever tried ceviche?" },
+            { "id": "o2", "text": "Did you ever try ceviche?" },
+            { "id": "o3", "text": "Have you ever try ceviche?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él nunca ha volado en helicóptero'?",
+          "options": [
+            { "id": "o1", "text": "He has never flown in a helicopter." },
+            { "id": "o2", "text": "He have never flown in a helicopter." },
+            { "id": "o3", "text": "He has never flew in a helicopter." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'He aprendido mucho en este curso'?",
+          "options": [
+            { "id": "o1", "text": "I have learned a lot in this course." },
+            { "id": "o2", "text": "I have learn a lot in this course." },
+            { "id": "o3", "text": "I learned a lot in this course." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Alguna vez has visto la aurora boreal?'?",
+          "options": [
+            { "id": "o1", "text": "Have you ever seen the Northern Lights?" },
+            { "id": "o2", "text": "Did you ever see the Northern Lights?" },
+            { "id": "o3", "text": "Have you ever see the Northern Lights?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ellos han vivido en tres países diferentes'?",
+          "options": [
+            { "id": "o1", "text": "They have lived in three different countries." },
+            { "id": "o2", "text": "They have live in three different countries." },
+            { "id": "o3", "text": "They lived in three different countries." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I86",
+          "type": "flashcard",
+          "prompt_es": "Preguntas de Experiencia",
+          "flashcards": [
+            { "front": "Have you ever...?", "back": "¿Alguna vez has...?", "pronunciation": "/hæv juː ˈevər/" },
+            { "front": "Yes, I have", "back": "Sí, lo he hecho", "pronunciation": "/jes aɪ hæv/" },
+            { "front": "No, I haven't", "back": "No, no lo he hecho", "pronunciation": "/noʊ aɪ ˈhævənt/" },
+            { "front": "Never", "back": "Nunca", "pronunciation": "/ˈnevər/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I87",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Have / you / ever / been / to / Italy / ?'",
+          "options": [
+            { "id": "w1", "text": "Have" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "ever" },
+            { "id": "w4", "text": "been" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "Italy" },
+            { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / have / never / played / golf / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "never" },
+            { "id": "w4", "text": "played" },
+            { "id": "w5", "text": "golf" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Has oído hablar de eso?'?",
+          "options": [
+            { "id": "o1", "text": "Have you heard about that?" },
+            { "id": "o2", "text": "Did you heard about that?" },
+            { "id": "o3", "text": "Have you hear about that?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella ha roto su brazo'?",
+          "options": [
+            { "id": "o1", "text": "She has broken her arm." },
+            { "id": "o2", "text": "She has broke her arm." },
+            { "id": "o3", "text": "She have broken her arm." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'He olvidado tu nombre'?",
+          "options": [
+            { "id": "o1", "text": "I have forgotten your name." },
+            { "id": "o2", "text": "I have forgot your name." },
+            { "id": "o3", "text": "I forget your name." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Has conocido a mi hermano?'?",
+          "options": [
+            { "id": "o1", "text": "Have you met my brother?" },
+            { "id": "o2", "text": "Did you met my brother?" },
+            { "id": "o3", "text": "Have you meet my brother?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No hemos visto a Pedro hoy'?",
+          "options": [
+            { "id": "o1", "text": "We haven't seen Pedro today." },
+            { "id": "o2", "text": "We didn't seen Pedro today." },
+            { "id": "o3", "text": "We haven't see Pedro today." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Has comprado el pan?'?",
+          "options": [
+            { "id": "o1", "text": "Have you bought the bread?" },
+            { "id": "o2", "text": "Did you bought the bread?" },
+            { "id": "o3", "text": "Have you buy the bread?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él ha perdido el autobús'?",
+          "options": [
+            { "id": "o1", "text": "He has missed the bus." },
+            { "id": "o2", "text": "He has lost the bus." },
+            { "id": "o3", "text": "He missed the bus." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication",
+          "note": "Miss is for transport/events."
+        },
+        {
+          "interaction_id": "U36_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'He hecho mucha comida'?",
+          "options": [
+            { "id": "o1", "text": "I have made a lot of food." },
+            { "id": "o2", "text": "I have done a lot of food." },
+            { "id": "o3", "text": "I made a lot of food." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Alguna vez has dormido en una tienda?'?",
+          "options": [
+            { "id": "o1", "text": "Have you ever slept in a tent?" },
+            { "id": "o2", "text": "Did you ever sleep in a tent?" },
+            { "id": "o3", "text": "Have you ever sleep in a tent?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Nunca he visto un oso'?",
+          "options": [
+            { "id": "o1", "text": "I've never seen a bear." },
+            { "id": "o2", "text": "I haven't never seen a bear." },
+            { "id": "o3", "text": "I never seen a bear." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Has terminado ya?'?",
+          "options": [
+            { "id": "o1", "text": "Have you finished yet?" },
+            { "id": "o2", "text": "Did you finished yet?" },
+            { "id": "o3", "text": "Have you finish yet?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U36_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Nunca he viajado al extranjero solo.'",
+          "stimulus_es": "Nunca he viajado al extranjero solo.",
+          "correct_answer": "I have never traveled abroad alone.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

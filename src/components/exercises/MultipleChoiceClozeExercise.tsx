@@ -25,9 +25,10 @@ interface MultipleChoiceClozeExerciseProps {
     questions: MultipleChoiceQuestion[];
   };
   onComplete?: (score: number) => void;
+  onQuestionCorrect?: (questionId: string) => void;
 }
 
-export default function MultipleChoiceClozeExercise({ exercise, onComplete }: MultipleChoiceClozeExerciseProps) {
+export default function MultipleChoiceClozeExercise({ exercise, onComplete, onQuestionCorrect }: MultipleChoiceClozeExerciseProps) {
   const [answers, setAnswers] = useState<{ [questionId: string]: string }>({});
   const [showFeedback, setShowFeedback] = useState(false);
   const [evaluating, setEvaluating] = useState(false);
@@ -50,6 +51,13 @@ export default function MultipleChoiceClozeExercise({ exercise, onComplete }: Mu
     setShowFeedback(true);
     setEvaluating(false);
     
+    exercise.questions.forEach(q => {
+      const isCorrect = answers[q.id]?.toLowerCase() === q.correctAnswer.toLowerCase();
+      if (isCorrect && onQuestionCorrect) {
+        onQuestionCorrect(q.id);
+      }
+    });
+
     const correctCount = exercise.questions.filter(q => 
       answers[q.id]?.toLowerCase() === q.correctAnswer.toLowerCase()
     ).length;
@@ -60,10 +68,6 @@ export default function MultipleChoiceClozeExercise({ exercise, onComplete }: Mu
       .reduce((sum, q) => sum + q.points, 0);
     
     const score = (earnedPoints / totalPoints) * 100;
-    
-    if (onComplete) {
-      onComplete(score);
-    }
   };
 
   const resetExercise = () => {

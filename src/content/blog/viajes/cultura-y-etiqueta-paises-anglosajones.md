@@ -1,6 +1,6 @@
 ---
 title: "Cultura y Etiqueta: Más Allá de las Palabras en tus Viajes"
-date: "2026-02-01"
+date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Hablar inglés es solo la mitad del camino. Entender las normas sociales en países anglosajones te abrirá muchas más puertas. Descubre por qué las clases de inglés deben incluir cultura."
 category: "viajes"

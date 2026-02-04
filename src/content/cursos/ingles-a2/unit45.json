@@ -1,0 +1,1127 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U45",
+    "unit_title": "Dealing with Problems: Troubleshooting",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Common Problems & Services",
+      "content": [
+        {
+          "interaction_id": "U45_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Roto'?",
+          "options": [
+            { "id": "o1", "text": "Broken" },
+            { "id": "o2", "text": "Break" },
+            { "id": "o3", "text": "Broke" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'No funciona'?",
+          "options": [
+            { "id": "o1", "text": "It doesn't work / It's not working" },
+            { "id": "o2", "text": "It doesn't function" },
+            { "id": "o3", "text": "It is broken" },
+            { "id": "o4", "text": "All are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Atascado'?",
+          "options": [
+            { "id": "o1", "text": "Stuck" },
+            { "id": "o2", "text": "Stick" },
+            { "id": "o3", "text": "Stop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vacío'?",
+          "options": [
+            { "id": "o1", "text": "Empty" },
+            { "id": "o2", "text": "Full" },
+            { "id": "o3", "text": "Open" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lleno'?",
+          "options": [
+            { "id": "o1", "text": "Full" },
+            { "id": "o2", "text": "Empty" },
+            { "id": "o3", "text": "Closed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Arreglar'?",
+          "options": [
+            { "id": "o1", "text": "Fix / Repair" },
+            { "id": "o2", "text": "Make" },
+            { "id": "o3", "text": "Do" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fontanero'?",
+          "options": [
+            { "id": "o1", "text": "Plumber" },
+            { "id": "o2", "text": "Electrician" },
+            { "id": "o3", "text": "Mechanic" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Electricista'?",
+          "options": [
+            { "id": "o1", "text": "Electrician" },
+            { "id": "o2", "text": "Technician" },
+            { "id": "o3", "text": "Builder" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mecánico'?",
+          "options": [
+            { "id": "o1", "text": "Mechanic" },
+            { "id": "o2", "text": "Driver" },
+            { "id": "o3", "text": "Pilot" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Técnico'?",
+          "options": [
+            { "id": "o1", "text": "Technician" },
+            { "id": "o2", "text": "Teacher" },
+            { "id": "o3", "text": "Assistant" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ayuda'?",
+          "options": [
+            { "id": "o1", "text": "Help / Assistance" },
+            { "id": "o2", "text": "Work" },
+            { "id": "o3", "text": "Money" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Queja'?",
+          "options": [
+            { "id": "o1", "text": "Complaint" },
+            { "id": "o2", "text": "Complain" },
+            { "id": "o3", "text": "Order" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fuga (de agua)'?",
+          "options": [
+            { "id": "o1", "text": "Leak" },
+            { "id": "o2", "text": "Lake" },
+            { "id": "o3", "text": "Flood" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Corte de luz'?",
+          "options": [
+            { "id": "o1", "text": "Power cut / Blackout" },
+            { "id": "o2", "text": "Electricity stop" },
+            { "id": "o3", "text": "Dark night" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sin batería'?",
+          "options": [
+            { "id": "o1", "text": "Out of battery / Dead battery" },
+            { "id": "o2", "text": "No battery" },
+            { "id": "o3", "text": "Empty battery" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I16",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Broken", "right": "Roto" },
+            { "id": "p2", "left": "Empty", "right": "Vacío" },
+            { "id": "p3", "left": "Stuck", "right": "Atascado" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I17",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Plumber", "right": "Fontanero" },
+            { "id": "p2", "left": "Electrician", "right": "Electricista" },
+            { "id": "p3", "left": "Mechanic", "right": "Mecánico" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'It's out of order'?",
+          "options": [
+            { "id": "o1", "text": "Está fuera de servicio / No funciona" },
+            { "id": "o2", "text": "Está fuera de lugar" },
+            { "id": "o3", "text": "Está ordenado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Wrong number'?",
+          "options": [
+            { "id": "o1", "text": "Número equivocado" },
+            { "id": "o2", "text": "Número largo" },
+            { "id": "o3", "text": "Número malo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Lost'?",
+          "options": [
+            { "id": "o1", "text": "Perdido" },
+            { "id": "o2", "text": "Encontrado" },
+            { "id": "o3", "text": "Buscado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Llave'?",
+          "options": [
+            { "id": "o1", "text": "Key" },
+            { "id": "o2", "text": "Door" },
+            { "id": "o3", "text": "Lock" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Candado / Cerradura'?",
+          "options": [
+            { "id": "o1", "text": "Lock" },
+            { "id": "o2", "text": "Key" },
+            { "id": "o3", "text": "Gate" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Herramienta'?",
+          "options": [
+            { "id": "o1", "text": "Tool" },
+            { "id": "o2", "text": "Hammer" },
+            { "id": "o3", "text": "Nail" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Martillo'?",
+          "options": [
+            { "id": "o1", "text": "Hammer" },
+            { "id": "o2", "text": "Screwdriver" },
+            { "id": "o3", "text": "Saw" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Destornillador'?",
+          "options": [
+            { "id": "o1", "text": "Screwdriver" },
+            { "id": "o2", "text": "Drill" },
+            { "id": "o3", "text": "Wrench" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tornillo'?",
+          "options": [
+            { "id": "o1", "text": "Screw" },
+            { "id": "o2", "text": "Nail" },
+            { "id": "o3", "text": "Bolt" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Clavo'?",
+          "options": [
+            { "id": "o1", "text": "Nail" },
+            { "id": "o2", "text": "Screw" },
+            { "id": "o3", "text": "Glue" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pegamento'?",
+          "options": [
+            { "id": "o1", "text": "Glue" },
+            { "id": "o2", "text": "Tape" },
+            { "id": "o3", "text": "Paper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cinta adhesiva'?",
+          "options": [
+            { "id": "o1", "text": "Tape / Sticky tape" },
+            { "id": "o2", "text": "Band" },
+            { "id": "o3", "text": "Line" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Linterna'?",
+          "options": [
+            { "id": "o1", "text": "Flashlight / Torch" },
+            { "id": "o2", "text": "Lamp" },
+            { "id": "o3", "text": "Fire" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pilas / Baterías'?",
+          "options": [
+            { "id": "o1", "text": "Batteries" },
+            { "id": "o2", "text": "Chargers" },
+            { "id": "o3", "text": "Wires" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cable'?",
+          "options": [
+            { "id": "o1", "text": "Cable / Wire" },
+            { "id": "o2", "text": "Line" },
+            { "id": "o3", "text": "Pipe" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tubería'?",
+          "options": [
+            { "id": "o1", "text": "Pipe" },
+            { "id": "o2", "text": "Tube" },
+            { "id": "o3", "text": "Wire" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Enchufe'?",
+          "options": [
+            { "id": "o1", "text": "Plug / Socket" },
+            { "id": "o2", "text": "Connect" },
+            { "id": "o3", "text": "Power" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I35",
+          "type": "flashcard",
+          "prompt_es": "Problemas Comunes",
+          "flashcards": [
+            { "front": "It's broken", "back": "Está roto", "pronunciation": "/ɪts ˈbroʊkən/" },
+            { "front": "It's not working", "back": "No funciona", "pronunciation": "/ɪts nɒt ˈwɜːrkɪŋ/" },
+            { "front": "It's making a noise", "back": "Está haciendo ruido", "pronunciation": "/ɪts ˈmeɪkɪŋ ə nɔɪz/" },
+            { "front": "It's out of battery", "back": "No tiene batería", "pronunciation": "/ɪts aʊt əv ˈbætəri/" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Obligation & Necessity (Have to / Need to)",
+      "content": [
+        {
+          "interaction_id": "U45_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué usamos para expresar obligación externa?",
+          "options": [
+            { "id": "o1", "text": "Have to" },
+            { "id": "o2", "text": "Should" },
+            { "id": "o3", "text": "Might" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma para 'He/She/It'?",
+          "options": [
+            { "id": "o1", "text": "Has to" },
+            { "id": "o2", "text": "Haves to" },
+            { "id": "o3", "text": "Have to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (tengo que) fix the sink.'",
+          "stimulus_en": "I ___ fix the sink.",
+          "correct_answer": "have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (tiene que) call a plumber.'",
+          "stimulus_en": "She ___ call a plumber.",
+          "correct_answer": "has to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Negación: 'You ___ (no tienes que) pay now.'",
+          "stimulus_en": "You ___ pay now.",
+          "correct_answer": "don't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Negación: 'He ___ (no tiene que) come today.'",
+          "stimulus_en": "He ___ come today.",
+          "correct_answer": "doesn't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ you ___ (tienes que) go?'",
+          "stimulus_en": "___ you ___ go?",
+          "correct_answer": "Do, have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ he ___ (tiene que) work late?'",
+          "stimulus_en": "___ he ___ work late?",
+          "correct_answer": "Does, have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Don't have to'?",
+          "options": [
+            { "id": "o1", "text": "No es necesario (pero puedes hacerlo)" },
+            { "id": "o2", "text": "Está prohibido" },
+            { "id": "o3", "text": "No deberías" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Necesidad: 'I ___ (necesito) some help.'",
+          "stimulus_en": "I ___ some help.",
+          "correct_answer": "need",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Necesidad con verbo: 'You ___ (necesitas) to buy a new one.'",
+          "stimulus_en": "You ___ to buy a new one.",
+          "correct_answer": "need",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The car is broken. We ___ (tenemos que) walk.'",
+          "stimulus_en": "The car is broken. We ___ walk.",
+          "correct_answer": "have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'My phone is dead. I ___ (necesito) to charge it.'",
+          "stimulus_en": "My phone is dead. I ___ to charge it.",
+          "correct_answer": "need",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "I have to going." },
+            { "id": "o2", "text": "I have to go." },
+            { "id": "o3", "text": "I have go." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "She has fix it." },
+            { "id": "o2", "text": "She has to fix it." },
+            { "id": "o3", "text": "She have to fix it." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Pasado de 'Have to': 'Yesterday I ___ (tuve que) stay home.'",
+          "stimulus_en": "Yesterday I ___ stay home.",
+          "correct_answer": "had to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Pasado de 'Need': 'They ___ (necesitaron) more time.'",
+          "stimulus_en": "They ___ more time.",
+          "correct_answer": "needed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no tuve que) work yesterday.'",
+          "stimulus_en": "I ___ work yesterday.",
+          "correct_answer": "didn't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Did you ___ (tuviste que) pay much?'",
+          "stimulus_en": "Did you ___ pay much?",
+          "correct_answer": "have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (necesitamos) to find a solution.'",
+          "stimulus_en": "We ___ to find a solution.",
+          "correct_answer": "need",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Does she ___ (tiene que) sign this?'",
+          "stimulus_en": "Does she ___ sign this?",
+          "correct_answer": "have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (no tienen que) wait.'",
+          "stimulus_en": "They ___ wait.",
+          "correct_answer": "don't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It's free. You ___ (no tienes que) pay.'",
+          "stimulus_en": "It's free. You ___ pay.",
+          "correct_answer": "don't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The window is open. I ___ (tengo que) close it.'",
+          "stimulus_en": "The window is open. I ___ close it.",
+          "correct_answer": "have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He is late. He ___ (tiene que) hurry.'",
+          "stimulus_en": "He is late. He ___ hurry.",
+          "correct_answer": "has to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál significa 'No es obligatorio'?",
+          "options": [
+            { "id": "o1", "text": "I don't have to go." },
+            { "id": "o2", "text": "I mustn't go." },
+            { "id": "o3", "text": "I shouldn't go." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál significa 'No tengo permiso'?",
+          "options": [
+            { "id": "o1", "text": "I can't go." },
+            { "id": "o2", "text": "I don't have to go." },
+            { "id": "o3", "text": "I shouldn't go." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'If you want to pass, you ___ (tienes que) study.'",
+          "stimulus_en": "If you want to pass, you ___ study.",
+          "correct_answer": "have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We are early. We ___ (no tenemos que) run.'",
+          "stimulus_en": "We are early. We ___ run.",
+          "correct_answer": "don't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I am thirsty. I ___ (necesito) a drink.'",
+          "stimulus_en": "I am thirsty. I ___ a drink.",
+          "correct_answer": "need",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (tiene que) wear glasses.'",
+          "stimulus_en": "She ___ wear glasses.",
+          "correct_answer": "has to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (tienen que) work on Saturdays.'",
+          "stimulus_en": "They ___ work on Saturdays.",
+          "correct_answer": "have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do I ___ (tengo que) answer all questions?'",
+          "stimulus_en": "Do I ___ answer all questions?",
+          "correct_answer": "have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (no tiene que) wear a tie.'",
+          "stimulus_en": "He ___ wear a tie.",
+          "correct_answer": "doesn't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The printer is out of paper. I ___ (tengo que) buy more.'",
+          "stimulus_en": "The printer is out of paper. I ___ buy more.",
+          "correct_answer": "have to",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Asking for Help & Reporting Problems",
+      "content": [
+        {
+          "interaction_id": "U45_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides ayuda educadamente?",
+          "options": [
+            { "id": "o1", "text": "Can you help me, please?" },
+            { "id": "o2", "text": "Could you help me, please? (más formal)" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo informas un problema? 'I'm sorry, but ___'",
+          "options": [
+            { "id": "o1", "text": "there's a problem with my room." },
+            { "id": "o2", "text": "my room has problem." },
+            { "id": "o3", "text": "is problem in room." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El aire acondicionado no funciona'?",
+          "options": [
+            { "id": "o1", "text": "The air conditioning isn't working." },
+            { "id": "o2", "text": "The AC doesn't work." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'He perdido mis llaves'?",
+          "options": [
+            { "id": "o1", "text": "I've lost my keys." },
+            { "id": "o2", "text": "I lose my keys." },
+            { "id": "o3", "text": "I lost my keys." },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides que alguien arregle algo? 'Could you ___?'",
+          "options": [
+            { "id": "o1", "text": "fix it, please?" },
+            { "id": "o2", "text": "to fix it?" },
+            { "id": "o3", "text": "fixing it?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes a un problema? 'I'll ___ right away.'",
+          "options": [
+            { "id": "o1", "text": "send someone" },
+            { "id": "o2", "text": "to send someone" },
+            { "id": "o3", "text": "sending someone" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I77",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Can / you / help / me / with / this / ?'",
+          "options": [
+            { "id": "w1", "text": "Can" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "help" },
+            { "id": "w4", "text": "me" },
+            { "id": "w5", "text": "with" },
+            { "id": "w6", "text": "this" },
+            { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I78",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'The / shower / is / broken / .'",
+          "options": [
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "shower" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "broken" },
+            { "id": "w5", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I79",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / need / a / plumber / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "need" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "plumber" },
+            { "id": "w5", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No hay agua caliente'?",
+          "options": [
+            { "id": "o1", "text": "There is no hot water." },
+            { "id": "o2", "text": "Is not hot water." },
+            { "id": "o3", "text": "Hot water is not." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Se ha ido la luz'?",
+          "options": [
+            { "id": "o1", "text": "The power is out / The lights are off." },
+            { "id": "o2", "text": "Power is gone." },
+            { "id": "o3", "text": "The light went." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Mi coche no arranca'?",
+          "options": [
+            { "id": "o1", "text": "My car won't start / My car doesn't start." },
+            { "id": "o2", "text": "My car not start." },
+            { "id": "o3", "text": "My car no start." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo un pinchazo'?",
+          "options": [
+            { "id": "o1", "text": "I have a flat tyre (UK) / flat tire (US)." },
+            { "id": "o2", "text": "I have a hole in wheel." },
+            { "id": "o3", "text": "My tire is dead." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'He olvidado mi contraseña'?",
+          "options": [
+            { "id": "o1", "text": "I've forgotten my password." },
+            { "id": "o2", "text": "I forget my password." },
+            { "id": "o3", "text": "I forgot my password." },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Internet no funciona'?",
+          "options": [
+            { "id": "o1", "text": "The internet isn't working / is down." },
+            { "id": "o2", "text": "The internet not works." },
+            { "id": "o3", "text": "Is no internet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I86",
+          "type": "flashcard",
+          "prompt_es": "Frases para Problemas",
+          "flashcards": [
+            { "front": "Can you take a look?", "back": "¿Puedes echar un vistazo?", "pronunciation": "/kæn juː teɪk ə lʊk/" },
+            { "front": "Something is wrong", "back": "Algo va mal", "pronunciation": "/ˈsʌmθɪŋ ɪz rɒŋ/" },
+            { "front": "I'll be right there", "back": "Estaré allí enseguida", "pronunciation": "/aɪl biː raɪt ðeər/" },
+            { "front": "It's making a strange noise", "back": "Hace un ruido extraño", "pronunciation": "/ɪts ˈmeɪkɪŋ ə streɪndʒ nɔɪz/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Cuándo puede venir el técnico?'?",
+          "options": [
+            { "id": "o1", "text": "When can the technician come?" },
+            { "id": "o2", "text": "When the technician can come?" },
+            { "id": "o3", "text": "At what time can come technician?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Cuánto costará el arreglo?'?",
+          "options": [
+            { "id": "o1", "text": "How much will the repair cost?" },
+            { "id": "o2", "text": "How much for fix?" },
+            { "id": "o3", "text": "What is the price of repair?" },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es urgente'?",
+          "options": [
+            { "id": "o1", "text": "It's urgent." },
+            { "id": "o2", "text": "It is emergency." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'He dejado las llaves dentro'?",
+          "options": [
+            { "id": "o1", "text": "I've left the keys inside." },
+            { "id": "o2", "text": "I leave the keys inside." },
+            { "id": "o3", "text": "The keys are inside." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No puedo abrir la puerta'?",
+          "options": [
+            { "id": "o1", "text": "I can't open the door." },
+            { "id": "o2", "text": "The door doesn't open." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La calefacción no funciona'?",
+          "options": [
+            { "id": "o1", "text": "The heating isn't working." },
+            { "id": "o2", "text": "Heating is broken." },
+            { "id": "o3", "text": "There is no heating." },
+            { "id": "o4", "text": "All are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hay una gotera'?",
+          "options": [
+            { "id": "o1", "text": "There is a leak." },
+            { "id": "o2", "text": "Is a leak." },
+            { "id": "o3", "text": "Water is falling." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Puede enviarme a alguien?'?",
+          "options": [
+            { "id": "o1", "text": "Can you send someone?" },
+            { "id": "o2", "text": "Could you send someone?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Llamaré a un electricista'?",
+          "options": [
+            { "id": "o1", "text": "I'll call an electrician." },
+            { "id": "o2", "text": "I am calling electrician." },
+            { "id": "o3", "text": "I call electrician." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Necesito arreglar mi ordenador'?",
+          "options": [
+            { "id": "o1", "text": "I need to fix my computer." },
+            { "id": "o2", "text": "I need fixing my computer." },
+            { "id": "o3", "text": "I have to repair my computer." },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Está cubierto por la garantía?'?",
+          "options": [
+            { "id": "o1", "text": "Is it covered by the warranty?" },
+            { "id": "o2", "text": "Has it guarantee?" },
+            { "id": "o3", "text": "Is under guarantee?" },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Lo siento por el retraso'?",
+          "options": [
+            { "id": "o1", "text": "I'm sorry for the delay." },
+            { "id": "o2", "text": "Sorry for being late." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Gracias por su ayuda'?",
+          "options": [
+            { "id": "o1", "text": "Thank you for your help." },
+            { "id": "o2", "text": "Thanks for the help." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Mi coche no arranca y tengo que ir al trabajo. ¿Puedes ayudarme?'",
+          "stimulus_es": "Mi coche no arranca y tengo que ir al trabajo. ¿Puedes ayudarme?",
+          "correct_answer": "My car won't start and I have to go to work. Can you help me?",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

@@ -30,9 +30,10 @@ interface KeyWordTransformationExerciseProps {
     transformations: KeyWordTransformation[];
   };
   onComplete?: (score: number) => void;
+  onQuestionCorrect?: (questionId: string) => void;
 }
 
-export default function KeyWordTransformationExercise({ exercise, onComplete }: KeyWordTransformationExerciseProps) {
+export default function KeyWordTransformationExercise({ exercise, onComplete, onQuestionCorrect }: KeyWordTransformationExerciseProps) {
   const [answers, setAnswers] = useState<{ [id: string]: string }>({});
   const [showFeedback, setShowFeedback] = useState(false);
   const [evaluating, setEvaluating] = useState(false);
@@ -81,12 +82,14 @@ export default function KeyWordTransformationExercise({ exercise, onComplete }: 
     setShowFeedback(true);
     setEvaluating(false);
     
+    exercise.transformations.forEach(t => {
+      if (checkAnswer(t) && onQuestionCorrect) {
+        onQuestionCorrect(t.id);
+      }
+    });
+
     const correctCount = exercise.transformations.filter(t => checkAnswer(t)).length;
     const score = (correctCount / exercise.transformations.length) * 100;
-    
-    if (onComplete) {
-      onComplete(score);
-    }
   };
 
   const resetExercise = () => {

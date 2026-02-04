@@ -1,0 +1,1102 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U40",
+    "unit_title": "Module 5 Review & Assessment",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary Review: Experiences & Time",
+      "content": [
+        {
+          "interaction_id": "U40_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Take'?",
+          "options": [
+            { "id": "o1", "text": "Took" },
+            { "id": "o2", "text": "Taken" },
+            { "id": "o3", "text": "Taked" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el participio de 'Break'?",
+          "options": [
+            { "id": "o1", "text": "Broke" },
+            { "id": "o2", "text": "Broken" },
+            { "id": "o3", "text": "Breaked" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'So far'?",
+          "options": [
+            { "id": "o1", "text": "Hasta ahora" },
+            { "id": "o2", "text": "Tan lejos" },
+            { "id": "o3", "text": "Recientemente" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Since'?",
+          "options": [
+            { "id": "o1", "text": "Desde" },
+            { "id": "o2", "text": "Hace" },
+            { "id": "o3", "text": "Durante" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'For' (en tiempo)?",
+          "options": [
+            { "id": "o1", "text": "Durante / Por" },
+            { "id": "o2", "text": "Para" },
+            { "id": "o3", "text": "Desde hace" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I6",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Just", "right": "Acabar de" },
+            { "id": "p2", "left": "Yet", "right": "Aún / Todavía" },
+            { "id": "p3", "left": "Ever", "right": "Alguna vez" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I7",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Fly':",
+          "options": [
+            { "id": "o1", "text": "Flew" },
+            { "id": "o2", "text": "Flown" },
+            { "id": "o3", "text": "Flyed" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I8",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Drive':",
+          "options": [
+            { "id": "o1", "text": "Driven" },
+            { "id": "o2", "text": "Drove" },
+            { "id": "o3", "text": "Drived" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I9",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Write':",
+          "options": [
+            { "id": "o1", "text": "Written" },
+            { "id": "o2", "text": "Wrote" },
+            { "id": "o3", "text": "Writed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I10",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Speak':",
+          "options": [
+            { "id": "o1", "text": "Spoken" },
+            { "id": "o2", "text": "Spoke" },
+            { "id": "o3", "text": "Speaked" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Buy':",
+          "options": [
+            { "id": "o1", "text": "Bought" },
+            { "id": "o2", "text": "Buyed" },
+            { "id": "o3", "text": "Boughten" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Catch':",
+          "options": [
+            { "id": "o1", "text": "Caught" },
+            { "id": "o2", "text": "Catched" },
+            { "id": "o3", "text": "Caughten" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I13",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Choose':",
+          "options": [
+            { "id": "o1", "text": "Chosen" },
+            { "id": "o2", "text": "Chose" },
+            { "id": "o3", "text": "Choosed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I14",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Find':",
+          "options": [
+            { "id": "o1", "text": "Found" },
+            { "id": "o2", "text": "Finded" },
+            { "id": "o3", "text": "Founden" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I15",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Give':",
+          "options": [
+            { "id": "o1", "text": "Given" },
+            { "id": "o2", "text": "Gave" },
+            { "id": "o3", "text": "Gived" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Llegar tarde'?",
+          "options": [
+            { "id": "o1", "text": "To arrive late" },
+            { "id": "o2", "text": "To be late" },
+            { "id": "o3", "text": "Both are common." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Perder un tren'?",
+          "options": [
+            { "id": "o1", "text": "To miss a train" },
+            { "id": "o2", "text": "To lose a train" },
+            { "id": "o3", "text": "To leave a train" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Perder las llaves'?",
+          "options": [
+            { "id": "o1", "text": "To lose the keys" },
+            { "id": "o2", "text": "To miss the keys" },
+            { "id": "o3", "text": "To find the keys" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Subir a un avión'?",
+          "options": [
+            { "id": "o1", "text": "To get on a plane" },
+            { "id": "o2", "text": "To go on a plane" },
+            { "id": "o3", "text": "To fly a plane" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Bajar de un autobús'?",
+          "options": [
+            { "id": "o1", "text": "To get off a bus" },
+            { "id": "o2", "text": "To go down a bus" },
+            { "id": "o3", "text": "To leave a bus" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I21",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Read' (pronunciación cambia):",
+          "options": [
+            { "id": "o1", "text": "Read (pronounced /red/)" },
+            { "id": "o2", "text": "Readed" },
+            { "id": "o3", "text": "Ready" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I22",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Eat':",
+          "options": [
+            { "id": "o1", "text": "Eaten" },
+            { "id": "o2", "text": "Ate" },
+            { "id": "o3", "text": "Eated" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Drink':",
+          "options": [
+            { "id": "o1", "text": "Drunk" },
+            { "id": "o2", "text": "Drank" },
+            { "id": "o3", "text": "Drinked" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I24",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Sleep':",
+          "options": [
+            { "id": "o1", "text": "Slept" },
+            { "id": "o2", "text": "Sleeped" },
+            { "id": "o3", "text": "Sleept" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I25",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Meet':",
+          "options": [
+            { "id": "o1", "text": "Met" },
+            { "id": "o2", "text": "Meeted" },
+            { "id": "o3", "text": "Meet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I26",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Lose':",
+          "options": [
+            { "id": "o1", "text": "Lost" },
+            { "id": "o2", "text": "Losed" },
+            { "id": "o3", "text": "Loosen" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I27",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Make':",
+          "options": [
+            { "id": "o1", "text": "Made" },
+            { "id": "o2", "text": "Maked" },
+            { "id": "o3", "text": "Maden" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I28",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Do':",
+          "options": [
+            { "id": "o1", "text": "Done" },
+            { "id": "o2", "text": "Did" },
+            { "id": "o3", "text": "Doed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'See':",
+          "options": [
+            { "id": "o1", "text": "Seen" },
+            { "id": "o2", "text": "Saw" },
+            { "id": "o3", "text": "Seed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Participio de 'Go' (estado de viaje):",
+          "options": [
+            { "id": "o1", "text": "Been" },
+            { "id": "o2", "text": "Gone" },
+            { "id": "o3", "text": "Both are used." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Recientemente'?",
+          "options": [
+            { "id": "o1", "text": "Recently" },
+            { "id": "o2", "text": "Lately" },
+            { "id": "o3", "text": "Both are correct." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Todavía' (en negativa)?",
+          "options": [
+            { "id": "o1", "text": "Yet" },
+            { "id": "o2", "text": "Still" },
+            { "id": "o3", "text": "Already" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ya' (en pregunta)?",
+          "options": [
+            { "id": "o1", "text": "Yet" },
+            { "id": "o2", "text": "Already" },
+            { "id": "o3", "text": "Ever" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Alguna vez'?",
+          "options": [
+            { "id": "o1", "text": "Ever" },
+            { "id": "o2", "text": "Never" },
+            { "id": "o3", "text": "Once" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nunca'?",
+          "options": [
+            { "id": "o1", "text": "Never" },
+            { "id": "o2", "text": "Ever" },
+            { "id": "o3", "text": "Not" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar Assessment: Present Perfect vs Past Simple",
+      "content": [
+        {
+          "interaction_id": "U40_I36",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'I ___ (be) to Japan twice.'",
+          "options": [
+            { "id": "o1", "text": "have been" },
+            { "id": "o2", "text": "was" },
+            { "id": "o3", "text": "am" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I37",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'I ___ (be) to Japan in 2015.'",
+          "options": [
+            { "id": "o1", "text": "went" },
+            { "id": "o2", "text": "have been" },
+            { "id": "o3", "text": "was being" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (vivir) here since 2010.'",
+          "stimulus_en": "They ___ here since 2010.",
+          "correct_answer": "have lived",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (vivir) there for five years.' (but they don't now)",
+          "stimulus_en": "They ___ there for five years.",
+          "correct_answer": "lived",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ you ever ___ (montar) a horse?'",
+          "stimulus_en": "___ you ever ___ a horse?",
+          "correct_answer": "Have... ridden",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ you ___ (montar) a horse yesterday?'",
+          "stimulus_en": "___ you ___ a horse yesterday?",
+          "correct_answer": "Did... ride",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ just ___ (llegar).'",
+          "stimulus_en": "He ___ just ___.",
+          "correct_answer": "has... arrived",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (llegar) five minutes ago.'",
+          "stimulus_en": "He ___ five minutes ago.",
+          "correct_answer": "arrived",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta para 'I haven't seen him...'?",
+          "options": [
+            { "id": "o1", "text": "for a long time" },
+            { "id": "o2", "text": "since a long time" },
+            { "id": "o3", "text": "ago a long time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta para 'I haven't seen him...'?",
+          "options": [
+            { "id": "o1", "text": "since last Monday" },
+            { "id": "o2", "text": "for last Monday" },
+            { "id": "o3", "text": "during last Monday" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Has (ir) a Londres? (y ya has vuelto)",
+          "options": [
+            { "id": "o1", "text": "Have you been to London?" },
+            { "id": "o2", "text": "Have you gone to London?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Él ha (ir) a la tienda. (aún no ha vuelto)",
+          "options": [
+            { "id": "o1", "text": "He has gone to the shop." },
+            { "id": "o2", "text": "He has been to the shop." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Negativa: 'I ___ (no terminar) yet.'",
+          "stimulus_en": "I ___ yet.",
+          "correct_answer": "haven't finished",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ she ___ (llamar) you lately?'",
+          "stimulus_en": "___ she ___ you lately?",
+          "correct_answer": "Has... called",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (conocer) each other since school.'",
+          "stimulus_en": "We ___ each other since school.",
+          "correct_answer": "have known",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (conocerse) in 2005.'",
+          "stimulus_en": "We ___ in 2005.",
+          "correct_answer": "met",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no comer) anything today.'",
+          "stimulus_en": "I ___ anything today.",
+          "correct_answer": "haven't eaten",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no comer) anything yesterday.'",
+          "stimulus_en": "I ___ anything yesterday.",
+          "correct_answer": "didn't eat",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ you ___ (ver) my keys? I can't find them.'",
+          "stimulus_en": "___ you ___ my keys?",
+          "correct_answer": "Have... seen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ you ___ (ver) my keys on the table this morning?'",
+          "stimulus_en": "___ you ___ my keys on the table this morning?",
+          "correct_answer": "Did... see",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (perder) her job last month.'",
+          "stimulus_en": "She ___ her job last month.",
+          "correct_answer": "lost",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (perder) her job recently.'",
+          "stimulus_en": "She ___ her job recently.",
+          "correct_answer": "has lost",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (estar) in this city for three years.' (and I am still here)",
+          "stimulus_en": "I ___ in this city for three years.",
+          "correct_answer": "have been",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (estar) in that city for three years.' (when I was a child)",
+          "stimulus_en": "I ___ in that city for three years.",
+          "correct_answer": "was / stayed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ you ever ___ (be) to Paris?'",
+          "stimulus_en": "___ you ever ___ to Paris?",
+          "correct_answer": "Have... been",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'When ___ you ___ (be) to Paris?'",
+          "stimulus_en": "When ___ you ___ to Paris?",
+          "correct_answer": "did... go",
+          "mastery_tag": "grammar",
+          "note": "When requires Past Simple."
+        },
+        {
+          "interaction_id": "U40_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (comprar) some new shoes. Look!'",
+          "stimulus_en": "I ___ some new shoes.",
+          "correct_answer": "have bought",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (comprar) these shoes yesterday.'",
+          "stimulus_en": "I ___ these shoes yesterday.",
+          "correct_answer": "bought",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (tener) a great time at the party on Saturday.'",
+          "stimulus_en": "We ___ a great time at the party on Saturday.",
+          "correct_answer": "had",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (no tener) any problems so far.'",
+          "stimulus_en": "We ___ any problems so far.",
+          "correct_answer": "haven't had",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The rain ___ (parar) five minutes ago.'",
+          "stimulus_en": "The rain ___ five minutes ago.",
+          "correct_answer": "stopped",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The rain ___ (parar) at last!'",
+          "stimulus_en": "The rain ___ at last!",
+          "correct_answer": "has stopped",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ you ___ (ver) that film last night?'",
+          "stimulus_en": "___ you ___ that film last night?",
+          "correct_answer": "Did... see",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ you ___ (ver) that film already?'",
+          "stimulus_en": "___ you ___ that film already?",
+          "correct_answer": "Have... seen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (no estar) at work yesterday.'",
+          "stimulus_en": "He ___ at work yesterday.",
+          "correct_answer": "wasn't",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Life Stories & Daily Updates",
+      "content": [
+        {
+          "interaction_id": "U40_I71",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Have / you / ever / seen / a / ghost / ?'",
+          "options": [
+            { "id": "w1", "text": "Have" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "ever" },
+            { "id": "w4", "text": "seen" },
+            { "id": "w5", "text": "a" },
+            { "id": "w6", "text": "ghost" },
+            { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I72",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / have / never / been / to / China / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "never" },
+            { "id": "w4", "text": "been" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "China" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No he terminado mis deberes todavía'?",
+          "options": [
+            { "id": "o1", "text": "I haven't finished my homework yet." },
+            { "id": "o2", "text": "I didn't finish my homework yet." },
+            { "id": "o3", "text": "Both are common." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Has estado en el banco hoy?'?",
+          "options": [
+            { "id": "o1", "text": "Have you been to the bank today?" },
+            { "id": "o2", "text": "Did you go to the bank today?" },
+            { "id": "o3", "text": "Both are correct." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'He perdido mi cartera'?",
+          "options": [
+            { "id": "o1", "text": "I've lost my wallet." },
+            { "id": "o2", "text": "I lost my wallet." },
+            { "id": "o3", "text": "Both are correct (o1 for present result)." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La perdí en el parque'?",
+          "options": [
+            { "id": "o1", "text": "I lost it in the park." },
+            { "id": "o2", "text": "I've lost it in the park." },
+            { "id": "o3", "text": "I was lose it." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Vivo aquí desde hace 10 años'?",
+          "options": [
+            { "id": "o1", "text": "I've lived here for 10 years." },
+            { "id": "o2", "text": "I live here for 10 years." },
+            { "id": "o3", "text": "I lived here since 10 years." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella acaba de llegar'?",
+          "options": [
+            { "id": "o1", "text": "She has just arrived." },
+            { "id": "o2", "text": "She arrived just." },
+            { "id": "o3", "text": "She is just arriving." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él ha escrito tres correos hoy'?",
+          "options": [
+            { "id": "o1", "text": "He has written three emails today." },
+            { "id": "o2", "text": "He wrote three emails today." },
+            { "id": "o3", "text": "Both are common." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él escribió tres correos esta mañana' (y ya es tarde)?",
+          "options": [
+            { "id": "o1", "text": "He wrote three emails this morning." },
+            { "id": "o2", "text": "He has written three emails this morning." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué has hecho este fin de semana?'?",
+          "options": [
+            { "id": "o1", "text": "What have you done this weekend?" },
+            { "id": "o2", "text": "What did you do this weekend?" },
+            { "id": "o3", "text": "Both are common." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No he viajado mucho este año'?",
+          "options": [
+            { "id": "o1", "text": "I haven't traveled much this year." },
+            { "id": "o2", "text": "I didn't travel much this year." },
+            { "id": "o3", "text": "Both are correct." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Viajé mucho el año pasado'?",
+          "options": [
+            { "id": "o1", "text": "I traveled much last year." },
+            { "id": "o2", "text": "I've traveled much last year." },
+            { "id": "o3", "text": "I was travel." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Has visto mi libro? No lo encuentro.'?",
+          "options": [
+            { "id": "o1", "text": "Have you seen my book? I can't find it." },
+            { "id": "o2", "text": "Did you see my book? I don't find it." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Sí, lo vi en la cocina hace un momento.'?",
+          "options": [
+            { "id": "o1", "text": "Yes, I saw it in the kitchen a moment ago." },
+            { "id": "o2", "text": "Yes, I've seen it in the kitchen a moment ago." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I86",
+          "type": "flashcard",
+          "prompt_es": "Resumen de Usos",
+          "flashcards": [
+            { "front": "Experience", "back": "Present Perfect (Have you ever...?)", "pronunciation": "/ɪkˈspɪəriəns/" },
+            { "front": "Specific Time", "back": "Past Simple (Yesterday, In 2010)", "pronunciation": "/spəˈsɪfɪk taɪm/" },
+            { "front": "Duration", "back": "Present Perfect (For, Since)", "pronunciation": "/djuˈreɪʃn/" },
+            { "front": "Recent Action", "back": "Present Perfect (Just, Already, Yet)", "pronunciation": "/ˈriːsnt ˈækʃn/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I87",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no) eaten sushi before.'",
+          "stimulus_en": "I ___ eaten sushi before.",
+          "correct_answer": "haven't",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I88",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (comer) sushi for the first time last week.'",
+          "stimulus_en": "I ___ sushi for the first time last week.",
+          "correct_answer": "ate",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuánto tiempo hace que trabajas aquí?'?",
+          "options": [
+            { "id": "o1", "text": "How long have you worked here?" },
+            { "id": "o2", "text": "How much time do you work here?" },
+            { "id": "o3", "text": "How long did you work here?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Has estado alguna vez en una boda?'?",
+          "options": [
+            { "id": "o1", "text": "Have you ever been to a wedding?" },
+            { "id": "o2", "text": "Did you ever go to a wedding?" },
+            { "id": "o3", "text": "Both are common." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Sí, fui a una el año pasado.'?",
+          "options": [
+            { "id": "o1", "text": "Yes, I went to one last year." },
+            { "id": "o2", "text": "Yes, I've been to one last year." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No he visto esa película todavía.'?",
+          "options": [
+            { "id": "o1", "text": "I haven't seen that movie yet." },
+            { "id": "o2", "text": "I didn't see that movie yet." },
+            { "id": "o3", "text": "Both are common." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ya la he visto tres veces.'?",
+          "options": [
+            { "id": "o1", "text": "I've seen it three times already." },
+            { "id": "o2", "text": "I saw it three times already." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Ya has desayunado?'?",
+          "options": [
+            { "id": "o1", "text": "Have you had breakfast yet?" },
+            { "id": "o2", "text": "Did you have breakfast yet?" },
+            { "id": "o3", "text": "Both are correct." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Sí, he desayunado hace diez minutos.'?",
+          "options": [
+            { "id": "o1", "text": "Yes, I had breakfast ten minutes ago." },
+            { "id": "o2", "text": "Yes, I've had breakfast ten minutes ago." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella ha estado enferma desde el lunes.'?",
+          "options": [
+            { "id": "o1", "text": "She has been ill since Monday." },
+            { "id": "o2", "text": "She is ill since Monday." },
+            { "id": "o3", "text": "She was ill since Monday." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella estuvo enferma el lunes pasado.'?",
+          "options": [
+            { "id": "o1", "text": "She was ill last Monday." },
+            { "id": "o2", "text": "She has been ill last Monday." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Has visto a Mark hoy?'?",
+          "options": [
+            { "id": "o1", "text": "Have you seen Mark today?" },
+            { "id": "o2", "text": "Did you see Mark today?" },
+            { "id": "o3", "text": "Both are common." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No, no lo he visto en todo el día.'?",
+          "options": [
+            { "id": "o1", "text": "No, I haven't seen him all day." },
+            { "id": "o2", "text": "No, I didn't see him all day." },
+            { "id": "o3", "text": "Both are correct." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'He vivido en Londres durante cinco años, pero me mudé a Madrid en 2020.'",
+          "stimulus_es": "He vivido en Londres durante cinco años, pero me mudé a Madrid en 2020.",
+          "correct_answer": "I lived in London for five years, but I moved to Madrid in 2020.",
+          "mastery_tag": "communication",
+          "note": "Here 'lived' is better if you are not there now."
+        }
+      ]
+    }
+  ]
+}

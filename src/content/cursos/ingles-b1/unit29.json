@@ -31,18 +31,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Burnout",
-              "right": "Physical or mental collapse caused by overwork or stress"
-            },
-            {
-              "id": "p1",
               "left": "Stress",
               "right": "A state of mental or emotional strain or tension"
             },
             {
+              "id": "p1",
+              "left": "Burnout",
+              "right": "Physical or mental collapse caused by overwork"
+            },
+            {
               "id": "p2",
-              "left": "Schedule",
-              "right": "A plan for carrying out a process or procedure"
+              "left": "Burnout",
+              "right": "Physical or mental collapse caused by overwork or stress"
             }
           ],
           "correct_answer": {
@@ -55,17 +55,17 @@
         {
           "interaction_id": "U29_I2",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I wish I (speak/can) ________ Japanese.",
-          "correct_answer": "could speak",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If only he (call) ________ me back.",
+          "correct_answer": "would call",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I3",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He finds a lot of fulfillment in his volunteer work.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He finds a lot of in fulfillment his volunteer work.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -76,36 +76,32 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "flexibility"
-            },
-            {
-              "id": "w4",
-              "text": "important"
-            },
-            {
-              "id": "w6",
-              "text": "many"
-            },
-            {
-              "id": "w7",
-              "text": "employees"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
               "id": "w5",
-              "text": "to"
+              "text": "our"
             },
             {
               "id": "w0",
-              "text": "Job"
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "increased"
+            },
+            {
+              "id": "w6",
+              "text": "productivity"
+            },
+            {
+              "id": "w2",
+              "text": "software"
+            },
+            {
+              "id": "w1",
+              "text": "new"
+            },
+            {
+              "id": "w3",
+              "text": "has"
             }
           ],
           "correct_answer": [
@@ -115,8 +111,7 @@
             "w3",
             "w4",
             "w5",
-            "w6",
-            "w7"
+            "w6"
           ],
           "mastery_tag": "syntax"
         },
@@ -124,41 +119,41 @@
           "interaction_id": "U29_I5",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Improving efficiency can lead to a shorter working day.\"",
+          "stimulus_en": "Speaker A: \"He had to work a lot of overtime last month.\"",
           "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
             {
               "id": "r15",
               "text": "That's very kind of you to offer."
             },
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             }
           ],
-          "correct_answer": "r15",
+          "correct_answer": "r2",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U29_I6",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The state of being comfortable, healthy, or happy\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A limit or space that separates two things\"",
           "options": [
             {
-              "id": "o3",
-              "text": "Stress"
-            },
-            {
               "id": "o1",
-              "text": "Well-being"
+              "text": "Boundary"
             },
             {
               "id": "o2",
-              "text": "Efficiency"
+              "text": "Burnout"
+            },
+            {
+              "id": "o3",
+              "text": "Productivity"
             }
           ],
           "correct_answer": "o1",
@@ -172,13 +167,300 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Efficiency",
-              "right": "The state or quality of being efficient"
+              "left": "Productivity",
+              "right": "The state or quality of being productive"
             },
             {
               "id": "p1",
-              "left": "Overtime",
-              "right": "Time worked in addition to one's normal working hours"
+              "left": "Stress",
+              "right": "A state of mental or emotional strain or tension"
+            },
+            {
+              "id": "p2",
+              "left": "Burnout",
+              "right": "Physical or mental collapse caused by overwork"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I8",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I wish I (speak/can) ________ Japanese.",
+          "correct_answer": "could speak",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"It's important to set clear boundaries work between and home.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "new"
+            },
+            {
+              "id": "w6",
+              "text": "productivity"
+            },
+            {
+              "id": "w4",
+              "text": "increased"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "software"
+            },
+            {
+              "id": "w5",
+              "text": "our"
+            },
+            {
+              "id": "w3",
+              "text": "has"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Employee well-being is a priority for the company.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A limit or space that separates two things\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Productivity"
+            },
+            {
+              "id": "o1",
+              "text": "Boundary"
+            },
+            {
+              "id": "o2",
+              "text": "Well-being"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Leisure",
+              "right": "Time when one is not working or occupied"
+            },
+            {
+              "id": "p1",
+              "left": "Schedule",
+              "right": "A plan for carrying out a process or procedure"
+            },
+            {
+              "id": "p2",
+              "left": "Burnout",
+              "right": "Physical or mental collapse caused by overwork or stress"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I14",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I wish I (speak/can) ________ Japanese.",
+          "correct_answer": "could speak",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Work too much can lead to burnout.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "set"
+            },
+            {
+              "id": "w0",
+              "text": "It's"
+            },
+            {
+              "id": "w9",
+              "text": "home"
+            },
+            {
+              "id": "w7",
+              "text": "work"
+            },
+            {
+              "id": "w6",
+              "text": "between"
+            },
+            {
+              "id": "w5",
+              "text": "boundaries"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "clear"
+            },
+            {
+              "id": "w1",
+              "text": "important"
+            },
+            {
+              "id": "w8",
+              "text": "and"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Resilience is an important quality for managing work pressure.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I18",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A plan for carrying out a process or procedure\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Schedule"
+            },
+            {
+              "id": "o2",
+              "text": "Fulfillment"
+            },
+            {
+              "id": "o3",
+              "text": "Productivity"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Resilience",
+              "right": "The capacity to recover quickly from difficulties"
+            },
+            {
+              "id": "p1",
+              "left": "Stress",
+              "right": "A state of mental or emotional strain or tension"
             },
             {
               "id": "p2",
@@ -194,163 +476,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U29_I8",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If only she (be) ________ here now.",
-          "correct_answer": "were",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I9",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He had to a work lot of overtime last month.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I10",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w9",
-              "text": "time"
-            },
-            {
-              "id": "w1",
-              "text": "need"
-            },
-            {
-              "id": "w0",
-              "text": "You"
-            },
-            {
-              "id": "w8",
-              "text": "your"
-            },
-            {
-              "id": "w3",
-              "text": "prioritize"
-            },
-            {
-              "id": "w5",
-              "text": "tasks"
-            },
-            {
-              "id": "w7",
-              "text": "manage"
-            },
-            {
-              "id": "w6",
-              "text": "to"
-            },
-            {
-              "id": "w4",
-              "text": "your"
-            },
-            {
-              "id": "w10",
-              "text": "better"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I11",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"It's important to set clear boundaries between work and home.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Designate or treat as being very or most important\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Boundary"
-            },
-            {
-              "id": "o1",
-              "text": "Prioritize"
-            },
-            {
-              "id": "o2",
-              "text": "Resilience"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I13",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Boundary",
-              "right": "A limit or space that separates two things"
-            },
-            {
-              "id": "p1",
-              "left": "Schedule",
-              "right": "A plan for carrying out a process or procedure"
-            },
-            {
-              "id": "p2",
-              "left": "Flexibility",
-              "right": "The quality of bending easily without breaking"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I14",
+          "interaction_id": "U29_I20",
           "type": "transformation",
           "prompt_es": "Elige la opción correcta o reordena las palabras:",
           "stimulus_en": "I wish you (be/not) ________ so busy all the time.",
@@ -359,145 +485,9 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I15",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a good work-life balance is essential for happiness.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I16",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "burnout"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w1",
-              "text": "too"
-            },
-            {
-              "id": "w3",
-              "text": "can"
-            },
-            {
-              "id": "w2",
-              "text": "much"
-            },
-            {
-              "id": "w0",
-              "text": "Working"
-            },
-            {
-              "id": "w4",
-              "text": "lead"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I17",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Taking regular breaks can help prevent burnout.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The capacity to recover quickly from difficulties\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Resilience"
-            },
-            {
-              "id": "o3",
-              "text": "Burnout"
-            },
-            {
-              "id": "o2",
-              "text": "Schedule"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I19",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Burnout",
-              "right": "Physical or mental collapse caused by overwork or stress"
-            },
-            {
-              "id": "p1",
-              "left": "Schedule",
-              "right": "A plan for carrying out a process or procedure"
-            },
-            {
-              "id": "p2",
-              "left": "Flexibility",
-              "right": "The quality of bending easily without breaking"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I20",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If only I (be) ________ taller.",
-          "correct_answer": "were",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U29_I21",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Employee well-being is a priority for the company.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He had to work a lot of overtime last month.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -509,8 +499,16 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "She"
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "this"
             },
             {
               "id": "w5",
@@ -521,24 +519,16 @@
               "text": "busy"
             },
             {
-              "id": "w1",
-              "text": "has"
+              "id": "w7",
+              "text": "week"
             },
             {
-              "id": "w6",
-              "text": "this"
-            },
-            {
-              "id": "w2",
-              "text": "a"
+              "id": "w0",
+              "text": "She"
             },
             {
               "id": "w3",
               "text": "very"
-            },
-            {
-              "id": "w7",
-              "text": "week"
             }
           ],
           "correct_answer": [
@@ -557,41 +547,41 @@
           "interaction_id": "U29_I23",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"It's important to set clear boundaries between work and home.\"",
+          "stimulus_en": "Speaker A: \"She has a very busy schedule this week.\"",
           "options": [
             {
               "id": "r19",
               "text": "That would be perfect, thank you."
             },
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
               "id": "r2",
               "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             }
           ],
-          "correct_answer": "r2",
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U29_I24",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The capacity to recover quickly from difficulties\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Physical or mental collapse caused by overwork\"",
           "options": [
             {
               "id": "o1",
-              "text": "Resilience"
+              "text": "Burnout"
             },
             {
               "id": "o2",
-              "text": "Productivity"
+              "text": "Flexibility"
             },
             {
               "id": "o3",
-              "text": "Balance"
+              "text": "Leisure"
             }
           ],
           "correct_answer": "o1",
@@ -610,13 +600,13 @@
             },
             {
               "id": "p1",
-              "left": "Stress",
-              "right": "A state of mental or emotional strain or tension"
+              "left": "Boundary",
+              "right": "A limit or space that separates two things"
             },
             {
               "id": "p2",
-              "left": "Balance",
-              "right": "An even distribution of weight enabling someone or something to remain upright"
+              "left": "Flexibility",
+              "right": "The quality of bending easily without breaking"
             }
           ],
           "correct_answer": {
@@ -629,17 +619,17 @@
         {
           "interaction_id": "U29_I26",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If only we (have) ________ enough money to travel.",
-          "correct_answer": "had",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "If only I (have to/not) ________ work tomorrow.",
+          "correct_answer": "didn't have to",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I27",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Job flexibility is very important to many employees.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Resilience is an important quality for work managing pressure.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -650,40 +640,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w8",
-              "text": "health"
-            },
-            {
-              "id": "w5",
-              "text": "can"
-            },
-            {
-              "id": "w2",
-              "text": "stress"
-            },
-            {
-              "id": "w3",
-              "text": "at"
-            },
-            {
-              "id": "w1",
-              "text": "much"
+              "id": "w4",
+              "text": "balance"
             },
             {
               "id": "w6",
-              "text": "affect"
-            },
-            {
-              "id": "w4",
-              "text": "work"
-            },
-            {
-              "id": "w0",
-              "text": "Too"
+              "text": "essential"
             },
             {
               "id": "w7",
-              "text": "your"
+              "text": "for"
+            },
+            {
+              "id": "w0",
+              "text": "Finding"
+            },
+            {
+              "id": "w3",
+              "text": "work-life"
+            },
+            {
+              "id": "w8",
+              "text": "happiness"
+            },
+            {
+              "id": "w2",
+              "text": "good"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "is"
             }
           ],
           "correct_answer": [
@@ -703,19 +693,19 @@
           "interaction_id": "U29_I29",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"You need to prioritize your tasks to manage your time better.\"",
+          "stimulus_en": "Speaker A: \"Taking regular breaks can help prevent burnout.\"",
           "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
             {
               "id": "r3",
               "text": "Could you tell me more? I'm curious."
             },
             {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             }
           ],
           "correct_answer": "r3",
@@ -725,19 +715,19 @@
         {
           "interaction_id": "U29_I30",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A limit or space that separates two things\"",
+          "prompt_es": "Identifica la palabra correcta para: \"The state or quality of being productive\"",
           "options": [
             {
+              "id": "o3",
+              "text": "Fulfillment"
+            },
+            {
               "id": "o2",
-              "text": "Flexibility"
+              "text": "Burnout"
             },
             {
               "id": "o1",
-              "text": "Boundary"
-            },
-            {
-              "id": "o3",
-              "text": "Overtime"
+              "text": "Productivity"
             }
           ],
           "correct_answer": "o1",
@@ -756,13 +746,13 @@
             },
             {
               "id": "p1",
-              "left": "Fulfillment",
-              "right": "Satisfaction or happiness as a result of fully developing one's abilities"
+              "left": "Burnout",
+              "right": "Physical or mental collapse caused by overwork"
             },
             {
               "id": "p2",
-              "left": "Balance",
-              "right": "An even distribution of weight enabling someone or something to remain upright"
+              "left": "Fulfillment",
+              "right": "Satisfaction or happiness as a result of fully developing one's abilities"
             }
           ],
           "correct_answer": {
@@ -784,7 +774,7 @@
         {
           "interaction_id": "U29_I33",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Resilience is an important for quality managing work pressure.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Employee well-being is a for priority the company.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -796,36 +786,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "many"
-            },
-            {
               "id": "w1",
-              "text": "flexibility"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "important"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w7",
-              "text": "employees"
+              "text": "efficiency"
             },
             {
               "id": "w3",
-              "text": "very"
+              "text": "lead"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "working"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w8",
+              "text": "day"
             },
             {
               "id": "w0",
-              "text": "Job"
+              "text": "Improving"
+            },
+            {
+              "id": "w6",
+              "text": "shorter"
+            },
+            {
+              "id": "w2",
+              "text": "can"
             }
           ],
           "correct_answer": [
@@ -836,7 +830,8 @@
             "w4",
             "w5",
             "w6",
-            "w7"
+            "w7",
+            "w8"
           ],
           "mastery_tag": "syntax"
         },
@@ -844,41 +839,41 @@
           "interaction_id": "U29_I35",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We should spend our leisure time doing things we enjoy.\"",
+          "stimulus_en": "Speaker A: \"The new software has increased our productivity.\"",
           "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
             {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             }
           ],
-          "correct_answer": "r1",
+          "correct_answer": "r4",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U29_I36",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The quality of bending easily without breaking\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Satisfaction or happiness as a result of fully developing one's abilities\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Prioritize"
+              "id": "o1",
+              "text": "Fulfillment"
             },
             {
               "id": "o3",
-              "text": "Productivity"
+              "text": "Overtime"
             },
             {
-              "id": "o1",
-              "text": "Flexibility"
+              "id": "o2",
+              "text": "Boundary"
             }
           ],
           "correct_answer": "o1",
@@ -892,13 +887,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Balance",
-              "right": "An even distribution of weight enabling someone or something to remain upright"
+              "left": "Well-being",
+              "right": "The state of being comfortable, healthy, or happy"
             },
             {
               "id": "p1",
-              "left": "Leisure",
-              "right": "Time when one is not working or occupied"
+              "left": "Schedule",
+              "right": "A plan for carrying out a process or procedure"
             },
             {
               "id": "p2",
@@ -917,16 +912,16 @@
           "interaction_id": "U29_I38",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I wish I (live) ________ in a warmer country.",
-          "correct_answer": "lived",
+          "stimulus_en": "If only I (be) ________ taller.",
+          "correct_answer": "were",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I39",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a good work-life balance is for essential happiness.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Improving efficiency can lead to a shorter working day.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -938,43 +933,179 @@
           "options": [
             {
               "id": "w6",
-              "text": "doing"
-            },
-            {
-              "id": "w7",
-              "text": "things"
-            },
-            {
-              "id": "w1",
-              "text": "should"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w3",
-              "text": "our"
-            },
-            {
-              "id": "w2",
-              "text": "spend"
-            },
-            {
-              "id": "w8",
-              "text": "we"
+              "text": "productivity"
             },
             {
               "id": "w4",
-              "text": "leisure"
+              "text": "increased"
+            },
+            {
+              "id": "w3",
+              "text": "has"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "software"
+            },
+            {
+              "id": "w1",
+              "text": "new"
             },
             {
               "id": "w5",
-              "text": "time"
+              "text": "our"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The new software has increased our productivity.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Designate or treat as being very or most important\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Stress"
+            },
+            {
+              "id": "o1",
+              "text": "Prioritize"
+            },
+            {
+              "id": "o3",
+              "text": "Leisure"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Leisure",
+              "right": "Time when one is not working or occupied"
+            },
+            {
+              "id": "p1",
+              "left": "Burnout",
+              "right": "Physical or mental collapse caused by overwork or stress"
+            },
+            {
+              "id": "p2",
+              "left": "Well-being",
+              "right": "The state of being comfortable, healthy, or happy"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If only he (call) ________ me back.",
+          "correct_answer": "would call",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The new software has increased our productivity.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "between"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "boundaries"
+            },
+            {
+              "id": "w8",
+              "text": "and"
+            },
+            {
+              "id": "w3",
+              "text": "set"
             },
             {
               "id": "w9",
-              "text": "enjoy"
+              "text": "home"
+            },
+            {
+              "id": "w4",
+              "text": "clear"
+            },
+            {
+              "id": "w7",
+              "text": "work"
+            },
+            {
+              "id": "w0",
+              "text": "It's"
+            },
+            {
+              "id": "w1",
+              "text": "important"
             }
           ],
           "correct_answer": [
@@ -992,22 +1123,22 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U29_I41",
+          "interaction_id": "U29_I47",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Working too much can lead to burnout.\"",
+          "stimulus_en": "Speaker A: \"Employee well-being is a priority for the company.\"",
           "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
             {
               "id": "r19",
               "text": "That would be perfect, thank you."
             },
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             }
           ],
           "correct_answer": "r19",
@@ -1015,167 +1146,21 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U29_I42",
+          "interaction_id": "U29_I48",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The state of being comfortable, healthy, or happy\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Physical or mental collapse caused by overwork or stress\"",
           "options": [
             {
-              "id": "o2",
+              "id": "o1",
               "text": "Burnout"
             },
             {
               "id": "o3",
-              "text": "Productivity"
-            },
-            {
-              "id": "o1",
               "text": "Well-being"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I43",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Overtime",
-              "right": "Time worked in addition to one's normal working hours"
             },
-            {
-              "id": "p1",
-              "left": "Productivity",
-              "right": "The state or quality of being productive"
-            },
-            {
-              "id": "p2",
-              "left": "Prioritize",
-              "right": "Designate or treat as being very or most important"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I44",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I wish I (have/not) ________ so much homework.",
-          "correct_answer": "didn't have",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We should spend our leisure time things doing we enjoy.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I46",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Too"
-            },
-            {
-              "id": "w8",
-              "text": "health"
-            },
-            {
-              "id": "w3",
-              "text": "at"
-            },
-            {
-              "id": "w7",
-              "text": "your"
-            },
-            {
-              "id": "w2",
-              "text": "stress"
-            },
-            {
-              "id": "w6",
-              "text": "affect"
-            },
-            {
-              "id": "w5",
-              "text": "can"
-            },
-            {
-              "id": "w1",
-              "text": "much"
-            },
-            {
-              "id": "w4",
-              "text": "work"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I47",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We should spend our leisure time doing things we enjoy.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I48",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A plan for carrying out a process or procedure\"",
-          "options": [
             {
               "id": "o2",
-              "text": "Stress"
-            },
-            {
-              "id": "o1",
-              "text": "Schedule"
-            },
-            {
-              "id": "o3",
-              "text": "Leisure"
+              "text": "Prioritize"
             }
           ],
           "correct_answer": "o1",
@@ -1189,18 +1174,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Stress",
-              "right": "A state of mental or emotional strain or tension"
+              "left": "Burnout",
+              "right": "Physical or mental collapse caused by overwork"
             },
             {
               "id": "p1",
-              "left": "Schedule",
-              "right": "A plan for carrying out a process or procedure"
+              "left": "Balance",
+              "right": "An even distribution of weight enabling someone or something to remain upright"
             },
             {
               "id": "p2",
-              "left": "Fulfillment",
-              "right": "Satisfaction or happiness as a result of fully developing one's abilities"
+              "left": "Productivity",
+              "right": "The state or quality of being productive"
             }
           ],
           "correct_answer": {
@@ -1213,17 +1198,17 @@
         {
           "interaction_id": "U29_I50",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "If only I (have to/not) ________ work tomorrow.",
-          "correct_answer": "didn't have to",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I wish I (have) ________ more free time.",
+          "correct_answer": "had",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I51",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Job flexibility is very important to many employees.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You need to your prioritize tasks to manage your time better.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1234,36 +1219,48 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Employee"
-            },
-            {
-              "id": "w7",
-              "text": "company"
-            },
-            {
               "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "for"
-            },
-            {
-              "id": "w4",
-              "text": "priority"
+              "text": "to"
             },
             {
               "id": "w3",
-              "text": "a"
+              "text": "prioritize"
+            },
+            {
+              "id": "w4",
+              "text": "your"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w10",
+              "text": "better"
+            },
+            {
+              "id": "w5",
+              "text": "tasks"
+            },
+            {
+              "id": "w9",
+              "text": "time"
+            },
+            {
+              "id": "w7",
+              "text": "manage"
             },
             {
               "id": "w1",
-              "text": "well-being"
+              "text": "need"
+            },
+            {
+              "id": "w8",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "You"
             }
           ],
           "correct_answer": [
@@ -1274,7 +1271,10 @@
             "w4",
             "w5",
             "w6",
-            "w7"
+            "w7",
+            "w8",
+            "w9",
+            "w10"
           ],
           "mastery_tag": "syntax"
         },
@@ -1282,15 +1282,15 @@
           "interaction_id": "U29_I53",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Employee well-being is a priority for the company.\"",
+          "stimulus_en": "Speaker A: \"She has a very busy schedule this week.\"",
           "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
             {
               "id": "r5",
               "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             },
             {
               "id": "r2",
@@ -1304,19 +1304,19 @@
         {
           "interaction_id": "U29_I54",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The state of being comfortable, healthy, or happy\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Satisfaction or happiness as a result of fully developing one's abilities\"",
           "options": [
-            {
-              "id": "o3",
-              "text": "Stress"
-            },
-            {
-              "id": "o1",
-              "text": "Well-being"
-            },
             {
               "id": "o2",
               "text": "Boundary"
+            },
+            {
+              "id": "o1",
+              "text": "Fulfillment"
+            },
+            {
+              "id": "o3",
+              "text": "Stress"
             }
           ],
           "correct_answer": "o1",
@@ -1330,18 +1330,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Resilience",
-              "right": "The capacity to recover quickly from difficulties"
+              "left": "Schedule",
+              "right": "A plan for carrying out a process or procedure"
             },
             {
               "id": "p1",
-              "left": "Well-being",
-              "right": "The state of being comfortable, healthy, or happy"
+              "left": "Burnout",
+              "right": "Physical or mental collapse caused by overwork or stress"
             },
             {
               "id": "p2",
-              "left": "Leisure",
-              "right": "Time when one is not working or occupied"
+              "left": "Efficiency",
+              "right": "The state or quality of being efficient"
             }
           ],
           "correct_answer": {
@@ -1363,8 +1363,8 @@
         {
           "interaction_id": "U29_I57",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Employee well-being is a priority for the company.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You need to prioritize your tasks to manage your better. time\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1376,163 +1376,19 @@
           "options": [
             {
               "id": "w3",
-              "text": "can"
-            },
-            {
-              "id": "w1",
-              "text": "too"
-            },
-            {
-              "id": "w4",
-              "text": "lead"
-            },
-            {
-              "id": "w6",
-              "text": "burnout"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "Working"
-            },
-            {
-              "id": "w2",
-              "text": "much"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I59",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Finding a good work-life balance is essential for happiness.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I60",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Designate or treat as being very or most important\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Flexibility"
-            },
-            {
-              "id": "o2",
-              "text": "Schedule"
-            },
-            {
-              "id": "o1",
-              "text": "Prioritize"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I61",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Burnout",
-              "right": "Physical or mental collapse caused by overwork"
-            },
-            {
-              "id": "p1",
-              "left": "Stress",
-              "right": "A state of mental or emotional strain or tension"
-            },
-            {
-              "id": "p2",
-              "left": "Flexibility",
-              "right": "The quality of bending easily without breaking"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I62",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I wish I (have/not) ________ so much homework.",
-          "correct_answer": "didn't have",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I63",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We should spend our leisure time do ths we enjoy.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I64",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Finding"
+              "text": "work-life"
             },
             {
               "id": "w6",
               "text": "essential"
             },
             {
-              "id": "w4",
-              "text": "balance"
-            },
-            {
-              "id": "w3",
-              "text": "work-life"
-            },
-            {
               "id": "w5",
               "text": "is"
             },
             {
-              "id": "w8",
-              "text": "happiness"
+              "id": "w7",
+              "text": "for"
             },
             {
               "id": "w1",
@@ -1543,8 +1399,16 @@
               "text": "good"
             },
             {
-              "id": "w7",
-              "text": "for"
+              "id": "w4",
+              "text": "balance"
+            },
+            {
+              "id": "w0",
+              "text": "Finding"
+            },
+            {
+              "id": "w8",
+              "text": "happiness"
             }
           ],
           "correct_answer": [
@@ -1561,44 +1425,195 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U29_I65",
+          "interaction_id": "U29_I59",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"You need to prioritize your tasks to manage your time better.\"",
+          "stimulus_en": "Speaker A: \"Job flexibility is very important to many employees.\"",
           "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
             {
               "id": "r15",
               "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Physical or mental collapse caused by overwork\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Flexibility"
+            },
+            {
+              "id": "o3",
+              "text": "Prioritize"
+            },
+            {
+              "id": "o1",
+              "text": "Burnout"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I61",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Prioritize",
+              "right": "Designate or treat as being very or most important"
+            },
+            {
+              "id": "p1",
+              "left": "Boundary",
+              "right": "A limit or space that separates two things"
+            },
+            {
+              "id": "p2",
+              "left": "Well-being",
+              "right": "The state of being comfortable, healthy, or happy"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If only I (know) ________ how to solve this problem.",
+          "correct_answer": "knew",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She has a very busy schedule this week.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "things"
+            },
+            {
+              "id": "w1",
+              "text": "should"
+            },
+            {
+              "id": "w9",
+              "text": "enjoy"
+            },
+            {
+              "id": "w6",
+              "text": "doing"
+            },
+            {
+              "id": "w4",
+              "text": "leisure"
+            },
+            {
+              "id": "w5",
+              "text": "time"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "our"
+            },
+            {
+              "id": "w8",
+              "text": "we"
+            },
+            {
+              "id": "w2",
+              "text": "spend"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Finding a good work-life balance is essential for happiness.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r5",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U29_I66",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Time when one is not working or occupied\"",
+          "prompt_es": "Identifica la palabra correcta para: \"Physical or mental collapse caused by overwork or stress\"",
           "options": [
+            {
+              "id": "o2",
+              "text": "Overtime"
+            },
             {
               "id": "o3",
               "text": "Boundary"
             },
             {
-              "id": "o2",
-              "text": "Flexibility"
-            },
-            {
               "id": "o1",
-              "text": "Leisure"
+              "text": "Burnout"
             }
           ],
           "correct_answer": "o1",
@@ -1612,154 +1627,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Resilience",
-              "right": "The capacity to recover quickly from difficulties"
+              "left": "Burnout",
+              "right": "Physical or mental collapse caused by overwork"
             },
             {
               "id": "p1",
-              "left": "Efficiency",
-              "right": "The state or quality of being efficient"
-            },
-            {
-              "id": "p2",
-              "left": "Prioritize",
-              "right": "Designate or treat as being very or most important"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I68",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If only she (be) ________ here now.",
-          "correct_answer": "were",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I69",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The new software has increased our productivity.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I70",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "week"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w4",
-              "text": "busy"
-            },
-            {
-              "id": "w6",
-              "text": "this"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "schedule"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I71",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Job flexibility is very important to many employees.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I72",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Time worked in addition to one's normal working hours\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Overtime"
-            },
-            {
-              "id": "o2",
-              "text": "Burnout"
-            },
-            {
-              "id": "o3",
-              "text": "Fulfillment"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I73",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Efficiency",
-              "right": "The state or quality of being efficient"
-            },
-            {
-              "id": "p1",
-              "left": "Schedule",
-              "right": "A plan for carrying out a process or procedure"
+              "left": "Fulfillment",
+              "right": "Satisfaction or happiness as a result of fully developing one's abilities"
             },
             {
               "id": "p2",
@@ -1775,19 +1649,155 @@
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U29_I68",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I wish I (have/not) ________ so much homework.",
+          "correct_answer": "didn't have",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He finds a lot of fulfillment in his volunteer work.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "burnout"
+            },
+            {
+              "id": "w4",
+              "text": "help"
+            },
+            {
+              "id": "w0",
+              "text": "Taking"
+            },
+            {
+              "id": "w5",
+              "text": "prevent"
+            },
+            {
+              "id": "w2",
+              "text": "breaks"
+            },
+            {
+              "id": "w1",
+              "text": "regular"
+            },
+            {
+              "id": "w3",
+              "text": "can"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The new software has increased our productivity.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I72",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The state or quality of being efficient\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Productivity"
+            },
+            {
+              "id": "o2",
+              "text": "Fulfillment"
+            },
+            {
+              "id": "o1",
+              "text": "Efficiency"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stress",
+              "right": "A state of mental or emotional strain or tension"
+            },
+            {
+              "id": "p1",
+              "left": "Leisure",
+              "right": "Time when one is not working or occupied"
+            },
+            {
+              "id": "p2",
+              "left": "Burnout",
+              "right": "Physical or mental collapse caused by overwork"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
           "interaction_id": "U29_I74",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If only I (be) ________ taller.",
-          "correct_answer": "were",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I wish I (speak/can) ________ Japanese.",
+          "correct_answer": "could speak",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I75",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Too much stress at work can affect your health.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Working too much can to lead burnout.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1798,36 +1808,338 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
+              "id": "w5",
+              "text": "tasks"
+            },
+            {
               "id": "w4",
-              "text": "work"
+              "text": "your"
+            },
+            {
+              "id": "w9",
+              "text": "time"
+            },
+            {
+              "id": "w7",
+              "text": "manage"
+            },
+            {
+              "id": "w3",
+              "text": "prioritize"
+            },
+            {
+              "id": "w6",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w8",
+              "text": "your"
+            },
+            {
+              "id": "w10",
+              "text": "better"
             },
             {
               "id": "w2",
-              "text": "stress"
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "need"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"It's important to set clear boundaries between work and home.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I78",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Time worked in addition to one's normal working hours\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Prioritize"
+            },
+            {
+              "id": "o1",
+              "text": "Overtime"
+            },
+            {
+              "id": "o3",
+              "text": "Schedule"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Burnout",
+              "right": "Physical or mental collapse caused by overwork"
+            },
+            {
+              "id": "p1",
+              "left": "Fulfillment",
+              "right": "Satisfaction or happiness as a result of fully developing one's abilities"
+            },
+            {
+              "id": "p2",
+              "left": "Productivity",
+              "right": "The state or quality of being productive"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I wish I (have) ________ more free time.",
+          "correct_answer": "had",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Taking regular breaks help can prevent burnout.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "shorter"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "day"
+            },
+            {
+              "id": "w0",
+              "text": "Improving"
+            },
+            {
+              "id": "w2",
+              "text": "can"
+            },
+            {
+              "id": "w1",
+              "text": "efficiency"
+            },
+            {
+              "id": "w3",
+              "text": "lead"
+            },
+            {
+              "id": "w7",
+              "text": "working"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_I83",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Improving efficiency can lead to a shorter working day.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I84",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Physical or mental collapse caused by overwork or stress\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Burnout"
+            },
+            {
+              "id": "o2",
+              "text": "Balance"
+            },
+            {
+              "id": "o3",
+              "text": "Schedule"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I85",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Burnout",
+              "right": "Physical or mental collapse caused by overwork"
+            },
+            {
+              "id": "p1",
+              "left": "Overtime",
+              "right": "Time worked in addition to one's normal working hours"
+            },
+            {
+              "id": "p2",
+              "left": "Productivity",
+              "right": "The state or quality of being productive"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If only I (be) ________ taller.",
+          "correct_answer": "were",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Working too much can lead to burnout.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "can"
             },
             {
               "id": "w6",
               "text": "affect"
             },
             {
-              "id": "w7",
-              "text": "your"
-            },
-            {
-              "id": "w5",
-              "text": "can"
+              "id": "w3",
+              "text": "at"
             },
             {
               "id": "w0",
               "text": "Too"
             },
             {
-              "id": "w3",
-              "text": "at"
+              "id": "w2",
+              "text": "stress"
             },
             {
               "id": "w1",
               "text": "much"
+            },
+            {
+              "id": "w7",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "work"
             },
             {
               "id": "w8",
@@ -1848,158 +2160,22 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U29_I77",
+          "interaction_id": "U29_I89",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She has a very busy schedule this week.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I78",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Time worked in addition to one's normal working hours\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Flexibility"
-            },
-            {
-              "id": "o3",
-              "text": "Balance"
-            },
-            {
-              "id": "o1",
-              "text": "Overtime"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I79",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Schedule",
-              "right": "A plan for carrying out a process or procedure"
-            },
-            {
-              "id": "p1",
-              "left": "Flexibility",
-              "right": "The quality of bending easily without breaking"
-            },
-            {
-              "id": "p2",
-              "left": "Boundary",
-              "right": "A limit or space that separates two things"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I80",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I wish it (stop) ________ raining.",
-          "correct_answer": "would stop",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I81",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Employee well-being is a for priority the company.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I82",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "our"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "software"
-            },
-            {
-              "id": "w3",
-              "text": "has"
-            },
-            {
-              "id": "w6",
-              "text": "productivity"
-            },
-            {
-              "id": "w4",
-              "text": "increased"
-            },
-            {
-              "id": "w1",
-              "text": "new"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I83",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"It's important to set clear boundaries between work and home.\"",
+          "stimulus_en": "Speaker A: \"Improving efficiency can lead to a shorter working day.\"",
           "options": [
             {
               "id": "r5",
               "text": "That sounds interesting, tell me more."
             },
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             }
           ],
           "correct_answer": "r5",
@@ -2007,157 +2183,21 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U29_I84",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"An even distribution of weight enabling someone or something to remain upright\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Burnout"
-            },
-            {
-              "id": "o2",
-              "text": "Efficiency"
-            },
-            {
-              "id": "o1",
-              "text": "Balance"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I85",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Efficiency",
-              "right": "The state or quality of being efficient"
-            },
-            {
-              "id": "p1",
-              "left": "Boundary",
-              "right": "A limit or space that separates two things"
-            },
-            {
-              "id": "p2",
-              "left": "Balance",
-              "right": "An even distribution of weight enabling someone or something to remain upright"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I86",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I wish I (live) ________ in a warmer country.",
-          "correct_answer": "lived",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I87",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Job flexibility is very important to employees. many\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I88",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "has"
-            },
-            {
-              "id": "w5",
-              "text": "our"
-            },
-            {
-              "id": "w6",
-              "text": "productivity"
-            },
-            {
-              "id": "w1",
-              "text": "new"
-            },
-            {
-              "id": "w4",
-              "text": "increased"
-            },
-            {
-              "id": "w2",
-              "text": "software"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I89",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"It's important to set clear boundaries between work and home.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
           "interaction_id": "U29_I90",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The state or quality of being productive\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The state of being comfortable, healthy, or happy\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Fulfillment"
+              "id": "o1",
+              "text": "Well-being"
             },
             {
               "id": "o3",
-              "text": "Leisure"
+              "text": "Balance"
             },
             {
-              "id": "o1",
-              "text": "Productivity"
+              "id": "o2",
+              "text": "Stress"
             }
           ],
           "correct_answer": "o1",
@@ -2171,18 +2211,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Boundary",
-              "right": "A limit or space that separates two things"
+              "left": "Burnout",
+              "right": "Physical or mental collapse caused by overwork"
             },
             {
               "id": "p1",
-              "left": "Balance",
-              "right": "An even distribution of weight enabling someone or something to remain upright"
+              "left": "Overtime",
+              "right": "Time worked in addition to one's normal working hours"
             },
             {
               "id": "p2",
-              "left": "Prioritize",
-              "right": "Designate or treat as being very or most important"
+              "left": "Efficiency",
+              "right": "The state or quality of being efficient"
             }
           ],
           "correct_answer": {
@@ -2195,16 +2235,16 @@
         {
           "interaction_id": "U29_I92",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I wish you (be/not) ________ so busy all the time.",
-          "correct_answer": "weren't",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If only I (know) ________ how to solve this problem.",
+          "correct_answer": "knew",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I93",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He had to work a lot of overtime last month.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Employee well-being is a priority for the company.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -2216,44 +2256,44 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w7",
-              "text": "overtime"
-            },
-            {
-              "id": "w1",
-              "text": "had"
-            },
-            {
-              "id": "w2",
-              "text": "to"
+              "id": "w8",
+              "text": "volunteer"
             },
             {
               "id": "w5",
-              "text": "lot"
+              "text": "fulfillment"
             },
             {
               "id": "w4",
-              "text": "a"
+              "text": "of"
             },
             {
               "id": "w3",
-              "text": "work"
+              "text": "lot"
             },
             {
-              "id": "w6",
-              "text": "of"
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "finds"
             },
             {
               "id": "w0",
               "text": "He"
             },
             {
-              "id": "w8",
-              "text": "last"
+              "id": "w7",
+              "text": "his"
+            },
+            {
+              "id": "w6",
+              "text": "in"
             },
             {
               "id": "w9",
-              "text": "month"
+              "text": "work"
             }
           ],
           "correct_answer": [
@@ -2274,41 +2314,41 @@
           "interaction_id": "U29_I95",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The new software has increased our productivity.\"",
+          "stimulus_en": "Speaker A: \"He had to work a lot of overtime last month.\"",
           "options": [
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             },
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             },
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             }
           ],
-          "correct_answer": "r19",
+          "correct_answer": "r10",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U29_I96",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A plan for carrying out a process or procedure\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The state or quality of being efficient\"",
           "options": [
             {
+              "id": "o3",
+              "text": "Well-being"
+            },
+            {
               "id": "o2",
-              "text": "Burnout"
+              "text": "Balance"
             },
             {
               "id": "o1",
-              "text": "Schedule"
-            },
-            {
-              "id": "o3",
-              "text": "Resilience"
+              "text": "Efficiency"
             }
           ],
           "correct_answer": "o1",
@@ -2322,13 +2362,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Stress",
-              "right": "A state of mental or emotional strain or tension"
+              "left": "Fulfillment",
+              "right": "Satisfaction or happiness as a result of fully developing one's abilities"
             },
             {
               "id": "p1",
-              "left": "Productivity",
-              "right": "The state or quality of being productive"
+              "left": "Prioritize",
+              "right": "Designate or treat as being very or most important"
             },
             {
               "id": "p2",
@@ -2346,17 +2386,17 @@
         {
           "interaction_id": "U29_I98",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If only I (be) ________ taller.",
-          "correct_answer": "were",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "If only I (be/could) ________ there with you.",
+          "correct_answer": "could be",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I99",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He finds a lot of fulfillment in his volunteer work.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Improv efficiency can lead to a shorter work day.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -2367,1644 +2407,28 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "is"
-            },
-            {
-              "id": "w8",
-              "text": "happiness"
-            },
-            {
-              "id": "w6",
-              "text": "essential"
-            },
-            {
-              "id": "w3",
-              "text": "work-life"
-            },
-            {
-              "id": "w7",
-              "text": "for"
-            },
-            {
-              "id": "w4",
-              "text": "balance"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "good"
-            },
-            {
-              "id": "w0",
-              "text": "Finding"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I101",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Employee well-being is a priority for the company.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I102",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Satisfaction or happiness as a result of fully developing one's abilities\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Fulfillment"
-            },
-            {
-              "id": "o3",
-              "text": "Prioritize"
-            },
-            {
-              "id": "o2",
-              "text": "Resilience"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I103",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Leisure",
-              "right": "Time when one is not working or occupied"
-            },
-            {
-              "id": "p1",
-              "left": "Schedule",
-              "right": "A plan for carrying out a process or procedure"
-            },
-            {
-              "id": "p2",
-              "left": "Productivity",
-              "right": "The state or quality of being productive"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I104",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If only I (be) ________ taller.",
-          "correct_answer": "were",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I105",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She has a very busy schedule this week.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I106",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "overtime"
-            },
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
-              "id": "w8",
-              "text": "last"
-            },
-            {
-              "id": "w5",
-              "text": "lot"
-            },
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "had"
-            },
-            {
-              "id": "w9",
-              "text": "month"
-            },
-            {
-              "id": "w3",
-              "text": "work"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I107",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"It's important to set clear boundaries between work and home.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I108",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A plan for carrying out a process or procedure\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Stress"
-            },
-            {
-              "id": "o1",
-              "text": "Schedule"
-            },
-            {
-              "id": "o2",
-              "text": "Efficiency"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I109",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Leisure",
-              "right": "Time when one is not working or occupied"
-            },
-            {
-              "id": "p1",
-              "left": "Boundary",
-              "right": "A limit or space that separates two things"
-            },
-            {
-              "id": "p2",
-              "left": "Efficiency",
-              "right": "The state or quality of being efficient"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I110",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I wish you (be/not) ________ so busy all the time.",
-          "correct_answer": "weren't",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I111",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Working too much lead can to burnout.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I112",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "important"
-            },
-            {
-              "id": "w4",
-              "text": "quality"
-            },
-            {
-              "id": "w5",
-              "text": "for"
-            },
-            {
-              "id": "w7",
-              "text": "work"
-            },
-            {
-              "id": "w8",
-              "text": "pressure"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "an"
-            },
-            {
-              "id": "w6",
-              "text": "managing"
-            },
-            {
-              "id": "w0",
-              "text": "Resilience"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I113",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Improving efficiency can lead to a shorter working day.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I114",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An even distribution of weight enabling someone or something to remain upright\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Balance"
-            },
-            {
-              "id": "o3",
-              "text": "Leisure"
-            },
-            {
-              "id": "o2",
-              "text": "Productivity"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I115",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Burnout",
-              "right": "Physical or mental collapse caused by overwork or stress"
-            },
-            {
-              "id": "p1",
-              "left": "Fulfillment",
-              "right": "Satisfaction or happiness as a result of fully developing one's abilities"
-            },
-            {
-              "id": "p2",
-              "left": "Overtime",
-              "right": "Time worked in addition to one's normal working hours"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I116",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I wish it (be) ________ the weekend already.",
-          "correct_answer": "were",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I117",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a good balance work-life is essential for happiness.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I118",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "our"
-            },
-            {
-              "id": "w5",
-              "text": "time"
-            },
-            {
-              "id": "w4",
-              "text": "leisure"
-            },
-            {
-              "id": "w9",
-              "text": "enjoy"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w1",
-              "text": "should"
-            },
-            {
-              "id": "w2",
-              "text": "spend"
-            },
-            {
-              "id": "w7",
-              "text": "things"
-            },
-            {
-              "id": "w6",
-              "text": "doing"
-            },
-            {
-              "id": "w8",
-              "text": "we"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I119",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Improving efficiency can lead to a shorter working day.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I120",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A state of mental or emotional strain or tension\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Burnout"
-            },
-            {
-              "id": "o1",
-              "text": "Stress"
-            },
-            {
-              "id": "o3",
-              "text": "Schedule"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I121",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Balance",
-              "right": "An even distribution of weight enabling someone or something to remain upright"
-            },
-            {
-              "id": "p1",
-              "left": "Stress",
-              "right": "A state of mental or emotional strain or tension"
-            },
-            {
-              "id": "p2",
-              "left": "Fulfillment",
-              "right": "Satisfaction or happiness as a result of fully developing one's abilities"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I122",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I wish you (be/not) ________ so busy all the time.",
-          "correct_answer": "weren't",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I123",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a good work-life balance is essential for happiness.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I124",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
               "id": "w2",
               "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w6",
-              "text": "this"
-            },
-            {
-              "id": "w7",
-              "text": "week"
-            },
-            {
-              "id": "w5",
-              "text": "schedule"
-            },
-            {
-              "id": "w4",
-              "text": "busy"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I125",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Job flexibility is very important to many employees.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I126",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A state of mental or emotional strain or tension\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Stress"
-            },
-            {
-              "id": "o3",
-              "text": "Fulfillment"
-            },
-            {
-              "id": "o2",
-              "text": "Balance"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I127",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Stress",
-              "right": "A state of mental or emotional strain or tension"
-            },
-            {
-              "id": "p1",
-              "left": "Burnout",
-              "right": "Physical or mental collapse caused by overwork"
-            },
-            {
-              "id": "p2",
-              "left": "Productivity",
-              "right": "The state or quality of being productive"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I128",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If only he (call) ________ me back.",
-          "correct_answer": "would call",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I129",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Improving efficiency can to lead a shorter working day.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I130",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "doing"
-            },
-            {
-              "id": "w4",
-              "text": "leisure"
-            },
-            {
-              "id": "w9",
-              "text": "enjoy"
-            },
-            {
-              "id": "w8",
-              "text": "we"
-            },
-            {
-              "id": "w5",
-              "text": "time"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w1",
-              "text": "should"
-            },
-            {
-              "id": "w2",
-              "text": "spend"
-            },
-            {
-              "id": "w3",
-              "text": "our"
-            },
-            {
-              "id": "w7",
-              "text": "things"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I131",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Too much stress at work can affect your health.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I132",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A state of mental or emotional strain or tension\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Flexibility"
-            },
-            {
-              "id": "o2",
-              "text": "Productivity"
-            },
-            {
-              "id": "o1",
-              "text": "Stress"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I133",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Overtime",
-              "right": "Time worked in addition to one's normal working hours"
-            },
-            {
-              "id": "p1",
-              "left": "Stress",
-              "right": "A state of mental or emotional strain or tension"
-            },
-            {
-              "id": "p2",
-              "left": "Resilience",
-              "right": "The capacity to recover quickly from difficulties"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I134",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If only we (have) ________ enough money to travel.",
-          "correct_answer": "had",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I135",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The new software increased has our productivity.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I136",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "lot"
-            },
-            {
-              "id": "w9",
-              "text": "month"
-            },
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
-              "id": "w3",
-              "text": "work"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w8",
-              "text": "last"
-            },
-            {
-              "id": "w1",
-              "text": "had"
-            },
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w7",
-              "text": "overtime"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I137",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The new software has increased our productivity.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I138",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Physical or mental collapse caused by overwork\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Efficiency"
-            },
-            {
-              "id": "o1",
-              "text": "Burnout"
-            },
-            {
-              "id": "o3",
-              "text": "Leisure"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I139",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Stress",
-              "right": "A state of mental or emotional strain or tension"
-            },
-            {
-              "id": "p1",
-              "left": "Productivity",
-              "right": "The state or quality of being productive"
-            },
-            {
-              "id": "p2",
-              "left": "Resilience",
-              "right": "The capacity to recover quickly from difficulties"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I140",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If only we (have) ________ enough money to travel.",
-          "correct_answer": "had",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I141",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Job flexibility is very important to employees. many\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I142",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w8",
-              "text": "we"
-            },
-            {
-              "id": "w4",
-              "text": "leisure"
-            },
-            {
-              "id": "w6",
-              "text": "doing"
-            },
-            {
-              "id": "w5",
-              "text": "time"
-            },
-            {
-              "id": "w3",
-              "text": "our"
-            },
-            {
-              "id": "w9",
-              "text": "enjoy"
-            },
-            {
-              "id": "w7",
-              "text": "things"
-            },
-            {
-              "id": "w1",
-              "text": "should"
-            },
-            {
-              "id": "w2",
-              "text": "spend"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I143",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Too much stress at work can affect your health.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I144",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Physical or mental collapse caused by overwork or stress\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Burnout"
-            },
-            {
-              "id": "o3",
-              "text": "Schedule"
-            },
-            {
-              "id": "o2",
-              "text": "Overtime"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I145",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Prioritize",
-              "right": "Designate or treat as being very or most important"
-            },
-            {
-              "id": "p1",
-              "left": "Efficiency",
-              "right": "The state or quality of being efficient"
-            },
-            {
-              "id": "p2",
-              "left": "Burnout",
-              "right": "Physical or mental collapse caused by overwork or stress"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I146",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I wish I (have) ________ more free time.",
-          "correct_answer": "had",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I147",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He finds a lot of fulfillment in his volunteer work.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I148",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "an"
-            },
-            {
-              "id": "w3",
-              "text": "important"
-            },
-            {
-              "id": "w7",
-              "text": "work"
-            },
-            {
-              "id": "w4",
-              "text": "quality"
-            },
-            {
-              "id": "w8",
-              "text": "pressure"
-            },
-            {
-              "id": "w0",
-              "text": "Resilience"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "for"
-            },
-            {
-              "id": "w6",
-              "text": "managing"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I149",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Taking regular breaks can help prevent burnout.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I150",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Designate or treat as being very or most important\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Leisure"
-            },
-            {
-              "id": "o2",
-              "text": "Boundary"
-            },
-            {
-              "id": "o1",
-              "text": "Prioritize"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I151",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Prioritize",
-              "right": "Designate or treat as being very or most important"
-            },
-            {
-              "id": "p1",
-              "left": "Balance",
-              "right": "An even distribution of weight enabling someone or something to remain upright"
-            },
-            {
-              "id": "p2",
-              "left": "Resilience",
-              "right": "The capacity to recover quickly from difficulties"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I152",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I wish I (have/not) ________ so much homework.",
-          "correct_answer": "didn't have",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I153",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He had to work a lot of last overtime month.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I154",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "week"
-            },
-            {
-              "id": "w6",
-              "text": "this"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w5",
-              "text": "schedule"
-            },
-            {
-              "id": "w4",
-              "text": "busy"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I155",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Finding a good work-life balance is essential for happiness.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I156",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Time when one is not working or occupied\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Burnout"
-            },
-            {
-              "id": "o3",
-              "text": "Boundary"
-            },
-            {
-              "id": "o1",
-              "text": "Leisure"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I157",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Productivity",
-              "right": "The state or quality of being productive"
-            },
-            {
-              "id": "p1",
-              "left": "Resilience",
-              "right": "The capacity to recover quickly from difficulties"
-            },
-            {
-              "id": "p2",
-              "left": "Overtime",
-              "right": "Time worked in addition to one's normal working hours"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I158",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If only she (be) ________ here now.",
-          "correct_answer": "were",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I159",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You need to prioritize your tasks to manage your better. time\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I160",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "employees"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "many"
-            },
-            {
-              "id": "w0",
-              "text": "Job"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "important"
-            },
-            {
-              "id": "w1",
-              "text": "flexibility"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I161",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Taking regular breaks can help prevent burnout.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I162",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Satisfaction or happiness as a result of fully developing one's abilities\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Boundary"
-            },
-            {
-              "id": "o1",
-              "text": "Fulfillment"
-            },
-            {
-              "id": "o2",
-              "text": "Burnout"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I163",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Schedule",
-              "right": "A plan for carrying out a process or procedure"
-            },
-            {
-              "id": "p1",
-              "left": "Flexibility",
-              "right": "The quality of bending easily without breaking"
-            },
-            {
-              "id": "p2",
-              "left": "Overtime",
-              "right": "Time worked in addition to one's normal working hours"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I164",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I wish I (have/not) ________ so much homework.",
-          "correct_answer": "didn't have",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I165",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He finds a lot of fulfillment in his volunteer work.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I166",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "finds"
-            },
-            {
-              "id": "w3",
-              "text": "lot"
             },
             {
               "id": "w8",
               "text": "volunteer"
             },
             {
-              "id": "w2",
-              "text": "a"
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w7",
+              "text": "his"
             },
             {
               "id": "w0",
               "text": "He"
             },
             {
-              "id": "w7",
-              "text": "his"
+              "id": "w3",
+              "text": "lot"
             },
             {
               "id": "w4",
@@ -4019,8 +2443,8 @@
               "text": "work"
             },
             {
-              "id": "w6",
-              "text": "in"
+              "id": "w1",
+              "text": "finds"
             }
           ],
           "correct_answer": [
@@ -4036,828 +2460,6 @@
             "w9"
           ],
           "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I167",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She has a very busy schedule this week.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I168",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Designate or treat as being very or most important\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Fulfillment"
-            },
-            {
-              "id": "o3",
-              "text": "Productivity"
-            },
-            {
-              "id": "o1",
-              "text": "Prioritize"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I169",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Leisure",
-              "right": "Time when one is not working or occupied"
-            },
-            {
-              "id": "p1",
-              "left": "Burnout",
-              "right": "Physical or mental collapse caused by overwork or stress"
-            },
-            {
-              "id": "p2",
-              "left": "Well-being",
-              "right": "The state of being comfortable, healthy, or happy"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I170",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I wish you (be/not) ________ so busy all the time.",
-          "correct_answer": "weren't",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I171",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The new software has our increased productivity.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I172",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "Employee"
-            },
-            {
-              "id": "w1",
-              "text": "well-being"
-            },
-            {
-              "id": "w4",
-              "text": "priority"
-            },
-            {
-              "id": "w5",
-              "text": "for"
-            },
-            {
-              "id": "w7",
-              "text": "company"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I173",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Resilience is an important quality for managing work pressure.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I174",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"An even distribution of weight enabling someone or something to remain upright\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Burnout"
-            },
-            {
-              "id": "o1",
-              "text": "Balance"
-            },
-            {
-              "id": "o2",
-              "text": "Burnout"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I175",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Resilience",
-              "right": "The capacity to recover quickly from difficulties"
-            },
-            {
-              "id": "p1",
-              "left": "Balance",
-              "right": "An even distribution of weight enabling someone or something to remain upright"
-            },
-            {
-              "id": "p2",
-              "left": "Efficiency",
-              "right": "The state or quality of being efficient"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I176",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I wish I (have) ________ more free time.",
-          "correct_answer": "had",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I177",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Tak regular breaks can help prevent burnout.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I178",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "work"
-            },
-            {
-              "id": "w3",
-              "text": "set"
-            },
-            {
-              "id": "w0",
-              "text": "It's"
-            },
-            {
-              "id": "w1",
-              "text": "important"
-            },
-            {
-              "id": "w5",
-              "text": "boundaries"
-            },
-            {
-              "id": "w4",
-              "text": "clear"
-            },
-            {
-              "id": "w6",
-              "text": "between"
-            },
-            {
-              "id": "w8",
-              "text": "and"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w9",
-              "text": "home"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I179",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He finds a lot of fulfillment in his volunteer work.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I180",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Satisfaction or happiness as a result of fully developing one's abilities\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Schedule"
-            },
-            {
-              "id": "o1",
-              "text": "Fulfillment"
-            },
-            {
-              "id": "o2",
-              "text": "Leisure"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I181",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Efficiency",
-              "right": "The state or quality of being efficient"
-            },
-            {
-              "id": "p1",
-              "left": "Balance",
-              "right": "An even distribution of weight enabling someone or something to remain upright"
-            },
-            {
-              "id": "p2",
-              "left": "Boundary",
-              "right": "A limit or space that separates two things"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I182",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I wish you (be/not) ________ so busy all the time.",
-          "correct_answer": "weren't",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I183",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a good work-life balance is essential for happiness.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I184",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "time"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w4",
-              "text": "leisure"
-            },
-            {
-              "id": "w3",
-              "text": "our"
-            },
-            {
-              "id": "w1",
-              "text": "should"
-            },
-            {
-              "id": "w8",
-              "text": "we"
-            },
-            {
-              "id": "w2",
-              "text": "spend"
-            },
-            {
-              "id": "w6",
-              "text": "doing"
-            },
-            {
-              "id": "w9",
-              "text": "enjoy"
-            },
-            {
-              "id": "w7",
-              "text": "things"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I185",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We should spend our leisure time doing things we enjoy.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I186",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An even distribution of weight enabling someone or something to remain upright\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Boundary"
-            },
-            {
-              "id": "o1",
-              "text": "Balance"
-            },
-            {
-              "id": "o3",
-              "text": "Productivity"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I187",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Fulfillment",
-              "right": "Satisfaction or happiness as a result of fully developing one's abilities"
-            },
-            {
-              "id": "p1",
-              "left": "Schedule",
-              "right": "A plan for carrying out a process or procedure"
-            },
-            {
-              "id": "p2",
-              "left": "Burnout",
-              "right": "Physical or mental collapse caused by overwork"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I188",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I wish she (tell) ________ me the truth.",
-          "correct_answer": "would tell",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I189",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Employee well-be is a priority for the company.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I190",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w1",
-              "text": "efficiency"
-            },
-            {
-              "id": "w0",
-              "text": "Improving"
-            },
-            {
-              "id": "w7",
-              "text": "working"
-            },
-            {
-              "id": "w8",
-              "text": "day"
-            },
-            {
-              "id": "w6",
-              "text": "shorter"
-            },
-            {
-              "id": "w3",
-              "text": "lead"
-            },
-            {
-              "id": "w2",
-              "text": "can"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I191",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Taking regular breaks can help prevent burnout.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I192",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The capacity to recover quickly from difficulties\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Prioritize"
-            },
-            {
-              "id": "o3",
-              "text": "Burnout"
-            },
-            {
-              "id": "o1",
-              "text": "Resilience"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I193",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Well-being",
-              "right": "The state of being comfortable, healthy, or happy"
-            },
-            {
-              "id": "p1",
-              "left": "Stress",
-              "right": "A state of mental or emotional strain or tension"
-            },
-            {
-              "id": "p2",
-              "left": "Prioritize",
-              "right": "Designate or treat as being very or most important"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I194",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I wish she (tell) ________ me the truth.",
-          "correct_answer": "would tell",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I195",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Job flexibility is very important to many employees.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I196",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "clear"
-            },
-            {
-              "id": "w0",
-              "text": "It's"
-            },
-            {
-              "id": "w3",
-              "text": "set"
-            },
-            {
-              "id": "w6",
-              "text": "between"
-            },
-            {
-              "id": "w1",
-              "text": "important"
-            },
-            {
-              "id": "w5",
-              "text": "boundaries"
-            },
-            {
-              "id": "w8",
-              "text": "and"
-            },
-            {
-              "id": "w9",
-              "text": "home"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w7",
-              "text": "work"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I197",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Employee well-being is a priority for the company.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U29_I198",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A limit or space that separates two things\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Leisure"
-            },
-            {
-              "id": "o2",
-              "text": "Fulfillment"
-            },
-            {
-              "id": "o1",
-              "text": "Boundary"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I199",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Flexibility",
-              "right": "The quality of bending easily without breaking"
-            },
-            {
-              "id": "p1",
-              "left": "Burnout",
-              "right": "Physical or mental collapse caused by overwork or stress"
-            },
-            {
-              "id": "p2",
-              "left": "Leisure",
-              "right": "Time when one is not working or occupied"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I200",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I wish it (be) ________ the weekend already.",
-          "correct_answer": "were",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
         }
       ]
     }

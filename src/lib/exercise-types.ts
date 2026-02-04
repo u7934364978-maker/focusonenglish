@@ -1365,6 +1365,8 @@ export interface Question {
   correctAnswer: string | string[];
   acceptableAnswers?: string[];
   explanation?: string;
+  baseWord?: string;
+  hint?: string;
   adaptiveFeedback?: {
     hints: string[];
     remediationText: string;
@@ -1490,18 +1492,19 @@ export interface ListeningExercise {
   id: string;
   type: 'listening';
   title: string;
-  audioUrl: string;
+  audioUrl?: string;
   transcript?: string;
   structuredTranscript?: TranscriptSentence[];
-  duration: number;
+  duration?: number;
   questions: Question[];
-  allowReplay: boolean;
+  allowReplay?: boolean;
   maxReplays?: number;
+  explanation?: string;
 }
 
 export interface ReadingExercise {
   id: string;
-  type: 'reading';
+  type: 'reading' | 'reading-comprehension';
   title: string;
   text?: string;
   readingText?: string;
@@ -1510,6 +1513,7 @@ export interface ReadingExercise {
   readingTime?: number;
   questions: Question[];
   vocabularyHelp?: { word: string; definition: string }[];
+  explanation?: string;
 }
 
 export interface WritingExercise {
@@ -1532,7 +1536,7 @@ export interface WritingExercise {
 
 export interface GrammarExercise {
   id: string;
-  type: 'grammar';
+  type: 'grammar' | 'writing-analysis' | 'speaking-analysis';
   title: string;
   instructions?: string;
   grammarPoint?: string;
@@ -1543,7 +1547,7 @@ export interface GrammarExercise {
 
 export interface VocabularyExercise {
   id: string;
-  type: 'vocabulary';
+  type: 'vocabulary' | 'writing-analysis' | 'speaking-analysis';
   title: string;
   instructions?: string;
   explanation?: string;
@@ -1633,8 +1637,10 @@ export interface KeyWordTransformationExercise {
   id: string;
   type: 'key-word-transformation' | 'key-word-transformations';
   title: string;
-  instructions: string;
-  transformations: KeyWordTransformation[];
+  instructions?: string;
+  transformations?: KeyWordTransformation[];
+  questions?: (KeyWordTransformation | Question)[];
+  explanation?: string;
 }
 
 export interface WordFormation extends Partial<Question> {
@@ -1642,7 +1648,7 @@ export interface WordFormation extends Partial<Question> {
   type: 'word-formation';
   question: string;
   gapNumber?: number;
-  baseWord: string;
+  baseWord?: string;
   correctAnswer: string;
   acceptableAnswers?: string[];
   explanation: string;
@@ -1656,10 +1662,10 @@ export interface WordFormationExercise {
   id: string;
   type: 'word-formation';
   title: string;
-  instructions: string;
+  instructions?: string;
   explanation?: string;
   text?: string;
-  questions: WordFormation[];
+  questions: (WordFormation | Question)[];
   focusAreas?: string[];
 }
 
@@ -1676,9 +1682,11 @@ export interface MultipleChoiceClozeExercise {
   id: string;
   type: 'multiple-choice-cloze';
   title: string;
-  instructions: string;
+  instructions?: string;
+  explanation?: string;
+  grammarPoint?: string;
   text: string;
-  questions: ClozeQuestion[];
+  questions: (ClozeQuestion | Question)[];
 }
 
 export interface SentenceCompletionExercise {
@@ -1808,8 +1816,10 @@ export interface OpenClozeExercise {
   id: string;
   type: 'open-cloze';
   title: string;
-  instructions: string;
-  text: string;
+  instructions?: string;
+  text?: string;
+  questions?: (ClozeQuestion | Question)[];
+  explanation?: string;
 }
 
 export interface SentenceOrderingExercise {

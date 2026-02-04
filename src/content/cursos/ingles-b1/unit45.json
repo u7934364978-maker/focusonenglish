@@ -1,0 +1,2662 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "U45",
+    "unit_title": "Literature and Storytelling",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [
+    "Understand and use B1 Literature and Storytelling vocabulary",
+    "Apply B1 grammar structures in context",
+    "Develop communicative competence"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "syntax",
+    "communication"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1_UNIT_45_PRACTICE",
+      "title": "B1 Practice: Literature and Storytelling",
+      "duration_minutes": 600,
+      "content": [
+        {
+          "interaction_id": "U45_I1",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Research",
+              "right": "The systematic investigation into literature storytelling"
+            },
+            {
+              "id": "p1",
+              "left": "Solution",
+              "right": "A way to solve a problem related to literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "Fundamentals",
+              "right": "The basic principles of literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (study) ________ literature storytelling lately.",
+          "correct_answer": "have been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a solution to this literature storytelling problem is our main priority.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "has"
+            },
+            {
+              "id": "w6",
+              "text": "led"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w9",
+              "text": "new"
+            },
+            {
+              "id": "w10",
+              "text": "discoveries"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w3",
+              "text": "literature"
+            },
+            {
+              "id": "w8",
+              "text": "many"
+            },
+            {
+              "id": "w4",
+              "text": "storytelling"
+            },
+            {
+              "id": "w1",
+              "text": "research"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We face many challenges when studying the complexities of literature storytelling.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A high level of knowledge in literature storytelling\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Advanced"
+            },
+            {
+              "id": "o3",
+              "text": "literature storytelling specialist"
+            },
+            {
+              "id": "o2",
+              "text": "Solution"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I7",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "literature storytelling specialist",
+              "right": "An expert in the field of literature storytelling"
+            },
+            {
+              "id": "p1",
+              "left": "Fundamentals",
+              "right": "The basic principles of literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "Solution",
+              "right": "A way to solve a problem related to literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about literature storytelling in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has been a specialist literature in storytelling for over ten years.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "daily"
+            },
+            {
+              "id": "w9",
+              "text": "is"
+            },
+            {
+              "id": "w10",
+              "text": "significant"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "impact"
+            },
+            {
+              "id": "w3",
+              "text": "literature"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "our"
+            },
+            {
+              "id": "w8",
+              "text": "lives"
+            },
+            {
+              "id": "w5",
+              "text": "on"
+            },
+            {
+              "id": "w4",
+              "text": "storytelling"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Learning about literature storytelling is a great way to expand your horizons.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A new idea or method in literature storytelling\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Practice"
+            },
+            {
+              "id": "o1",
+              "text": "Innovation"
+            },
+            {
+              "id": "o3",
+              "text": "Challenge"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Research",
+              "right": "The systematic investigation into literature storytelling"
+            },
+            {
+              "id": "p1",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "Solution",
+              "right": "A way to solve a problem related to literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (visit) ________ a museum about literature storytelling tomorrow.",
+          "correct_answer": "are visiting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has been a specialist literature in storytelling for over ten years.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "literature"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "challenges"
+            },
+            {
+              "id": "w4",
+              "text": "when"
+            },
+            {
+              "id": "w1",
+              "text": "face"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w7",
+              "text": "complexities"
+            },
+            {
+              "id": "w10",
+              "text": "storytelling"
+            },
+            {
+              "id": "w5",
+              "text": "studying"
+            },
+            {
+              "id": "w8",
+              "text": "of"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He has been a specialist in literature storytelling for over ten years.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I18",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The application of literature storytelling in real life\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Impact"
+            },
+            {
+              "id": "o1",
+              "text": "Practice"
+            },
+            {
+              "id": "o2",
+              "text": "Research"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "literature storytelling specialist",
+              "right": "An expert in the field of literature storytelling"
+            },
+            {
+              "id": "p1",
+              "left": "Solution",
+              "right": "A way to solve a problem related to literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "Fundamentals",
+              "right": "The basic principles of literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Have you ever (hear) ________ of literature storytelling?",
+          "correct_answer": "heard",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There many are different theories about how literature storytelling works.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "many"
+            },
+            {
+              "id": "w5",
+              "text": "has"
+            },
+            {
+              "id": "w7",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "led"
+            },
+            {
+              "id": "w9",
+              "text": "new"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w10",
+              "text": "discoveries"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "storytelling"
+            },
+            {
+              "id": "w3",
+              "text": "literature"
+            },
+            {
+              "id": "w1",
+              "text": "research"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Learning about literature storytelling is a great way to expand your horizons.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A new idea or method in literature storytelling\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Innovation"
+            },
+            {
+              "id": "o2",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o3",
+              "text": "Practice"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I25",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Challenge",
+              "right": "A difficult task in the context of literature storytelling"
+            },
+            {
+              "id": "p1",
+              "left": "Fundamentals",
+              "right": "The basic principles of literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "Advanced",
+              "right": "A high level of knowledge in literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (discuss) ________ literature storytelling when I arrived.",
+          "correct_answer": "were discussing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a solution to this literature storytelling problem our is main priority.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w10",
+              "text": "your"
+            },
+            {
+              "id": "w2",
+              "text": "literature"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "storytelling"
+            },
+            {
+              "id": "w0",
+              "text": "Learning"
+            },
+            {
+              "id": "w11",
+              "text": "horizons"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "great"
+            },
+            {
+              "id": "w9",
+              "text": "expand"
+            },
+            {
+              "id": "w8",
+              "text": "to"
+            },
+            {
+              "id": "w7",
+              "text": "way"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Learning about literature storytelling is a great way to expand your horizons.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A high level of knowledge in literature storytelling\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Advanced"
+            },
+            {
+              "id": "o3",
+              "text": "Solution"
+            },
+            {
+              "id": "o2",
+              "text": "Practice"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "literature storytelling specialist",
+              "right": "An expert in the field of literature storytelling"
+            },
+            {
+              "id": "p1",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "Innovation",
+              "right": "A new idea or method in literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ interested in literature storytelling since he was a child.",
+          "correct_answer": "has been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Learning about literature storytelling is a great to way expand your horizons.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "find"
+            },
+            {
+              "id": "w6",
+              "text": "be"
+            },
+            {
+              "id": "w3",
+              "text": "literature"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "people"
+            },
+            {
+              "id": "w8",
+              "text": "challenging"
+            },
+            {
+              "id": "w9",
+              "text": "but"
+            },
+            {
+              "id": "w0",
+              "text": "Many"
+            },
+            {
+              "id": "w11",
+              "text": "subject"
+            },
+            {
+              "id": "w10",
+              "text": "rewarding"
+            },
+            {
+              "id": "w4",
+              "text": "storytelling"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We are going to explore the fundamentals of literature storytelling in this unit.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The systematic investigation into literature storytelling\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o1",
+              "text": "Research"
+            },
+            {
+              "id": "o3",
+              "text": "Innovation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Practice",
+              "right": "The application of literature storytelling in real life"
+            },
+            {
+              "id": "p1",
+              "left": "Solution",
+              "right": "A way to solve a problem related to literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "Challenge",
+              "right": "A difficult task in the context of literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (study) ________ literature storytelling lately.",
+          "correct_answer": "have been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Putting the theory literature of storytelling into practice can be difficult.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "be"
+            },
+            {
+              "id": "w2",
+              "text": "theory"
+            },
+            {
+              "id": "w10",
+              "text": "difficult"
+            },
+            {
+              "id": "w0",
+              "text": "Putting"
+            },
+            {
+              "id": "w7",
+              "text": "practice"
+            },
+            {
+              "id": "w4",
+              "text": "literature"
+            },
+            {
+              "id": "w6",
+              "text": "into"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w8",
+              "text": "can"
+            },
+            {
+              "id": "w5",
+              "text": "storytelling"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"There are many different theories about how literature storytelling works.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A system of ideas intended to explain literature storytelling\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Theory"
+            },
+            {
+              "id": "o2",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o3",
+              "text": "Solution"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Practice",
+              "right": "The application of literature storytelling in real life"
+            },
+            {
+              "id": "p1",
+              "left": "Solution",
+              "right": "A way to solve a problem related to literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "Fundamentals",
+              "right": "The basic principles of literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Have you ever (hear) ________ of literature storytelling?",
+          "correct_answer": "heard",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has been a specialist in literature for storytelling over ten years.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "storytelling"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "challenging"
+            },
+            {
+              "id": "w3",
+              "text": "literature"
+            },
+            {
+              "id": "w11",
+              "text": "subject"
+            },
+            {
+              "id": "w1",
+              "text": "people"
+            },
+            {
+              "id": "w10",
+              "text": "rewarding"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "be"
+            },
+            {
+              "id": "w9",
+              "text": "but"
+            },
+            {
+              "id": "w0",
+              "text": "Many"
+            },
+            {
+              "id": "w2",
+              "text": "find"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The research on literature storytelling has led to many new discoveries.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I48",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A difficult task in the context of literature storytelling\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Research"
+            },
+            {
+              "id": "o1",
+              "text": "Challenge"
+            },
+            {
+              "id": "o3",
+              "text": "Practice"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I49",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advanced",
+              "right": "A high level of knowledge in literature storytelling"
+            },
+            {
+              "id": "p1",
+              "left": "Research",
+              "right": "The systematic investigation into literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "literature storytelling specialist",
+              "right": "An expert in the field of literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I50",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (know/not) ________ much about literature storytelling yet.",
+          "correct_answer": "doesn't know",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The impact of literature storytell on our daily lives is significant.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "impact"
+            },
+            {
+              "id": "w8",
+              "text": "lives"
+            },
+            {
+              "id": "w3",
+              "text": "literature"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w5",
+              "text": "on"
+            },
+            {
+              "id": "w4",
+              "text": "storytelling"
+            },
+            {
+              "id": "w7",
+              "text": "daily"
+            },
+            {
+              "id": "w10",
+              "text": "significant"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "our"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He has been a specialist in literature storytelling for over ten years.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The systematic investigation into literature storytelling\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Impact"
+            },
+            {
+              "id": "o2",
+              "text": "literature storytelling specialist"
+            },
+            {
+              "id": "o1",
+              "text": "Research"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Impact",
+              "right": "The effect of literature storytelling on society"
+            },
+            {
+              "id": "p1",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "Practice",
+              "right": "The application of literature storytelling in real life"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I56",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about literature storytelling in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We are going to explore the fundamentals of literature storytelling in unit. this\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "literature"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w9",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "storytelling"
+            },
+            {
+              "id": "w7",
+              "text": "daily"
+            },
+            {
+              "id": "w1",
+              "text": "impact"
+            },
+            {
+              "id": "w8",
+              "text": "lives"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "our"
+            },
+            {
+              "id": "w5",
+              "text": "on"
+            },
+            {
+              "id": "w10",
+              "text": "significant"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I59",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The impact of literature storytelling on our daily lives is significant.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A way to solve a problem related to literature storytelling\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Research"
+            },
+            {
+              "id": "o3",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o1",
+              "text": "Solution"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I61",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advanced",
+              "right": "A high level of knowledge in literature storytelling"
+            },
+            {
+              "id": "p1",
+              "left": "Fundamentals",
+              "right": "The basic principles of literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "Solution",
+              "right": "A way to solve a problem related to literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Have you ever (hear) ________ of literature storytelling?",
+          "correct_answer": "heard",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We are going to explore the fundamentals of literature storytelling in unit. this\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "but"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "literature"
+            },
+            {
+              "id": "w11",
+              "text": "subject"
+            },
+            {
+              "id": "w1",
+              "text": "people"
+            },
+            {
+              "id": "w4",
+              "text": "storytelling"
+            },
+            {
+              "id": "w10",
+              "text": "rewarding"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "Many"
+            },
+            {
+              "id": "w6",
+              "text": "be"
+            },
+            {
+              "id": "w8",
+              "text": "challenging"
+            },
+            {
+              "id": "w2",
+              "text": "find"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The impact of literature storytelling on our daily lives is significant.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An expert in the field of literature storytelling\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "literature storytelling specialist"
+            },
+            {
+              "id": "o3",
+              "text": "Challenge"
+            },
+            {
+              "id": "o2",
+              "text": "Impact"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Practice",
+              "right": "The application of literature storytelling in real life"
+            },
+            {
+              "id": "p1",
+              "left": "Impact",
+              "right": "The effect of literature storytelling on society"
+            },
+            {
+              "id": "p2",
+              "left": "Fundamentals",
+              "right": "The basic principles of literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I68",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about literature storytelling in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We are going to explore the fundamentals of literature storytelling in this unit.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w7",
+              "text": "storytelling"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w8",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w11",
+              "text": "years"
+            },
+            {
+              "id": "w10",
+              "text": "ten"
+            },
+            {
+              "id": "w9",
+              "text": "over"
+            },
+            {
+              "id": "w4",
+              "text": "specialist"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "literature"
+            },
+            {
+              "id": "w2",
+              "text": "been"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many people find literature storytelling to be a challenging but rewarding subject.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I72",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A system of ideas intended to explain literature storytelling\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Challenge"
+            },
+            {
+              "id": "o1",
+              "text": "Theory"
+            },
+            {
+              "id": "o3",
+              "text": "Advanced"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain literature storytelling"
+            },
+            {
+              "id": "p1",
+              "left": "literature storytelling specialist",
+              "right": "An expert in the field of literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "Research",
+              "right": "The systematic investigation into literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ interested in literature storytelling since he was a child.",
+          "correct_answer": "has been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Many people find literature storytelling to be a challenging but rewarding subject.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "into"
+            },
+            {
+              "id": "w9",
+              "text": "be"
+            },
+            {
+              "id": "w5",
+              "text": "storytelling"
+            },
+            {
+              "id": "w7",
+              "text": "practice"
+            },
+            {
+              "id": "w8",
+              "text": "can"
+            },
+            {
+              "id": "w2",
+              "text": "theory"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "literature"
+            },
+            {
+              "id": "w0",
+              "text": "Putting"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w10",
+              "text": "difficult"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We are going to explore the fundamentals of literature storytelling in this unit.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A new idea or method in literature storytelling\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Practice"
+            },
+            {
+              "id": "o1",
+              "text": "Innovation"
+            },
+            {
+              "id": "o3",
+              "text": "Advanced"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "literature storytelling specialist",
+              "right": "An expert in the field of literature storytelling"
+            },
+            {
+              "id": "p1",
+              "left": "Challenge",
+              "right": "A difficult task in the context of literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "Advanced",
+              "right": "A high level of knowledge in literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about literature storytelling in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There are many different theories about how literature storytelling works.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "theory"
+            },
+            {
+              "id": "w9",
+              "text": "be"
+            },
+            {
+              "id": "w8",
+              "text": "can"
+            },
+            {
+              "id": "w0",
+              "text": "Putting"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "practice"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w5",
+              "text": "storytelling"
+            },
+            {
+              "id": "w10",
+              "text": "difficult"
+            },
+            {
+              "id": "w4",
+              "text": "literature"
+            },
+            {
+              "id": "w6",
+              "text": "into"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I83",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many people find literature storytelling to be a challenging but rewarding subject.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A high level of knowledge in literature storytelling\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o1",
+              "text": "Advanced"
+            },
+            {
+              "id": "o3",
+              "text": "Research"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I85",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Solution",
+              "right": "A way to solve a problem related to literature storytelling"
+            },
+            {
+              "id": "p1",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "literature storytelling specialist",
+              "right": "An expert in the field of literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (discuss) ________ literature storytelling when I arrived.",
+          "correct_answer": "were discussing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We are going to explore the fundamentals of literature storytelling in this unit.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w4",
+              "text": "when"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w5",
+              "text": "studying"
+            },
+            {
+              "id": "w10",
+              "text": "storytelling"
+            },
+            {
+              "id": "w7",
+              "text": "complexities"
+            },
+            {
+              "id": "w1",
+              "text": "face"
+            },
+            {
+              "id": "w3",
+              "text": "challenges"
+            },
+            {
+              "id": "w8",
+              "text": "of"
+            },
+            {
+              "id": "w9",
+              "text": "literature"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Finding a solution to this literature storytelling problem is our main priority.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I90",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The effect of literature storytelling on society\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o3",
+              "text": "Theory"
+            },
+            {
+              "id": "o1",
+              "text": "Impact"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Research",
+              "right": "The systematic investigation into literature storytelling"
+            },
+            {
+              "id": "p1",
+              "left": "Fundamentals",
+              "right": "The basic principles of literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "literature storytelling specialist",
+              "right": "An expert in the field of literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Have you ever (hear) ________ of literature storytelling?",
+          "correct_answer": "heard",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There are many different theories about how storytelling literature works.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "storytelling"
+            },
+            {
+              "id": "w10",
+              "text": "discoveries"
+            },
+            {
+              "id": "w6",
+              "text": "led"
+            },
+            {
+              "id": "w1",
+              "text": "research"
+            },
+            {
+              "id": "w8",
+              "text": "many"
+            },
+            {
+              "id": "w3",
+              "text": "literature"
+            },
+            {
+              "id": "w9",
+              "text": "new"
+            },
+            {
+              "id": "w5",
+              "text": "has"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U45_I95",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"There are many different theories about how literature storytelling works.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U45_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The systematic investigation into literature storytelling\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Impact"
+            },
+            {
+              "id": "o1",
+              "text": "Research"
+            },
+            {
+              "id": "o2",
+              "text": "Challenge"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I97",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Solution",
+              "right": "A way to solve a problem related to literature storytelling"
+            },
+            {
+              "id": "p1",
+              "left": "Innovation",
+              "right": "A new idea or method in literature storytelling"
+            },
+            {
+              "id": "p2",
+              "left": "Research",
+              "right": "The systematic investigation into literature storytelling"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (visit) ________ a museum about literature storytelling tomorrow.",
+          "correct_answer": "are visiting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Putting the theory of literature storytelling into practice can be difficult.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "daily"
+            },
+            {
+              "id": "w9",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "our"
+            },
+            {
+              "id": "w8",
+              "text": "lives"
+            },
+            {
+              "id": "w3",
+              "text": "literature"
+            },
+            {
+              "id": "w1",
+              "text": "impact"
+            },
+            {
+              "id": "w5",
+              "text": "on"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w10",
+              "text": "significant"
+            },
+            {
+              "id": "w4",
+              "text": "storytelling"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

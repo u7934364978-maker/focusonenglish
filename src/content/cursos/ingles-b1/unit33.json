@@ -1,0 +1,2772 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "U33",
+    "unit_title": "Extreme Sports and Adventure",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [
+    "Understand and use B1 Extreme Sports and Adventure vocabulary",
+    "Apply B1 grammar structures in context",
+    "Develop communicative competence"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "syntax",
+    "communication"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1_UNIT_33_PRACTICE",
+      "title": "B1 Practice: Extreme Sports and Adventure",
+      "duration_minutes": 600,
+      "content": [
+        {
+          "interaction_id": "U33_I1",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Solution",
+              "right": "A way to solve a problem related to extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "Impact",
+              "right": "The effect of extreme sports adventure on society"
+            },
+            {
+              "id": "p2",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain extreme sports adventure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (study) ________ extreme sports adventure lately.",
+          "correct_answer": "have been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The research on extreme sports adventure has to led many new discoveries.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w10",
+              "text": "expand"
+            },
+            {
+              "id": "w7",
+              "text": "great"
+            },
+            {
+              "id": "w0",
+              "text": "Learning"
+            },
+            {
+              "id": "w11",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "adventure"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "extreme"
+            },
+            {
+              "id": "w8",
+              "text": "way"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "sports"
+            },
+            {
+              "id": "w12",
+              "text": "horizons"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many people find extreme sports adventure to be a challenging but rewarding subject.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A way to solve a problem related to extreme sports adventure\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o1",
+              "text": "Solution"
+            },
+            {
+              "id": "o3",
+              "text": "Challenge"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I7",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Impact",
+              "right": "The effect of extreme sports adventure on society"
+            },
+            {
+              "id": "p1",
+              "left": "Practice",
+              "right": "The application of extreme sports adventure in real life"
+            },
+            {
+              "id": "p2",
+              "left": "extreme sports adventure specialist",
+              "right": "An expert in the field of extreme sports adventure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (visit) ________ a museum about extreme sports adventure tomorrow.",
+          "correct_answer": "are visiting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We face many challenges when studying the complexities extreme of sports adventure.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "of"
+            },
+            {
+              "id": "w5",
+              "text": "studying"
+            },
+            {
+              "id": "w4",
+              "text": "when"
+            },
+            {
+              "id": "w10",
+              "text": "sports"
+            },
+            {
+              "id": "w11",
+              "text": "adventure"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w1",
+              "text": "face"
+            },
+            {
+              "id": "w7",
+              "text": "complexities"
+            },
+            {
+              "id": "w9",
+              "text": "extreme"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "challenges"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We face many challenges when studying the complexities of extreme sports adventure.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The application of extreme sports adventure in real life\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Practice"
+            },
+            {
+              "id": "o2",
+              "text": "extreme sports adventure specialist"
+            },
+            {
+              "id": "o3",
+              "text": "Challenge"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Impact",
+              "right": "The effect of extreme sports adventure on society"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in extreme sports adventure"
+            },
+            {
+              "id": "p2",
+              "left": "Practice",
+              "right": "The application of extreme sports adventure in real life"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (discuss) ________ extreme sports adventure when I arrived.",
+          "correct_answer": "were discussing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Putting the theory of extreme sports adventure into practice can be difficult.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "extreme"
+            },
+            {
+              "id": "w12",
+              "text": "priority"
+            },
+            {
+              "id": "w7",
+              "text": "adventure"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w11",
+              "text": "main"
+            },
+            {
+              "id": "w8",
+              "text": "problem"
+            },
+            {
+              "id": "w10",
+              "text": "our"
+            },
+            {
+              "id": "w4",
+              "text": "this"
+            },
+            {
+              "id": "w2",
+              "text": "solution"
+            },
+            {
+              "id": "w9",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Finding"
+            },
+            {
+              "id": "w6",
+              "text": "sports"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many people find extreme sports adventure to be a challenging but rewarding subject.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I18",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The effect of extreme sports adventure on society\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o1",
+              "text": "Impact"
+            },
+            {
+              "id": "o3",
+              "text": "Advanced"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Practice",
+              "right": "The application of extreme sports adventure in real life"
+            },
+            {
+              "id": "p1",
+              "left": "Fundamentals",
+              "right": "The basic principles of extreme sports adventure"
+            },
+            {
+              "id": "p2",
+              "left": "Challenge",
+              "right": "A difficult task in the context of extreme sports adventure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (study) ________ extreme sports adventure lately.",
+          "correct_answer": "have been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Many people extreme find sports adventure to be a challenging but rewarding subject.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "can"
+            },
+            {
+              "id": "w0",
+              "text": "Putting"
+            },
+            {
+              "id": "w4",
+              "text": "extreme"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w11",
+              "text": "difficult"
+            },
+            {
+              "id": "w8",
+              "text": "practice"
+            },
+            {
+              "id": "w10",
+              "text": "be"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "sports"
+            },
+            {
+              "id": "w2",
+              "text": "theory"
+            },
+            {
+              "id": "w7",
+              "text": "into"
+            },
+            {
+              "id": "w6",
+              "text": "adventure"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The research on extreme sports adventure has led to many new discoveries.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I24",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A system of ideas intended to explain extreme sports adventure\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Advanced"
+            },
+            {
+              "id": "o1",
+              "text": "Theory"
+            },
+            {
+              "id": "o2",
+              "text": "Research"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I25",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Challenge",
+              "right": "A difficult task in the context of extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "Practice",
+              "right": "The application of extreme sports adventure in real life"
+            },
+            {
+              "id": "p2",
+              "left": "Innovation",
+              "right": "A new idea or method in extreme sports adventure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I think extreme sports adventure (be) ________ very important for the future.",
+          "correct_answer": "is",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a solution to this extreme sports adventure problem our is main priority.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "how"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w3",
+              "text": "different"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w7",
+              "text": "extreme"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w10",
+              "text": "works"
+            },
+            {
+              "id": "w9",
+              "text": "adventure"
+            },
+            {
+              "id": "w4",
+              "text": "theories"
+            },
+            {
+              "id": "w8",
+              "text": "sports"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"There are many different theories about how extreme sports adventure works.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A new idea or method in extreme sports adventure\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Practice"
+            },
+            {
+              "id": "o1",
+              "text": "Innovation"
+            },
+            {
+              "id": "o2",
+              "text": "extreme sports adventure specialist"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "extreme sports adventure specialist",
+              "right": "An expert in the field of extreme sports adventure"
+            },
+            {
+              "id": "p2",
+              "left": "Advanced",
+              "right": "A high level of knowledge in extreme sports adventure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Have you ever (hear) ________ of extreme sports adventure?",
+          "correct_answer": "heard",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a to solution this extreme sports adventure problem is our main priority.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w10",
+              "text": "expand"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "extreme"
+            },
+            {
+              "id": "w8",
+              "text": "way"
+            },
+            {
+              "id": "w0",
+              "text": "Learning"
+            },
+            {
+              "id": "w9",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w3",
+              "text": "sports"
+            },
+            {
+              "id": "w11",
+              "text": "your"
+            },
+            {
+              "id": "w12",
+              "text": "horizons"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "great"
+            },
+            {
+              "id": "w4",
+              "text": "adventure"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Putting the theory of extreme sports adventure into practice can be difficult.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I36",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"An expert in the field of extreme sports adventure\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o3",
+              "text": "Research"
+            },
+            {
+              "id": "o1",
+              "text": "extreme sports adventure specialist"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Challenge",
+              "right": "A difficult task in the context of extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "Impact",
+              "right": "The effect of extreme sports adventure on society"
+            },
+            {
+              "id": "p2",
+              "left": "extreme sports adventure specialist",
+              "right": "An expert in the field of extreme sports adventure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I38",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (know/not) ________ much about extreme sports adventure yet.",
+          "correct_answer": "doesn't know",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a solution to this extreme sports adventure problem our is main priority.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "extreme"
+            },
+            {
+              "id": "w6",
+              "text": "fundamentals"
+            },
+            {
+              "id": "w11",
+              "text": "in"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w10",
+              "text": "adventure"
+            },
+            {
+              "id": "w12",
+              "text": "this"
+            },
+            {
+              "id": "w4",
+              "text": "explore"
+            },
+            {
+              "id": "w13",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "sports"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Putting the theory of extreme sports adventure into practice can be difficult.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The application of extreme sports adventure in real life\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Theory"
+            },
+            {
+              "id": "o3",
+              "text": "extreme sports adventure specialist"
+            },
+            {
+              "id": "o1",
+              "text": "Practice"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Challenge",
+              "right": "A difficult task in the context of extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in extreme sports adventure"
+            },
+            {
+              "id": "p2",
+              "left": "Impact",
+              "right": "The effect of extreme sports adventure on society"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (visit) ________ a museum about extreme sports adventure tomorrow.",
+          "correct_answer": "are visiting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Many people find extreme sports adventure to be a challenging but rewarding subject.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "face"
+            },
+            {
+              "id": "w4",
+              "text": "when"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w8",
+              "text": "of"
+            },
+            {
+              "id": "w9",
+              "text": "extreme"
+            },
+            {
+              "id": "w10",
+              "text": "sports"
+            },
+            {
+              "id": "w5",
+              "text": "studying"
+            },
+            {
+              "id": "w7",
+              "text": "complexities"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w11",
+              "text": "adventure"
+            },
+            {
+              "id": "w3",
+              "text": "challenges"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many people find extreme sports adventure to be a challenging but rewarding subject.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I48",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A system of ideas intended to explain extreme sports adventure\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Theory"
+            },
+            {
+              "id": "o3",
+              "text": "Innovation"
+            },
+            {
+              "id": "o2",
+              "text": "Advanced"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I49",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "Challenge",
+              "right": "A difficult task in the context of extreme sports adventure"
+            },
+            {
+              "id": "p2",
+              "left": "Advanced",
+              "right": "A high level of knowledge in extreme sports adventure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (study) ________ extreme sports adventure lately.",
+          "correct_answer": "have been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has been a specialist in extreme sports adventure for over ten years.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w7",
+              "text": "adventure"
+            },
+            {
+              "id": "w12",
+              "text": "priority"
+            },
+            {
+              "id": "w8",
+              "text": "problem"
+            },
+            {
+              "id": "w6",
+              "text": "sports"
+            },
+            {
+              "id": "w0",
+              "text": "Finding"
+            },
+            {
+              "id": "w9",
+              "text": "is"
+            },
+            {
+              "id": "w11",
+              "text": "main"
+            },
+            {
+              "id": "w10",
+              "text": "our"
+            },
+            {
+              "id": "w5",
+              "text": "extreme"
+            },
+            {
+              "id": "w2",
+              "text": "solution"
+            },
+            {
+              "id": "w4",
+              "text": "this"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He has been a specialist in extreme sports adventure for over ten years.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A system of ideas intended to explain extreme sports adventure\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Theory"
+            },
+            {
+              "id": "o3",
+              "text": "Innovation"
+            },
+            {
+              "id": "o2",
+              "text": "Fundamentals"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in extreme sports adventure"
+            },
+            {
+              "id": "p2",
+              "left": "Innovation",
+              "right": "A new idea or method in extreme sports adventure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I56",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (study) ________ extreme sports adventure lately.",
+          "correct_answer": "have been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Putting the theory of extreme sports adventure into practice can be difficult.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "extreme"
+            },
+            {
+              "id": "w2",
+              "text": "been"
+            },
+            {
+              "id": "w11",
+              "text": "ten"
+            },
+            {
+              "id": "w7",
+              "text": "sports"
+            },
+            {
+              "id": "w9",
+              "text": "for"
+            },
+            {
+              "id": "w4",
+              "text": "specialist"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w12",
+              "text": "years"
+            },
+            {
+              "id": "w10",
+              "text": "over"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w8",
+              "text": "adventure"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I59",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many people find extreme sports adventure to be a challenging but rewarding subject.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The application of extreme sports adventure in real life\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Practice"
+            },
+            {
+              "id": "o2",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o3",
+              "text": "Innovation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I61",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fundamentals",
+              "right": "The basic principles of extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "Innovation",
+              "right": "A new idea or method in extreme sports adventure"
+            },
+            {
+              "id": "p2",
+              "left": "Solution",
+              "right": "A way to solve a problem related to extreme sports adventure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I62",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (read/usually) ________ about extreme sports adventure on weekends.",
+          "correct_answer": "usually reads",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Many people find extreme adventure sports to be a challenging but rewarding subject.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "extreme"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "be"
+            },
+            {
+              "id": "w1",
+              "text": "people"
+            },
+            {
+              "id": "w2",
+              "text": "find"
+            },
+            {
+              "id": "w0",
+              "text": "Many"
+            },
+            {
+              "id": "w4",
+              "text": "sports"
+            },
+            {
+              "id": "w5",
+              "text": "adventure"
+            },
+            {
+              "id": "w9",
+              "text": "challenging"
+            },
+            {
+              "id": "w12",
+              "text": "subject"
+            },
+            {
+              "id": "w6",
+              "text": "to"
+            },
+            {
+              "id": "w11",
+              "text": "rewarding"
+            },
+            {
+              "id": "w10",
+              "text": "but"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many people find extreme sports adventure to be a challenging but rewarding subject.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The effect of extreme sports adventure on society\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Impact"
+            },
+            {
+              "id": "o3",
+              "text": "Theory"
+            },
+            {
+              "id": "o2",
+              "text": "Innovation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "extreme sports adventure specialist",
+              "right": "An expert in the field of extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in extreme sports adventure"
+            },
+            {
+              "id": "p2",
+              "left": "Challenge",
+              "right": "A difficult task in the context of extreme sports adventure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I68",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ interested in extreme sports adventure since he was a child.",
+          "correct_answer": "has been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Putting the theory of extreme sports adventure into practice can be difficult.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w12",
+              "text": "years"
+            },
+            {
+              "id": "w7",
+              "text": "sports"
+            },
+            {
+              "id": "w10",
+              "text": "over"
+            },
+            {
+              "id": "w9",
+              "text": "for"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "specialist"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w6",
+              "text": "extreme"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w11",
+              "text": "ten"
+            },
+            {
+              "id": "w8",
+              "text": "adventure"
+            },
+            {
+              "id": "w2",
+              "text": "been"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Putting the theory of extreme sports adventure into practice can be difficult.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I72",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A system of ideas intended to explain extreme sports adventure\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Theory"
+            },
+            {
+              "id": "o3",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o2",
+              "text": "Research"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advanced",
+              "right": "A high level of knowledge in extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "extreme sports adventure specialist",
+              "right": "An expert in the field of extreme sports adventure"
+            },
+            {
+              "id": "p2",
+              "left": "Practice",
+              "right": "The application of extreme sports adventure in real life"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I74",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (know/not) ________ much about extreme sports adventure yet.",
+          "correct_answer": "doesn't know",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has been a specialist in extreme sports adventure for over ten years.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "sports"
+            },
+            {
+              "id": "w6",
+              "text": "on"
+            },
+            {
+              "id": "w10",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "our"
+            },
+            {
+              "id": "w5",
+              "text": "adventure"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w8",
+              "text": "daily"
+            },
+            {
+              "id": "w11",
+              "text": "significant"
+            },
+            {
+              "id": "w3",
+              "text": "extreme"
+            },
+            {
+              "id": "w1",
+              "text": "impact"
+            },
+            {
+              "id": "w9",
+              "text": "lives"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Finding a solution to this extreme sports adventure problem is our main priority.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The systematic investigation into extreme sports adventure\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Research"
+            },
+            {
+              "id": "o2",
+              "text": "Innovation"
+            },
+            {
+              "id": "o3",
+              "text": "Theory"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Research",
+              "right": "The systematic investigation into extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "Practice",
+              "right": "The application of extreme sports adventure in real life"
+            },
+            {
+              "id": "p2",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain extreme sports adventure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about extreme sports adventure in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has been a specialist in extreme sports adventure for over ten years.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "extreme"
+            },
+            {
+              "id": "w7",
+              "text": "led"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w11",
+              "text": "discoveries"
+            },
+            {
+              "id": "w6",
+              "text": "has"
+            },
+            {
+              "id": "w4",
+              "text": "sports"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w5",
+              "text": "adventure"
+            },
+            {
+              "id": "w10",
+              "text": "new"
+            },
+            {
+              "id": "w8",
+              "text": "to"
+            },
+            {
+              "id": "w9",
+              "text": "many"
+            },
+            {
+              "id": "w1",
+              "text": "research"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I83",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He has been a specialist in extreme sports adventure for over ten years.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I84",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The systematic investigation into extreme sports adventure\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o1",
+              "text": "Research"
+            },
+            {
+              "id": "o3",
+              "text": "Advanced"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I85",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Research",
+              "right": "The systematic investigation into extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "extreme sports adventure specialist",
+              "right": "An expert in the field of extreme sports adventure"
+            },
+            {
+              "id": "p2",
+              "left": "Practice",
+              "right": "The application of extreme sports adventure in real life"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (study) ________ extreme sports adventure lately.",
+          "correct_answer": "have been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The research on extreme sports adventure has led to many new discoveries.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "theory"
+            },
+            {
+              "id": "w7",
+              "text": "into"
+            },
+            {
+              "id": "w11",
+              "text": "difficult"
+            },
+            {
+              "id": "w4",
+              "text": "extreme"
+            },
+            {
+              "id": "w9",
+              "text": "can"
+            },
+            {
+              "id": "w5",
+              "text": "sports"
+            },
+            {
+              "id": "w0",
+              "text": "Putting"
+            },
+            {
+              "id": "w8",
+              "text": "practice"
+            },
+            {
+              "id": "w6",
+              "text": "adventure"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w10",
+              "text": "be"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"There are many different theories about how extreme sports adventure works.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I90",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The systematic investigation into extreme sports adventure\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Challenge"
+            },
+            {
+              "id": "o3",
+              "text": "Innovation"
+            },
+            {
+              "id": "o1",
+              "text": "Research"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Challenge",
+              "right": "A difficult task in the context of extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "Impact",
+              "right": "The effect of extreme sports adventure on society"
+            },
+            {
+              "id": "p2",
+              "left": "Fundamentals",
+              "right": "The basic principles of extreme sports adventure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I92",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (know/not) ________ much about extreme sports adventure yet.",
+          "correct_answer": "doesn't know",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The research on extreme sports adventure has to led many new discoveries.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "explore"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "sports"
+            },
+            {
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w13",
+              "text": "unit"
+            },
+            {
+              "id": "w12",
+              "text": "this"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w11",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "fundamentals"
+            },
+            {
+              "id": "w10",
+              "text": "adventure"
+            },
+            {
+              "id": "w8",
+              "text": "extreme"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U33_I95",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Putting the theory of extreme sports adventure into practice can be difficult.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A high level of knowledge in extreme sports adventure\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Advanced"
+            },
+            {
+              "id": "o2",
+              "text": "Innovation"
+            },
+            {
+              "id": "o3",
+              "text": "Challenge"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I97",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fundamentals",
+              "right": "The basic principles of extreme sports adventure"
+            },
+            {
+              "id": "p1",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain extreme sports adventure"
+            },
+            {
+              "id": "p2",
+              "left": "Innovation",
+              "right": "A new idea or method in extreme sports adventure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about extreme sports adventure in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Learn about extreme sports adventure is a great way to expand your horizons.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "can"
+            },
+            {
+              "id": "w8",
+              "text": "practice"
+            },
+            {
+              "id": "w5",
+              "text": "sports"
+            },
+            {
+              "id": "w6",
+              "text": "adventure"
+            },
+            {
+              "id": "w11",
+              "text": "difficult"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "into"
+            },
+            {
+              "id": "w2",
+              "text": "theory"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "extreme"
+            },
+            {
+              "id": "w0",
+              "text": "Putting"
+            },
+            {
+              "id": "w10",
+              "text": "be"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

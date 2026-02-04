@@ -1,0 +1,1179 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U59",
+    "unit_title": "Indirect Questions & Polite Inquiry",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Polite Phrases & Question Starters",
+      "content": [
+        {
+          "interaction_id": "U59_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Podría decirme...?'?",
+          "options": [
+            { "id": "o1", "text": "Could you tell me...?" },
+            { "id": "o2", "text": "Can you tell me...?" },
+            { "id": "o3", "text": "Tell me..." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me pregunto si...'?",
+          "options": [
+            { "id": "o1", "text": "I wonder if..." },
+            { "id": "o2", "text": "I question if..." },
+            { "id": "o3", "text": "I ask if..." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Sabe usted...?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know...?" },
+            { "id": "o2", "text": "Are you knowing...?" },
+            { "id": "o3", "text": "You know...?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Tiene idea de...?'?",
+          "options": [
+            { "id": "o1", "text": "Do you have any idea...?" },
+            { "id": "o2", "text": "Do you have idea...?" },
+            { "id": "o3", "text": "Have you idea...?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Le importaría decirme...?'?",
+          "options": [
+            { "id": "o1", "text": "Would you mind telling me...?" },
+            { "id": "o2", "text": "Do you mind to tell me...?" },
+            { "id": "o3", "text": "Would you mind tell me...?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Es posible...?'?",
+          "options": [
+            { "id": "o1", "text": "Is it possible...?" },
+            { "id": "o2", "text": "It is possible...?" },
+            { "id": "o3", "text": "Possible is...?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Podría ayudarme?'?",
+          "options": [
+            { "id": "o1", "text": "Could you help me?" },
+            { "id": "o2", "text": "Can you help me?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Sabe a qué hora...?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know what time...?" },
+            { "id": "o2", "text": "Know you what time...?" },
+            { "id": "o3", "text": "Do you knowing what time...?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Sabe dónde...?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know where...?" },
+            { "id": "o2", "text": "You know where...?" },
+            { "id": "o3", "text": "Do you where know...?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Me preguntaba si...?'?",
+          "options": [
+            { "id": "o1", "text": "I was wondering if..." },
+            { "id": "o2", "text": "I am wondering if..." },
+            { "id": "o3", "text": "I wondered if..." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I11",
+          "type": "matching",
+          "prompt_es": "Empareja las frases de cortesía.",
+          "pairs": [
+            { "id": "p1", "left": "Excuse me", "right": "Disculpe" },
+            { "id": "p2", "left": "Pardon me", "right": "Perdone" },
+            { "id": "p3", "left": "Sorry to bother you", "right": "Siento molestarle" },
+            { "id": "p4", "left": "If you don't mind", "right": "Si no le importa" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I12",
+          "type": "flashcard",
+          "prompt_es": "Expresiones para preguntar indirectamente.",
+          "flashcards": [
+            { "front": "Can you tell me...", "back": "¿Puede decirme...?", "pronunciation": "/kæn juː tel miː/" },
+            { "front": "Do you know...", "back": "¿Sabe usted...?", "pronunciation": "/duː juː noʊ/" },
+            { "front": "I'd like to know...", "back": "Me gustaría saber...", "pronunciation": "/aɪd laɪk tə noʊ/" },
+            { "front": "I wonder...", "back": "Me pregunto...", "pronunciation": "/aɪ ˈwʌndər/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Por casualidad sabe...?'?",
+          "options": [
+            { "id": "o1", "text": "Do you happen to know...?" },
+            { "id": "o2", "text": "Do you know by chance...?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Sabe si...?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know if... / whether..." },
+            { "id": "o2", "text": "Do you know yes...?" },
+            { "id": "o3", "text": "Know you if...?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Podría confirmarme...?'?",
+          "options": [
+            { "id": "o1", "text": "Could you confirm...?" },
+            { "id": "o2", "text": "Can you confirm...?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Me podría informar...?'?",
+          "options": [
+            { "id": "o1", "text": "Could you inform me...?" },
+            { "id": "o2", "text": "Can you tell me...?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Sabe cuánto cuesta...?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know how much it costs...?" },
+            { "id": "o2", "text": "Do you know how much is...?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Podría explicarme...?'?",
+          "options": [
+            { "id": "o1", "text": "Could you explain to me...?" },
+            { "id": "o2", "text": "Could you explain me...?" },
+            { "id": "o3", "text": "Can you explain me...?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Sabe cómo llegar...?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know how to get to...?" },
+            { "id": "o2", "text": "Know you how to arrive...?" },
+            { "id": "o3", "text": "Do you know how arrive...?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me gustaría preguntar...'?",
+          "options": [
+            { "id": "o1", "text": "I'd like to ask..." },
+            { "id": "o2", "text": "I want to ask..." },
+            { "id": "o3", "text": "I would ask..." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I21",
+          "type": "matching",
+          "prompt_es": "Empareja los inicios con los finales lógicos.",
+          "pairs": [
+            { "id": "p1", "left": "Do you know where", "right": "the bank is?" },
+            { "id": "p2", "left": "Could you tell me what", "right": "time it is?" },
+            { "id": "p3", "left": "I wonder if", "right": "you can help me." },
+            { "id": "p4", "left": "Do you have any idea how", "right": "much this is?" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Me podría decir su nombre?'?",
+          "options": [
+            { "id": "o1", "text": "Could you tell me your name?" },
+            { "id": "o2", "text": "Can you tell me your name?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Sabe a qué hora abre?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know what time it opens?" },
+            { "id": "o2", "text": "Do you know what time does it open?" },
+            { "id": "o3", "text": "Know you what time opens it?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Podría decirme dónde está el baño?'?",
+          "options": [
+            { "id": "o1", "text": "Could you tell me where the bathroom is?" },
+            { "id": "o2", "text": "Could you tell me where is the bathroom?" },
+            { "id": "o3", "text": "Can you tell me where is bathroom?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Sabe cuánto tiempo tarda?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know how long it takes?" },
+            { "id": "o2", "text": "Do you know how long does it take?" },
+            { "id": "o3", "text": "Know you how much time takes it?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I26",
+          "type": "flashcard",
+          "prompt_es": "Más frases para preguntas corteses.",
+          "flashcards": [
+            { "front": "I was wondering...", "back": "Me preguntaba...", "pronunciation": "/aɪ wəz ˈwʌndərɪŋ/" },
+            { "front": "Do you happen to know...", "back": "¿Por casualidad sabe...?", "pronunciation": "/duː juː ˈhæpən tə noʊ/" },
+            { "front": "Would it be possible...", "back": "¿Sería posible...?", "pronunciation": "/wʊd ɪt biː ˈpɑːsəbl/" },
+            { "front": "Could you possibly...", "back": "¿Podría usted posiblemente...?", "pronunciation": "/kʊd juː ˈpɑːsəbli/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Podría repetirlo, por favor?'?",
+          "options": [
+            { "id": "o1", "text": "Could you repeat that, please?" },
+            { "id": "o2", "text": "Can you repeat, please?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Me podría ayudar con esto?'?",
+          "options": [
+            { "id": "o1", "text": "Could you help me with this?" },
+            { "id": "o2", "text": "Can you help me with this?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Podría hablar más despacio?'?",
+          "options": [
+            { "id": "o1", "text": "Could you speak more slowly?" },
+            { "id": "o2", "text": "Can you speak more slow?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Sabe si el tren ha llegado?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know if the train has arrived?" },
+            { "id": "o2", "text": "Do you know if the train arrived?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Le importa si me siento aquí?'?",
+          "options": [
+            { "id": "o1", "text": "Do you mind if I sit here?" },
+            { "id": "o2", "text": "Would you mind if I sit here?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Podría darme más información?'?",
+          "options": [
+            { "id": "o1", "text": "Could you give me more information?" },
+            { "id": "o2", "text": "Can you give me more information?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Sabe a qué hora termina?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know what time it finishes?" },
+            { "id": "o2", "text": "Do you know what time does it finish?" },
+            { "id": "o3", "text": "Know you what time finishes?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Le importaría abrir la ventana?'?",
+          "options": [
+            { "id": "o1", "text": "Would you mind opening the window?" },
+            { "id": "o2", "text": "Do you mind opening window?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me pregunto por qué está cerrado'?",
+          "options": [
+            { "id": "o1", "text": "I wonder why it is closed." },
+            { "id": "o2", "text": "I wonder why is it closed." },
+            { "id": "o3", "text": "I wonder why it closed." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Indirect Question Word Order",
+      "content": [
+        {
+          "interaction_id": "U59_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué orden seguimos en las preguntas indirectas?",
+          "options": [
+            { "id": "o1", "text": "Sujeto + Verbo (como una afirmación)" },
+            { "id": "o2", "text": "Auxiliar + Sujeto + Verbo (como una pregunta)" },
+            { "id": "o3", "text": "Verbo + Sujeto" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Usamos auxiliares (do/does/did) en la parte indirecta?",
+          "options": [
+            { "id": "o1", "text": "No" },
+            { "id": "o2", "text": "Sí" },
+            { "id": "o3", "text": "Solo en pasado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you know where ___?' (Directa: Where is the bank?)",
+          "stimulus_en": "Do you know where ___?",
+          "correct_answer": "the bank is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Could you tell me what time ___?' (Directa: What time is it?)",
+          "stimulus_en": "Could you tell me what time ___?",
+          "correct_answer": "it is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Sabe dónde vive ella?'",
+          "options": [
+            { "id": "w1", "text": "Do" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "know" },
+            { "id": "w4", "text": "where" },
+            { "id": "w5", "text": "she" },
+            { "id": "w6", "text": "lives?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U59_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "Can you tell me where he works?" },
+            { "id": "o2", "text": "Can you tell me where does he work?" },
+            { "id": "o3", "text": "Can you tell me where works he?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I42",
+          "type": "true_false",
+          "prompt_es": "En preguntas indirectas, 'is it' pasa a ser 'it is'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I wonder if ___.' (Directa: Will it rain?)",
+          "stimulus_en": "I wonder if ___.",
+          "correct_answer": "it will rain",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "Do you know who that man is?" },
+            { "id": "o2", "text": "Do you know who is that man?" },
+            { "id": "o3", "text": "Do you know that man who is?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I45",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Podría decirme qué hora es?'",
+          "options": [
+            { "id": "w1", "text": "Could" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "tell" },
+            { "id": "w4", "text": "me" },
+            { "id": "w5", "text": "what" },
+            { "id": "w6", "text": "time" },
+            { "id": "w7", "text": "it" },
+            { "id": "w8", "text": "is?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U59_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you know how much ___?' (Directa: How much does it cost?)",
+          "stimulus_en": "Do you know how much ___?",
+          "correct_answer": "it costs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Sabe usted si ellos están aquí?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know if they are here?" },
+            { "id": "o2", "text": "Do you know if are they here?" },
+            { "id": "o3", "text": "Know you if they are here?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'd like to know what ___.' (Directa: What happened?)",
+          "stimulus_en": "I'd like to know what ___.",
+          "correct_answer": "happened",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I49",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Me pregunto por qué ella está llorando?'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "wonder" },
+            { "id": "w3", "text": "why" },
+            { "id": "w4", "text": "she" },
+            { "id": "w5", "text": "is" },
+            { "id": "w6", "text": "crying." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U59_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "Could you tell me how long the flight is?" },
+            { "id": "o2", "text": "Could you tell me how long is the flight?" },
+            { "id": "o3", "text": "Could you tell me how long flight is?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you know why ___?' (Directa: Why did he leave?)",
+          "stimulus_en": "Do you know why ___?",
+          "correct_answer": "he left",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I52",
+          "type": "true_false",
+          "prompt_es": "Si no hay una palabra de pregunta (who/what/where...), usamos 'if' o 'whether'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Sabe usted a qué hora sale el tren?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know what time the train leaves?" },
+            { "id": "o2", "text": "Do you know what time does the train leave?" },
+            { "id": "o3", "text": "Do you know what time leaves the train?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Could you tell me where ___?' (Directa: Where did you buy it?)",
+          "stimulus_en": "Could you tell me where ___?",
+          "correct_answer": "you bought it",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me pregunto si ellos vendrán'?",
+          "options": [
+            { "id": "o1", "text": "I wonder if they will come." },
+            { "id": "o2", "text": "I wonder if will they come." },
+            { "id": "o3", "text": "I wonder will they come." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you know how many people ___?' (Directa: How many people were there?)",
+          "stimulus_en": "Do you know how many people ___?",
+          "correct_answer": "there were",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I57",
+          "type": "true_false",
+          "prompt_es": "Una pregunta indirecta no siempre termina en signo de interrogación (ej. I wonder...).",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Sabe usted a qué hora abre la tienda?'",
+          "options": [
+            { "id": "w1", "text": "Do" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "know" },
+            { "id": "w4", "text": "what" },
+            { "id": "w5", "text": "time" },
+            { "id": "w6", "text": "the" },
+            { "id": "w7", "text": "shop" },
+            { "id": "w8", "text": "opens?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U59_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'd like to know how far ___.' (Directa: How far is it?)",
+          "stimulus_en": "I'd like to know how far ___.",
+          "correct_answer": "it is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "Do you have any idea what time it is?" },
+            { "id": "o2", "text": "Do you have any idea what time is it?" },
+            { "id": "o3", "text": "Do you have any idea time what it is?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I was wondering if you ___ me.' (Directa: Can you help me?)",
+          "stimulus_en": "I was wondering if you ___ me.",
+          "correct_answer": "could help",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I62",
+          "type": "true_false",
+          "prompt_es": "En la pregunta indirecta, eliminamos 'do/does/did' y conjugamos el verbo principal.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Sabe usted por qué él está aquí?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know why he is here?" },
+            { "id": "o2", "text": "Do you know why is he here?" },
+            { "id": "o3", "text": "Know you why he is here?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Could you tell me who ___?' (Directa: Who is that woman?)",
+          "stimulus_en": "Could you tell me who ___?",
+          "correct_answer": "that woman is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál indica duda?",
+          "options": [
+            { "id": "o1", "text": "I wonder" },
+            { "id": "o2", "text": "I know" },
+            { "id": "o3", "text": "I tell" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you know if ___?' (Directa: Is he coming?)",
+          "stimulus_en": "Do you know if ___?",
+          "correct_answer": "he is coming",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I67",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Me pregunto qué pensará ella?'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "wonder" },
+            { "id": "w3", "text": "what" },
+            { "id": "w4", "text": "she" },
+            { "id": "w5", "text": "will" },
+            { "id": "w6", "text": "think." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U59_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Could you tell me how ___?' (Directa: How did you do it?)",
+          "stimulus_en": "Could you tell me how ___?",
+          "correct_answer": "you did it",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Sabe usted a qué hora es la película?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know what time the movie is?" },
+            { "id": "o2", "text": "Do you know what time is the movie?" },
+            { "id": "o3", "text": "Know you what time is the movie?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I70",
+          "type": "true_false",
+          "prompt_es": "'Whether' es más formal que 'if'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Polite Requests & Information Gathering",
+      "content": [
+        {
+          "interaction_id": "U59_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides la hora educadamente?",
+          "options": [
+            { "id": "o1", "text": "Could you tell me what time it is, please?" },
+            { "id": "o2", "text": "What time is it?" },
+            { "id": "o3", "text": "Tell me the time." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas por una ubicación?",
+          "options": [
+            { "id": "o1", "text": "Do you know where the station is?" },
+            { "id": "o2", "text": "Where is the station?" },
+            { "id": "o3", "text": "Can you tell me where is station?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides un favor educadamente?",
+          "options": [
+            { "id": "o1", "text": "I was wondering if you could help me." },
+            { "id": "o2", "text": "Help me, please." },
+            { "id": "o3", "text": "Can you help me?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I74",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Sabe usted si este es el bus correcto?'",
+          "options": [
+            { "id": "w1", "text": "Do" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "know" },
+            { "id": "w4", "text": "if" },
+            { "id": "w5", "text": "this" },
+            { "id": "w6", "text": "is" },
+            { "id": "w7", "text": "the" },
+            { "id": "w8", "text": "right" },
+            { "id": "w9", "text": "bus?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U59_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas el precio educadamente?",
+          "options": [
+            { "id": "o1", "text": "Do you know how much this costs?" },
+            { "id": "o2", "text": "How much is this?" },
+            { "id": "o3", "text": "Can you tell me the price?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides permiso educadamente?",
+          "options": [
+            { "id": "o1", "text": "Would you mind if I opened the window?" },
+            { "id": "o2", "text": "Can I open the window?" },
+            { "id": "o3", "text": "May I open the window?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Podría decirme su nombre, por favor?'?",
+          "options": [
+            { "id": "o1", "text": "Could you tell me your name, please?" },
+            { "id": "o2", "text": "What is your name?" },
+            { "id": "o3", "text": "Your name, please." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Siento molestarle, pero ¿sabe dónde está el banco?'?",
+          "options": [
+            { "id": "o1", "text": "Sorry to bother you, but do you know where the bank is?" },
+            { "id": "o2", "text": "Excuse me, where is bank?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes si no sabes la información?",
+          "options": [
+            { "id": "o1", "text": "I'm sorry, I don't know." },
+            { "id": "o2", "text": "I'm afraid I have no idea." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I80",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Sabe usted a qué hora llega el tren?'",
+          "options": [
+            { "id": "w1", "text": "Do" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "know" },
+            { "id": "w4", "text": "what" },
+            { "id": "w5", "text": "time" },
+            { "id": "w6", "text": "the" },
+            { "id": "w7", "text": "train" },
+            { "id": "w8", "text": "arrives?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U59_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Podría decirme de dónde es usted?'?",
+          "options": [
+            { "id": "o1", "text": "Could you tell me where you are from?" },
+            { "id": "o2", "text": "Could you tell me where are you from?" },
+            { "id": "o3", "text": "Can you tell me from where are you?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Sabe usted si ella está casada?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know if she is married?" },
+            { "id": "o2", "text": "Do you know if is she married?" },
+            { "id": "o3", "text": "Know you if she is married?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me preguntaba si me podría prestar su coche'?",
+          "options": [
+            { "id": "o1", "text": "I was wondering if you could lend me your car." },
+            { "id": "o2", "text": "I was wondering if could you lend me your car." },
+            { "id": "o3", "text": "I wonder if you lend me your car." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Tiene idea de por qué el bus llega tarde?'?",
+          "options": [
+            { "id": "o1", "text": "Do you have any idea why the bus is late?" },
+            { "id": "o2", "text": "Do you have any idea why is the bus late?" },
+            { "id": "o3", "text": "Have you any idea why bus is late?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Podría decirme cómo se deletrea su nombre?'?",
+          "options": [
+            { "id": "o1", "text": "Could you tell me how you spell your name?" },
+            { "id": "o2", "text": "Could you tell me how do you spell your name?" },
+            { "id": "o3", "text": "Can you tell me how spell you your name?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Sabe usted qué día es hoy?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know what day it is today?" },
+            { "id": "o2", "text": "Do you know what day is today?" },
+            { "id": "o3", "text": "Know you what day is today?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Me podría decir cuánto tiempo ha vivido aquí?'?",
+          "options": [
+            { "id": "o1", "text": "Could you tell me how long you have lived here?" },
+            { "id": "o2", "text": "Could you tell me how long have you lived here?" },
+            { "id": "o3", "text": "Can you tell me how long you lived here?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me pregunto por qué ella no llamó'?",
+          "options": [
+            { "id": "o1", "text": "I wonder why she didn't call." },
+            { "id": "o2", "text": "I wonder why didn't she call." },
+            { "id": "o3", "text": "I wonder why she no call." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Sabe usted si hay algún restaurante cerca?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know if there is a restaurant nearby?" },
+            { "id": "o2", "text": "Do you know if is there a restaurant nearby?" },
+            { "id": "o3", "text": "Know you if there is restaurant nearby?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Podría decirme a qué se dedica?'?",
+          "options": [
+            { "id": "o1", "text": "Could you tell me what you do?" },
+            { "id": "o2", "text": "Could you tell me what do you do?" },
+            { "id": "o3", "text": "Can you tell me what you doing?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Sabe usted dónde puedo comprar sellos?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know where I can buy stamps?" },
+            { "id": "o2", "text": "Do you know where can I buy stamps?" },
+            { "id": "o3", "text": "Know you where I buy stamps?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me gustaría saber cuándo termina el curso'?",
+          "options": [
+            { "id": "o1", "text": "I'd like to know when the course finishes." },
+            { "id": "o2", "text": "I'd like to know when does the course finish." },
+            { "id": "o3", "text": "I would know when course finishes." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Podría decirme quién es su jefe?'?",
+          "options": [
+            { "id": "o1", "text": "Could you tell me who your boss is?" },
+            { "id": "o2", "text": "Could you tell me who is your boss?" },
+            { "id": "o3", "text": "Can you tell me who boss is?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Sabe usted por qué el museo está cerrado hoy?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know why the museum is closed today?" },
+            { "id": "o2", "text": "Do you know why is the museum closed today?" },
+            { "id": "o3", "text": "Know you why museum is closed today?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Le importaría decirme cuánto tiempo tarda el viaje?'?",
+          "options": [
+            { "id": "o1", "text": "Would you mind telling me how long the journey takes?" },
+            { "id": "o2", "text": "Do you mind telling me how long does the journey take?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Sabe usted a qué hora es el último tren?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know what time the last train is?" },
+            { "id": "o2", "text": "Do you know what time is the last train?" },
+            { "id": "o3", "text": "Know you what time is last train?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Podría decirme dónde dejó las llaves?'?",
+          "options": [
+            { "id": "o1", "text": "Could you tell me where you left the keys?" },
+            { "id": "o2", "text": "Could you tell me where did you leave the keys?" },
+            { "id": "o3", "text": "Can you tell me where left you the keys?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me preguntaba si usted tiene cambio de 20 euros'?",
+          "options": [
+            { "id": "o1", "text": "I was wondering if you have change for 20 euros." },
+            { "id": "o2", "text": "I wonder if you have change for 20 euros." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Sabe usted si el doctor está disponible?'?",
+          "options": [
+            { "id": "o1", "text": "Do you know if the doctor is available?" },
+            { "id": "o2", "text": "Do you know if is the doctor available?" },
+            { "id": "o3", "text": "Know you if doctor is available?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U59_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Disculpe, me preguntaba si podría decirme dónde está la parada de autobús más cercana y si sabe a qué hora pasa el próximo autobús.'",
+          "stimulus_es": "Disculpe, me preguntaba si podría decirme dónde está la parada de autobús más cercana y si sabe a qué hora pasa el próximo autobús.",
+          "correct_answer": "Excuse me, I was wondering if you could tell me where the nearest bus stop is and if you know what time the next bus comes.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

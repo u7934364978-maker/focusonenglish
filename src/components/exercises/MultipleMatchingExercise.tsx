@@ -30,9 +30,10 @@ interface MultipleMatchingExerciseProps {
     questions: MultipleMatchingQuestion[];
   };
   onComplete?: (score: number) => void;
+  onQuestionCorrect?: (questionId: string) => void;
 }
 
-export default function MultipleMatchingExercise({ exercise, onComplete }: MultipleMatchingExerciseProps) {
+export default function MultipleMatchingExercise({ exercise, onComplete, onQuestionCorrect }: MultipleMatchingExerciseProps) {
   const [answers, setAnswers] = useState<{ [questionNumber: number]: string }>({});
   const [showFeedback, setShowFeedback] = useState(false);
   const [evaluating, setEvaluating] = useState(false);
@@ -52,15 +53,17 @@ export default function MultipleMatchingExercise({ exercise, onComplete }: Multi
       setShowFeedback(true);
       setEvaluating(false);
       
+      exercise.questions.forEach(q => {
+        if (answers[q.questionNumber]?.toUpperCase() === q.correctText.toUpperCase() && onQuestionCorrect) {
+          onQuestionCorrect(`${exercise.id}-${q.questionNumber}`);
+        }
+      });
+
       const correctCount = exercise.questions.filter(q => 
         answers[q.questionNumber]?.toUpperCase() === q.correctText.toUpperCase()
       ).length;
       
       const score = (correctCount / exercise.questions.length) * 100;
-      
-      if (onComplete) {
-        onComplete(score);
-      }
     }, 500);
   };
 

@@ -1,0 +1,1136 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U44",
+    "unit_title": "Health & Lifestyle: Expansion",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Healthy Habits & Fitness",
+      "content": [
+        {
+          "interaction_id": "U44_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mantenerse en forma'?",
+          "options": [
+            { "id": "o1", "text": "Keep fit / Stay in shape" },
+            { "id": "o2", "text": "Maintain form" },
+            { "id": "o3", "text": "Be fit" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dieta equilibrada'?",
+          "options": [
+            { "id": "o1", "text": "Balanced diet" },
+            { "id": "o2", "text": "Equal diet" },
+            { "id": "o3", "text": "Good eating" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer ejercicio'?",
+          "options": [
+            { "id": "o1", "text": "Do exercise / Work out" },
+            { "id": "o2", "text": "Make exercise" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Comida basura'?",
+          "options": [
+            { "id": "o1", "text": "Junk food / Fast food" },
+            { "id": "o2", "text": "Trash food" },
+            { "id": "o3", "text": "Bad food" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Beber mucha agua'?",
+          "options": [
+            { "id": "o1", "text": "Drink plenty of water" },
+            { "id": "o2", "text": "Drink much water" },
+            { "id": "o3", "text": "Drink a lot of water" },
+            { "id": "o4", "text": "All are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dormir lo suficiente'?",
+          "options": [
+            { "id": "o1", "text": "Get enough sleep" },
+            { "id": "o2", "text": "Sleep the enough" },
+            { "id": "o3", "text": "Have enough sleep" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reducir el estrés'?",
+          "options": [
+            { "id": "o1", "text": "Reduce stress / Cut down on stress" },
+            { "id": "o2", "text": "Lower stress" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fumar'?",
+          "options": [
+            { "id": "o1", "text": "To smoke" },
+            { "id": "o2", "text": "To fire" },
+            { "id": "o3", "text": "To puff" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dejar de (hacer algo)'?",
+          "options": [
+            { "id": "o1", "text": "Give up / Stop" },
+            { "id": "o2", "text": "Leave" },
+            { "id": "o3", "text": "Drop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Apuntarse al gimnasio'?",
+          "options": [
+            { "id": "o1", "text": "Join a gym" },
+            { "id": "o2", "text": "Inscribe to gym" },
+            { "id": "o3", "text": "Go to gym" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Caminar al trabajo'?",
+          "options": [
+            { "id": "o1", "text": "Walk to work" },
+            { "id": "o2", "text": "Go by walk" },
+            { "id": "o3", "text": "Walk in work" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Evitar'?",
+          "options": [
+            { "id": "o1", "text": "Avoid" },
+            { "id": "o2", "text": "Evite" },
+            { "id": "o3", "text": "Stop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Saludable'?",
+          "options": [
+            { "id": "o1", "text": "Healthy" },
+            { "id": "o2", "text": "Unhealthy" },
+            { "id": "o3", "text": "Health" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Poco saludable / Malsano'?",
+          "options": [
+            { "id": "o1", "text": "Unhealthy" },
+            { "id": "o2", "text": "Bad healthy" },
+            { "id": "o3", "text": "Ill health" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tener cuidado'?",
+          "options": [
+            { "id": "o1", "text": "Be careful / Take care" },
+            { "id": "o2", "text": "Have care" },
+            { "id": "o3", "text": "Do care" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I16",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Workout", "right": "Entrenamiento" },
+            { "id": "p2", "left": "Diet", "right": "Dieta" },
+            { "id": "p3", "left": "Gym", "right": "Gimnasio" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I17",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Avoid sugar", "right": "Evitar el azúcar" },
+            { "id": "p2", "left": "Drink water", "right": "Beber agua" },
+            { "id": "p3", "left": "Stay fit", "right": "Mantenerse en forma" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué es 'Yoga'?",
+          "options": [
+            { "id": "o1", "text": "A relaxing exercise" },
+            { "id": "o2", "text": "A type of food" },
+            { "id": "o3", "text": "A medical doctor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Overweight'?",
+          "options": [
+            { "id": "o1", "text": "Con sobrepeso" },
+            { "id": "o2", "text": "Delgado" },
+            { "id": "o3", "text": "Fuerte" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Active'?",
+          "options": [
+            { "id": "o1", "text": "Activo" },
+            { "id": "o2", "text": "Perezoso" },
+            { "id": "o3", "text": "Cansado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Calorías'?",
+          "options": [
+            { "id": "o1", "text": "Calories" },
+            { "id": "o2", "text": "Energy units" },
+            { "id": "o3", "text": "Fats" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Grasa'?",
+          "options": [
+            { "id": "o1", "text": "Fat" },
+            { "id": "o2", "text": "Oil" },
+            { "id": "o3", "text": "Sugar" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Azúcar'?",
+          "options": [
+            { "id": "o1", "text": "Sugar" },
+            { "id": "o2", "text": "Sweet" },
+            { "id": "o3", "text": "Salt" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sal'?",
+          "options": [
+            { "id": "o1", "text": "Salt" },
+            { "id": "o2", "text": "Spice" },
+            { "id": "o3", "text": "Pepper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vitaminas'?",
+          "options": [
+            { "id": "o1", "text": "Vitamins" },
+            { "id": "o2", "text": "Proteins" },
+            { "id": "o3", "text": "Minis" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fruta'?",
+          "options": [
+            { "id": "o1", "text": "Fruit" },
+            { "id": "o2", "text": "Vegetables" },
+            { "id": "o3", "text": "Snacks" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Verdura'?",
+          "options": [
+            { "id": "o1", "text": "Vegetables / Veggies" },
+            { "id": "o2", "text": "Plants" },
+            { "id": "o3", "text": "Salads" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Carne'?",
+          "options": [
+            { "id": "o1", "text": "Meat" },
+            { "id": "o2", "text": "Fish" },
+            { "id": "o3", "text": "Food" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pescado'?",
+          "options": [
+            { "id": "o1", "text": "Fish" },
+            { "id": "o2", "text": "Meat" },
+            { "id": "o3", "text": "Seaweed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cereales'?",
+          "options": [
+            { "id": "o1", "text": "Cereals / Grains" },
+            { "id": "o2", "text": "Bread" },
+            { "id": "o3", "text": "Milk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lácteos'?",
+          "options": [
+            { "id": "o1", "text": "Dairy" },
+            { "id": "o2", "text": "Milk shop" },
+            { "id": "o3", "text": "Cheese house" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Proteína'?",
+          "options": [
+            { "id": "o1", "text": "Protein" },
+            { "id": "o2", "text": "Muscle" },
+            { "id": "o3", "text": "Strong" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Carbohidratos'?",
+          "options": [
+            { "id": "o1", "text": "Carbohydrates / Carbs" },
+            { "id": "o2", "text": "Energy" },
+            { "id": "o3", "text": "Pasta" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fibra'?",
+          "options": [
+            { "id": "o1", "text": "Fiber" },
+            { "id": "o2", "text": "Wood" },
+            { "id": "o3", "text": "Grains" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I35",
+          "type": "flashcard",
+          "prompt_es": "Nutrición Básica",
+          "flashcards": [
+            { "front": "Balanced diet", "back": "Dieta equilibrada", "pronunciation": "/ˈbælənst ˈdaɪət/" },
+            { "front": "Dairy products", "back": "Productos lácteos", "pronunciation": "/ˈdeəri ˈprɒdʌkts/" },
+            { "front": "Grains", "back": "Cereales / Granos", "pronunciation": "/ɡreɪnz/" },
+            { "front": "Calories", "back": "Calorías", "pronunciation": "/ˈkæləriz/" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Giving Advice with 'Should / Shouldn't'",
+      "content": [
+        {
+          "interaction_id": "U44_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra usamos para dar consejos?",
+          "options": [
+            { "id": "o1", "text": "Should" },
+            { "id": "o2", "text": "Must" },
+            { "id": "o3", "text": "Will" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa de 'Should'?",
+          "options": [
+            { "id": "o1", "text": "Shouldn't" },
+            { "id": "o2", "text": "Should not" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (deberías) drink more water.'",
+          "stimulus_en": "You ___ drink more water.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (no deberías) eat too much junk food.'",
+          "stimulus_en": "You ___ eat too much junk food.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (debería) join a gym.'",
+          "stimulus_en": "He ___ join a gym.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (no debería) smoke.'",
+          "stimulus_en": "She ___ smoke.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (deberían) sleep eight hours.'",
+          "stimulus_en": "They ___ sleep eight hours.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ (¿Debería) I see a doctor?'",
+          "stimulus_en": "___ I see a doctor?",
+          "correct_answer": "Should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no debería) work so hard.'",
+          "stimulus_en": "I ___ work so hard.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "You should to exercise." },
+            { "id": "o2", "text": "You should exercise." },
+            { "id": "o3", "text": "You should exercising." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "Does he should go?" },
+            { "id": "o2", "text": "Should he go?" },
+            { "id": "o3", "text": "Should he goes?" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (deberías) avoid stress.'",
+          "stimulus_en": "You ___ avoid stress.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (no deberías) sit all day.'",
+          "stimulus_en": "You ___ sit all day.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'If you are tired, you ___ (deberías) rest.'",
+          "stimulus_en": "If you are tired, you ___ rest.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (deberíamos) eat more fruit.'",
+          "stimulus_en": "We ___ eat more fruit.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'You should walk'?",
+          "options": [
+            { "id": "o1", "text": "Deberías caminar" },
+            { "id": "o2", "text": "Debes caminar (obligación)" },
+            { "id": "o3", "text": "Caminarás" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'You shouldn't go'?",
+          "options": [
+            { "id": "o1", "text": "No deberías ir" },
+            { "id": "o2", "text": "No debes ir (prohibición)" },
+            { "id": "o3", "text": "No irás" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'People ___ (deberían) recycle more.'",
+          "stimulus_en": "People ___ recycle more.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Children ___ (no deberían) watch too much TV.'",
+          "stimulus_en": "Children ___ watch too much TV.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: 'What ___ (debería) I do?'",
+          "stimulus_en": "What ___ I do?",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (deberías) use less salt.'",
+          "stimulus_en": "You ___ use less salt.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (no deberías) drink so much soda.'",
+          "stimulus_en": "You ___ drink so much soda.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (debería) study more.'",
+          "stimulus_en": "He ___ study more.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (no deberían) be late.'",
+          "stimulus_en": "They ___ be late.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ (¿Deberíamos) we start now?'",
+          "stimulus_en": "___ we start now?",
+          "correct_answer": "Should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I61",
+          "type": "multiple_choice",
+          "prompt_es": "Consejo: 'You look tired. You ___ go to bed.'",
+          "options": [
+            { "id": "o1", "text": "should" },
+            { "id": "o2", "text": "shouldn't" },
+            { "id": "o3", "text": "are" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I62",
+          "type": "multiple_choice",
+          "prompt_es": "Consejo: 'It's raining. You ___ take an umbrella.'",
+          "options": [
+            { "id": "o1", "text": "should" },
+            { "id": "o2", "text": "shouldn't" },
+            { "id": "o3", "text": "mustn't" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I63",
+          "type": "multiple_choice",
+          "prompt_es": "Consejo: 'The coffee is very hot. You ___ drink it yet.'",
+          "options": [
+            { "id": "o1", "text": "shouldn't" },
+            { "id": "o2", "text": "should" },
+            { "id": "o3", "text": "don't" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (deberías) try this cake. It's delicious.'",
+          "stimulus_en": "You ___ try this cake.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (no deberías) drive so fast.'",
+          "stimulus_en": "You ___ drive so fast.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (debería) call her mother.'",
+          "stimulus_en": "She ___ call her mother.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (deberíamos) save some money.'",
+          "stimulus_en": "We ___ save some money.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I think you ___ (deberías) buy the red dress.'",
+          "stimulus_en": "I think you ___ buy the red dress.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I don't think they ___ (deberían) come today.'",
+          "stimulus_en": "I don't think they ___ come today.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U44_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (¿Debería) we invite Peter?'",
+          "stimulus_en": "___ we invite Peter?",
+          "correct_answer": "Should",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Health Advice & Lifestyle Changes",
+      "content": [
+        {
+          "interaction_id": "U44_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides consejo? 'I feel sick. What ___?'",
+          "options": [
+            { "id": "o1", "text": "should I do?" },
+            { "id": "o2", "text": "do I should?" },
+            { "id": "o3", "text": "I should do?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I72",
+          "type": "multiple_choice",
+          "prompt_es": "Responde: 'You ___ a doctor.'",
+          "options": [
+            { "id": "o1", "text": "should see" },
+            { "id": "o2", "text": "should to see" },
+            { "id": "o3", "text": "should seeing" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Deberías comer más verduras'?",
+          "options": [
+            { "id": "o1", "text": "You should eat more vegetables." },
+            { "id": "o2", "text": "You should to eat more veggies." },
+            { "id": "o3", "text": "You should eating more vegetables." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No deberías pasar tanto tiempo sentado'?",
+          "options": [
+            { "id": "o1", "text": "You shouldn't spend so much time sitting." },
+            { "id": "o2", "text": "You shouldn't to spend much time." },
+            { "id": "o3", "text": "You not should spend time." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Debería dejar de fumar?'?",
+          "options": [
+            { "id": "o1", "text": "Should I give up smoking?" },
+            { "id": "o2", "text": "Do I should stop smoking?" },
+            { "id": "o3", "text": "Should I to stop smoking?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Sí, deberías hacerlo. Es malo para ti'?",
+          "options": [
+            { "id": "o1", "text": "Yes, you should. It's bad for you." },
+            { "id": "o2", "text": "Yes, you should do. Is bad." },
+            { "id": "o3", "text": "Yes, you must. It is bad." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I77",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'You / should / drink / eight / glasses / of / water / .'",
+          "options": [
+            { "id": "w1", "text": "You" },
+            { "id": "w2", "text": "should" },
+            { "id": "w3", "text": "drink" },
+            { "id": "w4", "text": "eight" },
+            { "id": "w5", "text": "glasses" },
+            { "id": "w6", "text": "of" },
+            { "id": "w7", "text": "water" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I78",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'You / shouldn't / eat / so / many / sweets / .'",
+          "options": [
+            { "id": "w1", "text": "You" },
+            { "id": "w2", "text": "shouldn't" },
+            { "id": "w3", "text": "eat" },
+            { "id": "w4", "text": "so" },
+            { "id": "w5", "text": "many" },
+            { "id": "w6", "text": "sweets" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I79",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / think / you / should / relax / more / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "think" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "should" },
+            { "id": "w5", "text": "relax" },
+            { "id": "w6", "text": "more" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿A qué hora debería levantarme?'?",
+          "options": [
+            { "id": "o1", "text": "What time should I get up?" },
+            { "id": "o2", "text": "What time I should get up?" },
+            { "id": "o3", "text": "When should I to get up?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No deberías preocuparte tanto'?",
+          "options": [
+            { "id": "o1", "text": "You shouldn't worry so much." },
+            { "id": "o2", "text": "You shouldn't to worry much." },
+            { "id": "o3", "text": "Don't should worry." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Deberíamos caminar más a menudo'?",
+          "options": [
+            { "id": "o1", "text": "We should walk more often." },
+            { "id": "o2", "text": "We should to walk often." },
+            { "id": "o3", "text": "We should walking often." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué debería comer para estar sano?'?",
+          "options": [
+            { "id": "o1", "text": "What should I eat to be healthy?" },
+            { "id": "o2", "text": "What I should eat for health?" },
+            { "id": "o3", "text": "What should I to eat?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No deberías beber tanto café'?",
+          "options": [
+            { "id": "o1", "text": "You shouldn't drink so much coffee." },
+            { "id": "o2", "text": "You shouldn't to drink much coffee." },
+            { "id": "o3", "text": "Not should drink coffee." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Creo que deberías ir al gimnasio'?",
+          "options": [
+            { "id": "o1", "text": "I think you should go to the gym." },
+            { "id": "o2", "text": "I think you should to go to gym." },
+            { "id": "o3", "text": "I think you must go to gym." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I86",
+          "type": "flashcard",
+          "prompt_es": "Frases de Consejo",
+          "flashcards": [
+            { "front": "You should...", "back": "Deberías...", "pronunciation": "/juː ʃʊd/" },
+            { "front": "You shouldn't...", "back": "No deberías...", "pronunciation": "/juː ˈʃʊdnt/" },
+            { "front": "Why don't you...?", "back": "¿Por qué no...?", "pronunciation": "/waɪ doʊnt juː/" },
+            { "front": "If I were you, I would...", "back": "Si yo fuera tú, yo...", "pronunciation": "/ɪf aɪ wɜːr juː aɪ wʊd/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Por qué no intentas hacer yoga?'?",
+          "options": [
+            { "id": "o1", "text": "Why don't you try doing yoga?" },
+            { "id": "o2", "text": "Why you not try yoga?" },
+            { "id": "o3", "text": "Should you try yoga?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es una buena idea'?",
+          "options": [
+            { "id": "o1", "text": "That's a good idea." },
+            { "id": "o2", "text": "Is a good idea." },
+            { "id": "o3", "text": "That has a good idea." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No estoy seguro'?",
+          "options": [
+            { "id": "o1", "text": "I'm not sure." },
+            { "id": "o2", "text": "I don't sure." },
+            { "id": "o3", "text": "I'm not security." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Deberías tomarte unas vacaciones'?",
+          "options": [
+            { "id": "o1", "text": "You should take a holiday / vacation." },
+            { "id": "o2", "text": "You should to take a holiday." },
+            { "id": "o3", "text": "Should you take a holiday." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Deberías pasar menos tiempo frente al ordenador'?",
+          "options": [
+            { "id": "o1", "text": "You should spend less time in front of the computer." },
+            { "id": "o2", "text": "You should to spend less time." },
+            { "id": "o3", "text": "You should pass less time." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Deberías acostarte más temprano'?",
+          "options": [
+            { "id": "o1", "text": "You should go to bed earlier." },
+            { "id": "o2", "text": "You should to go to bed more early." },
+            { "id": "o3", "text": "Go to bed early, you should." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Deberías probar la comida sana'?",
+          "options": [
+            { "id": "o1", "text": "You should try healthy food." },
+            { "id": "o2", "text": "You should to try healthy food." },
+            { "id": "o3", "text": "Try healthy food, you should." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué debería cambiar en mi vida?'?",
+          "options": [
+            { "id": "o1", "text": "What should I change in my life?" },
+            { "id": "o2", "text": "What I should change?" },
+            { "id": "o3", "text": "Which should I change?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Deberías beber menos alcohol'?",
+          "options": [
+            { "id": "o1", "text": "You should drink less alcohol." },
+            { "id": "o2", "text": "You should to drink less." },
+            { "id": "o3", "text": "You shouldn't drink much alcohol." },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Deberías hacerte un chequeo médico'?",
+          "options": [
+            { "id": "o1", "text": "You should have a medical check-up." },
+            { "id": "o2", "text": "You should to have a check-up." },
+            { "id": "o3", "text": "You should see the doctor." },
+            { "id": "o4", "text": "o1 and o3 are common" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Deberías pasar más tiempo con tus amigos'?",
+          "options": [
+            { "id": "o1", "text": "You should spend more time with your friends." },
+            { "id": "o2", "text": "You should to spend more time." },
+            { "id": "o3", "text": "You should pass more time." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No deberías comer tan rápido'?",
+          "options": [
+            { "id": "o1", "text": "You shouldn't eat so fast." },
+            { "id": "o2", "text": "You shouldn't to eat so fast." },
+            { "id": "o3", "text": "Not should eat fast." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Deberías aprender a relajarte'?",
+          "options": [
+            { "id": "o1", "text": "You should learn to relax." },
+            { "id": "o2", "text": "You should to learn relax." },
+            { "id": "o3", "text": "Should you learn relax." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U44_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Deberías comer una dieta equilibrada y hacer ejercicio tres veces por semana.'",
+          "stimulus_es": "Deberías comer una dieta equilibrada y hacer ejercicio tres veces por semana.",
+          "correct_answer": "You should eat a balanced diet and do exercise three times a week.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

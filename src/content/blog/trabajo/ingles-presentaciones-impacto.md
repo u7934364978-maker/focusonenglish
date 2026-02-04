@@ -1,6 +1,6 @@
 ---
 title: "Presentaciones de Impacto: Cómo Brillar en Inglés"
-date: "2026-02-01"
+date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Hablar en público es un reto, y hacerlo en inglés aún más. Aprende a estructurar tus ideas y a usar el vocabulario que cautivará a tu audiencia. Las clases de inglés son tu mejor aliado."
 category: "trabajo"

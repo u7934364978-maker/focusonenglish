@@ -1,0 +1,2762 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "U43",
+    "unit_title": "Public Transport and Mobility",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [
+    "Understand and use B1 Public Transport and Mobility vocabulary",
+    "Apply B1 grammar structures in context",
+    "Develop communicative competence"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "syntax",
+    "communication"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1_UNIT_43_PRACTICE",
+      "title": "B1 Practice: Public Transport and Mobility",
+      "duration_minutes": 600,
+      "content": [
+        {
+          "interaction_id": "U43_I1",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Research",
+              "right": "The systematic investigation into public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "public transport mobility specialist",
+              "right": "An expert in the field of public transport mobility"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (discuss) ________ public transport mobility when I arrived.",
+          "correct_answer": "were discussing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The research on public transport mobility has led to many new discoveries.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "public"
+            },
+            {
+              "id": "w8",
+              "text": "transport"
+            },
+            {
+              "id": "w10",
+              "text": "works"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w4",
+              "text": "theories"
+            },
+            {
+              "id": "w6",
+              "text": "how"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w9",
+              "text": "mobility"
+            },
+            {
+              "id": "w3",
+              "text": "different"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The research on public transport mobility has led to many new discoveries.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A way to solve a problem related to public transport mobility\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Solution"
+            },
+            {
+              "id": "o3",
+              "text": "Fundamentals"
+            },
+            {
+              "id": "o2",
+              "text": "Theory"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I7",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "public transport mobility specialist",
+              "right": "An expert in the field of public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Fundamentals",
+              "right": "The basic principles of public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Research",
+              "right": "The systematic investigation into public transport mobility"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Have you ever (hear) ________ of public transport mobility?",
+          "correct_answer": "heard",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We face challenges many when studying the complexities of public transport mobility.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "transport"
+            },
+            {
+              "id": "w9",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w11",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "Learning"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w10",
+              "text": "expand"
+            },
+            {
+              "id": "w12",
+              "text": "horizons"
+            },
+            {
+              "id": "w7",
+              "text": "great"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w8",
+              "text": "way"
+            },
+            {
+              "id": "w4",
+              "text": "mobility"
+            },
+            {
+              "id": "w2",
+              "text": "public"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Finding a solution to this public transport mobility problem is our main priority.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The effect of public transport mobility on society\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Innovation"
+            },
+            {
+              "id": "o1",
+              "text": "Impact"
+            },
+            {
+              "id": "o3",
+              "text": "public transport mobility specialist"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Research",
+              "right": "The systematic investigation into public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Challenge",
+              "right": "A difficult task in the context of public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain public transport mobility"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about public transport mobility in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The research on public transport mobility has led to new many discoveries.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "public"
+            },
+            {
+              "id": "w7",
+              "text": "complexities"
+            },
+            {
+              "id": "w5",
+              "text": "studying"
+            },
+            {
+              "id": "w10",
+              "text": "transport"
+            },
+            {
+              "id": "w4",
+              "text": "when"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w8",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w11",
+              "text": "mobility"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "challenges"
+            },
+            {
+              "id": "w1",
+              "text": "face"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many people find public transport mobility to be a challenging but rewarding subject.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I18",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A high level of knowledge in public transport mobility\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "public transport mobility specialist"
+            },
+            {
+              "id": "o1",
+              "text": "Advanced"
+            },
+            {
+              "id": "o3",
+              "text": "Theory"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Practice",
+              "right": "The application of public transport mobility in real life"
+            },
+            {
+              "id": "p1",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Fundamentals",
+              "right": "The basic principles of public transport mobility"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (study) ________ public transport mobility lately.",
+          "correct_answer": "have been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a solution to this public transport mobility problem is our main priority.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "been"
+            },
+            {
+              "id": "w7",
+              "text": "transport"
+            },
+            {
+              "id": "w12",
+              "text": "years"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w10",
+              "text": "over"
+            },
+            {
+              "id": "w8",
+              "text": "mobility"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "specialist"
+            },
+            {
+              "id": "w6",
+              "text": "public"
+            },
+            {
+              "id": "w9",
+              "text": "for"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w11",
+              "text": "ten"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Putting the theory of public transport mobility into practice can be difficult.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The systematic investigation into public transport mobility\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Advanced"
+            },
+            {
+              "id": "o2",
+              "text": "Theory"
+            },
+            {
+              "id": "o1",
+              "text": "Research"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I25",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Impact",
+              "right": "The effect of public transport mobility on society"
+            },
+            {
+              "id": "p1",
+              "left": "Practice",
+              "right": "The application of public transport mobility in real life"
+            },
+            {
+              "id": "p2",
+              "left": "public transport mobility specialist",
+              "right": "An expert in the field of public transport mobility"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about public transport mobility in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has been a specialist in public transport mobility for over ten years.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w9",
+              "text": "mobility"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w4",
+              "text": "theories"
+            },
+            {
+              "id": "w6",
+              "text": "how"
+            },
+            {
+              "id": "w10",
+              "text": "works"
+            },
+            {
+              "id": "w8",
+              "text": "transport"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            },
+            {
+              "id": "w7",
+              "text": "public"
+            },
+            {
+              "id": "w3",
+              "text": "different"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many people find public transport mobility to be a challenging but rewarding subject.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A system of ideas intended to explain public transport mobility\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Practice"
+            },
+            {
+              "id": "o3",
+              "text": "Innovation"
+            },
+            {
+              "id": "o1",
+              "text": "Theory"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Challenge",
+              "right": "A difficult task in the context of public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "public transport mobility specialist",
+              "right": "An expert in the field of public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Advanced",
+              "right": "A high level of knowledge in public transport mobility"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I32",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (know/not) ________ much about public transport mobility yet.",
+          "correct_answer": "doesn't know",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Putting the theory of public transport mobility into practice can be difficult.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "to"
+            },
+            {
+              "id": "w11",
+              "text": "rewarding"
+            },
+            {
+              "id": "w3",
+              "text": "public"
+            },
+            {
+              "id": "w9",
+              "text": "challenging"
+            },
+            {
+              "id": "w2",
+              "text": "find"
+            },
+            {
+              "id": "w1",
+              "text": "people"
+            },
+            {
+              "id": "w4",
+              "text": "transport"
+            },
+            {
+              "id": "w10",
+              "text": "but"
+            },
+            {
+              "id": "w5",
+              "text": "mobility"
+            },
+            {
+              "id": "w12",
+              "text": "subject"
+            },
+            {
+              "id": "w7",
+              "text": "be"
+            },
+            {
+              "id": "w0",
+              "text": "Many"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The research on public transport mobility has led to many new discoveries.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A way to solve a problem related to public transport mobility\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Solution"
+            },
+            {
+              "id": "o3",
+              "text": "Impact"
+            },
+            {
+              "id": "o2",
+              "text": "Innovation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advanced",
+              "right": "A high level of knowledge in public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Fundamentals",
+              "right": "The basic principles of public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Impact",
+              "right": "The effect of public transport mobility on society"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I38",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (know/not) ________ much about public transport mobility yet.",
+          "correct_answer": "doesn't know",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a solution to this public transport mobility problem is our main priority.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w10",
+              "text": "works"
+            },
+            {
+              "id": "w9",
+              "text": "mobility"
+            },
+            {
+              "id": "w4",
+              "text": "theories"
+            },
+            {
+              "id": "w6",
+              "text": "how"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            },
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w7",
+              "text": "public"
+            },
+            {
+              "id": "w8",
+              "text": "transport"
+            },
+            {
+              "id": "w3",
+              "text": "different"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many people find public transport mobility to be a challenging but rewarding subject.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I42",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A high level of knowledge in public transport mobility\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Advanced"
+            },
+            {
+              "id": "o3",
+              "text": "public transport mobility specialist"
+            },
+            {
+              "id": "o2",
+              "text": "Research"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fundamentals",
+              "right": "The basic principles of public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Practice",
+              "right": "The application of public transport mobility in real life"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (discuss) ________ public transport mobility when I arrived.",
+          "correct_answer": "were discussing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a solution to this public transport mobility problem is our main priority.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w11",
+              "text": "discoveries"
+            },
+            {
+              "id": "w1",
+              "text": "research"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w10",
+              "text": "new"
+            },
+            {
+              "id": "w3",
+              "text": "public"
+            },
+            {
+              "id": "w8",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w9",
+              "text": "many"
+            },
+            {
+              "id": "w7",
+              "text": "led"
+            },
+            {
+              "id": "w6",
+              "text": "has"
+            },
+            {
+              "id": "w4",
+              "text": "transport"
+            },
+            {
+              "id": "w5",
+              "text": "mobility"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The impact of public transport mobility on our daily lives is significant.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I48",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The effect of public transport mobility on society\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Practice"
+            },
+            {
+              "id": "o1",
+              "text": "Impact"
+            },
+            {
+              "id": "o2",
+              "text": "Research"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I49",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advanced",
+              "right": "A high level of knowledge in public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Research",
+              "right": "The systematic investigation into public transport mobility"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I50",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (know/not) ________ much about public transport mobility yet.",
+          "correct_answer": "doesn't know",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There are many different theories about how transport public mobility works.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "fundamentals"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w10",
+              "text": "mobility"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w11",
+              "text": "in"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w13",
+              "text": "unit"
+            },
+            {
+              "id": "w8",
+              "text": "public"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w4",
+              "text": "explore"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w12",
+              "text": "this"
+            },
+            {
+              "id": "w9",
+              "text": "transport"
+            },
+            {
+              "id": "w2",
+              "text": "going"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The impact of public transport mobility on our daily lives is significant.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A high level of knowledge in public transport mobility\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Challenge"
+            },
+            {
+              "id": "o1",
+              "text": "Advanced"
+            },
+            {
+              "id": "o2",
+              "text": "Theory"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Innovation",
+              "right": "A new idea or method in public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Advanced",
+              "right": "A high level of knowledge in public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Fundamentals",
+              "right": "The basic principles of public transport mobility"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I56",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ interested in public transport mobility since he was a child.",
+          "correct_answer": "has been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The on research public transport mobility has led to many new discoveries.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "many"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            },
+            {
+              "id": "w9",
+              "text": "mobility"
+            },
+            {
+              "id": "w6",
+              "text": "how"
+            },
+            {
+              "id": "w8",
+              "text": "transport"
+            },
+            {
+              "id": "w7",
+              "text": "public"
+            },
+            {
+              "id": "w4",
+              "text": "theories"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w10",
+              "text": "works"
+            },
+            {
+              "id": "w3",
+              "text": "different"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I59",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He has been a specialist in public transport mobility for over ten years.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A system of ideas intended to explain public transport mobility\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Impact"
+            },
+            {
+              "id": "o3",
+              "text": "Innovation"
+            },
+            {
+              "id": "o1",
+              "text": "Theory"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I61",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Challenge",
+              "right": "A difficult task in the context of public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Solution",
+              "right": "A way to solve a problem related to public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Practice",
+              "right": "The application of public transport mobility in real life"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (study) ________ public transport mobility lately.",
+          "correct_answer": "have been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Many people find public transport mobility to be a challenging but rewarding subject.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Putting"
+            },
+            {
+              "id": "w10",
+              "text": "be"
+            },
+            {
+              "id": "w7",
+              "text": "into"
+            },
+            {
+              "id": "w5",
+              "text": "transport"
+            },
+            {
+              "id": "w6",
+              "text": "mobility"
+            },
+            {
+              "id": "w2",
+              "text": "theory"
+            },
+            {
+              "id": "w9",
+              "text": "can"
+            },
+            {
+              "id": "w11",
+              "text": "difficult"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w8",
+              "text": "practice"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "public"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Finding a solution to this public transport mobility problem is our main priority.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A new idea or method in public transport mobility\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Solution"
+            },
+            {
+              "id": "o2",
+              "text": "Practice"
+            },
+            {
+              "id": "o1",
+              "text": "Innovation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Solution",
+              "right": "A way to solve a problem related to public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Challenge",
+              "right": "A difficult task in the context of public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Innovation",
+              "right": "A new idea or method in public transport mobility"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I68",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (read/usually) ________ about public transport mobility on weekends.",
+          "correct_answer": "usually reads",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We are going to explore the fundamentals of public transport mobility in this unit.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "public"
+            },
+            {
+              "id": "w3",
+              "text": "transport"
+            },
+            {
+              "id": "w8",
+              "text": "way"
+            },
+            {
+              "id": "w7",
+              "text": "great"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w10",
+              "text": "expand"
+            },
+            {
+              "id": "w0",
+              "text": "Learning"
+            },
+            {
+              "id": "w11",
+              "text": "your"
+            },
+            {
+              "id": "w12",
+              "text": "horizons"
+            },
+            {
+              "id": "w9",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "mobility"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many people find public transport mobility to be a challenging but rewarding subject.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I72",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A way to solve a problem related to public transport mobility\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "public transport mobility specialist"
+            },
+            {
+              "id": "o1",
+              "text": "Solution"
+            },
+            {
+              "id": "o2",
+              "text": "Innovation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Solution",
+              "right": "A way to solve a problem related to public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Challenge",
+              "right": "A difficult task in the context of public transport mobility"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (study) ________ public transport mobility lately.",
+          "correct_answer": "have been studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a solution to this public transport mobility problem is our main priority.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "into"
+            },
+            {
+              "id": "w9",
+              "text": "can"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w11",
+              "text": "difficult"
+            },
+            {
+              "id": "w4",
+              "text": "public"
+            },
+            {
+              "id": "w2",
+              "text": "theory"
+            },
+            {
+              "id": "w0",
+              "text": "Putting"
+            },
+            {
+              "id": "w5",
+              "text": "transport"
+            },
+            {
+              "id": "w8",
+              "text": "practice"
+            },
+            {
+              "id": "w6",
+              "text": "mobility"
+            },
+            {
+              "id": "w10",
+              "text": "be"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Finding a solution to this public transport mobility problem is our main priority.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I78",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A way to solve a problem related to public transport mobility\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Solution"
+            },
+            {
+              "id": "o2",
+              "text": "Impact"
+            },
+            {
+              "id": "o3",
+              "text": "Practice"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Solution",
+              "right": "A way to solve a problem related to public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Innovation",
+              "right": "A new idea or method in public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Challenge",
+              "right": "A difficult task in the context of public transport mobility"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If you (want) ________ to master public transport mobility, you must practice.",
+          "correct_answer": "want",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a solution to this public transport mobility problem is our main priority.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "transport"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w11",
+              "text": "in"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "explore"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w12",
+              "text": "this"
+            },
+            {
+              "id": "w6",
+              "text": "fundamentals"
+            },
+            {
+              "id": "w8",
+              "text": "public"
+            },
+            {
+              "id": "w10",
+              "text": "mobility"
+            },
+            {
+              "id": "w13",
+              "text": "unit"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I83",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Learning about public transport mobility is a great way to expand your horizons.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I84",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The effect of public transport mobility on society\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Impact"
+            },
+            {
+              "id": "o2",
+              "text": "Theory"
+            },
+            {
+              "id": "o3",
+              "text": "public transport mobility specialist"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I85",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Theory",
+              "right": "A system of ideas intended to explain public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Impact",
+              "right": "The effect of public transport mobility on society"
+            },
+            {
+              "id": "p2",
+              "left": "Practice",
+              "right": "The application of public transport mobility in real life"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (learn) ________ about public transport mobility in the next lesson.",
+          "correct_answer": "are going to learn",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Learning about public transport mobility is a great way to expand your horizons.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w10",
+              "text": "mobility"
+            },
+            {
+              "id": "w8",
+              "text": "public"
+            },
+            {
+              "id": "w4",
+              "text": "explore"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w12",
+              "text": "this"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "transport"
+            },
+            {
+              "id": "w11",
+              "text": "in"
+            },
+            {
+              "id": "w13",
+              "text": "unit"
+            },
+            {
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w6",
+              "text": "fundamentals"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Putting the theory of public transport mobility into practice can be difficult.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A way to solve a problem related to public transport mobility\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Impact"
+            },
+            {
+              "id": "o1",
+              "text": "Solution"
+            },
+            {
+              "id": "o2",
+              "text": "Theory"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advanced",
+              "right": "A high level of knowledge in public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Solution",
+              "right": "A way to solve a problem related to public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Research",
+              "right": "The systematic investigation into public transport mobility"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (visit) ________ a museum about public transport mobility tomorrow.",
+          "correct_answer": "are visiting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Learning about public transport mobility is a great way to expand your horizons.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "way"
+            },
+            {
+              "id": "w4",
+              "text": "mobility"
+            },
+            {
+              "id": "w3",
+              "text": "transport"
+            },
+            {
+              "id": "w11",
+              "text": "your"
+            },
+            {
+              "id": "w2",
+              "text": "public"
+            },
+            {
+              "id": "w12",
+              "text": "horizons"
+            },
+            {
+              "id": "w7",
+              "text": "great"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w10",
+              "text": "expand"
+            },
+            {
+              "id": "w9",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Learning"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I95",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Putting the theory of public transport mobility into practice can be difficult.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U43_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A new idea or method in public transport mobility\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Solution"
+            },
+            {
+              "id": "o1",
+              "text": "Innovation"
+            },
+            {
+              "id": "o2",
+              "text": "Research"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I97",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "public transport mobility specialist",
+              "right": "An expert in the field of public transport mobility"
+            },
+            {
+              "id": "p1",
+              "left": "Research",
+              "right": "The systematic investigation into public transport mobility"
+            },
+            {
+              "id": "p2",
+              "left": "Practice",
+              "right": "The application of public transport mobility in real life"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I think public transport mobility (be) ________ very important for the future.",
+          "correct_answer": "is",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The research on public transport mobility has led to many new discoveries.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "people"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            },
+            {
+              "id": "w12",
+              "text": "subject"
+            },
+            {
+              "id": "w2",
+              "text": "find"
+            },
+            {
+              "id": "w11",
+              "text": "rewarding"
+            },
+            {
+              "id": "w7",
+              "text": "be"
+            },
+            {
+              "id": "w9",
+              "text": "challenging"
+            },
+            {
+              "id": "w3",
+              "text": "public"
+            },
+            {
+              "id": "w5",
+              "text": "mobility"
+            },
+            {
+              "id": "w0",
+              "text": "Many"
+            },
+            {
+              "id": "w6",
+              "text": "to"
+            },
+            {
+              "id": "w10",
+              "text": "but"
+            },
+            {
+              "id": "w4",
+              "text": "transport"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

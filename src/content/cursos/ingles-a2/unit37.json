@@ -1,0 +1,1129 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U37",
+    "unit_title": "Present Perfect: Just, Already & Yet",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Time Adverbs in Present Perfect",
+      "content": [
+        {
+          "interaction_id": "U37_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Just' en el Present Perfect?",
+          "options": [
+            { "id": "o1", "text": "Acabar de (hacer algo)" },
+            { "id": "o2", "text": "Solo" },
+            { "id": "o3", "text": "Justo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Already'?",
+          "options": [
+            { "id": "o1", "text": "Ya" },
+            { "id": "o2", "text": "Todavía" },
+            { "id": "o3", "text": "Aun" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Yet' en frases negativas?",
+          "options": [
+            { "id": "o1", "text": "Todavía no" },
+            { "id": "o2", "text": "Ya" },
+            { "id": "o3", "text": "Aun no" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Yet' en preguntas?",
+          "options": [
+            { "id": "o1", "text": "¿Ya...?" },
+            { "id": "o2", "text": "¿Todavía...?" },
+            { "id": "o3", "text": "¿Aun...?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde se coloca 'Just'?",
+          "options": [
+            { "id": "o1", "text": "Entre 'have/has' y el participio" },
+            { "id": "o2", "text": "Al final de la frase" },
+            { "id": "o3", "text": "Al principio de la frase" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde se suele colocar 'Already'?",
+          "options": [
+            { "id": "o1", "text": "Entre 'have/has' y el participio" },
+            { "id": "o2", "text": "Al final de la frase" },
+            { "id": "o3", "text": "Ambas son posibles, pero la o1 es más común" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde se coloca 'Yet'?",
+          "options": [
+            { "id": "o1", "text": "Al final de la frase" },
+            { "id": "o2", "text": "Entre 'have/has' y el participio" },
+            { "id": "o3", "text": "Al principio de la frase" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Recién horneado'?",
+          "options": [
+            { "id": "o1", "text": "Just baked" },
+            { "id": "o2", "text": "Already baked" },
+            { "id": "o3", "text": "Yet baked" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aun no he terminado'?",
+          "options": [
+            { "id": "o1", "text": "I haven't finished yet" },
+            { "id": "o2", "text": "I not finished already" },
+            { "id": "o3", "text": "I just not finished" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ya lo he visto'?",
+          "options": [
+            { "id": "o1", "text": "I've already seen it" },
+            { "id": "o2", "text": "I've yet seen it" },
+            { "id": "o3", "text": "I've just see it" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I11",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Just", "right": "Acabar de" },
+            { "id": "p2", "left": "Already", "right": "Ya (afirmación)" },
+            { "id": "p3", "left": "Yet", "right": "Todavía no / Ya (pregunta)" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Acabo de llegar'?",
+          "options": [
+            { "id": "o1", "text": "I've just arrived" },
+            { "id": "o2", "text": "I've already arrived" },
+            { "id": "o3", "text": "I've arrived yet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Has comido ya?'?",
+          "options": [
+            { "id": "o1", "text": "Have you eaten yet?" },
+            { "id": "o2", "text": "Have you eaten already?" },
+            { "id": "o3", "text": "Both are possible, but 'yet' is standard for A2" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'No ha llamado todavía'?",
+          "options": [
+            { "id": "o1", "text": "He hasn't called yet" },
+            { "id": "o2", "text": "He already hasn't called" },
+            { "id": "o3", "text": "He just hasn't call" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ya hemos hecho eso'?",
+          "options": [
+            { "id": "o1", "text": "We've already done that" },
+            { "id": "o2", "text": "We've yet done that" },
+            { "id": "o3", "text": "We just done that" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I16",
+          "type": "flashcard",
+          "prompt_es": "Adverbios de Tiempo",
+          "flashcards": [
+            { "front": "I've just eaten", "back": "Acabo de comer", "pronunciation": "/aɪv dʒʌst ˈiːtən/" },
+            { "front": "I've already seen it", "back": "Ya lo he visto", "pronunciation": "/aɪv ɔːlˈredi siːn ɪt/" },
+            { "front": "I haven't finished yet", "back": "No he terminado todavía", "pronunciation": "/aɪ ˈhævənt ˈfɪnɪʃt jet/" },
+            { "front": "Have you seen it yet?", "back": "¿Ya lo has visto?", "pronunciation": "/hæv juː siːn ɪt jet/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Limpiar la casa'?",
+          "options": [
+            { "id": "o1", "text": "To clean the house" },
+            { "id": "o2", "text": "To do the house" },
+            { "id": "o3", "text": "To make the house" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer los deberes'?",
+          "options": [
+            { "id": "o1", "text": "To do homework" },
+            { "id": "o2", "text": "To make homework" },
+            { "id": "o3", "text": "To write homework" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reservar una mesa'?",
+          "options": [
+            { "id": "o1", "text": "To book a table" },
+            { "id": "o2", "text": "To reserve a table" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Comprar las entradas'?",
+          "options": [
+            { "id": "o1", "text": "To buy the tickets" },
+            { "id": "o2", "text": "To get the tickets" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Enviar el correo'?",
+          "options": [
+            { "id": "o1", "text": "To send the email" },
+            { "id": "o2", "text": "To write the email" },
+            { "id": "o3", "text": "To do the email" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Arreglar la habitación'?",
+          "options": [
+            { "id": "o1", "text": "To tidy the room" },
+            { "id": "o2", "text": "To clean the room" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sacar la basura'?",
+          "options": [
+            { "id": "o1", "text": "To take out the trash" },
+            { "id": "o2", "text": "To take out the rubbish" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lavar el coche'?",
+          "options": [
+            { "id": "o1", "text": "To wash the car" },
+            { "id": "o2", "text": "To clean the car" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer la compra'?",
+          "options": [
+            { "id": "o1", "text": "To do the shopping" },
+            { "id": "o2", "text": "To go shopping" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Preparar la cena'?",
+          "options": [
+            { "id": "o1", "text": "To cook dinner" },
+            { "id": "o2", "text": "To prepare dinner" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pagar las facturas'?",
+          "options": [
+            { "id": "o1", "text": "To pay the bills" },
+            { "id": "o2", "text": "To do the bills" },
+            { "id": "o3", "text": "To give the bills" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cortar el césped'?",
+          "options": [
+            { "id": "o1", "text": "To cut the grass" },
+            { "id": "o2", "text": "To mow the lawn" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Alimentar al perro'?",
+          "options": [
+            { "id": "o1", "text": "To feed the dog" },
+            { "id": "o2", "text": "To give food to the dog" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Poner la mesa'?",
+          "options": [
+            { "id": "o1", "text": "To set the table" },
+            { "id": "o2", "text": "To lay the table" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Quitar la mesa'?",
+          "options": [
+            { "id": "o1", "text": "To clear the table" },
+            { "id": "o2", "text": "To take the table" },
+            { "id": "o3", "text": "To clean the table" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer la cama'?",
+          "options": [
+            { "id": "o1", "text": "To make the bed" },
+            { "id": "o2", "text": "To do the bed" },
+            { "id": "o3", "text": "To clean the bed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Planchar la ropa'?",
+          "options": [
+            { "id": "o1", "text": "To do the ironing" },
+            { "id": "o2", "text": "To iron the clothes" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lavar la ropa'?",
+          "options": [
+            { "id": "o1", "text": "To do the laundry" },
+            { "id": "o2", "text": "To wash the clothes" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Regar las plantas'?",
+          "options": [
+            { "id": "o1", "text": "To water the plants" },
+            { "id": "o2", "text": "To give water to the plants" },
+            { "id": "o3", "text": "To drink the plants" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Placement of Just, Already & Yet",
+      "content": [
+        {
+          "interaction_id": "U37_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'just': 'I have ___ eaten.'",
+          "stimulus_en": "I have ___ eaten.",
+          "correct_answer": "just",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'already': 'We have ___ seen that movie.'",
+          "stimulus_en": "We have ___ seen that movie.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'yet': 'They haven't arrived ___.'",
+          "stimulus_en": "They haven't arrived ___.",
+          "correct_answer": "yet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'yet': 'Has she called ___?'",
+          "stimulus_en": "Has she called ___?",
+          "correct_answer": "yet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'just': 'He has ___ finished his homework.'",
+          "stimulus_en": "He has ___ finished his homework.",
+          "correct_answer": "just",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I41",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / have / just / seen / him / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "just" },
+            { "id": "w4", "text": "seen" },
+            { "id": "w5", "text": "him" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I42",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'She / has / already / done / it / .'",
+          "options": [
+            { "id": "w1", "text": "She" },
+            { "id": "w2", "text": "has" },
+            { "id": "w3", "text": "already" },
+            { "id": "w4", "text": "done" },
+            { "id": "w5", "text": "it" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I43",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'We / haven't / finished / yet / .'",
+          "options": [
+            { "id": "w1", "text": "We" },
+            { "id": "w2", "text": "haven't" },
+            { "id": "w3", "text": "finished" },
+            { "id": "w4", "text": "yet" },
+            { "id": "w5", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I44",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Have / you / seen / it / yet / ?'",
+          "options": [
+            { "id": "w1", "text": "Have" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "seen" },
+            { "id": "w4", "text": "it" },
+            { "id": "w5", "text": "yet" },
+            { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They've ___ (acaban de) left the house.'",
+          "stimulus_en": "They've ___ left the house.",
+          "correct_answer": "just",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I've ___ (ya) paid the bills.'",
+          "stimulus_en": "I've ___ paid the bills.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He hasn't tidied his room ___ (todavía).'",
+          "stimulus_en": "He hasn't tidied his room ___.",
+          "correct_answer": "yet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Have they eaten ___ (ya)?'",
+          "stimulus_en": "Have they eaten ___?",
+          "correct_answer": "yet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We have ___ (acabamos de) booked the flights.'",
+          "stimulus_en": "We have ___ booked the flights.",
+          "correct_answer": "just",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I have ___ (ya) cleaned the kitchen.'",
+          "stimulus_en": "I have ___ cleaned the kitchen.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "I haven't already eaten." },
+            { "id": "o2", "text": "I haven't eaten yet." },
+            { "id": "o3", "text": "I haven't yet eaten." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "I've just finished." },
+            { "id": "o2", "text": "I've finished just." },
+            { "id": "o3", "text": "Just I've finished." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "She has already left." },
+            { "id": "o2", "text": "She already has left." },
+            { "id": "o3", "text": "Both are grammatically possible, but o1 is standard." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Has the bus left ___?'",
+          "stimulus_en": "Has the bus left ___?",
+          "correct_answer": "yet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I've ___ (acabo de) seen a spider!'",
+          "stimulus_en": "I've ___ seen a spider!",
+          "correct_answer": "just",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We haven't seen that movie ___.'",
+          "stimulus_en": "We haven't seen that movie ___.",
+          "correct_answer": "yet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They've ___ (ya) done their homework.'",
+          "stimulus_en": "They've ___ done their homework.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He's ___ (acaba de) called me.'",
+          "stimulus_en": "He's ___ called me.",
+          "correct_answer": "just",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Has she finished ___?'",
+          "stimulus_en": "Has she finished ___?",
+          "correct_answer": "yet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I've ___ (ya) told him.'",
+          "stimulus_en": "I've ___ told him.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We haven't met the new boss ___.'",
+          "stimulus_en": "We haven't met the new boss ___.",
+          "correct_answer": "yet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They have ___ (acaban de) won the game.'",
+          "stimulus_en": "They have ___ won the game.",
+          "correct_answer": "just",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I haven't read the news ___.'",
+          "stimulus_en": "I haven't read the news ___.",
+          "correct_answer": "yet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She has ___ (ya) bought the tickets.'",
+          "stimulus_en": "She has ___ bought the tickets.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Have you seen my keys ___?'",
+          "stimulus_en": "Have you seen my keys ___?",
+          "correct_answer": "yet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I've ___ (acabo de) washed my hair.'",
+          "stimulus_en": "I've ___ washed my hair.",
+          "correct_answer": "just",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We haven't cleaned the house ___.'",
+          "stimulus_en": "We haven't cleaned the house ___.",
+          "correct_answer": "yet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They've ___ (ya) eaten lunch.'",
+          "stimulus_en": "They've ___ eaten lunch.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Has he called you ___?'",
+          "stimulus_en": "Has he called you ___?",
+          "correct_answer": "yet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I've ___ (acabo de) found my wallet.'",
+          "stimulus_en": "I've ___ found my wallet.",
+          "correct_answer": "just",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Daily Tasks & Completed Actions",
+      "content": [
+        {
+          "interaction_id": "U37_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Acabo de terminar mi tarea'?",
+          "options": [
+            { "id": "o1", "text": "I've just finished my homework." },
+            { "id": "o2", "text": "I've already finished my homework." },
+            { "id": "o3", "text": "I've finished my homework yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ya he hecho la compra'?",
+          "options": [
+            { "id": "o1", "text": "I've already done the shopping." },
+            { "id": "o2", "text": "I've just done the shopping." },
+            { "id": "o3", "text": "I've done the shopping yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Ya has sacado la basura?'?",
+          "options": [
+            { "id": "o1", "text": "Have you taken out the trash yet?" },
+            { "id": "o2", "text": "Have you taken out the trash already?" },
+            { "id": "o3", "text": "Have you just taken out the trash?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Todavía no hemos reservado la mesa'?",
+          "options": [
+            { "id": "o1", "text": "We haven't booked the table yet." },
+            { "id": "o2", "text": "We haven't already booked the table." },
+            { "id": "o3", "text": "We just haven't booked the table." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella acaba de enviar el correo'?",
+          "options": [
+            { "id": "o1", "text": "She has just sent the email." },
+            { "id": "o2", "text": "She has already sent the email." },
+            { "id": "o3", "text": "She has sent the email yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ya han lavado el coche'?",
+          "options": [
+            { "id": "o1", "text": "They've already washed the car." },
+            { "id": "o2", "text": "They've just washed the car." },
+            { "id": "o3", "text": "They've washed the car yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Ya ha llamado el médico?'?",
+          "options": [
+            { "id": "o1", "text": "Has the doctor called yet?" },
+            { "id": "o2", "text": "Has the doctor already called?" },
+            { "id": "o3", "text": "Has the doctor just called?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No he pagado las facturas todavía'?",
+          "options": [
+            { "id": "o1", "text": "I haven't paid the bills yet." },
+            { "id": "o2", "text": "I haven't already paid the bills." },
+            { "id": "o3", "text": "I just haven't paid the bills." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Acabamos de ver a tu hermano'?",
+          "options": [
+            { "id": "o1", "text": "We've just seen your brother." },
+            { "id": "o2", "text": "We've already seen your brother." },
+            { "id": "o3", "text": "We've seen your brother yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él ya ha alimentado al perro'?",
+          "options": [
+            { "id": "o1", "text": "He's already fed the dog." },
+            { "id": "o2", "text": "He's just fed the dog." },
+            { "id": "o3", "text": "He's fed the dog yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Ya has hecho la cama?'?",
+          "options": [
+            { "id": "o1", "text": "Have you made your bed yet?" },
+            { "id": "o2", "text": "Have you made your bed already?" },
+            { "id": "o3", "text": "Have you just made your bed?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No he planchado la ropa todavía'?",
+          "options": [
+            { "id": "o1", "text": "I haven't done the ironing yet." },
+            { "id": "o2", "text": "I haven't already done the ironing." },
+            { "id": "o3", "text": "I just haven't done the ironing." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Acaban de limpiar la oficina'?",
+          "options": [
+            { "id": "o1", "text": "They've just cleaned the office." },
+            { "id": "o2", "text": "They've already cleaned the office." },
+            { "id": "o3", "text": "They've cleaned the office yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ya he regado las plantas'?",
+          "options": [
+            { "id": "o1", "text": "I've already watered the plants." },
+            { "id": "o2", "text": "I've just watered the plants." },
+            { "id": "o3", "text": "I've watered the plants yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Ya has puesto la mesa?'?",
+          "options": [
+            { "id": "o1", "text": "Have you set the table yet?" },
+            { "id": "o2", "text": "Have you set the table already?" },
+            { "id": "o3", "text": "Have you just set the table?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I86",
+          "type": "flashcard",
+          "prompt_es": "Tareas Domésticas",
+          "flashcards": [
+            { "front": "Do the laundry", "back": "Lavar la ropa", "pronunciation": "/duː ðə ˈlɔːndri/" },
+            { "front": "Iron the clothes", "back": "Planchar la ropa", "pronunciation": "/ˈaɪərn ðə kloʊðz/" },
+            { "front": "Feed the pet", "back": "Alimentar a la mascota", "pronunciation": "/fiːd ðə pet/" },
+            { "front": "Take out the trash", "back": "Sacar la basura", "pronunciation": "/teɪk aʊt ðə træʃ/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I87",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Have / you / already / finished / ?'",
+          "options": [
+            { "id": "w1", "text": "Have" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "already" },
+            { "id": "w4", "text": "finished" },
+            { "id": "w5", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / haven't / done / it / yet / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "haven't" },
+            { "id": "w3", "text": "done" },
+            { "id": "w4", "text": "it" },
+            { "id": "w5", "text": "yet" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Acaba de sonar el teléfono'?",
+          "options": [
+            { "id": "o1", "text": "The phone has just rung." },
+            { "id": "o2", "text": "The phone has already rung." },
+            { "id": "o3", "text": "The phone has rung yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ya hemos reservado el hotel'?",
+          "options": [
+            { "id": "o1", "text": "We've already booked the hotel." },
+            { "id": "o2", "text": "We've just booked the hotel." },
+            { "id": "o3", "text": "We've booked the hotel yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No he visto el correo todavía'?",
+          "options": [
+            { "id": "o1", "text": "I haven't seen the email yet." },
+            { "id": "o2", "text": "I haven't already seen the email." },
+            { "id": "o3", "text": "I just haven't seen the email." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Ya has terminado de leer?'?",
+          "options": [
+            { "id": "o1", "text": "Have you finished reading yet?" },
+            { "id": "o2", "text": "Have you already finished reading?" },
+            { "id": "o3", "text": "Have you just finished reading?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Acabo de comprar leche'?",
+          "options": [
+            { "id": "o1", "text": "I've just bought some milk." },
+            { "id": "o2", "text": "I've already bought some milk." },
+            { "id": "o3", "text": "I've bought some milk yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ya he limpiado mi habitación'?",
+          "options": [
+            { "id": "o1", "text": "I've already tidied my room." },
+            { "id": "o2", "text": "I've just tidied my room." },
+            { "id": "o3", "text": "I've tidied my room yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Ya has comido?'?",
+          "options": [
+            { "id": "o1", "text": "Have you eaten yet?" },
+            { "id": "o2", "text": "Have you already eaten?" },
+            { "id": "o3", "text": "Have you just eaten?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Todavía no ha llegado el paquete'?",
+          "options": [
+            { "id": "o1", "text": "The package hasn't arrived yet." },
+            { "id": "o2", "text": "The package hasn't already arrived." },
+            { "id": "o3", "text": "The package just hasn't arrived." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Acabamos de llegar de vacaciones'?",
+          "options": [
+            { "id": "o1", "text": "We've just come back from vacation." },
+            { "id": "o2", "text": "We've already come back from vacation." },
+            { "id": "o3", "text": "We've come back from vacation yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ya he visto esa película'?",
+          "options": [
+            { "id": "o1", "text": "I've already seen that movie." },
+            { "id": "o2", "text": "I've just seen that movie." },
+            { "id": "o3", "text": "I've seen that movie yet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Ya has hablado con él?'?",
+          "options": [
+            { "id": "o1", "text": "Have you spoken to him yet?" },
+            { "id": "o2", "text": "Have you already spoken to him?" },
+            { "id": "o3", "text": "Have you just spoken to him?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U37_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Todavía no he terminado de cocinar la cena.'",
+          "stimulus_es": "Todavía no he terminado de cocinar la cena.",
+          "correct_answer": "I haven't finished cooking dinner yet.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1177 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U54",
+    "unit_title": "Socializing: Expansion",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Small Talk & Reactions",
+      "content": [
+        {
+          "interaction_id": "U54_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Charlar / Conversar'?",
+          "options": [
+            { "id": "o1", "text": "Chat" },
+            { "id": "o2", "text": "Shout" },
+            { "id": "o3", "text": "Call" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Interesante'?",
+          "options": [
+            { "id": "o1", "text": "Interesting" },
+            { "id": "o2", "text": "Bored" },
+            { "id": "o3", "text": "Interesant" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sorprendente'?",
+          "options": [
+            { "id": "o1", "text": "Amazing / Surprising" },
+            { "id": "o2", "text": "Normal" },
+            { "id": "o3", "text": "Strange" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¡Qué bien!'?",
+          "options": [
+            { "id": "o1", "text": "That's great!" },
+            { "id": "o2", "text": "That's bad!" },
+            { "id": "o3", "text": "Good for it" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'En serio?'?",
+          "options": [
+            { "id": "o1", "text": "Really?" },
+            { "id": "o2", "text": "Serious?" },
+            { "id": "o3", "text": "True?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Brillante / Genial'?",
+          "options": [
+            { "id": "o1", "text": "Brilliant / Awesome" },
+            { "id": "o2", "text": "Bad" },
+            { "id": "o3", "text": "Dark" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¡Vaya!' (sorpresa)?",
+          "options": [
+            { "id": "o1", "text": "Wow!" },
+            { "id": "o2", "text": "Oh no!" },
+            { "id": "o3", "text": "Go!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Terrible'?",
+          "options": [
+            { "id": "o1", "text": "Terrible / Awful" },
+            { "id": "o2", "text": "Great" },
+            { "id": "o3", "text": "Good" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿De verdad?'?",
+          "options": [
+            { "id": "o1", "text": "Is that true?" },
+            { "id": "o2", "text": "It is real?" },
+            { "id": "o3", "text": "Seriously?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me alegro'?",
+          "options": [
+            { "id": "o1", "text": "I'm glad" },
+            { "id": "o2", "text": "I'm happy" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I11",
+          "type": "matching",
+          "prompt_es": "Empareja las reacciones con su contexto.",
+          "pairs": [
+            { "id": "p1", "left": "I passed my exam!", "right": "That's brilliant!" },
+            { "id": "p2", "left": "I lost my phone.", "right": "Oh, what a pity." },
+            { "id": "p3", "left": "I'm getting married!", "right": "Congratulations!" },
+            { "id": "p4", "left": "It's raining again.", "right": "How annoying." }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I12",
+          "type": "flashcard",
+          "prompt_es": "Vocabulario de interacción social.",
+          "flashcards": [
+            { "front": "Chat", "back": "Charlar", "pronunciation": "/tʃæt/" },
+            { "front": "Congratulations", "back": "Felicidades", "pronunciation": "/kənˌɡrætʃuˈleɪʃnz/" },
+            { "front": "Actually", "back": "En realidad", "pronunciation": "/ˈæktʃuəli/" },
+            { "front": "Anyway", "back": "De todos modos", "pronunciation": "/ˈeniweɪ/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'A propósito'?",
+          "options": [
+            { "id": "o1", "text": "By the way" },
+            { "id": "o2", "text": "In the way" },
+            { "id": "o3", "text": "On the way" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Qué tal?' (informal)?",
+          "options": [
+            { "id": "o1", "text": "How's it going?" },
+            { "id": "o2", "text": "What's up?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hace tiempo que no nos vemos'?",
+          "options": [
+            { "id": "o1", "text": "Long time no see" },
+            { "id": "o2", "text": "Much time no see" },
+            { "id": "o3", "text": "Old time no see" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¡Vaya por Dios! / ¡Qué pena!'?",
+          "options": [
+            { "id": "o1", "text": "Dear me! / Oh dear!" },
+            { "id": "o2", "text": "Oh God!" },
+            { "id": "o3", "text": "Poor me!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿A qué te dedicas?'?",
+          "options": [
+            { "id": "o1", "text": "What do you do?" },
+            { "id": "o2", "text": "What you do?" },
+            { "id": "o3", "text": "What are you doing?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Divertido' (algo que te hace reír)?",
+          "options": [
+            { "id": "o1", "text": "Funny" },
+            { "id": "o2", "text": "Fun" },
+            { "id": "o3", "text": "Laugh" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Divertido' (algo que disfrutas)?",
+          "options": [
+            { "id": "o1", "text": "Fun" },
+            { "id": "o2", "text": "Funny" },
+            { "id": "o3", "text": "Enjoy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'En absoluto'?",
+          "options": [
+            { "id": "o1", "text": "Not at all" },
+            { "id": "o2", "text": "Absolutely not" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I21",
+          "type": "matching",
+          "prompt_es": "Empareja las frases comunes.",
+          "pairs": [
+            { "id": "p1", "left": "Take care", "right": "Cuídate" },
+            { "id": "p2", "left": "See you soon", "right": "Nos vemos pronto" },
+            { "id": "p3", "left": "Have a nice day", "right": "Que tengas un buen día" },
+            { "id": "p4", "left": "Good luck", "right": "Buena suerte" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Te importa?'?",
+          "options": [
+            { "id": "o1", "text": "Do you mind?" },
+            { "id": "o2", "text": "Do you care?" },
+            { "id": "o3", "text": "It matters to you?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Encantado de conocerte'?",
+          "options": [
+            { "id": "o1", "text": "Nice to meet you" },
+            { "id": "o2", "text": "Pleased to meet you" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Igualmente'?",
+          "options": [
+            { "id": "o1", "text": "Same to you / You too" },
+            { "id": "o2", "text": "Equal" },
+            { "id": "o3", "text": "Same way" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pásalo bien'?",
+          "options": [
+            { "id": "o1", "text": "Have a good time!" },
+            { "id": "o2", "text": "Enjoy yourself!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I26",
+          "type": "flashcard",
+          "prompt_es": "Expresiones de despedida.",
+          "flashcards": [
+            { "front": "See you later", "back": "Nos vemos luego", "pronunciation": "/siː ju ˈleɪtər/" },
+            { "front": "Keep in touch", "back": "Mantener el contacto", "pronunciation": "/kiːp ɪn tʌtʃ/" },
+            { "front": "Give my regards to...", "back": "Da mis saludos a...", "pronunciation": "/ɡɪv maɪ rɪˈɡɑːrdz tu/" },
+            { "front": "Safe journey", "back": "Buen viaje (seguro)", "pronunciation": "/seɪf ˈdʒɜːrni/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Saludar'?",
+          "options": [
+            { "id": "o1", "text": "Greet / Say hello" },
+            { "id": "o2", "text": "Welcome" },
+            { "id": "o3", "text": "Hi" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Despedirse'?",
+          "options": [
+            { "id": "o1", "text": "Say goodbye" },
+            { "id": "o2", "text": "Leave" },
+            { "id": "o3", "text": "Finish" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Interrumpir'?",
+          "options": [
+            { "id": "o1", "text": "Interrupt" },
+            { "id": "o2", "text": "Break" },
+            { "id": "o3", "text": "Stop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lamento...'?",
+          "options": [
+            { "id": "o1", "text": "I'm sorry about..." },
+            { "id": "o2", "text": "I regret..." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¡Buen trabajo!'?",
+          "options": [
+            { "id": "o1", "text": "Well done!" },
+            { "id": "o2", "text": "Good work!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Salud' (estornudo)?",
+          "options": [
+            { "id": "o1", "text": "Bless you!" },
+            { "id": "o2", "text": "Health!" },
+            { "id": "o3", "text": "Cheers!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¡Qué lástima!'?",
+          "options": [
+            { "id": "o1", "text": "What a pity! / What a shame!" },
+            { "id": "o2", "text": "How bad!" },
+            { "id": "o3", "text": "Which pity!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Por supuesto' (informal)?",
+          "options": [
+            { "id": "o1", "text": "Sure!" },
+            { "id": "o2", "text": "Totally!" },
+            { "id": "o3", "text": "Of course!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Darse prisa'?",
+          "options": [
+            { "id": "o1", "text": "Hurry up" },
+            { "id": "o2", "text": "Fast up" },
+            { "id": "o3", "text": "Quickly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Connectors 'So' & 'Because'",
+      "content": [
+        {
+          "interaction_id": "U54_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál se usa para dar una razón?",
+          "options": [
+            { "id": "o1", "text": "Because" },
+            { "id": "o2", "text": "So" },
+            { "id": "o3", "text": "But" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál se usa para dar un resultado o consecuencia?",
+          "options": [
+            { "id": "o1", "text": "So" },
+            { "id": "o2", "text": "Because" },
+            { "id": "o3", "text": "Also" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'm tired ___ I worked all day.'",
+          "stimulus_en": "I'm tired ___ I worked all day.",
+          "correct_answer": "because",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It was raining, ___ I stayed at home.'",
+          "stimulus_en": "It was raining, ___ I stayed at home.",
+          "correct_answer": "so",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Llegué tarde porque perdí el autobús.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "was" },
+            { "id": "w3", "text": "late" },
+            { "id": "w4", "text": "because" },
+            { "id": "w5", "text": "I" },
+            { "id": "w6", "text": "missed" },
+            { "id": "w7", "text": "the" },
+            { "id": "w8", "text": "bus." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U54_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'I'm hungry, so I'm making a sandwich'?",
+          "options": [
+            { "id": "o1", "text": "Tengo hambre, así que estoy haciendo un sándwich." },
+            { "id": "o2", "text": "Tengo hambre porque estoy haciendo un sándwich." },
+            { "id": "o3", "text": "Hice un sándwich porque tenía hambre." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I42",
+          "type": "true_false",
+          "prompt_es": "'Because' siempre va al final de la frase.",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She was sick, ___ she didn't come to the party.'",
+          "stimulus_en": "She was sick, ___ she didn't come to the party.",
+          "correct_answer": "so",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "I studied hard because I wanted to pass." },
+            { "id": "o2", "text": "I studied hard so I wanted to pass." },
+            { "id": "o3", "text": "I studied hard but I wanted to pass." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I45",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Tenía sed, así que bebí agua.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "was" },
+            { "id": "w3", "text": "thirsty," },
+            { "id": "w4", "text": "so" },
+            { "id": "w5", "text": "I" },
+            { "id": "w6", "text": "drank" },
+            { "id": "w7", "text": "water." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U54_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He didn't eat ___ he wasn't hungry.'",
+          "stimulus_en": "He didn't eat ___ he wasn't hungry.",
+          "correct_answer": "because",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estaba cansado, así que se fue a la cama'?",
+          "options": [
+            { "id": "o1", "text": "He was tired, so he went to bed." },
+            { "id": "o2", "text": "He was tired because he went to bed." },
+            { "id": "o3", "text": "He went to bed so he was tired." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I forgot my keys, ___ I couldn't enter.'",
+          "stimulus_en": "I forgot my keys, ___ I couldn't enter.",
+          "correct_answer": "so",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I49",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Estamos felices porque hoy es viernes.'",
+          "options": [
+            { "id": "w1", "text": "We" },
+            { "id": "w2", "text": "are" },
+            { "id": "w3", "text": "happy" },
+            { "id": "w4", "text": "because" },
+            { "id": "w5", "text": "today" },
+            { "id": "w6", "text": "is" },
+            { "id": "w7", "text": "Friday." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U54_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "The film was boring, so we left." },
+            { "id": "o2", "text": "The film was boring because we left." },
+            { "id": "o3", "text": "We left so the film was boring." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I called her ___ I wanted to talk.'",
+          "stimulus_en": "I called her ___ I wanted to talk.",
+          "correct_answer": "because",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I52",
+          "type": "true_false",
+          "prompt_es": "Usamos 'so' para explicar la razón de algo.",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No tengo dinero, así que no puedo ir'?",
+          "options": [
+            { "id": "o1", "text": "I have no money, so I can't go." },
+            { "id": "o2", "text": "I have no money because I can't go." },
+            { "id": "o3", "text": "I can't go so I have no money." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They are late ___ there was a lot of traffic.'",
+          "stimulus_en": "They are late ___ there was a lot of traffic.",
+          "correct_answer": "because",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hacía calor, así que abrí la ventana'?",
+          "options": [
+            { "id": "o1", "text": "It was hot, so I opened the window." },
+            { "id": "o2", "text": "It was hot because I opened the window." },
+            { "id": "o3", "text": "I opened the window because it was hot." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'm learning English ___ I want a better job.'",
+          "stimulus_en": "I'm learning English ___ I want a better job.",
+          "correct_answer": "because",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I57",
+          "type": "true_false",
+          "prompt_es": "Puedes empezar una frase con 'Because'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Llevo un paraguas porque está lloviendo.'",
+          "options": [
+            { "id": "w1", "text": "I'm" },
+            { "id": "w2", "text": "taking" },
+            { "id": "w3", "text": "an" },
+            { "id": "w4", "text": "umbrella" },
+            { "id": "w5", "text": "because" },
+            { "id": "w6", "text": "it's" },
+            { "id": "w7", "text": "raining." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U54_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She was busy, ___ she didn't call me.'",
+          "stimulus_en": "She was busy, ___ she didn't call me.",
+          "correct_answer": "so",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "I didn't sleep well, so I'm tired." },
+            { "id": "o2", "text": "I didn't sleep well because I'm tired." },
+            { "id": "o3", "text": "I'm tired so I didn't sleep well." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I stayed at home ___ it was cold.'",
+          "stimulus_en": "I stayed at home ___ it was cold.",
+          "correct_answer": "because",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I62",
+          "type": "true_false",
+          "prompt_es": "'I missed the flight so I was late' es correcto.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No fuimos porque era caro'?",
+          "options": [
+            { "id": "o1", "text": "We didn't go because it was expensive." },
+            { "id": "o2", "text": "We didn't go so it was expensive." },
+            { "id": "o3", "text": "It was expensive so we didn't go." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The store was closed, ___ I went home.'",
+          "stimulus_en": "The store was closed, ___ I went home.",
+          "correct_answer": "so",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "I'm happy because I'm on holiday." },
+            { "id": "o2", "text": "I'm happy so I'm on holiday." },
+            { "id": "o3", "text": "I'm on holiday because I'm happy." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He's rich, ___ he travels a lot.'",
+          "stimulus_en": "He's rich, ___ he travels a lot.",
+          "correct_answer": "so",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I67",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Llegamos pronto porque no había tráfico.'",
+          "options": [
+            { "id": "w1", "text": "We" },
+            { "id": "w2", "text": "arrived" },
+            { "id": "w3", "text": "early" },
+            { "id": "w4", "text": "because" },
+            { "id": "w5", "text": "there" },
+            { "id": "w6", "text": "was" },
+            { "id": "w7", "text": "no" },
+            { "id": "w8", "text": "traffic." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U54_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I don't like horror films ___ they are scary.'",
+          "stimulus_en": "I don't like horror films ___ they are scary.",
+          "correct_answer": "because",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No tengo hambre, así que no cenaré'?",
+          "options": [
+            { "id": "o1", "text": "I'm not hungry, so I won't have dinner." },
+            { "id": "o2", "text": "I'm not hungry because I won't have dinner." },
+            { "id": "o3", "text": "I won't have dinner so I'm not hungry." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I70",
+          "type": "true_false",
+          "prompt_es": "Usamos una coma antes de 'so' cuando une dos frases.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Socializing & Small Talk",
+      "content": [
+        {
+          "interaction_id": "U54_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo inicias una conversación con un desconocido?",
+          "options": [
+            { "id": "o1", "text": "Excuse me, is this seat free?" },
+            { "id": "o2", "text": "Hello, how much money do you have?" },
+            { "id": "o3", "text": "What are you doing here?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué dices si alguien te da una buena noticia?",
+          "options": [
+            { "id": "o1", "text": "I'm so happy for you!" },
+            { "id": "o2", "text": "That's wonderful!" },
+            { "id": "o3", "text": "All are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué dices si alguien te da una mala noticia?",
+          "options": [
+            { "id": "o1", "text": "I'm sorry to hear that." },
+            { "id": "o2", "text": "That's too bad." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I74",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Fue un placer hablar contigo.'",
+          "options": [
+            { "id": "w1", "text": "It" },
+            { "id": "w2", "text": "was" },
+            { "id": "w3", "text": "nice" },
+            { "id": "w4", "text": "talking" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "you." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U54_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides una opinión?",
+          "options": [
+            { "id": "o1", "text": "What do you think?" },
+            { "id": "o2", "text": "How do you think?" },
+            { "id": "o3", "text": "Which is your think?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estoy de acuerdo'?",
+          "options": [
+            { "id": "o1", "text": "I agree." },
+            { "id": "o2", "text": "I am agree." },
+            { "id": "o3", "text": "I'm agree." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No estoy de acuerdo'?",
+          "options": [
+            { "id": "o1", "text": "I don't agree. / I disagree." },
+            { "id": "o2", "text": "I am not agree." },
+            { "id": "o3", "text": "No agree." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Qué gracioso!'?",
+          "options": [
+            { "id": "o1", "text": "How funny!" },
+            { "id": "o2", "text": "How fun!" },
+            { "id": "o3", "text": "What fun!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me temo que no'?",
+          "options": [
+            { "id": "o1", "text": "I'm afraid not." },
+            { "id": "o2", "text": "I fear no." },
+            { "id": "o3", "text": "I don't think so." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I80",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Qué has estado haciendo últimamente?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "been" },
+            { "id": "w5", "text": "doing" },
+            { "id": "w6", "text": "lately?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U54_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Vaya sorpresa!'?",
+          "options": [
+            { "id": "o1", "text": "What a surprise!" },
+            { "id": "o2", "text": "Which surprise!" },
+            { "id": "o3", "text": "How surprise!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No importa'?",
+          "options": [
+            { "id": "o1", "text": "Never mind." },
+            { "id": "o2", "text": "It doesn't matter." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me da igual / No me importa' (indiferencia)?",
+          "options": [
+            { "id": "o1", "text": "I don't mind." },
+            { "id": "o2", "text": "I don't care." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides permiso para interrumpir?",
+          "options": [
+            { "id": "o1", "text": "Sorry to interrupt, but..." },
+            { "id": "o2", "text": "Can I say something?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo que irme'?",
+          "options": [
+            { "id": "o1", "text": "I must go. / I have to go." },
+            { "id": "o2", "text": "I'm off." },
+            { "id": "o3", "text": "All are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ha sido un placer'?",
+          "options": [
+            { "id": "o1", "text": "It's been a pleasure." },
+            { "id": "o2", "text": "My pleasure." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Dale recuerdos a...'?",
+          "options": [
+            { "id": "o1", "text": "Say hello to..." },
+            { "id": "o2", "text": "Give my regards to..." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué quieres decir?'?",
+          "options": [
+            { "id": "o1", "text": "What do you mean?" },
+            { "id": "o2", "text": "What you mean?" },
+            { "id": "o3", "text": "What do you want to say?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No entiendo'?",
+          "options": [
+            { "id": "o1", "text": "I don't understand." },
+            { "id": "o2", "text": "I don't get it." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Buen viaje!'?",
+          "options": [
+            { "id": "o1", "text": "Have a safe trip!" },
+            { "id": "o2", "text": "Bon voyage!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo ganas de verte'?",
+          "options": [
+            { "id": "o1", "text": "I'm looking forward to seeing you." },
+            { "id": "o2", "text": "I want to see you." },
+            { "id": "o3", "text": "I look forward to see you." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Tienes planes para hoy?'?",
+          "options": [
+            { "id": "o1", "text": "Do you have any plans for today?" },
+            { "id": "o2", "text": "Have you plans?" },
+            { "id": "o3", "text": "What are your plans?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No estoy seguro'?",
+          "options": [
+            { "id": "o1", "text": "I'm not sure." },
+            { "id": "o2", "text": "I'm not certain." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Hiciste un gran trabajo!'?",
+          "options": [
+            { "id": "o1", "text": "You did a great job!" },
+            { "id": "o2", "text": "You made a great job!" },
+            { "id": "o3", "text": "You did a big work!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Salud!' (estornudo)?",
+          "options": [
+            { "id": "o1", "text": "Bless you!" },
+            { "id": "o2", "text": "Health!" },
+            { "id": "o3", "text": "God bless!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes a un cumplido?",
+          "options": [
+            { "id": "o1", "text": "That's very kind of you. Thanks!" },
+            { "id": "o2", "text": "Thank you!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No te oigo bien'?",
+          "options": [
+            { "id": "o1", "text": "I can't hear you very well." },
+            { "id": "o2", "text": "I don't hear you well." },
+            { "id": "o3", "text": "I can't listen you." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Puedes repetir eso?'?",
+          "options": [
+            { "id": "o1", "text": "Could you repeat that?" },
+            { "id": "o2", "text": "Can you say that again?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Qué gracioso!'?",
+          "options": [
+            { "id": "o1", "text": "That's so funny!" },
+            { "id": "o2", "text": "That's so fun!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U54_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Estoy cansado porque no dormí bien anoche, así que hoy me quedaré en casa.'",
+          "stimulus_es": "Estoy cansado porque no dormí bien anoche, así que hoy me quedaré en casa.",
+          "correct_answer": "I'm tired because I didn't sleep well last night, so I'm staying at home today.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

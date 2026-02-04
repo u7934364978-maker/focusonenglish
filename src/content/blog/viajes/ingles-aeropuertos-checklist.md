@@ -1,6 +1,6 @@
 ---
 title: "Inglés en el Aeropuerto: El Checklist Definitivo para 2026"
-date: "2026-02-01"
+date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Navegar por aeropuertos internacionales puede ser estresante. Con este checklist y unas buenas clases de inglés, pasarás por seguridad y aduanas como un profesional."
 category: "viajes"

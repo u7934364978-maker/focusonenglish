@@ -1,0 +1,1190 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U58",
+    "unit_title": "First Conditional: Real Possibilities",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Weather, Superstitions & Future Results",
+      "content": [
+        {
+          "interaction_id": "U58_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si' (condicional)?",
+          "options": [
+            { "id": "o1", "text": "If" },
+            { "id": "o2", "text": "Whether" },
+            { "id": "o3", "text": "Yes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Llover'?",
+          "options": [
+            { "id": "o1", "text": "Rain" },
+            { "id": "o2", "text": "Cloudy" },
+            { "id": "o3", "text": "Storm" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Soleado'?",
+          "options": [
+            { "id": "o1", "text": "Sunny" },
+            { "id": "o2", "text": "Sun" },
+            { "id": "o3", "text": "Heat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nieve'?",
+          "options": [
+            { "id": "o1", "text": "Snow" },
+            { "id": "o2", "text": "Ice" },
+            { "id": "o3", "text": "Cold" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viento'?",
+          "options": [
+            { "id": "o1", "text": "Wind" },
+            { "id": "o2", "text": "Windy" },
+            { "id": "o3", "text": "Air" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Suerte'?",
+          "options": [
+            { "id": "o1", "text": "Luck" },
+            { "id": "o2", "text": "Lucky" },
+            { "id": "o3", "text": "Fate" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Superstición'?",
+          "options": [
+            { "id": "o1", "text": "Superstition" },
+            { "id": "o2", "text": "Belief" },
+            { "id": "o3", "text": "Myth" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Gato negro'?",
+          "options": [
+            { "id": "o1", "text": "Black cat" },
+            { "id": "o2", "text": "Dark cat" },
+            { "id": "o3", "text": "Night cat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Espejo'?",
+          "options": [
+            { "id": "o1", "text": "Mirror" },
+            { "id": "o2", "text": "Glass" },
+            { "id": "o3", "text": "Window" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Escalera' (de mano)?",
+          "options": [
+            { "id": "o1", "text": "Ladder" },
+            { "id": "o2", "text": "Stairs" },
+            { "id": "o3", "text": "Steps" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I11",
+          "type": "matching",
+          "prompt_es": "Empareja las acciones con posibles resultados.",
+          "pairs": [
+            { "id": "p1", "left": "Study hard", "right": "Pass the exam" },
+            { "id": "p2", "left": "Save money", "right": "Buy a car" },
+            { "id": "p3", "left": "Eat too much", "right": "Feel sick" },
+            { "id": "p4", "left": "Rain", "right": "Stay home" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I12",
+          "type": "flashcard",
+          "prompt_es": "Vocabulario de probabilidad.",
+          "flashcards": [
+            { "front": "Probably", "back": "Probablemente", "pronunciation": "/ˈprɑːbəbli/" },
+            { "front": "Maybe", "back": "Tal vez / Quizás", "pronunciation": "/ˈmeɪbi/" },
+            { "front": "Perhaps", "back": "Quizás", "pronunciation": "/pərˈhæps/" },
+            { "front": "Definitely", "back": "Definitivamente", "pronunciation": "/ˈdefɪnətli/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si gano la lotería'?",
+          "options": [
+            { "id": "o1", "text": "If I win the lottery" },
+            { "id": "o2", "text": "If I will win the lottery" },
+            { "id": "o3", "text": "If I am winning the lottery" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si tienes hambre'?",
+          "options": [
+            { "id": "o1", "text": "If you are hungry" },
+            { "id": "o2", "text": "If you have hungry" },
+            { "id": "o3", "text": "If you hungry" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si ella viene'?",
+          "options": [
+            { "id": "o1", "text": "If she comes" },
+            { "id": "o2", "text": "If she come" },
+            { "id": "o3", "text": "If she will come" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si no llueve'?",
+          "options": [
+            { "id": "o1", "text": "If it doesn't rain" },
+            { "id": "o2", "text": "If it not rain" },
+            { "id": "o3", "text": "If it won't rain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si perdemos el bus'?",
+          "options": [
+            { "id": "o1", "text": "If we miss the bus" },
+            { "id": "o2", "text": "If we lose the bus" },
+            { "id": "o3", "text": "If we leave the bus" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si encuentro mis llaves'?",
+          "options": [
+            { "id": "o1", "text": "If I find my keys" },
+            { "id": "o2", "text": "If I found my keys" },
+            { "id": "o3", "text": "If I look for my keys" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si apruebas el examen'?",
+          "options": [
+            { "id": "o1", "text": "If you pass the exam" },
+            { "id": "o2", "text": "If you fail the exam" },
+            { "id": "o3", "text": "If you take the exam" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si estás libre'?",
+          "options": [
+            { "id": "o1", "text": "If you are free" },
+            { "id": "o2", "text": "If you have free" },
+            { "id": "o3", "text": "If you being free" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I21",
+          "type": "matching",
+          "prompt_es": "Empareja las mitades de las supersticiones.",
+          "pairs": [
+            { "id": "p1", "left": "If you break a mirror,", "right": "you'll have 7 years of bad luck." },
+            { "id": "p2", "left": "If a black cat crosses your path,", "right": "it's bad luck." },
+            { "id": "p3", "left": "If you find a four-leaf clover,", "right": "you'll have good luck." },
+            { "id": "p4", "left": "If you walk under a ladder,", "right": "it's bad luck." }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Paraguas'?",
+          "options": [
+            { "id": "o1", "text": "Umbrella" },
+            { "id": "o2", "text": "Coat" },
+            { "id": "o3", "text": "Boots" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Darse prisa'?",
+          "options": [
+            { "id": "o1", "text": "Hurry up" },
+            { "id": "o2", "text": "Slow down" },
+            { "id": "o3", "text": "Go fast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Llegar tarde'?",
+          "options": [
+            { "id": "o1", "text": "Be late" },
+            { "id": "o2", "text": "Come late" },
+            { "id": "o3", "text": "Arrive late" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sentirse cansado'?",
+          "options": [
+            { "id": "o1", "text": "Feel tired" },
+            { "id": "o2", "text": "Be tired" },
+            { "id": "o3", "text": "Look tired" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I26",
+          "type": "flashcard",
+          "prompt_es": "Verbos de resultado.",
+          "flashcards": [
+            { "front": "Will stay", "back": "Me quedaré", "pronunciation": "/wɪl steɪ/" },
+            { "front": "Will go", "back": "Iré", "pronunciation": "/wɪl ɡoʊ/" },
+            { "front": "Will buy", "back": "Compraré", "pronunciation": "/wɪl baɪ/" },
+            { "front": "Will pass", "back": "Aprobaré", "pronunciation": "/wɪl pæs/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si tengo tiempo'?",
+          "options": [
+            { "id": "o1", "text": "If I have time" },
+            { "id": "o2", "text": "If I will have time" },
+            { "id": "o3", "text": "If I had time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si me ayudas'?",
+          "options": [
+            { "id": "o1", "text": "If you help me" },
+            { "id": "o2", "text": "If you helping me" },
+            { "id": "o3", "text": "If you helped me" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si ellos llaman'?",
+          "options": [
+            { "id": "o1", "text": "If they call" },
+            { "id": "o2", "text": "If they calling" },
+            { "id": "o3", "text": "If they will call" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si no vienes'?",
+          "options": [
+            { "id": "o1", "text": "If you don't come" },
+            { "id": "o2", "text": "If you not come" },
+            { "id": "o3", "text": "If you won't come" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si hace calor'?",
+          "options": [
+            { "id": "o1", "text": "If it's hot" },
+            { "id": "o2", "text": "If it does hot" },
+            { "id": "o3", "text": "If it hot" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si hace frío'?",
+          "options": [
+            { "id": "o1", "text": "If it's cold" },
+            { "id": "o2", "text": "If it cold" },
+            { "id": "o3", "text": "If it does cold" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si estás cansado'?",
+          "options": [
+            { "id": "o1", "text": "If you are tired" },
+            { "id": "o2", "text": "If you tired" },
+            { "id": "o3", "text": "If you have tired" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si quieres'?",
+          "options": [
+            { "id": "o1", "text": "If you want" },
+            { "id": "o2", "text": "If you will want" },
+            { "id": "o3", "text": "If you wanting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Si él necesita ayuda'?",
+          "options": [
+            { "id": "o1", "text": "If he needs help" },
+            { "id": "o2", "text": "If he need help" },
+            { "id": "o3", "text": "If he will need help" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: First Conditional Structure (If + Present, Will + Verb)",
+      "content": [
+        {
+          "interaction_id": "U58_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la estructura del primer condicional?",
+          "options": [
+            { "id": "o1", "text": "If + Present Simple, Will + Verb" },
+            { "id": "o2", "text": "If + Will, Present Simple" },
+            { "id": "o3", "text": "If + Past, Would" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué tiempo verbal sigue a 'If'?",
+          "options": [
+            { "id": "o1", "text": "Present Simple" },
+            { "id": "o2", "text": "Future with Will" },
+            { "id": "o3", "text": "Past Simple" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'If it rains, I ___ stay at home.'",
+          "stimulus_en": "If it rains, I ___ stay at home.",
+          "correct_answer": "will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'If you ___ hard, you will pass.'",
+          "stimulus_en": "If you ___ hard, you will pass.",
+          "correct_answer": "study",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Si hace sol, iremos a la playa.'",
+          "options": [
+            { "id": "w1", "text": "If" },
+            { "id": "w2", "text": "it" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "sunny," },
+            { "id": "w5", "text": "we" },
+            { "id": "w6", "text": "will" },
+            { "id": "w7", "text": "go" },
+            { "id": "w8", "text": "to" },
+            { "id": "w9", "text": "the" },
+            { "id": "w10", "text": "beach." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9", "w10"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U58_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si ella no viene, estaré triste'?",
+          "options": [
+            { "id": "o1", "text": "If she doesn't come, I will be sad." },
+            { "id": "o2", "text": "If she won't come, I am sad." },
+            { "id": "o3", "text": "If she doesn't come, I be sad." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I42",
+          "type": "true_false",
+          "prompt_es": "Puedes poner la parte de 'Will' al principio de la frase.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ buy a car if I save enough money.'",
+          "stimulus_en": "I ___ buy a car if I save enough money.",
+          "correct_answer": "will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "If I see him, I'll tell him." },
+            { "id": "o2", "text": "If I will see him, I tell him." },
+            { "id": "o3", "text": "If I see him, I tell him." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I45",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Llegarás tarde si no te das prisa.'",
+          "options": [
+            { "id": "w1", "text": "You" },
+            { "id": "w2", "text": "will" },
+            { "id": "w3", "text": "be" },
+            { "id": "w4", "text": "late" },
+            { "id": "w5", "text": "if" },
+            { "id": "w6", "text": "you" },
+            { "id": "w7", "text": "don't" },
+            { "id": "w8", "text": "hurry" },
+            { "id": "w9", "text": "up." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U58_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'If they ___ now, they'll arrive at 6:00.'",
+          "stimulus_en": "If they ___ now, they'll arrive at 6:00.",
+          "correct_answer": "leave",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué harás si llueve?'?",
+          "options": [
+            { "id": "o1", "text": "What will you do if it rains?" },
+            { "id": "o2", "text": "What you will do if it rains?" },
+            { "id": "o3", "text": "What do you do if it will rain?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ have a party if we win.'",
+          "stimulus_en": "We ___ have a party if we win.",
+          "correct_answer": "will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I49",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Si tengo hambre, comeré un sándwich.'",
+          "options": [
+            { "id": "w1", "text": "If" },
+            { "id": "w2", "text": "I" },
+            { "id": "w3", "text": "am" },
+            { "id": "w4", "text": "hungry," },
+            { "id": "w5", "text": "I" },
+            { "id": "w6", "text": "will" },
+            { "id": "w7", "text": "eat" },
+            { "id": "w8", "text": "a" },
+            { "id": "w9", "text": "sandwich." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U58_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si no estudias, fallarás'?",
+          "options": [
+            { "id": "o1", "text": "If you don't study, you will fail." },
+            { "id": "o2", "text": "If you not study, you will fail." },
+            { "id": "o3", "text": "If you don't study, you fail." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ be angry if you are late.'",
+          "stimulus_en": "He ___ be angry if you are late.",
+          "correct_answer": "will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I52",
+          "type": "true_false",
+          "prompt_es": "Usamos la coma si la frase empieza con 'If'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te llamaré si encuentro tu número'?",
+          "options": [
+            { "id": "o1", "text": "I will call you if I find your number." },
+            { "id": "o2", "text": "I call you if I find your number." },
+            { "id": "o3", "text": "I will call you if I will find your number." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'If she ___ hard, she'll pass.'",
+          "stimulus_en": "If she ___ hard, she'll pass.",
+          "correct_answer": "works",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué pasará si fallamos?'?",
+          "options": [
+            { "id": "o1", "text": "What will happen if we fail?" },
+            { "id": "o2", "text": "What happens if we will fail?" },
+            { "id": "o3", "text": "What will happen if we will fail?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'If you eat too much, you ___ feel sick.'",
+          "stimulus_en": "If you eat too much, you ___ feel sick.",
+          "correct_answer": "will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I57",
+          "type": "true_false",
+          "prompt_es": "'Won't' es la contracción de 'will not'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'No saldré si llueve.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "won't" },
+            { "id": "w3", "text": "go" },
+            { "id": "w4", "text": "out" },
+            { "id": "w5", "text": "if" },
+            { "id": "w6", "text": "it" },
+            { "id": "w7", "text": "rains." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U58_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'If it ___ cold tomorrow, I'll wear a coat.'",
+          "stimulus_en": "If it ___ cold tomorrow, I'll wear a coat.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "If I'm late, wait for me." },
+            { "id": "o2", "text": "If I'll be late, wait for me." },
+            { "id": "o3", "text": "If I am late, will wait for me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ stay in a hotel if they go to Paris.'",
+          "stimulus_en": "They ___ stay in a hotel if they go to Paris.",
+          "correct_answer": "will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I62",
+          "type": "true_false",
+          "prompt_es": "El primer condicional se usa para cosas probables en el futuro.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si tienes tiempo, ¿me ayudarás?'?",
+          "options": [
+            { "id": "o1", "text": "If you have time, will you help me?" },
+            { "id": "o2", "text": "If you will have time, will you help me?" },
+            { "id": "o3", "text": "If you have time, you help me?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'If she ___ her keys, she'll be happy.'",
+          "stimulus_en": "If she ___ her keys, she'll be happy.",
+          "correct_answer": "finds",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál indica una condición negativa?",
+          "options": [
+            { "id": "o1", "text": "Unless" },
+            { "id": "o2", "text": "If" },
+            { "id": "o3", "text": "So" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We'll go for a walk ___ it rains.' (A menos que)",
+          "stimulus_en": "We'll go for a walk ___ it rains.",
+          "correct_answer": "unless",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I67",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Si no vienes, no iré.'",
+          "options": [
+            { "id": "w1", "text": "If" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "don't" },
+            { "id": "w4", "text": "come," },
+            { "id": "w5", "text": "I" },
+            { "id": "w6", "text": "won't" },
+            { "id": "w7", "text": "go." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U58_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'If I ___ the answer, I'll tell you.'",
+          "stimulus_en": "If I ___ the answer, I'll tell you.",
+          "correct_answer": "know",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si él llama, dile la verdad'?",
+          "options": [
+            { "id": "o1", "text": "If he calls, tell him the truth." },
+            { "id": "o2", "text": "If he will call, tell him the truth." },
+            { "id": "o3", "text": "If he calls, will tell him the truth." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I70",
+          "type": "true_false",
+          "prompt_es": "El primer condicional puede usar 'can' o 'may' en lugar de 'will'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Predictions, Warnings & Superstitions",
+      "content": [
+        {
+          "interaction_id": "U58_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo haces una predicción sobre el clima?",
+          "options": [
+            { "id": "o1", "text": "If the clouds are dark, it will rain." },
+            { "id": "o2", "text": "If the clouds are dark, it rain." },
+            { "id": "o3", "text": "If the clouds are dark, it will raining." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo das una advertencia?",
+          "options": [
+            { "id": "o1", "text": "If you touch that, you'll get burnt!" },
+            { "id": "o2", "text": "If you touch that, you get burnt!" },
+            { "id": "o3", "text": "If you touch that, you will be burn!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si te das prisa, llegarás a tiempo'?",
+          "options": [
+            { "id": "o1", "text": "If you hurry up, you'll be on time." },
+            { "id": "o2", "text": "If you hurry up, you'll be in time." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I74",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Si no comemos ahora, tendremos hambre luego.'",
+          "options": [
+            { "id": "w1", "text": "If" },
+            { "id": "w2", "text": "we" },
+            { "id": "w3", "text": "don't" },
+            { "id": "w4", "text": "eat" },
+            { "id": "w5", "text": "now," },
+            { "id": "w6", "text": "we" },
+            { "id": "w7", "text": "will" },
+            { "id": "w8", "text": "be" },
+            { "id": "w9", "text": "hungry" },
+            { "id": "w10", "text": "later." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9", "w10"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U58_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo expresas una superstición?",
+          "options": [
+            { "id": "o1", "text": "If you find a penny, you'll have good luck." },
+            { "id": "o2", "text": "If you find a penny, you have good luck." },
+            { "id": "o3", "text": "If you will find a penny, you'll have good luck." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si no te vas, llamaré a la policía'?",
+          "options": [
+            { "id": "o1", "text": "If you don't leave, I'll call the police." },
+            { "id": "o2", "text": "If you don't go, I'll call the police." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te veré si tengo tiempo'?",
+          "options": [
+            { "id": "o1", "text": "I'll see you if I have time." },
+            { "id": "o2", "text": "I'll see you if I'll have time." },
+            { "id": "o3", "text": "I see you if I have time." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Vendrás si te invito?'?",
+          "options": [
+            { "id": "o1", "text": "Will you come if I invite you?" },
+            { "id": "o2", "text": "Do you come if I invite you?" },
+            { "id": "o3", "text": "Will you come if I'll invite you?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si no bebes agua, tendrás sed'?",
+          "options": [
+            { "id": "o1", "text": "If you don't drink water, you'll be thirsty." },
+            { "id": "o2", "text": "If you don't drink water, you be thirsty." },
+            { "id": "o3", "text": "If you won't drink water, you'll be thirsty." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I80",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Si perdemos el bus, tomaremos un taxi.'",
+          "options": [
+            { "id": "w1", "text": "If" },
+            { "id": "w2", "text": "we" },
+            { "id": "w3", "text": "miss" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "bus," },
+            { "id": "w6", "text": "we" },
+            { "id": "w7", "text": "will" },
+            { "id": "w8", "text": "take" },
+            { "id": "w9", "text": "a" },
+            { "id": "w10", "text": "taxi." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9", "w10"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U58_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si ella se entera, se enfadará'?",
+          "options": [
+            { "id": "o1", "text": "If she finds out, she'll be angry." },
+            { "id": "o2", "text": "If she finds out, she will angry." },
+            { "id": "o3", "text": "If she'll find out, she'll be angry." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si me prestas dinero, te lo devolveré'?",
+          "options": [
+            { "id": "o1", "text": "If you lend me money, I'll pay you back." },
+            { "id": "o2", "text": "If you borrow me money, I'll pay you back." },
+            { "id": "o3", "text": "If you lend me money, I pay you back." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si no hace sol, no iremos'?",
+          "options": [
+            { "id": "o1", "text": "If it isn't sunny, we won't go." },
+            { "id": "o2", "text": "If it isn't sunny, we don't go." },
+            { "id": "o3", "text": "If it won't be sunny, we won't go." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si llegas antes, espérame'?",
+          "options": [
+            { "id": "o1", "text": "If you arrive early, wait for me." },
+            { "id": "o2", "text": "If you'll arrive early, wait for me." },
+            { "id": "o3", "text": "If you arrive early, you wait for me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si él no estudia, no aprobará'?",
+          "options": [
+            { "id": "o1", "text": "If he doesn't study, he won't pass." },
+            { "id": "o2", "text": "If he won't study, he won't pass." },
+            { "id": "o3", "text": "If he doesn't study, he doesn't pass." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si tienes algún problema, llámame'?",
+          "options": [
+            { "id": "o1", "text": "If you have any problems, call me." },
+            { "id": "o2", "text": "If you'll have any problems, call me." },
+            { "id": "o3", "text": "If you have some problems, call me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si no comemos, estaremos cansados'?",
+          "options": [
+            { "id": "o1", "text": "If we don't eat, we'll be tired." },
+            { "id": "o2", "text": "If we won't eat, we'll be tired." },
+            { "id": "o3", "text": "If we don't eat, we are tired." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué harás si pierdes tu trabajo?'?",
+          "options": [
+            { "id": "o1", "text": "What will you do if you lose your job?" },
+            { "id": "o2", "text": "What do you do if you lose your job?" },
+            { "id": "o3", "text": "What will you do if you'll lose your job?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si ella gana, estaremos muy felices'?",
+          "options": [
+            { "id": "o1", "text": "If she wins, we'll be very happy." },
+            { "id": "o2", "text": "If she'll win, we'll be very happy." },
+            { "id": "o3", "text": "If she wins, we are very happy." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si no me ayudas, no terminaré'?",
+          "options": [
+            { "id": "o1", "text": "If you don't help me, I won't finish." },
+            { "id": "o2", "text": "If you won't help me, I won't finish." },
+            { "id": "o3", "text": "If you don't help me, I don't finish." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si hace buen tiempo, iremos al campo'?",
+          "options": [
+            { "id": "o1", "text": "If the weather is good, we'll go to the countryside." },
+            { "id": "o2", "text": "If the weather will be good, we'll go to the countryside." },
+            { "id": "o3", "text": "If the weather is good, we go to the countryside." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si no te vas ahora, perderás el tren'?",
+          "options": [
+            { "id": "o1", "text": "If you don't leave now, you'll miss the train." },
+            { "id": "o2", "text": "If you don't leave now, you'll lose the train." },
+            { "id": "o3", "text": "If you won't leave now, you'll miss the train." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si quieres venir, dímelo'?",
+          "options": [
+            { "id": "o1", "text": "If you want to come, tell me." },
+            { "id": "o2", "text": "If you'll want to come, tell me." },
+            { "id": "o3", "text": "If you want to come, you tell me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si tienes sed, bebe algo'?",
+          "options": [
+            { "id": "o1", "text": "If you are thirsty, drink something." },
+            { "id": "o2", "text": "If you have thirst, drink something." },
+            { "id": "o3", "text": "If you'll be thirsty, drink something." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si él tiene dinero, comprará la casa'?",
+          "options": [
+            { "id": "o1", "text": "If he has money, he'll buy the house." },
+            { "id": "o2", "text": "If he'll have money, he'll buy the house." },
+            { "id": "o3", "text": "If he has money, he buy the house." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si no estudiamos, no aprenderemos nada'?",
+          "options": [
+            { "id": "o1", "text": "If we don't study, we won't learn anything." },
+            { "id": "o2", "text": "If we don't study, we don't learn anything." },
+            { "id": "o3", "text": "If we won't study, we won't learn anything." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si encuentras mi cartera, dámela'?",
+          "options": [
+            { "id": "o1", "text": "If you find my wallet, give it to me." },
+            { "id": "o2", "text": "If you'll find my wallet, give it to me." },
+            { "id": "o3", "text": "If you find my wallet, you give it to me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Si ellos vienen, prepararé la cena'?",
+          "options": [
+            { "id": "o1", "text": "If they come, I'll cook dinner." },
+            { "id": "o2", "text": "If they'll come, I'll cook dinner." },
+            { "id": "o3", "text": "If they come, I cook dinner." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué dirá ella si se lo contamos?'?",
+          "options": [
+            { "id": "o1", "text": "What will she say if we tell her?" },
+            { "id": "o2", "text": "What she will say if we tell her?" },
+            { "id": "o3", "text": "What will she say if we will tell her?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U58_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Si llueve mañana, no iremos al parque y nos quedaremos en casa viendo una película.'",
+          "stimulus_es": "Si llueve mañana, no iremos al parque y nos quedaremos en casa viendo una película.",
+          "correct_answer": "If it rains tomorrow, we won't go to the park and we will stay at home watching a movie.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

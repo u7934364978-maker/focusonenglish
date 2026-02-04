@@ -1,6 +1,6 @@
 ---
 title: "Guía Definitiva: Cómo Elegir el Mejor Curso de Inglés para tu Carrera Profesional en 2026"
-date: "2026-02-01"
+date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "En un mercado laboral globalizado, un curso de inglés especializado es la inversión más rentable. Esta guía maestra de +2,000 palabras analiza cómo transformar tu perfil profesional, negociar mejores salarios y liderar equipos internacionales."
 category: "trabajo"

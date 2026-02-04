@@ -1,0 +1,1152 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U41",
+    "unit_title": "Comparing Places: Adjectives",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Describing Cities & Towns",
+      "content": [
+        {
+          "interaction_id": "U41_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ruidoso'?",
+          "options": [
+            { "id": "o1", "text": "Noisy" },
+            { "id": "o2", "text": "Quiet" },
+            { "id": "o3", "text": "Loudly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tranquilo'?",
+          "options": [
+            { "id": "o1", "text": "Quiet" },
+            { "id": "o2", "text": "Silence" },
+            { "id": "o3", "text": "Calmly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Moderno'?",
+          "options": [
+            { "id": "o1", "text": "Modern" },
+            { "id": "o2", "text": "New" },
+            { "id": "o3", "text": "Current" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Antiguo / Histórico'?",
+          "options": [
+            { "id": "o1", "text": "Ancient / Historic" },
+            { "id": "o2", "text": "Oldly" },
+            { "id": "o3", "text": "Past" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lleno de gente / Abarrotado'?",
+          "options": [
+            { "id": "o1", "text": "Crowded" },
+            { "id": "o2", "text": "Full" },
+            { "id": "o3", "text": "Peopled" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aburrido'?",
+          "options": [
+            { "id": "o1", "text": "Boring" },
+            { "id": "o2", "text": "Bored" },
+            { "id": "o3", "text": "Slow" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Emocionante'?",
+          "options": [
+            { "id": "o1", "text": "Exciting" },
+            { "id": "o2", "text": "Excited" },
+            { "id": "o3", "text": "Fun" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Contaminado'?",
+          "options": [
+            { "id": "o1", "text": "Polluted" },
+            { "id": "o2", "text": "Dirty" },
+            { "id": "o3", "text": "Smokey" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Limpio'?",
+          "options": [
+            { "id": "o1", "text": "Clean" },
+            { "id": "o2", "text": "Clear" },
+            { "id": "o3", "text": "Pure" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Caro'?",
+          "options": [
+            { "id": "o1", "text": "Expensive" },
+            { "id": "o2", "text": "Cheap" },
+            { "id": "o3", "text": "Costly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Barato'?",
+          "options": [
+            { "id": "o1", "text": "Cheap" },
+            { "id": "o2", "text": "Inexpensive" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Seguro'?",
+          "options": [
+            { "id": "o1", "text": "Safe" },
+            { "id": "o2", "text": "Dangerous" },
+            { "id": "o3", "text": "Security" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Peligroso'?",
+          "options": [
+            { "id": "o1", "text": "Dangerous" },
+            { "id": "o2", "text": "Safe" },
+            { "id": "o3", "text": "Risky" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Feo'?",
+          "options": [
+            { "id": "o1", "text": "Ugly" },
+            { "id": "o2", "text": "Beautiful" },
+            { "id": "o3", "text": "Bad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Bonito / Hermoso'?",
+          "options": [
+            { "id": "o1", "text": "Beautiful / Pretty" },
+            { "id": "o2", "text": "Nice" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I16",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Noisy", "right": "Ruidoso" },
+            { "id": "p2", "left": "Quiet", "right": "Tranquilo" },
+            { "id": "p3", "left": "Crowded", "right": "Abarrotado" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I17",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Cheap", "right": "Barato" },
+            { "id": "p2", "left": "Safe", "right": "Seguro" },
+            { "id": "p3", "left": "Exciting", "right": "Emocionante" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Town'?",
+          "options": [
+            { "id": "o1", "text": "Pueblo / Ciudad pequeña" },
+            { "id": "o2", "text": "Ciudad grande" },
+            { "id": "o3", "text": "Calle" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Village'?",
+          "options": [
+            { "id": "o1", "text": "Aldea / Pueblo pequeño" },
+            { "id": "o2", "text": "Villa lujosa" },
+            { "id": "o3", "text": "Campo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Countryside'?",
+          "options": [
+            { "id": "o1", "text": "El campo" },
+            { "id": "o2", "text": "El país" },
+            { "id": "o3", "text": "La costa" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ancho'?",
+          "options": [
+            { "id": "o1", "text": "Wide" },
+            { "id": "o2", "text": "Narrow" },
+            { "id": "o3", "text": "Large" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estrecho'?",
+          "options": [
+            { "id": "o1", "text": "Narrow" },
+            { "id": "o2", "text": "Small" },
+            { "id": "o3", "text": "Tight" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Oscuro'?",
+          "options": [
+            { "id": "o1", "text": "Dark" },
+            { "id": "o2", "text": "Light" },
+            { "id": "o3", "text": "Grey" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Luminoso'?",
+          "options": [
+            { "id": "o1", "text": "Bright / Light" },
+            { "id": "o2", "text": "Sunny" },
+            { "id": "o3", "text": "Shiny" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Enorme'?",
+          "options": [
+            { "id": "o1", "text": "Huge / Enormous" },
+            { "id": "o2", "text": "Big" },
+            { "id": "o3", "text": "High" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pequeño'?",
+          "options": [
+            { "id": "o1", "text": "Small / Little / Tiny" },
+            { "id": "o2", "text": "Short" },
+            { "id": "o3", "text": "Mini" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cerca'?",
+          "options": [
+            { "id": "o1", "text": "Near / Close" },
+            { "id": "o2", "text": "Far" },
+            { "id": "o3", "text": "Next" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lejos'?",
+          "options": [
+            { "id": "o1", "text": "Far" },
+            { "id": "o2", "text": "Near" },
+            { "id": "o3", "text": "Away" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cómodo'?",
+          "options": [
+            { "id": "o1", "text": "Comfortable" },
+            { "id": "o2", "text": "Confort" },
+            { "id": "o3", "text": "Easy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Incómodo'?",
+          "options": [
+            { "id": "o1", "text": "Uncomfortable" },
+            { "id": "o2", "text": "Incomfortable" },
+            { "id": "o3", "text": "Bad comfort" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lleno'?",
+          "options": [
+            { "id": "o1", "text": "Full" },
+            { "id": "o2", "text": "Empty" },
+            { "id": "o3", "text": "Busy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vacío'?",
+          "options": [
+            { "id": "o1", "text": "Empty" },
+            { "id": "o2", "text": "Full" },
+            { "id": "o3", "text": "Blank" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Famoso'?",
+          "options": [
+            { "id": "o1", "text": "Famous" },
+            { "id": "o2", "text": "Popular" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Desconocido'?",
+          "options": [
+            { "id": "o1", "text": "Unknown" },
+            { "id": "o2", "text": "Strange" },
+            { "id": "o3", "text": "No name" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I35",
+          "type": "flashcard",
+          "prompt_es": "Adjetivos de Lugares",
+          "flashcards": [
+            { "front": "Noisy", "back": "Ruidoso", "pronunciation": "/ˈnɔɪzi/" },
+            { "front": "Quiet", "back": "Tranquilo", "pronunciation": "/ˈkwaɪət/" },
+            { "front": "Crowded", "back": "Abarrotado", "pronunciation": "/ˈkraʊdɪd/" },
+            { "front": "Safe", "back": "Seguro", "pronunciation": "/seɪf/" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Comparative Adjectives",
+      "content": [
+        {
+          "interaction_id": "U41_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se forma el comparativo de 'Old'?",
+          "options": [
+            { "id": "o1", "text": "Older" },
+            { "id": "o2", "text": "More old" },
+            { "id": "o3", "text": "Oldest" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se forma el comparativo de 'Big'?",
+          "options": [
+            { "id": "o1", "text": "Bigger" },
+            { "id": "o2", "text": "Biger" },
+            { "id": "o3", "text": "More big" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se forma el comparativo de 'Expensive'?",
+          "options": [
+            { "id": "o1", "text": "Expensiver" },
+            { "id": "o2", "text": "More expensive" },
+            { "id": "o3", "text": "Most expensive" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se forma el comparativo de 'Noisy'?",
+          "options": [
+            { "id": "o1", "text": "Noisier" },
+            { "id": "o2", "text": "More noisy" },
+            { "id": "o3", "text": "Noisyest" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el comparativo de 'Good'?",
+          "options": [
+            { "id": "o1", "text": "Better" },
+            { "id": "o2", "text": "Gooder" },
+            { "id": "o3", "text": "Best" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el comparativo de 'Bad'?",
+          "options": [
+            { "id": "o1", "text": "Worse" },
+            { "id": "o2", "text": "Badder" },
+            { "id": "o3", "text": "Worst" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el comparativo de 'Far'?",
+          "options": [
+            { "id": "o1", "text": "Farther / Further" },
+            { "id": "o2", "text": "Farer" },
+            { "id": "o3", "text": "Farthest" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Madrid is ___ (grande) than Toledo.'",
+          "stimulus_en": "Madrid is ___ than Toledo.",
+          "correct_answer": "bigger",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Tokyo is ___ (ruidoso) than Kyoto.'",
+          "stimulus_en": "Tokyo is ___ than Kyoto.",
+          "correct_answer": "noisier",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'London is ___ (caro) than Liverpool.'",
+          "stimulus_en": "London is ___ than Liverpool.",
+          "correct_answer": "more expensive",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The city is ___ (emocionante) than the village.'",
+          "stimulus_en": "The city is ___ than the village.",
+          "correct_answer": "more exciting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This room is ___ (limpio) than the other one.'",
+          "stimulus_en": "This room is ___ than the other one.",
+          "correct_answer": "cleaner",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The weather here is ___ (bueno) than in London.'",
+          "stimulus_en": "The weather here is ___ than in London.",
+          "correct_answer": "better",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The traffic is ___ (malo) than yesterday.'",
+          "stimulus_en": "The traffic is ___ than yesterday.",
+          "correct_answer": "worse",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'My street is ___ (estrecho) than yours.'",
+          "stimulus_en": "My street is ___ than yours.",
+          "correct_answer": "narrower",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This park is ___ (bonito) than the old one.'",
+          "stimulus_en": "This park is ___ than the old one.",
+          "correct_answer": "more beautiful",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The library is ___ (tranquilo) than the cafe.'",
+          "stimulus_en": "The library is ___ than the cafe.",
+          "correct_answer": "quieter",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This hotel is ___ (moderno) than that one.'",
+          "stimulus_en": "This hotel is ___ than that one.",
+          "correct_answer": "more modern",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It's ___ (caluroso) today than yesterday.'",
+          "stimulus_en": "It's ___ than yesterday.",
+          "correct_answer": "hotter",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This car is ___ (barato) than a Ferrari.'",
+          "stimulus_en": "This car is ___ than a Ferrari.",
+          "correct_answer": "cheaper",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra usamos para comparar? 'City life is more exciting ___ country life.'",
+          "options": [
+            { "id": "o1", "text": "than" },
+            { "id": "o2", "text": "that" },
+            { "id": "o3", "text": "then" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo comparas igualdad? 'Barcelona is ___ beautiful ___ Madrid.'",
+          "options": [
+            { "id": "o1", "text": "as... as" },
+            { "id": "o2", "text": "so... so" },
+            { "id": "o3", "text": "than... than" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (tan... como): 'The metro is ___ fast ___ the bus.'",
+          "stimulus_en": "The metro is ___ fast ___ the bus.",
+          "correct_answer": "as... as",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (no tan... como): 'The village is not ___ noisy ___ the city.'",
+          "stimulus_en": "The village is not ___ noisy ___ the city.",
+          "correct_answer": "as... as",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "This city is safer than that one." },
+            { "id": "o2", "text": "This city is more safe than that one." },
+            { "id": "o3", "text": "This city is safeer than that one." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "It is more crowded today than yesterday." },
+            { "id": "o2", "text": "It is crowdeder today than yesterday." },
+            { "id": "o3", "text": "It is most crowded today than yesterday." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "The shop is further than the bank." },
+            { "id": "o2", "text": "The shop is farer than the bank." },
+            { "id": "o3", "text": "The shop is more far than the bank." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ocean is ___ (profundo) than the lake.'",
+          "stimulus_en": "The ocean is ___ than the lake.",
+          "correct_answer": "deeper",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The mountains are ___ (alto) than the hills.'",
+          "stimulus_en": "The mountains are ___ than the hills.",
+          "correct_answer": "higher",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A city is ___ (interesante) than a small town.'",
+          "stimulus_en": "A city is ___ than a small town.",
+          "correct_answer": "more interesting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This river is ___ (largo) than that one.'",
+          "stimulus_en": "This river is ___ than that one.",
+          "correct_answer": "longer",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Plane tickets are ___ (caro) than train tickets.'",
+          "stimulus_en": "Plane tickets are ___ than train tickets.",
+          "correct_answer": "more expensive",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The market is ___ (abarrotado) on Saturdays.'",
+          "stimulus_en": "The market is ___ (comparativo: more...) on Saturdays than on Mondays.",
+          "correct_answer": "more crowded",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Worse'?",
+          "options": [
+            { "id": "o1", "text": "Peor" },
+            { "id": "o2", "text": "Mejor" },
+            { "id": "o3", "text": "Malo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Better'?",
+          "options": [
+            { "id": "o1", "text": "Mejor" },
+            { "id": "o2", "text": "Bueno" },
+            { "id": "o3", "text": "Lo mejor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Comparing Places and Opinions",
+      "content": [
+        {
+          "interaction_id": "U41_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué ciudad es más grande?'?",
+          "options": [
+            { "id": "o1", "text": "Which city is bigger?" },
+            { "id": "o2", "text": "What city is more big?" },
+            { "id": "o3", "text": "Which city is more bigger?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Nueva York es más emocionante que Londres'?",
+          "options": [
+            { "id": "o1", "text": "New York is more exciting than London." },
+            { "id": "o2", "text": "New York is exciter than London." },
+            { "id": "o3", "text": "New York is more excited than London." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Este pueblo es más tranquilo que la ciudad'?",
+          "options": [
+            { "id": "o1", "text": "This town is quieter than the city." },
+            { "id": "o2", "text": "This town is more quiet than the city." },
+            { "id": "o3", "text": "Both are common (o1 is more typical)." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Es más caro vivir aquí?'?",
+          "options": [
+            { "id": "o1", "text": "Is it more expensive to live here?" },
+            { "id": "o2", "text": "Is it expensiver to live here?" },
+            { "id": "o3", "text": "Does it more expensive?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Mi casa es más pequeña que la tuya'?",
+          "options": [
+            { "id": "o1", "text": "My house is smaller than yours." },
+            { "id": "o2", "text": "My house is more small than yours." },
+            { "id": "o3", "text": "My house is small than yours." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El campo es más saludable que la ciudad'?",
+          "options": [
+            { "id": "o1", "text": "The countryside is healthier than the city." },
+            { "id": "o2", "text": "The countryside is more healthy than the city." },
+            { "id": "o3", "text": "Both are correct." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Este parque no es tan grande como el Retiro'?",
+          "options": [
+            { "id": "o1", "text": "This park isn't as big as El Retiro." },
+            { "id": "o2", "text": "This park isn't as bigger as El Retiro." },
+            { "id": "o3", "text": "This park isn't than big as El Retiro." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué tal es tu nueva ciudad?'?",
+          "options": [
+            { "id": "o1", "text": "What is your new city like?" },
+            { "id": "o2", "text": "How is your new city?" },
+            { "id": "o3", "text": "Both are correct." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I79",
+          "type": "multiple_choice",
+          "prompt_es": "Responde: 'It's much ___ (ruidosa) than my old town.'",
+          "options": [
+            { "id": "o1", "text": "noisier" },
+            { "id": "o2", "text": "more noisy" },
+            { "id": "o3", "text": "noisy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es la ciudad más bonita de España'?",
+          "options": [
+            { "id": "o1", "text": "It is the most beautiful city in Spain." },
+            { "id": "o2", "text": "It is more beautiful than Spain." },
+            { "id": "o3", "text": "It is beautifulest city." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication",
+          "note": "Superlative introduction."
+        },
+        {
+          "interaction_id": "U41_I81",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Rome / is / older / than / Milan / .'",
+          "options": [
+            { "id": "w1", "text": "Rome" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "older" },
+            { "id": "w4", "text": "than" },
+            { "id": "w5", "text": "Milan" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'The / country / is / quieter / than / the / city / .'",
+          "options": [
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "country" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "quieter" },
+            { "id": "w5", "text": "than" },
+            { "id": "w6", "text": "the" },
+            { "id": "w7", "text": "city" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I83",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Life / in / Spain / is / better / .'",
+          "options": [
+            { "id": "w1", "text": "Life" },
+            { "id": "w2", "text": "in" },
+            { "id": "w3", "text": "Spain" },
+            { "id": "w4", "text": "is" },
+            { "id": "w5", "text": "better" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Mi coche es peor que el tuyo'?",
+          "options": [
+            { "id": "o1", "text": "My car is worse than yours." },
+            { "id": "o2", "text": "My car is badder than yours." },
+            { "id": "o3", "text": "My car is more bad than yours." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Este examen es más difícil'?",
+          "options": [
+            { "id": "o1", "text": "This exam is more difficult." },
+            { "id": "o2", "text": "This exam is difficulter." },
+            { "id": "o3", "text": "This exam is most difficult." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I86",
+          "type": "flashcard",
+          "prompt_es": "Frases de Comparación",
+          "flashcards": [
+            { "front": "It's bigger than...", "back": "Es más grande que...", "pronunciation": "/ɪts ˈbɪɡər ðæn/" },
+            { "front": "It's more modern than...", "back": "Es más moderno que...", "pronunciation": "/ɪts mɔːr ˈmɒdn ðæn/" },
+            { "front": "It's better than...", "back": "Es mejor que...", "pronunciation": "/ɪts ˈbetər ðæn/" },
+            { "front": "It's as safe as...", "back": "Es tan seguro como...", "pronunciation": "/ɪts æz seɪf æz/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'París es más romántico que Berlín'?",
+          "options": [
+            { "id": "o1", "text": "Paris is more romantic than Berlin." },
+            { "id": "o2", "text": "Paris is romanticer than Berlin." },
+            { "id": "o3", "text": "Paris is more romanticer than Berlin." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Es Londres más caro que Madrid?'?",
+          "options": [
+            { "id": "o1", "text": "Is London more expensive than Madrid?" },
+            { "id": "o2", "text": "Is London expensiver than Madrid?" },
+            { "id": "o3", "text": "Is London more expensiver than Madrid?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Este edificio es más alto que aquel'?",
+          "options": [
+            { "id": "o1", "text": "This building is taller than that one." },
+            { "id": "o2", "text": "This building is more tall than that one." },
+            { "id": "o3", "text": "This building is tall than that one." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La playa está más lejos que el bosque'?",
+          "options": [
+            { "id": "o1", "text": "The beach is further than the forest." },
+            { "id": "o2", "text": "The beach is more far than the forest." },
+            { "id": "o3", "text": "The beach is farer than the forest." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Este restaurante es más barato'?",
+          "options": [
+            { "id": "o1", "text": "This restaurant is cheaper." },
+            { "id": "o2", "text": "This restaurant is more cheap." },
+            { "id": "o3", "text": "This restaurant is cheap." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Vivir en un pueblo es más aburrido'?",
+          "options": [
+            { "id": "o1", "text": "Living in a village is more boring." },
+            { "id": "o2", "text": "Living in a village is boringer." },
+            { "id": "o3", "text": "Living in a village is most boring." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El transporte público es más limpio'?",
+          "options": [
+            { "id": "o1", "text": "Public transport is cleaner." },
+            { "id": "o2", "text": "Public transport is more clean." },
+            { "id": "o3", "text": "Public transport is clean." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué es mejor?'?",
+          "options": [
+            { "id": "o1", "text": "What is better?" },
+            { "id": "o2", "text": "Which is better?" },
+            { "id": "o3", "text": "Both are correct." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Esta ciudad es más contaminada'?",
+          "options": [
+            { "id": "o1", "text": "This city is more polluted." },
+            { "id": "o2", "text": "This city is polluteder." },
+            { "id": "o3", "text": "This city is most polluted." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El centro es más abarrotado'?",
+          "options": [
+            { "id": "o1", "text": "The center is more crowded." },
+            { "id": "o2", "text": "The center is crowdeder." },
+            { "id": "o3", "text": "The center is busy." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Mi habitación es más luminosa'?",
+          "options": [
+            { "id": "o1", "text": "My room is brighter." },
+            { "id": "o2", "text": "My room is more bright." },
+            { "id": "o3", "text": "My room is light." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Este sofá es más cómodo'?",
+          "options": [
+            { "id": "o1", "text": "This sofa is more comfortable." },
+            { "id": "o2", "text": "This sofa is comfortabler." },
+            { "id": "o3", "text": "This sofa is comfort." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Es más seguro viajar en tren?'?",
+          "options": [
+            { "id": "o1", "text": "Is it safer to travel by train?" },
+            { "id": "o2", "text": "Is it more safe to travel by train?" },
+            { "id": "o3", "text": "Is it safely?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U41_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Mi ciudad es más ruidosa que la tuya, pero también es más emocionante.'",
+          "stimulus_es": "Mi ciudad es más ruidosa que la tuya, pero también es más emocionante.",
+          "correct_answer": "My city is noisier than yours, but it is also more exciting.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

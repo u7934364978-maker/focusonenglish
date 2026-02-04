@@ -1,6 +1,6 @@
 ---
 title: "Negociación en Inglés: Técnicas Clave para Cerrar Acuerdos"
-date: "2026-02-01"
+date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Negociar un contrato o un aumento de sueldo requiere sutileza y precisión lingüística. Descubre cómo las clases de inglés pueden darte el poder de la persuasión."
 category: "trabajo"

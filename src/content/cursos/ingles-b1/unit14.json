@@ -31,18 +31,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Souvenir",
-              "right": "A thing that is kept as a reminder of a place"
+              "left": "Currency",
+              "right": "A system of money in general use in a particular country"
             },
             {
               "id": "p1",
-              "left": "Itinerary",
-              "right": "A planned route or journey"
+              "left": "Customs",
+              "right": "The place at a port, airport, or frontier where officials check goods"
             },
             {
               "id": "p2",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
+              "left": "Departure",
+              "right": "The action of leaving, especially to start a journey"
             }
           ],
           "correct_answer": {
@@ -56,16 +56,16 @@
           "interaction_id": "U14_I2",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Can you (recommend) ________ a good restaurant?",
-          "correct_answer": "recommend",
+          "stimulus_en": "Did you (book) ________ your tickets online?",
+          "correct_answer": "book",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I3",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding affordable accommodation can difficult be in peak season.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You'll need to exchange some money into the local currency.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -76,171 +76,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "breathtaking"
-            },
-            {
-              "id": "w2",
-              "text": "landscape"
-            },
-            {
-              "id": "w3",
-              "text": "was"
-            },
-            {
               "id": "w1",
-              "text": "mountain"
-            },
-            {
-              "id": "w4",
-              "text": "absolutely"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I followed the recommendations in my guidebook.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I6",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A book of information about a place for visitors\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Reservation"
-            },
-            {
-              "id": "o3",
-              "text": "Souvenir"
-            },
-            {
-              "id": "o1",
-              "text": "Guidebook"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I7",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Departure",
-              "right": "The action of leaving, especially to start a journey"
-            },
-            {
-              "id": "p1",
-              "left": "Backpacking",
-              "right": "Traveling or hiking carrying one's belongings in a backpack"
-            },
-            {
-              "id": "p2",
-              "left": "Customs",
-              "right": "The place at a port, airport, or frontier where officials check goods"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I8",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The tour (start) ________ at the main square.",
-          "correct_answer": "starts",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I9",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I a bought small souvenir to remember the trip.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I10",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "souvenir"
-            },
-            {
-              "id": "w8",
-              "text": "trip"
-            },
-            {
-              "id": "w3",
-              "text": "small"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "bought"
+              "text": "affordable"
             },
             {
               "id": "w6",
-              "text": "remember"
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "be"
+            },
+            {
+              "id": "w3",
+              "text": "can"
             },
             {
               "id": "w5",
-              "text": "to"
+              "text": "difficult"
+            },
+            {
+              "id": "w7",
+              "text": "peak"
+            },
+            {
+              "id": "w2",
+              "text": "accommodation"
             },
             {
               "id": "w0",
-              "text": "I"
+              "text": "Finding"
+            },
+            {
+              "id": "w8",
+              "text": "season"
             }
           ],
           "correct_answer": [
@@ -257,22 +126,22 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U14_I11",
+          "interaction_id": "U14_I5",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"You'll need to exchange some money into the local currency.\"",
+          "stimulus_en": "Speaker A: \"The mountain landscape was absolutely breathtaking.\"",
           "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
             {
               "id": "r2",
               "text": "I completely agree, it makes sense."
             },
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             }
           ],
           "correct_answer": "r2",
@@ -280,21 +149,152 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U14_I12",
+          "interaction_id": "U14_I6",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Traveling or hiking carrying one's belongings in a backpack\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An official document issued by a government\"",
           "options": [
             {
               "id": "o1",
-              "text": "Backpacking"
-            },
-            {
-              "id": "o2",
-              "text": "Sightseeing"
+              "text": "Passport"
             },
             {
               "id": "o3",
-              "text": "Passport"
+              "text": "Currency"
+            },
+            {
+              "id": "o2",
+              "text": "Accommodation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I7",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Landscape",
+              "right": "All the visible features of an area of countryside or land"
+            },
+            {
+              "id": "p1",
+              "left": "Currency",
+              "right": "A system of money in general use in a particular country"
+            },
+            {
+              "id": "p2",
+              "left": "Guidebook",
+              "right": "A book of information about a place for visitors"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I8",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "Have you (be/ever) ________ to Paris?",
+          "correct_answer": "ever been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I followed recommendations the in my guidebook.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w5",
+              "text": "destination?"
+            },
+            {
+              "id": "w4",
+              "text": "travel"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U14_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"They went backpacking through Southeast Asia for six months.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U14_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The place to which someone or something is going\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Guidebook"
+            },
+            {
+              "id": "o2",
+              "text": "Backpacking"
+            },
+            {
+              "id": "o1",
+              "text": "Destination"
             }
           ],
           "correct_answer": "o1",
@@ -308,18 +308,18 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Arrival",
+              "right": "The action or process of arriving at a place"
+            },
+            {
+              "id": "p1",
               "left": "Customs",
               "right": "The place at a port, airport, or frontier where officials check goods"
             },
             {
-              "id": "p1",
-              "left": "Souvenir",
-              "right": "A thing that is kept as a reminder of a place"
-            },
-            {
               "id": "p2",
-              "left": "Passport",
-              "right": "An official document issued by a government"
+              "left": "Backpacking",
+              "right": "Traveling or hiking carrying one's belongings in a backpack"
             }
           ],
           "correct_answer": {
@@ -333,16 +333,16 @@
           "interaction_id": "U14_I14",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (go) ________ to Italy next year.",
-          "correct_answer": "are going",
+          "stimulus_en": "I (look) ________ forward to my next holiday.",
+          "correct_answer": "am looking",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I15",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"They went backpacking through Southeast Asia for six months.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I the followed recommendations in my guidebook.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -354,39 +354,39 @@
           "options": [
             {
               "id": "w1",
-              "text": "like"
-            },
-            {
-              "id": "w6",
-              "text": "for"
-            },
-            {
-              "id": "w3",
-              "text": "make"
-            },
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w8",
-              "text": "nights"
-            },
-            {
-              "id": "w7",
-              "text": "two"
-            },
-            {
-              "id": "w0",
-              "text": "I'd"
+              "text": "affordable"
             },
             {
               "id": "w5",
-              "text": "reservation"
+              "text": "difficult"
+            },
+            {
+              "id": "w4",
+              "text": "be"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "accommodation"
+            },
+            {
+              "id": "w3",
+              "text": "can"
+            },
+            {
+              "id": "w7",
+              "text": "peak"
+            },
+            {
+              "id": "w8",
+              "text": "season"
+            },
+            {
+              "id": "w0",
+              "text": "Finding"
             }
           ],
           "correct_answer": [
@@ -406,41 +406,41 @@
           "interaction_id": "U14_I17",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We had to go through customs when we arrived at the airport.\"",
+          "stimulus_en": "Speaker A: \"Finding affordable accommodation can be difficult in peak season.\"",
           "options": [
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U14_I18",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A room, group of rooms, or building in which someone may stay\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"An arrangement to have something kept for one's use\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Accommodation"
+              "id": "o2",
+              "text": "Passport"
             },
             {
               "id": "o3",
-              "text": "Departure"
+              "text": "Souvenir"
             },
             {
-              "id": "o2",
-              "text": "Landscape"
+              "id": "o1",
+              "text": "Reservation"
             }
           ],
           "correct_answer": "o1",
@@ -454,18 +454,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Guidebook",
-              "right": "A book of information about a place for visitors"
+              "left": "Passport",
+              "right": "An official document issued by a government"
             },
             {
               "id": "p1",
-              "left": "Arrival",
-              "right": "The action or process of arriving at a place"
+              "left": "Destination",
+              "right": "The place to which someone or something is going"
             },
             {
               "id": "p2",
-              "left": "Itinerary",
-              "right": "A planned route or journey"
+              "left": "Souvenir",
+              "right": "A thing that is kept as a reminder of a place"
             }
           ],
           "correct_answer": {
@@ -479,15 +479,15 @@
           "interaction_id": "U14_I20",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (lose) ________ his passport at the airport.",
-          "correct_answer": "lost",
+          "stimulus_en": "They (plan) ________ this trip for months.",
+          "correct_answer": "have been planning",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I21",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You'll need to exchange some money into the local currency.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We had to go through customs when we arrived at the airport.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -499,40 +499,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
+              "id": "w4",
+              "text": "busy"
+            },
+            {
               "id": "w1",
-              "text": "bought"
+              "text": "have"
             },
             {
-              "id": "w6",
-              "text": "remember"
+              "id": "w3",
+              "text": "very"
             },
             {
-              "id": "w2",
-              "text": "a"
+              "id": "w0",
+              "text": "We"
             },
             {
               "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "to"
+              "text": "our"
             },
             {
               "id": "w8",
               "text": "trip"
             },
             {
-              "id": "w4",
-              "text": "souvenir"
+              "id": "w2",
+              "text": "a"
             },
             {
-              "id": "w3",
-              "text": "small"
+              "id": "w6",
+              "text": "for"
             },
             {
-              "id": "w0",
-              "text": "I"
+              "id": "w5",
+              "text": "itinerary"
             }
           ],
           "correct_answer": [
@@ -555,16 +555,16 @@
           "stimulus_en": "Speaker A: \"We had to go through customs when we arrived at the airport.\"",
           "options": [
             {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             },
             {
               "id": "r15",
               "text": "That's very kind of you to offer."
             },
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             }
           ],
           "correct_answer": "r19",
@@ -574,19 +574,19 @@
         {
           "interaction_id": "U14_I24",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A system of money in general use in a particular country\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The place at a port, airport, or frontier where officials check goods\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Excursion"
+              "id": "o1",
+              "text": "Customs"
             },
             {
               "id": "o3",
-              "text": "Guidebook"
+              "text": "Landscape"
             },
             {
-              "id": "o1",
-              "text": "Currency"
+              "id": "o2",
+              "text": "Itinerary"
             }
           ],
           "correct_answer": "o1",
@@ -600,18 +600,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Itinerary",
-              "right": "A planned route or journey"
+              "left": "Backpacking",
+              "right": "Traveling or hiking carrying one's belongings in a backpack"
             },
             {
               "id": "p1",
-              "left": "Reservation",
-              "right": "An arrangement to have something kept for one's use"
+              "left": "Sightseeing",
+              "right": "The activity of visiting places of interest"
             },
             {
               "id": "p2",
-              "left": "Customs",
-              "right": "The place at a port, airport, or frontier where officials check goods"
+              "left": "Souvenir",
+              "right": "A thing that is kept as a reminder of a place"
             }
           ],
           "correct_answer": {
@@ -625,16 +625,16 @@
           "interaction_id": "U14_I26",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (lose) ________ his passport at the airport.",
-          "correct_answer": "lost",
+          "stimulus_en": "Can you (recommend) ________ a good restaurant?",
+          "correct_answer": "recommend",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I27",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The mountain was landscape absolutely breathtaking.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You'll need to exchange some money into the local currency.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -645,294 +645,32 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "mountain"
-            },
-            {
-              "id": "w4",
-              "text": "absolutely"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "was"
-            },
-            {
               "id": "w5",
-              "text": "breathtaking"
-            },
-            {
-              "id": "w2",
-              "text": "landscape"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I29",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I followed the recommendations in my guidebook.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I30",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"An arrangement to have something kept for one's use\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Passport"
-            },
-            {
-              "id": "o1",
-              "text": "Reservation"
-            },
-            {
-              "id": "o3",
-              "text": "Customs"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I31",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Itinerary",
-              "right": "A planned route or journey"
-            },
-            {
-              "id": "p1",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
-            },
-            {
-              "id": "p2",
-              "left": "Arrival",
-              "right": "The action or process of arriving at a place"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I32",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (stay) ________ in a lovely hotel by the sea.",
-          "correct_answer": "stayed",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I33",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The arrival expected time is 10:30 AM.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I34",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w5",
-              "text": "destination?"
-            },
-            {
-              "id": "w3",
-              "text": "favorite"
-            },
-            {
-              "id": "w4",
-              "text": "travel"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I35",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What is your favorite travel destination?\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I36",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An arrangement to have something kept for one's use\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Reservation"
-            },
-            {
-              "id": "o2",
-              "text": "Passport"
-            },
-            {
-              "id": "o3",
-              "text": "Accommodation"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I37",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Itinerary",
-              "right": "A planned route or journey"
-            },
-            {
-              "id": "p1",
-              "left": "Arrival",
-              "right": "The action or process of arriving at a place"
-            },
-            {
-              "id": "p2",
-              "left": "Currency",
-              "right": "A system of money in general use in a particular country"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I38",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The flight (depart) ________ at 7 PM.",
-          "correct_answer": "departs",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I39",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Don't forget to bring your with passport you.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I40",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "arrival"
+              "text": "10:30"
             },
             {
               "id": "w6",
               "text": "AM"
             },
             {
+              "id": "w2",
+              "text": "arrival"
+            },
+            {
               "id": "w4",
               "text": "is"
             },
             {
-              "id": "w5",
-              "text": "10:30"
-            },
-            {
-              "id": "w3",
-              "text": "time"
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w1",
               "text": "expected"
             },
             {
-              "id": "w0",
-              "text": "The"
+              "id": "w3",
+              "text": "time"
             }
           ],
           "correct_answer": [
@@ -947,22 +685,168 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U14_I41",
+          "interaction_id": "U14_I29",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I'd like to make a reservation for two nights.\"",
+          "stimulus_en": "Speaker A: \"We had to go through customs when we arrived at the airport.\"",
           "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U14_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The action of leaving, especially to start a journey\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Destination"
+            },
+            {
+              "id": "o1",
+              "text": "Departure"
+            },
+            {
+              "id": "o2",
+              "text": "Customs"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Currency",
+              "right": "A system of money in general use in a particular country"
+            },
+            {
+              "id": "p1",
+              "left": "Reservation",
+              "right": "An arrangement to have something kept for one's use"
+            },
+            {
+              "id": "p2",
+              "left": "Destination",
+              "right": "The place to which someone or something is going"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Can you (recommend) ________ a good restaurant?",
+          "correct_answer": "recommend",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I bought a small souvenir to remember the trip.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "went"
+            },
+            {
+              "id": "w3",
+              "text": "through"
+            },
+            {
+              "id": "w4",
+              "text": "Southeast"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w6",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "Asia"
+            },
+            {
+              "id": "w2",
+              "text": "backpacking"
+            },
+            {
+              "id": "w7",
+              "text": "six"
+            },
+            {
+              "id": "w8",
+              "text": "months"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U14_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"What is your favorite travel destination?\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
             {
               "id": "r19",
               "text": "That would be perfect, thank you."
             },
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             }
           ],
           "correct_answer": "r19",
@@ -970,21 +854,152 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U14_I42",
+          "interaction_id": "U14_I36",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Traveling or hiking carrying one's belongings in a backpack\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A thing that is kept as a reminder of a place\"",
           "options": [
             {
-              "id": "o3",
-              "text": "Customs"
-            },
-            {
               "id": "o1",
-              "text": "Backpacking"
+              "text": "Souvenir"
             },
             {
               "id": "o2",
-              "text": "Excursion"
+              "text": "Reservation"
+            },
+            {
+              "id": "o3",
+              "text": "Sightseeing"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Backpacking",
+              "right": "Traveling or hiking carrying one's belongings in a backpack"
+            },
+            {
+              "id": "p1",
+              "left": "Itinerary",
+              "right": "A planned route or journey"
+            },
+            {
+              "id": "p2",
+              "left": "Reservation",
+              "right": "An arrangement to have something kept for one's use"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I38",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (take/always) ________ a lot of photos.",
+          "correct_answer": "always takes",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You'll need exchange to some money into the local currency.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "destination?"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "travel"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U14_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"I followed the recommendations in my guidebook.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U14_I42",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A room, group of rooms, or building in which someone may stay\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Accommodation"
+            },
+            {
+              "id": "o2",
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o3",
+              "text": "Arrival"
             }
           ],
           "correct_answer": "o1",
@@ -1003,13 +1018,13 @@
             },
             {
               "id": "p1",
-              "left": "Destination",
-              "right": "The place to which someone or something is going"
+              "left": "Backpacking",
+              "right": "Traveling or hiking carrying one's belongings in a backpack"
             },
             {
               "id": "p2",
-              "left": "Itinerary",
-              "right": "A planned route or journey"
+              "left": "Departure",
+              "right": "The action of leaving, especially to start a journey"
             }
           ],
           "correct_answer": {
@@ -1022,16 +1037,16 @@
         {
           "interaction_id": "U14_I44",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (stay) ________ in a lovely hotel by the sea.",
-          "correct_answer": "stayed",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (take/always) ________ a lot of photos.",
+          "correct_answer": "always takes",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I45",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We had to go through customs when we at arrived the airport.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding affordable accommodation can be difficult peak in season.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1043,40 +1058,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "bought"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w4",
-              "text": "souvenir"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
               "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w3",
-              "text": "small"
+              "text": "Finding"
             },
             {
               "id": "w8",
-              "text": "trip"
+              "text": "season"
             },
             {
-              "id": "w6",
-              "text": "remember"
+              "id": "w5",
+              "text": "difficult"
             },
             {
               "id": "w7",
-              "text": "the"
+              "text": "peak"
+            },
+            {
+              "id": "w2",
+              "text": "accommodation"
+            },
+            {
+              "id": "w4",
+              "text": "be"
+            },
+            {
+              "id": "w3",
+              "text": "can"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "affordable"
             }
           ],
           "correct_answer": [
@@ -1096,41 +1111,41 @@
           "interaction_id": "U14_I47",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The expected arrival time is 10:30 AM.\"",
+          "stimulus_en": "Speaker A: \"We spent the whole day sightseeing in Rome.\"",
           "options": [
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             }
           ],
-          "correct_answer": "r15",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U14_I48",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The action or process of arriving at a place\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The action of leaving, especially to start a journey\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Sightseeing"
+              "id": "o1",
+              "text": "Departure"
             },
             {
-              "id": "o1",
-              "text": "Arrival"
+              "id": "o2",
+              "text": "Accommodation"
             },
             {
               "id": "o3",
-              "text": "Departure"
+              "text": "Destination"
             }
           ],
           "correct_answer": "o1",
@@ -1144,18 +1159,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Arrival",
-              "right": "The action or process of arriving at a place"
+              "left": "Excursion",
+              "right": "A short journey or trip, especially one taken as a leisure activity"
             },
             {
               "id": "p1",
-              "left": "Reservation",
-              "right": "An arrangement to have something kept for one's use"
+              "left": "Customs",
+              "right": "The place at a port, airport, or frontier where officials check goods"
             },
             {
               "id": "p2",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
+              "left": "Landscape",
+              "right": "All the visible features of an area of countryside or land"
             }
           ],
           "correct_answer": {
@@ -1169,15 +1184,15 @@
           "interaction_id": "U14_I50",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (travel) ________ to Japan last summer.",
-          "correct_answer": "traveled",
+          "stimulus_en": "I (wish) ________ I could speak the local language better.",
+          "correct_answer": "wish",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I51",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Check the departure time on your boarding pass.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You'll need to exchange some money into the local currency.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1189,36 +1204,182 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "spent"
+              "id": "w7",
+              "text": "two"
             },
             {
               "id": "w3",
-              "text": "whole"
-            },
-            {
-              "id": "w4",
-              "text": "day"
-            },
-            {
-              "id": "w7",
-              "text": "Rome"
+              "text": "make"
             },
             {
               "id": "w2",
-              "text": "the"
+              "text": "to"
             },
             {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "We"
+              "id": "w8",
+              "text": "nights"
             },
             {
               "id": "w5",
-              "text": "sightseeing"
+              "text": "reservation"
+            },
+            {
+              "id": "w1",
+              "text": "like"
+            },
+            {
+              "id": "w0",
+              "text": "I'd"
+            },
+            {
+              "id": "w6",
+              "text": "for"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U14_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"They went backpacking through Southeast Asia for six months.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U14_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A room, group of rooms, or building in which someone may stay\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Itinerary"
+            },
+            {
+              "id": "o1",
+              "text": "Accommodation"
+            },
+            {
+              "id": "o3",
+              "text": "Guidebook"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Currency",
+              "right": "A system of money in general use in a particular country"
+            },
+            {
+              "id": "p1",
+              "left": "Souvenir",
+              "right": "A thing that is kept as a reminder of a place"
+            },
+            {
+              "id": "p2",
+              "left": "Backpacking",
+              "right": "Traveling or hiking carrying one's belongings in a backpack"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I56",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "If it (rain/not) ________, we will go to the beach.",
+          "correct_answer": "doesn't rain",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We had to go through customs when we arrived the at airport.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "hotel"
+            },
+            {
+              "id": "w7",
+              "text": "villages"
+            },
+            {
+              "id": "w2",
+              "text": "organizes"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "daily"
+            },
+            {
+              "id": "w6",
+              "text": "nearby"
+            },
+            {
+              "id": "w4",
+              "text": "excursions"
             }
           ],
           "correct_answer": [
@@ -1234,32 +1395,32 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U14_I53",
+          "interaction_id": "U14_I59",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We had to go through customs when we arrived at the airport.\"",
+          "stimulus_en": "Speaker A: \"Check the departure time on your boarding pass.\"",
           "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
             {
               "id": "r2",
               "text": "I completely agree, it makes sense."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             }
           ],
-          "correct_answer": "r10",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U14_I54",
+          "interaction_id": "U14_I60",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"An official document issued by a government\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The action of leaving, especially to start a journey\"",
           "options": [
             {
               "id": "o2",
@@ -1267,142 +1428,11 @@
             },
             {
               "id": "o3",
-              "text": "Departure"
-            },
-            {
-              "id": "o1",
-              "text": "Passport"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I55",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Backpacking",
-              "right": "Traveling or hiking carrying one's belongings in a backpack"
-            },
-            {
-              "id": "p1",
-              "left": "Customs",
-              "right": "The place at a port, airport, or frontier where officials check goods"
-            },
-            {
-              "id": "p2",
-              "left": "Arrival",
-              "right": "The action or process of arriving at a place"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I56",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I could speak the local language better.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I57",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding accommodation affordable can be difficult in peak season.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I58",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w3",
-              "text": "favorite"
-            },
-            {
-              "id": "w5",
-              "text": "destination?"
-            },
-            {
-              "id": "w4",
-              "text": "travel"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I59",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What is your favorite travel destination?\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I60",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The action of leaving, especially to start a journey\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Passport"
+              "text": "Sightseeing"
             },
             {
               "id": "o1",
               "text": "Departure"
-            },
-            {
-              "id": "o3",
-              "text": "Arrival"
             }
           ],
           "correct_answer": "o1",
@@ -1416,18 +1446,18 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Destination",
+              "right": "The place to which someone or something is going"
+            },
+            {
+              "id": "p1",
               "left": "Sightseeing",
               "right": "The activity of visiting places of interest"
             },
             {
-              "id": "p1",
-              "left": "Guidebook",
-              "right": "A book of information about a place for visitors"
-            },
-            {
               "id": "p2",
-              "left": "Reservation",
-              "right": "An arrangement to have something kept for one's use"
+              "left": "Itinerary",
+              "right": "A planned route or journey"
             }
           ],
           "correct_answer": {
@@ -1440,17 +1470,17 @@
         {
           "interaction_id": "U14_I62",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (take/always) ________ a lot of photos.",
-          "correct_answer": "always takes",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (wish) ________ I could speak the local language better.",
+          "correct_answer": "wish",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I63",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I'd like to a make reservation for two nights.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Check the departure time on your boarding pass.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1461,40 +1491,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "reservation"
-            },
-            {
-              "id": "w8",
-              "text": "nights"
+              "id": "w1",
+              "text": "hotel"
             },
             {
               "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w1",
-              "text": "like"
-            },
-            {
-              "id": "w0",
-              "text": "I'd"
-            },
-            {
-              "id": "w3",
-              "text": "make"
-            },
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "for"
+              "text": "organizes"
             },
             {
               "id": "w7",
-              "text": "two"
+              "text": "villages"
+            },
+            {
+              "id": "w4",
+              "text": "excursions"
+            },
+            {
+              "id": "w6",
+              "text": "nearby"
+            },
+            {
+              "id": "w3",
+              "text": "daily"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             }
           ],
           "correct_answer": [
@@ -1505,8 +1531,7 @@
             "w4",
             "w5",
             "w6",
-            "w7",
-            "w8"
+            "w7"
           ],
           "mastery_tag": "syntax"
         },
@@ -1514,41 +1539,41 @@
           "interaction_id": "U14_I65",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I'd like to make a reservation for two nights.\"",
+          "stimulus_en": "Speaker A: \"Check the departure time on your boarding pass.\"",
           "options": [
             {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r15",
+              "text": "That's very kind of you to offer."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             }
           ],
-          "correct_answer": "r19",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U14_I66",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A system of money in general use in a particular country\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A short journey or trip, especially one taken as a leisure activity\"",
           "options": [
             {
+              "id": "o2",
+              "text": "Arrival"
+            },
+            {
               "id": "o1",
-              "text": "Currency"
+              "text": "Excursion"
             },
             {
               "id": "o3",
-              "text": "Itinerary"
-            },
-            {
-              "id": "o2",
-              "text": "Souvenir"
+              "text": "Destination"
             }
           ],
           "correct_answer": "o1",
@@ -1562,18 +1587,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Landscape",
-              "right": "All the visible features of an area of countryside or land"
+              "left": "Destination",
+              "right": "The place to which someone or something is going"
             },
             {
               "id": "p1",
-              "left": "Sightseeing",
-              "right": "The activity of visiting places of interest"
+              "left": "Souvenir",
+              "right": "A thing that is kept as a reminder of a place"
             },
             {
               "id": "p2",
-              "left": "Accommodation",
-              "right": "A room, group of rooms, or building in which someone may stay"
+              "left": "Backpacking",
+              "right": "Traveling or hiking carrying one's belongings in a backpack"
             }
           ],
           "correct_answer": {
@@ -1587,16 +1612,16 @@
           "interaction_id": "U14_I68",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I could speak the local language better.",
-          "correct_answer": "wish",
+          "stimulus_en": "I (travel) ________ to Japan last summer.",
+          "correct_answer": "traveled",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I69",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The mountain landscape was absolutely breathtaking.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The landscape mountain was absolutely breathtaking.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1607,40 +1632,28 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "for"
-            },
-            {
-              "id": "w0",
-              "text": "I'd"
-            },
-            {
-              "id": "w8",
-              "text": "nights"
-            },
-            {
-              "id": "w5",
-              "text": "reservation"
+              "id": "w1",
+              "text": "mountain"
             },
             {
               "id": "w2",
-              "text": "to"
+              "text": "landscape"
+            },
+            {
+              "id": "w5",
+              "text": "breathtaking"
+            },
+            {
+              "id": "w4",
+              "text": "absolutely"
             },
             {
               "id": "w3",
-              "text": "make"
+              "text": "was"
             },
             {
-              "id": "w7",
-              "text": "two"
-            },
-            {
-              "id": "w1",
-              "text": "like"
+              "id": "w0",
+              "text": "The"
             }
           ],
           "correct_answer": [
@@ -1649,10 +1662,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -1660,41 +1670,41 @@
           "interaction_id": "U14_I71",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I followed the recommendations in my guidebook.\"",
+          "stimulus_en": "Speaker A: \"The hotel organizes daily excursions to nearby villages.\"",
           "options": [
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             }
           ],
-          "correct_answer": "r19",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U14_I72",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The action of leaving, especially to start a journey\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A planned route or journey\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Souvenir"
+              "id": "o1",
+              "text": "Itinerary"
             },
             {
               "id": "o3",
-              "text": "Reservation"
+              "text": "Accommodation"
             },
             {
-              "id": "o1",
-              "text": "Departure"
+              "id": "o2",
+              "text": "Reservation"
             }
           ],
           "correct_answer": "o1",
@@ -1708,13 +1718,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Customs",
-              "right": "The place at a port, airport, or frontier where officials check goods"
+              "left": "Guidebook",
+              "right": "A book of information about a place for visitors"
             },
             {
               "id": "p1",
-              "left": "Backpacking",
-              "right": "Traveling or hiking carrying one's belongings in a backpack"
+              "left": "Souvenir",
+              "right": "A thing that is kept as a reminder of a place"
             },
             {
               "id": "p2",
@@ -1732,16 +1742,16 @@
         {
           "interaction_id": "U14_I74",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "Have you (be/ever) ________ to Paris?",
-          "correct_answer": "ever been",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (look) ________ forward to my next holiday.",
+          "correct_answer": "am looking",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I75",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We had to go through customs when we arrived the at airport.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The hotel organizes daily to excursions nearby villages.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1753,40 +1763,28 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "souvenir"
-            },
-            {
-              "id": "w5",
-              "text": "to"
+              "id": "w0",
+              "text": "What"
             },
             {
               "id": "w3",
-              "text": "small"
+              "text": "favorite"
             },
             {
-              "id": "w1",
-              "text": "bought"
-            },
-            {
-              "id": "w8",
-              "text": "trip"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w6",
-              "text": "remember"
-            },
-            {
-              "id": "w7",
-              "text": "the"
+              "id": "w5",
+              "text": "destination?"
             },
             {
               "id": "w2",
-              "text": "a"
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "travel"
+            },
+            {
+              "id": "w1",
+              "text": "is"
             }
           ],
           "correct_answer": [
@@ -1795,10 +1793,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -1806,11 +1801,11 @@
           "interaction_id": "U14_I77",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"You'll need to exchange some money into the local currency.\"",
+          "stimulus_en": "Speaker A: \"They went backpacking through Southeast Asia for six months.\"",
           "options": [
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             },
             {
               "id": "r1",
@@ -1821,26 +1816,26 @@
               "text": "That would be perfect, thank you."
             }
           ],
-          "correct_answer": "r19",
+          "correct_answer": "r1",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U14_I78",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A short journey or trip, especially one taken as a leisure activity\"",
+          "prompt_es": "Identifica la palabra correcta para: \"The activity of visiting places of interest\"",
           "options": [
             {
               "id": "o2",
-              "text": "Departure"
-            },
-            {
-              "id": "o3",
-              "text": "Sightseeing"
+              "text": "Excursion"
             },
             {
               "id": "o1",
-              "text": "Excursion"
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o3",
+              "text": "Backpacking"
             }
           ],
           "correct_answer": "o1",
@@ -1854,18 +1849,18 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Backpacking",
+              "right": "Traveling or hiking carrying one's belongings in a backpack"
+            },
+            {
+              "id": "p1",
               "left": "Reservation",
               "right": "An arrangement to have something kept for one's use"
             },
             {
-              "id": "p1",
-              "left": "Currency",
-              "right": "A system of money in general use in a particular country"
-            },
-            {
               "id": "p2",
-              "left": "Accommodation",
-              "right": "A room, group of rooms, or building in which someone may stay"
+              "left": "Customs",
+              "right": "The place at a port, airport, or frontier where officials check goods"
             }
           ],
           "correct_answer": {
@@ -1887,7 +1882,7 @@
         {
           "interaction_id": "U14_I81",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I bought a small souvenir to remember the trip.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The expected arrival time is 10:30 AM.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1899,40 +1894,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w7",
-              "text": "six"
-            },
-            {
-              "id": "w4",
-              "text": "Southeast"
-            },
-            {
-              "id": "w5",
-              "text": "Asia"
-            },
-            {
               "id": "w6",
               "text": "for"
             },
             {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "reservation"
+            },
+            {
               "id": "w2",
-              "text": "backpacking"
-            },
-            {
-              "id": "w8",
-              "text": "months"
-            },
-            {
-              "id": "w0",
-              "text": "They"
-            },
-            {
-              "id": "w3",
-              "text": "through"
+              "text": "to"
             },
             {
               "id": "w1",
-              "text": "went"
+              "text": "like"
+            },
+            {
+              "id": "w0",
+              "text": "I'd"
+            },
+            {
+              "id": "w7",
+              "text": "two"
+            },
+            {
+              "id": "w3",
+              "text": "make"
+            },
+            {
+              "id": "w8",
+              "text": "nights"
             }
           ],
           "correct_answer": [
@@ -1952,7 +1947,7 @@
           "interaction_id": "U14_I83",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"They went backpacking through Southeast Asia for six months.\"",
+          "stimulus_en": "Speaker A: \"Check the departure time on your boarding pass.\"",
           "options": [
             {
               "id": "r5",
@@ -1963,22 +1958,22 @@
               "text": "I completely agree, it makes sense."
             },
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             }
           ],
-          "correct_answer": "r5",
+          "correct_answer": "r2",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U14_I84",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The place at a port, airport, or frontier where officials check goods\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"An arrangement to have something kept for one's use\"",
           "options": [
             {
               "id": "o1",
-              "text": "Customs"
+              "text": "Reservation"
             },
             {
               "id": "o2",
@@ -1986,7 +1981,7 @@
             },
             {
               "id": "o3",
-              "text": "Souvenir"
+              "text": "Guidebook"
             }
           ],
           "correct_answer": "o1",
@@ -2000,18 +1995,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Currency",
-              "right": "A system of money in general use in a particular country"
+              "left": "Backpacking",
+              "right": "Traveling or hiking carrying one's belongings in a backpack"
             },
             {
               "id": "p1",
-              "left": "Guidebook",
-              "right": "A book of information about a place for visitors"
+              "left": "Excursion",
+              "right": "A short journey or trip, especially one taken as a leisure activity"
             },
             {
               "id": "p2",
-              "left": "Passport",
-              "right": "An official document issued by a government"
+              "left": "Guidebook",
+              "right": "A book of information about a place for visitors"
             }
           ],
           "correct_answer": {
@@ -2025,16 +2020,16 @@
           "interaction_id": "U14_I86",
           "type": "transformation",
           "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "Have you (be/ever) ________ to Paris?",
-          "correct_answer": "ever been",
+          "stimulus_en": "If it (rain/not) ________, we will go to the beach.",
+          "correct_answer": "doesn't rain",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I87",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is your favorite travel destination?\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The hotel organizes daily excursions nearby to villages.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -2045,40 +2040,176 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "backpacking"
-            },
-            {
-              "id": "w8",
-              "text": "months"
+              "id": "w1",
+              "text": "followed"
             },
             {
               "id": "w4",
-              "text": "Southeast"
+              "text": "in"
             },
             {
-              "id": "w6",
-              "text": "for"
-            },
-            {
-              "id": "w5",
-              "text": "Asia"
-            },
-            {
-              "id": "w1",
-              "text": "went"
-            },
-            {
-              "id": "w0",
-              "text": "They"
+              "id": "w2",
+              "text": "the"
             },
             {
               "id": "w3",
-              "text": "through"
+              "text": "recommendations"
+            },
+            {
+              "id": "w6",
+              "text": "guidebook"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "my"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U14_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Finding affordable accommodation can be difficult in peak season.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U14_I90",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The action of leaving, especially to start a journey\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Departure"
+            },
+            {
+              "id": "o2",
+              "text": "Arrival"
+            },
+            {
+              "id": "o3",
+              "text": "Destination"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Backpacking",
+              "right": "Traveling or hiking carrying one's belongings in a backpack"
+            },
+            {
+              "id": "p1",
+              "left": "Guidebook",
+              "right": "A book of information about a place for visitors"
+            },
+            {
+              "id": "p2",
+              "left": "Reservation",
+              "right": "An arrangement to have something kept for one's use"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (look) ________ forward to my next holiday.",
+          "correct_answer": "am looking",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"They went backpacking through Southeast Asia for six months.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "can"
+            },
+            {
+              "id": "w5",
+              "text": "difficult"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "affordable"
+            },
+            {
+              "id": "w4",
+              "text": "be"
+            },
+            {
+              "id": "w0",
+              "text": "Finding"
             },
             {
               "id": "w7",
-              "text": "six"
+              "text": "peak"
+            },
+            {
+              "id": "w2",
+              "text": "accommodation"
+            },
+            {
+              "id": "w8",
+              "text": "season"
             }
           ],
           "correct_answer": [
@@ -2095,175 +2226,44 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U14_I89",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Check the departure time on your boarding pass.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I90",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The place to which someone or something is going\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Landscape"
-            },
-            {
-              "id": "o2",
-              "text": "Currency"
-            },
-            {
-              "id": "o1",
-              "text": "Destination"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I91",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
-            },
-            {
-              "id": "p1",
-              "left": "Arrival",
-              "right": "The action or process of arriving at a place"
-            },
-            {
-              "id": "p2",
-              "left": "Departure",
-              "right": "The action of leaving, especially to start a journey"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I92",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Can you (recommend) ________ a good restaurant?",
-          "correct_answer": "recommend",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I93",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"They went backpacking Southeast through Asia for six months.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I94",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "destination?"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w3",
-              "text": "favorite"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w4",
-              "text": "travel"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
           "interaction_id": "U14_I95",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I followed the recommendations in my guidebook.\"",
+          "stimulus_en": "Speaker A: \"Don't forget to bring your passport with you.\"",
           "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
             {
               "id": "r15",
               "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r2",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U14_I96",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A book of information about a place for visitors\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The action of leaving, especially to start a journey\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Currency"
-            },
-            {
               "id": "o1",
-              "text": "Guidebook"
+              "text": "Departure"
             },
             {
               "id": "o3",
-              "text": "Accommodation"
+              "text": "Passport"
+            },
+            {
+              "id": "o2",
+              "text": "Customs"
             }
           ],
           "correct_answer": "o1",
@@ -2277,18 +2277,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Destination",
-              "right": "The place to which someone or something is going"
+              "left": "Passport",
+              "right": "An official document issued by a government"
             },
             {
               "id": "p1",
-              "left": "Itinerary",
-              "right": "A planned route or journey"
+              "left": "Backpacking",
+              "right": "Traveling or hiking carrying one's belongings in a backpack"
             },
             {
               "id": "p2",
-              "left": "Arrival",
-              "right": "The action or process of arriving at a place"
+              "left": "Reservation",
+              "right": "An arrangement to have something kept for one's use"
             }
           ],
           "correct_answer": {
@@ -2310,7 +2310,7 @@
         {
           "interaction_id": "U14_I99",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We have a very busy itinerary for our trip.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I followed the recommendations in my guidebook.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -2322,2242 +2322,20 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "go"
-            },
-            {
-              "id": "w8",
-              "text": "arrived"
-            },
-            {
               "id": "w7",
-              "text": "we"
-            },
-            {
-              "id": "w5",
-              "text": "customs"
-            },
-            {
-              "id": "w1",
-              "text": "had"
-            },
-            {
-              "id": "w4",
-              "text": "through"
-            },
-            {
-              "id": "w6",
-              "text": "when"
-            },
-            {
-              "id": "w10",
-              "text": "the"
-            },
-            {
-              "id": "w9",
-              "text": "at"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w11",
-              "text": "airport"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I101",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Check the departure time on your boarding pass.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I102",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Traveling or hiking carrying one's belongings in a backpack\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Customs"
-            },
-            {
-              "id": "o3",
-              "text": "Arrival"
-            },
-            {
-              "id": "o1",
-              "text": "Backpacking"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I103",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Reservation",
-              "right": "An arrangement to have something kept for one's use"
-            },
-            {
-              "id": "p1",
-              "left": "Souvenir",
-              "right": "A thing that is kept as a reminder of a place"
-            },
-            {
-              "id": "p2",
-              "left": "Accommodation",
-              "right": "A room, group of rooms, or building in which someone may stay"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I104",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (take/always) ________ a lot of photos.",
-          "correct_answer": "always takes",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I105",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Don't forget to bring your passport with you.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I106",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w5",
-              "text": "destination?"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "favorite"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w4",
-              "text": "travel"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I107",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We had to go through customs when we arrived at the airport.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I108",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A book of information about a place for visitors\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Guidebook"
-            },
-            {
-              "id": "o2",
-              "text": "Arrival"
-            },
-            {
-              "id": "o3",
-              "text": "Itinerary"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I109",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Accommodation",
-              "right": "A room, group of rooms, or building in which someone may stay"
-            },
-            {
-              "id": "p1",
-              "left": "Sightseeing",
-              "right": "The activity of visiting places of interest"
-            },
-            {
-              "id": "p2",
-              "left": "Reservation",
-              "right": "An arrangement to have something kept for one's use"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I110",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (lose) ________ his passport at the airport.",
-          "correct_answer": "lost",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I111",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We had to go through customs when we arrived at the airport.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I112",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "with"
-            },
-            {
-              "id": "w5",
-              "text": "passport"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "bring"
-            },
-            {
-              "id": "w7",
-              "text": "you"
-            },
-            {
-              "id": "w4",
-              "text": "your"
-            },
-            {
-              "id": "w1",
-              "text": "forget"
-            },
-            {
-              "id": "w0",
-              "text": "Don't"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I113",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The mountain landscape was absolutely breathtaking.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I114",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A room, group of rooms, or building in which someone may stay\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Destination"
-            },
-            {
-              "id": "o1",
-              "text": "Accommodation"
-            },
-            {
-              "id": "o2",
-              "text": "Customs"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I115",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sightseeing",
-              "right": "The activity of visiting places of interest"
-            },
-            {
-              "id": "p1",
-              "left": "Destination",
-              "right": "The place to which someone or something is going"
-            },
-            {
-              "id": "p2",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I116",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (stay) ________ in a lovely hotel by the sea.",
-          "correct_answer": "stayed",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I117",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Check the departure time on your boarding pass.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I118",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "remember"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w8",
-              "text": "trip"
-            },
-            {
-              "id": "w4",
-              "text": "souvenir"
-            },
-            {
-              "id": "w1",
-              "text": "bought"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "small"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I119",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We have a very busy itinerary for our trip.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I120",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A system of money in general use in a particular country\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Currency"
-            },
-            {
-              "id": "o2",
-              "text": "Passport"
-            },
-            {
-              "id": "o3",
-              "text": "Destination"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I121",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Destination",
-              "right": "The place to which someone or something is going"
-            },
-            {
-              "id": "p1",
-              "left": "Customs",
-              "right": "The place at a port, airport, or frontier where officials check goods"
-            },
-            {
-              "id": "p2",
-              "left": "Currency",
-              "right": "A system of money in general use in a particular country"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I122",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (pack/not) ________ my suitcase yet.",
-          "correct_answer": "haven't packed",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I123",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The expected arrival time is 10:30 AM.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I124",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "whole"
-            },
-            {
-              "id": "w5",
-              "text": "sightseeing"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "spent"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "Rome"
-            },
-            {
-              "id": "w4",
-              "text": "day"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I125",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Finding affordable accommodation can be difficult in peak season.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I126",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A planned route or journey\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Reservation"
-            },
-            {
-              "id": "o1",
-              "text": "Itinerary"
-            },
-            {
-              "id": "o2",
-              "text": "Arrival"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I127",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
-            },
-            {
-              "id": "p1",
-              "left": "Currency",
-              "right": "A system of money in general use in a particular country"
-            },
-            {
-              "id": "p2",
-              "left": "Reservation",
-              "right": "An arrangement to have something kept for one's use"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I128",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (stay) ________ in a lovely hotel by the sea.",
-          "correct_answer": "stayed",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I129",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You'll need to exchange some money into the local currency.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I130",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "we"
-            },
-            {
-              "id": "w5",
-              "text": "customs"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "when"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w9",
-              "text": "at"
-            },
-            {
-              "id": "w3",
-              "text": "go"
-            },
-            {
-              "id": "w4",
-              "text": "through"
-            },
-            {
-              "id": "w10",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "had"
-            },
-            {
-              "id": "w11",
-              "text": "airport"
-            },
-            {
-              "id": "w8",
-              "text": "arrived"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I131",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The expected arrival time is 10:30 AM.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I132",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A short journey or trip, especially one taken as a leisure activity\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Landscape"
-            },
-            {
-              "id": "o1",
-              "text": "Excursion"
-            },
-            {
-              "id": "o3",
-              "text": "Backpacking"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I133",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Landscape",
-              "right": "All the visible features of an area of countryside or land"
-            },
-            {
-              "id": "p1",
-              "left": "Itinerary",
-              "right": "A planned route or journey"
-            },
-            {
-              "id": "p2",
-              "left": "Destination",
-              "right": "The place to which someone or something is going"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I134",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (take/always) ________ a lot of photos.",
-          "correct_answer": "always takes",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I135",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding affordable accommodation can be difficult in peak season.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I136",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "go"
-            },
-            {
-              "id": "w7",
-              "text": "we"
-            },
-            {
-              "id": "w5",
-              "text": "customs"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w10",
-              "text": "the"
-            },
-            {
-              "id": "w8",
-              "text": "arrived"
-            },
-            {
-              "id": "w4",
-              "text": "through"
-            },
-            {
-              "id": "w11",
-              "text": "airport"
-            },
-            {
-              "id": "w1",
-              "text": "had"
-            },
-            {
-              "id": "w6",
-              "text": "when"
-            },
-            {
-              "id": "w9",
-              "text": "at"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I137",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I followed the recommendations in my guidebook.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I138",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The place at a port, airport, or frontier where officials check goods\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Currency"
-            },
-            {
-              "id": "o2",
-              "text": "Backpacking"
-            },
-            {
-              "id": "o1",
-              "text": "Customs"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I139",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Passport",
-              "right": "An official document issued by a government"
-            },
-            {
-              "id": "p1",
-              "left": "Reservation",
-              "right": "An arrangement to have something kept for one's use"
-            },
-            {
-              "id": "p2",
-              "left": "Itinerary",
-              "right": "A planned route or journey"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I140",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (look) ________ forward to my next holiday.",
-          "correct_answer": "am looking",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I141",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Check the departure time on your boarding pass.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I142",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w3",
-              "text": "favorite"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "destination?"
-            },
-            {
-              "id": "w4",
-              "text": "travel"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I143",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What is your favorite travel destination?\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I144",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A book of information about a place for visitors\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Guidebook"
-            },
-            {
-              "id": "o3",
-              "text": "Customs"
-            },
-            {
-              "id": "o2",
-              "text": "Itinerary"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I145",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Departure",
-              "right": "The action of leaving, especially to start a journey"
-            },
-            {
-              "id": "p1",
-              "left": "Passport",
-              "right": "An official document issued by a government"
-            },
-            {
-              "id": "p2",
-              "left": "Arrival",
-              "right": "The action or process of arriving at a place"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I146",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (take/always) ________ a lot of photos.",
-          "correct_answer": "always takes",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I147",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding affordable accommodation can be difficult in peak season.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I148",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w6",
-              "text": "remember"
-            },
-            {
-              "id": "w8",
-              "text": "trip"
-            },
-            {
-              "id": "w1",
-              "text": "bought"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "small"
-            },
-            {
-              "id": "w4",
-              "text": "souvenir"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I149",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The mountain landscape was absolutely breathtaking.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I150",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A book of information about a place for visitors\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Guidebook"
-            },
-            {
-              "id": "o2",
-              "text": "Landscape"
-            },
-            {
-              "id": "o3",
-              "text": "Destination"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I151",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Landscape",
-              "right": "All the visible features of an area of countryside or land"
-            },
-            {
-              "id": "p1",
-              "left": "Accommodation",
-              "right": "A room, group of rooms, or building in which someone may stay"
-            },
-            {
-              "id": "p2",
-              "left": "Itinerary",
-              "right": "A planned route or journey"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I152",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (take/always) ________ a lot of photos.",
-          "correct_answer": "always takes",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I153",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The mountain landscape was breathtaking. absolutely\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I154",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "expected"
-            },
-            {
-              "id": "w2",
-              "text": "arrival"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "10:30"
-            },
-            {
-              "id": "w3",
-              "text": "time"
-            },
-            {
-              "id": "w4",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "AM"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I155",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Finding affordable accommodation can be difficult in peak season.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I156",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"All the visible features of an area of countryside or land\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Passport"
-            },
-            {
-              "id": "o1",
-              "text": "Landscape"
-            },
-            {
-              "id": "o3",
-              "text": "Souvenir"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I157",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Souvenir",
-              "right": "A thing that is kept as a reminder of a place"
-            },
-            {
-              "id": "p1",
-              "left": "Destination",
-              "right": "The place to which someone or something is going"
-            },
-            {
-              "id": "p2",
-              "left": "Customs",
-              "right": "The place at a port, airport, or frontier where officials check goods"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I158",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "If it (rain/not) ________, we will go to the beach.",
-          "correct_answer": "doesn't rain",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I159",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We to had go through customs when we arrived at the airport.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I160",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "You'll"
-            },
-            {
-              "id": "w5",
-              "text": "money"
-            },
-            {
-              "id": "w4",
-              "text": "some"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w9",
-              "text": "currency"
-            },
-            {
-              "id": "w6",
-              "text": "into"
-            },
-            {
-              "id": "w3",
-              "text": "exchange"
-            },
-            {
-              "id": "w8",
-              "text": "local"
-            },
-            {
-              "id": "w1",
-              "text": "need"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I161",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Check the departure time on your boarding pass.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I162",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"An official document issued by a government\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Itinerary"
-            },
-            {
-              "id": "o1",
-              "text": "Passport"
-            },
-            {
-              "id": "o3",
-              "text": "Souvenir"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I163",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Guidebook",
-              "right": "A book of information about a place for visitors"
-            },
-            {
-              "id": "p1",
-              "left": "Landscape",
-              "right": "All the visible features of an area of countryside or land"
-            },
-            {
-              "id": "p2",
-              "left": "Backpacking",
-              "right": "Traveling or hiking carrying one's belongings in a backpack"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I164",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Did you (book) ________ your tickets online?",
-          "correct_answer": "book",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I165",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I bought a small souvenir to remember the trip.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I166",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "like"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w8",
-              "text": "nights"
-            },
-            {
-              "id": "w6",
-              "text": "for"
-            },
-            {
-              "id": "w3",
-              "text": "make"
-            },
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "reservation"
-            },
-            {
-              "id": "w7",
-              "text": "two"
-            },
-            {
-              "id": "w0",
-              "text": "I'd"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I167",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Check the departure time on your boarding pass.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I168",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A system of money in general use in a particular country\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Departure"
-            },
-            {
-              "id": "o1",
-              "text": "Currency"
-            },
-            {
-              "id": "o2",
-              "text": "Sightseeing"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I169",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Landscape",
-              "right": "All the visible features of an area of countryside or land"
-            },
-            {
-              "id": "p1",
-              "left": "Passport",
-              "right": "An official document issued by a government"
-            },
-            {
-              "id": "p2",
-              "left": "Currency",
-              "right": "A system of money in general use in a particular country"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I170",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The tour (start) ________ at the main square.",
-          "correct_answer": "starts",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I171",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"They went backpacking through Southeast Asia six for months.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I172",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "we"
-            },
-            {
-              "id": "w3",
-              "text": "go"
-            },
-            {
-              "id": "w11",
-              "text": "airport"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w1",
-              "text": "had"
-            },
-            {
-              "id": "w4",
-              "text": "through"
-            },
-            {
-              "id": "w9",
-              "text": "at"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w8",
-              "text": "arrived"
-            },
-            {
-              "id": "w5",
-              "text": "customs"
-            },
-            {
-              "id": "w10",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "when"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I173",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"They went backpacking through Southeast Asia for six months.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I174",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A thing that is kept as a reminder of a place\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Passport"
-            },
-            {
-              "id": "o1",
-              "text": "Souvenir"
-            },
-            {
-              "id": "o2",
-              "text": "Destination"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I175",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Currency",
-              "right": "A system of money in general use in a particular country"
-            },
-            {
-              "id": "p1",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
-            },
-            {
-              "id": "p2",
-              "left": "Customs",
-              "right": "The place at a port, airport, or frontier where officials check goods"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I176",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (plan) ________ this trip for months.",
-          "correct_answer": "have been planning",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I177",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We had to go through customs when we arrived at the airport.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I178",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w8",
-              "text": "arrived"
-            },
-            {
-              "id": "w3",
-              "text": "go"
-            },
-            {
-              "id": "w7",
-              "text": "we"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w5",
-              "text": "customs"
-            },
-            {
-              "id": "w10",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "when"
-            },
-            {
-              "id": "w1",
-              "text": "had"
-            },
-            {
-              "id": "w9",
-              "text": "at"
-            },
-            {
-              "id": "w11",
-              "text": "airport"
-            },
-            {
-              "id": "w4",
-              "text": "through"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I179",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"They went backpacking through Southeast Asia for six months.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I180",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A planned route or journey\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Landscape"
-            },
-            {
-              "id": "o3",
-              "text": "Destination"
-            },
-            {
-              "id": "o1",
-              "text": "Itinerary"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I181",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
-            },
-            {
-              "id": "p1",
-              "left": "Backpacking",
-              "right": "Traveling or hiking carrying one's belongings in a backpack"
-            },
-            {
-              "id": "p2",
-              "left": "Customs",
-              "right": "The place at a port, airport, or frontier where officials check goods"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I182",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (travel) ________ to Japan last summer.",
-          "correct_answer": "traveled",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I183",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"They went backpacking through Southeast Asia for six months.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I184",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "AM"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w4",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "time"
-            },
-            {
-              "id": "w1",
-              "text": "expected"
-            },
-            {
-              "id": "w5",
-              "text": "10:30"
-            },
-            {
-              "id": "w2",
-              "text": "arrival"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I185",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"You'll need to exchange some money into the local currency.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I186",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The action of leaving, especially to start a journey\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Itinerary"
-            },
-            {
-              "id": "o1",
-              "text": "Departure"
-            },
-            {
-              "id": "o2",
-              "text": "Backpacking"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I187",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Excursion",
-              "right": "A short journey or trip, especially one taken as a leisure activity"
-            },
-            {
-              "id": "p1",
-              "left": "Reservation",
-              "right": "An arrangement to have something kept for one's use"
-            },
-            {
-              "id": "p2",
-              "left": "Passport",
-              "right": "An official document issued by a government"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I188",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (plan) ________ this trip for months.",
-          "correct_answer": "have been planning",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I189",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The mountain was landscape absolutely breathtaking.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I190",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "months"
+              "text": "six"
             },
             {
               "id": "w4",
               "text": "Southeast"
             },
             {
-              "id": "w3",
-              "text": "through"
-            },
-            {
-              "id": "w7",
-              "text": "six"
-            },
-            {
-              "id": "w6",
-              "text": "for"
-            },
-            {
               "id": "w0",
               "text": "They"
             },
             {
-              "id": "w2",
-              "text": "backpacking"
+              "id": "w6",
+              "text": "for"
             },
             {
               "id": "w1",
@@ -4566,6 +2344,18 @@
             {
               "id": "w5",
               "text": "Asia"
+            },
+            {
+              "id": "w3",
+              "text": "through"
+            },
+            {
+              "id": "w8",
+              "text": "months"
+            },
+            {
+              "id": "w2",
+              "text": "backpacking"
             }
           ],
           "correct_answer": [
@@ -4580,224 +2370,6 @@
             "w8"
           ],
           "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I191",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I bought a small souvenir to remember the trip.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I192",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A book of information about a place for visitors\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Guidebook"
-            },
-            {
-              "id": "o2",
-              "text": "Customs"
-            },
-            {
-              "id": "o3",
-              "text": "Itinerary"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I193",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Itinerary",
-              "right": "A planned route or journey"
-            },
-            {
-              "id": "p1",
-              "left": "Accommodation",
-              "right": "A room, group of rooms, or building in which someone may stay"
-            },
-            {
-              "id": "p2",
-              "left": "Reservation",
-              "right": "An arrangement to have something kept for one's use"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I194",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The tour (start) ________ at the main square.",
-          "correct_answer": "starts",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I195",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I'd like to make a reservation for two nights.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I196",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "AM"
-            },
-            {
-              "id": "w1",
-              "text": "expected"
-            },
-            {
-              "id": "w3",
-              "text": "time"
-            },
-            {
-              "id": "w4",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "arrival"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "10:30"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I197",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The mountain landscape was absolutely breathtaking.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U14_I198",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A room, group of rooms, or building in which someone may stay\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Landscape"
-            },
-            {
-              "id": "o1",
-              "text": "Accommodation"
-            },
-            {
-              "id": "o2",
-              "text": "Currency"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I199",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Customs",
-              "right": "The place at a port, airport, or frontier where officials check goods"
-            },
-            {
-              "id": "p1",
-              "left": "Backpacking",
-              "right": "Traveling or hiking carrying one's belongings in a backpack"
-            },
-            {
-              "id": "p2",
-              "left": "Souvenir",
-              "right": "A thing that is kept as a reminder of a place"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I200",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (travel) ________ to Japan last summer.",
-          "correct_answer": "traveled",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
         }
       ]
     }

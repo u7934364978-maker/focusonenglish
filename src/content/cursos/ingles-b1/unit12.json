@@ -31,18 +31,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Compatibility",
-              "right": "A state in which two things are able to exist together"
+              "left": "Interface",
+              "right": "A point where two systems or subjects meet"
             },
             {
               "id": "p1",
-              "left": "Wireless",
-              "right": "Using radio waves rather than wires"
+              "left": "Virtual",
+              "right": "Not physically existing as such but made by software"
             },
             {
               "id": "p2",
-              "left": "Revolutionary",
-              "right": "Involving or causing a complete or dramatic change"
+              "left": "Algorithm",
+              "right": "A process or set of rules to be followed in calculations"
             }
           ],
           "correct_answer": {
@@ -56,16 +56,16 @@
           "interaction_id": "U12_I2",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Can you (fix) ________ my broken screen?",
-          "correct_answer": "fix",
+          "stimulus_en": "If I (have) ________ a 3D printer, I would make my own toys.",
+          "correct_answer": "had",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U12_I3",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The hardware needs to be replaced every few years.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The application very is user-friendly for beginners.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -76,36 +76,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "useful"
-            },
-            {
-              "id": "w6",
-              "text": "for"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "new"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
               "id": "w4",
-              "text": "very"
+              "text": "down"
             },
             {
               "id": "w7",
-              "text": "traveling"
+              "text": "hours"
+            },
+            {
+              "id": "w1",
+              "text": "office"
             },
             {
               "id": "w2",
-              "text": "gadget"
+              "text": "network"
+            },
+            {
+              "id": "w3",
+              "text": "was"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "for"
+            },
+            {
+              "id": "w6",
+              "text": "several"
             }
           ],
           "correct_answer": [
@@ -124,41 +124,41 @@
           "interaction_id": "U12_I5",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The user interface is simple and easy to navigate.\"",
+          "stimulus_en": "Speaker A: \"The application is very user-friendly for beginners.\"",
           "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
             }
           ],
-          "correct_answer": "r1",
+          "correct_answer": "r5",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U12_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The programs used by a computer\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Using radio waves rather than wires\"",
           "options": [
             {
               "id": "o2",
-              "text": "User-friendly"
+              "text": "Network"
             },
             {
               "id": "o3",
-              "text": "Revolutionary"
+              "text": "Cybersecurity"
             },
             {
               "id": "o1",
-              "text": "Software"
+              "text": "Wireless"
             }
           ],
           "correct_answer": "o1",
@@ -172,18 +172,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Cybersecurity",
-              "right": "The state of being protected against criminal use of data"
-            },
-            {
-              "id": "p1",
               "left": "Compatibility",
               "right": "A state in which two things are able to exist together"
             },
             {
+              "id": "p1",
+              "left": "Cybersecurity",
+              "right": "The state of being protected against criminal use of data"
+            },
+            {
               "id": "p2",
-              "left": "Algorithm",
-              "right": "A process or set of rules to be followed in calculations"
+              "left": "Database",
+              "right": "A structured set of data held in a computer"
             }
           ],
           "correct_answer": {
@@ -197,16 +197,16 @@
           "interaction_id": "U12_I8",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I understood how this works.",
-          "correct_answer": "wish",
+          "stimulus_en": "We (launch) ________ a new app next month.",
+          "correct_answer": "are launching",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U12_I9",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"This new technology is truly revolutionary.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The application very is user-friendly for beginners.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -217,40 +217,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "Cybersecurity"
-            },
-            {
-              "id": "w3",
-              "text": "top"
-            },
-            {
               "id": "w5",
-              "text": "for"
+              "text": "replaced"
             },
             {
               "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w8",
-              "text": "today"
+              "text": "hardware"
             },
             {
               "id": "w4",
-              "text": "priority"
+              "text": "be"
             },
             {
-              "id": "w7",
-              "text": "companies"
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w6",
-              "text": "most"
+              "text": "every"
+            },
+            {
+              "id": "w7",
+              "text": "few"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "needs"
+            },
+            {
+              "id": "w8",
+              "text": "years"
             }
           ],
           "correct_answer": [
@@ -270,41 +270,41 @@
           "interaction_id": "U12_I11",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Artificial intelligence is transforming many industries.\"",
+          "stimulus_en": "Speaker A: \"Cybersecurity is a top priority for most companies today.\"",
           "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r19",
               "text": "That would be perfect, thank you."
             }
           ],
-          "correct_answer": "r4",
+          "correct_answer": "r19",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U12_I12",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A structured set of data held in a computer\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A small mechanical or electronic device\"",
           "options": [
             {
+              "id": "o3",
+              "text": "Network"
+            },
+            {
               "id": "o2",
-              "text": "Encryption"
+              "text": "Revolutionary"
             },
             {
               "id": "o1",
-              "text": "Database"
-            },
-            {
-              "id": "o3",
-              "text": "Revolutionary"
+              "text": "Gadget"
             }
           ],
           "correct_answer": "o1",
@@ -318,8 +318,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Algorithm",
-              "right": "A process or set of rules to be followed in calculations"
+              "left": "Database",
+              "right": "A structured set of data held in a computer"
             },
             {
               "id": "p1",
@@ -328,8 +328,8 @@
             },
             {
               "id": "p2",
-              "left": "Cybersecurity",
-              "right": "The state of being protected against criminal use of data"
+              "left": "Artificial",
+              "right": "Made or produced by human beings rather than occurring naturally"
             }
           ],
           "correct_answer": {
@@ -342,17 +342,17 @@
         {
           "interaction_id": "U12_I14",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (download/not) ________ the latest update yet.",
-          "correct_answer": "haven't downloaded",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The internet (be) ________ essential for modern life.",
+          "correct_answer": "is",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U12_I15",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The user interface is simple and easy to navigate.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Encryption is vital for sensitive protecting information.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -363,12 +363,162 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "stored"
+            },
+            {
+              "id": "w8",
+              "text": "database"
+            },
+            {
+              "id": "w2",
+              "text": "customer"
+            },
+            {
+              "id": "w3",
+              "text": "details"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "All"
+            },
+            {
+              "id": "w4",
+              "text": "are"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U12_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Virtual reality provides a very immersive experience.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U12_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A group or system of interconnected people or things\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Software"
+            },
+            {
+              "id": "o2",
+              "text": "Gadget"
+            },
+            {
+              "id": "o1",
+              "text": "Network"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Wireless",
+              "right": "Using radio waves rather than wires"
+            },
+            {
+              "id": "p1",
+              "left": "Interface",
+              "right": "A point where two systems or subjects meet"
+            },
+            {
+              "id": "p2",
+              "left": "Gadget",
+              "right": "A small mechanical or electronic device"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (use) ________ my smartphone all the time.",
+          "correct_answer": "use",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"This new technology is truly revolutionary.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "for"
+            },
+            {
               "id": "w3",
               "text": "is"
             },
             {
-              "id": "w6",
-              "text": "for"
+              "id": "w7",
+              "text": "traveling"
             },
             {
               "id": "w5",
@@ -389,6 +539,707 @@
             {
               "id": "w4",
               "text": "very"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U12_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Cybersecurity is a top priority for most companies today.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U12_I24",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A small mechanical or electronic device\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Revolutionary"
+            },
+            {
+              "id": "o1",
+              "text": "Gadget"
+            },
+            {
+              "id": "o3",
+              "text": "Algorithm"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I25",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Artificial",
+              "right": "Made or produced by human beings rather than occurring naturally"
+            },
+            {
+              "id": "p1",
+              "left": "Network",
+              "right": "A group or system of interconnected people or things"
+            },
+            {
+              "id": "p2",
+              "left": "Gadget",
+              "right": "A small mechanical or electronic device"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If I (have) ________ a 3D printer, I would make my own toys.",
+          "correct_answer": "had",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The search engine uses a complex algorithm.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "connection"
+            },
+            {
+              "id": "w7",
+              "text": "home"
+            },
+            {
+              "id": "w3",
+              "text": "wireless"
+            },
+            {
+              "id": "w6",
+              "text": "at"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w4",
+              "text": "internet"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U12_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Artificial intelligence is transforming many industries.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U12_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A point where two systems or subjects meet\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Cybersecurity"
+            },
+            {
+              "id": "o2",
+              "text": "Virtual"
+            },
+            {
+              "id": "o1",
+              "text": "Interface"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hardware",
+              "right": "The physical parts of a computer"
+            },
+            {
+              "id": "p1",
+              "left": "Algorithm",
+              "right": "A process or set of rules to be followed in calculations"
+            },
+            {
+              "id": "p2",
+              "left": "Interface",
+              "right": "A point where two systems or subjects meet"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I32",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (carry/always) ________ her laptop with her.",
+          "correct_answer": "always carries",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The hardware needs to be replaced every few years.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Virtual"
+            },
+            {
+              "id": "w5",
+              "text": "immersive"
+            },
+            {
+              "id": "w6",
+              "text": "experience"
+            },
+            {
+              "id": "w4",
+              "text": "very"
+            },
+            {
+              "id": "w2",
+              "text": "provides"
+            },
+            {
+              "id": "w1",
+              "text": "reality"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U12_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"You need to install the latest software updates.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U12_I36",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A state in which two things are able to exist together\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Compatibility"
+            },
+            {
+              "id": "o2",
+              "text": "Revolutionary"
+            },
+            {
+              "id": "o3",
+              "text": "Hardware"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Database",
+              "right": "A structured set of data held in a computer"
+            },
+            {
+              "id": "p1",
+              "left": "Gadget",
+              "right": "A small mechanical or electronic device"
+            },
+            {
+              "id": "p2",
+              "left": "Encryption",
+              "right": "The process of converting information into code"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Scientists (develop) ________ a new vaccine.",
+          "correct_answer": "are developing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"This new gadget is useful very for traveling.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "software"
+            },
+            {
+              "id": "w3",
+              "text": "install"
+            },
+            {
+              "id": "w1",
+              "text": "need"
+            },
+            {
+              "id": "w7",
+              "text": "updates"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w5",
+              "text": "latest"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U12_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Artificial intelligence is transforming many industries.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U12_I42",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Using radio waves rather than wires\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Cybersecurity"
+            },
+            {
+              "id": "o1",
+              "text": "Wireless"
+            },
+            {
+              "id": "o2",
+              "text": "Interface"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Compatibility",
+              "right": "A state in which two things are able to exist together"
+            },
+            {
+              "id": "p1",
+              "left": "Artificial",
+              "right": "Made or produced by human beings rather than occurring naturally"
+            },
+            {
+              "id": "p2",
+              "left": "Database",
+              "right": "A structured set of data held in a computer"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (launch) ________ a new app next month.",
+          "correct_answer": "are launching",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The office network was down for several hours.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "needs"
+            },
+            {
+              "id": "w1",
+              "text": "hardware"
+            },
+            {
+              "id": "w6",
+              "text": "every"
+            },
+            {
+              "id": "w4",
+              "text": "be"
+            },
+            {
+              "id": "w5",
+              "text": "replaced"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "few"
+            },
+            {
+              "id": "w8",
+              "text": "years"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U12_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Cybersecurity is a top priority for most companies today.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U12_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A structured set of data held in a computer\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Database"
+            },
+            {
+              "id": "o3",
+              "text": "Network"
+            },
+            {
+              "id": "o2",
+              "text": "Revolutionary"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I49",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Algorithm",
+              "right": "A process or set of rules to be followed in calculations"
+            },
+            {
+              "id": "p1",
+              "left": "User-friendly",
+              "right": "Easy to use or understand"
+            },
+            {
+              "id": "p2",
+              "left": "Gadget",
+              "right": "A small mechanical or electronic device"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I50",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (download/not) ________ the latest update yet.",
+          "correct_answer": "haven't downloaded",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The hardware needs to be replaced every few years.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w4",
+              "text": "very"
+            },
+            {
+              "id": "w6",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "useful"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "gadget"
+            },
+            {
+              "id": "w1",
+              "text": "new"
             },
             {
               "id": "w7",
@@ -408,862 +1259,36 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U12_I17",
+          "interaction_id": "U12_I53",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Artificial intelligence is transforming many industries.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I18",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The programs used by a computer\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Wireless"
-            },
-            {
-              "id": "o2",
-              "text": "Database"
-            },
-            {
-              "id": "o1",
-              "text": "Software"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I19",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Compatibility",
-              "right": "A state in which two things are able to exist together"
-            },
-            {
-              "id": "p1",
-              "left": "Encryption",
-              "right": "The process of converting information into code"
-            },
-            {
-              "id": "p2",
-              "left": "Interface",
-              "right": "A point where two systems or subjects meet"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I20",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Scientists (develop) ________ a new vaccine.",
-          "correct_answer": "are developing",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I21",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Virtual reality provides a very immersive experience.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I22",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "new"
-            },
-            {
-              "id": "w4",
-              "text": "truly"
-            },
-            {
-              "id": "w5",
-              "text": "revolutionary"
-            },
-            {
-              "id": "w2",
-              "text": "technology"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I23",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The search engine uses a complex algorithm.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A small mechanical or electronic device\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Artificial"
-            },
-            {
-              "id": "o1",
-              "text": "Gadget"
-            },
-            {
-              "id": "o2",
-              "text": "User-friendly"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I25",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Revolutionary",
-              "right": "Involving or causing a complete or dramatic change"
-            },
-            {
-              "id": "p1",
-              "left": "Software",
-              "right": "The programs used by a computer"
-            },
-            {
-              "id": "p2",
-              "left": "User-friendly",
-              "right": "Easy to use or understand"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I26",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I understood how this works.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I27",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Cybersecurity is a top priority for most today. companies\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I28",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w6",
-              "text": "beginners"
-            },
-            {
-              "id": "w5",
-              "text": "for"
-            },
-            {
-              "id": "w1",
-              "text": "application"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "user-friendly"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I29",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"This new gadget is very useful for traveling.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I30",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A structured set of data held in a computer\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Compatibility"
-            },
-            {
-              "id": "o2",
-              "text": "Cybersecurity"
-            },
-            {
-              "id": "o1",
-              "text": "Database"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I31",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Artificial",
-              "right": "Made or produced by human beings rather than occurring naturally"
-            },
-            {
-              "id": "p1",
-              "left": "User-friendly",
-              "right": "Easy to use or understand"
-            },
-            {
-              "id": "p2",
-              "left": "Network",
-              "right": "A group or system of interconnected people or things"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I32",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The first computer (invent) ________ in the 1940s.",
-          "correct_answer": "was invented",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I33",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The office network was down several for hours.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I34",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "easy"
-            },
-            {
-              "id": "w2",
-              "text": "interface"
-            },
-            {
-              "id": "w4",
-              "text": "simple"
-            },
-            {
-              "id": "w8",
-              "text": "navigate"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "user"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w7",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I35",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The hardware needs to be replaced every few years.\"",
+          "stimulus_en": "Speaker A: \"Encryption is vital for protecting sensitive information.\"",
           "options": [
             {
               "id": "r15",
               "text": "That's very kind of you to offer."
             },
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
               "id": "r5",
               "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I36",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A structured set of data held in a computer\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Virtual"
-            },
-            {
-              "id": "o1",
-              "text": "Database"
-            },
-            {
-              "id": "o2",
-              "text": "Cybersecurity"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I37",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Cybersecurity",
-              "right": "The state of being protected against criminal use of data"
-            },
-            {
-              "id": "p1",
-              "left": "Artificial",
-              "right": "Made or produced by human beings rather than occurring naturally"
-            },
-            {
-              "id": "p2",
-              "left": "Gadget",
-              "right": "A small mechanical or electronic device"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I38",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (download/not) ________ the latest update yet.",
-          "correct_answer": "haven't downloaded",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I39",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We a have wireless internet connection at home.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I40",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "algorithm"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "engine"
-            },
-            {
-              "id": "w3",
-              "text": "uses"
-            },
-            {
-              "id": "w1",
-              "text": "search"
-            },
-            {
-              "id": "w5",
-              "text": "complex"
-            },
-            {
-              "id": "w4",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I41",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"All the customer details are stored in the database.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r2",
               "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
             }
           ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I42",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A structured set of data held in a computer\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Database"
-            },
-            {
-              "id": "o2",
-              "text": "Wireless"
-            },
-            {
-              "id": "o3",
-              "text": "Artificial"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I43",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Cybersecurity",
-              "right": "The state of being protected against criminal use of data"
-            },
-            {
-              "id": "p1",
-              "left": "Gadget",
-              "right": "A small mechanical or electronic device"
-            },
-            {
-              "id": "p2",
-              "left": "Revolutionary",
-              "right": "Involving or causing a complete or dramatic change"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I44",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "If I (have) ________ a 3D printer, I would make my own toys.",
-          "correct_answer": "had",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We have a wireless internet connection at home.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I46",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "application"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "for"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "beginners"
-            },
-            {
-              "id": "w4",
-              "text": "user-friendly"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I47",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"You need to install the latest software updates.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I48",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A small mechanical or electronic device\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Revolutionary"
-            },
-            {
-              "id": "o1",
-              "text": "Gadget"
-            },
-            {
-              "id": "o2",
-              "text": "Cybersecurity"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I49",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Wireless",
-              "right": "Using radio waves rather than wires"
-            },
-            {
-              "id": "p1",
-              "left": "Database",
-              "right": "A structured set of data held in a computer"
-            },
-            {
-              "id": "p2",
-              "left": "Network",
-              "right": "A group or system of interconnected people or things"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I50",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (lose) ________ all his data because he didn't back it up.",
-          "correct_answer": "lost",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I51",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Virtual reality provides a immersive very experience.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I52",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "of"
-            },
-            {
-              "id": "w7",
-              "text": "buying"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "device"
-            },
-            {
-              "id": "w1",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "Check"
-            },
-            {
-              "id": "w2",
-              "text": "compatibility"
-            },
-            {
-              "id": "w6",
-              "text": "before"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I53",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The application is very user-friendly for beginners.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r15",
+          "correct_answer": "r5",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U12_I54",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A point where two systems or subjects meet\"",
+          "prompt_es": "Identifica la palabra correcta para: \"Involving or causing a complete or dramatic change\"",
           "options": [
             {
               "id": "o3",
-              "text": "Software"
+              "text": "Wireless"
             },
             {
               "id": "o2",
@@ -1271,7 +1296,7 @@
             },
             {
               "id": "o1",
-              "text": "Interface"
+              "text": "Revolutionary"
             }
           ],
           "correct_answer": "o1",
@@ -1285,18 +1310,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Software",
-              "right": "The programs used by a computer"
+              "left": "Database",
+              "right": "A structured set of data held in a computer"
             },
             {
               "id": "p1",
-              "left": "Interface",
-              "right": "A point where two systems or subjects meet"
+              "left": "User-friendly",
+              "right": "Easy to use or understand"
             },
             {
               "id": "p2",
-              "left": "Hardware",
-              "right": "The physical parts of a computer"
+              "left": "Interface",
+              "right": "A point where two systems or subjects meet"
             }
           ],
           "correct_answer": {
@@ -1310,16 +1335,16 @@
           "interaction_id": "U12_I56",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The first computer (invent) ________ in the 1940s.",
-          "correct_answer": "was invented",
+          "stimulus_en": "The internet (be) ________ essential for modern life.",
+          "correct_answer": "is",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U12_I57",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Artificial intelligence is transforming many industries.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You need to install latest the software updates.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1330,40 +1355,32 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Cybersecurity"
-            },
-            {
-              "id": "w3",
-              "text": "top"
-            },
-            {
-              "id": "w4",
-              "text": "priority"
-            },
-            {
               "id": "w5",
-              "text": "for"
+              "text": "sensitive"
             },
             {
-              "id": "w6",
-              "text": "most"
-            },
-            {
-              "id": "w7",
-              "text": "companies"
-            },
-            {
-              "id": "w8",
-              "text": "today"
+              "id": "w2",
+              "text": "vital"
             },
             {
               "id": "w1",
               "text": "is"
             },
             {
-              "id": "w2",
-              "text": "a"
+              "id": "w6",
+              "text": "information"
+            },
+            {
+              "id": "w4",
+              "text": "protecting"
+            },
+            {
+              "id": "w0",
+              "text": "Encryption"
+            },
+            {
+              "id": "w3",
+              "text": "for"
             }
           ],
           "correct_answer": [
@@ -1373,9 +1390,7 @@
             "w3",
             "w4",
             "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w6"
           ],
           "mastery_tag": "syntax"
         },
@@ -1383,8 +1398,12 @@
           "interaction_id": "U12_I59",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Cybersecurity is a top priority for most companies today.\"",
+          "stimulus_en": "Speaker A: \"This new gadget is very useful for traveling.\"",
           "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
             {
               "id": "r3",
               "text": "Could you tell me more? I'm curious."
@@ -1392,32 +1411,28 @@
             {
               "id": "r15",
               "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
             }
           ],
-          "correct_answer": "r1",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U12_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A state in which two things are able to exist together\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A point where two systems or subjects meet\"",
           "options": [
             {
               "id": "o2",
-              "text": "Interface"
+              "text": "Revolutionary"
             },
             {
               "id": "o3",
-              "text": "Wireless"
+              "text": "Artificial"
             },
             {
               "id": "o1",
-              "text": "Compatibility"
+              "text": "Interface"
             }
           ],
           "correct_answer": "o1",
@@ -1431,18 +1446,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Cybersecurity",
-              "right": "The state of being protected against criminal use of data"
+              "left": "Software",
+              "right": "The programs used by a computer"
             },
             {
               "id": "p1",
-              "left": "Gadget",
-              "right": "A small mechanical or electronic device"
+              "left": "Interface",
+              "right": "A point where two systems or subjects meet"
             },
             {
               "id": "p2",
-              "left": "Hardware",
-              "right": "The physical parts of a computer"
+              "left": "Encryption",
+              "right": "The process of converting information into code"
             }
           ],
           "correct_answer": {
@@ -1456,15 +1471,15 @@
           "interaction_id": "U12_I62",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I understood how this works.",
-          "correct_answer": "wish",
+          "stimulus_en": "If I (have) ________ a 3D printer, I would make my own toys.",
+          "correct_answer": "had",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U12_I63",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Cybersecurity is a top priority for most companies today.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The application is very user-friendly for beginners.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1476,36 +1491,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "compatibility"
-            },
-            {
-              "id": "w1",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "before"
-            },
-            {
-              "id": "w7",
-              "text": "buying"
+              "id": "w4",
+              "text": "down"
             },
             {
               "id": "w0",
-              "text": "Check"
+              "text": "The"
             },
             {
               "id": "w5",
-              "text": "device"
+              "text": "for"
             },
             {
-              "id": "w4",
-              "text": "the"
+              "id": "w1",
+              "text": "office"
+            },
+            {
+              "id": "w2",
+              "text": "network"
+            },
+            {
+              "id": "w6",
+              "text": "several"
+            },
+            {
+              "id": "w7",
+              "text": "hours"
             },
             {
               "id": "w3",
-              "text": "of"
+              "text": "was"
             }
           ],
           "correct_answer": [
@@ -1524,41 +1539,41 @@
           "interaction_id": "U12_I65",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Artificial intelligence is transforming many industries.\"",
+          "stimulus_en": "Speaker A: \"Encryption is vital for protecting sensitive information.\"",
           "options": [
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
             },
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             }
           ],
-          "correct_answer": "r1",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U12_I66",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A small mechanical or electronic device\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A structured set of data held in a computer\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Gadget"
+              "id": "o3",
+              "text": "Network"
             },
             {
-              "id": "o3",
-              "text": "Hardware"
+              "id": "o1",
+              "text": "Database"
             },
             {
               "id": "o2",
-              "text": "Algorithm"
+              "text": "Gadget"
             }
           ],
           "correct_answer": "o1",
@@ -1572,18 +1587,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Software",
-              "right": "The programs used by a computer"
-            },
-            {
-              "id": "p1",
               "left": "Wireless",
               "right": "Using radio waves rather than wires"
             },
             {
+              "id": "p1",
+              "left": "Artificial",
+              "right": "Made or produced by human beings rather than occurring naturally"
+            },
+            {
               "id": "p2",
-              "left": "Network",
-              "right": "A group or system of interconnected people or things"
+              "left": "Virtual",
+              "right": "Not physically existing as such but made by software"
             }
           ],
           "correct_answer": {
@@ -1597,16 +1612,16 @@
           "interaction_id": "U12_I68",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The internet (be) ________ essential for modern life.",
-          "correct_answer": "is",
+          "stimulus_en": "Technology (change) ________ the way we live.",
+          "correct_answer": "has changed",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U12_I69",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Cybersecurity is top a priority for most companies today.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Cybersecurity is a top priority for most companies today.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1617,32 +1632,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
+              "id": "w7",
+              "text": "updates"
+            },
+            {
               "id": "w6",
-              "text": "beginners"
-            },
-            {
-              "id": "w4",
-              "text": "user-friendly"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "software"
             },
             {
               "id": "w1",
-              "text": "application"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w5",
-              "text": "for"
+              "text": "need"
             },
             {
               "id": "w0",
-              "text": "The"
+              "text": "You"
+            },
+            {
+              "id": "w5",
+              "text": "latest"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "install"
+            },
+            {
+              "id": "w4",
+              "text": "the"
             }
           ],
           "correct_answer": [
@@ -1652,7 +1671,8 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7"
           ],
           "mastery_tag": "syntax"
         },
@@ -1660,41 +1680,41 @@
           "interaction_id": "U12_I71",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The search engine uses a complex algorithm.\"",
+          "stimulus_en": "Speaker A: \"All the customer details are stored in the database.\"",
           "options": [
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
             },
             {
               "id": "r2",
               "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             }
           ],
-          "correct_answer": "r3",
+          "correct_answer": "r2",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U12_I72",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A process or set of rules to be followed in calculations\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A state in which two things are able to exist together\"",
           "options": [
             {
-              "id": "o1",
-              "text": "Algorithm"
+              "id": "o2",
+              "text": "Hardware"
             },
             {
-              "id": "o2",
-              "text": "Cybersecurity"
+              "id": "o1",
+              "text": "Compatibility"
             },
             {
               "id": "o3",
-              "text": "Virtual"
+              "text": "Software"
             }
           ],
           "correct_answer": "o1",
@@ -1708,18 +1728,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Database",
-              "right": "A structured set of data held in a computer"
+              "left": "Software",
+              "right": "The programs used by a computer"
             },
             {
               "id": "p1",
-              "left": "Wireless",
-              "right": "Using radio waves rather than wires"
+              "left": "Network",
+              "right": "A group or system of interconnected people or things"
             },
             {
               "id": "p2",
-              "left": "Artificial",
-              "right": "Made or produced by human beings rather than occurring naturally"
+              "left": "Virtual",
+              "right": "Not physically existing as such but made by software"
             }
           ],
           "correct_answer": {
@@ -1733,15 +1753,15 @@
           "interaction_id": "U12_I74",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (lose) ________ all his data because he didn't back it up.",
-          "correct_answer": "lost",
+          "stimulus_en": "I (wish) ________ I understood how this works.",
+          "correct_answer": "wish",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U12_I75",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Cybersecurity is a top for priority most companies today.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Check the compatibility of the device before buy.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -1753,8 +1773,24 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
+              "id": "w7",
+              "text": "buying"
+            },
+            {
+              "id": "w0",
+              "text": "Check"
+            },
+            {
               "id": "w2",
               "text": "compatibility"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "before"
             },
             {
               "id": "w5",
@@ -1765,24 +1801,8 @@
               "text": "the"
             },
             {
-              "id": "w0",
-              "text": "Check"
-            },
-            {
-              "id": "w7",
-              "text": "buying"
-            },
-            {
               "id": "w3",
               "text": "of"
-            },
-            {
-              "id": "w1",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "before"
             }
           ],
           "correct_answer": [
@@ -1801,19 +1821,19 @@
           "interaction_id": "U12_I77",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Encryption is vital for protecting sensitive information.\"",
+          "stimulus_en": "Speaker A: \"This new gadget is very useful for traveling.\"",
           "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
             {
               "id": "r5",
               "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             }
           ],
           "correct_answer": "r5",
@@ -1823,19 +1843,19 @@
         {
           "interaction_id": "U12_I78",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Made or produced by human beings rather than occurring naturally\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Using radio waves rather than wires\"",
           "options": [
             {
               "id": "o3",
-              "text": "Virtual"
+              "text": "Algorithm"
             },
             {
               "id": "o2",
-              "text": "Cybersecurity"
+              "text": "Artificial"
             },
             {
               "id": "o1",
-              "text": "Artificial"
+              "text": "Wireless"
             }
           ],
           "correct_answer": "o1",
@@ -1849,18 +1869,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Software",
-              "right": "The programs used by a computer"
+              "left": "Revolutionary",
+              "right": "Involving or causing a complete or dramatic change"
             },
             {
               "id": "p1",
-              "left": "Interface",
-              "right": "A point where two systems or subjects meet"
+              "left": "Gadget",
+              "right": "A small mechanical or electronic device"
             },
             {
               "id": "p2",
-              "left": "Hardware",
-              "right": "The physical parts of a computer"
+              "left": "Wireless",
+              "right": "Using radio waves rather than wires"
             }
           ],
           "correct_answer": {
@@ -1882,8 +1902,8 @@
         {
           "interaction_id": "U12_I81",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The search engine uses a complex algorithm.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You need install to the latest software updates.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -1894,32 +1914,28 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "experience"
-            },
-            {
               "id": "w5",
-              "text": "immersive"
-            },
-            {
-              "id": "w1",
-              "text": "reality"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "Virtual"
+              "text": "industries"
             },
             {
               "id": "w4",
-              "text": "very"
+              "text": "many"
             },
             {
               "id": "w2",
-              "text": "provides"
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "intelligence"
+            },
+            {
+              "id": "w3",
+              "text": "transforming"
+            },
+            {
+              "id": "w0",
+              "text": "Artificial"
             }
           ],
           "correct_answer": [
@@ -1928,8 +1944,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -1937,41 +1952,41 @@
           "interaction_id": "U12_I83",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"All the customer details are stored in the database.\"",
+          "stimulus_en": "Speaker A: \"Virtual reality provides a very immersive experience.\"",
           "options": [
             {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             },
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             }
           ],
-          "correct_answer": "r2",
+          "correct_answer": "r5",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U12_I84",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A group or system of interconnected people or things\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A state in which two things are able to exist together\"",
           "options": [
             {
               "id": "o3",
-              "text": "Wireless"
-            },
-            {
-              "id": "o1",
-              "text": "Network"
+              "text": "Software"
             },
             {
               "id": "o2",
-              "text": "Cybersecurity"
+              "text": "Database"
+            },
+            {
+              "id": "o1",
+              "text": "Compatibility"
             }
           ],
           "correct_answer": "o1",
@@ -1985,18 +2000,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Artificial",
-              "right": "Made or produced by human beings rather than occurring naturally"
+              "left": "Interface",
+              "right": "A point where two systems or subjects meet"
             },
             {
               "id": "p1",
-              "left": "Algorithm",
-              "right": "A process or set of rules to be followed in calculations"
+              "left": "Network",
+              "right": "A group or system of interconnected people or things"
             },
             {
               "id": "p2",
-              "left": "Compatibility",
-              "right": "A state in which two things are able to exist together"
+              "left": "Algorithm",
+              "right": "A process or set of rules to be followed in calculations"
             }
           ],
           "correct_answer": {
@@ -2010,15 +2025,15 @@
           "interaction_id": "U12_I86",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Scientists (develop) ________ a new vaccine.",
-          "correct_answer": "are developing",
+          "stimulus_en": "I (use) ________ my smartphone all the time.",
+          "correct_answer": "use",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U12_I87",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Cybersecurity is a top priority most for companies today.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Virtual reality provides a immersive very experience.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -2030,32 +2045,28 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "for"
-            },
-            {
-              "id": "w6",
-              "text": "information"
-            },
-            {
-              "id": "w5",
-              "text": "sensitive"
-            },
-            {
-              "id": "w2",
-              "text": "vital"
+              "id": "w4",
+              "text": "many"
             },
             {
               "id": "w0",
-              "text": "Encryption"
+              "text": "Artificial"
             },
             {
-              "id": "w1",
+              "id": "w2",
               "text": "is"
             },
             {
-              "id": "w4",
-              "text": "protecting"
+              "id": "w5",
+              "text": "industries"
+            },
+            {
+              "id": "w3",
+              "text": "transforming"
+            },
+            {
+              "id": "w1",
+              "text": "intelligence"
             }
           ],
           "correct_answer": [
@@ -2064,8 +2075,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -2076,26 +2086,26 @@
           "stimulus_en": "Speaker A: \"You need to install the latest software updates.\"",
           "options": [
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             },
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             }
           ],
-          "correct_answer": "r10",
+          "correct_answer": "r1",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
           "interaction_id": "U12_I90",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Made or produced by human beings rather than occurring naturally\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A structured set of data held in a computer\"",
           "options": [
             {
               "id": "o2",
@@ -2103,11 +2113,11 @@
             },
             {
               "id": "o1",
-              "text": "Artificial"
+              "text": "Database"
             },
             {
               "id": "o3",
-              "text": "Network"
+              "text": "Artificial"
             }
           ],
           "correct_answer": "o1",
@@ -2121,18 +2131,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Algorithm",
-              "right": "A process or set of rules to be followed in calculations"
+              "left": "Database",
+              "right": "A structured set of data held in a computer"
             },
             {
               "id": "p1",
-              "left": "Software",
-              "right": "The programs used by a computer"
+              "left": "Cybersecurity",
+              "right": "The state of being protected against criminal use of data"
             },
             {
               "id": "p2",
-              "left": "Virtual",
-              "right": "Not physically existing as such but made by software"
+              "left": "Artificial",
+              "right": "Made or produced by human beings rather than occurring naturally"
             }
           ],
           "correct_answer": {
@@ -2145,17 +2155,17 @@
         {
           "interaction_id": "U12_I92",
           "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The software (need) ________ to be updated.",
-          "correct_answer": "needs",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (download/not) ________ the latest update yet.",
+          "correct_answer": "haven't downloaded",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U12_I93",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"All the customer details are stored the in database.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The office network was down for several hours.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
@@ -2166,40 +2176,40 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "The"
+              "id": "w2",
+              "text": "needs"
             },
             {
               "id": "w6",
               "text": "every"
             },
             {
-              "id": "w1",
-              "text": "hardware"
-            },
-            {
-              "id": "w7",
-              "text": "few"
+              "id": "w3",
+              "text": "to"
             },
             {
               "id": "w5",
               "text": "replaced"
             },
             {
-              "id": "w2",
-              "text": "needs"
+              "id": "w1",
+              "text": "hardware"
+            },
+            {
+              "id": "w4",
+              "text": "be"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w8",
               "text": "years"
             },
             {
-              "id": "w4",
-              "text": "be"
+              "id": "w7",
+              "text": "few"
             }
           ],
           "correct_answer": [
@@ -2219,19 +2229,19 @@
           "interaction_id": "U12_I95",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"You need to install the latest software updates.\"",
+          "stimulus_en": "Speaker A: \"Check the compatibility of the device before buying.\"",
           "options": [
             {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r2",
               "text": "I completely agree, it makes sense."
             },
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
             }
           ],
           "correct_answer": "r2",
@@ -2241,19 +2251,19 @@
         {
           "interaction_id": "U12_I96",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A process or set of rules to be followed in calculations\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Not physically existing as such but made by software\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Revolutionary"
+              "id": "o1",
+              "text": "Virtual"
             },
             {
-              "id": "o1",
-              "text": "Algorithm"
+              "id": "o2",
+              "text": "Interface"
             },
             {
               "id": "o3",
-              "text": "Compatibility"
+              "text": "User-friendly"
             }
           ],
           "correct_answer": "o1",
@@ -2267,18 +2277,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Software",
-              "right": "The programs used by a computer"
+              "left": "Network",
+              "right": "A group or system of interconnected people or things"
             },
             {
               "id": "p1",
-              "left": "Hardware",
-              "right": "The physical parts of a computer"
+              "left": "User-friendly",
+              "right": "Easy to use or understand"
             },
             {
               "id": "p2",
-              "left": "Revolutionary",
-              "right": "Involving or causing a complete or dramatic change"
+              "left": "Compatibility",
+              "right": "A state in which two things are able to exist together"
             }
           ],
           "correct_answer": {
@@ -2291,16 +2301,16 @@
         {
           "interaction_id": "U12_I98",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (carry/always) ________ her laptop with her.",
-          "correct_answer": "always carries",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Did you (see) ________ the latest gadget?",
+          "correct_answer": "see",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U12_I99",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Artificial intelligence is transforming industries. many\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The search engine uses complex a algorithm.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
@@ -2312,2272 +2322,36 @@
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w7",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
               "id": "w2",
-              "text": "interface"
-            },
-            {
-              "id": "w1",
-              "text": "user"
-            },
-            {
-              "id": "w8",
-              "text": "navigate"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            },
-            {
-              "id": "w4",
-              "text": "simple"
-            },
-            {
-              "id": "w6",
-              "text": "easy"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I101",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We have a wireless internet connection at home.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I102",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The programs used by a computer\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Software"
-            },
-            {
-              "id": "o2",
-              "text": "Virtual"
-            },
-            {
-              "id": "o3",
-              "text": "Database"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I103",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Interface",
-              "right": "A point where two systems or subjects meet"
-            },
-            {
-              "id": "p1",
-              "left": "Revolutionary",
-              "right": "Involving or causing a complete or dramatic change"
-            },
-            {
-              "id": "p2",
-              "left": "User-friendly",
-              "right": "Easy to use or understand"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I104",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (download/not) ________ the latest update yet.",
-          "correct_answer": "haven't downloaded",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I105",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"All customer the details are stored in the database.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I106",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "connection"
-            },
-            {
-              "id": "w6",
-              "text": "at"
-            },
-            {
-              "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w3",
-              "text": "wireless"
-            },
-            {
-              "id": "w7",
-              "text": "home"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "internet"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I107",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Encryption is vital for protecting sensitive information.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I108",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A small mechanical or electronic device\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Gadget"
-            },
-            {
-              "id": "o3",
-              "text": "Hardware"
-            },
-            {
-              "id": "o2",
-              "text": "Database"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I109",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Wireless",
-              "right": "Using radio waves rather than wires"
-            },
-            {
-              "id": "p1",
-              "left": "Revolutionary",
-              "right": "Involving or causing a complete or dramatic change"
-            },
-            {
-              "id": "p2",
-              "left": "Virtual",
-              "right": "Not physically existing as such but made by software"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I110",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (carry/always) ________ her laptop with her.",
-          "correct_answer": "always carries",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I111",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Cybersecurity is a top priority for most companies today.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I112",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "simple"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "interface"
-            },
-            {
-              "id": "w1",
-              "text": "user"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            },
-            {
-              "id": "w7",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "easy"
-            },
-            {
-              "id": "w8",
-              "text": "navigate"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I113",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The hardware needs to be replaced every few years.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I114",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A small mechanical or electronic device\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Gadget"
-            },
-            {
-              "id": "o2",
-              "text": "Compatibility"
-            },
-            {
-              "id": "o3",
-              "text": "Cybersecurity"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I115",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Cybersecurity",
-              "right": "The state of being protected against criminal use of data"
-            },
-            {
-              "id": "p1",
-              "left": "Gadget",
-              "right": "A small mechanical or electronic device"
-            },
-            {
-              "id": "p2",
-              "left": "User-friendly",
-              "right": "Easy to use or understand"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I116",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The internet (be) ________ essential for modern life.",
-          "correct_answer": "is",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I117",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The search engine uses complex a algorithm.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I118",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "software"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "need"
-            },
-            {
-              "id": "w7",
-              "text": "updates"
-            },
-            {
-              "id": "w5",
-              "text": "latest"
-            },
-            {
-              "id": "w0",
-              "text": "You"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "install"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I119",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Cybersecurity is a top priority for most companies today.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I120",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The state of being protected against criminal use of data\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cybersecurity"
-            },
-            {
-              "id": "o2",
-              "text": "Virtual"
-            },
-            {
-              "id": "o3",
-              "text": "Compatibility"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I121",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Gadget",
-              "right": "A small mechanical or electronic device"
-            },
-            {
-              "id": "p1",
-              "left": "User-friendly",
-              "right": "Easy to use or understand"
-            },
-            {
-              "id": "p2",
-              "left": "Encryption",
-              "right": "The process of converting information into code"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I122",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I understood how this works.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I123",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"This new gadget is very useful traveling. for\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I124",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "many"
-            },
-            {
-              "id": "w3",
-              "text": "transforming"
-            },
-            {
-              "id": "w1",
-              "text": "intelligence"
-            },
-            {
-              "id": "w0",
-              "text": "Artificial"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "industries"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I125",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The hardware needs to be replaced every few years.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I126",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Easy to use or understand\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Artificial"
-            },
-            {
-              "id": "o2",
-              "text": "Encryption"
-            },
-            {
-              "id": "o1",
-              "text": "User-friendly"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I127",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Revolutionary",
-              "right": "Involving or causing a complete or dramatic change"
-            },
-            {
-              "id": "p1",
-              "left": "Algorithm",
-              "right": "A process or set of rules to be followed in calculations"
-            },
-            {
-              "id": "p2",
-              "left": "Interface",
-              "right": "A point where two systems or subjects meet"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I128",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Scientists (develop) ________ a new vaccine.",
-          "correct_answer": "are developing",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I129",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The user interface is simple and easy to navigate.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I130",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "transforming"
-            },
-            {
-              "id": "w5",
-              "text": "industries"
-            },
-            {
-              "id": "w4",
-              "text": "many"
-            },
-            {
-              "id": "w1",
-              "text": "intelligence"
-            },
-            {
-              "id": "w0",
-              "text": "Artificial"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I131",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Artificial intelligence is transforming many industries.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I132",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A small mechanical or electronic device\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Artificial"
-            },
-            {
-              "id": "o3",
-              "text": "Wireless"
-            },
-            {
-              "id": "o1",
-              "text": "Gadget"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I133",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Hardware",
-              "right": "The physical parts of a computer"
-            },
-            {
-              "id": "p1",
-              "left": "Artificial",
-              "right": "Made or produced by human beings rather than occurring naturally"
-            },
-            {
-              "id": "p2",
-              "left": "User-friendly",
-              "right": "Easy to use or understand"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I134",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (carry/always) ________ her laptop with her.",
-          "correct_answer": "always carries",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I135",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The application is very user-friendly for beginners.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I136",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w8",
-              "text": "navigate"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w7",
-              "text": "to"
-            },
-            {
-              "id": "w2",
-              "text": "interface"
-            },
-            {
-              "id": "w4",
-              "text": "simple"
-            },
-            {
-              "id": "w6",
-              "text": "easy"
-            },
-            {
-              "id": "w1",
-              "text": "user"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I137",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"You need to install the latest software updates.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I138",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Using radio waves rather than wires\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Gadget"
-            },
-            {
-              "id": "o1",
-              "text": "Wireless"
-            },
-            {
-              "id": "o2",
-              "text": "Interface"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I139",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Gadget",
-              "right": "A small mechanical or electronic device"
-            },
-            {
-              "id": "p1",
-              "left": "Interface",
-              "right": "A point where two systems or subjects meet"
-            },
-            {
-              "id": "p2",
-              "left": "Revolutionary",
-              "right": "Involving or causing a complete or dramatic change"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I140",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The internet (be) ________ essential for modern life.",
-          "correct_answer": "is",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I141",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The network office was down for several hours.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I142",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "All"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w8",
-              "text": "database"
-            },
-            {
-              "id": "w2",
-              "text": "customer"
-            },
-            {
-              "id": "w5",
-              "text": "stored"
-            },
-            {
-              "id": "w4",
-              "text": "are"
-            },
-            {
-              "id": "w3",
-              "text": "details"
-            },
-            {
-              "id": "w1",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I143",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Encryption is vital for protecting sensitive information.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I144",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A state in which two things are able to exist together\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Compatibility"
-            },
-            {
-              "id": "o3",
-              "text": "Database"
-            },
-            {
-              "id": "o2",
-              "text": "Virtual"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I145",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Gadget",
-              "right": "A small mechanical or electronic device"
-            },
-            {
-              "id": "p1",
-              "left": "Encryption",
-              "right": "The process of converting information into code"
-            },
-            {
-              "id": "p2",
-              "left": "Interface",
-              "right": "A point where two systems or subjects meet"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I146",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I understood how this works.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I147",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"All the customer details are stored in the database.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I148",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "uses"
-            },
-            {
-              "id": "w5",
-              "text": "complex"
-            },
-            {
-              "id": "w1",
-              "text": "search"
-            },
-            {
-              "id": "w2",
-              "text": "engine"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "algorithm"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I149",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"This new technology is truly revolutionary.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I150",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The programs used by a computer\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Wireless"
-            },
-            {
-              "id": "o1",
-              "text": "Software"
-            },
-            {
-              "id": "o2",
-              "text": "Revolutionary"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I151",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Virtual",
-              "right": "Not physically existing as such but made by software"
-            },
-            {
-              "id": "p1",
-              "left": "Compatibility",
-              "right": "A state in which two things are able to exist together"
-            },
-            {
-              "id": "p2",
-              "left": "Encryption",
-              "right": "The process of converting information into code"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I152",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (lose) ________ all his data because he didn't back it up.",
-          "correct_answer": "lost",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I153",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"All the customer details are stored in the database.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I154",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "intelligence"
-            },
-            {
-              "id": "w5",
-              "text": "industries"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "many"
-            },
-            {
-              "id": "w0",
-              "text": "Artificial"
-            },
-            {
-              "id": "w3",
-              "text": "transforming"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I155",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The application is very user-friendly for beginners.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I156",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A small mechanical or electronic device\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Gadget"
-            },
-            {
-              "id": "o3",
-              "text": "Virtual"
-            },
-            {
-              "id": "o2",
-              "text": "Cybersecurity"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I157",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Network",
-              "right": "A group or system of interconnected people or things"
-            },
-            {
-              "id": "p1",
-              "left": "Wireless",
-              "right": "Using radio waves rather than wires"
-            },
-            {
-              "id": "p2",
-              "left": "Revolutionary",
-              "right": "Involving or causing a complete or dramatic change"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I158",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I understood how this works.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I159",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The application is very for user-friendly beginners.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I160",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "engine"
-            },
-            {
-              "id": "w6",
-              "text": "algorithm"
-            },
-            {
-              "id": "w1",
-              "text": "search"
-            },
-            {
-              "id": "w3",
-              "text": "uses"
-            },
-            {
-              "id": "w5",
-              "text": "complex"
-            },
-            {
-              "id": "w4",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I161",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The application is very user-friendly for beginners.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I162",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Involving or causing a complete or dramatic change\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Cybersecurity"
-            },
-            {
-              "id": "o1",
-              "text": "Revolutionary"
-            },
-            {
-              "id": "o3",
-              "text": "Wireless"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I163",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Encryption",
-              "right": "The process of converting information into code"
-            },
-            {
-              "id": "p1",
-              "left": "Cybersecurity",
-              "right": "The state of being protected against criminal use of data"
-            },
-            {
-              "id": "p2",
-              "left": "Gadget",
-              "right": "A small mechanical or electronic device"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I164",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The internet (be) ________ essential for modern life.",
-          "correct_answer": "is",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I165",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"This new technology is truly revolutionary.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I166",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "hardware"
-            },
-            {
-              "id": "w3",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "every"
-            },
-            {
-              "id": "w7",
-              "text": "few"
-            },
-            {
-              "id": "w4",
-              "text": "be"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "needs"
-            },
-            {
-              "id": "w8",
-              "text": "years"
-            },
-            {
-              "id": "w5",
-              "text": "replaced"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I167",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The office network was down for several hours.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I168",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A state in which two things are able to exist together\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Compatibility"
-            },
-            {
-              "id": "o2",
-              "text": "Cybersecurity"
-            },
-            {
-              "id": "o3",
-              "text": "Encryption"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I169",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Wireless",
-              "right": "Using radio waves rather than wires"
-            },
-            {
-              "id": "p1",
-              "left": "Revolutionary",
-              "right": "Involving or causing a complete or dramatic change"
-            },
-            {
-              "id": "p2",
-              "left": "Encryption",
-              "right": "The process of converting information into code"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I170",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The software (need) ________ to be updated.",
-          "correct_answer": "needs",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I171",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"This new technology is truly revolutionary.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I172",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "top"
+              "text": "network"
             },
             {
               "id": "w5",
               "text": "for"
             },
             {
-              "id": "w4",
-              "text": "priority"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "companies"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w8",
-              "text": "today"
-            },
-            {
-              "id": "w6",
-              "text": "most"
-            },
-            {
-              "id": "w0",
-              "text": "Cybersecurity"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I173",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Encryption is vital for protecting sensitive information.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I174",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A state in which two things are able to exist together\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Encryption"
-            },
-            {
-              "id": "o1",
-              "text": "Compatibility"
-            },
-            {
-              "id": "o2",
-              "text": "Software"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I175",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Algorithm",
-              "right": "A process or set of rules to be followed in calculations"
-            },
-            {
-              "id": "p1",
-              "left": "Database",
-              "right": "A structured set of data held in a computer"
-            },
-            {
-              "id": "p2",
-              "left": "Hardware",
-              "right": "The physical parts of a computer"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I176",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Technology (change) ________ the way we live.",
-          "correct_answer": "has changed",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I177",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Check the compatibility of the device before buying.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I178",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w6",
-              "text": "at"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "connection"
-            },
-            {
-              "id": "w7",
-              "text": "home"
-            },
-            {
-              "id": "w4",
-              "text": "internet"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w3",
-              "text": "wireless"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I179",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"This new technology is truly revolutionary.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I180",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A process or set of rules to be followed in calculations\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Network"
-            },
-            {
-              "id": "o1",
-              "text": "Algorithm"
-            },
-            {
-              "id": "o2",
-              "text": "Cybersecurity"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I181",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Network",
-              "right": "A group or system of interconnected people or things"
-            },
-            {
-              "id": "p1",
-              "left": "Gadget",
-              "right": "A small mechanical or electronic device"
-            },
-            {
-              "id": "p2",
-              "left": "Compatibility",
-              "right": "A state in which two things are able to exist together"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I182",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (download/not) ________ the latest update yet.",
-          "correct_answer": "haven't downloaded",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I183",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Encryption is vital for protecting information. sensitive\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I184",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Virtual"
-            },
-            {
-              "id": "w1",
-              "text": "reality"
-            },
-            {
-              "id": "w6",
-              "text": "experience"
-            },
-            {
-              "id": "w4",
-              "text": "very"
-            },
-            {
-              "id": "w5",
-              "text": "immersive"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "provides"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I185",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The office network was down for several hours.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I186",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The state of being protected against criminal use of data\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Revolutionary"
-            },
-            {
-              "id": "o1",
-              "text": "Cybersecurity"
-            },
-            {
-              "id": "o2",
-              "text": "Network"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I187",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Network",
-              "right": "A group or system of interconnected people or things"
-            },
-            {
-              "id": "p1",
-              "left": "Database",
-              "right": "A structured set of data held in a computer"
-            },
-            {
-              "id": "p2",
-              "left": "Compatibility",
-              "right": "A state in which two things are able to exist together"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I188",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (carry/always) ________ her laptop with her.",
-          "correct_answer": "always carries",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I189",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You need to install the latest software updates.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I190",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "beginners"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w1",
-              "text": "application"
-            },
-            {
-              "id": "w5",
-              "text": "for"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "user-friendly"
-            },
-            {
               "id": "w0",
               "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I191",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"All the customer details are stored in the database.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I192",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The programs used by a computer\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Artificial"
-            },
-            {
-              "id": "o1",
-              "text": "Software"
-            },
-            {
-              "id": "o3",
-              "text": "Interface"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I193",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Interface",
-              "right": "A point where two systems or subjects meet"
-            },
-            {
-              "id": "p1",
-              "left": "Database",
-              "right": "A structured set of data held in a computer"
-            },
-            {
-              "id": "p2",
-              "left": "Compatibility",
-              "right": "A state in which two things are able to exist together"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I194",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I understood how this works.",
-          "correct_answer": "wish",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I195",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Cybersecurity is a top priority for most companies today.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I196",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "need"
-            },
-            {
-              "id": "w5",
-              "text": "latest"
             },
             {
               "id": "w4",
-              "text": "the"
+              "text": "down"
             },
             {
               "id": "w7",
-              "text": "updates"
-            },
-            {
-              "id": "w2",
-              "text": "to"
+              "text": "hours"
             },
             {
               "id": "w6",
-              "text": "software"
-            },
-            {
-              "id": "w0",
-              "text": "You"
+              "text": "several"
             },
             {
               "id": "w3",
-              "text": "install"
+              "text": "was"
+            },
+            {
+              "id": "w1",
+              "text": "office"
             }
           ],
           "correct_answer": [
@@ -4591,88 +2365,6 @@
             "w7"
           ],
           "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I197",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"This new technology is truly revolutionary.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U12_I198",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Involving or causing a complete or dramatic change\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Revolutionary"
-            },
-            {
-              "id": "o3",
-              "text": "User-friendly"
-            },
-            {
-              "id": "o2",
-              "text": "Network"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I199",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Interface",
-              "right": "A point where two systems or subjects meet"
-            },
-            {
-              "id": "p1",
-              "left": "Hardware",
-              "right": "The physical parts of a computer"
-            },
-            {
-              "id": "p2",
-              "left": "Network",
-              "right": "A group or system of interconnected people or things"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I200",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "Technology (change) ________ the way we live.",
-          "correct_answer": "has changed",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
         }
       ]
     }
