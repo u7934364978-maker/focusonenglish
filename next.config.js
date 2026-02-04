@@ -21,6 +21,16 @@ const nextConfig = {
         destination: '/aprender-ingles',
         statusCode: 301,
       },
+      {
+        source: '/curso-ingles-trabajo',
+        destination: '/curso-ingles-para-trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-viajar',
+        destination: '/curso-ingles-para-viajar',
+        statusCode: 301,
+      },
       
       // AUTENTICACIÓN - Unificar rutas duplicadas
       {

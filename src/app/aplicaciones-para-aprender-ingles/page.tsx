@@ -103,10 +103,10 @@ export default function SEOAppsPage() {
                 <div className="bg-white rounded-3xl p-8 border border-slate-100 shadow-sm">
                   <h4 className="text-lg font-bold text-slate-900 mb-4">Rutas recomendadas</h4>
                   <div className="space-y-3">
-                    <Link href="/curso-ingles-trabajo" className="block p-4 rounded-xl border border-slate-50 hover:border-coral-100 hover:bg-coral-50 transition-all font-bold text-slate-700">
+                    <Link href="/curso-ingles-para-trabajo" className="block p-4 rounded-xl border border-slate-50 hover:border-coral-100 hover:bg-coral-50 transition-all font-bold text-slate-700">
                       Inglés para el Trabajo →
                     </Link>
-                    <Link href="/curso-ingles-viajar" className="block p-4 rounded-xl border border-slate-50 hover:border-coral-100 hover:bg-coral-50 transition-all font-bold text-slate-700">
+                    <Link href="/curso-ingles-para-viajar" className="block p-4 rounded-xl border border-slate-50 hover:border-coral-100 hover:bg-coral-50 transition-all font-bold text-slate-700">
                       Inglés para Viajar →
                     </Link>
                   </div>
