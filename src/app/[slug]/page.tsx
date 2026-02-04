@@ -5,6 +5,7 @@ import { getSEOPageBySlug, getAllSEORoutes } from "@/lib/seo";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Metadata } from "next";
+import { CourseSchema, BreadcrumbSchema } from "@/app/schema";
 
 export async function generateStaticParams() {
   const routes = getAllSEORoutes();
@@ -155,22 +156,18 @@ export default async function SEORoutePage({ params }: { params: Promise<{ slug:
         </div>
       </main>
 
-      {/* Structured Data: Course */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Course",
-            "name": page.title,
-            "description": page.description,
-            "provider": {
-              "@type": "Organization",
-              "name": "Focus English",
-              "sameAs": "https://www.focus-on-english.com"
-            }
-          })
-        }}
+      {/* Structured Data: Course & Breadcrumbs */}
+      <CourseSchema 
+        name={page.title}
+        description={page.description}
+        level="A1-C1"
+      />
+      <BreadcrumbSchema 
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Aprender Inglés", url: "/aprender-ingles" },
+          { name: page.title, url: `/${slug}` }
+        ]}
       />
     </>
   );

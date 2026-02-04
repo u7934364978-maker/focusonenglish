@@ -39,7 +39,7 @@ export const B2_U19_BLOCK1: Exercise = {
       ['The', 'An', '(zero)'],
       ['The', 'A', '(zero)']
     ][i],
-    correctAnswer: Array(10).fill('the').map((v, idx) => idx < 3 || idx === 5 || idx === 8 || idx === 9 ? v.charAt(0).toUpperCase() + v.slice(1) : v),
+    correctAnswer: Array(10).fill('the').map((v, idx) => idx < 3 || idx === 5 || idx === 8 || idx === 9 ? v.charAt(0).toUpperCase() + v.slice(1) : v)[i],
     explanation: 'Using "the" for specific or unique entities.',
     points: 1
   }))

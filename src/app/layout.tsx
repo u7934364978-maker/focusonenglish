@@ -92,6 +92,9 @@ export const metadata: Metadata = {
     icon: '/icon.svg',
     apple: '/icon.svg',
   },
+  alternates: {
+    canonical: '/',
+  },
 };
 
 export default function RootLayout({

@@ -5,6 +5,7 @@ import { getSEOPageBySlug } from "@/lib/seo";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Metadata } from "next";
+import { BreadcrumbSchema } from "@/app/schema";
 
 export async function generateMetadata(): Promise<Metadata> {
   const page = getSEOPageBySlug("hub");
@@ -103,6 +104,12 @@ export default function SEOHubPage() {
       </main>
 
       {/* Structured Data */}
+      <BreadcrumbSchema 
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Aprender Inglés", url: "/aprender-ingles" }
+        ]}
+      />
       {page.faqs && page.faqs.length > 0 && (
         <script
           type="application/ld+json"

@@ -80,7 +80,7 @@ export const B2_U16_BLOCK2: Exercise = {
       'He forgot was the meeting time. -> ___ he forgot was the meeting time.',
       'She realized was that she needed help. -> ___ she realized was that she needed help.'
     ][i],
-    correctAnswer: Array(10).fill('What'),
+    correctAnswer: 'What',
     explanation: 'Using "What" to initiate a cleft sentence for emphasis.',
     points: 1
   }))
