@@ -8,6 +8,9 @@ import { ALL_C2_UNITS, C2_MODULES } from '@/lib/course-data-c2';
 
 export default async function C2CoursePage() {
   const supabase = await createClient();
+  if (!supabase) {
+    return <div>Error: No se pudo conectar con el servidor de base de datos.</div>;
+  }
   const { data: { user } } = await supabase.auth.getUser();
 
   const userId = user?.id || 'anonymous';

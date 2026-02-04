@@ -397,7 +397,7 @@ export const C2_U2_BLOCK4: Exercise = {
     {
       "id": "c2-u2-b4-q3",
       "type": "key-word-transformation",
-      "question": null,
+      "question": "My friend John, ________, went on to become an actor. (INTRODUCED)\n\nMy friend John, who introduced __________",
       "correctAnswer": "me to Alex, went on to become an actor",
       "explanation": "Las cláusulas relativas no definidas se pueden usar para agregar información adicional sin alterar el significado principal, usando 'who' para personas.",
       "points": 1,
@@ -430,7 +430,7 @@ export const C2_U2_BLOCK4: Exercise = {
     {
       "id": "c2-u2-b4-q6",
       "type": "key-word-transformation",
-      "question": null,
+      "question": "Anna, ________, managed to inspire the entire team. (ENTHUSIASM)\n\nAnna, whose enthusiasm __________",
       "correctAnswer": "for the project knew no bounds",
       "explanation": "La cláusula relativa 'whose' se usa aquí para referirse a la posesión, indicando que el entusiasmo de Anna es lo que inspiró.",
       "points": 1,
@@ -463,7 +463,7 @@ export const C2_U2_BLOCK4: Exercise = {
     {
       "id": "c2-u2-b4-q9",
       "type": "key-word-transformation",
-      "question": null,
+      "question": "The council members, ________, expressed their concerns during the meeting. (MANY)\n\nThe council members, many of whom __________",
       "correctAnswer": "were against the policy",
       "explanation": "En una cláusula de relativo no definida que refiere a un grupo, 'many of whom' se utiliza para dar más información sobre el grupo.",
       "points": 1,

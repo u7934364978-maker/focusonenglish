@@ -71,6 +71,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
 }
 
 export default async function BlogArticle({ params }: { params: Promise<{ category: string, slug: string }> }) {
+  try {
   const { category, slug } = await params;
   const article = getArticleBySlug(slug);
 
