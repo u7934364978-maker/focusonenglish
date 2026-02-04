@@ -1,13 +1,15 @@
 ---
 title: "¿Cuánto se tarda en aprender inglés realmente? (Guía 2024)"
 description: "Descubre el tiempo real que necesitas para aprender inglés según tu nivel actual y objetivos. Desmontamos mitos y te damos un roadmap claro."
+excerpt: "¿Quieres saber cuánto se tarda en aprender inglés? Desglosamos las horas necesarias por nivel (A1-C1) y te damos consejos para acelerar tu fluidez."
+keywords: ["cuanto se tarda en aprender ingles", "tiempo para aprender ingles", "niveles ingles mcer", "aprender ingles rapido", "horas para aprender ingles"]
 date: "2024-02-03"
 category: "metodos"
 author: "Focus English"
 image: "https://images.pexels.com/photos/7092400/pexels-photo-7092400.jpeg"
 ---
 
-# ¿Cuánto se tarda en aprender inglés? La Realidad según la Ciencia y el MCER
+## ¿Cuánto se tarda en aprender inglés? La Realidad según la Ciencia y el MCER
 
 Una de las preguntas más frecuentes que recibimos en **Focus English** es: *"¿En cuánto tiempo seré capaz de hablar inglés?"*. Aunque nos encantaría decirte que existe un botón mágico, la realidad es que el tiempo depende de varios factores clave.
 

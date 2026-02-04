@@ -1,13 +1,15 @@
 ---
 title: "¿No tienes tiempo para estudiar inglés? 5 Estrategias de Micro-Learning"
 description: "Aprende inglés incluso con una agenda apretada. Descubre cómo aprovechar los 'tiempos muertos' para mejorar tu nivel sin sacrificar tu descanso."
+excerpt: "Descubre cómo aprender inglés sin tiempo con el micro-learning. 5 estrategias prácticas para integrar el inglés en tu rutina diaria y avanzar rápido."
+keywords: ["aprender ingles sin tiempo", "micro-learning ingles", "estudiar ingles rapido", "como aprender ingles gratis", "mejorar ingles"]
 date: "2024-02-03"
 category: "metodos"
 author: "Focus English"
 image: "https://images.pexels.com/photos/5699475/pexels-photo-5699475.jpeg"
 ---
 
-# Cómo Estudiar Inglés si no tienes Tiempo: El Poder del Micro-Learning
+## El Poder del Micro-Learning: Cómo Estudiar Inglés si no tienes Tiempo
 
 *"Me encantaría aprender inglés, pero no tengo tiempo"*. Esta es la excusa número uno que escuchamos. Y es comprensible: entre el trabajo, la familia, el gimnasio y el descanso, encontrar una hora libre para ir a una academia parece imposible.
 

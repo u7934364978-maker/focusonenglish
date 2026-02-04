@@ -8,6 +8,8 @@ import { BlogEnhancements } from "@/components/blog/BlogEnhancements";
 import { TableOfContents } from "@/components/blog/TableOfContents";
 import { SEOInterlinking } from "@/components/blog/SEOInterlinking";
 import { getBlogArticles, getArticleBySlug, getRelatedArticles } from "@/lib/blog";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { optimizeSEOTitle } from "@/utils/seo-utils";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
@@ -30,9 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   }
 
   // Optimized title for SEO
-  const seoTitle = article.title.includes("2026") 
-    ? article.title 
-    : article.title.replace(/^Guía/, "Guía 2026:");
+  const seoTitle = optimizeSEOTitle(article.title);
 
   const ogImage = article.image || "/blog/og-image.jpg";
 
@@ -75,13 +75,9 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
   const article = getArticleBySlug(slug);
 
   if (!article) {
-    console.error(`[BlogDebug] Article NOT found for slug: ${slug}`);
     notFound();
   }
 
-  console.log(`[BlogDebug] Rendering slug: ${slug}`);
-  console.log(`[BlogDebug] Content length: ${article.content?.length || 0}`);
-  
   if (!article.content || article.content.trim().length === 0) {
     console.error(`[BlogDebug] Article content is EMPTY for slug: ${slug}`);
   }
@@ -218,20 +214,9 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
     return (
       <>
         {/* SEO Schemas */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-        />
-        {faqSchema && (
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-          />
-        )}
+        <JsonLd data={articleSchema} />
+        <JsonLd data={breadcrumbSchema} />
+        <JsonLd data={faqSchema} />
 
         <Navigation />
         

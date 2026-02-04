@@ -1,13 +1,15 @@
 ---
 title: "Inglés A1 vs A2: Diferencias Clave y Cómo pasar de nivel"
 description: "¿Estás en el nivel A1 o ya has saltado al A2? Analizamos las diferencias reales entre el nivel principiante y el elemental según el MCER."
+excerpt: "Descubre las diferencias entre inglés A1 y A2. Guía completa para identificar tu nivel, dominar la gramática básica y pasar de nivel principiante a elemental."
+keywords: ["ingles a1 vs a2", "nivel ingles a1", "nivel ingles a2", "diferencia a1 y a2 ingles", "como pasar de nivel ingles"]
 date: "2024-02-03"
 category: "metodos"
 author: "Focus English"
 image: "https://images.pexels.com/photos/5905711/pexels-photo-5905711.jpeg"
 ---
 
-# Inglés A1 vs A2: ¿Cuál es tu Nivel Real y cómo Seguir Progresando?
+## Inglés A1 vs A2: ¿Cuál es tu Nivel Real y cómo Seguir Progresando?
 
 Cuando empezamos a estudiar inglés, a menudo nos confundimos con las etiquetas de los niveles. El Marco Común Europeo de Referencia para las lenguas (MCER) divide el nivel básico en dos: **A1 (Acceso)** y **A2 (Plataforma)**.
 
