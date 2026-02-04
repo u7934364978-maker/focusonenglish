@@ -76,4 +76,5 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
    - [x] Fix 404 for `curso-ingles-trabajo`.
    - [x] Fix 404 for `curso-ingles-viajar`.
    - [x] Update `manualMapping` in `[slug]/page.tsx` for dynamic SEO routes.
-   - [x] Verification: Verify all three routes resolve correctly.
+   - [x] Fix Global Canonical tag in `layout.tsx` to allow site-wide indexing.
+   - [x] Verification: Verify all routes resolve and Google indexing block is removed.
