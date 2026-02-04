@@ -16,7 +16,7 @@ export function createC2Unit(
     title,
     description,
     module: 'C2 Proficiency',
-    duration: '150 min', // C2 units are even more intensive
+    duration: 150, // C2 units are even more intensive
     objectives,
     exercises: exerciseBlocks
   };

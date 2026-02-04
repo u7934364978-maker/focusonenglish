@@ -33,10 +33,11 @@ export const C2_U3_BLOCK1: Exercise = {
     {
       "id": "c2-u3-b1-q3",
       "type": "key-word-transformation",
+      "question": "The manager requested that the report is finished by Monday. (BE)\n\nThe manager requested that the report be __________",
       "sentence": "The manager requested that the report is finished by Monday.",
       "keyWord": "BE",
       "startOfAnswer": "The manager requested that the report be",
-      "correctAnswer": "The manager requested that the report be finished by Monday.",
+      "correctAnswer": "finished by Monday",
       "explanation": "En inglés formal, tras el verbo 'request' se usa el subjuntivo (be) para expresar una instrucción o mandato.",
       "points": 1
     },
@@ -45,12 +46,12 @@ export const C2_U3_BLOCK1: Exercise = {
       "type": "multiple-choice",
       "question": "Identify the sentence where the subjunctive is used incorrectly.",
       "options": [
-        "The board insists that she attend the meeting.",
-        "It is essential that he brings his documents.",
-        "It is important that they be informed promptly.",
-        "The suggestion was that he write to the CEO."
-      ],
-      "correctAnswer": "It is essential that he brings his documents.",
+  "It is essential that he bring his documents.",
+  "It is essential that he brings his documents.",
+  "It is important that they be informed promptly.",
+  "The suggestion was that he write to the CEO."
+],
+      "correctAnswer": "It is essential that he bring his documents.",
       "explanation": "Después de ciertas expresiones como 'essential', el verbo debe ir en subjuntivo (bring), no 'brings'.",
       "points": 1
     },
@@ -65,10 +66,11 @@ export const C2_U3_BLOCK1: Exercise = {
     {
       "id": "c2-u3-b1-q6",
       "type": "key-word-transformation",
+      "question": "It is necessary that the team is aware of the new policy. (BE)\n\nIt is necessary that the team be __________",
       "sentence": "It is necessary that the team is aware of the new policy.",
       "keyWord": "BE",
       "startOfAnswer": "It is necessary that the team be",
-      "correctAnswer": "It is necessary that the team be aware of the new policy.",
+      "correctAnswer": "aware of the new policy",
       "explanation": "En inglés, 'is' se cambia por 'be' después de 'necessary' para formar el subjuntivo.",
       "points": 1
     },
@@ -97,10 +99,11 @@ export const C2_U3_BLOCK1: Exercise = {
     {
       "id": "c2-u3-b1-q9",
       "type": "key-word-transformation",
+      "question": "The doctor advised that the patient takes his medication regularly. (TAKE)\n\nThe doctor advised that the patient take __________",
       "sentence": "The doctor advised that the patient takes his medication regularly.",
       "keyWord": "TAKE",
       "startOfAnswer": "The doctor advised that the patient take",
-      "correctAnswer": "The doctor advised that the patient take his medication regularly.",
+      "correctAnswer": "his medication regularly",
       "explanation": "Después de 'advised', debe usarse el subjuntivo: 'take' en lugar de 'takes'.",
       "points": 1
     },
@@ -132,11 +135,11 @@ export const C2_U3_BLOCK2: Exercise = {
       "type": "multiple-choice",
       "question": "Which of the following sentences uses the subjunctive correctly when discussing cultural integration?",
       "options": [
-        "It is essential that every citizen respects the cultural values of others.",
-        "It is crucial that he respect the traditions of the new community.",
-        "He proposes that everyone should respects cultural differences.",
-        "She demanded that he respects her heritage."
-      ],
+  "It is essential that every citizen respects the cultural values of others.",
+  "It is crucial that he respect the traditions of the new community.",
+  "He proposes that everyone should respect cultural differences.",
+  "She demanded that he respects her heritage."
+],
       "correctAnswer": "It is crucial that he respect the traditions of the new community.",
       "explanation": "La forma subjuntiva correcta en inglés para expresar recomendaciones es 'respect', no 'respects'.",
       "points": 1
@@ -152,7 +155,7 @@ export const C2_U3_BLOCK2: Exercise = {
     {
       "id": "c2-u3-b2-q3",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the key word: It is imperative for individuals to preserve their cultural identity, as this fosters understanding. (INSIST)",
+      "question": "It is imperative for individuals to preserve their cultural identity, as this fosters understanding. (INSIST)\n\nHe insisted that... __________",
       "correctAnswer": "He insisted that individuals preserve their cultural identity, as this fosters understanding.",
       "explanation": "Usar el subjuntivo con 'insist' requiere el verbo en forma base, 'preserve'.",
       "points": 1,
@@ -165,11 +168,11 @@ export const C2_U3_BLOCK2: Exercise = {
       "type": "multiple-choice",
       "question": "Choose the sentence that correctly uses the subjunctive mood in the context of cultural diversity.",
       "options": [
-        "It was urgent that he understands the multicultural framework of the city.",
-        "It is required that all students appreciates the cultural festival.",
-        "The committee recommended that she attend the diversity workshop.",
-        "It is necessary that he applies for the intercultural program."
-      ],
+  "It was urgent that he understand the multicultural framework of the city.",
+  "It is required that all students appreciate the cultural festival.",
+  "The committee recommended that she attend the diversity workshop.",
+  "It is necessary that he apply for the intercultural program."
+],
       "correctAnswer": "The committee recommended that she attend the diversity workshop.",
       "explanation": "El subjuntivo correcto en inglés es 'attend', no 'attends'.",
       "points": 1
@@ -185,7 +188,7 @@ export const C2_U3_BLOCK2: Exercise = {
     {
       "id": "c2-u3-b2-q6",
       "type": "key-word-transformation",
-      "question": "Use the key word to form a sentence with the correct subjunctive: The council proposed that citizens preserve local customs. (PROPOSE)",
+      "question": "The council proposed that citizens preserve local customs. (PROPOSE)\n\nThe council proposed that... __________",
       "correctAnswer": "The council proposed that citizens preserve local customs.",
       "explanation": "Proponer algo implica el uso del subjuntivo con verbo en forma base: 'preserve'.",
       "points": 1,
@@ -198,11 +201,11 @@ export const C2_U3_BLOCK2: Exercise = {
       "type": "multiple-choice",
       "question": "Identify the correctly constructed subjunctive sentence in the context of societal responsibilities.",
       "options": [
-        "The law requires that everyone obeys the community's guidelines.",
-        "It is important that she delivers her speech on the importance of cultural heritage.",
-        "His suggestion that they be on time for the cultural event was well-received.",
-        "She insisted that he completes the intercultural relations course."
-      ],
+  "The law requires that everyone obey the community's guidelines.",
+  "It is important that she deliver her speech on the importance of cultural heritage.",
+  "His suggestion that they be on time for the cultural event was well-received.",
+  "She insisted that he complete the intercultural relations course."
+],
       "correctAnswer": "His suggestion that they be on time for the cultural event was well-received.",
       "explanation": "La forma correcta del subjuntivo es 'be', no 'are' o similar.",
       "points": 1
@@ -218,7 +221,7 @@ export const C2_U3_BLOCK2: Exercise = {
     {
       "id": "c2-u3-b2-q9",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the given key word: It is essential that governments support cultural education. (SUPPORT)",
+      "question": "It is essential that governments support cultural education. (SUPPORT)\n\nIt is essential that... __________",
       "correctAnswer": "It is essential that governments support cultural education.",
       "explanation": "Se usa el subjuntivo con 'support', el verbo en forma base.",
       "points": 1,
@@ -231,11 +234,11 @@ export const C2_U3_BLOCK2: Exercise = {
       "type": "multiple-choice",
       "question": "Select the sentence that appropriately uses the subjunctive in a social context.",
       "options": [
-        "The decision requires that he attends the awareness program.",
-        "It was advised that he join the cultural society immediately.",
-        "She requests that her colleagues respects the local traditions.",
-        "The diplomatic mission insists that all delegates arrives punctually."
-      ],
+  "The decision requires that he attend the awareness program.",
+  "It was advised that he join the cultural society immediately.",
+  "She requests that her colleagues respect the local traditions.",
+  "The diplomatic mission insists that all delegates arrive punctually."
+],
       "correctAnswer": "It was advised that he join the cultural society immediately.",
       "explanation": "Correcta aplicación del subjuntivo con 'join', no 'joins'.",
       "points": 1
@@ -288,10 +291,11 @@ export const C2_U3_BLOCK3: Exercise = {
     {
       "id": "c2-u3-b3-q4",
       "type": "key-word-transformation",
+      "question": "The teacher suggests that we should write a report on societal changes. (WRITE)\n\nThe teacher suggests that we write... __________",
       "sentence": "The teacher suggests that we should write a report on societal changes.",
-      "keyWord": "that",
+      "keyWord": "WRITE",
       "startOfAnswer": "The teacher suggests that we write...",
-      "correctAnswer": "The teacher suggests that we write a report on societal changes.",
+      "correctAnswer": "a report on societal changes.",
       "explanation": "Después de ciertas expresiones como 'suggest', el subjuntivo se usa sin 'should'.",
       "points": 1
     },
@@ -320,6 +324,7 @@ export const C2_U3_BLOCK3: Exercise = {
     {
       "id": "c2-u3-b3-q7",
       "type": "key-word-transformation",
+      "question": "The committee proposed that a new law should be enacted to curb pollution. (BE)\n\nThe committee proposed that a new law be... __________",
       "sentence": "The committee proposed that a new law should be enacted to curb pollution.",
       "keyWord": "be",
       "startOfAnswer": "The committee proposed that a new law be...",
@@ -352,6 +357,7 @@ export const C2_U3_BLOCK3: Exercise = {
     {
       "id": "c2-u3-b3-q10",
       "type": "key-word-transformation",
+      "question": "It was recommended that the students should visit cultural institutions. (VISIT)\n\nIt was recommended that the students visit... __________",
       "sentence": "It was recommended that the students should visit cultural institutions.",
       "keyWord": "visit",
       "startOfAnswer": "It was recommended that the students visit...",
@@ -415,10 +421,11 @@ export const C2_U3_BLOCK4: Exercise = {
     {
       "id": "c2-u3-b4-q5",
       "type": "key-word-transformation",
+      "question": "It is crucial that everyone arrives on time. (SHOULD)\n\nIt is crucial that everyone should arrive __________",
       "sentence": "It is crucial that everyone arrives on time.",
       "keyWord": "should",
       "startOfAnswer": "It is crucial that everyone should arrive",
-      "correctAnswer": "It is crucial that everyone should arrive on time.",
+      "correctAnswer": "arrive on time",
       "explanation": "Aunque 'should' no es el uso típico del subjuntivo, a menudo se utiliza para dar más formalidad o énfasis.",
       "points": 1
     },
@@ -447,10 +454,11 @@ export const C2_U3_BLOCK4: Exercise = {
     {
       "id": "c2-u3-b4-q8",
       "type": "key-word-transformation",
+      "question": "The recommendation is that she finish her degree before applying for the position. (FINISH)\n\nThe recommendation is that she finish __________",
       "sentence": "The recommendation is that she finish her degree before applying for the position.",
-      "keyWord": "were",
-      "startOfAnswer": "The recommendation is that she were to finish",
-      "correctAnswer": "The recommendation is that she were to finish her degree before applying for the position.",
+      "keyWord": "finish",
+      "startOfAnswer": "The recommendation is that she finish",
+      "correctAnswer": "finish her degree before applying for the position",
       "explanation": "Aquí se introduce una opción más formal del subjuntivo usando 'were to'.",
       "points": 1
     },
@@ -510,10 +518,11 @@ export const C2_U3_BLOCK5: Exercise = {
     {
       "id": "c2-u3-b5-q3",
       "type": "key-word-transformation",
+      "question": "If societies prioritized cultural preservation, traditional customs would not be in decline. (WERE)\n\nWere societies to prioritize __________",
       "sentence": "If societies prioritized cultural preservation, traditional customs would not be in decline.",
       "keyWord": "WERE",
       "startOfAnswer": "Were societies to prioritize",
-      "correctAnswer": "Were societies to prioritize cultural preservation, traditional customs would not be in decline.",
+      "correctAnswer": "cultural preservation, traditional customs would not be in decline",
       "explanation": "El uso de 'were' en el subjuntivo expresa una situación hipotética.",
       "points": 1
     },
@@ -542,10 +551,11 @@ export const C2_U3_BLOCK5: Exercise = {
     {
       "id": "c2-u3-b5-q6",
       "type": "key-word-transformation",
+      "question": "It’s high time that people address cultural stereotypes seriously. (ADDRESSED)\n\nIt’s high time people addressed __________",
       "sentence": "It’s high time that people address cultural stereotypes seriously.",
       "keyWord": "ADDRESSED",
       "startOfAnswer": "It’s high time people addressed",
-      "correctAnswer": "It’s high time people addressed cultural stereotypes seriously.",
+      "correctAnswer": "cultural stereotypes seriously",
       "explanation": "Cuando se utiliza 'it’s high time', el verbo va en pasado simple pero tiene sentido de presente subjuntivo.",
       "points": 1
     },
@@ -574,10 +584,11 @@ export const C2_U3_BLOCK5: Exercise = {
     {
       "id": "c2-u3-b5-q9",
       "type": "key-word-transformation",
+      "question": "The proposal suggests that each community develop its own cultural programs. (DEVELOPED)\n\nThe proposal suggests each community develop __________",
       "sentence": "The proposal suggests that each community develop its own cultural programs.",
       "keyWord": "DEVELOPED",
       "startOfAnswer": "The proposal suggests each community develop",
-      "correctAnswer": "The proposal suggests each community develop its own cultural programs.",
+      "correctAnswer": "its own cultural programs",
       "explanation": "La estructura subjuntiva requiere la forma base del verbo después de 'suggests'.",
       "points": 1
     },
@@ -606,22 +617,20 @@ export const C2_U3_BLOCK6: Exercise = {
   "questions": [
     {
       "id": "c2-u3-b6-q1",
-      "type": "multiple-choice",
-      "question": "Despite his insistence that he __________ considered for the award again, the committee found him the most deserving candidate.",
-      "options": [
-        "were not to be",
-        "be not",
-        "not be",
-        "had not been"
-      ],
+      "startOfAnswer": "Start of answer",
+      "sentence": "Despite his insistence that he (NOT) be considered for the award again, the committee found him the most deserving candidate.",
+      "type": "key-word-transformation",
+      "question": "Despite his insistence that he (NOT) be considered for the award again, the committee found him the most deserving candidate. ()\n\nStart of answer __________",
       "correctAnswer": "not be",
       "explanation": "En inglés, para expresar un deseo o una condición contraria a la realidad o poco probable, se usa el subjuntivo, especialmente tras ciertos verbos.",
       "points": 1
     },
     {
       "id": "c2-u3-b6-q2",
-      "type": "fill-blank",
-      "question": "It is crucial that every member of the community __________ informed about the upcoming changes to the policy.",
+      "startOfAnswer": "Start of answer",
+      "sentence": "It is essential that all students be proficient in English before graduation.",
+      "type": "key-word-transformation",
+      "question": "It is essential that all students be proficient in English before graduation. ()\n\nStart of answer __________",
       "correctAnswer": "be",
       "explanation": "En inglés, el subjuntivo se usa después de adjetivos como 'crucial', 'important', 'necessary' para expresar obligación o necesidad.",
       "points": 1
@@ -631,30 +640,28 @@ export const C2_U3_BLOCK6: Exercise = {
       "type": "key-word-transformation",
       "sentence": "The teacher suggested to the parents that their son should see a therapist.",
       "keyWord": "insisted",
-      "question": "The teacher _______________ see a therapist.",
-      "correctAnswer": "insisted that their son see a therapist",
+      "question": "The teacher suggested to the parents that their son should see a therapist. (INSISTED)\n\ninsisted that their son __________",
+      "correctAnswer": "see a therapist",
       "explanation": "El verbo 'insist' requiere el uso del subjuntivo en inglés, eliminando 'should'.",
       "points": 1,
       "startOfAnswer": "insisted that their son"
     },
     {
       "id": "c2-u3-b6-q4",
-      "type": "multiple-choice",
-      "question": "If society ________ more empathetic towards those in need, many social issues would be alleviated.",
-      "options": [
-        "was",
-        "were",
-        "is",
-        "be"
-      ],
+      "startOfAnswer": "Start of answer",
+      "sentence": "If society (BE) more empathetic towards those in need, many social issues would be alleviated.",
+      "type": "key-word-transformation",
+      "question": "If society (BE) more empathetic towards those in need, many social issues would be alleviated. ()\n\nStart of answer __________",
       "correctAnswer": "were",
       "explanation": "En cláusulas condicionales irreales o hipotéticas, se usa 'were' con el subjuntivo.",
       "points": 1
     },
     {
       "id": "c2-u3-b6-q5",
-      "type": "fill-blank",
-      "question": "The director demands that all employees __________ the new guidelines by the end of the month.",
+      "startOfAnswer": "Start of answer",
+      "sentence": "It is crucial that students adhere to the guidelines set by the institution.",
+      "type": "key-word-transformation",
+      "question": "It is crucial that students adhere to the guidelines set by the institution. ()\n\nStart of answer __________",
       "correctAnswer": "adhere to",
       "explanation": "Después de ciertos verbos como 'demand', se usa el subjuntivo para indicar una acción requerida.",
       "points": 1
@@ -664,30 +671,28 @@ export const C2_U3_BLOCK6: Exercise = {
       "type": "key-word-transformation",
       "sentence": "The chairman requires that the report should be submitted by Friday.",
       "keyWord": "essential",
-      "question": "The chairman _______________ submitted by Friday.",
-      "correctAnswer": "deemed it essential that the report be submitted by Friday",
+      "question": "The chairman requires that the report should be submitted by Friday. (ESSENTIAL)\n\ndeemed it essential that the report __________",
+      "correctAnswer": "be submitted by Friday",
       "explanation": "Usamos 'deem it essential' más el subjuntivo para expresiones formales de necesidad.",
       "points": 1,
       "startOfAnswer": "deemed it essential that the report"
     },
     {
       "id": "c2-u3-b6-q7",
-      "type": "multiple-choice",
-      "question": "It is imperative that she _________ her cultural roots and preserves her heritage.",
-      "options": [
-        "remember",
-        "remembers",
-        "has remembered",
-        "is remembering"
-      ],
+      "startOfAnswer": "Start of answer",
+      "sentence": "It is imperative that she (REMEMBER) her cultural roots and preserves her heritage.",
+      "type": "key-word-transformation",
+      "question": "It is imperative that she (REMEMBER) her cultural roots and preserves her heritage. ()\n\nStart of answer __________",
       "correctAnswer": "remember",
       "explanation": "Se usa el subjuntivo después de palabras como 'imperative' para indicar una obligación.",
       "points": 1
     },
     {
       "id": "c2-u3-b6-q8",
-      "type": "fill-blank",
-      "question": "Were it not for the increasing cultural diversity, our society __________ stagnant.",
+      "startOfAnswer": "Start of answer",
+      "sentence": "If he had tried harder, he would have become a successful artist by now.",
+      "type": "key-word-transformation",
+      "question": "If he had tried harder, he would have become a successful artist by now. ()\n\nStart of answer __________",
       "correctAnswer": "would have become",
       "explanation": "En situaciones hipotéticas referidas al pasado, se usa el subjuntivo con 'were' y construcciones de condicional pasado.",
       "points": 1
@@ -697,22 +702,18 @@ export const C2_U3_BLOCK6: Exercise = {
       "type": "key-word-transformation",
       "sentence": "The minister stressed the importance of immediate action.",
       "keyWord": "vital",
-      "question": "The minister _______________ be taken immediately.",
-      "correctAnswer": "insisted that action be taken immediately",
+      "question": "The minister stressed the importance of immediate action. (VITAL)\n\ninsisted that action __________",
+      "correctAnswer": "be taken immediately",
       "explanation": "El uso del verbo 'insist' con el subjuntivo muestra la necesidad de la acción.",
       "points": 1,
       "startOfAnswer": "insisted that action"
     },
     {
       "id": "c2-u3-b6-q10",
-      "type": "multiple-choice",
-      "question": "The principal requested that the new policy _________ by the board before implementation.",
-      "options": [
-        "approve",
-        "approved",
-        "be approved",
-        "is being approved"
-      ],
+      "startOfAnswer": "Start of answer",
+      "sentence": "The principal requested that the new policy (APPROVE) by the board before implementation.",
+      "type": "key-word-transformation",
+      "question": "The principal requested that the new policy (APPROVE) by the board before implementation. ()\n\nStart of answer __________",
       "correctAnswer": "be approved",
       "explanation": "El subjuntivo se emplea tras 'request' para expresar una necesidad formal.",
       "points": 1
@@ -751,7 +752,7 @@ export const C2_U3_BLOCK7: Exercise = {
     {
       "id": "c2-u3-b7-q3",
       "type": "key-word-transformation",
-      "question": "Transforma la oración usando la palabra clave: IT",
+      "question": "It is essential that she attends the conference. (IT)\n\nIt is essential that she attend... __________",
       "sentence": "It is essential that she attends the conference.",
       "keyWord": "IT",
       "startOfAnswer": "It is essential that she attend...",
@@ -784,7 +785,7 @@ export const C2_U3_BLOCK7: Exercise = {
     {
       "id": "c2-u3-b7-q6",
       "type": "key-word-transformation",
-      "question": "Transforma la oración usando la palabra clave: VITAL",
+      "question": "It is vital that the strategy includes a contingency plan. (VITAL)\n\nIt is vital that the strategy include... __________",
       "sentence": "It is vital that the strategy includes a contingency plan.",
       "keyWord": "VITAL",
       "startOfAnswer": "It is vital that the strategy include...",
@@ -817,7 +818,7 @@ export const C2_U3_BLOCK7: Exercise = {
     {
       "id": "c2-u3-b7-q9",
       "type": "key-word-transformation",
-      "question": "Transforma la oración usando la palabra clave: NECESSARY",
+      "question": "It is necessary that the team meets the deadline. (NECESSARY)\n\nIt is necessary that the team meet... __________",
       "sentence": "It is necessary that the team meets the deadline.",
       "keyWord": "NECESSARY",
       "startOfAnswer": "It is necessary that the team meet...",
@@ -850,15 +851,12 @@ export const C2_U3_BLOCK8: Exercise = {
   "questions": [
     {
       "id": "c2-u3-b8-q1",
-      "type": "multiple-choice",
-      "question": "Suppose ______ have their say, how might societal norms shift?",
-      "options": [
-        "young people",
-        "young people be",
-        "young people to",
-        "young people were to"
-      ],
-      "correctAnswer": "young people were to",
+      "startOfAnswer": "If young people",
+      "keyWord": "WERE TO",
+      "sentence": "If young people ______ their say, how might societal norms shift?",
+      "type": "key-word-transformation",
+      "question": "If young people ______ their say, how might societal norms shift? (WERE TO)\n\nIf young people __________",
+      "correctAnswer": "were to have",
       "explanation": "En estructuras condicionales hipotéticas, utilizamos el subjuntivo 'were to'.",
       "points": 1
     },
@@ -873,8 +871,8 @@ export const C2_U3_BLOCK8: Exercise = {
     {
       "id": "c2-u3-b8-q3",
       "type": "key-word-transformation",
-      "question": "My deepest wish is for societal progress to be swift and inclusive.",
-      "correctAnswer": "would that societal progress be swift and inclusive",
+      "question": "My deepest wish is for societal progress to be swift and inclusive. (WOULD THAT)\n\nWould that __________",
+      "correctAnswer": "societal progress be swift and inclusive",
       "explanation": "¿Quién esperara que hubiera progreso social rápido e inclusivo?",
       "points": 1,
       "sentence": "My deepest wish is for societal progress to be swift and inclusive.",
@@ -883,15 +881,12 @@ export const C2_U3_BLOCK8: Exercise = {
     },
     {
       "id": "c2-u3-b8-q4",
-      "type": "multiple-choice",
-      "question": "The professor suggested that the students ______ more about cultural diversity in society.",
-      "options": [
-        "study",
-        "studied",
-        "will study",
-        "would study"
-      ],
-      "correctAnswer": "study",
+      "startOfAnswer": "The professor suggested that the students",
+      "keyWord": "STUDY",
+      "sentence": "The professor suggested that the students ______ more about cultural diversity in society.",
+      "type": "key-word-transformation",
+      "question": "The professor suggested that the students ______ more about cultural diversity in society. (STUDY)\n\nThe professor suggested that the students __________",
+      "correctAnswer": "study more about cultural diversity in society.",
       "explanation": "El verbo 'suggest' requiere el uso del subjuntivo, que en inglés es similar al infinitivo sin 'to'.",
       "points": 1
     },
@@ -906,8 +901,8 @@ export const C2_U3_BLOCK8: Exercise = {
     {
       "id": "c2-u3-b8-q6",
       "type": "key-word-transformation",
-      "question": "If I were in charge, decisions about cultural policies would be made collaboratively.",
-      "correctAnswer": "were I in charge",
+      "question": "If I were in charge, decisions about cultural policies would be made collaboratively. (WERE I)\n\nWere I __________",
+      "correctAnswer": "in charge",
       "explanation": "Invirtiendo el sujeto en una estructura subjuntiva, 'If' no es necesario.",
       "points": 1,
       "sentence": "If I were in charge, decisions about cultural policies would be made collaboratively.",
@@ -939,8 +934,8 @@ export const C2_U3_BLOCK8: Exercise = {
     {
       "id": "c2-u3-b8-q9",
       "type": "key-word-transformation",
-      "question": "It is a rare occurrence that societal norms change overnight.",
-      "correctAnswer": "should societal norms change overnight",
+      "question": "It is a rare occurrence that societal norms change overnight. (SHOULD)\n\nShould societal norms __________",
+      "correctAnswer": "change overnight",
       "explanation": "Esta estructura usa 'should' para connotar sorpresa o improbabilidad.",
       "points": 1,
       "sentence": "It is a rare occurrence that societal norms change overnight.",
@@ -949,15 +944,12 @@ export const C2_U3_BLOCK8: Exercise = {
     },
     {
       "id": "c2-u3-b8-q10",
-      "type": "multiple-choice",
-      "question": "Her wish is that the new legislation ______ more inclusive of diverse cultures.",
-      "options": [
-        "become",
-        "becomes",
-        "become to",
-        "will become"
-      ],
-      "correctAnswer": "become",
+      "startOfAnswer": "Her wish is that the new legislation",
+      "keyWord": "BE",
+      "sentence": "Her wish is that the new legislation ______ more inclusive of diverse cultures.",
+      "type": "key-word-transformation",
+      "question": "Her wish is that the new legislation ______ more inclusive of diverse cultures. (BE)\n\nHer wish is that the new legislation __________",
+      "correctAnswer": "become more inclusive of diverse cultures.",
       "explanation": "El subjuntivo en inglés se emplea después de ciertas expresiones de deseo, usando la forma básica del verbo.",
       "points": 1
     }
@@ -972,22 +964,20 @@ export const C2_U3_BLOCK9: Exercise = {
   "questions": [
     {
       "id": "c2-u3-b9-q1",
-      "type": "multiple-choice",
-      "question": "Cuando la situación requiera que se actúe con prisa, es esencial que...",
-      "options": [
-        "seamos capaces de tomar decisiones rápidas.",
-        "pudiéramos tomar decisiones rápidas.",
-        "tomo decisiones rápidamente.",
-        "hagamos una pausa."
-      ],
+      "startOfAnswer": "Start of answer",
+      "keyWord": "ABLE",
+      "sentence": "When the situation requires acting quickly, it is essential that we are able to make quick decisions.",
+      "type": "key-word-transformation",
+      "question": "When the situation requires acting quickly, it is essential that we are able to make quick decisions. (ABLE)\n\nStart of answer __________",
       "correctAnswer": "seamos capaces de tomar decisiones rápidas.",
       "explanation": "La respuesta correcta usa el subjuntivo para expresar una necesidad o condición.",
       "points": 1
     },
     {
       "id": "c2-u3-b9-q2",
-      "type": "fill-blank",
-      "question": "Es crucial que __________ (prestar) atención a los cambios culturales en una sociedad globalizada.",
+      "sentence": "It is important that we lend a hand to those in need.",
+      "type": "key-word-transformation",
+      "question": "It is important that we lend a hand to those in need. ()\n\n __________",
       "correctAnswer": "prestemos",
       "explanation": "El uso del subjuntivo 'prestemos' es necesario después de las expresiones de necesidad o importancia.",
       "points": 1
@@ -995,6 +985,7 @@ export const C2_U3_BLOCK9: Exercise = {
     {
       "id": "c2-u3-b9-q3",
       "type": "key-word-transformation",
+      "question": "The committee insists that he submit the report by Friday. (INSISTEN)\n\nEl comité insiste en que... __________",
       "sentence": "The committee insists that he submit the report by Friday.",
       "keyWord": "INSISTEN",
       "startOfAnswer": "El comité insiste en que...",
@@ -1004,22 +995,20 @@ export const C2_U3_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u3-b9-q4",
-      "type": "multiple-choice",
-      "question": "Es vital que en una sociedad multicultural todos __________ (apoyar) la diversidad.",
-      "options": [
-        "apoya",
-        "apoyemos",
-        "apoyan",
-        "apoyarían"
-      ],
+      "startOfAnswer": "Start of answer",
+      "keyWord": "APOYO",
+      "sentence": "Es vital que en una sociedad multicultural todos apoyen la diversidad.",
+      "type": "key-word-transformation",
+      "question": "Es vital que en una sociedad multicultural todos apoyen la diversidad. (APOYO)\n\nStart of answer __________",
       "correctAnswer": "apoyemos",
       "explanation": "Se utiliza el subjuntivo 'apoyemos' para expresar una acción recomendada o necesaria.",
       "points": 1
     },
     {
       "id": "c2-u3-b9-q5",
-      "type": "fill-blank",
-      "question": "Que ella __________ (ser) elegida presidenta nuevamente es un reflejo de su compromiso con la cultura local.",
+      "sentence": "It is crucial that there be no misunderstandings.",
+      "type": "key-word-transformation",
+      "question": "It is crucial that there be no misunderstandings. ()\n\n __________",
       "correctAnswer": "sea",
       "explanation": "El subjuntivo 'sea' se utiliza cuando se quiere expresar un deseo o expectativa.",
       "points": 1
@@ -1027,6 +1016,7 @@ export const C2_U3_BLOCK9: Exercise = {
     {
       "id": "c2-u3-b9-q6",
       "type": "key-word-transformation",
+      "question": "It is essential that the plan include diverse cultural perspectives. (INCLUIDA)\n\nEs esencial que el plan... __________",
       "sentence": "It is essential that the plan include diverse cultural perspectives.",
       "keyWord": "INCLUIDA",
       "startOfAnswer": "Es esencial que el plan...",
@@ -1036,22 +1026,20 @@ export const C2_U3_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u3-b9-q7",
-      "type": "multiple-choice",
-      "question": "El profesor sugirió que los estudiantes __________ (investigar) sobre los diferentes aspectos de las subculturas urbanas.",
-      "options": [
-        "investigar",
-        "investiguen",
-        "investigan",
-        "investigaría"
-      ],
-      "correctAnswer": "investiguen",
-      "explanation": "El subjuntivo 'investiguen' se utiliza después de verbos como 'sugerir' para dar instrucciones.",
+      "startOfAnswer": "Start of answer",
+      "keyWord": "INVESTIGAR",
+      "sentence": "El profesor sugirió que los estudiantes investigaran sobre los diferentes aspectos de las subculturas urbanas.",
+      "type": "key-word-transformation",
+      "question": "El profesor sugirió que los estudiantes investigaran sobre los diferentes aspectos de las subculturas urbanas. (INVESTIGAR)\n\nStart of answer __________",
+      "correctAnswer": "investigaran",
+      "explanation": "El subjuntivo 'investigaran' se utiliza después de verbos como 'sugerir' para dar instrucciones.",
       "points": 1
     },
     {
       "id": "c2-u3-b9-q8",
-      "type": "fill-blank",
-      "question": "Recomiendan que las medidas __________ (tomar) sin demora para abordar los temas culturales.",
+      "sentence": "It is recommended that all safety measures be taken seriously.",
+      "type": "key-word-transformation",
+      "question": "It is recommended that all safety measures be taken seriously. ()\n\n __________",
       "correctAnswer": "se tomen",
       "explanation": "Se usa el subjuntivo 'se tomen' después del verbo 'recomiendan' para expresar necesidad.",
       "points": 1
@@ -1059,6 +1047,7 @@ export const C2_U3_BLOCK9: Exercise = {
     {
       "id": "c2-u3-b9-q9",
       "type": "key-word-transformation",
+      "question": "They demanded that she attend the cultural symposium. (EXIGIERON)\n\nExigieron que ella... __________",
       "sentence": "They demanded that she attend the cultural symposium.",
       "keyWord": "EXIGIERON",
       "startOfAnswer": "Exigieron que ella...",
@@ -1113,15 +1102,12 @@ export const C2_U3_BLOCK10: Exercise = {
     },
     {
       "id": "c2-u3-b10-q3",
-      "type": "multiple-choice",
-      "question": "Choose the sentence that uses the correct form of the subjunctive mood.",
-      "options": [
-        "I advise that he arrives early.",
-        "She demanded that he leave immediately.",
-        "The law requires that everyone is present.",
-        "He acts as if he was in charge."
-      ],
-      "correctAnswer": "She demanded that he leave immediately.",
+      "keyWord": "KEYWORD",
+      "sentence": "Choose the sentence that uses the correct form of the subjunctive mood.",
+      "startOfAnswer": "It is necessary that he",
+      "type": "key-word-transformation",
+      "question": "Choose the sentence that uses the correct form of the subjunctive mood. (KEYWORD)\n\nIt is necessary that he __________",
+      "correctAnswer": "leave",
       "explanation": "Se usa 'leave' como subjuntivo en lugar de 'leaves' después de 'demanded'.",
       "points": 1
     },
@@ -1144,24 +1130,22 @@ export const C2_U3_BLOCK10: Exercise = {
     {
       "id": "c2-u3-b10-q6",
       "type": "key-word-transformation",
+      "question": "He acts as if he owns the place, though he has no authority. (WERE)\n\nHe acts as if he were __________",
       "sentence": "He acts as if he owns the place, though he has no authority.",
       "keyWord": "WERE",
       "startOfAnswer": "He acts as if he were",
-      "correctAnswer": "He acts as if he were the owner, though he has no authority.",
+      "correctAnswer": "the owner, though he has no authority",
       "explanation": "Usamos 'were' en subjuntivo para expresar una situación hipotética.",
       "points": 1
     },
     {
       "id": "c2-u3-b10-q7",
-      "type": "multiple-choice",
-      "question": "Identify the sentence that correctly applies the subjunctive mood.",
-      "options": [
-        "If she was president, she would implement changes.",
-        "It is necessary that everyone attends the session.",
-        "I propose that each member contribute their ideas.",
-        "He requested that she is informed of the outcomes."
-      ],
-      "correctAnswer": "I propose that each member contribute their ideas.",
+      "keyWord": "KEYWORD",
+      "sentence": "Identify the sentence that correctly applies the subjunctive mood.",
+      "startOfAnswer": "I propose that each member",
+      "type": "key-word-transformation",
+      "question": "Identify the sentence that correctly applies the subjunctive mood. (KEYWORD)\n\nI propose that each member __________",
+      "correctAnswer": "contribute their ideas",
       "explanation": "Después de 'propose', se debe usar el subjuntivo 'contribute' en lugar de 'contributes'.",
       "points": 1
     },
@@ -1176,10 +1160,11 @@ export const C2_U3_BLOCK10: Exercise = {
     {
       "id": "c2-u3-b10-q9",
       "type": "key-word-transformation",
+      "question": "They suggested that the event be postponed until further notice. (SUGGESTION)\n\nTheir suggestion was __________",
       "sentence": "They suggested that the event be postponed until further notice.",
       "keyWord": "SUGGESTION",
       "startOfAnswer": "Their suggestion was",
-      "correctAnswer": "Their suggestion was that the event be postponed until further notice.",
+      "correctAnswer": "that the event be postponed until further notice",
       "explanation": "Es correcto usar el subjuntivo 'be' en lugar de 'is' después de 'suggestion'.",
       "points": 1
     },
@@ -1203,8 +1188,8 @@ export const C2_U3_BLOCK10: Exercise = {
 export const C2_UNIT_3 = createC2Unit(
   'c2-u3',
   'Societal Norms & Cultural Identity',
-  'Advanced C2 level practice on society-culture.',
-  ["reading","grammar","speaking"],
+  'Advanced C2 unit exploring complex topics and formal language structures.',
+  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
   [
     C2_U3_BLOCK1, C2_U3_BLOCK2, C2_U3_BLOCK3, C2_U3_BLOCK4, C2_U3_BLOCK5, C2_U3_BLOCK6, C2_U3_BLOCK7, C2_U3_BLOCK8, C2_U3_BLOCK9, C2_U3_BLOCK10
   ]

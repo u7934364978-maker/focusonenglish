@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'autobús'?",
           "options": [
-            { "id": "o1", "text": "Bus" },
-            { "id": "o2", "text": "Coach" },
-            { "id": "o3", "text": "Car" }
+            {
+              "id": "o1",
+              "text": "Bus"
+            },
+            {
+              "id": "o2",
+              "text": "Coach"
+            },
+            {
+              "id": "o3",
+              "text": "Car"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tren'?",
           "options": [
-            { "id": "o1", "text": "Train" },
-            { "id": "o2", "text": "Tram" },
-            { "id": "o3", "text": "Metro" }
+            {
+              "id": "o1",
+              "text": "Train"
+            },
+            {
+              "id": "o2",
+              "text": "Tram"
+            },
+            {
+              "id": "o3",
+              "text": "Metro"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'coche'?",
           "options": [
-            { "id": "o1", "text": "Car" },
-            { "id": "o2", "text": "Van" },
-            { "id": "o3", "text": "Bike" }
+            {
+              "id": "o1",
+              "text": "Car"
+            },
+            {
+              "id": "o2",
+              "text": "Van"
+            },
+            {
+              "id": "o3",
+              "text": "Bike"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bicicleta'?",
           "options": [
-            { "id": "o1", "text": "Bicycle / Bike" },
-            { "id": "o2", "text": "Motorbike" },
-            { "id": "o3", "text": "Scooter" }
+            {
+              "id": "o1",
+              "text": "Bicycle / Bike"
+            },
+            {
+              "id": "o2",
+              "text": "Motorbike"
+            },
+            {
+              "id": "o3",
+              "text": "Scooter"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'avión'?",
           "options": [
-            { "id": "o1", "text": "Plane / Airplane" },
-            { "id": "o2", "text": "Helicopter" },
-            { "id": "o3", "text": "Airport" }
+            {
+              "id": "o1",
+              "text": "Plane / Airplane"
+            },
+            {
+              "id": "o2",
+              "text": "Helicopter"
+            },
+            {
+              "id": "o3",
+              "text": "Airport"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'barco'?",
           "options": [
-            { "id": "o1", "text": "Boat" },
-            { "id": "o2", "text": "Ship" },
-            { "id": "o3", "text": "Canoe" }
+            {
+              "id": "o1",
+              "text": "Boat"
+            },
+            {
+              "id": "o2",
+              "text": "Ship"
+            },
+            {
+              "id": "o3",
+              "text": "Canoe"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'metro'?",
           "options": [
-            { "id": "o1", "text": "Underground (UK) / Subway (US) / Metro" },
-            { "id": "o2", "text": "Train" },
-            { "id": "o3", "text": "Overground" }
+            {
+              "id": "o1",
+              "text": "Underground (UK) / Subway (US) / Metro"
+            },
+            {
+              "id": "o2",
+              "text": "Train"
+            },
+            {
+              "id": "o3",
+              "text": "Overground"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'moto'?",
           "options": [
-            { "id": "o1", "text": "Motorbike / Motorcycle" },
-            { "id": "o2", "text": "Bike" },
-            { "id": "o3", "text": "Moped" }
+            {
+              "id": "o1",
+              "text": "Motorbike / Motorcycle"
+            },
+            {
+              "id": "o2",
+              "text": "Bike"
+            },
+            {
+              "id": "o3",
+              "text": "Moped"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'taxi'?",
           "options": [
-            { "id": "o1", "text": "Taxi / Cab" },
-            { "id": "o2", "text": "Car" },
-            { "id": "o3", "text": "Uber" }
+            {
+              "id": "o1",
+              "text": "Taxi / Cab"
+            },
+            {
+              "id": "o2",
+              "text": "Car"
+            },
+            {
+              "id": "o3",
+              "text": "Uber"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tranvía'?",
           "options": [
-            { "id": "o1", "text": "Tram" },
-            { "id": "o2", "text": "Train" },
-            { "id": "o3", "text": "Bus" }
+            {
+              "id": "o1",
+              "text": "Tram"
+            },
+            {
+              "id": "o2",
+              "text": "Train"
+            },
+            {
+              "id": "o3",
+              "text": "Bus"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,9 +227,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'camión'?",
           "options": [
-            { "id": "o1", "text": "Lorry (UK) / Truck (US)" },
-            { "id": "o2", "text": "Van" },
-            { "id": "o3", "text": "Pickup" }
+            {
+              "id": "o1",
+              "text": "Lorry (UK) / Truck (US)"
+            },
+            {
+              "id": "o2",
+              "text": "Van"
+            },
+            {
+              "id": "o3",
+              "text": "Pickup"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -149,9 +248,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'furgoneta'?",
           "options": [
-            { "id": "o1", "text": "Van" },
-            { "id": "o2", "text": "Truck" },
-            { "id": "o3", "text": "Car" }
+            {
+              "id": "o1",
+              "text": "Van"
+            },
+            {
+              "id": "o2",
+              "text": "Truck"
+            },
+            {
+              "id": "o3",
+              "text": "Car"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -161,9 +269,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'helicóptero'?",
           "options": [
-            { "id": "o1", "text": "Helicopter" },
-            { "id": "o2", "text": "Plane" },
-            { "id": "o3", "text": "Drone" }
+            {
+              "id": "o1",
+              "text": "Helicopter"
+            },
+            {
+              "id": "o2",
+              "text": "Plane"
+            },
+            {
+              "id": "o3",
+              "text": "Drone"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -173,9 +290,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ferry'?",
           "options": [
-            { "id": "o1", "text": "Ferry" },
-            { "id": "o2", "text": "Ship" },
-            { "id": "o3", "text": "Boat" }
+            {
+              "id": "o1",
+              "text": "Ferry"
+            },
+            {
+              "id": "o2",
+              "text": "Ship"
+            },
+            {
+              "id": "o3",
+              "text": "Boat"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -185,9 +311,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'patinete'?",
           "options": [
-            { "id": "o1", "text": "Scooter" },
-            { "id": "o2", "text": "Skateboard" },
-            { "id": "o3", "text": "Rollerblades" }
+            {
+              "id": "o1",
+              "text": "Scooter"
+            },
+            {
+              "id": "o2",
+              "text": "Skateboard"
+            },
+            {
+              "id": "o3",
+              "text": "Rollerblades"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -197,11 +332,27 @@
           "type": "matching",
           "prompt_es": "Une los transportes:",
           "pairs": [
-            { "id": "p1", "left": "Helicopter", "right": "Helicóptero" },
-            { "id": "p2", "left": "Van", "right": "Furgoneta" },
-            { "id": "p3", "left": "Truck", "right": "Camión" }
+            {
+              "id": "p1",
+              "left": "Helicopter",
+              "right": "Helicóptero"
+            },
+            {
+              "id": "p2",
+              "left": "Van",
+              "right": "Furgoneta"
+            },
+            {
+              "id": "p3",
+              "left": "Truck",
+              "right": "Camión"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -209,11 +360,27 @@
           "type": "matching",
           "prompt_es": "Une los transportes por aire, tierra y mar:",
           "pairs": [
-            { "id": "p1", "left": "Plane", "right": "Air" },
-            { "id": "p2", "left": "Car", "right": "Land" },
-            { "id": "p3", "left": "Ship", "right": "Sea" }
+            {
+              "id": "p1",
+              "left": "Plane",
+              "right": "Air"
+            },
+            {
+              "id": "p2",
+              "left": "Car",
+              "right": "Land"
+            },
+            {
+              "id": "p3",
+              "left": "Ship",
+              "right": "Sea"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -245,9 +412,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'viaje'?",
           "options": [
-            { "id": "o1", "text": "Trip / Journey" },
-            { "id": "o2", "text": "Travel" },
-            { "id": "o3", "text": "Way" }
+            {
+              "id": "o1",
+              "text": "Trip / Journey"
+            },
+            {
+              "id": "o2",
+              "text": "Travel"
+            },
+            {
+              "id": "o3",
+              "text": "Way"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -257,9 +433,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'viajar'?",
           "options": [
-            { "id": "o1", "text": "To travel" },
-            { "id": "o2", "text": "To trip" },
-            { "id": "o3", "text": "To journey" }
+            {
+              "id": "o1",
+              "text": "To travel"
+            },
+            {
+              "id": "o2",
+              "text": "To trip"
+            },
+            {
+              "id": "o3",
+              "text": "To journey"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -269,9 +454,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pasajero'?",
           "options": [
-            { "id": "o1", "text": "Passenger" },
-            { "id": "o2", "text": "Traveler" },
-            { "id": "o3", "text": "Client" }
+            {
+              "id": "o1",
+              "text": "Passenger"
+            },
+            {
+              "id": "o2",
+              "text": "Traveler"
+            },
+            {
+              "id": "o3",
+              "text": "Client"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -281,9 +475,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'conductor'?",
           "options": [
-            { "id": "o1", "text": "Driver" },
-            { "id": "o2", "text": "Pilot" },
-            { "id": "o3", "text": "Captain" }
+            {
+              "id": "o1",
+              "text": "Driver"
+            },
+            {
+              "id": "o2",
+              "text": "Pilot"
+            },
+            {
+              "id": "o3",
+              "text": "Captain"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -293,9 +496,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'piloto'?",
           "options": [
-            { "id": "o1", "text": "Pilot" },
-            { "id": "o2", "text": "Driver" },
-            { "id": "o3", "text": "Airman" }
+            {
+              "id": "o1",
+              "text": "Pilot"
+            },
+            {
+              "id": "o2",
+              "text": "Driver"
+            },
+            {
+              "id": "o3",
+              "text": "Airman"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -311,9 +523,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué preposición usamos para decir 'en coche'? (Excepto si estamos dentro)",
           "options": [
-            { "id": "o1", "text": "By" },
-            { "id": "o2", "text": "In" },
-            { "id": "o3", "text": "On" }
+            {
+              "id": "o1",
+              "text": "By"
+            },
+            {
+              "id": "o2",
+              "text": "In"
+            },
+            {
+              "id": "o3",
+              "text": "On"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -323,10 +544,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'a pie'? (Andando)",
           "options": [
-            { "id": "o1", "text": "On foot" },
-            { "id": "o2", "text": "By foot" },
-            { "id": "o3", "text": "Walking" },
-            { "id": "o4", "text": "A and C are correct" }
+            {
+              "id": "o1",
+              "text": "On foot"
+            },
+            {
+              "id": "o2",
+              "text": "By foot"
+            },
+            {
+              "id": "o3",
+              "text": "Walking"
+            },
+            {
+              "id": "o4",
+              "text": "A and C are correct"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -336,9 +569,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'subir al autobús'?",
           "options": [
-            { "id": "o1", "text": "Get on the bus" },
-            { "id": "o2", "text": "Get in the bus" },
-            { "id": "o3", "text": "Up the bus" }
+            {
+              "id": "o1",
+              "text": "Get on the bus"
+            },
+            {
+              "id": "o2",
+              "text": "Get in the bus"
+            },
+            {
+              "id": "o3",
+              "text": "Up the bus"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -348,9 +590,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bajar del autobús'?",
           "options": [
-            { "id": "o1", "text": "Get off the bus" },
-            { "id": "o2", "text": "Get out the bus" },
-            { "id": "o3", "text": "Down the bus" }
+            {
+              "id": "o1",
+              "text": "Get off the bus"
+            },
+            {
+              "id": "o2",
+              "text": "Get out the bus"
+            },
+            {
+              "id": "o3",
+              "text": "Down the bus"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -360,9 +611,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'entrar en el coche'?",
           "options": [
-            { "id": "o1", "text": "Get in the car" },
-            { "id": "o2", "text": "Get on the car" },
-            { "id": "o3", "text": "Enter the car" }
+            {
+              "id": "o1",
+              "text": "Get in the car"
+            },
+            {
+              "id": "o2",
+              "text": "Get on the car"
+            },
+            {
+              "id": "o3",
+              "text": "Enter the car"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -372,9 +632,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'salir del coche'?",
           "options": [
-            { "id": "o1", "text": "Get out of the car" },
-            { "id": "o2", "text": "Get off the car" },
-            { "id": "o3", "text": "Exit the car" }
+            {
+              "id": "o1",
+              "text": "Get out of the car"
+            },
+            {
+              "id": "o2",
+              "text": "Get off the car"
+            },
+            {
+              "id": "o3",
+              "text": "Exit the car"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -384,9 +653,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué verbo usamos para una bicicleta?",
           "options": [
-            { "id": "o1", "text": "Ride" },
-            { "id": "o2", "text": "Drive" },
-            { "id": "o3", "text": "Fly" }
+            {
+              "id": "o1",
+              "text": "Ride"
+            },
+            {
+              "id": "o2",
+              "text": "Drive"
+            },
+            {
+              "id": "o3",
+              "text": "Fly"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -396,9 +674,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué verbo usamos para un coche?",
           "options": [
-            { "id": "o1", "text": "Drive" },
-            { "id": "o2", "text": "Ride" },
-            { "id": "o3", "text": "Sail" }
+            {
+              "id": "o1",
+              "text": "Drive"
+            },
+            {
+              "id": "o2",
+              "text": "Ride"
+            },
+            {
+              "id": "o3",
+              "text": "Sail"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -408,9 +695,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué verbo usamos para un avión?",
           "options": [
-            { "id": "o1", "text": "Fly" },
-            { "id": "o2", "text": "Drive" },
-            { "id": "o3", "text": "Ride" }
+            {
+              "id": "o1",
+              "text": "Fly"
+            },
+            {
+              "id": "o2",
+              "text": "Drive"
+            },
+            {
+              "id": "o3",
+              "text": "Ride"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -420,9 +716,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué verbo usamos para un barco?",
           "options": [
-            { "id": "o1", "text": "Sail" },
-            { "id": "o2", "text": "Fly" },
-            { "id": "o3", "text": "Drive" }
+            {
+              "id": "o1",
+              "text": "Sail"
+            },
+            {
+              "id": "o2",
+              "text": "Fly"
+            },
+            {
+              "id": "o3",
+              "text": "Drive"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -456,14 +761,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'yo voy al trabajo en tren'",
           "options": [
-            { "id": "w1", "text": "go" },
-            { "id": "w2", "text": "to" },
-            { "id": "w3", "text": "work" },
-            { "id": "w4", "text": "I" },
-            { "id": "w5", "text": "train" },
-            { "id": "w6", "text": "by" }
+            {
+              "id": "w1",
+              "text": "go"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "work"
+            },
+            {
+              "id": "w4",
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "train"
+            },
+            {
+              "id": "w6",
+              "text": "by"
+            }
           ],
-          "correct_answer": ["w4", "w1", "w2", "w3", "w6", "w5"],
+          "correct_answer": [
+            "w4",
+            "w1",
+            "w2",
+            "w3",
+            "w6",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -471,13 +801,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'él sube al autobús'",
           "options": [
-            { "id": "w1", "text": "gets" },
-            { "id": "w2", "text": "the" },
-            { "id": "w3", "text": "He" },
-            { "id": "w4", "text": "on" },
-            { "id": "w5", "text": "bus" }
+            {
+              "id": "w1",
+              "text": "gets"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "He"
+            },
+            {
+              "id": "w4",
+              "text": "on"
+            },
+            {
+              "id": "w5",
+              "text": "bus"
+            }
           ],
-          "correct_answer": ["w3", "w1", "w4", "w2", "w5"],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -485,10 +836,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'llegar a'?",
           "options": [
-            { "id": "o1", "text": "To arrive at / in" },
-            { "id": "o2", "text": "To reach" },
-            { "id": "o3", "text": "To get to" },
-            { "id": "o4", "text": "All of the above" }
+            {
+              "id": "o1",
+              "text": "To arrive at / in"
+            },
+            {
+              "id": "o2",
+              "text": "To reach"
+            },
+            {
+              "id": "o3",
+              "text": "To get to"
+            },
+            {
+              "id": "o4",
+              "text": "All of the above"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -498,9 +861,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'salir / partir'?",
           "options": [
-            { "id": "o1", "text": "To leave / To depart" },
-            { "id": "o2", "text": "To out" },
-            { "id": "o3", "text": "To go away" }
+            {
+              "id": "o1",
+              "text": "To leave / To depart"
+            },
+            {
+              "id": "o2",
+              "text": "To out"
+            },
+            {
+              "id": "o3",
+              "text": "To go away"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -510,9 +882,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'perder el tren'?",
           "options": [
-            { "id": "o1", "text": "To miss the train" },
-            { "id": "o2", "text": "To lose the train" },
-            { "id": "o3", "text": "To fail the train" }
+            {
+              "id": "o1",
+              "text": "To miss the train"
+            },
+            {
+              "id": "o2",
+              "text": "To lose the train"
+            },
+            {
+              "id": "o3",
+              "text": "To fail the train"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -522,9 +903,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'coger el tren'?",
           "options": [
-            { "id": "o1", "text": "To catch the train" },
-            { "id": "o2", "text": "To take the train" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "To catch the train"
+            },
+            {
+              "id": "o2",
+              "text": "To take the train"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -534,9 +924,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'parada de autobús'?",
           "options": [
-            { "id": "o1", "text": "Bus stop" },
-            { "id": "o2", "text": "Bus station" },
-            { "id": "o3", "text": "Bus park" }
+            {
+              "id": "o1",
+              "text": "Bus stop"
+            },
+            {
+              "id": "o2",
+              "text": "Bus station"
+            },
+            {
+              "id": "o3",
+              "text": "Bus park"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -546,9 +945,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'andén'?",
           "options": [
-            { "id": "o1", "text": "Platform" },
-            { "id": "o2", "text": "Track" },
-            { "id": "o3", "text": "Station" }
+            {
+              "id": "o1",
+              "text": "Platform"
+            },
+            {
+              "id": "o2",
+              "text": "Track"
+            },
+            {
+              "id": "o3",
+              "text": "Station"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -558,9 +966,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'billete / boleto'?",
           "options": [
-            { "id": "o1", "text": "Ticket" },
-            { "id": "o2", "text": "Note" },
-            { "id": "o3", "text": "Pass" }
+            {
+              "id": "o1",
+              "text": "Ticket"
+            },
+            {
+              "id": "o2",
+              "text": "Note"
+            },
+            {
+              "id": "o3",
+              "text": "Pass"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -570,9 +987,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'billete de ida'?",
           "options": [
-            { "id": "o1", "text": "Single ticket / One-way ticket" },
-            { "id": "o2", "text": "Only way ticket" },
-            { "id": "o3", "text": "Go ticket" }
+            {
+              "id": "o1",
+              "text": "Single ticket / One-way ticket"
+            },
+            {
+              "id": "o2",
+              "text": "Only way ticket"
+            },
+            {
+              "id": "o3",
+              "text": "Go ticket"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -582,9 +1008,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'billete de ida y vuelta'?",
           "options": [
-            { "id": "o1", "text": "Return ticket / Round-trip ticket" },
-            { "id": "o2", "text": "Go and back ticket" },
-            { "id": "o3", "text": "Double ticket" }
+            {
+              "id": "o1",
+              "text": "Return ticket / Round-trip ticket"
+            },
+            {
+              "id": "o2",
+              "text": "Go and back ticket"
+            },
+            {
+              "id": "o3",
+              "text": "Double ticket"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -594,9 +1029,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'horario'?",
           "options": [
-            { "id": "o1", "text": "Timetable / Schedule" },
-            { "id": "o2", "text": "Hour table" },
-            { "id": "o3", "text": "Time list" }
+            {
+              "id": "o1",
+              "text": "Timetable / Schedule"
+            },
+            {
+              "id": "o2",
+              "text": "Hour table"
+            },
+            {
+              "id": "o3",
+              "text": "Time list"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -612,9 +1056,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿A qué hora sale el tren?'?",
           "options": [
-            { "id": "o1", "text": "What time does the train leave?" },
-            { "id": "o2", "text": "When the train goes?" },
-            { "id": "o3", "text": "What hour leaves the train?" }
+            {
+              "id": "o1",
+              "text": "What time does the train leave?"
+            },
+            {
+              "id": "o2",
+              "text": "When the train goes?"
+            },
+            {
+              "id": "o3",
+              "text": "What hour leaves the train?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -624,9 +1077,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Cuánto cuesta un billete a Londres?'?",
           "options": [
-            { "id": "o1", "text": "How much is a ticket to London?" },
-            { "id": "o2", "text": "How many price a ticket?" },
-            { "id": "o3", "text": "Price to London ticket?" }
+            {
+              "id": "o1",
+              "text": "How much is a ticket to London?"
+            },
+            {
+              "id": "o2",
+              "text": "How many price a ticket?"
+            },
+            {
+              "id": "o3",
+              "text": "Price to London ticket?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -636,9 +1098,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Un billete de ida a Manchester, por favor'?",
           "options": [
-            { "id": "o1", "text": "A single ticket to Manchester, please." },
-            { "id": "o2", "text": "One way Manchester please." },
-            { "id": "o3", "text": "Go Manchester ticket please." }
+            {
+              "id": "o1",
+              "text": "A single ticket to Manchester, please."
+            },
+            {
+              "id": "o2",
+              "text": "One way Manchester please."
+            },
+            {
+              "id": "o3",
+              "text": "Go Manchester ticket please."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -648,9 +1119,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'The train is delayed'?",
           "options": [
-            { "id": "o1", "text": "El tren está retrasado" },
-            { "id": "o2", "text": "El tren está cancelado" },
-            { "id": "o3", "text": "El tren es puntual" }
+            {
+              "id": "o1",
+              "text": "El tren está retrasado"
+            },
+            {
+              "id": "o2",
+              "text": "El tren está cancelado"
+            },
+            {
+              "id": "o3",
+              "text": "El tren es puntual"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -660,9 +1140,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'The flight is cancelled'?",
           "options": [
-            { "id": "o1", "text": "El vuelo está cancelado" },
-            { "id": "o2", "text": "El vuelo tiene retraso" },
-            { "id": "o3", "text": "El vuelo ha llegado" }
+            {
+              "id": "o1",
+              "text": "El vuelo está cancelado"
+            },
+            {
+              "id": "o2",
+              "text": "El vuelo tiene retraso"
+            },
+            {
+              "id": "o3",
+              "text": "El vuelo ha llegado"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -672,9 +1161,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices '¿Es este el autobús para el centro?'?",
           "options": [
-            { "id": "o1", "text": "Is this the bus for the city center?" },
-            { "id": "o2", "text": "This is bus center?" },
-            { "id": "o3", "text": "Bus for center here?" }
+            {
+              "id": "o1",
+              "text": "Is this the bus for the city center?"
+            },
+            {
+              "id": "o2",
+              "text": "This is bus center?"
+            },
+            {
+              "id": "o3",
+              "text": "Bus for center here?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -684,9 +1182,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Dónde está la parada de taxis?'?",
           "options": [
-            { "id": "o1", "text": "Where is the taxi rank / stand?" },
-            { "id": "o2", "text": "Where is the taxi stop?" },
-            { "id": "o3", "text": "Taxi place where?" }
+            {
+              "id": "o1",
+              "text": "Where is the taxi rank / stand?"
+            },
+            {
+              "id": "o2",
+              "text": "Where is the taxi stop?"
+            },
+            {
+              "id": "o3",
+              "text": "Taxi place where?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -696,9 +1203,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gasolina'?",
           "options": [
-            { "id": "o1", "text": "Petrol (UK) / Gas (US)" },
-            { "id": "o2", "text": "Fuel" },
-            { "id": "o3", "text": "Oil" }
+            {
+              "id": "o1",
+              "text": "Petrol (UK) / Gas (US)"
+            },
+            {
+              "id": "o2",
+              "text": "Fuel"
+            },
+            {
+              "id": "o3",
+              "text": "Oil"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -708,9 +1224,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'carretera'?",
           "options": [
-            { "id": "o1", "text": "Road" },
-            { "id": "o2", "text": "Way" },
-            { "id": "o3", "text": "Street" }
+            {
+              "id": "o1",
+              "text": "Road"
+            },
+            {
+              "id": "o2",
+              "text": "Way"
+            },
+            {
+              "id": "o3",
+              "text": "Street"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -720,9 +1245,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'autopista'?",
           "options": [
-            { "id": "o1", "text": "Motorway (UK) / Highway (US)" },
-            { "id": "o2", "text": "Fast road" },
-            { "id": "o3", "text": "Big street" }
+            {
+              "id": "o1",
+              "text": "Motorway (UK) / Highway (US)"
+            },
+            {
+              "id": "o2",
+              "text": "Fast road"
+            },
+            {
+              "id": "o3",
+              "text": "Big street"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -732,9 +1266,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bicicleta de montaña'?",
           "options": [
-            { "id": "o1", "text": "Mountain bike" },
-            { "id": "o2", "text": "Hill bike" },
-            { "id": "o3", "text": "Sport bike" }
+            {
+              "id": "o1",
+              "text": "Mountain bike"
+            },
+            {
+              "id": "o2",
+              "text": "Hill bike"
+            },
+            {
+              "id": "o3",
+              "text": "Sport bike"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -744,9 +1287,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'crucero'?",
           "options": [
-            { "id": "o1", "text": "Cruise" },
-            { "id": "o2", "text": "Big boat" },
-            { "id": "o3", "text": "Holiday ship" }
+            {
+              "id": "o1",
+              "text": "Cruise"
+            },
+            {
+              "id": "o2",
+              "text": "Big boat"
+            },
+            {
+              "id": "o3",
+              "text": "Holiday ship"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -756,9 +1308,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vuelo'?",
           "options": [
-            { "id": "o1", "text": "Flight" },
-            { "id": "o2", "text": "Fly" },
-            { "id": "o3", "text": "Plane trip" }
+            {
+              "id": "o1",
+              "text": "Flight"
+            },
+            {
+              "id": "o2",
+              "text": "Fly"
+            },
+            {
+              "id": "o3",
+              "text": "Plane trip"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -768,9 +1329,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'puerto'?",
           "options": [
-            { "id": "o1", "text": "Port / Harbour" },
-            { "id": "o2", "text": "Ship station" },
-            { "id": "o3", "text": "Dock" }
+            {
+              "id": "o1",
+              "text": "Port / Harbour"
+            },
+            {
+              "id": "o2",
+              "text": "Ship station"
+            },
+            {
+              "id": "o3",
+              "text": "Dock"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -780,9 +1350,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'casco'?",
           "options": [
-            { "id": "o1", "text": "Helmet" },
-            { "id": "o2", "text": "Head protector" },
-            { "id": "o3", "text": "Hat" }
+            {
+              "id": "o1",
+              "text": "Helmet"
+            },
+            {
+              "id": "o2",
+              "text": "Head protector"
+            },
+            {
+              "id": "o3",
+              "text": "Hat"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -792,9 +1371,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cinturón de seguridad'?",
           "options": [
-            { "id": "o1", "text": "Seat belt" },
-            { "id": "o2", "text": "Safety belt" },
-            { "id": "o3", "text": "Car belt" }
+            {
+              "id": "o1",
+              "text": "Seat belt"
+            },
+            {
+              "id": "o2",
+              "text": "Safety belt"
+            },
+            {
+              "id": "o3",
+              "text": "Car belt"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -804,9 +1392,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'permiso de conducir'?",
           "options": [
-            { "id": "o1", "text": "Driving licence (UK) / Driver's license (US)" },
-            { "id": "o2", "text": "Driving card" },
-            { "id": "o3", "text": "Car permission" }
+            {
+              "id": "o1",
+              "text": "Driving licence (UK) / Driver's license (US)"
+            },
+            {
+              "id": "o2",
+              "text": "Driving card"
+            },
+            {
+              "id": "o3",
+              "text": "Car permission"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -816,9 +1413,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tráfico'?",
           "options": [
-            { "id": "o1", "text": "Traffic" },
-            { "id": "o2", "text": "Cars" },
-            { "id": "o3", "text": "Crowd" }
+            {
+              "id": "o1",
+              "text": "Traffic"
+            },
+            {
+              "id": "o2",
+              "text": "Cars"
+            },
+            {
+              "id": "o3",
+              "text": "Crowd"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -828,9 +1434,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'atasco'?",
           "options": [
-            { "id": "o1", "text": "Traffic jam" },
-            { "id": "o2", "text": "Car stop" },
-            { "id": "o3", "text": "Road block" }
+            {
+              "id": "o1",
+              "text": "Traffic jam"
+            },
+            {
+              "id": "o2",
+              "text": "Car stop"
+            },
+            {
+              "id": "o3",
+              "text": "Road block"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -840,9 +1455,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'rápido'?",
           "options": [
-            { "id": "o1", "text": "Fast / Quick" },
-            { "id": "o2", "text": "Slow" },
-            { "id": "o3", "text": "Busy" }
+            {
+              "id": "o1",
+              "text": "Fast / Quick"
+            },
+            {
+              "id": "o2",
+              "text": "Slow"
+            },
+            {
+              "id": "o3",
+              "text": "Busy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -852,9 +1476,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lento'?",
           "options": [
-            { "id": "o1", "text": "Slow" },
-            { "id": "o2", "text": "Fast" },
-            { "id": "o3", "text": "Easy" }
+            {
+              "id": "o1",
+              "text": "Slow"
+            },
+            {
+              "id": "o2",
+              "text": "Fast"
+            },
+            {
+              "id": "o3",
+              "text": "Easy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -864,9 +1497,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'barato'?",
           "options": [
-            { "id": "o1", "text": "Cheap" },
-            { "id": "o2", "text": "Expensive" },
-            { "id": "o3", "text": "Good" }
+            {
+              "id": "o1",
+              "text": "Cheap"
+            },
+            {
+              "id": "o2",
+              "text": "Expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Good"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -876,9 +1518,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'caro'?",
           "options": [
-            { "id": "o1", "text": "Expensive" },
-            { "id": "o2", "text": "Cheap" },
-            { "id": "o3", "text": "High" }
+            {
+              "id": "o1",
+              "text": "Expensive"
+            },
+            {
+              "id": "o2",
+              "text": "Cheap"
+            },
+            {
+              "id": "o3",
+              "text": "High"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -909,31 +1560,138 @@
           "interaction_id": "U12_I76",
           "type": "word-search",
           "prompt_es": "Encuentra medios de transporte:",
-          "words": ["PLANE", "TRAIN", "BUS", "CAR", "BOAT", "BIKE", "TAXI", "SHIP", "VAN", "TRAM"],
+          "words": [
+            "PLANE",
+            "TRAIN",
+            "BUS",
+            "CAR",
+            "BOAT",
+            "BIKE",
+            "TAXI",
+            "SHIP",
+            "VAN",
+            "TRAM"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "PLANE", "clue": "Avión" },
-            { "word": "TRAIN", "clue": "Tren" },
-            { "word": "BUS", "clue": "Autobús" },
-            { "word": "CAR", "clue": "Coche" },
-            { "word": "BOAT", "clue": "Barco" },
-            { "word": "BIKE", "clue": "Bici" },
-            { "word": "TAXI", "clue": "Taxi" },
-            { "word": "SHIP", "clue": "Barco grande" },
-            { "word": "VAN", "clue": "Furgoneta" },
-            { "word": "TRAM", "clue": "Tranvía" }
+            {
+              "word": "PLANE",
+              "clue": "Avión"
+            },
+            {
+              "word": "TRAIN",
+              "clue": "Tren"
+            },
+            {
+              "word": "BUS",
+              "clue": "Autobús"
+            },
+            {
+              "word": "CAR",
+              "clue": "Coche"
+            },
+            {
+              "word": "BOAT",
+              "clue": "Barco"
+            },
+            {
+              "word": "BIKE",
+              "clue": "Bici"
+            },
+            {
+              "word": "TAXI",
+              "clue": "Taxi"
+            },
+            {
+              "word": "SHIP",
+              "clue": "Barco grande"
+            },
+            {
+              "word": "VAN",
+              "clue": "Furgoneta"
+            },
+            {
+              "word": "TRAM",
+              "clue": "Tranvía"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U12_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de transporte:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "DRIVE", "clue": "What you do with a car", "direction": "across", "row": 0, "col": 0 },
-            { "word": "RIDE", "clue": "What you do with a bike", "direction": "down", "row": 0, "col": 1 },
-            { "word": "FAST", "clue": "Opposite of slow", "direction": "across", "row": 2, "col": 0 },
-            { "word": "SHIP", "clue": "Large boat", "direction": "down", "row": 0, "col": 3 }
+            {
+              "word": "HELICOPTER",
+              "clue": "Traducción de: Helicóptero",
+              "direction": "across",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "PASSENGER",
+              "clue": "Traducción de: pasajero",
+              "direction": "down",
+              "row": 10,
+              "col": 11
+            },
+            {
+              "word": "SECURITY",
+              "clue": "Traducción de: seguridad",
+              "direction": "down",
+              "row": 5,
+              "col": 8
+            },
+            {
+              "word": "CUSTOMS",
+              "clue": "Traducción de: aduana",
+              "direction": "across",
+              "row": 5,
+              "col": 6
+            },
+            {
+              "word": "TICKET",
+              "clue": "Traducción de: billete / boleto",
+              "direction": "down",
+              "row": 3,
+              "col": 6
+            },
+            {
+              "word": "ARRIVE",
+              "clue": "Traducción de: Llegar",
+              "direction": "down",
+              "row": 9,
+              "col": 14
+            },
+            {
+              "word": "TRAIN",
+              "clue": "Traducción de: tren",
+              "direction": "across",
+              "row": 18,
+              "col": 10
+            },
+            {
+              "word": "FERRY",
+              "clue": "Traducción de: ferry",
+              "direction": "across",
+              "row": 12,
+              "col": 4
+            },
+            {
+              "word": "TRUCK",
+              "clue": "Traducción de: Camión",
+              "direction": "across",
+              "row": 3,
+              "col": 6
+            },
+            {
+              "word": "CAR",
+              "clue": "Traducción de: Land",
+              "direction": "down",
+              "row": 1,
+              "col": 7
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -942,11 +1700,27 @@
           "type": "matching",
           "prompt_es": "Une las acciones:",
           "pairs": [
-            { "id": "p1", "left": "Get on", "right": "Subir" },
-            { "id": "p2", "left": "Get off", "right": "Bajar" },
-            { "id": "p3", "left": "Arrive", "right": "Llegar" }
+            {
+              "id": "p1",
+              "left": "Get on",
+              "right": "Subir"
+            },
+            {
+              "id": "p2",
+              "left": "Get off",
+              "right": "Bajar"
+            },
+            {
+              "id": "p3",
+              "left": "Arrive",
+              "right": "Llegar"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -970,9 +1744,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'en el centro'?",
           "options": [
-            { "id": "o1", "text": "In the center" },
-            { "id": "o2", "text": "On the center" },
-            { "id": "o3", "text": "At the center" }
+            {
+              "id": "o1",
+              "text": "In the center"
+            },
+            {
+              "id": "o2",
+              "text": "On the center"
+            },
+            {
+              "id": "o3",
+              "text": "At the center"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -982,9 +1765,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'alrededor de la ciudad'?",
           "options": [
-            { "id": "o1", "text": "Around the city" },
-            { "id": "o2", "text": "About the city" },
-            { "id": "o3", "text": "Near the city" }
+            {
+              "id": "o1",
+              "text": "Around the city"
+            },
+            {
+              "id": "o2",
+              "text": "About the city"
+            },
+            {
+              "id": "o3",
+              "text": "Near the city"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -994,10 +1786,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cambiar de tren'?",
           "options": [
-            { "id": "o1", "text": "To change trains" },
-            { "id": "o2", "text": "To move trains" },
-            { "id": "o3", "text": "To switch trains" },
-            { "id": "o4", "text": "All except B" }
+            {
+              "id": "o1",
+              "text": "To change trains"
+            },
+            {
+              "id": "o2",
+              "text": "To move trains"
+            },
+            {
+              "id": "o3",
+              "text": "To switch trains"
+            },
+            {
+              "id": "o4",
+              "text": "All except B"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -1007,9 +1811,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'puerta de embarque'?",
           "options": [
-            { "id": "o1", "text": "Gate" },
-            { "id": "o2", "text": "Door" },
-            { "id": "o3", "text": "Entrance" }
+            {
+              "id": "o1",
+              "text": "Gate"
+            },
+            {
+              "id": "o2",
+              "text": "Door"
+            },
+            {
+              "id": "o3",
+              "text": "Entrance"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1019,9 +1832,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'control de pasaportes'?",
           "options": [
-            { "id": "o1", "text": "Passport control" },
-            { "id": "o2", "text": "Passport check" },
-            { "id": "o3", "text": "Border control" }
+            {
+              "id": "o1",
+              "text": "Passport control"
+            },
+            {
+              "id": "o2",
+              "text": "Passport check"
+            },
+            {
+              "id": "o3",
+              "text": "Border control"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1031,9 +1853,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'equipaje'?",
           "options": [
-            { "id": "o1", "text": "Luggage / Baggage" },
-            { "id": "o2", "text": "Bags" },
-            { "id": "o3", "text": "Suitcases" }
+            {
+              "id": "o1",
+              "text": "Luggage / Baggage"
+            },
+            {
+              "id": "o2",
+              "text": "Bags"
+            },
+            {
+              "id": "o3",
+              "text": "Suitcases"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1043,9 +1874,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'maleta'?",
           "options": [
-            { "id": "o1", "text": "Suitcase" },
-            { "id": "o2", "text": "Case" },
-            { "id": "o3", "text": "Bag" }
+            {
+              "id": "o1",
+              "text": "Suitcase"
+            },
+            {
+              "id": "o2",
+              "text": "Case"
+            },
+            {
+              "id": "o3",
+              "text": "Bag"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1055,9 +1895,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mochila'?",
           "options": [
-            { "id": "o1", "text": "Backpack / Rucksack" },
-            { "id": "o2", "text": "Bag" },
-            { "id": "o3", "text": "Shoulder bag" }
+            {
+              "id": "o1",
+              "text": "Backpack / Rucksack"
+            },
+            {
+              "id": "o2",
+              "text": "Bag"
+            },
+            {
+              "id": "o3",
+              "text": "Shoulder bag"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1067,9 +1916,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aduana'?",
           "options": [
-            { "id": "o1", "text": "Customs" },
-            { "id": "o2", "text": "Border" },
-            { "id": "o3", "text": "Tax office" }
+            {
+              "id": "o1",
+              "text": "Customs"
+            },
+            {
+              "id": "o2",
+              "text": "Border"
+            },
+            {
+              "id": "o3",
+              "text": "Tax office"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1079,9 +1937,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'seguridad' (en el aeropuerto)?",
           "options": [
-            { "id": "o1", "text": "Security" },
-            { "id": "o2", "text": "Safety" },
-            { "id": "o3", "text": "Control" }
+            {
+              "id": "o1",
+              "text": "Security"
+            },
+            {
+              "id": "o2",
+              "text": "Safety"
+            },
+            {
+              "id": "o3",
+              "text": "Control"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1091,9 +1958,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'recogida de equipajes'?",
           "options": [
-            { "id": "o1", "text": "Baggage reclaim" },
-            { "id": "o2", "text": "Luggage pick-up" },
-            { "id": "o3", "text": "Bag collect" }
+            {
+              "id": "o1",
+              "text": "Baggage reclaim"
+            },
+            {
+              "id": "o2",
+              "text": "Luggage pick-up"
+            },
+            {
+              "id": "o3",
+              "text": "Bag collect"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1103,9 +1979,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'facturar equipaje'?",
           "options": [
-            { "id": "o1", "text": "To check in luggage" },
-            { "id": "o2", "text": "To bill luggage" },
-            { "id": "o3", "text": "To weigh luggage" }
+            {
+              "id": "o1",
+              "text": "To check in luggage"
+            },
+            {
+              "id": "o2",
+              "text": "To bill luggage"
+            },
+            {
+              "id": "o3",
+              "text": "To weigh luggage"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1115,9 +2000,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tarjeta de embarque'?",
           "options": [
-            { "id": "o1", "text": "Boarding pass" },
-            { "id": "o2", "text": "Embarcation card" },
-            { "id": "o3", "text": "Plane ticket" }
+            {
+              "id": "o1",
+              "text": "Boarding pass"
+            },
+            {
+              "id": "o2",
+              "text": "Embarcation card"
+            },
+            {
+              "id": "o3",
+              "text": "Plane ticket"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1127,9 +2021,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'despegar'?",
           "options": [
-            { "id": "o1", "text": "To take off" },
-            { "id": "o2", "text": "To fly up" },
-            { "id": "o3", "text": "To go up" }
+            {
+              "id": "o1",
+              "text": "To take off"
+            },
+            {
+              "id": "o2",
+              "text": "To fly up"
+            },
+            {
+              "id": "o3",
+              "text": "To go up"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1139,9 +2042,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aterrizar'?",
           "options": [
-            { "id": "o1", "text": "To land" },
-            { "id": "o2", "text": "To ground" },
-            { "id": "o3", "text": "To arrive" }
+            {
+              "id": "o1",
+              "text": "To land"
+            },
+            {
+              "id": "o2",
+              "text": "To ground"
+            },
+            {
+              "id": "o3",
+              "text": "To arrive"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1151,9 +2063,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vuelo directo'?",
           "options": [
-            { "id": "o1", "text": "Direct flight / Non-stop flight" },
-            { "id": "o2", "text": "Straight flight" },
-            { "id": "o3", "text": "Fast flight" }
+            {
+              "id": "o1",
+              "text": "Direct flight / Non-stop flight"
+            },
+            {
+              "id": "o2",
+              "text": "Straight flight"
+            },
+            {
+              "id": "o3",
+              "text": "Fast flight"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1163,9 +2084,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'escala'?",
           "options": [
-            { "id": "o1", "text": "Stopover / Layover" },
-            { "id": "o2", "text": "Scale" },
-            { "id": "o3", "text": "Pause" }
+            {
+              "id": "o1",
+              "text": "Stopover / Layover"
+            },
+            {
+              "id": "o2",
+              "text": "Scale"
+            },
+            {
+              "id": "o3",
+              "text": "Pause"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1175,9 +2105,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'primera clase'?",
           "options": [
-            { "id": "o1", "text": "First class" },
-            { "id": "o2", "text": "Best class" },
-            { "id": "o3", "text": "Top class" }
+            {
+              "id": "o1",
+              "text": "First class"
+            },
+            {
+              "id": "o2",
+              "text": "Best class"
+            },
+            {
+              "id": "o3",
+              "text": "Top class"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1187,9 +2126,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'clase turista'?",
           "options": [
-            { "id": "o1", "text": "Economy class / Coach" },
-            { "id": "o2", "text": "Tourist class" },
-            { "id": "o3", "text": "Normal class" }
+            {
+              "id": "o1",
+              "text": "Economy class / Coach"
+            },
+            {
+              "id": "o2",
+              "text": "Tourist class"
+            },
+            {
+              "id": "o3",
+              "text": "Normal class"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1199,9 +2147,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ventana o pasillo'?",
           "options": [
-            { "id": "o1", "text": "Window or aisle" },
-            { "id": "o2", "text": "Window or hall" },
-            { "id": "o3", "text": "Outside or inside" }
+            {
+              "id": "o1",
+              "text": "Window or aisle"
+            },
+            {
+              "id": "o2",
+              "text": "Window or hall"
+            },
+            {
+              "id": "o3",
+              "text": "Outside or inside"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"

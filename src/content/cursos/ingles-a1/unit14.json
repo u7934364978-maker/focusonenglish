@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'profesor'?",
           "options": [
-            { "id": "o1", "text": "Teacher" },
-            { "id": "o2", "text": "Student" },
-            { "id": "o3", "text": "Classroom" }
+            {
+              "id": "o1",
+              "text": "Teacher"
+            },
+            {
+              "id": "o2",
+              "text": "Student"
+            },
+            {
+              "id": "o3",
+              "text": "Classroom"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'médico'?",
           "options": [
-            { "id": "o1", "text": "Doctor" },
-            { "id": "o2", "text": "Nurse" },
-            { "id": "o3", "text": "Hospital" }
+            {
+              "id": "o1",
+              "text": "Doctor"
+            },
+            {
+              "id": "o2",
+              "text": "Nurse"
+            },
+            {
+              "id": "o3",
+              "text": "Hospital"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'enfermero'?",
           "options": [
-            { "id": "o1", "text": "Nurse" },
-            { "id": "o2", "text": "Doctor" },
-            { "id": "o3", "text": "Sick person" }
+            {
+              "id": "o1",
+              "text": "Nurse"
+            },
+            {
+              "id": "o2",
+              "text": "Doctor"
+            },
+            {
+              "id": "o3",
+              "text": "Sick person"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ingeniero'?",
           "options": [
-            { "id": "o1", "text": "Engineer" },
-            { "id": "o2", "text": "Engine" },
-            { "id": "o3", "text": "Mechanic" }
+            {
+              "id": "o1",
+              "text": "Engineer"
+            },
+            {
+              "id": "o2",
+              "text": "Engine"
+            },
+            {
+              "id": "o3",
+              "text": "Mechanic"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'camarero'?",
           "options": [
-            { "id": "o1", "text": "Waiter (male) / Waitress (female)" },
-            { "id": "o2", "text": "Server" },
-            { "id": "o3", "text": "Both A and B are common" }
+            {
+              "id": "o1",
+              "text": "Waiter (male) / Waitress (female)"
+            },
+            {
+              "id": "o2",
+              "text": "Server"
+            },
+            {
+              "id": "o3",
+              "text": "Both A and B are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cocinero'?",
           "options": [
-            { "id": "o1", "text": "Cook / Chef" },
-            { "id": "o2", "text": "Cooker" },
-            { "id": "o3", "text": "Kitchen" }
+            {
+              "id": "o1",
+              "text": "Cook / Chef"
+            },
+            {
+              "id": "o2",
+              "text": "Cooker"
+            },
+            {
+              "id": "o3",
+              "text": "Kitchen"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dependiente' (de tienda)?",
           "options": [
-            { "id": "o1", "text": "Shop assistant / Salesclerk" },
-            { "id": "o2", "text": "Seller" },
-            { "id": "o3", "text": "Store worker" }
+            {
+              "id": "o1",
+              "text": "Shop assistant / Salesclerk"
+            },
+            {
+              "id": "o2",
+              "text": "Seller"
+            },
+            {
+              "id": "o3",
+              "text": "Store worker"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'abogado'?",
           "options": [
-            { "id": "o1", "text": "Lawyer" },
-            { "id": "o2", "text": "Judge" },
-            { "id": "o3", "text": "Legal man" }
+            {
+              "id": "o1",
+              "text": "Lawyer"
+            },
+            {
+              "id": "o2",
+              "text": "Judge"
+            },
+            {
+              "id": "o3",
+              "text": "Legal man"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,10 +185,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'policía' (profesión)?",
           "options": [
-            { "id": "o1", "text": "Police officer" },
-            { "id": "o2", "text": "Cop" },
-            { "id": "o3", "text": "Policeman / Policewoman" },
-            { "id": "o4", "text": "All are correct" }
+            {
+              "id": "o1",
+              "text": "Police officer"
+            },
+            {
+              "id": "o2",
+              "text": "Cop"
+            },
+            {
+              "id": "o3",
+              "text": "Policeman / Policewoman"
+            },
+            {
+              "id": "o4",
+              "text": "All are correct"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -126,9 +210,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bombero'?",
           "options": [
-            { "id": "o1", "text": "Firefighter" },
-            { "id": "o2", "text": "Fireman" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Firefighter"
+            },
+            {
+              "id": "o2",
+              "text": "Fireman"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -138,9 +231,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'conductor de autobús'?",
           "options": [
-            { "id": "o1", "text": "Bus driver" },
-            { "id": "o2", "text": "Bus pilot" },
-            { "id": "o3", "text": "Bus master" }
+            {
+              "id": "o1",
+              "text": "Bus driver"
+            },
+            {
+              "id": "o2",
+              "text": "Bus pilot"
+            },
+            {
+              "id": "o3",
+              "text": "Bus master"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -150,9 +252,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'taxista'?",
           "options": [
-            { "id": "o1", "text": "Taxi driver" },
-            { "id": "o2", "text": "Cab driver" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Taxi driver"
+            },
+            {
+              "id": "o2",
+              "text": "Cab driver"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -162,9 +273,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cartero'?",
           "options": [
-            { "id": "o1", "text": "Postman / Mail carrier" },
-            { "id": "o2", "text": "Letter man" },
-            { "id": "o3", "text": "Mail boy" }
+            {
+              "id": "o1",
+              "text": "Postman / Mail carrier"
+            },
+            {
+              "id": "o2",
+              "text": "Letter man"
+            },
+            {
+              "id": "o3",
+              "text": "Mail boy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -174,9 +294,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'peluquero'?",
           "options": [
-            { "id": "o1", "text": "Hairdresser / Barber" },
-            { "id": "o2", "text": "Hair cutter" },
-            { "id": "o3", "text": "Salon worker" }
+            {
+              "id": "o1",
+              "text": "Hairdresser / Barber"
+            },
+            {
+              "id": "o2",
+              "text": "Hair cutter"
+            },
+            {
+              "id": "o3",
+              "text": "Salon worker"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -186,9 +315,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'recepcionista'?",
           "options": [
-            { "id": "o1", "text": "Receptionist" },
-            { "id": "o2", "text": "Front desk" },
-            { "id": "o3", "text": "Welcome person" }
+            {
+              "id": "o1",
+              "text": "Receptionist"
+            },
+            {
+              "id": "o2",
+              "text": "Front desk"
+            },
+            {
+              "id": "o3",
+              "text": "Welcome person"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -198,11 +336,27 @@
           "type": "matching",
           "prompt_es": "Une el trabajo con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Architect", "right": "Arquitecto" },
-            { "id": "p2", "left": "Dentist", "right": "Dentista" },
-            { "id": "p3", "left": "Farmer", "right": "Granjero" }
+            {
+              "id": "p1",
+              "left": "Architect",
+              "right": "Arquitecto"
+            },
+            {
+              "id": "p2",
+              "left": "Dentist",
+              "right": "Dentista"
+            },
+            {
+              "id": "p3",
+              "left": "Farmer",
+              "right": "Granjero"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -210,11 +364,27 @@
           "type": "matching",
           "prompt_es": "Une el trabajo con lo que hacen:",
           "pairs": [
-            { "id": "p1", "left": "Chef", "right": "Cooks food" },
-            { "id": "p2", "left": "Doctor", "right": "Helps sick people" },
-            { "id": "p3", "left": "Teacher", "right": "Teaches students" }
+            {
+              "id": "p1",
+              "left": "Chef",
+              "right": "Cooks food"
+            },
+            {
+              "id": "p2",
+              "left": "Doctor",
+              "right": "Helps sick people"
+            },
+            {
+              "id": "p3",
+              "left": "Teacher",
+              "right": "Teaches students"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -246,9 +416,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'empresario'?",
           "options": [
-            { "id": "o1", "text": "Businessman / Businesswoman" },
-            { "id": "o2", "text": "Office man" },
-            { "id": "o3", "text": "Company person" }
+            {
+              "id": "o1",
+              "text": "Businessman / Businesswoman"
+            },
+            {
+              "id": "o2",
+              "text": "Office man"
+            },
+            {
+              "id": "o3",
+              "text": "Company person"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -258,9 +437,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'periodista'?",
           "options": [
-            { "id": "o1", "text": "Journalist / Reporter" },
-            { "id": "o2", "text": "Paper writer" },
-            { "id": "o3", "text": "News person" }
+            {
+              "id": "o1",
+              "text": "Journalist / Reporter"
+            },
+            {
+              "id": "o2",
+              "text": "Paper writer"
+            },
+            {
+              "id": "o3",
+              "text": "News person"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -270,9 +458,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'electricista'?",
           "options": [
-            { "id": "o1", "text": "Electrician" },
-            { "id": "o2", "text": "Power man" },
-            { "id": "o3", "text": "Light fixer" }
+            {
+              "id": "o1",
+              "text": "Electrician"
+            },
+            {
+              "id": "o2",
+              "text": "Power man"
+            },
+            {
+              "id": "o3",
+              "text": "Light fixer"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -282,9 +479,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fontanero'?",
           "options": [
-            { "id": "o1", "text": "Plumber" },
-            { "id": "o2", "text": "Water man" },
-            { "id": "o3", "text": "Pipe fixer" }
+            {
+              "id": "o1",
+              "text": "Plumber"
+            },
+            {
+              "id": "o2",
+              "text": "Water man"
+            },
+            {
+              "id": "o3",
+              "text": "Pipe fixer"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -294,9 +500,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'carpintero'?",
           "options": [
-            { "id": "o1", "text": "Carpenter" },
-            { "id": "o2", "text": "Wood man" },
-            { "id": "o3", "text": "Furniture maker" }
+            {
+              "id": "o1",
+              "text": "Carpenter"
+            },
+            {
+              "id": "o2",
+              "text": "Wood man"
+            },
+            {
+              "id": "o3",
+              "text": "Furniture maker"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -312,9 +527,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'oficina'?",
           "options": [
-            { "id": "o1", "text": "Office" },
-            { "id": "o2", "text": "Desk" },
-            { "id": "o3", "text": "Workroom" }
+            {
+              "id": "o1",
+              "text": "Office"
+            },
+            {
+              "id": "o2",
+              "text": "Desk"
+            },
+            {
+              "id": "o3",
+              "text": "Workroom"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -324,9 +548,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fábrica'?",
           "options": [
-            { "id": "o1", "text": "Factory" },
-            { "id": "o2", "text": "Fabric" },
-            { "id": "o3", "text": "Industry" }
+            {
+              "id": "o1",
+              "text": "Factory"
+            },
+            {
+              "id": "o2",
+              "text": "Fabric"
+            },
+            {
+              "id": "o3",
+              "text": "Industry"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -336,9 +569,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tienda'?",
           "options": [
-            { "id": "o1", "text": "Shop / Store" },
-            { "id": "o2", "text": "Market" },
-            { "id": "o3", "text": "Shopping" }
+            {
+              "id": "o1",
+              "text": "Shop / Store"
+            },
+            {
+              "id": "o2",
+              "text": "Market"
+            },
+            {
+              "id": "o3",
+              "text": "Shopping"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -348,9 +590,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'taller' (mecánico)?",
           "options": [
-            { "id": "o1", "text": "Garage / Workshop" },
-            { "id": "o2", "text": "Car room" },
-            { "id": "o3", "text": "Fix place" }
+            {
+              "id": "o1",
+              "text": "Garage / Workshop"
+            },
+            {
+              "id": "o2",
+              "text": "Car room"
+            },
+            {
+              "id": "o3",
+              "text": "Fix place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -360,9 +611,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'obra' (de construcción)?",
           "options": [
-            { "id": "o1", "text": "Construction site" },
-            { "id": "o2", "text": "Building place" },
-            { "id": "o3", "text": "Work street" }
+            {
+              "id": "o1",
+              "text": "Construction site"
+            },
+            {
+              "id": "o2",
+              "text": "Building place"
+            },
+            {
+              "id": "o3",
+              "text": "Work street"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -372,10 +632,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aire libre' (trabajar al)?",
           "options": [
-            { "id": "o1", "text": "Outdoors" },
-            { "id": "o2", "text": "Indoors" },
-            { "id": "o3", "text": "Outside" },
-            { "id": "o4", "text": "Both A and C" }
+            {
+              "id": "o1",
+              "text": "Outdoors"
+            },
+            {
+              "id": "o2",
+              "text": "Indoors"
+            },
+            {
+              "id": "o3",
+              "text": "Outside"
+            },
+            {
+              "id": "o4",
+              "text": "Both A and C"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -385,9 +657,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dentro' (trabajar)?",
           "options": [
-            { "id": "o1", "text": "Indoors" },
-            { "id": "o2", "text": "Outdoors" },
-            { "id": "o3", "text": "Inside" }
+            {
+              "id": "o1",
+              "text": "Indoors"
+            },
+            {
+              "id": "o2",
+              "text": "Outdoors"
+            },
+            {
+              "id": "o3",
+              "text": "Inside"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -397,9 +678,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estación de bomberos'?",
           "options": [
-            { "id": "o1", "text": "Fire station" },
-            { "id": "o2", "text": "Fire house" },
-            { "id": "o3", "text": "Fire place" }
+            {
+              "id": "o1",
+              "text": "Fire station"
+            },
+            {
+              "id": "o2",
+              "text": "Fire house"
+            },
+            {
+              "id": "o3",
+              "text": "Fire place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -409,9 +699,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'comisaría'?",
           "options": [
-            { "id": "o1", "text": "Police station" },
-            { "id": "o2", "text": "Police office" },
-            { "id": "o3", "text": "Cop house" }
+            {
+              "id": "o1",
+              "text": "Police station"
+            },
+            {
+              "id": "o2",
+              "text": "Police office"
+            },
+            {
+              "id": "o3",
+              "text": "Cop house"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -421,9 +720,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estudio' (de arte/grabación)?",
           "options": [
-            { "id": "o1", "text": "Studio" },
-            { "id": "o2", "text": "Room" },
-            { "id": "o3", "text": "Atelier" }
+            {
+              "id": "o1",
+              "text": "Studio"
+            },
+            {
+              "id": "o2",
+              "text": "Room"
+            },
+            {
+              "id": "o3",
+              "text": "Atelier"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -433,11 +741,27 @@
           "type": "matching",
           "prompt_es": "Une el trabajo con su lugar típico:",
           "pairs": [
-            { "id": "p1", "left": "Secretary", "right": "Office" },
-            { "id": "p2", "left": "Farmer", "right": "Farm" },
-            { "id": "p3", "left": "Sales assistant", "right": "Shop" }
+            {
+              "id": "p1",
+              "left": "Secretary",
+              "right": "Office"
+            },
+            {
+              "id": "p2",
+              "left": "Farmer",
+              "right": "Farm"
+            },
+            {
+              "id": "p3",
+              "left": "Sales assistant",
+              "right": "Shop"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -445,11 +769,27 @@
           "type": "matching",
           "prompt_es": "Une el lugar de trabajo:",
           "pairs": [
-            { "id": "p1", "left": "Hospital", "right": "Nurse" },
-            { "id": "p2", "left": "Kitchen", "right": "Chef" },
-            { "id": "p3", "left": "Garage", "right": "Mechanic" }
+            {
+              "id": "p1",
+              "left": "Hospital",
+              "right": "Nurse"
+            },
+            {
+              "id": "p2",
+              "left": "Kitchen",
+              "right": "Chef"
+            },
+            {
+              "id": "p3",
+              "left": "Garage",
+              "right": "Mechanic"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -505,10 +845,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'jefe'?",
           "options": [
-            { "id": "o1", "text": "Boss" },
-            { "id": "o2", "text": "Manager" },
-            { "id": "o3", "text": "Head" },
-            { "id": "o4", "text": "All are correct" }
+            {
+              "id": "o1",
+              "text": "Boss"
+            },
+            {
+              "id": "o2",
+              "text": "Manager"
+            },
+            {
+              "id": "o3",
+              "text": "Head"
+            },
+            {
+              "id": "o4",
+              "text": "All are correct"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -518,9 +870,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'compañero de trabajo'?",
           "options": [
-            { "id": "o1", "text": "Colleague / Co-worker" },
-            { "id": "o2", "text": "Partner" },
-            { "id": "o3", "text": "Friend" }
+            {
+              "id": "o1",
+              "text": "Colleague / Co-worker"
+            },
+            {
+              "id": "o2",
+              "text": "Partner"
+            },
+            {
+              "id": "o3",
+              "text": "Friend"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -530,9 +891,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'empleado'?",
           "options": [
-            { "id": "o1", "text": "Employee" },
-            { "id": "o2", "text": "Employer" },
-            { "id": "o3", "text": "Worker" }
+            {
+              "id": "o1",
+              "text": "Employee"
+            },
+            {
+              "id": "o2",
+              "text": "Employer"
+            },
+            {
+              "id": "o3",
+              "text": "Worker"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -542,9 +912,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'empleador' (el que contrata)?",
           "options": [
-            { "id": "o1", "text": "Employer" },
-            { "id": "o2", "text": "Employee" },
-            { "id": "o3", "text": "Contractor" }
+            {
+              "id": "o1",
+              "text": "Employer"
+            },
+            {
+              "id": "o2",
+              "text": "Employee"
+            },
+            {
+              "id": "o3",
+              "text": "Contractor"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -554,9 +933,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cliente'?",
           "options": [
-            { "id": "o1", "text": "Customer / Client" },
-            { "id": "o2", "text": "Buyer" },
-            { "id": "o3", "text": "User" }
+            {
+              "id": "o1",
+              "text": "Customer / Client"
+            },
+            {
+              "id": "o2",
+              "text": "Buyer"
+            },
+            {
+              "id": "o3",
+              "text": "User"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -566,9 +954,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'uniforme'?",
           "options": [
-            { "id": "o1", "text": "Uniform" },
-            { "id": "o2", "text": "Suit" },
-            { "id": "o3", "text": "Clothes" }
+            {
+              "id": "o1",
+              "text": "Uniform"
+            },
+            {
+              "id": "o2",
+              "text": "Suit"
+            },
+            {
+              "id": "o3",
+              "text": "Clothes"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -578,9 +975,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'salario'?",
           "options": [
-            { "id": "o1", "text": "Salary / Wage" },
-            { "id": "o2", "text": "Money" },
-            { "id": "o3", "text": "Payment" }
+            {
+              "id": "o1",
+              "text": "Salary / Wage"
+            },
+            {
+              "id": "o2",
+              "text": "Money"
+            },
+            {
+              "id": "o3",
+              "text": "Payment"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -596,10 +1002,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta '¿A qué te dedicas?'?",
           "options": [
-            { "id": "o1", "text": "What do you do?" },
-            { "id": "o2", "text": "What are you doing?" },
-            { "id": "o3", "text": "What is your job?" },
-            { "id": "o4", "text": "A and C are correct" }
+            {
+              "id": "o1",
+              "text": "What do you do?"
+            },
+            {
+              "id": "o2",
+              "text": "What are you doing?"
+            },
+            {
+              "id": "o3",
+              "text": "What is your job?"
+            },
+            {
+              "id": "o4",
+              "text": "A and C are correct"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "grammar"
@@ -609,9 +1027,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se responde 'Soy profesor'?",
           "options": [
-            { "id": "o1", "text": "I am a teacher" },
-            { "id": "o2", "text": "I am teacher" },
-            { "id": "o3", "text": "My job teacher" }
+            {
+              "id": "o1",
+              "text": "I am a teacher"
+            },
+            {
+              "id": "o2",
+              "text": "I am teacher"
+            },
+            {
+              "id": "o3",
+              "text": "My job teacher"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -621,9 +1048,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Ella es arquitecta'?",
           "options": [
-            { "id": "o1", "text": "She is an architect" },
-            { "id": "o2", "text": "She is a architect" },
-            { "id": "o3", "text": "She architect" }
+            {
+              "id": "o1",
+              "text": "She is an architect"
+            },
+            {
+              "id": "o2",
+              "text": "She is a architect"
+            },
+            {
+              "id": "o3",
+              "text": "She architect"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -633,9 +1069,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Por qué usamos 'an' en 'an architect'?",
           "options": [
-            { "id": "o1", "text": "Porque empieza por vocal" },
-            { "id": "o2", "text": "Porque empieza por consonante" },
-            { "id": "o3", "text": "Es aleatorio" }
+            {
+              "id": "o1",
+              "text": "Porque empieza por vocal"
+            },
+            {
+              "id": "o2",
+              "text": "Porque empieza por consonante"
+            },
+            {
+              "id": "o3",
+              "text": "Es aleatorio"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -645,9 +1090,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Dónde trabajas?'?",
           "options": [
-            { "id": "o1", "text": "Where do you work?" },
-            { "id": "o2", "text": "Where work you?" },
-            { "id": "o3", "text": "Where are you work?" }
+            {
+              "id": "o1",
+              "text": "Where do you work?"
+            },
+            {
+              "id": "o2",
+              "text": "Where work you?"
+            },
+            {
+              "id": "o3",
+              "text": "Where are you work?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -657,9 +1111,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Trabajo en una oficina'?",
           "options": [
-            { "id": "o1", "text": "I work in an office" },
-            { "id": "o2", "text": "I work at office" },
-            { "id": "o3", "text": "I working in office" }
+            {
+              "id": "o1",
+              "text": "I work in an office"
+            },
+            {
+              "id": "o2",
+              "text": "I work at office"
+            },
+            {
+              "id": "o3",
+              "text": "I working in office"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -685,12 +1148,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'yo soy un médico'",
           "options": [
-            { "id": "w1", "text": "a" },
-            { "id": "w2", "text": "doctor" },
-            { "id": "w3", "text": "am" },
-            { "id": "w4", "text": "I" }
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "doctor"
+            },
+            {
+              "id": "w3",
+              "text": "am"
+            },
+            {
+              "id": "w4",
+              "text": "I"
+            }
           ],
-          "correct_answer": ["w4", "w3", "w1", "w2"],
+          "correct_answer": [
+            "w4",
+            "w3",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -698,12 +1178,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿dónde trabaja ella?'",
           "options": [
-            { "id": "w1", "text": "work" },
-            { "id": "w2", "text": "does" },
-            { "id": "w3", "text": "she" },
-            { "id": "w4", "text": "Where" }
+            {
+              "id": "w1",
+              "text": "work"
+            },
+            {
+              "id": "w2",
+              "text": "does"
+            },
+            {
+              "id": "w3",
+              "text": "she"
+            },
+            {
+              "id": "w4",
+              "text": "Where"
+            }
           ],
-          "correct_answer": ["w4", "w2", "w3", "w1"],
+          "correct_answer": [
+            "w4",
+            "w2",
+            "w3",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -711,9 +1208,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'a tiempo parcial'?",
           "options": [
-            { "id": "o1", "text": "Part-time" },
-            { "id": "o2", "text": "Full-time" },
-            { "id": "o3", "text": "Half-time" }
+            {
+              "id": "o1",
+              "text": "Part-time"
+            },
+            {
+              "id": "o2",
+              "text": "Full-time"
+            },
+            {
+              "id": "o3",
+              "text": "Half-time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -723,9 +1229,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'a tiempo completo'?",
           "options": [
-            { "id": "o1", "text": "Full-time" },
-            { "id": "o2", "text": "Part-time" },
-            { "id": "o3", "text": "All-time" }
+            {
+              "id": "o1",
+              "text": "Full-time"
+            },
+            {
+              "id": "o2",
+              "text": "Part-time"
+            },
+            {
+              "id": "o3",
+              "text": "All-time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -735,9 +1250,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estar jubilado'?",
           "options": [
-            { "id": "o1", "text": "To be retired" },
-            { "id": "o2", "text": "To be tired" },
-            { "id": "o3", "text": "To be old" }
+            {
+              "id": "o1",
+              "text": "To be retired"
+            },
+            {
+              "id": "o2",
+              "text": "To be tired"
+            },
+            {
+              "id": "o3",
+              "text": "To be old"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -747,9 +1271,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estar desempleado'?",
           "options": [
-            { "id": "o1", "text": "To be unemployed / out of work" },
-            { "id": "o2", "text": "To be free" },
-            { "id": "o3", "text": "To be lazy" }
+            {
+              "id": "o1",
+              "text": "To be unemployed / out of work"
+            },
+            {
+              "id": "o2",
+              "text": "To be free"
+            },
+            {
+              "id": "o3",
+              "text": "To be lazy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -759,9 +1292,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'solicitar un trabajo'?",
           "options": [
-            { "id": "o1", "text": "Apply for a job" },
-            { "id": "o2", "text": "Ask a job" },
-            { "id": "o3", "text": "Look a job" }
+            {
+              "id": "o1",
+              "text": "Apply for a job"
+            },
+            {
+              "id": "o2",
+              "text": "Ask a job"
+            },
+            {
+              "id": "o3",
+              "text": "Look a job"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -771,9 +1313,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'entrevista de trabajo'?",
           "options": [
-            { "id": "o1", "text": "Job interview" },
-            { "id": "o2", "text": "Job meeting" },
-            { "id": "o3", "text": "Work talk" }
+            {
+              "id": "o1",
+              "text": "Job interview"
+            },
+            {
+              "id": "o2",
+              "text": "Job meeting"
+            },
+            {
+              "id": "o3",
+              "text": "Work talk"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -783,9 +1334,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'currículum'?",
           "options": [
-            { "id": "o1", "text": "CV / Resume" },
-            { "id": "o2", "text": "Job paper" },
-            { "id": "o3", "text": "Personal list" }
+            {
+              "id": "o1",
+              "text": "CV / Resume"
+            },
+            {
+              "id": "o2",
+              "text": "Job paper"
+            },
+            {
+              "id": "o3",
+              "text": "Personal list"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -795,9 +1355,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ganar dinero'?",
           "options": [
-            { "id": "o1", "text": "Earn money" },
-            { "id": "o2", "text": "Win money" },
-            { "id": "o3", "text": "Take money" }
+            {
+              "id": "o1",
+              "text": "Earn money"
+            },
+            {
+              "id": "o2",
+              "text": "Win money"
+            },
+            {
+              "id": "o3",
+              "text": "Take money"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -807,9 +1376,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ir al trabajo'?",
           "options": [
-            { "id": "o1", "text": "Go to work" },
-            { "id": "o2", "text": "Go the work" },
-            { "id": "o3", "text": "Walk work" }
+            {
+              "id": "o1",
+              "text": "Go to work"
+            },
+            {
+              "id": "o2",
+              "text": "Go the work"
+            },
+            {
+              "id": "o3",
+              "text": "Walk work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -819,9 +1397,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'salir del trabajo'?",
           "options": [
-            { "id": "o1", "text": "Finish work / Leave work" },
-            { "id": "o2", "text": "Exit work" },
-            { "id": "o3", "text": "Go home" }
+            {
+              "id": "o1",
+              "text": "Finish work / Leave work"
+            },
+            {
+              "id": "o2",
+              "text": "Exit work"
+            },
+            {
+              "id": "o3",
+              "text": "Go home"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -831,9 +1418,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hacer horas extra'?",
           "options": [
-            { "id": "o1", "text": "Work overtime" },
-            { "id": "o2", "text": "Work more" },
-            { "id": "o3", "text": "Extra work" }
+            {
+              "id": "o1",
+              "text": "Work overtime"
+            },
+            {
+              "id": "o2",
+              "text": "Work more"
+            },
+            {
+              "id": "o3",
+              "text": "Extra work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -843,9 +1439,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tener una reunión'?",
           "options": [
-            { "id": "o1", "text": "Have a meeting" },
-            { "id": "o2", "text": "Make a meeting" },
-            { "id": "o3", "text": "Be a meeting" }
+            {
+              "id": "o1",
+              "text": "Have a meeting"
+            },
+            {
+              "id": "o2",
+              "text": "Make a meeting"
+            },
+            {
+              "id": "o3",
+              "text": "Be a meeting"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -855,9 +1460,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estar de vacaciones'?",
           "options": [
-            { "id": "o1", "text": "To be on holiday / vacation" },
-            { "id": "o2", "text": "To be in holiday" },
-            { "id": "o3", "text": "To go holiday" }
+            {
+              "id": "o1",
+              "text": "To be on holiday / vacation"
+            },
+            {
+              "id": "o2",
+              "text": "To be in holiday"
+            },
+            {
+              "id": "o3",
+              "text": "To go holiday"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -867,9 +1481,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estar enfermo' (baja)?",
           "options": [
-            { "id": "o1", "text": "To be on sick leave" },
-            { "id": "o2", "text": "To be sick" },
-            { "id": "o3", "text": "To be home" }
+            {
+              "id": "o1",
+              "text": "To be on sick leave"
+            },
+            {
+              "id": "o2",
+              "text": "To be sick"
+            },
+            {
+              "id": "o3",
+              "text": "To be home"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -879,9 +1502,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'jubilación'?",
           "options": [
-            { "id": "o1", "text": "Retirement" },
-            { "id": "o2", "text": "Retired" },
-            { "id": "o3", "text": "Old age" }
+            {
+              "id": "o1",
+              "text": "Retirement"
+            },
+            {
+              "id": "o2",
+              "text": "Retired"
+            },
+            {
+              "id": "o3",
+              "text": "Old age"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -896,31 +1528,138 @@
           "interaction_id": "U14_I76",
           "type": "word-search",
           "prompt_es": "Encuentra profesiones:",
-          "words": ["TEACHER", "DOCTOR", "NURSE", "CHEF", "WAITER", "PILOT", "LAWYER", "POLICE", "FARMER", "ARTIST"],
+          "words": [
+            "TEACHER",
+            "DOCTOR",
+            "NURSE",
+            "CHEF",
+            "WAITER",
+            "PILOT",
+            "LAWYER",
+            "POLICE",
+            "FARMER",
+            "ARTIST"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "TEACHER", "clue": "Profesor" },
-            { "word": "DOCTOR", "clue": "Médico" },
-            { "word": "NURSE", "clue": "Enfermero" },
-            { "word": "CHEF", "clue": "Cocinero jefe" },
-            { "word": "WAITER", "clue": "Camarero" },
-            { "word": "PILOT", "clue": "Piloto" },
-            { "word": "LAWYER", "clue": "Abogado" },
-            { "word": "POLICE", "clue": "Policía" },
-            { "word": "FARMER", "clue": "Granjero" },
-            { "word": "ARTIST", "clue": "Artista" }
+            {
+              "word": "TEACHER",
+              "clue": "Profesor"
+            },
+            {
+              "word": "DOCTOR",
+              "clue": "Médico"
+            },
+            {
+              "word": "NURSE",
+              "clue": "Enfermero"
+            },
+            {
+              "word": "CHEF",
+              "clue": "Cocinero jefe"
+            },
+            {
+              "word": "WAITER",
+              "clue": "Camarero"
+            },
+            {
+              "word": "PILOT",
+              "clue": "Piloto"
+            },
+            {
+              "word": "LAWYER",
+              "clue": "Abogado"
+            },
+            {
+              "word": "POLICE",
+              "clue": "Policía"
+            },
+            {
+              "word": "FARMER",
+              "clue": "Granjero"
+            },
+            {
+              "word": "ARTIST",
+              "clue": "Artista"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de trabajos:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "OFFICE", "clue": "Place where a secretary works", "direction": "across", "row": 0, "col": 0 },
-            { "word": "BOSS", "clue": "The person in charge", "direction": "down", "row": 0, "col": 0 },
-            { "word": "MONEY", "clue": "What you earn for working", "direction": "across", "row": 3, "col": 0 },
-            { "word": "UNIFORM", "clue": "Special clothes for work", "direction": "down", "row": 0, "col": 6 }
+            {
+              "word": "BUSINESSMAN",
+              "clue": "Traducción de: Businesswoman",
+              "direction": "across",
+              "row": 10,
+              "col": 4
+            },
+            {
+              "word": "PROMOTION",
+              "clue": "Traducción de: ascenso",
+              "direction": "down",
+              "row": 4,
+              "col": 7
+            },
+            {
+              "word": "ARCHITECT",
+              "clue": "Traducción de: Arquitecto",
+              "direction": "across",
+              "row": 5,
+              "col": 6
+            },
+            {
+              "word": "STRESSFUL",
+              "clue": "Traducción de: estresante",
+              "direction": "down",
+              "row": 7,
+              "col": 9
+            },
+            {
+              "word": "FACTORY",
+              "clue": "Traducción de: fábrica",
+              "direction": "across",
+              "row": 13,
+              "col": 9
+            },
+            {
+              "word": "UNIFORM",
+              "clue": "Traducción de: uniforme",
+              "direction": "across",
+              "row": 7,
+              "col": 1
+            },
+            {
+              "word": "PLUMBER",
+              "clue": "Traducción de: fontanero",
+              "direction": "down",
+              "row": 5,
+              "col": 1
+            },
+            {
+              "word": "ACTOR",
+              "clue": "Traducción de: Actress",
+              "direction": "down",
+              "row": 10,
+              "col": 13
+            },
+            {
+              "word": "EASY",
+              "clue": "Traducción de: fácil",
+              "direction": "down",
+              "row": 5,
+              "col": 12
+            },
+            {
+              "word": "SAFE",
+              "clue": "Traducción de: seguro",
+              "direction": "across",
+              "row": 7,
+              "col": 12
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -929,11 +1668,27 @@
           "type": "matching",
           "prompt_es": "Une el género (masculino/femenino):",
           "pairs": [
-            { "id": "p1", "left": "Actor", "right": "Actress" },
-            { "id": "p2", "left": "Waiter", "right": "Waitress" },
-            { "id": "p3", "left": "Businessman", "right": "Businesswoman" }
+            {
+              "id": "p1",
+              "left": "Actor",
+              "right": "Actress"
+            },
+            {
+              "id": "p2",
+              "left": "Waiter",
+              "right": "Waitress"
+            },
+            {
+              "id": "p3",
+              "left": "Businessman",
+              "right": "Businesswoman"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -957,9 +1712,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'difícil' (un trabajo)?",
           "options": [
-            { "id": "o1", "text": "Hard / Difficult" },
-            { "id": "o2", "text": "Easy" },
-            { "id": "o3", "text": "Simple" }
+            {
+              "id": "o1",
+              "text": "Hard / Difficult"
+            },
+            {
+              "id": "o2",
+              "text": "Easy"
+            },
+            {
+              "id": "o3",
+              "text": "Simple"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -969,9 +1733,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fácil'?",
           "options": [
-            { "id": "o1", "text": "Easy" },
-            { "id": "o2", "text": "Hard" },
-            { "id": "o3", "text": "Complex" }
+            {
+              "id": "o1",
+              "text": "Easy"
+            },
+            {
+              "id": "o2",
+              "text": "Hard"
+            },
+            {
+              "id": "o3",
+              "text": "Complex"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -981,9 +1754,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'interesante'?",
           "options": [
-            { "id": "o1", "text": "Interesting" },
-            { "id": "o2", "text": "Boring" },
-            { "id": "o3", "text": "Normal" }
+            {
+              "id": "o1",
+              "text": "Interesting"
+            },
+            {
+              "id": "o2",
+              "text": "Boring"
+            },
+            {
+              "id": "o3",
+              "text": "Normal"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -993,9 +1775,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aburrido'?",
           "options": [
-            { "id": "o1", "text": "Boring" },
-            { "id": "o2", "text": "Exciting" },
-            { "id": "o3", "text": "Fun" }
+            {
+              "id": "o1",
+              "text": "Boring"
+            },
+            {
+              "id": "o2",
+              "text": "Exciting"
+            },
+            {
+              "id": "o3",
+              "text": "Fun"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1005,9 +1796,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estresante'?",
           "options": [
-            { "id": "o1", "text": "Stressful" },
-            { "id": "o2", "text": "Relaxing" },
-            { "id": "o3", "text": "Good" }
+            {
+              "id": "o1",
+              "text": "Stressful"
+            },
+            {
+              "id": "o2",
+              "text": "Relaxing"
+            },
+            {
+              "id": "o3",
+              "text": "Good"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1017,9 +1817,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'peligroso'?",
           "options": [
-            { "id": "o1", "text": "Dangerous" },
-            { "id": "o2", "text": "Safe" },
-            { "id": "o3", "text": "Quiet" }
+            {
+              "id": "o1",
+              "text": "Dangerous"
+            },
+            {
+              "id": "o2",
+              "text": "Safe"
+            },
+            {
+              "id": "o3",
+              "text": "Quiet"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1029,9 +1838,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'seguro'?",
           "options": [
-            { "id": "o1", "text": "Safe" },
-            { "id": "o2", "text": "Dangerous" },
-            { "id": "o3", "text": "Bad" }
+            {
+              "id": "o1",
+              "text": "Safe"
+            },
+            {
+              "id": "o2",
+              "text": "Dangerous"
+            },
+            {
+              "id": "o3",
+              "text": "Bad"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1041,9 +1859,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'emocionante'?",
           "options": [
-            { "id": "o1", "text": "Exciting" },
-            { "id": "o2", "text": "Boring" },
-            { "id": "o3", "text": "Old" }
+            {
+              "id": "o1",
+              "text": "Exciting"
+            },
+            {
+              "id": "o2",
+              "text": "Boring"
+            },
+            {
+              "id": "o3",
+              "text": "Old"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1053,9 +1880,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bien pagado'?",
           "options": [
-            { "id": "o1", "text": "Well-paid" },
-            { "id": "o2", "text": "Badly-paid" },
-            { "id": "o3", "text": "Low salary" }
+            {
+              "id": "o1",
+              "text": "Well-paid"
+            },
+            {
+              "id": "o2",
+              "text": "Badly-paid"
+            },
+            {
+              "id": "o3",
+              "text": "Low salary"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1065,9 +1901,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mal pagado'?",
           "options": [
-            { "id": "o1", "text": "Badly-paid / Poorly-paid" },
-            { "id": "o2", "text": "Well-paid" },
-            { "id": "o3", "text": "Rich" }
+            {
+              "id": "o1",
+              "text": "Badly-paid / Poorly-paid"
+            },
+            {
+              "id": "o2",
+              "text": "Well-paid"
+            },
+            {
+              "id": "o3",
+              "text": "Rich"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1077,9 +1922,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'autónomo'?",
           "options": [
-            { "id": "o1", "text": "Self-employed / Freelance" },
-            { "id": "o2", "text": "Auto-work" },
-            { "id": "o3", "text": "Independent" }
+            {
+              "id": "o1",
+              "text": "Self-employed / Freelance"
+            },
+            {
+              "id": "o2",
+              "text": "Auto-work"
+            },
+            {
+              "id": "o3",
+              "text": "Independent"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1089,9 +1943,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estar a cargo de'?",
           "options": [
-            { "id": "o1", "text": "To be in charge of" },
-            { "id": "o2", "text": "To be head of" },
-            { "id": "o3", "text": "Both A and B" }
+            {
+              "id": "o1",
+              "text": "To be in charge of"
+            },
+            {
+              "id": "o2",
+              "text": "To be head of"
+            },
+            {
+              "id": "o3",
+              "text": "Both A and B"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -1101,9 +1964,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'responsabilidades'?",
           "options": [
-            { "id": "o1", "text": "Responsibilities" },
-            { "id": "o2", "text": "Tasks" },
-            { "id": "o3", "text": "Dutys" }
+            {
+              "id": "o1",
+              "text": "Responsibilities"
+            },
+            {
+              "id": "o2",
+              "text": "Tasks"
+            },
+            {
+              "id": "o3",
+              "text": "Dutys"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1113,9 +1985,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'habilidades'?",
           "options": [
-            { "id": "o1", "text": "Skills" },
-            { "id": "o2", "text": "Powers" },
-            { "id": "o3", "text": "Able things" }
+            {
+              "id": "o1",
+              "text": "Skills"
+            },
+            {
+              "id": "o2",
+              "text": "Powers"
+            },
+            {
+              "id": "o3",
+              "text": "Able things"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1125,9 +2006,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'trabajo en equipo'?",
           "options": [
-            { "id": "o1", "text": "Teamwork" },
-            { "id": "o2", "text": "Group work" },
-            { "id": "o3", "text": "Together work" }
+            {
+              "id": "o1",
+              "text": "Teamwork"
+            },
+            {
+              "id": "o2",
+              "text": "Group work"
+            },
+            {
+              "id": "o3",
+              "text": "Together work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1137,9 +2027,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fecha límite'?",
           "options": [
-            { "id": "o1", "text": "Deadline" },
-            { "id": "o2", "text": "End date" },
-            { "id": "o3", "text": "Limit time" }
+            {
+              "id": "o1",
+              "text": "Deadline"
+            },
+            {
+              "id": "o2",
+              "text": "End date"
+            },
+            {
+              "id": "o3",
+              "text": "Limit time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1149,9 +2048,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ascenso' (promoción)?",
           "options": [
-            { "id": "o1", "text": "Promotion" },
-            { "id": "o2", "text": "Rise" },
-            { "id": "o3", "text": "Step up" }
+            {
+              "id": "o1",
+              "text": "Promotion"
+            },
+            {
+              "id": "o2",
+              "text": "Rise"
+            },
+            {
+              "id": "o3",
+              "text": "Step up"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1161,9 +2069,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'anuncio de trabajo'?",
           "options": [
-            { "id": "o1", "text": "Job advertisement / Job ad" },
-            { "id": "o2", "text": "Job paper" },
-            { "id": "o3", "text": "Job notice" }
+            {
+              "id": "o1",
+              "text": "Job advertisement / Job ad"
+            },
+            {
+              "id": "o2",
+              "text": "Job paper"
+            },
+            {
+              "id": "o3",
+              "text": "Job notice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1173,9 +2090,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'buscar trabajo'?",
           "options": [
-            { "id": "o1", "text": "Look for a job" },
-            { "id": "o2", "text": "Search a job" },
-            { "id": "o3", "text": "Find a job" }
+            {
+              "id": "o1",
+              "text": "Look for a job"
+            },
+            {
+              "id": "o2",
+              "text": "Search a job"
+            },
+            {
+              "id": "o3",
+              "text": "Find a job"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1185,10 +2111,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mi sueño es ser...'?",
           "options": [
-            { "id": "o1", "text": "My dream is to be..." },
-            { "id": "o2", "text": "My wish is be..." },
-            { "id": "o3", "text": "I want to be..." },
-            { "id": "o4", "text": "All are good" }
+            {
+              "id": "o1",
+              "text": "My dream is to be..."
+            },
+            {
+              "id": "o2",
+              "text": "My wish is be..."
+            },
+            {
+              "id": "o3",
+              "text": "I want to be..."
+            },
+            {
+              "id": "o4",
+              "text": "All are good"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"

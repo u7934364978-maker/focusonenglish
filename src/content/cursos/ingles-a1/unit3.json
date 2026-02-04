@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'España'?",
           "options": [
-            { "id": "o1", "text": "Spain" },
-            { "id": "o2", "text": "Spanish" },
-            { "id": "o3", "text": "Espanya" }
+            {
+              "id": "o1",
+              "text": "Spain"
+            },
+            {
+              "id": "o2",
+              "text": "Spanish"
+            },
+            {
+              "id": "o3",
+              "text": "Espanya"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Español/a'?",
           "options": [
-            { "id": "o1", "text": "Spanish" },
-            { "id": "o2", "text": "Spain" },
-            { "id": "o3", "text": "Spaniard" }
+            {
+              "id": "o1",
+              "text": "Spanish"
+            },
+            {
+              "id": "o2",
+              "text": "Spain"
+            },
+            {
+              "id": "o3",
+              "text": "Spaniard"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Reino Unido'?",
           "options": [
-            { "id": "o1", "text": "The United Kingdom" },
-            { "id": "o2", "text": "England" },
-            { "id": "o3", "text": "London" }
+            {
+              "id": "o1",
+              "text": "The United Kingdom"
+            },
+            {
+              "id": "o2",
+              "text": "England"
+            },
+            {
+              "id": "o3",
+              "text": "London"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Británico/a'?",
           "options": [
-            { "id": "o1", "text": "British" },
-            { "id": "o2", "text": "Briton" },
-            { "id": "o3", "text": "England" }
+            {
+              "id": "o1",
+              "text": "British"
+            },
+            {
+              "id": "o2",
+              "text": "Briton"
+            },
+            {
+              "id": "o3",
+              "text": "England"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Estados Unidos'?",
           "options": [
-            { "id": "o1", "text": "The United States" },
-            { "id": "o2", "text": "America" },
-            { "id": "o3", "text": "USA" }
+            {
+              "id": "o1",
+              "text": "The United States"
+            },
+            {
+              "id": "o2",
+              "text": "America"
+            },
+            {
+              "id": "o3",
+              "text": "USA"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Estadounidense'?",
           "options": [
-            { "id": "o1", "text": "American" },
-            { "id": "o2", "text": "United States" },
-            { "id": "o3", "text": "US citizen" }
+            {
+              "id": "o1",
+              "text": "American"
+            },
+            {
+              "id": "o2",
+              "text": "United States"
+            },
+            {
+              "id": "o3",
+              "text": "US citizen"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Francia'?",
           "options": [
-            { "id": "o1", "text": "France" },
-            { "id": "o2", "text": "French" },
-            { "id": "o3", "text": "Paris" }
+            {
+              "id": "o1",
+              "text": "France"
+            },
+            {
+              "id": "o2",
+              "text": "French"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Francés/a'?",
           "options": [
-            { "id": "o1", "text": "French" },
-            { "id": "o2", "text": "France" },
-            { "id": "o3", "text": "Frank" }
+            {
+              "id": "o1",
+              "text": "French"
+            },
+            {
+              "id": "o2",
+              "text": "France"
+            },
+            {
+              "id": "o3",
+              "text": "Frank"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Italia'?",
           "options": [
-            { "id": "o1", "text": "Italy" },
-            { "id": "o2", "text": "Italian" },
-            { "id": "o3", "text": "Rome" }
+            {
+              "id": "o1",
+              "text": "Italy"
+            },
+            {
+              "id": "o2",
+              "text": "Italian"
+            },
+            {
+              "id": "o3",
+              "text": "Rome"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Italiano/a'?",
           "options": [
-            { "id": "o1", "text": "Italian" },
-            { "id": "o2", "text": "Italy" },
-            { "id": "o3", "text": "Italic" }
+            {
+              "id": "o1",
+              "text": "Italian"
+            },
+            {
+              "id": "o2",
+              "text": "Italy"
+            },
+            {
+              "id": "o3",
+              "text": "Italic"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,9 +227,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Alemania'?",
           "options": [
-            { "id": "o1", "text": "Germany" },
-            { "id": "o2", "text": "German" },
-            { "id": "o3", "text": "Berlin" }
+            {
+              "id": "o1",
+              "text": "Germany"
+            },
+            {
+              "id": "o2",
+              "text": "German"
+            },
+            {
+              "id": "o3",
+              "text": "Berlin"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -149,9 +248,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Alemán/ana'?",
           "options": [
-            { "id": "o1", "text": "German" },
-            { "id": "o2", "text": "Germany" },
-            { "id": "o3", "text": "Germ" }
+            {
+              "id": "o1",
+              "text": "German"
+            },
+            {
+              "id": "o2",
+              "text": "Germany"
+            },
+            {
+              "id": "o3",
+              "text": "Germ"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -161,9 +269,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'China'?",
           "options": [
-            { "id": "o1", "text": "China" },
-            { "id": "o2", "text": "Chinese" },
-            { "id": "o3", "text": "Beijing" }
+            {
+              "id": "o1",
+              "text": "China"
+            },
+            {
+              "id": "o2",
+              "text": "Chinese"
+            },
+            {
+              "id": "o3",
+              "text": "Beijing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -173,9 +290,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Chino/a'?",
           "options": [
-            { "id": "o1", "text": "Chinese" },
-            { "id": "o2", "text": "China" },
-            { "id": "o3", "text": "Chin" }
+            {
+              "id": "o1",
+              "text": "Chinese"
+            },
+            {
+              "id": "o2",
+              "text": "China"
+            },
+            {
+              "id": "o3",
+              "text": "Chin"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -185,9 +311,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Japón'?",
           "options": [
-            { "id": "o1", "text": "Japan" },
-            { "id": "o2", "text": "Japanese" },
-            { "id": "o3", "text": "Tokyo" }
+            {
+              "id": "o1",
+              "text": "Japan"
+            },
+            {
+              "id": "o2",
+              "text": "Japanese"
+            },
+            {
+              "id": "o3",
+              "text": "Tokyo"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -197,9 +332,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Japonés/a'?",
           "options": [
-            { "id": "o1", "text": "Japanese" },
-            { "id": "o2", "text": "Japan" },
-            { "id": "o3", "text": "Jap" }
+            {
+              "id": "o1",
+              "text": "Japanese"
+            },
+            {
+              "id": "o2",
+              "text": "Japan"
+            },
+            {
+              "id": "o3",
+              "text": "Jap"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -209,9 +353,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'México'?",
           "options": [
-            { "id": "o1", "text": "Mexico" },
-            { "id": "o2", "text": "Mexican" },
-            { "id": "o3", "text": "Mexico City" }
+            {
+              "id": "o1",
+              "text": "Mexico"
+            },
+            {
+              "id": "o2",
+              "text": "Mexican"
+            },
+            {
+              "id": "o3",
+              "text": "Mexico City"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -221,9 +374,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Mexicano/a'?",
           "options": [
-            { "id": "o1", "text": "Mexican" },
-            { "id": "o2", "text": "Mexico" },
-            { "id": "o3", "text": "Mex" }
+            {
+              "id": "o1",
+              "text": "Mexican"
+            },
+            {
+              "id": "o2",
+              "text": "Mexico"
+            },
+            {
+              "id": "o3",
+              "text": "Mex"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -233,9 +395,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Brasil'?",
           "options": [
-            { "id": "o1", "text": "Brazil" },
-            { "id": "o2", "text": "Brazilian" },
-            { "id": "o3", "text": "Brasilia" }
+            {
+              "id": "o1",
+              "text": "Brazil"
+            },
+            {
+              "id": "o2",
+              "text": "Brazilian"
+            },
+            {
+              "id": "o3",
+              "text": "Brasilia"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -245,9 +416,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Brasileño/a'?",
           "options": [
-            { "id": "o1", "text": "Brazilian" },
-            { "id": "o2", "text": "Brazil" },
-            { "id": "o3", "text": "Braz" }
+            {
+              "id": "o1",
+              "text": "Brazilian"
+            },
+            {
+              "id": "o2",
+              "text": "Brazil"
+            },
+            {
+              "id": "o3",
+              "text": "Braz"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -257,11 +437,27 @@
           "type": "matching",
           "prompt_es": "Une los países con sus nacionalidades:",
           "pairs": [
-            { "id": "p1", "left": "Spain", "right": "Spanish" },
-            { "id": "p2", "left": "Italy", "right": "Italian" },
-            { "id": "p3", "left": "France", "right": "French" }
+            {
+              "id": "p1",
+              "left": "Spain",
+              "right": "Spanish"
+            },
+            {
+              "id": "p2",
+              "left": "Italy",
+              "right": "Italian"
+            },
+            {
+              "id": "p3",
+              "left": "France",
+              "right": "French"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -269,11 +465,27 @@
           "type": "matching",
           "prompt_es": "Une los países con sus nacionalidades:",
           "pairs": [
-            { "id": "p1", "left": "Germany", "right": "German" },
-            { "id": "p2", "left": "China", "right": "Chinese" },
-            { "id": "p3", "left": "Japan", "right": "Japanese" }
+            {
+              "id": "p1",
+              "left": "Germany",
+              "right": "German"
+            },
+            {
+              "id": "p2",
+              "left": "China",
+              "right": "Chinese"
+            },
+            {
+              "id": "p3",
+              "left": "Japan",
+              "right": "Japanese"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -321,11 +533,31 @@
           "type": "flashcard",
           "prompt_es": "Países y Nacionalidades",
           "flashcards": [
-            { "front": "Spain", "back": "Spanish", "pronunciation": "/speɪn/ - /ˈspænɪʃ/" },
-            { "front": "France", "back": "French", "pronunciation": "/fræns/ - /frɛntʃ/" },
-            { "front": "Italy", "back": "Italian", "pronunciation": "/ˈɪtəli/ - /ɪˈtæljən/" },
-            { "front": "Germany", "back": "German", "pronunciation": "/ˈdʒɜːrməni/ - /ˈdʒɜːrmən/" },
-            { "front": "China", "back": "Chinese", "pronunciation": "/ˈtʃaɪnə/ - /ˌtʃaɪˈniːz/" }
+            {
+              "front": "Spain",
+              "back": "Spanish",
+              "pronunciation": "/speɪn/ - /ˈspænɪʃ/"
+            },
+            {
+              "front": "France",
+              "back": "French",
+              "pronunciation": "/fræns/ - /frɛntʃ/"
+            },
+            {
+              "front": "Italy",
+              "back": "Italian",
+              "pronunciation": "/ˈɪtəli/ - /ɪˈtæljən/"
+            },
+            {
+              "front": "Germany",
+              "back": "German",
+              "pronunciation": "/ˈdʒɜːrməni/ - /ˈdʒɜːrmən/"
+            },
+            {
+              "front": "China",
+              "back": "Chinese",
+              "pronunciation": "/ˈtʃaɪnə/ - /ˌtʃaɪˈniːz/"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -334,9 +566,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Canadá'?",
           "options": [
-            { "id": "o1", "text": "Canada" },
-            { "id": "o2", "text": "Canadian" },
-            { "id": "o3", "text": "Canadia" }
+            {
+              "id": "o1",
+              "text": "Canada"
+            },
+            {
+              "id": "o2",
+              "text": "Canadian"
+            },
+            {
+              "id": "o3",
+              "text": "Canadia"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -346,9 +587,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Canadiense'?",
           "options": [
-            { "id": "o1", "text": "Canadian" },
-            { "id": "o2", "text": "Canada" },
-            { "id": "o3", "text": "Canadish" }
+            {
+              "id": "o1",
+              "text": "Canadian"
+            },
+            {
+              "id": "o2",
+              "text": "Canada"
+            },
+            {
+              "id": "o3",
+              "text": "Canadish"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -364,9 +614,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Eres español?'?",
           "options": [
-            { "id": "o1", "text": "Are you Spanish?" },
-            { "id": "o2", "text": "You are Spanish?" },
-            { "id": "o3", "text": "Is you Spanish?" }
+            {
+              "id": "o1",
+              "text": "Are you Spanish?"
+            },
+            {
+              "id": "o2",
+              "text": "You are Spanish?"
+            },
+            {
+              "id": "o3",
+              "text": "Is you Spanish?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -376,9 +635,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Es él de Francia?'?",
           "options": [
-            { "id": "o1", "text": "Is he from France?" },
-            { "id": "o2", "text": "He is from France?" },
-            { "id": "o3", "text": "Are he from France?" }
+            {
+              "id": "o1",
+              "text": "Is he from France?"
+            },
+            {
+              "id": "o2",
+              "text": "He is from France?"
+            },
+            {
+              "id": "o3",
+              "text": "Are he from France?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -388,9 +656,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Son ellos americanos?'?",
           "options": [
-            { "id": "o1", "text": "Are they American?" },
-            { "id": "o2", "text": "They are American?" },
-            { "id": "o3", "text": "Is they American?" }
+            {
+              "id": "o1",
+              "text": "Are they American?"
+            },
+            {
+              "id": "o2",
+              "text": "They are American?"
+            },
+            {
+              "id": "o3",
+              "text": "Is they American?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -424,13 +701,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta:",
           "options": [
-            { "id": "w1", "text": "he" },
-            { "id": "w2", "text": "Is" },
-            { "id": "w3", "text": "from" },
-            { "id": "w4", "text": "Germany" },
-            { "id": "w5", "text": "?" }
+            {
+              "id": "w1",
+              "text": "he"
+            },
+            {
+              "id": "w2",
+              "text": "Is"
+            },
+            {
+              "id": "w3",
+              "text": "from"
+            },
+            {
+              "id": "w4",
+              "text": "Germany"
+            },
+            {
+              "id": "w5",
+              "text": "?"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -438,12 +736,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta:",
           "options": [
-            { "id": "w1", "text": "they" },
-            { "id": "w2", "text": "Are" },
-            { "id": "w3", "text": "Chinese" },
-            { "id": "w4", "text": "?" }
+            {
+              "id": "w1",
+              "text": "they"
+            },
+            {
+              "id": "w2",
+              "text": "Are"
+            },
+            {
+              "id": "w3",
+              "text": "Chinese"
+            },
+            {
+              "id": "w4",
+              "text": "?"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -451,9 +766,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes afirmativamente a 'Are you Italian?'?",
           "options": [
-            { "id": "o1", "text": "Yes, I am." },
-            { "id": "o2", "text": "Yes, I'm." },
-            { "id": "o3", "text": "Yes, I is." }
+            {
+              "id": "o1",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I'm."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I is."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -463,9 +787,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes negativamente a 'Is he from Spain?'?",
           "options": [
-            { "id": "o1", "text": "No, he isn't." },
-            { "id": "o2", "text": "No, he's not." },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "No, he isn't."
+            },
+            {
+              "id": "o2",
+              "text": "No, he's not."
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "communication"
@@ -475,9 +808,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma negativa de 'I am from China'?",
           "options": [
-            { "id": "o1", "text": "I am not from China" },
-            { "id": "o2", "text": "I not am from China" },
-            { "id": "o3", "text": "I no from China" }
+            {
+              "id": "o1",
+              "text": "I am not from China"
+            },
+            {
+              "id": "o2",
+              "text": "I not am from China"
+            },
+            {
+              "id": "o3",
+              "text": "I no from China"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -487,9 +829,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma negativa de 'She is Japanese'?",
           "options": [
-            { "id": "o1", "text": "She isn't Japanese" },
-            { "id": "o2", "text": "She's not Japanese" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "She isn't Japanese"
+            },
+            {
+              "id": "o2",
+              "text": "She's not Japanese"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -499,9 +850,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma negativa de 'They are British'?",
           "options": [
-            { "id": "o1", "text": "They aren't British" },
-            { "id": "o2", "text": "They're not British" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "They aren't British"
+            },
+            {
+              "id": "o2",
+              "text": "They're not British"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -549,9 +909,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿De dónde eres?'?",
           "options": [
-            { "id": "o1", "text": "Where are you from?" },
-            { "id": "o2", "text": "Where you are from?" },
-            { "id": "o3", "text": "Where is you from?" }
+            {
+              "id": "o1",
+              "text": "Where are you from?"
+            },
+            {
+              "id": "o2",
+              "text": "Where you are from?"
+            },
+            {
+              "id": "o3",
+              "text": "Where is you from?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -561,9 +930,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿De dónde es ella?'?",
           "options": [
-            { "id": "o1", "text": "Where is she from?" },
-            { "id": "o2", "text": "Where she is from?" },
-            { "id": "o3", "text": "Where are she from?" }
+            {
+              "id": "o1",
+              "text": "Where is she from?"
+            },
+            {
+              "id": "o2",
+              "text": "Where she is from?"
+            },
+            {
+              "id": "o3",
+              "text": "Where are she from?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -573,9 +951,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿De dónde son ellos?'?",
           "options": [
-            { "id": "o1", "text": "Where are they from?" },
-            { "id": "o2", "text": "Where they are from?" },
-            { "id": "o3", "text": "Where is they from?" }
+            {
+              "id": "o1",
+              "text": "Where are they from?"
+            },
+            {
+              "id": "o2",
+              "text": "Where they are from?"
+            },
+            {
+              "id": "o3",
+              "text": "Where is they from?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -585,13 +972,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta:",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "Where" },
-            { "id": "w3", "text": "he" },
-            { "id": "w4", "text": "from" },
-            { "id": "w5", "text": "?" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "Where"
+            },
+            {
+              "id": "w3",
+              "text": "he"
+            },
+            {
+              "id": "w4",
+              "text": "from"
+            },
+            {
+              "id": "w5",
+              "text": "?"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "communication"
         },
         {
@@ -599,9 +1007,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'What nationality is he?'?",
           "options": [
-            { "id": "o1", "text": "¿De qué nacionalidad es él?" },
-            { "id": "o2", "text": "¿De dónde es él?" },
-            { "id": "o3", "text": "¿Cómo es él?" }
+            {
+              "id": "o1",
+              "text": "¿De qué nacionalidad es él?"
+            },
+            {
+              "id": "o2",
+              "text": "¿De dónde es él?"
+            },
+            {
+              "id": "o3",
+              "text": "¿Cómo es él?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -611,9 +1028,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes a 'What nationality are you?'?",
           "options": [
-            { "id": "o1", "text": "I am Brazilian." },
-            { "id": "o2", "text": "I am from Brazil." },
-            { "id": "o3", "text": "Both are okay, but A is more direct" }
+            {
+              "id": "o1",
+              "text": "I am Brazilian."
+            },
+            {
+              "id": "o2",
+              "text": "I am from Brazil."
+            },
+            {
+              "id": "o3",
+              "text": "Both are okay, but A is more direct"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -655,9 +1081,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la contracción de 'are not'?",
           "options": [
-            { "id": "o1", "text": "aren't" },
-            { "id": "o2", "text": "are'nt" },
-            { "id": "o3", "text": "arent" }
+            {
+              "id": "o1",
+              "text": "aren't"
+            },
+            {
+              "id": "o2",
+              "text": "are'nt"
+            },
+            {
+              "id": "o3",
+              "text": "arent"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -667,9 +1102,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la contracción de 'is not'?",
           "options": [
-            { "id": "o1", "text": "isn't" },
-            { "id": "o2", "text": "is'nt" },
-            { "id": "o3", "text": "isnot" }
+            {
+              "id": "o1",
+              "text": "isn't"
+            },
+            {
+              "id": "o2",
+              "text": "is'nt"
+            },
+            {
+              "id": "o3",
+              "text": "isnot"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -685,9 +1129,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'idioma'?",
           "options": [
-            { "id": "o1", "text": "Language" },
-            { "id": "o2", "text": "Tongue" },
-            { "id": "o3", "text": "Speech" }
+            {
+              "id": "o1",
+              "text": "Language"
+            },
+            {
+              "id": "o2",
+              "text": "Tongue"
+            },
+            {
+              "id": "o3",
+              "text": "Speech"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -697,9 +1150,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué idioma se habla en Brasil?",
           "options": [
-            { "id": "o1", "text": "Portuguese" },
-            { "id": "o2", "text": "Brazilian" },
-            { "id": "o3", "text": "Spanish" }
+            {
+              "id": "o1",
+              "text": "Portuguese"
+            },
+            {
+              "id": "o2",
+              "text": "Brazilian"
+            },
+            {
+              "id": "o3",
+              "text": "Spanish"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -709,9 +1171,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué idioma se habla en México?",
           "options": [
-            { "id": "o1", "text": "Spanish" },
-            { "id": "o2", "text": "Mexican" },
-            { "id": "o3", "text": "English" }
+            {
+              "id": "o1",
+              "text": "Spanish"
+            },
+            {
+              "id": "o2",
+              "text": "Mexican"
+            },
+            {
+              "id": "o3",
+              "text": "English"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -721,9 +1192,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué idioma se habla en Estados Unidos?",
           "options": [
-            { "id": "o1", "text": "English" },
-            { "id": "o2", "text": "American" },
-            { "id": "o3", "text": "British" }
+            {
+              "id": "o1",
+              "text": "English"
+            },
+            {
+              "id": "o2",
+              "text": "American"
+            },
+            {
+              "id": "o3",
+              "text": "British"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -733,9 +1213,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Qué idiomas hablas?'?",
           "options": [
-            { "id": "o1", "text": "What languages do you speak?" },
-            { "id": "o2", "text": "What languages you speak?" },
-            { "id": "o3", "text": "Which languages are you speak?" }
+            {
+              "id": "o1",
+              "text": "What languages do you speak?"
+            },
+            {
+              "id": "o2",
+              "text": "What languages you speak?"
+            },
+            {
+              "id": "o3",
+              "text": "Which languages are you speak?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -745,9 +1234,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes a 'Do you speak English?'?",
           "options": [
-            { "id": "o1", "text": "Yes, I do." },
-            { "id": "o2", "text": "Yes, I speak." },
-            { "id": "o3", "text": "Yes, I am." }
+            {
+              "id": "o1",
+              "text": "Yes, I do."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I speak."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I am."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -757,9 +1255,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes 'Un poco'?",
           "options": [
-            { "id": "o1", "text": "A little bit" },
-            { "id": "o2", "text": "A small" },
-            { "id": "o3", "text": "Few" }
+            {
+              "id": "o1",
+              "text": "A little bit"
+            },
+            {
+              "id": "o2",
+              "text": "A small"
+            },
+            {
+              "id": "o3",
+              "text": "Few"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -769,9 +1276,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'No hablo francés'?",
           "options": [
-            { "id": "o1", "text": "I don't speak French" },
-            { "id": "o2", "text": "I not speak French" },
-            { "id": "o3", "text": "I no speak French" }
+            {
+              "id": "o1",
+              "text": "I don't speak French"
+            },
+            {
+              "id": "o2",
+              "text": "I not speak French"
+            },
+            {
+              "id": "o3",
+              "text": "I no speak French"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -781,9 +1297,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Native speaker'?",
           "options": [
-            { "id": "o1", "text": "Hablante nativo" },
-            { "id": "o2", "text": "Hablante nuevo" },
-            { "id": "o3", "text": "Hablante rápido" }
+            {
+              "id": "o1",
+              "text": "Hablante nativo"
+            },
+            {
+              "id": "o2",
+              "text": "Hablante nuevo"
+            },
+            {
+              "id": "o3",
+              "text": "Hablante rápido"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -793,9 +1318,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mundo'?",
           "options": [
-            { "id": "o1", "text": "World" },
-            { "id": "o2", "text": "Earth" },
-            { "id": "o3", "text": "Planet" }
+            {
+              "id": "o1",
+              "text": "World"
+            },
+            {
+              "id": "o2",
+              "text": "Earth"
+            },
+            {
+              "id": "o3",
+              "text": "Planet"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -805,9 +1339,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'capital'?",
           "options": [
-            { "id": "o1", "text": "Capital" },
-            { "id": "o2", "text": "City" },
-            { "id": "o3", "text": "Main City" }
+            {
+              "id": "o1",
+              "text": "Capital"
+            },
+            {
+              "id": "o2",
+              "text": "City"
+            },
+            {
+              "id": "o3",
+              "text": "Main City"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -817,9 +1360,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la capital de Italia?",
           "options": [
-            { "id": "o1", "text": "Rome" },
-            { "id": "o2", "text": "Milan" },
-            { "id": "o3", "text": "Venice" }
+            {
+              "id": "o1",
+              "text": "Rome"
+            },
+            {
+              "id": "o2",
+              "text": "Milan"
+            },
+            {
+              "id": "o3",
+              "text": "Venice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -829,9 +1381,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la capital de España?",
           "options": [
-            { "id": "o1", "text": "Madrid" },
-            { "id": "o2", "text": "Barcelona" },
-            { "id": "o3", "text": "Seville" }
+            {
+              "id": "o1",
+              "text": "Madrid"
+            },
+            {
+              "id": "o2",
+              "text": "Barcelona"
+            },
+            {
+              "id": "o3",
+              "text": "Seville"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -841,9 +1402,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la capital de Francia?",
           "options": [
-            { "id": "o1", "text": "Paris" },
-            { "id": "o2", "text": "Lyon" },
-            { "id": "o3", "text": "Marseille" }
+            {
+              "id": "o1",
+              "text": "Paris"
+            },
+            {
+              "id": "o2",
+              "text": "Lyon"
+            },
+            {
+              "id": "o3",
+              "text": "Marseille"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -853,9 +1423,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la capital de Alemania?",
           "options": [
-            { "id": "o1", "text": "Berlin" },
-            { "id": "o2", "text": "Munich" },
-            { "id": "o3", "text": "Hamburg" }
+            {
+              "id": "o1",
+              "text": "Berlin"
+            },
+            {
+              "id": "o2",
+              "text": "Munich"
+            },
+            {
+              "id": "o3",
+              "text": "Hamburg"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -865,9 +1444,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la capital de Japón?",
           "options": [
-            { "id": "o1", "text": "Tokyo" },
-            { "id": "o2", "text": "Osaka" },
-            { "id": "o3", "text": "Kyoto" }
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o2",
+              "text": "Osaka"
+            },
+            {
+              "id": "o3",
+              "text": "Kyoto"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -877,9 +1465,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Europa'?",
           "options": [
-            { "id": "o1", "text": "Europe" },
-            { "id": "o2", "text": "Europia" },
-            { "id": "o3", "text": "Euro" }
+            {
+              "id": "o1",
+              "text": "Europe"
+            },
+            {
+              "id": "o2",
+              "text": "Europia"
+            },
+            {
+              "id": "o3",
+              "text": "Euro"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -889,9 +1486,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Asia'?",
           "options": [
-            { "id": "o1", "text": "Asia" },
-            { "id": "o2", "text": "Asian" },
-            { "id": "o3", "text": "Asiatic" }
+            {
+              "id": "o1",
+              "text": "Asia"
+            },
+            {
+              "id": "o2",
+              "text": "Asian"
+            },
+            {
+              "id": "o3",
+              "text": "Asiatic"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -901,9 +1507,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'América'?",
           "options": [
-            { "id": "o1", "text": "America" },
-            { "id": "o2", "text": "American" },
-            { "id": "o3", "text": "Americas" }
+            {
+              "id": "o1",
+              "text": "America"
+            },
+            {
+              "id": "o2",
+              "text": "American"
+            },
+            {
+              "id": "o3",
+              "text": "Americas"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -913,9 +1528,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'África'?",
           "options": [
-            { "id": "o1", "text": "Africa" },
-            { "id": "o2", "text": "African" },
-            { "id": "o3", "text": "Afric" }
+            {
+              "id": "o1",
+              "text": "Africa"
+            },
+            {
+              "id": "o2",
+              "text": "African"
+            },
+            {
+              "id": "o3",
+              "text": "Afric"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -930,29 +1554,128 @@
           "interaction_id": "U3_I81",
           "type": "word-search",
           "prompt_es": "Encuentra países y nacionalidades:",
-          "words": ["SPAIN", "ITALY", "FRANCE", "GERMAN", "CHINA", "JAPAN", "BRAZIL", "CANADA"],
+          "words": [
+            "SPAIN",
+            "ITALY",
+            "FRANCE",
+            "GERMAN",
+            "CHINA",
+            "JAPAN",
+            "BRAZIL",
+            "CANADA"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "SPAIN", "clue": "País de Madrid" },
-            { "word": "ITALY", "clue": "País de Roma" },
-            { "word": "FRANCE", "clue": "País de París" },
-            { "word": "GERMAN", "clue": "Nacionalidad de Alemania" },
-            { "word": "CHINA", "clue": "País de Pekín" },
-            { "word": "JAPAN", "clue": "País de Tokio" },
-            { "word": "BRAZIL", "clue": "País de Brasilia" },
-            { "word": "CANADA", "clue": "País de Ottawa" }
+            {
+              "word": "SPAIN",
+              "clue": "País de Madrid"
+            },
+            {
+              "word": "ITALY",
+              "clue": "País de Roma"
+            },
+            {
+              "word": "FRANCE",
+              "clue": "País de París"
+            },
+            {
+              "word": "GERMAN",
+              "clue": "Nacionalidad de Alemania"
+            },
+            {
+              "word": "CHINA",
+              "clue": "País de Pekín"
+            },
+            {
+              "word": "JAPAN",
+              "clue": "País de Tokio"
+            },
+            {
+              "word": "BRAZIL",
+              "clue": "País de Brasilia"
+            },
+            {
+              "word": "CANADA",
+              "clue": "País de Ottawa"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I82",
           "type": "crossword",
-          "prompt_es": "Crucigrama del mundo:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "SPAIN", "clue": "Madrid is the capital of ___", "direction": "across", "row": 0, "col": 0 },
-            { "word": "FRENCH", "clue": "People from France are ___", "direction": "down", "row": 0, "col": 0 },
-            { "word": "ROME", "clue": "Capital of Italy", "direction": "across", "row": 2, "col": 0 },
-            { "word": "CHINA", "clue": "Beijing is in ___", "direction": "down", "row": 0, "col": 4 }
+            {
+              "word": "PASSPORT",
+              "clue": "Traducción de: pasaporte",
+              "direction": "across",
+              "row": 10,
+              "col": 6
+            },
+            {
+              "word": "LANGUAGE",
+              "clue": "Traducción de: idioma",
+              "direction": "down",
+              "row": 5,
+              "col": 7
+            },
+            {
+              "word": "CHINESE",
+              "clue": "Traducción de: Chino/a",
+              "direction": "across",
+              "row": 12,
+              "col": 1
+            },
+            {
+              "word": "GERMANY",
+              "clue": "Traducción de: Berlin",
+              "direction": "across",
+              "row": 7,
+              "col": 2
+            },
+            {
+              "word": "MEXICAN",
+              "clue": "Traducción de: Mexicano/a",
+              "direction": "down",
+              "row": 8,
+              "col": 1
+            },
+            {
+              "word": "CANADA",
+              "clue": "Traducción de: Canadá",
+              "direction": "down",
+              "row": 10,
+              "col": 4
+            },
+            {
+              "word": "POLISH",
+              "clue": "Traducción de: polaco/a",
+              "direction": "down",
+              "row": 10,
+              "col": 10
+            },
+            {
+              "word": "AFRICA",
+              "clue": "Traducción de: África",
+              "direction": "down",
+              "row": 8,
+              "col": 12
+            },
+            {
+              "word": "MEXICO",
+              "clue": "Traducción de: México",
+              "direction": "across",
+              "row": 1,
+              "col": 13
+            },
+            {
+              "word": "WORLD",
+              "clue": "Traducción de: mundo",
+              "direction": "down",
+              "row": 0,
+              "col": 18
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -961,11 +1684,27 @@
           "type": "matching",
           "prompt_es": "Une el país con su capital:",
           "pairs": [
-            { "id": "p1", "left": "UK", "right": "London" },
-            { "id": "p2", "left": "Japan", "right": "Tokyo" },
-            { "id": "p3", "left": "Germany", "right": "Berlin" }
+            {
+              "id": "p1",
+              "left": "UK",
+              "right": "London"
+            },
+            {
+              "id": "p2",
+              "left": "Japan",
+              "right": "Tokyo"
+            },
+            {
+              "id": "p3",
+              "left": "Germany",
+              "right": "Berlin"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -981,9 +1720,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la pregunta correcta?",
           "options": [
-            { "id": "o1", "text": "Where is she from?" },
-            { "id": "o2", "text": "Where are she from?" },
-            { "id": "o3", "text": "Where she from is?" }
+            {
+              "id": "o1",
+              "text": "Where is she from?"
+            },
+            {
+              "id": "o2",
+              "text": "Where are she from?"
+            },
+            {
+              "id": "o3",
+              "text": "Where she from is?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -993,9 +1741,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'australiano/a'?",
           "options": [
-            { "id": "o1", "text": "Australian" },
-            { "id": "o2", "text": "Australia" },
-            { "id": "o3", "text": "Austral" }
+            {
+              "id": "o1",
+              "text": "Australian"
+            },
+            {
+              "id": "o2",
+              "text": "Australia"
+            },
+            {
+              "id": "o3",
+              "text": "Austral"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1005,9 +1762,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué idioma se habla en Australia?",
           "options": [
-            { "id": "o1", "text": "English" },
-            { "id": "o2", "text": "Australian" },
-            { "id": "o3", "text": "Austrian" }
+            {
+              "id": "o1",
+              "text": "English"
+            },
+            {
+              "id": "o2",
+              "text": "Australian"
+            },
+            {
+              "id": "o3",
+              "text": "Austrian"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1033,9 +1799,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'polaco/a'?",
           "options": [
-            { "id": "o1", "text": "Polish" },
-            { "id": "o2", "text": "Poland" },
-            { "id": "o3", "text": "Polian" }
+            {
+              "id": "o1",
+              "text": "Polish"
+            },
+            {
+              "id": "o2",
+              "text": "Poland"
+            },
+            {
+              "id": "o3",
+              "text": "Polian"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1045,9 +1820,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Are you from around here?'?",
           "options": [
-            { "id": "o1", "text": "¿Eres de por aquí?" },
-            { "id": "o2", "text": "¿Eres de allí?" },
-            { "id": "o3", "text": "¿A dónde vas?" }
+            {
+              "id": "o1",
+              "text": "¿Eres de por aquí?"
+            },
+            {
+              "id": "o2",
+              "text": "¿Eres de allí?"
+            },
+            {
+              "id": "o3",
+              "text": "¿A dónde vas?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1057,9 +1841,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'No soy de aquí'?",
           "options": [
-            { "id": "o1", "text": "I am not from here" },
-            { "id": "o2", "text": "I not from here" },
-            { "id": "o3", "text": "I no from here" }
+            {
+              "id": "o1",
+              "text": "I am not from here"
+            },
+            {
+              "id": "o2",
+              "text": "I not from here"
+            },
+            {
+              "id": "o3",
+              "text": "I no from here"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1069,9 +1862,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'extranjero'?",
           "options": [
-            { "id": "o1", "text": "Foreigner" },
-            { "id": "o2", "text": "Strange" },
-            { "id": "o3", "text": "Outside" }
+            {
+              "id": "o1",
+              "text": "Foreigner"
+            },
+            {
+              "id": "o2",
+              "text": "Strange"
+            },
+            {
+              "id": "o3",
+              "text": "Outside"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1081,9 +1883,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'viaje'?",
           "options": [
-            { "id": "o1", "text": "Trip / Journey" },
-            { "id": "o2", "text": "Travel" },
-            { "id": "o3", "text": "Way" }
+            {
+              "id": "o1",
+              "text": "Trip / Journey"
+            },
+            {
+              "id": "o2",
+              "text": "Travel"
+            },
+            {
+              "id": "o3",
+              "text": "Way"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1093,9 +1904,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Have a safe trip'?",
           "options": [
-            { "id": "o1", "text": "Ten un buen viaje (seguro)" },
-            { "id": "o2", "text": "Ten un viaje rápido" },
-            { "id": "o3", "text": "Guarda tu viaje" }
+            {
+              "id": "o1",
+              "text": "Ten un buen viaje (seguro)"
+            },
+            {
+              "id": "o2",
+              "text": "Ten un viaje rápido"
+            },
+            {
+              "id": "o3",
+              "text": "Guarda tu viaje"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1105,9 +1925,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pasaporte'?",
           "options": [
-            { "id": "o1", "text": "Passport" },
-            { "id": "o2", "text": "Pass" },
-            { "id": "o3", "text": "ID card" }
+            {
+              "id": "o1",
+              "text": "Passport"
+            },
+            {
+              "id": "o2",
+              "text": "Pass"
+            },
+            {
+              "id": "o3",
+              "text": "ID card"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1117,9 +1946,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tarjeta de identificación'?",
           "options": [
-            { "id": "o1", "text": "ID card" },
-            { "id": "o2", "text": "Identify card" },
-            { "id": "o3", "text": "Personal card" }
+            {
+              "id": "o1",
+              "text": "ID card"
+            },
+            {
+              "id": "o2",
+              "text": "Identify card"
+            },
+            {
+              "id": "o3",
+              "text": "Personal card"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1129,9 +1967,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'visa'?",
           "options": [
-            { "id": "o1", "text": "Visa" },
-            { "id": "o2", "text": "Permit" },
-            { "id": "o3", "text": "Ticket" }
+            {
+              "id": "o1",
+              "text": "Visa"
+            },
+            {
+              "id": "o2",
+              "text": "Permit"
+            },
+            {
+              "id": "o3",
+              "text": "Ticket"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1141,9 +1988,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Tourism'?",
           "options": [
-            { "id": "o1", "text": "Turismo" },
-            { "id": "o2", "text": "Turista" },
-            { "id": "o3", "text": "Viaje" }
+            {
+              "id": "o1",
+              "text": "Turismo"
+            },
+            {
+              "id": "o2",
+              "text": "Turista"
+            },
+            {
+              "id": "o3",
+              "text": "Viaje"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1153,9 +2009,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'soy un turista'?",
           "options": [
-            { "id": "o1", "text": "I am a tourist" },
-            { "id": "o2", "text": "I am a tourism" },
-            { "id": "o3", "text": "I am tourist" }
+            {
+              "id": "o1",
+              "text": "I am a tourist"
+            },
+            {
+              "id": "o2",
+              "text": "I am a tourism"
+            },
+            {
+              "id": "o3",
+              "text": "I am tourist"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"

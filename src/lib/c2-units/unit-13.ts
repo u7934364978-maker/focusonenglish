@@ -28,10 +28,11 @@ export const C2_U13_BLOCK1: Exercise = {
     {
       "id": "c2-u13-b1-q3",
       "type": "key-word-transformation",
+      "question": "The robot's movements were very smooth and natural. (FLUIDITY)\n\nThe robot moved with __________",
       "sentence": "The robot's movements were very smooth and natural.",
       "keyWord": "FLUIDITY",
       "startOfAnswer": "The robot moved with",
-      "correctAnswer": "The robot moved with remarkable fluidity.",
+      "correctAnswer": "remarkable fluidity",
       "explanation": "Fluidity refers to smooth, graceful movement.",
       "points": 1
     },
@@ -55,10 +56,11 @@ export const C2_U13_BLOCK1: Exercise = {
     {
       "id": "c2-u13-b1-q6",
       "type": "key-word-transformation",
+      "question": "The AI correctly identified the pattern in the data. (DISCERNED)\n\nThe AI __________",
       "sentence": "The AI correctly identified the pattern in the data.",
       "keyWord": "DISCERNED",
       "startOfAnswer": "The AI",
-      "correctAnswer": "The AI discerned the pattern in the data.",
+      "correctAnswer": "discerned the pattern in the data",
       "explanation": "To discern is to perceive or recognize something.",
       "points": 1
     },
@@ -82,10 +84,11 @@ export const C2_U13_BLOCK1: Exercise = {
     {
       "id": "c2-u13-b1-q9",
       "type": "key-word-transformation",
+      "question": "The new technology will change our lives forever. (IRREVERSIBLY)\n\nThe new technology will __________",
       "sentence": "The new technology will change our lives forever.",
       "keyWord": "IRREVERSIBLY",
       "startOfAnswer": "The new technology will",
-      "correctAnswer": "The new technology will irreversibly change our lives.",
+      "correctAnswer": "irreversibly change our lives",
       "explanation": "Irreversibly means in a way that cannot be undone.",
       "points": 1
     },
@@ -127,10 +130,11 @@ export const C2_U13_BLOCK2: Exercise = {
     {
       "id": "c2-u13-b2-q3",
       "type": "key-word-transformation",
+      "question": "I'm sure that isn't the real reason. (CAN'T)\n\nThat __________",
       "sentence": "I'm sure that isn't the real reason.",
       "keyWord": "CAN'T",
       "startOfAnswer": "That",
-      "correctAnswer": "That can't be the real reason.",
+      "correctAnswer": "can't be the real reason",
       "explanation": "'Can't' is used for negative deduction.",
       "points": 1
     },
@@ -154,10 +158,11 @@ export const C2_U13_BLOCK2: Exercise = {
     {
       "id": "c2-u13-b2-q6",
       "type": "key-word-transformation",
+      "question": "It is certain that AI will become even more powerful. (BOUND)\n\nAI __________",
       "sentence": "It is certain that AI will become even more powerful.",
       "keyWord": "BOUND",
       "startOfAnswer": "AI",
-      "correctAnswer": "AI is bound to become even more powerful.",
+      "correctAnswer": "is bound to become even more powerful",
       "explanation": "'Bound to' expresses certainty about the future.",
       "points": 1
     },
@@ -181,10 +186,11 @@ export const C2_U13_BLOCK2: Exercise = {
     {
       "id": "c2-u13-b2-q9",
       "type": "key-word-transformation",
+      "question": "I'm sure he is expecting our call. (MUST)\n\nHe __________",
       "sentence": "I'm sure he is expecting our call.",
       "keyWord": "MUST",
       "startOfAnswer": "He",
-      "correctAnswer": "He must be expecting our call.",
+      "correctAnswer": "must be expecting our call",
       "explanation": "Deduction about a continuous state.",
       "points": 1
     },
@@ -320,10 +326,11 @@ export const C2_U13_BLOCK4: Exercise = {
     {
       "id": "c2-u13-b4-q3",
       "type": "key-word-transformation",
+      "question": "It's possible that the email was sent to the wrong person. (MIGHT)\n\nThe email __________",
       "sentence": "It's possible that the email was sent to the wrong person.",
       "keyWord": "MIGHT",
       "startOfAnswer": "The email",
-      "correctAnswer": "The email might have been sent to the wrong person.",
+      "correctAnswer": "might have been sent to the wrong person",
       "explanation": "Past possibility.",
       "points": 1
     },
@@ -347,10 +354,11 @@ export const C2_U13_BLOCK4: Exercise = {
     {
       "id": "c2-u13-b4-q6",
       "type": "key-word-transformation",
+      "question": "I'm sure she didn't see me. (CAN'T)\n\nShe __________",
       "sentence": "I'm sure she didn't see me.",
       "keyWord": "CAN'T",
       "startOfAnswer": "She",
-      "correctAnswer": "She can't have seen me.",
+      "correctAnswer": "can't have seen me",
       "explanation": "Negative past deduction.",
       "points": 1
     },
@@ -374,20 +382,26 @@ export const C2_U13_BLOCK4: Exercise = {
     {
       "id": "c2-u13-b4-q9",
       "type": "key-word-transformation",
+      "question": "It was wrong of you to lie. (SHOULD)\n\nYou __________",
       "sentence": "It was wrong of you to lie.",
       "keyWord": "SHOULD",
       "startOfAnswer": "You",
-      "correctAnswer": "You should not have lied.",
+      "correctAnswer": "should not have lied",
       "explanation": "Expressing regret or criticism about the past.",
       "points": 1
     },
     {
       "id": "c2-u13-b4-q10",
       "type": "multiple-choice",
-      "question": "Which sentence expresses a past possibility that didn't happen?",
-      "options": ["He may have arrived.", "He might have arrived.", "He could have been killed.", "He must have arrived."],
-      "correctAnswer": "He could have been killed.",
-      "explanation": "'Could have' is frequently used for 'narrow escapes'.",
+      "question": "Which sentence expresses a past possibility that didn't happen (narrow escape)?",
+      "options": [
+  "He could have died.",
+  "He might have arrived.",
+  "He could have been killed.",
+  "He must have arrived."
+],
+      "correctAnswer": "He could have died.",
+      "explanation": "'Could have' indicates a past possibility of an event that was avoided.",
       "points": 1
     }
   ]
@@ -419,10 +433,11 @@ export const C2_U13_BLOCK5: Exercise = {
     {
       "id": "c2-u13-b5-q3",
       "type": "key-word-transformation",
+      "question": "Social media has a huge influence on public opinion. (EXERTS)\n\nSocial media __________",
       "sentence": "Social media has a huge influence on public opinion.",
       "keyWord": "EXERTS",
       "startOfAnswer": "Social media",
-      "correctAnswer": "Social media exerts a huge influence on public opinion.",
+      "correctAnswer": "exerts a huge influence on public opinion",
       "explanation": "'Exert influence' is a common formal collocation.",
       "points": 1
     },
@@ -446,10 +461,11 @@ export const C2_U13_BLOCK5: Exercise = {
     {
       "id": "c2-u13-b5-q6",
       "type": "key-word-transformation",
+      "question": "The company is at the forefront of AI research. (CUTTING)\n\nThe company is on the __________",
       "sentence": "The company is at the forefront of AI research.",
       "keyWord": "CUTTING",
       "startOfAnswer": "The company is on the",
-      "correctAnswer": "The company is on the cutting edge of AI research.",
+      "correctAnswer": "cutting edge of AI research",
       "explanation": "'Cutting edge' means the most advanced stage of development.",
       "points": 1
     },
@@ -473,10 +489,11 @@ export const C2_U13_BLOCK5: Exercise = {
     {
       "id": "c2-u13-b5-q9",
       "type": "key-word-transformation",
+      "question": "They finally implemented the new security protocols. (EFFECT)\n\nThey finally put the new security protocols __________",
       "sentence": "They finally implemented the new security protocols.",
       "keyWord": "EFFECT",
       "startOfAnswer": "They finally put the new security protocols",
-      "correctAnswer": "They finally put the new security protocols into effect.",
+      "correctAnswer": "into effect",
       "explanation": "'Put into effect' means to implement.",
       "points": 1
     },
@@ -501,100 +518,110 @@ export const C2_U13_BLOCK6: Exercise = {
     {
       "id": "c2-u13-b6-q1",
       "type": "key-word-transformation",
+      "question": "It's highly likely that the project was a failure. (MUST)\n\nThe project __________",
       "sentence": "It's highly likely that the project was a failure.",
       "keyWord": "MUST",
       "startOfAnswer": "The project",
-      "correctAnswer": "The project must have been a failure.",
+      "correctAnswer": "must have been a failure",
       "explanation": "Past deduction.",
       "points": 1
     },
     {
       "id": "c2-u13-b6-q2",
       "type": "key-word-transformation",
+      "question": "I'm sure he didn't mean to offend you. (CAN'T)\n\nHe __________",
       "sentence": "I'm sure he didn't mean to offend you.",
       "keyWord": "CAN'T",
       "startOfAnswer": "He",
-      "correctAnswer": "He can't have meant to offend you.",
+      "correctAnswer": "can't have meant to offend you",
       "explanation": "Negative past deduction.",
       "points": 1
     },
     {
       "id": "c2-u13-b6-q3",
       "type": "key-word-transformation",
+      "question": "Perhaps they were delayed by the traffic. (MIGHT)\n\nThey __________",
       "sentence": "Perhaps they were delayed by the traffic.",
       "keyWord": "MIGHT",
       "startOfAnswer": "They",
-      "correctAnswer": "They might have been delayed by the traffic.",
+      "correctAnswer": "might have been delayed by the traffic",
       "explanation": "Past possibility.",
       "points": 1
     },
     {
       "id": "c2-u13-b6-q4",
       "type": "key-word-transformation",
+      "question": "It was a mistake not to backup the data. (SHOULD)\n\nThe data __________",
       "sentence": "It was a mistake not to backup the data.",
       "keyWord": "SHOULD",
       "startOfAnswer": "The data",
-      "correctAnswer": "The data should have been backed up.",
+      "correctAnswer": "should have been backed up",
       "explanation": "Criticism/regret about a past omission.",
       "points": 1
     },
     {
       "id": "c2-u13-b6-q5",
       "type": "key-word-transformation",
+      "question": "I'm certain that the system is down. (BOUND)\n\nThe system __________",
       "sentence": "I'm certain that the system is down.",
       "keyWord": "BOUND",
       "startOfAnswer": "The system",
-      "correctAnswer": "The system is bound to be down.",
+      "correctAnswer": "is bound to be down",
       "explanation": "Certainty (present/future).",
       "points": 1
     },
     {
       "id": "c2-u13-b6-q6",
       "type": "key-word-transformation",
+      "question": "It is possible that he is lying. (COULD)\n\nHe __________",
       "sentence": "It is possible that he is lying.",
       "keyWord": "COULD",
       "startOfAnswer": "He",
-      "correctAnswer": "He could be lying.",
+      "correctAnswer": "could be lying",
       "explanation": "Present possibility.",
       "points": 1
     },
     {
       "id": "c2-u13-b6-q7",
       "type": "key-word-transformation",
+      "question": "I'm sure she's not at home. (CAN'T)\n\nShe __________",
       "sentence": "I'm sure she's not at home.",
       "keyWord": "CAN'T",
       "startOfAnswer": "She",
-      "correctAnswer": "She can't be at home.",
+      "correctAnswer": "can't be at home",
       "explanation": "Negative present deduction.",
       "points": 1
     },
     {
       "id": "c2-u13-b6-q8",
       "type": "key-word-transformation",
+      "question": "There's a chance the flight will be canceled. (WELL)\n\nThe flight __________",
       "sentence": "There's a chance the flight will be canceled.",
       "keyWord": "WELL",
       "startOfAnswer": "The flight",
-      "correctAnswer": "The flight could well be canceled.",
+      "correctAnswer": "could well be canceled",
       "explanation": "Probability with 'could well'.",
       "points": 1
     },
     {
       "id": "c2-u13-b6-q9",
       "type": "key-word-transformation",
+      "question": "It wasn't necessary for you to bring a gift. (NEEDN'T)\n\nYou __________",
       "sentence": "It wasn't necessary for you to bring a gift.",
       "keyWord": "NEEDN'T",
       "startOfAnswer": "You",
-      "correctAnswer": "You needn't have brought a gift.",
+      "correctAnswer": "needn't have brought a gift",
       "explanation": "Unnecessary past action.",
       "points": 1
     },
     {
       "id": "c2-u13-b6-q10",
       "type": "key-word-transformation",
+      "question": "It's possible that they forgot the meeting. (MAY)\n\nThey __________",
       "sentence": "It's possible that they forgot the meeting.",
       "keyWord": "MAY",
       "startOfAnswer": "They",
-      "correctAnswer": "They may have forgotten the meeting.",
+      "correctAnswer": "may have forgotten the meeting",
       "explanation": "Past possibility.",
       "points": 1
     }
@@ -721,10 +748,11 @@ export const C2_U13_BLOCK8: Exercise = {
     {
       "id": "c2-u13-b8-q3",
       "type": "key-word-transformation",
+      "question": "It is possible to imagine a world without poverty. (CONCEIVABLY)\n\nWe could __________",
       "sentence": "It is possible to imagine a world without poverty.",
       "keyWord": "CONCEIVABLY",
       "startOfAnswer": "We could",
-      "correctAnswer": "We could conceivably live in a world without poverty.",
+      "correctAnswer": "conceivably live in a world without poverty",
       "explanation": "Conceivably means in a way that can be imagined.",
       "points": 1
     },
@@ -748,10 +776,11 @@ export const C2_U13_BLOCK8: Exercise = {
     {
       "id": "c2-u13-b8-q6",
       "type": "key-word-transformation",
+      "question": "It is certain that he is the best candidate. (BEYOND)\n\nHe is __________",
       "sentence": "It is certain that he is the best candidate.",
       "keyWord": "BEYOND",
       "startOfAnswer": "He is",
-      "correctAnswer": "He is beyond doubt the best candidate.",
+      "correctAnswer": "beyond doubt the best candidate",
       "explanation": "'Beyond doubt' means certain.",
       "points": 1
     },
@@ -775,10 +804,11 @@ export const C2_U13_BLOCK8: Exercise = {
     {
       "id": "c2-u13-b8-q9",
       "type": "key-word-transformation",
+      "question": "I suppose they have already left. (SUPPOSEDLY)\n\nThey have __________",
       "sentence": "I suppose they have already left.",
       "keyWord": "SUPPOSEDLY",
       "startOfAnswer": "They have",
-      "correctAnswer": "They have supposedly already left.",
+      "correctAnswer": "supposedly already left",
       "explanation": "Supposedly means according to what is generally assumed or believed.",
       "points": 1
     },
@@ -820,10 +850,11 @@ export const C2_U13_BLOCK9: Exercise = {
     {
       "id": "c2-u13-b9-q3",
       "type": "key-word-transformation",
+      "question": "The computer crashed because the processor was too hot. (OVERHEATED)\n\nThe processor __________",
       "sentence": "The computer crashed because the processor was too hot.",
       "keyWord": "OVERHEATED",
       "startOfAnswer": "The processor",
-      "correctAnswer": "The processor overheated, causing the computer to crash.",
+      "correctAnswer": "overheated",
       "explanation": "Overheating is a common hardware issue.",
       "points": 1
     },
@@ -847,10 +878,11 @@ export const C2_U13_BLOCK9: Exercise = {
     {
       "id": "c2-u13-b9-q6",
       "type": "key-word-transformation",
+      "question": "The network is very slow today. (CONGESTED)\n\nThe network is __________",
       "sentence": "The network is very slow today.",
       "keyWord": "CONGESTED",
       "startOfAnswer": "The network is",
-      "correctAnswer": "The network is heavily congested today.",
+      "correctAnswer": "congested",
       "explanation": "Congestion refers to high traffic on a network.",
       "points": 1
     },
@@ -874,10 +906,11 @@ export const C2_U13_BLOCK9: Exercise = {
     {
       "id": "c2-u13-b9-q9",
       "type": "key-word-transformation",
+      "question": "He modified the software to suit his needs. (CUSTOMIZED)\n\nHe __________",
       "sentence": "He modified the software to suit his needs.",
       "keyWord": "CUSTOMIZED",
       "startOfAnswer": "He",
-      "correctAnswer": "He customized the software to suit his needs.",
+      "correctAnswer": "customized",
       "explanation": "To customize is to modify according to individual requirements.",
       "points": 1
     },
@@ -936,10 +969,11 @@ export const C2_U13_BLOCK10: Exercise = {
     {
       "id": "c2-u13-b10-q5",
       "type": "key-word-transformation",
+      "question": "I'm sure he didn't do it on purpose. (MUST)\n\nIt __________",
       "sentence": "I'm sure he didn't do it on purpose.",
       "keyWord": "MUST",
       "startOfAnswer": "It",
-      "correctAnswer": "It must have been an accident.",
+      "correctAnswer": "must have been an accident",
       "explanation": "Deduction using a synonym.",
       "points": 1
     },
@@ -963,10 +997,11 @@ export const C2_U13_BLOCK10: Exercise = {
     {
       "id": "c2-u13-b10-q8",
       "type": "key-word-transformation",
+      "question": "It is certainly not going to rain. (UNLIKELY)\n\nIt is __________",
       "sentence": "It is certainly not going to rain.",
       "keyWord": "UNLIKELY",
       "startOfAnswer": "It is",
-      "correctAnswer": "It is highly unlikely to rain.",
+      "correctAnswer": "highly unlikely to rain",
       "explanation": "'Highly unlikely' for strong negative probability.",
       "points": 1
     },
@@ -993,6 +1028,8 @@ export const C2_U13_BLOCK10: Exercise = {
 export const C2_UNIT_13 = createC2Unit(
   'c2-u13',
   'The Future of AI & Robotics',
+  'Advanced C2 unit exploring complex topics and formal language structures.',
+  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
   [
     C2_U13_BLOCK1, C2_U13_BLOCK2, C2_U13_BLOCK3, C2_U13_BLOCK4, C2_U13_BLOCK5,
     C2_U13_BLOCK6, C2_U13_BLOCK7, C2_U13_BLOCK8, C2_U13_BLOCK9, C2_U13_BLOCK10

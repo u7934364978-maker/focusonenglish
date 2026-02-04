@@ -28,10 +28,11 @@ export const C2_U12_BLOCK1: Exercise = {
     {
       "id": "c2-u12-b1-q3",
       "type": "key-word-transformation",
+      "question": "They didn't find any proof to support the claim. (SUBSTANTIATE)\n\nThey failed __________",
       "sentence": "They didn't find any proof to support the claim.",
       "keyWord": "SUBSTANTIATE",
       "startOfAnswer": "They failed",
-      "correctAnswer": "They failed to substantiate the claim.",
+      "correctAnswer": "to substantiate the claim",
       "explanation": "To substantiate is to provide evidence to support or prove the truth of something.",
       "points": 1
     },
@@ -55,10 +56,11 @@ export const C2_U12_BLOCK1: Exercise = {
     {
       "id": "c2-u12-b1-q6",
       "type": "key-word-transformation",
+      "question": "The results of the experiment were exactly what we predicted. (ACCORDANCE)\n\nThe results were in __________",
       "sentence": "The results of the experiment were exactly what we predicted.",
       "keyWord": "ACCORDANCE",
       "startOfAnswer": "The results were in",
-      "correctAnswer": "The results were in accordance with our predictions.",
+      "correctAnswer": "accordance with our predictions",
       "explanation": "'In accordance with' means in agreement with.",
       "points": 1
     },
@@ -82,10 +84,11 @@ export const C2_U12_BLOCK1: Exercise = {
     {
       "id": "c2-u12-b1-q9",
       "type": "key-word-transformation",
+      "question": "They are trying to find out how the universe began. (ORIGINS)\n\nThey are investigating __________",
       "sentence": "They are trying to find out how the universe began.",
       "keyWord": "ORIGINS",
       "startOfAnswer": "They are investigating",
-      "correctAnswer": "They are investigating the origins of the universe.",
+      "correctAnswer": "the origins of the universe",
       "explanation": "Origins as a formal plural for beginning.",
       "points": 1
     },
@@ -127,10 +130,11 @@ export const C2_U12_BLOCK2: Exercise = {
     {
       "id": "c2-u12-b2-q3",
       "type": "key-word-transformation",
+      "question": "They report that the mission was a success. (REPORTED)\n\nThe mission __________",
       "sentence": "They report that the mission was a success.",
       "keyWord": "REPORTED",
       "startOfAnswer": "The mission",
-      "correctAnswer": "The mission is reported to have been a success.",
+      "correctAnswer": "is reported to have been a success",
       "explanation": "Personal passive construction.",
       "points": 1
     },
@@ -154,10 +158,11 @@ export const C2_U12_BLOCK2: Exercise = {
     {
       "id": "c2-u12-b2-q6",
       "type": "key-word-transformation",
+      "question": "Experts estimate that the scroll is 2000 years old. (ESTIMATED)\n\nThe scroll __________",
       "sentence": "Experts estimate that the scroll is 2000 years old.",
       "keyWord": "ESTIMATED",
       "startOfAnswer": "The scroll",
-      "correctAnswer": "The scroll is estimated to be 2000 years old.",
+      "correctAnswer": "is estimated to be 2000 years old",
       "explanation": "Personal passive with 'be + estimated + to-infinitive'.",
       "points": 1
     },
@@ -181,10 +186,11 @@ export const C2_U12_BLOCK2: Exercise = {
     {
       "id": "c2-u12-b2-q9",
       "type": "key-word-transformation",
+      "question": "People expect that the economy will grow next year. (EXPECTED)\n\nThe economy __________",
       "sentence": "People expect that the economy will grow next year.",
       "keyWord": "EXPECTED",
       "startOfAnswer": "The economy",
-      "correctAnswer": "The economy is expected to grow next year.",
+      "correctAnswer": "is expected to grow next year",
       "explanation": "Personal passive for future expectations.",
       "points": 1
     },
@@ -226,10 +232,11 @@ export const C2_U12_BLOCK3: Exercise = {
     {
       "id": "c2-u12-b3-q3",
       "type": "key-word-transformation",
+      "question": "The experiment must be done under very controlled conditions. (OUT)\n\nThe experiment must be __________",
       "sentence": "The experiment must be done under very controlled conditions.",
       "keyWord": "OUT",
       "startOfAnswer": "The experiment must be",
-      "correctAnswer": "The experiment must be carried out under very controlled conditions.",
+      "correctAnswer": "carried out under very controlled conditions",
       "explanation": "'Carry out' is a formal phrasal verb for performing tasks.",
       "points": 1
     },
@@ -253,10 +260,11 @@ export const C2_U12_BLOCK3: Exercise = {
     {
       "id": "c2-u12-b3-q6",
       "type": "key-word-transformation",
+      "question": "The researchers didn't consider the age of the participants. (ACCOUNT)\n\nThe researchers failed to __________",
       "sentence": "The researchers didn't consider the age of the participants.",
       "keyWord": "ACCOUNT",
       "startOfAnswer": "The researchers failed to",
-      "correctAnswer": "The researchers failed to take into account the age of the participants.",
+      "correctAnswer": "take into account the age of the participants",
       "explanation": "'Take into account' means to consider.",
       "points": 1
     },
@@ -280,10 +288,11 @@ export const C2_U12_BLOCK3: Exercise = {
     {
       "id": "c2-u12-b3-q9",
       "type": "key-word-transformation",
+      "question": "They finally managed to solve the problem after many years. (SOLUTION)\n\nThey finally __________",
       "sentence": "They finally managed to solve the problem after many years.",
       "keyWord": "SOLUTION",
       "startOfAnswer": "They finally",
-      "correctAnswer": "They finally hit upon a solution to the problem after many years.",
+      "correctAnswer": "hit upon a solution to the problem after many years",
       "explanation": "'Hit upon' means to discover or think of something by chance.",
       "points": 1
     },
@@ -308,100 +317,110 @@ export const C2_U12_BLOCK4: Exercise = {
     {
       "id": "c2-u12-b4-q1",
       "type": "key-word-transformation",
+      "question": "It is thought that the virus originated in birds. (THOUGHT)\n\nThe virus __________",
       "sentence": "It is thought that the virus originated in birds.",
       "keyWord": "THOUGHT",
       "startOfAnswer": "The virus",
-      "correctAnswer": "The virus is thought to have originated in birds.",
+      "correctAnswer": "is thought to have originated in birds",
       "explanation": "Transforming impersonal to personal passive.",
       "points": 1
     },
     {
       "id": "c2-u12-b4-q2",
       "type": "key-word-transformation",
+      "question": "People claim that he discovered the secret room. (CLAIMED)\n\nHe __________",
       "sentence": "People claim that he discovered the secret room.",
       "keyWord": "CLAIMED",
       "startOfAnswer": "He",
-      "correctAnswer": "He is claimed to have discovered the secret room.",
+      "correctAnswer": "is claimed to have discovered the secret room",
       "explanation": "Transforming active to personal passive.",
       "points": 1
     },
     {
       "id": "c2-u12-b4-q3",
       "type": "key-word-transformation",
+      "question": "It is rumored that they are getting married. (RUMORED)\n\nThey __________",
       "sentence": "It is rumored that they are getting married.",
       "keyWord": "RUMORED",
       "startOfAnswer": "They",
-      "correctAnswer": "They are rumored to be getting married.",
+      "correctAnswer": "are rumored to be getting married",
       "explanation": "Impersonal to personal passive (present continuous).",
       "points": 1
     },
     {
       "id": "c2-u12-b4-q4",
       "type": "key-word-transformation",
+      "question": "Experts believe that the painting is a fake. (BELIEVED)\n\nThe painting __________",
       "sentence": "Experts believe that the painting is a fake.",
       "keyWord": "BELIEVED",
       "startOfAnswer": "The painting",
-      "correctAnswer": "The painting is believed to be a fake.",
+      "correctAnswer": "is believed to be a fake",
       "explanation": "Active to personal passive (present).",
       "points": 1
     },
     {
       "id": "c2-u12-b4-q5",
       "type": "key-word-transformation",
+      "question": "They understood that the situation was critical. (UNDERSTOOD)\n\nThe situation __________",
       "sentence": "They understood that the situation was critical.",
       "keyWord": "UNDERSTOOD",
       "startOfAnswer": "The situation",
-      "correctAnswer": "The situation was understood to be critical.",
+      "correctAnswer": "was understood to be critical",
       "explanation": "Active past to personal passive past.",
       "points": 1
     },
     {
       "id": "c2-u12-b4-q6",
       "type": "key-word-transformation",
+      "question": "It is alleged that he stole the jewels. (ALLEGED)\n\nHe __________",
       "sentence": "It is alleged that he stole the jewels.",
       "keyWord": "ALLEGED",
       "startOfAnswer": "He",
-      "correctAnswer": "He is alleged to have stolen the jewels.",
+      "correctAnswer": "is alleged to have stolen the jewels",
       "explanation": "Allegation reported with perfect infinitive.",
       "points": 1
     },
     {
       "id": "c2-u12-b4-q7",
       "type": "key-word-transformation",
+      "question": "People consider her to be the best in her field. (CONSIDERED)\n\nShe __________",
       "sentence": "People consider her to be the best in her field.",
       "keyWord": "CONSIDERED",
       "startOfAnswer": "She",
-      "correctAnswer": "She is considered to be the best in her field.",
+      "correctAnswer": "is considered to be the best in her field",
       "explanation": "Active to personal passive.",
       "points": 1
     },
     {
       "id": "c2-u12-b4-q8",
       "type": "key-word-transformation",
+      "question": "It is expected that the train will be late. (EXPECTED)\n\nThe train __________",
       "sentence": "It is expected that the train will be late.",
       "keyWord": "EXPECTED",
       "startOfAnswer": "The train",
-      "correctAnswer": "The train is expected to be late.",
+      "correctAnswer": "is expected to be late",
       "explanation": "Impersonal to personal passive (future expectation).",
       "points": 1
     },
     {
       "id": "c2-u12-b4-q9",
       "type": "key-word-transformation",
+      "question": "They report that the building is safe. (REPORTED)\n\nThe building __________",
       "sentence": "They report that the building is safe.",
       "keyWord": "REPORTED",
       "startOfAnswer": "The building",
-      "correctAnswer": "The building is reported to be safe.",
+      "correctAnswer": "is reported to be safe",
       "explanation": "Active to personal passive.",
       "points": 1
     },
     {
       "id": "c2-u12-b4-q10",
       "type": "key-word-transformation",
+      "question": "Scientists assume that life exists on other planets. (ASSUMED)\n\nLife __________",
       "sentence": "Scientists assume that life exists on other planets.",
       "keyWord": "ASSUMED",
       "startOfAnswer": "Life",
-      "correctAnswer": "Life is assumed to exist on other planets.",
+      "correctAnswer": "is assumed to exist on other planets",
       "explanation": "Active to personal passive.",
       "points": 1
     }
@@ -716,10 +735,11 @@ export const C2_U12_BLOCK8: Exercise = {
     {
       "id": "c2-u12-b8-q3",
       "type": "key-word-transformation",
+      "question": "Perhaps people believe he is the mastermind. (MIGHT)\n\nHe __________",
       "sentence": "Perhaps people believe he is the mastermind.",
       "keyWord": "MIGHT",
       "startOfAnswer": "He",
-      "correctAnswer": "He might be believed to be the mastermind.",
+      "correctAnswer": "might be believed to be the mastermind",
       "explanation": "Reporting with a modal for uncertainty.",
       "points": 1
     },
@@ -743,10 +763,11 @@ export const C2_U12_BLOCK8: Exercise = {
     {
       "id": "c2-u12-b8-q6",
       "type": "key-word-transformation",
+      "question": "I'm sure they considered the risks. (MUST)\n\nThe risks __________",
       "sentence": "I'm sure they considered the risks.",
       "keyWord": "MUST",
       "startOfAnswer": "The risks",
-      "correctAnswer": "The risks must have been considered.",
+      "correctAnswer": "must have been considered",
       "explanation": "Modal of deduction in the past passive.",
       "points": 1
     },
@@ -770,10 +791,11 @@ export const C2_U12_BLOCK8: Exercise = {
     {
       "id": "c2-u12-b8-q9",
       "type": "key-word-transformation",
+      "question": "It is necessary that the truth is told. (NEEDS)\n\nThe truth __________",
       "sentence": "It is necessary that the truth is told.",
       "keyWord": "NEEDS",
       "startOfAnswer": "The truth",
-      "correctAnswer": "The truth needs to be told.",
+      "correctAnswer": "needs to be told",
       "explanation": "Passive with 'needs'.",
       "points": 1
     },
@@ -797,9 +819,11 @@ export const C2_U12_BLOCK9: Exercise = {
   "questions": [
     {
       "id": "c2-u12-b9-q1",
-      "type": "multiple-choice",
-      "question": "What is an 'abstract' in a research paper?",
-      "options": ["A type of painting", "A brief summary of the research", "The bibliography", "A secret code"],
+      "startOfAnswer": "An abstract is",
+      "keyWord": "DEFINITION",
+      "sentence": "What is an 'abstract' in a research paper?",
+      "type": "key-word-transformation",
+      "question": "What is an 'abstract' in a research paper? (DEFINITION)\n\nAn abstract is __________",
       "correctAnswer": "A brief summary of the research",
       "explanation": "Abstracts provide a quick overview of the study.",
       "points": 1
@@ -815,18 +839,21 @@ export const C2_U12_BLOCK9: Exercise = {
     {
       "id": "c2-u12-b9-q3",
       "type": "key-word-transformation",
+      "question": "The study highlights the importance of early intervention. (EMPHASIS)\n\nThe study places __________",
       "sentence": "The study highlights the importance of early intervention.",
       "keyWord": "EMPHASIS",
       "startOfAnswer": "The study places",
-      "correctAnswer": "The study places emphasis on the importance of early intervention.",
+      "correctAnswer": "emphasis on the importance of early intervention",
       "explanation": "'Place emphasis on' is a formal academic collocation.",
       "points": 1
     },
     {
       "id": "c2-u12-b9-q4",
-      "type": "multiple-choice",
-      "question": "What does it mean to 'synthesize' information?",
-      "options": ["To ignore it", "To combine different ideas or information into a single whole", "To make it more complicated", "To delete it"],
+      "startOfAnswer": "To synthesize information means",
+      "keyWord": "DEFINITION",
+      "sentence": "What does it mean to 'synthesize' information?",
+      "type": "key-word-transformation",
+      "question": "What does it mean to 'synthesize' information? (DEFINITION)\n\nTo synthesize information means __________",
       "correctAnswer": "To combine different ideas or information into a single whole",
       "explanation": "Synthesis is a high-level academic skill.",
       "points": 1
@@ -842,18 +869,21 @@ export const C2_U12_BLOCK9: Exercise = {
     {
       "id": "c2-u12-b9-q6",
       "type": "key-word-transformation",
+      "question": "He based his theory on several assumptions. (GROUNDED)\n\nHis theory was __________",
       "sentence": "He based his theory on several assumptions.",
       "keyWord": "GROUNDED",
       "startOfAnswer": "His theory was",
-      "correctAnswer": "His theory was grounded in several assumptions.",
+      "correctAnswer": "grounded in several assumptions",
       "explanation": "'Grounded in' means based on.",
       "points": 1
     },
     {
       "id": "c2-u12-b9-q7",
-      "type": "multiple-choice",
-      "question": "What is 'peer review'?",
-      "options": ["Looking at your friends' work", "Evaluation of scientific or professional work by others working in the same field", "A type of party", "A government inspection"],
+      "startOfAnswer": "Peer review is",
+      "keyWord": "DEFINITION",
+      "sentence": "What is 'peer review'?",
+      "type": "key-word-transformation",
+      "question": "What is 'peer review'? (DEFINITION)\n\nPeer review is __________",
       "correctAnswer": "Evaluation of scientific or professional work by others working in the same field",
       "explanation": "Peer review is essential for scientific quality control.",
       "points": 1
@@ -869,18 +899,21 @@ export const C2_U12_BLOCK9: Exercise = {
     {
       "id": "c2-u12-b9-q9",
       "type": "key-word-transformation",
+      "question": "The researchers found several inconsistencies in the data. (DISCREPANCIES)\n\nThe researchers noted __________",
       "sentence": "The researchers found several inconsistencies in the data.",
       "keyWord": "DISCREPANCIES",
       "startOfAnswer": "The researchers noted",
-      "correctAnswer": "The researchers noted several discrepancies in the data.",
+      "correctAnswer": "several discrepancies in the data",
       "explanation": "'Discrepancy' is a formal word for inconsistency.",
       "points": 1
     },
     {
       "id": "c2-u12-b9-q10",
-      "type": "multiple-choice",
-      "question": "What is 'quantitative' data?",
-      "options": ["Data that is measured and expressed with numbers", "Data about the quality of something", "Secret data", "Old data"],
+      "startOfAnswer": "Quantitative data is",
+      "keyWord": "DEFINITION",
+      "sentence": "What is 'quantitative' data?",
+      "type": "key-word-transformation",
+      "question": "What is 'quantitative' data? (DEFINITION)\n\nQuantitative data is __________",
       "correctAnswer": "Data that is measured and expressed with numbers",
       "explanation": "Quantitative vs Qualitative is a basic distinction in research.",
       "points": 1
@@ -931,10 +964,11 @@ export const C2_U12_BLOCK10: Exercise = {
     {
       "id": "c2-u12-b10-q5",
       "type": "key-word-transformation",
+      "question": "People say that the CEO is resigning. (RUMORED)\n\nThe CEO __________",
       "sentence": "People say that the CEO is resigning.",
       "keyWord": "RUMORED",
       "startOfAnswer": "The CEO",
-      "correctAnswer": "The CEO is rumored to be resigning.",
+      "correctAnswer": "is rumored to be resigning",
       "explanation": "Passive reporting verb transformation.",
       "points": 1
     },
@@ -958,10 +992,11 @@ export const C2_U12_BLOCK10: Exercise = {
     {
       "id": "c2-u12-b10-q8",
       "type": "key-word-transformation",
+      "question": "Experts believe the painting was created in the 17th century. (BELIEVED)\n\nThe painting __________",
       "sentence": "Experts believe the painting was created in the 17th century.",
       "keyWord": "BELIEVED",
       "startOfAnswer": "The painting",
-      "correctAnswer": "The painting is believed to have been created in the 17th century.",
+      "correctAnswer": "is believed to have been created in the 17th century",
       "explanation": "Passive reporting with perfect infinitive.",
       "points": 1
     },
@@ -988,6 +1023,8 @@ export const C2_U12_BLOCK10: Exercise = {
 export const C2_UNIT_12 = createC2Unit(
   'c2-u12',
   'Frontiers of Scientific Inquiry',
+  'Advanced C2 unit exploring complex topics and formal language structures.',
+  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
   [
     C2_U12_BLOCK1, C2_U12_BLOCK2, C2_U12_BLOCK3, C2_U12_BLOCK4, C2_U12_BLOCK5,
     C2_U12_BLOCK6, C2_U12_BLOCK7, C2_U12_BLOCK8, C2_U12_BLOCK9, C2_U12_BLOCK10

@@ -24,17 +24,19 @@ export const C2_U2_BLOCK1: Exercise = {
     },
     {
       "id": "c2-u2-b1-q2",
-      "type": "fill-blank",
-      "question": "It was John, _______________ ideas often seem unorthodox, who proposed the plan.",
-      "correctAnswer": "whose",
-      "explanation": "Usamos 'whose' para mostrar relación de posesión entre John y sus ideas.",
+      "startOfAnswer": "which were",
+      "sentence": "John had remarkable ideas.",
+      "type": "key-word-transformation",
+      "question": "John had remarkable ideas. ()\n\nwhich were __________",
+      "correctAnswer": "remarkable",
+      "explanation": "Usamos 'which' para referirnos a las ideas de John.",
       "points": 1
     },
     {
       "id": "c2-u2-b1-q3",
       "type": "key-word-transformation",
-      "question": "Rephrase the sentence using the key word.",
-      "correctAnswer": "He became president, which many considered improbable.",
+      "question": "Many considered it improbable that he became president. (WHICH)\n\nHe became president, __________",
+      "correctAnswer": "which many considered improbable",
       "explanation": "'Which' se usa para referirse a la cláusula anterior completa.",
       "points": 1,
       "sentence": "Many considered it improbable that he became president.",
@@ -43,8 +45,11 @@ export const C2_U2_BLOCK1: Exercise = {
     },
     {
       "id": "c2-u2-b1-q4",
-      "type": "fill-blank",
-      "question": "The scientist _____ theory was groundbreaking received the Nobel Prize.",
+      "keyWord": "WHOSE",
+      "sentence": "The scientist _____ theory was groundbreaking received the Nobel Prize.",
+      "startOfAnswer": "The scientist whose",
+      "type": "key-word-transformation",
+      "question": "The scientist _____ theory was groundbreaking received the Nobel Prize. (WHOSE)\n\nThe scientist whose __________",
       "correctAnswer": "whose",
       "explanation": "Utilizamos 'whose' para mostrar la relación de pertenencia entre el científico y su teoría.",
       "points": 1
@@ -65,17 +70,19 @@ export const C2_U2_BLOCK1: Exercise = {
     },
     {
       "id": "c2-u2-b1-q6",
-      "type": "fill-blank",
-      "question": "He criticized the new policy, the effects of __________ were disastrous.",
-      "correctAnswer": "which",
+      "startOfAnswer": "The new policy which",
+      "sentence": "The new policy has various effects.",
+      "type": "key-word-transformation",
+      "question": "The new policy has various effects. ()\n\nThe new policy which __________",
+      "correctAnswer": "which has various effects",
       "explanation": "Utilizamos 'which' para referirnos a 'the new policy' y su efectos.",
       "points": 1
     },
     {
       "id": "c2-u2-b1-q7",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the key word.",
-      "correctAnswer": "The book is fascinating, which everyone agreed on.",
+      "question": "Everyone agreed that the book was fascinating. (WHICH)\n\nThe book is fascinating, __________",
+      "correctAnswer": "which everyone agreed on",
       "explanation": "'Which' se utiliza para hacer referencia a toda la cláusula anterior.",
       "points": 1,
       "sentence": "Everyone agreed that the book was fascinating.",
@@ -84,8 +91,11 @@ export const C2_U2_BLOCK1: Exercise = {
     },
     {
       "id": "c2-u2-b1-q8",
-      "type": "fill-blank",
-      "question": "The company, _______ headquarters are in London, has achieved international success.",
+      "keyWord": "WHOSE",
+      "sentence": "The company, _______ headquarters are in London, has achieved international success.",
+      "startOfAnswer": "The company whose",
+      "type": "key-word-transformation",
+      "question": "The company, _______ headquarters are in London, has achieved international success. (WHOSE)\n\nThe company whose __________",
       "correctAnswer": "whose",
       "explanation": "'Whose' se usa para indicar la relación de pertenencia entre la empresa y sus oficinas.",
       "points": 1
@@ -107,8 +117,8 @@ export const C2_U2_BLOCK1: Exercise = {
     {
       "id": "c2-u2-b1-q10",
       "type": "key-word-transformation",
-      "question": "Transform the sentence starting with the given phrase.",
-      "correctAnswer": "The project, the complexities of which were underestimated, failed.",
+      "question": "The project failed because its complexities were underestimated. (THE COMPLEXITIES OF)\n\nThe project, __________",
+      "correctAnswer": "the complexities of which were underestimated, failed",
       "explanation": "'The complexities of which' se utiliza correctamente para describir el proyecto.",
       "points": 1,
       "sentence": "The project failed because its complexities were underestimated.",
@@ -149,11 +159,11 @@ export const C2_U2_BLOCK2: Exercise = {
     {
       "id": "c2-u2-b2-q3",
       "type": "key-word-transformation",
-      "question": "Use the key word to rewrite the sentence so it has the same meaning.",
+      "question": "The friend who you recommended has been very helpful. (WHOM)\n\nThe friend whom __________",
       "sentence": "The friend who you recommended has been very helpful.",
       "keyWord": "WHOM",
       "startOfAnswer": "The friend whom",
-      "correctAnswer": "The friend whom you recommended has been very helpful.",
+      "correctAnswer": "you recommended has been very helpful",
       "explanation": "El uso de 'whom' es adecuado cuando es el objeto del verbo en la clausula relativa.",
       "points": 1
     },
@@ -182,11 +192,11 @@ export const C2_U2_BLOCK2: Exercise = {
     {
       "id": "c2-u2-b2-q6",
       "type": "key-word-transformation",
-      "question": "Use the key word to rewrite the sentence so it has the same meaning.",
+      "question": "The book that she recommended was sold out. (WHICH)\n\nThe book which __________",
       "sentence": "The book that she recommended was sold out.",
       "keyWord": "WHICH",
       "startOfAnswer": "The book which",
-      "correctAnswer": "The book which she recommended was sold out.",
+      "correctAnswer": "she recommended was sold out",
       "explanation": "'Which' es un pronombre relativo que se puede usar en lugar de 'that' en contextos formales para cosas.",
       "points": 1
     },
@@ -215,11 +225,11 @@ export const C2_U2_BLOCK2: Exercise = {
     {
       "id": "c2-u2-b2-q9",
       "type": "key-word-transformation",
-      "question": "Use the key word to rewrite the sentence so it has the same meaning.",
+      "question": "The concert, which I really enjoyed, was held last night. (THAT)\n\nThe concert that __________",
       "sentence": "The concert, which I really enjoyed, was held last night.",
       "keyWord": "THAT",
       "startOfAnswer": "The concert that",
-      "correctAnswer": "The concert that I really enjoyed was held last night.",
+      "correctAnswer": "I really enjoyed was held last night",
       "explanation": "'That' puede utilizarse en lugar de 'which' en cláusulas definitorias, pero no es adecuado para no-definitorias.",
       "points": 1
     },
@@ -265,8 +275,8 @@ export const C2_U2_BLOCK3: Exercise = {
     {
       "id": "c2-u2-b3-q3",
       "type": "key-word-transformation",
-      "question": "Revise the sentence: The man gave me a book. The book was fascinating.",
-      "correctAnswer": "The man gave me a book which was fascinating.",
+      "question": "The man gave me a book. The book was fascinating. (WHICH)\n\nThe man gave me a book which __________",
+      "correctAnswer": "was fascinating",
       "explanation": "Usamos 'which' para definir el libro en la cláusula relativa que proporciona información adicional.",
       "points": 1,
       "sentence": "The man gave me a book. The book was fascinating.",
@@ -298,8 +308,8 @@ export const C2_U2_BLOCK3: Exercise = {
     {
       "id": "c2-u2-b3-q6",
       "type": "key-word-transformation",
-      "question": "Revise the sentence: The garden was full of flowers. They smelled delightful.",
-      "correctAnswer": "The garden was full of flowers that smelled delightful.",
+      "question": "The garden was full of flowers. They smelled delightful. (THAT)\n\nThe garden was full of flowers that __________",
+      "correctAnswer": "smelled delightful",
       "explanation": "Usamos 'that' para limitar el entendimiento de las flores como una parte esencial de la cláusula relativa.",
       "points": 1,
       "sentence": "The garden was full of flowers. They smelled delightful.",
@@ -331,8 +341,8 @@ export const C2_U2_BLOCK3: Exercise = {
     {
       "id": "c2-u2-b3-q9",
       "type": "key-word-transformation",
-      "question": "Revise the sentence: The guide showed us the path. The path leads to the waterfall.",
-      "correctAnswer": "The guide showed us the path which leads to the waterfall.",
+      "question": "The guide showed us the path. The path leads to the waterfall. (WHICH)\n\nThe guide showed us the path which __________",
+      "correctAnswer": "leads to the waterfall",
       "explanation": "Usamos 'which' en una cláusula relativa definitoria para especificar información sobre el camino.",
       "points": 1,
       "sentence": "The guide showed us the path. The path leads to the waterfall.",
@@ -388,7 +398,7 @@ export const C2_U2_BLOCK4: Exercise = {
       "id": "c2-u2-b4-q3",
       "type": "key-word-transformation",
       "question": null,
-      "correctAnswer": "who introduced me to Alex, went on to become an actor",
+      "correctAnswer": "me to Alex, went on to become an actor",
       "explanation": "Las cláusulas relativas no definidas se pueden usar para agregar información adicional sin alterar el significado principal, usando 'who' para personas.",
       "points": 1,
       "sentence": "My friend John, ________, went on to become an actor.",
@@ -421,8 +431,8 @@ export const C2_U2_BLOCK4: Exercise = {
       "id": "c2-u2-b4-q6",
       "type": "key-word-transformation",
       "question": null,
-      "correctAnswer": "whose enthusiasm for the project knew no bounds",
-      "explanation": "La palabra clave 'enthusiasm' sugiere el uso de 'whose' para mostrar posesión en una cláusula relativa.",
+      "correctAnswer": "for the project knew no bounds",
+      "explanation": "La cláusula relativa 'whose' se usa aquí para referirse a la posesión, indicando que el entusiasmo de Anna es lo que inspiró.",
       "points": 1,
       "sentence": "Anna, ________, managed to inspire the entire team.",
       "keyWord": "ENTHUSIASM",
@@ -454,7 +464,7 @@ export const C2_U2_BLOCK4: Exercise = {
       "id": "c2-u2-b4-q9",
       "type": "key-word-transformation",
       "question": null,
-      "correctAnswer": "many of whom were against the policy",
+      "correctAnswer": "were against the policy",
       "explanation": "En una cláusula de relativo no definida que refiere a un grupo, 'many of whom' se utiliza para dar más información sobre el grupo.",
       "points": 1,
       "sentence": "The council members, ________, expressed their concerns during the meeting.",
@@ -489,11 +499,11 @@ export const C2_U2_BLOCK5: Exercise = {
       "type": "multiple-choice",
       "question": "Choose the sentence that correctly uses a non-defining relative clause:",
       "options": [
-        "The woman, who she is my neighbor, is a renowned artist.",
-        "The man who plays the violin is a member of the orchestra.",
-        "My brother, who is two years younger than me, is studying medicine.",
-        "The car, which it was parked outside, was vandalized."
-      ],
+  "The woman, who is my neighbor, is a renowned artist.",
+  "The man who plays the violin is a member of the orchestra.",
+  "My brother, who is two years younger than me, is studying medicine.",
+  "The car, which was parked outside, was vandalized."
+],
       "correctAnswer": "My brother, who is two years younger than me, is studying medicine.",
       "explanation": "En las oraciones no definitorias, el pronombre relativo introduce información adicional y se separa con comas.",
       "points": 1
@@ -509,8 +519,8 @@ export const C2_U2_BLOCK5: Exercise = {
     {
       "id": "c2-u2-b5-q3",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the word given: 'The author has won multiple awards. Her latest novel has been adapted into a screenplay.' (WHOSE)",
-      "correctAnswer": "The author, whose latest novel has been adapted into a screenplay, has won multiple awards.",
+      "question": "The author has won multiple awards. Her latest novel has been adapted into a screenplay. (WHOSE)\n\nThe author, whose latest novel __________",
+      "correctAnswer": "has been adapted into a screenplay, has won multiple awards",
       "explanation": "Usamos 'whose' para combinar ambas ideas en una oración relativa no definitoria.",
       "points": 1,
       "sentence": "The author has won multiple awards. Her latest novel has been adapted into a screenplay.",
@@ -530,20 +540,20 @@ export const C2_U2_BLOCK5: Exercise = {
       "type": "multiple-choice",
       "question": "Which sentence contains a defining relative clause?",
       "options": [
-        "The book which I borrowed from the library was thrilling.",
-        "My neighbor, who is a chef, makes delicious cuisine.",
-        "Paris, where I studied, is a beautiful city.",
-        "John, whose opinion I value, suggested a new method."
-      ],
-      "correctAnswer": "The book which I borrowed from the library was thrilling.",
+  "The book that I borrowed from the library was thrilling.",
+  "My neighbor, who is a chef, makes delicious cuisine.",
+  "Paris, where I studied, is a beautiful city.",
+  "John, whose opinion I value, suggested a new method."
+],
+      "correctAnswer": "The book that I borrowed from the library was thrilling.",
       "explanation": "En una cláusula relativa definitoria, no se utilizan comas y proporciona información esencial.",
       "points": 1
     },
     {
       "id": "c2-u2-b5-q6",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the word given: 'The lecture on quantum mechanics, important though it was, didn't address the students' concerns.' (WHICH)",
-      "correctAnswer": "The lecture on quantum mechanics, which was important, didn't address the students' concerns.",
+      "question": "The lecture on quantum mechanics, important though it was, didn't address the students' concerns. (WHICH)\n\nThe lecture on quantum mechanics, which __________",
+      "correctAnswer": "was important, didn't address the students' concerns",
       "explanation": "La oración debe reconfigurarse para utilizar 'which' en una cláusula relativa explicativa.",
       "points": 1,
       "sentence": "The lecture on quantum mechanics, important though it was, didn't address the students' concerns.",
@@ -561,8 +571,8 @@ export const C2_U2_BLOCK5: Exercise = {
     {
       "id": "c2-u2-b5-q8",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the word given: 'I met a traveler. Her tales of adventure inspired everyone at the party.' (WHOSE)",
-      "correctAnswer": "I met a traveler whose tales of adventure inspired everyone at the party.",
+      "question": "I met a traveler. Her tales of adventure inspired everyone at the party. (WHOSE)\n\nI met a traveler whose __________",
+      "correctAnswer": "tales of adventure inspired everyone at the party",
       "explanation": "'Whose' conecta la información sobre el visible en la primera oración y su aporte al contexto.",
       "points": 1,
       "sentence": "I met a traveler. Her tales of adventure inspired everyone at the party.",
@@ -605,11 +615,11 @@ export const C2_U2_BLOCK6: Exercise = {
       "type": "multiple-choice",
       "question": "Which sentence correctly uses an advanced relative clause?",
       "options": [
-        "He is the person, whom, many admire.",
-        "She wrote a book that became a bestseller, which was surprising to everyone.",
-        "The car who was parked outside is mine.",
-        "The man to who I spoke seemed kind."
-      ],
+  "He is the person whom many admire.",
+  "She wrote a book that became a bestseller, which was surprising to everyone.",
+  "The car that was parked outside is mine.",
+  "The man to whom I spoke seemed kind."
+],
       "correctAnswer": "She wrote a book that became a bestseller, which was surprising to everyone.",
       "explanation": "En español: Usamos 'which' para introducir una cláusula relativa no esencial, explicando algo más sobre el libro.",
       "points": 1
@@ -625,11 +635,12 @@ export const C2_U2_BLOCK6: Exercise = {
     {
       "id": "c2-u2-b6-q3",
       "type": "key-word-transformation",
+      "question": "The scientist published his findings last week. These findings have changed the world. (WHICH)\n\nThe findings, which __________",
       "sentence": "The scientist published his findings last week. These findings have changed the world.",
       "keyWord": "which",
       "startOfAnswer": "The findings, which",
-      "correctAnswer": "The findings, which have changed the world, were published by the scientist last week.",
-      "explanation": "En español: Se utilizó 'which' para unir las dos oraciones, formando una cláusula relativa no definitoria.",
+      "correctAnswer": "were published by the scientist last week",
+      "explanation": "En español: 'Which' se utiliza para unir las dos oraciones, formando una cláusula relativa no definitoria que añade información sobre las conclusiones.",
       "points": 1
     },
     {
@@ -637,11 +648,11 @@ export const C2_U2_BLOCK6: Exercise = {
       "type": "multiple-choice",
       "question": "Identify the sentence with the correct relative clause.",
       "options": [
-        "Anyone to whom he spoke was left confused.",
-        "The party, that I attended, was boring.",
-        "I lost the book which cover is red.",
-        "The woman, who brother I know, is here."
-      ],
+  "Anyone to whom he spoke was left confused.",
+  "The party which I attended was boring.",
+  "I lost the book whose cover is red.",
+  "The woman whose brother I know is here."
+],
       "correctAnswer": "Anyone to whom he spoke was left confused.",
       "explanation": "En español: 'To whom' es la forma correcta en oraciones formales para indicar la persona con la que habló.",
       "points": 1
@@ -657,10 +668,11 @@ export const C2_U2_BLOCK6: Exercise = {
     {
       "id": "c2-u2-b6-q6",
       "type": "key-word-transformation",
+      "question": "She has a brother. His taste in music is unusual. (WHOSE)\n\nShe has a brother whose __________",
       "sentence": "She has a brother. His taste in music is unusual.",
       "keyWord": "whose",
       "startOfAnswer": "She has a brother whose",
-      "correctAnswer": "She has a brother whose taste in music is unusual.",
+      "correctAnswer": "taste in music is unusual",
       "explanation": "En español: Utilizamos 'whose' para relacionar dos ideas, 'a brother' y 'su gusto musical'.",
       "points": 1
     },
@@ -689,10 +701,11 @@ export const C2_U2_BLOCK6: Exercise = {
     {
       "id": "c2-u2-b6-q9",
       "type": "key-word-transformation",
+      "question": "The book was fascinating. I borrowed it last week. (WHICH)\n\nThe book, which __________",
       "sentence": "The book was fascinating. I borrowed it last week.",
       "keyWord": "which",
       "startOfAnswer": "The book, which",
-      "correctAnswer": "The book, which I borrowed last week, was fascinating.",
+      "correctAnswer": "I borrowed it last week",
       "explanation": "En español: 'Which' introduce una información adicional sobre el libro, indicando cuándo lo tomé prestado.",
       "points": 1
     },
@@ -701,11 +714,11 @@ export const C2_U2_BLOCK6: Exercise = {
       "type": "multiple-choice",
       "question": "Select the sentence with the accurate use of an advanced relative clause.",
       "options": [
-        "My neighbor, who his car is red, is moving.",
-        "The teacher whom I respect the most is retiring.",
-        "She visited the gallery, that was closed for renovation.",
-        "The musician which plays the guitar is talented."
-      ],
+  "My neighbor whose car is red is moving.",
+  "The teacher whom I respect the most is retiring.",
+  "She visited the gallery that was closed for renovation.",
+  "The musician who plays the guitar is talented."
+],
       "correctAnswer": "The teacher whom I respect the most is retiring.",
       "explanation": "En español: 'Whom' se usa correctamente para referirse a 'el maestro', quien es objeto del verbo 'respeto'.",
       "points": 1
@@ -744,11 +757,11 @@ export const C2_U2_BLOCK7: Exercise = {
     {
       "id": "c2-u2-b7-q3",
       "type": "key-word-transformation",
-      "question": "Reformulate the sentence using the key word given.",
+      "question": "His father, to whom he looks up, was a renowned scientist. (ADMIRATION)\n\nHe holds his father __________",
       "sentence": "His father, to whom he looks up, was a renowned scientist.",
       "keyWord": "admiration",
       "startOfAnswer": "He holds his father",
-      "correctAnswer": "He holds his father, for whom he has great admiration, was a renowned scientist.",
+      "correctAnswer": "for whom he has great admiration",
       "explanation": "Se utiliza 'for whom' para introducir el complemento del sustantivo 'admiration'.",
       "points": 1
     },
@@ -777,11 +790,11 @@ export const C2_U2_BLOCK7: Exercise = {
     {
       "id": "c2-u2-b7-q6",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the key word given.",
+      "question": "The committee, which includes several renowned experts, will make the final decision. (COMPOSED)\n\nThe committee, composed __________",
       "sentence": "The committee, which includes several renowned experts, will make the final decision.",
       "keyWord": "composed",
       "startOfAnswer": "The committee, composed",
-      "correctAnswer": "The committee, composed of several renowned experts, will make the final decision.",
+      "correctAnswer": "of several renowned experts",
       "explanation": "Aquí sustituyes la cláusula relativa por una estructura participial al adjetivar 'composed'.",
       "points": 1
     },
@@ -810,12 +823,12 @@ export const C2_U2_BLOCK7: Exercise = {
     {
       "id": "c2-u2-b7-q9",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the key word.",
+      "question": "The artist, who I greatly admire, will unveil his latest collection tomorrow. (ADMIRED)\n\nThe artist I greatly __________",
       "sentence": "The artist, who I greatly admire, will unveil his latest collection tomorrow.",
       "keyWord": "admired",
       "startOfAnswer": "The artist I greatly",
-      "correctAnswer": "The artist I greatly admired will unveil his latest collection tomorrow.",
-      "explanation": "En este caso, 'who' es una cláusula relativa suprimible, por lo que 'admired' puede ir justo después del sujeto.",
+      "correctAnswer": "admired",
+      "explanation": "En este caso, 'whom' puede ser suprimido y constructos que le siguen pueden ser añadidos correctamente.",
       "points": 1
     },
     {
@@ -823,13 +836,13 @@ export const C2_U2_BLOCK7: Exercise = {
       "type": "multiple-choice",
       "question": "Identify the sentence with the correctly used defining relative clause.",
       "options": [
-        "The city mayor, who is retiring next month, has been in office for 12 years.",
-        "The presentation which he gave yesterday was well-received by everyone.",
-        "The car whose brakes failed the test will be recalled.",
-        "My neighbor’s cat, that is very friendly, often visits us."
-      ],
-      "correctAnswer": "The car whose brakes failed the test will be recalled.",
-      "explanation": "La tercera opción tiene una cláusula de relativo definida que proporciona información esencial sobre 'The car'.",
+  "The city mayor, who is retiring next month, has been in office for 12 years.",
+  "The presentation which he gave yesterday was well-received by everyone.",
+  "The car, which had brakes that failed the test, will be recalled.",
+  "My neighbor’s cat, which is very friendly, often visits us."
+],
+      "correctAnswer": "The city mayor, who is retiring next month, has been in office for 12 years.",
+      "explanation": "La primera opción tiene una cláusula de relativo definida que proporciona información esencial sobre 'The city mayor'.",
       "points": 1
     }
   ]
@@ -866,8 +879,8 @@ export const C2_U2_BLOCK8: Exercise = {
     {
       "id": "c2-u2-b8-q3",
       "type": "key-word-transformation",
-      "question": "Combine the sentences using the word provided: The manager spoke to the intern. The intern’s project was impressive. (WHOSE)",
-      "correctAnswer": "The manager spoke to the intern whose project was impressive.",
+      "question": "The manager spoke to the intern. The intern’s project was impressive. (WHOSE)\n\nThe manager spoke to the intern whose __________",
+      "correctAnswer": "project was impressive",
       "explanation": "Se utiliza 'whose' para indicar posesión entre el sujeto de la clausula principal y la información complementaria.",
       "points": 1,
       "sentence": "The manager spoke to the intern. The intern’s project was impressive.",
@@ -892,15 +905,15 @@ export const C2_U2_BLOCK8: Exercise = {
       "id": "c2-u2-b8-q5",
       "type": "fill-blank",
       "question": "In a marriage, _______ honesty is valued tends to thrive.",
-      "correctAnswer": "which",
+      "correctAnswer": "honesty is valued",
       "explanation": "La cláusula 'which' se usa para referirse al concepto de honestidad en general, no a un sujeto específico.",
       "points": 1
     },
     {
       "id": "c2-u2-b8-q6",
       "type": "key-word-transformation",
-      "question": "Combine the sentences using the word provided: She has a brother. Her brother is a well-known author. (WHO)",
-      "correctAnswer": "She has a brother who is a well-known author.",
+      "question": "She has a brother. Her brother is a well-known author. (WHO)\n\nShe has a brother who __________",
+      "correctAnswer": "is a well-known author",
       "explanation": "La palabra 'who' se utiliza para identificar personas en cláusulas de relativo.",
       "points": 1,
       "sentence": "She has a brother. Her brother is a well-known author.",
@@ -923,8 +936,11 @@ export const C2_U2_BLOCK8: Exercise = {
     },
     {
       "id": "c2-u2-b8-q8",
-      "type": "fill-blank",
-      "question": "They remained silent about the incident, __________ was considered by some as a lack of responsibility.",
+      "startOfAnswer": "In a situation where silence is maintained, which",
+      "keyWord": "WHICH",
+      "sentence": "In a situation where silence is maintained, an explanation is offered.",
+      "type": "key-word-transformation",
+      "question": "In a situation where silence is maintained, an explanation is offered. (WHICH)\n\nIn a situation where silence is maintained, which __________",
       "correctAnswer": "which",
       "explanation": "La cláusula 'which' refiere a la acción de mantenerse en silencio, introduciendo una explicación adicional.",
       "points": 1
@@ -932,8 +948,8 @@ export const C2_U2_BLOCK8: Exercise = {
     {
       "id": "c2-u2-b8-q9",
       "type": "key-word-transformation",
-      "question": "Combine the sentences using the word provided: The city has many parks. The parks are well-maintained. (THAT)",
-      "correctAnswer": "The city has many parks that are well-maintained.",
+      "question": "The city has many parks. The parks are well-maintained. (THAT)\n\nThe city has many parks that __________",
+      "correctAnswer": "are well-maintained",
       "explanation": "El uso de 'that' en cláusulas de relativo define y especifica a qué parques se refiere.",
       "points": 1,
       "sentence": "The city has many parks. The parks are well-maintained.",
@@ -945,11 +961,11 @@ export const C2_U2_BLOCK8: Exercise = {
       "type": "multiple-choice",
       "question": "Identify the sentence where the defining relative clause is correctly used.",
       "options": [
-        "The woman whose you met yesterday is my aunt.",
-        "The bicycle, which was found, is mine.",
-        "The students who studied hard passed their exams.",
-        "The dog, that barked, eventually calmed down."
-      ],
+  "The woman who you met yesterday is my aunt.",
+  "The bicycle, which was found, is mine.",
+  "The students who studied hard passed their exams.",
+  "The dog, that barked, eventually calmed down."
+],
       "correctAnswer": "The students who studied hard passed their exams.",
       "explanation": "Una cláusula de relativo definitoria especifica un sujeto particular dentro de un grupo más amplio.",
       "points": 1
@@ -1002,8 +1018,8 @@ export const C2_U2_BLOCK9: Exercise = {
     {
       "id": "c2-u2-b9-q4",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the word given: 'Her brother, who she always admired, has won a Nobel Prize.' (admiration)",
-      "correctAnswer": "Her brother, for whom her admiration was boundless, has won a Nobel Prize.",
+      "question": "Her brother, who she always admired, has won a Nobel Prize. (ADMIRATION)\n\nHer brother, for whom __________",
+      "correctAnswer": "her admiration was boundless, has won a Nobel Prize",
       "explanation": "Se utiliza 'for whom her admiration was boundless' para indicar la admiración que ella siente por su hermano.",
       "points": 1,
       "sentence": "Her brother, who she always admired, has won a Nobel Prize.",
@@ -1012,8 +1028,8 @@ export const C2_U2_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u2-b9-q5",
-      "type": "fill-blank",
-      "question": "The book _________ you are referring is out of print.",
+      "type": "key-word-transformation",
+      "question": " ()\n\n __________",
       "correctAnswer": "to which",
       "explanation": "Se utiliza 'to which' para denotar la relación entre el libro y la referencia hecha.",
       "points": 1
@@ -1034,17 +1050,20 @@ export const C2_U2_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u2-b9-q7",
-      "type": "fill-blank",
-      "question": "She has a friend _________ has the unique ability to solve complex puzzles with ease.",
-      "correctAnswer": "who",
+      "startOfAnswer": "She has a friend",
+      "keyWord": "who",
+      "sentence": "She has a friend who has the unique ability to solve complex puzzles with ease.",
+      "type": "key-word-transformation",
+      "question": "She has a friend who has the unique ability to solve complex puzzles with ease. (WHO)\n\nShe has a friend __________",
+      "correctAnswer": "who has the unique ability to solve complex puzzles with ease",
       "explanation": "Se utiliza 'who' ya que se refiere a una persona, el amigo que tiene la habilidad.",
       "points": 1
     },
     {
       "id": "c2-u2-b9-q8",
       "type": "key-word-transformation",
-      "question": "Transform using the key word given: 'The professor, to whom we owe the discovery, is retiring next year.' (credit)",
-      "correctAnswer": "The professor, to whom we give credit for the discovery, is retiring next year.",
+      "question": "The professor, to whom we owe the discovery, is retiring next year. (CREDIT)\n\nThe professor, to whom we give credit for __________",
+      "correctAnswer": "the discovery, is retiring next year",
       "explanation": "Se incorpora 'to whom we give credit for' para enfatizar el reconocimiento hacia el profesor.",
       "points": 1,
       "sentence": "The professor, to whom we owe the discovery, is retiring next year.",
@@ -1087,11 +1106,11 @@ export const C2_U2_BLOCK10: Exercise = {
       "type": "multiple-choice",
       "question": "Choose the correct sentence that correctly uses an advanced relative clause.",
       "options": [
-        "She rarely talks to her sister, with whom she shares a turbulent history.",
-        "She rarely talks to her sister which she shares a turbulent history.",
-        "Her sister whom she share a turbulent tensions talks to rarely.",
-        "She rarely talks her sister how shares a turbulent past."
-      ],
+  "She rarely talks to her sister, with whom she shares a turbulent history.",
+  "She rarely talks to her sister, with whom she shares a turbulent history.",
+  "Her sister, with whom she shares turbulent tensions, rarely talks to her.",
+  "She rarely talks to her sister, who shares a turbulent past."
+],
       "correctAnswer": "She rarely talks to her sister, with whom she shares a turbulent history.",
       "explanation": "La opción correcta usa una cláusula relativa avanzada 'with whom' que es adecuada para el nivel C2.",
       "points": 1
@@ -1107,11 +1126,11 @@ export const C2_U2_BLOCK10: Exercise = {
     {
       "id": "c2-u2-b10-q3",
       "type": "key-word-transformation",
-      "question": "",
+      "question": "My uncle, who is an exceptional chef, cooked for us last night. (BEING)\n\nMy uncle, being an exceptional chef, __________",
       "sentence": "My uncle, who is an exceptional chef, cooked for us last night.",
       "keyWord": "being",
       "startOfAnswer": "My uncle, being an exceptional chef,",
-      "correctAnswer": "My uncle, being an exceptional chef, cooked for us last night.",
+      "correctAnswer": "cooked for us last night",
       "explanation": "Transforma la oración usando una cláusula reducida de participio.",
       "points": 1
     },
@@ -1120,11 +1139,11 @@ export const C2_U2_BLOCK10: Exercise = {
       "type": "multiple-choice",
       "question": "Select the sentence that contains a correct use of a non-defining relative clause.",
       "options": [
-        "The novel is written by my friend, who it inspired generations.",
-        "The teacher, who won the award, still feels humble.",
-        "John, which works with us, is an excellent team player.",
-        "The woman, to she might concern, was absent."
-      ],
+  "The novel is written by my friend, which has inspired generations.",
+  "The teacher, who won the award, still feels humble.",
+  "John, who works with us, is an excellent team player.",
+  "The woman to whom it may concern was absent."
+],
       "correctAnswer": "The teacher, who won the award, still feels humble.",
       "explanation": "La frase 'who won the award' es una cláusula relativa no definitoria que proporciona información adicional sin alterar el significado principal.",
       "points": 1
@@ -1140,11 +1159,11 @@ export const C2_U2_BLOCK10: Exercise = {
     {
       "id": "c2-u2-b10-q6",
       "type": "key-word-transformation",
-      "question": "",
+      "question": "The book was written by an author whose understanding of human relationships is unparalleled. (WHOSE)\n\nThe author, whose __________",
       "sentence": "The book was written by an author whose understanding of human relationships is unparalleled.",
       "keyWord": "whose",
       "startOfAnswer": "The author, whose",
-      "correctAnswer": "The author, whose understanding of human relationships is unparalleled, wrote the book.",
+      "correctAnswer": "is unparalleled, and the author wrote the book",
       "explanation": "Transforma la oración para enfocar al autor usando 'whose'.",
       "points": 1
     },
@@ -1173,11 +1192,11 @@ export const C2_U2_BLOCK10: Exercise = {
     {
       "id": "c2-u2-b10-q9",
       "type": "key-word-transformation",
-      "question": "",
+      "question": "There are several issues which need to be addressed in our relationship. (THAT)\n\nThere are several issues that __________",
       "sentence": "There are several issues which need to be addressed in our relationship.",
       "keyWord": "that",
       "startOfAnswer": "There are several issues that",
-      "correctAnswer": "There are several issues that need to be addressed in our relationship.",
+      "correctAnswer": "need to be addressed in our relationship",
       "explanation": "Usamos 'that' para formar una cláusula relativa definitoria de manera eficaz.",
       "points": 1
     },
@@ -1186,11 +1205,16 @@ export const C2_U2_BLOCK10: Exercise = {
       "type": "multiple-choice",
       "question": "Which of the following sentences uses an elliptical relative clause correctly?",
       "options": [
-        "The dog loved by everyone in the building was lost.",
-        "The teacher gave a book to the students, to whom she shared a story.",
-        "Jack, to who we owe so much, is leaving.",
-        "The person whom I gave my phone number, emailed me."
-      ],
+  "The dog loved by everyone in the building was lost.",
+  "who was loved by everyone in the building",
+  "was lost.",
+  "The teacher gave a book to the students",
+  "whom she shared a story with.",
+  "Jack",
+  "to whom we owe so much",
+  "is leaving.",
+  "The person to whom I gave my phone number emailed me."
+],
       "correctAnswer": "The dog loved by everyone in the building was lost.",
       "explanation": "La frase utiliza una cláusula relativa elíptica, omitiendo 'that is' o 'who is'.",
       "points": 1
@@ -1201,8 +1225,8 @@ export const C2_U2_BLOCK10: Exercise = {
 export const C2_UNIT_2 = createC2Unit(
   'c2-u2',
   'Evolution of Modern Relationships',
-  'Advanced C2 level practice on relationships.',
-  ["listening","vocabulary","writing"],
+  'Advanced C2 unit exploring complex topics and formal language structures.',
+  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
   [
     C2_U2_BLOCK1, C2_U2_BLOCK2, C2_U2_BLOCK3, C2_U2_BLOCK4, C2_U2_BLOCK5, C2_U2_BLOCK6, C2_U2_BLOCK7, C2_U2_BLOCK8, C2_U2_BLOCK9, C2_U2_BLOCK10
   ]

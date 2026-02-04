@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Te gustaría venir a mi fiesta?'?",
           "options": [
-            { "id": "o1", "text": "Would you like to come to my party?" },
-            { "id": "o2", "text": "Do you like to come to my party?" },
-            { "id": "o3", "text": "Are you like to come to my party?" }
+            {
+              "id": "o1",
+              "text": "Would you like to come to my party?"
+            },
+            {
+              "id": "o2",
+              "text": "Do you like to come to my party?"
+            },
+            {
+              "id": "o3",
+              "text": "Are you like to come to my party?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Lo siento, no puedo. Estoy ocupado'?",
           "options": [
-            { "id": "o1", "text": "I'm sorry, I can't. I'm busy" },
-            { "id": "o2", "text": "I sorry, I can't. I busy" },
-            { "id": "o3", "text": "I'm sorry, I no can. I'm busy" }
+            {
+              "id": "o1",
+              "text": "I'm sorry, I can't. I'm busy"
+            },
+            {
+              "id": "o2",
+              "text": "I sorry, I can't. I busy"
+            },
+            {
+              "id": "o3",
+              "text": "I'm sorry, I no can. I'm busy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Quedamos a las ocho?'?",
           "options": [
-            { "id": "o1", "text": "Shall we meet at eight?" },
-            { "id": "o2", "text": "Let's meet at eight?" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Shall we meet at eight?"
+            },
+            {
+              "id": "o2",
+              "text": "Let's meet at eight?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Tengo que comprar un regalo'?",
           "options": [
-            { "id": "o1", "text": "I have to buy a gift" },
-            { "id": "o2", "text": "I must to buy a gift" },
-            { "id": "o3", "text": "I have buy a gift" }
+            {
+              "id": "o1",
+              "text": "I have to buy a gift"
+            },
+            {
+              "id": "o2",
+              "text": "I must to buy a gift"
+            },
+            {
+              "id": "o3",
+              "text": "I have buy a gift"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Me gustaría reservar una mesa'?",
           "options": [
-            { "id": "o1", "text": "I'd like to book a table" },
-            { "id": "o2", "text": "I like book a table" },
-            { "id": "o3", "text": "I would like book a table" }
+            {
+              "id": "o1",
+              "text": "I'd like to book a table"
+            },
+            {
+              "id": "o2",
+              "text": "I like book a table"
+            },
+            {
+              "id": "o3",
+              "text": "I would like book a table"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Me trae la cuenta, por favor?'?",
           "options": [
-            { "id": "o1", "text": "Could I have the bill, please?" },
-            { "id": "o2", "text": "Can you bring bill, please?" },
-            { "id": "o3", "text": "I want the bill, please" }
+            {
+              "id": "o1",
+              "text": "Could I have the bill, please?"
+            },
+            {
+              "id": "o2",
+              "text": "Can you bring bill, please?"
+            },
+            {
+              "id": "o3",
+              "text": "I want the bill, please"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -105,14 +159,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿A qué hora empieza la fiesta?'",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "time" },
-            { "id": "w3", "text": "does" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "party" },
-            { "id": "w6", "text": "start?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "time"
+            },
+            {
+              "id": "w3",
+              "text": "does"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "party"
+            },
+            {
+              "id": "w6",
+              "text": "start?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -120,16 +199,49 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Me gustaría una copa de vino tinto'",
           "options": [
-            { "id": "w1", "text": "like" },
-            { "id": "w2", "text": "I" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "glass" },
-            { "id": "w5", "text": "of" },
-            { "id": "w6", "text": "red" },
-            { "id": "w7", "text": "wine" },
-            { "id": "w8", "text": "would" }
+            {
+              "id": "w1",
+              "text": "like"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "glass"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "red"
+            },
+            {
+              "id": "w7",
+              "text": "wine"
+            },
+            {
+              "id": "w8",
+              "text": "would"
+            }
           ],
-          "correct_answer": ["w2", "w8", "w1", "w3", "w4", "w5", "w6", "w7"],
+          "correct_answer": [
+            "w2",
+            "w8",
+            "w1",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -153,9 +265,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué quieres comer?'?",
           "options": [
-            { "id": "o1", "text": "What do you want to eat?" },
-            { "id": "o2", "text": "What would you like to eat?" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "What do you want to eat?"
+            },
+            {
+              "id": "o2",
+              "text": "What would you like to eat?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -165,9 +286,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Soy alérgico a las nueces'?",
           "options": [
-            { "id": "o1", "text": "I'm allergic to nuts" },
-            { "id": "o2", "text": "I have allergy nuts" },
-            { "id": "o3", "text": "I'm allergic of nuts" }
+            {
+              "id": "o1",
+              "text": "I'm allergic to nuts"
+            },
+            {
+              "id": "o2",
+              "text": "I have allergy nuts"
+            },
+            {
+              "id": "o3",
+              "text": "I'm allergic of nuts"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -177,9 +307,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Dónde está el probador?'?",
           "options": [
-            { "id": "o1", "text": "Where is the fitting room?" },
-            { "id": "o2", "text": "Where is the change room?" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Where is the fitting room?"
+            },
+            {
+              "id": "o2",
+              "text": "Where is the change room?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -189,9 +328,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Me lo llevo' (comprando algo)?",
           "options": [
-            { "id": "o1", "text": "I'll take it" },
-            { "id": "o2", "text": "I carry it" },
-            { "id": "o3", "text": "I take me it" }
+            {
+              "id": "o1",
+              "text": "I'll take it"
+            },
+            {
+              "id": "o2",
+              "text": "I carry it"
+            },
+            {
+              "id": "o3",
+              "text": "I take me it"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -201,9 +349,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedo pagar con tarjeta?'?",
           "options": [
-            { "id": "o1", "text": "Can I pay by card?" },
-            { "id": "o2", "text": "May I pay with card?" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Can I pay by card?"
+            },
+            {
+              "id": "o2",
+              "text": "May I pay with card?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -213,9 +370,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué planes tienes para el fin de semana?'?",
           "options": [
-            { "id": "o1", "text": "What are your plans for the weekend?" },
-            { "id": "o2", "text": "What plans you have for weekend?" },
-            { "id": "o3", "text": "Which plans have you for the weekend?" }
+            {
+              "id": "o1",
+              "text": "What are your plans for the weekend?"
+            },
+            {
+              "id": "o2",
+              "text": "What plans you have for weekend?"
+            },
+            {
+              "id": "o3",
+              "text": "Which plans have you for the weekend?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -225,9 +391,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿A qué hora quedamos?'?",
           "options": [
-            { "id": "o1", "text": "What time shall we meet?" },
-            { "id": "o2", "text": "When we meet?" },
-            { "id": "o3", "text": "What hour we stay?" }
+            {
+              "id": "o1",
+              "text": "What time shall we meet?"
+            },
+            {
+              "id": "o2",
+              "text": "When we meet?"
+            },
+            {
+              "id": "o3",
+              "text": "What hour we stay?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -253,12 +428,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Dónde está el baño?'",
           "options": [
-            { "id": "w1", "text": "the" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "Where" },
-            { "id": "w4", "text": "toilet?" }
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "Where"
+            },
+            {
+              "id": "w4",
+              "text": "toilet?"
+            }
           ],
-          "correct_answer": ["w3", "w2", "w1", "w4"],
+          "correct_answer": [
+            "w3",
+            "w2",
+            "w1",
+            "w4"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -266,14 +458,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Puedo ver el menú, por favor?'",
           "options": [
-            { "id": "w1", "text": "Can" },
-            { "id": "w2", "text": "I" },
-            { "id": "w3", "text": "see" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "menu" },
-            { "id": "w6", "text": "please?" }
+            {
+              "id": "w1",
+              "text": "Can"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "see"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "menu"
+            },
+            {
+              "id": "w6",
+              "text": "please?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -303,9 +520,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Yo estuve en Londres el año pasado'?",
           "options": [
-            { "id": "o1", "text": "I was in London last year" },
-            { "id": "o2", "text": "I were in London last year" },
-            { "id": "o3", "text": "I was to London last year" }
+            {
+              "id": "o1",
+              "text": "I was in London last year"
+            },
+            {
+              "id": "o2",
+              "text": "I were in London last year"
+            },
+            {
+              "id": "o3",
+              "text": "I was to London last year"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -315,9 +541,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Dónde estuviste ayer?'?",
           "options": [
-            { "id": "o1", "text": "Where were you yesterday?" },
-            { "id": "o2", "text": "Where was you yesterday?" },
-            { "id": "o3", "text": "Where you were yesterday?" }
+            {
+              "id": "o1",
+              "text": "Where were you yesterday?"
+            },
+            {
+              "id": "o2",
+              "text": "Where was you yesterday?"
+            },
+            {
+              "id": "o3",
+              "text": "Where you were yesterday?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -327,9 +562,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'No estábamos cansados'?",
           "options": [
-            { "id": "o1", "text": "We weren't tired" },
-            { "id": "o2", "text": "We wasn't tired" },
-            { "id": "o3", "text": "We not were tired" }
+            {
+              "id": "o1",
+              "text": "We weren't tired"
+            },
+            {
+              "id": "o2",
+              "text": "We wasn't tired"
+            },
+            {
+              "id": "o3",
+              "text": "We not were tired"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -339,9 +583,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Ayer fui al cine'?",
           "options": [
-            { "id": "o1", "text": "Yesterday I went to the cinema" },
-            { "id": "o2", "text": "Yesterday I goed to the cinema" },
-            { "id": "o3", "text": "Yesterday I go to the cinema" }
+            {
+              "id": "o1",
+              "text": "Yesterday I went to the cinema"
+            },
+            {
+              "id": "o2",
+              "text": "Yesterday I goed to the cinema"
+            },
+            {
+              "id": "o3",
+              "text": "Yesterday I go to the cinema"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -351,9 +604,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Viste a María?'?",
           "options": [
-            { "id": "o1", "text": "Did you see Maria?" },
-            { "id": "o2", "text": "Did you saw Maria?" },
-            { "id": "o3", "text": "You saw Maria?" }
+            {
+              "id": "o1",
+              "text": "Did you see Maria?"
+            },
+            {
+              "id": "o2",
+              "text": "Did you saw Maria?"
+            },
+            {
+              "id": "o3",
+              "text": "You saw Maria?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -363,9 +625,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'No comí nada'?",
           "options": [
-            { "id": "o1", "text": "I didn't eat anything" },
-            { "id": "o2", "text": "I didn't ate anything" },
-            { "id": "o3", "text": "I not ate anything" }
+            {
+              "id": "o1",
+              "text": "I didn't eat anything"
+            },
+            {
+              "id": "o2",
+              "text": "I didn't ate anything"
+            },
+            {
+              "id": "o3",
+              "text": "I not ate anything"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -375,9 +646,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Nací en un pueblo pequeño'?",
           "options": [
-            { "id": "o1", "text": "I was born in a small village" },
-            { "id": "o2", "text": "I born in a small village" },
-            { "id": "o3", "text": "I were born in a small village" }
+            {
+              "id": "o1",
+              "text": "I was born in a small village"
+            },
+            {
+              "id": "o2",
+              "text": "I born in a small village"
+            },
+            {
+              "id": "o3",
+              "text": "I were born in a small village"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -403,13 +683,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿A qué hora llegaste?'",
           "options": [
-            { "id": "w1", "text": "did" },
-            { "id": "w2", "text": "What" },
-            { "id": "w3", "text": "time" },
-            { "id": "w4", "text": "you" },
-            { "id": "w5", "text": "arrive?" }
+            {
+              "id": "w1",
+              "text": "did"
+            },
+            {
+              "id": "w2",
+              "text": "What"
+            },
+            {
+              "id": "w3",
+              "text": "time"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            },
+            {
+              "id": "w5",
+              "text": "arrive?"
+            }
           ],
-          "correct_answer": ["w2", "w3", "w1", "w4", "w5"],
+          "correct_answer": [
+            "w2",
+            "w3",
+            "w1",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -417,13 +718,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'No vi la televisión ayer'",
           "options": [
-            { "id": "w1", "text": "watch" },
-            { "id": "w2", "text": "didn't" },
-            { "id": "w3", "text": "TV" },
-            { "id": "w4", "text": "yesterday" },
-            { "id": "w5", "text": "I" }
+            {
+              "id": "w1",
+              "text": "watch"
+            },
+            {
+              "id": "w2",
+              "text": "didn't"
+            },
+            {
+              "id": "w3",
+              "text": "TV"
+            },
+            {
+              "id": "w4",
+              "text": "yesterday"
+            },
+            {
+              "id": "w5",
+              "text": "I"
+            }
           ],
-          "correct_answer": ["w5", "w2", "w1", "w3", "w4"],
+          "correct_answer": [
+            "w5",
+            "w2",
+            "w1",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -447,9 +769,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'De pequeño, yo solía jugar al fútbol'?",
           "options": [
-            { "id": "o1", "text": "When I was a child, I used to play football" },
-            { "id": "o2", "text": "When I was a child, I played football" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "When I was a child, I used to play football"
+            },
+            {
+              "id": "o2",
+              "text": "When I was a child, I played football"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -459,9 +790,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Mi juguete favorito era un camión'?",
           "options": [
-            { "id": "o1", "text": "My favourite toy was a truck" },
-            { "id": "o2", "text": "My favourite toy were a truck" },
-            { "id": "o3", "text": "Favourite toy was truck" }
+            {
+              "id": "o1",
+              "text": "My favourite toy was a truck"
+            },
+            {
+              "id": "o2",
+              "text": "My favourite toy were a truck"
+            },
+            {
+              "id": "o3",
+              "text": "Favourite toy was truck"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -471,9 +811,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Dónde creciste?'?",
           "options": [
-            { "id": "o1", "text": "Where did you grow up?" },
-            { "id": "o2", "text": "Where you grew up?" },
-            { "id": "o3", "text": "Where did you grown up?" }
+            {
+              "id": "o1",
+              "text": "Where did you grow up?"
+            },
+            {
+              "id": "o2",
+              "text": "Where you grew up?"
+            },
+            {
+              "id": "o3",
+              "text": "Where did you grown up?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -483,9 +832,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Einstein fue un genio'?",
           "options": [
-            { "id": "o1", "text": "Einstein was a genius" },
-            { "id": "o2", "text": "Einstein were a genius" },
-            { "id": "o3", "text": "Einstein was genius" }
+            {
+              "id": "o1",
+              "text": "Einstein was a genius"
+            },
+            {
+              "id": "o2",
+              "text": "Einstein were a genius"
+            },
+            {
+              "id": "o3",
+              "text": "Einstein was genius"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -495,9 +853,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué inventaron ellos?'?",
           "options": [
-            { "id": "o1", "text": "What did they invent?" },
-            { "id": "o2", "text": "What did they invented?" },
-            { "id": "o3", "text": "What they invented?" }
+            {
+              "id": "o1",
+              "text": "What did they invent?"
+            },
+            {
+              "id": "o2",
+              "text": "What did they invented?"
+            },
+            {
+              "id": "o3",
+              "text": "What they invented?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -507,9 +874,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Murió hace diez años'?",
           "options": [
-            { "id": "o1", "text": "He died ten years ago" },
-            { "id": "o2", "text": "He died ten years before" },
-            { "id": "o3", "text": "He dead ten years ago" }
+            {
+              "id": "o1",
+              "text": "He died ten years ago"
+            },
+            {
+              "id": "o2",
+              "text": "He died ten years before"
+            },
+            {
+              "id": "o3",
+              "text": "He dead ten years ago"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -519,9 +895,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'No me gustó la película'?",
           "options": [
-            { "id": "o1", "text": "I didn't like the movie" },
-            { "id": "o2", "text": "I didn't liked the movie" },
-            { "id": "o3", "text": "I not liked the movie" }
+            {
+              "id": "o1",
+              "text": "I didn't like the movie"
+            },
+            {
+              "id": "o2",
+              "text": "I didn't liked the movie"
+            },
+            {
+              "id": "o3",
+              "text": "I not liked the movie"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -547,13 +932,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuándo terminó la guerra?'",
           "options": [
-            { "id": "w1", "text": "When" },
-            { "id": "w2", "text": "did" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "war" },
-            { "id": "w5", "text": "finish?" }
+            {
+              "id": "w1",
+              "text": "When"
+            },
+            {
+              "id": "w2",
+              "text": "did"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "war"
+            },
+            {
+              "id": "w5",
+              "text": "finish?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -561,14 +967,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Ella no vino a la oficina'",
           "options": [
-            { "id": "w1", "text": "didn't" },
-            { "id": "w2", "text": "come" },
-            { "id": "w3", "text": "to" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "office" },
-            { "id": "w6", "text": "She" }
+            {
+              "id": "w1",
+              "text": "didn't"
+            },
+            {
+              "id": "w2",
+              "text": "come"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "office"
+            },
+            {
+              "id": "w6",
+              "text": "She"
+            }
           ],
-          "correct_answer": ["w6", "w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w6",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -589,31 +1020,103 @@
           "interaction_id": "U50_I51",
           "type": "word-search",
           "prompt_es": "Busca verbos en PASADO:",
-          "words": ["WAS", "WERE", "WENT", "HAD", "DID", "SAW", "ATE", "DRANK", "READ", "GOT"],
+          "words": [
+            "WAS",
+            "WERE",
+            "WENT",
+            "HAD",
+            "DID",
+            "SAW",
+            "ATE",
+            "DRANK",
+            "READ",
+            "GOT"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "WAS", "clue": "Past of is/am" },
-            { "word": "WERE", "clue": "Past of are" },
-            { "word": "WENT", "clue": "Past of go" },
-            { "word": "HAD", "clue": "Past of have" },
-            { "word": "DID", "clue": "Past of do" },
-            { "word": "SAW", "clue": "Past of see" },
-            { "word": "ATE", "clue": "Past of eat" },
-            { "word": "DRANK", "clue": "Past of drink" },
-            { "word": "READ", "clue": "Past of read" },
-            { "word": "GOT", "clue": "Past of get" }
+            {
+              "word": "WAS",
+              "clue": "Past of is/am"
+            },
+            {
+              "word": "WERE",
+              "clue": "Past of are"
+            },
+            {
+              "word": "WENT",
+              "clue": "Past of go"
+            },
+            {
+              "word": "HAD",
+              "clue": "Past of have"
+            },
+            {
+              "word": "DID",
+              "clue": "Past of do"
+            },
+            {
+              "word": "SAW",
+              "clue": "Past of see"
+            },
+            {
+              "word": "ATE",
+              "clue": "Past of eat"
+            },
+            {
+              "word": "DRANK",
+              "clue": "Past of drink"
+            },
+            {
+              "word": "READ",
+              "clue": "Past of read"
+            },
+            {
+              "word": "GOT",
+              "clue": "Past of get"
+            }
           ],
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U50_I52",
           "type": "crossword",
-          "prompt_es": "Crucigrama de repaso:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "BOTTLE", "clue": "Container for water or wine", "direction": "across", "row": 0, "col": 0 },
-            { "word": "ORDER", "clue": "Ask for food in a restaurant", "direction": "down", "row": 0, "col": 1 },
-            { "word": "TASTY", "clue": "Food that is good", "direction": "across", "row": 2, "col": 0 },
-            { "word": "BORN", "clue": "Started life", "direction": "down", "row": 0, "col": 4 }
+            {
+              "word": "SLEEP",
+              "clue": "Traducción de: Slept",
+              "direction": "across",
+              "row": 10,
+              "col": 7
+            },
+            {
+              "word": "LEAVE",
+              "clue": "Traducción de: Left",
+              "direction": "down",
+              "row": 6,
+              "col": 10
+            },
+            {
+              "word": "SPEAK",
+              "clue": "Traducción de: Spoke",
+              "direction": "down",
+              "row": 10,
+              "col": 7
+            },
+            {
+              "word": "FIND",
+              "clue": "Traducción de: Found",
+              "direction": "down",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "TAKE",
+              "clue": "Traducción de: Took",
+              "direction": "across",
+              "row": 7,
+              "col": 7
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -622,11 +1125,26 @@
           "type": "matching",
           "prompt_es": "Une la pregunta con su respuesta lógica:",
           "pairs": [
-            { "left": "Would you like to come?", "right": "Yes, I'd love to!" },
-            { "left": "Where were you born?", "right": "In Madrid." },
-            { "left": "What did you do?", "right": "I went to the gym." },
-            { "left": "Can I pay by card?", "right": "Of course." },
-            { "left": "Shall we meet at 8?", "right": "That sounds good." }
+            {
+              "left": "Would you like to come?",
+              "right": "Yes, I'd love to!"
+            },
+            {
+              "left": "Where were you born?",
+              "right": "In Madrid."
+            },
+            {
+              "left": "What did you do?",
+              "right": "I went to the gym."
+            },
+            {
+              "left": "Can I pay by card?",
+              "right": "Of course."
+            },
+            {
+              "left": "Shall we meet at 8?",
+              "right": "That sounds good."
+            }
           ],
           "mastery_tag": "functional_language"
         },
@@ -635,11 +1153,26 @@
           "type": "matching",
           "prompt_es": "Une los verbos irregulares con su pasado:",
           "pairs": [
-            { "left": "Take", "right": "Took" },
-            { "left": "Leave", "right": "Left" },
-            { "left": "Speak", "right": "Spoke" },
-            { "left": "Sleep", "right": "Slept" },
-            { "left": "Find", "right": "Found" }
+            {
+              "left": "Take",
+              "right": "Took"
+            },
+            {
+              "left": "Leave",
+              "right": "Left"
+            },
+            {
+              "left": "Speak",
+              "right": "Spoke"
+            },
+            {
+              "left": "Sleep",
+              "right": "Slept"
+            },
+            {
+              "left": "Find",
+              "right": "Found"
+            }
           ],
           "mastery_tag": "grammar"
         },
@@ -648,9 +1181,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Fue el mejor día de mi vida'?",
           "options": [
-            { "id": "o1", "text": "It was the best day of my life" },
-            { "id": "o2", "text": "It were the best day of my life" },
-            { "id": "o3", "text": "Was the best day of my life" }
+            {
+              "id": "o1",
+              "text": "It was the best day of my life"
+            },
+            {
+              "id": "o2",
+              "text": "It were the best day of my life"
+            },
+            {
+              "id": "o3",
+              "text": "Was the best day of my life"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -660,9 +1202,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué tal la comida?'?",
           "options": [
-            { "id": "o1", "text": "How was the food?" },
-            { "id": "o2", "text": "What was the food like?" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "How was the food?"
+            },
+            {
+              "id": "o2",
+              "text": "What was the food like?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -672,9 +1223,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Todo estuvo perfecto'?",
           "options": [
-            { "id": "o1", "text": "Everything was perfect" },
-            { "id": "o2", "text": "All were perfect" },
-            { "id": "o3", "text": "Everything were perfect" }
+            {
+              "id": "o1",
+              "text": "Everything was perfect"
+            },
+            {
+              "id": "o2",
+              "text": "All were perfect"
+            },
+            {
+              "id": "o3",
+              "text": "Everything were perfect"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -684,9 +1244,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'No pudimos ir'?",
           "options": [
-            { "id": "o1", "text": "We couldn't go" },
-            { "id": "o2", "text": "We can't went" },
-            { "id": "o3", "text": "We not could go" }
+            {
+              "id": "o1",
+              "text": "We couldn't go"
+            },
+            {
+              "id": "o2",
+              "text": "We can't went"
+            },
+            {
+              "id": "o3",
+              "text": "We not could go"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -696,9 +1265,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Ayer hizo mucho sol'?",
           "options": [
-            { "id": "o1", "text": "It was very sunny yesterday" },
-            { "id": "o2", "text": "There was very sunny yesterday" },
-            { "id": "o3", "text": "It were very sunny yesterday" }
+            {
+              "id": "o1",
+              "text": "It was very sunny yesterday"
+            },
+            {
+              "id": "o2",
+              "text": "There was very sunny yesterday"
+            },
+            {
+              "id": "o3",
+              "text": "It were very sunny yesterday"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -708,9 +1286,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuánto tiempo estuvisteis allí?'?",
           "options": [
-            { "id": "o1", "text": "How long were you there?" },
-            { "id": "o2", "text": "How much time you were there?" },
-            { "id": "o3", "text": "How long was you there?" }
+            {
+              "id": "o1",
+              "text": "How long were you there?"
+            },
+            {
+              "id": "o2",
+              "text": "How much time you were there?"
+            },
+            {
+              "id": "o3",
+              "text": "How long was you there?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -720,9 +1307,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Fuimos en coche'?",
           "options": [
-            { "id": "o1", "text": "We went by car" },
-            { "id": "o2", "text": "We went in car" },
-            { "id": "o3", "text": "We goed by car" }
+            {
+              "id": "o1",
+              "text": "We went by car"
+            },
+            {
+              "id": "o2",
+              "text": "We went in car"
+            },
+            {
+              "id": "o3",
+              "text": "We goed by car"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -732,9 +1328,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Adónde fuisteis el fin de semana?'?",
           "options": [
-            { "id": "o1", "text": "Where did you go at the weekend?" },
-            { "id": "o2", "text": "Where you went at the weekend?" },
-            { "id": "o3", "text": "To where you did go at weekend?" }
+            {
+              "id": "o1",
+              "text": "Where did you go at the weekend?"
+            },
+            {
+              "id": "o2",
+              "text": "Where you went at the weekend?"
+            },
+            {
+              "id": "o3",
+              "text": "To where you did go at weekend?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -744,9 +1349,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'No vimos a nadie'?",
           "options": [
-            { "id": "o1", "text": "We didn't see anyone" },
-            { "id": "o2", "text": "We didn't see nobody" },
-            { "id": "o3", "text": "We not saw anyone" }
+            {
+              "id": "o1",
+              "text": "We didn't see anyone"
+            },
+            {
+              "id": "o2",
+              "text": "We didn't see nobody"
+            },
+            {
+              "id": "o3",
+              "text": "We not saw anyone"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -756,9 +1370,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Fue un poco aburrido'?",
           "options": [
-            { "id": "o1", "text": "It was a bit boring" },
-            { "id": "o2", "text": "It was a little boring" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "It was a bit boring"
+            },
+            {
+              "id": "o2",
+              "text": "It was a little boring"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -768,9 +1391,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Me sentí un poco mal'?",
           "options": [
-            { "id": "o1", "text": "I felt a bit ill" },
-            { "id": "o2", "text": "I felt a bit bad" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "I felt a bit ill"
+            },
+            {
+              "id": "o2",
+              "text": "I felt a bit bad"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -780,9 +1412,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Me quedé en la cama'?",
           "options": [
-            { "id": "o1", "text": "I stayed in bed" },
-            { "id": "o2", "text": "I was in bed" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "I stayed in bed"
+            },
+            {
+              "id": "o2",
+              "text": "I was in bed"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -792,9 +1433,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Llamé al médico'?",
           "options": [
-            { "id": "o1", "text": "I called the doctor" },
-            { "id": "o2", "text": "I call the doctor" },
-            { "id": "o3", "text": "I was call the doctor" }
+            {
+              "id": "o1",
+              "text": "I called the doctor"
+            },
+            {
+              "id": "o2",
+              "text": "I call the doctor"
+            },
+            {
+              "id": "o3",
+              "text": "I was call the doctor"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -804,9 +1454,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Me dio medicina'?",
           "options": [
-            { "id": "o1", "text": "He gave me medicine" },
-            { "id": "o2", "text": "He give me medicine" },
-            { "id": "o3", "text": "He gaved me medicine" }
+            {
+              "id": "o1",
+              "text": "He gave me medicine"
+            },
+            {
+              "id": "o2",
+              "text": "He give me medicine"
+            },
+            {
+              "id": "o3",
+              "text": "He gaved me medicine"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -816,9 +1475,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Te sientes mejor ahora?'?",
           "options": [
-            { "id": "o1", "text": "Do you feel better now?" },
-            { "id": "o2", "text": "Are you feeling better now?" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Do you feel better now?"
+            },
+            {
+              "id": "o2",
+              "text": "Are you feeling better now?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -828,9 +1496,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Sí, mucho mejor, gracias'?",
           "options": [
-            { "id": "o1", "text": "Yes, much better, thank you" },
-            { "id": "o2", "text": "Yes, very better, thanks" },
-            { "id": "o3", "text": "Yes, more better, thank you" }
+            {
+              "id": "o1",
+              "text": "Yes, much better, thank you"
+            },
+            {
+              "id": "o2",
+              "text": "Yes, very better, thanks"
+            },
+            {
+              "id": "o3",
+              "text": "Yes, more better, thank you"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -856,14 +1533,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Qué tiempo hizo ayer?'",
           "options": [
-            { "id": "w1", "text": "was" },
-            { "id": "w2", "text": "What" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "weather" },
-            { "id": "w5", "text": "like" },
-            { "id": "w6", "text": "yesterday?" }
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w2",
+              "text": "What"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "weather"
+            },
+            {
+              "id": "w5",
+              "text": "like"
+            },
+            {
+              "id": "w6",
+              "text": "yesterday?"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -871,13 +1573,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Ella no estaba en casa'",
           "options": [
-            { "id": "w1", "text": "at" },
-            { "id": "w2", "text": "home" },
-            { "id": "w3", "text": "She" },
-            { "id": "w4", "text": "was" },
-            { "id": "w5", "text": "not" }
+            {
+              "id": "w1",
+              "text": "at"
+            },
+            {
+              "id": "w2",
+              "text": "home"
+            },
+            {
+              "id": "w3",
+              "text": "She"
+            },
+            {
+              "id": "w4",
+              "text": "was"
+            },
+            {
+              "id": "w5",
+              "text": "not"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w5", "w1", "w2"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w5",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -893,9 +1616,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué hiciste el fin de semana?'?",
           "options": [
-            { "id": "o1", "text": "What did you do at the weekend?" },
-            { "id": "o2", "text": "What you did at the weekend?" },
-            { "id": "o3", "text": "What did you done at the weekend?" }
+            {
+              "id": "o1",
+              "text": "What did you do at the weekend?"
+            },
+            {
+              "id": "o2",
+              "text": "What you did at the weekend?"
+            },
+            {
+              "id": "o3",
+              "text": "What did you done at the weekend?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -905,9 +1637,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Fui a una boda'?",
           "options": [
-            { "id": "o1", "text": "I went to a wedding" },
-            { "id": "o2", "text": "I was in a wedding" },
-            { "id": "o3", "text": "I went at a wedding" }
+            {
+              "id": "o1",
+              "text": "I went to a wedding"
+            },
+            {
+              "id": "o2",
+              "text": "I was in a wedding"
+            },
+            {
+              "id": "o3",
+              "text": "I went at a wedding"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -917,9 +1658,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'La novia estaba preciosa'?",
           "options": [
-            { "id": "o1", "text": "The bride was beautiful" },
-            { "id": "o2", "text": "The bride were beautiful" },
-            { "id": "o3", "text": "The bride was beautifying" }
+            {
+              "id": "o1",
+              "text": "The bride was beautiful"
+            },
+            {
+              "id": "o2",
+              "text": "The bride were beautiful"
+            },
+            {
+              "id": "o3",
+              "text": "The bride was beautifying"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -929,9 +1679,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Había mucha gente allí'?",
           "options": [
-            { "id": "o1", "text": "There were many people there" },
-            { "id": "o2", "text": "There was many people there" },
-            { "id": "o3", "text": "There were much people there" }
+            {
+              "id": "o1",
+              "text": "There were many people there"
+            },
+            {
+              "id": "o2",
+              "text": "There was many people there"
+            },
+            {
+              "id": "o3",
+              "text": "There were much people there"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -941,9 +1700,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Bailamos mucho'?",
           "options": [
-            { "id": "o1", "text": "We danced a lot" },
-            { "id": "o2", "text": "We dance a lot" },
-            { "id": "o3", "text": "We was dance a lot" }
+            {
+              "id": "o1",
+              "text": "We danced a lot"
+            },
+            {
+              "id": "o2",
+              "text": "We dance a lot"
+            },
+            {
+              "id": "o3",
+              "text": "We was dance a lot"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -953,9 +1721,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'No volví hasta tarde'?",
           "options": [
-            { "id": "o1", "text": "I didn't get back until late" },
-            { "id": "o2", "text": "I didn't go back until late" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "I didn't get back until late"
+            },
+            {
+              "id": "o2",
+              "text": "I didn't go back until late"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -965,9 +1742,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Estaba cansadísimo'?",
           "options": [
-            { "id": "o1", "text": "I was exhausted" },
-            { "id": "o2", "text": "I was very tired" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "I was exhausted"
+            },
+            {
+              "id": "o2",
+              "text": "I was very tired"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -977,9 +1763,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Me desperté tarde el domingo'?",
           "options": [
-            { "id": "o1", "text": "I woke up late on Sunday" },
-            { "id": "o2", "text": "I wake up late on Sunday" },
-            { "id": "o3", "text": "I waked up late on Sunday" }
+            {
+              "id": "o1",
+              "text": "I woke up late on Sunday"
+            },
+            {
+              "id": "o2",
+              "text": "I wake up late on Sunday"
+            },
+            {
+              "id": "o3",
+              "text": "I waked up late on Sunday"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -989,9 +1784,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Pasé el día relajado'?",
           "options": [
-            { "id": "o1", "text": "I spent the day relaxing" },
-            { "id": "o2", "text": "I spend the day relax" },
-            { "id": "o3", "text": "I spent the day relax" }
+            {
+              "id": "o1",
+              "text": "I spent the day relaxing"
+            },
+            {
+              "id": "o2",
+              "text": "I spend the day relax"
+            },
+            {
+              "id": "o3",
+              "text": "I spent the day relax"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1001,9 +1805,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué almorzaste?'?",
           "options": [
-            { "id": "o1", "text": "What did you have for lunch?" },
-            { "id": "o2", "text": "What did you eated for lunch?" },
-            { "id": "o3", "text": "What you had for lunch?" }
+            {
+              "id": "o1",
+              "text": "What did you have for lunch?"
+            },
+            {
+              "id": "o2",
+              "text": "What did you eated for lunch?"
+            },
+            {
+              "id": "o3",
+              "text": "What you had for lunch?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1013,10 +1826,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Hice un asado'?",
           "options": [
-            { "id": "o1", "text": "I made a roast" },
-            { "id": "o2", "text": "I did a roast" },
-            { "id": "o3", "text": "I cooked a roast" },
-            { "id": "o4", "text": "o1 and o3 are common" }
+            {
+              "id": "o1",
+              "text": "I made a roast"
+            },
+            {
+              "id": "o2",
+              "text": "I did a roast"
+            },
+            {
+              "id": "o3",
+              "text": "I cooked a roast"
+            },
+            {
+              "id": "o4",
+              "text": "o1 and o3 are common"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -1026,9 +1851,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Vino mi familia a casa'?",
           "options": [
-            { "id": "o1", "text": "My family came to my house" },
-            { "id": "o2", "text": "My family comes to my house" },
-            { "id": "o3", "text": "My family was come to house" }
+            {
+              "id": "o1",
+              "text": "My family came to my house"
+            },
+            {
+              "id": "o2",
+              "text": "My family comes to my house"
+            },
+            {
+              "id": "o3",
+              "text": "My family was come to house"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1038,9 +1872,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Lo pasamos muy bien juntos'?",
           "options": [
-            { "id": "o1", "text": "We had a very good time together" },
-            { "id": "o2", "text": "We have a very good time together" },
-            { "id": "o3", "text": "We was very good time together" }
+            {
+              "id": "o1",
+              "text": "We had a very good time together"
+            },
+            {
+              "id": "o2",
+              "text": "We have a very good time together"
+            },
+            {
+              "id": "o3",
+              "text": "We was very good time together"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1050,9 +1893,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Vieron ellos la película?'?",
           "options": [
-            { "id": "o1", "text": "Did they watch the movie?" },
-            { "id": "o2", "text": "Did they watched the movie?" },
-            { "id": "o3", "text": "Watched they the movie?" }
+            {
+              "id": "o1",
+              "text": "Did they watch the movie?"
+            },
+            {
+              "id": "o2",
+              "text": "Did they watched the movie?"
+            },
+            {
+              "id": "o3",
+              "text": "Watched they the movie?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1062,9 +1914,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'No, no la vieron'?",
           "options": [
-            { "id": "o1", "text": "No, they didn't watch it" },
-            { "id": "o2", "text": "No, they didn't watched it" },
-            { "id": "o3", "text": "No, they not watch it" }
+            {
+              "id": "o1",
+              "text": "No, they didn't watch it"
+            },
+            {
+              "id": "o2",
+              "text": "No, they didn't watched it"
+            },
+            {
+              "id": "o3",
+              "text": "No, they not watch it"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1090,13 +1951,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Por qué no me llamaste?'",
           "options": [
-            { "id": "w1", "text": "didn't" },
-            { "id": "w2", "text": "Why" },
-            { "id": "w3", "text": "call" },
-            { "id": "w4", "text": "me?" },
-            { "id": "w5", "text": "you" }
+            {
+              "id": "w1",
+              "text": "didn't"
+            },
+            {
+              "id": "w2",
+              "text": "Why"
+            },
+            {
+              "id": "w3",
+              "text": "call"
+            },
+            {
+              "id": "w4",
+              "text": "me?"
+            },
+            {
+              "id": "w5",
+              "text": "you"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w5", "w3", "w4"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w5",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -1104,14 +1986,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Estaba en una reunión importante'",
           "options": [
-            { "id": "w1", "text": "an" },
-            { "id": "w2", "text": "important" },
-            { "id": "w3", "text": "meeting" },
-            { "id": "w4", "text": "in" },
-            { "id": "w5", "text": "was" },
-            { "id": "w6", "text": "I" }
+            {
+              "id": "w1",
+              "text": "an"
+            },
+            {
+              "id": "w2",
+              "text": "important"
+            },
+            {
+              "id": "w3",
+              "text": "meeting"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            },
+            {
+              "id": "w6",
+              "text": "I"
+            }
           ],
-          "correct_answer": ["w6", "w5", "w4", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w6",
+            "w5",
+            "w4",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -1135,9 +2042,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué tal el viaje?'?",
           "options": [
-            { "id": "o1", "text": "How was the trip?" },
-            { "id": "o2", "text": "What was the trip like?" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "How was the trip?"
+            },
+            {
+              "id": "o2",
+              "text": "What was the trip like?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -1147,9 +2063,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Fue fantástico'?",
           "options": [
-            { "id": "o1", "text": "It was fantastic" },
-            { "id": "o2", "text": "It was great" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "It was fantastic"
+            },
+            {
+              "id": "o2",
+              "text": "It was great"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -1159,9 +2084,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuándo volviste?'?",
           "options": [
-            { "id": "o1", "text": "When did you come back?" },
-            { "id": "o2", "text": "When did you get back?" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "When did you come back?"
+            },
+            {
+              "id": "o2",
+              "text": "When did you get back?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -1171,9 +2105,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Volví anoche'?",
           "options": [
-            { "id": "o1", "text": "I came back last night" },
-            { "id": "o2", "text": "I got back last night" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "I came back last night"
+            },
+            {
+              "id": "o2",
+              "text": "I got back last night"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"

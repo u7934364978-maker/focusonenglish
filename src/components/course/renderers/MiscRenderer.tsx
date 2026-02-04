@@ -64,7 +64,7 @@ export default function MiscRenderer({
               {exercise.title}
             </h3>
             <span className="inline-block mt-1 px-3 py-1 bg-white/50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-black uppercase tracking-widest rounded-full">
-              {exercise.type.replace(/-/g, ' ')}
+              {exercise?.type?.replace(/-/g, ' ') || 'Exercise'}
             </span>
           </div>
         </div>

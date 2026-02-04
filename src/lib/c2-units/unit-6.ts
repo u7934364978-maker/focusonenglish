@@ -33,11 +33,11 @@ export const C2_U6_BLOCK1: Exercise = {
     {
       "id": "c2-u6-b1-q3",
       "type": "key-word-transformation",
-      "question": "Despite extensive training, miscommunications inherent _____ many diplomatic exchanges.",
+      "question": "Despite extensive training, miscommunications seem inherent to many diplomatic exchanges. (LIKELY)\n\nMiscommunications are likely to __________",
       "sentence": "Despite extensive training, miscommunications seem inherent to many diplomatic exchanges.",
       "keyWord": "LIKELY",
       "startOfAnswer": "Miscommunications are likely to",
-      "correctAnswer": "Miscommunications are likely to be inherent to many diplomatic exchanges.",
+      "correctAnswer": "be inherent to many diplomatic exchanges",
       "explanation": "Las falencias comunicativas existen usualmente en intercambios diplomáticos, independientemente del entrenamiento recibido.",
       "points": 1
     },
@@ -57,8 +57,11 @@ export const C2_U6_BLOCK1: Exercise = {
     },
     {
       "id": "c2-u6-b1-q5",
-      "type": "fill-blank",
-      "question": "The significance of subtle gestures was often ___________ by the attending audience.",
+      "startOfAnswer": "are often",
+      "keyWord": "OVERLOOK",
+      "sentence": "In communication, subtle gestures are often overlooked.",
+      "type": "key-word-transformation",
+      "question": "In communication, subtle gestures are often overlooked. (OVERLOOK)\n\nare often __________",
       "correctAnswer": "overlooked",
       "explanation": "Las gestos sutiles muchas veces son ignorados por el público asistente, perdiéndose los matices de la comunicación.",
       "points": 1
@@ -66,11 +69,11 @@ export const C2_U6_BLOCK1: Exercise = {
     {
       "id": "c2-u6-b1-q6",
       "type": "key-word-transformation",
-      "question": "Many were __________ by the underlying messages in her speech.",
+      "question": "Many were not fully aware of the underlying messages in her speech. (TO)\n\nThe underlying messages in her speech __________",
       "sentence": "Many were not fully aware of the underlying messages in her speech.",
       "keyWord": "TO",
       "startOfAnswer": "The underlying messages in her speech",
-      "correctAnswer": "The underlying messages in her speech were not fully apparent to many.",
+      "correctAnswer": "were not fully apparent to many",
       "explanation": "El mensaje subyacente de un discurso puede ser sutil, y pocos lo perciben completamente.",
       "points": 1
     },
@@ -99,11 +102,11 @@ export const C2_U6_BLOCK1: Exercise = {
     {
       "id": "c2-u6-b1-q9",
       "type": "key-word-transformation",
-      "question": "Repeated expressions of interest in the project were assumed __________ genuine.",
+      "question": "Repeated expressions of interest in the project were genuine, it was assumed. (BE)\n\nExpressions of interest in the project __________",
       "sentence": "Repeated expressions of interest in the project were genuine, it was assumed.",
       "keyWord": "BE",
       "startOfAnswer": "Expressions of interest in the project",
-      "correctAnswer": "Expressions of interest in the project were assumed to be genuine.",
+      "correctAnswer": "were assumed to be genuine",
       "explanation": "Se presume que las repetidas expresiones de interés en el proyecto son auténticas.",
       "points": 1
     },
@@ -155,10 +158,11 @@ export const C2_U6_BLOCK2: Exercise = {
     {
       "id": "c2-u6-b2-q3",
       "type": "key-word-transformation",
+      "question": "They say that communication has improved significantly. (SAID)\n\nCommunication is said __________",
       "sentence": "They say that communication has improved significantly.",
       "keyWord": "SAID",
       "startOfAnswer": "Communication is said",
-      "correctAnswer": "Communication is said to have improved significantly.",
+      "correctAnswer": "to have improved significantly",
       "explanation": "En transformaciones pasivas, 'They say' se puede reestructurar como 'is said' para crear la pasiva.",
       "points": 1
     },
@@ -187,10 +191,11 @@ export const C2_U6_BLOCK2: Exercise = {
     {
       "id": "c2-u6-b2-q6",
       "type": "key-word-transformation",
+      "question": "Experts are expected to announce a breakthrough in communication technology. (EXPECTED)\n\nA breakthrough in communication technology is __________",
       "sentence": "Experts are expected to announce a breakthrough in communication technology.",
       "keyWord": "EXPECTED",
       "startOfAnswer": "A breakthrough in communication technology is",
-      "correctAnswer": "A breakthrough in communication technology is expected to be announced by experts.",
+      "correctAnswer": "expected to be announced by experts",
       "explanation": "'Are expected to announce' se transforma a 'is expected to be announced' usando la pasiva.",
       "points": 1
     },
@@ -219,10 +224,11 @@ export const C2_U6_BLOCK2: Exercise = {
     {
       "id": "c2-u6-b2-q9",
       "type": "key-word-transformation",
+      "question": "People think that non-verbal communication is often misunderstood. (THOUGHT)\n\nNon-verbal communication is thought __________",
       "sentence": "People think that non-verbal communication is often misunderstood.",
       "keyWord": "THOUGHT",
       "startOfAnswer": "Non-verbal communication is thought",
-      "correctAnswer": "Non-verbal communication is thought to be often misunderstood.",
+      "correctAnswer": "to be often misunderstood",
       "explanation": "'People think' se transforma a 'is thought' para construir la pasiva.",
       "points": 1
     },
@@ -231,12 +237,12 @@ export const C2_U6_BLOCK2: Exercise = {
       "type": "multiple-choice",
       "question": "Which sentence incorrectly uses the passive voice?",
       "options": [
-        "The letter was intended to be sent before the deadline.",
-        "The meeting is being continued after lunch.",
-        "The article will have been read by the public.",
-        "The results are believe to have been altered."
-      ],
-      "correctAnswer": "The results are believe to have been altered.",
+  "The results are believed to have been altered.",
+  "The meeting is being continued after lunch.",
+  "The article will have been read by the public.",
+  "The results are believe to have been altered."
+],
+      "correctAnswer": "The results are believed to have been altered.",
       "explanation": "'Are believed' es el uso correcto; aquí erroneamente aparece 'are believe'.",
       "points": 1
     }
@@ -274,10 +280,11 @@ export const C2_U6_BLOCK3: Exercise = {
     {
       "id": "c2-u6-b3-q3",
       "type": "key-word-transformation",
+      "question": "People think she is a brilliant speaker. (THOUGHT)\n\nShe is thought __________",
       "sentence": "People think she is a brilliant speaker.",
       "keyWord": "thought",
       "startOfAnswer": "She is thought",
-      "correctAnswer": "She is thought to be a brilliant speaker.",
+      "correctAnswer": "to be a brilliant speaker",
       "explanation": "En las transformaciones pasivas, 'people think' se transforma a 'is thought'.",
       "points": 1
     },
@@ -306,10 +313,11 @@ export const C2_U6_BLOCK3: Exercise = {
     {
       "id": "c2-u6-b3-q6",
       "type": "key-word-transformation",
+      "question": "It's believed that the novel has been lost. (BELIEVED)\n\nThe novel is believed __________",
       "sentence": "It's believed that the novel has been lost.",
       "keyWord": "believed",
       "startOfAnswer": "The novel is believed",
-      "correctAnswer": "The novel is believed to have been lost.",
+      "correctAnswer": "to have been lost",
       "explanation": "La estructura pasiva utiliza 'is believed' para expresar una creencia sobre el pasado.",
       "points": 1
     },
@@ -338,10 +346,11 @@ export const C2_U6_BLOCK3: Exercise = {
     {
       "id": "c2-u6-b3-q9",
       "type": "key-word-transformation",
+      "question": "People report that the project has been completed ahead of schedule. (REPORTED)\n\nThe project is reported __________",
       "sentence": "People report that the project has been completed ahead of schedule.",
       "keyWord": "reported",
       "startOfAnswer": "The project is reported",
-      "correctAnswer": "The project is reported to have been completed ahead of schedule.",
+      "correctAnswer": "to have been completed ahead of schedule",
       "explanation": "Se usa 'is reported' para convertir el reporte en pasivo, indicando que algo se creía en el pasado.",
       "points": 1
     },
@@ -393,13 +402,13 @@ export const C2_U6_BLOCK4: Exercise = {
     {
       "id": "c2-u6-b4-q3",
       "type": "key-word-transformation",
-      "question": "",
-      "correctAnswer": "media are often blamed for",
+      "question": "People often blame the media for spreading misinformation. (BLAMED)\n\nThe media are often __________",
+      "correctAnswer": "blamed for spreading misinformation",
       "explanation": "La palabra clave 'blamed' se utiliza aquí en pasiva para resaltar la frecuencia de la culpa dirigida a los medios.",
       "points": 1,
       "sentence": "People often blame the media for spreading misinformation.",
       "keyWord": "blamed",
-      "startOfAnswer": "media are often blamed for"
+      "startOfAnswer": "The media are often"
     },
     {
       "id": "c2-u6-b4-q4",
@@ -426,13 +435,13 @@ export const C2_U6_BLOCK4: Exercise = {
     {
       "id": "c2-u6-b4-q6",
       "type": "key-word-transformation",
-      "question": "",
-      "correctAnswer": "is expected to be released soon",
+      "question": "The authorities are expected to release the new regulations soon. (EXPECTED)\n\nare expected to be released soon __________",
+      "correctAnswer": "",
       "explanation": "Utilizando 'expected' se muestra cómo las expectativas futuras se formulan en pasivo.",
       "points": 1,
       "sentence": "The authorities are expected to release the new regulations soon.",
       "keyWord": "expected",
-      "startOfAnswer": "is expected to be released soon"
+      "startOfAnswer": "are expected to be released soon"
     },
     {
       "id": "c2-u6-b4-q7",
@@ -459,13 +468,13 @@ export const C2_U6_BLOCK4: Exercise = {
     {
       "id": "c2-u6-b4-q9",
       "type": "key-word-transformation",
-      "question": "",
-      "correctAnswer": "was considered to be insensitive",
+      "question": "Many people considered the statement to be insensitive. (CONSIDERED)\n\nwas considered to be __________",
+      "correctAnswer": "insensitive",
       "explanation": "La estructura pasiva con 'considered' se usa para mostrar la percepción general sobre la declaración.",
       "points": 1,
       "sentence": "Many people considered the statement to be insensitive.",
       "keyWord": "considered",
-      "startOfAnswer": "was considered to be insensitive"
+      "startOfAnswer": "was considered to be"
     },
     {
       "id": "c2-u6-b4-q10",
@@ -561,23 +570,20 @@ export const C2_U6_BLOCK5: Exercise = {
       "type": "key-word-transformation",
       "sentence": "Someone had canceled the appointment without informing the client.",
       "keyWord": "been",
-      "question": "The appointment _______________________ without informing the client.",
-      "correctAnswer": "had been canceled",
+      "question": "Someone had canceled the appointment without informing the client. (BEEN)\n\nhad been canceled __________",
+      "correctAnswer": "to have been canceled",
       "startOfAnswer": "had been canceled",
       "explanation": "Se usa 'had been' para formar el pasado perfecto en pasiva.",
       "points": 1
     },
     {
       "id": "c2-u6-b5-q8",
-      "type": "multiple-choice",
-      "question": "Select the sentence that correctly uses the passive voice for a future event.",
-      "options": [
-        "The report will have been submitted by Friday.",
-        "The room was booked for next Friday.",
-        "The application must been submitted by tomorrow.",
-        "The venue is being decorated for the event."
-      ],
-      "correctAnswer": "The report will have been submitted by Friday.",
+      "keyWord": "SUBMIT",
+      "sentence": "The report will have been submitted by Friday.",
+      "startOfAnswer": "will have been",
+      "type": "key-word-transformation",
+      "question": "The report will have been submitted by Friday. (SUBMIT)\n\nwill have been __________",
+      "correctAnswer": "been submitted",
       "explanation": "Se emplea 'will have been' para indicar una acción que se completará en el futuro en pasiva.",
       "points": 1
     },
@@ -594,8 +600,8 @@ export const C2_U6_BLOCK5: Exercise = {
       "type": "key-word-transformation",
       "sentence": "Everybody believes the new system will improve efficiency.",
       "keyWord": "said",
-      "question": "The new system _______________________ to improve efficiency.",
-      "correctAnswer": "is said",
+      "question": "Everybody believes the new system will improve efficiency. (SAID)\n\nis said __________",
+      "correctAnswer": "to improve efficiency",
       "startOfAnswer": "is said",
       "explanation": "Se usa 'is said' para reportar en pasiva lo que se cree sobre el nuevo sistema.",
       "points": 1
@@ -614,11 +620,11 @@ export const C2_U6_BLOCK6: Exercise = {
       "type": "multiple-choice",
       "question": "Which sentence uses the passive structure correctly?",
       "options": [
-        "The report will have delivered by noon.",
-        "The speech was being prepared last evening.",
-        "Every letter must be posting by Friday.",
-        "The novel is written just last year."
-      ],
+  "The report will be delivered by noon.",
+  "The speech was being prepared last evening.",
+  "Every letter must be posted by Friday.",
+  "The novel was written just last year."
+],
       "correctAnswer": "The speech was being prepared last evening.",
       "explanation": "La frase utiliza adecuadamente la pasiva continua en pasado para indicar una acción en progreso en un momento específico.",
       "points": 1
@@ -634,8 +640,8 @@ export const C2_U6_BLOCK6: Exercise = {
     {
       "id": "c2-u6-b6-q3",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the word given: The committee didn't inform the residents about the changes. (BEEN)",
-      "correctAnswer": "The residents have not been informed about the changes by the committee.",
+      "question": "The committee didn't inform the residents about the changes. (BEEN)\n\nThe residents have not... __________",
+      "correctAnswer": "been informed",
       "explanation": "La transformación requiere la estructura pasiva en pasado perfecto para mantener el sentido de la oración original.",
       "points": 1,
       "sentence": "The committee didn't inform the residents about the changes.",
@@ -644,16 +650,13 @@ export const C2_U6_BLOCK6: Exercise = {
     },
     {
       "id": "c2-u6-b6-q4",
-      "type": "multiple-choice",
-      "question": "Identify the sentence that incorrectly employs the passive voice.",
-      "options": [
-        "Plans for the new project were unveiled last night.",
-        "The bridge will have been completed ahead of schedule.",
-        "The packages were sent yesterday, or so it was saying.",
-        "Several new policies were being considered for implementation."
-      ],
-      "correctAnswer": "The packages were sent yesterday, or so it was saying.",
-      "explanation": "La frase incorrecta usa erróneamente 'was saying' en lugar del pasivo adecuado 'was said'.",
+      "startOfAnswer": "The packages were sent yesterday, or so it was",
+      "keyWord": "SAID",
+      "sentence": "The packages were sent yesterday, or so it was said.",
+      "type": "key-word-transformation",
+      "question": "The packages were sent yesterday, or so it was saying. (SAID)\n\nThe packages were sent yesterday, or so it was __________",
+      "correctAnswer": "said",
+      "explanation": "La oración incorrecta usa erróneamente 'was saying' en lugar del pasivo adecuado 'was said'.",
       "points": 1
     },
     {
@@ -667,8 +670,8 @@ export const C2_U6_BLOCK6: Exercise = {
     {
       "id": "c2-u6-b6-q6",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the word given: They said she had informed the team about the delay herself. (BEEN)",
-      "correctAnswer": "It was said that the team had been informed about the delay by her herself.",
+      "question": "They said she had informed the team about the delay herself. (BEEN)\n\nIt was said that the team... __________",
+      "correctAnswer": "had been informed",
       "explanation": "La oración transforma el reporte pasivo con el uso de 'been' para destacar la agencia.",
       "points": 1,
       "sentence": "They said she had informed the team about the delay herself.",
@@ -680,11 +683,11 @@ export const C2_U6_BLOCK6: Exercise = {
       "type": "multiple-choice",
       "question": "Select the sentence that most accurately depicts an advanced passive voice structure.",
       "options": [
-        "Mistakes were made, but lessons were learned.",
-        "The book has written by an anonymous author.",
-        "A new sculpture is being erected in the square.",
-        "The application had been submitting last week."
-      ],
+  "Mistakes were made, but lessons were learned.",
+  "The book was written by an anonymous author.",
+  "A new sculpture is being erected in the square.",
+  "The application had been submitted last week."
+],
       "correctAnswer": "A new sculpture is being erected in the square.",
       "explanation": "Esta oración usa correctamente la pasiva continua para describir una acción actual.",
       "points": 1
@@ -700,8 +703,8 @@ export const C2_U6_BLOCK6: Exercise = {
     {
       "id": "c2-u6-b6-q9",
       "type": "key-word-transformation",
-      "question": "Use the word given to rewrite the sentence: They believed the proposal was too ambitious. (BELIEVED)",
-      "correctAnswer": "It was believed that the proposal was too ambitious.",
+      "question": "They believed the proposal was too ambitious. (BELIEVED)\n\nIt was believed... __________",
+      "correctAnswer": "that the proposal was too ambitious.",
       "explanation": "La construcción pasiva se utiliza para enfocarse en la creencia compartida, con 'believed' en el pasado.",
       "points": 1,
       "sentence": "They believed the proposal was too ambitious.",
@@ -756,8 +759,8 @@ export const C2_U6_BLOCK7: Exercise = {
     {
       "id": "c2-u6-b7-q3",
       "type": "key-word-transformation",
-      "question": "Rewrite the following sentence using the word given: It is widely acknowledged that effective teamwork shapes successful communication. [SHAPED]",
-      "correctAnswer": "Successful communication is widely acknowledged to be shaped by effective teamwork.",
+      "question": "It is widely acknowledged that effective teamwork shapes successful communication. (SHAPED)\n\nSuccessful communication __________",
+      "correctAnswer": "is widely acknowledged to be shaped by effective teamwork",
       "explanation": "Se usa la voz pasiva para enfocar en 'successful communication'.",
       "points": 1,
       "sentence": "It is widely acknowledged that effective teamwork shapes successful communication.",
@@ -789,8 +792,8 @@ export const C2_U6_BLOCK7: Exercise = {
     {
       "id": "c2-u6-b7-q6",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the word given: The company awarded John the 'Best Communicator' prize. [WAS]",
-      "correctAnswer": "John was awarded the 'Best Communicator' prize by the company.",
+      "question": "The company awarded John the 'Best Communicator' prize. (WAS)\n\nJohn was __________",
+      "correctAnswer": "awarded the 'Best Communicator' prize by the company",
       "explanation": "La estructura en pasiva es 'John was awarded'.",
       "points": 1,
       "sentence": "The company awarded John the 'Best Communicator' prize.",
@@ -802,11 +805,11 @@ export const C2_U6_BLOCK7: Exercise = {
       "type": "multiple-choice",
       "question": "Select the sentence that correctly uses passive voice to describe a decision process.",
       "options": [
-        "A decision is being made by the board right now.",
-        "A decision makes by the board right now.",
-        "A decision was made by the board right now.",
-        "A decision will be making by the board right now."
-      ],
+  "A decision is being made by the board right now.",
+  "A decision is made by the board right now.",
+  "A decision was made by the board right now.",
+  "A decision will be made by the board right now."
+],
       "correctAnswer": "A decision is being made by the board right now.",
       "explanation": "La opción correcta usa la estructura pasiva 'is being made'.",
       "points": 1
@@ -822,8 +825,8 @@ export const C2_U6_BLOCK7: Exercise = {
     {
       "id": "c2-u6-b7-q9",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the word given: The researchers suspect that the new theory will alter the understanding of communication. [BE]",
-      "correctAnswer": "The understanding of communication is suspected to be altered by the new theory.",
+      "question": "The researchers suspect that the new theory will alter the understanding of communication. (BE)\n\nThe understanding of communication __________",
+      "correctAnswer": "is suspected to be altered by the new theory",
       "explanation": "La pasiva es 'is suspected to be altered'.",
       "points": 1,
       "sentence": "The researchers suspect that the new theory will alter the understanding of communication.",
@@ -835,11 +838,11 @@ export const C2_U6_BLOCK7: Exercise = {
       "type": "multiple-choice",
       "question": "Identify the sentence that uses passive voice to describe the handling of confidential information.",
       "options": [
-        "Confidential information handles with care.",
-        "Confidential information is handled with care.",
-        "Confidential information was being handle carefully.",
-        "Confidential information handled carefully."
-      ],
+  "Confidential information is handled with care.",
+  "Confidential information is being handled with care.",
+  "Confidential information was handled carefully.",
+  "Confidential information had to be handled carefully."
+],
       "correctAnswer": "Confidential information is handled with care.",
       "explanation": "La pasiva 'is handled' es la estructura correcta.",
       "points": 1
@@ -869,17 +872,20 @@ export const C2_U6_BLOCK8: Exercise = {
     },
     {
       "id": "c2-u6-b8-q2",
-      "type": "fill-blank",
-      "question": "Debates _______________ (hold) annually on this topic by scholars worldwide.",
-      "correctAnswer": "are held",
+      "startOfAnswer": "are held",
+      "keyWord": "held",
+      "sentence": "Debates are held regularly in our committee.",
+      "type": "key-word-transformation",
+      "question": "Debates are held regularly in our committee. (HELD)\n\nare held __________",
+      "correctAnswer": "",
       "explanation": "La estructura pasiva adecuada aquí es 'are held', ya que el sujeto (Debates) es plural y se refiere a acciones recurrentes.",
       "points": 1
     },
     {
       "id": "c2-u6-b8-q3",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the key word: The marketing team released the advertisement yesterday. (was)",
-      "correctAnswer": "The advertisement was released by the marketing team yesterday.",
+      "question": "The marketing team released the advertisement yesterday. (WAS)\n\nThe advertisement __________",
+      "correctAnswer": "was released by the marketing team yesterday",
       "explanation": "La oración se transforma a la voz pasiva cambiando el foco del sujeto al objeto.",
       "points": 1,
       "sentence": "The marketing team released the advertisement yesterday.",
@@ -902,17 +908,20 @@ export const C2_U6_BLOCK8: Exercise = {
     },
     {
       "id": "c2-u6-b8-q5",
-      "type": "fill-blank",
-      "question": "It is widely _______________ (believe) that the discovery will revolutionize communication techniques.",
-      "correctAnswer": "believed",
+      "startOfAnswer": "believed",
+      "keyWord": "believed",
+      "sentence": "It is generally believed that the new policy will be beneficial.",
+      "type": "key-word-transformation",
+      "question": "It is generally believed that the new policy will be beneficial. (BELIEVED)\n\nbelieved __________",
+      "correctAnswer": "",
       "explanation": "Se utiliza la forma pasiva 'believed' para indicar una opinión compartida de manera general.",
       "points": 1
     },
     {
       "id": "c2-u6-b8-q6",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the key word: They say that she delivered a captivating speech. (is)",
-      "correctAnswer": "She is said to have delivered a captivating speech.",
+      "question": "They say that she delivered a captivating speech. (IS)\n\nShe __________",
+      "correctAnswer": "is said to have delivered a captivating speech",
       "explanation": "Se utiliza la estructura pasiva 'is said to have delivered' para expresar rumores o creencias compartidas.",
       "points": 1,
       "sentence": "They say that she delivered a captivating speech.",
@@ -924,28 +933,31 @@ export const C2_U6_BLOCK8: Exercise = {
       "type": "multiple-choice",
       "question": "Which sentence uses a causative passive correctly?",
       "options": [
-        "I am having my hair cut by the new stylist.",
-        "The assignment has to get been done by Friday.",
-        "She was allowed leave early by the manager.",
-        "The proposal might have to being reviewed by the board."
-      ],
+  "I am having my hair cut by the new stylist.",
+  "The assignment has to be done by Friday.",
+  "She was allowed to leave early by the manager.",
+  "The proposal might have to be reviewed by the board."
+],
       "correctAnswer": "I am having my hair cut by the new stylist.",
       "explanation": "La estructura 'having my hair cut' es una construcción pasiva causativa correcta, donde alguien hace algo por nosotros.",
       "points": 1
     },
     {
       "id": "c2-u6-b8-q8",
-      "type": "fill-blank",
-      "question": "The message _________________ (transmit) via secured channels.",
-      "correctAnswer": "is transmitted",
+      "startOfAnswer": "is transmitted",
+      "keyWord": "transmitted",
+      "sentence": "Transmission of data is crucial for effective communication.",
+      "type": "key-word-transformation",
+      "question": "Transmission of data is crucial for effective communication. (TRANSMITTED)\n\nis transmitted __________",
+      "correctAnswer": "",
       "explanation": "La pasiva correcta es 'is transmitted', ya que el mensaje regularmente se envía a través de canales seguros.",
       "points": 1
     },
     {
       "id": "c2-u6-b8-q9",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the key word: People often suggest improvements to the proposal. (improvements)",
-      "correctAnswer": "Improvements are often suggested to the proposal.",
+      "question": "People often suggest improvements to the proposal. (IMPROVEMENTS)\n\nImprovements __________",
+      "correctAnswer": "are often suggested to the proposal",
       "explanation": "La pasiva 'are often suggested' mueve el enfoque del sujeto a las mejoras como objeto.",
       "points": 1,
       "sentence": "People often suggest improvements to the proposal.",
@@ -977,16 +989,11 @@ export const C2_U6_BLOCK9: Exercise = {
   "questions": [
     {
       "id": "c2-u6-b9-q1",
-      "type": "multiple-choice",
-      "question": "Which of the following sentences correctly uses an advanced passive structure?",
-      "options": [
-        "The report was finished by the deadline having been worked on by many.",
-        "The report was having finished by many before the deadline.",
-        "The report having been finished by many before the deadline.",
-        "The report finished by many by the deadline."
-      ],
-      "correctAnswer": "The report was finished by the deadline having been worked on by many.",
-      "explanation": "Esta opción utiliza correctamente una estructura pasiva avanzada con el participio 'having been worked on'.",
+      "sentence": "The report was finished by the deadline, having been worked on by many. (FINISHED)\n\nThe report ___",
+      "type": "key-word-transformation",
+      "question": "The report was finished by the deadline, having been worked on by many. (FINISHED)\n\nThe report ___ ()\n\n __________",
+      "correctAnswer": "was finished by the deadline.",
+      "explanation": "Se usa una estructura pasiva con 'was finished' para indicar una acción completada.",
       "points": 1
     },
     {
@@ -1014,9 +1021,10 @@ export const C2_U6_BLOCK9: Exercise = {
     {
       "id": "c2-u6-b9-q4",
       "type": "key-word-transformation",
+      "question": "People claim that she won the award. (BELIEVED)\n\nShe is believed __________",
       "sentence": "People claim that she won the award.",
       "keyWord": "believed",
-      "correctAnswer": "She is believed to have won the award.",
+      "correctAnswer": "to have won the award",
       "startOfAnswer": "She is believed",
       "explanation": "Hay que usar 'is believed' para cambiar a una estructura pasiva compleja, manteniendo el significado original.",
       "points": 1
@@ -1026,7 +1034,7 @@ export const C2_U6_BLOCK9: Exercise = {
       "type": "fill-blank",
       "question": "Never before ___ such a complex set of guidelines been so efficiently implemented.",
       "correctAnswer": "have",
-      "explanation": "Inversion structure requiere sujetar el verbo 'have' antes del sujeto en una oración pasiva.",
+      "explanation": "La estructura de inversión requiere que el verbo 'have' preceda al sujeto en una oración pasiva.",
       "points": 1
     },
     {
@@ -1046,9 +1054,10 @@ export const C2_U6_BLOCK9: Exercise = {
     {
       "id": "c2-u6-b9-q7",
       "type": "key-word-transformation",
+      "question": "They say the document was leaked by an insider. (ALLEGED)\n\nThe document is alleged __________",
       "sentence": "They say the document was leaked by an insider.",
       "keyWord": "alleged",
-      "correctAnswer": "The document is alleged to have been leaked by an insider.",
+      "correctAnswer": "to have been leaked by an insider",
       "startOfAnswer": "The document is alleged",
       "explanation": "Utilice 'is alleged' para transformar en una estructura pasiva que mantiene el significado original.",
       "points": 1
@@ -1064,9 +1073,10 @@ export const C2_U6_BLOCK9: Exercise = {
     {
       "id": "c2-u6-b9-q9",
       "type": "key-word-transformation",
+      "question": "Everyone knows that the CEO has resigned. (KNOWN)\n\nThe CEO is known __________",
       "sentence": "Everyone knows that the CEO has resigned.",
       "keyWord": "known",
-      "correctAnswer": "The CEO is known to have resigned.",
+      "correctAnswer": "to have resigned",
       "startOfAnswer": "The CEO is known",
       "explanation": "Transforme utilizando 'is known' para crear una estructura pasiva avanzada con el mismo significado.",
       "points": 1
@@ -1076,11 +1086,11 @@ export const C2_U6_BLOCK9: Exercise = {
       "type": "multiple-choice",
       "question": "Choose the sentence that correctly uses a passive infinitive.",
       "options": [
-        "The memo to be drafted soon is of high importance.",
-        "The memo being drafted soon is high importance.",
-        "Soon drafting the memo is high of importance.",
-        "The memo which is being drafted soon is important high."
-      ],
+  "The memo to be drafted soon is of high importance.",
+  "The memo being drafted soon is of high importance.",
+  "Soon drafting the memo is of high importance.",
+  "The memo which is being drafted soon is of high importance."
+],
       "correctAnswer": "The memo to be drafted soon is of high importance.",
       "explanation": "La opción utiliza 'to be drafted' correctamente como un infinitivo pasivo.",
       "points": 1
@@ -1119,10 +1129,11 @@ export const C2_U6_BLOCK10: Exercise = {
     {
       "id": "c2-u6-b10-q3",
       "type": "key-word-transformation",
+      "question": "Someone is going to deliver the report by the end of the week. (BEING)\n\nThe report is being __________",
       "sentence": "Someone is going to deliver the report by the end of the week.",
       "keyWord": "BEING",
       "startOfAnswer": "The report is being",
-      "correctAnswer": "The report is being delivered by the end of the week.",
+      "correctAnswer": "delivered by the end of the week",
       "explanation": "Transformar usando la estructura pasiva + 'being'.",
       "points": 1
     },
@@ -1151,10 +1162,11 @@ export const C2_U6_BLOCK10: Exercise = {
     {
       "id": "c2-u6-b10-q6",
       "type": "key-word-transformation",
+      "question": "Experts have noted various methods that enhance communication clarity. (BEEN)\n\nVarious methods have been __________",
       "sentence": "Experts have noted various methods that enhance communication clarity.",
       "keyWord": "BEEN",
       "startOfAnswer": "Various methods have been",
-      "correctAnswer": "Various methods have been noted by experts to enhance communication clarity.",
+      "correctAnswer": "noted by experts to enhance communication clarity",
       "explanation": "Utiliza 'have been' para transformar la frase a una estructura pasiva correcta.",
       "points": 1
     },
@@ -1163,11 +1175,11 @@ export const C2_U6_BLOCK10: Exercise = {
       "type": "multiple-choice",
       "question": "Select the option that illustrates an atypical use of the passive voice correctly.",
       "options": [
-        "The project is supposed to have completed.",
-        "The meeting was to have been held yesterday.",
-        "The results were to have been announce last week.",
-        "The policy is supposed to be change soon."
-      ],
+  "The project is supposed to have completed.",
+  "The meeting was to have been held yesterday.",
+  "The results were to have been announced last week.",
+  "The policy is supposed to be change soon."
+],
       "correctAnswer": "The meeting was to have been held yesterday.",
       "explanation": "La frase correcta usa una estructura pasiva con enfoque de tiempos pasados 'was to have been'.",
       "points": 1
@@ -1183,10 +1195,11 @@ export const C2_U6_BLOCK10: Exercise = {
     {
       "id": "c2-u6-b10-q9",
       "type": "key-word-transformation",
+      "question": "Scientists have discovered that communication can be improved through active listening. (FOUND)\n\nCommunication has been found __________",
       "sentence": "Scientists have discovered that communication can be improved through active listening.",
       "keyWord": "FOUND",
       "startOfAnswer": "Communication has been found",
-      "correctAnswer": "Communication has been found by scientists to be improved through active listening.",
+      "correctAnswer": "by scientists to be improved through active listening",
       "explanation": "Puedes usar 'has been found' para reestructurar la frase en voz pasiva.",
       "points": 1
     },
@@ -1210,8 +1223,8 @@ export const C2_U6_BLOCK10: Exercise = {
 export const C2_UNIT_6 = createC2Unit(
   'c2-u6',
   'Communication in the Digital Age',
-  'Advanced C2 level practice on communication.',
-  ["speaking","listening","grammar"],
+  'Advanced C2 unit exploring complex topics and formal language structures.',
+  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
   [
     C2_U6_BLOCK1, C2_U6_BLOCK2, C2_U6_BLOCK3, C2_U6_BLOCK4, C2_U6_BLOCK5, C2_U6_BLOCK6, C2_U6_BLOCK7, C2_U6_BLOCK8, C2_U6_BLOCK9, C2_U6_BLOCK10
   ]

@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'leer'? ",
           "options": [
-            { "id": "o1", "text": "Read" },
-            { "id": "o2", "text": "Write" },
-            { "id": "o3", "text": "Study" }
+            {
+              "id": "o1",
+              "text": "Read"
+            },
+            {
+              "id": "o2",
+              "text": "Write"
+            },
+            {
+              "id": "o3",
+              "text": "Study"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nadar'?",
           "options": [
-            { "id": "o1", "text": "Swim" },
-            { "id": "o2", "text": "Run" },
-            { "id": "o3", "text": "Dance" }
+            {
+              "id": "o1",
+              "text": "Swim"
+            },
+            {
+              "id": "o2",
+              "text": "Run"
+            },
+            {
+              "id": "o3",
+              "text": "Dance"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bailar'?",
           "options": [
-            { "id": "o1", "text": "Dance" },
-            { "id": "o2", "text": "Sing" },
-            { "id": "o3", "text": "Play" }
+            {
+              "id": "o1",
+              "text": "Dance"
+            },
+            {
+              "id": "o2",
+              "text": "Sing"
+            },
+            {
+              "id": "o3",
+              "text": "Play"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cantar'?",
           "options": [
-            { "id": "o1", "text": "Sing" },
-            { "id": "o2", "text": "Song" },
-            { "id": "o3", "text": "Talk" }
+            {
+              "id": "o1",
+              "text": "Sing"
+            },
+            {
+              "id": "o2",
+              "text": "Song"
+            },
+            {
+              "id": "o3",
+              "text": "Talk"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pintar'?",
           "options": [
-            { "id": "o1", "text": "Paint" },
-            { "id": "o2", "text": "Draw" },
-            { "id": "o3", "text": "Color" }
+            {
+              "id": "o1",
+              "text": "Paint"
+            },
+            {
+              "id": "o2",
+              "text": "Draw"
+            },
+            {
+              "id": "o3",
+              "text": "Color"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dibujar'?",
           "options": [
-            { "id": "o1", "text": "Draw" },
-            { "id": "o2", "text": "Paint" },
-            { "id": "o3", "text": "Write" }
+            {
+              "id": "o1",
+              "text": "Draw"
+            },
+            {
+              "id": "o2",
+              "text": "Paint"
+            },
+            {
+              "id": "o3",
+              "text": "Write"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'viajar'?",
           "options": [
-            { "id": "o1", "text": "Travel" },
-            { "id": "o2", "text": "Move" },
-            { "id": "o3", "text": "Trip" }
+            {
+              "id": "o1",
+              "text": "Travel"
+            },
+            {
+              "id": "o2",
+              "text": "Move"
+            },
+            {
+              "id": "o3",
+              "text": "Trip"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cocinar'?",
           "options": [
-            { "id": "o1", "text": "Cook" },
-            { "id": "o2", "text": "Eat" },
-            { "id": "o3", "text": "Make" }
+            {
+              "id": "o1",
+              "text": "Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Eat"
+            },
+            {
+              "id": "o3",
+              "text": "Make"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'jugar a videojuegos'?",
           "options": [
-            { "id": "o1", "text": "Play video games" },
-            { "id": "o2", "text": "Use games" },
-            { "id": "o3", "text": "Do video games" }
+            {
+              "id": "o1",
+              "text": "Play video games"
+            },
+            {
+              "id": "o2",
+              "text": "Use games"
+            },
+            {
+              "id": "o3",
+              "text": "Do video games"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'escuchar música'?",
           "options": [
-            { "id": "o1", "text": "Listen to music" },
-            { "id": "o2", "text": "Hear music" },
-            { "id": "o3", "text": "Listen music" }
+            {
+              "id": "o1",
+              "text": "Listen to music"
+            },
+            {
+              "id": "o2",
+              "text": "Hear music"
+            },
+            {
+              "id": "o3",
+              "text": "Listen music"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,9 +227,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ver películas'?",
           "options": [
-            { "id": "o1", "text": "Watch movies" },
-            { "id": "o2", "text": "See cinema" },
-            { "id": "o3", "text": "Look films" }
+            {
+              "id": "o1",
+              "text": "Watch movies"
+            },
+            {
+              "id": "o2",
+              "text": "See cinema"
+            },
+            {
+              "id": "o3",
+              "text": "Look films"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -149,9 +248,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tocar la guitarra'?",
           "options": [
-            { "id": "o1", "text": "Play the guitar" },
-            { "id": "o2", "text": "Touch the guitar" },
-            { "id": "o3", "text": "Ring the guitar" }
+            {
+              "id": "o1",
+              "text": "Play the guitar"
+            },
+            {
+              "id": "o2",
+              "text": "Touch the guitar"
+            },
+            {
+              "id": "o3",
+              "text": "Ring the guitar"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -161,9 +269,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hacer fotos'?",
           "options": [
-            { "id": "o1", "text": "Take photos" },
-            { "id": "o2", "text": "Make photos" },
-            { "id": "o3", "text": "Do photos" }
+            {
+              "id": "o1",
+              "text": "Take photos"
+            },
+            {
+              "id": "o2",
+              "text": "Make photos"
+            },
+            {
+              "id": "o3",
+              "text": "Do photos"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -173,9 +290,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'correr'?",
           "options": [
-            { "id": "o1", "text": "Run" },
-            { "id": "o2", "text": "Walk" },
-            { "id": "o3", "text": "Jump" }
+            {
+              "id": "o1",
+              "text": "Run"
+            },
+            {
+              "id": "o2",
+              "text": "Walk"
+            },
+            {
+              "id": "o3",
+              "text": "Jump"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -185,9 +311,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ir al gimnasio'?",
           "options": [
-            { "id": "o1", "text": "Go to the gym" },
-            { "id": "o2", "text": "Do gym" },
-            { "id": "o3", "text": "Go gym" }
+            {
+              "id": "o1",
+              "text": "Go to the gym"
+            },
+            {
+              "id": "o2",
+              "text": "Do gym"
+            },
+            {
+              "id": "o3",
+              "text": "Go gym"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -197,11 +332,27 @@
           "type": "matching",
           "prompt_es": "Une las actividades:",
           "pairs": [
-            { "id": "p1", "left": "Swimming", "right": "Natación" },
-            { "id": "p2", "left": "Reading", "right": "Lectura" },
-            { "id": "p3", "left": "Cooking", "right": "Cocina" }
+            {
+              "id": "p1",
+              "left": "Swimming",
+              "right": "Natación"
+            },
+            {
+              "id": "p2",
+              "left": "Reading",
+              "right": "Lectura"
+            },
+            {
+              "id": "p3",
+              "left": "Cooking",
+              "right": "Cocina"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -209,11 +360,27 @@
           "type": "matching",
           "prompt_es": "Une los verbos con sus complementos:",
           "pairs": [
-            { "id": "p1", "left": "Play", "right": "Tennis" },
-            { "id": "p2", "left": "Watch", "right": "TV" },
-            { "id": "p3", "left": "Go", "right": "to the cinema" }
+            {
+              "id": "p1",
+              "left": "Play",
+              "right": "Tennis"
+            },
+            {
+              "id": "p2",
+              "left": "Watch",
+              "right": "TV"
+            },
+            {
+              "id": "p3",
+              "left": "Go",
+              "right": "to the cinema"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -245,9 +412,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'esquiar'?",
           "options": [
-            { "id": "o1", "text": "Ski" },
-            { "id": "o2", "text": "Skate" },
-            { "id": "o3", "text": "Slide" }
+            {
+              "id": "o1",
+              "text": "Ski"
+            },
+            {
+              "id": "o2",
+              "text": "Skate"
+            },
+            {
+              "id": "o3",
+              "text": "Slide"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -257,9 +433,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'montar en bici'?",
           "options": [
-            { "id": "o1", "text": "Ride a bike" },
-            { "id": "o2", "text": "Drive a bike" },
-            { "id": "o3", "text": "Go in bike" }
+            {
+              "id": "o1",
+              "text": "Ride a bike"
+            },
+            {
+              "id": "o2",
+              "text": "Drive a bike"
+            },
+            {
+              "id": "o3",
+              "text": "Go in bike"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -269,9 +454,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hacer senderismo'?",
           "options": [
-            { "id": "o1", "text": "Hiking" },
-            { "id": "o2", "text": "Walking" },
-            { "id": "o3", "text": "Climbing" }
+            {
+              "id": "o1",
+              "text": "Hiking"
+            },
+            {
+              "id": "o2",
+              "text": "Walking"
+            },
+            {
+              "id": "o3",
+              "text": "Climbing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -281,9 +475,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ajedrez'?",
           "options": [
-            { "id": "o1", "text": "Chess" },
-            { "id": "o2", "text": "Cheese" },
-            { "id": "o3", "text": "Check" }
+            {
+              "id": "o1",
+              "text": "Chess"
+            },
+            {
+              "id": "o2",
+              "text": "Cheese"
+            },
+            {
+              "id": "o3",
+              "text": "Check"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -293,9 +496,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'juegos de mesa'?",
           "options": [
-            { "id": "o1", "text": "Board games" },
-            { "id": "o2", "text": "Table games" },
-            { "id": "o3", "text": "Desk games" }
+            {
+              "id": "o1",
+              "text": "Board games"
+            },
+            {
+              "id": "o2",
+              "text": "Table games"
+            },
+            {
+              "id": "o3",
+              "text": "Desk games"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -311,9 +523,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Me encanta'?",
           "options": [
-            { "id": "o1", "text": "I love" },
-            { "id": "o2", "text": "I like" },
-            { "id": "o3", "text": "I enjoy" }
+            {
+              "id": "o1",
+              "text": "I love"
+            },
+            {
+              "id": "o2",
+              "text": "I like"
+            },
+            {
+              "id": "o3",
+              "text": "I enjoy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -323,9 +544,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Me gusta'?",
           "options": [
-            { "id": "o1", "text": "I like" },
-            { "id": "o2", "text": "I love" },
-            { "id": "o3", "text": "I hate" }
+            {
+              "id": "o1",
+              "text": "I like"
+            },
+            {
+              "id": "o2",
+              "text": "I love"
+            },
+            {
+              "id": "o3",
+              "text": "I hate"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -335,10 +565,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'No me gusta'?",
           "options": [
-            { "id": "o1", "text": "I don't like" },
-            { "id": "o2", "text": "I not like" },
-            { "id": "o3", "text": "I dislike" },
-            { "id": "o4", "text": "A and C are correct" }
+            {
+              "id": "o1",
+              "text": "I don't like"
+            },
+            {
+              "id": "o2",
+              "text": "I not like"
+            },
+            {
+              "id": "o3",
+              "text": "I dislike"
+            },
+            {
+              "id": "o4",
+              "text": "A and C are correct"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -348,9 +590,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Odio'?",
           "options": [
-            { "id": "o1", "text": "I hate" },
-            { "id": "o2", "text": "I don't love" },
-            { "id": "o3", "text": "I bad like" }
+            {
+              "id": "o1",
+              "text": "I hate"
+            },
+            {
+              "id": "o2",
+              "text": "I don't love"
+            },
+            {
+              "id": "o3",
+              "text": "I bad like"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -360,9 +611,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué forma sigue a 'I like'? 'I like ___ (read).'",
           "options": [
-            { "id": "o1", "text": "reading" },
-            { "id": "o2", "text": "read" },
-            { "id": "o3", "text": "to reading" }
+            {
+              "id": "o1",
+              "text": "reading"
+            },
+            {
+              "id": "o2",
+              "text": "read"
+            },
+            {
+              "id": "o3",
+              "text": "to reading"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -372,9 +632,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Es correcto decir 'I like to read'?",
           "options": [
-            { "id": "o1", "text": "Yes, it is also correct" },
-            { "id": "o2", "text": "No, only -ing is correct" },
-            { "id": "o3", "text": "No, 'to' is never used" }
+            {
+              "id": "o1",
+              "text": "Yes, it is also correct"
+            },
+            {
+              "id": "o2",
+              "text": "No, only -ing is correct"
+            },
+            {
+              "id": "o3",
+              "text": "No, 'to' is never used"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -384,9 +653,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'No me importa'?",
           "options": [
-            { "id": "o1", "text": "I don't mind" },
-            { "id": "o2", "text": "I don't care" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "I don't mind"
+            },
+            {
+              "id": "o2",
+              "text": "I don't care"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -396,9 +674,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Me gusta mucho'?",
           "options": [
-            { "id": "o1", "text": "I like ... very much / a lot" },
-            { "id": "o2", "text": "I very like ..." },
-            { "id": "o3", "text": "I like very ..." }
+            {
+              "id": "o1",
+              "text": "I like ... very much / a lot"
+            },
+            {
+              "id": "o2",
+              "text": "I very like ..."
+            },
+            {
+              "id": "o3",
+              "text": "I like very ..."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -432,12 +719,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "playing" },
-            { "id": "w2", "text": "I" },
-            { "id": "w3", "text": "like" },
-            { "id": "w4", "text": "tennis" }
+            {
+              "id": "w1",
+              "text": "playing"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "like"
+            },
+            {
+              "id": "w4",
+              "text": "tennis"
+            }
           ],
-          "correct_answer": ["w2", "w3", "w1", "w4"],
+          "correct_answer": [
+            "w2",
+            "w3",
+            "w1",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -445,12 +749,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "movies" },
-            { "id": "w2", "text": "watching" },
-            { "id": "w3", "text": "love" },
-            { "id": "w4", "text": "She" }
+            {
+              "id": "w1",
+              "text": "movies"
+            },
+            {
+              "id": "w2",
+              "text": "watching"
+            },
+            {
+              "id": "w3",
+              "text": "love"
+            },
+            {
+              "id": "w4",
+              "text": "She"
+            }
           ],
-          "correct_answer": ["w4", "w3", "w2", "w1"],
+          "correct_answer": [
+            "w4",
+            "w3",
+            "w2",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -458,13 +779,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta:",
           "options": [
-            { "id": "w1", "text": "like" },
-            { "id": "w2", "text": "Do" },
-            { "id": "w3", "text": "swimming" },
-            { "id": "w4", "text": "you" },
-            { "id": "w5", "text": "?" }
+            {
+              "id": "w1",
+              "text": "like"
+            },
+            {
+              "id": "w2",
+              "text": "Do"
+            },
+            {
+              "id": "w3",
+              "text": "swimming"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            },
+            {
+              "id": "w5",
+              "text": "?"
+            }
           ],
-          "correct_answer": ["w2", "w4", "w1", "w3", "w5"],
+          "correct_answer": [
+            "w2",
+            "w4",
+            "w1",
+            "w3",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -472,9 +814,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices '¿Qué te gusta hacer?'?",
           "options": [
-            { "id": "o1", "text": "What do you like doing?" },
-            { "id": "o2", "text": "What do you like to do?" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "What do you like doing?"
+            },
+            {
+              "id": "o2",
+              "text": "What do you like to do?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "communication"
@@ -484,9 +835,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes 'A mí también' (frase positiva)?",
           "options": [
-            { "id": "o1", "text": "Me too" },
-            { "id": "o2", "text": "So do I" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Me too"
+            },
+            {
+              "id": "o2",
+              "text": "So do I"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "communication"
@@ -496,9 +856,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes 'A mí tampoco' (frase negativa)?",
           "options": [
-            { "id": "o1", "text": "Me neither" },
-            { "id": "o2", "text": "Neither do I" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Me neither"
+            },
+            {
+              "id": "o2",
+              "text": "Neither do I"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "communication"
@@ -524,9 +893,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se escribe el gerundio de 'Travel' (British English)?",
           "options": [
-            { "id": "o1", "text": "Travelling" },
-            { "id": "o2", "text": "Traveling" },
-            { "id": "o3", "text": "Travling" }
+            {
+              "id": "o1",
+              "text": "Travelling"
+            },
+            {
+              "id": "o2",
+              "text": "Traveling"
+            },
+            {
+              "id": "o3",
+              "text": "Travling"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -536,9 +914,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se escribe el gerundio de 'Study'?",
           "options": [
-            { "id": "o1", "text": "Studying" },
-            { "id": "o2", "text": "Studing" },
-            { "id": "o3", "text": "Studiing" }
+            {
+              "id": "o1",
+              "text": "Studying"
+            },
+            {
+              "id": "o2",
+              "text": "Studing"
+            },
+            {
+              "id": "o3",
+              "text": "Studiing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -548,9 +935,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tocar el piano'?",
           "options": [
-            { "id": "o1", "text": "Play the piano" },
-            { "id": "o2", "text": "Touch the piano" },
-            { "id": "o3", "text": "Use the piano" }
+            {
+              "id": "o1",
+              "text": "Play the piano"
+            },
+            {
+              "id": "o2",
+              "text": "Touch the piano"
+            },
+            {
+              "id": "o3",
+              "text": "Use the piano"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -560,9 +956,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'escuchar la radio'?",
           "options": [
-            { "id": "o1", "text": "Listen to the radio" },
-            { "id": "o2", "text": "Hear the radio" },
-            { "id": "o3", "text": "Watch the radio" }
+            {
+              "id": "o1",
+              "text": "Listen to the radio"
+            },
+            {
+              "id": "o2",
+              "text": "Hear the radio"
+            },
+            {
+              "id": "o3",
+              "text": "Watch the radio"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -572,9 +977,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ir a caminar'?",
           "options": [
-            { "id": "o1", "text": "Go for a walk" },
-            { "id": "o2", "text": "Walk go" },
-            { "id": "o3", "text": "Do a walk" }
+            {
+              "id": "o1",
+              "text": "Go for a walk"
+            },
+            {
+              "id": "o2",
+              "text": "Walk go"
+            },
+            {
+              "id": "o3",
+              "text": "Do a walk"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -584,9 +998,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'salir con amigos'?",
           "options": [
-            { "id": "o1", "text": "Go out with friends" },
-            { "id": "o2", "text": "Hang out with friends" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Go out with friends"
+            },
+            {
+              "id": "o2",
+              "text": "Hang out with friends"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -602,9 +1025,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'CAN'?",
           "options": [
-            { "id": "o1", "text": "Poder / Saber hacer algo" },
-            { "id": "o2", "text": "Querer" },
-            { "id": "o3", "text": "Tener" }
+            {
+              "id": "o1",
+              "text": "Poder / Saber hacer algo"
+            },
+            {
+              "id": "o2",
+              "text": "Querer"
+            },
+            {
+              "id": "o3",
+              "text": "Tener"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -614,9 +1046,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Yo puedo nadar'?",
           "options": [
-            { "id": "o1", "text": "I can swim" },
-            { "id": "o2", "text": "I can swimming" },
-            { "id": "o3", "text": "I can to swim" }
+            {
+              "id": "o1",
+              "text": "I can swim"
+            },
+            {
+              "id": "o2",
+              "text": "I can swimming"
+            },
+            {
+              "id": "o3",
+              "text": "I can to swim"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -626,9 +1067,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Ella no puede cantar'?",
           "options": [
-            { "id": "o1", "text": "She can't sing" },
-            { "id": "o2", "text": "She cannot sing" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "She can't sing"
+            },
+            {
+              "id": "o2",
+              "text": "She cannot sing"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -638,9 +1088,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Puedes bailar?'?",
           "options": [
-            { "id": "o1", "text": "Can you dance?" },
-            { "id": "o2", "text": "Do you can dance?" },
-            { "id": "o3", "text": "Can dance you?" }
+            {
+              "id": "o1",
+              "text": "Can you dance?"
+            },
+            {
+              "id": "o2",
+              "text": "Do you can dance?"
+            },
+            {
+              "id": "o3",
+              "text": "Can dance you?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -650,9 +1109,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes 'Sí, puedo'?",
           "options": [
-            { "id": "o1", "text": "Yes, I can" },
-            { "id": "o2", "text": "Yes, I do" },
-            { "id": "o3", "text": "Yes, I can do" }
+            {
+              "id": "o1",
+              "text": "Yes, I can"
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I do"
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I can do"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -662,9 +1130,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes 'No, no puedo'?",
           "options": [
-            { "id": "o1", "text": "No, I can't" },
-            { "id": "o2", "text": "No, I don't" },
-            { "id": "o3", "text": "No, I not can" }
+            {
+              "id": "o1",
+              "text": "No, I can't"
+            },
+            {
+              "id": "o2",
+              "text": "No, I don't"
+            },
+            {
+              "id": "o3",
+              "text": "No, I not can"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -674,9 +1151,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cambia 'can' con He/She/It?",
           "options": [
-            { "id": "o1", "text": "No, it's always 'can'" },
-            { "id": "o2", "text": "Yes, it becomes 'cans'" },
-            { "id": "o3", "text": "Yes, it becomes 'does can'" }
+            {
+              "id": "o1",
+              "text": "No, it's always 'can'"
+            },
+            {
+              "id": "o2",
+              "text": "Yes, it becomes 'cans'"
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it becomes 'does can'"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -710,12 +1196,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "speak" },
-            { "id": "w3", "text": "English" },
-            { "id": "w4", "text": "can" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "speak"
+            },
+            {
+              "id": "w3",
+              "text": "English"
+            },
+            {
+              "id": "w4",
+              "text": "can"
+            }
           ],
-          "correct_answer": ["w1", "w4", "w2", "w3"],
+          "correct_answer": [
+            "w1",
+            "w4",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -723,13 +1226,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "can't" },
-            { "id": "w2", "text": "He" },
-            { "id": "w3", "text": "drive" },
-            { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "car" }
+            {
+              "id": "w1",
+              "text": "can't"
+            },
+            {
+              "id": "w2",
+              "text": "He"
+            },
+            {
+              "id": "w3",
+              "text": "drive"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "car"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -737,9 +1261,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Sé hablar tres idiomas'?",
           "options": [
-            { "id": "o1", "text": "I can speak three languages" },
-            { "id": "o2", "text": "I know speak three languages" },
-            { "id": "o3", "text": "I can to speak three languages" }
+            {
+              "id": "o1",
+              "text": "I can speak three languages"
+            },
+            {
+              "id": "o2",
+              "text": "I know speak three languages"
+            },
+            {
+              "id": "o3",
+              "text": "I can to speak three languages"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -749,9 +1282,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'muy bien' con una habilidad?",
           "options": [
-            { "id": "o1", "text": "very well" },
-            { "id": "o2", "text": "very good" },
-            { "id": "o3", "text": "well very" }
+            {
+              "id": "o1",
+              "text": "very well"
+            },
+            {
+              "id": "o2",
+              "text": "very good"
+            },
+            {
+              "id": "o3",
+              "text": "well very"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -761,9 +1303,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'un poco'?",
           "options": [
-            { "id": "o1", "text": "a little bit" },
-            { "id": "o2", "text": "a few" },
-            { "id": "o3", "text": "some" }
+            {
+              "id": "o1",
+              "text": "a little bit"
+            },
+            {
+              "id": "o2",
+              "text": "a few"
+            },
+            {
+              "id": "o3",
+              "text": "some"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -773,9 +1324,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nada en absoluto'?",
           "options": [
-            { "id": "o1", "text": "at all" },
-            { "id": "o2", "text": "nothing" },
-            { "id": "o3", "text": "zero" }
+            {
+              "id": "o1",
+              "text": "at all"
+            },
+            {
+              "id": "o2",
+              "text": "nothing"
+            },
+            {
+              "id": "o3",
+              "text": "zero"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -801,9 +1361,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices '¿Sabes cocinar?'?",
           "options": [
-            { "id": "o1", "text": "Can you cook?" },
-            { "id": "o2", "text": "Do you know cook?" },
-            { "id": "o3", "text": "Both are possible (but 'can' is common for abilities)" }
+            {
+              "id": "o1",
+              "text": "Can you cook?"
+            },
+            {
+              "id": "o2",
+              "text": "Do you know cook?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are possible (but 'can' is common for abilities)"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -813,9 +1382,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'usar un ordenador'?",
           "options": [
-            { "id": "o1", "text": "Use a computer" },
-            { "id": "o2", "text": "Play a computer" },
-            { "id": "o3", "text": "Work a computer" }
+            {
+              "id": "o1",
+              "text": "Use a computer"
+            },
+            {
+              "id": "o2",
+              "text": "Play a computer"
+            },
+            {
+              "id": "o3",
+              "text": "Work a computer"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -825,9 +1403,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'conducir'?",
           "options": [
-            { "id": "o1", "text": "Drive" },
-            { "id": "o2", "text": "Ride" },
-            { "id": "o3", "text": "Guide" }
+            {
+              "id": "o1",
+              "text": "Drive"
+            },
+            {
+              "id": "o2",
+              "text": "Ride"
+            },
+            {
+              "id": "o3",
+              "text": "Guide"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -837,9 +1424,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tocar un instrumento'?",
           "options": [
-            { "id": "o1", "text": "Play an instrument" },
-            { "id": "o2", "text": "Touch an instrument" },
-            { "id": "o3", "text": "Sing an instrument" }
+            {
+              "id": "o1",
+              "text": "Play an instrument"
+            },
+            {
+              "id": "o2",
+              "text": "Touch an instrument"
+            },
+            {
+              "id": "o3",
+              "text": "Sing an instrument"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -849,11 +1445,27 @@
           "type": "matching",
           "prompt_es": "Une las habilidades:",
           "pairs": [
-            { "id": "p1", "left": "Speak Spanish", "right": "Hablar español" },
-            { "id": "p2", "left": "Swim fast", "right": "Nadar rápido" },
-            { "id": "p3", "left": "Ride a horse", "right": "Montar a caballo" }
+            {
+              "id": "p1",
+              "left": "Speak Spanish",
+              "right": "Hablar español"
+            },
+            {
+              "id": "p2",
+              "left": "Swim fast",
+              "right": "Nadar rápido"
+            },
+            {
+              "id": "p3",
+              "left": "Ride a horse",
+              "right": "Montar a caballo"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -861,9 +1473,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reparar cosas'?",
           "options": [
-            { "id": "o1", "text": "Fix things / Repair things" },
-            { "id": "o2", "text": "Do things" },
-            { "id": "o3", "text": "Make things" }
+            {
+              "id": "o1",
+              "text": "Fix things / Repair things"
+            },
+            {
+              "id": "o2",
+              "text": "Do things"
+            },
+            {
+              "id": "o3",
+              "text": "Make things"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -873,9 +1494,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'escribir correos'?",
           "options": [
-            { "id": "o1", "text": "Write emails" },
-            { "id": "o2", "text": "Draw emails" },
-            { "id": "o3", "text": "Play emails" }
+            {
+              "id": "o1",
+              "text": "Write emails"
+            },
+            {
+              "id": "o2",
+              "text": "Draw emails"
+            },
+            {
+              "id": "o3",
+              "text": "Play emails"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -890,29 +1520,128 @@
           "interaction_id": "U8_I76",
           "type": "word-search",
           "prompt_es": "Encuentra aficiones:",
-          "words": ["SWIM", "READ", "SING", "COOK", "DRAW", "PAINT", "DANCE", "SKI"],
+          "words": [
+            "SWIM",
+            "READ",
+            "SING",
+            "COOK",
+            "DRAW",
+            "PAINT",
+            "DANCE",
+            "SKI"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "SWIM", "clue": "Nadar" },
-            { "word": "READ", "clue": "Leer" },
-            { "word": "SING", "clue": "Cantar" },
-            { "word": "COOK", "clue": "Cocinar" },
-            { "word": "DRAW", "clue": "Dibujar" },
-            { "word": "PAINT", "clue": "Pintar" },
-            { "word": "DANCE", "clue": "Bailar" },
-            { "word": "SKI", "clue": "Esquiar" }
+            {
+              "word": "SWIM",
+              "clue": "Nadar"
+            },
+            {
+              "word": "READ",
+              "clue": "Leer"
+            },
+            {
+              "word": "SING",
+              "clue": "Cantar"
+            },
+            {
+              "word": "COOK",
+              "clue": "Cocinar"
+            },
+            {
+              "word": "DRAW",
+              "clue": "Dibujar"
+            },
+            {
+              "word": "PAINT",
+              "clue": "Pintar"
+            },
+            {
+              "word": "DANCE",
+              "clue": "Bailar"
+            },
+            {
+              "word": "SKI",
+              "clue": "Esquiar"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de tiempo libre:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "LOVE", "clue": "More than like", "direction": "across", "row": 0, "col": 0 },
-            { "word": "PLAY", "clue": "To ___ football", "direction": "down", "row": 0, "col": 0 },
-            { "word": "CAN", "clue": "Ability", "direction": "across", "row": 2, "col": 0 },
-            { "word": "HATE", "clue": "Don't like at all", "direction": "down", "row": 0, "col": 3 }
+            {
+              "word": "EXHIBITION",
+              "clue": "Traducción de: exposición",
+              "direction": "across",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "COOKING",
+              "clue": "Traducción de: Cocina",
+              "direction": "down",
+              "row": 5,
+              "col": 14
+            },
+            {
+              "word": "TRAVEL",
+              "clue": "Traducción de: viajar",
+              "direction": "down",
+              "row": 6,
+              "col": 5
+            },
+            {
+              "word": "WATCH",
+              "clue": "Traducción de: TV",
+              "direction": "across",
+              "row": 5,
+              "col": 11
+            },
+            {
+              "word": "SING",
+              "clue": "Traducción de: cantar",
+              "direction": "down",
+              "row": 9,
+              "col": 8
+            },
+            {
+              "word": "PLAY",
+              "clue": "Traducción de: Tennis",
+              "direction": "down",
+              "row": 3,
+              "col": 12
+            },
+            {
+              "word": "SWIM",
+              "clue": "Traducción de: nadar",
+              "direction": "down",
+              "row": 8,
+              "col": 10
+            },
+            {
+              "word": "COOK",
+              "clue": "Traducción de: cocinar",
+              "direction": "across",
+              "row": 7,
+              "col": 13
+            },
+            {
+              "word": "READ",
+              "clue": "Traducción de: leer",
+              "direction": "across",
+              "row": 8,
+              "col": 3
+            },
+            {
+              "word": "SKI",
+              "clue": "Traducción de: esquiar",
+              "direction": "down",
+              "row": 6,
+              "col": 16
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -921,11 +1650,27 @@
           "type": "matching",
           "prompt_es": "Une los deportes con sus lugares:",
           "pairs": [
-            { "id": "p1", "left": "Swimming", "right": "Pool" },
-            { "id": "p2", "left": "Football", "right": "Pitch / Field" },
-            { "id": "p3", "left": "Tennis", "right": "Court" }
+            {
+              "id": "p1",
+              "left": "Swimming",
+              "right": "Pool"
+            },
+            {
+              "id": "p2",
+              "left": "Football",
+              "right": "Pitch / Field"
+            },
+            {
+              "id": "p3",
+              "left": "Tennis",
+              "right": "Court"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -933,9 +1678,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'piscina'?",
           "options": [
-            { "id": "o1", "text": "Swimming pool" },
-            { "id": "o2", "text": "Swim lake" },
-            { "id": "o3", "text": "Water box" }
+            {
+              "id": "o1",
+              "text": "Swimming pool"
+            },
+            {
+              "id": "o2",
+              "text": "Swim lake"
+            },
+            {
+              "id": "o3",
+              "text": "Water box"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -945,9 +1699,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cine'?",
           "options": [
-            { "id": "o1", "text": "Cinema / Movie theater" },
-            { "id": "o2", "text": "Film house" },
-            { "id": "o3", "text": "Watch place" }
+            {
+              "id": "o1",
+              "text": "Cinema / Movie theater"
+            },
+            {
+              "id": "o2",
+              "text": "Film house"
+            },
+            {
+              "id": "o3",
+              "text": "Watch place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -957,9 +1720,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'teatro'?",
           "options": [
-            { "id": "o1", "text": "Theatre" },
-            { "id": "o2", "text": "Drama place" },
-            { "id": "o3", "text": "Stage house" }
+            {
+              "id": "o1",
+              "text": "Theatre"
+            },
+            {
+              "id": "o2",
+              "text": "Drama place"
+            },
+            {
+              "id": "o3",
+              "text": "Stage house"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -969,10 +1741,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'concierto'?",
           "options": [
-            { "id": "o1", "text": "Concert" },
-            { "id": "o2", "text": "Music show" },
-            { "id": "o3", "text": "Gig" },
-            { "id": "o4", "text": "All of them are used" }
+            {
+              "id": "o1",
+              "text": "Concert"
+            },
+            {
+              "id": "o2",
+              "text": "Music show"
+            },
+            {
+              "id": "o3",
+              "text": "Gig"
+            },
+            {
+              "id": "o4",
+              "text": "All of them are used"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -982,9 +1766,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'museo'?",
           "options": [
-            { "id": "o1", "text": "Museum" },
-            { "id": "o2", "text": "Art place" },
-            { "id": "o3", "text": "Old things house" }
+            {
+              "id": "o1",
+              "text": "Museum"
+            },
+            {
+              "id": "o2",
+              "text": "Art place"
+            },
+            {
+              "id": "o3",
+              "text": "Old things house"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -994,9 +1787,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'exposición'?",
           "options": [
-            { "id": "o1", "text": "Exhibition" },
-            { "id": "o2", "text": "Exposure" },
-            { "id": "o3", "text": "Gallery" }
+            {
+              "id": "o1",
+              "text": "Exhibition"
+            },
+            {
+              "id": "o2",
+              "text": "Exposure"
+            },
+            {
+              "id": "o3",
+              "text": "Gallery"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1006,9 +1808,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'parque'?",
           "options": [
-            { "id": "o1", "text": "Park" },
-            { "id": "o2", "text": "Garden" },
-            { "id": "o3", "text": "Square" }
+            {
+              "id": "o1",
+              "text": "Park"
+            },
+            {
+              "id": "o2",
+              "text": "Garden"
+            },
+            {
+              "id": "o3",
+              "text": "Square"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1018,9 +1829,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'playa'?",
           "options": [
-            { "id": "o1", "text": "Beach" },
-            { "id": "o2", "text": "Sand" },
-            { "id": "o3", "text": "Sea" }
+            {
+              "id": "o1",
+              "text": "Beach"
+            },
+            {
+              "id": "o2",
+              "text": "Sand"
+            },
+            {
+              "id": "o3",
+              "text": "Sea"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1030,9 +1850,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'montaña'?",
           "options": [
-            { "id": "o1", "text": "Mountain" },
-            { "id": "o2", "text": "Hill" },
-            { "id": "o3", "text": "Rock" }
+            {
+              "id": "o1",
+              "text": "Mountain"
+            },
+            {
+              "id": "o2",
+              "text": "Hill"
+            },
+            {
+              "id": "o3",
+              "text": "Rock"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1042,9 +1871,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ocio'?",
           "options": [
-            { "id": "o1", "text": "Leisure" },
-            { "id": "o2", "text": "Relax" },
-            { "id": "o3", "text": "Fun" }
+            {
+              "id": "o1",
+              "text": "Leisure"
+            },
+            {
+              "id": "o2",
+              "text": "Relax"
+            },
+            {
+              "id": "o3",
+              "text": "Fun"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1054,9 +1892,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pasatiempo'?",
           "options": [
-            { "id": "o1", "text": "Pastime / Hobby" },
-            { "id": "o2", "text": "Timepass" },
-            { "id": "o3", "text": "Passing time" }
+            {
+              "id": "o1",
+              "text": "Pastime / Hobby"
+            },
+            {
+              "id": "o2",
+              "text": "Timepass"
+            },
+            {
+              "id": "o3",
+              "text": "Passing time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1090,9 +1937,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es correcto?",
           "options": [
-            { "id": "o1", "text": "She loves reading books." },
-            { "id": "o2", "text": "She loves read books." },
-            { "id": "o3", "text": "She loves for reading books." }
+            {
+              "id": "o1",
+              "text": "She loves reading books."
+            },
+            {
+              "id": "o2",
+              "text": "She loves read books."
+            },
+            {
+              "id": "o3",
+              "text": "She loves for reading books."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1102,9 +1958,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es correcto?",
           "options": [
-            { "id": "o1", "text": "Can you help me?" },
-            { "id": "o2", "text": "Do you can help me?" },
-            { "id": "o3", "text": "Are you can help me?" }
+            {
+              "id": "o1",
+              "text": "Can you help me?"
+            },
+            {
+              "id": "o2",
+              "text": "Do you can help me?"
+            },
+            {
+              "id": "o3",
+              "text": "Are you can help me?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1114,9 +1979,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Me gusta viajar solo'?",
           "options": [
-            { "id": "o1", "text": "I like travelling alone" },
-            { "id": "o2", "text": "I like travel alone" },
-            { "id": "o3", "text": "I like travels alone" }
+            {
+              "id": "o1",
+              "text": "I like travelling alone"
+            },
+            {
+              "id": "o2",
+              "text": "I like travel alone"
+            },
+            {
+              "id": "o3",
+              "text": "I like travels alone"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1126,9 +2000,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Tienes alguna afición?'?",
           "options": [
-            { "id": "o1", "text": "Do you have any hobbies?" },
-            { "id": "o2", "text": "Have you any hobbies?" },
-            { "id": "o3", "text": "Are you have hobbies?" }
+            {
+              "id": "o1",
+              "text": "Do you have any hobbies?"
+            },
+            {
+              "id": "o2",
+              "text": "Have you any hobbies?"
+            },
+            {
+              "id": "o3",
+              "text": "Are you have hobbies?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1138,9 +2021,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿En qué eres bueno?'?",
           "options": [
-            { "id": "o1", "text": "What are you good at?" },
-            { "id": "o2", "text": "What are you good in?" },
-            { "id": "o3", "text": "In what are you good?" }
+            {
+              "id": "o1",
+              "text": "What are you good at?"
+            },
+            {
+              "id": "o2",
+              "text": "What are you good in?"
+            },
+            {
+              "id": "o3",
+              "text": "In what are you good?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1150,9 +2042,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes 'Soy bueno cocinando'?",
           "options": [
-            { "id": "o1", "text": "I'm good at cooking" },
-            { "id": "o2", "text": "I'm good in cooking" },
-            { "id": "o3", "text": "I good at cook" }
+            {
+              "id": "o1",
+              "text": "I'm good at cooking"
+            },
+            {
+              "id": "o2",
+              "text": "I'm good in cooking"
+            },
+            {
+              "id": "o3",
+              "text": "I good at cook"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1162,9 +2063,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'No soy muy bueno en deportes'?",
           "options": [
-            { "id": "o1", "text": "I'm not very good at sports" },
-            { "id": "o2", "text": "I'm bad in sports" },
-            { "id": "o3", "text": "I no good at sports" }
+            {
+              "id": "o1",
+              "text": "I'm not very good at sports"
+            },
+            {
+              "id": "o2",
+              "text": "I'm bad in sports"
+            },
+            {
+              "id": "o3",
+              "text": "I no good at sports"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1174,9 +2084,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'What's your favorite hobby?'?",
           "options": [
-            { "id": "o1", "text": "¿Cuál es tu afición favorita?" },
-            { "id": "o2", "text": "¿Qué te gusta hacer?" },
-            { "id": "o3", "text": "¿Tienes tiempo libre?" }
+            {
+              "id": "o1",
+              "text": "¿Cuál es tu afición favorita?"
+            },
+            {
+              "id": "o2",
+              "text": "¿Qué te gusta hacer?"
+            },
+            {
+              "id": "o3",
+              "text": "¿Tienes tiempo libre?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"

@@ -1564,7 +1564,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         </div>
       </header>
 
-      <main className="flex-1 flex flex-col items-center py-12 md:py-20 overflow-y-auto bg-slate-50/30">
+      <main className="flex-1 flex flex-col items-center py-4 md:py-8 overflow-y-auto bg-slate-50/30">
         <AnimatePresence mode="wait">
           <motion.div
             key={`${currentIndex}-${interactionIndex}-${isRepairing}-${showInteraction}-${currentSceneIndex}`}
@@ -1590,29 +1590,29 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               exit={{ y: "100%" }}
-              className={`fixed bottom-0 left-0 right-0 border-t-[6px] z-50 ${
+              className={`fixed bottom-0 left-0 right-0 border-t-[4px] z-50 ${
                 feedback.correct ? 'bg-[#d7ffb8] border-[#a5db5e]' : 'bg-[#ffdfe0] border-[#ee9b9e]'
               }`}
             >
-              <div className="max-w-4xl mx-auto px-8 py-10 flex flex-col md:flex-row items-center justify-between gap-8">
-                <div className="flex items-start gap-6">
-                  <div className={`w-20 h-20 rounded-full flex items-center justify-center shadow-xl ${
+              <div className="max-w-4xl mx-auto px-6 py-4 md:py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+                <div className="flex items-center gap-4">
+                  <div className={`w-12 h-12 rounded-full flex items-center justify-center shadow-lg ${
                     feedback.correct ? 'bg-white text-green-500' : 'bg-white text-red-500'
                   }`}>
-                    {feedback.correct ? <CheckCircle2 className="w-12 h-12" /> : <AlertCircle className="w-12 h-12" />}
+                    {feedback.correct ? <CheckCircle2 className="w-8 h-8" /> : <AlertCircle className="w-8 h-8" />}
                   </div>
-                  <div className="space-y-2">
-                    <h3 className={`text-3xl font-black ${feedback.correct ? 'text-[#4b7e02]' : 'text-[#ea2b2b]'}`}>
+                  <div className="space-y-0.5">
+                    <h3 className={`text-xl font-black ${feedback.correct ? 'text-[#4b7e02]' : 'text-[#ea2b2b]'}`}>
                       {feedback.correct ? '¡Increíble!' : ((failCount[id] || 0) >= 3 ? 'La solución es:' : '¡Uy! Casi...')}
                     </h3>
-                    <p className={`text-xl font-bold whitespace-pre-line ${feedback.correct ? 'text-[#4b7e02]/80' : 'text-[#ea2b2b]/80'}`}>
+                    <p className={`text-base font-bold whitespace-pre-line ${feedback.correct ? 'text-[#4b7e02]/80' : 'text-[#ea2b2b]/80'}`}>
                       {feedback.message}
                     </p>
                   </div>
                 </div>
                 <Button 
                   onClick={handleFeedbackContinue}
-                  className={`w-full md:w-auto px-16 py-8 rounded-[2rem] font-black text-2xl border-b-8 active:translate-y-1 transition-all ${
+                  className={`w-full md:w-auto px-10 py-4 rounded-2xl font-black text-xl border-b-4 active:translate-y-0.5 transition-all ${
                     feedback.correct ? 'bg-[#58cc02] hover:bg-[#46a302] border-[#4b7e02] text-white' : 'bg-[#ff4b4b] hover:bg-[#d33131] border-[#ea2b2b] text-white'
                   }`}
                 >
@@ -1624,11 +1624,11 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         })()}
       </AnimatePresence>
 
-      <footer className={`p-8 md:p-12 border-t-2 border-slate-100 bg-white ${feedback || currentItem?.type === 'transition' ? 'invisible' : ''}`}>
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between gap-6">
+      <footer className={`p-4 md:p-6 border-t-2 border-slate-100 bg-white ${feedback || currentItem?.type === 'transition' ? 'hidden' : ''}`}>
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between gap-4">
           <Button 
             variant="outline" 
-            className="text-slate-400 font-black text-xl hover:text-slate-600 px-8 h-16 rounded-2xl"
+            className="text-slate-400 font-black text-lg hover:text-slate-600 px-6 h-12 rounded-xl"
             onClick={onExit}
           >
             SALIR
@@ -1636,7 +1636,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
           {isVideoMode && !showInteraction ? (
             <Button 
-              className="bg-indigo-600 hover:bg-indigo-700 border-b-8 border-indigo-800 font-black px-16 h-20 rounded-3xl text-2xl text-white shadow-xl active:translate-y-1 transition-all"
+              className="bg-indigo-600 hover:bg-indigo-700 border-b-4 border-indigo-800 font-black px-12 h-14 rounded-2xl text-xl text-white shadow-lg active:translate-y-0.5 transition-all"
               onClick={handleNext}
             >
               SIGUIENTE ESCENA
@@ -1667,7 +1667,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 }
                 return false;
               })()}
-              className="bg-[#58cc02] hover:bg-[#46a302] disabled:bg-slate-100 disabled:text-slate-300 disabled:border-slate-200 border-b-8 border-[#4b7e02] font-black px-16 h-20 rounded-3xl text-2xl text-white shadow-xl active:translate-y-1 transition-all"
+              className="bg-[#58cc02] hover:bg-[#46a302] disabled:bg-slate-100 disabled:text-slate-300 disabled:border-slate-200 border-b-4 border-[#4b7e02] font-black px-12 h-14 rounded-2xl text-xl text-white shadow-lg active:translate-y-0.5 transition-all"
               onClick={() => {
                 const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
                 if (!interaction) return;

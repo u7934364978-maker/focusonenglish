@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'banco'?",
           "options": [
-            { "id": "o1", "text": "Bank" },
-            { "id": "o2", "text": "Bench" },
-            { "id": "o3", "text": "Store" }
+            {
+              "id": "o1",
+              "text": "Bank"
+            },
+            {
+              "id": "o2",
+              "text": "Bench"
+            },
+            {
+              "id": "o3",
+              "text": "Store"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cuenta bancaria'?",
           "options": [
-            { "id": "o1", "text": "Bank account" },
-            { "id": "o2", "text": "Bank bill" },
-            { "id": "o3", "text": "Money place" }
+            {
+              "id": "o1",
+              "text": "Bank account"
+            },
+            {
+              "id": "o2",
+              "text": "Bank bill"
+            },
+            {
+              "id": "o3",
+              "text": "Money place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dinero en efectivo'?",
           "options": [
-            { "id": "o1", "text": "Cash" },
-            { "id": "o2", "text": "Money" },
-            { "id": "o3", "text": "Paper" }
+            {
+              "id": "o1",
+              "text": "Cash"
+            },
+            {
+              "id": "o2",
+              "text": "Money"
+            },
+            {
+              "id": "o3",
+              "text": "Paper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tarjeta de crédito'?",
           "options": [
-            { "id": "o1", "text": "Credit card" },
-            { "id": "o2", "text": "Plastic money" },
-            { "id": "o3", "text": "Bank card" }
+            {
+              "id": "o1",
+              "text": "Credit card"
+            },
+            {
+              "id": "o2",
+              "text": "Plastic money"
+            },
+            {
+              "id": "o3",
+              "text": "Bank card"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cajero automático'?",
           "options": [
-            { "id": "o1", "text": "ATM / Cash machine" },
-            { "id": "o2", "text": "Money robot" },
-            { "id": "o3", "text": "Bank box" }
+            {
+              "id": "o1",
+              "text": "ATM / Cash machine"
+            },
+            {
+              "id": "o2",
+              "text": "Money robot"
+            },
+            {
+              "id": "o3",
+              "text": "Bank box"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ahorrar'?",
           "options": [
-            { "id": "o1", "text": "To save" },
-            { "id": "o2", "text": "To keep" },
-            { "id": "o3", "text": "To hold" }
+            {
+              "id": "o1",
+              "text": "To save"
+            },
+            {
+              "id": "o2",
+              "text": "To keep"
+            },
+            {
+              "id": "o3",
+              "text": "To hold"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gastar'?",
           "options": [
-            { "id": "o1", "text": "To spend" },
-            { "id": "o2", "text": "To pay" },
-            { "id": "o3", "text": "To use" }
+            {
+              "id": "o1",
+              "text": "To spend"
+            },
+            {
+              "id": "o2",
+              "text": "To pay"
+            },
+            {
+              "id": "o3",
+              "text": "To use"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pagar'?",
           "options": [
-            { "id": "o1", "text": "To pay" },
-            { "id": "o2", "text": "To give money" },
-            { "id": "o3", "text": "To buy" }
+            {
+              "id": "o1",
+              "text": "To pay"
+            },
+            {
+              "id": "o2",
+              "text": "To give money"
+            },
+            {
+              "id": "o3",
+              "text": "To buy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'préstamo'?",
           "options": [
-            { "id": "o1", "text": "Loan" },
-            { "id": "o2", "text": "Debt" },
-            { "id": "o3", "text": "Give back" }
+            {
+              "id": "o1",
+              "text": "Loan"
+            },
+            {
+              "id": "o2",
+              "text": "Debt"
+            },
+            {
+              "id": "o3",
+              "text": "Give back"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'interés'?",
           "options": [
-            { "id": "o1", "text": "Interest" },
-            { "id": "o2", "text": "Extra" },
-            { "id": "o3", "text": "Bank price" }
+            {
+              "id": "o1",
+              "text": "Interest"
+            },
+            {
+              "id": "o2",
+              "text": "Extra"
+            },
+            {
+              "id": "o3",
+              "text": "Bank price"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,15 +227,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Necesito abrir una cuenta bancaria'",
           "options": [
-            { "id": "w1", "text": "account" },
-            { "id": "w2", "text": "to" },
-            { "id": "w3", "text": "need" },
-            { "id": "w4", "text": "bank" },
-            { "id": "w5", "text": "a" },
-            { "id": "w6", "text": "I" },
-            { "id": "w7", "text": "open" }
+            {
+              "id": "w1",
+              "text": "account"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "need"
+            },
+            {
+              "id": "w4",
+              "text": "bank"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "I"
+            },
+            {
+              "id": "w7",
+              "text": "open"
+            }
           ],
-          "correct_answer": ["w6", "w3", "w2", "w7", "w5", "w4", "w1"],
+          "correct_answer": [
+            "w6",
+            "w3",
+            "w2",
+            "w7",
+            "w5",
+            "w4",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -153,13 +272,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Dónde está el cajero más cercano?'",
           "options": [
-            { "id": "w1", "text": "ATM?" },
-            { "id": "w2", "text": "the" },
-            { "id": "w3", "text": "Where" },
-            { "id": "w4", "text": "nearest" },
-            { "id": "w5", "text": "is" }
+            {
+              "id": "w1",
+              "text": "ATM?"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "Where"
+            },
+            {
+              "id": "w4",
+              "text": "nearest"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            }
           ],
-          "correct_answer": ["w3", "w5", "w2", "w4", "w1"],
+          "correct_answer": [
+            "w3",
+            "w5",
+            "w2",
+            "w4",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -183,9 +323,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'transferencia bancaria'?",
           "options": [
-            { "id": "o1", "text": "Bank transfer" },
-            { "id": "o2", "text": "Money move" },
-            { "id": "o3", "text": "Send bank" }
+            {
+              "id": "o1",
+              "text": "Bank transfer"
+            },
+            {
+              "id": "o2",
+              "text": "Money move"
+            },
+            {
+              "id": "o3",
+              "text": "Send bank"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -195,9 +344,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'recibo / comprobante'?",
           "options": [
-            { "id": "o1", "text": "Receipt" },
-            { "id": "o2", "text": "Ticket" },
-            { "id": "o3", "text": "Paper" }
+            {
+              "id": "o1",
+              "text": "Receipt"
+            },
+            {
+              "id": "o2",
+              "text": "Ticket"
+            },
+            {
+              "id": "o3",
+              "text": "Paper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -207,9 +365,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'saldo'?",
           "options": [
-            { "id": "o1", "text": "Balance" },
-            { "id": "o2", "text": "Total" },
-            { "id": "o3", "text": "Rest" }
+            {
+              "id": "o1",
+              "text": "Balance"
+            },
+            {
+              "id": "o2",
+              "text": "Total"
+            },
+            {
+              "id": "o3",
+              "text": "Rest"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -219,9 +386,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'moneda' (divisa)?",
           "options": [
-            { "id": "o1", "text": "Currency" },
-            { "id": "o2", "text": "Coin" },
-            { "id": "o3", "text": "Money type" }
+            {
+              "id": "o1",
+              "text": "Currency"
+            },
+            {
+              "id": "o2",
+              "text": "Coin"
+            },
+            {
+              "id": "o3",
+              "text": "Money type"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -231,9 +407,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cambio de moneda'?",
           "options": [
-            { "id": "o1", "text": "Currency exchange" },
-            { "id": "o2", "text": "Money switch" },
-            { "id": "o3", "text": "Bank change" }
+            {
+              "id": "o1",
+              "text": "Currency exchange"
+            },
+            {
+              "id": "o2",
+              "text": "Money switch"
+            },
+            {
+              "id": "o3",
+              "text": "Bank change"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -243,9 +428,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'comisión'?",
           "options": [
-            { "id": "o1", "text": "Fee" },
-            { "id": "o2", "text": "Tax" },
-            { "id": "o3", "text": "Payment" }
+            {
+              "id": "o1",
+              "text": "Fee"
+            },
+            {
+              "id": "o2",
+              "text": "Tax"
+            },
+            {
+              "id": "o3",
+              "text": "Payment"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -255,13 +449,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuál es mi saldo actual?'",
           "options": [
-            { "id": "w1", "text": "current" },
-            { "id": "w2", "text": "balance?" },
-            { "id": "w3", "text": "What" },
-            { "id": "w4", "text": "is" },
-            { "id": "w5", "text": "my" }
+            {
+              "id": "w1",
+              "text": "current"
+            },
+            {
+              "id": "w2",
+              "text": "balance?"
+            },
+            {
+              "id": "w3",
+              "text": "What"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "my"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w5", "w1", "w2"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w5",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -269,14 +484,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Quiero hacer una transferencia'",
           "options": [
-            { "id": "w1", "text": "transfer" },
-            { "id": "w2", "text": "to" },
-            { "id": "w3", "text": "make" },
-            { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "I" },
-            { "id": "w6", "text": "want" }
+            {
+              "id": "w1",
+              "text": "transfer"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "make"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "want"
+            }
           ],
-          "correct_answer": ["w5", "w6", "w2", "w3", "w4", "w1"],
+          "correct_answer": [
+            "w5",
+            "w6",
+            "w2",
+            "w3",
+            "w4",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -300,11 +540,27 @@
           "type": "matching",
           "prompt_es": "Une los términos bancarios:",
           "pairs": [
-            { "id": "p1", "left": "ATM", "right": "Cajero" },
-            { "id": "p2", "left": "Fee", "right": "Comisión" },
-            { "id": "p3", "left": "Loan", "right": "Préstamo" }
+            {
+              "id": "p1",
+              "left": "ATM",
+              "right": "Cajero"
+            },
+            {
+              "id": "p2",
+              "left": "Fee",
+              "right": "Comisión"
+            },
+            {
+              "id": "p3",
+              "left": "Loan",
+              "right": "Préstamo"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         }
       ]
@@ -318,9 +574,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedo pagar con tarjeta?'?",
           "options": [
-            { "id": "o1", "text": "Can I pay by card?" },
-            { "id": "o2", "text": "I pay with card?" },
-            { "id": "o3", "text": "Can I give card?" }
+            {
+              "id": "o1",
+              "text": "Can I pay by card?"
+            },
+            {
+              "id": "o2",
+              "text": "I pay with card?"
+            },
+            {
+              "id": "o3",
+              "text": "Can I give card?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -330,9 +595,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Dónde firmo?'?",
           "options": [
-            { "id": "o1", "text": "Where do I sign?" },
-            { "id": "o2", "text": "Where I write?" },
-            { "id": "o3", "text": "Which sign?" }
+            {
+              "id": "o1",
+              "text": "Where do I sign?"
+            },
+            {
+              "id": "o2",
+              "text": "Where I write?"
+            },
+            {
+              "id": "o3",
+              "text": "Which sign?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -342,9 +616,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'introducir el PIN'?",
           "options": [
-            { "id": "o1", "text": "To enter the PIN" },
-            { "id": "o2", "text": "To write numbers" },
-            { "id": "o3", "text": "To put code" }
+            {
+              "id": "o1",
+              "text": "To enter the PIN"
+            },
+            {
+              "id": "o2",
+              "text": "To write numbers"
+            },
+            {
+              "id": "o3",
+              "text": "To put code"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -354,9 +637,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'retirar dinero'?",
           "options": [
-            { "id": "o1", "text": "To withdraw money" },
-            { "id": "o2", "text": "To take money" },
-            { "id": "o3", "text": "To pull out cash" }
+            {
+              "id": "o1",
+              "text": "To withdraw money"
+            },
+            {
+              "id": "o2",
+              "text": "To take money"
+            },
+            {
+              "id": "o3",
+              "text": "To pull out cash"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -366,9 +658,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ingresar / depositar dinero'?",
           "options": [
-            { "id": "o1", "text": "To deposit money" },
-            { "id": "o2", "text": "To put money in" },
-            { "id": "o3", "text": "To save cash" }
+            {
+              "id": "o1",
+              "text": "To deposit money"
+            },
+            {
+              "id": "o2",
+              "text": "To put money in"
+            },
+            {
+              "id": "o3",
+              "text": "To save cash"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -378,9 +679,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Hay algún cargo extra?'?",
           "options": [
-            { "id": "o1", "text": "Is there any extra charge?" },
-            { "id": "o2", "text": "Is extra money?" },
-            { "id": "o3", "text": "Have more price?" }
+            {
+              "id": "o1",
+              "text": "Is there any extra charge?"
+            },
+            {
+              "id": "o2",
+              "text": "Is extra money?"
+            },
+            {
+              "id": "o3",
+              "text": "Have more price?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -390,9 +700,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tipo de cambio'?",
           "options": [
-            { "id": "o1", "text": "Exchange rate" },
-            { "id": "o2", "text": "Change price" },
-            { "id": "o3", "text": "Money level" }
+            {
+              "id": "o1",
+              "text": "Exchange rate"
+            },
+            {
+              "id": "o2",
+              "text": "Change price"
+            },
+            {
+              "id": "o3",
+              "text": "Money level"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -402,15 +721,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Me gustaría retirar 50 libras'",
           "options": [
-            { "id": "w1", "text": "pounds" },
-            { "id": "w2", "text": "to" },
-            { "id": "w3", "text": "withdraw" },
-            { "id": "w4", "text": "50" },
-            { "id": "w5", "text": "I" },
-            { "id": "w6", "text": "like" },
-            { "id": "w7", "text": "would" }
+            {
+              "id": "w1",
+              "text": "pounds"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "withdraw"
+            },
+            {
+              "id": "w4",
+              "text": "50"
+            },
+            {
+              "id": "w5",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "like"
+            },
+            {
+              "id": "w7",
+              "text": "would"
+            }
           ],
-          "correct_answer": ["w5", "w7", "w6", "w2", "w3", "w4", "w1"],
+          "correct_answer": [
+            "w5",
+            "w7",
+            "w6",
+            "w2",
+            "w3",
+            "w4",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -418,13 +766,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Aceptan tarjetas de crédito?'",
           "options": [
-            { "id": "w1", "text": "credit" },
-            { "id": "w2", "text": "cards?" },
-            { "id": "w3", "text": "Do" },
-            { "id": "w4", "text": "you" },
-            { "id": "w5", "text": "accept" }
+            {
+              "id": "w1",
+              "text": "credit"
+            },
+            {
+              "id": "w2",
+              "text": "cards?"
+            },
+            {
+              "id": "w3",
+              "text": "Do"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            },
+            {
+              "id": "w5",
+              "text": "accept"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w5", "w1", "w2"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w5",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -448,9 +817,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'monedas' (físicas)?",
           "options": [
-            { "id": "o1", "text": "Coins" },
-            { "id": "o2", "text": "Notes" },
-            { "id": "o3", "text": "Bills" }
+            {
+              "id": "o1",
+              "text": "Coins"
+            },
+            {
+              "id": "o2",
+              "text": "Notes"
+            },
+            {
+              "id": "o3",
+              "text": "Bills"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -460,9 +838,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'billetes'?",
           "options": [
-            { "id": "o1", "text": "Notes / Bills" },
-            { "id": "o2", "text": "Coins" },
-            { "id": "o3", "text": "Papers" }
+            {
+              "id": "o1",
+              "text": "Notes / Bills"
+            },
+            {
+              "id": "o2",
+              "text": "Coins"
+            },
+            {
+              "id": "o3",
+              "text": "Papers"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -472,9 +859,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cheque'?",
           "options": [
-            { "id": "o1", "text": "Check / Cheque" },
-            { "id": "o2", "text": "Bill" },
-            { "id": "o3", "text": "Note" }
+            {
+              "id": "o1",
+              "text": "Check / Cheque"
+            },
+            {
+              "id": "o2",
+              "text": "Bill"
+            },
+            {
+              "id": "o3",
+              "text": "Note"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -484,9 +880,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cartera / billetera'?",
           "options": [
-            { "id": "o1", "text": "Wallet" },
-            { "id": "o2", "text": "Bag" },
-            { "id": "o3", "text": "Case" }
+            {
+              "id": "o1",
+              "text": "Wallet"
+            },
+            {
+              "id": "o2",
+              "text": "Bag"
+            },
+            {
+              "id": "o3",
+              "text": "Case"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -496,9 +901,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'monedero'?",
           "options": [
-            { "id": "o1", "text": "Purse" },
-            { "id": "o2", "text": "Wallet" },
-            { "id": "o3", "text": "Pocket" }
+            {
+              "id": "o1",
+              "text": "Purse"
+            },
+            {
+              "id": "o2",
+              "text": "Wallet"
+            },
+            {
+              "id": "o3",
+              "text": "Pocket"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -508,9 +922,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'seguro' (de banco)?",
           "options": [
-            { "id": "o1", "text": "Insurance" },
-            { "id": "o2", "text": "Security" },
-            { "id": "o3", "text": "Safe" }
+            {
+              "id": "o1",
+              "text": "Insurance"
+            },
+            {
+              "id": "o2",
+              "text": "Security"
+            },
+            {
+              "id": "o3",
+              "text": "Safe"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -520,9 +943,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿A cuánto está el dólar?'?",
           "options": [
-            { "id": "o1", "text": "What is the exchange rate for the dollar?" },
-            { "id": "o2", "text": "How many dollar price?" },
-            { "id": "o3", "text": "What dollar change?" }
+            {
+              "id": "o1",
+              "text": "What is the exchange rate for the dollar?"
+            },
+            {
+              "id": "o2",
+              "text": "How many dollar price?"
+            },
+            {
+              "id": "o3",
+              "text": "What dollar change?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -532,12 +964,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi tarjeta está bloqueada'",
           "options": [
-            { "id": "w1", "text": "blocked" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "My" },
-            { "id": "w4", "text": "card" }
+            {
+              "id": "w1",
+              "text": "blocked"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "My"
+            },
+            {
+              "id": "w4",
+              "text": "card"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w2", "w1"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w2",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -545,14 +994,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'He olvidado mi número PIN'",
           "options": [
-            { "id": "w1", "text": "PIN" },
-            { "id": "w2", "text": "forgotten" },
-            { "id": "w3", "text": "number" },
-            { "id": "w4", "text": "my" },
-            { "id": "w5", "text": "I" },
-            { "id": "w6", "text": "have" }
+            {
+              "id": "w1",
+              "text": "PIN"
+            },
+            {
+              "id": "w2",
+              "text": "forgotten"
+            },
+            {
+              "id": "w3",
+              "text": "number"
+            },
+            {
+              "id": "w4",
+              "text": "my"
+            },
+            {
+              "id": "w5",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "have"
+            }
           ],
-          "correct_answer": ["w5", "w6", "w2", "w4", "w3", "w1"],
+          "correct_answer": [
+            "w5",
+            "w6",
+            "w2",
+            "w4",
+            "w3",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -606,9 +1080,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'presupuesto'?",
           "options": [
-            { "id": "o1", "text": "Budget" },
-            { "id": "o2", "text": "Plan" },
-            { "id": "o3", "text": "Money list" }
+            {
+              "id": "o1",
+              "text": "Budget"
+            },
+            {
+              "id": "o2",
+              "text": "Plan"
+            },
+            {
+              "id": "o3",
+              "text": "Money list"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -618,9 +1101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ahorros'?",
           "options": [
-            { "id": "o1", "text": "Savings" },
-            { "id": "o2", "text": "Keeps" },
-            { "id": "o3", "text": "Safe money" }
+            {
+              "id": "o1",
+              "text": "Savings"
+            },
+            {
+              "id": "o2",
+              "text": "Keeps"
+            },
+            {
+              "id": "o3",
+              "text": "Safe money"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -630,9 +1122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'caro'?",
           "options": [
-            { "id": "o1", "text": "Expensive" },
-            { "id": "o2", "text": "Cheap" },
-            { "id": "o3", "text": "High" }
+            {
+              "id": "o1",
+              "text": "Expensive"
+            },
+            {
+              "id": "o2",
+              "text": "Cheap"
+            },
+            {
+              "id": "o3",
+              "text": "High"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -642,9 +1143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'barato'?",
           "options": [
-            { "id": "o1", "text": "Cheap" },
-            { "id": "o2", "text": "Expensive" },
-            { "id": "o3", "text": "Low" }
+            {
+              "id": "o1",
+              "text": "Cheap"
+            },
+            {
+              "id": "o2",
+              "text": "Expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Low"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -654,9 +1164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'descuento'?",
           "options": [
-            { "id": "o1", "text": "Discount" },
-            { "id": "o2", "text": "Sale" },
-            { "id": "o3", "text": "Less price" }
+            {
+              "id": "o1",
+              "text": "Discount"
+            },
+            {
+              "id": "o2",
+              "text": "Sale"
+            },
+            {
+              "id": "o3",
+              "text": "Less price"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -666,9 +1185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'en oferta'?",
           "options": [
-            { "id": "o1", "text": "On sale" },
-            { "id": "o2", "text": "In offer" },
-            { "id": "o3", "text": "Buy now" }
+            {
+              "id": "o1",
+              "text": "On sale"
+            },
+            {
+              "id": "o2",
+              "text": "In offer"
+            },
+            {
+              "id": "o3",
+              "text": "Buy now"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -678,9 +1206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'precio'?",
           "options": [
-            { "id": "o1", "text": "Price" },
-            { "id": "o2", "text": "Cost" },
-            { "id": "o3", "text": "Money" }
+            {
+              "id": "o1",
+              "text": "Price"
+            },
+            {
+              "id": "o2",
+              "text": "Cost"
+            },
+            {
+              "id": "o3",
+              "text": "Money"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -690,13 +1227,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Tengo un presupuesto limitado'",
           "options": [
-            { "id": "w1", "text": "budget" },
-            { "id": "w2", "text": "have" },
-            { "id": "w3", "text": "limited" },
-            { "id": "w4", "text": "I" },
-            { "id": "w5", "text": "a" }
+            {
+              "id": "w1",
+              "text": "budget"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "limited"
+            },
+            {
+              "id": "w4",
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            }
           ],
-          "correct_answer": ["w4", "w2", "w5", "w3", "w1"],
+          "correct_answer": [
+            "w4",
+            "w2",
+            "w5",
+            "w3",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -704,14 +1262,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Eso es demasiado caro para mí'",
           "options": [
-            { "id": "w1", "text": "expensive" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "too" },
-            { "id": "w4", "text": "for" },
-            { "id": "w5", "text": "That" },
-            { "id": "w6", "text": "me" }
+            {
+              "id": "w1",
+              "text": "expensive"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "too"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "That"
+            },
+            {
+              "id": "w6",
+              "text": "me"
+            }
           ],
-          "correct_answer": ["w5", "w2", "w3", "w1", "w4", "w6"],
+          "correct_answer": [
+            "w5",
+            "w2",
+            "w3",
+            "w1",
+            "w4",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -735,9 +1318,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reembolso'?",
           "options": [
-            { "id": "o1", "text": "Refund" },
-            { "id": "o2", "text": "Back money" },
-            { "id": "o3", "text": "Return" }
+            {
+              "id": "o1",
+              "text": "Refund"
+            },
+            {
+              "id": "o2",
+              "text": "Back money"
+            },
+            {
+              "id": "o3",
+              "text": "Return"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -747,9 +1339,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'factura'?",
           "options": [
-            { "id": "o1", "text": "Bill / Invoice" },
-            { "id": "o2", "text": "Check" },
-            { "id": "o3", "text": "Paper" }
+            {
+              "id": "o1",
+              "text": "Bill / Invoice"
+            },
+            {
+              "id": "o2",
+              "text": "Check"
+            },
+            {
+              "id": "o3",
+              "text": "Paper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -759,9 +1360,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'impuestos'?",
           "options": [
-            { "id": "o1", "text": "Taxes" },
-            { "id": "o2", "text": "Fees" },
-            { "id": "o3", "text": "Extra money" }
+            {
+              "id": "o1",
+              "text": "Taxes"
+            },
+            {
+              "id": "o2",
+              "text": "Fees"
+            },
+            {
+              "id": "o3",
+              "text": "Extra money"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -771,9 +1381,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuánto cuesta?'?",
           "options": [
-            { "id": "o1", "text": "How much does it cost?" },
-            { "id": "o2", "text": "How much is price?" },
-            { "id": "o3", "text": "Which money?" }
+            {
+              "id": "o1",
+              "text": "How much does it cost?"
+            },
+            {
+              "id": "o2",
+              "text": "How much is price?"
+            },
+            {
+              "id": "o3",
+              "text": "Which money?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -783,9 +1402,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vale la pena'?",
           "options": [
-            { "id": "o1", "text": "It is worth it" },
-            { "id": "o2", "text": "It is good price" },
-            { "id": "o3", "text": "Worth money" }
+            {
+              "id": "o1",
+              "text": "It is worth it"
+            },
+            {
+              "id": "o2",
+              "text": "It is good price"
+            },
+            {
+              "id": "o3",
+              "text": "Worth money"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -795,9 +1423,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'perder dinero'?",
           "options": [
-            { "id": "o1", "text": "To lose money" },
-            { "id": "o2", "text": "To miss money" },
-            { "id": "o3", "text": "No have money" }
+            {
+              "id": "o1",
+              "text": "To lose money"
+            },
+            {
+              "id": "o2",
+              "text": "To miss money"
+            },
+            {
+              "id": "o3",
+              "text": "No have money"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -807,14 +1444,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Me puede dar un recibo?'",
           "options": [
-            { "id": "w1", "text": "give" },
-            { "id": "w2", "text": "me" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "Can" },
-            { "id": "w5", "text": "receipt?" },
-            { "id": "w6", "text": "you" }
+            {
+              "id": "w1",
+              "text": "give"
+            },
+            {
+              "id": "w2",
+              "text": "me"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "Can"
+            },
+            {
+              "id": "w5",
+              "text": "receipt?"
+            },
+            {
+              "id": "w6",
+              "text": "you"
+            }
           ],
-          "correct_answer": ["w4", "w6", "w1", "w2", "w3", "w5"],
+          "correct_answer": [
+            "w4",
+            "w6",
+            "w1",
+            "w2",
+            "w3",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -822,14 +1484,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Necesito pagar mis facturas'",
           "options": [
-            { "id": "w1", "text": "pay" },
-            { "id": "w2", "text": "to" },
-            { "id": "w3", "text": "bills" },
-            { "id": "w4", "text": "my" },
-            { "id": "w5", "text": "I" },
-            { "id": "w6", "text": "need" }
+            {
+              "id": "w1",
+              "text": "pay"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "bills"
+            },
+            {
+              "id": "w4",
+              "text": "my"
+            },
+            {
+              "id": "w5",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "need"
+            }
           ],
-          "correct_answer": ["w5", "w6", "w2", "w1", "w4", "w3"],
+          "correct_answer": [
+            "w5",
+            "w6",
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -877,9 +1564,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'donar dinero'?",
           "options": [
-            { "id": "o1", "text": "To donate money" },
-            { "id": "o2", "text": "To give money" },
-            { "id": "o3", "text": "To help money" }
+            {
+              "id": "o1",
+              "text": "To donate money"
+            },
+            {
+              "id": "o2",
+              "text": "To give money"
+            },
+            {
+              "id": "o3",
+              "text": "To help money"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -894,31 +1590,138 @@
           "interaction_id": "U37_I76",
           "type": "word-search",
           "prompt_es": "Busca palabras de dinero:",
-          "words": ["CASH", "BANK", "COIN", "BILL", "LOAN", "CARD", "SAVE", "PAY", "FEE", "SIGN"],
+          "words": [
+            "CASH",
+            "BANK",
+            "COIN",
+            "BILL",
+            "LOAN",
+            "CARD",
+            "SAVE",
+            "PAY",
+            "FEE",
+            "SIGN"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "CASH", "clue": "Paper money" },
-            { "word": "BANK", "clue": "Money place" },
-            { "word": "COIN", "clue": "Metal money" },
-            { "word": "BILL", "clue": "An invoice" },
-            { "word": "LOAN", "clue": "Borrowed money" },
-            { "word": "CARD", "clue": "Plastic payment" },
-            { "word": "SAVE", "clue": "Keep money" },
-            { "word": "PAY", "clue": "Give money for thing" },
-            { "word": "FEE", "clue": "Bank charge" },
-            { "word": "SIGN", "clue": "Write your name" }
+            {
+              "word": "CASH",
+              "clue": "Paper money"
+            },
+            {
+              "word": "BANK",
+              "clue": "Money place"
+            },
+            {
+              "word": "COIN",
+              "clue": "Metal money"
+            },
+            {
+              "word": "BILL",
+              "clue": "An invoice"
+            },
+            {
+              "word": "LOAN",
+              "clue": "Borrowed money"
+            },
+            {
+              "word": "CARD",
+              "clue": "Plastic payment"
+            },
+            {
+              "word": "SAVE",
+              "clue": "Keep money"
+            },
+            {
+              "word": "PAY",
+              "clue": "Give money for thing"
+            },
+            {
+              "word": "FEE",
+              "clue": "Bank charge"
+            },
+            {
+              "word": "SIGN",
+              "clue": "Write your name"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de finanzas:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "CASH", "clue": "Physical money", "direction": "across", "row": 0, "col": 0 },
-            { "word": "CARD", "clue": "Credit ___", "direction": "down", "row": 0, "col": 0 },
-            { "word": "BANK", "clue": "Financial place", "direction": "across", "row": 2, "col": 0 },
-            { "word": "SAVE", "clue": "Keep money", "direction": "down", "row": 0, "col": 3 }
+            {
+              "word": "INHERITANCE",
+              "clue": "Traducción de: herencia",
+              "direction": "across",
+              "row": 10,
+              "col": 4
+            },
+            {
+              "word": "EXPENSIVE",
+              "clue": "Traducción de: caro",
+              "direction": "down",
+              "row": 2,
+              "col": 14
+            },
+            {
+              "word": "INTEREST",
+              "clue": "Traducción de: interés",
+              "direction": "across",
+              "row": 2,
+              "col": 11
+            },
+            {
+              "word": "CHARITY",
+              "clue": "Traducción de: caridad",
+              "direction": "across",
+              "row": 8,
+              "col": 10
+            },
+            {
+              "word": "SAVINGS",
+              "clue": "Traducción de: ahorros",
+              "direction": "down",
+              "row": 7,
+              "col": 4
+            },
+            {
+              "word": "BUDGET",
+              "clue": "Traducción de: presupuesto",
+              "direction": "down",
+              "row": 6,
+              "col": 7
+            },
+            {
+              "word": "CHEAP",
+              "clue": "Traducción de: barato",
+              "direction": "down",
+              "row": 0,
+              "col": 16
+            },
+            {
+              "word": "BANK",
+              "clue": "Traducción de: banco",
+              "direction": "across",
+              "row": 6,
+              "col": 7
+            },
+            {
+              "word": "LOAN",
+              "clue": "Traducción de: Préstamo",
+              "direction": "across",
+              "row": 11,
+              "col": 1
+            },
+            {
+              "word": "ATM",
+              "clue": "Traducción de: Cajero",
+              "direction": "down",
+              "row": 1,
+              "col": 18
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -951,9 +1754,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedo tener el recibo?'?",
           "options": [
-            { "id": "o1", "text": "Can I have the receipt?" },
-            { "id": "o2", "text": "I have paper?" },
-            { "id": "o3", "text": "Give me bill?" }
+            {
+              "id": "o1",
+              "text": "Can I have the receipt?"
+            },
+            {
+              "id": "o2",
+              "text": "I have paper?"
+            },
+            {
+              "id": "o3",
+              "text": "Give me bill?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -963,9 +1775,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'El cajero se tragó mi tarjeta'?",
           "options": [
-            { "id": "o1", "text": "The ATM swallowed my card" },
-            { "id": "o2", "text": "The machine eat my card" },
-            { "id": "o3", "text": "The bank took my card" }
+            {
+              "id": "o1",
+              "text": "The ATM swallowed my card"
+            },
+            {
+              "id": "o2",
+              "text": "The machine eat my card"
+            },
+            {
+              "id": "o3",
+              "text": "The bank took my card"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -975,9 +1796,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'perder la billetera'?",
           "options": [
-            { "id": "o1", "text": "To lose the wallet" },
-            { "id": "o2", "text": "To miss the bag" },
-            { "id": "o3", "text": "To drop the money" }
+            {
+              "id": "o1",
+              "text": "To lose the wallet"
+            },
+            {
+              "id": "o2",
+              "text": "To miss the bag"
+            },
+            {
+              "id": "o3",
+              "text": "To drop the money"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -987,9 +1817,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Aceptan efectivo?'?",
           "options": [
-            { "id": "o1", "text": "Do you accept cash?" },
-            { "id": "o2", "text": "Cash ok?" },
-            { "id": "o3", "text": "Have you cash?" }
+            {
+              "id": "o1",
+              "text": "Do you accept cash?"
+            },
+            {
+              "id": "o2",
+              "text": "Cash ok?"
+            },
+            {
+              "id": "o3",
+              "text": "Have you cash?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -999,9 +1838,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'No tengo suficiente dinero'?",
           "options": [
-            { "id": "o1", "text": "I don't have enough money" },
-            { "id": "o2", "text": "I no have more money" },
-            { "id": "o3", "text": "No money for me" }
+            {
+              "id": "o1",
+              "text": "I don't have enough money"
+            },
+            {
+              "id": "o2",
+              "text": "I no have more money"
+            },
+            {
+              "id": "o3",
+              "text": "No money for me"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1011,9 +1859,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Ser tacaño/a'?",
           "options": [
-            { "id": "o1", "text": "To be stingy" },
-            { "id": "o2", "text": "To be poor" },
-            { "id": "o3", "text": "No spend money" }
+            {
+              "id": "o1",
+              "text": "To be stingy"
+            },
+            {
+              "id": "o2",
+              "text": "To be poor"
+            },
+            {
+              "id": "o3",
+              "text": "No spend money"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1023,9 +1880,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Ser generoso/a'?",
           "options": [
-            { "id": "o1", "text": "To be generous" },
-            { "id": "o2", "text": "To be good" },
-            { "id": "o3", "text": "Give a lot" }
+            {
+              "id": "o1",
+              "text": "To be generous"
+            },
+            {
+              "id": "o2",
+              "text": "To be good"
+            },
+            {
+              "id": "o3",
+              "text": "Give a lot"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1035,9 +1901,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Estar quebrado/a' (sin dinero)?",
           "options": [
-            { "id": "o1", "text": "To be broke" },
-            { "id": "o2", "text": "To be broken" },
-            { "id": "o3", "text": "To be empty" }
+            {
+              "id": "o1",
+              "text": "To be broke"
+            },
+            {
+              "id": "o2",
+              "text": "To be broken"
+            },
+            {
+              "id": "o3",
+              "text": "To be empty"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1047,9 +1922,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Hacer una fortuna'?",
           "options": [
-            { "id": "o1", "text": "To make a fortune" },
-            { "id": "o2", "text": "To get rich" },
-            { "id": "o3", "text": "To win big" }
+            {
+              "id": "o1",
+              "text": "To make a fortune"
+            },
+            {
+              "id": "o2",
+              "text": "To get rich"
+            },
+            {
+              "id": "o3",
+              "text": "To win big"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1059,9 +1943,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Ahorrar para un día lluvioso' (emergencia)?",
           "options": [
-            { "id": "o1", "text": "To save for a rainy day" },
-            { "id": "o2", "text": "To keep for water" },
-            { "id": "o3", "text": "To save for bad day" }
+            {
+              "id": "o1",
+              "text": "To save for a rainy day"
+            },
+            {
+              "id": "o2",
+              "text": "To keep for water"
+            },
+            {
+              "id": "o3",
+              "text": "To save for bad day"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1071,9 +1964,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Pagar en cuotas'?",
           "options": [
-            { "id": "o1", "text": "To pay in installments" },
-            { "id": "o2", "text": "To pay slow" },
-            { "id": "o3", "text": "To pay in parts" }
+            {
+              "id": "o1",
+              "text": "To pay in installments"
+            },
+            {
+              "id": "o2",
+              "text": "To pay slow"
+            },
+            {
+              "id": "o3",
+              "text": "To pay in parts"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1083,9 +1985,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuánto es el total?'?",
           "options": [
-            { "id": "o1", "text": "What is the total?" },
-            { "id": "o2", "text": "How much all?" },
-            { "id": "o3", "text": "Which sum?" }
+            {
+              "id": "o1",
+              "text": "What is the total?"
+            },
+            {
+              "id": "o2",
+              "text": "How much all?"
+            },
+            {
+              "id": "o3",
+              "text": "Which sum?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1095,9 +2006,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puede cambiarme esto?'?",
           "options": [
-            { "id": "o1", "text": "Can you change this for me?" },
-            { "id": "o2", "text": "Make this other?" },
-            { "id": "o3", "text": "Change paper?" }
+            {
+              "id": "o1",
+              "text": "Can you change this for me?"
+            },
+            {
+              "id": "o2",
+              "text": "Make this other?"
+            },
+            {
+              "id": "o3",
+              "text": "Change paper?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1107,9 +2027,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'herencia'?",
           "options": [
-            { "id": "o1", "text": "Inheritance" },
-            { "id": "o2", "text": "Family money" },
-            { "id": "o3", "text": "Gift after" }
+            {
+              "id": "o1",
+              "text": "Inheritance"
+            },
+            {
+              "id": "o2",
+              "text": "Family money"
+            },
+            {
+              "id": "o3",
+              "text": "Gift after"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1119,9 +2048,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'caridad'?",
           "options": [
-            { "id": "o1", "text": "Charity" },
-            { "id": "o2", "text": "Help group" },
-            { "id": "o3", "text": "Giving place" }
+            {
+              "id": "o1",
+              "text": "Charity"
+            },
+            {
+              "id": "o2",
+              "text": "Help group"
+            },
+            {
+              "id": "o3",
+              "text": "Giving place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1131,9 +2069,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'donación'?",
           "options": [
-            { "id": "o1", "text": "Donation" },
-            { "id": "o2", "text": "Gift" },
-            { "id": "o3", "text": "Money help" }
+            {
+              "id": "o1",
+              "text": "Donation"
+            },
+            {
+              "id": "o2",
+              "text": "Gift"
+            },
+            {
+              "id": "o3",
+              "text": "Money help"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1143,9 +2090,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bolsa de valores'?",
           "options": [
-            { "id": "o1", "text": "Stock market" },
-            { "id": "o2", "text": "Money market" },
-            { "id": "o3", "text": "Bank shop" }
+            {
+              "id": "o1",
+              "text": "Stock market"
+            },
+            {
+              "id": "o2",
+              "text": "Money market"
+            },
+            {
+              "id": "o3",
+              "text": "Bank shop"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1155,9 +2111,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'acciones' (en bolsa)?",
           "options": [
-            { "id": "o1", "text": "Stocks / Shares" },
-            { "id": "o2", "text": "Actions" },
-            { "id": "o3", "text": "Parts" }
+            {
+              "id": "o1",
+              "text": "Stocks / Shares"
+            },
+            {
+              "id": "o2",
+              "text": "Actions"
+            },
+            {
+              "id": "o3",
+              "text": "Parts"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1167,9 +2132,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'invertir'?",
           "options": [
-            { "id": "o1", "text": "To invest" },
-            { "id": "o2", "text": "To put money in" },
-            { "id": "o3", "text": "To use for grow" }
+            {
+              "id": "o1",
+              "text": "To invest"
+            },
+            {
+              "id": "o2",
+              "text": "To put money in"
+            },
+            {
+              "id": "o3",
+              "text": "To use for grow"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1179,9 +2153,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Qué barato!'?",
           "options": [
-            { "id": "o1", "text": "How cheap!" },
-            { "id": "o2", "text": "What low price!" },
-            { "id": "o3", "text": "Very good money!" }
+            {
+              "id": "o1",
+              "text": "How cheap!"
+            },
+            {
+              "id": "o2",
+              "text": "What low price!"
+            },
+            {
+              "id": "o3",
+              "text": "Very good money!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"

@@ -28,10 +28,11 @@ export const C2_U9_BLOCK1: Exercise = {
     {
       "id": "c2-u9-b1-q3",
       "type": "key-word-transformation",
+      "question": "He was accused of stealing the documents. (CHARGED)\n\nHe was __________",
       "sentence": "He was accused of stealing the documents.",
       "keyWord": "CHARGED",
       "startOfAnswer": "He was",
-      "correctAnswer": "He was charged with stealing the documents.",
+      "correctAnswer": "charged with stealing the documents",
       "explanation": "'Charged with' es la forma legal de decir que alguien es acusado formalmente.",
       "points": 1
     },
@@ -55,10 +56,11 @@ export const C2_U9_BLOCK1: Exercise = {
     {
       "id": "c2-u9-b1-q6",
       "type": "key-word-transformation",
+      "question": "The lawyer said that his client was innocent. (PLEADED)\n\nThe client __________",
       "sentence": "The lawyer said that his client was innocent.",
       "keyWord": "PLEADED",
       "startOfAnswer": "The client",
-      "correctAnswer": "The client pleaded not guilty.",
+      "correctAnswer": "pleaded not guilty",
       "explanation": "'Plead not guilty' es declararse no culpable.",
       "points": 1
     },
@@ -82,10 +84,11 @@ export const C2_U9_BLOCK1: Exercise = {
     {
       "id": "c2-u9-b1-q9",
       "type": "key-word-transformation",
+      "question": "They decided to take the matter to court. (LITIGATION)\n\nThey decided to __________",
       "sentence": "They decided to take the matter to court.",
       "keyWord": "LITIGATION",
       "startOfAnswer": "They decided to",
-      "correctAnswer": "They decided to resort to litigation.",
+      "correctAnswer": "resort to litigation",
       "explanation": "'Litigation' es el proceso de pleitear o litigar.",
       "points": 1
     },
@@ -117,20 +120,23 @@ export const C2_U9_BLOCK2: Exercise = {
     },
     {
       "id": "c2-u9-b2-q2",
-      "type": "multiple-choice",
-      "question": "Choose the correct causative form: 'I ________ by a professional yesterday.'",
-      "options": ["had my hair cut", "cut my hair", "had cut my hair", "was cutting my hair"],
-      "correctAnswer": "had my hair cut",
+      "startOfAnswer": "had my hair",
+      "keyWord": "CAUSATIVE",
+      "sentence": "I had my hair cut by a professional yesterday.",
+      "type": "key-word-transformation",
+      "question": "I had my hair cut by a professional yesterday. (CAUSATIVE)\n\nhad my hair __________",
+      "correctAnswer": "cut",
       "explanation": "Causativa: have + object + past participle.",
       "points": 1
     },
     {
       "id": "c2-u9-b2-q3",
       "type": "key-word-transformation",
+      "question": "They are reporting that the economy is improving. (REPORTED)\n\nThe economy __________",
       "sentence": "They are reporting that the economy is improving.",
       "keyWord": "REPORTED",
       "startOfAnswer": "The economy",
-      "correctAnswer": "The economy is reported to be improving.",
+      "correctAnswer": "is reported to be improving",
       "explanation": "Pasiva personal con 'reported'.",
       "points": 1
     },
@@ -162,18 +168,21 @@ export const C2_U9_BLOCK2: Exercise = {
     {
       "id": "c2-u9-b2-q7",
       "type": "key-word-transformation",
+      "question": "Everybody knows that she is a great singer. (KNOWN)\n\nShe __________",
       "sentence": "Everybody knows that she is a great singer.",
       "keyWord": "KNOWN",
       "startOfAnswer": "She",
-      "correctAnswer": "She is known to be a great singer.",
+      "correctAnswer": "is known to be a great singer",
       "explanation": "Pasiva personal con 'known'.",
       "points": 1
     },
     {
       "id": "c2-u9-b2-q8",
-      "type": "multiple-choice",
-      "question": "What is the passive form of 'You must do it'?",
-      "options": ["It must do.", "It must be done.", "It must been done.", "It is must done."],
+      "startOfAnswer": "must be done",
+      "keyWord": "PASSIVE",
+      "sentence": "You must do it.",
+      "type": "key-word-transformation",
+      "question": "You must do it. (PASSIVE)\n\nmust be done __________",
       "correctAnswer": "It must be done.",
       "explanation": "Pasiva con modales: modal + be + past participle.",
       "points": 1
@@ -318,10 +327,11 @@ export const C2_U9_BLOCK4: Exercise = {
     {
       "id": "c2-u9-b4-q3",
       "type": "key-word-transformation",
+      "question": "He was sent to prison for life. (LIFE)\n\nHe received a __________",
       "sentence": "He was sent to prison for life.",
       "keyWord": "LIFE",
       "startOfAnswer": "He received a",
-      "correctAnswer": "He received a life sentence.",
+      "correctAnswer": "life sentence",
       "explanation": "Cadena perpetua.",
       "points": 1
     },
@@ -345,10 +355,11 @@ export const C2_U9_BLOCK4: Exercise = {
     {
       "id": "c2-u9-b4-q6",
       "type": "key-word-transformation",
+      "question": "The police are looking into the cause of the fire. (INVESTIGATING)\n\nThe police are __________",
       "sentence": "The police are looking into the cause of the fire.",
       "keyWord": "INVESTIGATING",
       "startOfAnswer": "The police are",
-      "correctAnswer": "The police are investigating the cause of the fire.",
+      "correctAnswer": "investigating the cause of the fire",
       "explanation": "Investigando el origen del incendio.",
       "points": 1
     },
@@ -372,10 +383,11 @@ export const C2_U9_BLOCK4: Exercise = {
     {
       "id": "c2-u9-b4-q9",
       "type": "key-word-transformation",
+      "question": "They let him go because there wasn't enough evidence. (RELEASED)\n\nHe was __________",
       "sentence": "They let him go because there wasn't enough evidence.",
       "keyWord": "RELEASED",
       "startOfAnswer": "He was",
-      "correctAnswer": "He was released due to lack of evidence.",
+      "correctAnswer": "released",
       "explanation": "Puesto en libertad.",
       "points": 1
     },
@@ -407,20 +419,23 @@ export const C2_U9_BLOCK5: Exercise = {
     },
     {
       "id": "c2-u9-b5-q2",
-      "type": "multiple-choice",
-      "question": "Choose the correct passive of 'She showed me the room':",
-      "options": ["I was showed the room.", "I was shown the room.", "The room was shown me.", "The room showed me."],
-      "correctAnswer": "I was shown the room.",
-      "explanation": "Pasiva de 'show' con objeto de persona como sujeto.",
+      "startOfAnswer": "was shown",
+      "keyWord": "PASSIVE",
+      "sentence": "She showed me the room.",
+      "type": "key-word-transformation",
+      "question": "She showed me the room. (PASSIVE)\n\nwas shown __________",
+      "correctAnswer": "",
+      "explanation": "Transformación a pasiva del verbo 'show'.",
       "points": 1
     },
     {
       "id": "c2-u9-b5-q3",
       "type": "key-word-transformation",
+      "question": "The company sent us a letter. (SENT)\n\nWe __________",
       "sentence": "The company sent us a letter.",
       "keyWord": "SENT",
       "startOfAnswer": "We",
-      "correctAnswer": "We were sent a letter by the company.",
+      "correctAnswer": "re sent a letter by the company",
       "explanation": "Transformación a pasiva con 'we'.",
       "points": 1
     },
@@ -434,11 +449,13 @@ export const C2_U9_BLOCK5: Exercise = {
     },
     {
       "id": "c2-u9-b5-q5",
-      "type": "multiple-choice",
-      "question": "Which sentence is the correct passive of 'They will pay him $1000'?",
-      "options": ["He will pay $1000.", "He will be paid $1000.", "$1000 will be paid him.", "He is paid $1000."],
-      "correctAnswer": "He will be paid $1000.",
-      "explanation": "Future Passive con dos objetos.",
+      "startOfAnswer": "He",
+      "keyWord": "PASSIVE",
+      "sentence": "They will pay him 5,000.",
+      "type": "key-word-transformation",
+      "question": "They will pay him 5,000. (PASSIVE)\n\nHe __________",
+      "correctAnswer": "will be paid 5,000",
+      "explanation": "Transformación a pasiva del verbo 'pay'.",
       "points": 1
     },
     {
@@ -452,20 +469,23 @@ export const C2_U9_BLOCK5: Exercise = {
     {
       "id": "c2-u9-b5-q7",
       "type": "key-word-transformation",
+      "question": "My parents bought me a car. (BOUGHT)\n\nA car __________",
       "sentence": "My parents bought me a car.",
       "keyWord": "BOUGHT",
       "startOfAnswer": "A car",
-      "correctAnswer": "A car was bought for me by my parents.",
+      "correctAnswer": "was bought for me by my parents",
       "explanation": "Cuando el sujeto es el objeto directo (la cosa), usamos 'for' o 'to'.",
       "points": 1
     },
     {
       "id": "c2-u9-b5-q8",
-      "type": "multiple-choice",
-      "question": "Which of these verbs usually takes 'to' in the passive when the thing is the subject?",
-      "options": ["Buy", "Give", "Get", "Make"],
-      "correctAnswer": "Give",
-      "explanation": "Something was given TO me (frente a Something was bought FOR me).",
+      "startOfAnswer": "Give",
+      "keyWord": "VERB",
+      "sentence": "Which of these verbs usually takes 'to' in the passive when the thing is the subject?",
+      "type": "key-word-transformation",
+      "question": "Which of these verbs usually takes 'to' in the passive when the thing is the subject? (VERB)\n\nGive __________",
+      "correctAnswer": "",
+      "explanation": "Se utiliza el 'to' cuando el sujeto es la cosa.",
       "points": 1
     },
     {
@@ -514,10 +534,11 @@ export const C2_U9_BLOCK6: Exercise = {
     {
       "id": "c2-u9-b6-q3",
       "type": "key-word-transformation",
+      "question": "He strictly followed the rules. (LETTER)\n\nHe followed the rules to the __________",
       "sentence": "He strictly followed the rules.",
       "keyWord": "LETTER",
       "startOfAnswer": "He followed the rules to the",
-      "correctAnswer": "He followed the rules to the letter.",
+      "correctAnswer": "letter",
       "explanation": "'To the letter' significa al pie de la letra.",
       "points": 1
     },
@@ -541,10 +562,11 @@ export const C2_U9_BLOCK6: Exercise = {
     {
       "id": "c2-u9-b6-q6",
       "type": "key-word-transformation",
+      "question": "You should obey the law. (ABIDE)\n\nYou should __________",
       "sentence": "You should obey the law.",
       "keyWord": "ABIDE",
       "startOfAnswer": "You should",
-      "correctAnswer": "You should abide by the law.",
+      "correctAnswer": "abide by the law",
       "explanation": "'Abide by' es acatar o cumplir.",
       "points": 1
     },
@@ -568,10 +590,11 @@ export const C2_U9_BLOCK6: Exercise = {
     {
       "id": "c2-u9-b6-q9",
       "type": "key-word-transformation",
+      "question": "The police are looking for him. (LARGE)\n\nHe is still __________",
       "sentence": "The police are looking for him.",
       "keyWord": "LARGE",
       "startOfAnswer": "He is still",
-      "correctAnswer": "He is still at large.",
+      "correctAnswer": "at large",
       "explanation": "'At large' significa que un criminal sigue libre/fugitivo.",
       "points": 1
     },
@@ -603,28 +626,34 @@ export const C2_U9_BLOCK7: Exercise = {
     },
     {
       "id": "c2-u9-b7-q2",
-      "type": "multiple-choice",
-      "question": "Choose the correct form: 'She was heard ________ in the shower.'",
-      "options": ["sing", "singing", "to singing", "sung"],
-      "correctAnswer": "singing",
+      "startOfAnswer": "singing",
+      "keyWord": "SING",
+      "sentence": "She was heard singing in the shower.",
+      "type": "key-word-transformation",
+      "question": "She was heard singing in the shower. (SING)\n\nsinging __________",
+      "correctAnswer": "",
       "explanation": "Usamos el gerundio si la acción estaba en curso.",
       "points": 1
     },
     {
       "id": "c2-u9-b7-q3",
       "type": "key-word-transformation",
+      "question": "Someone noticed him leaving the office early. (NOTICED)\n\nHe __________",
       "sentence": "Someone noticed him leaving the office early.",
       "keyWord": "NOTICED",
       "startOfAnswer": "He",
-      "correctAnswer": "He was noticed leaving the office early.",
+      "correctAnswer": "was noticed leaving the office early",
       "explanation": "Pasiva con 'notice'.",
       "points": 1
     },
     {
       "id": "c2-u9-b7-q4",
-      "type": "fill-blank",
-      "question": "The earth was felt ________ (shake) during the earthquake.",
-      "correctAnswer": "to shake",
+      "startOfAnswer": "to shake",
+      "keyWord": "SHAKE",
+      "sentence": "The earth was felt to shake during the earthquake.",
+      "type": "key-word-transformation",
+      "question": "The earth was felt to shake during the earthquake. (SHAKE)\n\nto shake __________",
+      "correctAnswer": "",
       "explanation": "Sensación física en pasiva.",
       "points": 1
     },
@@ -639,19 +668,23 @@ export const C2_U9_BLOCK7: Exercise = {
     },
     {
       "id": "c2-u9-b7-q6",
-      "type": "fill-blank",
-      "question": "They were seen ________ (run) away from the scene.",
-      "correctAnswer": "running",
+      "startOfAnswer": "running",
+      "keyWord": "RUN",
+      "sentence": "They were seen running away from the scene.",
+      "type": "key-word-transformation",
+      "question": "They were seen running away from the scene. (RUN)\n\nrunning __________",
+      "correctAnswer": "",
       "explanation": "Acción en progreso vista por testigos.",
       "points": 1
     },
     {
       "id": "c2-u9-b7-q7",
       "type": "key-word-transformation",
+      "question": "I heard the bell ring. (RUNG)\n\nThe bell was heard __________",
       "sentence": "I heard the bell ring.",
       "keyWord": "RUNG",
       "startOfAnswer": "The bell was heard",
-      "correctAnswer": "The bell was heard to be rung.",
+      "correctAnswer": "to be rung",
       "explanation": "Forma pasiva del sonido percibido.",
       "points": 1
     },
@@ -666,9 +699,12 @@ export const C2_U9_BLOCK7: Exercise = {
     },
     {
       "id": "c2-u9-b7-q9",
-      "type": "fill-blank",
-      "question": "The wind could be felt ________ (blow) through the cracks.",
-      "correctAnswer": "blowing",
+      "startOfAnswer": "blowing",
+      "keyWord": "BLOW",
+      "sentence": "The wind could be felt blowing through the cracks.",
+      "type": "key-word-transformation",
+      "question": "The wind could be felt blowing through the cracks. (BLOW)\n\nblowing __________",
+      "correctAnswer": "",
       "explanation": "Acción continua percibida.",
       "points": 1
     },
@@ -710,19 +746,22 @@ export const C2_U9_BLOCK8: Exercise = {
     {
       "id": "c2-u9-b8-q3",
       "type": "key-word-transformation",
+      "question": "The decision was based on what is morally right. (ETHICAL)\n\nIt was an __________",
       "sentence": "The decision was based on what is morally right.",
       "keyWord": "ETHICAL",
       "startOfAnswer": "It was an",
-      "correctAnswer": "It was an ethical decision.",
+      "correctAnswer": "ethical decision",
       "explanation": "Adjetivo para decisiones morales.",
       "points": 1
     },
     {
       "id": "c2-u9-b8-q4",
-      "type": "multiple-choice",
-      "question": "What does 'altruism' mean?",
-      "options": ["Selfishness", "Disinterested and selfless concern for the well-being of others", "A love of old things", "A type of religion"],
-      "correctAnswer": "Disinterested and selfless concern for the well-being of others",
+      "startOfAnswer": "It refers to",
+      "keyWord": "SELFLESSNESS",
+      "sentence": "What does 'altruism' mean?",
+      "type": "key-word-transformation",
+      "question": "What does 'altruism' mean? (SELFLESSNESS)\n\nIt refers to __________",
+      "correctAnswer": "disinterested and selfless concern for the well-being of others",
       "explanation": "Altruismo es ayudar a los demás sin buscar beneficio propio.",
       "points": 1
     },
@@ -737,19 +776,22 @@ export const C2_U9_BLOCK8: Exercise = {
     {
       "id": "c2-u9-b8-q6",
       "type": "key-word-transformation",
+      "question": "He doesn't care about the consequences of his actions. (REGARDLESS)\n\nHe acts __________",
       "sentence": "He doesn't care about the consequences of his actions.",
       "keyWord": "REGARDLESS",
       "startOfAnswer": "He acts",
-      "correctAnswer": "He acts regardless of the consequences.",
+      "correctAnswer": "regardless of the consequences",
       "explanation": "'Regardless of' es sin importar.",
       "points": 1
     },
     {
       "id": "c2-u9-b8-q7",
-      "type": "multiple-choice",
-      "question": "What is 'nepotism'?",
-      "options": ["Favoritism shown to relatives or friends by those in power", "A fear of heights", "A type of philosophy", "Working at night"],
-      "correctAnswer": "Favoritism shown to relatives or friends by those in power",
+      "startOfAnswer": "It is a form of",
+      "keyWord": "FAVORITISM",
+      "sentence": "What is 'nepotism'?",
+      "type": "key-word-transformation",
+      "question": "What is 'nepotism'? (FAVORITISM)\n\nIt is a form of __________",
+      "correctAnswer": "favoritism shown to relatives or friends by those in power",
       "explanation": "Nepotismo es el trato de favor a familiares.",
       "points": 1
     },
@@ -764,19 +806,22 @@ export const C2_U9_BLOCK8: Exercise = {
     {
       "id": "c2-u9-b8-q9",
       "type": "key-word-transformation",
+      "question": "The experiment was morally unacceptable. (UNETHICAL)\n\nThe experiment was __________",
       "sentence": "The experiment was morally unacceptable.",
       "keyWord": "UNETHICAL",
       "startOfAnswer": "The experiment was",
-      "correctAnswer": "The experiment was unethical.",
+      "correctAnswer": "unethical",
       "explanation": "Lo opuesto a ético.",
       "points": 1
     },
     {
       "id": "c2-u9-b8-q10",
-      "type": "multiple-choice",
-      "question": "What is 'moral relativism'?",
-      "options": ["The idea that morality is absolute", "The idea that moral judgments are true or false only relative to some particular standpoint", "The study of relatives", "A type of fast food"],
-      "correctAnswer": "The idea that moral judgments are true or false only relative to some particular standpoint",
+      "startOfAnswer": "It is the idea that",
+      "keyWord": "RELATIVITY",
+      "sentence": "What is 'moral relativism'?",
+      "type": "key-word-transformation",
+      "question": "What is 'moral relativism'? (RELATIVITY)\n\nIt is the idea that __________",
+      "correctAnswer": "moral judgments are true or false only relative to some particular standpoint",
       "explanation": "Relativismo moral.",
       "points": 1
     }
@@ -791,10 +836,12 @@ export const C2_U9_BLOCK9: Exercise = {
   "questions": [
     {
       "id": "c2-u9-b9-q1",
-      "type": "multiple-choice",
-      "question": "What is the primary function of the International Criminal Court (ICC)?",
-      "options": ["To settle trade disputes", "To prosecute individuals for genocide, war crimes, and crimes against humanity", "To manage international mail", "To organize the Olympics"],
-      "correctAnswer": "To prosecute individuals for genocide, war crimes, and crimes against humanity",
+      "startOfAnswer": "Its main function is",
+      "keyWord": "PROSECUTION",
+      "sentence": "What is the primary function of the International Criminal Court (ICC)?",
+      "type": "key-word-transformation",
+      "question": "What is the primary function of the International Criminal Court (ICC)? (PROSECUTION)\n\nIts main function is __________",
+      "correctAnswer": "to prosecute individuals for genocide, war crimes, and crimes against humanity",
       "explanation": "La CPI juzga los crímenes más graves a nivel mundial.",
       "points": 1
     },
@@ -808,8 +855,8 @@ export const C2_U9_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u9-b9-q3",
-      "type": "multiple-choice",
-      "question": "What is 'extradition'?",
+      "type": "fill-blank",
+      "question": "What is 'extradition'? (KEYWORD)\n\n'Extradition' is the formal process where __________.",
       "options": ["Being kicked out of a club", "The formal process where one country transfers a suspected or convicted criminal to another country", "A type of space travel", "Buying property abroad"],
       "correctAnswer": "The formal process where one country transfers a suspected or convicted criminal to another country",
       "explanation": "'Extradition' es la entrega de un criminal a otro país.",
@@ -825,8 +872,8 @@ export const C2_U9_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u9-b9-q5",
-      "type": "multiple-choice",
-      "question": "What does 'asylum' mean in a legal context?",
+      "type": "fill-blank",
+      "question": "What does 'asylum' mean in a legal context? (KEYWORD)\n\n'Asylum' refers to __________.",
       "options": ["A hospital for the mentally ill", "Protection granted by a nation to someone who has left their native country as a political refugee", "A high-security prison", "A type of school"],
       "correctAnswer": "Protection granted by a nation to someone who has left their native country as a political refugee",
       "explanation": "Asilo político.",
@@ -842,8 +889,8 @@ export const C2_U9_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u9-b9-q7",
-      "type": "multiple-choice",
-      "question": "What is the Geneva Convention?",
+      "type": "fill-blank",
+      "question": "What is the Geneva Convention? (KEYWORD)\n\nThe Geneva Convention is a series of __________.",
       "options": ["A car show", "A series of treaties on the treatment of civilians, prisoners of war, and soldiers during wartime", "A meeting about climate change", "A fashion event"],
       "correctAnswer": "A series of treaties on the treatment of civilians, prisoners of war, and soldiers during wartime",
       "explanation": "Los Convenios de Ginebra regulan el derecho humanitario en la guerra.",
@@ -885,8 +932,8 @@ export const C2_U9_BLOCK10: Exercise = {
   "questions": [
     {
       "id": "c2-u9-b10-q1",
-      "type": "multiple-choice",
-      "question": "Correct the sentence: 'He is said to have escaped from prison last night.'",
+      "type": "fill-blank",
+      "question": "Correct the sentence: 'He is said to have escaped from prison last night.' (KEYWORD)\n\nThe correct form is: 'He is said __________.'",
       "options": ["It is correct as it is.", "He is said to escape...", "He is said escaping...", "He said to have escaped..."],
       "correctAnswer": "It is correct as it is.",
       "explanation": "Pasiva personal con infinitivo perfecto para una acción pasada.",
@@ -903,10 +950,11 @@ export const C2_U9_BLOCK10: Exercise = {
     {
       "id": "c2-u9-b10-q3",
       "type": "key-word-transformation",
+      "question": "The police caught them while they were spray-painting the wall. (VANDALIZING)\n\nThey were caught __________",
       "sentence": "The police caught them while they were spray-painting the wall.",
       "keyWord": "VANDALIZING",
       "startOfAnswer": "They were caught",
-      "correctAnswer": "They were caught vandalizing the wall.",
+      "correctAnswer": "vandalizing the wall",
       "explanation": "Pasiva de percepción.",
       "points": 1
     },
@@ -920,10 +968,12 @@ export const C2_U9_BLOCK10: Exercise = {
     },
     {
       "id": "c2-u9-b10-q5",
-      "type": "multiple-choice",
-      "question": "Which of these is 'lying under oath'?",
-      "options": ["Libel", "Perjury", "Embezzlement", "Bribery"],
-      "correctAnswer": "Perjury",
+      "sentence": "Which of these terms describes 'lying under oath'?",
+      "startOfAnswer": "Perjury",
+      "keyWord": "KEYWORD",
+      "type": "key-word-transformation",
+      "question": "Which of these terms describes 'lying under oath'? (KEYWORD)\n\nPerjury __________",
+      "correctAnswer": "",
       "explanation": "Perjurio.",
       "points": 1
     },
@@ -938,19 +988,22 @@ export const C2_U9_BLOCK10: Exercise = {
     {
       "id": "c2-u9-b10-q7",
       "type": "key-word-transformation",
+      "question": "They think the hacker is a teenager. (THOUGHT)\n\nThe hacker __________",
       "sentence": "They think the hacker is a teenager.",
       "keyWord": "THOUGHT",
       "startOfAnswer": "The hacker",
-      "correctAnswer": "The hacker is thought to be a teenager.",
+      "correctAnswer": "is thought to be a teenager",
       "explanation": "Pasiva personal.",
       "points": 1
     },
     {
       "id": "c2-u9-b10-q8",
-      "type": "multiple-choice",
-      "question": "What is 'at large'?",
-      "options": ["In prison", "Free and uncaptured", "Very big", "In court"],
-      "correctAnswer": "Free and uncaptured",
+      "sentence": "What does 'at large' mean?",
+      "startOfAnswer": "Free and uncaptured",
+      "keyWord": "KEYWORD",
+      "type": "key-word-transformation",
+      "question": "What does 'at large' mean? (KEYWORD)\n\nFree and uncaptured __________",
+      "correctAnswer": "",
       "explanation": "Fugitivo.",
       "points": 1
     },
@@ -964,10 +1017,12 @@ export const C2_U9_BLOCK10: Exercise = {
     },
     {
       "id": "c2-u9-b10-q10",
-      "type": "multiple-choice",
-      "question": "Which term describes 'written defamation'?",
-      "options": ["Slander", "Libel", "Homicide", "Assault"],
-      "correctAnswer": "Libel",
+      "sentence": "Which term describes 'written defamation'?",
+      "startOfAnswer": "Libel",
+      "keyWord": "KEYWORD",
+      "type": "key-word-transformation",
+      "question": "Which term describes 'written defamation'? (KEYWORD)\n\nLibel __________",
+      "correctAnswer": "",
       "explanation": "Difamación escrita.",
       "points": 1
     }
@@ -977,8 +1032,8 @@ export const C2_U9_BLOCK10: Exercise = {
 export const C2_UNIT_9 = createC2Unit(
   'c2-u9',
   'The Legal Landscape & Ethics',
-  'Explore the world of law and ethics while mastering advanced passive structures and complex legal terminology.',
-  ['Master complex passive structures and causatives', 'Use sensory verbs in the passive', 'Acquire advanced legal and ethical vocabulary', 'Understand formal legal expressions and idioms'],
+  'Advanced C2 unit exploring complex topics and formal language structures.',
+  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
   [
     C2_U9_BLOCK1,
     C2_U9_BLOCK2,

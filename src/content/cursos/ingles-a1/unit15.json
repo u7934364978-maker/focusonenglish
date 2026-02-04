@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'escritorio'?",
           "options": [
-            { "id": "o1", "text": "Desk" },
-            { "id": "o2", "text": "Table" },
-            { "id": "o3", "text": "Board" }
+            {
+              "id": "o1",
+              "text": "Desk"
+            },
+            {
+              "id": "o2",
+              "text": "Table"
+            },
+            {
+              "id": "o3",
+              "text": "Board"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'silla de oficina'?",
           "options": [
-            { "id": "o1", "text": "Office chair" },
-            { "id": "o2", "text": "Stool" },
-            { "id": "o3", "text": "Armchair" }
+            {
+              "id": "o1",
+              "text": "Office chair"
+            },
+            {
+              "id": "o2",
+              "text": "Stool"
+            },
+            {
+              "id": "o3",
+              "text": "Armchair"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ordenador portátil'?",
           "options": [
-            { "id": "o1", "text": "Laptop" },
-            { "id": "o2", "text": "Notebook computer" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Laptop"
+            },
+            {
+              "id": "o2",
+              "text": "Notebook computer"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'impresora'?",
           "options": [
-            { "id": "o1", "text": "Printer" },
-            { "id": "o2", "text": "Scanner" },
-            { "id": "o3", "text": "Copier" }
+            {
+              "id": "o1",
+              "text": "Printer"
+            },
+            {
+              "id": "o2",
+              "text": "Scanner"
+            },
+            {
+              "id": "o3",
+              "text": "Copier"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estantería' (para libros)?",
           "options": [
-            { "id": "o1", "text": "Bookshelf / Bookcase" },
-            { "id": "o2", "text": "Shelf" },
-            { "id": "o3", "text": "Wall rack" }
+            {
+              "id": "o1",
+              "text": "Bookshelf / Bookcase"
+            },
+            {
+              "id": "o2",
+              "text": "Shelf"
+            },
+            {
+              "id": "o3",
+              "text": "Wall rack"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'archivador'?",
           "options": [
-            { "id": "o1", "text": "Filing cabinet" },
-            { "id": "o2", "text": "Folder box" },
-            { "id": "o3", "text": "Paper store" }
+            {
+              "id": "o1",
+              "text": "Filing cabinet"
+            },
+            {
+              "id": "o2",
+              "text": "Folder box"
+            },
+            {
+              "id": "o3",
+              "text": "Paper store"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cajonera'?",
           "options": [
-            { "id": "o1", "text": "Chest of drawers / Drawers" },
-            { "id": "o2", "text": "Box" },
-            { "id": "o3", "text": "Closet" }
+            {
+              "id": "o1",
+              "text": "Chest of drawers / Drawers"
+            },
+            {
+              "id": "o2",
+              "text": "Box"
+            },
+            {
+              "id": "o3",
+              "text": "Closet"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pantalla / monitor'?",
           "options": [
-            { "id": "o1", "text": "Screen / Monitor" },
-            { "id": "o2", "text": "TV" },
-            { "id": "o3", "text": "Glass" }
+            {
+              "id": "o1",
+              "text": "Screen / Monitor"
+            },
+            {
+              "id": "o2",
+              "text": "TV"
+            },
+            {
+              "id": "o3",
+              "text": "Glass"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'teclado'?",
           "options": [
-            { "id": "o1", "text": "Keyboard" },
-            { "id": "o2", "text": "Keypad" },
-            { "id": "o3", "text": "Board" }
+            {
+              "id": "o1",
+              "text": "Keyboard"
+            },
+            {
+              "id": "o2",
+              "text": "Keypad"
+            },
+            {
+              "id": "o3",
+              "text": "Board"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ratón' (de ordenador)?",
           "options": [
-            { "id": "o1", "text": "Mouse" },
-            { "id": "o2", "text": "Rat" },
-            { "id": "o3", "text": "Pointer" }
+            {
+              "id": "o1",
+              "text": "Mouse"
+            },
+            {
+              "id": "o2",
+              "text": "Rat"
+            },
+            {
+              "id": "o3",
+              "text": "Pointer"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,9 +227,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lámpara de escritorio'?",
           "options": [
-            { "id": "o1", "text": "Desk lamp" },
-            { "id": "o2", "text": "Light" },
-            { "id": "o3", "text": "Bulb" }
+            {
+              "id": "o1",
+              "text": "Desk lamp"
+            },
+            {
+              "id": "o2",
+              "text": "Light"
+            },
+            {
+              "id": "o3",
+              "text": "Bulb"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -149,9 +248,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'papelera'?",
           "options": [
-            { "id": "o1", "text": "Wastepaper basket / Bin" },
-            { "id": "o2", "text": "Dustbin" },
-            { "id": "o3", "text": "Trash" }
+            {
+              "id": "o1",
+              "text": "Wastepaper basket / Bin"
+            },
+            {
+              "id": "o2",
+              "text": "Dustbin"
+            },
+            {
+              "id": "o3",
+              "text": "Trash"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -161,9 +269,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'escáner'?",
           "options": [
-            { "id": "o1", "text": "Scanner" },
-            { "id": "o2", "text": "Scan" },
-            { "id": "o3", "text": "Copy machine" }
+            {
+              "id": "o1",
+              "text": "Scanner"
+            },
+            {
+              "id": "o2",
+              "text": "Scan"
+            },
+            {
+              "id": "o3",
+              "text": "Copy machine"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -173,9 +290,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'altavoces'?",
           "options": [
-            { "id": "o1", "text": "Speakers" },
-            { "id": "o2", "text": "Spokesmen" },
-            { "id": "o3", "text": "Loud things" }
+            {
+              "id": "o1",
+              "text": "Speakers"
+            },
+            {
+              "id": "o2",
+              "text": "Spokesmen"
+            },
+            {
+              "id": "o3",
+              "text": "Loud things"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -185,9 +311,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'auriculares'?",
           "options": [
-            { "id": "o1", "text": "Headphones / Earphones" },
-            { "id": "o2", "text": "Hearing aids" },
-            { "id": "o3", "text": "Ear pieces" }
+            {
+              "id": "o1",
+              "text": "Headphones / Earphones"
+            },
+            {
+              "id": "o2",
+              "text": "Hearing aids"
+            },
+            {
+              "id": "o3",
+              "text": "Ear pieces"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -197,11 +332,27 @@
           "type": "matching",
           "prompt_es": "Une el equipo con su función:",
           "pairs": [
-            { "id": "p1", "left": "Printer", "right": "Makes paper copies" },
-            { "id": "p2", "left": "Keyboard", "right": "Used for typing" },
-            { "id": "p3", "left": "Screen", "right": "Displays images" }
+            {
+              "id": "p1",
+              "left": "Printer",
+              "right": "Makes paper copies"
+            },
+            {
+              "id": "p2",
+              "left": "Keyboard",
+              "right": "Used for typing"
+            },
+            {
+              "id": "p3",
+              "left": "Screen",
+              "right": "Displays images"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -209,11 +360,27 @@
           "type": "matching",
           "prompt_es": "Une el mueble con su nombre:",
           "pairs": [
-            { "id": "p1", "left": "Bookshelf", "right": "Estantería" },
-            { "id": "p2", "left": "Drawers", "right": "Cajones" },
-            { "id": "p3", "left": "Cabinet", "right": "Armario/Archivador" }
+            {
+              "id": "p1",
+              "left": "Bookshelf",
+              "right": "Estantería"
+            },
+            {
+              "id": "p2",
+              "left": "Drawers",
+              "right": "Cajones"
+            },
+            {
+              "id": "p3",
+              "left": "Cabinet",
+              "right": "Armario/Archivador"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -245,9 +412,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pizarra blanca'?",
           "options": [
-            { "id": "o1", "text": "Whiteboard" },
-            { "id": "o2", "text": "Blackboard" },
-            { "id": "o3", "text": "Noticeboard" }
+            {
+              "id": "o1",
+              "text": "Whiteboard"
+            },
+            {
+              "id": "o2",
+              "text": "Blackboard"
+            },
+            {
+              "id": "o3",
+              "text": "Noticeboard"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -257,9 +433,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'calendario'?",
           "options": [
-            { "id": "o1", "text": "Calendar" },
-            { "id": "o2", "text": "Schedule" },
-            { "id": "o3", "text": "Agenda" }
+            {
+              "id": "o1",
+              "text": "Calendar"
+            },
+            {
+              "id": "o2",
+              "text": "Schedule"
+            },
+            {
+              "id": "o3",
+              "text": "Agenda"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -269,9 +454,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reloj de pared'?",
           "options": [
-            { "id": "o1", "text": "Clock" },
-            { "id": "o2", "text": "Watch" },
-            { "id": "o3", "text": "Timer" }
+            {
+              "id": "o1",
+              "text": "Clock"
+            },
+            {
+              "id": "o2",
+              "text": "Watch"
+            },
+            {
+              "id": "o3",
+              "text": "Timer"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -281,9 +475,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'enchufes'?",
           "options": [
-            { "id": "o1", "text": "Sockets / Outlets" },
-            { "id": "o2", "text": "Plugs" },
-            { "id": "o3", "text": "Cables" }
+            {
+              "id": "o1",
+              "text": "Sockets / Outlets"
+            },
+            {
+              "id": "o2",
+              "text": "Plugs"
+            },
+            {
+              "id": "o3",
+              "text": "Cables"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -293,9 +496,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'conexión a internet'?",
           "options": [
-            { "id": "o1", "text": "Internet connection / Wi-Fi" },
-            { "id": "o2", "text": "Net link" },
-            { "id": "o3", "text": "Web cable" }
+            {
+              "id": "o1",
+              "text": "Internet connection / Wi-Fi"
+            },
+            {
+              "id": "o2",
+              "text": "Net link"
+            },
+            {
+              "id": "o3",
+              "text": "Web cable"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -311,9 +523,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bolígrafo'?",
           "options": [
-            { "id": "o1", "text": "Pen" },
-            { "id": "o2", "text": "Pencil" },
-            { "id": "o3", "text": "Marker" }
+            {
+              "id": "o1",
+              "text": "Pen"
+            },
+            {
+              "id": "o2",
+              "text": "Pencil"
+            },
+            {
+              "id": "o3",
+              "text": "Marker"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -323,9 +544,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lápiz'?",
           "options": [
-            { "id": "o1", "text": "Pencil" },
-            { "id": "o2", "text": "Pen" },
-            { "id": "o3", "text": "Crayon" }
+            {
+              "id": "o1",
+              "text": "Pencil"
+            },
+            {
+              "id": "o2",
+              "text": "Pen"
+            },
+            {
+              "id": "o3",
+              "text": "Crayon"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -335,9 +565,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cuaderno'?",
           "options": [
-            { "id": "o1", "text": "Notebook" },
-            { "id": "o2", "text": "Textbook" },
-            { "id": "o3", "text": "Journal" }
+            {
+              "id": "o1",
+              "text": "Notebook"
+            },
+            {
+              "id": "o2",
+              "text": "Textbook"
+            },
+            {
+              "id": "o3",
+              "text": "Journal"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -347,9 +586,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'carpeta'?",
           "options": [
-            { "id": "o1", "text": "Folder / Binder" },
-            { "id": "o2", "text": "Carpet" },
-            { "id": "o3", "text": "File" }
+            {
+              "id": "o1",
+              "text": "Folder / Binder"
+            },
+            {
+              "id": "o2",
+              "text": "Carpet"
+            },
+            {
+              "id": "o3",
+              "text": "File"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -359,9 +607,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'grapadora'?",
           "options": [
-            { "id": "o1", "text": "Stapler" },
-            { "id": "o2", "text": "Puncher" },
-            { "id": "o3", "text": "Clipper" }
+            {
+              "id": "o1",
+              "text": "Stapler"
+            },
+            {
+              "id": "o2",
+              "text": "Puncher"
+            },
+            {
+              "id": "o3",
+              "text": "Clipper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -371,9 +628,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tijeras'?",
           "options": [
-            { "id": "o1", "text": "Scissors" },
-            { "id": "o2", "text": "Knife" },
-            { "id": "o3", "text": "Cutter" }
+            {
+              "id": "o1",
+              "text": "Scissors"
+            },
+            {
+              "id": "o2",
+              "text": "Knife"
+            },
+            {
+              "id": "o3",
+              "text": "Cutter"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -383,9 +649,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'regla'?",
           "options": [
-            { "id": "o1", "text": "Ruler" },
-            { "id": "o2", "text": "Measure" },
-            { "id": "o3", "text": "Scale" }
+            {
+              "id": "o1",
+              "text": "Ruler"
+            },
+            {
+              "id": "o2",
+              "text": "Measure"
+            },
+            {
+              "id": "o3",
+              "text": "Scale"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -395,9 +670,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'goma de borrar'?",
           "options": [
-            { "id": "o1", "text": "Eraser (US) / Rubber (UK)" },
-            { "id": "o2", "text": "Gum" },
-            { "id": "o3", "text": "Cleaner" }
+            {
+              "id": "o1",
+              "text": "Eraser (US) / Rubber (UK)"
+            },
+            {
+              "id": "o2",
+              "text": "Gum"
+            },
+            {
+              "id": "o3",
+              "text": "Cleaner"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -407,9 +691,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sacapuntas'?",
           "options": [
-            { "id": "o1", "text": "Pencil sharpener" },
-            { "id": "o2", "text": "Pencil cutter" },
-            { "id": "o3", "text": "Point maker" }
+            {
+              "id": "o1",
+              "text": "Pencil sharpener"
+            },
+            {
+              "id": "o2",
+              "text": "Pencil cutter"
+            },
+            {
+              "id": "o3",
+              "text": "Point maker"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -419,9 +712,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pegamento'?",
           "options": [
-            { "id": "o1", "text": "Glue" },
-            { "id": "o2", "text": "Tape" },
-            { "id": "o3", "text": "Sticky" }
+            {
+              "id": "o1",
+              "text": "Glue"
+            },
+            {
+              "id": "o2",
+              "text": "Tape"
+            },
+            {
+              "id": "o3",
+              "text": "Sticky"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -431,9 +733,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cinta adhesiva'?",
           "options": [
-            { "id": "o1", "text": "Tape / Sellotape" },
-            { "id": "o2", "text": "Glue strip" },
-            { "id": "o3", "text": "Band" }
+            {
+              "id": "o1",
+              "text": "Tape / Sellotape"
+            },
+            {
+              "id": "o2",
+              "text": "Glue strip"
+            },
+            {
+              "id": "o3",
+              "text": "Band"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -443,9 +754,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'clips'?",
           "options": [
-            { "id": "o1", "text": "Paperclips" },
-            { "id": "o2", "text": "Fasteners" },
-            { "id": "o3", "text": "Hooks" }
+            {
+              "id": "o1",
+              "text": "Paperclips"
+            },
+            {
+              "id": "o2",
+              "text": "Fasteners"
+            },
+            {
+              "id": "o3",
+              "text": "Hooks"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -455,9 +775,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sobres'?",
           "options": [
-            { "id": "o1", "text": "Envelopes" },
-            { "id": "o2", "text": "Letters" },
-            { "id": "o3", "text": "Packets" }
+            {
+              "id": "o1",
+              "text": "Envelopes"
+            },
+            {
+              "id": "o2",
+              "text": "Letters"
+            },
+            {
+              "id": "o3",
+              "text": "Packets"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -467,9 +796,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sellos'?",
           "options": [
-            { "id": "o1", "text": "Stamps" },
-            { "id": "o2", "text": "Stickies" },
-            { "id": "o3", "text": "Marks" }
+            {
+              "id": "o1",
+              "text": "Stamps"
+            },
+            {
+              "id": "o2",
+              "text": "Stickies"
+            },
+            {
+              "id": "o3",
+              "text": "Marks"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -479,9 +817,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'calculadora'?",
           "options": [
-            { "id": "o1", "text": "Calculator" },
-            { "id": "o2", "text": "Computer" },
-            { "id": "o3", "text": "Math machine" }
+            {
+              "id": "o1",
+              "text": "Calculator"
+            },
+            {
+              "id": "o2",
+              "text": "Computer"
+            },
+            {
+              "id": "o3",
+              "text": "Math machine"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -491,11 +838,27 @@
           "type": "matching",
           "prompt_es": "Une el objeto con su nombre:",
           "pairs": [
-            { "id": "p1", "left": "Stapler", "right": "Grapadora" },
-            { "id": "p2", "left": "Ruler", "right": "Regla" },
-            { "id": "p3", "left": "Eraser", "right": "Goma" }
+            {
+              "id": "p1",
+              "left": "Stapler",
+              "right": "Grapadora"
+            },
+            {
+              "id": "p2",
+              "left": "Ruler",
+              "right": "Regla"
+            },
+            {
+              "id": "p3",
+              "left": "Eraser",
+              "right": "Goma"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -503,11 +866,27 @@
           "type": "matching",
           "prompt_es": "Une los materiales de escritura:",
           "pairs": [
-            { "id": "p1", "left": "Highlighter", "right": "Subrayador" },
-            { "id": "p2", "left": "Marker", "right": "Rotulador" },
-            { "id": "p3", "left": "Chalk", "right": "Tiza" }
+            {
+              "id": "p1",
+              "left": "Highlighter",
+              "right": "Subrayador"
+            },
+            {
+              "id": "p2",
+              "left": "Marker",
+              "right": "Rotulador"
+            },
+            {
+              "id": "p3",
+              "left": "Chalk",
+              "right": "Tiza"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -555,9 +934,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'notas adhesivas'?",
           "options": [
-            { "id": "o1", "text": "Sticky notes / Post-its" },
-            { "id": "o2", "text": "Glue papers" },
-            { "id": "o3", "text": "Yellow notes" }
+            {
+              "id": "o1",
+              "text": "Sticky notes / Post-its"
+            },
+            {
+              "id": "o2",
+              "text": "Glue papers"
+            },
+            {
+              "id": "o3",
+              "text": "Yellow notes"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -567,9 +955,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estuche'?",
           "options": [
-            { "id": "o1", "text": "Pencil case" },
-            { "id": "o2", "text": "Pen box" },
-            { "id": "o3", "text": "Tool bag" }
+            {
+              "id": "o1",
+              "text": "Pencil case"
+            },
+            {
+              "id": "o2",
+              "text": "Pen box"
+            },
+            {
+              "id": "o3",
+              "text": "Tool bag"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -579,9 +976,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mochila'?",
           "options": [
-            { "id": "o1", "text": "Backpack / Rucksack" },
-            { "id": "o2", "text": "Suitcase" },
-            { "id": "o3", "text": "Handbag" }
+            {
+              "id": "o1",
+              "text": "Backpack / Rucksack"
+            },
+            {
+              "id": "o2",
+              "text": "Suitcase"
+            },
+            {
+              "id": "o3",
+              "text": "Handbag"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -597,9 +1003,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'escribir a máquina / teclear'?",
           "options": [
-            { "id": "o1", "text": "To type" },
-            { "id": "o2", "text": "To write" },
-            { "id": "o3", "text": "To click" }
+            {
+              "id": "o1",
+              "text": "To type"
+            },
+            {
+              "id": "o2",
+              "text": "To write"
+            },
+            {
+              "id": "o3",
+              "text": "To click"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -609,9 +1024,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'imprimir'?",
           "options": [
-            { "id": "o1", "text": "To print" },
-            { "id": "o2", "text": "To copy" },
-            { "id": "o3", "text": "To scan" }
+            {
+              "id": "o1",
+              "text": "To print"
+            },
+            {
+              "id": "o2",
+              "text": "To copy"
+            },
+            {
+              "id": "o3",
+              "text": "To scan"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -621,9 +1045,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'llamar por teléfono'?",
           "options": [
-            { "id": "o1", "text": "To call / To phone" },
-            { "id": "o2", "text": "To talk" },
-            { "id": "o3", "text": "To listen" }
+            {
+              "id": "o1",
+              "text": "To call / To phone"
+            },
+            {
+              "id": "o2",
+              "text": "To talk"
+            },
+            {
+              "id": "o3",
+              "text": "To listen"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -633,9 +1066,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'enviar un correo electrónico'?",
           "options": [
-            { "id": "o1", "text": "To send an email" },
-            { "id": "o2", "text": "To write a letter" },
-            { "id": "o3", "text": "To post a mail" }
+            {
+              "id": "o1",
+              "text": "To send an email"
+            },
+            {
+              "id": "o2",
+              "text": "To write a letter"
+            },
+            {
+              "id": "o3",
+              "text": "To post a mail"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -645,9 +1087,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'organizar documentos'?",
           "options": [
-            { "id": "o1", "text": "To organize / To file" },
-            { "id": "o2", "text": "To clean" },
-            { "id": "o3", "text": "To keep" }
+            {
+              "id": "o1",
+              "text": "To organize / To file"
+            },
+            {
+              "id": "o2",
+              "text": "To clean"
+            },
+            {
+              "id": "o3",
+              "text": "To keep"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -657,9 +1108,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'asistir a una reunión'?",
           "options": [
-            { "id": "o1", "text": "To attend a meeting" },
-            { "id": "o2", "text": "To be in a meeting" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "To attend a meeting"
+            },
+            {
+              "id": "o2",
+              "text": "To be in a meeting"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -669,9 +1129,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tomar notas'?",
           "options": [
-            { "id": "o1", "text": "To take notes" },
-            { "id": "o2", "text": "To make notes" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "To take notes"
+            },
+            {
+              "id": "o2",
+              "text": "To make notes"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -681,9 +1150,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estudiar'?",
           "options": [
-            { "id": "o1", "text": "To study" },
-            { "id": "o2", "text": "To learn" },
-            { "id": "o3", "text": "To read" }
+            {
+              "id": "o1",
+              "text": "To study"
+            },
+            {
+              "id": "o2",
+              "text": "To learn"
+            },
+            {
+              "id": "o3",
+              "text": "To read"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -693,9 +1171,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'revisar'?",
           "options": [
-            { "id": "o1", "text": "To check / To review" },
-            { "id": "o2", "text": "To look" },
-            { "id": "o3", "text": "To see" }
+            {
+              "id": "o1",
+              "text": "To check / To review"
+            },
+            {
+              "id": "o2",
+              "text": "To look"
+            },
+            {
+              "id": "o3",
+              "text": "To see"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -705,9 +1192,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'descargar un archivo'?",
           "options": [
-            { "id": "o1", "text": "To download a file" },
-            { "id": "o2", "text": "To upload a file" },
-            { "id": "o3", "text": "To save a file" }
+            {
+              "id": "o1",
+              "text": "To download a file"
+            },
+            {
+              "id": "o2",
+              "text": "To upload a file"
+            },
+            {
+              "id": "o3",
+              "text": "To save a file"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -717,9 +1213,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'subir un archivo'?",
           "options": [
-            { "id": "o1", "text": "To upload" },
-            { "id": "o2", "text": "To download" },
-            { "id": "o3", "text": "To post" }
+            {
+              "id": "o1",
+              "text": "To upload"
+            },
+            {
+              "id": "o2",
+              "text": "To download"
+            },
+            {
+              "id": "o3",
+              "text": "To post"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -729,9 +1234,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'guardar'?",
           "options": [
-            { "id": "o1", "text": "To save" },
-            { "id": "o2", "text": "To delete" },
-            { "id": "o3", "text": "To exit" }
+            {
+              "id": "o1",
+              "text": "To save"
+            },
+            {
+              "id": "o2",
+              "text": "To delete"
+            },
+            {
+              "id": "o3",
+              "text": "To exit"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -741,9 +1255,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'borrar / eliminar'?",
           "options": [
-            { "id": "o1", "text": "To delete / To erase" },
-            { "id": "o2", "text": "To keep" },
-            { "id": "o3", "text": "To put" }
+            {
+              "id": "o1",
+              "text": "To delete / To erase"
+            },
+            {
+              "id": "o2",
+              "text": "To keep"
+            },
+            {
+              "id": "o3",
+              "text": "To put"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -753,9 +1276,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'copiar y pegar'?",
           "options": [
-            { "id": "o1", "text": "Copy and paste" },
-            { "id": "o2", "text": "Cut and move" },
-            { "id": "o3", "text": "Double and stick" }
+            {
+              "id": "o1",
+              "text": "Copy and paste"
+            },
+            {
+              "id": "o2",
+              "text": "Cut and move"
+            },
+            {
+              "id": "o3",
+              "text": "Double and stick"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -765,9 +1297,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hacer clic'?",
           "options": [
-            { "id": "o1", "text": "To click" },
-            { "id": "o2", "text": "To press" },
-            { "id": "o3", "text": "To touch" }
+            {
+              "id": "o1",
+              "text": "To click"
+            },
+            {
+              "id": "o2",
+              "text": "To press"
+            },
+            {
+              "id": "o3",
+              "text": "To touch"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -801,11 +1342,24 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'yo envío correos electrónicos'",
           "options": [
-            { "id": "w1", "text": "send" },
-            { "id": "w2", "text": "emails" },
-            { "id": "w3", "text": "I" }
+            {
+              "id": "w1",
+              "text": "send"
+            },
+            {
+              "id": "w2",
+              "text": "emails"
+            },
+            {
+              "id": "w3",
+              "text": "I"
+            }
           ],
-          "correct_answer": ["w3", "w1", "w2"],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -813,12 +1367,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'mi ratón no funciona'",
           "options": [
-            { "id": "w1", "text": "work" },
-            { "id": "w2", "text": "My" },
-            { "id": "w3", "text": "doesn't" },
-            { "id": "w4", "text": "mouse" }
+            {
+              "id": "w1",
+              "text": "work"
+            },
+            {
+              "id": "w2",
+              "text": "My"
+            },
+            {
+              "id": "w3",
+              "text": "doesn't"
+            },
+            {
+              "id": "w4",
+              "text": "mouse"
+            }
           ],
-          "correct_answer": ["w2", "w4", "w3", "w1"],
+          "correct_answer": [
+            "w2",
+            "w4",
+            "w3",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -826,9 +1397,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estar ocupado'?",
           "options": [
-            { "id": "o1", "text": "To be busy" },
-            { "id": "o2", "text": "To be free" },
-            { "id": "o3", "text": "To be working" }
+            {
+              "id": "o1",
+              "text": "To be busy"
+            },
+            {
+              "id": "o2",
+              "text": "To be free"
+            },
+            {
+              "id": "o3",
+              "text": "To be working"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -838,9 +1418,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tener un descanso'?",
           "options": [
-            { "id": "o1", "text": "To have a break" },
-            { "id": "o2", "text": "To stop work" },
-            { "id": "o3", "text": "To rest" }
+            {
+              "id": "o1",
+              "text": "To have a break"
+            },
+            {
+              "id": "o2",
+              "text": "To stop work"
+            },
+            {
+              "id": "o3",
+              "text": "To rest"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -850,9 +1439,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'almorzar en el escritorio'?",
           "options": [
-            { "id": "o1", "text": "To have lunch at the desk" },
-            { "id": "o2", "text": "To eat in the table" },
-            { "id": "o3", "text": "To lunch here" }
+            {
+              "id": "o1",
+              "text": "To have lunch at the desk"
+            },
+            {
+              "id": "o2",
+              "text": "To eat in the table"
+            },
+            {
+              "id": "o3",
+              "text": "To lunch here"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -862,9 +1460,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'trabajar desde casa'?",
           "options": [
-            { "id": "o1", "text": "To work from home" },
-            { "id": "o2", "text": "To work at home" },
-            { "id": "o3", "text": "To stay home" }
+            {
+              "id": "o1",
+              "text": "To work from home"
+            },
+            {
+              "id": "o2",
+              "text": "To work at home"
+            },
+            {
+              "id": "o3",
+              "text": "To stay home"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -874,9 +1481,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'teletrabajo'?",
           "options": [
-            { "id": "o1", "text": "Teleworking / Remote work" },
-            { "id": "o2", "text": "Distance job" },
-            { "id": "o3", "text": "Far work" }
+            {
+              "id": "o1",
+              "text": "Teleworking / Remote work"
+            },
+            {
+              "id": "o2",
+              "text": "Distance job"
+            },
+            {
+              "id": "o3",
+              "text": "Far work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -891,31 +1507,138 @@
           "interaction_id": "U15_I76",
           "type": "word-search",
           "prompt_es": "Encuentra objetos de oficina:",
-          "words": ["DESK", "CHAIR", "LAPTOP", "PRINTER", "PEN", "FOLDER", "STAPLER", "MOUSE", "PAPER", "EMAIL"],
+          "words": [
+            "DESK",
+            "CHAIR",
+            "LAPTOP",
+            "PRINTER",
+            "PEN",
+            "FOLDER",
+            "STAPLER",
+            "MOUSE",
+            "PAPER",
+            "EMAIL"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "DESK", "clue": "Escritorio" },
-            { "word": "CHAIR", "clue": "Silla" },
-            { "word": "LAPTOP", "clue": "Portátil" },
-            { "word": "PRINTER", "clue": "Impresora" },
-            { "word": "PEN", "clue": "Bolígrafo" },
-            { "word": "FOLDER", "clue": "Carpeta" },
-            { "word": "STAPLER", "clue": "Grapadora" },
-            { "word": "MOUSE", "clue": "Ratón" },
-            { "word": "PAPER", "clue": "Papel" },
-            { "word": "EMAIL", "clue": "Correo" }
+            {
+              "word": "DESK",
+              "clue": "Escritorio"
+            },
+            {
+              "word": "CHAIR",
+              "clue": "Silla"
+            },
+            {
+              "word": "LAPTOP",
+              "clue": "Portátil"
+            },
+            {
+              "word": "PRINTER",
+              "clue": "Impresora"
+            },
+            {
+              "word": "PEN",
+              "clue": "Bolígrafo"
+            },
+            {
+              "word": "FOLDER",
+              "clue": "Carpeta"
+            },
+            {
+              "word": "STAPLER",
+              "clue": "Grapadora"
+            },
+            {
+              "word": "MOUSE",
+              "clue": "Ratón"
+            },
+            {
+              "word": "PAPER",
+              "clue": "Papel"
+            },
+            {
+              "word": "EMAIL",
+              "clue": "Correo"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de estudio/trabajo:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "KEYBOARD", "clue": "You use this to type", "direction": "down", "row": 0, "col": 0 },
-            { "word": "SCREEN", "clue": "Where you see images on a PC", "direction": "across", "row": 0, "col": 0 },
-            { "word": "FILE", "clue": "A document on a computer", "direction": "across", "row": 3, "col": 0 },
-            { "word": "PEN", "clue": "Writes with ink", "direction": "down", "row": 3, "col": 2 }
+            {
+              "word": "DISTRACTIONS",
+              "clue": "Traducción de: distracciones",
+              "direction": "across",
+              "row": 10,
+              "col": 4
+            },
+            {
+              "word": "COMFORTABLE",
+              "clue": "Traducción de: cómodo",
+              "direction": "down",
+              "row": 9,
+              "col": 13
+            },
+            {
+              "word": "CALCULATOR",
+              "clue": "Traducción de: calculadora",
+              "direction": "down",
+              "row": 3,
+              "col": 7
+            },
+            {
+              "word": "BOOKSHELF",
+              "clue": "Traducción de: Estantería",
+              "direction": "across",
+              "row": 18,
+              "col": 6
+            },
+            {
+              "word": "NOTEBOOK",
+              "clue": "Traducción de: cuaderno",
+              "direction": "across",
+              "row": 15,
+              "col": 11
+            },
+            {
+              "word": "PRINTER",
+              "clue": "Traducción de: Makes paper copies",
+              "direction": "down",
+              "row": 6,
+              "col": 11
+            },
+            {
+              "word": "CABINET",
+              "clue": "Traducción de: Armario/Archivador",
+              "direction": "down",
+              "row": 9,
+              "col": 9
+            },
+            {
+              "word": "SUCCESS",
+              "clue": "Traducción de: éxito",
+              "direction": "down",
+              "row": 4,
+              "col": 15
+            },
+            {
+              "word": "ATTEND",
+              "clue": "Traducción de: A meeting",
+              "direction": "down",
+              "row": 5,
+              "col": 4
+            },
+            {
+              "word": "CHALK",
+              "clue": "Traducción de: Tiza",
+              "direction": "across",
+              "row": 6,
+              "col": 15
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -924,11 +1647,27 @@
           "type": "matching",
           "prompt_es": "Une las acciones:",
           "pairs": [
-            { "id": "p1", "left": "Attend", "right": "A meeting" },
-            { "id": "p2", "left": "Send", "right": "An email" },
-            { "id": "p3", "left": "Print", "right": "A document" }
+            {
+              "id": "p1",
+              "left": "Attend",
+              "right": "A meeting"
+            },
+            {
+              "id": "p2",
+              "left": "Send",
+              "right": "An email"
+            },
+            {
+              "id": "p3",
+              "left": "Print",
+              "right": "A document"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -952,9 +1691,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'iluminación'?",
           "options": [
-            { "id": "o1", "text": "Lighting" },
-            { "id": "o2", "text": "Lightness" },
-            { "id": "o3", "text": "Lamps" }
+            {
+              "id": "o1",
+              "text": "Lighting"
+            },
+            {
+              "id": "o2",
+              "text": "Lightness"
+            },
+            {
+              "id": "o3",
+              "text": "Lamps"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -964,9 +1712,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'espacio de trabajo'?",
           "options": [
-            { "id": "o1", "text": "Workspace" },
-            { "id": "o2", "text": "Workroom" },
-            { "id": "o3", "text": "Workplace" }
+            {
+              "id": "o1",
+              "text": "Workspace"
+            },
+            {
+              "id": "o2",
+              "text": "Workroom"
+            },
+            {
+              "id": "o3",
+              "text": "Workplace"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -976,9 +1733,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cómodo'?",
           "options": [
-            { "id": "o1", "text": "Comfortable" },
-            { "id": "o2", "text": "Uncomfortable" },
-            { "id": "o3", "text": "Easy" }
+            {
+              "id": "o1",
+              "text": "Comfortable"
+            },
+            {
+              "id": "o2",
+              "text": "Uncomfortable"
+            },
+            {
+              "id": "o3",
+              "text": "Easy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -988,9 +1754,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'incómodo'?",
           "options": [
-            { "id": "o1", "text": "Uncomfortable" },
-            { "id": "o2", "text": "Comfortable" },
-            { "id": "o3", "text": "Bad" }
+            {
+              "id": "o1",
+              "text": "Uncomfortable"
+            },
+            {
+              "id": "o2",
+              "text": "Comfortable"
+            },
+            {
+              "id": "o3",
+              "text": "Bad"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1000,9 +1775,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ordenado'?",
           "options": [
-            { "id": "o1", "text": "Tidy / Organized" },
-            { "id": "o2", "text": "Messy" },
-            { "id": "o3", "text": "Clean" }
+            {
+              "id": "o1",
+              "text": "Tidy / Organized"
+            },
+            {
+              "id": "o2",
+              "text": "Messy"
+            },
+            {
+              "id": "o3",
+              "text": "Clean"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1012,9 +1796,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'desordenado'?",
           "options": [
-            { "id": "o1", "text": "Messy / Untidy" },
-            { "id": "o2", "text": "Tidy" },
-            { "id": "o3", "text": "Dirty" }
+            {
+              "id": "o1",
+              "text": "Messy / Untidy"
+            },
+            {
+              "id": "o2",
+              "text": "Tidy"
+            },
+            {
+              "id": "o3",
+              "text": "Dirty"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1024,9 +1817,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'silencioso'?",
           "options": [
-            { "id": "o1", "text": "Quiet / Silent" },
-            { "id": "o2", "text": "Noisy" },
-            { "id": "o3", "text": "Loud" }
+            {
+              "id": "o1",
+              "text": "Quiet / Silent"
+            },
+            {
+              "id": "o2",
+              "text": "Noisy"
+            },
+            {
+              "id": "o3",
+              "text": "Loud"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1036,9 +1838,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'productivo'?",
           "options": [
-            { "id": "o1", "text": "Productive" },
-            { "id": "o2", "text": "Effective" },
-            { "id": "o3", "text": "Busy" }
+            {
+              "id": "o1",
+              "text": "Productive"
+            },
+            {
+              "id": "o2",
+              "text": "Effective"
+            },
+            {
+              "id": "o3",
+              "text": "Busy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1048,9 +1859,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'concentrarse'?",
           "options": [
-            { "id": "o1", "text": "To concentrate / To focus" },
-            { "id": "o2", "text": "To think" },
-            { "id": "o3", "text": "To work" }
+            {
+              "id": "o1",
+              "text": "To concentrate / To focus"
+            },
+            {
+              "id": "o2",
+              "text": "To think"
+            },
+            {
+              "id": "o3",
+              "text": "To work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1060,9 +1880,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'distracciones'?",
           "options": [
-            { "id": "o1", "text": "Distractions" },
-            { "id": "o2", "text": "Noises" },
-            { "id": "o3", "text": "Problems" }
+            {
+              "id": "o1",
+              "text": "Distractions"
+            },
+            {
+              "id": "o2",
+              "text": "Noises"
+            },
+            {
+              "id": "o3",
+              "text": "Problems"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1072,9 +1901,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fecha límite / plazo'?",
           "options": [
-            { "id": "o1", "text": "Deadline" },
-            { "id": "o2", "text": "Finish date" },
-            { "id": "o3", "text": "Time limit" }
+            {
+              "id": "o1",
+              "text": "Deadline"
+            },
+            {
+              "id": "o2",
+              "text": "Finish date"
+            },
+            {
+              "id": "o3",
+              "text": "Time limit"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1084,9 +1922,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'proyecto'?",
           "options": [
-            { "id": "o1", "text": "Project" },
-            { "id": "o2", "text": "Work" },
-            { "id": "o3", "text": "Job" }
+            {
+              "id": "o1",
+              "text": "Project"
+            },
+            {
+              "id": "o2",
+              "text": "Work"
+            },
+            {
+              "id": "o3",
+              "text": "Job"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1096,9 +1943,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tarea'?",
           "options": [
-            { "id": "o1", "text": "Task / Assignment" },
-            { "id": "o2", "text": "Work" },
-            { "id": "o3", "text": "Thing" }
+            {
+              "id": "o1",
+              "text": "Task / Assignment"
+            },
+            {
+              "id": "o2",
+              "text": "Work"
+            },
+            {
+              "id": "o3",
+              "text": "Thing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1108,9 +1964,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'objetivo'?",
           "options": [
-            { "id": "o1", "text": "Goal / Objective" },
-            { "id": "o2", "text": "Plan" },
-            { "id": "o3", "text": "End" }
+            {
+              "id": "o1",
+              "text": "Goal / Objective"
+            },
+            {
+              "id": "o2",
+              "text": "Plan"
+            },
+            {
+              "id": "o3",
+              "text": "End"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1120,9 +1985,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'éxito'?",
           "options": [
-            { "id": "o1", "text": "Success" },
-            { "id": "o2", "text": "Exit" },
-            { "id": "o3", "text": "Win" }
+            {
+              "id": "o1",
+              "text": "Success"
+            },
+            {
+              "id": "o2",
+              "text": "Exit"
+            },
+            {
+              "id": "o3",
+              "text": "Win"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1132,9 +2006,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'trabajo duro'?",
           "options": [
-            { "id": "o1", "text": "Hard work" },
-            { "id": "o2", "text": "Difficult work" },
-            { "id": "o3", "text": "Much work" }
+            {
+              "id": "o1",
+              "text": "Hard work"
+            },
+            {
+              "id": "o2",
+              "text": "Difficult work"
+            },
+            {
+              "id": "o3",
+              "text": "Much work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1144,9 +2027,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'descansar'?",
           "options": [
-            { "id": "o1", "text": "To rest / To take a break" },
-            { "id": "o2", "text": "To stop" },
-            { "id": "o3", "text": "To sleep" }
+            {
+              "id": "o1",
+              "text": "To rest / To take a break"
+            },
+            {
+              "id": "o2",
+              "text": "To stop"
+            },
+            {
+              "id": "o3",
+              "text": "To sleep"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1156,9 +2048,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cafetera'?",
           "options": [
-            { "id": "o1", "text": "Coffee machine" },
-            { "id": "o2", "text": "Coffee maker" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Coffee machine"
+            },
+            {
+              "id": "o2",
+              "text": "Coffee maker"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -1168,9 +2069,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hacer una pausa para el café'?",
           "options": [
-            { "id": "o1", "text": "To have a coffee break" },
-            { "id": "o2", "text": "To take coffee" },
-            { "id": "o3", "text": "To coffee time" }
+            {
+              "id": "o1",
+              "text": "To have a coffee break"
+            },
+            {
+              "id": "o2",
+              "text": "To take coffee"
+            },
+            {
+              "id": "o3",
+              "text": "To coffee time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1180,9 +2090,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'apagar el ordenador'?",
           "options": [
-            { "id": "o1", "text": "To turn off / shut down the computer" },
-            { "id": "o2", "text": "To close computer" },
-            { "id": "o3", "text": "To exit computer" }
+            {
+              "id": "o1",
+              "text": "To turn off / shut down the computer"
+            },
+            {
+              "id": "o2",
+              "text": "To close computer"
+            },
+            {
+              "id": "o3",
+              "text": "To exit computer"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"

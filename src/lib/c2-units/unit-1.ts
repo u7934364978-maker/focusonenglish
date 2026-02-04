@@ -33,10 +33,11 @@ export const C2_U1_BLOCK1: Exercise = {
     {
       "id": "c2-u1-b1-q3",
       "type": "key-word-transformation",
+      "question": "He displays remarkable fascination with the complexities of human nature. (UTTERLY)\n\nHe is utterly fascinated __________",
       "sentence": "He displays remarkable fascination with the complexities of human nature.",
       "keyWord": "utterly",
       "startOfAnswer": "He is utterly fascinated",
-      "correctAnswer": "He is utterly fascinated by the complexities of human nature.",
+      "correctAnswer": "by the complexities of human nature",
       "explanation": "El uso de 'utterly' intensifica el grado de fascinación más allá de lo normal.",
       "points": 1
     },
@@ -65,10 +66,11 @@ export const C2_U1_BLOCK1: Exercise = {
     {
       "id": "c2-u1-b1-q6",
       "type": "key-word-transformation",
+      "question": "She demonstrates an extraordinary level of empathy towards others. (PROFOUNDLY)\n\nShe is profoundly empathetic __________",
       "sentence": "She demonstrates an extraordinary level of empathy towards others.",
       "keyWord": "profoundly",
       "startOfAnswer": "She is profoundly empathetic",
-      "correctAnswer": "She is profoundly empathetic towards others.",
+      "correctAnswer": "to others",
       "explanation": "'Profoundly' intensifica el adjetivo, indicando un nivel muy alto de empatía.",
       "points": 1
     },
@@ -97,10 +99,11 @@ export const C2_U1_BLOCK1: Exercise = {
     {
       "id": "c2-u1-b1-q9",
       "type": "key-word-transformation",
+      "question": "His attention to detail is of an exceptional standard. (METICULOUSLY)\n\nHe meticulously attends __________",
       "sentence": "His attention to detail is of an exceptional standard.",
       "keyWord": "meticulously",
       "startOfAnswer": "He meticulously attends",
-      "correctAnswer": "He meticulously attends to detail.",
+      "correctAnswer": "to detail",
       "explanation": "El uso de 'meticulously' enfatiza la precisión y cuidado exhaustivo.",
       "points": 1
     },
@@ -152,10 +155,11 @@ export const C2_U1_BLOCK2: Exercise = {
     {
       "id": "c2-u1-b2-q3",
       "type": "key-word-transformation",
+      "question": "Even though he is young, he is exceptionally skilled in negotiation. (DESPITE)\n\nDespite his youth, he is exceptionally skilled in negotiation. __________",
       "sentence": "Even though he is young, he is exceptionally skilled in negotiation.",
       "keyWord": "despite",
       "startOfAnswer": "Despite his youth, he is exceptionally skilled in negotiation.",
-      "correctAnswer": "Despite his youth, he is exceptionally skilled in negotiation.",
+      "correctAnswer": "He is exceptionally skilled in negotiation despite his youth.",
       "explanation": "En español: 'Despite' se utiliza para expresar contraste cuando algo es inesperado respecto a la circunstancia dada.",
       "points": 1
     },
@@ -184,10 +188,11 @@ export const C2_U1_BLOCK2: Exercise = {
     {
       "id": "c2-u1-b2-q6",
       "type": "key-word-transformation",
+      "question": "He was as talkative as few others in the group. (INCREDIBLY)\n\nHe was incredibly talkative compared to others in the group. __________",
       "sentence": "He was as talkative as few others in the group.",
       "keyWord": "incredibly",
       "startOfAnswer": "He was incredibly talkative compared to others in the group.",
-      "correctAnswer": "He was incredibly talkative compared to others in the group.",
+      "correctAnswer": "",
       "explanation": "En español: 'Incredibly' es un intensificador que describe hasta qué punto algo es cierto.",
       "points": 1
     },
@@ -216,10 +221,11 @@ export const C2_U1_BLOCK2: Exercise = {
     {
       "id": "c2-u1-b2-q9",
       "type": "key-word-transformation",
+      "question": "Although she is often late, she never misses a deadline. (DESPITE)\n\nDespite often being late, she never misses a deadline. __________",
       "sentence": "Although she is often late, she never misses a deadline.",
       "keyWord": "despite",
       "startOfAnswer": "Despite often being late, she never misses a deadline.",
-      "correctAnswer": "Despite often being late, she never misses a deadline.",
+      "correctAnswer": "Despite being late",
       "explanation": "En español: 'Despite' se emplea para indicar un contraste entre la tardanza habitual y no perder plazos.",
       "points": 1
     },
@@ -271,8 +277,8 @@ export const C2_U1_BLOCK3: Exercise = {
     {
       "id": "c2-u1-b3-q3",
       "type": "key-word-transformation",
-      "question": "She was so angry that she couldn't articulate her thoughts. (TOO)",
-      "correctAnswer": "She was too angry to articulate her thoughts.",
+      "question": "She was so angry that she couldn't articulate her thoughts. (TOO)\n\nShe was too angry __________",
+      "correctAnswer": "to articulate her thoughts",
       "explanation": "En español: Usamos 'too' seguido de un adjetivo para indicar una habilidad dificultada por una emoción intensa.",
       "points": 1,
       "sentence": "She was so angry that she couldn't articulate her thoughts.",
@@ -296,7 +302,7 @@ export const C2_U1_BLOCK3: Exercise = {
     {
       "id": "c2-u1-b3-q5",
       "type": "fill-blank",
-      "question": "His speech was _____ persuasive that everyone voted in his favor.",
+      "question": "His speech was _____ persuasive that all the listeners were convinced to vote in his favor.",
       "correctAnswer": "so",
       "explanation": "En español: 'So' se usa para intensificar adjetivos y causa una reacción que se menciona después.",
       "points": 1
@@ -304,13 +310,13 @@ export const C2_U1_BLOCK3: Exercise = {
     {
       "id": "c2-u1-b3-q6",
       "type": "key-word-transformation",
-      "question": "Her enthusiasm was contagious, and everyone soon felt equally excited. (SUCH)",
-      "correctAnswer": "She had such contagious enthusiasm that everyone soon felt equally excited.",
+      "question": "Her enthusiasm was contagious, and everyone soon felt equally excited. (SUCH)\n\nShe had such contagious enthusiasm __________",
+      "correctAnswer": "enthusiasm that everyone soon felt equally excited",
       "explanation": "En español: 'Such' se utiliza para enfatizar la magnitud de un sustantivo acompañado de un adjetivo.",
       "points": 1,
       "sentence": "Her enthusiasm was contagious, and everyone soon felt equally excited.",
       "keyWord": "SUCH",
-      "startOfAnswer": "She had such contagious"
+      "startOfAnswer": "She had such contagious enthusiasm"
     },
     {
       "id": "c2-u1-b3-q7",
@@ -329,16 +335,16 @@ export const C2_U1_BLOCK3: Exercise = {
     {
       "id": "c2-u1-b3-q8",
       "type": "fill-blank",
-      "question": "The lecture was _____ dull that many students fell asleep.",
+      "question": "The lecture was _____ dull that several students found it difficult to stay awake.",
       "correctAnswer": "so",
-      "explanation": "En español: Utilizamos 'so' para intensificar el adjetivo 'dull', indicando que el resultado fue que los estudiantes se durmieron.",
+      "explanation": "En español: Utilizamos 'so' para intensificar el adjetivo 'dull', indicando que la consecuencia fue que los estudiantes se durmieron.",
       "points": 1
     },
     {
       "id": "c2-u1-b3-q9",
       "type": "key-word-transformation",
-      "question": "The project was too ambitious for them to complete in such a short time. (SO)",
-      "correctAnswer": "The project was so ambitious that they couldn't complete it in such a short time.",
+      "question": "The project was too ambitious for them to complete in such a short time. (SO)\n\nThe project was so ambitious __________",
+      "correctAnswer": "that they couldn't complete it in such a short time",
       "explanation": "En español: 'So + adjetivo + that' se usa para describir el efecto de lo que sigue.",
       "points": 1,
       "sentence": "The project was too ambitious for them to complete in such a short time.",
@@ -407,18 +413,26 @@ export const C2_U1_BLOCK4: Exercise = {
     {
       "id": "c2-u1-b4-q4",
       "type": "key-word-transformation",
+      "question": "He was extremely reluctant to share any personal details. (AVERSE)\n\nHe was exceedingly averse __________",
       "sentence": "He was extremely reluctant to share any personal details.",
       "keyWord": "averse",
       "startOfAnswer": "He was exceedingly averse",
-      "correctAnswer": "He was exceedingly averse to sharing any personal details.",
+      "correctAnswer": "to sharing any personal details",
       "explanation": "'Averse' significa tener una fuerte aversión, similar a 'reluctant', pero con mayor intensidad.",
       "points": 1
     },
     {
       "id": "c2-u1-b4-q5",
-      "type": "fill-blank",
-      "question": "Her __________ need for validation was evident in her constant social media updates.",
-      "correctAnswer": "pervasive",
+      "options": [
+  "Widespread",
+  "Temporary",
+  "Occasional",
+  "Isolated"
+],
+      "sentence": "The pervasive nature of social media often leads to a sense of constant connectivity.",
+      "type": "multiple-choice",
+      "question": "What does 'pervasive' mean as used in the sentence: 'The pervasive nature of social media often leads to a sense of constant connectivity'?",
+      "correctAnswer": "Widespread",
       "explanation": "Pervasive significa que algo está extendido en todas partes; aquí se refiere a la necesidad constante.",
       "points": 1
     },
@@ -439,18 +453,22 @@ export const C2_U1_BLOCK4: Exercise = {
     {
       "id": "c2-u1-b4-q7",
       "type": "key-word-transformation",
+      "question": "The child was incredibly curious about the natural world. (MINGLED)\n\nThe child's curiosity __________",
       "sentence": "The child was incredibly curious about the natural world.",
       "keyWord": "mingled",
       "startOfAnswer": "The child's curiosity",
-      "correctAnswer": "The child's curiosity mingled incredibly with an enthusiasm for the natural world.",
+      "correctAnswer": "mingled with an enthusiasm for the natural world",
       "explanation": "La palabra 'mingled' significa 'mezclado', indicando cómo la curiosidad y el entusiasmo están interrelacionados.",
       "points": 1
     },
     {
       "id": "c2-u1-b4-q8",
-      "type": "fill-blank",
-      "question": "The philanthropist was __________ on leaving a lasting impact on the world.",
-      "correctAnswer": "adamant",
+      "keyWord": "determination",
+      "startOfAnswer": "Her determination",
+      "sentence": "She was adamant about pursuing her dreams despite the challenges.",
+      "type": "key-word-transformation",
+      "question": "She was adamant about pursuing her dreams despite the challenges. (DETERMINATION)\n\nHer determination __________",
+      "correctAnswer": "was adamant about pursuing her dreams despite the challenges",
       "explanation": "Adamant implica firmeza en una decisión; aquí refleja su determinación de causar un impacto.",
       "points": 1
     },
@@ -471,10 +489,11 @@ export const C2_U1_BLOCK4: Exercise = {
     {
       "id": "c2-u1-b4-q10",
       "type": "key-word-transformation",
+      "question": "She was extremely driven to succeed. (OBSESSED)\n\nShe was utterly obsessed __________",
       "sentence": "She was extremely driven to succeed.",
       "keyWord": "obsessed",
       "startOfAnswer": "She was utterly obsessed",
-      "correctAnswer": "She was utterly obsessed with succeeding.",
+      "correctAnswer": "with succeeding",
       "explanation": "El uso de 'obsessed' con 'utterly' aporta un mayor grado de intensidad en su motivación.",
       "points": 1
     }
@@ -503,22 +522,25 @@ export const C2_U1_BLOCK5: Exercise = {
     },
     {
       "id": "c2-u1-b5-q2",
-      "type": "fill-blank",
-      "question": "Despite his charming demeanor, he was ____________ cynical about people's motives.",
-      "correctAnswer": "profoundly",
-      "explanation": "En español: 'Profundamente' intensifica la característica de ser cínico.",
+      "startOfAnswer": "substantial evidence",
+      "keyWord": "substantial",
+      "sentence": "It was clear that her argument was weak, lacking any substantial evidence.",
+      "type": "key-word-transformation",
+      "question": "It was clear that her argument was weak, lacking any substantial evidence. (SUBSTANTIAL)\n\nsubstantial evidence __________",
+      "correctAnswer": "",
+      "explanation": "En español: 'Sustancial' se refiere a algo significativo o considerable.",
       "points": 1
     },
     {
       "id": "c2-u1-b5-q3",
       "type": "key-word-transformation",
-      "question": "It was clear that his behavior was completely insensate, lacking any logical reasoning.",
-      "correctAnswer": "devoid of",
+      "question": "It was clear that his behavior was completely insensate, lacking any logical reasoning. (DEVOID)\n\ncompletely devoid of logical reasoning __________",
+      "correctAnswer": "logical reasoning",
       "explanation": "En español: 'Devoid of' significa 'carente de', usado para describir la ausencia total de algo.",
       "points": 1,
       "sentence": "It was clear that his behavior was completely insensate, lacking any logical reasoning.",
       "keyWord": "devoid",
-      "startOfAnswer": "completely devoid of"
+      "startOfAnswer": "completely devoid of logical reasoning"
     },
     {
       "id": "c2-u1-b5-q4",
@@ -536,22 +558,24 @@ export const C2_U1_BLOCK5: Exercise = {
     },
     {
       "id": "c2-u1-b5-q5",
-      "type": "fill-blank",
-      "question": "His ___________ generosity was known far and wide, making him beloved by many.",
-      "correctAnswer": "extraordinary",
-      "explanation": "En español: 'Extraordinaria' se usa para exagerar una característica positiva como la generosidad.",
+      "startOfAnswer": "Start of answer",
+      "sentence": "His performance was remarkable, far better than anyone expected.",
+      "type": "key-word-transformation",
+      "question": "His performance was remarkable, far better than anyone expected. ()\n\nStart of answer __________",
+      "correctAnswer": "extraordinarily good",
+      "explanation": "En español: 'Extraordinario' se utiliza para describir algo que es sorprendentemente bueno o mejor de lo esperado.",
       "points": 1
     },
     {
       "id": "c2-u1-b5-q6",
       "type": "key-word-transformation",
-      "question": "Her tendency to remain impartial is something I deeply admire.",
-      "correctAnswer": "highly",
+      "question": "Her tendency to remain impartial is something I deeply admire. (HIGHLY)\n\nhighly admire her impartiality __________",
+      "correctAnswer": "impartiality",
       "explanation": "En español: 'Highly' intensifica el grado de admiración hacia una cualidad.",
       "points": 1,
       "sentence": "Her tendency to remain impartial is something I deeply admire.",
       "keyWord": "highly",
-      "startOfAnswer": "I highly admire her"
+      "startOfAnswer": "highly admire her impartiality"
     },
     {
       "id": "c2-u1-b5-q7",
@@ -569,18 +593,21 @@ export const C2_U1_BLOCK5: Exercise = {
     },
     {
       "id": "c2-u1-b5-q8",
-      "type": "fill-blank",
-      "question": "They were ___________ disappointed by the abrupt cancellation of the event.",
-      "correctAnswer": "utterly",
-      "explanation": "En español: 'Totalmente' intensifica la intensidad de su decepción.",
+      "startOfAnswer": "utterly disappointing",
+      "keyWord": "utterly",
+      "sentence": "The meeting was disappointing, failing to meet our expectations.",
+      "type": "key-word-transformation",
+      "question": "The meeting was disappointing, failing to meet our expectations. (UTTERLY)\n\nutterly disappointing __________",
+      "correctAnswer": "",
+      "explanation": "En español: 'Totalmente decepcionante' implica una decepción total respecto a las expectativas.",
       "points": 1
     },
     {
       "id": "c2-u1-b5-q9",
       "type": "key-word-transformation",
-      "question": "Although she appeared aloof at first, she was genuinely friendly.",
-      "correctAnswer": "despite",
-      "explanation": "En español: 'Despite' se usa para contradecir una primera impresión o declaración.",
+      "question": "Although she appeared aloof at first, she was genuinely friendly. (DESPITE)\n\nDespite appearing aloof __________",
+      "correctAnswer": "appearing aloof",
+      "explanation": "En español: 'Despite' se utiliza para contradecir o contrastar una situación con otra.",
       "points": 1,
       "sentence": "Although she appeared aloof at first, she was genuinely friendly.",
       "keyWord": "despite",
@@ -641,7 +668,7 @@ export const C2_U1_BLOCK6: Exercise = {
       "id": "c2-u1-b6-q3",
       "type": "fill-blank",
       "question": "Her _______ (stubborn) nature often leads to conflicts with her colleagues.",
-      "correctAnswer": "obdurate",
+      "correctAnswer": "obdurate nature",
       "explanation": "'Obdurate' describe una persona extremadamente terca y difícil de cambiar de opinión.",
       "points": 1
     },
@@ -663,14 +690,14 @@ export const C2_U1_BLOCK6: Exercise = {
       "id": "c2-u1-b6-q5",
       "type": "fill-blank",
       "question": "The teacher's _______ (patience) demeanor was invaluable when dealing with difficult students.",
-      "correctAnswer": "imperturbable",
-      "explanation": "Imperturbable significa que no se deja alterar o inmutar, lo cual es una cualidad valiosa en situaciones difíciles.",
+      "correctAnswer": "serene demeanor",
+      "explanation": "Serene significa sereno y calmado, lo cual es valioso en situaciones difíciles.",
       "points": 1
     },
     {
       "id": "c2-u1-b6-q6",
       "type": "key-word-transformation",
-      "question": "",
+      "question": "Despite his extremely sociable characterization, Michael occasionally... (OVERWHELMINGLY)\n\nDespite his overwhelmingly gregarious... __________",
       "correctAnswer": "Despite his overwhelmingly gregarious characterization, Michael occasionally...",
       "explanation": "'Overwhelmingly' intensifica 'gregarious', que se refiere a alguien sociable y extrovertido.",
       "points": 1,
@@ -717,7 +744,7 @@ export const C2_U1_BLOCK6: Exercise = {
     {
       "id": "c2-u1-b6-q10",
       "type": "key-word-transformation",
-      "question": "",
+      "question": "His extremely analytical mind allowed him to solve... (PROFOUNDLY)\n\nHis profoundly analytical mind... __________",
       "correctAnswer": "His profoundly analytical mind allowed him to solve...",
       "explanation": "'Profoundly' intensifica 'analytical', destaca su habilidad meticulosa para analizar y resolver problemas.",
       "points": 1,
@@ -752,7 +779,7 @@ export const C2_U1_BLOCK7: Exercise = {
       "id": "c2-u1-b7-q2",
       "type": "fill-blank",
       "question": "A personality that is ____ altruistic generally prioritizes others' needs above their own.",
-      "correctAnswer": "profoundly",
+      "correctAnswer": "deeply",
       "explanation": "Profundamente es un intensificador que muestra que el altruismo es muy marcado.",
       "points": 1
     },
@@ -773,19 +800,19 @@ export const C2_U1_BLOCK7: Exercise = {
     {
       "id": "c2-u1-b7-q4",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the key word 'intensely'.",
+      "question": "She showed a deep understanding of psychological complexities. (INTENSELY)\n\nunderstanding __________",
       "sentence": "She showed a deep understanding of psychological complexities.",
       "keyWord": "INTENSELY",
-      "startOfAnswer": "She showed an intensely",
-      "correctAnswer": "She showed an intensely deep understanding of psychological complexities.",
-      "explanation": "Usamos 'intensely' como intensificador para mostrar la profundidad de su comprensión.",
+      "startOfAnswer": "understanding",
+      "correctAnswer": "intense understanding",
+      "explanation": "La palabra 'intensamente' se utiliza para intensificar el sustantivo y describe mejor el entendimiento profundo.",
       "points": 1
     },
     {
       "id": "c2-u1-b7-q5",
-      "type": "fill-blank",
-      "question": "Her personality could be described as ____ querulous, often finding fault with the smallest of issues.",
-      "correctAnswer": "exceedingly",
+      "type": "key-word-transformation",
+      "question": " ()\n\n __________",
+      "correctAnswer": "querulous",
       "explanation": "Excesivamente intensifica la queja constante que la describe.",
       "points": 1
     },
@@ -805,10 +832,13 @@ export const C2_U1_BLOCK7: Exercise = {
     },
     {
       "id": "c2-u1-b7-q7",
-      "type": "fill-blank",
-      "question": "The philosopher had an ____ intricate way of explaining abstract concepts.",
-      "correctAnswer": "unimaginably",
-      "explanation": "Inimaginablemente intensifica lo complejo que eran las explicaciones del filósofo.",
+      "startOfAnswer": "intricately",
+      "keyWord": "INTRICATELY",
+      "sentence": "The philosopher had an intricate way of explaining abstract concepts.",
+      "type": "key-word-transformation",
+      "question": "The philosopher had an intricate way of explaining abstract concepts. (INTRICATELY)\n\nintricately __________",
+      "correctAnswer": "",
+      "explanation": "La palabra 'intrincadamente' se usa para describir cómo explica conceptos abstractos.",
       "points": 1
     },
     {
@@ -828,20 +858,23 @@ export const C2_U1_BLOCK7: Exercise = {
     {
       "id": "c2-u1-b7-q9",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the key word 'remarkably'.",
+      "question": "His ability to predict market trends was exceptional. (REMARKABLY)\n\nHe was remarkably __________",
       "sentence": "His ability to predict market trends was exceptional.",
       "keyWord": "REMARKABLY",
       "startOfAnswer": "He was remarkably",
-      "correctAnswer": "He was remarkably able to predict market trends.",
+      "correctAnswer": "exceptional",
       "explanation": "La palabra 'remarkably' intensifica la habilidad excepcional que poseía.",
       "points": 1
     },
     {
       "id": "c2-u1-b7-q10",
-      "type": "fill-blank",
-      "question": "Colleagues describe her as ____ methodical, paying attention to the smallest details.",
-      "correctAnswer": "meticulously",
-      "explanation": "Meticulosamente se usa para subrayar la atención que presta a los detalles.",
+      "keyWord": "METICULOUS",
+      "sentence": "Colleagues describe her as methodical and ____.",
+      "startOfAnswer": "and meticulous",
+      "type": "key-word-transformation",
+      "question": "Colleagues describe her as methodical and ____. (METICULOUS)\n\nand meticulous __________",
+      "correctAnswer": "",
+      "explanation": "Se usa 'meticuloso' para confirmar la atención al detalle que ella tiene.",
       "points": 1
     }
   ]
@@ -869,8 +902,11 @@ export const C2_U1_BLOCK8: Exercise = {
     },
     {
       "id": "c2-u1-b8-q2",
-      "type": "fill-blank",
-      "question": "He was __________ intelligent, which is why everyone consulted him for advice on complex problems.",
+      "startOfAnswer": "She was an",
+      "keyWord": "ADVERB",
+      "sentence": "She was an exceptionally intelligent student.",
+      "type": "key-word-transformation",
+      "question": "She was an exceptionally intelligent student. (ADVERB)\n\nShe was an __________",
       "correctAnswer": "exceptionally",
       "explanation": "La palabra 'exceptionally' es un intensificador que se usa para resaltar un grado de inteligencia muy alto.",
       "points": 1
@@ -878,10 +914,11 @@ export const C2_U1_BLOCK8: Exercise = {
     {
       "id": "c2-u1-b8-q3",
       "type": "key-word-transformation",
+      "question": "Despite being remarkably intelligent, she was also utterly humble. (ALTHOUGH)\n\nAlthough she was __________",
       "sentence": "Despite being remarkably intelligent, she was also utterly humble.",
       "keyWord": "ALTHOUGH",
       "startOfAnswer": "Although she was",
-      "correctAnswer": "Although she was remarkably intelligent, she was also utterly humble.",
+      "correctAnswer": "remarkably intelligent, she was also utterly humble",
       "explanation": "La palabra 'Although' sirve para realizar la misma función de contraste que 'Despite'.",
       "points": 1
     },
@@ -901,8 +938,11 @@ export const C2_U1_BLOCK8: Exercise = {
     },
     {
       "id": "c2-u1-b8-q5",
-      "type": "fill-blank",
-      "question": "Her contribution to the project was __________ outstanding, which earned her the team's admiration.",
+      "startOfAnswer": "Her performance was",
+      "keyWord": "ADVERB",
+      "sentence": "Her performance was incredibly impressive.",
+      "type": "key-word-transformation",
+      "question": "Her performance was incredibly impressive. (ADVERB)\n\nHer performance was __________",
       "correctAnswer": "incredibly",
       "explanation": "Se utiliza 'incredibly' para enfatizar la excelencia excepcional de su contribución.",
       "points": 1
@@ -910,10 +950,11 @@ export const C2_U1_BLOCK8: Exercise = {
     {
       "id": "c2-u1-b8-q6",
       "type": "key-word-transformation",
+      "question": "He was so immensely driven that failure was not an option for him. (TOO)\n\nHe was too driven __________",
       "sentence": "He was so immensely driven that failure was not an option for him.",
       "keyWord": "TOO",
       "startOfAnswer": "He was too driven",
-      "correctAnswer": "He was too driven to consider failure an option.",
+      "correctAnswer": "to consider failure an option",
       "explanation": "Se utiliza 'too driven' en lugar de 'so immensely driven that' para transmitir la misma idea de imposibilidad de fracasar.",
       "points": 1
     },
@@ -933,8 +974,11 @@ export const C2_U1_BLOCK8: Exercise = {
     },
     {
       "id": "c2-u1-b8-q8",
-      "type": "fill-blank",
-      "question": "She was __________ uncompromising in her principles, earning her both respect and criticism.",
+      "startOfAnswer": "He is",
+      "keyWord": "ADVERB",
+      "sentence": "He is absolutely devoted to his work.",
+      "type": "key-word-transformation",
+      "question": "He is absolutely devoted to his work. (ADVERB)\n\nHe is __________",
       "correctAnswer": "absolutely",
       "explanation": "En este contexto, 'absolutely' se usa para enfatizar la firmeza total en sus principios.",
       "points": 1
@@ -942,10 +986,11 @@ export const C2_U1_BLOCK8: Exercise = {
     {
       "id": "c2-u1-b8-q9",
       "type": "key-word-transformation",
+      "question": "Her decision was surprisingly prudent, considering her usual hasty nature. (WHICH)\n\nHer decision, which __________",
       "sentence": "Her decision was surprisingly prudent, considering her usual hasty nature.",
       "keyWord": "WHICH",
       "startOfAnswer": "Her decision, which",
-      "correctAnswer": "Her decision, which was surprisingly prudent, was unusual considering her hasty nature.",
+      "correctAnswer": "is surprisingly prudent, which is unusual",
       "explanation": "Se emplea 'which was surprisingly prudent' para introducir un contraste con su naturaleza habitual.",
       "points": 1
     },
@@ -1019,10 +1064,11 @@ export const C2_U1_BLOCK9: Exercise = {
     {
       "id": "c2-u1-b9-q5",
       "type": "key-word-transformation",
+      "question": "He was extremely modest about his numerous achievements. (DOWNPLAYED)\n\nHe downplayed his __________",
       "sentence": "He was extremely modest about his numerous achievements.",
       "keyWord": "downplayed",
       "startOfAnswer": "He downplayed his",
-      "correctAnswer": "He downplayed his numerous achievements.",
+      "correctAnswer": "the numerous achievements",
       "explanation": "El uso de 'downplayed' implica que él restó importancia a sus logros, lo cual es una forma avanzada de expresar modestia.",
       "points": 1
     },
@@ -1050,9 +1096,11 @@ export const C2_U1_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u1-b9-q8",
-      "type": "fill-blank",
-      "question": "Her __________ attitude towards life meant she was often perceived as callous or indifferent.",
-      "correctAnswer": "insouciant",
+      "startOfAnswer": "Insouciant describes a person who",
+      "sentence": "Insouciant describes a person who is carefree or indifferent, possibly perceived as aloofness or insensitivity.",
+      "type": "key-word-transformation",
+      "question": "Insouciant describes a person who is carefree or indifferent, possibly perceived as aloofness or insensitivity. ()\n\nInsouciant describes a person who __________",
+      "correctAnswer": "is carefree or indifferent",
       "explanation": "Insouciant significa despreocupado o indiferente, y puede percibirse como frialdad o insensibilidad.",
       "points": 1
     },
@@ -1073,10 +1121,11 @@ export const C2_U1_BLOCK9: Exercise = {
     {
       "id": "c2-u1-b9-q10",
       "type": "key-word-transformation",
+      "question": "Despite a highly challenging situation, she maintained her unflappable attitude. (REMAINED)\n\nShe remained __________",
       "sentence": "Despite a highly challenging situation, she maintained her unflappable attitude.",
       "keyWord": "remained",
       "startOfAnswer": "She remained",
-      "correctAnswer": "She remained unflappable despite a highly challenging situation.",
+      "correctAnswer": "unflappable",
       "explanation": "Remained unflappable significa que mantuvo la compostura a pesar de las dificultades, destacando la serenidad y el dominio propio.",
       "points": 1
     }
@@ -1114,10 +1163,10 @@ export const C2_U1_BLOCK10: Exercise = {
     {
       "id": "c2-u1-b10-q3",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence maintaining the meaning.",
+      "question": "His unusually verbose manner masked his insecurity. (TENDENCY)\n\nHis tendency __________",
       "sentence": "His unusually verbose manner masked his insecurity.",
       "keyWord": "tendency",
-      "correctAnswer": "His tendency to be verbose masked his insecurity.",
+      "correctAnswer": "to be verbose",
       "explanation": "En español, 'tendency' significa una inclinación hacia un comportamiento o característica particular.",
       "points": 1,
       "startOfAnswer": "His tendency"
@@ -1147,10 +1196,10 @@ export const C2_U1_BLOCK10: Exercise = {
     {
       "id": "c2-u1-b10-q6",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the key word provided.",
+      "question": "She exhibits a strong disdain for those who are hypocritical. (STRONGLY)\n\nShe strongly disdains __________",
       "sentence": "She exhibits a strong disdain for those who are hypocritical.",
       "keyWord": "strongly",
-      "correctAnswer": "She strongly disdains those who are hypocritical.",
+      "correctAnswer": "them strongly",
       "explanation": "En español, 'strongly' se usa para enfatizar la intensidad del desdén.",
       "points": 1,
       "startOfAnswer": "She strongly disdains"
@@ -1194,10 +1243,10 @@ export const C2_U1_BLOCK10: Exercise = {
     {
       "id": "c2-u1-b10-q10",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the key word given.",
+      "question": "Her exceptionally meticulous nature made her an ideal candidate for the position. (METICULOUSLY)\n\nShe approached __________",
       "sentence": "Her exceptionally meticulous nature made her an ideal candidate for the position.",
       "keyWord": "meticulously",
-      "correctAnswer": "She approached tasks meticulously, making her an ideal candidate for the position.",
+      "correctAnswer": "tasks meticulously",
       "explanation": "En español, 'meticulously' describe la manera minuciosa en que realizaba sus tareas.",
       "points": 1,
       "startOfAnswer": "She approached"
@@ -1208,8 +1257,8 @@ export const C2_U1_BLOCK10: Exercise = {
 export const C2_UNIT_1 = createC2Unit(
   'c2-u1',
   'Nuances of Personality & Character',
-  'Advanced C2 level practice on personality-psychology.',
-  ["vocabulary","reading","speaking"],
+  'Advanced C2 unit exploring complex topics and formal language structures.',
+  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
   [
     C2_U1_BLOCK1, C2_U1_BLOCK2, C2_U1_BLOCK3, C2_U1_BLOCK4, C2_U1_BLOCK5, C2_U1_BLOCK6, C2_U1_BLOCK7, C2_U1_BLOCK8, C2_U1_BLOCK9, C2_U1_BLOCK10
   ]

@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'restaurante'?",
           "options": [
-            { "id": "o1", "text": "Restaurant" },
-            { "id": "o2", "text": "Cafe" },
-            { "id": "o3", "text": "Bar" }
+            {
+              "id": "o1",
+              "text": "Restaurant"
+            },
+            {
+              "id": "o2",
+              "text": "Cafe"
+            },
+            {
+              "id": "o3",
+              "text": "Bar"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mesa'?",
           "options": [
-            { "id": "o1", "text": "Table" },
-            { "id": "o2", "text": "Chair" },
-            { "id": "o3", "text": "Desk" }
+            {
+              "id": "o1",
+              "text": "Table"
+            },
+            {
+              "id": "o2",
+              "text": "Chair"
+            },
+            {
+              "id": "o3",
+              "text": "Desk"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'menú / carta'?",
           "options": [
-            { "id": "o1", "text": "Menu" },
-            { "id": "o2", "text": "Card" },
-            { "id": "o3", "text": "Book" }
+            {
+              "id": "o1",
+              "text": "Menu"
+            },
+            {
+              "id": "o2",
+              "text": "Card"
+            },
+            {
+              "id": "o3",
+              "text": "Book"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'camarero'?",
           "options": [
-            { "id": "o1", "text": "Waiter" },
-            { "id": "o2", "text": "Waitress" },
-            { "id": "o3", "text": "Server" }
+            {
+              "id": "o1",
+              "text": "Waiter"
+            },
+            {
+              "id": "o2",
+              "text": "Waitress"
+            },
+            {
+              "id": "o3",
+              "text": "Server"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'camarera'?",
           "options": [
-            { "id": "o1", "text": "Waitress" },
-            { "id": "o2", "text": "Waiter" },
-            { "id": "o3", "text": "Cook" }
+            {
+              "id": "o1",
+              "text": "Waitress"
+            },
+            {
+              "id": "o2",
+              "text": "Waiter"
+            },
+            {
+              "id": "o3",
+              "text": "Cook"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cliente'?",
           "options": [
-            { "id": "o1", "text": "Customer / Guest" },
-            { "id": "o2", "text": "Client" },
-            { "id": "o3", "text": "Person" }
+            {
+              "id": "o1",
+              "text": "Customer / Guest"
+            },
+            {
+              "id": "o2",
+              "text": "Client"
+            },
+            {
+              "id": "o3",
+              "text": "Person"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pedir / ordenar'?",
           "options": [
-            { "id": "o1", "text": "To order" },
-            { "id": "o2", "text": "To ask" },
-            { "id": "o3", "text": "To want" }
+            {
+              "id": "o1",
+              "text": "To order"
+            },
+            {
+              "id": "o2",
+              "text": "To ask"
+            },
+            {
+              "id": "o3",
+              "text": "To want"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'servir'?",
           "options": [
-            { "id": "o1", "text": "To serve" },
-            { "id": "o2", "text": "To give" },
-            { "id": "o3", "text": "To bring" }
+            {
+              "id": "o1",
+              "text": "To serve"
+            },
+            {
+              "id": "o2",
+              "text": "To give"
+            },
+            {
+              "id": "o3",
+              "text": "To bring"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cocinero / chef'?",
           "options": [
-            { "id": "o1", "text": "Chef / Cook" },
-            { "id": "o2", "text": "Waiter" },
-            { "id": "o3", "text": "Manager" }
+            {
+              "id": "o1",
+              "text": "Chef / Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Waiter"
+            },
+            {
+              "id": "o3",
+              "text": "Manager"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reserva'?",
           "options": [
-            { "id": "o1", "text": "Reservation / Booking" },
-            { "id": "o2", "text": "Table" },
-            { "id": "o3", "text": "Place" }
+            {
+              "id": "o1",
+              "text": "Reservation / Booking"
+            },
+            {
+              "id": "o2",
+              "text": "Table"
+            },
+            {
+              "id": "o3",
+              "text": "Place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,9 +227,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'plato' (recipiente)?",
           "options": [
-            { "id": "o1", "text": "Plate" },
-            { "id": "o2", "text": "Dish" },
-            { "id": "o3", "text": "Bowl" }
+            {
+              "id": "o1",
+              "text": "Plate"
+            },
+            {
+              "id": "o2",
+              "text": "Dish"
+            },
+            {
+              "id": "o3",
+              "text": "Bowl"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -149,9 +248,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'plato' (comida preparada)?",
           "options": [
-            { "id": "o1", "text": "Dish" },
-            { "id": "o2", "text": "Plate" },
-            { "id": "o3", "text": "Meal" }
+            {
+              "id": "o1",
+              "text": "Dish"
+            },
+            {
+              "id": "o2",
+              "text": "Plate"
+            },
+            {
+              "id": "o3",
+              "text": "Meal"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -161,9 +269,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vaso'?",
           "options": [
-            { "id": "o1", "text": "Glass" },
-            { "id": "o2", "text": "Cup" },
-            { "id": "o3", "text": "Mug" }
+            {
+              "id": "o1",
+              "text": "Glass"
+            },
+            {
+              "id": "o2",
+              "text": "Cup"
+            },
+            {
+              "id": "o3",
+              "text": "Mug"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -173,9 +290,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'taza'?",
           "options": [
-            { "id": "o1", "text": "Cup / Mug" },
-            { "id": "o2", "text": "Glass" },
-            { "id": "o3", "text": "Bottle" }
+            {
+              "id": "o1",
+              "text": "Cup / Mug"
+            },
+            {
+              "id": "o2",
+              "text": "Glass"
+            },
+            {
+              "id": "o3",
+              "text": "Bottle"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -185,9 +311,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cubiertos'?",
           "options": [
-            { "id": "o1", "text": "Cutlery / Silverware" },
-            { "id": "o2", "text": "Tools" },
-            { "id": "o3", "text": "Kitchen" }
+            {
+              "id": "o1",
+              "text": "Cutlery / Silverware"
+            },
+            {
+              "id": "o2",
+              "text": "Tools"
+            },
+            {
+              "id": "o3",
+              "text": "Kitchen"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -197,11 +332,27 @@
           "type": "matching",
           "prompt_es": "Une los cubiertos:",
           "pairs": [
-            { "id": "p1", "left": "Fork", "right": "Tenedor" },
-            { "id": "p2", "left": "Knife", "right": "Cuchillo" },
-            { "id": "p3", "left": "Spoon", "right": "Cuchara" }
+            {
+              "id": "p1",
+              "left": "Fork",
+              "right": "Tenedor"
+            },
+            {
+              "id": "p2",
+              "left": "Knife",
+              "right": "Cuchillo"
+            },
+            {
+              "id": "p3",
+              "left": "Spoon",
+              "right": "Cuchara"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -209,11 +360,27 @@
           "type": "matching",
           "prompt_es": "Une las partes de la comida:",
           "pairs": [
-            { "id": "p1", "left": "Starter", "right": "Entrante" },
-            { "id": "p2", "left": "Main course", "right": "Plato principal" },
-            { "id": "p3", "left": "Dessert", "right": "Postre" }
+            {
+              "id": "p1",
+              "left": "Starter",
+              "right": "Entrante"
+            },
+            {
+              "id": "p2",
+              "left": "Main course",
+              "right": "Plato principal"
+            },
+            {
+              "id": "p3",
+              "left": "Dessert",
+              "right": "Postre"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -245,9 +412,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'servilleta'?",
           "options": [
-            { "id": "o1", "text": "Napkin" },
-            { "id": "o2", "text": "Towel" },
-            { "id": "o3", "text": "Paper" }
+            {
+              "id": "o1",
+              "text": "Napkin"
+            },
+            {
+              "id": "o2",
+              "text": "Towel"
+            },
+            {
+              "id": "o3",
+              "text": "Paper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -257,9 +433,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'la cuenta'?",
           "options": [
-            { "id": "o1", "text": "The bill / The check" },
-            { "id": "o2", "text": "The money" },
-            { "id": "o3", "text": "The price" }
+            {
+              "id": "o1",
+              "text": "The bill / The check"
+            },
+            {
+              "id": "o2",
+              "text": "The money"
+            },
+            {
+              "id": "o3",
+              "text": "The price"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -269,9 +454,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'propina'?",
           "options": [
-            { "id": "o1", "text": "Tip" },
-            { "id": "o2", "text": "Top" },
-            { "id": "o3", "text": "Gift" }
+            {
+              "id": "o1",
+              "text": "Tip"
+            },
+            {
+              "id": "o2",
+              "text": "Top"
+            },
+            {
+              "id": "o3",
+              "text": "Gift"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -281,9 +475,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bebidas'?",
           "options": [
-            { "id": "o1", "text": "Drinks / Beverages" },
-            { "id": "o2", "text": "Liquids" },
-            { "id": "o3", "text": "Sodas" }
+            {
+              "id": "o1",
+              "text": "Drinks / Beverages"
+            },
+            {
+              "id": "o2",
+              "text": "Liquids"
+            },
+            {
+              "id": "o3",
+              "text": "Sodas"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -293,9 +496,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hambre'?",
           "options": [
-            { "id": "o1", "text": "Hungry (adj)" },
-            { "id": "o2", "text": "Hunger (noun)" },
-            { "id": "o3", "text": "Angry" }
+            {
+              "id": "o1",
+              "text": "Hungry (adj)"
+            },
+            {
+              "id": "o2",
+              "text": "Hunger (noun)"
+            },
+            {
+              "id": "o3",
+              "text": "Angry"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -311,9 +523,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Están listos para pedir?'?",
           "options": [
-            { "id": "o1", "text": "Are you ready to order?" },
-            { "id": "o2", "text": "Want food now?" },
-            { "id": "o3", "text": "You order what?" }
+            {
+              "id": "o1",
+              "text": "Are you ready to order?"
+            },
+            {
+              "id": "o2",
+              "text": "Want food now?"
+            },
+            {
+              "id": "o3",
+              "text": "You order what?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -323,9 +544,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Me gustaría la ensalada, por favor'?",
           "options": [
-            { "id": "o1", "text": "I'd like the salad, please" },
-            { "id": "o2", "text": "I want salad" },
-            { "id": "o3", "text": "Give me salad" }
+            {
+              "id": "o1",
+              "text": "I'd like the salad, please"
+            },
+            {
+              "id": "o2",
+              "text": "I want salad"
+            },
+            {
+              "id": "o3",
+              "text": "Give me salad"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -335,9 +565,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Para beber?'?",
           "options": [
-            { "id": "o1", "text": "Anything to drink?" },
-            { "id": "o2", "text": "Drink what?" },
-            { "id": "o3", "text": "For drink?" }
+            {
+              "id": "o1",
+              "text": "Anything to drink?"
+            },
+            {
+              "id": "o2",
+              "text": "Drink what?"
+            },
+            {
+              "id": "o3",
+              "text": "For drink?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -347,9 +586,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué recomienda?'?",
           "options": [
-            { "id": "o1", "text": "What do you recommend?" },
-            { "id": "o2", "text": "What is good?" },
-            { "id": "o3", "text": "Tell me food" }
+            {
+              "id": "o1",
+              "text": "What do you recommend?"
+            },
+            {
+              "id": "o2",
+              "text": "What is good?"
+            },
+            {
+              "id": "o3",
+              "text": "Tell me food"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -359,9 +607,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puede traerme agua?'?",
           "options": [
-            { "id": "o1", "text": "Can I have some water, please?" },
-            { "id": "o2", "text": "Bring me water" },
-            { "id": "o3", "text": "Water, please" }
+            {
+              "id": "o1",
+              "text": "Can I have some water, please?"
+            },
+            {
+              "id": "o2",
+              "text": "Bring me water"
+            },
+            {
+              "id": "o3",
+              "text": "Water, please"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -371,9 +628,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tomar' (comer/beber)?",
           "options": [
-            { "id": "o1", "text": "To have" },
-            { "id": "o2", "text": "To take" },
-            { "id": "o3", "text": "To drink" }
+            {
+              "id": "o1",
+              "text": "To have"
+            },
+            {
+              "id": "o2",
+              "text": "To take"
+            },
+            {
+              "id": "o3",
+              "text": "To drink"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -383,9 +649,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'agua con gas'?",
           "options": [
-            { "id": "o1", "text": "Sparkling water" },
-            { "id": "o2", "text": "Gas water" },
-            { "id": "o3", "text": "Still water" }
+            {
+              "id": "o1",
+              "text": "Sparkling water"
+            },
+            {
+              "id": "o2",
+              "text": "Gas water"
+            },
+            {
+              "id": "o3",
+              "text": "Still water"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -395,9 +670,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'agua sin gas'?",
           "options": [
-            { "id": "o1", "text": "Still water" },
-            { "id": "o2", "text": "Normal water" },
-            { "id": "o3", "text": "Plain water" }
+            {
+              "id": "o1",
+              "text": "Still water"
+            },
+            {
+              "id": "o2",
+              "text": "Normal water"
+            },
+            {
+              "id": "o3",
+              "text": "Plain water"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -407,9 +691,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vino'?",
           "options": [
-            { "id": "o1", "text": "Wine" },
-            { "id": "o2", "text": "Beer" },
-            { "id": "o3", "text": "Juice" }
+            {
+              "id": "o1",
+              "text": "Wine"
+            },
+            {
+              "id": "o2",
+              "text": "Beer"
+            },
+            {
+              "id": "o3",
+              "text": "Juice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -419,9 +712,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cerveza'?",
           "options": [
-            { "id": "o1", "text": "Beer" },
-            { "id": "o2", "text": "Wine" },
-            { "id": "o3", "text": "Cider" }
+            {
+              "id": "o1",
+              "text": "Beer"
+            },
+            {
+              "id": "o2",
+              "text": "Wine"
+            },
+            {
+              "id": "o3",
+              "text": "Cider"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -431,9 +733,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'zumo / jugo'?",
           "options": [
-            { "id": "o1", "text": "Juice" },
-            { "id": "o2", "text": "Fruit" },
-            { "id": "o3", "text": "Soda" }
+            {
+              "id": "o1",
+              "text": "Juice"
+            },
+            {
+              "id": "o2",
+              "text": "Fruit"
+            },
+            {
+              "id": "o3",
+              "text": "Soda"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -443,9 +754,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'refresco'?",
           "options": [
-            { "id": "o1", "text": "Soft drink / Soda" },
-            { "id": "o2", "text": "Water" },
-            { "id": "o3", "text": "Cold drink" }
+            {
+              "id": "o1",
+              "text": "Soft drink / Soda"
+            },
+            {
+              "id": "o2",
+              "text": "Water"
+            },
+            {
+              "id": "o3",
+              "text": "Cold drink"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -455,9 +775,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hielo'?",
           "options": [
-            { "id": "o1", "text": "Ice" },
-            { "id": "o2", "text": "Cold" },
-            { "id": "o3", "text": "Glass" }
+            {
+              "id": "o1",
+              "text": "Ice"
+            },
+            {
+              "id": "o2",
+              "text": "Cold"
+            },
+            {
+              "id": "o3",
+              "text": "Glass"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -467,9 +796,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'limón'?",
           "options": [
-            { "id": "o1", "text": "Lemon" },
-            { "id": "o2", "text": "Lime" },
-            { "id": "o3", "text": "Orange" }
+            {
+              "id": "o1",
+              "text": "Lemon"
+            },
+            {
+              "id": "o2",
+              "text": "Lime"
+            },
+            {
+              "id": "o3",
+              "text": "Orange"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -479,9 +817,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'caliente'?",
           "options": [
-            { "id": "o1", "text": "Hot" },
-            { "id": "o2", "text": "Cold" },
-            { "id": "o3", "text": "Warm" }
+            {
+              "id": "o1",
+              "text": "Hot"
+            },
+            {
+              "id": "o2",
+              "text": "Cold"
+            },
+            {
+              "id": "o3",
+              "text": "Warm"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -491,11 +838,27 @@
           "type": "matching",
           "prompt_es": "Une la bebida con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Coffee", "right": "Café" },
-            { "id": "p2", "left": "Tea", "right": "Té" },
-            { "id": "p3", "left": "Milk", "right": "Leche" }
+            {
+              "id": "p1",
+              "left": "Coffee",
+              "right": "Café"
+            },
+            {
+              "id": "p2",
+              "left": "Tea",
+              "right": "Té"
+            },
+            {
+              "id": "p3",
+              "left": "Milk",
+              "right": "Leche"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -503,11 +866,27 @@
           "type": "matching",
           "prompt_es": "Une las preferencias de cocción:",
           "pairs": [
-            { "id": "p1", "left": "Rare", "right": "Poco hecho" },
-            { "id": "p2", "left": "Medium", "right": "Al punto" },
-            { "id": "p3", "left": "Well-done", "right": "Muy hecho" }
+            {
+              "id": "p1",
+              "left": "Rare",
+              "right": "Poco hecho"
+            },
+            {
+              "id": "p2",
+              "left": "Medium",
+              "right": "Al punto"
+            },
+            {
+              "id": "p3",
+              "left": "Well-done",
+              "right": "Muy hecho"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -539,9 +918,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vegetariano'?",
           "options": [
-            { "id": "o1", "text": "Vegetarian" },
-            { "id": "o2", "text": "Vegan" },
-            { "id": "o3", "text": "Meat-free" }
+            {
+              "id": "o1",
+              "text": "Vegetarian"
+            },
+            {
+              "id": "o2",
+              "text": "Vegan"
+            },
+            {
+              "id": "o3",
+              "text": "Meat-free"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -551,9 +939,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vegano'?",
           "options": [
-            { "id": "o1", "text": "Vegan" },
-            { "id": "o2", "text": "Vegetarian" },
-            { "id": "o3", "text": "Healthy" }
+            {
+              "id": "o1",
+              "text": "Vegan"
+            },
+            {
+              "id": "o2",
+              "text": "Vegetarian"
+            },
+            {
+              "id": "o3",
+              "text": "Healthy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -563,9 +960,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'alergia'?",
           "options": [
-            { "id": "o1", "text": "Allergy" },
-            { "id": "o2", "text": "Illness" },
-            { "id": "o3", "text": "Sick" }
+            {
+              "id": "o1",
+              "text": "Allergy"
+            },
+            {
+              "id": "o2",
+              "text": "Illness"
+            },
+            {
+              "id": "o3",
+              "text": "Sick"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -575,9 +981,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sin gluten'?",
           "options": [
-            { "id": "o1", "text": "Gluten-free" },
-            { "id": "o2", "text": "No gluten" },
-            { "id": "o3", "text": "Wheat-free" }
+            {
+              "id": "o1",
+              "text": "Gluten-free"
+            },
+            {
+              "id": "o2",
+              "text": "No gluten"
+            },
+            {
+              "id": "o3",
+              "text": "Wheat-free"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -587,9 +1002,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'picante'?",
           "options": [
-            { "id": "o1", "text": "Spicy / Hot" },
-            { "id": "o2", "text": "Sweet" },
-            { "id": "o3", "text": "Salty" }
+            {
+              "id": "o1",
+              "text": "Spicy / Hot"
+            },
+            {
+              "id": "o2",
+              "text": "Sweet"
+            },
+            {
+              "id": "o3",
+              "text": "Salty"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -605,9 +1029,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Esto no es lo que pedí'?",
           "options": [
-            { "id": "o1", "text": "This isn't what I ordered" },
-            { "id": "o2", "text": "Wrong food" },
-            { "id": "o3", "text": "I not want this" }
+            {
+              "id": "o1",
+              "text": "This isn't what I ordered"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong food"
+            },
+            {
+              "id": "o3",
+              "text": "I not want this"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -617,9 +1050,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'La comida está fría'?",
           "options": [
-            { "id": "o1", "text": "The food is cold" },
-            { "id": "o2", "text": "Cold meal" },
-            { "id": "o3", "text": "Hot no have" }
+            {
+              "id": "o1",
+              "text": "The food is cold"
+            },
+            {
+              "id": "o2",
+              "text": "Cold meal"
+            },
+            {
+              "id": "o3",
+              "text": "Hot no have"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -629,9 +1071,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedo pagar con tarjeta?'?",
           "options": [
-            { "id": "o1", "text": "Can I pay by card?" },
-            { "id": "o2", "text": "Card pay ok?" },
-            { "id": "o3", "text": "Money or card?" }
+            {
+              "id": "o1",
+              "text": "Can I pay by card?"
+            },
+            {
+              "id": "o2",
+              "text": "Card pay ok?"
+            },
+            {
+              "id": "o3",
+              "text": "Money or card?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -641,9 +1092,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedo pagar en efectivo?'?",
           "options": [
-            { "id": "o1", "text": "Can I pay in cash?" },
-            { "id": "o2", "text": "Cash ok?" },
-            { "id": "o3", "text": "Paper money?" }
+            {
+              "id": "o1",
+              "text": "Can I pay in cash?"
+            },
+            {
+              "id": "o2",
+              "text": "Cash ok?"
+            },
+            {
+              "id": "o3",
+              "text": "Paper money?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -653,9 +1113,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Podemos dividir la cuenta?'?",
           "options": [
-            { "id": "o1", "text": "Can we split the bill?" },
-            { "id": "o2", "text": "Divide money?" },
-            { "id": "o3", "text": "Half half?" }
+            {
+              "id": "o1",
+              "text": "Can we split the bill?"
+            },
+            {
+              "id": "o2",
+              "text": "Divide money?"
+            },
+            {
+              "id": "o3",
+              "text": "Half half?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -689,14 +1158,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿podría traerme otra servilleta?'",
           "options": [
-            { "id": "w1", "text": "bring" },
-            { "id": "w2", "text": "me" },
-            { "id": "w3", "text": "another" },
-            { "id": "w4", "text": "Could" },
-            { "id": "w5", "text": "you" },
-            { "id": "w6", "text": "napkin?" }
+            {
+              "id": "w1",
+              "text": "bring"
+            },
+            {
+              "id": "w2",
+              "text": "me"
+            },
+            {
+              "id": "w3",
+              "text": "another"
+            },
+            {
+              "id": "w4",
+              "text": "Could"
+            },
+            {
+              "id": "w5",
+              "text": "you"
+            },
+            {
+              "id": "w6",
+              "text": "napkin?"
+            }
           ],
-          "correct_answer": ["w4", "w5", "w1", "w2", "w3", "w6"],
+          "correct_answer": [
+            "w4",
+            "w5",
+            "w1",
+            "w2",
+            "w3",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -704,15 +1198,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'me gustaría una mesa para cuatro'",
           "options": [
-            { "id": "w1", "text": "a" },
-            { "id": "w2", "text": "table" },
-            { "id": "w3", "text": "four" },
-            { "id": "w4", "text": "for" },
-            { "id": "w5", "text": "like" },
-            { "id": "w6", "text": "I" },
-            { "id": "w7", "text": "would" }
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "table"
+            },
+            {
+              "id": "w3",
+              "text": "four"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "like"
+            },
+            {
+              "id": "w6",
+              "text": "I"
+            },
+            {
+              "id": "w7",
+              "text": "would"
+            }
           ],
-          "correct_answer": ["w6", "w7", "w5", "w1", "w2", "w4", "w3"],
+          "correct_answer": [
+            "w6",
+            "w7",
+            "w5",
+            "w1",
+            "w2",
+            "w4",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -720,9 +1243,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dulce'?",
           "options": [
-            { "id": "o1", "text": "Sweet" },
-            { "id": "o2", "text": "Sour" },
-            { "id": "o3", "text": "Bitter" }
+            {
+              "id": "o1",
+              "text": "Sweet"
+            },
+            {
+              "id": "o2",
+              "text": "Sour"
+            },
+            {
+              "id": "o3",
+              "text": "Bitter"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -732,9 +1264,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ácido'?",
           "options": [
-            { "id": "o1", "text": "Sour" },
-            { "id": "o2", "text": "Sweet" },
-            { "id": "o3", "text": "Salty" }
+            {
+              "id": "o1",
+              "text": "Sour"
+            },
+            {
+              "id": "o2",
+              "text": "Sweet"
+            },
+            {
+              "id": "o3",
+              "text": "Salty"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -744,9 +1285,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'amargo'?",
           "options": [
-            { "id": "o1", "text": "Bitter" },
-            { "id": "o2", "text": "Spicy" },
-            { "id": "o3", "text": "Plain" }
+            {
+              "id": "o1",
+              "text": "Bitter"
+            },
+            {
+              "id": "o2",
+              "text": "Spicy"
+            },
+            {
+              "id": "o3",
+              "text": "Plain"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -756,9 +1306,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'delicioso'?",
           "options": [
-            { "id": "o1", "text": "Delicious / Tasty" },
-            { "id": "o2", "text": "Bad" },
-            { "id": "o3", "text": "Normal" }
+            {
+              "id": "o1",
+              "text": "Delicious / Tasty"
+            },
+            {
+              "id": "o2",
+              "text": "Bad"
+            },
+            {
+              "id": "o3",
+              "text": "Normal"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -768,9 +1327,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'asqueroso / malo'?",
           "options": [
-            { "id": "o1", "text": "Disgusting / Awful" },
-            { "id": "o2", "text": "Good" },
-            { "id": "o3", "text": "Great" }
+            {
+              "id": "o1",
+              "text": "Disgusting / Awful"
+            },
+            {
+              "id": "o2",
+              "text": "Good"
+            },
+            {
+              "id": "o3",
+              "text": "Great"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -780,9 +1348,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'crudo'?",
           "options": [
-            { "id": "o1", "text": "Raw" },
-            { "id": "o2", "text": "Cooked" },
-            { "id": "o3", "text": "Burnt" }
+            {
+              "id": "o1",
+              "text": "Raw"
+            },
+            {
+              "id": "o2",
+              "text": "Cooked"
+            },
+            {
+              "id": "o3",
+              "text": "Burnt"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -792,9 +1369,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'quemado'?",
           "options": [
-            { "id": "o1", "text": "Burnt" },
-            { "id": "o2", "text": "Done" },
-            { "id": "o3", "text": "Fresh" }
+            {
+              "id": "o1",
+              "text": "Burnt"
+            },
+            {
+              "id": "o2",
+              "text": "Done"
+            },
+            {
+              "id": "o3",
+              "text": "Fresh"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -804,9 +1390,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fresco'?",
           "options": [
-            { "id": "o1", "text": "Fresh" },
-            { "id": "o2", "text": "Old" },
-            { "id": "o3", "text": "Dry" }
+            {
+              "id": "o1",
+              "text": "Fresh"
+            },
+            {
+              "id": "o2",
+              "text": "Old"
+            },
+            {
+              "id": "o3",
+              "text": "Dry"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -816,9 +1411,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'seco'?",
           "options": [
-            { "id": "o1", "text": "Dry" },
-            { "id": "o2", "text": "Wet" },
-            { "id": "o3", "text": "Juicy" }
+            {
+              "id": "o1",
+              "text": "Dry"
+            },
+            {
+              "id": "o2",
+              "text": "Wet"
+            },
+            {
+              "id": "o3",
+              "text": "Juicy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -828,9 +1432,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'jugoso'?",
           "options": [
-            { "id": "o1", "text": "Juicy" },
-            { "id": "o2", "text": "Dry" },
-            { "id": "o3", "text": "Hard" }
+            {
+              "id": "o1",
+              "text": "Juicy"
+            },
+            {
+              "id": "o2",
+              "text": "Dry"
+            },
+            {
+              "id": "o3",
+              "text": "Hard"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -840,9 +1453,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Está incluido el servicio?'?",
           "options": [
-            { "id": "o1", "text": "Is service included?" },
-            { "id": "o2", "text": "Pay waiter?" },
-            { "id": "o3", "text": "Service have?" }
+            {
+              "id": "o1",
+              "text": "Is service included?"
+            },
+            {
+              "id": "o2",
+              "text": "Pay waiter?"
+            },
+            {
+              "id": "o3",
+              "text": "Service have?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -852,9 +1474,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Buen provecho'?",
           "options": [
-            { "id": "o1", "text": "Enjoy your meal!" },
-            { "id": "o2", "text": "Eat well!" },
-            { "id": "o3", "text": "Good food!" }
+            {
+              "id": "o1",
+              "text": "Enjoy your meal!"
+            },
+            {
+              "id": "o2",
+              "text": "Eat well!"
+            },
+            {
+              "id": "o3",
+              "text": "Good food!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -864,9 +1495,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'salud' (brindis)?",
           "options": [
-            { "id": "o1", "text": "Cheers!" },
-            { "id": "o2", "text": "Health!" },
-            { "id": "o3", "text": "Drink!" }
+            {
+              "id": "o1",
+              "text": "Cheers!"
+            },
+            {
+              "id": "o2",
+              "text": "Health!"
+            },
+            {
+              "id": "o3",
+              "text": "Drink!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -876,9 +1516,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'para llevar'?",
           "options": [
-            { "id": "o1", "text": "To go / Takeaway" },
-            { "id": "o2", "text": "For carry" },
-            { "id": "o3", "text": "Outside" }
+            {
+              "id": "o1",
+              "text": "To go / Takeaway"
+            },
+            {
+              "id": "o2",
+              "text": "For carry"
+            },
+            {
+              "id": "o3",
+              "text": "Outside"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -888,9 +1537,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'para comer aquí'?",
           "options": [
-            { "id": "o1", "text": "For here / Eat in" },
-            { "id": "o2", "text": "Inside" },
-            { "id": "o3", "text": "At table" }
+            {
+              "id": "o1",
+              "text": "For here / Eat in"
+            },
+            {
+              "id": "o2",
+              "text": "Inside"
+            },
+            {
+              "id": "o3",
+              "text": "At table"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -905,31 +1563,138 @@
           "interaction_id": "U24_I76",
           "type": "word-search",
           "prompt_es": "Encuentra palabras de restaurante:",
-          "words": ["WAITER", "MENU", "PLATE", "BILL", "FORK", "KNIFE", "SPOON", "DRINK", "CHEF", "TABLE"],
+          "words": [
+            "WAITER",
+            "MENU",
+            "PLATE",
+            "BILL",
+            "FORK",
+            "KNIFE",
+            "SPOON",
+            "DRINK",
+            "CHEF",
+            "TABLE"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "WAITER", "clue": "Person who serves you" },
-            { "word": "MENU", "clue": "List of food" },
-            { "word": "PLATE", "clue": "You eat from this" },
-            { "word": "BILL", "clue": "You pay this at the end" },
-            { "word": "FORK", "clue": "Use this to pick up food" },
-            { "word": "KNIFE", "clue": "Use this to cut food" },
-            { "word": "SPOON", "clue": "Use this for soup" },
-            { "word": "DRINK", "clue": "Water, soda, juice..." },
-            { "word": "CHEF", "clue": "Person who cooks" },
-            { "word": "TABLE", "clue": "Where you sit to eat" }
+            {
+              "word": "WAITER",
+              "clue": "Person who serves you"
+            },
+            {
+              "word": "MENU",
+              "clue": "List of food"
+            },
+            {
+              "word": "PLATE",
+              "clue": "You eat from this"
+            },
+            {
+              "word": "BILL",
+              "clue": "You pay this at the end"
+            },
+            {
+              "word": "FORK",
+              "clue": "Use this to pick up food"
+            },
+            {
+              "word": "KNIFE",
+              "clue": "Use this to cut food"
+            },
+            {
+              "word": "SPOON",
+              "clue": "Use this for soup"
+            },
+            {
+              "word": "DRINK",
+              "clue": "Water, soda, juice..."
+            },
+            {
+              "word": "CHEF",
+              "clue": "Person who cooks"
+            },
+            {
+              "word": "TABLE",
+              "clue": "Where you sit to eat"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U24_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de restaurante:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "EAT", "clue": "To put food in your mouth", "direction": "down", "row": 0, "col": 0 },
-            { "word": "MEAL", "clue": "Breakfast, lunch or dinner", "direction": "across", "row": 0, "col": 0 },
-            { "word": "SALT", "clue": "White powder for flavor", "direction": "across", "row": 2, "col": 0 },
-            { "word": "TEA", "clue": "Hot drink", "direction": "down", "row": 2, "col": 0 }
+            {
+              "word": "ALLERGY",
+              "clue": "Traducción de: alergia",
+              "direction": "across",
+              "row": 10,
+              "col": 6
+            },
+            {
+              "word": "DESSERT",
+              "clue": "Traducción de: Postre",
+              "direction": "down",
+              "row": 5,
+              "col": 10
+            },
+            {
+              "word": "WAITER",
+              "clue": "Traducción de: camarero",
+              "direction": "down",
+              "row": 9,
+              "col": 6
+            },
+            {
+              "word": "KNIFE",
+              "clue": "Traducción de: Cuchillo",
+              "direction": "across",
+              "row": 6,
+              "col": 6
+            },
+            {
+              "word": "SUGAR",
+              "clue": "Traducción de: azúcar",
+              "direction": "across",
+              "row": 14,
+              "col": 2
+            },
+            {
+              "word": "JUICY",
+              "clue": "Traducción de: jugoso",
+              "direction": "down",
+              "row": 6,
+              "col": 12
+            },
+            {
+              "word": "VEGAN",
+              "clue": "Traducción de: vegano",
+              "direction": "down",
+              "row": 2,
+              "col": 7
+            },
+            {
+              "word": "FORK",
+              "clue": "Traducción de: Tenedor",
+              "direction": "across",
+              "row": 16,
+              "col": 13
+            },
+            {
+              "word": "SOUR",
+              "clue": "Traducción de: ácido",
+              "direction": "down",
+              "row": 15,
+              "col": 14
+            },
+            {
+              "word": "WINE",
+              "clue": "Traducción de: vino",
+              "direction": "across",
+              "row": 3,
+              "col": 4
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -962,9 +1727,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'desayuno'?",
           "options": [
-            { "id": "o1", "text": "Breakfast" },
-            { "id": "o2", "text": "Lunch" },
-            { "id": "o3", "text": "Dinner" }
+            {
+              "id": "o1",
+              "text": "Breakfast"
+            },
+            {
+              "id": "o2",
+              "text": "Lunch"
+            },
+            {
+              "id": "o3",
+              "text": "Dinner"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -974,9 +1748,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'almuerzo / comida'?",
           "options": [
-            { "id": "o1", "text": "Lunch" },
-            { "id": "o2", "text": "Dinner" },
-            { "id": "o3", "text": "Snack" }
+            {
+              "id": "o1",
+              "text": "Lunch"
+            },
+            {
+              "id": "o2",
+              "text": "Dinner"
+            },
+            {
+              "id": "o3",
+              "text": "Snack"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -986,9 +1769,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cena'?",
           "options": [
-            { "id": "o1", "text": "Dinner / Supper" },
-            { "id": "o2", "text": "Lunch" },
-            { "id": "o3", "text": "Breakfast" }
+            {
+              "id": "o1",
+              "text": "Dinner / Supper"
+            },
+            {
+              "id": "o2",
+              "text": "Lunch"
+            },
+            {
+              "id": "o3",
+              "text": "Breakfast"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -998,9 +1790,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'merienda / aperitivo'?",
           "options": [
-            { "id": "o1", "text": "Snack" },
-            { "id": "o2", "text": "Meal" },
-            { "id": "o3", "text": "Dish" }
+            {
+              "id": "o1",
+              "text": "Snack"
+            },
+            {
+              "id": "o2",
+              "text": "Meal"
+            },
+            {
+              "id": "o3",
+              "text": "Dish"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1010,9 +1811,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'picar algo'?",
           "options": [
-            { "id": "o1", "text": "To have a snack" },
-            { "id": "o2", "text": "To eat small" },
-            { "id": "o3", "text": "To little eat" }
+            {
+              "id": "o1",
+              "text": "To have a snack"
+            },
+            {
+              "id": "o2",
+              "text": "To eat small"
+            },
+            {
+              "id": "o3",
+              "text": "To little eat"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1022,9 +1832,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'especial del día'?",
           "options": [
-            { "id": "o1", "text": "Today's special" },
-            { "id": "o2", "text": "Day food" },
-            { "id": "o3", "text": "Menu special" }
+            {
+              "id": "o1",
+              "text": "Today's special"
+            },
+            {
+              "id": "o2",
+              "text": "Day food"
+            },
+            {
+              "id": "o3",
+              "text": "Menu special"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1034,9 +1853,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fuera de carta'?",
           "options": [
-            { "id": "o1", "text": "Off the menu" },
-            { "id": "o2", "text": "No menu" },
-            { "id": "o3", "text": "Outside card" }
+            {
+              "id": "o1",
+              "text": "Off the menu"
+            },
+            {
+              "id": "o2",
+              "text": "No menu"
+            },
+            {
+              "id": "o3",
+              "text": "Outside card"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1046,9 +1874,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué lleva este plato?'?",
           "options": [
-            { "id": "o1", "text": "What's in this dish?" },
-            { "id": "o2", "text": "Ingredients what?" },
-            { "id": "o3", "text": "Inside food?" }
+            {
+              "id": "o1",
+              "text": "What's in this dish?"
+            },
+            {
+              "id": "o2",
+              "text": "Ingredients what?"
+            },
+            {
+              "id": "o3",
+              "text": "Inside food?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1058,9 +1895,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Es picante?'?",
           "options": [
-            { "id": "o1", "text": "Is it spicy?" },
-            { "id": "o2", "text": "Hot is?" },
-            { "id": "o3", "text": "Spice have?" }
+            {
+              "id": "o1",
+              "text": "Is it spicy?"
+            },
+            {
+              "id": "o2",
+              "text": "Hot is?"
+            },
+            {
+              "id": "o3",
+              "text": "Spice have?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1070,9 +1916,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estoy lleno' (saciado)?",
           "options": [
-            { "id": "o1", "text": "I'm full" },
-            { "id": "o2", "text": "I'm complete" },
-            { "id": "o3", "text": "No more eat" }
+            {
+              "id": "o1",
+              "text": "I'm full"
+            },
+            {
+              "id": "o2",
+              "text": "I'm complete"
+            },
+            {
+              "id": "o3",
+              "text": "No more eat"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1082,9 +1937,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tengo sed'?",
           "options": [
-            { "id": "o1", "text": "I'm thirsty" },
-            { "id": "o2", "text": "I have thirst" },
-            { "id": "o3", "text": "I want water" }
+            {
+              "id": "o1",
+              "text": "I'm thirsty"
+            },
+            {
+              "id": "o2",
+              "text": "I have thirst"
+            },
+            {
+              "id": "o3",
+              "text": "I want water"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1094,9 +1958,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tengo hambre'?",
           "options": [
-            { "id": "o1", "text": "I'm hungry" },
-            { "id": "o2", "text": "I have hunger" },
-            { "id": "o3", "text": "I want food" }
+            {
+              "id": "o1",
+              "text": "I'm hungry"
+            },
+            {
+              "id": "o2",
+              "text": "I have hunger"
+            },
+            {
+              "id": "o3",
+              "text": "I want food"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1106,9 +1979,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Dónde está el baño?'?",
           "options": [
-            { "id": "o1", "text": "Where is the bathroom / restroom?" },
-            { "id": "o2", "text": "Toilet where?" },
-            { "id": "o3", "text": "Go wash hands?" }
+            {
+              "id": "o1",
+              "text": "Where is the bathroom / restroom?"
+            },
+            {
+              "id": "o2",
+              "text": "Toilet where?"
+            },
+            {
+              "id": "o3",
+              "text": "Go wash hands?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1118,9 +2000,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mantel'?",
           "options": [
-            { "id": "o1", "text": "Tablecloth" },
-            { "id": "o2", "text": "Table cover" },
-            { "id": "o3", "text": "Desk paper" }
+            {
+              "id": "o1",
+              "text": "Tablecloth"
+            },
+            {
+              "id": "o2",
+              "text": "Table cover"
+            },
+            {
+              "id": "o3",
+              "text": "Desk paper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1130,9 +2021,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sal'?",
           "options": [
-            { "id": "o1", "text": "Salt" },
-            { "id": "o2", "text": "Pepper" },
-            { "id": "o3", "text": "Sugar" }
+            {
+              "id": "o1",
+              "text": "Salt"
+            },
+            {
+              "id": "o2",
+              "text": "Pepper"
+            },
+            {
+              "id": "o3",
+              "text": "Sugar"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1142,9 +2042,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pimienta'?",
           "options": [
-            { "id": "o1", "text": "Pepper" },
-            { "id": "o2", "text": "Salt" },
-            { "id": "o3", "text": "Spice" }
+            {
+              "id": "o1",
+              "text": "Pepper"
+            },
+            {
+              "id": "o2",
+              "text": "Salt"
+            },
+            {
+              "id": "o3",
+              "text": "Spice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1154,9 +2063,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'azúcar'?",
           "options": [
-            { "id": "o1", "text": "Sugar" },
-            { "id": "o2", "text": "Sweetener" },
-            { "id": "o3", "text": "Honey" }
+            {
+              "id": "o1",
+              "text": "Sugar"
+            },
+            {
+              "id": "o2",
+              "text": "Sweetener"
+            },
+            {
+              "id": "o3",
+              "text": "Honey"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1166,9 +2084,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aceite'?",
           "options": [
-            { "id": "o1", "text": "Oil" },
-            { "id": "o2", "text": "Vinegar" },
-            { "id": "o3", "text": "Butter" }
+            {
+              "id": "o1",
+              "text": "Oil"
+            },
+            {
+              "id": "o2",
+              "text": "Vinegar"
+            },
+            {
+              "id": "o3",
+              "text": "Butter"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1178,9 +2105,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vinagre'?",
           "options": [
-            { "id": "o1", "text": "Vinegar" },
-            { "id": "o2", "text": "Oil" },
-            { "id": "o3", "text": "Sauce" }
+            {
+              "id": "o1",
+              "text": "Vinegar"
+            },
+            {
+              "id": "o2",
+              "text": "Oil"
+            },
+            {
+              "id": "o3",
+              "text": "Sauce"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1190,9 +2126,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Todo ha estado delicioso'?",
           "options": [
-            { "id": "o1", "text": "Everything was delicious" },
-            { "id": "o2", "text": "All good" },
-            { "id": "o3", "text": "Great food" }
+            {
+              "id": "o1",
+              "text": "Everything was delicious"
+            },
+            {
+              "id": "o2",
+              "text": "All good"
+            },
+            {
+              "id": "o3",
+              "text": "Great food"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"

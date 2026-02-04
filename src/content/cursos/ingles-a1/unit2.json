@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se escribe el número 0?",
           "options": [
-            { "id": "o1", "text": "Zero" },
-            { "id": "o2", "text": "One" },
-            { "id": "o3", "text": "Ten" }
+            {
+              "id": "o1",
+              "text": "Zero"
+            },
+            {
+              "id": "o2",
+              "text": "One"
+            },
+            {
+              "id": "o3",
+              "text": "Ten"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el número 5?",
           "options": [
-            { "id": "o1", "text": "Five" },
-            { "id": "o2", "text": "Four" },
-            { "id": "o3", "text": "Six" }
+            {
+              "id": "o1",
+              "text": "Five"
+            },
+            {
+              "id": "o2",
+              "text": "Four"
+            },
+            {
+              "id": "o3",
+              "text": "Six"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 8?",
           "options": [
-            { "id": "o1", "text": "Eight" },
-            { "id": "o2", "text": "Seven" },
-            { "id": "o3", "text": "Nine" }
+            {
+              "id": "o1",
+              "text": "Eight"
+            },
+            {
+              "id": "o2",
+              "text": "Seven"
+            },
+            {
+              "id": "o3",
+              "text": "Nine"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué número es 'Twelve'?",
           "options": [
-            { "id": "o1", "text": "12" },
-            { "id": "o2", "text": "2" },
-            { "id": "o3", "text": "20" }
+            {
+              "id": "o1",
+              "text": "12"
+            },
+            {
+              "id": "o2",
+              "text": "2"
+            },
+            {
+              "id": "o3",
+              "text": "20"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 11?",
           "options": [
-            { "id": "o1", "text": "Eleven" },
-            { "id": "o2", "text": "Twelve" },
-            { "id": "o3", "text": "Ten" }
+            {
+              "id": "o1",
+              "text": "Eleven"
+            },
+            {
+              "id": "o2",
+              "text": "Twelve"
+            },
+            {
+              "id": "o3",
+              "text": "Ten"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué número es 'Fifteen'?",
           "options": [
-            { "id": "o1", "text": "15" },
-            { "id": "o2", "text": "50" },
-            { "id": "o3", "text": "5" }
+            {
+              "id": "o1",
+              "text": "15"
+            },
+            {
+              "id": "o2",
+              "text": "50"
+            },
+            {
+              "id": "o3",
+              "text": "5"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 13?",
           "options": [
-            { "id": "o1", "text": "Thirteen" },
-            { "id": "o2", "text": "Thirty" },
-            { "id": "o3", "text": "Third" }
+            {
+              "id": "o1",
+              "text": "Thirteen"
+            },
+            {
+              "id": "o2",
+              "text": "Thirty"
+            },
+            {
+              "id": "o3",
+              "text": "Third"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué número es 'Twenty'?",
           "options": [
-            { "id": "o1", "text": "20" },
-            { "id": "o2", "text": "12" },
-            { "id": "o3", "text": "2" }
+            {
+              "id": "o1",
+              "text": "20"
+            },
+            {
+              "id": "o2",
+              "text": "12"
+            },
+            {
+              "id": "o3",
+              "text": "2"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 30?",
           "options": [
-            { "id": "o1", "text": "Thirty" },
-            { "id": "o2", "text": "Thirteen" },
-            { "id": "o3", "text": "Three" }
+            {
+              "id": "o1",
+              "text": "Thirty"
+            },
+            {
+              "id": "o2",
+              "text": "Thirteen"
+            },
+            {
+              "id": "o3",
+              "text": "Three"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 40?",
           "options": [
-            { "id": "o1", "text": "Forty" },
-            { "id": "o2", "text": "Fourteen" },
-            { "id": "o3", "text": "Fourty" }
+            {
+              "id": "o1",
+              "text": "Forty"
+            },
+            {
+              "id": "o2",
+              "text": "Fourteen"
+            },
+            {
+              "id": "o3",
+              "text": "Fourty"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,9 +227,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 50?",
           "options": [
-            { "id": "o1", "text": "Fifty" },
-            { "id": "o2", "text": "Fifteen" },
-            { "id": "o3", "text": "Five" }
+            {
+              "id": "o1",
+              "text": "Fifty"
+            },
+            {
+              "id": "o2",
+              "text": "Fifteen"
+            },
+            {
+              "id": "o3",
+              "text": "Five"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -149,9 +248,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 100?",
           "options": [
-            { "id": "o1", "text": "One hundred" },
-            { "id": "o2", "text": "One thousand" },
-            { "id": "o3", "text": "Ten ten" }
+            {
+              "id": "o1",
+              "text": "One hundred"
+            },
+            {
+              "id": "o2",
+              "text": "One thousand"
+            },
+            {
+              "id": "o3",
+              "text": "Ten ten"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -225,11 +333,27 @@
           "type": "matching",
           "prompt_es": "Une los números con su nombre:",
           "pairs": [
-            { "id": "p1", "left": "14", "right": "Fourteen" },
-            { "id": "p2", "left": "40", "right": "Forty" },
-            { "id": "p3", "left": "4", "right": "Four" }
+            {
+              "id": "p1",
+              "left": "14",
+              "right": "Fourteen"
+            },
+            {
+              "id": "p2",
+              "left": "40",
+              "right": "Forty"
+            },
+            {
+              "id": "p3",
+              "left": "4",
+              "right": "Four"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -237,11 +361,27 @@
           "type": "matching",
           "prompt_es": "Une los números:",
           "pairs": [
-            { "id": "p1", "left": "19", "right": "Nineteen" },
-            { "id": "p2", "left": "90", "right": "Ninety" },
-            { "id": "p3", "left": "9", "right": "Nine" }
+            {
+              "id": "p1",
+              "left": "19",
+              "right": "Nineteen"
+            },
+            {
+              "id": "p2",
+              "left": "90",
+              "right": "Ninety"
+            },
+            {
+              "id": "p3",
+              "left": "9",
+              "right": "Nine"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -249,9 +389,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuánto es 2 + 2?",
           "options": [
-            { "id": "o1", "text": "Four" },
-            { "id": "o2", "text": "Five" },
-            { "id": "o3", "text": "Three" }
+            {
+              "id": "o1",
+              "text": "Four"
+            },
+            {
+              "id": "o2",
+              "text": "Five"
+            },
+            {
+              "id": "o3",
+              "text": "Three"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -261,9 +410,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuánto es 10 + 10?",
           "options": [
-            { "id": "o1", "text": "Twenty" },
-            { "id": "o2", "text": "Twelve" },
-            { "id": "o3", "text": "Two" }
+            {
+              "id": "o1",
+              "text": "Twenty"
+            },
+            {
+              "id": "o2",
+              "text": "Twelve"
+            },
+            {
+              "id": "o3",
+              "text": "Two"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -273,9 +431,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuánto es 50 - 10?",
           "options": [
-            { "id": "o1", "text": "Forty" },
-            { "id": "o2", "text": "Fourteen" },
-            { "id": "o3", "text": "Sixty" }
+            {
+              "id": "o1",
+              "text": "Forty"
+            },
+            {
+              "id": "o2",
+              "text": "Fourteen"
+            },
+            {
+              "id": "o3",
+              "text": "Sixty"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -285,9 +452,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuánto es 15 + 15?",
           "options": [
-            { "id": "o1", "text": "Thirty" },
-            { "id": "o2", "text": "Thirteen" },
-            { "id": "o3", "text": "Twenty" }
+            {
+              "id": "o1",
+              "text": "Thirty"
+            },
+            {
+              "id": "o2",
+              "text": "Thirteen"
+            },
+            {
+              "id": "o3",
+              "text": "Twenty"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -297,11 +473,31 @@
           "type": "flashcard",
           "prompt_es": "Repaso de números clave",
           "flashcards": [
-            { "front": "12", "back": "Twelve", "pronunciation": "/twɛlv/" },
-            { "front": "20", "back": "Twenty", "pronunciation": "/ˈtwɛnti/" },
-            { "front": "30", "back": "Thirty", "pronunciation": "/ˈθɜːrti/" },
-            { "front": "50", "back": "Fifty", "pronunciation": "/ˈfɪfti/" },
-            { "front": "100", "back": "One hundred", "pronunciation": "/wʌn ˈhʌndrəd/" }
+            {
+              "front": "12",
+              "back": "Twelve",
+              "pronunciation": "/twɛlv/"
+            },
+            {
+              "front": "20",
+              "back": "Twenty",
+              "pronunciation": "/ˈtwɛnti/"
+            },
+            {
+              "front": "30",
+              "back": "Thirty",
+              "pronunciation": "/ˈθɜːrti/"
+            },
+            {
+              "front": "50",
+              "back": "Fifty",
+              "pronunciation": "/ˈfɪfti/"
+            },
+            {
+              "front": "100",
+              "back": "One hundred",
+              "pronunciation": "/wʌn ˈhʌndrəd/"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -310,9 +506,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'doble cero'?",
           "options": [
-            { "id": "o1", "text": "Double zero" },
-            { "id": "o2", "text": "Two zero" },
-            { "id": "o3", "text": "Zero zero" }
+            {
+              "id": "o1",
+              "text": "Double zero"
+            },
+            {
+              "id": "o2",
+              "text": "Two zero"
+            },
+            {
+              "id": "o3",
+              "text": "Zero zero"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -322,9 +527,18 @@
           "type": "multiple_choice",
           "prompt_es": "En números de teléfono, el 0 se suele decir como:",
           "options": [
-            { "id": "o1", "text": "Oh" },
-            { "id": "o2", "text": "Nothing" },
-            { "id": "o3", "text": "Blank" }
+            {
+              "id": "o1",
+              "text": "Oh"
+            },
+            {
+              "id": "o2",
+              "text": "Nothing"
+            },
+            {
+              "id": "o3",
+              "text": "Blank"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -334,9 +548,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice el número 45?",
           "options": [
-            { "id": "o1", "text": "Forty-five" },
-            { "id": "o2", "text": "Fourty-five" },
-            { "id": "o3", "text": "Fourteen-five" }
+            {
+              "id": "o1",
+              "text": "Forty-five"
+            },
+            {
+              "id": "o2",
+              "text": "Fourty-five"
+            },
+            {
+              "id": "o3",
+              "text": "Fourteen-five"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -408,9 +631,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué adjetivo posesivo corresponde a 'He'?",
           "options": [
-            { "id": "o1", "text": "His" },
-            { "id": "o2", "text": "He's" },
-            { "id": "o3", "text": "Him" }
+            {
+              "id": "o1",
+              "text": "His"
+            },
+            {
+              "id": "o2",
+              "text": "He's"
+            },
+            {
+              "id": "o3",
+              "text": "Him"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -420,9 +652,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué adjetivo posesivo corresponde a 'She'?",
           "options": [
-            { "id": "o1", "text": "Her" },
-            { "id": "o2", "text": "Hers" },
-            { "id": "o3", "text": "She's" }
+            {
+              "id": "o1",
+              "text": "Her"
+            },
+            {
+              "id": "o2",
+              "text": "Hers"
+            },
+            {
+              "id": "o3",
+              "text": "She's"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -432,9 +673,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué adjetivo posesivo corresponde a 'I'?",
           "options": [
-            { "id": "o1", "text": "My" },
-            { "id": "o2", "text": "Me" },
-            { "id": "o3", "text": "Mine" }
+            {
+              "id": "o1",
+              "text": "My"
+            },
+            {
+              "id": "o2",
+              "text": "Me"
+            },
+            {
+              "id": "o3",
+              "text": "Mine"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -444,9 +694,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué adjetivo posesivo corresponde a 'They'?",
           "options": [
-            { "id": "o1", "text": "Their" },
-            { "id": "o2", "text": "There" },
-            { "id": "o3", "text": "They're" }
+            {
+              "id": "o1",
+              "text": "Their"
+            },
+            {
+              "id": "o2",
+              "text": "There"
+            },
+            {
+              "id": "o3",
+              "text": "They're"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -456,9 +715,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué adjetivo posesivo corresponde a 'We'?",
           "options": [
-            { "id": "o1", "text": "Our" },
-            { "id": "o2", "text": "Us" },
-            { "id": "o3", "text": "Ours" }
+            {
+              "id": "o1",
+              "text": "Our"
+            },
+            {
+              "id": "o2",
+              "text": "Us"
+            },
+            {
+              "id": "o3",
+              "text": "Ours"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -476,9 +744,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la diferencia entre 'His' y 'Her'?",
           "options": [
-            { "id": "o1", "text": "His es para él, Her es para ella" },
-            { "id": "o2", "text": "His es para ella, Her es para él" },
-            { "id": "o3", "text": "Ambos son iguales" }
+            {
+              "id": "o1",
+              "text": "His es para él, Her es para ella"
+            },
+            {
+              "id": "o2",
+              "text": "His es para ella, Her es para él"
+            },
+            {
+              "id": "o3",
+              "text": "Ambos son iguales"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -504,12 +781,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "My" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "address" },
-            { "id": "w4", "text": "London" }
+            {
+              "id": "w1",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "address"
+            },
+            {
+              "id": "w4",
+              "text": "London"
+            }
           ],
-          "correct_answer": ["w1", "w3", "w1", "w4"],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w1",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -517,12 +811,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "number" },
-            { "id": "w3", "text": "His" },
-            { "id": "w4", "text": "555-0199" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "number"
+            },
+            {
+              "id": "w3",
+              "text": "His"
+            },
+            {
+              "id": "w4",
+              "text": "555-0199"
+            }
           ],
-          "correct_answer": ["w3", "w2", "w1", "w4"],
+          "correct_answer": [
+            "w3",
+            "w2",
+            "w1",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -530,9 +841,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Cuál es su (de ella) número de teléfono?'?",
           "options": [
-            { "id": "o1", "text": "What is her phone number?" },
-            { "id": "o2", "text": "What is his phone number?" },
-            { "id": "o3", "text": "What is she phone number?" }
+            {
+              "id": "o1",
+              "text": "What is her phone number?"
+            },
+            {
+              "id": "o2",
+              "text": "What is his phone number?"
+            },
+            {
+              "id": "o3",
+              "text": "What is she phone number?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -542,9 +862,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Cuál es su (de ellos) dirección?'?",
           "options": [
-            { "id": "o1", "text": "What is their address?" },
-            { "id": "o2", "text": "What is our address?" },
-            { "id": "o3", "text": "What is there address?" }
+            {
+              "id": "o1",
+              "text": "What is their address?"
+            },
+            {
+              "id": "o2",
+              "text": "What is our address?"
+            },
+            {
+              "id": "o3",
+              "text": "What is there address?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -554,11 +883,27 @@
           "type": "matching",
           "prompt_es": "Une los pronombres personales con sus posesivos:",
           "pairs": [
-            { "id": "p1", "left": "I", "right": "My" },
-            { "id": "p2", "left": "You", "right": "Your" },
-            { "id": "p3", "left": "He", "right": "His" }
+            {
+              "id": "p1",
+              "left": "I",
+              "right": "My"
+            },
+            {
+              "id": "p2",
+              "left": "You",
+              "right": "Your"
+            },
+            {
+              "id": "p3",
+              "left": "He",
+              "right": "His"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -566,11 +911,27 @@
           "type": "matching",
           "prompt_es": "Une los pronombres personales con sus posesivos:",
           "pairs": [
-            { "id": "p1", "left": "She", "right": "Her" },
-            { "id": "p2", "left": "We", "right": "Our" },
-            { "id": "p3", "left": "They", "right": "Their" }
+            {
+              "id": "p1",
+              "left": "She",
+              "right": "Her"
+            },
+            {
+              "id": "p2",
+              "left": "We",
+              "right": "Our"
+            },
+            {
+              "id": "p3",
+              "left": "They",
+              "right": "Their"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -578,9 +939,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Nuestra casa'?",
           "options": [
-            { "id": "o1", "text": "Our house" },
-            { "id": "o2", "text": "Us house" },
-            { "id": "o3", "text": "We house" }
+            {
+              "id": "o1",
+              "text": "Our house"
+            },
+            {
+              "id": "o2",
+              "text": "Us house"
+            },
+            {
+              "id": "o3",
+              "text": "We house"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -590,9 +960,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Su (de él) coche'?",
           "options": [
-            { "id": "o1", "text": "His car" },
-            { "id": "o2", "text": "He car" },
-            { "id": "o3", "text": "Him car" }
+            {
+              "id": "o1",
+              "text": "His car"
+            },
+            {
+              "id": "o2",
+              "text": "He car"
+            },
+            {
+              "id": "o3",
+              "text": "Him car"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -602,9 +981,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Su (de ellos) perro'?",
           "options": [
-            { "id": "o1", "text": "Their dog" },
-            { "id": "o2", "text": "They dog" },
-            { "id": "o3", "text": "Them dog" }
+            {
+              "id": "o1",
+              "text": "Their dog"
+            },
+            {
+              "id": "o2",
+              "text": "They dog"
+            },
+            {
+              "id": "o3",
+              "text": "Them dog"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -614,9 +1002,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Tu libro'?",
           "options": [
-            { "id": "o1", "text": "Your book" },
-            { "id": "o2", "text": "You book" },
-            { "id": "o3", "text": "Yours book" }
+            {
+              "id": "o1",
+              "text": "Your book"
+            },
+            {
+              "id": "o2",
+              "text": "You book"
+            },
+            {
+              "id": "o3",
+              "text": "Yours book"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -664,9 +1061,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'médico'?",
           "options": [
-            { "id": "o1", "text": "Doctor" },
-            { "id": "o2", "text": "Nurse" },
-            { "id": "o3", "text": "Dentist" }
+            {
+              "id": "o1",
+              "text": "Doctor"
+            },
+            {
+              "id": "o2",
+              "text": "Nurse"
+            },
+            {
+              "id": "o3",
+              "text": "Dentist"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -676,9 +1082,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'enfermero/a'?",
           "options": [
-            { "id": "o1", "text": "Nurse" },
-            { "id": "o2", "text": "Doctor" },
-            { "id": "o3", "text": "Patient" }
+            {
+              "id": "o1",
+              "text": "Nurse"
+            },
+            {
+              "id": "o2",
+              "text": "Doctor"
+            },
+            {
+              "id": "o3",
+              "text": "Patient"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -688,9 +1103,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'camarero'?",
           "options": [
-            { "id": "o1", "text": "Waiter" },
-            { "id": "o2", "text": "Chef" },
-            { "id": "o3", "text": "Manager" }
+            {
+              "id": "o1",
+              "text": "Waiter"
+            },
+            {
+              "id": "o2",
+              "text": "Chef"
+            },
+            {
+              "id": "o3",
+              "text": "Manager"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -700,9 +1124,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'conductor de autobús'?",
           "options": [
-            { "id": "o1", "text": "Bus driver" },
-            { "id": "o2", "text": "Taxi driver" },
-            { "id": "o3", "text": "Truck driver" }
+            {
+              "id": "o1",
+              "text": "Bus driver"
+            },
+            {
+              "id": "o2",
+              "text": "Taxi driver"
+            },
+            {
+              "id": "o3",
+              "text": "Truck driver"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -712,9 +1145,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ingeniero'?",
           "options": [
-            { "id": "o1", "text": "Engineer" },
-            { "id": "o2", "text": "Architect" },
-            { "id": "o3", "text": "Builder" }
+            {
+              "id": "o1",
+              "text": "Engineer"
+            },
+            {
+              "id": "o2",
+              "text": "Architect"
+            },
+            {
+              "id": "o3",
+              "text": "Builder"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -724,9 +1166,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿A qué te dedicas?'?",
           "options": [
-            { "id": "o1", "text": "What do you do?" },
-            { "id": "o2", "text": "What are you doing?" },
-            { "id": "o3", "text": "What is your job?" }
+            {
+              "id": "o1",
+              "text": "What do you do?"
+            },
+            {
+              "id": "o2",
+              "text": "What are you doing?"
+            },
+            {
+              "id": "o3",
+              "text": "What is your job?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -736,9 +1187,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes a 'What do you do?'?",
           "options": [
-            { "id": "o1", "text": "I am a teacher." },
-            { "id": "o2", "text": "I am fine." },
-            { "id": "o3", "text": "I do English." }
+            {
+              "id": "o1",
+              "text": "I am a teacher."
+            },
+            {
+              "id": "o2",
+              "text": "I am fine."
+            },
+            {
+              "id": "o3",
+              "text": "I do English."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -748,9 +1208,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Job'?",
           "options": [
-            { "id": "o1", "text": "Trabajo / Empleo" },
-            { "id": "o2", "text": "Hobby" },
-            { "id": "o3", "text": "Nombre" }
+            {
+              "id": "o1",
+              "text": "Trabajo / Empleo"
+            },
+            {
+              "id": "o2",
+              "text": "Hobby"
+            },
+            {
+              "id": "o3",
+              "text": "Nombre"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -760,9 +1229,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'dirección de correo electrónico'?",
           "options": [
-            { "id": "o1", "text": "Email address" },
-            { "id": "o2", "text": "Email name" },
-            { "id": "o3", "text": "Electronic address" }
+            {
+              "id": "o1",
+              "text": "Email address"
+            },
+            {
+              "id": "o2",
+              "text": "Email name"
+            },
+            {
+              "id": "o3",
+              "text": "Electronic address"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -772,9 +1250,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '@' en un email?",
           "options": [
-            { "id": "o1", "text": "At" },
-            { "id": "o2", "text": "In" },
-            { "id": "o3", "text": "On" }
+            {
+              "id": "o1",
+              "text": "At"
+            },
+            {
+              "id": "o2",
+              "text": "In"
+            },
+            {
+              "id": "o3",
+              "text": "On"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -784,9 +1271,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '.' en un email (p.ej. .com)?",
           "options": [
-            { "id": "o1", "text": "Dot" },
-            { "id": "o2", "text": "Point" },
-            { "id": "o3", "text": "Stop" }
+            {
+              "id": "o1",
+              "text": "Dot"
+            },
+            {
+              "id": "o2",
+              "text": "Point"
+            },
+            {
+              "id": "o3",
+              "text": "Stop"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -796,9 +1292,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'número de teléfono'?",
           "options": [
-            { "id": "o1", "text": "Phone number" },
-            { "id": "o2", "text": "Telephone name" },
-            { "id": "o3", "text": "Call number" }
+            {
+              "id": "o1",
+              "text": "Phone number"
+            },
+            {
+              "id": "o2",
+              "text": "Telephone name"
+            },
+            {
+              "id": "o3",
+              "text": "Call number"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -808,9 +1313,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dirección'?",
           "options": [
-            { "id": "o1", "text": "Address" },
-            { "id": "o2", "text": "Direction" },
-            { "id": "o3", "text": "Way" }
+            {
+              "id": "o1",
+              "text": "Address"
+            },
+            {
+              "id": "o2",
+              "text": "Direction"
+            },
+            {
+              "id": "o3",
+              "text": "Way"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -820,9 +1334,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Cuál es tu correo electrónico?'?",
           "options": [
-            { "id": "o1", "text": "What is your email address?" },
-            { "id": "o2", "text": "How is your email?" },
-            { "id": "o3", "text": "Where is your email?" }
+            {
+              "id": "o1",
+              "text": "What is your email address?"
+            },
+            {
+              "id": "o2",
+              "text": "How is your email?"
+            },
+            {
+              "id": "o3",
+              "text": "Where is your email?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -864,9 +1387,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuándo se usa 'an' antes de un trabajo?",
           "options": [
-            { "id": "o1", "text": "Cuando la palabra empieza por vocal" },
-            { "id": "o2", "text": "Cuando la palabra empieza por consonante" },
-            { "id": "o3", "text": "Siempre" }
+            {
+              "id": "o1",
+              "text": "Cuando la palabra empieza por vocal"
+            },
+            {
+              "id": "o2",
+              "text": "Cuando la palabra empieza por consonante"
+            },
+            {
+              "id": "o3",
+              "text": "Siempre"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -876,9 +1408,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estudiante'?",
           "options": [
-            { "id": "o1", "text": "Student" },
-            { "id": "o2", "text": "Study" },
-            { "id": "o3", "text": "Studier" }
+            {
+              "id": "o1",
+              "text": "Student"
+            },
+            {
+              "id": "o2",
+              "text": "Study"
+            },
+            {
+              "id": "o3",
+              "text": "Studier"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -893,29 +1434,128 @@
           "interaction_id": "U2_I81",
           "type": "word-search",
           "prompt_es": "Encuentra las profesiones:",
-          "words": ["DOCTOR", "NURSE", "WAITER", "CHEF", "DRIVER", "TEACHER", "STUDENT", "PILOT"],
+          "words": [
+            "DOCTOR",
+            "NURSE",
+            "WAITER",
+            "CHEF",
+            "DRIVER",
+            "TEACHER",
+            "STUDENT",
+            "PILOT"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "DOCTOR", "clue": "Trabaja en un hospital" },
-            { "word": "NURSE", "clue": "Ayuda al doctor" },
-            { "word": "WAITER", "clue": "Sirve comida" },
-            { "word": "CHEF", "clue": "Cocina profesional" },
-            { "word": "DRIVER", "clue": "Conduce un vehículo" },
-            { "word": "TEACHER", "clue": "Enseña en la escuela" },
-            { "word": "STUDENT", "clue": "Aprende en la escuela" },
-            { "word": "PILOT", "clue": "Vuela aviones" }
+            {
+              "word": "DOCTOR",
+              "clue": "Trabaja en un hospital"
+            },
+            {
+              "word": "NURSE",
+              "clue": "Ayuda al doctor"
+            },
+            {
+              "word": "WAITER",
+              "clue": "Sirve comida"
+            },
+            {
+              "word": "CHEF",
+              "clue": "Cocina profesional"
+            },
+            {
+              "word": "DRIVER",
+              "clue": "Conduce un vehículo"
+            },
+            {
+              "word": "TEACHER",
+              "clue": "Enseña en la escuela"
+            },
+            {
+              "word": "STUDENT",
+              "clue": "Aprende en la escuela"
+            },
+            {
+              "word": "PILOT",
+              "clue": "Vuela aviones"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I82",
           "type": "crossword",
-          "prompt_es": "Completa el crucigrama de números y datos:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "TEN", "clue": "Five plus five", "direction": "across", "row": 0, "col": 0 },
-            { "word": "TWO", "clue": "One plus one", "direction": "down", "row": 0, "col": 2 },
-            { "word": "MY", "clue": "I am Peter. ___ name is Peter", "direction": "across", "row": 2, "col": 0 },
-            { "word": "DOT", "clue": "The '.' in gmail.com", "direction": "down", "row": 1, "col": 0 }
+            {
+              "word": "RECEPTIONIST",
+              "clue": "Traducción de: recepcionista",
+              "direction": "across",
+              "row": 10,
+              "col": 4
+            },
+            {
+              "word": "STUDENT",
+              "clue": "Traducción de: estudiante",
+              "direction": "down",
+              "row": 4,
+              "col": 15
+            },
+            {
+              "word": "ADDRESS",
+              "clue": "Traducción de: dirección",
+              "direction": "across",
+              "row": 4,
+              "col": 9
+            },
+            {
+              "word": "WAITER",
+              "clue": "Traducción de: camarero",
+              "direction": "down",
+              "row": 7,
+              "col": 9
+            },
+            {
+              "word": "DOCTOR",
+              "clue": "Traducción de: médico",
+              "direction": "down",
+              "row": 9,
+              "col": 11
+            },
+            {
+              "word": "NURSE",
+              "clue": "Traducción de: enfermero/a",
+              "direction": "across",
+              "row": 6,
+              "col": 14
+            },
+            {
+              "word": "THEY",
+              "clue": "Traducción de: Their",
+              "direction": "across",
+              "row": 8,
+              "col": 13
+            },
+            {
+              "word": "YOU",
+              "clue": "Traducción de: Your",
+              "direction": "across",
+              "row": 13,
+              "col": 10
+            },
+            {
+              "word": "SHE",
+              "clue": "Traducción de: Her",
+              "direction": "down",
+              "row": 8,
+              "col": 5
+            },
+            {
+              "word": "DOT",
+              "clue": "Traducción de: .",
+              "direction": "down",
+              "row": 4,
+              "col": 10
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -924,11 +1564,27 @@
           "type": "matching",
           "prompt_es": "Une los números con su escritura:",
           "pairs": [
-            { "id": "p1", "left": "15", "right": "Fifteen" },
-            { "id": "p2", "left": "50", "right": "Fifty" },
-            { "id": "p3", "left": "5", "right": "Five" }
+            {
+              "id": "p1",
+              "left": "15",
+              "right": "Fifteen"
+            },
+            {
+              "id": "p2",
+              "left": "50",
+              "right": "Fifty"
+            },
+            {
+              "id": "p3",
+              "left": "5",
+              "right": "Five"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -944,9 +1600,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'recepcionista'?",
           "options": [
-            { "id": "o1", "text": "Receptionist" },
-            { "id": "o2", "text": "Secretary" },
-            { "id": "o3", "text": "Assistant" }
+            {
+              "id": "o1",
+              "text": "Receptionist"
+            },
+            {
+              "id": "o2",
+              "text": "Secretary"
+            },
+            {
+              "id": "o3",
+              "text": "Assistant"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -956,9 +1621,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'policía'?",
           "options": [
-            { "id": "o1", "text": "Police officer" },
-            { "id": "o2", "text": "Policeman" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Police officer"
+            },
+            {
+              "id": "o2",
+              "text": "Policeman"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -968,9 +1642,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'comerciante / vendedor'?",
           "options": [
-            { "id": "o1", "text": "Shop assistant" },
-            { "id": "o2", "text": "Seller" },
-            { "id": "o3", "text": "Merchant" }
+            {
+              "id": "o1",
+              "text": "Shop assistant"
+            },
+            {
+              "id": "o2",
+              "text": "Seller"
+            },
+            {
+              "id": "o3",
+              "text": "Merchant"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -996,9 +1679,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se lee 'john@gmail.com'?",
           "options": [
-            { "id": "o1", "text": "john at gmail dot com" },
-            { "id": "o2", "text": "john email gmail point com" },
-            { "id": "o3", "text": "john in gmail stop com" }
+            {
+              "id": "o1",
+              "text": "john at gmail dot com"
+            },
+            {
+              "id": "o2",
+              "text": "john email gmail point com"
+            },
+            {
+              "id": "o3",
+              "text": "john in gmail stop com"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1008,9 +1700,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'What's his job?'?",
           "options": [
-            { "id": "o1", "text": "¿Cuál es su (de él) trabajo?" },
-            { "id": "o2", "text": "¿Cuál es su (de ella) trabajo?" },
-            { "id": "o3", "text": "¿Cuál es mi trabajo?" }
+            {
+              "id": "o1",
+              "text": "¿Cuál es su (de él) trabajo?"
+            },
+            {
+              "id": "o2",
+              "text": "¿Cuál es su (de ella) trabajo?"
+            },
+            {
+              "id": "o3",
+              "text": "¿Cuál es mi trabajo?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1020,9 +1721,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Ella es enfermera'?",
           "options": [
-            { "id": "o1", "text": "She is a nurse." },
-            { "id": "o2", "text": "She is an nurse." },
-            { "id": "o3", "text": "She is nurse." }
+            {
+              "id": "o1",
+              "text": "She is a nurse."
+            },
+            {
+              "id": "o2",
+              "text": "She is an nurse."
+            },
+            {
+              "id": "o3",
+              "text": "She is nurse."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1032,9 +1742,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Él es actor'?",
           "options": [
-            { "id": "o1", "text": "He is an actor." },
-            { "id": "o2", "text": "He is a actor." },
-            { "id": "o3", "text": "He is actor." }
+            {
+              "id": "o1",
+              "text": "He is an actor."
+            },
+            {
+              "id": "o2",
+              "text": "He is a actor."
+            },
+            {
+              "id": "o3",
+              "text": "He is actor."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1044,9 +1763,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'First name'?",
           "options": [
-            { "id": "o1", "text": "Nombre de pila" },
-            { "id": "o2", "text": "Primer apellido" },
-            { "id": "o3", "text": "Nombre completo" }
+            {
+              "id": "o1",
+              "text": "Nombre de pila"
+            },
+            {
+              "id": "o2",
+              "text": "Primer apellido"
+            },
+            {
+              "id": "o3",
+              "text": "Nombre completo"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1056,9 +1784,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Last name'?",
           "options": [
-            { "id": "o1", "text": "Apellido" },
-            { "id": "o2", "text": "Nombre" },
-            { "id": "o3", "text": "Apodo" }
+            {
+              "id": "o1",
+              "text": "Apellido"
+            },
+            {
+              "id": "o2",
+              "text": "Nombre"
+            },
+            {
+              "id": "o3",
+              "text": "Apodo"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1068,12 +1805,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena los números de menor a mayor:",
           "options": [
-            { "id": "w1", "text": "Ten" },
-            { "id": "w2", "text": "Fifty" },
-            { "id": "w3", "text": "Twenty" },
-            { "id": "w4", "text": "Five" }
+            {
+              "id": "w1",
+              "text": "Ten"
+            },
+            {
+              "id": "w2",
+              "text": "Fifty"
+            },
+            {
+              "id": "w3",
+              "text": "Twenty"
+            },
+            {
+              "id": "w4",
+              "text": "Five"
+            }
           ],
-          "correct_answer": ["w4", "w1", "w3", "w2"],
+          "correct_answer": [
+            "w4",
+            "w1",
+            "w3",
+            "w2"
+          ],
           "mastery_tag": "vocabulary"
         },
         {
@@ -1081,9 +1835,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es tu 'marital status' si no estás casado?",
           "options": [
-            { "id": "o1", "text": "Single" },
-            { "id": "o2", "text": "Married" },
-            { "id": "o3", "text": "Divorced" }
+            {
+              "id": "o1",
+              "text": "Single"
+            },
+            {
+              "id": "o2",
+              "text": "Married"
+            },
+            {
+              "id": "o3",
+              "text": "Divorced"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1093,9 +1856,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Age'?",
           "options": [
-            { "id": "o1", "text": "Edad" },
-            { "id": "o2", "text": "Agencia" },
-            { "id": "o3", "text": "Agenda" }
+            {
+              "id": "o1",
+              "text": "Edad"
+            },
+            {
+              "id": "o2",
+              "text": "Agencia"
+            },
+            {
+              "id": "o3",
+              "text": "Agenda"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1105,9 +1877,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Tengo 30 años'?",
           "options": [
-            { "id": "o1", "text": "I am thirty." },
-            { "id": "o2", "text": "I have thirty." },
-            { "id": "o3", "text": "I are thirty." }
+            {
+              "id": "o1",
+              "text": "I am thirty."
+            },
+            {
+              "id": "o2",
+              "text": "I have thirty."
+            },
+            {
+              "id": "o3",
+              "text": "I are thirty."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1117,9 +1898,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta de decir un número de teléfono (p.ej. 555)?",
           "options": [
-            { "id": "o1", "text": "Five five five" },
-            { "id": "o2", "text": "Five hundred and fifty five" },
-            { "id": "o3", "text": "Fifty five five" }
+            {
+              "id": "o1",
+              "text": "Five five five"
+            },
+            {
+              "id": "o2",
+              "text": "Five hundred and fifty five"
+            },
+            {
+              "id": "o3",
+              "text": "Fifty five five"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"

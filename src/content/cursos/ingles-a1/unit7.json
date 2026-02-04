@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'despertarse'?",
           "options": [
-            { "id": "o1", "text": "Wake up" },
-            { "id": "o2", "text": "Get up" },
-            { "id": "o3", "text": "Sleep" }
+            {
+              "id": "o1",
+              "text": "Wake up"
+            },
+            {
+              "id": "o2",
+              "text": "Get up"
+            },
+            {
+              "id": "o3",
+              "text": "Sleep"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'levantarse'?",
           "options": [
-            { "id": "o1", "text": "Get up" },
-            { "id": "o2", "text": "Wake up" },
-            { "id": "o3", "text": "Stand up" }
+            {
+              "id": "o1",
+              "text": "Get up"
+            },
+            {
+              "id": "o2",
+              "text": "Wake up"
+            },
+            {
+              "id": "o3",
+              "text": "Stand up"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ducharse'?",
           "options": [
-            { "id": "o1", "text": "Have a shower / Take a shower" },
-            { "id": "o2", "text": "Have a bath" },
-            { "id": "o3", "text": "Wash me" }
+            {
+              "id": "o1",
+              "text": "Have a shower / Take a shower"
+            },
+            {
+              "id": "o2",
+              "text": "Have a bath"
+            },
+            {
+              "id": "o3",
+              "text": "Wash me"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lavarse los dientes'?",
           "options": [
-            { "id": "o1", "text": "Brush your teeth" },
-            { "id": "o2", "text": "Wash your teeth" },
-            { "id": "o3", "text": "Clean your mouth" }
+            {
+              "id": "o1",
+              "text": "Brush your teeth"
+            },
+            {
+              "id": "o2",
+              "text": "Wash your teeth"
+            },
+            {
+              "id": "o3",
+              "text": "Clean your mouth"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vestirse'?",
           "options": [
-            { "id": "o1", "text": "Get dressed" },
-            { "id": "o2", "text": "Put clothes" },
-            { "id": "o3", "text": "Wear clothes" }
+            {
+              "id": "o1",
+              "text": "Get dressed"
+            },
+            {
+              "id": "o2",
+              "text": "Put clothes"
+            },
+            {
+              "id": "o3",
+              "text": "Wear clothes"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'desayunar'?",
           "options": [
-            { "id": "o1", "text": "Have breakfast" },
-            { "id": "o2", "text": "Eat breakfast" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Have breakfast"
+            },
+            {
+              "id": "o2",
+              "text": "Eat breakfast"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ir al trabajo'?",
           "options": [
-            { "id": "o1", "text": "Go to work" },
-            { "id": "o2", "text": "Go work" },
-            { "id": "o3", "text": "Work go" }
+            {
+              "id": "o1",
+              "text": "Go to work"
+            },
+            {
+              "id": "o2",
+              "text": "Go work"
+            },
+            {
+              "id": "o3",
+              "text": "Work go"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'empezar a trabajar'?",
           "options": [
-            { "id": "o1", "text": "Start work" },
-            { "id": "o2", "text": "Begin working" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Start work"
+            },
+            {
+              "id": "o2",
+              "text": "Begin working"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'almorzar / comer'?",
           "options": [
-            { "id": "o1", "text": "Have lunch" },
-            { "id": "o2", "text": "Eat lunch" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Have lunch"
+            },
+            {
+              "id": "o2",
+              "text": "Eat lunch"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'terminar el trabajo'?",
           "options": [
-            { "id": "o1", "text": "Finish work" },
-            { "id": "o2", "text": "Stop work" },
-            { "id": "o3", "text": "End work" }
+            {
+              "id": "o1",
+              "text": "Finish work"
+            },
+            {
+              "id": "o2",
+              "text": "Stop work"
+            },
+            {
+              "id": "o3",
+              "text": "End work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,9 +227,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'volver a casa'?",
           "options": [
-            { "id": "o1", "text": "Go home / Get home" },
-            { "id": "o2", "text": "Back house" },
-            { "id": "o3", "text": "Return home" }
+            {
+              "id": "o1",
+              "text": "Go home / Get home"
+            },
+            {
+              "id": "o2",
+              "text": "Back house"
+            },
+            {
+              "id": "o3",
+              "text": "Return home"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -149,9 +248,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cenar'?",
           "options": [
-            { "id": "o1", "text": "Have dinner" },
-            { "id": "o2", "text": "Eat dinner" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Have dinner"
+            },
+            {
+              "id": "o2",
+              "text": "Eat dinner"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -161,9 +269,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ir a la cama'?",
           "options": [
-            { "id": "o1", "text": "Go to bed" },
-            { "id": "o2", "text": "Sleep go" },
-            { "id": "o3", "text": "Go sleep" }
+            {
+              "id": "o1",
+              "text": "Go to bed"
+            },
+            {
+              "id": "o2",
+              "text": "Sleep go"
+            },
+            {
+              "id": "o3",
+              "text": "Go sleep"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -173,9 +290,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dormir'?",
           "options": [
-            { "id": "o1", "text": "Sleep" },
-            { "id": "o2", "text": "Dream" },
-            { "id": "o3", "text": "Nap" }
+            {
+              "id": "o1",
+              "text": "Sleep"
+            },
+            {
+              "id": "o2",
+              "text": "Dream"
+            },
+            {
+              "id": "o3",
+              "text": "Nap"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -185,9 +311,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hacer los deberes'?",
           "options": [
-            { "id": "o1", "text": "Do homework" },
-            { "id": "o2", "text": "Make homework" },
-            { "id": "o3", "text": "Study homework" }
+            {
+              "id": "o1",
+              "text": "Do homework"
+            },
+            {
+              "id": "o2",
+              "text": "Make homework"
+            },
+            {
+              "id": "o3",
+              "text": "Study homework"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -197,9 +332,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ver la tele'?",
           "options": [
-            { "id": "o1", "text": "Watch TV" },
-            { "id": "o2", "text": "Look TV" },
-            { "id": "o3", "text": "See TV" }
+            {
+              "id": "o1",
+              "text": "Watch TV"
+            },
+            {
+              "id": "o2",
+              "text": "Look TV"
+            },
+            {
+              "id": "o3",
+              "text": "See TV"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -209,9 +353,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'escuchar música'?",
           "options": [
-            { "id": "o1", "text": "Listen to music" },
-            { "id": "o2", "text": "Hear music" },
-            { "id": "o3", "text": "Listen music" }
+            {
+              "id": "o1",
+              "text": "Listen to music"
+            },
+            {
+              "id": "o2",
+              "text": "Hear music"
+            },
+            {
+              "id": "o3",
+              "text": "Listen music"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -221,9 +374,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'leer un libro'?",
           "options": [
-            { "id": "o1", "text": "Read a book" },
-            { "id": "o2", "text": "Write a book" },
-            { "id": "o3", "text": "Look a book" }
+            {
+              "id": "o1",
+              "text": "Read a book"
+            },
+            {
+              "id": "o2",
+              "text": "Write a book"
+            },
+            {
+              "id": "o3",
+              "text": "Look a book"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -233,9 +395,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'salir con amigos'?",
           "options": [
-            { "id": "o1", "text": "Go out with friends" },
-            { "id": "o2", "text": "Hang out with friends" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Go out with friends"
+            },
+            {
+              "id": "o2",
+              "text": "Hang out with friends"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -245,10 +416,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'limpiar la casa'?",
           "options": [
-            { "id": "o1", "text": "Clean the house" },
-            { "id": "o2", "text": "Wash the house" },
-            { "id": "o3", "text": "Tidy the house" },
-            { "id": "o4", "text": "A and C are correct" }
+            {
+              "id": "o1",
+              "text": "Clean the house"
+            },
+            {
+              "id": "o2",
+              "text": "Wash the house"
+            },
+            {
+              "id": "o3",
+              "text": "Tidy the house"
+            },
+            {
+              "id": "o4",
+              "text": "A and C are correct"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -258,11 +441,27 @@
           "type": "matching",
           "prompt_es": "Une las acciones matutinas:",
           "pairs": [
-            { "id": "p1", "left": "Wake up", "right": "Despertarse" },
-            { "id": "p2", "left": "Get dressed", "right": "Vestirse" },
-            { "id": "p3", "left": "Have breakfast", "right": "Desayunar" }
+            {
+              "id": "p1",
+              "left": "Wake up",
+              "right": "Despertarse"
+            },
+            {
+              "id": "p2",
+              "left": "Get dressed",
+              "right": "Vestirse"
+            },
+            {
+              "id": "p3",
+              "left": "Have breakfast",
+              "right": "Desayunar"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -270,11 +469,27 @@
           "type": "matching",
           "prompt_es": "Une las acciones de tarde/noche:",
           "pairs": [
-            { "id": "p1", "left": "Finish work", "right": "Terminar el trabajo" },
-            { "id": "p2", "left": "Have dinner", "right": "Cenar" },
-            { "id": "p3", "left": "Go to bed", "right": "Ir a la cama" }
+            {
+              "id": "p1",
+              "left": "Finish work",
+              "right": "Terminar el trabajo"
+            },
+            {
+              "id": "p2",
+              "left": "Have dinner",
+              "right": "Cenar"
+            },
+            {
+              "id": "p3",
+              "left": "Go to bed",
+              "right": "Ir a la cama"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -312,9 +527,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas la hora?",
           "options": [
-            { "id": "o1", "text": "What time is it?" },
-            { "id": "o2", "text": "What is the hour?" },
-            { "id": "o3", "text": "What's time?" }
+            {
+              "id": "o1",
+              "text": "What time is it?"
+            },
+            {
+              "id": "o2",
+              "text": "What is the hour?"
+            },
+            {
+              "id": "o3",
+              "text": "What's time?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -324,9 +548,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Son las ocho en punto'?",
           "options": [
-            { "id": "o1", "text": "It's eight o'clock" },
-            { "id": "o2", "text": "It's eight hour" },
-            { "id": "o3", "text": "It's eight sharp" }
+            {
+              "id": "o1",
+              "text": "It's eight o'clock"
+            },
+            {
+              "id": "o2",
+              "text": "It's eight hour"
+            },
+            {
+              "id": "o3",
+              "text": "It's eight sharp"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -336,9 +569,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Son las ocho y cuarto'?",
           "options": [
-            { "id": "o1", "text": "It's quarter past eight" },
-            { "id": "o2", "text": "It's eight and quarter" },
-            { "id": "o3", "text": "It's fifteen past eight" }
+            {
+              "id": "o1",
+              "text": "It's quarter past eight"
+            },
+            {
+              "id": "o2",
+              "text": "It's eight and quarter"
+            },
+            {
+              "id": "o3",
+              "text": "It's fifteen past eight"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -348,9 +590,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Son las ocho y media'?",
           "options": [
-            { "id": "o1", "text": "It's half past eight" },
-            { "id": "o2", "text": "It's eight thirty" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "It's half past eight"
+            },
+            {
+              "id": "o2",
+              "text": "It's eight thirty"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -360,9 +611,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Son las nueve menos cuarto'?",
           "options": [
-            { "id": "o1", "text": "It's quarter to nine" },
-            { "id": "o2", "text": "It's nine minus quarter" },
-            { "id": "o3", "text": "It's quarter past nine" }
+            {
+              "id": "o1",
+              "text": "It's quarter to nine"
+            },
+            {
+              "id": "o2",
+              "text": "It's nine minus quarter"
+            },
+            {
+              "id": "o3",
+              "text": "It's quarter past nine"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -372,9 +632,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Son las diez y diez'?",
           "options": [
-            { "id": "o1", "text": "It's ten past ten" },
-            { "id": "o2", "text": "It's ten ten" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "It's ten past ten"
+            },
+            {
+              "id": "o2",
+              "text": "It's ten ten"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -384,9 +653,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Son las once menos cinco'?",
           "options": [
-            { "id": "o1", "text": "It's five to eleven" },
-            { "id": "o2", "text": "It's eleven minus five" },
-            { "id": "o3", "text": "It's five past eleven" }
+            {
+              "id": "o1",
+              "text": "It's five to eleven"
+            },
+            {
+              "id": "o2",
+              "text": "It's eleven minus five"
+            },
+            {
+              "id": "o3",
+              "text": "It's five past eleven"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -396,9 +674,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'A.M.'?",
           "options": [
-            { "id": "o1", "text": "Before noon (mañana)" },
-            { "id": "o2", "text": "After noon (tarde)" },
-            { "id": "o3", "text": "At midnight" }
+            {
+              "id": "o1",
+              "text": "Before noon (mañana)"
+            },
+            {
+              "id": "o2",
+              "text": "After noon (tarde)"
+            },
+            {
+              "id": "o3",
+              "text": "At midnight"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -408,9 +695,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'P.M.'?",
           "options": [
-            { "id": "o1", "text": "After noon (tarde/noche)" },
-            { "id": "o2", "text": "Morning" },
-            { "id": "o3", "text": "Past midnight" }
+            {
+              "id": "o1",
+              "text": "After noon (tarde/noche)"
+            },
+            {
+              "id": "o2",
+              "text": "Morning"
+            },
+            {
+              "id": "o3",
+              "text": "Past midnight"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -420,9 +716,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mediodía'?",
           "options": [
-            { "id": "o1", "text": "Noon / Midday" },
-            { "id": "o2", "text": "Midnight" },
-            { "id": "o3", "text": "Daytime" }
+            {
+              "id": "o1",
+              "text": "Noon / Midday"
+            },
+            {
+              "id": "o2",
+              "text": "Midnight"
+            },
+            {
+              "id": "o3",
+              "text": "Daytime"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -432,9 +737,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'medianoche'?",
           "options": [
-            { "id": "o1", "text": "Midnight" },
-            { "id": "o2", "text": "Noon" },
-            { "id": "o3", "text": "Dark night" }
+            {
+              "id": "o1",
+              "text": "Midnight"
+            },
+            {
+              "id": "o2",
+              "text": "Noon"
+            },
+            {
+              "id": "o3",
+              "text": "Dark night"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -476,11 +790,27 @@
           "type": "matching",
           "prompt_es": "Une las horas digitales con las analógicas:",
           "pairs": [
-            { "id": "p1", "left": "7:00", "right": "Seven o'clock" },
-            { "id": "p2", "left": "7:15", "right": "Quarter past seven" },
-            { "id": "p3", "left": "7:30", "right": "Half past seven" }
+            {
+              "id": "p1",
+              "left": "7:00",
+              "right": "Seven o'clock"
+            },
+            {
+              "id": "p2",
+              "left": "7:15",
+              "right": "Quarter past seven"
+            },
+            {
+              "id": "p3",
+              "left": "7:30",
+              "right": "Half past seven"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -488,11 +818,27 @@
           "type": "matching",
           "prompt_es": "Une las horas:",
           "pairs": [
-            { "id": "p1", "left": "7:45", "right": "Quarter to eight" },
-            { "id": "p2", "left": "7:05", "right": "Five past seven" },
-            { "id": "p3", "left": "7:55", "right": "Five to eight" }
+            {
+              "id": "p1",
+              "left": "7:45",
+              "right": "Quarter to eight"
+            },
+            {
+              "id": "p2",
+              "left": "7:05",
+              "right": "Five past seven"
+            },
+            {
+              "id": "p3",
+              "left": "7:55",
+              "right": "Five to eight"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -500,13 +846,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "What" },
-            { "id": "w3", "text": "it" },
-            { "id": "w4", "text": "time" },
-            { "id": "w5", "text": "?" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "What"
+            },
+            {
+              "id": "w3",
+              "text": "it"
+            },
+            {
+              "id": "w4",
+              "text": "time"
+            },
+            {
+              "id": "w5",
+              "text": "?"
+            }
           ],
-          "correct_answer": ["w2", "w4", "w1", "w3", "w5"],
+          "correct_answer": [
+            "w2",
+            "w4",
+            "w1",
+            "w3",
+            "w5"
+          ],
           "mastery_tag": "communication"
         },
         {
@@ -514,12 +881,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "It's" },
-            { "id": "w2", "text": "past" },
-            { "id": "w3", "text": "half" },
-            { "id": "w4", "text": "six" }
+            {
+              "id": "w1",
+              "text": "It's"
+            },
+            {
+              "id": "w2",
+              "text": "past"
+            },
+            {
+              "id": "w3",
+              "text": "half"
+            },
+            {
+              "id": "w4",
+              "text": "six"
+            }
           ],
-          "correct_answer": ["w1", "w3", "w2", "w4"],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2",
+            "w4"
+          ],
           "mastery_tag": "vocabulary"
         },
         {
@@ -527,9 +911,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'a las ocho'?",
           "options": [
-            { "id": "o1", "text": "At eight o'clock" },
-            { "id": "o2", "text": "In eight o'clock" },
-            { "id": "o3", "text": "On eight o'clock" }
+            {
+              "id": "o1",
+              "text": "At eight o'clock"
+            },
+            {
+              "id": "o2",
+              "text": "In eight o'clock"
+            },
+            {
+              "id": "o3",
+              "text": "On eight o'clock"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -539,9 +932,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'temprano'?",
           "options": [
-            { "id": "o1", "text": "Early" },
-            { "id": "o2", "text": "Late" },
-            { "id": "o3", "text": "Fast" }
+            {
+              "id": "o1",
+              "text": "Early"
+            },
+            {
+              "id": "o2",
+              "text": "Late"
+            },
+            {
+              "id": "o3",
+              "text": "Fast"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -551,9 +953,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tarde'?",
           "options": [
-            { "id": "o1", "text": "Late" },
-            { "id": "o2", "text": "Afternoon" },
-            { "id": "o3", "text": "Evening" }
+            {
+              "id": "o1",
+              "text": "Late"
+            },
+            {
+              "id": "o2",
+              "text": "Afternoon"
+            },
+            {
+              "id": "o3",
+              "text": "Evening"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -563,9 +974,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'por la mañana'?",
           "options": [
-            { "id": "o1", "text": "In the morning" },
-            { "id": "o2", "text": "On the morning" },
-            { "id": "o3", "text": "At the morning" }
+            {
+              "id": "o1",
+              "text": "In the morning"
+            },
+            {
+              "id": "o2",
+              "text": "On the morning"
+            },
+            {
+              "id": "o3",
+              "text": "At the morning"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -575,9 +995,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'por la tarde' (después de comer)?",
           "options": [
-            { "id": "o1", "text": "In the afternoon" },
-            { "id": "o2", "text": "In the evening" },
-            { "id": "o3", "text": "At afternoon" }
+            {
+              "id": "o1",
+              "text": "In the afternoon"
+            },
+            {
+              "id": "o2",
+              "text": "In the evening"
+            },
+            {
+              "id": "o3",
+              "text": "At afternoon"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -587,10 +1016,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'por la noche'?",
           "options": [
-            { "id": "o1", "text": "At night" },
-            { "id": "o2", "text": "In the night" },
-            { "id": "o3", "text": "In the evening" },
-            { "id": "o4", "text": "A and C are common" }
+            {
+              "id": "o1",
+              "text": "At night"
+            },
+            {
+              "id": "o2",
+              "text": "In the night"
+            },
+            {
+              "id": "o3",
+              "text": "In the evening"
+            },
+            {
+              "id": "o4",
+              "text": "A and C are common"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "grammar"
@@ -606,9 +1047,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Yo trabajo'?",
           "options": [
-            { "id": "o1", "text": "I work" },
-            { "id": "o2", "text": "I works" },
-            { "id": "o3", "text": "I working" }
+            {
+              "id": "o1",
+              "text": "I work"
+            },
+            {
+              "id": "o2",
+              "text": "I works"
+            },
+            {
+              "id": "o3",
+              "text": "I working"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -618,9 +1068,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Él trabaja'?",
           "options": [
-            { "id": "o1", "text": "He works" },
-            { "id": "o2", "text": "He work" },
-            { "id": "o3", "text": "He working" }
+            {
+              "id": "o1",
+              "text": "He works"
+            },
+            {
+              "id": "o2",
+              "text": "He work"
+            },
+            {
+              "id": "o3",
+              "text": "He working"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -630,9 +1089,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Ella estudia'?",
           "options": [
-            { "id": "o1", "text": "She studies" },
-            { "id": "o2", "text": "She studys" },
-            { "id": "o3", "text": "She study" }
+            {
+              "id": "o1",
+              "text": "She studies"
+            },
+            {
+              "id": "o2",
+              "text": "She studys"
+            },
+            {
+              "id": "o3",
+              "text": "She study"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -642,9 +1110,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma negativa de 'I work'?",
           "options": [
-            { "id": "o1", "text": "I don't work" },
-            { "id": "o2", "text": "I doesn't work" },
-            { "id": "o3", "text": "I not work" }
+            {
+              "id": "o1",
+              "text": "I don't work"
+            },
+            {
+              "id": "o2",
+              "text": "I doesn't work"
+            },
+            {
+              "id": "o3",
+              "text": "I not work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -654,9 +1131,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma negativa de 'He works'?",
           "options": [
-            { "id": "o1", "text": "He doesn't work" },
-            { "id": "o2", "text": "He don't work" },
-            { "id": "o3", "text": "He doesn't works" }
+            {
+              "id": "o1",
+              "text": "He doesn't work"
+            },
+            {
+              "id": "o2",
+              "text": "He don't work"
+            },
+            {
+              "id": "o3",
+              "text": "He doesn't works"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -666,9 +1152,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Trabajas?'?",
           "options": [
-            { "id": "o1", "text": "Do you work?" },
-            { "id": "o2", "text": "Does you work?" },
-            { "id": "o3", "text": "You work?" }
+            {
+              "id": "o1",
+              "text": "Do you work?"
+            },
+            {
+              "id": "o2",
+              "text": "Does you work?"
+            },
+            {
+              "id": "o3",
+              "text": "You work?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -678,9 +1173,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Trabaja él?'?",
           "options": [
-            { "id": "o1", "text": "Does he work?" },
-            { "id": "o2", "text": "Do he work?" },
-            { "id": "o3", "text": "Does he works?" }
+            {
+              "id": "o1",
+              "text": "Does he work?"
+            },
+            {
+              "id": "o2",
+              "text": "Do he work?"
+            },
+            {
+              "id": "o3",
+              "text": "Does he works?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -722,12 +1226,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "doesn't" },
-            { "id": "w2", "text": "He" },
-            { "id": "w3", "text": "breakfast" },
-            { "id": "w4", "text": "have" }
+            {
+              "id": "w1",
+              "text": "doesn't"
+            },
+            {
+              "id": "w2",
+              "text": "He"
+            },
+            {
+              "id": "w3",
+              "text": "breakfast"
+            },
+            {
+              "id": "w4",
+              "text": "have"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w4", "w3"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -735,14 +1256,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta:",
           "options": [
-            { "id": "w1", "text": "you" },
-            { "id": "w2", "text": "Do" },
-            { "id": "w3", "text": "up" },
-            { "id": "w4", "text": "early" },
-            { "id": "w5", "text": "wake" },
-            { "id": "w6", "text": "?" }
+            {
+              "id": "w1",
+              "text": "you"
+            },
+            {
+              "id": "w2",
+              "text": "Do"
+            },
+            {
+              "id": "w3",
+              "text": "up"
+            },
+            {
+              "id": "w4",
+              "text": "early"
+            },
+            {
+              "id": "w5",
+              "text": "wake"
+            },
+            {
+              "id": "w6",
+              "text": "?"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w5", "w3", "w4", "w6"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w5",
+            "w3",
+            "w4",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -750,9 +1296,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes 'Yes, I do' a la pregunta 'Do you study English?'?",
           "options": [
-            { "id": "o1", "text": "Sí, estudio." },
-            { "id": "o2", "text": "Sí." },
-            { "id": "o3", "text": "Sí, lo hago." }
+            {
+              "id": "o1",
+              "text": "Sí, estudio."
+            },
+            {
+              "id": "o2",
+              "text": "Sí."
+            },
+            {
+              "id": "o3",
+              "text": "Sí, lo hago."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -762,9 +1317,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'siempre'?",
           "options": [
-            { "id": "o1", "text": "Always" },
-            { "id": "o2", "text": "Never" },
-            { "id": "o3", "text": "Sometimes" }
+            {
+              "id": "o1",
+              "text": "Always"
+            },
+            {
+              "id": "o2",
+              "text": "Never"
+            },
+            {
+              "id": "o3",
+              "text": "Sometimes"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -774,9 +1338,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'a veces'?",
           "options": [
-            { "id": "o1", "text": "Sometimes" },
-            { "id": "o2", "text": "Never" },
-            { "id": "o3", "text": "Always" }
+            {
+              "id": "o1",
+              "text": "Sometimes"
+            },
+            {
+              "id": "o2",
+              "text": "Never"
+            },
+            {
+              "id": "o3",
+              "text": "Always"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -786,9 +1359,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nunca'?",
           "options": [
-            { "id": "o1", "text": "Never" },
-            { "id": "o2", "text": "Often" },
-            { "id": "o3", "text": "Always" }
+            {
+              "id": "o1",
+              "text": "Never"
+            },
+            {
+              "id": "o2",
+              "text": "Often"
+            },
+            {
+              "id": "o3",
+              "text": "Always"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -798,9 +1380,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Dónde va el adverbio? 'I ___ (always) eat breakfast.'",
           "options": [
-            { "id": "o1", "text": "Antes del verbo" },
-            { "id": "o2", "text": "Después del verbo" },
-            { "id": "o3", "text": "Al final de la frase" }
+            {
+              "id": "o1",
+              "text": "Antes del verbo"
+            },
+            {
+              "id": "o2",
+              "text": "Después del verbo"
+            },
+            {
+              "id": "o3",
+              "text": "Al final de la frase"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -810,9 +1401,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Dónde va el adverbio con el verbo TO BE? 'She is ___ (never) late.'",
           "options": [
-            { "id": "o1", "text": "Después del verbo" },
-            { "id": "o2", "text": "Antes del verbo" },
-            { "id": "o3", "text": "Al principio" }
+            {
+              "id": "o1",
+              "text": "Después del verbo"
+            },
+            {
+              "id": "o2",
+              "text": "Antes del verbo"
+            },
+            {
+              "id": "o3",
+              "text": "Al principio"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -822,9 +1422,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'a menudo'?",
           "options": [
-            { "id": "o1", "text": "Often" },
-            { "id": "o2", "text": "Seldom" },
-            { "id": "o3", "text": "Hardly ever" }
+            {
+              "id": "o1",
+              "text": "Often"
+            },
+            {
+              "id": "o2",
+              "text": "Seldom"
+            },
+            {
+              "id": "o3",
+              "text": "Hardly ever"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -834,9 +1443,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'casi nunca'?",
           "options": [
-            { "id": "o1", "text": "Hardly ever / Seldom" },
-            { "id": "o2", "text": "Often" },
-            { "id": "o3", "text": "Usually" }
+            {
+              "id": "o1",
+              "text": "Hardly ever / Seldom"
+            },
+            {
+              "id": "o2",
+              "text": "Often"
+            },
+            {
+              "id": "o3",
+              "text": "Usually"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -846,9 +1464,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'normalmente'?",
           "options": [
-            { "id": "o1", "text": "Usually / Normally" },
-            { "id": "o2", "text": "Sometimes" },
-            { "id": "o3", "text": "Never" }
+            {
+              "id": "o1",
+              "text": "Usually / Normally"
+            },
+            {
+              "id": "o2",
+              "text": "Sometimes"
+            },
+            {
+              "id": "o3",
+              "text": "Never"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -858,14 +1485,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase con el adverbio:",
           "options": [
-            { "id": "w1", "text": "always" },
-            { "id": "w2", "text": "I" },
-            { "id": "w3", "text": "work" },
-            { "id": "w4", "text": "at" },
-            { "id": "w5", "text": "8:00" },
-            { "id": "w6", "text": "start" }
+            {
+              "id": "w1",
+              "text": "always"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "work"
+            },
+            {
+              "id": "w4",
+              "text": "at"
+            },
+            {
+              "id": "w5",
+              "text": "8:00"
+            },
+            {
+              "id": "w6",
+              "text": "start"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w6", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w6",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -873,14 +1525,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "sometimes" },
-            { "id": "w2", "text": "She" },
-            { "id": "w3", "text": "lunch" },
-            { "id": "w4", "text": "at" },
-            { "id": "w5", "text": "has" },
-            { "id": "w6", "text": "home" }
+            {
+              "id": "w1",
+              "text": "sometimes"
+            },
+            {
+              "id": "w2",
+              "text": "She"
+            },
+            {
+              "id": "w3",
+              "text": "lunch"
+            },
+            {
+              "id": "w4",
+              "text": "at"
+            },
+            {
+              "id": "w5",
+              "text": "has"
+            },
+            {
+              "id": "w6",
+              "text": "home"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w5", "w3", "w4", "w6"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w5",
+            "w3",
+            "w4",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -888,9 +1565,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Qué haces por la mañana?'?",
           "options": [
-            { "id": "o1", "text": "What do you do in the morning?" },
-            { "id": "o2", "text": "What you do in the morning?" },
-            { "id": "o3", "text": "What does you do?" }
+            {
+              "id": "o1",
+              "text": "What do you do in the morning?"
+            },
+            {
+              "id": "o2",
+              "text": "What you do in the morning?"
+            },
+            {
+              "id": "o3",
+              "text": "What does you do?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -905,29 +1591,128 @@
           "interaction_id": "U7_I76",
           "type": "word-search",
           "prompt_es": "Encuentra verbos de rutina:",
-          "words": ["WAKE", "WASH", "EAT", "WORK", "SLEEP", "READ", "CLEAN", "PLAY"],
+          "words": [
+            "WAKE",
+            "WASH",
+            "EAT",
+            "WORK",
+            "SLEEP",
+            "READ",
+            "CLEAN",
+            "PLAY"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "WAKE", "clue": "Despertar" },
-            { "word": "WASH", "clue": "Lavar" },
-            { "word": "EAT", "clue": "Comer" },
-            { "word": "WORK", "clue": "Trabajar" },
-            { "word": "SLEEP", "clue": "Dormir" },
-            { "word": "READ", "clue": "Leer" },
-            { "word": "CLEAN", "clue": "Limpiar" },
-            { "word": "PLAY", "clue": "Jugar" }
+            {
+              "word": "WAKE",
+              "clue": "Despertar"
+            },
+            {
+              "word": "WASH",
+              "clue": "Lavar"
+            },
+            {
+              "word": "EAT",
+              "clue": "Comer"
+            },
+            {
+              "word": "WORK",
+              "clue": "Trabajar"
+            },
+            {
+              "word": "SLEEP",
+              "clue": "Dormir"
+            },
+            {
+              "word": "READ",
+              "clue": "Leer"
+            },
+            {
+              "word": "CLEAN",
+              "clue": "Limpiar"
+            },
+            {
+              "word": "PLAY",
+              "clue": "Jugar"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de tiempo y rutina:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "TIME", "clue": "What's the ___?", "direction": "across", "row": 0, "col": 0 },
-            { "word": "LUNCH", "clue": "Meal in the middle of the day", "direction": "down", "row": 0, "col": 0 },
-            { "word": "NIGHT", "clue": "When you sleep", "direction": "across", "row": 2, "col": 0 },
-            { "word": "DO", "clue": "___ you like routine?", "direction": "down", "row": 0, "col": 4 }
+            {
+              "word": "SOMETIMES",
+              "clue": "Traducción de: 50%",
+              "direction": "across",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "MIDNIGHT",
+              "clue": "Traducción de: medianoche",
+              "direction": "down",
+              "row": 9,
+              "col": 10
+            },
+            {
+              "word": "ALWAYS",
+              "clue": "Traducción de: 100%",
+              "direction": "down",
+              "row": 5,
+              "col": 13
+            },
+            {
+              "word": "SLEEP",
+              "clue": "Traducción de: dormir",
+              "direction": "across",
+              "row": 6,
+              "col": 12
+            },
+            {
+              "word": "OFTEN",
+              "clue": "Traducción de: a menudo",
+              "direction": "across",
+              "row": 12,
+              "col": 6
+            },
+            {
+              "word": "NEVER",
+              "clue": "Traducción de: 0%",
+              "direction": "down",
+              "row": 3,
+              "col": 15
+            },
+            {
+              "word": "EARLY",
+              "clue": "Traducción de: temprano",
+              "direction": "across",
+              "row": 4,
+              "col": 15
+            },
+            {
+              "word": "SHAVE",
+              "clue": "Traducción de: afeitarse",
+              "direction": "across",
+              "row": 15,
+              "col": 9
+            },
+            {
+              "word": "LATE",
+              "clue": "Traducción de: tarde",
+              "direction": "down",
+              "row": 7,
+              "col": 8
+            },
+            {
+              "word": "COOK",
+              "clue": "Traducción de: cocinar",
+              "direction": "down",
+              "row": 5,
+              "col": 1
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -936,11 +1721,27 @@
           "type": "matching",
           "prompt_es": "Une los adverbios con sus porcentajes aproximados:",
           "pairs": [
-            { "id": "p1", "left": "Always", "right": "100%" },
-            { "id": "p2", "left": "Sometimes", "right": "50%" },
-            { "id": "p3", "left": "Never", "right": "0%" }
+            {
+              "id": "p1",
+              "left": "Always",
+              "right": "100%"
+            },
+            {
+              "id": "p2",
+              "left": "Sometimes",
+              "right": "50%"
+            },
+            {
+              "id": "p3",
+              "left": "Never",
+              "right": "0%"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -956,9 +1757,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el negativo de 'She studies'?",
           "options": [
-            { "id": "o1", "text": "She doesn't study" },
-            { "id": "o2", "text": "She studies not" },
-            { "id": "o3", "text": "She doesn't studies" }
+            {
+              "id": "o1",
+              "text": "She doesn't study"
+            },
+            {
+              "id": "o2",
+              "text": "She studies not"
+            },
+            {
+              "id": "o3",
+              "text": "She doesn't studies"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -968,9 +1778,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'todos los días'?",
           "options": [
-            { "id": "o1", "text": "Every day" },
-            { "id": "o2", "text": "All days" },
-            { "id": "o3", "text": "Each day" }
+            {
+              "id": "o1",
+              "text": "Every day"
+            },
+            {
+              "id": "o2",
+              "text": "All days"
+            },
+            {
+              "id": "o3",
+              "text": "Each day"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -980,9 +1799,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'una vez a la semana'?",
           "options": [
-            { "id": "o1", "text": "Once a week" },
-            { "id": "o2", "text": "One time a week" },
-            { "id": "o3", "text": "One week one" }
+            {
+              "id": "o1",
+              "text": "Once a week"
+            },
+            {
+              "id": "o2",
+              "text": "One time a week"
+            },
+            {
+              "id": "o3",
+              "text": "One week one"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -992,9 +1820,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dos veces al mes'?",
           "options": [
-            { "id": "o1", "text": "Twice a month" },
-            { "id": "o2", "text": "Two times a month" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "Twice a month"
+            },
+            {
+              "id": "o2",
+              "text": "Two times a month"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -1020,9 +1857,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'peinarse'?",
           "options": [
-            { "id": "o1", "text": "Comb your hair" },
-            { "id": "o2", "text": "Brush your hair" },
-            { "id": "o3", "text": "A and B are correct" }
+            {
+              "id": "o1",
+              "text": "Comb your hair"
+            },
+            {
+              "id": "o2",
+              "text": "Brush your hair"
+            },
+            {
+              "id": "o3",
+              "text": "A and B are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -1032,9 +1878,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'afeitarse'?",
           "options": [
-            { "id": "o1", "text": "Shave" },
-            { "id": "o2", "text": "Cut" },
-            { "id": "o3", "text": "Wash" }
+            {
+              "id": "o1",
+              "text": "Shave"
+            },
+            {
+              "id": "o2",
+              "text": "Cut"
+            },
+            {
+              "id": "o3",
+              "text": "Wash"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1044,10 +1899,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'maquillarse'?",
           "options": [
-            { "id": "o1", "text": "Put on make-up" },
-            { "id": "o2", "text": "Paint face" },
-            { "id": "o3", "text": "Do make-up" },
-            { "id": "o4", "text": "A and C are correct" }
+            {
+              "id": "o1",
+              "text": "Put on make-up"
+            },
+            {
+              "id": "o2",
+              "text": "Paint face"
+            },
+            {
+              "id": "o3",
+              "text": "Do make-up"
+            },
+            {
+              "id": "o4",
+              "text": "A and C are correct"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -1057,9 +1924,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sacar al perro'?",
           "options": [
-            { "id": "o1", "text": "Take the dog out / Walk the dog" },
-            { "id": "o2", "text": "Go with dog" },
-            { "id": "o3", "text": "Dog go" }
+            {
+              "id": "o1",
+              "text": "Take the dog out / Walk the dog"
+            },
+            {
+              "id": "o2",
+              "text": "Go with dog"
+            },
+            {
+              "id": "o3",
+              "text": "Dog go"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1069,9 +1945,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hacer la cama'?",
           "options": [
-            { "id": "o1", "text": "Make the bed" },
-            { "id": "o2", "text": "Do the bed" },
-            { "id": "o3", "text": "Fix the bed" }
+            {
+              "id": "o1",
+              "text": "Make the bed"
+            },
+            {
+              "id": "o2",
+              "text": "Do the bed"
+            },
+            {
+              "id": "o3",
+              "text": "Fix the bed"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1081,9 +1966,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cocinar'?",
           "options": [
-            { "id": "o1", "text": "Cook" },
-            { "id": "o2", "text": "Make food" },
-            { "id": "o3", "text": "Kitchening" }
+            {
+              "id": "o1",
+              "text": "Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Make food"
+            },
+            {
+              "id": "o3",
+              "text": "Kitchening"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1093,9 +1987,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lavar los platos'?",
           "options": [
-            { "id": "o1", "text": "Wash the dishes / Do the washing-up" },
-            { "id": "o2", "text": "Clean plates" },
-            { "id": "o3", "text": "Both A and B are used" }
+            {
+              "id": "o1",
+              "text": "Wash the dishes / Do the washing-up"
+            },
+            {
+              "id": "o2",
+              "text": "Clean plates"
+            },
+            {
+              "id": "o3",
+              "text": "Both A and B are used"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -1105,9 +2008,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ir de compras' (comida/supermercado)?",
           "options": [
-            { "id": "o1", "text": "Go grocery shopping / Do the shopping" },
-            { "id": "o2", "text": "Go buy" },
-            { "id": "o3", "text": "Shopping go" }
+            {
+              "id": "o1",
+              "text": "Go grocery shopping / Do the shopping"
+            },
+            {
+              "id": "o2",
+              "text": "Go buy"
+            },
+            {
+              "id": "o3",
+              "text": "Shopping go"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1117,9 +2029,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tiempo libre'?",
           "options": [
-            { "id": "o1", "text": "Free time / Leisure time" },
-            { "id": "o2", "text": "Empty time" },
-            { "id": "o3", "text": "Relax time" }
+            {
+              "id": "o1",
+              "text": "Free time / Leisure time"
+            },
+            {
+              "id": "o2",
+              "text": "Empty time"
+            },
+            {
+              "id": "o3",
+              "text": "Relax time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1153,9 +2074,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'How often...?'?",
           "options": [
-            { "id": "o1", "text": "¿Con qué frecuencia...?" },
-            { "id": "o2", "text": "¿Cómo de a menudo...?" },
-            { "id": "o3", "text": "Ambas son correctas" }
+            {
+              "id": "o1",
+              "text": "¿Con qué frecuencia...?"
+            },
+            {
+              "id": "o2",
+              "text": "¿Cómo de a menudo...?"
+            },
+            {
+              "id": "o3",
+              "text": "Ambas son correctas"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "communication"
@@ -1165,9 +2095,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes a 'How often do you study?'?",
           "options": [
-            { "id": "o1", "text": "I study every day." },
-            { "id": "o2", "text": "I study twice a week." },
-            { "id": "o3", "text": "Any of these is fine." }
+            {
+              "id": "o1",
+              "text": "I study every day."
+            },
+            {
+              "id": "o2",
+              "text": "I study twice a week."
+            },
+            {
+              "id": "o3",
+              "text": "Any of these is fine."
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "communication"
@@ -1177,9 +2116,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta?",
           "options": [
-            { "id": "o1", "text": "Do you always wake up early?" },
-            { "id": "o2", "text": "Are you always wake up early?" },
-            { "id": "o3", "text": "Does you always wake up early?" }
+            {
+              "id": "o1",
+              "text": "Do you always wake up early?"
+            },
+            {
+              "id": "o2",
+              "text": "Are you always wake up early?"
+            },
+            {
+              "id": "o3",
+              "text": "Does you always wake up early?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"

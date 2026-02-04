@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reparar / arreglar'?",
           "options": [
-            { "id": "o1", "text": "To repair / To fix" },
-            { "id": "o2", "text": "To break" },
-            { "id": "o3", "text": "To make" }
+            {
+              "id": "o1",
+              "text": "To repair / To fix"
+            },
+            {
+              "id": "o2",
+              "text": "To break"
+            },
+            {
+              "id": "o3",
+              "text": "To make"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fontanero'?",
           "options": [
-            { "id": "o1", "text": "Plumber" },
-            { "id": "o2", "text": "Electrician" },
-            { "id": "o3", "text": "Builder" }
+            {
+              "id": "o1",
+              "text": "Plumber"
+            },
+            {
+              "id": "o2",
+              "text": "Electrician"
+            },
+            {
+              "id": "o3",
+              "text": "Builder"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'electricista'?",
           "options": [
-            { "id": "o1", "text": "Electrician" },
-            { "id": "o2", "text": "Wire man" },
-            { "id": "o3", "text": "Power person" }
+            {
+              "id": "o1",
+              "text": "Electrician"
+            },
+            {
+              "id": "o2",
+              "text": "Wire man"
+            },
+            {
+              "id": "o3",
+              "text": "Power person"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'técnico'?",
           "options": [
-            { "id": "o1", "text": "Technician" },
-            { "id": "o2", "text": "Fixer" },
-            { "id": "o3", "text": "Help man" }
+            {
+              "id": "o1",
+              "text": "Technician"
+            },
+            {
+              "id": "o2",
+              "text": "Fixer"
+            },
+            {
+              "id": "o3",
+              "text": "Help man"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mecánico'?",
           "options": [
-            { "id": "o1", "text": "Mechanic" },
-            { "id": "o2", "text": "Car fixer" },
-            { "id": "o3", "text": "Engine man" }
+            {
+              "id": "o1",
+              "text": "Mechanic"
+            },
+            {
+              "id": "o2",
+              "text": "Car fixer"
+            },
+            {
+              "id": "o3",
+              "text": "Engine man"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'servicio técnico'?",
           "options": [
-            { "id": "o1", "text": "Technical support / service" },
-            { "id": "o2", "text": "Repair shop" },
-            { "id": "o3", "text": "Help office" }
+            {
+              "id": "o1",
+              "text": "Technical support / service"
+            },
+            {
+              "id": "o2",
+              "text": "Repair shop"
+            },
+            {
+              "id": "o3",
+              "text": "Help office"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está roto'?",
           "options": [
-            { "id": "o1", "text": "It is broken" },
-            { "id": "o2", "text": "It is dead" },
-            { "id": "o3", "text": "It is off" }
+            {
+              "id": "o1",
+              "text": "It is broken"
+            },
+            {
+              "id": "o2",
+              "text": "It is dead"
+            },
+            {
+              "id": "o3",
+              "text": "It is off"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'no funciona'?",
           "options": [
-            { "id": "o1", "text": "It doesn't work" },
-            { "id": "o2", "text": "It no work" },
-            { "id": "o3", "text": "It no function" }
+            {
+              "id": "o1",
+              "text": "It doesn't work"
+            },
+            {
+              "id": "o2",
+              "text": "It no work"
+            },
+            {
+              "id": "o3",
+              "text": "It no function"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fuga de agua'?",
           "options": [
-            { "id": "o1", "text": "Water leak" },
-            { "id": "o2", "text": "Water run" },
-            { "id": "o3", "text": "Wet floor" }
+            {
+              "id": "o1",
+              "text": "Water leak"
+            },
+            {
+              "id": "o2",
+              "text": "Water run"
+            },
+            {
+              "id": "o3",
+              "text": "Wet floor"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'corte de luz'?",
           "options": [
-            { "id": "o1", "text": "Power cut" },
-            { "id": "o2", "text": "No light" },
-            { "id": "o3", "text": "Electric stop" }
+            {
+              "id": "o1",
+              "text": "Power cut"
+            },
+            {
+              "id": "o2",
+              "text": "No light"
+            },
+            {
+              "id": "o3",
+              "text": "Electric stop"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,12 +227,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi ordenador no funciona'",
           "options": [
-            { "id": "w1", "text": "work" },
-            { "id": "w2", "text": "computer" },
-            { "id": "w3", "text": "My" },
-            { "id": "w4", "text": "doesn't" }
+            {
+              "id": "w1",
+              "text": "work"
+            },
+            {
+              "id": "w2",
+              "text": "computer"
+            },
+            {
+              "id": "w3",
+              "text": "My"
+            },
+            {
+              "id": "w4",
+              "text": "doesn't"
+            }
           ],
-          "correct_answer": ["w3", "w2", "w4", "w1"],
+          "correct_answer": [
+            "w3",
+            "w2",
+            "w4",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -150,13 +257,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Necesito un fontanero urgentemente'",
           "options": [
-            { "id": "w1", "text": "urgently" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "need" },
-            { "id": "w4", "text": "plumber" },
-            { "id": "w5", "text": "I" }
+            {
+              "id": "w1",
+              "text": "urgently"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "need"
+            },
+            {
+              "id": "w4",
+              "text": "plumber"
+            },
+            {
+              "id": "w5",
+              "text": "I"
+            }
           ],
-          "correct_answer": ["w5", "w3", "w2", "w4", "w1"],
+          "correct_answer": [
+            "w5",
+            "w3",
+            "w2",
+            "w4",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -180,9 +308,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'presupuesto' (estimación)?",
           "options": [
-            { "id": "o1", "text": "Quote / Estimate" },
-            { "id": "o2", "text": "Price list" },
-            { "id": "o3", "text": "Bill" }
+            {
+              "id": "o1",
+              "text": "Quote / Estimate"
+            },
+            {
+              "id": "o2",
+              "text": "Price list"
+            },
+            {
+              "id": "o3",
+              "text": "Bill"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -192,9 +329,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'garantía'?",
           "options": [
-            { "id": "o1", "text": "Warranty / Guarantee" },
-            { "id": "o2", "text": "Safety" },
-            { "id": "o3", "text": "Insurance" }
+            {
+              "id": "o1",
+              "text": "Warranty / Guarantee"
+            },
+            {
+              "id": "o2",
+              "text": "Safety"
+            },
+            {
+              "id": "o3",
+              "text": "Insurance"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -204,9 +350,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'piezas de repuesto'?",
           "options": [
-            { "id": "o1", "text": "Spare parts" },
-            { "id": "o2", "text": "New bits" },
-            { "id": "o3", "text": "Change pieces" }
+            {
+              "id": "o1",
+              "text": "Spare parts"
+            },
+            {
+              "id": "o2",
+              "text": "New bits"
+            },
+            {
+              "id": "o3",
+              "text": "Change pieces"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -216,9 +371,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mantenimiento'?",
           "options": [
-            { "id": "o1", "text": "Maintenance" },
-            { "id": "o2", "text": "Keeping" },
-            { "id": "o3", "text": "Care" }
+            {
+              "id": "o1",
+              "text": "Maintenance"
+            },
+            {
+              "id": "o2",
+              "text": "Keeping"
+            },
+            {
+              "id": "o3",
+              "text": "Care"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -228,9 +392,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'limpieza'?",
           "options": [
-            { "id": "o1", "text": "Cleaning" },
-            { "id": "o2", "text": "Washing" },
-            { "id": "o3", "text": "Clearance" }
+            {
+              "id": "o1",
+              "text": "Cleaning"
+            },
+            {
+              "id": "o2",
+              "text": "Washing"
+            },
+            {
+              "id": "o3",
+              "text": "Clearance"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -240,9 +413,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'jardinería'?",
           "options": [
-            { "id": "o1", "text": "Gardening" },
-            { "id": "o2", "text": "Plants work" },
-            { "id": "o3", "text": "Green care" }
+            {
+              "id": "o1",
+              "text": "Gardening"
+            },
+            {
+              "id": "o2",
+              "text": "Plants work"
+            },
+            {
+              "id": "o3",
+              "text": "Green care"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -252,14 +434,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Está cubierto por la garantía?'",
           "options": [
-            { "id": "w1", "text": "it" },
-            { "id": "w2", "text": "by" },
-            { "id": "w3", "text": "covered" },
-            { "id": "w4", "text": "warranty?" },
-            { "id": "w5", "text": "the" },
-            { "id": "w6", "text": "Is" }
+            {
+              "id": "w1",
+              "text": "it"
+            },
+            {
+              "id": "w2",
+              "text": "by"
+            },
+            {
+              "id": "w3",
+              "text": "covered"
+            },
+            {
+              "id": "w4",
+              "text": "warranty?"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "Is"
+            }
           ],
-          "correct_answer": ["w6", "w1", "w3", "w2", "w5", "w4"],
+          "correct_answer": [
+            "w6",
+            "w1",
+            "w3",
+            "w2",
+            "w5",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -267,13 +474,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuánto tiempo tardará?'",
           "options": [
-            { "id": "w1", "text": "take?" },
-            { "id": "w2", "text": "long" },
-            { "id": "w3", "text": "will" },
-            { "id": "w4", "text": "How" },
-            { "id": "w5", "text": "it" }
+            {
+              "id": "w1",
+              "text": "take?"
+            },
+            {
+              "id": "w2",
+              "text": "long"
+            },
+            {
+              "id": "w3",
+              "text": "will"
+            },
+            {
+              "id": "w4",
+              "text": "How"
+            },
+            {
+              "id": "w5",
+              "text": "it"
+            }
           ],
-          "correct_answer": ["w4", "w2", "w3", "w5", "w1"],
+          "correct_answer": [
+            "w4",
+            "w2",
+            "w3",
+            "w5",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -297,11 +525,27 @@
           "type": "matching",
           "prompt_es": "Une los servicios:",
           "pairs": [
-            { "id": "p1", "left": "Mechanic", "right": "Coches" },
-            { "id": "p2", "left": "Electrician", "right": "Luces" },
-            { "id": "p3", "left": "Gardener", "right": "Plantas" }
+            {
+              "id": "p1",
+              "left": "Mechanic",
+              "right": "Coches"
+            },
+            {
+              "id": "p2",
+              "left": "Electrician",
+              "right": "Luces"
+            },
+            {
+              "id": "p3",
+              "left": "Gardener",
+              "right": "Plantas"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         }
       ]
@@ -315,9 +559,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Tengo un problema con...'?",
           "options": [
-            { "id": "o1", "text": "I have a problem with..." },
-            { "id": "o2", "text": "Problem me have..." },
-            { "id": "o3", "text": "I see bad with..." }
+            {
+              "id": "o1",
+              "text": "I have a problem with..."
+            },
+            {
+              "id": "o2",
+              "text": "Problem me have..."
+            },
+            {
+              "id": "o3",
+              "text": "I see bad with..."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -327,9 +580,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puede enviar a alguien?'?",
           "options": [
-            { "id": "o1", "text": "Can you send someone?" },
-            { "id": "o2", "text": "Send person please?" },
-            { "id": "o3", "text": "Can someone come?" }
+            {
+              "id": "o1",
+              "text": "Can you send someone?"
+            },
+            {
+              "id": "o2",
+              "text": "Send person please?"
+            },
+            {
+              "id": "o3",
+              "text": "Can someone come?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -339,9 +601,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hace un ruido extraño'?",
           "options": [
-            { "id": "o1", "text": "It is making a strange noise" },
-            { "id": "o2", "text": "It have sound bad" },
-            { "id": "o3", "text": "Strange music in it" }
+            {
+              "id": "o1",
+              "text": "It is making a strange noise"
+            },
+            {
+              "id": "o2",
+              "text": "It have sound bad"
+            },
+            {
+              "id": "o3",
+              "text": "Strange music in it"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -351,9 +622,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'la batería está agotada'?",
           "options": [
-            { "id": "o1", "text": "The battery is dead / flat" },
-            { "id": "o2", "text": "No battery" },
-            { "id": "o3", "text": "Empty power" }
+            {
+              "id": "o1",
+              "text": "The battery is dead / flat"
+            },
+            {
+              "id": "o2",
+              "text": "No battery"
+            },
+            {
+              "id": "o3",
+              "text": "Empty power"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -363,9 +643,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está atascado'?",
           "options": [
-            { "id": "o1", "text": "It is stuck / blocked" },
-            { "id": "o2", "text": "It no move" },
-            { "id": "o3", "text": "Stopped thing" }
+            {
+              "id": "o1",
+              "text": "It is stuck / blocked"
+            },
+            {
+              "id": "o2",
+              "text": "It no move"
+            },
+            {
+              "id": "o3",
+              "text": "Stopped thing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -375,9 +664,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Es urgente?'?",
           "options": [
-            { "id": "o1", "text": "Is it urgent?" },
-            { "id": "o2", "text": "Fast please?" },
-            { "id": "o3", "text": "Important now?" }
+            {
+              "id": "o1",
+              "text": "Is it urgent?"
+            },
+            {
+              "id": "o2",
+              "text": "Fast please?"
+            },
+            {
+              "id": "o3",
+              "text": "Important now?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -387,9 +685,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lo antes posible'?",
           "options": [
-            { "id": "o1", "text": "As soon as possible (ASAP)" },
-            { "id": "o2", "text": "Fastest way" },
-            { "id": "o3", "text": "Soon time" }
+            {
+              "id": "o1",
+              "text": "As soon as possible (ASAP)"
+            },
+            {
+              "id": "o2",
+              "text": "Fastest way"
+            },
+            {
+              "id": "o3",
+              "text": "Soon time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -399,13 +706,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi aire acondicionado no enfría'",
           "options": [
-            { "id": "w1", "text": "isn't" },
-            { "id": "w2", "text": "cooling" },
-            { "id": "w3", "text": "conditioning" },
-            { "id": "w4", "text": "My" },
-            { "id": "w5", "text": "air" }
+            {
+              "id": "w1",
+              "text": "isn't"
+            },
+            {
+              "id": "w2",
+              "text": "cooling"
+            },
+            {
+              "id": "w3",
+              "text": "conditioning"
+            },
+            {
+              "id": "w4",
+              "text": "My"
+            },
+            {
+              "id": "w5",
+              "text": "air"
+            }
           ],
-          "correct_answer": ["w4", "w5", "w3", "w1", "w2"],
+          "correct_answer": [
+            "w4",
+            "w5",
+            "w3",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -413,12 +741,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'La cerradura está atascada'",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "stuck" },
-            { "id": "w3", "text": "The" },
-            { "id": "w4", "text": "lock" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "stuck"
+            },
+            {
+              "id": "w3",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "lock"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w1", "w2"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -442,9 +787,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bombilla'?",
           "options": [
-            { "id": "o1", "text": "Light bulb" },
-            { "id": "o2", "text": "Glass ball" },
-            { "id": "o3", "text": "Electric lamp" }
+            {
+              "id": "o1",
+              "text": "Light bulb"
+            },
+            {
+              "id": "o2",
+              "text": "Glass ball"
+            },
+            {
+              "id": "o3",
+              "text": "Electric lamp"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -454,9 +808,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'herramientas'?",
           "options": [
-            { "id": "o1", "text": "Tools" },
-            { "id": "o2", "text": "Helpers" },
-            { "id": "o3", "text": "Fixers" }
+            {
+              "id": "o1",
+              "text": "Tools"
+            },
+            {
+              "id": "o2",
+              "text": "Helpers"
+            },
+            {
+              "id": "o3",
+              "text": "Fixers"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -466,9 +829,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'martillo'?",
           "options": [
-            { "id": "o1", "text": "Hammer" },
-            { "id": "o2", "text": "Screwdriver" },
-            { "id": "o3", "text": "Nailer" }
+            {
+              "id": "o1",
+              "text": "Hammer"
+            },
+            {
+              "id": "o2",
+              "text": "Screwdriver"
+            },
+            {
+              "id": "o3",
+              "text": "Nailer"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -478,9 +850,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'destornillador'?",
           "options": [
-            { "id": "o1", "text": "Screwdriver" },
-            { "id": "o2", "text": "Hammer" },
-            { "id": "o3", "text": "Turner" }
+            {
+              "id": "o1",
+              "text": "Screwdriver"
+            },
+            {
+              "id": "o2",
+              "text": "Hammer"
+            },
+            {
+              "id": "o3",
+              "text": "Turner"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -490,9 +871,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tornillo'?",
           "options": [
-            { "id": "o1", "text": "Screw" },
-            { "id": "o2", "text": "Nail" },
-            { "id": "o3", "text": "Bolt" }
+            {
+              "id": "o1",
+              "text": "Screw"
+            },
+            {
+              "id": "o2",
+              "text": "Nail"
+            },
+            {
+              "id": "o3",
+              "text": "Bolt"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -502,9 +892,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'clavo'?",
           "options": [
-            { "id": "o1", "text": "Nail" },
-            { "id": "o2", "text": "Screw" },
-            { "id": "o3", "text": "Point" }
+            {
+              "id": "o1",
+              "text": "Nail"
+            },
+            {
+              "id": "o2",
+              "text": "Screw"
+            },
+            {
+              "id": "o3",
+              "text": "Point"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -514,9 +913,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'llave inglesa'?",
           "options": [
-            { "id": "o1", "text": "Wrench / Spanner" },
-            { "id": "o2", "text": "Key english" },
-            { "id": "o3", "text": "Nut turner" }
+            {
+              "id": "o1",
+              "text": "Wrench / Spanner"
+            },
+            {
+              "id": "o2",
+              "text": "Key english"
+            },
+            {
+              "id": "o3",
+              "text": "Nut turner"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -526,14 +934,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Tiene las herramientas adecuadas?'",
           "options": [
-            { "id": "w1", "text": "have" },
-            { "id": "w2", "text": "the" },
-            { "id": "w3", "text": "Do" },
-            { "id": "w4", "text": "right" },
-            { "id": "w5", "text": "tools?" },
-            { "id": "w6", "text": "you" }
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "Do"
+            },
+            {
+              "id": "w4",
+              "text": "right"
+            },
+            {
+              "id": "w5",
+              "text": "tools?"
+            },
+            {
+              "id": "w6",
+              "text": "you"
+            }
           ],
-          "correct_answer": ["w3", "w6", "w1", "w2", "w4", "w5"],
+          "correct_answer": [
+            "w3",
+            "w6",
+            "w1",
+            "w2",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -541,13 +974,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'La bombilla se ha fundido'",
           "options": [
-            { "id": "w1", "text": "blown" },
-            { "id": "w2", "text": "bulb" },
-            { "id": "w3", "text": "The" },
-            { "id": "w4", "text": "light" },
-            { "id": "w5", "text": "has" }
+            {
+              "id": "w1",
+              "text": "blown"
+            },
+            {
+              "id": "w2",
+              "text": "bulb"
+            },
+            {
+              "id": "w3",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "light"
+            },
+            {
+              "id": "w5",
+              "text": "has"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w2", "w5", "w1"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w2",
+            "w5",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -601,9 +1055,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'servicio al cliente'?",
           "options": [
-            { "id": "o1", "text": "Customer service" },
-            { "id": "o2", "text": "People help" },
-            { "id": "o3", "text": "Client care" }
+            {
+              "id": "o1",
+              "text": "Customer service"
+            },
+            {
+              "id": "o2",
+              "text": "People help"
+            },
+            {
+              "id": "o3",
+              "text": "Client care"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -613,9 +1076,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'queja / reclamación'?",
           "options": [
-            { "id": "o1", "text": "Complaint" },
-            { "id": "o2", "text": "Anger" },
-            { "id": "o3", "text": "Bad talk" }
+            {
+              "id": "o1",
+              "text": "Complaint"
+            },
+            {
+              "id": "o2",
+              "text": "Anger"
+            },
+            {
+              "id": "o3",
+              "text": "Bad talk"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -625,9 +1097,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hacer una cita'?",
           "options": [
-            { "id": "o1", "text": "To make an appointment" },
-            { "id": "o2", "text": "To have a date" },
-            { "id": "o3", "text": "To meet time" }
+            {
+              "id": "o1",
+              "text": "To make an appointment"
+            },
+            {
+              "id": "o2",
+              "text": "To have a date"
+            },
+            {
+              "id": "o3",
+              "text": "To meet time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -637,9 +1118,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cancelar'?",
           "options": [
-            { "id": "o1", "text": "To cancel" },
-            { "id": "o2", "text": "To stop" },
-            { "id": "o3", "text": "To no go" }
+            {
+              "id": "o1",
+              "text": "To cancel"
+            },
+            {
+              "id": "o2",
+              "text": "To stop"
+            },
+            {
+              "id": "o3",
+              "text": "To no go"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -649,9 +1139,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reprogramar'?",
           "options": [
-            { "id": "o1", "text": "To reschedule" },
-            { "id": "o2", "text": "To change time" },
-            { "id": "o3", "text": "To do again" }
+            {
+              "id": "o1",
+              "text": "To reschedule"
+            },
+            {
+              "id": "o2",
+              "text": "To change time"
+            },
+            {
+              "id": "o3",
+              "text": "To do again"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -661,9 +1160,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'esperar en línea' (teléfono)?",
           "options": [
-            { "id": "o1", "text": "To hold / To wait on the line" },
-            { "id": "o2", "text": "To stay call" },
-            { "id": "o3", "text": "To no hang up" }
+            {
+              "id": "o1",
+              "text": "To hold / To wait on the line"
+            },
+            {
+              "id": "o2",
+              "text": "To stay call"
+            },
+            {
+              "id": "o3",
+              "text": "To no hang up"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -673,9 +1181,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'asistente'?",
           "options": [
-            { "id": "o1", "text": "Assistant" },
-            { "id": "o2", "text": "Helper" },
-            { "id": "o3", "text": "Attendant" }
+            {
+              "id": "o1",
+              "text": "Assistant"
+            },
+            {
+              "id": "o2",
+              "text": "Helper"
+            },
+            {
+              "id": "o3",
+              "text": "Attendant"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -685,14 +1202,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Quiero hacer una reclamación'",
           "options": [
-            { "id": "w1", "text": "complaint" },
-            { "id": "w2", "text": "to" },
-            { "id": "w3", "text": "make" },
-            { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "I" },
-            { "id": "w6", "text": "want" }
+            {
+              "id": "w1",
+              "text": "complaint"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "make"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "want"
+            }
           ],
-          "correct_answer": ["w5", "w6", "w2", "w3", "w4", "w1"],
+          "correct_answer": [
+            "w5",
+            "w6",
+            "w2",
+            "w3",
+            "w4",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -700,13 +1242,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Por favor, espere un momento'",
           "options": [
-            { "id": "w1", "text": "moment" },
-            { "id": "w2", "text": "wait" },
-            { "id": "w3", "text": "Please" },
-            { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "for" }
+            {
+              "id": "w1",
+              "text": "moment"
+            },
+            {
+              "id": "w2",
+              "text": "wait"
+            },
+            {
+              "id": "w3",
+              "text": "Please"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "for"
+            }
           ],
-          "correct_answer": ["w3", "w2", "w5", "w4", "w1"],
+          "correct_answer": [
+            "w3",
+            "w2",
+            "w5",
+            "w4",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -730,9 +1293,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'calidad del servicio'?",
           "options": [
-            { "id": "o1", "text": "Service quality" },
-            { "id": "o2", "text": "How good work" },
-            { "id": "o3", "text": "Attending level" }
+            {
+              "id": "o1",
+              "text": "Service quality"
+            },
+            {
+              "id": "o2",
+              "text": "How good work"
+            },
+            {
+              "id": "o3",
+              "text": "Attending level"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -742,9 +1314,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'muy satisfecho/a'?",
           "options": [
-            { "id": "o1", "text": "Very satisfied" },
-            { "id": "o2", "text": "Very happy" },
-            { "id": "o3", "text": "Good feeling" }
+            {
+              "id": "o1",
+              "text": "Very satisfied"
+            },
+            {
+              "id": "o2",
+              "text": "Very happy"
+            },
+            {
+              "id": "o3",
+              "text": "Good feeling"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -754,9 +1335,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'insatisfecho/a'?",
           "options": [
-            { "id": "o1", "text": "Dissatisfied / Unhappy" },
-            { "id": "o2", "text": "No satisfied" },
-            { "id": "o3", "text": "Bad client" }
+            {
+              "id": "o1",
+              "text": "Dissatisfied / Unhappy"
+            },
+            {
+              "id": "o2",
+              "text": "No satisfied"
+            },
+            {
+              "id": "o3",
+              "text": "Bad client"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -766,9 +1356,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cómo puedo ayudarle?'?",
           "options": [
-            { "id": "o1", "text": "How can I help you?" },
-            { "id": "o2", "text": "What help you?" },
-            { "id": "o3", "text": "Help you how?" }
+            {
+              "id": "o1",
+              "text": "How can I help you?"
+            },
+            {
+              "id": "o2",
+              "text": "What help you?"
+            },
+            {
+              "id": "o3",
+              "text": "Help you how?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -778,9 +1377,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Lo siento por el retraso'?",
           "options": [
-            { "id": "o1", "text": "I'm sorry for the delay" },
-            { "id": "o2", "text": "Sorry late" },
-            { "id": "o3", "text": "No fast sorry" }
+            {
+              "id": "o1",
+              "text": "I'm sorry for the delay"
+            },
+            {
+              "id": "o2",
+              "text": "Sorry late"
+            },
+            {
+              "id": "o3",
+              "text": "No fast sorry"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -790,9 +1398,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'solución'?",
           "options": [
-            { "id": "o1", "text": "Solution" },
-            { "id": "o2", "text": "Answer" },
-            { "id": "o3", "text": "Fix" }
+            {
+              "id": "o1",
+              "text": "Solution"
+            },
+            {
+              "id": "o2",
+              "text": "Answer"
+            },
+            {
+              "id": "o3",
+              "text": "Fix"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -802,14 +1419,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Resolveremos este problema pronto'",
           "options": [
-            { "id": "w1", "text": "this" },
-            { "id": "w2", "text": "soon" },
-            { "id": "w3", "text": "problem" },
-            { "id": "w4", "text": "We" },
-            { "id": "w5", "text": "will" },
-            { "id": "w6", "text": "solve" }
+            {
+              "id": "w1",
+              "text": "this"
+            },
+            {
+              "id": "w2",
+              "text": "soon"
+            },
+            {
+              "id": "w3",
+              "text": "problem"
+            },
+            {
+              "id": "w4",
+              "text": "We"
+            },
+            {
+              "id": "w5",
+              "text": "will"
+            },
+            {
+              "id": "w6",
+              "text": "solve"
+            }
           ],
-          "correct_answer": ["w4", "w5", "w6", "w1", "w3", "w2"],
+          "correct_answer": [
+            "w4",
+            "w5",
+            "w6",
+            "w1",
+            "w3",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -817,13 +1459,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuál es su número de pedido?'",
           "options": [
-            { "id": "w1", "text": "order" },
-            { "id": "w2", "text": "What" },
-            { "id": "w3", "text": "number?" },
-            { "id": "w4", "text": "is" },
-            { "id": "w5", "text": "your" }
+            {
+              "id": "w1",
+              "text": "order"
+            },
+            {
+              "id": "w2",
+              "text": "What"
+            },
+            {
+              "id": "w3",
+              "text": "number?"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "your"
+            }
           ],
-          "correct_answer": ["w2", "w4", "w5", "w1", "w3"],
+          "correct_answer": [
+            "w2",
+            "w4",
+            "w5",
+            "w1",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -871,9 +1534,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'devolver el dinero'?",
           "options": [
-            { "id": "o1", "text": "To refund" },
-            { "id": "o2", "text": "To give back" },
-            { "id": "o3", "text": "To pay again" }
+            {
+              "id": "o1",
+              "text": "To refund"
+            },
+            {
+              "id": "o2",
+              "text": "To give back"
+            },
+            {
+              "id": "o3",
+              "text": "To pay again"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -888,31 +1560,138 @@
           "interaction_id": "U38_I76",
           "type": "word-search",
           "prompt_es": "Busca palabras de servicios:",
-          "words": ["FIX", "TOOL", "LEAK", "PLUMBER", "CARS", "TECH", "HELP", "WORK", "SIGN", "TIME"],
+          "words": [
+            "FIX",
+            "TOOL",
+            "LEAK",
+            "PLUMBER",
+            "CARS",
+            "TECH",
+            "HELP",
+            "WORK",
+            "SIGN",
+            "TIME"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "FIX", "clue": "To repair" },
-            { "word": "TOOL", "clue": "Hammer, screwdriver..." },
-            { "word": "LEAK", "clue": "Water coming out" },
-            { "word": "PLUMBER", "clue": "Pipe fixer" },
-            { "word": "CARS", "clue": "Mechanic works on these" },
-            { "word": "TECH", "clue": "Short for technician" },
-            { "word": "HELP", "clue": "Assistance" },
-            { "word": "WORK", "clue": "To labor" },
-            { "word": "SIGN", "clue": "To write name" },
-            { "word": "TIME", "clue": "Clock measure" }
+            {
+              "word": "FIX",
+              "clue": "To repair"
+            },
+            {
+              "word": "TOOL",
+              "clue": "Hammer, screwdriver..."
+            },
+            {
+              "word": "LEAK",
+              "clue": "Water coming out"
+            },
+            {
+              "word": "PLUMBER",
+              "clue": "Pipe fixer"
+            },
+            {
+              "word": "CARS",
+              "clue": "Mechanic works on these"
+            },
+            {
+              "word": "TECH",
+              "clue": "Short for technician"
+            },
+            {
+              "word": "HELP",
+              "clue": "Assistance"
+            },
+            {
+              "word": "WORK",
+              "clue": "To labor"
+            },
+            {
+              "word": "SIGN",
+              "clue": "To write name"
+            },
+            {
+              "word": "TIME",
+              "clue": "Clock measure"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U38_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de reparaciones:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "FIX", "clue": "Repair", "direction": "across", "row": 0, "col": 0 },
-            { "word": "FLAT", "clue": "Dead battery", "direction": "down", "row": 0, "col": 0 },
-            { "word": "TOOL", "clue": "Hammer", "direction": "across", "row": 2, "col": 0 },
-            { "word": "LEAK", "clue": "Water hole", "direction": "down", "row": 0, "col": 3 }
+            {
+              "word": "TECHNICIAN",
+              "clue": "Traducción de: técnico",
+              "direction": "across",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "GARDENING",
+              "clue": "Traducción de: jardinería",
+              "direction": "down",
+              "row": 4,
+              "col": 10
+            },
+            {
+              "word": "SOLUTION",
+              "clue": "Traducción de: solución",
+              "direction": "down",
+              "row": 6,
+              "col": 5
+            },
+            {
+              "word": "RELIABLE",
+              "clue": "Traducción de: confiable",
+              "direction": "across",
+              "row": 5,
+              "col": 6
+            },
+            {
+              "word": "MECHANIC",
+              "clue": "Traducción de: Coches",
+              "direction": "down",
+              "row": 7,
+              "col": 8
+            },
+            {
+              "word": "CLEANING",
+              "clue": "Traducción de: limpieza",
+              "direction": "down",
+              "row": 7,
+              "col": 13
+            },
+            {
+              "word": "PLUMBER",
+              "clue": "Traducción de: fontanero",
+              "direction": "down",
+              "row": 0,
+              "col": 7
+            },
+            {
+              "word": "HAMMER",
+              "clue": "Traducción de: martillo",
+              "direction": "across",
+              "row": 3,
+              "col": 4
+            },
+            {
+              "word": "EXPERT",
+              "clue": "Traducción de: experto/a",
+              "direction": "across",
+              "row": 0,
+              "col": 5
+            },
+            {
+              "word": "SCREW",
+              "clue": "Traducción de: tornillo",
+              "direction": "across",
+              "row": 7,
+              "col": 12
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -945,9 +1724,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'El grifo gotea'?",
           "options": [
-            { "id": "o1", "text": "The tap is dripping" },
-            { "id": "o2", "text": "The water is falling" },
-            { "id": "o3", "text": "The faucet no stop" }
+            {
+              "id": "o1",
+              "text": "The tap is dripping"
+            },
+            {
+              "id": "o2",
+              "text": "The water is falling"
+            },
+            {
+              "id": "o3",
+              "text": "The faucet no stop"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -957,9 +1745,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuánto es la mano de obra?'?",
           "options": [
-            { "id": "o1", "text": "How much is the labour?" },
-            { "id": "o2", "text": "Price of work hand?" },
-            { "id": "o3", "text": "What cost for man?" }
+            {
+              "id": "o1",
+              "text": "How much is the labour?"
+            },
+            {
+              "id": "o2",
+              "text": "Price of work hand?"
+            },
+            {
+              "id": "o3",
+              "text": "What cost for man?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -969,9 +1766,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'asistencia en carretera'?",
           "options": [
-            { "id": "o1", "text": "Roadside assistance" },
-            { "id": "o2", "text": "Car help on way" },
-            { "id": "o3", "text": "Street help" }
+            {
+              "id": "o1",
+              "text": "Roadside assistance"
+            },
+            {
+              "id": "o2",
+              "text": "Car help on way"
+            },
+            {
+              "id": "o3",
+              "text": "Street help"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -981,9 +1787,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Está listo?'?",
           "options": [
-            { "id": "o1", "text": "Is it ready?" },
-            { "id": "o2", "text": "Finish now?" },
-            { "id": "o3", "text": "Can I take it?" }
+            {
+              "id": "o1",
+              "text": "Is it ready?"
+            },
+            {
+              "id": "o2",
+              "text": "Finish now?"
+            },
+            {
+              "id": "o3",
+              "text": "Can I take it?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -993,9 +1808,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Llámeme cuando termine'?",
           "options": [
-            { "id": "o1", "text": "Call me when you finish / when it's done" },
-            { "id": "o2", "text": "Ring me after" },
-            { "id": "o3", "text": "Talk me end" }
+            {
+              "id": "o1",
+              "text": "Call me when you finish / when it's done"
+            },
+            {
+              "id": "o2",
+              "text": "Ring me after"
+            },
+            {
+              "id": "o3",
+              "text": "Talk me end"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1005,9 +1829,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lavandería'?",
           "options": [
-            { "id": "o1", "text": "Laundry / Dry cleaner's" },
-            { "id": "o2", "text": "Wash house" },
-            { "id": "o3", "text": "Cloth cleaner" }
+            {
+              "id": "o1",
+              "text": "Laundry / Dry cleaner's"
+            },
+            {
+              "id": "o2",
+              "text": "Wash house"
+            },
+            {
+              "id": "o3",
+              "text": "Cloth cleaner"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1017,9 +1850,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reparto a domicilio'?",
           "options": [
-            { "id": "o1", "text": "Home delivery" },
-            { "id": "o2", "text": "House bring" },
-            { "id": "o3", "text": "Carriage" }
+            {
+              "id": "o1",
+              "text": "Home delivery"
+            },
+            {
+              "id": "o2",
+              "text": "House bring"
+            },
+            {
+              "id": "o3",
+              "text": "Carriage"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1029,9 +1871,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'probar' (una máquina)?",
           "options": [
-            { "id": "o1", "text": "To test / To try out" },
-            { "id": "o2", "text": "To look" },
-            { "id": "o3", "text": "To use see" }
+            {
+              "id": "o1",
+              "text": "To test / To try out"
+            },
+            {
+              "id": "o2",
+              "text": "To look"
+            },
+            {
+              "id": "o3",
+              "text": "To use see"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1041,9 +1892,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fácil de arreglar'?",
           "options": [
-            { "id": "o1", "text": "Easy to fix" },
-            { "id": "o2", "text": "Quick repair" },
-            { "id": "o3", "text": "No problem fix" }
+            {
+              "id": "o1",
+              "text": "Easy to fix"
+            },
+            {
+              "id": "o2",
+              "text": "Quick repair"
+            },
+            {
+              "id": "o3",
+              "text": "No problem fix"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1053,9 +1913,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'imposible de reparar'?",
           "options": [
-            { "id": "o1", "text": "Impossible to repair" },
-            { "id": "o2", "text": "No can fix" },
-            { "id": "o3", "text": "Dead thing" }
+            {
+              "id": "o1",
+              "text": "Impossible to repair"
+            },
+            {
+              "id": "o2",
+              "text": "No can fix"
+            },
+            {
+              "id": "o3",
+              "text": "Dead thing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1065,9 +1934,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pieza defectuosa'?",
           "options": [
-            { "id": "o1", "text": "Faulty part" },
-            { "id": "o2", "text": "Bad piece" },
-            { "id": "o3", "text": "Broken bit" }
+            {
+              "id": "o1",
+              "text": "Faulty part"
+            },
+            {
+              "id": "o2",
+              "text": "Bad piece"
+            },
+            {
+              "id": "o3",
+              "text": "Broken bit"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1077,9 +1955,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuánto tiempo es la garantía?'?",
           "options": [
-            { "id": "o1", "text": "How long is the warranty?" },
-            { "id": "o2", "text": "What time for guarantee?" },
-            { "id": "o3", "text": "Which duration for safe?" }
+            {
+              "id": "o1",
+              "text": "How long is the warranty?"
+            },
+            {
+              "id": "o2",
+              "text": "What time for guarantee?"
+            },
+            {
+              "id": "o3",
+              "text": "Which duration for safe?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1089,9 +1976,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pedir una segunda opinión'?",
           "options": [
-            { "id": "o1", "text": "To ask for a second opinion" },
-            { "id": "o2", "text": "Talk to other man" },
-            { "id": "o3", "text": "See more options" }
+            {
+              "id": "o1",
+              "text": "To ask for a second opinion"
+            },
+            {
+              "id": "o2",
+              "text": "Talk to other man"
+            },
+            {
+              "id": "o3",
+              "text": "See more options"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1101,9 +1997,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'confiable' (técnico)?",
           "options": [
-            { "id": "o1", "text": "Reliable" },
-            { "id": "o2", "text": "Good friend" },
-            { "id": "o3", "text": "Trustable" }
+            {
+              "id": "o1",
+              "text": "Reliable"
+            },
+            {
+              "id": "o2",
+              "text": "Good friend"
+            },
+            {
+              "id": "o3",
+              "text": "Trustable"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1113,9 +2018,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'recomendar'?",
           "options": [
-            { "id": "o1", "text": "To recommend" },
-            { "id": "o2", "text": "To say good" },
-            { "id": "o3", "text": "To suggest" }
+            {
+              "id": "o1",
+              "text": "To recommend"
+            },
+            {
+              "id": "o2",
+              "text": "To say good"
+            },
+            {
+              "id": "o3",
+              "text": "To suggest"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1125,9 +2039,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'experto/a'?",
           "options": [
-            { "id": "o1", "text": "Expert" },
-            { "id": "o2", "text": "Pro" },
-            { "id": "o3", "text": "Top man" }
+            {
+              "id": "o1",
+              "text": "Expert"
+            },
+            {
+              "id": "o2",
+              "text": "Pro"
+            },
+            {
+              "id": "o3",
+              "text": "Top man"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1137,9 +2060,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'revisar'?",
           "options": [
-            { "id": "o1", "text": "To check / To inspect" },
-            { "id": "o2", "text": "To look see" },
-            { "id": "o3", "text": "To view" }
+            {
+              "id": "o1",
+              "text": "To check / To inspect"
+            },
+            {
+              "id": "o2",
+              "text": "To look see"
+            },
+            {
+              "id": "o3",
+              "text": "To view"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1149,9 +2081,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puede darme una factura?'?",
           "options": [
-            { "id": "o1", "text": "Can you give me an invoice / a bill?" },
-            { "id": "o2", "text": "Paper please?" },
-            { "id": "o3", "text": "Receipt me?" }
+            {
+              "id": "o1",
+              "text": "Can you give me an invoice / a bill?"
+            },
+            {
+              "id": "o2",
+              "text": "Paper please?"
+            },
+            {
+              "id": "o3",
+              "text": "Receipt me?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1161,9 +2102,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuándo puede venir?'?",
           "options": [
-            { "id": "o1", "text": "When can you come?" },
-            { "id": "o2", "text": "Time for you visit?" },
-            { "id": "o3", "text": "What day you here?" }
+            {
+              "id": "o1",
+              "text": "When can you come?"
+            },
+            {
+              "id": "o2",
+              "text": "Time for you visit?"
+            },
+            {
+              "id": "o3",
+              "text": "What day you here?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1173,9 +2123,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Muchas gracias por su ayuda!'?",
           "options": [
-            { "id": "o1", "text": "Thank you very much for your help!" },
-            { "id": "o2", "text": "Thanks helping!" },
-            { "id": "o3", "text": "Good work thanks!" }
+            {
+              "id": "o1",
+              "text": "Thank you very much for your help!"
+            },
+            {
+              "id": "o2",
+              "text": "Thanks helping!"
+            },
+            {
+              "id": "o3",
+              "text": "Good work thanks!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"

@@ -28,10 +28,11 @@ export const C2_U7_BLOCK1: Exercise = {
     {
       "id": "c2-u7-b1-q3",
       "type": "key-word-transformation",
+      "question": "The city is expanding very quickly into the countryside. (RAPID)\n\nThe city is undergoing __________",
       "sentence": "The city is expanding very quickly into the countryside.",
       "keyWord": "RAPID",
       "startOfAnswer": "The city is undergoing",
-      "correctAnswer": "The city is undergoing rapid expansion into the countryside.",
+      "correctAnswer": "rapid expansion into the countryside",
       "explanation": "Transformación de un adverbio a un sustantivo con adjetivo.",
       "points": 1
     },
@@ -55,10 +56,11 @@ export const C2_U7_BLOCK1: Exercise = {
     {
       "id": "c2-u7-b1-q6",
       "type": "key-word-transformation",
+      "question": "They have decided to demolish the old warehouse. (PULLED)\n\nThe old warehouse is __________",
       "sentence": "They have decided to demolish the old warehouse.",
       "keyWord": "PULLED",
       "startOfAnswer": "The old warehouse is",
-      "correctAnswer": "The old warehouse is going to be pulled down.",
+      "correctAnswer": "going to be pulled down",
       "explanation": "Uso del phrasal verb 'pull down' para demolición.",
       "points": 1
     },
@@ -82,10 +84,11 @@ export const C2_U7_BLOCK1: Exercise = {
     {
       "id": "c2-u7-b1-q9",
       "type": "key-word-transformation",
+      "question": "Modern cities are often characterized by their tall buildings. (SKYSCRAPERS)\n\nModern cities are often __________",
       "sentence": "Modern cities are often characterized by their tall buildings.",
       "keyWord": "SKYSCRAPERS",
       "startOfAnswer": "Modern cities are often",
-      "correctAnswer": "Modern cities are often full of skyscrapers.",
+      "correctAnswer": "full of skyscrapers",
       "explanation": "Introducción de vocabulario específico de arquitectura urbana.",
       "points": 1
     },
@@ -110,33 +113,34 @@ export const C2_U7_BLOCK2: Exercise = {
     {
       "id": "c2-u7-b2-q1",
       "type": "key-word-transformation",
+      "question": "The lack of green spaces is the main problem in this city. (WHAT)\n\nWhat is the main problem __________",
       "sentence": "The lack of green spaces is the main problem in this city.",
       "keyWord": "WHAT",
       "startOfAnswer": "What is the main problem",
-      "correctAnswer": "What is the main problem in this city is the lack of green spaces.",
+      "correctAnswer": "in this city is the lack of green spaces",
       "explanation": "Estructura de 'What-cleft' para enfatizar el sujeto.",
       "points": 1
     },
     {
       "id": "c2-u7-b2-q2",
-      "type": "fill-blank",
-      "question": "It was ________ the new subway line opened that the traffic situation improved.",
-      "correctAnswer": "when",
-      "explanation": "Cleft sentence temporal enfatizando el momento del cambio.",
+      "keyWord": "WHEN",
+      "sentence": "It was ________ the new subway line opened that the traffic situation improved.",
+      "startOfAnswer": "It was",
+      "type": "key-word-transformation",
+      "question": "It was ________ the new subway line opened that the traffic situation improved. (WHEN)\n\nIt was __________",
+      "correctAnswer": "when the new subway line opened",
+      "explanation": "Uso de la palabra 'when' para definir el momento de una acción.",
       "points": 1
     },
     {
       "id": "c2-u7-b2-q3",
-      "type": "multiple-choice",
-      "question": "Choose the correct cleft sentence to emphasize 'the architect':",
-      "options": [
-        "It was the architect who designed this building.",
-        "The architect designed this building.",
-        "What the architect did was design this building.",
-        "The building was designed by the architect."
-      ],
-      "correctAnswer": "It was the architect who designed this building.",
-      "explanation": "'It-cleft' para enfatizar el agente.",
+      "keyWord": "ARCHITECT",
+      "sentence": "Choose the correct cleft sentence to emphasize 'the architect':",
+      "startOfAnswer": "It was",
+      "type": "key-word-transformation",
+      "question": "Choose the correct cleft sentence to emphasize 'the architect': (ARCHITECT)\n\nIt was __________",
+      "correctAnswer": "the architect who designed this building.",
+      "explanation": "Uso de 'It was' para enfatizar al agente en una oración cleft.",
       "points": 1
     },
     {
@@ -150,25 +154,23 @@ export const C2_U7_BLOCK2: Exercise = {
     {
       "id": "c2-u7-b2-q5",
       "type": "key-word-transformation",
+      "question": "I only realized the scale of the city from the plane. (IT)\n\nIt was only from the plane __________",
       "sentence": "I only realized the scale of the city from the plane.",
       "keyWord": "IT",
       "startOfAnswer": "It was only from the plane",
-      "correctAnswer": "It was only from the plane that I realized the scale of the city.",
+      "correctAnswer": "that I realized the scale of the city",
       "explanation": "Estructura 'It was... that...' para énfasis circunstancial.",
       "points": 1
     },
     {
       "id": "c2-u7-b2-q6",
-      "type": "multiple-choice",
-      "question": "Which of these is a pseudo-cleft sentence?",
-      "options": [
-        "What this city needs is more sustainable housing.",
-        "It is more sustainable housing that this city needs.",
-        "This city needs more sustainable housing.",
-        "More sustainable housing is needed by this city."
-      ],
+      "keyWord": "SENTENCE",
+      "sentence": "Which of these is a pseudo-cleft sentence?",
+      "startOfAnswer": "The sentence is",
+      "type": "key-word-transformation",
+      "question": "Which of these is a pseudo-cleft sentence? (SENTENCE)\n\nThe sentence is __________",
       "correctAnswer": "What this city needs is more sustainable housing.",
-      "explanation": "Las oraciones que empiezan con 'What' se llaman pseudo-clefts.",
+      "explanation": "Identificación de la estructura pseudo-cleft.",
       "points": 1
     },
     {
@@ -182,10 +184,11 @@ export const C2_U7_BLOCK2: Exercise = {
     {
       "id": "c2-u7-b2-q8",
       "type": "key-word-transformation",
+      "question": "The mayor announced the new park yesterday. (WAS)\n\nIt was yesterday __________",
       "sentence": "The mayor announced the new park yesterday.",
       "keyWord": "WAS",
       "startOfAnswer": "It was yesterday",
-      "correctAnswer": "It was yesterday that the mayor announced the new park.",
+      "correctAnswer": "that the mayor announced the new park",
       "explanation": "Énfasis en el tiempo usando 'It was'.",
       "points": 1
     },
@@ -199,11 +202,13 @@ export const C2_U7_BLOCK2: Exercise = {
     },
     {
       "id": "c2-u7-b2-q10",
-      "type": "multiple-choice",
-      "question": "Identify the emphasized part: 'What I want to discuss is urban planning.'",
-      "options": ["I want", "To discuss", "Urban planning", "What I"],
-      "correctAnswer": "Urban planning",
-      "explanation": "En las pseudo-clefts, la información nueva o enfatizada va al final.",
+      "keyWord": "PLANNING",
+      "sentence": "Identify the emphasized part: 'What I want to discuss is urban planning.'",
+      "startOfAnswer": "The emphasized part is",
+      "type": "key-word-transformation",
+      "question": "Identify the emphasized part: 'What I want to discuss is urban planning.' (PLANNING)\n\nThe emphasized part is __________",
+      "correctAnswer": "urban planning.",
+      "explanation": "En las pseudo-clefts, la nueva información está enfatizada al final.",
       "points": 1
     }
   ]
@@ -263,7 +268,7 @@ export const C2_U7_BLOCK3: Exercise = {
       "type": "fill-blank",
       "question": "The repurposing of brownfield sites helps to prevent further ________ into agricultural land.",
       "correctAnswer": "encroachment",
-      "explanation": "'Encroachment' es la intrusión gradual en tierras no urbanas.",
+      "explanation": "'Encroachment' se refiere a la intrusión gradual en espacios naturales, como terrenos agrícolas.",
       "points": 1
     },
     {
@@ -320,9 +325,12 @@ export const C2_U7_BLOCK4: Exercise = {
     },
     {
       "id": "c2-u7-b4-q2",
-      "type": "fill-blank",
-      "question": "Since moving to the city, I've had to get used to the ________ and bustle.",
-      "correctAnswer": "hustle",
+      "keyWord": "HUSTLE",
+      "sentence": "Since moving to the city, I've had to get used to the hustle and bustle.",
+      "startOfAnswer": "used to the hustle",
+      "type": "key-word-transformation",
+      "question": "Since moving to the city, I've had to get used to the hustle and bustle. (HUSTLE)\n\nused to the hustle __________",
+      "correctAnswer": "",
       "explanation": "'Hustle and bustle' es un binomio común para el ajetreo.",
       "points": 1
     },
@@ -337,9 +345,12 @@ export const C2_U7_BLOCK4: Exercise = {
     },
     {
       "id": "c2-u7-b4-q4",
-      "type": "fill-blank",
-      "question": "The new luxury apartments are a ________ cry from the old tenements.",
-      "correctAnswer": "far",
+      "keyWord": "CRY",
+      "sentence": "The new luxury apartments are a ________ cry from the old tenements.",
+      "startOfAnswer": "far",
+      "type": "key-word-transformation",
+      "question": "The new luxury apartments are a ________ cry from the old tenements. (CRY)\n\nfar __________",
+      "correctAnswer": "",
       "explanation": "'A far cry from' significa ser muy diferente de algo.",
       "points": 1
     },
@@ -354,9 +365,12 @@ export const C2_U7_BLOCK4: Exercise = {
     },
     {
       "id": "c2-u7-b4-q6",
-      "type": "fill-blank",
-      "question": "He's always out on the ________, exploring the city's nightlife.",
-      "correctAnswer": "town",
+      "keyWord": "TOWN",
+      "sentence": "He's always out on the town, exploring the city's nightlife.",
+      "startOfAnswer": "on the town",
+      "type": "key-word-transformation",
+      "question": "He's always out on the town, exploring the city's nightlife. (TOWN)\n\non the town __________",
+      "correctAnswer": "",
       "explanation": "'Out on the town' significa salir de fiesta por la ciudad.",
       "points": 1
     },
@@ -371,9 +385,12 @@ export const C2_U7_BLOCK4: Exercise = {
     },
     {
       "id": "c2-u7-b4-q8",
-      "type": "fill-blank",
-      "question": "The crime rate has ________ out of control in some districts.",
-      "correctAnswer": "spiralled",
+      "keyWord": "SPIRALLED",
+      "sentence": "The crime rate has spiralled out of control in some districts.",
+      "startOfAnswer": "spiralled",
+      "type": "key-word-transformation",
+      "question": "The crime rate has spiralled out of control in some districts. (SPIRALLED)\n\nspiralled __________",
+      "correctAnswer": "",
       "explanation": "'Spiral out of control' se usa para situaciones que empeoran rápidamente.",
       "points": 1
     },
@@ -388,9 +405,12 @@ export const C2_U7_BLOCK4: Exercise = {
     },
     {
       "id": "c2-u7-b4-q10",
-      "type": "fill-blank",
-      "question": "Living in a ________ community provides a sense of security.",
-      "correctAnswer": "gated",
+      "keyWord": "GATED",
+      "sentence": "Living in a gated community provides a sense of security.",
+      "startOfAnswer": "gated",
+      "type": "key-word-transformation",
+      "question": "Living in a gated community provides a sense of security. (GATED)\n\ngated __________",
+      "correctAnswer": "",
       "explanation": "Una comunidad cerrada o urbanización privada.",
       "points": 1
     }
@@ -406,10 +426,11 @@ export const C2_U7_BLOCK5: Exercise = {
     {
       "id": "c2-u7-b5-q1",
       "type": "key-word-transformation",
+      "question": "They believe that the old bridge is unsafe. (IS)\n\nThe old bridge __________",
       "sentence": "They believe that the old bridge is unsafe.",
       "keyWord": "IS",
       "startOfAnswer": "The old bridge",
-      "correctAnswer": "The old bridge is believed to be unsafe.",
+      "correctAnswer": "is believed to be unsafe",
       "explanation": "Estructura de infinitivo pasivo (Personal Passive).",
       "points": 1
     },
@@ -423,15 +444,12 @@ export const C2_U7_BLOCK5: Exercise = {
     },
     {
       "id": "c2-u7-b5-q3",
-      "type": "multiple-choice",
-      "question": "Which sentence uses a causative passive?",
-      "options": [
-        "The council is building a new library.",
-        "A new library is being built by the council.",
-        "The council is having a new library built.",
-        "The library has been built."
-      ],
-      "correctAnswer": "The council is having a new library built.",
+      "startOfAnswer": "The council",
+      "keyWord": "HAVE",
+      "sentence": "The council is having a new library built.",
+      "type": "key-word-transformation",
+      "question": "The council is having a new library built. (HAVE)\n\nThe council __________",
+      "correctAnswer": "is having a new library built",
       "explanation": "'Have something done' es la estructura causativa pasiva.",
       "points": 1
     },
@@ -446,19 +464,22 @@ export const C2_U7_BLOCK5: Exercise = {
     {
       "id": "c2-u7-b5-q5",
       "type": "key-word-transformation",
+      "question": "Experts estimate that the population will double. (ESTIMATED)\n\nThe population __________",
       "sentence": "Experts estimate that the population will double.",
       "keyWord": "ESTIMATED",
       "startOfAnswer": "The population",
-      "correctAnswer": "The population is estimated to double.",
+      "correctAnswer": "is estimated to double",
       "explanation": "Pasiva personal con verbo de reporte.",
       "points": 1
     },
     {
       "id": "c2-u7-b5-q6",
-      "type": "multiple-choice",
-      "question": "Choose the correct form: 'The architect is ________ to have won the prize.'",
-      "options": ["saying", "said", "say", "been said"],
-      "correctAnswer": "said",
+      "startOfAnswer": "The architect",
+      "keyWord": "SAY",
+      "sentence": "The architect is said to have won the prize.",
+      "type": "key-word-transformation",
+      "question": "The architect is said to have won the prize. (SAY)\n\nThe architect __________",
+      "correctAnswer": "is said to have won",
       "explanation": "'Is said to have...' indica una creencia general.",
       "points": 1
     },
@@ -473,10 +494,11 @@ export const C2_U7_BLOCK5: Exercise = {
     {
       "id": "c2-u7-b5-q8",
       "type": "key-word-transformation",
+      "question": "Someone should have warned the residents. (BEEN)\n\nThe residents should __________",
       "sentence": "Someone should have warned the residents.",
       "keyWord": "BEEN",
       "startOfAnswer": "The residents should",
-      "correctAnswer": "The residents should have been warned.",
+      "correctAnswer": "have been warned",
       "explanation": "Pasiva perfecta con modal.",
       "points": 1
     },
@@ -490,15 +512,12 @@ export const C2_U7_BLOCK5: Exercise = {
     },
     {
       "id": "c2-u7-b5-q10",
-      "type": "multiple-choice",
-      "question": "Which structure is most formal?",
-      "options": [
-        "People know that the city is sinking.",
-        "It is known that the city is sinking.",
-        "Everyone knows the city is sinking.",
-        "The city is sinking, as people know."
-      ],
-      "correctAnswer": "It is known that the city is sinking.",
+      "startOfAnswer": "It is",
+      "keyWord": "KNOWN",
+      "sentence": "It is known that the city is sinking.",
+      "type": "key-word-transformation",
+      "question": "It is known that the city is sinking. (KNOWN)\n\nIt is __________",
+      "correctAnswer": "known that the city is sinking",
       "explanation": "La pasiva impersonal es altamente formal.",
       "points": 1
     }
@@ -531,10 +550,11 @@ export const C2_U7_BLOCK6: Exercise = {
     {
       "id": "c2-u7-b6-q3",
       "type": "key-word-transformation",
+      "question": "Sustainable materials were used to build the complex. (CONSTRUCTION)\n\nconstruction of the complex involved __________",
       "sentence": "Sustainable materials were used to build the complex.",
       "keyWord": "CONSTRUCTION",
-      "startOfAnswer": "The",
-      "correctAnswer": "The construction of the complex involved sustainable materials.",
+      "startOfAnswer": "construction of the complex involved",
+      "correctAnswer": "sustainable materials",
       "explanation": "Cambio de estructura pasiva a una con sustantivo.",
       "points": 1
     },
@@ -558,10 +578,11 @@ export const C2_U7_BLOCK6: Exercise = {
     {
       "id": "c2-u7-b6-q6",
       "type": "key-word-transformation",
+      "question": "The park was created to improve air quality. (VIEW)\n\nimproving air quality __________",
       "sentence": "The park was created to improve air quality.",
       "keyWord": "VIEW",
-      "startOfAnswer": "The park was created with",
-      "correctAnswer": "The park was created with a view to improving air quality.",
+      "startOfAnswer": "improving air quality",
+      "correctAnswer": "a view to improving air quality",
       "explanation": "Uso de la expresión 'with a view to + -ing'.",
       "points": 1
     },
@@ -585,10 +606,11 @@ export const C2_U7_BLOCK6: Exercise = {
     {
       "id": "c2-u7-b6-q9",
       "type": "key-word-transformation",
+      "question": "It is important to preserve biodiversity in cities. (VITAL)\n\nPreserving biodiversity in cities __________",
       "sentence": "It is important to preserve biodiversity in cities.",
       "keyWord": "VITAL",
       "startOfAnswer": "Preserving biodiversity in cities",
-      "correctAnswer": "Preserving biodiversity in cities is vital.",
+      "correctAnswer": "is vital",
       "explanation": "Sustitución de adjetivo por uno más fuerte.",
       "points": 1
     },
@@ -613,18 +635,22 @@ export const C2_U7_BLOCK7: Exercise = {
     {
       "id": "c2-u7-b7-q1",
       "type": "key-word-transformation",
+      "question": "Cities have never faced such complex challenges before. (NEVER)\n\nNever __________",
       "sentence": "Cities have never faced such complex challenges before.",
       "keyWord": "NEVER",
       "startOfAnswer": "Never",
-      "correctAnswer": "Never have cities faced such complex challenges before.",
+      "correctAnswer": "have cities faced such complex challenges before",
       "explanation": "Inversión con adverbio negativo.",
       "points": 1
     },
     {
       "id": "c2-u7-b7-q2",
-      "type": "fill-blank",
-      "question": "Rarely ________ we see such innovative architectural solutions.",
-      "correctAnswer": "do",
+      "startOfAnswer": "Rarely",
+      "keyWord": "RARELY",
+      "sentence": "Rarely do we see such innovative architectural solutions.",
+      "type": "key-word-transformation",
+      "question": "Rarely do we see such innovative architectural solutions. (RARELY)\n\nRarely __________",
+      "correctAnswer": "do we see such innovative architectural solutions",
       "explanation": "Inversión con 'Rarely' requiere auxiliar.",
       "points": 1
     },
@@ -644,19 +670,23 @@ export const C2_U7_BLOCK7: Exercise = {
     },
     {
       "id": "c2-u7-b7-q4",
-      "type": "fill-blank",
-      "question": "Under no circumstances ________ the historical district be demolished.",
-      "correctAnswer": "should",
+      "startOfAnswer": "Under no circumstances",
+      "keyWord": "CIRCUMSTANCES",
+      "sentence": "Under no circumstances should the historical district be demolished.",
+      "type": "key-word-transformation",
+      "question": "Under no circumstances should the historical district be demolished. (CIRCUMSTANCES)\n\nUnder no circumstances __________",
+      "correctAnswer": "should the historical district be demolished",
       "explanation": "Inversión con 'Under no circumstances'.",
       "points": 1
     },
     {
       "id": "c2-u7-b7-q5",
       "type": "key-word-transformation",
+      "question": "If you should need any further information about the project, please ask. (SHOULD)\n\nShould __________",
       "sentence": "If you should need any further information about the project, please ask.",
       "keyWord": "SHOULD",
       "startOfAnswer": "Should",
-      "correctAnswer": "Should you need any further information about the project, please ask.",
+      "correctAnswer": "you need any further information about the project, please ask",
       "explanation": "Inversión en condicionales.",
       "points": 1
     },
@@ -671,19 +701,23 @@ export const C2_U7_BLOCK7: Exercise = {
     },
     {
       "id": "c2-u7-b7-q7",
-      "type": "fill-blank",
-      "question": "Not only ________ the city provide housing, but it also creates jobs.",
-      "correctAnswer": "does",
+      "startOfAnswer": "Not only",
+      "keyWord": "NOT ONLY",
+      "sentence": "Not only does the city provide housing, but it also creates jobs.",
+      "type": "key-word-transformation",
+      "question": "Not only does the city provide housing, but it also creates jobs. (NOT ONLY)\n\nNot only __________",
+      "correctAnswer": "does the city provide housing, but it also creates jobs",
       "explanation": "Inversión con 'Not only'.",
       "points": 1
     },
     {
       "id": "c2-u7-b7-q8",
       "type": "key-word-transformation",
+      "question": "The traffic was so heavy that we missed the meeting. (SUCH)\n\nSuch __________",
       "sentence": "The traffic was so heavy that we missed the meeting.",
       "keyWord": "SUCH",
       "startOfAnswer": "Such",
-      "correctAnswer": "Such was the traffic that we missed the meeting.",
+      "correctAnswer": "was the traffic that we missed the meeting",
       "explanation": "Inversión con 'Such... that'.",
       "points": 1
     },
@@ -733,10 +767,11 @@ export const C2_U7_BLOCK8: Exercise = {
     {
       "id": "c2-u7-b8-q3",
       "type": "key-word-transformation",
+      "question": "The subway system is the backbone of urban transport. (RELY)\n\nMost citizens __________",
       "sentence": "The subway system is the backbone of urban transport.",
       "keyWord": "RELY",
       "startOfAnswer": "Most citizens",
-      "correctAnswer": "Most citizens rely on the subway system for transport.",
+      "correctAnswer": "rely on the subway system for transport",
       "explanation": "Uso del verbo 'rely on'.",
       "points": 1
     },
@@ -760,10 +795,11 @@ export const C2_U7_BLOCK8: Exercise = {
     {
       "id": "c2-u7-b8-q6",
       "type": "key-word-transformation",
+      "question": "The bus was so full that I couldn't get on. (PACKED)\n\nThe bus was __________",
       "sentence": "The bus was so full that I couldn't get on.",
       "keyWord": "PACKED",
       "startOfAnswer": "The bus was",
-      "correctAnswer": "The bus was so packed that I couldn't get on.",
+      "correctAnswer": "so packed that I couldn't get on",
       "explanation": "Sustitución por un adjetivo más preciso.",
       "points": 1
     },
@@ -787,10 +823,11 @@ export const C2_U7_BLOCK8: Exercise = {
     {
       "id": "c2-u7-b8-q9",
       "type": "key-word-transformation",
+      "question": "The journey takes approximately forty minutes. (ROUGHLY)\n\nThe journey takes __________",
       "sentence": "The journey takes approximately forty minutes.",
       "keyWord": "ROUGHLY",
       "startOfAnswer": "The journey takes",
-      "correctAnswer": "The journey takes roughly forty minutes.",
+      "correctAnswer": "roughly forty minutes",
       "explanation": "Uso de un adverbio informal/común.",
       "points": 1
     },
@@ -948,10 +985,11 @@ export const C2_U7_BLOCK10: Exercise = {
     {
       "id": "c2-u7-b10-q5",
       "type": "key-word-transformation",
+      "question": "I haven't seen such a bustling market anywhere else. (NOWHERE)\n\nNowhere else __________",
       "sentence": "I haven't seen such a bustling market anywhere else.",
       "keyWord": "NOWHERE",
       "startOfAnswer": "Nowhere else",
-      "correctAnswer": "Nowhere else have I seen such a bustling market.",
+      "correctAnswer": "have I seen such a bustling market",
       "explanation": "Inversión con adverbio de lugar negativo.",
       "points": 1
     },
@@ -975,10 +1013,11 @@ export const C2_U7_BLOCK10: Exercise = {
     {
       "id": "c2-u7-b10-q8",
       "type": "key-word-transformation",
+      "question": "People say he is the best urban planner of his generation. (SAID)\n\nHe __________",
       "sentence": "People say he is the best urban planner of his generation.",
       "keyWord": "SAID",
       "startOfAnswer": "He",
-      "correctAnswer": "He is said to be the best urban planner of his generation.",
+      "correctAnswer": "is said to be the best urban planner of his generation",
       "explanation": "Pasiva personal.",
       "points": 1
     },
@@ -1005,8 +1044,8 @@ export const C2_U7_BLOCK10: Exercise = {
 export const C2_UNIT_7 = createC2Unit(
   'c2-u7',
   'Urban Dynamics & Living Spaces',
-  'Explore the complexities of modern urbanization, architectural trends, and the grammar of emphasis.',
-  ['Master urban vocabulary and idioms', 'Use cleft sentences for emphasis', 'Implement advanced passive structures and inversion', 'Analyze urban social dynamics'],
+  'Advanced C2 unit exploring complex topics and formal language structures.',
+  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
   [
     C2_U7_BLOCK1,
     C2_U7_BLOCK2,

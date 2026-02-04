@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'camisa'?",
           "options": [
-            { "id": "o1", "text": "Shirt" },
-            { "id": "o2", "text": "T-shirt" },
-            { "id": "o3", "text": "Skirt" }
+            {
+              "id": "o1",
+              "text": "Shirt"
+            },
+            {
+              "id": "o2",
+              "text": "T-shirt"
+            },
+            {
+              "id": "o3",
+              "text": "Skirt"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'camiseta'?",
           "options": [
-            { "id": "o1", "text": "T-shirt" },
-            { "id": "o2", "text": "Shirt" },
-            { "id": "o3", "text": "Sweater" }
+            {
+              "id": "o1",
+              "text": "T-shirt"
+            },
+            {
+              "id": "o2",
+              "text": "Shirt"
+            },
+            {
+              "id": "o3",
+              "text": "Sweater"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pantalones'?",
           "options": [
-            { "id": "o1", "text": "Trousers (UK) / Pants (US)" },
-            { "id": "o2", "text": "Shorts" },
-            { "id": "o3", "text": "Jeans" }
+            {
+              "id": "o1",
+              "text": "Trousers (UK) / Pants (US)"
+            },
+            {
+              "id": "o2",
+              "text": "Shorts"
+            },
+            {
+              "id": "o3",
+              "text": "Jeans"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'falda'?",
           "options": [
-            { "id": "o1", "text": "Skirt" },
-            { "id": "o2", "text": "Dress" },
-            { "id": "o3", "text": "Shirt" }
+            {
+              "id": "o1",
+              "text": "Skirt"
+            },
+            {
+              "id": "o2",
+              "text": "Dress"
+            },
+            {
+              "id": "o3",
+              "text": "Shirt"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vestido'?",
           "options": [
-            { "id": "o1", "text": "Dress" },
-            { "id": "o2", "text": "Skirt" },
-            { "id": "o3", "text": "Coat" }
+            {
+              "id": "o1",
+              "text": "Dress"
+            },
+            {
+              "id": "o2",
+              "text": "Skirt"
+            },
+            {
+              "id": "o3",
+              "text": "Coat"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'chaqueta'?",
           "options": [
-            { "id": "o1", "text": "Jacket" },
-            { "id": "o2", "text": "Coat" },
-            { "id": "o3", "text": "Jumper" }
+            {
+              "id": "o1",
+              "text": "Jacket"
+            },
+            {
+              "id": "o2",
+              "text": "Coat"
+            },
+            {
+              "id": "o3",
+              "text": "Jumper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'abrigo'?",
           "options": [
-            { "id": "o1", "text": "Coat" },
-            { "id": "o2", "text": "Jacket" },
-            { "id": "o3", "text": "Scarf" }
+            {
+              "id": "o1",
+              "text": "Coat"
+            },
+            {
+              "id": "o2",
+              "text": "Jacket"
+            },
+            {
+              "id": "o3",
+              "text": "Scarf"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'zapatos'?",
           "options": [
-            { "id": "o1", "text": "Shoes" },
-            { "id": "o2", "text": "Boots" },
-            { "id": "o3", "text": "Socks" }
+            {
+              "id": "o1",
+              "text": "Shoes"
+            },
+            {
+              "id": "o2",
+              "text": "Boots"
+            },
+            {
+              "id": "o3",
+              "text": "Socks"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'calcetines'?",
           "options": [
-            { "id": "o1", "text": "Socks" },
-            { "id": "o2", "text": "Shoes" },
-            { "id": "o3", "text": "Gloves" }
+            {
+              "id": "o1",
+              "text": "Socks"
+            },
+            {
+              "id": "o2",
+              "text": "Shoes"
+            },
+            {
+              "id": "o3",
+              "text": "Gloves"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sombrero'?",
           "options": [
-            { "id": "o1", "text": "Hat" },
-            { "id": "o2", "text": "Cap" },
-            { "id": "o3", "text": "Helmet" }
+            {
+              "id": "o1",
+              "text": "Hat"
+            },
+            {
+              "id": "o2",
+              "text": "Cap"
+            },
+            {
+              "id": "o3",
+              "text": "Helmet"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,9 +227,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bufanda'?",
           "options": [
-            { "id": "o1", "text": "Scarf" },
-            { "id": "o2", "text": "Tie" },
-            { "id": "o3", "text": "Belt" }
+            {
+              "id": "o1",
+              "text": "Scarf"
+            },
+            {
+              "id": "o2",
+              "text": "Tie"
+            },
+            {
+              "id": "o3",
+              "text": "Belt"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -149,9 +248,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'guantes'?",
           "options": [
-            { "id": "o1", "text": "Gloves" },
-            { "id": "o2", "text": "Socks" },
-            { "id": "o3", "text": "Boots" }
+            {
+              "id": "o1",
+              "text": "Gloves"
+            },
+            {
+              "id": "o2",
+              "text": "Socks"
+            },
+            {
+              "id": "o3",
+              "text": "Boots"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -161,9 +269,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pantalones cortos'?",
           "options": [
-            { "id": "o1", "text": "Shorts" },
-            { "id": "o2", "text": "Pants" },
-            { "id": "o3", "text": "Jeans" }
+            {
+              "id": "o1",
+              "text": "Shorts"
+            },
+            {
+              "id": "o2",
+              "text": "Pants"
+            },
+            {
+              "id": "o3",
+              "text": "Jeans"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -173,9 +290,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vaqueros'?",
           "options": [
-            { "id": "o1", "text": "Jeans" },
-            { "id": "o2", "text": "Trousers" },
-            { "id": "o3", "text": "Leggings" }
+            {
+              "id": "o1",
+              "text": "Jeans"
+            },
+            {
+              "id": "o2",
+              "text": "Trousers"
+            },
+            {
+              "id": "o3",
+              "text": "Leggings"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -185,9 +311,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cinturón'?",
           "options": [
-            { "id": "o1", "text": "Belt" },
-            { "id": "o2", "text": "Scarf" },
-            { "id": "o3", "text": "Tie" }
+            {
+              "id": "o1",
+              "text": "Belt"
+            },
+            {
+              "id": "o2",
+              "text": "Scarf"
+            },
+            {
+              "id": "o3",
+              "text": "Tie"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -197,9 +332,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'corbata'?",
           "options": [
-            { "id": "o1", "text": "Tie" },
-            { "id": "o2", "text": "Scarf" },
-            { "id": "o3", "text": "Belt" }
+            {
+              "id": "o1",
+              "text": "Tie"
+            },
+            {
+              "id": "o2",
+              "text": "Scarf"
+            },
+            {
+              "id": "o3",
+              "text": "Belt"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -209,9 +353,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'botas'?",
           "options": [
-            { "id": "o1", "text": "Boots" },
-            { "id": "o2", "text": "Shoes" },
-            { "id": "o3", "text": "Sandals" }
+            {
+              "id": "o1",
+              "text": "Boots"
+            },
+            {
+              "id": "o2",
+              "text": "Shoes"
+            },
+            {
+              "id": "o3",
+              "text": "Sandals"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -221,9 +374,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gafas'?",
           "options": [
-            { "id": "o1", "text": "Glasses" },
-            { "id": "o2", "text": "Sunglasses" },
-            { "id": "o3", "text": "Both are related" }
+            {
+              "id": "o1",
+              "text": "Glasses"
+            },
+            {
+              "id": "o2",
+              "text": "Sunglasses"
+            },
+            {
+              "id": "o3",
+              "text": "Both are related"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -233,9 +395,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bolso'?",
           "options": [
-            { "id": "o1", "text": "Handbag / Purse" },
-            { "id": "o2", "text": "Backpack" },
-            { "id": "o3", "text": "Wallet" }
+            {
+              "id": "o1",
+              "text": "Handbag / Purse"
+            },
+            {
+              "id": "o2",
+              "text": "Backpack"
+            },
+            {
+              "id": "o3",
+              "text": "Wallet"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -245,9 +416,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reloj (de pulsera)'?",
           "options": [
-            { "id": "o1", "text": "Watch" },
-            { "id": "o2", "text": "Clock" },
-            { "id": "o3", "text": "Wrist" }
+            {
+              "id": "o1",
+              "text": "Watch"
+            },
+            {
+              "id": "o2",
+              "text": "Clock"
+            },
+            {
+              "id": "o3",
+              "text": "Wrist"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -257,11 +437,27 @@
           "type": "matching",
           "prompt_es": "Une las prendas:",
           "pairs": [
-            { "id": "p1", "left": "Suit", "right": "Traje" },
-            { "id": "p2", "left": "Sweater / Jumper", "right": "Jersey" },
-            { "id": "p3", "left": "Raincoat", "right": "Chubasquero" }
+            {
+              "id": "p1",
+              "left": "Suit",
+              "right": "Traje"
+            },
+            {
+              "id": "p2",
+              "left": "Sweater / Jumper",
+              "right": "Jersey"
+            },
+            {
+              "id": "p3",
+              "left": "Raincoat",
+              "right": "Chubasquero"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -269,11 +465,27 @@
           "type": "matching",
           "prompt_es": "Une los accesorios:",
           "pairs": [
-            { "id": "p1", "left": "Earrings", "right": "Pendientes" },
-            { "id": "p2", "left": "Ring", "right": "Anillo" },
-            { "id": "p3", "left": "Necklace", "right": "Collar" }
+            {
+              "id": "p1",
+              "left": "Earrings",
+              "right": "Pendientes"
+            },
+            {
+              "id": "p2",
+              "left": "Ring",
+              "right": "Anillo"
+            },
+            {
+              "id": "p3",
+              "left": "Necklace",
+              "right": "Collar"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -311,9 +523,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuándo usamos 'This'?",
           "options": [
-            { "id": "o1", "text": "Singular y cerca (esto/esta)" },
-            { "id": "o2", "text": "Plural y cerca" },
-            { "id": "o3", "text": "Singular y lejos" }
+            {
+              "id": "o1",
+              "text": "Singular y cerca (esto/esta)"
+            },
+            {
+              "id": "o2",
+              "text": "Plural y cerca"
+            },
+            {
+              "id": "o3",
+              "text": "Singular y lejos"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -323,9 +544,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuándo usamos 'That'?",
           "options": [
-            { "id": "o1", "text": "Singular y lejos (eso/aquello)" },
-            { "id": "o2", "text": "Plural y lejos" },
-            { "id": "o3", "text": "Singular y cerca" }
+            {
+              "id": "o1",
+              "text": "Singular y lejos (eso/aquello)"
+            },
+            {
+              "id": "o2",
+              "text": "Plural y lejos"
+            },
+            {
+              "id": "o3",
+              "text": "Singular y cerca"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -335,9 +565,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuándo usamos 'These'?",
           "options": [
-            { "id": "o1", "text": "Plural y cerca (estos/estas)" },
-            { "id": "o2", "text": "Plural y lejos" },
-            { "id": "o3", "text": "Singular y cerca" }
+            {
+              "id": "o1",
+              "text": "Plural y cerca (estos/estas)"
+            },
+            {
+              "id": "o2",
+              "text": "Plural y lejos"
+            },
+            {
+              "id": "o3",
+              "text": "Singular y cerca"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -347,9 +586,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuándo usamos 'Those'?",
           "options": [
-            { "id": "o1", "text": "Plural y lejos (esos/aquellos)" },
-            { "id": "o2", "text": "Plural y cerca" },
-            { "id": "o3", "text": "Singular y lejos" }
+            {
+              "id": "o1",
+              "text": "Plural y lejos (esos/aquellos)"
+            },
+            {
+              "id": "o2",
+              "text": "Plural y cerca"
+            },
+            {
+              "id": "o3",
+              "text": "Singular y lejos"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -399,9 +647,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Es correcto decir 'this shoes'?",
           "options": [
-            { "id": "o1", "text": "No, shoes is plural. Use 'these shoes'." },
-            { "id": "o2", "text": "Yes, it is correct." },
-            { "id": "o3", "text": "No, use 'that shoes'." }
+            {
+              "id": "o1",
+              "text": "No, shoes is plural. Use 'these shoes'."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, it is correct."
+            },
+            {
+              "id": "o3",
+              "text": "No, use 'that shoes'."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -411,9 +668,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Es correcto decir 'that trousers'?",
           "options": [
-            { "id": "o1", "text": "No, trousers is plural. Use 'those trousers'." },
-            { "id": "o2", "text": "Yes, it is correct." },
-            { "id": "o3", "text": "No, use 'this trousers'." }
+            {
+              "id": "o1",
+              "text": "No, trousers is plural. Use 'those trousers'."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, it is correct."
+            },
+            {
+              "id": "o3",
+              "text": "No, use 'this trousers'."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -423,12 +689,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'este vestido es bonito'",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "This" },
-            { "id": "w3", "text": "dress" },
-            { "id": "w4", "text": "beautiful" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "dress"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            }
           ],
-          "correct_answer": ["w2", "w3", "w1", "w4"],
+          "correct_answer": [
+            "w2",
+            "w3",
+            "w1",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -436,12 +719,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'aquellos zapatos son viejos'",
           "options": [
-            { "id": "w1", "text": "old" },
-            { "id": "w2", "text": "Those" },
-            { "id": "w3", "text": "shoes" },
-            { "id": "w4", "text": "are" }
+            {
+              "id": "w1",
+              "text": "old"
+            },
+            {
+              "id": "w2",
+              "text": "Those"
+            },
+            {
+              "id": "w3",
+              "text": "shoes"
+            },
+            {
+              "id": "w4",
+              "text": "are"
+            }
           ],
-          "correct_answer": ["w2", "w3", "w4", "w1"],
+          "correct_answer": [
+            "w2",
+            "w3",
+            "w4",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -449,12 +749,33 @@
           "type": "matching",
           "prompt_es": "Relaciona:",
           "pairs": [
-            { "id": "p1", "left": "This", "right": "Esto" },
-            { "id": "p2", "left": "That", "right": "Eso" },
-            { "id": "p3", "left": "These", "right": "Estos" },
-            { "id": "p4", "left": "Those", "right": "Esos" }
+            {
+              "id": "p1",
+              "left": "This",
+              "right": "Esto"
+            },
+            {
+              "id": "p2",
+              "left": "That",
+              "right": "Eso"
+            },
+            {
+              "id": "p3",
+              "left": "These",
+              "right": "Estos"
+            },
+            {
+              "id": "p4",
+              "left": "Those",
+              "right": "Esos"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -510,9 +831,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'talla'?",
           "options": [
-            { "id": "o1", "text": "Size" },
-            { "id": "o2", "text": "Measure" },
-            { "id": "o3", "text": "Big" }
+            {
+              "id": "o1",
+              "text": "Size"
+            },
+            {
+              "id": "o2",
+              "text": "Measure"
+            },
+            {
+              "id": "o3",
+              "text": "Big"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -522,9 +852,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'talla pequeña'?",
           "options": [
-            { "id": "o1", "text": "Small" },
-            { "id": "o2", "text": "Little" },
-            { "id": "o3", "text": "Minor" }
+            {
+              "id": "o1",
+              "text": "Small"
+            },
+            {
+              "id": "o2",
+              "text": "Little"
+            },
+            {
+              "id": "o3",
+              "text": "Minor"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -534,9 +873,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'talla mediana'?",
           "options": [
-            { "id": "o1", "text": "Medium" },
-            { "id": "o2", "text": "Middle" },
-            { "id": "o3", "text": "Center" }
+            {
+              "id": "o1",
+              "text": "Medium"
+            },
+            {
+              "id": "o2",
+              "text": "Middle"
+            },
+            {
+              "id": "o3",
+              "text": "Center"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -546,9 +894,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'talla grande'?",
           "options": [
-            { "id": "o1", "text": "Large" },
-            { "id": "o2", "text": "Big" },
-            { "id": "o3", "text": "Great" }
+            {
+              "id": "o1",
+              "text": "Large"
+            },
+            {
+              "id": "o2",
+              "text": "Big"
+            },
+            {
+              "id": "o3",
+              "text": "Great"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -558,9 +915,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'probador'?",
           "options": [
-            { "id": "o1", "text": "Changing room / Fitting room" },
-            { "id": "o2", "text": "Try room" },
-            { "id": "o3", "text": "Test room" }
+            {
+              "id": "o1",
+              "text": "Changing room / Fitting room"
+            },
+            {
+              "id": "o2",
+              "text": "Try room"
+            },
+            {
+              "id": "o3",
+              "text": "Test room"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -576,9 +942,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Cuánto cuesta esto?'?",
           "options": [
-            { "id": "o1", "text": "How much is this?" },
-            { "id": "o2", "text": "How many is this?" },
-            { "id": "o3", "text": "Price of this?" }
+            {
+              "id": "o1",
+              "text": "How much is this?"
+            },
+            {
+              "id": "o2",
+              "text": "How many is this?"
+            },
+            {
+              "id": "o3",
+              "text": "Price of this?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -588,9 +963,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Cuánto cuestan estos?'?",
           "options": [
-            { "id": "o1", "text": "How much are these?" },
-            { "id": "o2", "text": "How many are these?" },
-            { "id": "o3", "text": "Prices of these?" }
+            {
+              "id": "o1",
+              "text": "How much are these?"
+            },
+            {
+              "id": "o2",
+              "text": "How many are these?"
+            },
+            {
+              "id": "o3",
+              "text": "Prices of these?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -600,9 +984,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'caro'?",
           "options": [
-            { "id": "o1", "text": "Expensive" },
-            { "id": "o2", "text": "Cheap" },
-            { "id": "o3", "text": "Rich" }
+            {
+              "id": "o1",
+              "text": "Expensive"
+            },
+            {
+              "id": "o2",
+              "text": "Cheap"
+            },
+            {
+              "id": "o3",
+              "text": "Rich"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -612,9 +1005,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'barato'?",
           "options": [
-            { "id": "o1", "text": "Cheap" },
-            { "id": "o2", "text": "Expensive" },
-            { "id": "o3", "text": "Poor" }
+            {
+              "id": "o1",
+              "text": "Cheap"
+            },
+            {
+              "id": "o2",
+              "text": "Expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Poor"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -624,9 +1026,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'rebajas'?",
           "options": [
-            { "id": "o1", "text": "Sales" },
-            { "id": "o2", "text": "Discounts" },
-            { "id": "o3", "text": "Offers" }
+            {
+              "id": "o1",
+              "text": "Sales"
+            },
+            {
+              "id": "o2",
+              "text": "Discounts"
+            },
+            {
+              "id": "o3",
+              "text": "Offers"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -636,9 +1047,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'descuento'?",
           "options": [
-            { "id": "o1", "text": "Discount" },
-            { "id": "o2", "text": "Sale" },
-            { "id": "o3", "text": "Less price" }
+            {
+              "id": "o1",
+              "text": "Discount"
+            },
+            {
+              "id": "o2",
+              "text": "Sale"
+            },
+            {
+              "id": "o3",
+              "text": "Less price"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -648,9 +1068,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'caja' (donde pagas)?",
           "options": [
-            { "id": "o1", "text": "Checkout / Till (UK) / Cashier" },
-            { "id": "o2", "text": "Box" },
-            { "id": "o3", "text": "Payment" }
+            {
+              "id": "o1",
+              "text": "Checkout / Till (UK) / Cashier"
+            },
+            {
+              "id": "o2",
+              "text": "Box"
+            },
+            {
+              "id": "o3",
+              "text": "Payment"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -660,9 +1089,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'recibo / tique'?",
           "options": [
-            { "id": "o1", "text": "Receipt" },
-            { "id": "o2", "text": "Recipe" },
-            { "id": "o3", "text": "Ticket" }
+            {
+              "id": "o1",
+              "text": "Receipt"
+            },
+            {
+              "id": "o2",
+              "text": "Recipe"
+            },
+            {
+              "id": "o3",
+              "text": "Ticket"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -672,9 +1110,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices '¿Puedo probármelo?'?",
           "options": [
-            { "id": "o1", "text": "Can I try it on?" },
-            { "id": "o2", "text": "Can I test it?" },
-            { "id": "o3", "text": "Can I wear it?" }
+            {
+              "id": "o1",
+              "text": "Can I try it on?"
+            },
+            {
+              "id": "o2",
+              "text": "Can I test it?"
+            },
+            {
+              "id": "o3",
+              "text": "Can I wear it?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -684,9 +1131,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Solo estoy mirando'?",
           "options": [
-            { "id": "o1", "text": "I'm just looking, thanks." },
-            { "id": "o2", "text": "I'm only watching." },
-            { "id": "o3", "text": "I'm just seeing." }
+            {
+              "id": "o1",
+              "text": "I'm just looking, thanks."
+            },
+            {
+              "id": "o2",
+              "text": "I'm only watching."
+            },
+            {
+              "id": "o3",
+              "text": "I'm just seeing."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -696,9 +1152,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Me lo llevo'?",
           "options": [
-            { "id": "o1", "text": "I'll take it." },
-            { "id": "o2", "text": "I'll carry it." },
-            { "id": "o3", "text": "I'll get it." }
+            {
+              "id": "o1",
+              "text": "I'll take it."
+            },
+            {
+              "id": "o2",
+              "text": "I'll carry it."
+            },
+            {
+              "id": "o3",
+              "text": "I'll get it."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -708,9 +1173,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pagar en efectivo'?",
           "options": [
-            { "id": "o1", "text": "Pay in cash" },
-            { "id": "o2", "text": "Pay with money" },
-            { "id": "o3", "text": "Pay hand" }
+            {
+              "id": "o1",
+              "text": "Pay in cash"
+            },
+            {
+              "id": "o2",
+              "text": "Pay with money"
+            },
+            {
+              "id": "o3",
+              "text": "Pay hand"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -720,9 +1194,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pagar con tarjeta'?",
           "options": [
-            { "id": "o1", "text": "Pay by card" },
-            { "id": "o2", "text": "Pay with plastic" },
-            { "id": "o3", "text": "Pay machine" }
+            {
+              "id": "o1",
+              "text": "Pay by card"
+            },
+            {
+              "id": "o2",
+              "text": "Pay with plastic"
+            },
+            {
+              "id": "o3",
+              "text": "Pay machine"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -756,9 +1239,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se lee '£5.50'?",
           "options": [
-            { "id": "o1", "text": "Five pounds fifty" },
-            { "id": "o2", "text": "Five point fifty" },
-            { "id": "o3", "text": "Five fifty pounds" }
+            {
+              "id": "o1",
+              "text": "Five pounds fifty"
+            },
+            {
+              "id": "o2",
+              "text": "Five point fifty"
+            },
+            {
+              "id": "o3",
+              "text": "Five fifty pounds"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "numbers"
@@ -768,9 +1260,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se lee '$10.99'?",
           "options": [
-            { "id": "o1", "text": "Ten dollars ninety-nine" },
-            { "id": "o2", "text": "Ten ninety-nine dollars" },
-            { "id": "o3", "text": "Ten ninety-nine" }
+            {
+              "id": "o1",
+              "text": "Ten dollars ninety-nine"
+            },
+            {
+              "id": "o2",
+              "text": "Ten ninety-nine dollars"
+            },
+            {
+              "id": "o3",
+              "text": "Ten ninety-nine"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "numbers"
@@ -780,9 +1281,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'It's a bargain'?",
           "options": [
-            { "id": "o1", "text": "Es una ganga / chollo" },
-            { "id": "o2", "text": "Es muy caro" },
-            { "id": "o3", "text": "Es de mala calidad" }
+            {
+              "id": "o1",
+              "text": "Es una ganga / chollo"
+            },
+            {
+              "id": "o2",
+              "text": "Es muy caro"
+            },
+            {
+              "id": "o3",
+              "text": "Es de mala calidad"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -792,9 +1302,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Refund'?",
           "options": [
-            { "id": "o1", "text": "Reembolso / Devolución de dinero" },
-            { "id": "o2", "text": "Cambio de prenda" },
-            { "id": "o3", "text": "Vale de compra" }
+            {
+              "id": "o1",
+              "text": "Reembolso / Devolución de dinero"
+            },
+            {
+              "id": "o2",
+              "text": "Cambio de prenda"
+            },
+            {
+              "id": "o3",
+              "text": "Vale de compra"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -804,9 +1323,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'No me queda bien' (talla)?",
           "options": [
-            { "id": "o1", "text": "It doesn't fit me." },
-            { "id": "o2", "text": "It doesn't suit me." },
-            { "id": "o3", "text": "It doesn't match me." }
+            {
+              "id": "o1",
+              "text": "It doesn't fit me."
+            },
+            {
+              "id": "o2",
+              "text": "It doesn't suit me."
+            },
+            {
+              "id": "o3",
+              "text": "It doesn't match me."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -816,9 +1344,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'No me favorece' (estilo)?",
           "options": [
-            { "id": "o1", "text": "It doesn't suit me." },
-            { "id": "o2", "text": "It doesn't fit me." },
-            { "id": "o3", "text": "It's not my size." }
+            {
+              "id": "o1",
+              "text": "It doesn't suit me."
+            },
+            {
+              "id": "o2",
+              "text": "It doesn't fit me."
+            },
+            {
+              "id": "o3",
+              "text": "It's not my size."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -828,11 +1365,27 @@
           "type": "matching",
           "prompt_es": "Une los verbos:",
           "pairs": [
-            { "id": "p1", "left": "Fit", "right": "Quedar bien (talla)" },
-            { "id": "p2", "left": "Suit", "right": "Sentar bien (estilo)" },
-            { "id": "p3", "left": "Match", "right": "Combinar (colores/prendas)" }
+            {
+              "id": "p1",
+              "left": "Fit",
+              "right": "Quedar bien (talla)"
+            },
+            {
+              "id": "p2",
+              "left": "Suit",
+              "right": "Sentar bien (estilo)"
+            },
+            {
+              "id": "p3",
+              "left": "Match",
+              "right": "Combinar (colores/prendas)"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -840,9 +1393,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'algodón'?",
           "options": [
-            { "id": "o1", "text": "Cotton" },
-            { "id": "o2", "text": "Wool" },
-            { "id": "o3", "text": "Silk" }
+            {
+              "id": "o1",
+              "text": "Cotton"
+            },
+            {
+              "id": "o2",
+              "text": "Wool"
+            },
+            {
+              "id": "o3",
+              "text": "Silk"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -852,9 +1414,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lana'?",
           "options": [
-            { "id": "o1", "text": "Wool" },
-            { "id": "o2", "text": "Leather" },
-            { "id": "o3", "text": "Cotton" }
+            {
+              "id": "o1",
+              "text": "Wool"
+            },
+            {
+              "id": "o2",
+              "text": "Leather"
+            },
+            {
+              "id": "o3",
+              "text": "Cotton"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -869,29 +1440,128 @@
           "interaction_id": "U10_I76",
           "type": "word-search",
           "prompt_es": "Encuentra ropa y accesorios:",
-          "words": ["SHIRT", "DRESS", "BOOTS", "WATCH", "SCARF", "JEANS", "COAT", "HAT"],
+          "words": [
+            "SHIRT",
+            "DRESS",
+            "BOOTS",
+            "WATCH",
+            "SCARF",
+            "JEANS",
+            "COAT",
+            "HAT"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "SHIRT", "clue": "Camisa" },
-            { "word": "DRESS", "clue": "Vestido" },
-            { "word": "BOOTS", "clue": "Botas" },
-            { "word": "WATCH", "clue": "Reloj" },
-            { "word": "SCARF", "clue": "Bufanda" },
-            { "word": "JEANS", "clue": "Vaqueros" },
-            { "word": "COAT", "clue": "Abrigo" },
-            { "word": "HAT", "clue": "Sombrero" }
+            {
+              "word": "SHIRT",
+              "clue": "Camisa"
+            },
+            {
+              "word": "DRESS",
+              "clue": "Vestido"
+            },
+            {
+              "word": "BOOTS",
+              "clue": "Botas"
+            },
+            {
+              "word": "WATCH",
+              "clue": "Reloj"
+            },
+            {
+              "word": "SCARF",
+              "clue": "Bufanda"
+            },
+            {
+              "word": "JEANS",
+              "clue": "Vaqueros"
+            },
+            {
+              "word": "COAT",
+              "clue": "Abrigo"
+            },
+            {
+              "word": "HAT",
+              "clue": "Sombrero"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U10_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de compras:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "PRICE", "clue": "How much it costs", "direction": "across", "row": 0, "col": 0 },
-            { "word": "CHEAP", "clue": "Not expensive", "direction": "down", "row": 0, "col": 0 },
-            { "word": "SIZE", "clue": "Small, Medium or Large", "direction": "across", "row": 2, "col": 0 },
-            { "word": "CARD", "clue": "Pay by ___", "direction": "down", "row": 0, "col": 3 }
+            {
+              "word": "LEATHER",
+              "clue": "Traducción de: cuero",
+              "direction": "across",
+              "row": 10,
+              "col": 6
+            },
+            {
+              "word": "RECEIPT",
+              "clue": "Traducción de: recibo / tique",
+              "direction": "down",
+              "row": 10,
+              "col": 12
+            },
+            {
+              "word": "MEDIUM",
+              "clue": "Traducción de: talla mediana",
+              "direction": "across",
+              "row": 13,
+              "col": 11
+            },
+            {
+              "word": "WATCH",
+              "clue": "Traducción de: reloj (de pulsera)",
+              "direction": "down",
+              "row": 9,
+              "col": 8
+            },
+            {
+              "word": "BOOTS",
+              "clue": "Traducción de: botas",
+              "direction": "across",
+              "row": 16,
+              "col": 9
+            },
+            {
+              "word": "SALES",
+              "clue": "Traducción de: rebajas",
+              "direction": "down",
+              "row": 8,
+              "col": 6
+            },
+            {
+              "word": "HOOD",
+              "clue": "Traducción de: capucha",
+              "direction": "down",
+              "row": 15,
+              "col": 10
+            },
+            {
+              "word": "SIZE",
+              "clue": "Traducción de: talla",
+              "direction": "across",
+              "row": 11,
+              "col": 3
+            },
+            {
+              "word": "BELT",
+              "clue": "Traducción de: cinturón",
+              "direction": "across",
+              "row": 5,
+              "col": 1
+            },
+            {
+              "word": "FIT",
+              "clue": "Traducción de: Quedar bien (talla)",
+              "direction": "down",
+              "row": 12,
+              "col": 14
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -900,11 +1570,27 @@
           "type": "matching",
           "prompt_es": "Une demostrativos:",
           "pairs": [
-            { "id": "p1", "left": "This shirt", "right": "Cerca, singular" },
-            { "id": "p2", "left": "Those shoes", "right": "Lejos, plural" },
-            { "id": "p3", "left": "That coat", "right": "Lejos, singular" }
+            {
+              "id": "p1",
+              "left": "This shirt",
+              "right": "Cerca, singular"
+            },
+            {
+              "id": "p2",
+              "left": "Those shoes",
+              "right": "Lejos, plural"
+            },
+            {
+              "id": "p3",
+              "left": "That coat",
+              "right": "Lejos, singular"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -928,9 +1614,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cuero'?",
           "options": [
-            { "id": "o1", "text": "Leather" },
-            { "id": "o2", "text": "Skin" },
-            { "id": "o3", "text": "Fabric" }
+            {
+              "id": "o1",
+              "text": "Leather"
+            },
+            {
+              "id": "o2",
+              "text": "Skin"
+            },
+            {
+              "id": "o3",
+              "text": "Fabric"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -940,9 +1635,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'seda'?",
           "options": [
-            { "id": "o1", "text": "Silk" },
-            { "id": "o2", "text": "Soft" },
-            { "id": "o3", "text": "Cloth" }
+            {
+              "id": "o1",
+              "text": "Silk"
+            },
+            {
+              "id": "o2",
+              "text": "Soft"
+            },
+            {
+              "id": "o3",
+              "text": "Cloth"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -952,9 +1656,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estampado'?",
           "options": [
-            { "id": "o1", "text": "Pattern / Printed" },
-            { "id": "o2", "text": "Draw" },
-            { "id": "o3", "text": "Color" }
+            {
+              "id": "o1",
+              "text": "Pattern / Printed"
+            },
+            {
+              "id": "o2",
+              "text": "Draw"
+            },
+            {
+              "id": "o3",
+              "text": "Color"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -964,9 +1677,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'a rayas'?",
           "options": [
-            { "id": "o1", "text": "Striped" },
-            { "id": "o2", "text": "Lined" },
-            { "id": "o3", "text": "Crossed" }
+            {
+              "id": "o1",
+              "text": "Striped"
+            },
+            {
+              "id": "o2",
+              "text": "Lined"
+            },
+            {
+              "id": "o3",
+              "text": "Crossed"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -976,9 +1698,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'a cuadros'?",
           "options": [
-            { "id": "o1", "text": "Checked / Plaid" },
-            { "id": "o2", "text": "Squared" },
-            { "id": "o3", "text": "Boxed" }
+            {
+              "id": "o1",
+              "text": "Checked / Plaid"
+            },
+            {
+              "id": "o2",
+              "text": "Squared"
+            },
+            {
+              "id": "o3",
+              "text": "Boxed"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -988,9 +1719,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'de lunares'?",
           "options": [
-            { "id": "o1", "text": "Polka dot" },
-            { "id": "o2", "text": "Pointy" },
-            { "id": "o3", "text": "Circles" }
+            {
+              "id": "o1",
+              "text": "Polka dot"
+            },
+            {
+              "id": "o2",
+              "text": "Pointy"
+            },
+            {
+              "id": "o3",
+              "text": "Circles"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1000,9 +1740,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'liso' (sin estampado)?",
           "options": [
-            { "id": "o1", "text": "Plain" },
-            { "id": "o2", "text": "Simple" },
-            { "id": "o3", "text": "Flat" }
+            {
+              "id": "o1",
+              "text": "Plain"
+            },
+            {
+              "id": "o2",
+              "text": "Simple"
+            },
+            {
+              "id": "o3",
+              "text": "Flat"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1012,9 +1761,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'apretado / estrecho'?",
           "options": [
-            { "id": "o1", "text": "Tight" },
-            { "id": "o2", "text": "Close" },
-            { "id": "o3", "text": "Small" }
+            {
+              "id": "o1",
+              "text": "Tight"
+            },
+            {
+              "id": "o2",
+              "text": "Close"
+            },
+            {
+              "id": "o3",
+              "text": "Small"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1024,9 +1782,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'suelto / holgado'?",
           "options": [
-            { "id": "o1", "text": "Loose" },
-            { "id": "o2", "text": "Big" },
-            { "id": "o3", "text": "Wide" }
+            {
+              "id": "o1",
+              "text": "Loose"
+            },
+            {
+              "id": "o2",
+              "text": "Big"
+            },
+            {
+              "id": "o3",
+              "text": "Wide"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1036,9 +1803,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bolsillo'?",
           "options": [
-            { "id": "o1", "text": "Pocket" },
-            { "id": "o2", "text": "Bag" },
-            { "id": "o3", "text": "Hole" }
+            {
+              "id": "o1",
+              "text": "Pocket"
+            },
+            {
+              "id": "o2",
+              "text": "Bag"
+            },
+            {
+              "id": "o3",
+              "text": "Hole"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1048,9 +1824,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cremallera'?",
           "options": [
-            { "id": "o1", "text": "Zip (UK) / Zipper (US)" },
-            { "id": "o2", "text": "Closer" },
-            { "id": "o3", "text": "Line" }
+            {
+              "id": "o1",
+              "text": "Zip (UK) / Zipper (US)"
+            },
+            {
+              "id": "o2",
+              "text": "Closer"
+            },
+            {
+              "id": "o3",
+              "text": "Line"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1060,9 +1845,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'botón'?",
           "options": [
-            { "id": "o1", "text": "Button" },
-            { "id": "o2", "text": "Point" },
-            { "id": "o3", "text": "Round" }
+            {
+              "id": "o1",
+              "text": "Button"
+            },
+            {
+              "id": "o2",
+              "text": "Point"
+            },
+            {
+              "id": "o3",
+              "text": "Round"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1072,9 +1866,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'capucha'?",
           "options": [
-            { "id": "o1", "text": "Hood" },
-            { "id": "o2", "text": "Cap" },
-            { "id": "o3", "text": "Hat" }
+            {
+              "id": "o1",
+              "text": "Hood"
+            },
+            {
+              "id": "o2",
+              "text": "Cap"
+            },
+            {
+              "id": "o3",
+              "text": "Hat"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1084,9 +1887,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mangas'?",
           "options": [
-            { "id": "o1", "text": "Sleeves" },
-            { "id": "o2", "text": "Arms" },
-            { "id": "o3", "text": "Hands" }
+            {
+              "id": "o1",
+              "text": "Sleeves"
+            },
+            {
+              "id": "o2",
+              "text": "Arms"
+            },
+            {
+              "id": "o3",
+              "text": "Hands"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1104,9 +1916,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'How would you like to pay?'?",
           "options": [
-            { "id": "o1", "text": "¿Cómo desea pagar?" },
-            { "id": "o2", "text": "¿Cuánto desea pagar?" },
-            { "id": "o3", "text": "¿Dónde desea pagar?" }
+            {
+              "id": "o1",
+              "text": "¿Cómo desea pagar?"
+            },
+            {
+              "id": "o2",
+              "text": "¿Cuánto desea pagar?"
+            },
+            {
+              "id": "o3",
+              "text": "¿Dónde desea pagar?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1116,9 +1937,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cambio' (el dinero que te devuelven)?",
           "options": [
-            { "id": "o1", "text": "Change" },
-            { "id": "o2", "text": "Return" },
-            { "id": "o3", "text": "Money back" }
+            {
+              "id": "o1",
+              "text": "Change"
+            },
+            {
+              "id": "o2",
+              "text": "Return"
+            },
+            {
+              "id": "o3",
+              "text": "Money back"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1128,9 +1958,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cliente'?",
           "options": [
-            { "id": "o1", "text": "Customer" },
-            { "id": "o2", "text": "Client" },
-            { "id": "o3", "text": "Both are correct, 'customer' is common in shops" }
+            {
+              "id": "o1",
+              "text": "Customer"
+            },
+            {
+              "id": "o2",
+              "text": "Client"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct, 'customer' is common in shops"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -1140,9 +1979,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dependiente'?",
           "options": [
-            { "id": "o1", "text": "Shop assistant / Sales assistant" },
-            { "id": "o2", "text": "Worker" },
-            { "id": "o3", "text": "Helper" }
+            {
+              "id": "o1",
+              "text": "Shop assistant / Sales assistant"
+            },
+            {
+              "id": "o2",
+              "text": "Worker"
+            },
+            {
+              "id": "o3",
+              "text": "Helper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1152,9 +2000,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la respuesta a 'Here is your change and your receipt'?",
           "options": [
-            { "id": "o1", "text": "Thank you, goodbye." },
-            { "id": "o2", "text": "You're welcome." },
-            { "id": "o3", "text": "Please." }
+            {
+              "id": "o1",
+              "text": "Thank you, goodbye."
+            },
+            {
+              "id": "o2",
+              "text": "You're welcome."
+            },
+            {
+              "id": "o3",
+              "text": "Please."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"

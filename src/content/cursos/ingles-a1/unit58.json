@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'problema'?",
           "options": [
-            { "id": "o1", "text": "problem" },
-            { "id": "o2", "text": "issue" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "problem"
+            },
+            {
+              "id": "o2",
+              "text": "issue"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'error'?",
           "options": [
-            { "id": "o1", "text": "mistake" },
-            { "id": "o2", "text": "error" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "mistake"
+            },
+            {
+              "id": "o2",
+              "text": "error"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'solución'?",
           "options": [
-            { "id": "o1", "text": "solution" },
-            { "id": "o2", "text": "answer" },
-            { "id": "o3", "text": "fix" }
+            {
+              "id": "o1",
+              "text": "solution"
+            },
+            {
+              "id": "o2",
+              "text": "answer"
+            },
+            {
+              "id": "o3",
+              "text": "fix"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Tengo un problema'?",
           "options": [
-            { "id": "o1", "text": "I have a problem" },
-            { "id": "o2", "text": "Problem I have" },
-            { "id": "o3", "text": "I has a problem" }
+            {
+              "id": "o1",
+              "text": "I have a problem"
+            },
+            {
+              "id": "o2",
+              "text": "Problem I have"
+            },
+            {
+              "id": "o3",
+              "text": "I has a problem"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Hay un error'?",
           "options": [
-            { "id": "o1", "text": "There is a mistake" },
-            { "id": "o2", "text": "Is a mistake" },
-            { "id": "o3", "text": "It has a mistake" }
+            {
+              "id": "o1",
+              "text": "There is a mistake"
+            },
+            {
+              "id": "o2",
+              "text": "Is a mistake"
+            },
+            {
+              "id": "o3",
+              "text": "It has a mistake"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -93,13 +138,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Lo siento, fue mi error'",
           "options": [
-            { "id": "w1", "text": "Sorry," },
-            { "id": "w2", "text": "it" },
-            { "id": "w3", "text": "was" },
-            { "id": "w4", "text": "my" },
-            { "id": "w5", "text": "mistake" }
+            {
+              "id": "w1",
+              "text": "Sorry,"
+            },
+            {
+              "id": "w2",
+              "text": "it"
+            },
+            {
+              "id": "w3",
+              "text": "was"
+            },
+            {
+              "id": "w4",
+              "text": "my"
+            },
+            {
+              "id": "w5",
+              "text": "mistake"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -107,14 +173,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Puedes ayudarme a arreglar esto?'",
           "options": [
-            { "id": "w1", "text": "Can" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "help" },
-            { "id": "w4", "text": "me" },
-            { "id": "w5", "text": "fix" },
-            { "id": "w6", "text": "this?" }
+            {
+              "id": "w1",
+              "text": "Can"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "help"
+            },
+            {
+              "id": "w4",
+              "text": "me"
+            },
+            {
+              "id": "w5",
+              "text": "fix"
+            },
+            {
+              "id": "w6",
+              "text": "this?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -130,9 +221,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'no funciona'?",
           "options": [
-            { "id": "o1", "text": "It doesn't work" },
-            { "id": "o2", "text": "It's broken" },
-            { "id": "o3", "text": "Both can be used" }
+            {
+              "id": "o1",
+              "text": "It doesn't work"
+            },
+            {
+              "id": "o2",
+              "text": "It's broken"
+            },
+            {
+              "id": "o3",
+              "text": "Both can be used"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -142,9 +242,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está roto'?",
           "options": [
-            { "id": "o1", "text": "It is broken" },
-            { "id": "o2", "text": "It is out of order" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "It is broken"
+            },
+            {
+              "id": "o2",
+              "text": "It is out of order"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -154,9 +263,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'falta algo'?",
           "options": [
-            { "id": "o1", "text": "Something is missing" },
-            { "id": "o2", "text": "One thing less" },
-            { "id": "o3", "text": "Missing bit" }
+            {
+              "id": "o1",
+              "text": "Something is missing"
+            },
+            {
+              "id": "o2",
+              "text": "One thing less"
+            },
+            {
+              "id": "o3",
+              "text": "Missing bit"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -166,9 +284,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'urgente'?",
           "options": [
-            { "id": "o1", "text": "urgent" },
-            { "id": "o2", "text": "fast" },
-            { "id": "o3", "text": "now" }
+            {
+              "id": "o1",
+              "text": "urgent"
+            },
+            {
+              "id": "o2",
+              "text": "fast"
+            },
+            {
+              "id": "o3",
+              "text": "now"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -178,9 +305,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'importante'?",
           "options": [
-            { "id": "o1", "text": "important" },
-            { "id": "o2", "text": "vital" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "important"
+            },
+            {
+              "id": "o2",
+              "text": "vital"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -206,15 +342,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'No sé cómo usar esto'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "don't" },
-            { "id": "w3", "text": "know" },
-            { "id": "w4", "text": "how" },
-            { "id": "w5", "text": "to" },
-            { "id": "w6", "text": "use" },
-            { "id": "w7", "text": "this" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "don't"
+            },
+            {
+              "id": "w3",
+              "text": "know"
+            },
+            {
+              "id": "w4",
+              "text": "how"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "use"
+            },
+            {
+              "id": "w7",
+              "text": "this"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -222,13 +387,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Dónde puedo encontrar ayuda?'",
           "options": [
-            { "id": "w1", "text": "Where" },
-            { "id": "w2", "text": "can" },
-            { "id": "w3", "text": "I" },
-            { "id": "w4", "text": "find" },
-            { "id": "w5", "text": "help?" }
+            {
+              "id": "w1",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "can"
+            },
+            {
+              "id": "w3",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "find"
+            },
+            {
+              "id": "w5",
+              "text": "help?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -244,9 +430,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'retraso'?",
           "options": [
-            { "id": "o1", "text": "delay" },
-            { "id": "o2", "text": "late" },
-            { "id": "o3", "text": "stop" }
+            {
+              "id": "o1",
+              "text": "delay"
+            },
+            {
+              "id": "o2",
+              "text": "late"
+            },
+            {
+              "id": "o3",
+              "text": "stop"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -256,9 +451,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cancelado'?",
           "options": [
-            { "id": "o1", "text": "cancelled" },
-            { "id": "o2", "text": "stopped" },
-            { "id": "o3", "text": "deleted" }
+            {
+              "id": "o1",
+              "text": "cancelled"
+            },
+            {
+              "id": "o2",
+              "text": "stopped"
+            },
+            {
+              "id": "o3",
+              "text": "deleted"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -268,9 +472,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'confundido'?",
           "options": [
-            { "id": "o1", "text": "confused" },
-            { "id": "o2", "text": "lost" },
-            { "id": "o3", "text": "mixed" }
+            {
+              "id": "o1",
+              "text": "confused"
+            },
+            {
+              "id": "o2",
+              "text": "lost"
+            },
+            {
+              "id": "o3",
+              "text": "mixed"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -280,9 +493,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'solucionar'?",
           "options": [
-            { "id": "o1", "text": "solve" },
-            { "id": "o2", "text": "resolve" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "solve"
+            },
+            {
+              "id": "o2",
+              "text": "resolve"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -292,9 +514,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ayuda inmediata'?",
           "options": [
-            { "id": "o1", "text": "immediate help" },
-            { "id": "o2", "text": "fast help" },
-            { "id": "o3", "text": "help now" }
+            {
+              "id": "o1",
+              "text": "immediate help"
+            },
+            {
+              "id": "o2",
+              "text": "fast help"
+            },
+            {
+              "id": "o3",
+              "text": "help now"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -310,9 +541,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Qué podemos hacer?'?",
           "options": [
-            { "id": "o1", "text": "What can we do?" },
-            { "id": "o2", "text": "What we do?" },
-            { "id": "o3", "text": "Do what?" }
+            {
+              "id": "o1",
+              "text": "What can we do?"
+            },
+            {
+              "id": "o2",
+              "text": "What we do?"
+            },
+            {
+              "id": "o3",
+              "text": "Do what?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -322,9 +562,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Intentémoslo'?",
           "options": [
-            { "id": "o1", "text": "Let's try it" },
-            { "id": "o2", "text": "We try" },
-            { "id": "o3", "text": "Try it us" }
+            {
+              "id": "o1",
+              "text": "Let's try it"
+            },
+            {
+              "id": "o2",
+              "text": "We try"
+            },
+            {
+              "id": "o3",
+              "text": "Try it us"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -334,9 +583,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Hay otra opción'?",
           "options": [
-            { "id": "o1", "text": "There is another option" },
-            { "id": "o2", "text": "Another option have" },
-            { "id": "o3", "text": "Is other choice" }
+            {
+              "id": "o1",
+              "text": "There is another option"
+            },
+            {
+              "id": "o2",
+              "text": "Another option have"
+            },
+            {
+              "id": "o3",
+              "text": "Is other choice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -346,9 +604,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Pensemos en una solución'?",
           "options": [
-            { "id": "o1", "text": "Let's think of a solution" },
-            { "id": "o2", "text": "Think solution please" },
-            { "id": "o3", "text": "Solution we need" }
+            {
+              "id": "o1",
+              "text": "Let's think of a solution"
+            },
+            {
+              "id": "o2",
+              "text": "Think solution please"
+            },
+            {
+              "id": "o3",
+              "text": "Solution we need"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -358,9 +625,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Cómo funciona esto?'?",
           "options": [
-            { "id": "o1", "text": "How does this work?" },
-            { "id": "o2", "text": "How it works?" },
-            { "id": "o3", "text": "Work how?" }
+            {
+              "id": "o1",
+              "text": "How does this work?"
+            },
+            {
+              "id": "o2",
+              "text": "How it works?"
+            },
+            {
+              "id": "o3",
+              "text": "Work how?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -370,9 +646,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Está resuelto'?",
           "options": [
-            { "id": "o1", "text": "It is resolved" },
-            { "id": "o2", "text": "Fixed now" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "It is resolved"
+            },
+            {
+              "id": "o2",
+              "text": "Fixed now"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -382,9 +667,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Necesito hablar con el responsable'?",
           "options": [
-            { "id": "o1", "text": "I need to speak to the person in charge" },
-            { "id": "o2", "text": "Speak boss please" },
-            { "id": "o3", "text": "I want manager" }
+            {
+              "id": "o1",
+              "text": "I need to speak to the person in charge"
+            },
+            {
+              "id": "o2",
+              "text": "Speak boss please"
+            },
+            {
+              "id": "o3",
+              "text": "I want manager"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -410,10 +704,19 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Qué pasó?'",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "happened?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "happened?"
+            }
           ],
-          "correct_answer": ["w1", "w2"],
+          "correct_answer": [
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -421,14 +724,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Lo arreglaré enseguida'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "will" },
-            { "id": "w3", "text": "fix" },
-            { "id": "w4", "text": "it" },
-            { "id": "w5", "text": "right" },
-            { "id": "w6", "text": "away" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "will"
+            },
+            {
+              "id": "w3",
+              "text": "fix"
+            },
+            {
+              "id": "w4",
+              "text": "it"
+            },
+            {
+              "id": "w5",
+              "text": "right"
+            },
+            {
+              "id": "w6",
+              "text": "away"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -452,9 +780,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices '¿Puede esperar?'?",
           "options": [
-            { "id": "o1", "text": "Can it wait?" },
-            { "id": "o2", "text": "Wait please?" },
-            { "id": "o3", "text": "Is wait okay?" }
+            {
+              "id": "o1",
+              "text": "Can it wait?"
+            },
+            {
+              "id": "o2",
+              "text": "Wait please?"
+            },
+            {
+              "id": "o3",
+              "text": "Is wait okay?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -464,9 +801,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'No hay problema'?",
           "options": [
-            { "id": "o1", "text": "No problem" },
-            { "id": "o2", "text": "No worries" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "No problem"
+            },
+            {
+              "id": "o2",
+              "text": "No worries"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -476,9 +822,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Estoy en ello'?",
           "options": [
-            { "id": "o1", "text": "I'm on it" },
-            { "id": "o2", "text": "I am working on it" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "I'm on it"
+            },
+            {
+              "id": "o2",
+              "text": "I am working on it"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -488,9 +843,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Es mi responsabilidad'?",
           "options": [
-            { "id": "o1", "text": "It is my responsibility" },
-            { "id": "o2", "text": "My job this" },
-            { "id": "o3", "text": "I do it" }
+            {
+              "id": "o1",
+              "text": "It is my responsibility"
+            },
+            {
+              "id": "o2",
+              "text": "My job this"
+            },
+            {
+              "id": "o3",
+              "text": "I do it"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -500,9 +864,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Necesitamos un plan B'?",
           "options": [
-            { "id": "o1", "text": "We need a plan B" },
-            { "id": "o2", "text": "Other plan please" },
-            { "id": "o3", "text": "Second plan" }
+            {
+              "id": "o1",
+              "text": "We need a plan B"
+            },
+            {
+              "id": "o2",
+              "text": "Other plan please"
+            },
+            {
+              "id": "o3",
+              "text": "Second plan"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -512,9 +885,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Hablémoslo'?",
           "options": [
-            { "id": "o1", "text": "Let's talk about it" },
-            { "id": "o2", "text": "Speak it please" },
-            { "id": "o3", "text": "Talk us" }
+            {
+              "id": "o1",
+              "text": "Let's talk about it"
+            },
+            {
+              "id": "o2",
+              "text": "Speak it please"
+            },
+            {
+              "id": "o3",
+              "text": "Talk us"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -524,9 +906,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Buen punto'?",
           "options": [
-            { "id": "o1", "text": "Good point" },
-            { "id": "o2", "text": "I agree" },
-            { "id": "o3", "text": "Both can be used in discussions" }
+            {
+              "id": "o1",
+              "text": "Good point"
+            },
+            {
+              "id": "o2",
+              "text": "I agree"
+            },
+            {
+              "id": "o3",
+              "text": "Both can be used in discussions"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -552,13 +943,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuándo estará listo?'",
           "options": [
-            { "id": "w1", "text": "When" },
-            { "id": "w2", "text": "will" },
-            { "id": "w3", "text": "it" },
-            { "id": "w4", "text": "be" },
-            { "id": "w5", "text": "ready?" }
+            {
+              "id": "w1",
+              "text": "When"
+            },
+            {
+              "id": "w2",
+              "text": "will"
+            },
+            {
+              "id": "w3",
+              "text": "it"
+            },
+            {
+              "id": "w4",
+              "text": "be"
+            },
+            {
+              "id": "w5",
+              "text": "ready?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -566,12 +978,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Todo está bien ahora'",
           "options": [
-            { "id": "w1", "text": "Everything" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "fine" },
-            { "id": "w4", "text": "now" }
+            {
+              "id": "w1",
+              "text": "Everything"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "fine"
+            },
+            {
+              "id": "w4",
+              "text": "now"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -593,9 +1022,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'la conexión es mala'?",
           "options": [
-            { "id": "o1", "text": "The connection is bad" },
-            { "id": "o2", "text": "Internet bad" },
-            { "id": "o3", "text": "No signal" }
+            {
+              "id": "o1",
+              "text": "The connection is bad"
+            },
+            {
+              "id": "o2",
+              "text": "Internet bad"
+            },
+            {
+              "id": "o3",
+              "text": "No signal"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -605,9 +1043,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mi ordenador es lento'?",
           "options": [
-            { "id": "o1", "text": "My computer is slow" },
-            { "id": "o2", "text": "PC slow" },
-            { "id": "o3", "text": "Wait for computer" }
+            {
+              "id": "o1",
+              "text": "My computer is slow"
+            },
+            {
+              "id": "o2",
+              "text": "PC slow"
+            },
+            {
+              "id": "o3",
+              "text": "Wait for computer"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -617,9 +1064,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'no hay papel'?",
           "options": [
-            { "id": "o1", "text": "There is no paper" },
-            { "id": "o2", "text": "Out of paper" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "There is no paper"
+            },
+            {
+              "id": "o2",
+              "text": "Out of paper"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -629,9 +1085,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'olvidé mi contraseña'?",
           "options": [
-            { "id": "o1", "text": "I forgot my password" },
-            { "id": "o2", "text": "Password lost" },
-            { "id": "o3", "text": "Forgot code" }
+            {
+              "id": "o1",
+              "text": "I forgot my password"
+            },
+            {
+              "id": "o2",
+              "text": "Password lost"
+            },
+            {
+              "id": "o3",
+              "text": "Forgot code"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -641,9 +1106,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'el servidor no responde'?",
           "options": [
-            { "id": "o1", "text": "The server is down" },
-            { "id": "o2", "text": "Server no work" },
-            { "id": "o3", "text": "Wait for server" }
+            {
+              "id": "o1",
+              "text": "The server is down"
+            },
+            {
+              "id": "o2",
+              "text": "Server no work"
+            },
+            {
+              "id": "o3",
+              "text": "Wait for server"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -653,9 +1127,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'necesito ayuda técnica'?",
           "options": [
-            { "id": "o1", "text": "I need technical support" },
-            { "id": "o2", "text": "IT help please" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "I need technical support"
+            },
+            {
+              "id": "o2",
+              "text": "IT help please"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -665,9 +1148,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'la batería está baja'?",
           "options": [
-            { "id": "o1", "text": "The battery is low" },
-            { "id": "o2", "text": "No battery" },
-            { "id": "o3", "text": "Dead battery" }
+            {
+              "id": "o1",
+              "text": "The battery is low"
+            },
+            {
+              "id": "o2",
+              "text": "No battery"
+            },
+            {
+              "id": "o3",
+              "text": "Dead battery"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -677,9 +1169,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estoy bloqueado'?",
           "options": [
-            { "id": "o1", "text": "I'm stuck" },
-            { "id": "o2", "text": "I'm blocked" },
-            { "id": "o3", "text": "Both can be used" }
+            {
+              "id": "o1",
+              "text": "I'm stuck"
+            },
+            {
+              "id": "o2",
+              "text": "I'm blocked"
+            },
+            {
+              "id": "o3",
+              "text": "Both can be used"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -689,9 +1190,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'puedes reiniciar'?",
           "options": [
-            { "id": "o1", "text": "Can you restart?" },
-            { "id": "o2", "text": "Can you reboot?" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "Can you restart?"
+            },
+            {
+              "id": "o2",
+              "text": "Can you reboot?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -701,9 +1211,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'el archivo está dañado'?",
           "options": [
-            { "id": "o1", "text": "The file is corrupted" },
-            { "id": "o2", "text": "File broken" },
-            { "id": "o3", "text": "Bad file" }
+            {
+              "id": "o1",
+              "text": "The file is corrupted"
+            },
+            {
+              "id": "o2",
+              "text": "File broken"
+            },
+            {
+              "id": "o3",
+              "text": "Bad file"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -729,14 +1248,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Has probado a apagarlo?'",
           "options": [
-            { "id": "w1", "text": "Have" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "tried" },
-            { "id": "w4", "text": "turning" },
-            { "id": "w5", "text": "it" },
-            { "id": "w6", "text": "off?" }
+            {
+              "id": "w1",
+              "text": "Have"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "tried"
+            },
+            {
+              "id": "w4",
+              "text": "turning"
+            },
+            {
+              "id": "w5",
+              "text": "it"
+            },
+            {
+              "id": "w6",
+              "text": "off?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -744,13 +1288,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi correo no funciona'",
           "options": [
-            { "id": "w1", "text": "My" },
-            { "id": "w2", "text": "email" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "not" },
-            { "id": "w5", "text": "working" }
+            {
+              "id": "w1",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "email"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "not"
+            },
+            {
+              "id": "w5",
+              "text": "working"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -766,9 +1331,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está muy caliente' (sobrecalentado)?",
           "options": [
-            { "id": "o1", "text": "It is overheating" },
-            { "id": "o2", "text": "Too hot" },
-            { "id": "o3", "text": "Hot PC" }
+            {
+              "id": "o1",
+              "text": "It is overheating"
+            },
+            {
+              "id": "o2",
+              "text": "Too hot"
+            },
+            {
+              "id": "o3",
+              "text": "Hot PC"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -778,9 +1352,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'no puedo imprimir'?",
           "options": [
-            { "id": "o1", "text": "I can't print" },
-            { "id": "o2", "text": "No printing" },
-            { "id": "o3", "text": "Printer stop" }
+            {
+              "id": "o1",
+              "text": "I can't print"
+            },
+            {
+              "id": "o2",
+              "text": "No printing"
+            },
+            {
+              "id": "o3",
+              "text": "Printer stop"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -790,9 +1373,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'el ratón no se mueve'?",
           "options": [
-            { "id": "o1", "text": "The mouse doesn't move" },
-            { "id": "o2", "text": "Mouse stuck" },
-            { "id": "o3", "text": "Broken mouse" }
+            {
+              "id": "o1",
+              "text": "The mouse doesn't move"
+            },
+            {
+              "id": "o2",
+              "text": "Mouse stuck"
+            },
+            {
+              "id": "o3",
+              "text": "Broken mouse"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -802,9 +1394,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'la pantalla está congelada'?",
           "options": [
-            { "id": "o1", "text": "The screen is frozen" },
-            { "id": "o2", "text": "Cold screen" },
-            { "id": "o3", "text": "Screen no work" }
+            {
+              "id": "o1",
+              "text": "The screen is frozen"
+            },
+            {
+              "id": "o2",
+              "text": "Cold screen"
+            },
+            {
+              "id": "o3",
+              "text": "Screen no work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -814,9 +1415,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'llama a TI' (informática)?",
           "options": [
-            { "id": "o1", "text": "Call IT" },
-            { "id": "o2", "text": "Phone computer group" },
-            { "id": "o3", "text": "Contact tech" }
+            {
+              "id": "o1",
+              "text": "Call IT"
+            },
+            {
+              "id": "o2",
+              "text": "Phone computer group"
+            },
+            {
+              "id": "o3",
+              "text": "Contact tech"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -826,9 +1436,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'espera un minuto'?",
           "options": [
-            { "id": "o1", "text": "Wait a minute" },
-            { "id": "o2", "text": "Hold on" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Wait a minute"
+            },
+            {
+              "id": "o2",
+              "text": "Hold on"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -838,9 +1457,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'paciencia'?",
           "options": [
-            { "id": "o1", "text": "patience" },
-            { "id": "o2", "text": "wait" },
-            { "id": "o3", "text": "calm" }
+            {
+              "id": "o1",
+              "text": "patience"
+            },
+            {
+              "id": "o2",
+              "text": "wait"
+            },
+            {
+              "id": "o3",
+              "text": "calm"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -879,31 +1507,124 @@
           "interaction_id": "U58_I76",
           "type": "word-search",
           "prompt_es": "Busca palabras de SOLUCIÓN DE PROBLEMAS:",
-          "words": ["PROBLEM", "FIX", "ERROR", "ISSUE", "SOLVE", "HELP", "WAIT", "READY", "CHECK", "WORK"],
+          "words": [
+            "PROBLEM",
+            "FIX",
+            "ERROR",
+            "ISSUE",
+            "SOLVE",
+            "HELP",
+            "WAIT",
+            "READY",
+            "CHECK",
+            "WORK"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "PROBLEM", "clue": "Trouble" },
-            { "word": "FIX", "clue": "Repair" },
-            { "word": "ERROR", "clue": "Mistake" },
-            { "word": "ISSUE", "clue": "Point" },
-            { "word": "SOLVE", "clue": "Find answer" },
-            { "word": "HELP", "clue": "Support" },
-            { "word": "WAIT", "clue": "Stop time" },
-            { "word": "READY", "clue": "Prepared" },
-            { "word": "CHECK", "clue": "Verify" },
-            { "word": "WORK", "clue": "Function" }
+            {
+              "word": "PROBLEM",
+              "clue": "Trouble"
+            },
+            {
+              "word": "FIX",
+              "clue": "Repair"
+            },
+            {
+              "word": "ERROR",
+              "clue": "Mistake"
+            },
+            {
+              "word": "ISSUE",
+              "clue": "Point"
+            },
+            {
+              "word": "SOLVE",
+              "clue": "Find answer"
+            },
+            {
+              "word": "HELP",
+              "clue": "Support"
+            },
+            {
+              "word": "WAIT",
+              "clue": "Stop time"
+            },
+            {
+              "word": "READY",
+              "clue": "Prepared"
+            },
+            {
+              "word": "CHECK",
+              "clue": "Verify"
+            },
+            {
+              "word": "WORK",
+              "clue": "Function"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U58_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de arreglos:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "REPAIR", "clue": "Fix something", "direction": "across", "row": 0, "col": 0 },
-            { "word": "MISTAKE", "clue": "Wrong action", "direction": "down", "row": 0, "col": 2 },
-            { "word": "ANSWER", "clue": "Solution", "direction": "across", "row": 2, "col": 0 },
-            { "word": "TECH", "clue": "About computers", "direction": "down", "row": 1, "col": 5 }
+            {
+              "word": "CONFUSION",
+              "clue": "Traducción de: Ask questions",
+              "direction": "across",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "CANCELLED",
+              "clue": "Traducción de: cancelado",
+              "direction": "down",
+              "row": 8,
+              "col": 7
+            },
+            {
+              "word": "SOLUTION",
+              "clue": "Traducción de: solución",
+              "direction": "down",
+              "row": 3,
+              "col": 13
+            },
+            {
+              "word": "PATIENCE",
+              "clue": "Traducción de: paciencia",
+              "direction": "across",
+              "row": 7,
+              "col": 11
+            },
+            {
+              "word": "CONFUSED",
+              "clue": "Traducción de: confundido",
+              "direction": "across",
+              "row": 4,
+              "col": 12
+            },
+            {
+              "word": "MISTAKE",
+              "clue": "Traducción de: Correct it",
+              "direction": "across",
+              "row": 15,
+              "col": 1
+            },
+            {
+              "word": "URGENT",
+              "clue": "Traducción de: urgente",
+              "direction": "down",
+              "row": 10,
+              "col": 9
+            },
+            {
+              "word": "DELAY",
+              "clue": "Traducción de: retraso",
+              "direction": "down",
+              "row": 6,
+              "col": 18
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -912,11 +1633,26 @@
           "type": "matching",
           "prompt_es": "Une el problema con la acción:",
           "pairs": [
-            { "left": "Broken PC", "right": "Fix it" },
-            { "left": "Lost key", "right": "Find it" },
-            { "left": "No internet", "right": "Check router" },
-            { "left": "Mistake", "right": "Correct it" },
-            { "left": "Confusion", "right": "Ask questions" }
+            {
+              "left": "Broken PC",
+              "right": "Fix it"
+            },
+            {
+              "left": "Lost key",
+              "right": "Find it"
+            },
+            {
+              "left": "No internet",
+              "right": "Check router"
+            },
+            {
+              "left": "Mistake",
+              "right": "Correct it"
+            },
+            {
+              "left": "Confusion",
+              "right": "Ask questions"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -925,9 +1661,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué debo hacer?'?",
           "options": [
-            { "id": "o1", "text": "What should I do?" },
-            { "id": "o2", "text": "What I do?" },
-            { "id": "o3", "text": "Do what?" }
+            {
+              "id": "o1",
+              "text": "What should I do?"
+            },
+            {
+              "id": "o2",
+              "text": "What I do?"
+            },
+            {
+              "id": "o3",
+              "text": "Do what?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -937,9 +1682,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cómo puedo arreglar esto?'?",
           "options": [
-            { "id": "o1", "text": "How can I fix this?" },
-            { "id": "o2", "text": "Fix how?" },
-            { "id": "o3", "text": "Way to fix?" }
+            {
+              "id": "o1",
+              "text": "How can I fix this?"
+            },
+            {
+              "id": "o2",
+              "text": "Fix how?"
+            },
+            {
+              "id": "o3",
+              "text": "Way to fix?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -949,9 +1703,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Estoy buscando una solución'?",
           "options": [
-            { "id": "o1", "text": "I'm looking for a solution" },
-            { "id": "o2", "text": "I find solution" },
-            { "id": "o3", "text": "Solution search" }
+            {
+              "id": "o1",
+              "text": "I'm looking for a solution"
+            },
+            {
+              "id": "o2",
+              "text": "I find solution"
+            },
+            {
+              "id": "o3",
+              "text": "Solution search"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -961,10 +1724,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Está arreglado?'?",
           "options": [
-            { "id": "o1", "text": "Is it fixed?" },
-            { "id": "o2", "text": "Fixed now?" },
-            { "id": "o3", "text": "Ready yet?" },
-            { "id": "o4", "text": "All are common" }
+            {
+              "id": "o1",
+              "text": "Is it fixed?"
+            },
+            {
+              "id": "o2",
+              "text": "Fixed now?"
+            },
+            {
+              "id": "o3",
+              "text": "Ready yet?"
+            },
+            {
+              "id": "o4",
+              "text": "All are common"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "functional_language"
@@ -974,9 +1749,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedes explicarlo otra vez?'?",
           "options": [
-            { "id": "o1", "text": "Can you explain it again?" },
-            { "id": "o2", "text": "Explain more please" },
-            { "id": "o3", "text": "Say again" }
+            {
+              "id": "o1",
+              "text": "Can you explain it again?"
+            },
+            {
+              "id": "o2",
+              "text": "Explain more please"
+            },
+            {
+              "id": "o3",
+              "text": "Say again"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -986,9 +1770,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'No te preocupes'?",
           "options": [
-            { "id": "o1", "text": "Don't worry" },
-            { "id": "o2", "text": "No problem" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Don't worry"
+            },
+            {
+              "id": "o2",
+              "text": "No problem"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -998,9 +1791,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Estamos trabajando en ello'?",
           "options": [
-            { "id": "o1", "text": "We are working on it" },
-            { "id": "o2", "text": "On it now" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "We are working on it"
+            },
+            {
+              "id": "o2",
+              "text": "On it now"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -1010,9 +1812,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿A quién debo preguntar?'?",
           "options": [
-            { "id": "o1", "text": "Who should I ask?" },
-            { "id": "o2", "text": "Ask who?" },
-            { "id": "o3", "text": "Which person?" }
+            {
+              "id": "o1",
+              "text": "Who should I ask?"
+            },
+            {
+              "id": "o2",
+              "text": "Ask who?"
+            },
+            {
+              "id": "o3",
+              "text": "Which person?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1022,9 +1833,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'El problema persiste'?",
           "options": [
-            { "id": "o1", "text": "The problem is still there" },
-            { "id": "o2", "text": "Still no work" },
-            { "id": "o3", "text": "Problem again" }
+            {
+              "id": "o1",
+              "text": "The problem is still there"
+            },
+            {
+              "id": "o2",
+              "text": "Still no work"
+            },
+            {
+              "id": "o3",
+              "text": "Problem again"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1034,9 +1854,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Tienes alguna idea?'?",
           "options": [
-            { "id": "o1", "text": "Do you have any ideas?" },
-            { "id": "o2", "text": "Got an idea?" },
-            { "id": "o3", "text": "Idea please" }
+            {
+              "id": "o1",
+              "text": "Do you have any ideas?"
+            },
+            {
+              "id": "o2",
+              "text": "Got an idea?"
+            },
+            {
+              "id": "o3",
+              "text": "Idea please"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1046,9 +1875,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Vamos a probar esto'?",
           "options": [
-            { "id": "o1", "text": "Let's try this" },
-            { "id": "o2", "text": "Try this now" },
-            { "id": "o3", "text": "We try this" }
+            {
+              "id": "o1",
+              "text": "Let's try this"
+            },
+            {
+              "id": "o2",
+              "text": "Try this now"
+            },
+            {
+              "id": "o3",
+              "text": "We try this"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1058,9 +1896,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Ha sido útil'?",
           "options": [
-            { "id": "o1", "text": "That was helpful" },
-            { "id": "o2", "text": "Good help" },
-            { "id": "o3", "text": "Thanks for help" }
+            {
+              "id": "o1",
+              "text": "That was helpful"
+            },
+            {
+              "id": "o2",
+              "text": "Good help"
+            },
+            {
+              "id": "o3",
+              "text": "Thanks for help"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1086,13 +1933,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Puedes comprobar el router?'",
           "options": [
-            { "id": "w1", "text": "Can" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "check" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "router?" }
+            {
+              "id": "w1",
+              "text": "Can"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "check"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "router?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -1100,12 +1968,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Lo siento por el retraso'",
           "options": [
-            { "id": "w1", "text": "Sorry" },
-            { "id": "w2", "text": "for" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "delay" }
+            {
+              "id": "w1",
+              "text": "Sorry"
+            },
+            {
+              "id": "w2",
+              "text": "for"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "delay"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -1129,9 +2014,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Está todo bien?'?",
           "options": [
-            { "id": "o1", "text": "Is everything okay?" },
-            { "id": "o2", "text": "All good?" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "Is everything okay?"
+            },
+            {
+              "id": "o2",
+              "text": "All good?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -1141,9 +2035,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Buen trabajo solucionándolo'?",
           "options": [
-            { "id": "o1", "text": "Good job fixing it" },
-            { "id": "o2", "text": "Well done" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Good job fixing it"
+            },
+            {
+              "id": "o2",
+              "text": "Well done"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -1153,9 +2056,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Gracias por tu paciencia'?",
           "options": [
-            { "id": "o1", "text": "Thank you for your patience" },
-            { "id": "o2", "text": "Thanks for wait" },
-            { "id": "o3", "text": "Good patience" }
+            {
+              "id": "o1",
+              "text": "Thank you for your patience"
+            },
+            {
+              "id": "o2",
+              "text": "Thanks for wait"
+            },
+            {
+              "id": "o3",
+              "text": "Good patience"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1165,10 +2077,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Problema resuelto'?",
           "options": [
-            { "id": "o1", "text": "Problem solved" },
-            { "id": "o2", "text": "Ready now" },
-            { "id": "o3", "text": "All clear" },
-            { "id": "o4", "text": "All are common" }
+            {
+              "id": "o1",
+              "text": "Problem solved"
+            },
+            {
+              "id": "o2",
+              "text": "Ready now"
+            },
+            {
+              "id": "o3",
+              "text": "All clear"
+            },
+            {
+              "id": "o4",
+              "text": "All are common"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "functional_language"

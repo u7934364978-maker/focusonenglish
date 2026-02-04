@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'barrio'?",
           "options": [
-            { "id": "o1", "text": "Neighbourhood" },
-            { "id": "o2", "text": "Neighbor" },
-            { "id": "o3", "text": "Barrio" }
+            {
+              "id": "o1",
+              "text": "Neighbourhood"
+            },
+            {
+              "id": "o2",
+              "text": "Neighbor"
+            },
+            {
+              "id": "o3",
+              "text": "Barrio"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vecino'?",
           "options": [
-            { "id": "o1", "text": "Neighbor / Neighbour" },
-            { "id": "o2", "text": "Next house" },
-            { "id": "o3", "text": "Friend" }
+            {
+              "id": "o1",
+              "text": "Neighbor / Neighbour"
+            },
+            {
+              "id": "o2",
+              "text": "Next house"
+            },
+            {
+              "id": "o3",
+              "text": "Friend"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'biblioteca local'?",
           "options": [
-            { "id": "o1", "text": "Local library" },
-            { "id": "o2", "text": "Local bookshop" },
-            { "id": "o3", "text": "Town library" }
+            {
+              "id": "o1",
+              "text": "Local library"
+            },
+            {
+              "id": "o2",
+              "text": "Local bookshop"
+            },
+            {
+              "id": "o3",
+              "text": "Town library"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'farmacia'?",
           "options": [
-            { "id": "o1", "text": "Pharmacy / Chemist's" },
-            { "id": "o2", "text": "Drug shop" },
-            { "id": "o3", "text": "Health store" }
+            {
+              "id": "o1",
+              "text": "Pharmacy / Chemist's"
+            },
+            {
+              "id": "o2",
+              "text": "Drug shop"
+            },
+            {
+              "id": "o3",
+              "text": "Health store"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'quiosco'?",
           "options": [
-            { "id": "o1", "text": "Kiosk / Newsagent's" },
-            { "id": "o2", "text": "Paper shop" },
-            { "id": "o3", "text": "Small store" }
+            {
+              "id": "o1",
+              "text": "Kiosk / Newsagent's"
+            },
+            {
+              "id": "o2",
+              "text": "Paper shop"
+            },
+            {
+              "id": "o3",
+              "text": "Small store"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,10 +122,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'panadería'?",
           "options": [
-            { "id": "o1", "text": "Bakery" },
-            { "id": "o2", "text": "Bread shop" },
-            { "id": "o3", "text": "Baker's" },
-            { "id": "o4", "text": "A and C are correct" }
+            {
+              "id": "o1",
+              "text": "Bakery"
+            },
+            {
+              "id": "o2",
+              "text": "Bread shop"
+            },
+            {
+              "id": "o3",
+              "text": "Baker's"
+            },
+            {
+              "id": "o4",
+              "text": "A and C are correct"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -90,9 +147,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'carnicería'?",
           "options": [
-            { "id": "o1", "text": "Butcher's" },
-            { "id": "o2", "text": "Meat shop" },
-            { "id": "o3", "text": "Cow store" }
+            {
+              "id": "o1",
+              "text": "Butcher's"
+            },
+            {
+              "id": "o2",
+              "text": "Meat shop"
+            },
+            {
+              "id": "o3",
+              "text": "Cow store"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -102,9 +168,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pescadería'?",
           "options": [
-            { "id": "o1", "text": "Fishmonger's" },
-            { "id": "o2", "text": "Fish shop" },
-            { "id": "o3", "text": "Sea store" }
+            {
+              "id": "o1",
+              "text": "Fishmonger's"
+            },
+            {
+              "id": "o2",
+              "text": "Fish shop"
+            },
+            {
+              "id": "o3",
+              "text": "Sea store"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -114,9 +189,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'frutería'?",
           "options": [
-            { "id": "o1", "text": "Greengrocer's" },
-            { "id": "o2", "text": "Fruit shop" },
-            { "id": "o3", "text": "Veggie store" }
+            {
+              "id": "o1",
+              "text": "Greengrocer's"
+            },
+            {
+              "id": "o2",
+              "text": "Fruit shop"
+            },
+            {
+              "id": "o3",
+              "text": "Veggie store"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -126,9 +210,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tienda de comestibles'?",
           "options": [
-            { "id": "o1", "text": "Grocery store / Grocer's" },
-            { "id": "o2", "text": "Food shop" },
-            { "id": "o3", "text": "Eat store" }
+            {
+              "id": "o1",
+              "text": "Grocery store / Grocer's"
+            },
+            {
+              "id": "o2",
+              "text": "Food shop"
+            },
+            {
+              "id": "o3",
+              "text": "Eat store"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -138,9 +231,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'centro comunitario'?",
           "options": [
-            { "id": "o1", "text": "Community center" },
-            { "id": "o2", "text": "Public house" },
-            { "id": "o3", "text": "People place" }
+            {
+              "id": "o1",
+              "text": "Community center"
+            },
+            {
+              "id": "o2",
+              "text": "Public house"
+            },
+            {
+              "id": "o3",
+              "text": "People place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -150,9 +252,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'parque infantil'?",
           "options": [
-            { "id": "o1", "text": "Playground" },
-            { "id": "o2", "text": "Kid park" },
-            { "id": "o3", "text": "Playing area" }
+            {
+              "id": "o1",
+              "text": "Playground"
+            },
+            {
+              "id": "o2",
+              "text": "Kid park"
+            },
+            {
+              "id": "o3",
+              "text": "Playing area"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -162,9 +273,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'buzón de correos'?",
           "options": [
-            { "id": "o1", "text": "Postbox / Letterbox" },
-            { "id": "o2", "text": "Mail hole" },
-            { "id": "o3", "text": "Letter station" }
+            {
+              "id": "o1",
+              "text": "Postbox / Letterbox"
+            },
+            {
+              "id": "o2",
+              "text": "Mail hole"
+            },
+            {
+              "id": "o3",
+              "text": "Letter station"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -174,9 +294,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'farola'?",
           "options": [
-            { "id": "o1", "text": "Street lamp / streetlight" },
-            { "id": "o2", "text": "Road light" },
-            { "id": "o3", "text": "City torch" }
+            {
+              "id": "o1",
+              "text": "Street lamp / streetlight"
+            },
+            {
+              "id": "o2",
+              "text": "Road light"
+            },
+            {
+              "id": "o3",
+              "text": "City torch"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -186,9 +315,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'acera'?",
           "options": [
-            { "id": "o1", "text": "Pavement (UK) / Sidewalk (US)" },
-            { "id": "o2", "text": "Walk road" },
-            { "id": "o3", "text": "Pedestrian path" }
+            {
+              "id": "o1",
+              "text": "Pavement (UK) / Sidewalk (US)"
+            },
+            {
+              "id": "o2",
+              "text": "Walk road"
+            },
+            {
+              "id": "o3",
+              "text": "Pedestrian path"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -198,11 +336,27 @@
           "type": "matching",
           "prompt_es": "Une las tiendas locales:",
           "pairs": [
-            { "id": "p1", "left": "Newsagent's", "right": "Quiosco" },
-            { "id": "p2", "left": "Greengrocer's", "right": "Frutería" },
-            { "id": "p3", "left": "Chemist's", "right": "Farmacia" }
+            {
+              "id": "p1",
+              "left": "Newsagent's",
+              "right": "Quiosco"
+            },
+            {
+              "id": "p2",
+              "left": "Greengrocer's",
+              "right": "Frutería"
+            },
+            {
+              "id": "p3",
+              "left": "Chemist's",
+              "right": "Farmacia"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -210,11 +364,27 @@
           "type": "matching",
           "prompt_es": "Une el lugar con lo que compras:",
           "pairs": [
-            { "id": "p1", "left": "Bakery", "right": "Bread" },
-            { "id": "p2", "left": "Butcher's", "right": "Meat" },
-            { "id": "p3", "left": "Fishmonger's", "right": "Fish" }
+            {
+              "id": "p1",
+              "left": "Bakery",
+              "right": "Bread"
+            },
+            {
+              "id": "p2",
+              "left": "Butcher's",
+              "right": "Meat"
+            },
+            {
+              "id": "p3",
+              "left": "Fishmonger's",
+              "right": "Fish"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -246,9 +416,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'iglesia'?",
           "options": [
-            { "id": "o1", "text": "Church" },
-            { "id": "o2", "text": "Temple" },
-            { "id": "o3", "text": "Cathedral" }
+            {
+              "id": "o1",
+              "text": "Church"
+            },
+            {
+              "id": "o2",
+              "text": "Temple"
+            },
+            {
+              "id": "o3",
+              "text": "Cathedral"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -258,9 +437,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mezquita'?",
           "options": [
-            { "id": "o1", "text": "Mosque" },
-            { "id": "o2", "text": "Temple" },
-            { "id": "o3", "text": "Church" }
+            {
+              "id": "o1",
+              "text": "Mosque"
+            },
+            {
+              "id": "o2",
+              "text": "Temple"
+            },
+            {
+              "id": "o3",
+              "text": "Church"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -270,9 +458,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sinagoga'?",
           "options": [
-            { "id": "o1", "text": "Synagogue" },
-            { "id": "o2", "text": "Temple" },
-            { "id": "o3", "text": "Church" }
+            {
+              "id": "o1",
+              "text": "Synagogue"
+            },
+            {
+              "id": "o2",
+              "text": "Temple"
+            },
+            {
+              "id": "o3",
+              "text": "Church"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -282,9 +479,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estatua'?",
           "options": [
-            { "id": "o1", "text": "Statue" },
-            { "id": "o2", "text": "Stone figure" },
-            { "id": "o3", "text": "Monument" }
+            {
+              "id": "o1",
+              "text": "Statue"
+            },
+            {
+              "id": "o2",
+              "text": "Stone figure"
+            },
+            {
+              "id": "o3",
+              "text": "Monument"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -294,9 +500,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fuente'?",
           "options": [
-            { "id": "o1", "text": "Fountain" },
-            { "id": "o2", "text": "Water head" },
-            { "id": "o3", "text": "Spring" }
+            {
+              "id": "o1",
+              "text": "Fountain"
+            },
+            {
+              "id": "o2",
+              "text": "Water head"
+            },
+            {
+              "id": "o3",
+              "text": "Spring"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -312,9 +527,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'agradable'?",
           "options": [
-            { "id": "o1", "text": "Pleasant / Nice" },
-            { "id": "o2", "text": "Unpleasant" },
-            { "id": "o3", "text": "Bad" }
+            {
+              "id": "o1",
+              "text": "Pleasant / Nice"
+            },
+            {
+              "id": "o2",
+              "text": "Unpleasant"
+            },
+            {
+              "id": "o3",
+              "text": "Bad"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -324,9 +548,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'seguro'?",
           "options": [
-            { "id": "o1", "text": "Safe" },
-            { "id": "o2", "text": "Dangerous" },
-            { "id": "o3", "text": "Sure" }
+            {
+              "id": "o1",
+              "text": "Safe"
+            },
+            {
+              "id": "o2",
+              "text": "Dangerous"
+            },
+            {
+              "id": "o3",
+              "text": "Sure"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -336,9 +569,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'peligroso'?",
           "options": [
-            { "id": "o1", "text": "Dangerous" },
-            { "id": "o2", "text": "Safe" },
-            { "id": "o3", "text": "Bad" }
+            {
+              "id": "o1",
+              "text": "Dangerous"
+            },
+            {
+              "id": "o2",
+              "text": "Safe"
+            },
+            {
+              "id": "o3",
+              "text": "Bad"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -348,9 +590,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ruidoso'?",
           "options": [
-            { "id": "o1", "text": "Noisy" },
-            { "id": "o2", "text": "Quiet" },
-            { "id": "o3", "text": "Peaceful" }
+            {
+              "id": "o1",
+              "text": "Noisy"
+            },
+            {
+              "id": "o2",
+              "text": "Quiet"
+            },
+            {
+              "id": "o3",
+              "text": "Peaceful"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -360,9 +611,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tranquilo'?",
           "options": [
-            { "id": "o1", "text": "Quiet / Peaceful" },
-            { "id": "o2", "text": "Noisy" },
-            { "id": "o3", "text": "Loud" }
+            {
+              "id": "o1",
+              "text": "Quiet / Peaceful"
+            },
+            {
+              "id": "o2",
+              "text": "Noisy"
+            },
+            {
+              "id": "o3",
+              "text": "Loud"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -372,9 +632,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'animado'?",
           "options": [
-            { "id": "o1", "text": "Lively" },
-            { "id": "o2", "text": "Boring" },
-            { "id": "o3", "text": "Dead" }
+            {
+              "id": "o1",
+              "text": "Lively"
+            },
+            {
+              "id": "o2",
+              "text": "Boring"
+            },
+            {
+              "id": "o3",
+              "text": "Dead"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -384,9 +653,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aburrido'?",
           "options": [
-            { "id": "o1", "text": "Boring" },
-            { "id": "o2", "text": "Lively" },
-            { "id": "o3", "text": "Fun" }
+            {
+              "id": "o1",
+              "text": "Boring"
+            },
+            {
+              "id": "o2",
+              "text": "Lively"
+            },
+            {
+              "id": "o3",
+              "text": "Fun"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -396,9 +674,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'caro'?",
           "options": [
-            { "id": "o1", "text": "Expensive" },
-            { "id": "o2", "text": "Cheap" },
-            { "id": "o3", "text": "Low cost" }
+            {
+              "id": "o1",
+              "text": "Expensive"
+            },
+            {
+              "id": "o2",
+              "text": "Cheap"
+            },
+            {
+              "id": "o3",
+              "text": "Low cost"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -408,9 +695,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'barato'?",
           "options": [
-            { "id": "o1", "text": "Cheap / Inexpensive" },
-            { "id": "o2", "text": "Expensive" },
-            { "id": "o3", "text": "High cost" }
+            {
+              "id": "o1",
+              "text": "Cheap / Inexpensive"
+            },
+            {
+              "id": "o2",
+              "text": "Expensive"
+            },
+            {
+              "id": "o3",
+              "text": "High cost"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -420,9 +716,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'concurrido'?",
           "options": [
-            { "id": "o1", "text": "Busy / Crowded" },
-            { "id": "o2", "text": "Empty" },
-            { "id": "o3", "text": "Private" }
+            {
+              "id": "o1",
+              "text": "Busy / Crowded"
+            },
+            {
+              "id": "o2",
+              "text": "Empty"
+            },
+            {
+              "id": "o3",
+              "text": "Private"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -456,12 +761,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'mi barrio es ruidoso'",
           "options": [
-            { "id": "w1", "text": "noisy" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "My" },
-            { "id": "w4", "text": "neighbourhood" }
+            {
+              "id": "w1",
+              "text": "noisy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "My"
+            },
+            {
+              "id": "w4",
+              "text": "neighbourhood"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w2", "w1"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w2",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -469,13 +791,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'hay una panadería cerca'",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "near" },
-            { "id": "w4", "text": "There" },
-            { "id": "w5", "text": "bakery" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "near"
+            },
+            {
+              "id": "w4",
+              "text": "There"
+            },
+            {
+              "id": "w5",
+              "text": "bakery"
+            }
           ],
-          "correct_answer": ["w4", "w1", "w2", "w5", "w3"],
+          "correct_answer": [
+            "w4",
+            "w1",
+            "w2",
+            "w5",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -507,9 +850,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sucio'?",
           "options": [
-            { "id": "o1", "text": "Dirty" },
-            { "id": "o2", "text": "Clean" },
-            { "id": "o3", "text": "New" }
+            {
+              "id": "o1",
+              "text": "Dirty"
+            },
+            {
+              "id": "o2",
+              "text": "Clean"
+            },
+            {
+              "id": "o3",
+              "text": "New"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -519,9 +871,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'limpio'?",
           "options": [
-            { "id": "o1", "text": "Clean" },
-            { "id": "o2", "text": "Dirty" },
-            { "id": "o3", "text": "Old" }
+            {
+              "id": "o1",
+              "text": "Clean"
+            },
+            {
+              "id": "o2",
+              "text": "Dirty"
+            },
+            {
+              "id": "o3",
+              "text": "Old"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -531,9 +892,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'moderno'?",
           "options": [
-            { "id": "o1", "text": "Modern" },
-            { "id": "o2", "text": "Old" },
-            { "id": "o3", "text": "Ancient" }
+            {
+              "id": "o1",
+              "text": "Modern"
+            },
+            {
+              "id": "o2",
+              "text": "Old"
+            },
+            {
+              "id": "o3",
+              "text": "Ancient"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -543,9 +913,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'antiguo'?",
           "options": [
-            { "id": "o1", "text": "Old / Ancient" },
-            { "id": "o2", "text": "Modern" },
-            { "id": "o3", "text": "New" }
+            {
+              "id": "o1",
+              "text": "Old / Ancient"
+            },
+            {
+              "id": "o2",
+              "text": "Modern"
+            },
+            {
+              "id": "o3",
+              "text": "New"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -555,9 +934,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'atractivo' (para un lugar)?",
           "options": [
-            { "id": "o1", "text": "Attractive / Beautiful" },
-            { "id": "o2", "text": "Ugly" },
-            { "id": "o3", "text": "Bad" }
+            {
+              "id": "o1",
+              "text": "Attractive / Beautiful"
+            },
+            {
+              "id": "o2",
+              "text": "Ugly"
+            },
+            {
+              "id": "o3",
+              "text": "Bad"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -567,9 +955,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'feo'?",
           "options": [
-            { "id": "o1", "text": "Ugly" },
-            { "id": "o2", "text": "Pretty" },
-            { "id": "o3", "text": "Nice" }
+            {
+              "id": "o1",
+              "text": "Ugly"
+            },
+            {
+              "id": "o2",
+              "text": "Pretty"
+            },
+            {
+              "id": "o3",
+              "text": "Nice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -579,9 +976,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'famoso'?",
           "options": [
-            { "id": "o1", "text": "Famous / Well-known" },
-            { "id": "o2", "text": "Unknown" },
-            { "id": "o3", "text": "Small" }
+            {
+              "id": "o1",
+              "text": "Famous / Well-known"
+            },
+            {
+              "id": "o2",
+              "text": "Unknown"
+            },
+            {
+              "id": "o3",
+              "text": "Small"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -597,9 +1003,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hay un parque'?",
           "options": [
-            { "id": "o1", "text": "There is a park" },
-            { "id": "o2", "text": "There are a park" },
-            { "id": "o3", "text": "Is there a park" }
+            {
+              "id": "o1",
+              "text": "There is a park"
+            },
+            {
+              "id": "o2",
+              "text": "There are a park"
+            },
+            {
+              "id": "o3",
+              "text": "Is there a park"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -609,9 +1024,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hay dos tiendas'?",
           "options": [
-            { "id": "o1", "text": "There are two shops" },
-            { "id": "o2", "text": "There is two shops" },
-            { "id": "o3", "text": "Two shops there is" }
+            {
+              "id": "o1",
+              "text": "There are two shops"
+            },
+            {
+              "id": "o2",
+              "text": "There is two shops"
+            },
+            {
+              "id": "o3",
+              "text": "Two shops there is"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -621,9 +1045,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'no hay un banco'?",
           "options": [
-            { "id": "o1", "text": "There isn't a bank" },
-            { "id": "o2", "text": "There aren't a bank" },
-            { "id": "o3", "text": "No bank there is" }
+            {
+              "id": "o1",
+              "text": "There isn't a bank"
+            },
+            {
+              "id": "o2",
+              "text": "There aren't a bank"
+            },
+            {
+              "id": "o3",
+              "text": "No bank there is"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -633,9 +1066,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿hay un cine?'?",
           "options": [
-            { "id": "o1", "text": "Is there a cinema?" },
-            { "id": "o2", "text": "There is a cinema?" },
-            { "id": "o3", "text": "Are there a cinema?" }
+            {
+              "id": "o1",
+              "text": "Is there a cinema?"
+            },
+            {
+              "id": "o2",
+              "text": "There is a cinema?"
+            },
+            {
+              "id": "o3",
+              "text": "Are there a cinema?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -645,9 +1087,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿hay restaurantes?'?",
           "options": [
-            { "id": "o1", "text": "Are there any restaurants?" },
-            { "id": "o2", "text": "Is there restaurants?" },
-            { "id": "o3", "text": "There are restaurants?" }
+            {
+              "id": "o1",
+              "text": "Are there any restaurants?"
+            },
+            {
+              "id": "o2",
+              "text": "Is there restaurants?"
+            },
+            {
+              "id": "o3",
+              "text": "There are restaurants?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -697,9 +1148,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lejos de aquí'?",
           "options": [
-            { "id": "o1", "text": "Far from here" },
-            { "id": "o2", "text": "Near from here" },
-            { "id": "o3", "text": "Close to here" }
+            {
+              "id": "o1",
+              "text": "Far from here"
+            },
+            {
+              "id": "o2",
+              "text": "Near from here"
+            },
+            {
+              "id": "o3",
+              "text": "Close to here"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -709,9 +1169,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cerca de aquí'?",
           "options": [
-            { "id": "o1", "text": "Near here / Close to here" },
-            { "id": "o2", "text": "Far from here" },
-            { "id": "o3", "text": "Away from here" }
+            {
+              "id": "o1",
+              "text": "Near here / Close to here"
+            },
+            {
+              "id": "o2",
+              "text": "Far from here"
+            },
+            {
+              "id": "o3",
+              "text": "Away from here"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -721,9 +1190,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'a la vuelta de la esquina'?",
           "options": [
-            { "id": "o1", "text": "Around the corner" },
-            { "id": "o2", "text": "Next to corner" },
-            { "id": "o3", "text": "In the corner" }
+            {
+              "id": "o1",
+              "text": "Around the corner"
+            },
+            {
+              "id": "o2",
+              "text": "Next to corner"
+            },
+            {
+              "id": "o3",
+              "text": "In the corner"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -733,9 +1211,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'en el centro'?",
           "options": [
-            { "id": "o1", "text": "In the center" },
-            { "id": "o2", "text": "On the center" },
-            { "id": "o3", "text": "At the center" }
+            {
+              "id": "o1",
+              "text": "In the center"
+            },
+            {
+              "id": "o2",
+              "text": "On the center"
+            },
+            {
+              "id": "o3",
+              "text": "At the center"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -745,9 +1232,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'en las afueras'?",
           "options": [
-            { "id": "o1", "text": "In the suburbs / outskirts" },
-            { "id": "o2", "text": "Outside" },
-            { "id": "o3", "text": "Near city" }
+            {
+              "id": "o1",
+              "text": "In the suburbs / outskirts"
+            },
+            {
+              "id": "o2",
+              "text": "Outside"
+            },
+            {
+              "id": "o3",
+              "text": "Near city"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -757,9 +1253,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cruzar la calle'?",
           "options": [
-            { "id": "o1", "text": "Cross the street" },
-            { "id": "o2", "text": "Pass the street" },
-            { "id": "o3", "text": "Walk the street" }
+            {
+              "id": "o1",
+              "text": "Cross the street"
+            },
+            {
+              "id": "o2",
+              "text": "Pass the street"
+            },
+            {
+              "id": "o3",
+              "text": "Walk the street"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -769,9 +1274,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'perderse'?",
           "options": [
-            { "id": "o1", "text": "To get lost" },
-            { "id": "o2", "text": "To lose" },
-            { "id": "o3", "text": "To miss" }
+            {
+              "id": "o1",
+              "text": "To get lost"
+            },
+            {
+              "id": "o2",
+              "text": "To lose"
+            },
+            {
+              "id": "o3",
+              "text": "To miss"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -781,9 +1295,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'encontrar el camino'?",
           "options": [
-            { "id": "o1", "text": "To find the way" },
-            { "id": "o2", "text": "To meet the way" },
-            { "id": "o3", "text": "To look the way" }
+            {
+              "id": "o1",
+              "text": "To find the way"
+            },
+            {
+              "id": "o2",
+              "text": "To meet the way"
+            },
+            {
+              "id": "o3",
+              "text": "To look the way"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -793,9 +1316,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mapa local'?",
           "options": [
-            { "id": "o1", "text": "Local map" },
-            { "id": "o2", "text": "Area map" },
-            { "id": "o3", "text": "Town guide" }
+            {
+              "id": "o1",
+              "text": "Local map"
+            },
+            {
+              "id": "o2",
+              "text": "Area map"
+            },
+            {
+              "id": "o3",
+              "text": "Town guide"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -805,9 +1337,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'parada de autobús'?",
           "options": [
-            { "id": "o1", "text": "Bus stop" },
-            { "id": "o2", "text": "Bus station" },
-            { "id": "o3", "text": "Bus stand" }
+            {
+              "id": "o1",
+              "text": "Bus stop"
+            },
+            {
+              "id": "o2",
+              "text": "Bus station"
+            },
+            {
+              "id": "o3",
+              "text": "Bus stand"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -817,9 +1358,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'parada de taxis'?",
           "options": [
-            { "id": "o1", "text": "Taxi rank / stand" },
-            { "id": "o2", "text": "Taxi stop" },
-            { "id": "o3", "text": "Taxi place" }
+            {
+              "id": "o1",
+              "text": "Taxi rank / stand"
+            },
+            {
+              "id": "o2",
+              "text": "Taxi stop"
+            },
+            {
+              "id": "o3",
+              "text": "Taxi place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -829,9 +1379,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'paso de peatones'?",
           "options": [
-            { "id": "o1", "text": "Pedestrian crossing / Zebra crossing" },
-            { "id": "o2", "text": "Walk road" },
-            { "id": "o3", "text": "People crossing" }
+            {
+              "id": "o1",
+              "text": "Pedestrian crossing / Zebra crossing"
+            },
+            {
+              "id": "o2",
+              "text": "Walk road"
+            },
+            {
+              "id": "o3",
+              "text": "People crossing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -841,9 +1400,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'semáforo'?",
           "options": [
-            { "id": "o1", "text": "Traffic lights" },
-            { "id": "o2", "text": "Street lights" },
-            { "id": "o3", "text": "Car lights" }
+            {
+              "id": "o1",
+              "text": "Traffic lights"
+            },
+            {
+              "id": "o2",
+              "text": "Street lights"
+            },
+            {
+              "id": "o3",
+              "text": "Car lights"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -853,9 +1421,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'señal de tráfico'?",
           "options": [
-            { "id": "o1", "text": "Traffic sign" },
-            { "id": "o2", "text": "Road signal" },
-            { "id": "o3", "text": "Mark sign" }
+            {
+              "id": "o1",
+              "text": "Traffic sign"
+            },
+            {
+              "id": "o2",
+              "text": "Road signal"
+            },
+            {
+              "id": "o3",
+              "text": "Mark sign"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -865,9 +1442,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'rotonda'?",
           "options": [
-            { "id": "o1", "text": "Roundabout" },
-            { "id": "o2", "text": "Circle road" },
-            { "id": "o3", "text": "Turn point" }
+            {
+              "id": "o1",
+              "text": "Roundabout"
+            },
+            {
+              "id": "o2",
+              "text": "Circle road"
+            },
+            {
+              "id": "o3",
+              "text": "Turn point"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -882,31 +1468,138 @@
           "interaction_id": "U13_I76",
           "type": "word-search",
           "prompt_es": "Encuentra lugares del barrio:",
-          "words": ["GROCER", "BAKERY", "PARK", "SCHOOL", "LIBRARY", "POSTBOX", "CHURCH", "PHARMACY", "BUSY", "SAFE"],
+          "words": [
+            "GROCER",
+            "BAKERY",
+            "PARK",
+            "SCHOOL",
+            "LIBRARY",
+            "POSTBOX",
+            "CHURCH",
+            "PHARMACY",
+            "BUSY",
+            "SAFE"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "GROCER", "clue": "Tienda de comestibles" },
-            { "word": "BAKERY", "clue": "Panadería" },
-            { "word": "PARK", "clue": "Parque" },
-            { "word": "SCHOOL", "clue": "Escuela" },
-            { "word": "LIBRARY", "clue": "Biblioteca" },
-            { "word": "POSTBOX", "clue": "Buzón" },
-            { "word": "CHURCH", "clue": "Iglesia" },
-            { "word": "PHARMACY", "clue": "Farmacia" },
-            { "word": "BUSY", "clue": "Concurrido" },
-            { "word": "SAFE", "clue": "Seguro" }
+            {
+              "word": "GROCER",
+              "clue": "Tienda de comestibles"
+            },
+            {
+              "word": "BAKERY",
+              "clue": "Panadería"
+            },
+            {
+              "word": "PARK",
+              "clue": "Parque"
+            },
+            {
+              "word": "SCHOOL",
+              "clue": "Escuela"
+            },
+            {
+              "word": "LIBRARY",
+              "clue": "Biblioteca"
+            },
+            {
+              "word": "POSTBOX",
+              "clue": "Buzón"
+            },
+            {
+              "word": "CHURCH",
+              "clue": "Iglesia"
+            },
+            {
+              "word": "PHARMACY",
+              "clue": "Farmacia"
+            },
+            {
+              "word": "BUSY",
+              "clue": "Concurrido"
+            },
+            {
+              "word": "SAFE",
+              "clue": "Seguro"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama del barrio:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "NEIGHBOUR", "clue": "Person who lives next door", "direction": "down", "row": 0, "col": 0 },
-            { "word": "NOISY", "clue": "Opposite of quiet", "direction": "across", "row": 0, "col": 0 },
-            { "word": "BREAD", "clue": "You buy this at the bakery", "direction": "across", "row": 4, "col": 0 },
-            { "word": "SAFE", "clue": "Not dangerous", "direction": "down", "row": 4, "col": 3 }
+            {
+              "word": "LIFESTYLE",
+              "clue": "Traducción de: estilo de vida",
+              "direction": "across",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "SYNAGOGUE",
+              "clue": "Traducción de: sinagoga",
+              "direction": "down",
+              "row": 2,
+              "col": 8
+            },
+            {
+              "word": "FOUNTAIN",
+              "clue": "Traducción de: fuente",
+              "direction": "down",
+              "row": 4,
+              "col": 6
+            },
+            {
+              "word": "BORING",
+              "clue": "Traducción de: aburrido",
+              "direction": "down",
+              "row": 10,
+              "col": 15
+            },
+            {
+              "word": "BAKERY",
+              "clue": "Traducción de: Bread",
+              "direction": "down",
+              "row": 7,
+              "col": 13
+            },
+            {
+              "word": "MOSQUE",
+              "clue": "Traducción de: mezquita",
+              "direction": "across",
+              "row": 2,
+              "col": 6
+            },
+            {
+              "word": "LIVELY",
+              "clue": "Traducción de: animado",
+              "direction": "down",
+              "row": 5,
+              "col": 11
+            },
+            {
+              "word": "CHURCH",
+              "clue": "Traducción de: iglesia",
+              "direction": "down",
+              "row": 14,
+              "col": 1
+            },
+            {
+              "word": "MODERN",
+              "clue": "Traducción de: Old",
+              "direction": "across",
+              "row": 14,
+              "col": 10
+            },
+            {
+              "word": "NOISY",
+              "clue": "Traducción de: Quiet",
+              "direction": "down",
+              "row": 13,
+              "col": 11
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -915,11 +1608,27 @@
           "type": "matching",
           "prompt_es": "Une los opuestos:",
           "pairs": [
-            { "id": "p1", "left": "Noisy", "right": "Quiet" },
-            { "id": "p2", "left": "Safe", "right": "Dangerous" },
-            { "id": "p3", "left": "Modern", "right": "Old" }
+            {
+              "id": "p1",
+              "left": "Noisy",
+              "right": "Quiet"
+            },
+            {
+              "id": "p2",
+              "left": "Safe",
+              "right": "Dangerous"
+            },
+            {
+              "id": "p3",
+              "left": "Modern",
+              "right": "Old"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -943,9 +1652,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pueblo'?",
           "options": [
-            { "id": "o1", "text": "Town / Village" },
-            { "id": "o2", "text": "City" },
-            { "id": "o3", "text": "Country" }
+            {
+              "id": "o1",
+              "text": "Town / Village"
+            },
+            {
+              "id": "o2",
+              "text": "City"
+            },
+            {
+              "id": "o3",
+              "text": "Country"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -955,10 +1673,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aldea'?",
           "options": [
-            { "id": "o1", "text": "Village" },
-            { "id": "o2", "text": "Town" },
-            { "id": "o3", "text": "Hamlet" },
-            { "id": "o4", "text": "A and C are correct" }
+            {
+              "id": "o1",
+              "text": "Village"
+            },
+            {
+              "id": "o2",
+              "text": "Town"
+            },
+            {
+              "id": "o3",
+              "text": "Hamlet"
+            },
+            {
+              "id": "o4",
+              "text": "A and C are correct"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -968,9 +1698,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'campo' (zona rural)?",
           "options": [
-            { "id": "o1", "text": "Countryside" },
-            { "id": "o2", "text": "Field" },
-            { "id": "o3", "text": "Nature" }
+            {
+              "id": "o1",
+              "text": "Countryside"
+            },
+            {
+              "id": "o2",
+              "text": "Field"
+            },
+            {
+              "id": "o3",
+              "text": "Nature"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -980,9 +1719,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'granja'?",
           "options": [
-            { "id": "o1", "text": "Farm" },
-            { "id": "o2", "text": "Barn" },
-            { "id": "o3", "text": "Field" }
+            {
+              "id": "o1",
+              "text": "Farm"
+            },
+            {
+              "id": "o2",
+              "text": "Barn"
+            },
+            {
+              "id": "o3",
+              "text": "Field"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -992,9 +1740,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bosque'?",
           "options": [
-            { "id": "o1", "text": "Forest / Woods" },
-            { "id": "o2", "text": "Garden" },
-            { "id": "o3", "text": "Park" }
+            {
+              "id": "o1",
+              "text": "Forest / Woods"
+            },
+            {
+              "id": "o2",
+              "text": "Garden"
+            },
+            {
+              "id": "o3",
+              "text": "Park"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1004,9 +1761,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lago'?",
           "options": [
-            { "id": "o1", "text": "Lake" },
-            { "id": "o2", "text": "River" },
-            { "id": "o3", "text": "Pond" }
+            {
+              "id": "o1",
+              "text": "Lake"
+            },
+            {
+              "id": "o2",
+              "text": "River"
+            },
+            {
+              "id": "o3",
+              "text": "Pond"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1016,9 +1782,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'colina'?",
           "options": [
-            { "id": "o1", "text": "Hill" },
-            { "id": "o2", "text": "Mountain" },
-            { "id": "o3", "text": "Valley" }
+            {
+              "id": "o1",
+              "text": "Hill"
+            },
+            {
+              "id": "o2",
+              "text": "Mountain"
+            },
+            {
+              "id": "o3",
+              "text": "Valley"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1028,9 +1803,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'valle'?",
           "options": [
-            { "id": "o1", "text": "Valley" },
-            { "id": "o2", "text": "Hill" },
-            { "id": "o3", "text": "Plain" }
+            {
+              "id": "o1",
+              "text": "Valley"
+            },
+            {
+              "id": "o2",
+              "text": "Hill"
+            },
+            {
+              "id": "o3",
+              "text": "Plain"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1040,9 +1824,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'camino' (en el campo)?",
           "options": [
-            { "id": "o1", "text": "Path / Lane" },
-            { "id": "o2", "text": "Road" },
-            { "id": "o3", "text": "Street" }
+            {
+              "id": "o1",
+              "text": "Path / Lane"
+            },
+            {
+              "id": "o2",
+              "text": "Road"
+            },
+            {
+              "id": "o3",
+              "text": "Street"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1052,9 +1845,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tranquilo' (entorno)?",
           "options": [
-            { "id": "o1", "text": "Peaceful" },
-            { "id": "o2", "text": "Noisy" },
-            { "id": "o3", "text": "Loud" }
+            {
+              "id": "o1",
+              "text": "Peaceful"
+            },
+            {
+              "id": "o2",
+              "text": "Noisy"
+            },
+            {
+              "id": "o3",
+              "text": "Loud"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1064,9 +1866,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aislado'?",
           "options": [
-            { "id": "o1", "text": "Isolated / Remote" },
-            { "id": "o2", "text": "Connected" },
-            { "id": "o3", "text": "Busy" }
+            {
+              "id": "o1",
+              "text": "Isolated / Remote"
+            },
+            {
+              "id": "o2",
+              "text": "Connected"
+            },
+            {
+              "id": "o3",
+              "text": "Busy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1076,9 +1887,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'naturaleza'?",
           "options": [
-            { "id": "o1", "text": "Nature" },
-            { "id": "o2", "text": "Natural" },
-            { "id": "o3", "text": "Greenery" }
+            {
+              "id": "o1",
+              "text": "Nature"
+            },
+            {
+              "id": "o2",
+              "text": "Natural"
+            },
+            {
+              "id": "o3",
+              "text": "Greenery"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1088,9 +1908,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aire puro'?",
           "options": [
-            { "id": "o1", "text": "Fresh air" },
-            { "id": "o2", "text": "Clean wind" },
-            { "id": "o3", "text": "New air" }
+            {
+              "id": "o1",
+              "text": "Fresh air"
+            },
+            {
+              "id": "o2",
+              "text": "Clean wind"
+            },
+            {
+              "id": "o3",
+              "text": "New air"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1100,9 +1929,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estilo de vida'?",
           "options": [
-            { "id": "o1", "text": "Lifestyle" },
-            { "id": "o2", "text": "Life way" },
-            { "id": "o3", "text": "Living form" }
+            {
+              "id": "o1",
+              "text": "Lifestyle"
+            },
+            {
+              "id": "o2",
+              "text": "Life way"
+            },
+            {
+              "id": "o3",
+              "text": "Living form"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1112,9 +1950,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vistas' (paisaje)?",
           "options": [
-            { "id": "o1", "text": "Views / Scenery" },
-            { "id": "o2", "text": "Looks" },
-            { "id": "o3", "text": "Pictures" }
+            {
+              "id": "o1",
+              "text": "Views / Scenery"
+            },
+            {
+              "id": "o2",
+              "text": "Looks"
+            },
+            {
+              "id": "o3",
+              "text": "Pictures"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1124,9 +1971,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'zona residencial'?",
           "options": [
-            { "id": "o1", "text": "Residential area" },
-            { "id": "o2", "text": "House zone" },
-            { "id": "o3", "text": "Living place" }
+            {
+              "id": "o1",
+              "text": "Residential area"
+            },
+            {
+              "id": "o2",
+              "text": "House zone"
+            },
+            {
+              "id": "o3",
+              "text": "Living place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1136,9 +1992,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'centro comercial'?",
           "options": [
-            { "id": "o1", "text": "Shopping center / Mall" },
-            { "id": "o2", "text": "Store place" },
-            { "id": "o3", "text": "Buy center" }
+            {
+              "id": "o1",
+              "text": "Shopping center / Mall"
+            },
+            {
+              "id": "o2",
+              "text": "Store place"
+            },
+            {
+              "id": "o3",
+              "text": "Buy center"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1148,9 +2013,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vida nocturna'?",
           "options": [
-            { "id": "o1", "text": "Nightlife" },
-            { "id": "o2", "text": "Dark life" },
-            { "id": "o3", "text": "Night party" }
+            {
+              "id": "o1",
+              "text": "Nightlife"
+            },
+            {
+              "id": "o2",
+              "text": "Dark life"
+            },
+            {
+              "id": "o3",
+              "text": "Night party"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1160,9 +2034,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vecindario'?",
           "options": [
-            { "id": "o1", "text": "Neighborhood / Neighbourhood" },
-            { "id": "o2", "text": "Neighbors" },
-            { "id": "o3", "text": "Barrio" }
+            {
+              "id": "o1",
+              "text": "Neighborhood / Neighbourhood"
+            },
+            {
+              "id": "o2",
+              "text": "Neighbors"
+            },
+            {
+              "id": "o3",
+              "text": "Barrio"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1172,9 +2055,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'alquiler'?",
           "options": [
-            { "id": "o1", "text": "Rent" },
-            { "id": "o2", "text": "Price" },
-            { "id": "o3", "text": "Payment" }
+            {
+              "id": "o1",
+              "text": "Rent"
+            },
+            {
+              "id": "o2",
+              "text": "Price"
+            },
+            {
+              "id": "o3",
+              "text": "Payment"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"

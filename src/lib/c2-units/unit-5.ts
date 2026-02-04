@@ -33,8 +33,8 @@ export const C2_U5_BLOCK1: Exercise = {
     {
       "id": "c2-u5-b1-q3",
       "type": "key-word-transformation",
-      "question": "Rephrase the sentence using the key word: 'She regretted not taking the mental health day off when she had the chance.'",
-      "correctAnswer": "She wished she had taken the mental health day off when she had the chance.",
+      "question": "She regretted not taking the mental health day off when she had the chance. (WISH)\n\nShe wished __________",
+      "correctAnswer": "she had taken the mental health day off when she had the chance",
       "explanation": "'Regret' puede ser para acciones pasadas usando una estructura con 'wish' para expresar deseos no cumplidos.",
       "points": 1,
       "sentence": "She regretted not taking the mental health day off when she had the chance.",
@@ -66,8 +66,8 @@ export const C2_U5_BLOCK1: Exercise = {
     {
       "id": "c2-u5-b1-q6",
       "type": "key-word-transformation",
-      "question": "Rephrase using the key word: 'Rather than ignoring stress, it is healthier to address it.'",
-      "correctAnswer": "Instead of ignoring stress, it is healthier to address it.",
+      "question": "Rather than ignoring stress, it is healthier to address it. (INSTEAD)\n\nInstead of __________",
+      "correctAnswer": "ignoring stress, it is healthier to address it",
       "explanation": "La frase 'rather than' puede ser transformada a 'instead of', seguido por un gerundio.",
       "points": 1,
       "sentence": "Rather than ignoring stress, it is healthier to address it.",
@@ -99,8 +99,8 @@ export const C2_U5_BLOCK1: Exercise = {
     {
       "id": "c2-u5-b1-q9",
       "type": "key-word-transformation",
-      "question": "Rephrase using the key word: 'He was surprised by his ability to focus after meditating.'",
-      "correctAnswer": "His ability to focus after meditating surprised him.",
+      "question": "He was surprised by his ability to focus after meditating. (ABILITY)\n\nHis ability to __________",
+      "correctAnswer": "focus after meditating surprised him",
       "explanation": "Reestructurando la frase podemos enfatizar el sujeto 'ability' al inicio usando estructura impersonal.",
       "points": 1,
       "sentence": "He was surprised by his ability to focus after meditating.",
@@ -132,14 +132,11 @@ export const C2_U5_BLOCK2: Exercise = {
   "questions": [
     {
       "id": "c2-u5-b2-q1",
-      "type": "multiple-choice",
-      "question": "Choosing the right coping mechanisms is crucial when dealing with stress. Identify the correct phrase.",
-      "options": [
-        "To decide when adopting new habits is essential.",
-        "Deciding whether to engage in meditation was beneficial.",
-        "It was a relief to decide on taking a break.",
-        "He found it challenging to decide to taking therapy."
-      ],
+      "startOfAnswer": "Choosing the right coping mechanisms is crucial for .",
+      "keyWord": "COPING",
+      "sentence": "Choosing the right coping mechanisms is crucial when dealing with stress.",
+      "type": "key-word-transformation",
+      "question": "Choosing the right coping mechanisms is crucial when dealing with stress. (COPING)\n\nChoosing the right coping mechanisms is crucial for . __________",
       "correctAnswer": "Deciding whether to engage in meditation was beneficial.",
       "explanation": "La construcción 'Deciding whether to engage' es un ejemplo del uso correcto del gerundio en inglés.",
       "points": 1
@@ -155,7 +152,7 @@ export const C2_U5_BLOCK2: Exercise = {
     {
       "id": "c2-u5-b2-q3",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the key word.",
+      "question": "They couldn’t find a solution except to get professional help. (OTHER)\n\nThey had no solution other than getting __________",
       "correctAnswer": "no solution other than getting",
       "explanation": "'no solution other than' se sigue por un gerundio.",
       "points": 1,
@@ -165,14 +162,11 @@ export const C2_U5_BLOCK2: Exercise = {
     },
     {
       "id": "c2-u5-b2-q4",
-      "type": "multiple-choice",
-      "question": "Identify the grammatically correct sentence.",
-      "options": [
-        "He considered to change his lifestyle to improve his mental health.",
-        "Considered changing his habits was tough but necessary.",
-        "He admitted to needing a healthier routine.",
-        "Admitting to have been wrong, he decided on attending therapy."
-      ],
+      "startOfAnswer": "He  to needing a healthier routine.",
+      "keyWord": "ADMITTED",
+      "sentence": "Identify the grammatically correct sentence.",
+      "type": "key-word-transformation",
+      "question": "Identify the grammatically correct sentence. (ADMITTED)\n\nHe  to needing a healthier routine. __________",
       "correctAnswer": "He admitted to needing a healthier routine.",
       "explanation": "El uso correcto es 'admitted to needing'.",
       "points": 1
@@ -188,7 +182,7 @@ export const C2_U5_BLOCK2: Exercise = {
     {
       "id": "c2-u5-b2-q6",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the key word.",
+      "question": "She admitted that she had been struggling with anxiety for years. (ADMITTED)\n\nShe admitted to having __________",
       "correctAnswer": "admitted to having",
       "explanation": "El uso correcto es 'admitted to having'.",
       "points": 1,
@@ -198,30 +192,30 @@ export const C2_U5_BLOCK2: Exercise = {
     },
     {
       "id": "c2-u5-b2-q7",
-      "type": "multiple-choice",
-      "question": "Which of the following uses the correct verb form?",
-      "options": [
-        "He avoids to discuss his feelings openly.",
-        "Avoiding having to face his fears, he procrastinated.",
-        "She made a point of avoid to look weak.",
-        "She made a point of to avoid looking weak."
-      ],
+      "startOfAnswer": "He  his feelings openly.",
+      "keyWord": "AVOID",
+      "sentence": "Which of the following uses the correct gerund form?",
+      "type": "key-word-transformation",
+      "question": "Which of the following uses the correct gerund form? (AVOID)\n\nHe  his feelings openly. __________",
       "correctAnswer": "Avoiding having to face his fears, he procrastinated.",
       "explanation": "'Avoiding' y 'having' son formas correctas de gerundio.",
       "points": 1
     },
     {
       "id": "c2-u5-b2-q8",
-      "type": "fill-blank",
-      "question": "After __________ (realize) the importance of mental health, he began to prioritize self-care.",
-      "correctAnswer": "realizing",
+      "startOfAnswer": "realizing",
+      "keyWord": "after",
+      "sentence": "After realizing the consequences of his actions, he sought help.",
+      "type": "key-word-transformation",
+      "question": "After realizing the consequences of his actions, he sought help. (AFTER)\n\nrealizing __________",
+      "correctAnswer": "",
       "explanation": "'After' va seguido de un gerundio.",
       "points": 1
     },
     {
       "id": "c2-u5-b2-q9",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the key word.",
+      "question": "They only chose professional help when their mental state deteriorated. (RESORTED)\n\nThey resorted to seeking __________",
       "correctAnswer": "resorted to seeking",
       "explanation": "La estructura correcta es 'resorted to seeking'.",
       "points": 1,
@@ -231,14 +225,11 @@ export const C2_U5_BLOCK2: Exercise = {
     },
     {
       "id": "c2-u5-b2-q10",
-      "type": "multiple-choice",
-      "question": "Determine which phrase appropriately uses an infinitive.",
-      "options": [
-        "Journaling every day helps him overcome anxiety.",
-        "He seems understanding the value of mindfulness.",
-        "To practicing mindfulness regularly can be beneficial.",
-        "It is crucial to maintain a balance between work and life."
-      ],
+      "startOfAnswer": "It is  a balance between work and life.",
+      "keyWord": "MAINTAIN",
+      "sentence": "Determine which phrase appropriately uses an infinitive.",
+      "type": "key-word-transformation",
+      "question": "Determine which phrase appropriately uses an infinitive. (MAINTAIN)\n\nIt is  a balance between work and life. __________",
       "correctAnswer": "It is crucial to maintain a balance between work and life.",
       "explanation": "'It is crucial to' debe ir seguido de un infinitivo.",
       "points": 1
@@ -278,8 +269,8 @@ export const C2_U5_BLOCK3: Exercise = {
     {
       "id": "c2-u5-b3-q3",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the key word.",
-      "correctAnswer": "avoids talking about",
+      "question": "He avoids any discussions about his mental health. (TALKING)\n\nHe avoids __________",
+      "correctAnswer": "talking about",
       "explanation": "En español: 'evitar' seguido de un gerundio es la construcción correcta.",
       "points": 1,
       "sentence": "He avoids any discussions about his mental health.",
@@ -312,8 +303,8 @@ export const C2_U5_BLOCK3: Exercise = {
     {
       "id": "c2-u5-b3-q6",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the key word.",
-      "correctAnswer": "hesitated to disclose",
+      "question": "She was hesitant about disclosing her mental health issues. (HESITATED)\n\nShe hesitated __________",
+      "correctAnswer": "to disclose",
       "explanation": "En español: 'dudar en' requiere el uso del infinitivo con 'to'.",
       "points": 1,
       "sentence": "She was hesitant about disclosing her mental health issues.",
@@ -346,8 +337,8 @@ export const C2_U5_BLOCK3: Exercise = {
     {
       "id": "c2-u5-b3-q9",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the key word.",
-      "correctAnswer": "consider trying",
+      "question": "They might consider a new technique to manage anxiety. (TRYING)\n\nThey might consider __________",
+      "correctAnswer": "trying",
       "explanation": "En español: 'considerar' se suele seguir de un gerundio en inglés.",
       "points": 1,
       "sentence": "They might consider a new technique to manage anxiety.",
@@ -382,12 +373,12 @@ export const C2_U5_BLOCK4: Exercise = {
       "type": "multiple-choice",
       "question": "Which of the following sentences uses the gerund form correctly in a mental health context?",
       "options": [
-        "She suggested me to seek help from a therapist.",
-        "We encouraged her taking mindfulness sessions.",
-        "Admitting needing help is a sign of strength.",
-        "He opted to overcoming his anxiety through meditation."
-      ],
-      "correctAnswer": "Admitting needing help is a sign of strength.",
+  "Admitting to need help is a sign of strength.",
+  "We encouraged her taking mindfulness sessions.",
+  "Admitting needing help is a sign of strength.",
+  "He opted to overcoming his anxiety through meditation."
+],
+      "correctAnswer": "Admitting to need help is a sign of strength.",
       "explanation": "La forma de gerundio 'needing' sigue al verbo 'admitting', lo cual es correcto.",
       "points": 1
     },
@@ -404,12 +395,12 @@ export const C2_U5_BLOCK4: Exercise = {
       "type": "multiple-choice",
       "question": "Identify the sentence that exhibits a correct use of infinitive related to mental health.",
       "options": [
-        "Understanding her need to relax is crucial.",
-        "He advised her avoiding stress.",
-        "She preferred staying at home.",
-        "It is important staying calm in difficult situations."
-      ],
-      "correctAnswer": "Understanding her need to relax is crucial.",
+  "to relax",
+  "He advised her to avoid stress.",
+  "She preferred staying at home.",
+  "It is important staying calm in difficult situations."
+],
+      "correctAnswer": "to relax",
       "explanation": "El infinitivo 'to relax' sigue al sustantivo 'need' después de 'her need to'.",
       "points": 1
     },
@@ -426,8 +417,8 @@ export const C2_U5_BLOCK4: Exercise = {
       "type": "key-word-transformation",
       "sentence": "John managed to cope with his depression by focusing on his hobbies.",
       "keyWord": "cope",
-      "question": "Rewrite the sentence using the key word.",
-      "correctAnswer": "John managed to cope by focusing on his hobbies.",
+      "question": "John managed to cope with his depression by focusing on his hobbies. (COPE)\n\nJohn managed to cope __________",
+      "correctAnswer": "by focusing on his hobbies",
       "explanation": "La oración se transforma omitiendo 'with his depression' y usando 'cope by'.",
       "points": 1,
       "startOfAnswer": "John managed to cope"
@@ -445,12 +436,12 @@ export const C2_U5_BLOCK4: Exercise = {
       "type": "multiple-choice",
       "question": "Which sentence correctly distinguishes between gerund and infinitive?",
       "options": [
-        "I can’t afford going to therapy right now.",
-        "It’s worth to join a support group.",
-        "She stopped to take her medication regularly.",
-        "He began meditating to improve his mental health."
-      ],
-      "correctAnswer": "He began meditating to improve his mental health.",
+  "I can’t afford to go to therapy right now.",
+  "It’s worth joining a support group.",
+  "She stopped to take her medication regularly.",
+  "He began meditating to improve his mental health."
+],
+      "correctAnswer": "It’s worth joining a support group.",
       "explanation": "Uso correcto del gerundio 'meditating' y del infinitivo 'to improve' con el significado adecuado.",
       "points": 1
     },
@@ -467,8 +458,8 @@ export const C2_U5_BLOCK4: Exercise = {
       "type": "key-word-transformation",
       "sentence": "She has developed anxiety as a result of overworking.",
       "keyWord": "due",
-      "question": "Rewrite the sentence using the key word.",
-      "correctAnswer": "She has developed anxiety due to overworking.",
+      "question": "She has developed anxiety as a result of overworking. (DUE)\n\nShe has developed anxiety __________",
+      "correctAnswer": "due to overworking",
       "explanation": "Se usa 'due to' para indicar la causa, seguida de un gerundio.",
       "points": 1,
       "startOfAnswer": "She has developed anxiety"
@@ -517,8 +508,8 @@ export const C2_U5_BLOCK5: Exercise = {
       "type": "key-word-transformation",
       "sentence": "She acknowledged that therapy can be beneficial.",
       "keyWord": "admitting",
-      "question": "Use the key word to rewrite the sentence.",
-      "correctAnswer": "Admitting that therapy can be beneficial, she acknowledged its value.",
+      "question": "She acknowledged that therapy can be beneficial. (ADMITTING)\n\nAdmitting __________",
+      "correctAnswer": "that therapy can be beneficial, she acknowledged its value",
       "explanation": "El uso de 'admitting' muestra cómo se puede reestructurar la oración manteniendo el mismo significado.",
       "points": 1,
       "startOfAnswer": "Admitting"
@@ -550,8 +541,8 @@ export const C2_U5_BLOCK5: Exercise = {
       "type": "key-word-transformation",
       "sentence": "He started volunteering at the mental health clinic to help others.",
       "keyWord": "began",
-      "question": "Use the key word to rewrite the sentence.",
-      "correctAnswer": "He began volunteering at the mental health clinic to help others.",
+      "question": "He started volunteering at the mental health clinic to help others. (BEGAN)\n\nHe began __________",
+      "correctAnswer": "volunteering at the mental health clinic to help others",
       "explanation": "Ambos verbos, 'start' y 'begin', pueden seguirse de gerundio o infinitivo, sin cambiar el significado esencial.",
       "points": 1,
       "startOfAnswer": "He began"
@@ -583,8 +574,8 @@ export const C2_U5_BLOCK5: Exercise = {
       "type": "key-word-transformation",
       "sentence": "She stopped using social media to alleviate her anxiety.",
       "keyWord": "gave",
-      "question": "Use the key word to rewrite the sentence.",
-      "correctAnswer": "She gave up using social media to alleviate her anxiety.",
+      "question": "She stopped using social media to alleviate her anxiety. (GAVE)\n\nShe gave up __________",
+      "correctAnswer": "using social media to alleviate her anxiety",
       "explanation": "'Give up' indica cesar una actividad, seguido de gerundio para acciones continuadas.",
       "points": 1,
       "startOfAnswer": "She gave up"
@@ -614,14 +605,11 @@ export const C2_U5_BLOCK6: Exercise = {
   "questions": [
     {
       "id": "c2-u5-b6-q1",
-      "type": "multiple-choice",
-      "question": "Which sentence correctly uses the gerund/infinitive form?",
-      "options": [
-        "He avoided to speak about his mental health.",
-        "He decided talking about his mental health.",
-        "He admitted having feelings of depression.",
-        "He considered to talk to a therapist."
-      ],
+      "startOfAnswer": "The correct form is .",
+      "keyWord": "FORM",
+      "sentence": "Which sentence correctly uses the gerund/infinitive form?",
+      "type": "key-word-transformation",
+      "question": "Which sentence correctly uses the gerund/infinitive form? (FORM)\n\nThe correct form is . __________",
       "correctAnswer": "He admitted having feelings of depression.",
       "explanation": "En español: 'Admit' se usa con gerundio.",
       "points": 1
@@ -637,23 +625,21 @@ export const C2_U5_BLOCK6: Exercise = {
     {
       "id": "c2-u5-b6-q3",
       "type": "key-word-transformation",
+      "question": "She never thought about the importance of mental rest. (CONSIDERED)\n\nShe never __________",
       "sentence": "She never thought about the importance of mental rest.",
       "keyWord": "CONSIDERED",
       "startOfAnswer": "She never",
-      "correctAnswer": "She never considered the importance of mental rest.",
-      "explanation": "En español: 'Consider' va seguido de gerundio.",
+      "correctAnswer": "considered the importance of mental rest",
+      "explanation": "En español: 'Considerar' se puede seguir de un sustantivo o gerundio.",
       "points": 1
     },
     {
       "id": "c2-u5-b6-q4",
-      "type": "multiple-choice",
-      "question": "Choose the sentence that uses the correct form.",
-      "options": [
-        "He recommended seeing a therapist.",
-        "He recommended to see a therapist.",
-        "He recommended us to seeing a therapist.",
-        "He recommended us seeing a therapist."
-      ],
+      "startOfAnswer": "He .",
+      "keyWord": "RECOMMENDED",
+      "sentence": "He recommended seeing a therapist.",
+      "type": "key-word-transformation",
+      "question": "He recommended seeing a therapist. (RECOMMENDED)\n\nHe . __________",
       "correctAnswer": "He recommended seeing a therapist.",
       "explanation": "En español: 'Recommend' se usa con gerundio.",
       "points": 1
@@ -669,23 +655,21 @@ export const C2_U5_BLOCK6: Exercise = {
     {
       "id": "c2-u5-b6-q6",
       "type": "key-word-transformation",
+      "question": "He couldn't resist the urge to analyze his thoughts. (HELP)\n\nHe couldn't __________",
       "sentence": "He couldn't resist the urge to analyze his thoughts.",
       "keyWord": "HELP",
       "startOfAnswer": "He couldn't",
-      "correctAnswer": "He couldn't help analyzing his thoughts.",
+      "correctAnswer": "help analyzing his thoughts",
       "explanation": "En español: 'Can't help' se usa con gerundio.",
       "points": 1
     },
     {
       "id": "c2-u5-b6-q7",
-      "type": "multiple-choice",
-      "question": "Identify the correct form of the sentence:",
-      "options": [
-        "She hesitated to contact a psychologist.",
-        "She hesitated contacting a psychologist.",
-        "She resisted to contact a psychologist.",
-        "She hesitated of contact a psychologist."
-      ],
+      "startOfAnswer": "She .",
+      "keyWord": "HESITATED",
+      "sentence": "She hesitated to contact a psychologist.",
+      "type": "key-word-transformation",
+      "question": "She hesitated to contact a psychologist. (HESITATED)\n\nShe . __________",
       "correctAnswer": "She hesitated to contact a psychologist.",
       "explanation": "En español: 'Hesitate' se usa con infinitivo.",
       "points": 1
@@ -701,10 +685,11 @@ export const C2_U5_BLOCK6: Exercise = {
     {
       "id": "c2-u5-b6-q9",
       "type": "key-word-transformation",
+      "question": "They finally agreed that discussing mental health was beneficial. (COME)\n\nThey finally __________",
       "sentence": "They finally agreed that discussing mental health was beneficial.",
       "keyWord": "COME",
       "startOfAnswer": "They finally",
-      "correctAnswer": "They finally came to agree that discussing mental health was beneficial.",
+      "correctAnswer": "came to agree that discussing mental health was beneficial",
       "explanation": "En español: 'Come to agree' implica discutir y luego aceptar.",
       "points": 1
     },
@@ -747,22 +732,24 @@ export const C2_U5_BLOCK7: Exercise = {
     },
     {
       "id": "c2-u5-b7-q2",
-      "type": "fill-blank",
-      "question": "Ella admitió no ___________ capaz de afrontar la ansiedad sola.",
-      "correctAnswer": "haber sido",
-      "explanation": "Después de 'admitir', el verbo siguiente debe ir en forma de gerundio o infinitivo compuesto para acciones terminadas.",
+      "startOfAnswer": "Start of answer",
+      "sentence": "Admitir que cometí un error fue difícil. (ADMIT)",
+      "type": "key-word-transformation",
+      "question": "Admitir que cometí un error fue difícil. (ADMIT) ()\n\nStart of answer __________",
+      "correctAnswer": "admitir haber sido",
+      "explanation": "El infinitivo compuesto es necesario después de 'admitir' para acciones completadas.",
       "points": 1
     },
     {
       "id": "c2-u5-b7-q3",
       "type": "key-word-transformation",
-      "question": "She developed a habit of writing to manage her stress levels.",
-      "correctAnswer": "writing to manage",
+      "question": "She developed a habit of managing stress through ______________. (WRITING)\n\nwriting to manage __________",
+      "correctAnswer": "",
       "explanation": "El gerundio 'writing' es necesario tras 'habit of' ya que hablamos de acciones habituales.",
       "points": 1,
       "sentence": "She developed a habit of managing stress through ______________.",
       "keyWord": "writing",
-      "startOfAnswer": ""
+      "startOfAnswer": "writing to manage"
     },
     {
       "id": "c2-u5-b7-q4",
@@ -780,22 +767,24 @@ export const C2_U5_BLOCK7: Exercise = {
     },
     {
       "id": "c2-u5-b7-q5",
-      "type": "fill-blank",
-      "question": "Tras ___________ en la meditación, encontró una mejoría notable en su bienestar mental.",
-      "correctAnswer": "haberse involucrado",
-      "explanation": "Se utiliza el infinitivo compuesto 'haberse + participio' para hablar de acciones completadas.",
+      "startOfAnswer": "Start of answer",
+      "sentence": "No había manera de que él _______________ en el proyecto. (INVOLUCRAR)",
+      "type": "key-word-transformation",
+      "question": "No había manera de que él _______________ en el proyecto. (INVOLUCRAR) ()\n\nStart of answer __________",
+      "correctAnswer": "haber estado involucrado",
+      "explanation": "El uso del infinitivo compuesto 'haber + participio' es correcto para referirse a acciones completadas.",
       "points": 1
     },
     {
       "id": "c2-u5-b7-q6",
       "type": "key-word-transformation",
-      "question": "Struggling with stress led him to develop a new hobby.",
-      "correctAnswer": "to develop",
+      "question": "Having struggled with stress, he was ultimately led _____________. (TO)\n\nto develop __________",
+      "correctAnswer": "",
       "explanation": "Tras 'led him', el infinitivo indica el resultado o consecuencia de una acción previa.",
       "points": 1,
       "sentence": "Having struggled with stress, he was ultimately led _____________.",
       "keyWord": "to",
-      "startOfAnswer": ""
+      "startOfAnswer": "to develop"
     },
     {
       "id": "c2-u5-b7-q7",
@@ -813,8 +802,10 @@ export const C2_U5_BLOCK7: Exercise = {
     },
     {
       "id": "c2-u5-b7-q8",
-      "type": "fill-blank",
-      "question": "Ella se arrepintió de no ___________ más recursos al cuidado de su salud mental.",
+      "startOfAnswer": "Start of answer",
+      "sentence": "Lamentablemente, no _______________ el tiempo suficiente para prepararme. (DEDICAR)",
+      "type": "key-word-transformation",
+      "question": "Lamentablemente, no _______________ el tiempo suficiente para prepararme. (DEDICAR) ()\n\nStart of answer __________",
       "correctAnswer": "haber dedicado",
       "explanation": "Utilizamos 'haber + participio' para referirnos a una acción que no ocurrió en el pasado y expresar arrepentimiento.",
       "points": 1
@@ -822,9 +813,9 @@ export const C2_U5_BLOCK7: Exercise = {
     {
       "id": "c2-u5-b7-q9",
       "type": "key-word-transformation",
-      "question": "Attending regular therapy sessions enabled her to manage anxiety better.",
-      "correctAnswer": "to manage anxiety",
-      "explanation": "Se usa el infinitivo 'to manage' después de 'enabled her' para expresar la consecuencia.",
+      "question": "Regular therapy attendance enabled her _________________. (ANXIETY)\n\nto manage  __________",
+      "correctAnswer": "anxiety",
+      "explanation": "El infinitivo 'to manage' debe estar seguido directamente de 'anxiety' como resultado.",
       "points": 1,
       "sentence": "Regular therapy attendance enabled her _________________.",
       "keyWord": "anxiety",
@@ -878,8 +869,8 @@ export const C2_U5_BLOCK8: Exercise = {
     {
       "id": "c2-u5-b8-q3",
       "type": "key-word-transformation",
-      "question": "Convert using the key word:\nShe avoided talking about her mental health during the meeting. [FAILED]",
-      "correctAnswer": "failed to talk about her mental health",
+      "question": "She avoided talking about her mental health during the meeting. (FAILED)\n\nfailed to talk about her mental health __________",
+      "correctAnswer": "",
       "explanation": "La estructura 'avoid + gerund' se convierte a 'fail to + infinitive'.",
       "points": 1,
       "sentence": "She avoided talking about her mental health during the meeting.",
@@ -911,8 +902,8 @@ export const C2_U5_BLOCK8: Exercise = {
     {
       "id": "c2-u5-b8-q6",
       "type": "key-word-transformation",
-      "question": "Use the key word to transform: She couldn't forget speaking with her therapist for the first time. [MEETING]",
-      "correctAnswer": "meeting her therapist for the first time",
+      "question": "She couldn't forget speaking with her therapist for the first time. (MEETING)\n\nmeeting her therapist for the first time __________",
+      "correctAnswer": "",
       "explanation": "'Can't forget + gerund' indica un recuerdo memorable. Cambia a 'meeting'.",
       "points": 1,
       "sentence": "She couldn't forget speaking with her therapist for the first time.",
@@ -944,8 +935,8 @@ export const C2_U5_BLOCK8: Exercise = {
     {
       "id": "c2-u5-b8-q9",
       "type": "key-word-transformation",
-      "question": "Transform using the key word: The psychologist discussed the benefit of sharing experiences. [TALKED]",
-      "correctAnswer": "talked about the benefit of sharing experiences",
+      "question": "The psychologist discussed the benefit of sharing experiences. (TALKED)\n\ntalked about the benefit of sharing experiences __________",
+      "correctAnswer": "",
       "explanation": "'Discuss' se puede parafrasear con 'talk about', seguido de un gerundio.",
       "points": 1,
       "sentence": "The psychologist discussed the benefit of sharing experiences.",
@@ -977,14 +968,11 @@ export const C2_U5_BLOCK9: Exercise = {
   "questions": [
     {
       "id": "c2-u5-b9-q1",
-      "type": "multiple-choice",
-      "question": "Which of the following sentences correctly uses the gerund?",
-      "options": [
-        "A) I decided going to the mental health workshop.",
-        "B) Being aware of one's mental health is crucial.",
-        "C) He tried improve his mental well-being by seeing a therapist.",
-        "D) She suggested to take up meditation as a daily routine."
-      ],
+      "startOfAnswer": "The correct sentence is .",
+      "keyWord": "GERUND",
+      "sentence": "Which of the following sentences correctly uses the gerund?",
+      "type": "key-word-transformation",
+      "question": "Which of the following sentences correctly uses the gerund? (GERUND)\n\nThe correct sentence is . __________",
       "correctAnswer": "B) Being aware of one's mental health is crucial.",
       "explanation": "En español: La opción B usa correctamente el gerundio después de verbo 'to be'.",
       "points": 1
@@ -999,14 +987,11 @@ export const C2_U5_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u5-b9-q3",
-      "type": "multiple-choice",
-      "question": "Identify the sentence with the correct infinitive usage in relation to mental health.",
-      "options": [
-        "A) She considers to join a support group for anxiety.",
-        "B) To meditate daily can significantly reduce stress.",
-        "C) He insisted on to seeking help when feeling overwhelmed.",
-        "D) The therapist managed to help her recognize triggers."
-      ],
+      "startOfAnswer": "The correct sentence is .",
+      "keyWord": "INFINITIVE",
+      "sentence": "Identify the sentence with the correct infinitive usage in relation to mental health.",
+      "type": "key-word-transformation",
+      "question": "Identify the sentence with the correct infinitive usage in relation to mental health. (INFINITIVE)\n\nThe correct sentence is . __________",
       "correctAnswer": "D) The therapist managed to help her recognize triggers.",
       "explanation": "En español: La opción D usa correctamente el infinitivo después de 'managed'.",
       "points": 1
@@ -1022,10 +1007,11 @@ export const C2_U5_BLOCK9: Exercise = {
     {
       "id": "c2-u5-b9-q5",
       "type": "key-word-transformation",
+      "question": "Despite his tiredness, he continued to attend therapy sessions. (KEEP)\n\nHe kept __________",
       "sentence": "Despite his tiredness, he continued to attend therapy sessions.",
       "keyWord": "KEEP",
       "startOfAnswer": "He kept",
-      "correctAnswer": "He kept attending therapy sessions despite his tiredness.",
+      "correctAnswer": "attending therapy sessions despite his tiredness",
       "explanation": "En español: Utiliza 'keep' seguido de un gerundio para expresar continuación.",
       "points": 1
     },
@@ -1039,14 +1025,11 @@ export const C2_U5_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u5-b9-q7",
-      "type": "multiple-choice",
-      "question": "Select the sentence with the correct use of a gerund.",
-      "options": [
-        "A) She avoided to talk about her mental health issues.",
-        "B) His routine of journaling every day improved his mental clarity.",
-        "C) Despite of her exhaustion, she carried on to meditate.",
-        "D) To discuss openly about feelings is a key to mental wellness."
-      ],
+      "startOfAnswer": "The correct sentence is .",
+      "keyWord": "GERUND",
+      "sentence": "Select the sentence with the correct use of a gerund.",
+      "type": "key-word-transformation",
+      "question": "Select the sentence with the correct use of a gerund. (GERUND)\n\nThe correct sentence is . __________",
       "correctAnswer": "B) His routine of journaling every day improved his mental clarity.",
       "explanation": "En español: La opción B usa correctamente el gerundio después de 'routine of'.",
       "points": 1
@@ -1062,23 +1045,21 @@ export const C2_U5_BLOCK9: Exercise = {
     {
       "id": "c2-u5-b9-q9",
       "type": "key-word-transformation",
+      "question": "She was too anxious to speak in public. (SPEAKING)\n\nShe was too anxious __________",
       "sentence": "She was too anxious to speak in public.",
       "keyWord": "SPEAKING",
       "startOfAnswer": "She was too anxious",
-      "correctAnswer": "She was too anxious about speaking in public.",
+      "correctAnswer": "about speaking in public",
       "explanation": "En español: 'Anxious about' se usa en combinación con un gerundio.",
       "points": 1
     },
     {
       "id": "c2-u5-b9-q10",
-      "type": "multiple-choice",
-      "question": "Choose the sentence that correctly differentiates between gerund and infinitive nuances.",
-      "options": [
-        "A) Preventing stress leads to sleep better at night.",
-        "B) Struggling to find balance is common in today's fast-paced world.",
-        "C) After deciding move abroad, her mental health improved.",
-        "D) The key to overcome anxiety involves gradual exposure."
-      ],
+      "startOfAnswer": "The correct sentence is .",
+      "keyWord": "GERUND/INFINITIVE",
+      "sentence": "Choose the sentence that correctly differentiates between gerund and infinitive nuances.",
+      "type": "key-word-transformation",
+      "question": "Choose the sentence that correctly differentiates between gerund and infinitive nuances. (GERUND/INFINITIVE)\n\nThe correct sentence is . __________",
       "correctAnswer": "B) Struggling to find balance is common in today's fast-paced world.",
       "explanation": "En español: La oración B diferencia correctamente el uso de infinitivo para indicar un propósito.",
       "points": 1
@@ -1117,10 +1098,11 @@ export const C2_U5_BLOCK10: Exercise = {
     {
       "id": "c2-u5-b10-q3",
       "type": "key-word-transformation",
+      "question": "Despite the pressure, he managed to stay calm. (REMAINING)\n\nDespite the pressure, he succeeded __________",
       "sentence": "Despite the pressure, he managed to stay calm.",
       "keyWord": "REMAINING",
       "startOfAnswer": "Despite the pressure, he succeeded",
-      "correctAnswer": "Despite the pressure, he succeeded in remaining calm.",
+      "correctAnswer": "in remaining calm",
       "explanation": "En español: 'Succeed in' va seguido de un gerundio.",
       "points": 1
     },
@@ -1149,10 +1131,11 @@ export const C2_U5_BLOCK10: Exercise = {
     {
       "id": "c2-u5-b10-q6",
       "type": "key-word-transformation",
+      "question": "It is crucial for individuals to start practicing mindfulness early. (BEGIN)\n\nIt is crucial for individuals to begin __________",
       "sentence": "It is crucial for individuals to start practicing mindfulness early.",
       "keyWord": "BEGIN",
       "startOfAnswer": "It is crucial for individuals to begin",
-      "correctAnswer": "It is crucial for individuals to begin practicing mindfulness early.",
+      "correctAnswer": "practicing mindfulness early",
       "explanation": "En español: 'Begin' puede ser seguido por gerundio o infinitivo sin cambio de significado.",
       "points": 1
     },
@@ -1181,10 +1164,11 @@ export const C2_U5_BLOCK10: Exercise = {
     {
       "id": "c2-u5-b10-q9",
       "type": "key-word-transformation",
+      "question": "His determination to maintain a positive outlook was admirable. (DETERMINED)\n\nHe was determined __________",
       "sentence": "His determination to maintain a positive outlook was admirable.",
       "keyWord": "DETERMINED",
       "startOfAnswer": "He was determined",
-      "correctAnswer": "He was determined to maintain a positive outlook.",
+      "correctAnswer": "to maintain a positive outlook",
       "explanation": "En español: 'Determined' se sigue de 'to infinitive'.",
       "points": 1
     },
@@ -1208,8 +1192,8 @@ export const C2_U5_BLOCK10: Exercise = {
 export const C2_UNIT_5 = createC2Unit(
   'c2-u5',
   'Emotional Intelligence & Resilience',
-  'Advanced C2 level practice on mental-health.',
-  ["writing","vocabulary","reading"],
+  'Advanced C2 unit exploring complex topics and formal language structures.',
+  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
   [
     C2_U5_BLOCK1, C2_U5_BLOCK2, C2_U5_BLOCK3, C2_U5_BLOCK4, C2_U5_BLOCK5, C2_U5_BLOCK6, C2_U5_BLOCK7, C2_U5_BLOCK8, C2_U5_BLOCK9, C2_U5_BLOCK10
   ]

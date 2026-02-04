@@ -423,10 +423,11 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
   }
 
   if (ex.type === "word-search") {
-    const wsex = ex as WordSearchType;
+    const wsex = ex as any;
+    const title = wsex.title || wsex.prompt_es || wsex.prompt;
     return (
       <div className="space-y-4">
-        <h3 className="text-lg font-black text-slate-900">{wsex.title}</h3>
+        {title && <h3 className="text-lg font-black text-slate-900">{title}</h3>}
         <WordSearchExercise 
           words={wsex.words} 
           gridSize={wsex.gridSize || 10} 
@@ -441,10 +442,11 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
   }
 
   if (ex.type === "crossword") {
-    const cex = ex as CrosswordType;
+    const cex = ex as any; // Using any to access prompt_es if title is missing
+    const title = cex.title || cex.prompt_es || cex.prompt;
     return (
       <div className="space-y-4">
-        <h3 className="text-lg font-black text-slate-900">{cex.title}</h3>
+        {title && <h3 className="text-lg font-black text-slate-900">{title}</h3>}
         <CrosswordExercise 
           items={cex.items} 
           onComplete={() => {

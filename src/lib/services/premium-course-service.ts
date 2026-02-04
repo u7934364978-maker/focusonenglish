@@ -8,7 +8,7 @@ export const premiumCourseService = {
    * Loads all interactions from the 30 JSON files in the content directory for a specific level.
    * This is intended to be called from a Server Component or API route.
    */
-  async getAllInteractions(level: 'ingles-a1' | 'ingles-a2' | 'ingles-b1' | 'ingles-b2' | 'ingles-c1'): Promise<PremiumInteraction[]> {
+  async getAllInteractions(level: 'ingles-a1' | 'ingles-a2' | 'ingles-b1' | 'ingles-b2' | 'ingles-c1' | 'ingles-c2'): Promise<PremiumInteraction[]> {
     const contentDir = path.join(process.cwd(), `src/content/cursos/${level}`);
     const interactions: PremiumInteraction[] = [];
 
@@ -56,11 +56,15 @@ export const premiumCourseService = {
     return this.getAllInteractions('ingles-c1');
   },
 
+  async getAllC2Interactions(): Promise<PremiumInteraction[]> {
+    return this.getAllInteractions('ingles-c2');
+  },
+
   /**
    * Loads all units with their metadata and interaction counts.
    * Merges JSON-based units with Database-based units.
    */
-  async getUnits(level: 'ingles-a1' | 'ingles-a2' | 'ingles-b1' | 'ingles-b2' | 'ingles-c1') {
+  async getUnits(level: 'ingles-a1' | 'ingles-a2' | 'ingles-b1' | 'ingles-b2' | 'ingles-c1' | 'ingles-c2') {
     const contentDir = path.join(process.cwd(), `src/content/cursos/${level}`);
     const units: any[] = [];
 
@@ -141,7 +145,7 @@ export const premiumCourseService = {
   /**
    * Fetches the list of interaction IDs completed by the user.
    */
-  async getProgress(userId: string, level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1'): Promise<string[]> {
+  async getProgress(userId: string, level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2'): Promise<string[]> {
     if (!supabase || !userId || userId === 'anonymous') return [];
 
     const { data, error } = await supabase
@@ -171,6 +175,10 @@ export const premiumCourseService = {
 
   async getC1Progress(userId: string): Promise<string[]> {
     return this.getProgress(userId, 'C1');
+  },
+
+  async getC2Progress(userId: string): Promise<string[]> {
+    return this.getProgress(userId, 'C2');
   },
 
   /**

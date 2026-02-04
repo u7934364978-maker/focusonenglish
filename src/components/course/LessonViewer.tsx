@@ -3558,7 +3558,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                     <iframe
                       width="100%"
                       height="100%"
-                      src={lesson.videoUrl.replace('watch?v=', 'embed/')}
+                      src={lesson.videoUrl?.replace('watch?v=', 'embed/')}
                       title={lesson.title}
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

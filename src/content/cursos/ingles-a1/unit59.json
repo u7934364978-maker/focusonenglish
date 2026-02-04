@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'costumbre'?",
           "options": [
-            { "id": "o1", "text": "custom" },
-            { "id": "o2", "text": "habit" },
-            { "id": "o3", "text": "tradition" }
+            {
+              "id": "o1",
+              "text": "custom"
+            },
+            {
+              "id": "o2",
+              "text": "habit"
+            },
+            {
+              "id": "o3",
+              "text": "tradition"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'educado'?",
           "options": [
-            { "id": "o1", "text": "polite" },
-            { "id": "o2", "text": "educated" },
-            { "id": "o3", "text": "kind" }
+            {
+              "id": "o1",
+              "text": "polite"
+            },
+            {
+              "id": "o2",
+              "text": "educated"
+            },
+            {
+              "id": "o3",
+              "text": "kind"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'maleducado' o 'grosero'?",
           "options": [
-            { "id": "o1", "text": "rude" },
-            { "id": "o2", "text": "bad" },
-            { "id": "o3", "text": "mean" }
+            {
+              "id": "o1",
+              "text": "rude"
+            },
+            {
+              "id": "o2",
+              "text": "bad"
+            },
+            {
+              "id": "o3",
+              "text": "mean"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'saludo'?",
           "options": [
-            { "id": "o1", "text": "greeting" },
-            { "id": "o2", "text": "hello" },
-            { "id": "o3", "text": "welcome" }
+            {
+              "id": "o1",
+              "text": "greeting"
+            },
+            {
+              "id": "o2",
+              "text": "hello"
+            },
+            {
+              "id": "o3",
+              "text": "welcome"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'apretón de manos'?",
           "options": [
-            { "id": "o1", "text": "handshake" },
-            { "id": "o2", "text": "hand hit" },
-            { "id": "o3", "text": "shake hands" }
+            {
+              "id": "o1",
+              "text": "handshake"
+            },
+            {
+              "id": "o2",
+              "text": "hand hit"
+            },
+            {
+              "id": "o3",
+              "text": "shake hands"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -93,14 +138,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'En mi país, nos damos la mano'",
           "options": [
-            { "id": "w1", "text": "In" },
-            { "id": "w2", "text": "my" },
-            { "id": "w3", "text": "country," },
-            { "id": "w4", "text": "we" },
-            { "id": "w5", "text": "shake" },
-            { "id": "w6", "text": "hands" }
+            {
+              "id": "w1",
+              "text": "In"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "country,"
+            },
+            {
+              "id": "w4",
+              "text": "we"
+            },
+            {
+              "id": "w5",
+              "text": "shake"
+            },
+            {
+              "id": "w6",
+              "text": "hands"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -108,14 +178,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Es importante ser respetuoso'",
           "options": [
-            { "id": "w1", "text": "It" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "important" },
-            { "id": "w4", "text": "to" },
-            { "id": "w5", "text": "be" },
-            { "id": "w6", "text": "respectful" }
+            {
+              "id": "w1",
+              "text": "It"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "important"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "be"
+            },
+            {
+              "id": "w6",
+              "text": "respectful"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -131,9 +226,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'respeto'?",
           "options": [
-            { "id": "o1", "text": "respect" },
-            { "id": "o2", "text": "look" },
-            { "id": "o3", "text": "honour" }
+            {
+              "id": "o1",
+              "text": "respect"
+            },
+            {
+              "id": "o2",
+              "text": "look"
+            },
+            {
+              "id": "o3",
+              "text": "honour"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -143,9 +247,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'comportamiento'?",
           "options": [
-            { "id": "o1", "text": "behaviour" },
-            { "id": "o2", "text": "acting" },
-            { "id": "o3", "text": "way" }
+            {
+              "id": "o1",
+              "text": "behaviour"
+            },
+            {
+              "id": "o2",
+              "text": "acting"
+            },
+            {
+              "id": "o3",
+              "text": "way"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -155,9 +268,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tradicional'?",
           "options": [
-            { "id": "o1", "text": "traditional" },
-            { "id": "o2", "text": "old" },
-            { "id": "o3", "text": "usual" }
+            {
+              "id": "o1",
+              "text": "traditional"
+            },
+            {
+              "id": "o2",
+              "text": "old"
+            },
+            {
+              "id": "o3",
+              "text": "usual"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -167,9 +289,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cultura'?",
           "options": [
-            { "id": "o1", "text": "culture" },
-            { "id": "o2", "text": "people" },
-            { "id": "o3", "text": "world" }
+            {
+              "id": "o1",
+              "text": "culture"
+            },
+            {
+              "id": "o2",
+              "text": "people"
+            },
+            {
+              "id": "o3",
+              "text": "world"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -179,9 +310,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'extranjero'?",
           "options": [
-            { "id": "o1", "text": "foreigner" },
-            { "id": "o2", "text": "strange" },
-            { "id": "o3", "text": "alien" }
+            {
+              "id": "o1",
+              "text": "foreigner"
+            },
+            {
+              "id": "o2",
+              "text": "strange"
+            },
+            {
+              "id": "o3",
+              "text": "alien"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -207,12 +347,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Ellos tienen tradiciones diferentes'",
           "options": [
-            { "id": "w1", "text": "They" },
-            { "id": "w2", "text": "have" },
-            { "id": "w3", "text": "different" },
-            { "id": "w4", "text": "traditions" }
+            {
+              "id": "w1",
+              "text": "They"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "different"
+            },
+            {
+              "id": "w4",
+              "text": "traditions"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -220,13 +377,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Es esto formal o informal?'",
           "options": [
-            { "id": "w1", "text": "Is" },
-            { "id": "w2", "text": "this" },
-            { "id": "w3", "text": "formal" },
-            { "id": "w4", "text": "or" },
-            { "id": "w5", "text": "informal?" }
+            {
+              "id": "w1",
+              "text": "Is"
+            },
+            {
+              "id": "w2",
+              "text": "this"
+            },
+            {
+              "id": "w3",
+              "text": "formal"
+            },
+            {
+              "id": "w4",
+              "text": "or"
+            },
+            {
+              "id": "w5",
+              "text": "informal?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -242,9 +420,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'regla' (de conducta)?",
           "options": [
-            { "id": "o1", "text": "rule" },
-            { "id": "o2", "text": "law" },
-            { "id": "o3", "text": "guide" }
+            {
+              "id": "o1",
+              "text": "rule"
+            },
+            {
+              "id": "o2",
+              "text": "law"
+            },
+            {
+              "id": "o3",
+              "text": "guide"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -254,9 +441,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'social'?",
           "options": [
-            { "id": "o1", "text": "social" },
-            { "id": "o2", "text": "public" },
-            { "id": "o3", "text": "open" }
+            {
+              "id": "o1",
+              "text": "social"
+            },
+            {
+              "id": "o2",
+              "text": "public"
+            },
+            {
+              "id": "o3",
+              "text": "open"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -266,9 +462,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'normas sociales'?",
           "options": [
-            { "id": "o1", "text": "social norms" },
-            { "id": "o2", "text": "normal things" },
-            { "id": "o3", "text": "group rules" }
+            {
+              "id": "o1",
+              "text": "social norms"
+            },
+            {
+              "id": "o2",
+              "text": "normal things"
+            },
+            {
+              "id": "o3",
+              "text": "group rules"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -278,9 +483,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'inaceptable'?",
           "options": [
-            { "id": "o1", "text": "unacceptable" },
-            { "id": "o2", "text": "bad" },
-            { "id": "o3", "text": "wrong" }
+            {
+              "id": "o1",
+              "text": "unacceptable"
+            },
+            {
+              "id": "o2",
+              "text": "bad"
+            },
+            {
+              "id": "o3",
+              "text": "wrong"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -290,9 +504,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'apropiado'?",
           "options": [
-            { "id": "o1", "text": "appropriate" },
-            { "id": "o2", "text": "right" },
-            { "id": "o3", "text": "good" }
+            {
+              "id": "o1",
+              "text": "appropriate"
+            },
+            {
+              "id": "o2",
+              "text": "right"
+            },
+            {
+              "id": "o3",
+              "text": "good"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -308,9 +531,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'propina'?",
           "options": [
-            { "id": "o1", "text": "tip" },
-            { "id": "o2", "text": "gift" },
-            { "id": "o3", "text": "extra" }
+            {
+              "id": "o1",
+              "text": "tip"
+            },
+            {
+              "id": "o2",
+              "text": "gift"
+            },
+            {
+              "id": "o3",
+              "text": "extra"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -320,9 +552,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dar propina'?",
           "options": [
-            { "id": "o1", "text": "to tip" },
-            { "id": "o2", "text": "to give money" },
-            { "id": "o3", "text": "to pay extra" }
+            {
+              "id": "o1",
+              "text": "to tip"
+            },
+            {
+              "id": "o2",
+              "text": "to give money"
+            },
+            {
+              "id": "o3",
+              "text": "to pay extra"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -332,9 +573,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'invitado'?",
           "options": [
-            { "id": "o1", "text": "guest" },
-            { "id": "o2", "text": "visitor" },
-            { "id": "o3", "text": "friend" }
+            {
+              "id": "o1",
+              "text": "guest"
+            },
+            {
+              "id": "o2",
+              "text": "visitor"
+            },
+            {
+              "id": "o3",
+              "text": "friend"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -344,9 +594,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'anfitrión'?",
           "options": [
-            { "id": "o1", "text": "host" },
-            { "id": "o2", "text": "owner" },
-            { "id": "o3", "text": "boss" }
+            {
+              "id": "o1",
+              "text": "host"
+            },
+            {
+              "id": "o2",
+              "text": "owner"
+            },
+            {
+              "id": "o3",
+              "text": "boss"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -356,9 +615,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'puntual'?",
           "options": [
-            { "id": "o1", "text": "punctual" },
-            { "id": "o2", "text": "on time" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "punctual"
+            },
+            {
+              "id": "o2",
+              "text": "on time"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -368,9 +636,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'llegar tarde'?",
           "options": [
-            { "id": "o1", "text": "to be late" },
-            { "id": "o2", "text": "to arrive slow" },
-            { "id": "o3", "text": "to late" }
+            {
+              "id": "o1",
+              "text": "to be late"
+            },
+            {
+              "id": "o2",
+              "text": "to arrive slow"
+            },
+            {
+              "id": "o3",
+              "text": "to late"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -380,9 +657,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'etiqueta' (reglas sociales)?",
           "options": [
-            { "id": "o1", "text": "etiquette" },
-            { "id": "o2", "text": "ticket" },
-            { "id": "o3", "text": "tag" }
+            {
+              "id": "o1",
+              "text": "etiquette"
+            },
+            {
+              "id": "o2",
+              "text": "ticket"
+            },
+            {
+              "id": "o3",
+              "text": "tag"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -408,14 +694,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Es normal dar propina aquí?'",
           "options": [
-            { "id": "w1", "text": "Is" },
-            { "id": "w2", "text": "it" },
-            { "id": "w3", "text": "normal" },
-            { "id": "w4", "text": "to" },
-            { "id": "w5", "text": "tip" },
-            { "id": "w6", "text": "here?" }
+            {
+              "id": "w1",
+              "text": "Is"
+            },
+            {
+              "id": "w2",
+              "text": "it"
+            },
+            {
+              "id": "w3",
+              "text": "normal"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "tip"
+            },
+            {
+              "id": "w6",
+              "text": "here?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -423,13 +734,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'No deberías llegar tarde'",
           "options": [
-            { "id": "w1", "text": "You" },
-            { "id": "w2", "text": "should" },
-            { "id": "w3", "text": "not" },
-            { "id": "w4", "text": "be" },
-            { "id": "w5", "text": "late" }
+            {
+              "id": "w1",
+              "text": "You"
+            },
+            {
+              "id": "w2",
+              "text": "should"
+            },
+            {
+              "id": "w3",
+              "text": "not"
+            },
+            {
+              "id": "w4",
+              "text": "be"
+            },
+            {
+              "id": "w5",
+              "text": "late"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -453,9 +785,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'traer un regalo'?",
           "options": [
-            { "id": "o1", "text": "bring a gift" },
-            { "id": "o2", "text": "take a present" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "bring a gift"
+            },
+            {
+              "id": "o2",
+              "text": "take a present"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -465,9 +806,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'quitarse los zapatos'?",
           "options": [
-            { "id": "o1", "text": "take off your shoes" },
-            { "id": "o2", "text": "remove shoes" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "take off your shoes"
+            },
+            {
+              "id": "o2",
+              "text": "remove shoes"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -477,9 +827,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pedir permiso'?",
           "options": [
-            { "id": "o1", "text": "ask for permission" },
-            { "id": "o2", "text": "request allow" },
-            { "id": "o3", "text": "get yes" }
+            {
+              "id": "o1",
+              "text": "ask for permission"
+            },
+            {
+              "id": "o2",
+              "text": "request allow"
+            },
+            {
+              "id": "o3",
+              "text": "get yes"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -489,9 +848,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'esperar tu turno'?",
           "options": [
-            { "id": "o1", "text": "wait your turn" },
-            { "id": "o2", "text": "stop turn" },
-            { "id": "o3", "text": "your time wait" }
+            {
+              "id": "o1",
+              "text": "wait your turn"
+            },
+            {
+              "id": "o2",
+              "text": "stop turn"
+            },
+            {
+              "id": "o3",
+              "text": "your time wait"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -501,9 +869,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hablar alto'?",
           "options": [
-            { "id": "o1", "text": "speak loudly" },
-            { "id": "o2", "text": "talk big" },
-            { "id": "o3", "text": "high voice" }
+            {
+              "id": "o1",
+              "text": "speak loudly"
+            },
+            {
+              "id": "o2",
+              "text": "talk big"
+            },
+            {
+              "id": "o3",
+              "text": "high voice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -513,9 +890,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hacer ruido'?",
           "options": [
-            { "id": "o1", "text": "make noise" },
-            { "id": "o2", "text": "do sound" },
-            { "id": "o3", "text": "noise creation" }
+            {
+              "id": "o1",
+              "text": "make noise"
+            },
+            {
+              "id": "o2",
+              "text": "do sound"
+            },
+            {
+              "id": "o3",
+              "text": "noise creation"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -525,9 +911,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ser modesto'?",
           "options": [
-            { "id": "o1", "text": "be modest" },
-            { "id": "o2", "text": "small act" },
-            { "id": "o3", "text": "low profile" }
+            {
+              "id": "o1",
+              "text": "be modest"
+            },
+            {
+              "id": "o2",
+              "text": "small act"
+            },
+            {
+              "id": "o3",
+              "text": "low profile"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -553,12 +948,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Puedo preguntar por qué?'",
           "options": [
-            { "id": "w1", "text": "Can" },
-            { "id": "w2", "text": "I" },
-            { "id": "w3", "text": "ask" },
-            { "id": "w4", "text": "why?" }
+            {
+              "id": "w1",
+              "text": "Can"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "ask"
+            },
+            {
+              "id": "w4",
+              "text": "why?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -566,13 +978,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Es de mala educación señalar'",
           "options": [
-            { "id": "w1", "text": "It" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "rude" },
-            { "id": "w4", "text": "to" },
-            { "id": "w5", "text": "point" }
+            {
+              "id": "w1",
+              "text": "It"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "rude"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "point"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -594,9 +1027,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lo que se debe y no se debe hacer'?",
           "options": [
-            { "id": "o1", "text": "Do's and don'ts" },
-            { "id": "o2", "text": "Good and bad" },
-            { "id": "o3", "text": "Yes and no" }
+            {
+              "id": "o1",
+              "text": "Do's and don'ts"
+            },
+            {
+              "id": "o2",
+              "text": "Good and bad"
+            },
+            {
+              "id": "o3",
+              "text": "Yes and no"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -606,9 +1048,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Es común'?",
           "options": [
-            { "id": "o1", "text": "It is common" },
-            { "id": "o2", "text": "Is normal" },
-            { "id": "o3", "text": "Everyone does" }
+            {
+              "id": "o1",
+              "text": "It is common"
+            },
+            {
+              "id": "o2",
+              "text": "Is normal"
+            },
+            {
+              "id": "o3",
+              "text": "Everyone does"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -618,9 +1069,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'No es inusual'?",
           "options": [
-            { "id": "o1", "text": "It is not unusual" },
-            { "id": "o2", "text": "It is normal" },
-            { "id": "o3", "text": "Both mean the same" }
+            {
+              "id": "o1",
+              "text": "It is not unusual"
+            },
+            {
+              "id": "o2",
+              "text": "It is normal"
+            },
+            {
+              "id": "o3",
+              "text": "Both mean the same"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -630,9 +1090,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Deberías'?",
           "options": [
-            { "id": "o1", "text": "You should" },
-            { "id": "o2", "text": "You must" },
-            { "id": "o3", "text": "You have to" }
+            {
+              "id": "o1",
+              "text": "You should"
+            },
+            {
+              "id": "o2",
+              "text": "You must"
+            },
+            {
+              "id": "o3",
+              "text": "You have to"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -642,9 +1111,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'No deberías'?",
           "options": [
-            { "id": "o1", "text": "You shouldn't" },
-            { "id": "o2", "text": "You don't must" },
-            { "id": "o3", "text": "Not should" }
+            {
+              "id": "o1",
+              "text": "You shouldn't"
+            },
+            {
+              "id": "o2",
+              "text": "You don't must"
+            },
+            {
+              "id": "o3",
+              "text": "Not should"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -654,9 +1132,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Está permitido'?",
           "options": [
-            { "id": "o1", "text": "It is allowed" },
-            { "id": "o2", "text": "It is okay" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "It is allowed"
+            },
+            {
+              "id": "o2",
+              "text": "It is okay"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -666,9 +1153,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Está prohibido'?",
           "options": [
-            { "id": "o1", "text": "It is forbidden" },
-            { "id": "o2", "text": "It is not allowed" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "It is forbidden"
+            },
+            {
+              "id": "o2",
+              "text": "It is not allowed"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -678,9 +1174,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cultura local'?",
           "options": [
-            { "id": "o1", "text": "local culture" },
-            { "id": "o2", "text": "place habits" },
-            { "id": "o3", "text": "here culture" }
+            {
+              "id": "o1",
+              "text": "local culture"
+            },
+            {
+              "id": "o2",
+              "text": "place habits"
+            },
+            {
+              "id": "o3",
+              "text": "here culture"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -690,9 +1195,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sensibilidad cultural'?",
           "options": [
-            { "id": "o1", "text": "cultural sensitivity" },
-            { "id": "o2", "text": "respect culture" },
-            { "id": "o3", "text": "care culture" }
+            {
+              "id": "o1",
+              "text": "cultural sensitivity"
+            },
+            {
+              "id": "o2",
+              "text": "respect culture"
+            },
+            {
+              "id": "o3",
+              "text": "care culture"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -702,9 +1216,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'diversidad'?",
           "options": [
-            { "id": "o1", "text": "diversity" },
-            { "id": "o2", "text": "difference" },
-            { "id": "o3", "text": "variety" }
+            {
+              "id": "o1",
+              "text": "diversity"
+            },
+            {
+              "id": "o2",
+              "text": "difference"
+            },
+            {
+              "id": "o3",
+              "text": "variety"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -730,16 +1253,49 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'No deberías hablar con la boca llena'",
           "options": [
-            { "id": "w1", "text": "You" },
-            { "id": "w2", "text": "should" },
-            { "id": "w3", "text": "not" },
-            { "id": "w4", "text": "talk" },
-            { "id": "w5", "text": "with" },
-            { "id": "w6", "text": "your" },
-            { "id": "w7", "text": "mouth" },
-            { "id": "w8", "text": "full" }
+            {
+              "id": "w1",
+              "text": "You"
+            },
+            {
+              "id": "w2",
+              "text": "should"
+            },
+            {
+              "id": "w3",
+              "text": "not"
+            },
+            {
+              "id": "w4",
+              "text": "talk"
+            },
+            {
+              "id": "w5",
+              "text": "with"
+            },
+            {
+              "id": "w6",
+              "text": "your"
+            },
+            {
+              "id": "w7",
+              "text": "mouth"
+            },
+            {
+              "id": "w8",
+              "text": "full"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -747,14 +1303,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Qué es lo más importante?'",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "most" },
-            { "id": "w5", "text": "important" },
-            { "id": "w6", "text": "thing?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "most"
+            },
+            {
+              "id": "w5",
+              "text": "important"
+            },
+            {
+              "id": "w6",
+              "text": "thing?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -770,9 +1351,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'espacio personal'?",
           "options": [
-            { "id": "o1", "text": "personal space" },
-            { "id": "o2", "text": "my area" },
-            { "id": "o3", "text": "own room" }
+            {
+              "id": "o1",
+              "text": "personal space"
+            },
+            {
+              "id": "o2",
+              "text": "my area"
+            },
+            {
+              "id": "o3",
+              "text": "own room"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -782,9 +1372,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'contacto visual'?",
           "options": [
-            { "id": "o1", "text": "eye contact" },
-            { "id": "o2", "text": "look eyes" },
-            { "id": "o3", "text": "seeing" }
+            {
+              "id": "o1",
+              "text": "eye contact"
+            },
+            {
+              "id": "o2",
+              "text": "look eyes"
+            },
+            {
+              "id": "o3",
+              "text": "seeing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -794,9 +1393,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gesto'?",
           "options": [
-            { "id": "o1", "text": "gesture" },
-            { "id": "o2", "text": "movement" },
-            { "id": "o3", "text": "hand sign" }
+            {
+              "id": "o1",
+              "text": "gesture"
+            },
+            {
+              "id": "o2",
+              "text": "movement"
+            },
+            {
+              "id": "o3",
+              "text": "hand sign"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -806,9 +1414,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'malentendido'?",
           "options": [
-            { "id": "o1", "text": "misunderstanding" },
-            { "id": "o2", "text": "wrong idea" },
-            { "id": "o3", "text": "bad hearing" }
+            {
+              "id": "o1",
+              "text": "misunderstanding"
+            },
+            {
+              "id": "o2",
+              "text": "wrong idea"
+            },
+            {
+              "id": "o3",
+              "text": "bad hearing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -818,9 +1435,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'choque cultural'?",
           "options": [
-            { "id": "o1", "text": "culture shock" },
-            { "id": "o2", "text": "culture hit" },
-            { "id": "o3", "text": "strange place" }
+            {
+              "id": "o1",
+              "text": "culture shock"
+            },
+            {
+              "id": "o2",
+              "text": "culture hit"
+            },
+            {
+              "id": "o3",
+              "text": "strange place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -830,9 +1456,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'intercambio cultural'?",
           "options": [
-            { "id": "o1", "text": "cultural exchange" },
-            { "id": "o2", "text": "trading culture" },
-            { "id": "o3", "text": "sharing culture" }
+            {
+              "id": "o1",
+              "text": "cultural exchange"
+            },
+            {
+              "id": "o2",
+              "text": "trading culture"
+            },
+            {
+              "id": "o3",
+              "text": "sharing culture"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -842,9 +1477,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aprender de los demás'?",
           "options": [
-            { "id": "o1", "text": "learn from others" },
-            { "id": "o2", "text": "study people" },
-            { "id": "o3", "text": "see others" }
+            {
+              "id": "o1",
+              "text": "learn from others"
+            },
+            {
+              "id": "o2",
+              "text": "study people"
+            },
+            {
+              "id": "o3",
+              "text": "see others"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -883,31 +1527,138 @@
           "interaction_id": "U59_I76",
           "type": "word-search",
           "prompt_es": "Busca palabras de CULTURA:",
-          "words": ["CULTURE", "CUSTOM", "POLITE", "RUDE", "TIP", "HOST", "GUEST", "RESPECT", "RULE", "SOCIAL"],
+          "words": [
+            "CULTURE",
+            "CUSTOM",
+            "POLITE",
+            "RUDE",
+            "TIP",
+            "HOST",
+            "GUEST",
+            "RESPECT",
+            "RULE",
+            "SOCIAL"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "CULTURE", "clue": "Way of life" },
-            { "word": "CUSTOM", "clue": "Habit" },
-            { "word": "POLITE", "clue": "Good manners" },
-            { "word": "RUDE", "clue": "Bad manners" },
-            { "word": "TIP", "clue": "Extra money" },
-            { "word": "HOST", "clue": "Inviter" },
-            { "word": "GUEST", "clue": "Invitee" },
-            { "word": "RESPECT", "clue": "Honour" },
-            { "word": "RULE", "clue": "Regulation" },
-            { "word": "SOCIAL", "clue": "About people" }
+            {
+              "word": "CULTURE",
+              "clue": "Way of life"
+            },
+            {
+              "word": "CUSTOM",
+              "clue": "Habit"
+            },
+            {
+              "word": "POLITE",
+              "clue": "Good manners"
+            },
+            {
+              "word": "RUDE",
+              "clue": "Bad manners"
+            },
+            {
+              "word": "TIP",
+              "clue": "Extra money"
+            },
+            {
+              "word": "HOST",
+              "clue": "Inviter"
+            },
+            {
+              "word": "GUEST",
+              "clue": "Invitee"
+            },
+            {
+              "word": "RESPECT",
+              "clue": "Honour"
+            },
+            {
+              "word": "RULE",
+              "clue": "Regulation"
+            },
+            {
+              "word": "SOCIAL",
+              "clue": "About people"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama cultural:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "POLITE", "clue": "Showing good manners", "direction": "across", "row": 0, "col": 0 },
-            { "word": "RUDE", "clue": "Showing bad manners", "direction": "down", "row": 0, "col": 5 },
-            { "word": "CUSTOM", "clue": "Traditional habit", "direction": "across", "row": 2, "col": 0 },
-            { "word": "TIP", "clue": "Small payment", "direction": "down", "row": 1, "col": 2 }
+            {
+              "word": "FOREIGNER",
+              "clue": "Traducción de: extranjero",
+              "direction": "across",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "ETIQUETTE",
+              "clue": "Traducción de: etiqueta",
+              "direction": "down",
+              "row": 2,
+              "col": 12
+            },
+            {
+              "word": "DIVERSITY",
+              "clue": "Traducción de: diversidad",
+              "direction": "down",
+              "row": 9,
+              "col": 9
+            },
+            {
+              "word": "HANDSHAKE",
+              "clue": "Traducción de: apretón de manos",
+              "direction": "across",
+              "row": 2,
+              "col": 4
+            },
+            {
+              "word": "WELCOME",
+              "clue": "Traducción de: Bienvenidos",
+              "direction": "across",
+              "row": 7,
+              "col": 6
+            },
+            {
+              "word": "RESPECT",
+              "clue": "Traducción de: respeto",
+              "direction": "across",
+              "row": 12,
+              "col": 5
+            },
+            {
+              "word": "POLITE",
+              "clue": "Traducción de: educado",
+              "direction": "across",
+              "row": 15,
+              "col": 6
+            },
+            {
+              "word": "GUEST",
+              "clue": "Traducción de: invitado",
+              "direction": "down",
+              "row": 6,
+              "col": 0
+            },
+            {
+              "word": "SPAIN",
+              "clue": "Traducción de: Two kisses",
+              "direction": "down",
+              "row": 0,
+              "col": 5
+            },
+            {
+              "word": "RULE",
+              "clue": "Traducción de: regla",
+              "direction": "down",
+              "row": 10,
+              "col": 13
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -916,11 +1667,26 @@
           "type": "matching",
           "prompt_es": "Une el país con la costumbre típica (ejemplos comunes):",
           "pairs": [
-            { "left": "Japan", "right": "Bowing" },
-            { "left": "USA", "right": "Tipping 20%" },
-            { "left": "UK", "right": "Queuing" },
-            { "left": "Spain", "right": "Two kisses" },
-            { "left": "Thailand", "right": "Wai gesture" }
+            {
+              "left": "Japan",
+              "right": "Bowing"
+            },
+            {
+              "left": "USA",
+              "right": "Tipping 20%"
+            },
+            {
+              "left": "UK",
+              "right": "Queuing"
+            },
+            {
+              "left": "Spain",
+              "right": "Two kisses"
+            },
+            {
+              "left": "Thailand",
+              "right": "Wai gesture"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -929,9 +1695,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué debo hacer si...?'?",
           "options": [
-            { "id": "o1", "text": "What should I do if...?" },
-            { "id": "o2", "text": "What I do...?" },
-            { "id": "o3", "text": "Should do what...?" }
+            {
+              "id": "o1",
+              "text": "What should I do if...?"
+            },
+            {
+              "id": "o2",
+              "text": "What I do...?"
+            },
+            {
+              "id": "o3",
+              "text": "Should do what...?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -941,9 +1716,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Es de mala educación...?'?",
           "options": [
-            { "id": "o1", "text": "Is it rude to...?" },
-            { "id": "o2", "text": "Rude is...?" },
-            { "id": "o3", "text": "Bad way...?" }
+            {
+              "id": "o1",
+              "text": "Is it rude to...?"
+            },
+            {
+              "id": "o2",
+              "text": "Rude is...?"
+            },
+            {
+              "id": "o3",
+              "text": "Bad way...?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -953,9 +1737,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'En mi cultura...'?",
           "options": [
-            { "id": "o1", "text": "In my culture..." },
-            { "id": "o2", "text": "My country way..." },
-            { "id": "o3", "text": "In here..." }
+            {
+              "id": "o1",
+              "text": "In my culture..."
+            },
+            {
+              "id": "o2",
+              "text": "My country way..."
+            },
+            {
+              "id": "o3",
+              "text": "In here..."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -965,9 +1758,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedes enseñarme?'?",
           "options": [
-            { "id": "o1", "text": "Can you teach me?" },
-            { "id": "o2", "text": "Show me please" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "Can you teach me?"
+            },
+            {
+              "id": "o2",
+              "text": "Show me please"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -977,9 +1779,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Interesante'?",
           "options": [
-            { "id": "o1", "text": "interesting" },
-            { "id": "o2", "text": "different" },
-            { "id": "o3", "text": "Both can be used to show interest" }
+            {
+              "id": "o1",
+              "text": "interesting"
+            },
+            {
+              "id": "o2",
+              "text": "different"
+            },
+            {
+              "id": "o3",
+              "text": "Both can be used to show interest"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -989,9 +1800,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Lo siento, no lo sabía'?",
           "options": [
-            { "id": "o1", "text": "Sorry, I didn't know" },
-            { "id": "o2", "text": "No know sorry" },
-            { "id": "o3", "text": "I was wrong" }
+            {
+              "id": "o1",
+              "text": "Sorry, I didn't know"
+            },
+            {
+              "id": "o2",
+              "text": "No know sorry"
+            },
+            {
+              "id": "o3",
+              "text": "I was wrong"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1001,9 +1821,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Gracias por explicarlo'?",
           "options": [
-            { "id": "o1", "text": "Thanks for explaining" },
-            { "id": "o2", "text": "Explain good thanks" },
-            { "id": "o3", "text": "Thank you for say" }
+            {
+              "id": "o1",
+              "text": "Thanks for explaining"
+            },
+            {
+              "id": "o2",
+              "text": "Explain good thanks"
+            },
+            {
+              "id": "o3",
+              "text": "Thank you for say"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1013,9 +1842,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Quiero aprender más'?",
           "options": [
-            { "id": "o1", "text": "I want to learn more" },
-            { "id": "o2", "text": "More study please" },
-            { "id": "o3", "text": "Want know more" }
+            {
+              "id": "o1",
+              "text": "I want to learn more"
+            },
+            {
+              "id": "o2",
+              "text": "More study please"
+            },
+            {
+              "id": "o3",
+              "text": "Want know more"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1025,9 +1863,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Es muy diferente aquí'?",
           "options": [
-            { "id": "o1", "text": "It's very different here" },
-            { "id": "o2", "text": "Here is strange" },
-            { "id": "o3", "text": "Different way now" }
+            {
+              "id": "o1",
+              "text": "It's very different here"
+            },
+            {
+              "id": "o2",
+              "text": "Here is strange"
+            },
+            {
+              "id": "o3",
+              "text": "Different way now"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1037,9 +1884,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Me gusta esta tradición'?",
           "options": [
-            { "id": "o1", "text": "I like this tradition" },
-            { "id": "o2", "text": "Good tradition" },
-            { "id": "o3", "text": "Tradition like me" }
+            {
+              "id": "o1",
+              "text": "I like this tradition"
+            },
+            {
+              "id": "o2",
+              "text": "Good tradition"
+            },
+            {
+              "id": "o3",
+              "text": "Tradition like me"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1049,9 +1905,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Debemos respetar a todos'?",
           "options": [
-            { "id": "o1", "text": "We must respect everyone" },
-            { "id": "o2", "text": "Respect all people" },
-            { "id": "o3", "text": "All respect" }
+            {
+              "id": "o1",
+              "text": "We must respect everyone"
+            },
+            {
+              "id": "o2",
+              "text": "Respect all people"
+            },
+            {
+              "id": "o3",
+              "text": "All respect"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1061,9 +1926,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Es formal?'?",
           "options": [
-            { "id": "o1", "text": "Is it formal?" },
-            { "id": "o2", "text": "Formal way?" },
-            { "id": "o3", "text": "Is polite?" }
+            {
+              "id": "o1",
+              "text": "Is it formal?"
+            },
+            {
+              "id": "o2",
+              "text": "Formal way?"
+            },
+            {
+              "id": "o3",
+              "text": "Is polite?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1089,12 +1963,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Ellos son muy amables'",
           "options": [
-            { "id": "w1", "text": "They" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "very" },
-            { "id": "w4", "text": "friendly" }
+            {
+              "id": "w1",
+              "text": "They"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "friendly"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -1102,11 +1993,24 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Puedo unirme?'",
           "options": [
-            { "id": "w1", "text": "Can" },
-            { "id": "w2", "text": "I" },
-            { "id": "w3", "text": "join?" }
+            {
+              "id": "w1",
+              "text": "Can"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "join?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -1130,9 +2034,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué significa esto?'?",
           "options": [
-            { "id": "o1", "text": "What does this mean?" },
-            { "id": "o2", "text": "Mean what?" },
-            { "id": "o3", "text": "Meaning please?" }
+            {
+              "id": "o1",
+              "text": "What does this mean?"
+            },
+            {
+              "id": "o2",
+              "text": "Mean what?"
+            },
+            {
+              "id": "o3",
+              "text": "Meaning please?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1142,9 +2055,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Es muy amable por tu parte'?",
           "options": [
-            { "id": "o1", "text": "That's very kind of you" },
-            { "id": "o2", "text": "You are good" },
-            { "id": "o3", "text": "Kind person" }
+            {
+              "id": "o1",
+              "text": "That's very kind of you"
+            },
+            {
+              "id": "o2",
+              "text": "You are good"
+            },
+            {
+              "id": "o3",
+              "text": "Kind person"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1154,9 +2076,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Disfruta tu estancia'?",
           "options": [
-            { "id": "o1", "text": "Enjoy your stay" },
-            { "id": "o2", "text": "Happy time here" },
-            { "id": "o3", "text": "Good visit" }
+            {
+              "id": "o1",
+              "text": "Enjoy your stay"
+            },
+            {
+              "id": "o2",
+              "text": "Happy time here"
+            },
+            {
+              "id": "o3",
+              "text": "Good visit"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1166,9 +2097,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Bienvenidos'?",
           "options": [
-            { "id": "o1", "text": "Welcome" },
-            { "id": "o2", "text": "Hello all" },
-            { "id": "o3", "text": "Come in" }
+            {
+              "id": "o1",
+              "text": "Welcome"
+            },
+            {
+              "id": "o2",
+              "text": "Hello all"
+            },
+            {
+              "id": "o3",
+              "text": "Come in"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"

@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué debería comprarle a Sarah?'?",
           "options": [
-            { "id": "o1", "text": "What should I buy for Sarah?" },
-            { "id": "o2", "text": "What I buy Sarah?" },
-            { "id": "o3", "text": "Which gift Sarah?" }
+            {
+              "id": "o1",
+              "text": "What should I buy for Sarah?"
+            },
+            {
+              "id": "o2",
+              "text": "What I buy Sarah?"
+            },
+            {
+              "id": "o3",
+              "text": "Which gift Sarah?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'le gustan los libros'?",
           "options": [
-            { "id": "o1", "text": "She likes books" },
-            { "id": "o2", "text": "Her like books" },
-            { "id": "o3", "text": "She books likes" }
+            {
+              "id": "o1",
+              "text": "She likes books"
+            },
+            {
+              "id": "o2",
+              "text": "Her like books"
+            },
+            {
+              "id": "o3",
+              "text": "She books likes"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'una tarjeta de regalo'?",
           "options": [
-            { "id": "o1", "text": "A gift card" },
-            { "id": "o2", "text": "A card gift" },
-            { "id": "o3", "text": "A present card" }
+            {
+              "id": "o1",
+              "text": "A gift card"
+            },
+            {
+              "id": "o2",
+              "text": "A card gift"
+            },
+            {
+              "id": "o3",
+              "text": "A present card"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'algo especial'?",
           "options": [
-            { "id": "o1", "text": "Something special" },
-            { "id": "o2", "text": "Anything special" },
-            { "id": "o3", "text": "Special thing" }
+            {
+              "id": "o1",
+              "text": "Something special"
+            },
+            {
+              "id": "o2",
+              "text": "Anything special"
+            },
+            {
+              "id": "o3",
+              "text": "Special thing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'un ramo de flores'?",
           "options": [
-            { "id": "o1", "text": "A bouquet of flowers" },
-            { "id": "o2", "text": "A bunch of flowers" },
-            { "id": "o3", "text": "A flower group" }
+            {
+              "id": "o1",
+              "text": "A bouquet of flowers"
+            },
+            {
+              "id": "o2",
+              "text": "A bunch of flowers"
+            },
+            {
+              "id": "o3",
+              "text": "A flower group"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'perfume'?",
           "options": [
-            { "id": "o1", "text": "Perfume" },
-            { "id": "o2", "text": "Smell" },
-            { "id": "o3", "text": "Fragance" }
+            {
+              "id": "o1",
+              "text": "Perfume"
+            },
+            {
+              "id": "o2",
+              "text": "Smell"
+            },
+            {
+              "id": "o3",
+              "text": "Fragance"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'joyería'?",
           "options": [
-            { "id": "o1", "text": "Jewellery" },
-            { "id": "o2", "text": "Jewels" },
-            { "id": "o3", "text": "Rings" }
+            {
+              "id": "o1",
+              "text": "Jewellery"
+            },
+            {
+              "id": "o2",
+              "text": "Jewels"
+            },
+            {
+              "id": "o3",
+              "text": "Rings"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuánto cuesta?'?",
           "options": [
-            { "id": "o1", "text": "How much is it?" },
-            { "id": "o2", "text": "How many is it?" },
-            { "id": "o3", "text": "What price?" }
+            {
+              "id": "o1",
+              "text": "How much is it?"
+            },
+            {
+              "id": "o2",
+              "text": "How many is it?"
+            },
+            {
+              "id": "o3",
+              "text": "What price?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'es demasiado caro'?",
           "options": [
-            { "id": "o1", "text": "It's too expensive" },
-            { "id": "o2", "text": "It's very expensive" },
-            { "id": "o3", "text": "Price high" }
+            {
+              "id": "o1",
+              "text": "It's too expensive"
+            },
+            {
+              "id": "o2",
+              "text": "It's very expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Price high"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'es una ganga'?",
           "options": [
-            { "id": "o1", "text": "It's a bargain" },
-            { "id": "o2", "text": "It's cheap" },
-            { "id": "o3", "text": "Good price" }
+            {
+              "id": "o1",
+              "text": "It's a bargain"
+            },
+            {
+              "id": "o2",
+              "text": "It's cheap"
+            },
+            {
+              "id": "o3",
+              "text": "Good price"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,15 +227,45 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Estoy buscando un regalo para mi madre'",
           "options": [
-            { "id": "w1", "text": "looking" },
-            { "id": "w2", "text": "for" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "gift" },
-            { "id": "w5", "text": "I'm" },
-            { "id": "w6", "text": "my" },
-            { "id": "w7", "text": "mother" }
+            {
+              "id": "w1",
+              "text": "looking"
+            },
+            {
+              "id": "w2",
+              "text": "for"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "gift"
+            },
+            {
+              "id": "w5",
+              "text": "I'm"
+            },
+            {
+              "id": "w6",
+              "text": "my"
+            },
+            {
+              "id": "w7",
+              "text": "mother"
+            }
           ],
-          "correct_answer": ["w5", "w1", "w2", "w3", "w4", "w2", "w6", "w7"],
+          "correct_answer": [
+            "w5",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w2",
+            "w6",
+            "w7"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -153,16 +273,49 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Tienes alguna idea para un regalo?'",
           "options": [
-            { "id": "w1", "text": "ideas" },
-            { "id": "w2", "text": "for" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "present?" },
-            { "id": "w5", "text": "any" },
-            { "id": "w6", "text": "you" },
-            { "id": "w7", "text": "Do" },
-            { "id": "w8", "text": "have" }
+            {
+              "id": "w1",
+              "text": "ideas"
+            },
+            {
+              "id": "w2",
+              "text": "for"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "present?"
+            },
+            {
+              "id": "w5",
+              "text": "any"
+            },
+            {
+              "id": "w6",
+              "text": "you"
+            },
+            {
+              "id": "w7",
+              "text": "Do"
+            },
+            {
+              "id": "w8",
+              "text": "have"
+            }
           ],
-          "correct_answer": ["w7", "w6", "w8", "w5", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w7",
+            "w6",
+            "w8",
+            "w5",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -186,9 +339,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Podría ver ese, por favor?'?",
           "options": [
-            { "id": "o1", "text": "Could I see that one, please?" },
-            { "id": "o2", "text": "Can I watch that?" },
-            { "id": "o3", "text": "I see that please?" }
+            {
+              "id": "o1",
+              "text": "Could I see that one, please?"
+            },
+            {
+              "id": "o2",
+              "text": "Can I watch that?"
+            },
+            {
+              "id": "o3",
+              "text": "I see that please?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -198,9 +360,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bombones'?",
           "options": [
-            { "id": "o1", "text": "Chocolates" },
-            { "id": "o2", "text": "Candies" },
-            { "id": "o3", "text": "Sweets" }
+            {
+              "id": "o1",
+              "text": "Chocolates"
+            },
+            {
+              "id": "o2",
+              "text": "Candies"
+            },
+            {
+              "id": "o3",
+              "text": "Sweets"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -210,9 +381,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'una vela aromática'?",
           "options": [
-            { "id": "o1", "text": "A scented candle" },
-            { "id": "o2", "text": "A smell candle" },
-            { "id": "o3", "text": "An aroma candle" }
+            {
+              "id": "o1",
+              "text": "A scented candle"
+            },
+            {
+              "id": "o2",
+              "text": "A smell candle"
+            },
+            {
+              "id": "o3",
+              "text": "An aroma candle"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -222,9 +402,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'un marco de fotos'?",
           "options": [
-            { "id": "o1", "text": "A photo frame" },
-            { "id": "o2", "text": "A picture box" },
-            { "id": "o3", "text": "A photo border" }
+            {
+              "id": "o1",
+              "text": "A photo frame"
+            },
+            {
+              "id": "o2",
+              "text": "A picture box"
+            },
+            {
+              "id": "o3",
+              "text": "A photo border"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -234,9 +423,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué te parece este?'?",
           "options": [
-            { "id": "o1", "text": "What do you think of this one?" },
-            { "id": "o2", "text": "How you think this?" },
-            { "id": "o3", "text": "Which you like this?" }
+            {
+              "id": "o1",
+              "text": "What do you think of this one?"
+            },
+            {
+              "id": "o2",
+              "text": "How you think this?"
+            },
+            {
+              "id": "o3",
+              "text": "Which you like this?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -246,9 +444,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'no estoy seguro'?",
           "options": [
-            { "id": "o1", "text": "I'm not sure" },
-            { "id": "o2", "text": "I no sure" },
-            { "id": "o3", "text": "Not sure me" }
+            {
+              "id": "o1",
+              "text": "I'm not sure"
+            },
+            {
+              "id": "o2",
+              "text": "I no sure"
+            },
+            {
+              "id": "o3",
+              "text": "Not sure me"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -258,12 +465,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Este perfume huele de maravilla'",
           "options": [
-            { "id": "w1", "text": "smells" },
-            { "id": "w2", "text": "wonderful" },
-            { "id": "w3", "text": "This" },
-            { "id": "w4", "text": "perfume" }
+            {
+              "id": "w1",
+              "text": "smells"
+            },
+            {
+              "id": "w2",
+              "text": "wonderful"
+            },
+            {
+              "id": "w3",
+              "text": "This"
+            },
+            {
+              "id": "w4",
+              "text": "perfume"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w1", "w2"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -271,12 +495,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Es el regalo perfecto'",
           "options": [
-            { "id": "w1", "text": "the" },
-            { "id": "w2", "text": "perfect" },
-            { "id": "w3", "text": "It's" },
-            { "id": "w4", "text": "gift" }
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "perfect"
+            },
+            {
+              "id": "w3",
+              "text": "It's"
+            },
+            {
+              "id": "w4",
+              "text": "gift"
+            }
           ],
-          "correct_answer": ["w3", "w1", "w2", "w4"],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w2",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -300,11 +541,27 @@
           "type": "matching",
           "prompt_es": "Une los regalos con su categoría:",
           "pairs": [
-            { "id": "p1", "left": "Necklace", "right": "Jewellery" },
-            { "id": "p2", "left": "Novel", "right": "Books" },
-            { "id": "p3", "left": "Roses", "right": "Flowers" }
+            {
+              "id": "p1",
+              "left": "Necklace",
+              "right": "Jewellery"
+            },
+            {
+              "id": "p2",
+              "left": "Novel",
+              "right": "Books"
+            },
+            {
+              "id": "p3",
+              "left": "Roses",
+              "right": "Flowers"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         }
       ]
@@ -318,9 +575,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Lo quiere para regalo?'?",
           "options": [
-            { "id": "o1", "text": "Is it for a gift?" },
-            { "id": "o2", "text": "You want gift?" },
-            { "id": "o3", "text": "Gift for you?" }
+            {
+              "id": "o1",
+              "text": "Is it for a gift?"
+            },
+            {
+              "id": "o2",
+              "text": "You want gift?"
+            },
+            {
+              "id": "o3",
+              "text": "Gift for you?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -330,9 +596,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Me lo puede envolver para regalo, por favor?'?",
           "options": [
-            { "id": "o1", "text": "Could you gift-wrap it for me, please?" },
-            { "id": "o2", "text": "Wrap gift please?" },
-            { "id": "o3", "text": "Box it gift?" }
+            {
+              "id": "o1",
+              "text": "Could you gift-wrap it for me, please?"
+            },
+            {
+              "id": "o2",
+              "text": "Wrap gift please?"
+            },
+            {
+              "id": "o3",
+              "text": "Box it gift?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -342,9 +617,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'un tique regalo'?",
           "options": [
-            { "id": "o1", "text": "A gift receipt" },
-            { "id": "o2", "text": "A gift ticket" },
-            { "id": "o3", "text": "A present paper" }
+            {
+              "id": "o1",
+              "text": "A gift receipt"
+            },
+            {
+              "id": "o2",
+              "text": "A gift ticket"
+            },
+            {
+              "id": "o3",
+              "text": "A present paper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -354,9 +638,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedo incluir un tique regalo?'?",
           "options": [
-            { "id": "o1", "text": "Can I include a gift receipt?" },
-            { "id": "o2", "text": "Gift receipt inside?" },
-            { "id": "o3", "text": "Include ticket?" }
+            {
+              "id": "o1",
+              "text": "Can I include a gift receipt?"
+            },
+            {
+              "id": "o2",
+              "text": "Gift receipt inside?"
+            },
+            {
+              "id": "o3",
+              "text": "Include ticket?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -366,9 +659,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'caja de regalo'?",
           "options": [
-            { "id": "o1", "text": "Gift box" },
-            { "id": "o2", "text": "Gift case" },
-            { "id": "o3", "text": "Present box" }
+            {
+              "id": "o1",
+              "text": "Gift box"
+            },
+            {
+              "id": "o2",
+              "text": "Gift case"
+            },
+            {
+              "id": "o3",
+              "text": "Present box"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -378,9 +680,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lazo'?",
           "options": [
-            { "id": "o1", "text": "Ribbon / Bow" },
-            { "id": "o2", "text": "Tie" },
-            { "id": "o3", "text": "String" }
+            {
+              "id": "o1",
+              "text": "Ribbon / Bow"
+            },
+            {
+              "id": "o2",
+              "text": "Tie"
+            },
+            {
+              "id": "o3",
+              "text": "String"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -390,9 +701,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Aceptan tarjetas?'?",
           "options": [
-            { "id": "o1", "text": "Do you take cards?" },
-            { "id": "o2", "text": "Accept cards?" },
-            { "id": "o3", "text": "Cards okay?" }
+            {
+              "id": "o1",
+              "text": "Do you take cards?"
+            },
+            {
+              "id": "o2",
+              "text": "Accept cards?"
+            },
+            {
+              "id": "o3",
+              "text": "Cards okay?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -402,15 +722,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Me puede dar una bolsa, por favor?'",
           "options": [
-            { "id": "w1", "text": "me" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "bag," },
-            { "id": "w4", "text": "please?" },
-            { "id": "w5", "text": "Can" },
-            { "id": "w6", "text": "you" },
-            { "id": "w7", "text": "give" }
+            {
+              "id": "w1",
+              "text": "me"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "bag,"
+            },
+            {
+              "id": "w4",
+              "text": "please?"
+            },
+            {
+              "id": "w5",
+              "text": "Can"
+            },
+            {
+              "id": "w6",
+              "text": "you"
+            },
+            {
+              "id": "w7",
+              "text": "give"
+            }
           ],
-          "correct_answer": ["w5", "w6", "w7", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w5",
+            "w6",
+            "w7",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -418,15 +767,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Lo envolveré con un lazo rojo'",
           "options": [
-            { "id": "w1", "text": "with" },
-            { "id": "w2", "text": "ribbon" },
-            { "id": "w3", "text": "wrap" },
-            { "id": "w4", "text": "I'll" },
-            { "id": "w5", "text": "a" },
-            { "id": "w6", "text": "it" },
-            { "id": "w7", "text": "red" }
+            {
+              "id": "w1",
+              "text": "with"
+            },
+            {
+              "id": "w2",
+              "text": "ribbon"
+            },
+            {
+              "id": "w3",
+              "text": "wrap"
+            },
+            {
+              "id": "w4",
+              "text": "I'll"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "it"
+            },
+            {
+              "id": "w7",
+              "text": "red"
+            }
           ],
-          "correct_answer": ["w4", "w3", "w6", "w1", "w5", "w7", "w2"],
+          "correct_answer": [
+            "w4",
+            "w3",
+            "w6",
+            "w1",
+            "w5",
+            "w7",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -450,9 +828,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'quitar la etiqueta del precio'?",
           "options": [
-            { "id": "o1", "text": "To take off the price tag" },
-            { "id": "o2", "text": "To remove the cost paper" },
-            { "id": "o3", "text": "To cut the price" }
+            {
+              "id": "o1",
+              "text": "To take off the price tag"
+            },
+            {
+              "id": "o2",
+              "text": "To remove the cost paper"
+            },
+            {
+              "id": "o3",
+              "text": "To cut the price"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -462,9 +849,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Tiene garantía?'?",
           "options": [
-            { "id": "o1", "text": "Does it have a guarantee / warranty?" },
-            { "id": "o2", "text": "Warranty have?" },
-            { "id": "o3", "text": "Is it safe?" }
+            {
+              "id": "o1",
+              "text": "Does it have a guarantee / warranty?"
+            },
+            {
+              "id": "o2",
+              "text": "Warranty have?"
+            },
+            {
+              "id": "o3",
+              "text": "Is it safe?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -474,9 +870,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Se puede devolver?'?",
           "options": [
-            { "id": "o1", "text": "Can I return it?" },
-            { "id": "o2", "text": "Back possible?" },
-            { "id": "o3", "text": "Refund it?" }
+            {
+              "id": "o1",
+              "text": "Can I return it?"
+            },
+            {
+              "id": "o2",
+              "text": "Back possible?"
+            },
+            {
+              "id": "o3",
+              "text": "Refund it?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -486,9 +891,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'un reembolso'?",
           "options": [
-            { "id": "o1", "text": "A refund" },
-            { "id": "o2", "text": "A back money" },
-            { "id": "o3", "text": "A return cash" }
+            {
+              "id": "o1",
+              "text": "A refund"
+            },
+            {
+              "id": "o2",
+              "text": "A back money"
+            },
+            {
+              "id": "o3",
+              "text": "A return cash"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -498,9 +912,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuánto tiempo tengo para devolverlo?'?",
           "options": [
-            { "id": "o1", "text": "How long do I have to return it?" },
-            { "id": "o2", "text": "What time for return?" },
-            { "id": "o3", "text": "Days for back?" }
+            {
+              "id": "o1",
+              "text": "How long do I have to return it?"
+            },
+            {
+              "id": "o2",
+              "text": "What time for return?"
+            },
+            {
+              "id": "o3",
+              "text": "Days for back?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -510,9 +933,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tienes 28 días'?",
           "options": [
-            { "id": "o1", "text": "You have twenty-eight days" },
-            { "id": "o2", "text": "It is twenty-eight days" },
-            { "id": "o3", "text": "Twenty-eight days have" }
+            {
+              "id": "o1",
+              "text": "You have twenty-eight days"
+            },
+            {
+              "id": "o2",
+              "text": "It is twenty-eight days"
+            },
+            {
+              "id": "o3",
+              "text": "Twenty-eight days have"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -522,9 +954,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bolsa de papel'?",
           "options": [
-            { "id": "o1", "text": "Paper bag" },
-            { "id": "o2", "text": "Paper case" },
-            { "id": "o3", "text": "Bag of paper" }
+            {
+              "id": "o1",
+              "text": "Paper bag"
+            },
+            {
+              "id": "o2",
+              "text": "Paper case"
+            },
+            {
+              "id": "o3",
+              "text": "Bag of paper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -534,13 +975,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Aceptan tarjetas de crédito?'",
           "options": [
-            { "id": "w1", "text": "credit" },
-            { "id": "w2", "text": "cards?" },
-            { "id": "w3", "text": "accept" },
-            { "id": "w4", "text": "Do" },
-            { "id": "w5", "text": "you" }
+            {
+              "id": "w1",
+              "text": "credit"
+            },
+            {
+              "id": "w2",
+              "text": "cards?"
+            },
+            {
+              "id": "w3",
+              "text": "accept"
+            },
+            {
+              "id": "w4",
+              "text": "Do"
+            },
+            {
+              "id": "w5",
+              "text": "you"
+            }
           ],
-          "correct_answer": ["w4", "w5", "w3", "w1", "w2"],
+          "correct_answer": [
+            "w4",
+            "w5",
+            "w3",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -548,12 +1010,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Aquí tiene su cambio'",
           "options": [
-            { "id": "w1", "text": "change" },
-            { "id": "w2", "text": "your" },
-            { "id": "w3", "text": "Here" },
-            { "id": "w4", "text": "is" }
+            {
+              "id": "w1",
+              "text": "change"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w3",
+              "text": "Here"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w2", "w1"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w2",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -607,9 +1086,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tengo un pequeño detalle para ti'?",
           "options": [
-            { "id": "o1", "text": "I have a little something for you" },
-            { "id": "o2", "text": "I have small thing you" },
-            { "id": "o3", "text": "Gift small for you" }
+            {
+              "id": "o1",
+              "text": "I have a little something for you"
+            },
+            {
+              "id": "o2",
+              "text": "I have small thing you"
+            },
+            {
+              "id": "o3",
+              "text": "Gift small for you"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -619,9 +1107,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'esto es para ti'?",
           "options": [
-            { "id": "o1", "text": "This is for you" },
-            { "id": "o2", "text": "This you" },
-            { "id": "o3", "text": "Here for you" }
+            {
+              "id": "o1",
+              "text": "This is for you"
+            },
+            {
+              "id": "o2",
+              "text": "This you"
+            },
+            {
+              "id": "o3",
+              "text": "Here for you"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -631,9 +1128,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Ábrelo!'?",
           "options": [
-            { "id": "o1", "text": "Open it!" },
-            { "id": "o2", "text": "Do it open!" },
-            { "id": "o3", "text": "Start it!" }
+            {
+              "id": "o1",
+              "text": "Open it!"
+            },
+            {
+              "id": "o2",
+              "text": "Do it open!"
+            },
+            {
+              "id": "o3",
+              "text": "Start it!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -643,9 +1149,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'espero que te guste'?",
           "options": [
-            { "id": "o1", "text": "I hope you like it" },
-            { "id": "o2", "text": "I hope you enjoy" },
-            { "id": "o3", "text": "Hope like you" }
+            {
+              "id": "o1",
+              "text": "I hope you like it"
+            },
+            {
+              "id": "o2",
+              "text": "I hope you enjoy"
+            },
+            {
+              "id": "o3",
+              "text": "Hope like you"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -655,9 +1170,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Oh, no deberías haberlo hecho!' (modismo de cortesía)?",
           "options": [
-            { "id": "o1", "text": "Oh, you shouldn't have!" },
-            { "id": "o2", "text": "Oh, no do that!" },
-            { "id": "o3", "text": "Why you did?" }
+            {
+              "id": "o1",
+              "text": "Oh, you shouldn't have!"
+            },
+            {
+              "id": "o2",
+              "text": "Oh, no do that!"
+            },
+            {
+              "id": "o3",
+              "text": "Why you did?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -667,9 +1191,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Es justo lo que quería!'?",
           "options": [
-            { "id": "o1", "text": "It's just what I wanted!" },
-            { "id": "o2", "text": "It is my want!" },
-            { "id": "o3", "text": "Perfect want!" }
+            {
+              "id": "o1",
+              "text": "It's just what I wanted!"
+            },
+            {
+              "id": "o2",
+              "text": "It is my want!"
+            },
+            {
+              "id": "o3",
+              "text": "Perfect want!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -679,9 +1212,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'muchas gracias'?",
           "options": [
-            { "id": "o1", "text": "Thank you very much" },
-            { "id": "o2", "text": "Thanks much" },
-            { "id": "o3", "text": "Many thanks" }
+            {
+              "id": "o1",
+              "text": "Thank you very much"
+            },
+            {
+              "id": "o2",
+              "text": "Thanks much"
+            },
+            {
+              "id": "o3",
+              "text": "Many thanks"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -691,13 +1233,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Muchas gracias por el regalo'",
           "options": [
-            { "id": "w1", "text": "the" },
-            { "id": "w2", "text": "present" },
-            { "id": "w3", "text": "you" },
-            { "id": "w4", "text": "for" },
-            { "id": "w5", "text": "Thank" }
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "present"
+            },
+            {
+              "id": "w3",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "Thank"
+            }
           ],
-          "correct_answer": ["w5", "w3", "w4", "w1", "w2"],
+          "correct_answer": [
+            "w5",
+            "w3",
+            "w4",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -705,12 +1268,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¡Es una sorpresa maravillosa!'",
           "options": [
-            { "id": "w1", "text": "a" },
-            { "id": "w2", "text": "wonderful" },
-            { "id": "w3", "text": "It's" },
-            { "id": "w4", "text": "surprise!" }
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "wonderful"
+            },
+            {
+              "id": "w3",
+              "text": "It's"
+            },
+            {
+              "id": "w4",
+              "text": "surprise!"
+            }
           ],
-          "correct_answer": ["w3", "w1", "w2", "w4"],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w2",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -734,9 +1314,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Te gusta?'?",
           "options": [
-            { "id": "o1", "text": "Do you like it?" },
-            { "id": "o2", "text": "You like it?" },
-            { "id": "o3", "text": "Like you?" }
+            {
+              "id": "o1",
+              "text": "Do you like it?"
+            },
+            {
+              "id": "o2",
+              "text": "You like it?"
+            },
+            {
+              "id": "o3",
+              "text": "Like you?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -746,9 +1335,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'me encanta'?",
           "options": [
-            { "id": "o1", "text": "I love it" },
-            { "id": "o2", "text": "Me encanta" },
-            { "id": "o3", "text": "I like very" }
+            {
+              "id": "o1",
+              "text": "I love it"
+            },
+            {
+              "id": "o2",
+              "text": "Me encanta"
+            },
+            {
+              "id": "o3",
+              "text": "I like very"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -758,9 +1356,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'es precioso'?",
           "options": [
-            { "id": "o1", "text": "It's beautiful / It's gorgeous" },
-            { "id": "o2", "text": "It is nice" },
-            { "id": "o3", "text": "Beautiful is" }
+            {
+              "id": "o1",
+              "text": "It's beautiful / It's gorgeous"
+            },
+            {
+              "id": "o2",
+              "text": "It is nice"
+            },
+            {
+              "id": "o3",
+              "text": "Beautiful is"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -770,9 +1377,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'combina con mi habitación'?",
           "options": [
-            { "id": "o1", "text": "It matches my room" },
-            { "id": "o2", "text": "It goes with room" },
-            { "id": "o3", "text": "Same room style" }
+            {
+              "id": "o1",
+              "text": "It matches my room"
+            },
+            {
+              "id": "o2",
+              "text": "It goes with room"
+            },
+            {
+              "id": "o3",
+              "text": "Same room style"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -782,9 +1398,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Dónde lo compraste?'?",
           "options": [
-            { "id": "o1", "text": "Where did you buy it?" },
-            { "id": "o2", "text": "Where you buy?" },
-            { "id": "o3", "text": "Location buy?" }
+            {
+              "id": "o1",
+              "text": "Where did you buy it?"
+            },
+            {
+              "id": "o2",
+              "text": "Where you buy?"
+            },
+            {
+              "id": "o3",
+              "text": "Location buy?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -794,9 +1419,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'es de una pequeña tienda en el centro'?",
           "options": [
-            { "id": "o1", "text": "It's from a small shop in the centre" },
-            { "id": "o2", "text": "From centre shop" },
-            { "id": "o3", "text": "Small shop centre" }
+            {
+              "id": "o1",
+              "text": "It's from a small shop in the centre"
+            },
+            {
+              "id": "o2",
+              "text": "From centre shop"
+            },
+            {
+              "id": "o3",
+              "text": "Small shop centre"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -806,16 +1440,49 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Lo quieres cambiar por otra cosa?'",
           "options": [
-            { "id": "w1", "text": "change" },
-            { "id": "w2", "text": "for" },
-            { "id": "w3", "text": "something" },
-            { "id": "w4", "text": "else?" },
-            { "id": "w5", "text": "Do" },
-            { "id": "w6", "text": "you" },
-            { "id": "w7", "text": "want" },
-            { "id": "w8", "text": "to" }
+            {
+              "id": "w1",
+              "text": "change"
+            },
+            {
+              "id": "w2",
+              "text": "for"
+            },
+            {
+              "id": "w3",
+              "text": "something"
+            },
+            {
+              "id": "w4",
+              "text": "else?"
+            },
+            {
+              "id": "w5",
+              "text": "Do"
+            },
+            {
+              "id": "w6",
+              "text": "you"
+            },
+            {
+              "id": "w7",
+              "text": "want"
+            },
+            {
+              "id": "w8",
+              "text": "to"
+            }
           ],
-          "correct_answer": ["w5", "w6", "w7", "w8", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -823,17 +1490,54 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Tengo el tique regalo si lo necesitas'",
           "options": [
-            { "id": "w1", "text": "the" },
-            { "id": "w2", "text": "gift" },
-            { "id": "w3", "text": "receipt" },
-            { "id": "w4", "text": "if" },
-            { "id": "w5", "text": "you" },
-            { "id": "w6", "text": "need" },
-            { "id": "w7", "text": "it" },
-            { "id": "w8", "text": "I" },
-            { "id": "w9", "text": "have" }
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "gift"
+            },
+            {
+              "id": "w3",
+              "text": "receipt"
+            },
+            {
+              "id": "w4",
+              "text": "if"
+            },
+            {
+              "id": "w5",
+              "text": "you"
+            },
+            {
+              "id": "w6",
+              "text": "need"
+            },
+            {
+              "id": "w7",
+              "text": "it"
+            },
+            {
+              "id": "w8",
+              "text": "I"
+            },
+            {
+              "id": "w9",
+              "text": "have"
+            }
           ],
-          "correct_answer": ["w8", "w9", "w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "correct_answer": [
+            "w8",
+            "w9",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -881,9 +1585,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pruébatelo'?",
           "options": [
-            { "id": "o1", "text": "Try it on" },
-            { "id": "o2", "text": "Test it" },
-            { "id": "o3", "text": "Put it" }
+            {
+              "id": "o1",
+              "text": "Try it on"
+            },
+            {
+              "id": "o2",
+              "text": "Test it"
+            },
+            {
+              "id": "o3",
+              "text": "Put it"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -898,31 +1611,138 @@
           "interaction_id": "U44_I76",
           "type": "word-search",
           "prompt_es": "Busca palabras relacionadas con regalos:",
-          "words": ["GIFT", "PRESENT", "WRAP", "BOX", "RIBBON", "CARD", "RECEIPT", "REFUND", "BUY", "SPEND"],
+          "words": [
+            "GIFT",
+            "PRESENT",
+            "WRAP",
+            "BOX",
+            "RIBBON",
+            "CARD",
+            "RECEIPT",
+            "REFUND",
+            "BUY",
+            "SPEND"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "GIFT", "clue": "Something you give" },
-            { "word": "PRESENT", "clue": "Another word for gift" },
-            { "word": "WRAP", "clue": "To cover a gift" },
-            { "word": "BOX", "clue": "Square container" },
-            { "word": "RIBBON", "clue": "Decorative string" },
-            { "word": "CARD", "clue": "Where you write a message" },
-            { "word": "RECEIPT", "clue": "Proof of purchase" },
-            { "word": "REFUND", "clue": "Money back" },
-            { "word": "BUY", "clue": "To purchase" },
-            { "word": "SPEND", "clue": "To use money" }
+            {
+              "word": "GIFT",
+              "clue": "Something you give"
+            },
+            {
+              "word": "PRESENT",
+              "clue": "Another word for gift"
+            },
+            {
+              "word": "WRAP",
+              "clue": "To cover a gift"
+            },
+            {
+              "word": "BOX",
+              "clue": "Square container"
+            },
+            {
+              "word": "RIBBON",
+              "clue": "Decorative string"
+            },
+            {
+              "word": "CARD",
+              "clue": "Where you write a message"
+            },
+            {
+              "word": "RECEIPT",
+              "clue": "Proof of purchase"
+            },
+            {
+              "word": "REFUND",
+              "clue": "Money back"
+            },
+            {
+              "word": "BUY",
+              "clue": "To purchase"
+            },
+            {
+              "word": "SPEND",
+              "clue": "To use money"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U44_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de compras:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "BUY", "clue": "To purchase", "direction": "across", "row": 0, "col": 0 },
-            { "word": "BOX", "clue": "Gift container", "direction": "down", "row": 0, "col": 0 },
-            { "word": "WRAP", "clue": "To cover gift", "direction": "across", "row": 2, "col": 0 },
-            { "word": "CARD", "clue": "Message paper", "direction": "down", "row": 0, "col": 3 }
+            {
+              "word": "CHOCOLATES",
+              "clue": "Traducción de: bombones",
+              "direction": "across",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "SUNGLASSES",
+              "clue": "Traducción de: gafas de sol",
+              "direction": "down",
+              "row": 2,
+              "col": 13
+            },
+            {
+              "word": "JEWELLERY",
+              "clue": "Traducción de: joyería",
+              "direction": "down",
+              "row": 6,
+              "col": 10
+            },
+            {
+              "word": "NECKLACE",
+              "clue": "Traducción de: Jewellery",
+              "direction": "across",
+              "row": 7,
+              "col": 3
+            },
+            {
+              "word": "UMBRELLA",
+              "clue": "Traducción de: paraguas",
+              "direction": "down",
+              "row": 1,
+              "col": 7
+            },
+            {
+              "word": "HANDBAG",
+              "clue": "Traducción de: bolso de mano",
+              "direction": "down",
+              "row": 5,
+              "col": 3
+            },
+            {
+              "word": "PERFUME",
+              "clue": "Traducción de: perfume",
+              "direction": "across",
+              "row": 1,
+              "col": 3
+            },
+            {
+              "word": "GLOVES",
+              "clue": "Traducción de: guantes",
+              "direction": "across",
+              "row": 12,
+              "col": 6
+            },
+            {
+              "word": "ROSES",
+              "clue": "Traducción de: Flowers",
+              "direction": "down",
+              "row": 1,
+              "col": 5
+            },
+            {
+              "word": "NOVEL",
+              "clue": "Traducción de: Books",
+              "direction": "across",
+              "row": 4,
+              "col": 13
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -955,9 +1775,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Está rebajado?'?",
           "options": [
-            { "id": "o1", "text": "Is it on sale / discounted?" },
-            { "id": "o2", "text": "Price low?" },
-            { "id": "o3", "text": "Sale is it?" }
+            {
+              "id": "o1",
+              "text": "Is it on sale / discounted?"
+            },
+            {
+              "id": "o2",
+              "text": "Price low?"
+            },
+            {
+              "id": "o3",
+              "text": "Sale is it?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -967,9 +1796,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'puedo pagar en efectivo'?",
           "options": [
-            { "id": "o1", "text": "Can I pay in cash?" },
-            { "id": "o2", "text": "Cash please?" },
-            { "id": "o3", "text": "Money pay?" }
+            {
+              "id": "o1",
+              "text": "Can I pay in cash?"
+            },
+            {
+              "id": "o2",
+              "text": "Cash please?"
+            },
+            {
+              "id": "o3",
+              "text": "Money pay?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -979,9 +1817,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'monedero / billetera'?",
           "options": [
-            { "id": "o1", "text": "Wallet / Purse" },
-            { "id": "o2", "text": "Money bag" },
-            { "id": "o3", "text": "Card holder" }
+            {
+              "id": "o1",
+              "text": "Wallet / Purse"
+            },
+            {
+              "id": "o2",
+              "text": "Money bag"
+            },
+            {
+              "id": "o3",
+              "text": "Card holder"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -991,9 +1838,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bolso de mano'?",
           "options": [
-            { "id": "o1", "text": "Handbag" },
-            { "id": "o2", "text": "Arm bag" },
-            { "id": "o3", "text": "Small bag" }
+            {
+              "id": "o1",
+              "text": "Handbag"
+            },
+            {
+              "id": "o2",
+              "text": "Arm bag"
+            },
+            {
+              "id": "o3",
+              "text": "Small bag"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1003,9 +1859,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reloj de pulsera'?",
           "options": [
-            { "id": "o1", "text": "Watch" },
-            { "id": "o2", "text": "Clock" },
-            { "id": "o3", "text": "Timer" }
+            {
+              "id": "o1",
+              "text": "Watch"
+            },
+            {
+              "id": "o2",
+              "text": "Clock"
+            },
+            {
+              "id": "o3",
+              "text": "Timer"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1015,9 +1880,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gafas de sol'?",
           "options": [
-            { "id": "o1", "text": "Sunglasses" },
-            { "id": "o2", "text": "Sun eyes" },
-            { "id": "o3", "text": "Dark glasses" }
+            {
+              "id": "o1",
+              "text": "Sunglasses"
+            },
+            {
+              "id": "o2",
+              "text": "Sun eyes"
+            },
+            {
+              "id": "o3",
+              "text": "Dark glasses"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1027,9 +1901,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'un cinturón'?",
           "options": [
-            { "id": "o1", "text": "A belt" },
-            { "id": "o2", "text": "A strap" },
-            { "id": "o3", "text": "A tie" }
+            {
+              "id": "o1",
+              "text": "A belt"
+            },
+            {
+              "id": "o2",
+              "text": "A strap"
+            },
+            {
+              "id": "o3",
+              "text": "A tie"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1039,9 +1922,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'una bufanda'?",
           "options": [
-            { "id": "o1", "text": "A scarf" },
-            { "id": "o2", "text": "A neck wrap" },
-            { "id": "o3", "text": "A towel" }
+            {
+              "id": "o1",
+              "text": "A scarf"
+            },
+            {
+              "id": "o2",
+              "text": "A neck wrap"
+            },
+            {
+              "id": "o3",
+              "text": "A towel"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1051,9 +1943,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'guantes'?",
           "options": [
-            { "id": "o1", "text": "Gloves" },
-            { "id": "o2", "text": "Hands" },
-            { "id": "o3", "text": "Fingers" }
+            {
+              "id": "o1",
+              "text": "Gloves"
+            },
+            {
+              "id": "o2",
+              "text": "Hands"
+            },
+            {
+              "id": "o3",
+              "text": "Fingers"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1063,9 +1964,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'paraguas'?",
           "options": [
-            { "id": "o1", "text": "Umbrella" },
-            { "id": "o2", "text": "Rain stop" },
-            { "id": "o3", "text": "Water protection" }
+            {
+              "id": "o1",
+              "text": "Umbrella"
+            },
+            {
+              "id": "o2",
+              "text": "Rain stop"
+            },
+            {
+              "id": "o3",
+              "text": "Water protection"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1075,9 +1985,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Lo tienen en otro color?'?",
           "options": [
-            { "id": "o1", "text": "Do you have it in another colour?" },
-            { "id": "o2", "text": "Other color have?" },
-            { "id": "o3", "text": "Different color?" }
+            {
+              "id": "o1",
+              "text": "Do you have it in another colour?"
+            },
+            {
+              "id": "o2",
+              "text": "Other color have?"
+            },
+            {
+              "id": "o3",
+              "text": "Different color?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1087,9 +2006,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Hay alguna oferta?'?",
           "options": [
-            { "id": "o1", "text": "Is there an offer / deal?" },
-            { "id": "o2", "text": "Cheap things today?" },
-            { "id": "o3", "text": "Offers have?" }
+            {
+              "id": "o1",
+              "text": "Is there an offer / deal?"
+            },
+            {
+              "id": "o2",
+              "text": "Cheap things today?"
+            },
+            {
+              "id": "o3",
+              "text": "Offers have?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1099,9 +2027,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'compra uno y llévate otro gratis'?",
           "options": [
-            { "id": "o1", "text": "Buy one get one free" },
-            { "id": "o2", "text": "Two for one" },
-            { "id": "o3", "text": "Gift one" }
+            {
+              "id": "o1",
+              "text": "Buy one get one free"
+            },
+            {
+              "id": "o2",
+              "text": "Two for one"
+            },
+            {
+              "id": "o3",
+              "text": "Gift one"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1111,9 +2048,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está a mitad de precio'?",
           "options": [
-            { "id": "o1", "text": "It's half price" },
-            { "id": "o2", "text": "It is fifty percent" },
-            { "id": "o3", "text": "Half cost" }
+            {
+              "id": "o1",
+              "text": "It's half price"
+            },
+            {
+              "id": "o2",
+              "text": "It is fifty percent"
+            },
+            {
+              "id": "o3",
+              "text": "Half cost"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1123,9 +2069,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿A qué hora cierran?'?",
           "options": [
-            { "id": "o1", "text": "What time do you close?" },
-            { "id": "o2", "text": "When end work?" },
-            { "id": "o3", "text": "Close time what?" }
+            {
+              "id": "o1",
+              "text": "What time do you close?"
+            },
+            {
+              "id": "o2",
+              "text": "When end work?"
+            },
+            {
+              "id": "o3",
+              "text": "Close time what?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1135,9 +2090,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cerramos a las nueve'?",
           "options": [
-            { "id": "o1", "text": "We close at nine o'clock" },
-            { "id": "o2", "text": "Nine close" },
-            { "id": "o3", "text": "We end at nine" }
+            {
+              "id": "o1",
+              "text": "We close at nine o'clock"
+            },
+            {
+              "id": "o2",
+              "text": "Nine close"
+            },
+            {
+              "id": "o3",
+              "text": "We end at nine"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1147,9 +2111,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Venden tarjetas de felicitación?'?",
           "options": [
-            { "id": "o1", "text": "Do you sell greeting cards?" },
-            { "id": "o2", "text": "Have cards for birthday?" },
-            { "id": "o3", "text": "Sell cards?" }
+            {
+              "id": "o1",
+              "text": "Do you sell greeting cards?"
+            },
+            {
+              "id": "o2",
+              "text": "Have cards for birthday?"
+            },
+            {
+              "id": "o3",
+              "text": "Sell cards?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1159,9 +2132,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gracias por su ayuda'?",
           "options": [
-            { "id": "o1", "text": "Thank you for your help" },
-            { "id": "o2", "text": "Thanks helping" },
-            { "id": "o3", "text": "Help thanks" }
+            {
+              "id": "o1",
+              "text": "Thank you for your help"
+            },
+            {
+              "id": "o2",
+              "text": "Thanks helping"
+            },
+            {
+              "id": "o3",
+              "text": "Help thanks"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1171,9 +2153,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'que tenga un buen día'?",
           "options": [
-            { "id": "o1", "text": "Have a nice day" },
-            { "id": "o2", "text": "Good day you" },
-            { "id": "o3", "text": "Enjoy day" }
+            {
+              "id": "o1",
+              "text": "Have a nice day"
+            },
+            {
+              "id": "o2",
+              "text": "Good day you"
+            },
+            {
+              "id": "o3",
+              "text": "Enjoy day"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1183,9 +2174,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'igualmente'?",
           "options": [
-            { "id": "o1", "text": "You too / Same to you" },
-            { "id": "o2", "text": "Equal" },
-            { "id": "o3", "text": "Also you" }
+            {
+              "id": "o1",
+              "text": "You too / Same to you"
+            },
+            {
+              "id": "o2",
+              "text": "Equal"
+            },
+            {
+              "id": "o3",
+              "text": "Also you"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"

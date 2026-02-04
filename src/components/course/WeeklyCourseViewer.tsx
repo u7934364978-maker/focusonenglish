@@ -288,7 +288,7 @@ export default function WeeklyCourseViewer({ weekData }: WeeklyCourseViewerProps
                           </div>
                           <div>
                             <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">
-                              {activity.type.replace('_', ' ')}
+                              {activity.type?.replace('_', ' ') || 'Activity'}
                             </div>
                             <h3 className={`font-bold transition-colors ${
                               isCompleted ? 'text-green-700' : 'text-slate-900 group-hover:text-coral-600'

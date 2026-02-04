@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Me gustaría reservar una mesa para cuatro'?",
           "options": [
-            { "id": "o1", "text": "I'd like to book a table for four" },
-            { "id": "o2", "text": "I want a table with four" },
-            { "id": "o3", "text": "Reserved table for four" }
+            {
+              "id": "o1",
+              "text": "I'd like to book a table for four"
+            },
+            {
+              "id": "o2",
+              "text": "I want a table with four"
+            },
+            {
+              "id": "o3",
+              "text": "Reserved table for four"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Podemos tener una mesa cerca de la ventana?'?",
           "options": [
-            { "id": "o1", "text": "Can we have a table by the window?" },
-            { "id": "o2", "text": "Table window possible?" },
-            { "id": "o3", "text": "We want window table" }
+            {
+              "id": "o1",
+              "text": "Can we have a table by the window?"
+            },
+            {
+              "id": "o2",
+              "text": "Table window possible?"
+            },
+            {
+              "id": "o3",
+              "text": "We want window table"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Es para una ocasión especial?'?",
           "options": [
-            { "id": "o1", "text": "Is it for a special occasion?" },
-            { "id": "o2", "text": "Special day today?" },
-            { "id": "o3", "text": "It is special?" }
+            {
+              "id": "o1",
+              "text": "Is it for a special occasion?"
+            },
+            {
+              "id": "o2",
+              "text": "Special day today?"
+            },
+            {
+              "id": "o3",
+              "text": "It is special?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'es el cumpleaños de mi esposa'?",
           "options": [
-            { "id": "o1", "text": "It's my wife's birthday" },
-            { "id": "o2", "text": "Is birthday wife" },
-            { "id": "o3", "text": "My wife have birthday" }
+            {
+              "id": "o1",
+              "text": "It's my wife's birthday"
+            },
+            {
+              "id": "o2",
+              "text": "Is birthday wife"
+            },
+            {
+              "id": "o3",
+              "text": "My wife have birthday"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Tienen opciones vegetarianas?'?",
           "options": [
-            { "id": "o1", "text": "Do you have any vegetarian options?" },
-            { "id": "o2", "text": "Have you vegetarian?" },
-            { "id": "o3", "text": "Vegetarian food here?" }
+            {
+              "id": "o1",
+              "text": "Do you have any vegetarian options?"
+            },
+            {
+              "id": "o2",
+              "text": "Have you vegetarian?"
+            },
+            {
+              "id": "o3",
+              "text": "Vegetarian food here?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Soy alérgico a los frutos secos'?",
           "options": [
-            { "id": "o1", "text": "I'm allergic to nuts" },
-            { "id": "o2", "text": "I have nut allergy" },
-            { "id": "o3", "text": "Nuts are bad for me" }
+            {
+              "id": "o1",
+              "text": "I'm allergic to nuts"
+            },
+            {
+              "id": "o2",
+              "text": "I have nut allergy"
+            },
+            {
+              "id": "o3",
+              "text": "Nuts are bad for me"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿A qué hora le gustaría venir?'?",
           "options": [
-            { "id": "o1", "text": "What time would you like to come?" },
-            { "id": "o2", "text": "When you come?" },
-            { "id": "o3", "text": "Time you want?" }
+            {
+              "id": "o1",
+              "text": "What time would you like to come?"
+            },
+            {
+              "id": "o2",
+              "text": "When you come?"
+            },
+            {
+              "id": "o3",
+              "text": "Time you want?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -101,15 +164,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Me gustaría reservar para las ocho de la tarde'",
           "options": [
-            { "id": "w1", "text": "at" },
-            { "id": "w2", "text": "like" },
-            { "id": "w3", "text": "8" },
-            { "id": "w4", "text": "pm" },
-            { "id": "w5", "text": "book" },
-            { "id": "w6", "text": "I'd" },
-            { "id": "w7", "text": "to" }
+            {
+              "id": "w1",
+              "text": "at"
+            },
+            {
+              "id": "w2",
+              "text": "like"
+            },
+            {
+              "id": "w3",
+              "text": "8"
+            },
+            {
+              "id": "w4",
+              "text": "pm"
+            },
+            {
+              "id": "w5",
+              "text": "book"
+            },
+            {
+              "id": "w6",
+              "text": "I'd"
+            },
+            {
+              "id": "w7",
+              "text": "to"
+            }
           ],
-          "correct_answer": ["w6", "w2", "w7", "w5", "w1", "w3", "w4"],
+          "correct_answer": [
+            "w6",
+            "w2",
+            "w7",
+            "w5",
+            "w1",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -117,15 +209,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Quedan mesas libres para hoy?'",
           "options": [
-            { "id": "w1", "text": "any" },
-            { "id": "w2", "text": "for" },
-            { "id": "w3", "text": "today?" },
-            { "id": "w4", "text": "there" },
-            { "id": "w5", "text": "tables" },
-            { "id": "w6", "text": "Are" },
-            { "id": "w7", "text": "free" }
+            {
+              "id": "w1",
+              "text": "any"
+            },
+            {
+              "id": "w2",
+              "text": "for"
+            },
+            {
+              "id": "w3",
+              "text": "today?"
+            },
+            {
+              "id": "w4",
+              "text": "there"
+            },
+            {
+              "id": "w5",
+              "text": "tables"
+            },
+            {
+              "id": "w6",
+              "text": "Are"
+            },
+            {
+              "id": "w7",
+              "text": "free"
+            }
           ],
-          "correct_answer": ["w6", "w4", "w1", "w7", "w5", "w2", "w3"],
+          "correct_answer": [
+            "w6",
+            "w4",
+            "w1",
+            "w7",
+            "w5",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -149,9 +270,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lo siento, estamos completos'?",
           "options": [
-            { "id": "o1", "text": "I'm sorry, we're fully booked" },
-            { "id": "o2", "text": "Sorry, full here" },
-            { "id": "o3", "text": "No more tables" }
+            {
+              "id": "o1",
+              "text": "I'm sorry, we're fully booked"
+            },
+            {
+              "id": "o2",
+              "text": "Sorry, full here"
+            },
+            {
+              "id": "o3",
+              "text": "No more tables"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -161,9 +291,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Hay una lista de espera?'?",
           "options": [
-            { "id": "o1", "text": "Is there a waiting list?" },
-            { "id": "o2", "text": "Wait list have?" },
-            { "id": "o3", "text": "Can I wait?" }
+            {
+              "id": "o1",
+              "text": "Is there a waiting list?"
+            },
+            {
+              "id": "o2",
+              "text": "Wait list have?"
+            },
+            {
+              "id": "o3",
+              "text": "Can I wait?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -173,9 +312,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'les avisaremos cuando su mesa esté lista'?",
           "options": [
-            { "id": "o1", "text": "We'll let you know when your table is ready" },
-            { "id": "o2", "text": "Call you table ready" },
-            { "id": "o3", "text": "Ready table tell you" }
+            {
+              "id": "o1",
+              "text": "We'll let you know when your table is ready"
+            },
+            {
+              "id": "o2",
+              "text": "Call you table ready"
+            },
+            {
+              "id": "o3",
+              "text": "Ready table tell you"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -185,9 +333,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedo tomar su abrigo?'?",
           "options": [
-            { "id": "o1", "text": "May I take your coat?" },
-            { "id": "o2", "text": "Can I have coat?" },
-            { "id": "o3", "text": "Coat please?" }
+            {
+              "id": "o1",
+              "text": "May I take your coat?"
+            },
+            {
+              "id": "o2",
+              "text": "Can I have coat?"
+            },
+            {
+              "id": "o3",
+              "text": "Coat please?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -197,9 +354,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'síganme, por favor'?",
           "options": [
-            { "id": "o1", "text": "Follow me, please" },
-            { "id": "o2", "text": "Come with me" },
-            { "id": "o3", "text": "Follow this way" }
+            {
+              "id": "o1",
+              "text": "Follow me, please"
+            },
+            {
+              "id": "o2",
+              "text": "Come with me"
+            },
+            {
+              "id": "o3",
+              "text": "Follow this way"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -209,9 +375,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aquí tienen el menú'?",
           "options": [
-            { "id": "o1", "text": "Here is the menu" },
-            { "id": "o2", "text": "This the menu" },
-            { "id": "o3", "text": "Menu here" }
+            {
+              "id": "o1",
+              "text": "Here is the menu"
+            },
+            {
+              "id": "o2",
+              "text": "This the menu"
+            },
+            {
+              "id": "o3",
+              "text": "Menu here"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -221,16 +396,49 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Le gustaría ver la carta de vinos?'",
           "options": [
-            { "id": "w1", "text": "see" },
-            { "id": "w2", "text": "would" },
-            { "id": "w3", "text": "wine" },
-            { "id": "w4", "text": "you" },
-            { "id": "w5", "text": "list?" },
-            { "id": "w6", "text": "like" },
-            { "id": "w7", "text": "to" },
-            { "id": "w8", "text": "the" }
+            {
+              "id": "w1",
+              "text": "see"
+            },
+            {
+              "id": "w2",
+              "text": "would"
+            },
+            {
+              "id": "w3",
+              "text": "wine"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            },
+            {
+              "id": "w5",
+              "text": "list?"
+            },
+            {
+              "id": "w6",
+              "text": "like"
+            },
+            {
+              "id": "w7",
+              "text": "to"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            }
           ],
-          "correct_answer": ["w2", "w4", "w6", "w7", "w1", "w8", "w3", "w5"],
+          "correct_answer": [
+            "w2",
+            "w4",
+            "w6",
+            "w7",
+            "w1",
+            "w8",
+            "w3",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -238,13 +446,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Tienen alguna recomendación?'",
           "options": [
-            { "id": "w1", "text": "any" },
-            { "id": "w2", "text": "have" },
-            { "id": "w3", "text": "Do" },
-            { "id": "w4", "text": "you" },
-            { "id": "w5", "text": "recommendations?" }
+            {
+              "id": "w1",
+              "text": "any"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "Do"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            },
+            {
+              "id": "w5",
+              "text": "recommendations?"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w2", "w1", "w5"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w2",
+            "w1",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -268,11 +497,27 @@
           "type": "matching",
           "prompt_es": "Une las frases con su intención:",
           "pairs": [
-            { "id": "p1", "left": "A table for two", "right": "Reserving" },
-            { "id": "p2", "left": "Follow me", "right": "Seating" },
-            { "id": "p3", "left": "Allergic to nuts", "right": "Dietary need" }
+            {
+              "id": "p1",
+              "left": "A table for two",
+              "right": "Reserving"
+            },
+            {
+              "id": "p2",
+              "left": "Follow me",
+              "right": "Seating"
+            },
+            {
+              "id": "p3",
+              "left": "Allergic to nuts",
+              "right": "Dietary need"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "functional_language"
         },
         {
@@ -280,9 +525,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedo traerles algo de beber mientras esperan?'?",
           "options": [
-            { "id": "o1", "text": "Can I get you some drinks while you wait?" },
-            { "id": "o2", "text": "You want drinks for wait?" },
-            { "id": "o3", "text": "Drinks wait time?" }
+            {
+              "id": "o1",
+              "text": "Can I get you some drinks while you wait?"
+            },
+            {
+              "id": "o2",
+              "text": "You want drinks for wait?"
+            },
+            {
+              "id": "o3",
+              "text": "Drinks wait time?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -292,9 +546,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estamos listos para pedir'?",
           "options": [
-            { "id": "o1", "text": "We're ready to order" },
-            { "id": "o2", "text": "Ready order now" },
-            { "id": "o3", "text": "We order please" }
+            {
+              "id": "o1",
+              "text": "We're ready to order"
+            },
+            {
+              "id": "o2",
+              "text": "Ready order now"
+            },
+            {
+              "id": "o3",
+              "text": "We order please"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -304,9 +567,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuál es el plato del día?'?",
           "options": [
-            { "id": "o1", "text": "What is the special of the day?" },
-            { "id": "o2", "text": "Special food today?" },
-            { "id": "o3", "text": "What day plate?" }
+            {
+              "id": "o1",
+              "text": "What is the special of the day?"
+            },
+            {
+              "id": "o2",
+              "text": "Special food today?"
+            },
+            {
+              "id": "o3",
+              "text": "What day plate?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -322,9 +594,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué lleva este plato?'?",
           "options": [
-            { "id": "o1", "text": "What's in this dish?" },
-            { "id": "o2", "text": "Which ingredients?" },
-            { "id": "o3", "text": "What food inside?" }
+            {
+              "id": "o1",
+              "text": "What's in this dish?"
+            },
+            {
+              "id": "o2",
+              "text": "Which ingredients?"
+            },
+            {
+              "id": "o3",
+              "text": "What food inside?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -334,9 +615,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'viene con patatas fritas o ensalada'?",
           "options": [
-            { "id": "o1", "text": "It comes with chips or salad" },
-            { "id": "o2", "text": "Included chips salad" },
-            { "id": "o3", "text": "Side chips or salad" }
+            {
+              "id": "o1",
+              "text": "It comes with chips or salad"
+            },
+            {
+              "id": "o2",
+              "text": "Included chips salad"
+            },
+            {
+              "id": "o3",
+              "text": "Side chips or salad"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -346,9 +636,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'carne de res'?",
           "options": [
-            { "id": "o1", "text": "Beef" },
-            { "id": "o2", "text": "Cow meat" },
-            { "id": "o3", "text": "Steak meat" }
+            {
+              "id": "o1",
+              "text": "Beef"
+            },
+            {
+              "id": "o2",
+              "text": "Cow meat"
+            },
+            {
+              "id": "o3",
+              "text": "Steak meat"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -358,9 +657,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cordero'?",
           "options": [
-            { "id": "o1", "text": "Lamb" },
-            { "id": "o2", "text": "Sheep meat" },
-            { "id": "o3", "text": "Goat" }
+            {
+              "id": "o1",
+              "text": "Lamb"
+            },
+            {
+              "id": "o2",
+              "text": "Sheep meat"
+            },
+            {
+              "id": "o3",
+              "text": "Goat"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -370,9 +678,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mariscos'?",
           "options": [
-            { "id": "o1", "text": "Seafood" },
-            { "id": "o2", "text": "Sea meat" },
-            { "id": "o3", "text": "Fish group" }
+            {
+              "id": "o1",
+              "text": "Seafood"
+            },
+            {
+              "id": "o2",
+              "text": "Sea meat"
+            },
+            {
+              "id": "o3",
+              "text": "Fish group"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -382,9 +699,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gambas / camarones'?",
           "options": [
-            { "id": "o1", "text": "Prawns / Shrimp" },
-            { "id": "o2", "text": "Fish small" },
-            { "id": "o3", "text": "Sea worms" }
+            {
+              "id": "o1",
+              "text": "Prawns / Shrimp"
+            },
+            {
+              "id": "o2",
+              "text": "Fish small"
+            },
+            {
+              "id": "o3",
+              "text": "Sea worms"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -394,9 +720,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'a la parrilla'?",
           "options": [
-            { "id": "o1", "text": "Grilled" },
-            { "id": "o2", "text": "Burned" },
-            { "id": "o3", "text": "Roasted" }
+            {
+              "id": "o1",
+              "text": "Grilled"
+            },
+            {
+              "id": "o2",
+              "text": "Burned"
+            },
+            {
+              "id": "o3",
+              "text": "Roasted"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -406,9 +741,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'al horno'?",
           "options": [
-            { "id": "o1", "text": "Baked / Roasted" },
-            { "id": "o2", "text": "In oven" },
-            { "id": "o3", "text": "Fire cooked" }
+            {
+              "id": "o1",
+              "text": "Baked / Roasted"
+            },
+            {
+              "id": "o2",
+              "text": "In oven"
+            },
+            {
+              "id": "o3",
+              "text": "Fire cooked"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -418,9 +762,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'al vapor'?",
           "options": [
-            { "id": "o1", "text": "Steamed" },
-            { "id": "o2", "text": "Water air" },
-            { "id": "o3", "text": "Hot water" }
+            {
+              "id": "o1",
+              "text": "Steamed"
+            },
+            {
+              "id": "o2",
+              "text": "Water air"
+            },
+            {
+              "id": "o3",
+              "text": "Hot water"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -430,9 +783,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'frito'?",
           "options": [
-            { "id": "o1", "text": "Fried" },
-            { "id": "o2", "text": "Oil cooked" },
-            { "id": "o3", "text": "Hot oil" }
+            {
+              "id": "o1",
+              "text": "Fried"
+            },
+            {
+              "id": "o2",
+              "text": "Oil cooked"
+            },
+            {
+              "id": "o3",
+              "text": "Hot oil"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -442,9 +804,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'poco hecho' (carne)?",
           "options": [
-            { "id": "o1", "text": "Rare" },
-            { "id": "o2", "text": "Small cooked" },
-            { "id": "o3", "text": "Little done" }
+            {
+              "id": "o1",
+              "text": "Rare"
+            },
+            {
+              "id": "o2",
+              "text": "Small cooked"
+            },
+            {
+              "id": "o3",
+              "text": "Little done"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -454,9 +825,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'al punto' (carne)?",
           "options": [
-            { "id": "o1", "text": "Medium" },
-            { "id": "o2", "text": "Middle" },
-            { "id": "o3", "text": "Half way" }
+            {
+              "id": "o1",
+              "text": "Medium"
+            },
+            {
+              "id": "o2",
+              "text": "Middle"
+            },
+            {
+              "id": "o3",
+              "text": "Half way"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -466,9 +846,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'muy hecho' (carne)?",
           "options": [
-            { "id": "o1", "text": "Well-done" },
-            { "id": "o2", "text": "Full cooked" },
-            { "id": "o3", "text": "Cooked lot" }
+            {
+              "id": "o1",
+              "text": "Well-done"
+            },
+            {
+              "id": "o2",
+              "text": "Full cooked"
+            },
+            {
+              "id": "o3",
+              "text": "Cooked lot"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -478,15 +867,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cómo le gustaría el filete?'",
           "options": [
-            { "id": "w1", "text": "steak" },
-            { "id": "w2", "text": "How" },
-            { "id": "w3", "text": "like" },
-            { "id": "w4", "text": "your" },
-            { "id": "w5", "text": "cooked?" },
-            { "id": "w6", "text": "would" },
-            { "id": "w7", "text": "you" }
+            {
+              "id": "w1",
+              "text": "steak"
+            },
+            {
+              "id": "w2",
+              "text": "How"
+            },
+            {
+              "id": "w3",
+              "text": "like"
+            },
+            {
+              "id": "w4",
+              "text": "your"
+            },
+            {
+              "id": "w5",
+              "text": "cooked?"
+            },
+            {
+              "id": "w6",
+              "text": "would"
+            },
+            {
+              "id": "w7",
+              "text": "you"
+            }
           ],
-          "correct_answer": ["w2", "w6", "w7", "w3", "w4", "w1", "w5"],
+          "correct_answer": [
+            "w2",
+            "w6",
+            "w7",
+            "w3",
+            "w4",
+            "w1",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -510,9 +928,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'guarnición'?",
           "options": [
-            { "id": "o1", "text": "Side dish" },
-            { "id": "o2", "text": "Extra food" },
-            { "id": "o3", "text": "Small plate" }
+            {
+              "id": "o1",
+              "text": "Side dish"
+            },
+            {
+              "id": "o2",
+              "text": "Extra food"
+            },
+            {
+              "id": "o3",
+              "text": "Small plate"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -522,9 +949,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedo cambiar las patatas por arroz?'?",
           "options": [
-            { "id": "o1", "text": "Can I swap the chips for rice?" },
-            { "id": "o2", "text": "Change chips with rice?" },
-            { "id": "o3", "text": "Rice instead chips?" }
+            {
+              "id": "o1",
+              "text": "Can I swap the chips for rice?"
+            },
+            {
+              "id": "o2",
+              "text": "Change chips with rice?"
+            },
+            {
+              "id": "o3",
+              "text": "Rice instead chips?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -534,9 +970,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'la salsa aparte, por favor'?",
           "options": [
-            { "id": "o1", "text": "Sauce on the side, please" },
-            { "id": "o2", "text": "Sauce separately" },
-            { "id": "o3", "text": "Extra sauce please" }
+            {
+              "id": "o1",
+              "text": "Sauce on the side, please"
+            },
+            {
+              "id": "o2",
+              "text": "Sauce separately"
+            },
+            {
+              "id": "o3",
+              "text": "Extra sauce please"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -578,11 +1023,27 @@
           "type": "matching",
           "prompt_es": "Une el sabor con el alimento:",
           "pairs": [
-            { "id": "p1", "left": "Sweet", "right": "Cake" },
-            { "id": "p2", "left": "Salty", "right": "Crisps" },
-            { "id": "p3", "left": "Spicy", "right": "Chilli" }
+            {
+              "id": "p1",
+              "left": "Sweet",
+              "right": "Cake"
+            },
+            {
+              "id": "p2",
+              "left": "Salty",
+              "right": "Crisps"
+            },
+            {
+              "id": "p3",
+              "left": "Spicy",
+              "right": "Chilli"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -590,9 +1051,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'condimentos'?",
           "options": [
-            { "id": "o1", "text": "Condiments / Seasoning" },
-            { "id": "o2", "text": "Salt and sugar" },
-            { "id": "o3", "text": "Food extras" }
+            {
+              "id": "o1",
+              "text": "Condiments / Seasoning"
+            },
+            {
+              "id": "o2",
+              "text": "Salt and sugar"
+            },
+            {
+              "id": "o3",
+              "text": "Food extras"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -608,9 +1078,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'esto no es lo que pedí'?",
           "options": [
-            { "id": "o1", "text": "This isn't what I ordered" },
-            { "id": "o2", "text": "I no order this" },
-            { "id": "o3", "text": "Wrong food here" }
+            {
+              "id": "o1",
+              "text": "This isn't what I ordered"
+            },
+            {
+              "id": "o2",
+              "text": "I no order this"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong food here"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -620,9 +1099,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mi comida está fría'?",
           "options": [
-            { "id": "o1", "text": "My food is cold" },
-            { "id": "o2", "text": "Food cold me" },
-            { "id": "o3", "text": "Cold plate" }
+            {
+              "id": "o1",
+              "text": "My food is cold"
+            },
+            {
+              "id": "o2",
+              "text": "Food cold me"
+            },
+            {
+              "id": "o3",
+              "text": "Cold plate"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -632,9 +1120,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Podría calentarlo un poco más, por favor?'?",
           "options": [
-            { "id": "o1", "text": "Could you heat this up a bit more, please?" },
-            { "id": "o2", "text": "Hot please?" },
-            { "id": "o3", "text": "More heat food" }
+            {
+              "id": "o1",
+              "text": "Could you heat this up a bit more, please?"
+            },
+            {
+              "id": "o2",
+              "text": "Hot please?"
+            },
+            {
+              "id": "o3",
+              "text": "More heat food"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -644,9 +1141,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'falta un cuchillo'?",
           "options": [
-            { "id": "o1", "text": "There's a knife missing" },
-            { "id": "o2", "text": "No knife here" },
-            { "id": "o3", "text": "I want knife" }
+            {
+              "id": "o1",
+              "text": "There's a knife missing"
+            },
+            {
+              "id": "o2",
+              "text": "No knife here"
+            },
+            {
+              "id": "o3",
+              "text": "I want knife"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -656,9 +1162,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Me puede traer otra servilleta?'?",
           "options": [
-            { "id": "o1", "text": "Can I have another napkin?" },
-            { "id": "o2", "text": "More paper please" },
-            { "id": "o3", "text": "Napkin again" }
+            {
+              "id": "o1",
+              "text": "Can I have another napkin?"
+            },
+            {
+              "id": "o2",
+              "text": "More paper please"
+            },
+            {
+              "id": "o3",
+              "text": "Napkin again"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -668,9 +1183,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'disculpe la espera'?",
           "options": [
-            { "id": "o1", "text": "Sorry for the wait" },
-            { "id": "o2", "text": "Sorry waiting" },
-            { "id": "o3", "text": "Wait sorry" }
+            {
+              "id": "o1",
+              "text": "Sorry for the wait"
+            },
+            {
+              "id": "o2",
+              "text": "Sorry waiting"
+            },
+            {
+              "id": "o3",
+              "text": "Wait sorry"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -680,9 +1204,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estará listo en un momento'?",
           "options": [
-            { "id": "o1", "text": "It'll be ready in a moment" },
-            { "id": "o2", "text": "Ready soon" },
-            { "id": "o3", "text": "Coming now" }
+            {
+              "id": "o1",
+              "text": "It'll be ready in a moment"
+            },
+            {
+              "id": "o2",
+              "text": "Ready soon"
+            },
+            {
+              "id": "o3",
+              "text": "Coming now"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -692,13 +1225,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Le gustaría algo más?'",
           "options": [
-            { "id": "w1", "text": "anything" },
-            { "id": "w2", "text": "Would" },
-            { "id": "w3", "text": "else?" },
-            { "id": "w4", "text": "you" },
-            { "id": "w5", "text": "like" }
+            {
+              "id": "w1",
+              "text": "anything"
+            },
+            {
+              "id": "w2",
+              "text": "Would"
+            },
+            {
+              "id": "w3",
+              "text": "else?"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            },
+            {
+              "id": "w5",
+              "text": "like"
+            }
           ],
-          "correct_answer": ["w2", "w4", "w5", "w1", "w3"],
+          "correct_answer": [
+            "w2",
+            "w4",
+            "w5",
+            "w1",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -706,14 +1260,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Puedo ver la carta de postres?'",
           "options": [
-            { "id": "w1", "text": "dessert" },
-            { "id": "w2", "text": "see" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "menu?" },
-            { "id": "w5", "text": "Can" },
-            { "id": "w6", "text": "I" }
+            {
+              "id": "w1",
+              "text": "dessert"
+            },
+            {
+              "id": "w2",
+              "text": "see"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "menu?"
+            },
+            {
+              "id": "w5",
+              "text": "Can"
+            },
+            {
+              "id": "w6",
+              "text": "I"
+            }
           ],
-          "correct_answer": ["w5", "w6", "w2", "w3", "w1", "w4"],
+          "correct_answer": [
+            "w5",
+            "w6",
+            "w2",
+            "w3",
+            "w1",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -737,9 +1316,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Podemos pedir la cuenta, por favor?'?",
           "options": [
-            { "id": "o1", "text": "Can we have the bill, please?" },
-            { "id": "o2", "text": "Check please" },
-            { "id": "o3", "text": "Account please" }
+            {
+              "id": "o1",
+              "text": "Can we have the bill, please?"
+            },
+            {
+              "id": "o2",
+              "text": "Check please"
+            },
+            {
+              "id": "o3",
+              "text": "Account please"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -749,9 +1337,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Está incluida la propina?'?",
           "options": [
-            { "id": "o1", "text": "Is service included?" },
-            { "id": "o2", "text": "Tip included?" },
-            { "id": "o3", "text": "Extra money here?" }
+            {
+              "id": "o1",
+              "text": "Is service included?"
+            },
+            {
+              "id": "o2",
+              "text": "Tip included?"
+            },
+            {
+              "id": "o3",
+              "text": "Extra money here?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -761,9 +1358,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'una propina'?",
           "options": [
-            { "id": "o1", "text": "A tip" },
-            { "id": "o2", "text": "A gift" },
-            { "id": "o3", "text": "Extra cash" }
+            {
+              "id": "o1",
+              "text": "A tip"
+            },
+            {
+              "id": "o2",
+              "text": "A gift"
+            },
+            {
+              "id": "o3",
+              "text": "Extra cash"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -773,9 +1379,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'queremos pagar por separado'?",
           "options": [
-            { "id": "o1", "text": "We'd like to pay separately" },
-            { "id": "o2", "text": "Divide bill" },
-            { "id": "o3", "text": "Everyone pays one" }
+            {
+              "id": "o1",
+              "text": "We'd like to pay separately"
+            },
+            {
+              "id": "o2",
+              "text": "Divide bill"
+            },
+            {
+              "id": "o3",
+              "text": "Everyone pays one"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -785,9 +1400,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'quédese con el cambio'?",
           "options": [
-            { "id": "o1", "text": "Keep the change" },
-            { "id": "o2", "text": "No change please" },
-            { "id": "o3", "text": "Change for you" }
+            {
+              "id": "o1",
+              "text": "Keep the change"
+            },
+            {
+              "id": "o2",
+              "text": "No change please"
+            },
+            {
+              "id": "o3",
+              "text": "Change for you"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -797,9 +1421,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fue una comida excelente'?",
           "options": [
-            { "id": "o1", "text": "It was an excellent meal" },
-            { "id": "o2", "text": "Good food thanks" },
-            { "id": "o3", "text": "Meal perfect" }
+            {
+              "id": "o1",
+              "text": "It was an excellent meal"
+            },
+            {
+              "id": "o2",
+              "text": "Good food thanks"
+            },
+            {
+              "id": "o3",
+              "text": "Meal perfect"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -809,14 +1442,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Puedo pagar con tarjeta?'",
           "options": [
-            { "id": "w1", "text": "with" },
-            { "id": "w2", "text": "pay" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "Can" },
-            { "id": "w5", "text": "card?" },
-            { "id": "w6", "text": "I" }
+            {
+              "id": "w1",
+              "text": "with"
+            },
+            {
+              "id": "w2",
+              "text": "pay"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "Can"
+            },
+            {
+              "id": "w5",
+              "text": "card?"
+            },
+            {
+              "id": "w6",
+              "text": "I"
+            }
           ],
-          "correct_answer": ["w4", "w6", "w2", "w1", "w3", "w5"],
+          "correct_answer": [
+            "w4",
+            "w6",
+            "w2",
+            "w1",
+            "w3",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -824,11 +1482,24 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Todo estaba delicioso'",
           "options": [
-            { "id": "w1", "text": "was" },
-            { "id": "w2", "text": "Everything" },
-            { "id": "w3", "text": "delicious" }
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w2",
+              "text": "Everything"
+            },
+            {
+              "id": "w3",
+              "text": "delicious"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -876,9 +1547,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Podemos tener otra botella de agua?'?",
           "options": [
-            { "id": "o1", "text": "Can we have another bottle of water?" },
-            { "id": "o2", "text": "More water please" },
-            { "id": "o3", "text": "Water bottle two" }
+            {
+              "id": "o1",
+              "text": "Can we have another bottle of water?"
+            },
+            {
+              "id": "o2",
+              "text": "More water please"
+            },
+            {
+              "id": "o3",
+              "text": "Water bottle two"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -893,31 +1573,138 @@
           "interaction_id": "U45_I76",
           "type": "word-search",
           "prompt_es": "Busca términos de alta cocina y restaurante:",
-          "words": ["GOURMET", "CUISINE", "DESSERT", "STARTER", "MAIN", "RESERVE", "WAITER", "MENU", "BILL", "TIP"],
+          "words": [
+            "GOURMET",
+            "CUISINE",
+            "DESSERT",
+            "STARTER",
+            "MAIN",
+            "RESERVE",
+            "WAITER",
+            "MENU",
+            "BILL",
+            "TIP"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "GOURMET", "clue": "High quality food" },
-            { "word": "CUISINE", "clue": "Style of cooking" },
-            { "word": "DESSERT", "clue": "Sweet course" },
-            { "word": "STARTER", "clue": "First course" },
-            { "word": "MAIN", "clue": "Primary dish" },
-            { "word": "RESERVE", "clue": "To book a table" },
-            { "word": "WAITER", "clue": "Person who serves" },
-            { "word": "MENU", "clue": "List of dishes" },
-            { "word": "BILL", "clue": "Request for payment" },
-            { "word": "TIP", "clue": "Extra money for service" }
+            {
+              "word": "GOURMET",
+              "clue": "High quality food"
+            },
+            {
+              "word": "CUISINE",
+              "clue": "Style of cooking"
+            },
+            {
+              "word": "DESSERT",
+              "clue": "Sweet course"
+            },
+            {
+              "word": "STARTER",
+              "clue": "First course"
+            },
+            {
+              "word": "MAIN",
+              "clue": "Primary dish"
+            },
+            {
+              "word": "RESERVE",
+              "clue": "To book a table"
+            },
+            {
+              "word": "WAITER",
+              "clue": "Person who serves"
+            },
+            {
+              "word": "MENU",
+              "clue": "List of dishes"
+            },
+            {
+              "word": "BILL",
+              "clue": "Request for payment"
+            },
+            {
+              "word": "TIP",
+              "clue": "Extra money for service"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U45_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama del Gourmet:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "BILL", "clue": "Payment request", "direction": "across", "row": 0, "col": 0 },
-            { "word": "BEEF", "clue": "Cow meat", "direction": "down", "row": 0, "col": 0 },
-            { "word": "MENU", "clue": "Food list", "direction": "across", "row": 2, "col": 0 },
-            { "word": "LAMB", "clue": "Young sheep", "direction": "down", "row": 0, "col": 3 }
+            {
+              "word": "SOMMELIER",
+              "clue": "Traducción de: sommelier",
+              "direction": "across",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "GRILLED",
+              "clue": "Traducción de: a la parrilla",
+              "direction": "down",
+              "row": 8,
+              "col": 11
+            },
+            {
+              "word": "SEAFOOD",
+              "clue": "Traducción de: mariscos",
+              "direction": "across",
+              "row": 14,
+              "col": 5
+            },
+            {
+              "word": "STEAMED",
+              "clue": "Traducción de: al vapor",
+              "direction": "down",
+              "row": 5,
+              "col": 9
+            },
+            {
+              "word": "MEDIUM",
+              "clue": "Traducción de: al punto",
+              "direction": "down",
+              "row": 13,
+              "col": 6
+            },
+            {
+              "word": "SWEET",
+              "clue": "Traducción de: Cake",
+              "direction": "across",
+              "row": 6,
+              "col": 5
+            },
+            {
+              "word": "FRIED",
+              "clue": "Traducción de: frito",
+              "direction": "down",
+              "row": 3,
+              "col": 7
+            },
+            {
+              "word": "SPICY",
+              "clue": "Traducción de: Chilli",
+              "direction": "across",
+              "row": 16,
+              "col": 4
+            },
+            {
+              "word": "LAMB",
+              "clue": "Traducción de: cordero",
+              "direction": "across",
+              "row": 18,
+              "col": 4
+            },
+            {
+              "word": "BEEF",
+              "clue": "Traducción de: carne de res",
+              "direction": "across",
+              "row": 3,
+              "col": 4
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -950,9 +1737,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Tienen una trona para el bebé?'?",
           "options": [
-            { "id": "o1", "text": "Do you have a high chair for the baby?" },
-            { "id": "o2", "text": "Baby chair have?" },
-            { "id": "o3", "text": "Chair for child?" }
+            {
+              "id": "o1",
+              "text": "Do you have a high chair for the baby?"
+            },
+            {
+              "id": "o2",
+              "text": "Baby chair have?"
+            },
+            {
+              "id": "o3",
+              "text": "Chair for child?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -962,9 +1758,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sommelier' (experto en vinos)?",
           "options": [
-            { "id": "o1", "text": "Sommelier" },
-            { "id": "o2", "text": "Wine man" },
-            { "id": "o3", "text": "Drink expert" }
+            {
+              "id": "o1",
+              "text": "Sommelier"
+            },
+            {
+              "id": "o2",
+              "text": "Wine man"
+            },
+            {
+              "id": "o3",
+              "text": "Drink expert"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -974,9 +1779,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aperitivos'?",
           "options": [
-            { "id": "o1", "text": "Appetizers / Starters" },
-            { "id": "o2", "text": "First foods" },
-            { "id": "o3", "text": "Small bites" }
+            {
+              "id": "o1",
+              "text": "Appetizers / Starters"
+            },
+            {
+              "id": "o2",
+              "text": "First foods"
+            },
+            {
+              "id": "o3",
+              "text": "Small bites"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -986,9 +1800,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'plato principal'?",
           "options": [
-            { "id": "o1", "text": "Main course" },
-            { "id": "o2", "text": "Big plate" },
-            { "id": "o3", "text": "Principal dish" }
+            {
+              "id": "o1",
+              "text": "Main course"
+            },
+            {
+              "id": "o2",
+              "text": "Big plate"
+            },
+            {
+              "id": "o3",
+              "text": "Principal dish"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -998,9 +1821,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estaba delicioso'?",
           "options": [
-            { "id": "o1", "text": "It was delicious / yummy" },
-            { "id": "o2", "text": "Good taste" },
-            { "id": "o3", "text": "Very fine food" }
+            {
+              "id": "o1",
+              "text": "It was delicious / yummy"
+            },
+            {
+              "id": "o2",
+              "text": "Good taste"
+            },
+            {
+              "id": "o3",
+              "text": "Very fine food"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1010,9 +1842,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Nos puede traer más pan?'?",
           "options": [
-            { "id": "o1", "text": "Could we have some more bread?" },
-            { "id": "o2", "text": "Bread more please" },
-            { "id": "o3", "text": "Want bread again" }
+            {
+              "id": "o1",
+              "text": "Could we have some more bread?"
+            },
+            {
+              "id": "o2",
+              "text": "Bread more please"
+            },
+            {
+              "id": "o3",
+              "text": "Want bread again"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1022,9 +1863,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Tienen Wi-Fi?'?",
           "options": [
-            { "id": "o1", "text": "Do you have Wi-Fi?" },
-            { "id": "o2", "text": "Internet here?" },
-            { "id": "o3", "text": "Connect please?" }
+            {
+              "id": "o1",
+              "text": "Do you have Wi-Fi?"
+            },
+            {
+              "id": "o2",
+              "text": "Internet here?"
+            },
+            {
+              "id": "o3",
+              "text": "Connect please?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1034,9 +1884,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuál es la contraseña?'?",
           "options": [
-            { "id": "o1", "text": "What is the password?" },
-            { "id": "o2", "text": "Code what?" },
-            { "id": "o3", "text": "Give password" }
+            {
+              "id": "o1",
+              "text": "What is the password?"
+            },
+            {
+              "id": "o2",
+              "text": "Code what?"
+            },
+            {
+              "id": "o3",
+              "text": "Give password"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1046,9 +1905,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'el baño' (educado)?",
           "options": [
-            { "id": "o1", "text": "The restroom / The toilets" },
-            { "id": "o2", "text": "The bath" },
-            { "id": "o3", "text": "Water room" }
+            {
+              "id": "o1",
+              "text": "The restroom / The toilets"
+            },
+            {
+              "id": "o2",
+              "text": "The bath"
+            },
+            {
+              "id": "o3",
+              "text": "Water room"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1058,9 +1926,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Dónde están los aseos?'?",
           "options": [
-            { "id": "o1", "text": "Where are the toilets, please?" },
-            { "id": "o2", "text": "Toilet where?" },
-            { "id": "o3", "text": "Restroom location?" }
+            {
+              "id": "o1",
+              "text": "Where are the toilets, please?"
+            },
+            {
+              "id": "o2",
+              "text": "Toilet where?"
+            },
+            {
+              "id": "o3",
+              "text": "Restroom location?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1070,9 +1947,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estoy lleno'?",
           "options": [
-            { "id": "o1", "text": "I'm full / I'm stuffed" },
-            { "id": "o2", "text": "No more food" },
-            { "id": "o3", "text": "I finished" }
+            {
+              "id": "o1",
+              "text": "I'm full / I'm stuffed"
+            },
+            {
+              "id": "o2",
+              "text": "No more food"
+            },
+            {
+              "id": "o3",
+              "text": "I finished"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1082,9 +1968,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Podemos pedir un taxi?'?",
           "options": [
-            { "id": "o1", "text": "Could you call a taxi for us?" },
-            { "id": "o2", "text": "Taxi please" },
-            { "id": "o3", "text": "Want car now" }
+            {
+              "id": "o1",
+              "text": "Could you call a taxi for us?"
+            },
+            {
+              "id": "o2",
+              "text": "Taxi please"
+            },
+            {
+              "id": "o3",
+              "text": "Want car now"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1094,9 +1989,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Aceptan American Express?'?",
           "options": [
-            { "id": "o1", "text": "Do you accept American Express?" },
-            { "id": "o2", "text": "AMEX okay?" },
-            { "id": "o3", "text": "Card AMEX?" }
+            {
+              "id": "o1",
+              "text": "Do you accept American Express?"
+            },
+            {
+              "id": "o2",
+              "text": "AMEX okay?"
+            },
+            {
+              "id": "o3",
+              "text": "Card AMEX?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1106,9 +2010,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aquí tiene mi tarjeta'?",
           "options": [
-            { "id": "o1", "text": "Here is my card" },
-            { "id": "o2", "text": "This my card" },
-            { "id": "o3", "text": "Card here" }
+            {
+              "id": "o1",
+              "text": "Here is my card"
+            },
+            {
+              "id": "o2",
+              "text": "This my card"
+            },
+            {
+              "id": "o3",
+              "text": "Card here"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1118,9 +2031,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'por favor, firme aquí'?",
           "options": [
-            { "id": "o1", "text": "Please sign here" },
-            { "id": "o2", "text": "Sign please" },
-            { "id": "o3", "text": "Your name here" }
+            {
+              "id": "o1",
+              "text": "Please sign here"
+            },
+            {
+              "id": "o2",
+              "text": "Sign please"
+            },
+            {
+              "id": "o3",
+              "text": "Your name here"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1130,9 +2052,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'introduzca su PIN'?",
           "options": [
-            { "id": "o1", "text": "Enter your PIN" },
-            { "id": "o2", "text": "Put code" },
-            { "id": "o3", "text": "PIN please" }
+            {
+              "id": "o1",
+              "text": "Enter your PIN"
+            },
+            {
+              "id": "o2",
+              "text": "Put code"
+            },
+            {
+              "id": "o3",
+              "text": "PIN please"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1142,9 +2073,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'el recibo'?",
           "options": [
-            { "id": "o1", "text": "The receipt" },
-            { "id": "o2", "text": "The paper" },
-            { "id": "o3", "text": "The ticket" }
+            {
+              "id": "o1",
+              "text": "The receipt"
+            },
+            {
+              "id": "o2",
+              "text": "The paper"
+            },
+            {
+              "id": "o3",
+              "text": "The ticket"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1154,9 +2094,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Le gustaría el recibo?'?",
           "options": [
-            { "id": "o1", "text": "Would you like a receipt?" },
-            { "id": "o2", "text": "Paper for you?" },
-            { "id": "o3", "text": "Receipt want?" }
+            {
+              "id": "o1",
+              "text": "Would you like a receipt?"
+            },
+            {
+              "id": "o2",
+              "text": "Paper for you?"
+            },
+            {
+              "id": "o3",
+              "text": "Receipt want?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1166,9 +2115,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'esperamos volver pronto'?",
           "options": [
-            { "id": "o1", "text": "We hope to see you again soon" },
-            { "id": "o2", "text": "Come back soon" },
-            { "id": "o3", "text": "See you soon" }
+            {
+              "id": "o1",
+              "text": "We hope to see you again soon"
+            },
+            {
+              "id": "o2",
+              "text": "Come back soon"
+            },
+            {
+              "id": "o3",
+              "text": "See you soon"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1178,9 +2136,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Buen provecho!'?",
           "options": [
-            { "id": "o1", "text": "Enjoy your meal! / Bon appétit!" },
-            { "id": "o2", "text": "Good food!" },
-            { "id": "o3", "text": "Eat well!" }
+            {
+              "id": "o1",
+              "text": "Enjoy your meal! / Bon appétit!"
+            },
+            {
+              "id": "o2",
+              "text": "Good food!"
+            },
+            {
+              "id": "o3",
+              "text": "Eat well!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"

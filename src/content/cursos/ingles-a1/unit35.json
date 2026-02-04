@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'entrevista de trabajo'?",
           "options": [
-            { "id": "o1", "text": "Job interview" },
-            { "id": "o2", "text": "Work meeting" },
-            { "id": "o3", "text": "Talk job" }
+            {
+              "id": "o1",
+              "text": "Job interview"
+            },
+            {
+              "id": "o2",
+              "text": "Work meeting"
+            },
+            {
+              "id": "o3",
+              "text": "Talk job"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'currículum'?",
           "options": [
-            { "id": "o1", "text": "Resume / CV" },
-            { "id": "o2", "text": "Work paper" },
-            { "id": "o3", "text": "History file" }
+            {
+              "id": "o1",
+              "text": "Resume / CV"
+            },
+            {
+              "id": "o2",
+              "text": "Work paper"
+            },
+            {
+              "id": "o3",
+              "text": "History file"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'entrevistador'?",
           "options": [
-            { "id": "o1", "text": "Interviewer" },
-            { "id": "o2", "text": "Interviewee" },
-            { "id": "o3", "text": "Talker" }
+            {
+              "id": "o1",
+              "text": "Interviewer"
+            },
+            {
+              "id": "o2",
+              "text": "Interviewee"
+            },
+            {
+              "id": "o3",
+              "text": "Talker"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'candidato / entrevistado'?",
           "options": [
-            { "id": "o1", "text": "Interviewee / Candidate" },
-            { "id": "o2", "text": "Worker" },
-            { "id": "o3", "text": "Partner" }
+            {
+              "id": "o1",
+              "text": "Interviewee / Candidate"
+            },
+            {
+              "id": "o2",
+              "text": "Worker"
+            },
+            {
+              "id": "o3",
+              "text": "Partner"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'solicitud / postulación'?",
           "options": [
-            { "id": "o1", "text": "Application" },
-            { "id": "o2", "text": "Ask job" },
-            { "id": "o3", "text": "Paper work" }
+            {
+              "id": "o1",
+              "text": "Application"
+            },
+            {
+              "id": "o2",
+              "text": "Ask job"
+            },
+            {
+              "id": "o3",
+              "text": "Paper work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'habilidades'?",
           "options": [
-            { "id": "o1", "text": "Skills" },
-            { "id": "o2", "text": "Things" },
-            { "id": "o3", "text": "Goods" }
+            {
+              "id": "o1",
+              "text": "Skills"
+            },
+            {
+              "id": "o2",
+              "text": "Things"
+            },
+            {
+              "id": "o3",
+              "text": "Goods"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'experiencia'?",
           "options": [
-            { "id": "o1", "text": "Experience" },
-            { "id": "o2", "text": "History" },
-            { "id": "o3", "text": "Practice" }
+            {
+              "id": "o1",
+              "text": "Experience"
+            },
+            {
+              "id": "o2",
+              "text": "History"
+            },
+            {
+              "id": "o3",
+              "text": "Practice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'puntos fuertes'?",
           "options": [
-            { "id": "o1", "text": "Strengths" },
-            { "id": "o2", "text": "Strong points" },
-            { "id": "o3", "text": "Power items" }
+            {
+              "id": "o1",
+              "text": "Strengths"
+            },
+            {
+              "id": "o2",
+              "text": "Strong points"
+            },
+            {
+              "id": "o3",
+              "text": "Power items"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'debilidades'?",
           "options": [
-            { "id": "o1", "text": "Weaknesses" },
-            { "id": "o2", "text": "Soft points" },
-            { "id": "o3", "text": "Low things" }
+            {
+              "id": "o1",
+              "text": "Weaknesses"
+            },
+            {
+              "id": "o2",
+              "text": "Soft points"
+            },
+            {
+              "id": "o3",
+              "text": "Low things"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'salario'?",
           "options": [
-            { "id": "o1", "text": "Salary / Pay" },
-            { "id": "o2", "text": "Money work" },
-            { "id": "o3", "text": "Price" }
+            {
+              "id": "o1",
+              "text": "Salary / Pay"
+            },
+            {
+              "id": "o2",
+              "text": "Money work"
+            },
+            {
+              "id": "o3",
+              "text": "Price"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,13 +227,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Tengo una entrevista mañana'",
           "options": [
-            { "id": "w1", "text": "interview" },
-            { "id": "w2", "text": "I" },
-            { "id": "w3", "text": "tomorrow" },
-            { "id": "w4", "text": "have" },
-            { "id": "w5", "text": "an" }
+            {
+              "id": "w1",
+              "text": "interview"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "tomorrow"
+            },
+            {
+              "id": "w4",
+              "text": "have"
+            },
+            {
+              "id": "w5",
+              "text": "an"
+            }
           ],
-          "correct_answer": ["w2", "w4", "w5", "w1", "w3"],
+          "correct_answer": [
+            "w2",
+            "w4",
+            "w5",
+            "w1",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -151,12 +262,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Aquí está mi currículum'",
           "options": [
-            { "id": "w1", "text": "my" },
-            { "id": "w2", "text": "Here" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "CV" }
+            {
+              "id": "w1",
+              "text": "my"
+            },
+            {
+              "id": "w2",
+              "text": "Here"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "CV"
+            }
           ],
-          "correct_answer": ["w2", "w3", "w1", "w4"],
+          "correct_answer": [
+            "w2",
+            "w3",
+            "w1",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -180,9 +308,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'referencias'?",
           "options": [
-            { "id": "o1", "text": "References" },
-            { "id": "o2", "text": "Backups" },
-            { "id": "o3", "text": "Friends" }
+            {
+              "id": "o1",
+              "text": "References"
+            },
+            {
+              "id": "o2",
+              "text": "Backups"
+            },
+            {
+              "id": "o3",
+              "text": "Friends"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -192,9 +329,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'carta de presentación'?",
           "options": [
-            { "id": "o1", "text": "Cover letter" },
-            { "id": "o2", "text": "Start paper" },
-            { "id": "o3", "text": "Hello letter" }
+            {
+              "id": "o1",
+              "text": "Cover letter"
+            },
+            {
+              "id": "o2",
+              "text": "Start paper"
+            },
+            {
+              "id": "o3",
+              "text": "Hello letter"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -204,9 +350,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'calificaciones / títulos'?",
           "options": [
-            { "id": "o1", "text": "Qualifications" },
-            { "id": "o2", "text": "Papers" },
-            { "id": "o3", "text": "Studies" }
+            {
+              "id": "o1",
+              "text": "Qualifications"
+            },
+            {
+              "id": "o2",
+              "text": "Papers"
+            },
+            {
+              "id": "o3",
+              "text": "Studies"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -216,9 +371,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'jornada completa'?",
           "options": [
-            { "id": "o1", "text": "Full-time" },
-            { "id": "o2", "text": "All day" },
-            { "id": "o3", "text": "Big work" }
+            {
+              "id": "o1",
+              "text": "Full-time"
+            },
+            {
+              "id": "o2",
+              "text": "All day"
+            },
+            {
+              "id": "o3",
+              "text": "Big work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -228,9 +392,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'media jornada'?",
           "options": [
-            { "id": "o1", "text": "Part-time" },
-            { "id": "o2", "text": "Small work" },
-            { "id": "o3", "text": "Half time" }
+            {
+              "id": "o1",
+              "text": "Part-time"
+            },
+            {
+              "id": "o2",
+              "text": "Small work"
+            },
+            {
+              "id": "o3",
+              "text": "Half time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -240,9 +413,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'empresa / compañía'?",
           "options": [
-            { "id": "o1", "text": "Company / Firm" },
-            { "id": "o2", "text": "House work" },
-            { "id": "o3", "text": "Work place" }
+            {
+              "id": "o1",
+              "text": "Company / Firm"
+            },
+            {
+              "id": "o2",
+              "text": "House work"
+            },
+            {
+              "id": "o3",
+              "text": "Work place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -252,12 +434,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuáles son tus habilidades?'",
           "options": [
-            { "id": "w1", "text": "skills?" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "What" },
-            { "id": "w4", "text": "your" }
+            {
+              "id": "w1",
+              "text": "skills?"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "What"
+            },
+            {
+              "id": "w4",
+              "text": "your"
+            }
           ],
-          "correct_answer": ["w3", "w2", "w4", "w1"],
+          "correct_answer": [
+            "w3",
+            "w2",
+            "w4",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -265,15 +464,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Busco un trabajo a jornada completa'",
           "options": [
-            { "id": "w1", "text": "looking" },
-            { "id": "w2", "text": "full-time" },
-            { "id": "w3", "text": "for" },
-            { "id": "w4", "text": "job" },
-            { "id": "w5", "text": "a" },
-            { "id": "w6", "text": "I" },
-            { "id": "w7", "text": "am" }
+            {
+              "id": "w1",
+              "text": "looking"
+            },
+            {
+              "id": "w2",
+              "text": "full-time"
+            },
+            {
+              "id": "w3",
+              "text": "for"
+            },
+            {
+              "id": "w4",
+              "text": "job"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "I"
+            },
+            {
+              "id": "w7",
+              "text": "am"
+            }
           ],
-          "correct_answer": ["w6", "w7", "w1", "w3", "w5", "w2", "w4"],
+          "correct_answer": [
+            "w6",
+            "w7",
+            "w1",
+            "w3",
+            "w5",
+            "w2",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -297,11 +525,27 @@
           "type": "matching",
           "prompt_es": "Une los términos de búsqueda de empleo:",
           "pairs": [
-            { "id": "p1", "left": "Skills", "right": "Habilidades" },
-            { "id": "p2", "left": "Salary", "right": "Salario" },
-            { "id": "p3", "left": "Application", "right": "Solicitud" }
+            {
+              "id": "p1",
+              "left": "Skills",
+              "right": "Habilidades"
+            },
+            {
+              "id": "p2",
+              "left": "Salary",
+              "right": "Salario"
+            },
+            {
+              "id": "p3",
+              "left": "Application",
+              "right": "Solicitud"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         }
       ]
@@ -315,9 +559,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Hábleme de usted'?",
           "options": [
-            { "id": "o1", "text": "Tell me about yourself" },
-            { "id": "o2", "text": "Say you" },
-            { "id": "o3", "text": "Speak of person" }
+            {
+              "id": "o1",
+              "text": "Tell me about yourself"
+            },
+            {
+              "id": "o2",
+              "text": "Say you"
+            },
+            {
+              "id": "o3",
+              "text": "Speak of person"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -327,9 +580,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'He trabajado como...'?",
           "options": [
-            { "id": "o1", "text": "I have worked as..." },
-            { "id": "o2", "text": "I work for..." },
-            { "id": "o3", "text": "My job was..." }
+            {
+              "id": "o1",
+              "text": "I have worked as..."
+            },
+            {
+              "id": "o2",
+              "text": "I work for..."
+            },
+            {
+              "id": "o3",
+              "text": "My job was..."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -339,9 +601,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Tengo tres años de experiencia'?",
           "options": [
-            { "id": "o1", "text": "I have three years of experience" },
-            { "id": "o2", "text": "I have three years practice" },
-            { "id": "o3", "text": "Three years I work" }
+            {
+              "id": "o1",
+              "text": "I have three years of experience"
+            },
+            {
+              "id": "o2",
+              "text": "I have three years practice"
+            },
+            {
+              "id": "o3",
+              "text": "Three years I work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -351,9 +622,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Estudié en...'?",
           "options": [
-            { "id": "o1", "text": "I studied at..." },
-            { "id": "o2", "text": "I study in..." },
-            { "id": "o3", "text": "My school was..." }
+            {
+              "id": "o1",
+              "text": "I studied at..."
+            },
+            {
+              "id": "o2",
+              "text": "I study in..."
+            },
+            {
+              "id": "o3",
+              "text": "My school was..."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -363,9 +643,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Soy un buen trabajador en equipo'?",
           "options": [
-            { "id": "o1", "text": "I am a good team player" },
-            { "id": "o2", "text": "I work good in group" },
-            { "id": "o3", "text": "Group worker good" }
+            {
+              "id": "o1",
+              "text": "I am a good team player"
+            },
+            {
+              "id": "o2",
+              "text": "I work good in group"
+            },
+            {
+              "id": "o3",
+              "text": "Group worker good"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -375,9 +664,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Soy puntual'?",
           "options": [
-            { "id": "o1", "text": "I am punctual / I am always on time" },
-            { "id": "o2", "text": "I am clock" },
-            { "id": "o3", "text": "I arrive good" }
+            {
+              "id": "o1",
+              "text": "I am punctual / I am always on time"
+            },
+            {
+              "id": "o2",
+              "text": "I am clock"
+            },
+            {
+              "id": "o3",
+              "text": "I arrive good"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -387,9 +685,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Soy responsable'?",
           "options": [
-            { "id": "o1", "text": "I am responsible" },
-            { "id": "o2", "text": "I do things" },
-            { "id": "o3", "text": "I am serious" }
+            {
+              "id": "o1",
+              "text": "I am responsible"
+            },
+            {
+              "id": "o2",
+              "text": "I do things"
+            },
+            {
+              "id": "o3",
+              "text": "I am serious"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -399,14 +706,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'He trabajado en un hotel'",
           "options": [
-            { "id": "w1", "text": "worked" },
-            { "id": "w2", "text": "in" },
-            { "id": "w3", "text": "hotel" },
-            { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "I" },
-            { "id": "w6", "text": "have" }
+            {
+              "id": "w1",
+              "text": "worked"
+            },
+            {
+              "id": "w2",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "hotel"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "have"
+            }
           ],
-          "correct_answer": ["w5", "w6", "w1", "w2", "w4", "w3"],
+          "correct_answer": [
+            "w5",
+            "w6",
+            "w1",
+            "w2",
+            "w4",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -414,14 +746,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Soy un trabajador muy motivado'",
           "options": [
-            { "id": "w1", "text": "motivated" },
-            { "id": "w2", "text": "very" },
-            { "id": "w3", "text": "worker" },
-            { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "I" },
-            { "id": "w6", "text": "am" }
+            {
+              "id": "w1",
+              "text": "motivated"
+            },
+            {
+              "id": "w2",
+              "text": "very"
+            },
+            {
+              "id": "w3",
+              "text": "worker"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "am"
+            }
           ],
-          "correct_answer": ["w5", "w6", "w4", "w2", "w1", "w3"],
+          "correct_answer": [
+            "w5",
+            "w6",
+            "w4",
+            "w2",
+            "w1",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -445,9 +802,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Por qué quieres este trabajo?'?",
           "options": [
-            { "id": "o1", "text": "Why do you want this job?" },
-            { "id": "o2", "text": "What for this work?" },
-            { "id": "o3", "text": "Why you here?" }
+            {
+              "id": "o1",
+              "text": "Why do you want this job?"
+            },
+            {
+              "id": "o2",
+              "text": "What for this work?"
+            },
+            {
+              "id": "o3",
+              "text": "Why you here?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -457,9 +823,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuáles son tus metas?'?",
           "options": [
-            { "id": "o1", "text": "What are your goals?" },
-            { "id": "o2", "text": "Which are points?" },
-            { "id": "o3", "text": "How your future?" }
+            {
+              "id": "o1",
+              "text": "What are your goals?"
+            },
+            {
+              "id": "o2",
+              "text": "Which are points?"
+            },
+            {
+              "id": "o3",
+              "text": "How your future?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -469,9 +844,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Puedo empezar inmediatamente'?",
           "options": [
-            { "id": "o1", "text": "I can start immediately" },
-            { "id": "o2", "text": "I start now" },
-            { "id": "o3", "text": "Work today" }
+            {
+              "id": "o1",
+              "text": "I can start immediately"
+            },
+            {
+              "id": "o2",
+              "text": "I start now"
+            },
+            {
+              "id": "o3",
+              "text": "Work today"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -481,9 +865,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Por qué deberíamos contratarte?'?",
           "options": [
-            { "id": "o1", "text": "Why should we hire you?" },
-            { "id": "o2", "text": "Why you for us?" },
-            { "id": "o3", "text": "What for you work?" }
+            {
+              "id": "o1",
+              "text": "Why should we hire you?"
+            },
+            {
+              "id": "o2",
+              "text": "Why you for us?"
+            },
+            {
+              "id": "o3",
+              "text": "What for you work?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -493,9 +886,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'contratar'?",
           "options": [
-            { "id": "o1", "text": "To hire / To employ" },
-            { "id": "o2", "text": "To give job" },
-            { "id": "o3", "text": "To take person" }
+            {
+              "id": "o1",
+              "text": "To hire / To employ"
+            },
+            {
+              "id": "o2",
+              "text": "To give job"
+            },
+            {
+              "id": "o3",
+              "text": "To take person"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -505,9 +907,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'despedir'?",
           "options": [
-            { "id": "o1", "text": "To fire / To dismiss" },
-            { "id": "o2", "text": "To no work" },
-            { "id": "o3", "text": "To stop job" }
+            {
+              "id": "o1",
+              "text": "To fire / To dismiss"
+            },
+            {
+              "id": "o2",
+              "text": "To no work"
+            },
+            {
+              "id": "o3",
+              "text": "To stop job"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -517,9 +928,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'renunciar'?",
           "options": [
-            { "id": "o1", "text": "To quit / To resign" },
-            { "id": "o2", "text": "To go away" },
-            { "id": "o3", "text": "To finish me" }
+            {
+              "id": "o1",
+              "text": "To quit / To resign"
+            },
+            {
+              "id": "o2",
+              "text": "To go away"
+            },
+            {
+              "id": "o3",
+              "text": "To finish me"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -529,12 +949,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuándo puedes empezar?'",
           "options": [
-            { "id": "w1", "text": "start?" },
-            { "id": "w2", "text": "can" },
-            { "id": "w3", "text": "When" },
-            { "id": "w4", "text": "you" }
+            {
+              "id": "w1",
+              "text": "start?"
+            },
+            {
+              "id": "w2",
+              "text": "can"
+            },
+            {
+              "id": "w3",
+              "text": "When"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w2", "w1"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w2",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -542,15 +979,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Quiero trabajar para esta empresa'",
           "options": [
-            { "id": "w1", "text": "to" },
-            { "id": "w2", "text": "for" },
-            { "id": "w3", "text": "company" },
-            { "id": "w4", "text": "work" },
-            { "id": "w5", "text": "this" },
-            { "id": "w6", "text": "I" },
-            { "id": "w7", "text": "want" }
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "for"
+            },
+            {
+              "id": "w3",
+              "text": "company"
+            },
+            {
+              "id": "w4",
+              "text": "work"
+            },
+            {
+              "id": "w5",
+              "text": "this"
+            },
+            {
+              "id": "w6",
+              "text": "I"
+            },
+            {
+              "id": "w7",
+              "text": "want"
+            }
           ],
-          "correct_answer": ["w6", "w7", "w1", "w4", "w2", "w5", "w3"],
+          "correct_answer": [
+            "w6",
+            "w7",
+            "w1",
+            "w4",
+            "w2",
+            "w5",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -604,9 +1070,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Tienes alguna pregunta?'?",
           "options": [
-            { "id": "o1", "text": "Do you have any questions?" },
-            { "id": "o2", "text": "You ask things?" },
-            { "id": "o3", "text": "Any points for me?" }
+            {
+              "id": "o1",
+              "text": "Do you have any questions?"
+            },
+            {
+              "id": "o2",
+              "text": "You ask things?"
+            },
+            {
+              "id": "o3",
+              "text": "Any points for me?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -616,9 +1091,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuál es el horario de trabajo?'?",
           "options": [
-            { "id": "o1", "text": "What are the working hours?" },
-            { "id": "o2", "text": "What time work?" },
-            { "id": "o3", "text": "Hours for job?" }
+            {
+              "id": "o1",
+              "text": "What are the working hours?"
+            },
+            {
+              "id": "o2",
+              "text": "What time work?"
+            },
+            {
+              "id": "o3",
+              "text": "Hours for job?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -628,9 +1112,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Con quién trabajaré?'?",
           "options": [
-            { "id": "o1", "text": "Who will I work with?" },
-            { "id": "o2", "text": "Which people for work?" },
-            { "id": "o3", "text": "My partners who?" }
+            {
+              "id": "o1",
+              "text": "Who will I work with?"
+            },
+            {
+              "id": "o2",
+              "text": "Which people for work?"
+            },
+            {
+              "id": "o3",
+              "text": "My partners who?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -640,9 +1133,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuáles son las tareas principales?'?",
           "options": [
-            { "id": "o1", "text": "What are the main tasks / duties?" },
-            { "id": "o2", "text": "Which big things to do?" },
-            { "id": "o3", "text": "Work things for me?" }
+            {
+              "id": "o1",
+              "text": "What are the main tasks / duties?"
+            },
+            {
+              "id": "o2",
+              "text": "Which big things to do?"
+            },
+            {
+              "id": "o3",
+              "text": "Work things for me?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -652,9 +1154,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Le llamaremos'?",
           "options": [
-            { "id": "o1", "text": "We will call you" },
-            { "id": "o2", "text": "We talk later" },
-            { "id": "o3", "text": "Phone you soon" }
+            {
+              "id": "o1",
+              "text": "We will call you"
+            },
+            {
+              "id": "o2",
+              "text": "We talk later"
+            },
+            {
+              "id": "o3",
+              "text": "Phone you soon"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -664,9 +1175,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'en contacto'?",
           "options": [
-            { "id": "o1", "text": "In touch" },
-            { "id": "o2", "text": "Connecting" },
-            { "id": "o3", "text": "Speaking" }
+            {
+              "id": "o1",
+              "text": "In touch"
+            },
+            {
+              "id": "o2",
+              "text": "Connecting"
+            },
+            {
+              "id": "o3",
+              "text": "Speaking"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -676,9 +1196,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Gracias por su tiempo'?",
           "options": [
-            { "id": "o1", "text": "Thank you for your time" },
-            { "id": "o2", "text": "Thanks for minutes" },
-            { "id": "o3", "text": "Good time here" }
+            {
+              "id": "o1",
+              "text": "Thank you for your time"
+            },
+            {
+              "id": "o2",
+              "text": "Thanks for minutes"
+            },
+            {
+              "id": "o3",
+              "text": "Good time here"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -688,14 +1217,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuándo sabré la decisión?'",
           "options": [
-            { "id": "w1", "text": "know" },
-            { "id": "w2", "text": "the" },
-            { "id": "w3", "text": "When" },
-            { "id": "w4", "text": "decision?" },
-            { "id": "w5", "text": "will" },
-            { "id": "w6", "text": "I" }
+            {
+              "id": "w1",
+              "text": "know"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "When"
+            },
+            {
+              "id": "w4",
+              "text": "decision?"
+            },
+            {
+              "id": "w5",
+              "text": "will"
+            },
+            {
+              "id": "w6",
+              "text": "I"
+            }
           ],
-          "correct_answer": ["w3", "w5", "w6", "w1", "w2", "w4"],
+          "correct_answer": [
+            "w3",
+            "w5",
+            "w6",
+            "w1",
+            "w2",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -703,13 +1257,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuál es el salario esperado?'",
           "options": [
-            { "id": "w1", "text": "expected" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "What" },
-            { "id": "w5", "text": "salary?" }
+            {
+              "id": "w1",
+              "text": "expected"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "What"
+            },
+            {
+              "id": "w5",
+              "text": "salary?"
+            }
           ],
-          "correct_answer": ["w4", "w2", "w3", "w1", "w5"],
+          "correct_answer": [
+            "w4",
+            "w2",
+            "w3",
+            "w1",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -733,9 +1308,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'beneficios'?",
           "options": [
-            { "id": "o1", "text": "Benefits / Perks" },
-            { "id": "o2", "text": "Goods" },
-            { "id": "o3", "text": "Wins" }
+            {
+              "id": "o1",
+              "text": "Benefits / Perks"
+            },
+            {
+              "id": "o2",
+              "text": "Goods"
+            },
+            {
+              "id": "o3",
+              "text": "Wins"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -745,9 +1329,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'entorno de trabajo'?",
           "options": [
-            { "id": "o1", "text": "Work environment" },
-            { "id": "o2", "text": "Work place" },
-            { "id": "o3", "text": "Work air" }
+            {
+              "id": "o1",
+              "text": "Work environment"
+            },
+            {
+              "id": "o2",
+              "text": "Work place"
+            },
+            {
+              "id": "o3",
+              "text": "Work air"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -757,9 +1350,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vacaciones'?",
           "options": [
-            { "id": "o1", "text": "Holidays / Vacation" },
-            { "id": "o2", "text": "Days off" },
-            { "id": "o3", "text": "Free time" }
+            {
+              "id": "o1",
+              "text": "Holidays / Vacation"
+            },
+            {
+              "id": "o2",
+              "text": "Days off"
+            },
+            {
+              "id": "o3",
+              "text": "Free time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -769,9 +1371,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'seguro médico'?",
           "options": [
-            { "id": "o1", "text": "Health insurance" },
-            { "id": "o2", "text": "Body safe" },
-            { "id": "o3", "text": "Doctor money" }
+            {
+              "id": "o1",
+              "text": "Health insurance"
+            },
+            {
+              "id": "o2",
+              "text": "Body safe"
+            },
+            {
+              "id": "o3",
+              "text": "Doctor money"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -781,9 +1392,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'entrenamiento / formación'?",
           "options": [
-            { "id": "o1", "text": "Training" },
-            { "id": "o2", "text": "Learning" },
-            { "id": "o3", "text": "Study work" }
+            {
+              "id": "o1",
+              "text": "Training"
+            },
+            {
+              "id": "o2",
+              "text": "Learning"
+            },
+            {
+              "id": "o3",
+              "text": "Study work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -793,9 +1413,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'promoción / ascenso'?",
           "options": [
-            { "id": "o1", "text": "Promotion" },
-            { "id": "o2", "text": "Up work" },
-            { "id": "o3", "text": "More job" }
+            {
+              "id": "o1",
+              "text": "Promotion"
+            },
+            {
+              "id": "o2",
+              "text": "Up work"
+            },
+            {
+              "id": "o3",
+              "text": "More job"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -805,15 +1434,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Ofrecen entrenamiento para nuevos empleados?'",
           "options": [
-            { "id": "w1", "text": "offer" },
-            { "id": "w2", "text": "for" },
-            { "id": "w3", "text": "training" },
-            { "id": "w4", "text": "employees?" },
-            { "id": "w5", "text": "Do" },
-            { "id": "w6", "text": "you" },
-            { "id": "w7", "text": "new" }
+            {
+              "id": "w1",
+              "text": "offer"
+            },
+            {
+              "id": "w2",
+              "text": "for"
+            },
+            {
+              "id": "w3",
+              "text": "training"
+            },
+            {
+              "id": "w4",
+              "text": "employees?"
+            },
+            {
+              "id": "w5",
+              "text": "Do"
+            },
+            {
+              "id": "w6",
+              "text": "you"
+            },
+            {
+              "id": "w7",
+              "text": "new"
+            }
           ],
-          "correct_answer": ["w5", "w6", "w1", "w3", "w2", "w7", "w4"],
+          "correct_answer": [
+            "w5",
+            "w6",
+            "w1",
+            "w3",
+            "w2",
+            "w7",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -821,15 +1479,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Estoy muy interesado en este puesto'",
           "options": [
-            { "id": "w1", "text": "in" },
-            { "id": "w2", "text": "interested" },
-            { "id": "w3", "text": "this" },
-            { "id": "w4", "text": "very" },
-            { "id": "w5", "text": "position" },
-            { "id": "w6", "text": "I" },
-            { "id": "w7", "text": "am" }
+            {
+              "id": "w1",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "interested"
+            },
+            {
+              "id": "w3",
+              "text": "this"
+            },
+            {
+              "id": "w4",
+              "text": "very"
+            },
+            {
+              "id": "w5",
+              "text": "position"
+            },
+            {
+              "id": "w6",
+              "text": "I"
+            },
+            {
+              "id": "w7",
+              "text": "am"
+            }
           ],
-          "correct_answer": ["w6", "w7", "w4", "w2", "w1", "w3", "w5"],
+          "correct_answer": [
+            "w6",
+            "w7",
+            "w4",
+            "w2",
+            "w1",
+            "w3",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -877,9 +1564,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'referencias'?",
           "options": [
-            { "id": "o1", "text": "References" },
-            { "id": "o2", "text": "Backups" },
-            { "id": "o3", "text": "Past people" }
+            {
+              "id": "o1",
+              "text": "References"
+            },
+            {
+              "id": "o2",
+              "text": "Backups"
+            },
+            {
+              "id": "o3",
+              "text": "Past people"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -894,31 +1590,138 @@
           "interaction_id": "U35_I76",
           "type": "word-search",
           "prompt_es": "Busca palabras de entrevistas:",
-          "words": ["SKILLS", "SALARY", "HIRE", "RESUME", "JOB", "BOSS", "GOAL", "TIME", "TEAM", "WORK"],
+          "words": [
+            "SKILLS",
+            "SALARY",
+            "HIRE",
+            "RESUME",
+            "JOB",
+            "BOSS",
+            "GOAL",
+            "TIME",
+            "TEAM",
+            "WORK"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "SKILLS", "clue": "Things you do well" },
-            { "word": "SALARY", "clue": "Money you earn" },
-            { "word": "HIRE", "clue": "To give a job" },
-            { "word": "RESUME", "clue": "Work history paper" },
-            { "word": "JOB", "clue": "Position" },
-            { "word": "BOSS", "clue": "Manager" },
-            { "word": "GOAL", "clue": "Future plan" },
-            { "word": "TIME", "clue": "Punctuality" },
-            { "word": "TEAM", "clue": "Group work" },
-            { "word": "WORK", "clue": "Employment" }
+            {
+              "word": "SKILLS",
+              "clue": "Things you do well"
+            },
+            {
+              "word": "SALARY",
+              "clue": "Money you earn"
+            },
+            {
+              "word": "HIRE",
+              "clue": "To give a job"
+            },
+            {
+              "word": "RESUME",
+              "clue": "Work history paper"
+            },
+            {
+              "word": "JOB",
+              "clue": "Position"
+            },
+            {
+              "word": "BOSS",
+              "clue": "Manager"
+            },
+            {
+              "word": "GOAL",
+              "clue": "Future plan"
+            },
+            {
+              "word": "TIME",
+              "clue": "Punctuality"
+            },
+            {
+              "word": "TEAM",
+              "clue": "Group work"
+            },
+            {
+              "word": "WORK",
+              "clue": "Employment"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U35_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de empleo:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "HIRE", "clue": "To give job", "direction": "across", "row": 0, "col": 0 },
-            { "word": "HELP", "clue": "To assist", "direction": "down", "row": 0, "col": 0 },
-            { "word": "GOAL", "clue": "Future plan", "direction": "across", "row": 2, "col": 0 },
-            { "word": "TEAM", "clue": "Group", "direction": "down", "row": 0, "col": 3 }
+            {
+              "word": "APPLICATION",
+              "clue": "Traducción de: Solicitud",
+              "direction": "across",
+              "row": 10,
+              "col": 4
+            },
+            {
+              "word": "EXPERIENCE",
+              "clue": "Traducción de: experiencia",
+              "direction": "down",
+              "row": 2,
+              "col": 9
+            },
+            {
+              "word": "WEAKNESSES",
+              "clue": "Traducción de: debilidades",
+              "direction": "across",
+              "row": 8,
+              "col": 1
+            },
+            {
+              "word": "PROMOTION",
+              "clue": "Traducción de: promoción / ascenso",
+              "direction": "down",
+              "row": 0,
+              "col": 5
+            },
+            {
+              "word": "KNOWLEDGE",
+              "clue": "Traducción de: conocimiento",
+              "direction": "down",
+              "row": 0,
+              "col": 2
+            },
+            {
+              "word": "CONTRACT",
+              "clue": "Traducción de: contrato",
+              "direction": "down",
+              "row": 8,
+              "col": 14
+            },
+            {
+              "word": "CREATIVE",
+              "clue": "Traducción de: Creativo",
+              "direction": "across",
+              "row": 5,
+              "col": 7
+            },
+            {
+              "word": "TRAINING",
+              "clue": "Traducción de: entrenamiento / formación",
+              "direction": "down",
+              "row": 10,
+              "col": 11
+            },
+            {
+              "word": "SKILLS",
+              "clue": "Traducción de: Habilidades",
+              "direction": "down",
+              "row": 3,
+              "col": 12
+            },
+            {
+              "word": "HONEST",
+              "clue": "Traducción de: Honesto",
+              "direction": "across",
+              "row": 19,
+              "col": 4
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -951,9 +1754,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué hiciste en tu último trabajo?'?",
           "options": [
-            { "id": "o1", "text": "What did you do in your last job?" },
-            { "id": "o2", "text": "What you do before?" },
-            { "id": "o3", "text": "Which work last?" }
+            {
+              "id": "o1",
+              "text": "What did you do in your last job?"
+            },
+            {
+              "id": "o2",
+              "text": "What you do before?"
+            },
+            {
+              "id": "o3",
+              "text": "Which work last?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -963,9 +1775,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Fui responsable de...'?",
           "options": [
-            { "id": "o1", "text": "I was responsible for..." },
-            { "id": "o2", "text": "I did things for..." },
-            { "id": "o3", "text": "My work was..." }
+            {
+              "id": "o1",
+              "text": "I was responsible for..."
+            },
+            {
+              "id": "o2",
+              "text": "I did things for..."
+            },
+            {
+              "id": "o3",
+              "text": "My work was..."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -975,9 +1796,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Me gusta aprender cosas nuevas'?",
           "options": [
-            { "id": "o1", "text": "I like learning new things" },
-            { "id": "o2", "text": "I like learn news" },
-            { "id": "o3", "text": "New things good for me" }
+            {
+              "id": "o1",
+              "text": "I like learning new things"
+            },
+            {
+              "id": "o2",
+              "text": "I like learn news"
+            },
+            {
+              "id": "o3",
+              "text": "New things good for me"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -987,9 +1817,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Soy flexible'?",
           "options": [
-            { "id": "o1", "text": "I am flexible" },
-            { "id": "o2", "text": "I am elastic" },
-            { "id": "o3", "text": "I can do all" }
+            {
+              "id": "o1",
+              "text": "I am flexible"
+            },
+            {
+              "id": "o2",
+              "text": "I am elastic"
+            },
+            {
+              "id": "o3",
+              "text": "I can do all"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -999,9 +1838,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Trabajo duro'?",
           "options": [
-            { "id": "o1", "text": "I work hard / I am a hard worker" },
-            { "id": "o2", "text": "I work strong" },
-            { "id": "o3", "text": "Work big for me" }
+            {
+              "id": "o1",
+              "text": "I work hard / I am a hard worker"
+            },
+            {
+              "id": "o2",
+              "text": "I work strong"
+            },
+            {
+              "id": "o3",
+              "text": "Work big for me"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1011,9 +1859,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Honesto'?",
           "options": [
-            { "id": "o1", "text": "Honest" },
-            { "id": "o2", "text": "True person" },
-            { "id": "o3", "text": "Good guy" }
+            {
+              "id": "o1",
+              "text": "Honest"
+            },
+            {
+              "id": "o2",
+              "text": "True person"
+            },
+            {
+              "id": "o3",
+              "text": "Good guy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1023,9 +1880,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Creativo'?",
           "options": [
-            { "id": "o1", "text": "Creative" },
-            { "id": "o2", "text": "Idea maker" },
-            { "id": "o3", "text": "Thinker" }
+            {
+              "id": "o1",
+              "text": "Creative"
+            },
+            {
+              "id": "o2",
+              "text": "Idea maker"
+            },
+            {
+              "id": "o3",
+              "text": "Thinker"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1035,9 +1901,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Organizado'?",
           "options": [
-            { "id": "o1", "text": "Organized" },
-            { "id": "o2", "text": "Clean" },
-            { "id": "o3", "text": "Orderly" }
+            {
+              "id": "o1",
+              "text": "Organized"
+            },
+            {
+              "id": "o2",
+              "text": "Clean"
+            },
+            {
+              "id": "o3",
+              "text": "Orderly"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1047,9 +1922,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué habilidades necesitas para este trabajo?'?",
           "options": [
-            { "id": "o1", "text": "What skills do you need for this job?" },
-            { "id": "o2", "text": "Which things for work?" },
-            { "id": "o3", "text": "How skills here?" }
+            {
+              "id": "o1",
+              "text": "What skills do you need for this job?"
+            },
+            {
+              "id": "o2",
+              "text": "Which things for work?"
+            },
+            {
+              "id": "o3",
+              "text": "How skills here?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1059,9 +1943,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'conocimiento'?",
           "options": [
-            { "id": "o1", "text": "Knowledge" },
-            { "id": "o2", "text": "Knowing" },
-            { "id": "o3", "text": "Brain" }
+            {
+              "id": "o1",
+              "text": "Knowledge"
+            },
+            {
+              "id": "o2",
+              "text": "Knowing"
+            },
+            {
+              "id": "o3",
+              "text": "Brain"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1071,9 +1964,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedes trabajar bajo presión?'?",
           "options": [
-            { "id": "o1", "text": "Can you work under pressure?" },
-            { "id": "o2", "text": "Work hard okay?" },
-            { "id": "o3", "text": "Fast work good?" }
+            {
+              "id": "o1",
+              "text": "Can you work under pressure?"
+            },
+            {
+              "id": "o2",
+              "text": "Work hard okay?"
+            },
+            {
+              "id": "o3",
+              "text": "Fast work good?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1083,9 +1985,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Tengo buenas habilidades de comunicación'?",
           "options": [
-            { "id": "o1", "text": "I have good communication skills" },
-            { "id": "o2", "text": "I talk good" },
-            { "id": "o3", "text": "Communication is nice" }
+            {
+              "id": "o1",
+              "text": "I have good communication skills"
+            },
+            {
+              "id": "o2",
+              "text": "I talk good"
+            },
+            {
+              "id": "o3",
+              "text": "Communication is nice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1095,9 +2006,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Aprendo rápido'?",
           "options": [
-            { "id": "o1", "text": "I am a fast learner" },
-            { "id": "o2", "text": "I learn quick" },
-            { "id": "o3", "text": "Fast brain" }
+            {
+              "id": "o1",
+              "text": "I am a fast learner"
+            },
+            {
+              "id": "o2",
+              "text": "I learn quick"
+            },
+            {
+              "id": "o3",
+              "text": "Fast brain"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1107,9 +2027,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuál es tu mayor debilidad?'?",
           "options": [
-            { "id": "o1", "text": "What is your greatest weakness?" },
-            { "id": "o2", "text": "Which soft point?" },
-            { "id": "o3", "text": "Bad thing about you?" }
+            {
+              "id": "o1",
+              "text": "What is your greatest weakness?"
+            },
+            {
+              "id": "o2",
+              "text": "Which soft point?"
+            },
+            {
+              "id": "o3",
+              "text": "Bad thing about you?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1119,9 +2048,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'A veces soy demasiado perfeccionista'?",
           "options": [
-            { "id": "o1", "text": "Sometimes I am too much of a perfectionist" },
-            { "id": "o2", "text": "I want all perfect" },
-            { "id": "o3", "text": "Perfect me always" }
+            {
+              "id": "o1",
+              "text": "Sometimes I am too much of a perfectionist"
+            },
+            {
+              "id": "o2",
+              "text": "I want all perfect"
+            },
+            {
+              "id": "o3",
+              "text": "Perfect me always"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1131,9 +2069,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Dónde te ves en cinco años?'?",
           "options": [
-            { "id": "o1", "text": "Where do you see yourself in five years?" },
-            { "id": "o2", "text": "You in five years where?" },
-            { "id": "o3", "text": "Future five years?" }
+            {
+              "id": "o1",
+              "text": "Where do you see yourself in five years?"
+            },
+            {
+              "id": "o2",
+              "text": "You in five years where?"
+            },
+            {
+              "id": "o3",
+              "text": "Future five years?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1143,9 +2090,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Espero crecer profesionalmente'?",
           "options": [
-            { "id": "o1", "text": "I hope to grow professionally" },
-            { "id": "o2", "text": "I want more job" },
-            { "id": "o3", "text": "Grow in work" }
+            {
+              "id": "o1",
+              "text": "I hope to grow professionally"
+            },
+            {
+              "id": "o2",
+              "text": "I want more job"
+            },
+            {
+              "id": "o3",
+              "text": "Grow in work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1155,9 +2111,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'contrato'?",
           "options": [
-            { "id": "o1", "text": "Contract" },
-            { "id": "o2", "text": "Paper" },
-            { "id": "o3", "text": "Deal" }
+            {
+              "id": "o1",
+              "text": "Contract"
+            },
+            {
+              "id": "o2",
+              "text": "Paper"
+            },
+            {
+              "id": "o3",
+              "text": "Deal"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1167,9 +2132,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'firmar'?",
           "options": [
-            { "id": "o1", "text": "To sign" },
-            { "id": "o2", "text": "To write name" },
-            { "id": "o3", "text": "To mark" }
+            {
+              "id": "o1",
+              "text": "To sign"
+            },
+            {
+              "id": "o2",
+              "text": "To write name"
+            },
+            {
+              "id": "o3",
+              "text": "To mark"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1179,9 +2153,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Felicidades, tienes el trabajo!'?",
           "options": [
-            { "id": "o1", "text": "Congratulations, you have the job!" },
-            { "id": "o2", "text": "Good work, job for you!" },
-            { "id": "o3", "text": "Happy day, you work here!" }
+            {
+              "id": "o1",
+              "text": "Congratulations, you have the job!"
+            },
+            {
+              "id": "o2",
+              "text": "Good work, job for you!"
+            },
+            {
+              "id": "o3",
+              "text": "Happy day, you work here!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"

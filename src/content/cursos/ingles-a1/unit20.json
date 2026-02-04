@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'soleado'?",
           "options": [
-            { "id": "o1", "text": "Sunny" },
-            { "id": "o2", "text": "Rainy" },
-            { "id": "o3", "text": "Cloudy" }
+            {
+              "id": "o1",
+              "text": "Sunny"
+            },
+            {
+              "id": "o2",
+              "text": "Rainy"
+            },
+            {
+              "id": "o3",
+              "text": "Cloudy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lluvioso'?",
           "options": [
-            { "id": "o1", "text": "Rainy" },
-            { "id": "o2", "text": "Snowy" },
-            { "id": "o3", "text": "Windy" }
+            {
+              "id": "o1",
+              "text": "Rainy"
+            },
+            {
+              "id": "o2",
+              "text": "Snowy"
+            },
+            {
+              "id": "o3",
+              "text": "Windy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nublado'?",
           "options": [
-            { "id": "o1", "text": "Cloudy" },
-            { "id": "o2", "text": "Foggy" },
-            { "id": "o3", "text": "Stormy" }
+            {
+              "id": "o1",
+              "text": "Cloudy"
+            },
+            {
+              "id": "o2",
+              "text": "Foggy"
+            },
+            {
+              "id": "o3",
+              "text": "Stormy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ventoso'?",
           "options": [
-            { "id": "o1", "text": "Windy" },
-            { "id": "o2", "text": "Breezy" },
-            { "id": "o3", "text": "Cold" }
+            {
+              "id": "o1",
+              "text": "Windy"
+            },
+            {
+              "id": "o2",
+              "text": "Breezy"
+            },
+            {
+              "id": "o3",
+              "text": "Cold"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nevado'?",
           "options": [
-            { "id": "o1", "text": "Snowy" },
-            { "id": "o2", "text": "Icy" },
-            { "id": "o3", "text": "Chilly" }
+            {
+              "id": "o1",
+              "text": "Snowy"
+            },
+            {
+              "id": "o2",
+              "text": "Icy"
+            },
+            {
+              "id": "o3",
+              "text": "Chilly"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tormentoso'?",
           "options": [
-            { "id": "o1", "text": "Stormy" },
-            { "id": "o2", "text": "Thundery" },
-            { "id": "o3", "text": "Wet" }
+            {
+              "id": "o1",
+              "text": "Stormy"
+            },
+            {
+              "id": "o2",
+              "text": "Thundery"
+            },
+            {
+              "id": "o3",
+              "text": "Wet"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'caluroso'?",
           "options": [
-            { "id": "o1", "text": "Hot" },
-            { "id": "o2", "text": "Warm" },
-            { "id": "o3", "text": "Cool" }
+            {
+              "id": "o1",
+              "text": "Hot"
+            },
+            {
+              "id": "o2",
+              "text": "Warm"
+            },
+            {
+              "id": "o3",
+              "text": "Cool"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'frío'?",
           "options": [
-            { "id": "o1", "text": "Cold" },
-            { "id": "o2", "text": "Cool" },
-            { "id": "o3", "text": "Freezing" }
+            {
+              "id": "o1",
+              "text": "Cold"
+            },
+            {
+              "id": "o2",
+              "text": "Cool"
+            },
+            {
+              "id": "o3",
+              "text": "Freezing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cálido'?",
           "options": [
-            { "id": "o1", "text": "Warm" },
-            { "id": "o2", "text": "Hot" },
-            { "id": "o3", "text": "Mild" }
+            {
+              "id": "o1",
+              "text": "Warm"
+            },
+            {
+              "id": "o2",
+              "text": "Hot"
+            },
+            {
+              "id": "o3",
+              "text": "Mild"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fresco'?",
           "options": [
-            { "id": "o1", "text": "Cool" },
-            { "id": "o2", "text": "Cold" },
-            { "id": "o3", "text": "Fresh" }
+            {
+              "id": "o1",
+              "text": "Cool"
+            },
+            {
+              "id": "o2",
+              "text": "Cold"
+            },
+            {
+              "id": "o3",
+              "text": "Fresh"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,9 +227,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'con niebla'?",
           "options": [
-            { "id": "o1", "text": "Foggy" },
-            { "id": "o2", "text": "Misty" },
-            { "id": "o3", "text": "Cloudy" }
+            {
+              "id": "o1",
+              "text": "Foggy"
+            },
+            {
+              "id": "o2",
+              "text": "Misty"
+            },
+            {
+              "id": "o3",
+              "text": "Cloudy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -149,9 +248,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hielo'?",
           "options": [
-            { "id": "o1", "text": "Ice" },
-            { "id": "o2", "text": "Snow" },
-            { "id": "o3", "text": "Frost" }
+            {
+              "id": "o1",
+              "text": "Ice"
+            },
+            {
+              "id": "o2",
+              "text": "Snow"
+            },
+            {
+              "id": "o3",
+              "text": "Frost"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -161,9 +269,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lluvia'?",
           "options": [
-            { "id": "o1", "text": "Rain" },
-            { "id": "o2", "text": "Water" },
-            { "id": "o3", "text": "Drop" }
+            {
+              "id": "o1",
+              "text": "Rain"
+            },
+            {
+              "id": "o2",
+              "text": "Water"
+            },
+            {
+              "id": "o3",
+              "text": "Drop"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -173,9 +290,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nieve'?",
           "options": [
-            { "id": "o1", "text": "Snow" },
-            { "id": "o2", "text": "Ice" },
-            { "id": "o3", "text": "Flake" }
+            {
+              "id": "o1",
+              "text": "Snow"
+            },
+            {
+              "id": "o2",
+              "text": "Ice"
+            },
+            {
+              "id": "o3",
+              "text": "Flake"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -185,9 +311,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'viento'?",
           "options": [
-            { "id": "o1", "text": "Wind" },
-            { "id": "o2", "text": "Air" },
-            { "id": "o3", "text": "Storm" }
+            {
+              "id": "o1",
+              "text": "Wind"
+            },
+            {
+              "id": "o2",
+              "text": "Air"
+            },
+            {
+              "id": "o3",
+              "text": "Storm"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -197,11 +332,27 @@
           "type": "matching",
           "prompt_es": "Une el clima con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Sunny", "right": "Soleado" },
-            { "id": "p2", "left": "Rainy", "right": "Lluvioso" },
-            { "id": "p3", "left": "Windy", "right": "Ventoso" }
+            {
+              "id": "p1",
+              "left": "Sunny",
+              "right": "Soleado"
+            },
+            {
+              "id": "p2",
+              "left": "Rainy",
+              "right": "Lluvioso"
+            },
+            {
+              "id": "p3",
+              "left": "Windy",
+              "right": "Ventoso"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -209,11 +360,27 @@
           "type": "matching",
           "prompt_es": "Une las temperaturas:",
           "pairs": [
-            { "id": "p1", "left": "Hot", "right": "Muy caluroso" },
-            { "id": "p2", "left": "Warm", "right": "Cálido" },
-            { "id": "p3", "left": "Cool", "right": "Fresco" }
+            {
+              "id": "p1",
+              "left": "Hot",
+              "right": "Muy caluroso"
+            },
+            {
+              "id": "p2",
+              "left": "Warm",
+              "right": "Cálido"
+            },
+            {
+              "id": "p3",
+              "left": "Cool",
+              "right": "Fresco"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -245,9 +412,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'trueno'?",
           "options": [
-            { "id": "o1", "text": "Thunder" },
-            { "id": "o2", "text": "Lightning" },
-            { "id": "o3", "text": "Cloud" }
+            {
+              "id": "o1",
+              "text": "Thunder"
+            },
+            {
+              "id": "o2",
+              "text": "Lightning"
+            },
+            {
+              "id": "o3",
+              "text": "Cloud"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -257,9 +433,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'relámpago'?",
           "options": [
-            { "id": "o1", "text": "Lightning" },
-            { "id": "o2", "text": "Thunder" },
-            { "id": "o3", "text": "Light" }
+            {
+              "id": "o1",
+              "text": "Lightning"
+            },
+            {
+              "id": "o2",
+              "text": "Thunder"
+            },
+            {
+              "id": "o3",
+              "text": "Light"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -269,9 +454,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'arcoíris'?",
           "options": [
-            { "id": "o1", "text": "Rainbow" },
-            { "id": "o2", "text": "Rainbows" },
-            { "id": "o3", "text": "Rain line" }
+            {
+              "id": "o1",
+              "text": "Rainbow"
+            },
+            {
+              "id": "o2",
+              "text": "Rainbows"
+            },
+            {
+              "id": "o3",
+              "text": "Rain line"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -281,9 +475,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tormenta'?",
           "options": [
-            { "id": "o1", "text": "Storm" },
-            { "id": "o2", "text": "Rain" },
-            { "id": "o3", "text": "Wind" }
+            {
+              "id": "o1",
+              "text": "Storm"
+            },
+            {
+              "id": "o2",
+              "text": "Rain"
+            },
+            {
+              "id": "o3",
+              "text": "Wind"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -293,9 +496,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'humedad'?",
           "options": [
-            { "id": "o1", "text": "Humidity" },
-            { "id": "o2", "text": "Wet" },
-            { "id": "o3", "text": "Moist" }
+            {
+              "id": "o1",
+              "text": "Humidity"
+            },
+            {
+              "id": "o2",
+              "text": "Wet"
+            },
+            {
+              "id": "o3",
+              "text": "Moist"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -311,9 +523,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'primavera'?",
           "options": [
-            { "id": "o1", "text": "Spring" },
-            { "id": "o2", "text": "Summer" },
-            { "id": "o3", "text": "Autumn" }
+            {
+              "id": "o1",
+              "text": "Spring"
+            },
+            {
+              "id": "o2",
+              "text": "Summer"
+            },
+            {
+              "id": "o3",
+              "text": "Autumn"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -323,9 +544,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'verano'?",
           "options": [
-            { "id": "o1", "text": "Summer" },
-            { "id": "o2", "text": "Spring" },
-            { "id": "o3", "text": "Winter" }
+            {
+              "id": "o1",
+              "text": "Summer"
+            },
+            {
+              "id": "o2",
+              "text": "Spring"
+            },
+            {
+              "id": "o3",
+              "text": "Winter"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -335,9 +565,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'otoño' (Reino Unido)?",
           "options": [
-            { "id": "o1", "text": "Autumn" },
-            { "id": "o2", "text": "Fall" },
-            { "id": "o3", "text": "Spring" }
+            {
+              "id": "o1",
+              "text": "Autumn"
+            },
+            {
+              "id": "o2",
+              "text": "Fall"
+            },
+            {
+              "id": "o3",
+              "text": "Spring"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -347,9 +586,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'otoño' (EE. UU.)?",
           "options": [
-            { "id": "o1", "text": "Fall" },
-            { "id": "o2", "text": "Autumn" },
-            { "id": "o3", "text": "Down" }
+            {
+              "id": "o1",
+              "text": "Fall"
+            },
+            {
+              "id": "o2",
+              "text": "Autumn"
+            },
+            {
+              "id": "o3",
+              "text": "Down"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -359,9 +607,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'invierno'?",
           "options": [
-            { "id": "o1", "text": "Winter" },
-            { "id": "o2", "text": "Summer" },
-            { "id": "o3", "text": "Autumn" }
+            {
+              "id": "o1",
+              "text": "Winter"
+            },
+            {
+              "id": "o2",
+              "text": "Summer"
+            },
+            {
+              "id": "o3",
+              "text": "Autumn"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -371,11 +628,27 @@
           "type": "matching",
           "prompt_es": "Une la estación con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Spring", "right": "Primavera" },
-            { "id": "p2", "left": "Summer", "right": "Verano" },
-            { "id": "p3", "left": "Winter", "right": "Invierno" }
+            {
+              "id": "p1",
+              "left": "Spring",
+              "right": "Primavera"
+            },
+            {
+              "id": "p2",
+              "left": "Summer",
+              "right": "Verano"
+            },
+            {
+              "id": "p3",
+              "left": "Winter",
+              "right": "Invierno"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -399,9 +672,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estación' (del año)?",
           "options": [
-            { "id": "o1", "text": "Season" },
-            { "id": "o2", "text": "Station" },
-            { "id": "o3", "text": "Time" }
+            {
+              "id": "o1",
+              "text": "Season"
+            },
+            {
+              "id": "o2",
+              "text": "Station"
+            },
+            {
+              "id": "o3",
+              "text": "Time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -411,9 +693,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'clima'?",
           "options": [
-            { "id": "o1", "text": "Weather" },
-            { "id": "o2", "text": "Climate" },
-            { "id": "o3", "text": "Atmosphere" }
+            {
+              "id": "o1",
+              "text": "Weather"
+            },
+            {
+              "id": "o2",
+              "text": "Climate"
+            },
+            {
+              "id": "o3",
+              "text": "Atmosphere"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -423,9 +714,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pronóstico'?",
           "options": [
-            { "id": "o1", "text": "Forecast" },
-            { "id": "o2", "text": "News" },
-            { "id": "o3", "text": "Report" }
+            {
+              "id": "o1",
+              "text": "Forecast"
+            },
+            {
+              "id": "o2",
+              "text": "News"
+            },
+            {
+              "id": "o3",
+              "text": "Report"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -435,9 +735,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'temperatura'?",
           "options": [
-            { "id": "o1", "text": "Temperature" },
-            { "id": "o2", "text": "Degree" },
-            { "id": "o3", "text": "Heat" }
+            {
+              "id": "o1",
+              "text": "Temperature"
+            },
+            {
+              "id": "o2",
+              "text": "Degree"
+            },
+            {
+              "id": "o3",
+              "text": "Heat"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -447,9 +756,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'grados'?",
           "options": [
-            { "id": "o1", "text": "Degrees" },
-            { "id": "o2", "text": "Grades" },
-            { "id": "o3", "text": "Points" }
+            {
+              "id": "o1",
+              "text": "Degrees"
+            },
+            {
+              "id": "o2",
+              "text": "Grades"
+            },
+            {
+              "id": "o3",
+              "text": "Points"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -459,9 +777,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bajo cero'?",
           "options": [
-            { "id": "o1", "text": "Below zero" },
-            { "id": "o2", "text": "Under zero" },
-            { "id": "o3", "text": "Sub zero" }
+            {
+              "id": "o1",
+              "text": "Below zero"
+            },
+            {
+              "id": "o2",
+              "text": "Under zero"
+            },
+            {
+              "id": "o3",
+              "text": "Sub zero"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -471,9 +798,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cielo'?",
           "options": [
-            { "id": "o1", "text": "Sky" },
-            { "id": "o2", "text": "Heaven" },
-            { "id": "o3", "text": "Blue" }
+            {
+              "id": "o1",
+              "text": "Sky"
+            },
+            {
+              "id": "o2",
+              "text": "Heaven"
+            },
+            {
+              "id": "o3",
+              "text": "Blue"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -483,9 +819,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sol'?",
           "options": [
-            { "id": "o1", "text": "Sun" },
-            { "id": "o2", "text": "Star" },
-            { "id": "o3", "text": "Day" }
+            {
+              "id": "o1",
+              "text": "Sun"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            },
+            {
+              "id": "o3",
+              "text": "Day"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -495,9 +840,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'luna'?",
           "options": [
-            { "id": "o1", "text": "Moon" },
-            { "id": "o2", "text": "Night" },
-            { "id": "o3", "text": "Light" }
+            {
+              "id": "o1",
+              "text": "Moon"
+            },
+            {
+              "id": "o2",
+              "text": "Night"
+            },
+            {
+              "id": "o3",
+              "text": "Light"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -507,9 +861,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nube'?",
           "options": [
-            { "id": "o1", "text": "Cloud" },
-            { "id": "o2", "text": "Fog" },
-            { "id": "o3", "text": "Mist" }
+            {
+              "id": "o1",
+              "text": "Cloud"
+            },
+            {
+              "id": "o2",
+              "text": "Fog"
+            },
+            {
+              "id": "o3",
+              "text": "Mist"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -519,9 +882,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estrella'?",
           "options": [
-            { "id": "o1", "text": "Star" },
-            { "id": "o2", "text": "Point" },
-            { "id": "o3", "text": "Sky" }
+            {
+              "id": "o1",
+              "text": "Star"
+            },
+            {
+              "id": "o2",
+              "text": "Point"
+            },
+            {
+              "id": "o3",
+              "text": "Sky"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -531,9 +903,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'clima extremo'?",
           "options": [
-            { "id": "o1", "text": "Extreme weather" },
-            { "id": "o2", "text": "Hard climate" },
-            { "id": "o3", "text": "Big weather" }
+            {
+              "id": "o1",
+              "text": "Extreme weather"
+            },
+            {
+              "id": "o2",
+              "text": "Hard climate"
+            },
+            {
+              "id": "o3",
+              "text": "Big weather"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -543,9 +924,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'paraguas'?",
           "options": [
-            { "id": "o1", "text": "Umbrella" },
-            { "id": "o2", "text": "Raincoat" },
-            { "id": "o3", "text": "Sunshade" }
+            {
+              "id": "o1",
+              "text": "Umbrella"
+            },
+            {
+              "id": "o2",
+              "text": "Raincoat"
+            },
+            {
+              "id": "o3",
+              "text": "Sunshade"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -555,9 +945,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gafas de sol'?",
           "options": [
-            { "id": "o1", "text": "Sunglasses" },
-            { "id": "o2", "text": "Sun cups" },
-            { "id": "o3", "text": "Solar glasses" }
+            {
+              "id": "o1",
+              "text": "Sunglasses"
+            },
+            {
+              "id": "o2",
+              "text": "Sun cups"
+            },
+            {
+              "id": "o3",
+              "text": "Solar glasses"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -567,9 +966,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bronceador'?",
           "options": [
-            { "id": "o1", "text": "Sunscreen / Sunblock" },
-            { "id": "o2", "text": "Sun oil" },
-            { "id": "o3", "text": "Sun cream" }
+            {
+              "id": "o1",
+              "text": "Sunscreen / Sunblock"
+            },
+            {
+              "id": "o2",
+              "text": "Sun oil"
+            },
+            {
+              "id": "o3",
+              "text": "Sun cream"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -579,9 +987,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'calentamiento global'?",
           "options": [
-            { "id": "o1", "text": "Global warming" },
-            { "id": "o2", "text": "World heat" },
-            { "id": "o3", "text": "Global heat" }
+            {
+              "id": "o1",
+              "text": "Global warming"
+            },
+            {
+              "id": "o2",
+              "text": "World heat"
+            },
+            {
+              "id": "o3",
+              "text": "Global heat"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -591,9 +1008,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'medio ambiente'?",
           "options": [
-            { "id": "o1", "text": "Environment" },
-            { "id": "o2", "text": "Nature" },
-            { "id": "o3", "text": "Around" }
+            {
+              "id": "o1",
+              "text": "Environment"
+            },
+            {
+              "id": "o2",
+              "text": "Nature"
+            },
+            {
+              "id": "o3",
+              "text": "Around"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -609,9 +1035,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta '¿Qué tiempo hace?'?",
           "options": [
-            { "id": "o1", "text": "What is the weather like?" },
-            { "id": "o2", "text": "How is the weather?" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "What is the weather like?"
+            },
+            {
+              "id": "o2",
+              "text": "How is the weather?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -621,9 +1056,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está lloviendo'?",
           "options": [
-            { "id": "o1", "text": "It is raining" },
-            { "id": "o2", "text": "It is rainy" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "It is raining"
+            },
+            {
+              "id": "o2",
+              "text": "It is rainy"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -633,9 +1077,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está nevando'?",
           "options": [
-            { "id": "o1", "text": "It is snowing" },
-            { "id": "o2", "text": "It is snowy" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "It is snowing"
+            },
+            {
+              "id": "o2",
+              "text": "It is snowy"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -645,9 +1098,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hace sol'?",
           "options": [
-            { "id": "o1", "text": "It is sunny" },
-            { "id": "o2", "text": "It makes sun" },
-            { "id": "o3", "text": "The sun is" }
+            {
+              "id": "o1",
+              "text": "It is sunny"
+            },
+            {
+              "id": "o2",
+              "text": "It makes sun"
+            },
+            {
+              "id": "o3",
+              "text": "The sun is"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -657,9 +1119,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hace viento'?",
           "options": [
-            { "id": "o1", "text": "It is windy" },
-            { "id": "o2", "text": "It makes wind" },
-            { "id": "o3", "text": "Wind is" }
+            {
+              "id": "o1",
+              "text": "It is windy"
+            },
+            {
+              "id": "o2",
+              "text": "It makes wind"
+            },
+            {
+              "id": "o3",
+              "text": "Wind is"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -669,9 +1140,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está despejado'?",
           "options": [
-            { "id": "o1", "text": "It is clear" },
-            { "id": "o2", "text": "It is clean" },
-            { "id": "o3", "text": "It is open" }
+            {
+              "id": "o1",
+              "text": "It is clear"
+            },
+            {
+              "id": "o2",
+              "text": "It is clean"
+            },
+            {
+              "id": "o3",
+              "text": "It is open"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -681,9 +1161,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hay niebla'?",
           "options": [
-            { "id": "o1", "text": "It is foggy" },
-            { "id": "o2", "text": "There is fog" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "It is foggy"
+            },
+            {
+              "id": "o2",
+              "text": "There is fog"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -693,9 +1182,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hace un tiempo estupendo'?",
           "options": [
-            { "id": "o1", "text": "The weather is great" },
-            { "id": "o2", "text": "It is a lovely day" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "The weather is great"
+            },
+            {
+              "id": "o2",
+              "text": "It is a lovely day"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -705,9 +1203,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hace un tiempo horrible'?",
           "options": [
-            { "id": "o1", "text": "The weather is terrible" },
-            { "id": "o2", "text": "It is a nasty day" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "The weather is terrible"
+            },
+            {
+              "id": "o2",
+              "text": "It is a nasty day"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -717,9 +1224,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está refrescando'?",
           "options": [
-            { "id": "o1", "text": "It is getting cooler" },
-            { "id": "o2", "text": "It is refreshing" },
-            { "id": "o3", "text": "It is cool" }
+            {
+              "id": "o1",
+              "text": "It is getting cooler"
+            },
+            {
+              "id": "o2",
+              "text": "It is refreshing"
+            },
+            {
+              "id": "o3",
+              "text": "It is cool"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -761,15 +1277,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿qué tiempo hace en Londres?'",
           "options": [
-            { "id": "w1", "text": "like" },
-            { "id": "w2", "text": "What" },
-            { "id": "w3", "text": "London?" },
-            { "id": "w4", "text": "weather" },
-            { "id": "w5", "text": "is" },
-            { "id": "w6", "text": "the" },
-            { "id": "w7", "text": "in" }
+            {
+              "id": "w1",
+              "text": "like"
+            },
+            {
+              "id": "w2",
+              "text": "What"
+            },
+            {
+              "id": "w3",
+              "text": "London?"
+            },
+            {
+              "id": "w4",
+              "text": "weather"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            }
           ],
-          "correct_answer": ["w2", "w5", "w6", "w4", "w1", "w7", "w3"],
+          "correct_answer": [
+            "w2",
+            "w5",
+            "w6",
+            "w4",
+            "w1",
+            "w7",
+            "w3"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -777,13 +1322,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'está muy nublado hoy'",
           "options": [
-            { "id": "w1", "text": "today" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "cloudy" },
-            { "id": "w4", "text": "very" },
-            { "id": "w5", "text": "It" }
+            {
+              "id": "w1",
+              "text": "today"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "cloudy"
+            },
+            {
+              "id": "w4",
+              "text": "very"
+            },
+            {
+              "id": "w5",
+              "text": "It"
+            }
           ],
-          "correct_answer": ["w5", "w2", "w4", "w3", "w1"],
+          "correct_answer": [
+            "w5",
+            "w2",
+            "w4",
+            "w3",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -791,9 +1357,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'naturaleza'?",
           "options": [
-            { "id": "o1", "text": "Nature" },
-            { "id": "o2", "text": "Natural" },
-            { "id": "o3", "text": "Green" }
+            {
+              "id": "o1",
+              "text": "Nature"
+            },
+            {
+              "id": "o2",
+              "text": "Natural"
+            },
+            {
+              "id": "o3",
+              "text": "Green"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -803,9 +1378,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'planeta'?",
           "options": [
-            { "id": "o1", "text": "Planet" },
-            { "id": "o2", "text": "World" },
-            { "id": "o3", "text": "Earth" }
+            {
+              "id": "o1",
+              "text": "Planet"
+            },
+            {
+              "id": "o2",
+              "text": "World"
+            },
+            {
+              "id": "o3",
+              "text": "Earth"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -815,9 +1399,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Tierra' (planeta)?",
           "options": [
-            { "id": "o1", "text": "Earth" },
-            { "id": "o2", "text": "Planet" },
-            { "id": "o3", "text": "Ground" }
+            {
+              "id": "o1",
+              "text": "Earth"
+            },
+            {
+              "id": "o2",
+              "text": "Planet"
+            },
+            {
+              "id": "o3",
+              "text": "Ground"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -827,9 +1420,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sol brillar'?",
           "options": [
-            { "id": "o1", "text": "The sun is shining" },
-            { "id": "o2", "text": "The sun shines" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "The sun is shining"
+            },
+            {
+              "id": "o2",
+              "text": "The sun shines"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -839,9 +1441,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'un día caluroso'?",
           "options": [
-            { "id": "o1", "text": "A hot day" },
-            { "id": "o2", "text": "A heat day" },
-            { "id": "o3", "text": "A day hot" }
+            {
+              "id": "o1",
+              "text": "A hot day"
+            },
+            {
+              "id": "o2",
+              "text": "A heat day"
+            },
+            {
+              "id": "o3",
+              "text": "A day hot"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -851,9 +1462,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'un día de nieve'?",
           "options": [
-            { "id": "o1", "text": "A snowy day" },
-            { "id": "o2", "text": "A snow day" },
-            { "id": "o3", "text": "A day snow" }
+            {
+              "id": "o1",
+              "text": "A snowy day"
+            },
+            {
+              "id": "o2",
+              "text": "A snow day"
+            },
+            {
+              "id": "o3",
+              "text": "A day snow"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -863,9 +1483,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'un día de viento'?",
           "options": [
-            { "id": "o1", "text": "A windy day" },
-            { "id": "o2", "text": "A wind day" },
-            { "id": "o3", "text": "A day wind" }
+            {
+              "id": "o1",
+              "text": "A windy day"
+            },
+            {
+              "id": "o2",
+              "text": "A wind day"
+            },
+            {
+              "id": "o3",
+              "text": "A day wind"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -875,9 +1504,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está granizando'?",
           "options": [
-            { "id": "o1", "text": "It is hailing" },
-            { "id": "o2", "text": "It is icing" },
-            { "id": "o3", "text": "It is freezing" }
+            {
+              "id": "o1",
+              "text": "It is hailing"
+            },
+            {
+              "id": "o2",
+              "text": "It is icing"
+            },
+            {
+              "id": "o3",
+              "text": "It is freezing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -887,9 +1525,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está helando'?",
           "options": [
-            { "id": "o1", "text": "It is freezing" },
-            { "id": "o2", "text": "It is cold" },
-            { "id": "o3", "text": "It is ice" }
+            {
+              "id": "o1",
+              "text": "It is freezing"
+            },
+            {
+              "id": "o2",
+              "text": "It is cold"
+            },
+            {
+              "id": "o3",
+              "text": "It is ice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -904,31 +1551,138 @@
           "interaction_id": "U20_I76",
           "type": "word-search",
           "prompt_es": "Encuentra palabras sobre el clima y las estaciones:",
-          "words": ["SUNNY", "RAINY", "WINDY", "SNOWY", "STORM", "SPRING", "SUMMER", "WINTER", "AUTUMN", "CLOUD"],
+          "words": [
+            "SUNNY",
+            "RAINY",
+            "WINDY",
+            "SNOWY",
+            "STORM",
+            "SPRING",
+            "SUMMER",
+            "WINTER",
+            "AUTUMN",
+            "CLOUD"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "SUNNY", "clue": "Soleado" },
-            { "word": "RAINY", "clue": "Lluvioso" },
-            { "word": "WINDY", "clue": "Ventoso" },
-            { "word": "SNOWY", "clue": "Nevado" },
-            { "word": "STORM", "clue": "Tormenta" },
-            { "word": "SPRING", "clue": "Primavera" },
-            { "word": "SUMMER", "clue": "Verano" },
-            { "word": "WINTER", "clue": "Invierno" },
-            { "word": "AUTUMN", "clue": "Otoño" },
-            { "word": "CLOUD", "clue": "Nube" }
+            {
+              "word": "SUNNY",
+              "clue": "Soleado"
+            },
+            {
+              "word": "RAINY",
+              "clue": "Lluvioso"
+            },
+            {
+              "word": "WINDY",
+              "clue": "Ventoso"
+            },
+            {
+              "word": "SNOWY",
+              "clue": "Nevado"
+            },
+            {
+              "word": "STORM",
+              "clue": "Tormenta"
+            },
+            {
+              "word": "SPRING",
+              "clue": "Primavera"
+            },
+            {
+              "word": "SUMMER",
+              "clue": "Verano"
+            },
+            {
+              "word": "WINTER",
+              "clue": "Invierno"
+            },
+            {
+              "word": "AUTUMN",
+              "clue": "Otoño"
+            },
+            {
+              "word": "CLOUD",
+              "clue": "Nube"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U20_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama del clima:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "WEATHER", "clue": "Conditions outside", "direction": "down", "row": 0, "col": 0 },
-            { "word": "HOT", "clue": "Opposite of cold", "direction": "across", "row": 0, "col": 0 },
-            { "word": "RAIN", "clue": "Water from the sky", "direction": "across", "row": 4, "col": 0 },
-            { "word": "SNOW", "clue": "White and cold", "direction": "down", "row": 4, "col": 0 }
+            {
+              "word": "ENVIRONMENT",
+              "clue": "Traducción de: medio ambiente",
+              "direction": "across",
+              "row": 10,
+              "col": 4
+            },
+            {
+              "word": "FORECAST",
+              "clue": "Traducción de: pronóstico",
+              "direction": "down",
+              "row": 7,
+              "col": 4
+            },
+            {
+              "word": "SUNSET",
+              "clue": "Traducción de: atardecer",
+              "direction": "down",
+              "row": 8,
+              "col": 10
+            },
+            {
+              "word": "PLANET",
+              "clue": "Traducción de: planeta",
+              "direction": "down",
+              "row": 5,
+              "col": 14
+            },
+            {
+              "word": "WINTER",
+              "clue": "Traducción de: Invierno",
+              "direction": "down",
+              "row": 9,
+              "col": 7
+            },
+            {
+              "word": "SUMMER",
+              "clue": "Traducción de: Verano",
+              "direction": "down",
+              "row": 6,
+              "col": 12
+            },
+            {
+              "word": "WARM",
+              "clue": "Traducción de: Cool",
+              "direction": "down",
+              "row": 1,
+              "col": 19
+            },
+            {
+              "word": "RAIN",
+              "clue": "Traducción de: lluvia",
+              "direction": "across",
+              "row": 0,
+              "col": 15
+            },
+            {
+              "word": "SKY",
+              "clue": "Traducción de: cielo",
+              "direction": "across",
+              "row": 4,
+              "col": 15
+            },
+            {
+              "word": "HOT",
+              "clue": "Traducción de: Cold",
+              "direction": "across",
+              "row": 14,
+              "col": 2
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -937,11 +1691,27 @@
           "type": "matching",
           "prompt_es": "Une los opuestos de temperatura:",
           "pairs": [
-            { "id": "p1", "left": "Hot", "right": "Cold" },
-            { "id": "p2", "left": "Warm", "right": "Cool" },
-            { "id": "p3", "left": "Sunny", "right": "Cloudy" }
+            {
+              "id": "p1",
+              "left": "Hot",
+              "right": "Cold"
+            },
+            {
+              "id": "p2",
+              "left": "Warm",
+              "right": "Cool"
+            },
+            {
+              "id": "p3",
+              "left": "Sunny",
+              "right": "Cloudy"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -965,9 +1735,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tormenta eléctrica'?",
           "options": [
-            { "id": "o1", "text": "Thunderstorm" },
-            { "id": "o2", "text": "Electric storm" },
-            { "id": "o3", "text": "Light storm" }
+            {
+              "id": "o1",
+              "text": "Thunderstorm"
+            },
+            {
+              "id": "o2",
+              "text": "Electric storm"
+            },
+            {
+              "id": "o3",
+              "text": "Light storm"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -977,9 +1756,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'neblina'?",
           "options": [
-            { "id": "o1", "text": "Mist" },
-            { "id": "o2", "text": "Fog" },
-            { "id": "o3", "text": "Haze" }
+            {
+              "id": "o1",
+              "text": "Mist"
+            },
+            {
+              "id": "o2",
+              "text": "Fog"
+            },
+            {
+              "id": "o3",
+              "text": "Haze"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -989,9 +1777,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'brisa'?",
           "options": [
-            { "id": "o1", "text": "Breeze" },
-            { "id": "o2", "text": "Wind" },
-            { "id": "o3", "text": "Air" }
+            {
+              "id": "o1",
+              "text": "Breeze"
+            },
+            {
+              "id": "o2",
+              "text": "Wind"
+            },
+            {
+              "id": "o3",
+              "text": "Air"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1001,9 +1798,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'calor' (sustantivo)?",
           "options": [
-            { "id": "o1", "text": "Heat" },
-            { "id": "o2", "text": "Hot" },
-            { "id": "o3", "text": "Warmth" }
+            {
+              "id": "o1",
+              "text": "Heat"
+            },
+            {
+              "id": "o2",
+              "text": "Hot"
+            },
+            {
+              "id": "o3",
+              "text": "Warmth"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1013,9 +1819,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'frío' (sustantivo)?",
           "options": [
-            { "id": "o1", "text": "Cold" },
-            { "id": "o2", "text": "Cool" },
-            { "id": "o3", "text": "Chill" }
+            {
+              "id": "o1",
+              "text": "Cold"
+            },
+            {
+              "id": "o2",
+              "text": "Cool"
+            },
+            {
+              "id": "o3",
+              "text": "Chill"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1025,9 +1840,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ola de calor'?",
           "options": [
-            { "id": "o1", "text": "Heatwave" },
-            { "id": "o2", "text": "Hot wave" },
-            { "id": "o3", "text": "Heat sea" }
+            {
+              "id": "o1",
+              "text": "Heatwave"
+            },
+            {
+              "id": "o2",
+              "text": "Hot wave"
+            },
+            {
+              "id": "o3",
+              "text": "Heat sea"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1037,9 +1861,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tempestad de nieve'?",
           "options": [
-            { "id": "o1", "text": "Blizzard" },
-            { "id": "o2", "text": "Snowstorm" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Blizzard"
+            },
+            {
+              "id": "o2",
+              "text": "Snowstorm"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -1049,9 +1882,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'inundación'?",
           "options": [
-            { "id": "o1", "text": "Flood" },
-            { "id": "o2", "text": "Watering" },
-            { "id": "o3", "text": "River" }
+            {
+              "id": "o1",
+              "text": "Flood"
+            },
+            {
+              "id": "o2",
+              "text": "Watering"
+            },
+            {
+              "id": "o3",
+              "text": "River"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1061,9 +1903,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sequía'?",
           "options": [
-            { "id": "o1", "text": "Drought" },
-            { "id": "o2", "text": "Dryness" },
-            { "id": "o3", "text": "No rain" }
+            {
+              "id": "o1",
+              "text": "Drought"
+            },
+            {
+              "id": "o2",
+              "text": "Dryness"
+            },
+            {
+              "id": "o3",
+              "text": "No rain"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1073,9 +1924,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'huracán'?",
           "options": [
-            { "id": "o1", "text": "Hurricane" },
-            { "id": "o2", "text": "Tornado" },
-            { "id": "o3", "text": "Cyclone" }
+            {
+              "id": "o1",
+              "text": "Hurricane"
+            },
+            {
+              "id": "o2",
+              "text": "Tornado"
+            },
+            {
+              "id": "o3",
+              "text": "Cyclone"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1085,9 +1945,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tornado'?",
           "options": [
-            { "id": "o1", "text": "Tornado" },
-            { "id": "o2", "text": "Hurricane" },
-            { "id": "o3", "text": "Twister" }
+            {
+              "id": "o1",
+              "text": "Tornado"
+            },
+            {
+              "id": "o2",
+              "text": "Hurricane"
+            },
+            {
+              "id": "o3",
+              "text": "Twister"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1097,9 +1966,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'rayo'?",
           "options": [
-            { "id": "o1", "text": "Ray / Beam" },
-            { "id": "o2", "text": "Lightning" },
-            { "id": "o3", "text": "Thunder" }
+            {
+              "id": "o1",
+              "text": "Ray / Beam"
+            },
+            {
+              "id": "o2",
+              "text": "Lightning"
+            },
+            {
+              "id": "o3",
+              "text": "Thunder"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1109,9 +1987,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'amanecer'?",
           "options": [
-            { "id": "o1", "text": "Sunrise" },
-            { "id": "o2", "text": "Sunset" },
-            { "id": "o3", "text": "Morning" }
+            {
+              "id": "o1",
+              "text": "Sunrise"
+            },
+            {
+              "id": "o2",
+              "text": "Sunset"
+            },
+            {
+              "id": "o3",
+              "text": "Morning"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1121,9 +2008,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'atardecer'?",
           "options": [
-            { "id": "o1", "text": "Sunset" },
-            { "id": "o2", "text": "Sunrise" },
-            { "id": "o3", "text": "Evening" }
+            {
+              "id": "o1",
+              "text": "Sunset"
+            },
+            {
+              "id": "o2",
+              "text": "Sunrise"
+            },
+            {
+              "id": "o3",
+              "text": "Evening"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1133,9 +2029,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'día nublado'?",
           "options": [
-            { "id": "o1", "text": "Cloudy day" },
-            { "id": "o2", "text": "Nube day" },
-            { "id": "o3", "text": "Gray day" }
+            {
+              "id": "o1",
+              "text": "Cloudy day"
+            },
+            {
+              "id": "o2",
+              "text": "Nube day"
+            },
+            {
+              "id": "o3",
+              "text": "Gray day"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1145,9 +2050,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está muy ventoso'?",
           "options": [
-            { "id": "o1", "text": "It is very windy" },
-            { "id": "o2", "text": "It is very wind" },
-            { "id": "o3", "text": "It makes much wind" }
+            {
+              "id": "o1",
+              "text": "It is very windy"
+            },
+            {
+              "id": "o2",
+              "text": "It is very wind"
+            },
+            {
+              "id": "o3",
+              "text": "It makes much wind"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1157,9 +2071,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fresco y agradable'?",
           "options": [
-            { "id": "o1", "text": "Cool and pleasant" },
-            { "id": "o2", "text": "Fresh and nice" },
-            { "id": "o3", "text": "Cold and good" }
+            {
+              "id": "o1",
+              "text": "Cool and pleasant"
+            },
+            {
+              "id": "o2",
+              "text": "Fresh and nice"
+            },
+            {
+              "id": "o3",
+              "text": "Cold and good"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1169,9 +2092,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'seco'?",
           "options": [
-            { "id": "o1", "text": "Dry" },
-            { "id": "o2", "text": "Wet" },
-            { "id": "o3", "text": "Hard" }
+            {
+              "id": "o1",
+              "text": "Dry"
+            },
+            {
+              "id": "o2",
+              "text": "Wet"
+            },
+            {
+              "id": "o3",
+              "text": "Hard"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1181,9 +2113,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mojado / húmedo'?",
           "options": [
-            { "id": "o1", "text": "Wet" },
-            { "id": "o2", "text": "Dry" },
-            { "id": "o3", "text": "Soft" }
+            {
+              "id": "o1",
+              "text": "Wet"
+            },
+            {
+              "id": "o2",
+              "text": "Dry"
+            },
+            {
+              "id": "o3",
+              "text": "Soft"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1193,9 +2134,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'proteger el planeta'?",
           "options": [
-            { "id": "o1", "text": "To protect the planet" },
-            { "id": "o2", "text": "To save the earth" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "To protect the planet"
+            },
+            {
+              "id": "o2",
+              "text": "To save the earth"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"

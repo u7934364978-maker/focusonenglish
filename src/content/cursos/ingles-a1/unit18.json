@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cabeza'?",
           "options": [
-            { "id": "o1", "text": "Head" },
-            { "id": "o2", "text": "Hand" },
-            { "id": "o3", "text": "Hair" }
+            {
+              "id": "o1",
+              "text": "Head"
+            },
+            {
+              "id": "o2",
+              "text": "Hand"
+            },
+            {
+              "id": "o3",
+              "text": "Hair"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'brazo'?",
           "options": [
-            { "id": "o1", "text": "Arm" },
-            { "id": "o2", "text": "Leg" },
-            { "id": "o3", "text": "Back" }
+            {
+              "id": "o1",
+              "text": "Arm"
+            },
+            {
+              "id": "o2",
+              "text": "Leg"
+            },
+            {
+              "id": "o3",
+              "text": "Back"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pierna'?",
           "options": [
-            { "id": "o1", "text": "Leg" },
-            { "id": "o2", "text": "Foot" },
-            { "id": "o3", "text": "Shoulder" }
+            {
+              "id": "o1",
+              "text": "Leg"
+            },
+            {
+              "id": "o2",
+              "text": "Foot"
+            },
+            {
+              "id": "o3",
+              "text": "Shoulder"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mano'?",
           "options": [
-            { "id": "o1", "text": "Hand" },
-            { "id": "o2", "text": "Foot" },
-            { "id": "o3", "text": "Finger" }
+            {
+              "id": "o1",
+              "text": "Hand"
+            },
+            {
+              "id": "o2",
+              "text": "Foot"
+            },
+            {
+              "id": "o3",
+              "text": "Finger"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pie'?",
           "options": [
-            { "id": "o1", "text": "Foot" },
-            { "id": "o2", "text": "Toe" },
-            { "id": "o3", "text": "Leg" }
+            {
+              "id": "o1",
+              "text": "Foot"
+            },
+            {
+              "id": "o2",
+              "text": "Toe"
+            },
+            {
+              "id": "o3",
+              "text": "Leg"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dedo de la mano'?",
           "options": [
-            { "id": "o1", "text": "Finger" },
-            { "id": "o2", "text": "Toe" },
-            { "id": "o3", "text": "Nail" }
+            {
+              "id": "o1",
+              "text": "Finger"
+            },
+            {
+              "id": "o2",
+              "text": "Toe"
+            },
+            {
+              "id": "o3",
+              "text": "Nail"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ojo'?",
           "options": [
-            { "id": "o1", "text": "Eye" },
-            { "id": "o2", "text": "Ear" },
-            { "id": "o3", "text": "Nose" }
+            {
+              "id": "o1",
+              "text": "Eye"
+            },
+            {
+              "id": "o2",
+              "text": "Ear"
+            },
+            {
+              "id": "o3",
+              "text": "Nose"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'oreja'?",
           "options": [
-            { "id": "o1", "text": "Ear" },
-            { "id": "o2", "text": "Eye" },
-            { "id": "o3", "text": "Mouth" }
+            {
+              "id": "o1",
+              "text": "Ear"
+            },
+            {
+              "id": "o2",
+              "text": "Eye"
+            },
+            {
+              "id": "o3",
+              "text": "Mouth"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nariz'?",
           "options": [
-            { "id": "o1", "text": "Nose" },
-            { "id": "o2", "text": "Knee" },
-            { "id": "o3", "text": "Elbow" }
+            {
+              "id": "o1",
+              "text": "Nose"
+            },
+            {
+              "id": "o2",
+              "text": "Knee"
+            },
+            {
+              "id": "o3",
+              "text": "Elbow"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'boca'?",
           "options": [
-            { "id": "o1", "text": "Mouth" },
-            { "id": "o2", "text": "Tongue" },
-            { "id": "o3", "text": "Tooth" }
+            {
+              "id": "o1",
+              "text": "Mouth"
+            },
+            {
+              "id": "o2",
+              "text": "Tongue"
+            },
+            {
+              "id": "o3",
+              "text": "Tooth"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,9 +227,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cuello'?",
           "options": [
-            { "id": "o1", "text": "Neck" },
-            { "id": "o2", "text": "Shoulder" },
-            { "id": "o3", "text": "Chest" }
+            {
+              "id": "o1",
+              "text": "Neck"
+            },
+            {
+              "id": "o2",
+              "text": "Shoulder"
+            },
+            {
+              "id": "o3",
+              "text": "Chest"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -149,9 +248,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hombro'?",
           "options": [
-            { "id": "o1", "text": "Shoulder" },
-            { "id": "o2", "text": "Back" },
-            { "id": "o3", "text": "Stomach" }
+            {
+              "id": "o1",
+              "text": "Shoulder"
+            },
+            {
+              "id": "o2",
+              "text": "Back"
+            },
+            {
+              "id": "o3",
+              "text": "Stomach"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -161,9 +269,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'espalda'?",
           "options": [
-            { "id": "o1", "text": "Back" },
-            { "id": "o2", "text": "Chest" },
-            { "id": "o3", "text": "Stomach" }
+            {
+              "id": "o1",
+              "text": "Back"
+            },
+            {
+              "id": "o2",
+              "text": "Chest"
+            },
+            {
+              "id": "o3",
+              "text": "Stomach"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -173,9 +290,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'rodilla'?",
           "options": [
-            { "id": "o1", "text": "Knee" },
-            { "id": "o2", "text": "Elbow" },
-            { "id": "o3", "text": "Ankle" }
+            {
+              "id": "o1",
+              "text": "Knee"
+            },
+            {
+              "id": "o2",
+              "text": "Elbow"
+            },
+            {
+              "id": "o3",
+              "text": "Ankle"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -185,9 +311,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'codo'?",
           "options": [
-            { "id": "o1", "text": "Elbow" },
-            { "id": "o2", "text": "Wrist" },
-            { "id": "o3", "text": "Knee" }
+            {
+              "id": "o1",
+              "text": "Elbow"
+            },
+            {
+              "id": "o2",
+              "text": "Wrist"
+            },
+            {
+              "id": "o3",
+              "text": "Knee"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -197,11 +332,27 @@
           "type": "matching",
           "prompt_es": "Une las partes del cuerpo:",
           "pairs": [
-            { "id": "p1", "left": "Head", "right": "Cabeza" },
-            { "id": "p2", "left": "Foot", "right": "Pie" },
-            { "id": "p3", "left": "Hand", "right": "Mano" }
+            {
+              "id": "p1",
+              "left": "Head",
+              "right": "Cabeza"
+            },
+            {
+              "id": "p2",
+              "left": "Foot",
+              "right": "Pie"
+            },
+            {
+              "id": "p3",
+              "left": "Hand",
+              "right": "Mano"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -209,11 +360,27 @@
           "type": "matching",
           "prompt_es": "Une las partes de la cara:",
           "pairs": [
-            { "id": "p1", "left": "Eye", "right": "Ojo" },
-            { "id": "p2", "left": "Nose", "right": "Nariz" },
-            { "id": "p3", "left": "Mouth", "right": "Boca" }
+            {
+              "id": "p1",
+              "left": "Eye",
+              "right": "Ojo"
+            },
+            {
+              "id": "p2",
+              "left": "Nose",
+              "right": "Nariz"
+            },
+            {
+              "id": "p3",
+              "left": "Mouth",
+              "right": "Boca"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -245,9 +412,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el plural de 'foot'?",
           "options": [
-            { "id": "o1", "text": "Feet" },
-            { "id": "o2", "text": "Foots" },
-            { "id": "o3", "text": "Feets" }
+            {
+              "id": "o1",
+              "text": "Feet"
+            },
+            {
+              "id": "o2",
+              "text": "Foots"
+            },
+            {
+              "id": "o3",
+              "text": "Feets"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -257,9 +433,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el plural de 'tooth'?",
           "options": [
-            { "id": "o1", "text": "Teeth" },
-            { "id": "o2", "text": "Tooths" },
-            { "id": "o3", "text": "Teeths" }
+            {
+              "id": "o1",
+              "text": "Teeth"
+            },
+            {
+              "id": "o2",
+              "text": "Tooths"
+            },
+            {
+              "id": "o3",
+              "text": "Teeths"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -269,9 +454,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estómago'?",
           "options": [
-            { "id": "o1", "text": "Stomach" },
-            { "id": "o2", "text": "Belly" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "Stomach"
+            },
+            {
+              "id": "o2",
+              "text": "Belly"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -281,9 +475,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pecho'?",
           "options": [
-            { "id": "o1", "text": "Chest" },
-            { "id": "o2", "text": "Breast" },
-            { "id": "o3", "text": "Heart" }
+            {
+              "id": "o1",
+              "text": "Chest"
+            },
+            {
+              "id": "o2",
+              "text": "Breast"
+            },
+            {
+              "id": "o3",
+              "text": "Heart"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -293,9 +496,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pelo'?",
           "options": [
-            { "id": "o1", "text": "Hair" },
-            { "id": "o2", "text": "Head" },
-            { "id": "o3", "text": "Fur" }
+            {
+              "id": "o1",
+              "text": "Hair"
+            },
+            {
+              "id": "o2",
+              "text": "Head"
+            },
+            {
+              "id": "o3",
+              "text": "Fur"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -311,9 +523,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dolor de cabeza'?",
           "options": [
-            { "id": "o1", "text": "Headache" },
-            { "id": "o2", "text": "Backache" },
-            { "id": "o3", "text": "Earache" }
+            {
+              "id": "o1",
+              "text": "Headache"
+            },
+            {
+              "id": "o2",
+              "text": "Backache"
+            },
+            {
+              "id": "o3",
+              "text": "Earache"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -323,9 +544,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dolor de espalda'?",
           "options": [
-            { "id": "o1", "text": "Backache" },
-            { "id": "o2", "text": "Headache" },
-            { "id": "o3", "text": "Stomach ache" }
+            {
+              "id": "o1",
+              "text": "Backache"
+            },
+            {
+              "id": "o2",
+              "text": "Headache"
+            },
+            {
+              "id": "o3",
+              "text": "Stomach ache"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -335,9 +565,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dolor de estómago'?",
           "options": [
-            { "id": "o1", "text": "Stomach ache" },
-            { "id": "o2", "text": "Toothache" },
-            { "id": "o3", "text": "Heartache" }
+            {
+              "id": "o1",
+              "text": "Stomach ache"
+            },
+            {
+              "id": "o2",
+              "text": "Toothache"
+            },
+            {
+              "id": "o3",
+              "text": "Heartache"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -347,9 +586,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dolor de muelas'?",
           "options": [
-            { "id": "o1", "text": "Toothache" },
-            { "id": "o2", "text": "Mouthache" },
-            { "id": "o3", "text": "Gumache" }
+            {
+              "id": "o1",
+              "text": "Toothache"
+            },
+            {
+              "id": "o2",
+              "text": "Mouthache"
+            },
+            {
+              "id": "o3",
+              "text": "Gumache"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -359,9 +607,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'resfriado'?",
           "options": [
-            { "id": "o1", "text": "A cold" },
-            { "id": "o2", "text": "A frost" },
-            { "id": "o3", "text": "A freeze" }
+            {
+              "id": "o1",
+              "text": "A cold"
+            },
+            {
+              "id": "o2",
+              "text": "A frost"
+            },
+            {
+              "id": "o3",
+              "text": "A freeze"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -371,9 +628,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tos'?",
           "options": [
-            { "id": "o1", "text": "Cough" },
-            { "id": "o2", "text": "Sneeze" },
-            { "id": "o3", "text": "Cold" }
+            {
+              "id": "o1",
+              "text": "Cough"
+            },
+            {
+              "id": "o2",
+              "text": "Sneeze"
+            },
+            {
+              "id": "o3",
+              "text": "Cold"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -383,9 +649,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fiebre'?",
           "options": [
-            { "id": "o1", "text": "Fever / Temperature" },
-            { "id": "o2", "text": "Heat" },
-            { "id": "o3", "text": "Hot" }
+            {
+              "id": "o1",
+              "text": "Fever / Temperature"
+            },
+            {
+              "id": "o2",
+              "text": "Heat"
+            },
+            {
+              "id": "o3",
+              "text": "Hot"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -395,9 +670,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dolor de garganta'?",
           "options": [
-            { "id": "o1", "text": "Sore throat" },
-            { "id": "o2", "text": "Neck ache" },
-            { "id": "o3", "text": "Throat pain" }
+            {
+              "id": "o1",
+              "text": "Sore throat"
+            },
+            {
+              "id": "o2",
+              "text": "Neck ache"
+            },
+            {
+              "id": "o3",
+              "text": "Throat pain"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -407,9 +691,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gripe'?",
           "options": [
-            { "id": "o1", "text": "Flu" },
-            { "id": "o2", "text": "Virus" },
-            { "id": "o3", "text": "Cold" }
+            {
+              "id": "o1",
+              "text": "Flu"
+            },
+            {
+              "id": "o2",
+              "text": "Virus"
+            },
+            {
+              "id": "o3",
+              "text": "Cold"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -419,9 +712,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mareado'?",
           "options": [
-            { "id": "o1", "text": "Dizzy" },
-            { "id": "o2", "text": "Sick" },
-            { "id": "o3", "text": "Tired" }
+            {
+              "id": "o1",
+              "text": "Dizzy"
+            },
+            {
+              "id": "o2",
+              "text": "Sick"
+            },
+            {
+              "id": "o3",
+              "text": "Tired"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -455,11 +757,27 @@
           "type": "matching",
           "prompt_es": "Une el síntoma con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Cough", "right": "Tos" },
-            { "id": "p2", "left": "Sneeze", "right": "Estornudo" },
-            { "id": "p3", "left": "Sore throat", "right": "Dolor de garganta" }
+            {
+              "id": "p1",
+              "left": "Cough",
+              "right": "Tos"
+            },
+            {
+              "id": "p2",
+              "left": "Sneeze",
+              "right": "Estornudo"
+            },
+            {
+              "id": "p3",
+              "left": "Sore throat",
+              "right": "Dolor de garganta"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -467,9 +785,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sentirse enfermo'?",
           "options": [
-            { "id": "o1", "text": "To feel sick / ill" },
-            { "id": "o2", "text": "To feel bad" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "To feel sick / ill"
+            },
+            {
+              "id": "o2",
+              "text": "To feel bad"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -479,9 +806,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mejorar'?",
           "options": [
-            { "id": "o1", "text": "To get better" },
-            { "id": "o2", "text": "To go better" },
-            { "id": "o3", "text": "To make better" }
+            {
+              "id": "o1",
+              "text": "To get better"
+            },
+            {
+              "id": "o2",
+              "text": "To go better"
+            },
+            {
+              "id": "o3",
+              "text": "To make better"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -491,9 +827,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'empeorar'?",
           "options": [
-            { "id": "o1", "text": "To get worse" },
-            { "id": "o2", "text": "To go worse" },
-            { "id": "o3", "text": "To fall worse" }
+            {
+              "id": "o1",
+              "text": "To get worse"
+            },
+            {
+              "id": "o2",
+              "text": "To go worse"
+            },
+            {
+              "id": "o3",
+              "text": "To fall worse"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -503,9 +848,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'descansar'?",
           "options": [
-            { "id": "o1", "text": "To rest / To take a rest" },
-            { "id": "o2", "text": "To sleep" },
-            { "id": "o3", "text": "To pause" }
+            {
+              "id": "o1",
+              "text": "To rest / To take a rest"
+            },
+            {
+              "id": "o2",
+              "text": "To sleep"
+            },
+            {
+              "id": "o3",
+              "text": "To pause"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -515,9 +869,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tomar medicina'?",
           "options": [
-            { "id": "o1", "text": "To take medicine" },
-            { "id": "o2", "text": "To eat medicine" },
-            { "id": "o3", "text": "To drink medicine" }
+            {
+              "id": "o1",
+              "text": "To take medicine"
+            },
+            {
+              "id": "o2",
+              "text": "To eat medicine"
+            },
+            {
+              "id": "o3",
+              "text": "To drink medicine"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -527,9 +890,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ir al médico'?",
           "options": [
-            { "id": "o1", "text": "To see the doctor / To go to the doctor" },
-            { "id": "o2", "text": "To visit the doctor" },
-            { "id": "o3", "text": "All are correct" }
+            {
+              "id": "o1",
+              "text": "To see the doctor / To go to the doctor"
+            },
+            {
+              "id": "o2",
+              "text": "To visit the doctor"
+            },
+            {
+              "id": "o3",
+              "text": "All are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -563,9 +935,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ambulancia'?",
           "options": [
-            { "id": "o1", "text": "Ambulance" },
-            { "id": "o2", "text": "Doctor car" },
-            { "id": "o3", "text": "Health truck" }
+            {
+              "id": "o1",
+              "text": "Ambulance"
+            },
+            {
+              "id": "o2",
+              "text": "Doctor car"
+            },
+            {
+              "id": "o3",
+              "text": "Health truck"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -575,9 +956,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hospital'?",
           "options": [
-            { "id": "o1", "text": "Hospital" },
-            { "id": "o2", "text": "Clinic" },
-            { "id": "o3", "text": "Both are places for care" }
+            {
+              "id": "o1",
+              "text": "Hospital"
+            },
+            {
+              "id": "o2",
+              "text": "Clinic"
+            },
+            {
+              "id": "o3",
+              "text": "Both are places for care"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -593,9 +983,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'deberías'?",
           "options": [
-            { "id": "o1", "text": "Should" },
-            { "id": "o2", "text": "Must" },
-            { "id": "o3", "text": "Can" }
+            {
+              "id": "o1",
+              "text": "Should"
+            },
+            {
+              "id": "o2",
+              "text": "Must"
+            },
+            {
+              "id": "o3",
+              "text": "Can"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -605,9 +1004,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'no deberías'?",
           "options": [
-            { "id": "o1", "text": "Shouldn't" },
-            { "id": "o2", "text": "Mustn't" },
-            { "id": "o3", "text": "Can't" }
+            {
+              "id": "o1",
+              "text": "Shouldn't"
+            },
+            {
+              "id": "o2",
+              "text": "Mustn't"
+            },
+            {
+              "id": "o3",
+              "text": "Can't"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -633,9 +1041,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'comer sano'?",
           "options": [
-            { "id": "o1", "text": "To eat healthily" },
-            { "id": "o2", "text": "To eat healthy" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "To eat healthily"
+            },
+            {
+              "id": "o2",
+              "text": "To eat healthy"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -645,9 +1062,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'beber mucha agua'?",
           "options": [
-            { "id": "o1", "text": "To drink plenty of water" },
-            { "id": "o2", "text": "To drink a lot of water" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "To drink plenty of water"
+            },
+            {
+              "id": "o2",
+              "text": "To drink a lot of water"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -657,9 +1083,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dormir 8 horas'?",
           "options": [
-            { "id": "o1", "text": "To sleep for 8 hours" },
-            { "id": "o2", "text": "To dream 8 hours" },
-            { "id": "o3", "text": "To rest 8 hours" }
+            {
+              "id": "o1",
+              "text": "To sleep for 8 hours"
+            },
+            {
+              "id": "o2",
+              "text": "To dream 8 hours"
+            },
+            {
+              "id": "o3",
+              "text": "To rest 8 hours"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -669,9 +1104,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ejercicio regular'?",
           "options": [
-            { "id": "o1", "text": "Regular exercise" },
-            { "id": "o2", "text": "Normal sport" },
-            { "id": "o3", "text": "Daily movement" }
+            {
+              "id": "o1",
+              "text": "Regular exercise"
+            },
+            {
+              "id": "o2",
+              "text": "Normal sport"
+            },
+            {
+              "id": "o3",
+              "text": "Daily movement"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -681,9 +1125,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vitamina'?",
           "options": [
-            { "id": "o1", "text": "Vitamin" },
-            { "id": "o2", "text": "Pill" },
-            { "id": "o3", "text": "Medicine" }
+            {
+              "id": "o1",
+              "text": "Vitamin"
+            },
+            {
+              "id": "o2",
+              "text": "Pill"
+            },
+            {
+              "id": "o3",
+              "text": "Medicine"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -693,9 +1146,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'receta médica'?",
           "options": [
-            { "id": "o1", "text": "Prescription" },
-            { "id": "o2", "text": "Recipe" },
-            { "id": "o3", "text": "Script" }
+            {
+              "id": "o1",
+              "text": "Prescription"
+            },
+            {
+              "id": "o2",
+              "text": "Recipe"
+            },
+            {
+              "id": "o3",
+              "text": "Script"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -705,13 +1167,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'deberías ver a un médico'",
           "options": [
-            { "id": "w1", "text": "should" },
-            { "id": "w2", "text": "see" },
-            { "id": "w3", "text": "doctor" },
-            { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "You" }
+            {
+              "id": "w1",
+              "text": "should"
+            },
+            {
+              "id": "w2",
+              "text": "see"
+            },
+            {
+              "id": "w3",
+              "text": "doctor"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "You"
+            }
           ],
-          "correct_answer": ["w5", "w1", "w2", "w4", "w3"],
+          "correct_answer": [
+            "w5",
+            "w1",
+            "w2",
+            "w4",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -719,12 +1202,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'no deberías comer eso'",
           "options": [
-            { "id": "w1", "text": "shouldn't" },
-            { "id": "w2", "text": "eat" },
-            { "id": "w3", "text": "that" },
-            { "id": "w4", "text": "You" }
+            {
+              "id": "w1",
+              "text": "shouldn't"
+            },
+            {
+              "id": "w2",
+              "text": "eat"
+            },
+            {
+              "id": "w3",
+              "text": "that"
+            },
+            {
+              "id": "w4",
+              "text": "You"
+            }
           ],
-          "correct_answer": ["w4", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w4",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -732,9 +1232,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pastilla'?",
           "options": [
-            { "id": "o1", "text": "Pill / Tablet" },
-            { "id": "o2", "text": "Candy" },
-            { "id": "o3", "text": "Stone" }
+            {
+              "id": "o1",
+              "text": "Pill / Tablet"
+            },
+            {
+              "id": "o2",
+              "text": "Candy"
+            },
+            {
+              "id": "o3",
+              "text": "Stone"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -744,9 +1253,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'jarabe'?",
           "options": [
-            { "id": "o1", "text": "Syrup" },
-            { "id": "o2", "text": "Juice" },
-            { "id": "o3", "text": "Liquid" }
+            {
+              "id": "o1",
+              "text": "Syrup"
+            },
+            {
+              "id": "o2",
+              "text": "Juice"
+            },
+            {
+              "id": "o3",
+              "text": "Liquid"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -756,9 +1274,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aspirina'?",
           "options": [
-            { "id": "o1", "text": "Aspirin" },
-            { "id": "o2", "text": "Paracetamol" },
-            { "id": "o3", "text": "Both are medicines" }
+            {
+              "id": "o1",
+              "text": "Aspirin"
+            },
+            {
+              "id": "o2",
+              "text": "Paracetamol"
+            },
+            {
+              "id": "o3",
+              "text": "Both are medicines"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -768,9 +1295,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'venda'?",
           "options": [
-            { "id": "o1", "text": "Bandage" },
-            { "id": "o2", "text": "Tape" },
-            { "id": "o3", "text": "Cloth" }
+            {
+              "id": "o1",
+              "text": "Bandage"
+            },
+            {
+              "id": "o2",
+              "text": "Tape"
+            },
+            {
+              "id": "o3",
+              "text": "Cloth"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -780,9 +1316,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tirita'?",
           "options": [
-            { "id": "o1", "text": "Plaster (UK) / Band-aid (US)" },
-            { "id": "o2", "text": "Sticky paper" },
-            { "id": "o3", "text": "Little bandage" }
+            {
+              "id": "o1",
+              "text": "Plaster (UK) / Band-aid (US)"
+            },
+            {
+              "id": "o2",
+              "text": "Sticky paper"
+            },
+            {
+              "id": "o3",
+              "text": "Little bandage"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -792,9 +1337,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sangre'?",
           "options": [
-            { "id": "o1", "text": "Blood" },
-            { "id": "o2", "text": "Red water" },
-            { "id": "o3", "text": "Body juice" }
+            {
+              "id": "o1",
+              "text": "Blood"
+            },
+            {
+              "id": "o2",
+              "text": "Red water"
+            },
+            {
+              "id": "o3",
+              "text": "Body juice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -804,9 +1358,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'corazón'?",
           "options": [
-            { "id": "o1", "text": "Heart" },
-            { "id": "o2", "text": "Chest" },
-            { "id": "o3", "text": "Bumper" }
+            {
+              "id": "o1",
+              "text": "Heart"
+            },
+            {
+              "id": "o2",
+              "text": "Chest"
+            },
+            {
+              "id": "o3",
+              "text": "Bumper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -816,9 +1379,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pulmones'?",
           "options": [
-            { "id": "o1", "text": "Lungs" },
-            { "id": "o2", "text": "Air bags" },
-            { "id": "o3", "text": "Breathers" }
+            {
+              "id": "o1",
+              "text": "Lungs"
+            },
+            {
+              "id": "o2",
+              "text": "Air bags"
+            },
+            {
+              "id": "o3",
+              "text": "Breathers"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -828,9 +1400,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hueso'?",
           "options": [
-            { "id": "o1", "text": "Bone" },
-            { "id": "o2", "text": "Stick" },
-            { "id": "o3", "text": "Hard" }
+            {
+              "id": "o1",
+              "text": "Bone"
+            },
+            {
+              "id": "o2",
+              "text": "Stick"
+            },
+            {
+              "id": "o3",
+              "text": "Hard"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -840,9 +1421,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'músculo'?",
           "options": [
-            { "id": "o1", "text": "Muscle" },
-            { "id": "o2", "text": "Strong" },
-            { "id": "o3", "text": "Flesh" }
+            {
+              "id": "o1",
+              "text": "Muscle"
+            },
+            {
+              "id": "o2",
+              "text": "Strong"
+            },
+            {
+              "id": "o3",
+              "text": "Flesh"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -852,9 +1442,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'piel'?",
           "options": [
-            { "id": "o1", "text": "Skin" },
-            { "id": "o2", "text": "Leather" },
-            { "id": "o3", "text": "Shell" }
+            {
+              "id": "o1",
+              "text": "Skin"
+            },
+            {
+              "id": "o2",
+              "text": "Leather"
+            },
+            {
+              "id": "o3",
+              "text": "Shell"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -864,9 +1463,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cerebro'?",
           "options": [
-            { "id": "o1", "text": "Brain" },
-            { "id": "o2", "text": "Mind" },
-            { "id": "o3", "text": "Thinker" }
+            {
+              "id": "o1",
+              "text": "Brain"
+            },
+            {
+              "id": "o2",
+              "text": "Mind"
+            },
+            {
+              "id": "o3",
+              "text": "Thinker"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -876,9 +1484,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cuerpo humano'?",
           "options": [
-            { "id": "o1", "text": "Human body" },
-            { "id": "o2", "text": "Man body" },
-            { "id": "o3", "text": "Person body" }
+            {
+              "id": "o1",
+              "text": "Human body"
+            },
+            {
+              "id": "o2",
+              "text": "Man body"
+            },
+            {
+              "id": "o3",
+              "text": "Person body"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -893,31 +1510,138 @@
           "interaction_id": "U18_I76",
           "type": "word-search",
           "prompt_es": "Encuentra partes del cuerpo y salud:",
-          "words": ["HEAD", "EYE", "FOOT", "HAND", "COLD", "FLU", "PILL", "DOCTOR", "HEART", "REST"],
+          "words": [
+            "HEAD",
+            "EYE",
+            "FOOT",
+            "HAND",
+            "COLD",
+            "FLU",
+            "PILL",
+            "DOCTOR",
+            "HEART",
+            "REST"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "HEAD", "clue": "Cabeza" },
-            { "word": "EYE", "clue": "Ojo" },
-            { "word": "FOOT", "clue": "Pie" },
-            { "word": "HAND", "clue": "Mano" },
-            { "word": "COLD", "clue": "Resfriado" },
-            { "word": "FLU", "clue": "Gripe" },
-            { "word": "PILL", "clue": "Pastilla" },
-            { "word": "DOCTOR", "clue": "Médico" },
-            { "word": "HEART", "clue": "Corazón" },
-            { "word": "REST", "clue": "Descanso" }
+            {
+              "word": "HEAD",
+              "clue": "Cabeza"
+            },
+            {
+              "word": "EYE",
+              "clue": "Ojo"
+            },
+            {
+              "word": "FOOT",
+              "clue": "Pie"
+            },
+            {
+              "word": "HAND",
+              "clue": "Mano"
+            },
+            {
+              "word": "COLD",
+              "clue": "Resfriado"
+            },
+            {
+              "word": "FLU",
+              "clue": "Gripe"
+            },
+            {
+              "word": "PILL",
+              "clue": "Pastilla"
+            },
+            {
+              "word": "DOCTOR",
+              "clue": "Médico"
+            },
+            {
+              "word": "HEART",
+              "clue": "Corazón"
+            },
+            {
+              "word": "REST",
+              "clue": "Descanso"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U18_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de salud:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "HEALTH", "clue": "Your state of body", "direction": "down", "row": 0, "col": 0 },
-            { "word": "HEAD", "clue": "Part with your brain", "direction": "across", "row": 0, "col": 0 },
-            { "word": "SICK", "clue": "Not well", "direction": "across", "row": 4, "col": 0 },
-            { "word": "LEG", "clue": "Part used to walk", "direction": "down", "row": 4, "col": 3 }
+            {
+              "word": "EMERGENCY",
+              "clue": "Traducción de: emergencia",
+              "direction": "across",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "BACKACHE",
+              "clue": "Traducción de: dolor de espalda",
+              "direction": "down",
+              "row": 5,
+              "col": 12
+            },
+            {
+              "word": "MUSCLE",
+              "clue": "Traducción de: músculo",
+              "direction": "across",
+              "row": 7,
+              "col": 9
+            },
+            {
+              "word": "LUNGS",
+              "clue": "Traducción de: pulmones",
+              "direction": "across",
+              "row": 1,
+              "col": 10
+            },
+            {
+              "word": "NURSE",
+              "clue": "Traducción de: enfermero/a",
+              "direction": "down",
+              "row": 3,
+              "col": 14
+            },
+            {
+              "word": "WEAK",
+              "clue": "Traducción de: débil",
+              "direction": "down",
+              "row": 9,
+              "col": 7
+            },
+            {
+              "word": "SKIN",
+              "clue": "Traducción de: piel",
+              "direction": "across",
+              "row": 3,
+              "col": 11
+            },
+            {
+              "word": "BACK",
+              "clue": "Traducción de: espalda",
+              "direction": "across",
+              "row": 12,
+              "col": 4
+            },
+            {
+              "word": "HAND",
+              "clue": "Traducción de: Mano",
+              "direction": "across",
+              "row": 19,
+              "col": 0
+            },
+            {
+              "word": "EAR",
+              "clue": "Traducción de: oreja",
+              "direction": "across",
+              "row": 12,
+              "col": 12
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -926,11 +1650,27 @@
           "type": "matching",
           "prompt_es": "Une el problema con el consejo:",
           "pairs": [
-            { "id": "p1", "left": "Headache", "right": "Take an aspirin" },
-            { "id": "p2", "left": "Tired", "right": "Take a rest" },
-            { "id": "p3", "left": "Sore throat", "right": "Drink warm tea" }
+            {
+              "id": "p1",
+              "left": "Headache",
+              "right": "Take an aspirin"
+            },
+            {
+              "id": "p2",
+              "left": "Tired",
+              "right": "Take a rest"
+            },
+            {
+              "id": "p3",
+              "left": "Sore throat",
+              "right": "Drink warm tea"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -954,9 +1694,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'primeros auxilios'?",
           "options": [
-            { "id": "o1", "text": "First aid" },
-            { "id": "o2", "text": "Fast help" },
-            { "id": "o3", "text": "Emergency care" }
+            {
+              "id": "o1",
+              "text": "First aid"
+            },
+            {
+              "id": "o2",
+              "text": "Fast help"
+            },
+            {
+              "id": "o3",
+              "text": "Emergency care"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -966,9 +1715,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'botiquín'?",
           "options": [
-            { "id": "o1", "text": "First aid kit" },
-            { "id": "o2", "text": "Medicine box" },
-            { "id": "o3", "text": "Health bag" }
+            {
+              "id": "o1",
+              "text": "First aid kit"
+            },
+            {
+              "id": "o2",
+              "text": "Medicine box"
+            },
+            {
+              "id": "o3",
+              "text": "Health bag"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -978,9 +1736,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'emergencia'?",
           "options": [
-            { "id": "o1", "text": "Emergency" },
-            { "id": "o2", "text": "Urgency" },
-            { "id": "o3", "text": "Crisis" }
+            {
+              "id": "o1",
+              "text": "Emergency"
+            },
+            {
+              "id": "o2",
+              "text": "Urgency"
+            },
+            {
+              "id": "o3",
+              "text": "Crisis"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -990,9 +1757,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'termómetro'?",
           "options": [
-            { "id": "o1", "text": "Thermometer" },
-            { "id": "o2", "text": "Temp meter" },
-            { "id": "o3", "text": "Heat gauge" }
+            {
+              "id": "o1",
+              "text": "Thermometer"
+            },
+            {
+              "id": "o2",
+              "text": "Temp meter"
+            },
+            {
+              "id": "o3",
+              "text": "Heat gauge"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1002,9 +1778,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estar resfriado'?",
           "options": [
-            { "id": "o1", "text": "To have a cold" },
-            { "id": "o2", "text": "To be cold" },
-            { "id": "o3", "text": "To get cold" }
+            {
+              "id": "o1",
+              "text": "To have a cold"
+            },
+            {
+              "id": "o2",
+              "text": "To be cold"
+            },
+            {
+              "id": "o3",
+              "text": "To get cold"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1014,9 +1799,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'salud'?",
           "options": [
-            { "id": "o1", "text": "Health" },
-            { "id": "o2", "text": "Wealth" },
-            { "id": "o3", "text": "Soundness" }
+            {
+              "id": "o1",
+              "text": "Health"
+            },
+            {
+              "id": "o2",
+              "text": "Wealth"
+            },
+            {
+              "id": "o3",
+              "text": "Soundness"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1026,9 +1820,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'energía'?",
           "options": [
-            { "id": "o1", "text": "Energy" },
-            { "id": "o2", "text": "Power" },
-            { "id": "o3", "text": "Strength" }
+            {
+              "id": "o1",
+              "text": "Energy"
+            },
+            {
+              "id": "o2",
+              "text": "Power"
+            },
+            {
+              "id": "o3",
+              "text": "Strength"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1038,9 +1841,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fuerza'?",
           "options": [
-            { "id": "o1", "text": "Strength" },
-            { "id": "o2", "text": "Energy" },
-            { "id": "o3", "text": "Power" }
+            {
+              "id": "o1",
+              "text": "Strength"
+            },
+            {
+              "id": "o2",
+              "text": "Energy"
+            },
+            {
+              "id": "o3",
+              "text": "Power"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1050,9 +1862,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fuerte'?",
           "options": [
-            { "id": "o1", "text": "Strong" },
-            { "id": "o2", "text": "Weak" },
-            { "id": "o3", "text": "Large" }
+            {
+              "id": "o1",
+              "text": "Strong"
+            },
+            {
+              "id": "o2",
+              "text": "Weak"
+            },
+            {
+              "id": "o3",
+              "text": "Large"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1062,9 +1883,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'débil'?",
           "options": [
-            { "id": "o1", "text": "Weak" },
-            { "id": "o2", "text": "Small" },
-            { "id": "o3", "text": "Low" }
+            {
+              "id": "o1",
+              "text": "Weak"
+            },
+            {
+              "id": "o2",
+              "text": "Small"
+            },
+            {
+              "id": "o3",
+              "text": "Low"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1074,9 +1904,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'curar'?",
           "options": [
-            { "id": "o1", "text": "To cure / To heal" },
-            { "id": "o2", "text": "To fix" },
-            { "id": "o3", "text": "To repair" }
+            {
+              "id": "o1",
+              "text": "To cure / To heal"
+            },
+            {
+              "id": "o2",
+              "text": "To fix"
+            },
+            {
+              "id": "o3",
+              "text": "To repair"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1086,9 +1925,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'recuperación'?",
           "options": [
-            { "id": "o1", "text": "Recovery" },
-            { "id": "o2", "text": "Getting better" },
-            { "id": "o3", "text": "Health back" }
+            {
+              "id": "o1",
+              "text": "Recovery"
+            },
+            {
+              "id": "o2",
+              "text": "Getting better"
+            },
+            {
+              "id": "o3",
+              "text": "Health back"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1098,9 +1946,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cita médica'?",
           "options": [
-            { "id": "o1", "text": "Medical appointment" },
-            { "id": "o2", "text": "Doctor date" },
-            { "id": "o3", "text": "Health meeting" }
+            {
+              "id": "o1",
+              "text": "Medical appointment"
+            },
+            {
+              "id": "o2",
+              "text": "Doctor date"
+            },
+            {
+              "id": "o3",
+              "text": "Health meeting"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1110,9 +1967,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'paciente'?",
           "options": [
-            { "id": "o1", "text": "Patient" },
-            { "id": "o2", "text": "Sick person" },
-            { "id": "o3", "text": "Medical person" }
+            {
+              "id": "o1",
+              "text": "Patient"
+            },
+            {
+              "id": "o2",
+              "text": "Sick person"
+            },
+            {
+              "id": "o3",
+              "text": "Medical person"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1122,9 +1988,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'enfermero/a'?",
           "options": [
-            { "id": "o1", "text": "Nurse" },
-            { "id": "o2", "text": "Doctor" },
-            { "id": "o3", "text": "Helper" }
+            {
+              "id": "o1",
+              "text": "Nurse"
+            },
+            {
+              "id": "o2",
+              "text": "Doctor"
+            },
+            {
+              "id": "o3",
+              "text": "Helper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1134,9 +2009,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sentirse bien'?",
           "options": [
-            { "id": "o1", "text": "To feel well" },
-            { "id": "o2", "text": "To feel good" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "To feel well"
+            },
+            {
+              "id": "o2",
+              "text": "To feel good"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -1146,9 +2030,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estrés'?",
           "options": [
-            { "id": "o1", "text": "Stress" },
-            { "id": "o2", "text": "Pressure" },
-            { "id": "o3", "text": "Worry" }
+            {
+              "id": "o1",
+              "text": "Stress"
+            },
+            {
+              "id": "o2",
+              "text": "Pressure"
+            },
+            {
+              "id": "o3",
+              "text": "Worry"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1158,9 +2051,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'relajado'?",
           "options": [
-            { "id": "o1", "text": "Relaxed" },
-            { "id": "o2", "text": "Calm" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Relaxed"
+            },
+            {
+              "id": "o2",
+              "text": "Calm"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -1170,9 +2072,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vida sana'?",
           "options": [
-            { "id": "o1", "text": "Healthy life" },
-            { "id": "o2", "text": "Good life" },
-            { "id": "o3", "text": "Strong life" }
+            {
+              "id": "o1",
+              "text": "Healthy life"
+            },
+            {
+              "id": "o2",
+              "text": "Good life"
+            },
+            {
+              "id": "o3",
+              "text": "Strong life"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1182,9 +2093,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cuidar de uno mismo'?",
           "options": [
-            { "id": "o1", "text": "To take care of yourself" },
-            { "id": "o2", "text": "To look after yourself" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "To take care of yourself"
+            },
+            {
+              "id": "o2",
+              "text": "To look after yourself"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"

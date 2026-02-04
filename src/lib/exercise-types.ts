@@ -1359,8 +1359,8 @@ export interface GeneratedExercise {
 
 export interface Question {
   id: string;
-  type: 'multiple-choice' | 'true-false' | 'fill-blank' | 'short-answer' | 'essay' | 'stress-identification' | 'minimal-pairs' | 'writing' | 'word-formation' | 'drag-and-drop' | 'graph-analysis';
-  question: string;
+  type: 'multiple-choice' | 'true-false' | 'fill-blank' | 'short-answer' | 'essay' | 'stress-identification' | 'minimal-pairs' | 'writing' | 'word-formation' | 'drag-and-drop' | 'graph-analysis' | 'key-word-transformation' | 'multiple-choice-cloze' | 'open-cloze' | 'gapped-text' | 'multiple-matching' | 'sentence-completion' | 'error-identification' | 'paraphrasing' | 'collocation-matching' | 'phrasal-verbs' | 'idioms-expressions' | 'summary-writing' | 'gap-fill-text' | 'sentence-reordering' | 'sentence-ordering' | 'sentence-building';
+  question?: string;
   options?: string[];
   correctAnswer: string | string[];
   acceptableAnswers?: string[];
@@ -1382,6 +1382,9 @@ export interface Question {
   minWords?: number;
   maxWords?: number;
   expectedConcepts?: string[];
+  sentence?: string;
+  keyWord?: string;
+  startOfAnswer?: string;
 }
 
 export interface VoiceRecordingExercise {
@@ -1999,6 +2002,7 @@ export interface Lesson {
   title: string;
   description: string;
   duration: number;
+  module?: string;
   objectives: string[];
   videoUrl?: string;
   audioUrl?: string;

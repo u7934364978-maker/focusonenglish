@@ -33,10 +33,11 @@ export const C2_U4_BLOCK1: Exercise = {
     {
       "id": "c2-u4-b1-q3",
       "type": "key-word-transformation",
+      "question": "If psychologists had not explored human behavior, many mental disorders would still remain a mystery. (HAD)\n\nHad psychologists not explored __________",
       "sentence": "If psychologists had not explored human behavior, many mental disorders would still remain a mystery.",
       "keyWord": "Had",
       "startOfAnswer": "Had psychologists not explored",
-      "correctAnswer": "Had psychologists not explored human behavior, many mental disorders would still remain a mystery.",
+      "correctAnswer": "human behavior, many mental disorders would still remain a mystery",
       "explanation": "Se utiliza una inversión condicional para reestructurar la oración sin cambiar su significado.",
       "points": 1
     },
@@ -65,10 +66,11 @@ export const C2_U4_BLOCK1: Exercise = {
     {
       "id": "c2-u4-b1-q6",
       "type": "key-word-transformation",
+      "question": "If it were not for the placebo effect, many treatments would appear less effective. (WERE)\n\nWere it not for __________",
       "sentence": "If it were not for the placebo effect, many treatments would appear less effective.",
       "keyWord": "Were",
       "startOfAnswer": "Were it not for",
-      "correctAnswer": "Were it not for the placebo effect, many treatments would appear less effective.",
+      "correctAnswer": "the placebo effect, many treatments would appear less effective",
       "explanation": "El uso del condicional invertido enfatiza el papel crucial del efecto placebo en la percepción de la eficacia de ciertos tratamientos.",
       "points": 1
     },
@@ -97,10 +99,11 @@ export const C2_U4_BLOCK1: Exercise = {
     {
       "id": "c2-u4-b1-q9",
       "type": "key-word-transformation",
+      "question": "If clinical trials are not meticulously structured, the results might be unreliable. (WERE)\n\nWere clinical trials not meticulously structured, __________",
       "sentence": "If clinical trials are not meticulously structured, the results might be unreliable.",
       "keyWord": "Were",
       "startOfAnswer": "Were clinical trials not meticulously structured,",
-      "correctAnswer": "Were clinical trials not meticulously structured, the results might be unreliable.",
+      "correctAnswer": "the results might be unreliable",
       "explanation": "La inversión condicional se usa para reformular la oración sin alterar su significado.",
       "points": 1
     },
@@ -143,9 +146,16 @@ export const C2_U4_BLOCK2: Exercise = {
     },
     {
       "id": "c2-u4-b2-q2",
-      "type": "fill-blank",
-      "question": "Were psychology to prioritize emotion over cognition, __________.",
-      "correctAnswer": "we might see a shift in therapeutic approaches.",
+      "options": [
+  "A shift in therapeutic approaches might be observed.",
+  "No notable changes would occur.",
+  "It would complicate the current practices.",
+  "Therapists might resist the change."
+],
+      "sentence": "Were psychology to prioritize evidence-based practice, we might see a shift in therapeutic approaches.",
+      "type": "multiple-choice",
+      "question": "Were psychology to prioritize evidence-based practice, what impact might it have on treatment outcomes?",
+      "correctAnswer": "A shift in therapeutic approaches might be observed.",
       "explanation": "La condición 'Were psychology to prioritize' sugiere una situación hipotética que podría llevar a un cambio en el enfoque terapéutico.",
       "points": 1
     },
@@ -166,10 +176,11 @@ export const C2_U4_BLOCK2: Exercise = {
     {
       "id": "c2-u4-b2-q4",
       "type": "key-word-transformation",
+      "question": "If the psychologist had not been there, the experiment would have failed. (HAD)\n\nHad the psychologist __________",
       "sentence": "If the psychologist had not been there, the experiment would have failed.",
       "keyWord": "HAD",
       "startOfAnswer": "Had the psychologist",
-      "correctAnswer": "Had the psychologist not been there, the experiment would have failed.",
+      "correctAnswer": "not been there, the experiment would have failed",
       "explanation": "Se usa 'Had' para invertir la condición en pasado mezclada con tercera condicional.",
       "points": 1
     },
@@ -189,8 +200,10 @@ export const C2_U4_BLOCK2: Exercise = {
     },
     {
       "id": "c2-u4-b2-q6",
-      "type": "fill-blank",
-      "question": "Had the results been conclusive, __________.",
+      "startOfAnswer": "Start of answer",
+      "sentence": "Had the results been conclusive, we would not have needed further analysis.",
+      "type": "key-word-transformation",
+      "question": "Had the results been conclusive, we would not have needed further analysis. ()\n\nStart of answer __________",
       "correctAnswer": "we would not have needed further analysis.",
       "explanation": "La oración condicional invertida 'Had the results been conclusive' implica que se necesitan más análisis debido a la falta de conclusiones.",
       "points": 1
@@ -212,10 +225,11 @@ export const C2_U4_BLOCK2: Exercise = {
     {
       "id": "c2-u4-b2-q8",
       "type": "key-word-transformation",
+      "question": "If they had recognized the signs earlier, they might have prevented the crisis. (HAD)\n\nHad they __________",
       "sentence": "If they had recognized the signs earlier, they might have prevented the crisis.",
       "keyWord": "HAD",
       "startOfAnswer": "Had they",
-      "correctAnswer": "Had they recognized the signs earlier, they might have prevented the crisis.",
+      "correctAnswer": "recognized the signs earlier, they might have prevented the crisis",
       "explanation": "La inversión con 'Had' en una oración condicional de tercera da un enfoque más formal al mismo significado.",
       "points": 1
     },
@@ -235,8 +249,10 @@ export const C2_U4_BLOCK2: Exercise = {
     },
     {
       "id": "c2-u4-b2-q10",
-      "type": "fill-blank",
-      "question": "Were cognitive factors underestimated, __________.",
+      "startOfAnswer": "Start of answer",
+      "sentence": "Were cognitive factors underestimated, many theorists would argue for a reassessment.",
+      "type": "key-word-transformation",
+      "question": "Were cognitive factors underestimated, many theorists would argue for a reassessment. ()\n\nStart of answer __________",
       "correctAnswer": "many theorists would argue for a reassessment.",
       "explanation": "La frase 'Were cognitive factors underestimated' sugiere una situación potencial que conduciría a una reevaluación por parte de los teóricos.",
       "points": 1
@@ -266,17 +282,20 @@ export const C2_U4_BLOCK3: Exercise = {
     },
     {
       "id": "c2-u4-b3-q2",
-      "type": "fill-blank",
-      "question": "___ a tendency towards introversion dominate one’s psyche, seeking solitude might provide comfort.",
-      "correctAnswer": "Should",
-      "explanation": "La estructura 'Should + sujeto + verbo' se usa para condicionales invertidas en el presente.",
+      "startOfAnswer": "If a tendency",
+      "keyWord": "DOMINATE",
+      "sentence": "If a tendency towards introversion dominated one’s psyche, seeking solitude might provide comfort.",
+      "type": "key-word-transformation",
+      "question": "If a tendency towards introversion dominated one’s psyche, seeking solitude might provide comfort. (DOMINATE)\n\nIf a tendency __________",
+      "correctAnswer": "towards introversion had dominated one's psyche, seeking solitude might provide comfort",
+      "explanation": "Usamos 'Were + sujeto + verbo' para condicionales invertidas.",
       "points": 1
     },
     {
       "id": "c2-u4-b3-q3",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the key word: If the theory had been proven, it would have revolutionized psychology. (HAD)",
-      "correctAnswer": "Had the theory been proven, it would have revolutionized psychology.",
+      "question": "If the theory had been proven, it would have revolutionized psychology. (HAD)\n\nHad the theory __________",
+      "correctAnswer": "been proven, it would have revolutionized psychology",
       "explanation": "Usamos 'Had + sujeto + participio pasado' para expresar una condicional pasada.",
       "points": 1,
       "sentence": "If the theory had been proven, it would have revolutionized psychology.",
@@ -285,10 +304,13 @@ export const C2_U4_BLOCK3: Exercise = {
     },
     {
       "id": "c2-u4-b3-q4",
-      "type": "fill-blank",
-      "question": "___ one embrace positive thinking, the effects on mental health could be profound.",
-      "correctAnswer": "Should",
-      "explanation": "'Should' introduce una condicional presente invertida, similar a 'If one should embrace...'.",
+      "startOfAnswer": "If one",
+      "keyWord": "EMBRACE",
+      "sentence": "If one embraced positive thinking, the effects on mental health could be profound.",
+      "type": "key-word-transformation",
+      "question": "If one embraced positive thinking, the effects on mental health could be profound. (EMBRACE)\n\nIf one __________",
+      "correctAnswer": "were to embrace positive thinking, the effects on mental health could be profound",
+      "explanation": "'Were' se utiliza para expresar una situación hipotética en estructura invertida.",
       "points": 1
     },
     {
@@ -316,8 +338,8 @@ export const C2_U4_BLOCK3: Exercise = {
     {
       "id": "c2-u4-b3-q7",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the key word: If people had not underestimated childhood trauma, interventions might have been implemented sooner. (HAD)",
-      "correctAnswer": "Had people not underestimated childhood trauma, interventions might have been implemented sooner.",
+      "question": "If people had not underestimated childhood trauma, interventions might have been implemented sooner. (HAD)\n\nHad people not __________",
+      "correctAnswer": "underestimated childhood trauma, interventions might have been implemented sooner",
       "explanation": "La inversión de la condicional se logra mediante 'Had + sujeto + not + participio pasado'.",
       "points": 1,
       "sentence": "If people had not underestimated childhood trauma, interventions might have been implemented sooner.",
@@ -326,9 +348,12 @@ export const C2_U4_BLOCK3: Exercise = {
     },
     {
       "id": "c2-u4-b3-q8",
-      "type": "fill-blank",
-      "question": "___ psychological resilience be bolstered from an early age, many mental health issues could be alleviated.",
-      "correctAnswer": "Were",
+      "startOfAnswer": "If psychological resilience",
+      "keyWord": "BOLSTER",
+      "sentence": "If psychological resilience were bolstered from an early age, many mental health issues could be alleviated.",
+      "type": "key-word-transformation",
+      "question": "If psychological resilience were bolstered from an early age, many mental health issues could be alleviated. (BOLSTER)\n\nIf psychological resilience __________",
+      "correctAnswer": "were to be bolstered from an early age, many mental health issues could be alleviated",
       "explanation": "'Were' se utiliza para expresar una situación hipotética en estructura invertida.",
       "points": 1
     },
@@ -349,8 +374,8 @@ export const C2_U4_BLOCK3: Exercise = {
     {
       "id": "c2-u4-b3-q10",
       "type": "key-word-transformation",
-      "question": "Change this sentence using the key word: If modern psychology were adopted in traditional settings, it could drive societal change. (WERE)",
-      "correctAnswer": "Were modern psychology adopted in traditional settings, it could drive societal change.",
+      "question": "If modern psychology were adopted in traditional settings, it could drive societal change. (WERE)\n\nWere modern psychology __________",
+      "correctAnswer": "adopted in traditional settings, it could drive societal change",
       "explanation": "La inversión para condicionales tipo 2 se realiza con 'Were + sujeto + participio pasado'.",
       "points": 1,
       "sentence": "If modern psychology were adopted in traditional settings, it could drive societal change.",
@@ -391,8 +416,8 @@ export const C2_U4_BLOCK4: Exercise = {
     {
       "id": "c2-u4-b4-q3",
       "type": "key-word-transformation",
-      "question": "If the psychologists had more time, they would delve deeper into the subconscious mind.",
-      "correctAnswer": "Had the psychologists more time, they would delve deeper into the subconscious mind.",
+      "question": "If the psychologists had more time, they would delve deeper into the subconscious mind. (HAD)\n\nHad the psychologists __________",
+      "correctAnswer": "more time, they would delve deeper into the subconscious mind",
       "explanation": "En oraciones condicionales de tercer tipo, la inversión usa 'had' al inicio, eliminando 'if'.",
       "points": 1,
       "sentence": "If the psychologists had more time, they would delve deeper into the subconscious mind.",
@@ -424,8 +449,8 @@ export const C2_U4_BLOCK4: Exercise = {
     {
       "id": "c2-u4-b4-q6",
       "type": "key-word-transformation",
-      "question": "If Freud had not posited the existence of the unconscious mind, modern psychology would look significantly different.",
-      "correctAnswer": "Had Freud not posited the existence of the unconscious mind, modern psychology would look significantly different.",
+      "question": "If Freud had not posited the existence of the unconscious mind, modern psychology would look significantly different. (HAD)\n\nHad Freud not posited __________",
+      "correctAnswer": "the existence of the unconscious mind, modern psychology would look significantly different",
       "explanation": "Al invertir 'if Freud had not', el 'had' se coloca al inicio, fuera de la cláusula condicional estándar.",
       "points": 1,
       "sentence": "If Freud had not posited the existence of the unconscious mind, modern psychology would look significantly different.",
@@ -457,8 +482,8 @@ export const C2_U4_BLOCK4: Exercise = {
     {
       "id": "c2-u4-b4-q9",
       "type": "key-word-transformation",
-      "question": "If the therapist were to discover any repressed memories, they would need to approach the situation delicately.",
-      "correctAnswer": "Were the therapist to discover any repressed memories, they would need to approach the situation delicately.",
+      "question": "If the therapist were to discover any repressed memories, they would need to approach the situation delicately. (WERE)\n\nWere the therapist to discover __________",
+      "correctAnswer": "any repressed memories, they would need to approach the situation delicately",
       "explanation": "Al usar 'were' al principio, la estructura condicional refleja una opción formal sofisticada y adecuada para situaciones donde se especula.",
       "points": 1,
       "sentence": "If the therapist were to discover any repressed memories, they would need to approach the situation delicately.",
@@ -513,7 +538,7 @@ export const C2_U4_BLOCK5: Exercise = {
     {
       "id": "c2-u4-b5-q3",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the key word: HARDLY. Original: 'Psychologists rarely encounter such groundbreaking subjects in their research.'",
+      "question": "Psychologists rarely encounter such groundbreaking subjects in their research. (HARDLY)\n\nHardly do... __________",
       "correctAnswer": "Hardly do psychologists encounter such groundbreaking subjects in their research.",
       "explanation": "El uso de 'hardly' requiere una inversión modal ('do psychologists encounter').",
       "points": 1,
@@ -546,7 +571,7 @@ export const C2_U4_BLOCK5: Exercise = {
     {
       "id": "c2-u4-b5-q6",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the key word: LITTLE. Original: 'Researchers realize very little how much influence societal norms have on psychology.'",
+      "question": "Researchers realize very little how much influence societal norms have on psychology. (LITTLE)\n\nLittle do... __________",
       "correctAnswer": "Little do researchers realize how much influence societal norms have on psychology.",
       "explanation": "El uso de 'little' invoca una inversión, cambiando a 'Little do researchers realize'.",
       "points": 1,
@@ -579,7 +604,7 @@ export const C2_U4_BLOCK5: Exercise = {
     {
       "id": "c2-u4-b5-q9",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the key word: NEVER. Original: 'Psychologists have never underestimated the importance of control groups.'",
+      "question": "Psychologists have never underestimated the importance of control groups. (NEVER)\n\nNever have... __________",
       "correctAnswer": "Never have psychologists underestimated the importance of control groups.",
       "explanation": "La transformación con 'never' implica una inversión ('Never have psychologists underestimated').",
       "points": 1,
@@ -612,65 +637,65 @@ export const C2_U4_BLOCK6: Exercise = {
   "questions": [
     {
       "id": "c2-u4-b6-q1",
-      "type": "multiple-choice",
-      "question": "Rarely __________ she engaged in such behavior if she didn't feel threatened.",
-      "options": [
-        "had",
-        "would",
-        "does",
-        "should"
-      ],
-      "correctAnswer": "would",
+      "startOfAnswer": "Rarely does",
+      "keyWord": "RARELY",
+      "sentence": "Rarely would she engage in such behavior if she didn't feel threatened.",
+      "type": "key-word-transformation",
+      "question": "Rarely would she engage in such behavior if she didn't feel threatened. (RARELY)\n\nRarely does __________",
+      "correctAnswer": "she engage in such behavior if she didn't feel threatened.",
       "explanation": "En contextos de alta probabilidad, 'inverted conditionals' usan 'would' para reflejar hipótesis.",
       "points": 1
     },
     {
       "id": "c2-u4-b6-q2",
-      "type": "fill-blank",
-      "question": "Only if the psychologist were certain of the diagnosis __________ share it with the patient.",
-      "correctAnswer": "would she",
+      "startOfAnswer": "would she",
+      "sentence": "In a hypothetical situation where she might refuse an offer, what would happen?",
+      "type": "key-word-transformation",
+      "question": "In a hypothetical situation where she might refuse an offer, what would happen? ()\n\nwould she __________",
+      "correctAnswer": "",
       "explanation": "En una condición invertida, se usa 'would she' para expresar incertidumbre en situaciones condicionales.",
       "points": 1
     },
     {
       "id": "c2-u4-b6-q3",
       "type": "key-word-transformation",
+      "question": "If the theory proves correct, our understanding of cognitive processes will change. (SHOULD)\n\nShould the theory prove __________",
       "sentence": "If the theory proves correct, our understanding of cognitive processes will change.",
       "keyWord": "SHOULD",
       "startOfAnswer": "Should the theory prove",
-      "correctAnswer": "Should the theory prove correct, our understanding of cognitive processes will change.",
+      "correctAnswer": "correct, our understanding of cognitive processes will change",
       "explanation": "Este es un ejemplo de condicional inverso de primer tipo, usando 'should' en lugar de 'if'.",
       "points": 1
     },
     {
       "id": "c2-u4-b6-q4",
-      "type": "multiple-choice",
-      "question": "Were the hypothesis to be disproved, __________ ramifications would be substantial.",
-      "options": [
-        "its",
-        "it's",
-        "their",
-        "they're"
-      ],
-      "correctAnswer": "its",
+      "keyWord": "RAMIFICATIONS",
+      "sentence": "Were the hypothesis to be disproved, the ramifications would be substantial.",
+      "startOfAnswer": "would be",
+      "type": "key-word-transformation",
+      "question": "Were the hypothesis to be disproved, the ramifications would be substantial. (RAMIFICATIONS)\n\nwould be __________",
+      "correctAnswer": "substantial",
       "explanation": "Al usar 'were' en una oración condicional, 'its' es la forma correcta de referirse a las consecuencias.",
       "points": 1
     },
     {
       "id": "c2-u4-b6-q5",
-      "type": "fill-blank",
-      "question": "Never __________ such a compelling narrative have emerged without the researcher's insight.",
-      "correctAnswer": "would",
+      "startOfAnswer": "would",
+      "sentence": "If he had known the truth earlier, he would have acted differently.",
+      "type": "key-word-transformation",
+      "question": "If he had known the truth earlier, he would have acted differently. ()\n\nwould __________",
+      "correctAnswer": "",
       "explanation": "En oraciones invertidas, 'would' es necesario para completar la entrada condicional.",
       "points": 1
     },
     {
       "id": "c2-u4-b6-q6",
       "type": "key-word-transformation",
+      "question": "If the experiment had been conducted differently, the outcomes might have varied. (HAD)\n\nHad the experiment been __________",
       "sentence": "If the experiment had been conducted differently, the outcomes might have varied.",
       "keyWord": "HAD",
       "startOfAnswer": "Had the experiment been",
-      "correctAnswer": "Had the experiment been conducted differently, the outcomes might have varied.",
+      "correctAnswer": "conducted differently, the outcomes might have varied",
       "explanation": "En esta estructura de tercer tipo, 'had' inicia una cláusula condicional invertida.",
       "points": 1
     },
@@ -690,19 +715,22 @@ export const C2_U4_BLOCK6: Exercise = {
     },
     {
       "id": "c2-u4-b6-q8",
-      "type": "fill-blank",
-      "question": "Not until the therapy sessions concluded __________ the full extent of the trauma become evident.",
-      "correctAnswer": "did",
+      "startOfAnswer": "did",
+      "sentence": "He never anticipated the difficulties he would face.",
+      "type": "key-word-transformation",
+      "question": "He never anticipated the difficulties he would face. ()\n\ndid __________",
+      "correctAnswer": "",
       "explanation": "El uso de 'did' en esta construcción negativa invertida es necesario para expresar pasados realizados.",
       "points": 1
     },
     {
       "id": "c2-u4-b6-q9",
       "type": "key-word-transformation",
+      "question": "If the patient had followed the treatment plan, recovery would have been faster. (HAD)\n\nHad the patient followed __________",
       "sentence": "If the patient had followed the treatment plan, recovery would have been faster.",
       "keyWord": "HAD",
       "startOfAnswer": "Had the patient followed",
-      "correctAnswer": "Had the patient followed the treatment plan, recovery would have been faster.",
+      "correctAnswer": "the treatment plan, recovery would have been faster",
       "explanation": "Usar 'had' en formato inverso resalta una expectativa hipotética no cumplida.",
       "points": 1
     },
@@ -745,8 +773,10 @@ export const C2_U4_BLOCK7: Exercise = {
     },
     {
       "id": "c2-u4-b7-q2",
-      "type": "fill-blank",
-      "question": "____________ to comprehend the intricacies of human emotions, they might become more empathetic.",
+      "startOfAnswer": "Start of answer",
+      "sentence": "If people were aware of the implications of conditional structures, they would utilize them more effectively.",
+      "type": "key-word-transformation",
+      "question": "If people were aware of the implications of conditional structures, they would utilize them more effectively. ()\n\nStart of answer __________",
       "correctAnswer": "Were people",
       "explanation": "Usa 'Were' para crear una estructura condicional invertida que describe una situación hipotética.",
       "points": 1
@@ -754,32 +784,31 @@ export const C2_U4_BLOCK7: Exercise = {
     {
       "id": "c2-u4-b7-q3",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the keywords.",
+      "question": "If psychologists had not conducted extensive research, many psychological disorders would still be misunderstood. (HAD)\n\nHad psychologists __________",
       "sentence": "If psychologists had not conducted extensive research, many psychological disorders would still be misunderstood.",
       "keyWord": "HAD",
       "startOfAnswer": "Had psychologists",
-      "correctAnswer": "Had psychologists not conducted extensive research, many psychological disorders would still be misunderstood.",
+      "correctAnswer": "not conducted extensive research, many psychological disorders would still be misunderstood",
       "explanation": "La construcción condicional invertida comienza con 'Had', seguida por el sujeto y el verbo en el participio pasado.",
       "points": 1
     },
     {
       "id": "c2-u4-b7-q4",
-      "type": "multiple-choice",
-      "question": "Select the sentence that demonstrates a correct use of inverted conditionals.",
-      "options": [
-        "If he would reflect on his actions, he'd realize the impact on others.",
-        "Were he to reflect on his actions, he might realize the impact on others.",
-        "If he was to reflect on his actions, he'd realize the impact on others.",
-        "Should he of reflect on his actions, he could realize the impact on others."
-      ],
+      "startOfAnswer": "Start of answer",
+      "keyWord": "KEYWORD",
+      "sentence": "Discuss the use of inversion in conditional sentences.",
+      "type": "key-word-transformation",
+      "question": "Discuss the use of inversion in conditional sentences. (KEYWORD)\n\nStart of answer __________",
       "correctAnswer": "Were he to reflect on his actions, he might realize the impact on others.",
       "explanation": "La forma correcta aquí es 'Were he to...' que indica una situación hipotética.",
       "points": 1
     },
     {
       "id": "c2-u4-b7-q5",
-      "type": "fill-blank",
-      "question": "____________ psychologists identify the root of the problem, they might propose a more effective solution.",
+      "startOfAnswer": "Start of answer",
+      "sentence": "If you should have any questions, please feel free to ask.",
+      "type": "key-word-transformation",
+      "question": "If you should have any questions, please feel free to ask. ()\n\nStart of answer __________",
       "correctAnswer": "Should",
       "explanation": "Use 'Should' para una estructura condicional invertida que indica una eventualidad.",
       "points": 1
@@ -787,32 +816,31 @@ export const C2_U4_BLOCK7: Exercise = {
     {
       "id": "c2-u4-b7-q6",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the keywords.",
+      "question": "If the study were to be published, it would change the way we understand cognitive processes. (WERE)\n\nWere the study __________",
       "sentence": "If the study were to be published, it would change the way we understand cognitive processes.",
       "keyWord": "WERE",
       "startOfAnswer": "Were the study",
-      "correctAnswer": "Were the study to be published, it would change the way we understand cognitive processes.",
+      "correctAnswer": "to be published, it would change the way we understand cognitive processes",
       "explanation": "La construcción con 'Were' y el infinitivo pasivo indica una situación condicional invertida.",
       "points": 1
     },
     {
       "id": "c2-u4-b7-q7",
-      "type": "multiple-choice",
-      "question": "Choose the option that correctly inverts the conditional.",
-      "options": [
-        "If they were not aware of their biases, they couldn't improve.",
-        "Were they not aware of their biases, they couldn't improve.",
-        "If they were not to be aware of their biases, they couldn't improve.",
-        "If the could not be aware of their biases, they wouldn't improve."
-      ],
+      "startOfAnswer": "Start of answer",
+      "keyWord": "KEYWORD",
+      "sentence": "Rewrite the sentence using an inverted conditional.",
+      "type": "key-word-transformation",
+      "question": "Rewrite the sentence using an inverted conditional. (KEYWORD)\n\nStart of answer __________",
       "correctAnswer": "Were they not aware of their biases, they couldn't improve.",
       "explanation": "Usar 'Were' al comienzo de la frase crea una estructura condicional invertida.",
       "points": 1
     },
     {
       "id": "c2-u4-b7-q8",
-      "type": "fill-blank",
-      "question": "____________ researchers to delve deeper into cognitive biases, many societal issues might be better understood.",
+      "startOfAnswer": "Start of answer",
+      "sentence": "If I were in your position, I would consider all options.",
+      "type": "key-word-transformation",
+      "question": "If I were in your position, I would consider all options. ()\n\nStart of answer __________",
       "correctAnswer": "Were",
       "explanation": "Usar 'Were' al principio crea una estructura invertida para situaciones hipotéticas.",
       "points": 1
@@ -820,24 +848,21 @@ export const C2_U4_BLOCK7: Exercise = {
     {
       "id": "c2-u4-b7-q9",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the keywords.",
+      "question": "If the method had not been validated, no reliable conclusions could be drawn. (HAD)\n\nHad the method __________",
       "sentence": "If the method had not been validated, no reliable conclusions could be drawn.",
       "keyWord": "HAD",
       "startOfAnswer": "Had the method",
-      "correctAnswer": "Had the method not been validated, no reliable conclusions could be drawn.",
+      "correctAnswer": "not been validated, no reliable conclusions could be drawn",
       "explanation": "La estructura invertida con 'Had' seguido del sujeto forma parte del tercer condicional invertido.",
       "points": 1
     },
     {
       "id": "c2-u4-b7-q10",
-      "type": "multiple-choice",
-      "question": "Which sentence uses an inverted conditional correctly?",
-      "options": [
-        "If he was studying psychology, he would learn a lot.",
-        "Should he study psychology, he'll gain profound insights.",
-        "If he is studying psychology, he discovers a lot.",
-        "If to study psychology, he'll gain profound insights."
-      ],
+      "startOfAnswer": "Start of answer",
+      "keyWord": "KEYWORD",
+      "sentence": "Transform the sentence using an inverted conditional.",
+      "type": "key-word-transformation",
+      "question": "Transform the sentence using an inverted conditional. (KEYWORD)\n\nStart of answer __________",
       "correctAnswer": "Should he study psychology, he'll gain profound insights.",
       "explanation": "La frase condicional invertida comienza con 'Should', seguida del sujeto y el forma base del verbo.",
       "points": 1
@@ -867,15 +892,18 @@ export const C2_U4_BLOCK8: Exercise = {
     },
     {
       "id": "c2-u4-b8-q2",
-      "type": "fill-blank",
-      "question": "Listen to the segment: Had we __________ on the experiment earlier, our findings might be different.",
-      "correctAnswer": "embarked",
-      "explanation": "La frase utiliza un tipo de condicional invertido para expresar una situación hipotética en el pasado.",
+      "startOfAnswer": "embarked",
+      "sentence": "The study was not conducted properly.",
+      "type": "key-word-transformation",
+      "question": "The study was not conducted properly. ()\n\nembarked __________",
+      "correctAnswer": "conducted",
+      "explanation": "La frase originalmente habla de que el estudio no se llevó a cabo adecuadamente, por lo que la palabra clave debería reflejar eso.",
       "points": 1
     },
     {
       "id": "c2-u4-b8-q3",
       "type": "key-word-transformation",
+      "question": "The experiment failed. We didn't follow the protocol to the letter. (HAD)\n\nHad we followed... __________",
       "sentence": "The experiment failed. We didn't follow the protocol to the letter.",
       "keyWord": "HAD",
       "startOfAnswer": "Had we followed...",
@@ -886,7 +914,7 @@ export const C2_U4_BLOCK8: Exercise = {
     {
       "id": "c2-u4-b8-q4",
       "type": "multiple-choice",
-      "question": "What conclusion can be drawn had the subject shown any improvement during the trial?",
+      "question": "What conclusion can be drawn if the subject had shown any improvement during the trial?",
       "options": [
         "A. We might conclude the treatment is effective.",
         "B. We would have concluded the treatment was effective.",
@@ -894,20 +922,23 @@ export const C2_U4_BLOCK8: Exercise = {
         "D. We might have concluded the treatment was effective."
       ],
       "correctAnswer": "D. We might have concluded the treatment was effective.",
-      "explanation": "Esta oración expresa un resultado hipotético en el pasado en el que el condicional invertido es adecuado.",
+      "explanation": "Esta oración expresa un resultado hipotético en el pasado acorde con las condiciones mencionadas.",
       "points": 1
     },
     {
       "id": "c2-u4-b8-q5",
-      "type": "fill-blank",
-      "question": "Listen and complete: __________ the theory have been challenged by earlier studies, we might have considered it.",
-      "correctAnswer": "Had",
-      "explanation": "Utilizamos 'Had' para crear una estructura condicional invertida que expresa una situación hipotética en el pasado.",
+      "startOfAnswer": "Had",
+      "sentence": "There is a possibility for a different outcome.",
+      "type": "key-word-transformation",
+      "question": "There is a possibility for a different outcome. ()\n\nHad __________",
+      "correctAnswer": "a different outcome occurred",
+      "explanation": "Utilizamos una estructura condicional invertida que expresa una situación hipotética relacionada con un resultado diferente.",
       "points": 1
     },
     {
       "id": "c2-u4-b8-q6",
       "type": "key-word-transformation",
+      "question": "The study was conclusive. All variables were controlled meticulously. (WERE)\n\nWere any variables... __________",
       "sentence": "The study was conclusive. All variables were controlled meticulously.",
       "keyWord": "WERE",
       "startOfAnswer": "Were any variables...",
@@ -931,15 +962,18 @@ export const C2_U4_BLOCK8: Exercise = {
     },
     {
       "id": "c2-u4-b8-q8",
-      "type": "fill-blank",
-      "question": "Had the researchers __________ their methodology sooner, the results might have been different.",
-      "correctAnswer": "revised",
-      "explanation": "Usamos 'revised' para crear una cláusula condicional que hipotéticamente cambia los resultados.",
+      "startOfAnswer": "revised",
+      "sentence": "The report required significant changes.",
+      "type": "key-word-transformation",
+      "question": "The report required significant changes. ()\n\nrevised __________",
+      "correctAnswer": "to be revised",
+      "explanation": "Usamos 'to be revised' para crear una estructura condicional que hipotéticamente explica los cambios necesarios.",
       "points": 1
     },
     {
       "id": "c2-u4-b8-q9",
       "type": "key-word-transformation",
+      "question": "The patient didn't respond well because the treatment wasn't adjusted. (WERE)\n\nWere the treatment... __________",
       "sentence": "The patient didn't respond well because the treatment wasn't adjusted.",
       "keyWord": "WERE",
       "startOfAnswer": "Were the treatment...",
@@ -975,33 +1009,33 @@ export const C2_U4_BLOCK9: Exercise = {
       "type": "multiple-choice",
       "question": "In their psychological study, what did the researchers conclude about cognitive dissonance?",
       "options": [
-        "Only when faced with evidence do individuals change beliefs.",
-        "Were individuals unaware of inconsistencies would behavior change.",
-        "Had the evidence been more compelling, a different conclusion would emerge.",
-        "If cognitive dissonance were not influential, behavior would remain unchanged."
-      ],
+  "Only when faced with evidence do individuals change beliefs.",
+  "If individuals were unaware of inconsistencies, would behavior change.",
+  "Had the evidence been more compelling, a different conclusion would emerge.",
+  "If cognitive dissonance were not influential, behavior would remain unchanged."
+],
       "correctAnswer": "Only when faced with evidence do individuals change beliefs.",
       "explanation": "Los investigadores concluyeron que solo cuando los individuos son confrontados con evidencia cambian sus creencias.",
       "points": 1
     },
     {
       "id": "c2-u4-b9-q2",
-      "type": "fill-blank",
-      "question": "Had _______________ more experimental data, the psychological theory might have been revised.",
-      "correctAnswer": "they gathered",
+      "startOfAnswer": "They had",
+      "keyWord": "gather",
+      "sentence": "They did not gather as expected.",
+      "type": "key-word-transformation",
+      "question": "They did not gather as expected. (GATHER)\n\nThey had __________",
+      "correctAnswer": "gathered",
       "explanation": "Usamos la estructura invertida 'Had they gathered' para expresar la condición no realizada en el pasado.",
       "points": 1
     },
     {
       "id": "c2-u4-b9-q3",
-      "type": "multiple-choice",
-      "question": "Little _______________ the psychological impact of their harsh criticisms.",
-      "options": [
-        "they were aware of",
-        "were they aware of",
-        "are they aware for",
-        "they were aware about"
-      ],
+      "keyWord": "AWARE",
+      "sentence": "Little _______________ the psychological impact of their harsh criticisms.",
+      "startOfAnswer": "Little did they",
+      "type": "key-word-transformation",
+      "question": "Little _______________ the psychological impact of their harsh criticisms. (AWARE)\n\nLittle did they __________",
       "correctAnswer": "were they aware of",
       "explanation": "La estructura invertida 'Little were they aware of' se utiliza para enfatizar la falta de conocimiento.",
       "points": 1
@@ -1009,59 +1043,65 @@ export const C2_U4_BLOCK9: Exercise = {
     {
       "id": "c2-u4-b9-q4",
       "type": "key-word-transformation",
-      "question": "Transform the sentence keeping the original meaning.",
+      "question": "If psychologists had not devised new tests, the experiment would have failed. (DEVISED)\n\nhad __________",
       "sentence": "If psychologists had not devised new tests, the experiment would have failed.",
-      "keyWord": "Devised",
-      "startOfAnswer": "Devised new tests, had",
-      "correctAnswer": "Devised new tests, had the psychologists not been, the experiment would have failed.",
+      "keyWord": "DEVISED",
+      "startOfAnswer": "had",
+      "correctAnswer": "the psychologists not devised",
       "explanation": "Se usa la inversión de condicionales para reestructurar la oración.",
       "points": 1
     },
     {
       "id": "c2-u4-b9-q5",
-      "type": "fill-blank",
-      "question": "Had it not been for the groundbreaking theories of Carl Jung, modern psychology _______________ the same.",
-      "correctAnswer": "wouldn't be",
-      "explanation": "Se usa la estructura condicional 'Had it not been for' para expresar que sin esas teorías, la psicología sería diferente.",
+      "startOfAnswer": "wouldn't be",
+      "keyWord": "different",
+      "sentence": "Without those theories, psychology would be very different.",
+      "type": "key-word-transformation",
+      "question": "Without those theories, psychology would be very different. (DIFFERENT)\n\nwouldn't be __________",
+      "correctAnswer": "",
+      "explanation": "Se usa 'wouldn't be' para expresar que sin esas teorías, la psicología podría haber sido diferente.",
       "points": 1
     },
     {
       "id": "c2-u4-b9-q6",
-      "type": "multiple-choice",
-      "question": "Should the subjects have reported their emotional state differently, the experiment's outcome _______________.",
-      "options": [
-        "would be altered",
-        "will alter",
-        "would have been altered",
-        "would have altered"
-      ],
+      "keyWord": "ALTERNATIVE",
+      "sentence": "Should the subjects have reported their emotional state differently, the experiment's outcome _______________.",
+      "startOfAnswer": "the experiment's outcome",
+      "type": "key-word-transformation",
+      "question": "Should the subjects have reported their emotional state differently, the experiment's outcome _______________. (ALTERNATIVE)\n\nthe experiment's outcome __________",
       "correctAnswer": "would have been altered",
       "explanation": "Se usa 'would have been altered' en la cláusula condicional de tercer tipo para indicar resultado hipotético.",
       "points": 1
     },
     {
       "id": "c2-u4-b9-q7",
-      "type": "fill-blank",
-      "question": "Scarcely _______________ their hypothesis, when the evidence contradicting it was discovered.",
-      "correctAnswer": "had they formulated",
+      "startOfAnswer": "had they formulated",
+      "keyWord": "formulated",
+      "sentence": "They formulated the hypothesis shortly before evidence was discovered.",
+      "type": "key-word-transformation",
+      "question": "They formulated the hypothesis shortly before evidence was discovered. (FORMULATED)\n\nhad they formulated __________",
+      "correctAnswer": "",
       "explanation": "La estructura 'Scarcely had they formulated' indica que al poco tiempo de formular la hipótesis, se descubrió la evidencia.",
       "points": 1
     },
     {
       "id": "c2-u4-b9-q8",
       "type": "key-word-transformation",
-      "question": "Transform the sentence using the keyword.",
+      "question": "If the participants had not been informed of the risks, they might have behaved differently. (INFORMED)\n\nInformed of the risks, had __________",
       "sentence": "If the participants had not been informed of the risks, they might have behaved differently.",
       "keyWord": "Informed",
       "startOfAnswer": "Informed of the risks, had",
-      "correctAnswer": "Informed of the risks, had the participants not been, they might have behaved differently.",
+      "correctAnswer": "the participants not been, they might have behaved differently",
       "explanation": "Se emplea la inversión para reescribir la oración sin alterar su significado original.",
       "points": 1
     },
     {
       "id": "c2-u4-b9-q9",
-      "type": "fill-blank",
-      "question": "Should they _______________ more data, the psychological profile would be comprehensive.",
+      "startOfAnswer": "Should they",
+      "keyWord": "collected",
+      "sentence": "They might have collected data if conditions were right.",
+      "type": "key-word-transformation",
+      "question": "They might have collected data if conditions were right. (COLLECTED)\n\nShould they __________",
       "correctAnswer": "have collected",
       "explanation": "Utilizamos 'Should they have collected' para indicar una condición hipotética en pasado con el diseño invertido condicional.",
       "points": 1
@@ -1116,11 +1156,11 @@ export const C2_U4_BLOCK10: Exercise = {
       "type": "key-word-transformation",
       "sentence": "If his methods were more widely accepted, his theories might gain more credibility.",
       "keyWord": "WERE",
-      "question": "Transform the sentence using the key word.",
-      "correctAnswer": "Were his methods more widely accepted, his theories might gain more credibility.",
+      "question": "If his methods were more widely accepted, his theories might gain more credibility. (WERE)\n\nWERE __________",
+      "correctAnswer": "his methods more widely accepted, his theories might gain more credibility",
       "explanation": "Se usa una inversión condicional para reestructurar la oración.",
       "points": 1,
-      "startOfAnswer": "Were"
+      "startOfAnswer": "WERE"
     },
     {
       "id": "c2-u4-b10-q4",
@@ -1139,7 +1179,7 @@ export const C2_U4_BLOCK10: Exercise = {
     {
       "id": "c2-u4-b10-q5",
       "type": "fill-blank",
-      "question": "Rarely _____ the subconscious mind divulge its secrets upon mere analysis.",
+      "question": "Rarely _____ does the subconscious mind divulge its secrets upon mere analysis.",
       "correctAnswer": "does",
       "explanation": "Se requiere el uso del verbo auxiliar correcto en forma invertida.",
       "points": 1
@@ -1149,11 +1189,11 @@ export const C2_U4_BLOCK10: Exercise = {
       "type": "key-word-transformation",
       "sentence": "If the psychologist had addressed the trauma earlier, the patient's recovery might have been expedited.",
       "keyWord": "HAD",
-      "question": "Transform the sentence using the key word.",
-      "correctAnswer": "Had the psychologist addressed the trauma earlier, the patient's recovery might have been expedited.",
+      "question": "If the psychologist had addressed the trauma earlier, the patient's recovery might have been expedited. (HAD)\n\nHad the psychologist __________",
+      "correctAnswer": "the psychologist have addressed the trauma earlier, the patient's recovery might have been expedited",
       "explanation": "Se utiliza una inversión condicional para reestructurar la oración.",
       "points": 1,
-      "startOfAnswer": "Had"
+      "startOfAnswer": "Had the psychologist"
     },
     {
       "id": "c2-u4-b10-q7",
@@ -1172,7 +1212,7 @@ export const C2_U4_BLOCK10: Exercise = {
     {
       "id": "c2-u4-b10-q8",
       "type": "fill-blank",
-      "question": "Seldom _____ such a profound sense of clarity experienced by the patients after their session.",
+      "question": "Seldom _____ is such a profound sense of clarity experienced by the patients after their session.",
       "correctAnswer": "is",
       "explanation": "Se usa inversión y el verbo auxiliar correcto para dar énfasis.",
       "points": 1
@@ -1182,11 +1222,11 @@ export const C2_U4_BLOCK10: Exercise = {
       "type": "key-word-transformation",
       "sentence": "If not for her innate ability to empathize, the clients might not have opened up.",
       "keyWord": "NOT",
-      "question": "Transform the sentence using the key word.",
-      "correctAnswer": "Were it not for her innate ability to empathize, the clients might not have opened up.",
+      "question": "If not for her innate ability to empathize, the clients might not have opened up. (NOT)\n\nnot been __________",
+      "correctAnswer": "not for her innate ability to empathize, the clients might not have opened up",
       "explanation": "Se usa una inversión condicional para enfatizar el papel de su habilidad.",
       "points": 1,
-      "startOfAnswer": "Were it"
+      "startOfAnswer": "not been"
     },
     {
       "id": "c2-u4-b10-q10",
@@ -1208,8 +1248,8 @@ export const C2_U4_BLOCK10: Exercise = {
 export const C2_UNIT_4 = createC2Unit(
   'c2-u4',
   'The Psychology of Choice',
-  'Advanced C2 level practice on psychology.',
-  ["grammar","vocabulary","listening"],
+  'Advanced C2 unit exploring complex topics and formal language structures.',
+  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
   [
     C2_U4_BLOCK1, C2_U4_BLOCK2, C2_U4_BLOCK3, C2_U4_BLOCK4, C2_U4_BLOCK5, C2_U4_BLOCK6, C2_U4_BLOCK7, C2_U4_BLOCK8, C2_U4_BLOCK9, C2_U4_BLOCK10
   ]

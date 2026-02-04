@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué quieres hacer este fin de semana?'?",
           "options": [
-            { "id": "o1", "text": "What do you want to do this weekend?" },
-            { "id": "o2", "text": "What you want do weekend?" },
-            { "id": "o3", "text": "Which plans for weekend?" }
+            {
+              "id": "o1",
+              "text": "What do you want to do this weekend?"
+            },
+            {
+              "id": "o2",
+              "text": "What you want do weekend?"
+            },
+            {
+              "id": "o3",
+              "text": "Which plans for weekend?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Tienes algún plan?'?",
           "options": [
-            { "id": "o1", "text": "Do you have any plans?" },
-            { "id": "o2", "text": "You have plans?" },
-            { "id": "o3", "text": "Are you plans?" }
+            {
+              "id": "o1",
+              "text": "Do you have any plans?"
+            },
+            {
+              "id": "o2",
+              "text": "You have plans?"
+            },
+            {
+              "id": "o3",
+              "text": "Are you plans?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Te apetece...?'?",
           "options": [
-            { "id": "o1", "text": "Do you feel like...?" },
-            { "id": "o2", "text": "You want...?" },
-            { "id": "o3", "text": "Like you...?" }
+            {
+              "id": "o1",
+              "text": "Do you feel like...?"
+            },
+            {
+              "id": "o2",
+              "text": "You want...?"
+            },
+            {
+              "id": "o3",
+              "text": "Like you...?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'podríamos'?",
           "options": [
-            { "id": "o1", "text": "We could" },
-            { "id": "o2", "text": "We can maybe" },
-            { "id": "o3", "text": "Us possible" }
+            {
+              "id": "o1",
+              "text": "We could"
+            },
+            {
+              "id": "o2",
+              "text": "We can maybe"
+            },
+            {
+              "id": "o3",
+              "text": "Us possible"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sugerir'?",
           "options": [
-            { "id": "o1", "text": "To suggest" },
-            { "id": "o2", "text": "To say" },
-            { "id": "o3", "text": "To plan" }
+            {
+              "id": "o1",
+              "text": "To suggest"
+            },
+            {
+              "id": "o2",
+              "text": "To say"
+            },
+            {
+              "id": "o3",
+              "text": "To plan"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'preferir'?",
           "options": [
-            { "id": "o1", "text": "To prefer" },
-            { "id": "o2", "text": "To like more" },
-            { "id": "o3", "text": "To choice" }
+            {
+              "id": "o1",
+              "text": "To prefer"
+            },
+            {
+              "id": "o2",
+              "text": "To like more"
+            },
+            {
+              "id": "o3",
+              "text": "To choice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'depende de...'?",
           "options": [
-            { "id": "o1", "text": "It depends on..." },
-            { "id": "o2", "text": "It depends of..." },
-            { "id": "o3", "text": "Depend on..." }
+            {
+              "id": "o1",
+              "text": "It depends on..."
+            },
+            {
+              "id": "o2",
+              "text": "It depends of..."
+            },
+            {
+              "id": "o3",
+              "text": "Depend on..."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué te parece si...?'?",
           "options": [
-            { "id": "o1", "text": "How about if we...?" },
-            { "id": "o2", "text": "What you think...?" },
-            { "id": "o3", "text": "Maybe we...?" }
+            {
+              "id": "o1",
+              "text": "How about if we...?"
+            },
+            {
+              "id": "o2",
+              "text": "What you think...?"
+            },
+            {
+              "id": "o3",
+              "text": "Maybe we...?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'me da igual' (informal)?",
           "options": [
-            { "id": "o1", "text": "I don't mind / It's up to you" },
-            { "id": "o2", "text": "I don't care" },
-            { "id": "o3", "text": "It is same" }
+            {
+              "id": "o1",
+              "text": "I don't mind / It's up to you"
+            },
+            {
+              "id": "o2",
+              "text": "I don't care"
+            },
+            {
+              "id": "o3",
+              "text": "It is same"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'decidir'?",
           "options": [
-            { "id": "o1", "text": "To decide" },
-            { "id": "o2", "text": "To choice" },
-            { "id": "o3", "text": "To take" }
+            {
+              "id": "o1",
+              "text": "To decide"
+            },
+            {
+              "id": "o2",
+              "text": "To choice"
+            },
+            {
+              "id": "o3",
+              "text": "To take"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,15 +227,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Qué quieres hacer esta noche?'",
           "options": [
-            { "id": "w1", "text": "do" },
-            { "id": "w2", "text": "tonight?" },
-            { "id": "w3", "text": "want" },
-            { "id": "w4", "text": "What" },
-            { "id": "w5", "text": "to" },
-            { "id": "w6", "text": "you" },
-            { "id": "w7", "text": "do" }
+            {
+              "id": "w1",
+              "text": "do"
+            },
+            {
+              "id": "w2",
+              "text": "tonight?"
+            },
+            {
+              "id": "w3",
+              "text": "want"
+            },
+            {
+              "id": "w4",
+              "text": "What"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "you"
+            },
+            {
+              "id": "w7",
+              "text": "do"
+            }
           ],
-          "correct_answer": ["w4", "w7", "w6", "w3", "w5", "w1", "w2"],
+          "correct_answer": [
+            "w4",
+            "w7",
+            "w6",
+            "w3",
+            "w5",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -153,14 +272,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Podríamos ir a la playa'",
           "options": [
-            { "id": "w1", "text": "beach" },
-            { "id": "w2", "text": "could" },
-            { "id": "w3", "text": "to" },
-            { "id": "w4", "text": "We" },
-            { "id": "w5", "text": "go" },
-            { "id": "w6", "text": "the" }
+            {
+              "id": "w1",
+              "text": "beach"
+            },
+            {
+              "id": "w2",
+              "text": "could"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "We"
+            },
+            {
+              "id": "w5",
+              "text": "go"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            }
           ],
-          "correct_answer": ["w4", "w2", "w5", "w3", "w6", "w1"],
+          "correct_answer": [
+            "w4",
+            "w2",
+            "w5",
+            "w3",
+            "w6",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -184,9 +328,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Por qué no...?'?",
           "options": [
-            { "id": "o1", "text": "Why don't we...?" },
-            { "id": "o2", "text": "Why not we...?" },
-            { "id": "o3", "text": "Don't we...?" }
+            {
+              "id": "o1",
+              "text": "Why don't we...?"
+            },
+            {
+              "id": "o2",
+              "text": "Why not we...?"
+            },
+            {
+              "id": "o3",
+              "text": "Don't we...?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -196,9 +349,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'echar un vistazo'?",
           "options": [
-            { "id": "o1", "text": "To have a look" },
-            { "id": "o2", "text": "To see" },
-            { "id": "o3", "text": "To watch" }
+            {
+              "id": "o1",
+              "text": "To have a look"
+            },
+            {
+              "id": "o2",
+              "text": "To see"
+            },
+            {
+              "id": "o3",
+              "text": "To watch"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -208,9 +370,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué recomiendas?'?",
           "options": [
-            { "id": "o1", "text": "What do you recommend?" },
-            { "id": "o2", "text": "What you recommend?" },
-            { "id": "o3", "text": "Which recommend?" }
+            {
+              "id": "o1",
+              "text": "What do you recommend?"
+            },
+            {
+              "id": "o2",
+              "text": "What you recommend?"
+            },
+            {
+              "id": "o3",
+              "text": "Which recommend?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -220,9 +391,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'un plan estupendo'?",
           "options": [
-            { "id": "o1", "text": "A great plan" },
-            { "id": "o2", "text": "A good plan" },
-            { "id": "o3", "text": "A fine plan" }
+            {
+              "id": "o1",
+              "text": "A great plan"
+            },
+            {
+              "id": "o2",
+              "text": "A good plan"
+            },
+            {
+              "id": "o3",
+              "text": "A fine plan"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -232,9 +412,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Estás de acuerdo?'?",
           "options": [
-            { "id": "o1", "text": "Do you agree?" },
-            { "id": "o2", "text": "Are you agree?" },
-            { "id": "o3", "text": "Agree you?" }
+            {
+              "id": "o1",
+              "text": "Do you agree?"
+            },
+            {
+              "id": "o2",
+              "text": "Are you agree?"
+            },
+            {
+              "id": "o3",
+              "text": "Agree you?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -244,9 +433,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estoy de acuerdo'?",
           "options": [
-            { "id": "o1", "text": "I agree" },
-            { "id": "o2", "text": "I am agree" },
-            { "id": "o3", "text": "I in agreement" }
+            {
+              "id": "o1",
+              "text": "I agree"
+            },
+            {
+              "id": "o2",
+              "text": "I am agree"
+            },
+            {
+              "id": "o3",
+              "text": "I in agreement"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -256,15 +454,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Por qué no vamos al parque?'",
           "options": [
-            { "id": "w1", "text": "the" },
-            { "id": "w2", "text": "go" },
-            { "id": "w3", "text": "park?" },
-            { "id": "w4", "text": "don't" },
-            { "id": "w5", "text": "Why" },
-            { "id": "w6", "text": "we" },
-            { "id": "w7", "text": "to" }
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "go"
+            },
+            {
+              "id": "w3",
+              "text": "park?"
+            },
+            {
+              "id": "w4",
+              "text": "don't"
+            },
+            {
+              "id": "w5",
+              "text": "Why"
+            },
+            {
+              "id": "w6",
+              "text": "we"
+            },
+            {
+              "id": "w7",
+              "text": "to"
+            }
           ],
-          "correct_answer": ["w5", "w4", "w6", "w2", "w7", "w1", "w3"],
+          "correct_answer": [
+            "w5",
+            "w4",
+            "w6",
+            "w2",
+            "w7",
+            "w1",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -272,15 +499,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Qué te parece mi idea?'",
           "options": [
-            { "id": "w1", "text": "you" },
-            { "id": "w2", "text": "What" },
-            { "id": "w3", "text": "of" },
-            { "id": "w4", "text": "think" },
-            { "id": "w5", "text": "idea?" },
-            { "id": "w6", "text": "my" },
-            { "id": "w7", "text": "do" }
+            {
+              "id": "w1",
+              "text": "you"
+            },
+            {
+              "id": "w2",
+              "text": "What"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "think"
+            },
+            {
+              "id": "w5",
+              "text": "idea?"
+            },
+            {
+              "id": "w6",
+              "text": "my"
+            },
+            {
+              "id": "w7",
+              "text": "do"
+            }
           ],
-          "correct_answer": ["w2", "w7", "w1", "w4", "w3", "w6", "w5"],
+          "correct_answer": [
+            "w2",
+            "w7",
+            "w1",
+            "w4",
+            "w3",
+            "w6",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -304,11 +560,27 @@
           "type": "matching",
           "prompt_es": "Une las sugerencias:",
           "pairs": [
-            { "id": "p1", "left": "Why don't we...", "right": "...go out?" },
-            { "id": "p2", "left": "How about...", "right": "...the cinema?" },
-            { "id": "p3", "left": "We could...", "right": "...watch a movie." }
+            {
+              "id": "p1",
+              "left": "Why don't we...",
+              "right": "...go out?"
+            },
+            {
+              "id": "p2",
+              "left": "How about...",
+              "right": "...the cinema?"
+            },
+            {
+              "id": "p3",
+              "left": "We could...",
+              "right": "...watch a movie."
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "functional_language"
         }
       ]
@@ -322,9 +594,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿A qué hora nos vemos?'?",
           "options": [
-            { "id": "o1", "text": "What time shall we meet?" },
-            { "id": "o2", "text": "Which hour meet?" },
-            { "id": "o3", "text": "When we see?" }
+            {
+              "id": "o1",
+              "text": "What time shall we meet?"
+            },
+            {
+              "id": "o2",
+              "text": "Which hour meet?"
+            },
+            {
+              "id": "o3",
+              "text": "When we see?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -334,9 +615,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Dónde exactamente?'?",
           "options": [
-            { "id": "o1", "text": "Where exactly?" },
-            { "id": "o2", "text": "Where right?" },
-            { "id": "o3", "text": "Location where?" }
+            {
+              "id": "o1",
+              "text": "Where exactly?"
+            },
+            {
+              "id": "o2",
+              "text": "Where right?"
+            },
+            {
+              "id": "o3",
+              "text": "Location where?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -346,9 +636,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'quedar en la entrada'?",
           "options": [
-            { "id": "o1", "text": "To meet at the entrance" },
-            { "id": "o2", "text": "To meet in the door" },
-            { "id": "o3", "text": "To see at start" }
+            {
+              "id": "o1",
+              "text": "To meet at the entrance"
+            },
+            {
+              "id": "o2",
+              "text": "To meet in the door"
+            },
+            {
+              "id": "o3",
+              "text": "To see at start"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -358,9 +657,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'en las afueras'?",
           "options": [
-            { "id": "o1", "text": "On the outskirts" },
-            { "id": "o2", "text": "Outside town" },
-            { "id": "o3", "text": "Far away" }
+            {
+              "id": "o1",
+              "text": "On the outskirts"
+            },
+            {
+              "id": "o2",
+              "text": "Outside town"
+            },
+            {
+              "id": "o3",
+              "text": "Far away"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -370,9 +678,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿A qué distancia está?'?",
           "options": [
-            { "id": "o1", "text": "How far is it?" },
-            { "id": "o2", "text": "What distance?" },
-            { "id": "o3", "text": "Where far?" }
+            {
+              "id": "o1",
+              "text": "How far is it?"
+            },
+            {
+              "id": "o2",
+              "text": "What distance?"
+            },
+            {
+              "id": "o3",
+              "text": "Where far?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -382,9 +699,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tardar' (tiempo)?",
           "options": [
-            { "id": "o1", "text": "To take (time)" },
-            { "id": "o2", "text": "To late" },
-            { "id": "o3", "text": "To spend" }
+            {
+              "id": "o1",
+              "text": "To take (time)"
+            },
+            {
+              "id": "o2",
+              "text": "To late"
+            },
+            {
+              "id": "o3",
+              "text": "To spend"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -394,9 +720,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuánto tiempo se tarda?'?",
           "options": [
-            { "id": "o1", "text": "How long does it take?" },
-            { "id": "o2", "text": "What time take?" },
-            { "id": "o3", "text": "How much time?" }
+            {
+              "id": "o1",
+              "text": "How long does it take?"
+            },
+            {
+              "id": "o2",
+              "text": "What time take?"
+            },
+            {
+              "id": "o3",
+              "text": "How much time?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -406,13 +741,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Nos vemos a las seis en punto'",
           "options": [
-            { "id": "w1", "text": "meet" },
-            { "id": "w2", "text": "at" },
-            { "id": "w3", "text": "Let's" },
-            { "id": "w4", "text": "o'clock" },
-            { "id": "w5", "text": "six" }
+            {
+              "id": "w1",
+              "text": "meet"
+            },
+            {
+              "id": "w2",
+              "text": "at"
+            },
+            {
+              "id": "w3",
+              "text": "Let's"
+            },
+            {
+              "id": "w4",
+              "text": "o'clock"
+            },
+            {
+              "id": "w5",
+              "text": "six"
+            }
           ],
-          "correct_answer": ["w3", "w1", "w2", "w5", "w4"],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w2",
+            "w5",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -420,13 +776,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Dónde está el punto de encuentro?'",
           "options": [
-            { "id": "w1", "text": "point?" },
-            { "id": "w2", "text": "Where" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "is" },
-            { "id": "w5", "text": "meeting" }
+            {
+              "id": "w1",
+              "text": "point?"
+            },
+            {
+              "id": "w2",
+              "text": "Where"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "meeting"
+            }
           ],
-          "correct_answer": ["w2", "w4", "w3", "w5", "w1"],
+          "correct_answer": [
+            "w2",
+            "w4",
+            "w3",
+            "w5",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -450,9 +827,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'alrededor de las ocho'?",
           "options": [
-            { "id": "o1", "text": "Around eight o'clock" },
-            { "id": "o2", "text": "About eight" },
-            { "id": "o3", "text": "Eight maybe" }
+            {
+              "id": "o1",
+              "text": "Around eight o'clock"
+            },
+            {
+              "id": "o2",
+              "text": "About eight"
+            },
+            {
+              "id": "o3",
+              "text": "Eight maybe"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -462,9 +848,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'más o menos'?",
           "options": [
-            { "id": "o1", "text": "More or less / Roughly" },
-            { "id": "o2", "text": "Plus or minus" },
-            { "id": "o3", "text": "Same same" }
+            {
+              "id": "o1",
+              "text": "More or less / Roughly"
+            },
+            {
+              "id": "o2",
+              "text": "Plus or minus"
+            },
+            {
+              "id": "o3",
+              "text": "Same same"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -474,9 +869,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'puntual'?",
           "options": [
-            { "id": "o1", "text": "Punctual / On time" },
-            { "id": "o2", "text": "In time" },
-            { "id": "o3", "text": "Fast" }
+            {
+              "id": "o1",
+              "text": "Punctual / On time"
+            },
+            {
+              "id": "o2",
+              "text": "In time"
+            },
+            {
+              "id": "o3",
+              "text": "Fast"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -486,9 +890,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'llegar tarde'?",
           "options": [
-            { "id": "o1", "text": "To be late / To arrive late" },
-            { "id": "o2", "text": "To go late" },
-            { "id": "o3", "text": "To late arrive" }
+            {
+              "id": "o1",
+              "text": "To be late / To arrive late"
+            },
+            {
+              "id": "o2",
+              "text": "To go late"
+            },
+            {
+              "id": "o3",
+              "text": "To late arrive"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -498,9 +911,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedes ser puntual?'?",
           "options": [
-            { "id": "o1", "text": "Can you be on time?" },
-            { "id": "o2", "text": "You on time?" },
-            { "id": "o3", "text": "Punctual you?" }
+            {
+              "id": "o1",
+              "text": "Can you be on time?"
+            },
+            {
+              "id": "o2",
+              "text": "You on time?"
+            },
+            {
+              "id": "o3",
+              "text": "Punctual you?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -510,9 +932,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nos vemos en la parada de autobús'?",
           "options": [
-            { "id": "o1", "text": "See you at the bus stop" },
-            { "id": "o2", "text": "See you in bus" },
-            { "id": "o3", "text": "Meet in bus station" }
+            {
+              "id": "o1",
+              "text": "See you at the bus stop"
+            },
+            {
+              "id": "o2",
+              "text": "See you in bus"
+            },
+            {
+              "id": "o3",
+              "text": "Meet in bus station"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -522,9 +953,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'detrás de...'?",
           "options": [
-            { "id": "o1", "text": "Behind..." },
-            { "id": "o2", "text": "Back of..." },
-            { "id": "o3", "text": "After..." }
+            {
+              "id": "o1",
+              "text": "Behind..."
+            },
+            {
+              "id": "o2",
+              "text": "Back of..."
+            },
+            {
+              "id": "o3",
+              "text": "After..."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -534,13 +974,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Quedamos detrás de la iglesia'",
           "options": [
-            { "id": "w1", "text": "behind" },
-            { "id": "w2", "text": "the" },
-            { "id": "w3", "text": "church" },
-            { "id": "w4", "text": "meet" },
-            { "id": "w5", "text": "Let's" }
+            {
+              "id": "w1",
+              "text": "behind"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "church"
+            },
+            {
+              "id": "w4",
+              "text": "meet"
+            },
+            {
+              "id": "w5",
+              "text": "Let's"
+            }
           ],
-          "correct_answer": ["w5", "w4", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w5",
+            "w4",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -548,14 +1009,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Estaré allí en diez minutos'",
           "options": [
-            { "id": "w1", "text": "minutes" },
-            { "id": "w2", "text": "I'll" },
-            { "id": "w3", "text": "in" },
-            { "id": "w4", "text": "there" },
-            { "id": "w5", "text": "be" },
-            { "id": "w6", "text": "ten" }
+            {
+              "id": "w1",
+              "text": "minutes"
+            },
+            {
+              "id": "w2",
+              "text": "I'll"
+            },
+            {
+              "id": "w3",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "there"
+            },
+            {
+              "id": "w5",
+              "text": "be"
+            },
+            {
+              "id": "w6",
+              "text": "ten"
+            }
           ],
-          "correct_answer": ["w2", "w5", "w4", "w3", "w6", "w1"],
+          "correct_answer": [
+            "w2",
+            "w5",
+            "w4",
+            "w3",
+            "w6",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -609,9 +1095,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cambiar el plan'?",
           "options": [
-            { "id": "o1", "text": "To change the plan" },
-            { "id": "o2", "text": "To make the plan" },
-            { "id": "o3", "text": "To fix the plan" }
+            {
+              "id": "o1",
+              "text": "To change the plan"
+            },
+            {
+              "id": "o2",
+              "text": "To make the plan"
+            },
+            {
+              "id": "o3",
+              "text": "To fix the plan"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -621,9 +1116,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reprogramar'?",
           "options": [
-            { "id": "o1", "text": "To reschedule" },
-            { "id": "o2", "text": "To redo" },
-            { "id": "o3", "text": "To move" }
+            {
+              "id": "o1",
+              "text": "To reschedule"
+            },
+            {
+              "id": "o2",
+              "text": "To redo"
+            },
+            {
+              "id": "o3",
+              "text": "To move"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -633,9 +1137,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'posponer'?",
           "options": [
-            { "id": "o1", "text": "To postpone / To put off" },
-            { "id": "o2", "text": "To stop" },
-            { "id": "o3", "text": "To delay" }
+            {
+              "id": "o1",
+              "text": "To postpone / To put off"
+            },
+            {
+              "id": "o2",
+              "text": "To stop"
+            },
+            {
+              "id": "o3",
+              "text": "To delay"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -645,9 +1158,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cancelar'?",
           "options": [
-            { "id": "o1", "text": "To cancel" },
-            { "id": "o2", "text": "To finish" },
-            { "id": "o3", "text": "To break" }
+            {
+              "id": "o1",
+              "text": "To cancel"
+            },
+            {
+              "id": "o2",
+              "text": "To finish"
+            },
+            {
+              "id": "o3",
+              "text": "To break"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -657,9 +1179,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'algo ha surgido'?",
           "options": [
-            { "id": "o1", "text": "Something has come up" },
-            { "id": "o2", "text": "Something is new" },
-            { "id": "o3", "text": "Problem here" }
+            {
+              "id": "o1",
+              "text": "Something has come up"
+            },
+            {
+              "id": "o2",
+              "text": "Something is new"
+            },
+            {
+              "id": "o3",
+              "text": "Problem here"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -669,9 +1200,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'confirmar de nuevo'?",
           "options": [
-            { "id": "o1", "text": "To reconfirm" },
-            { "id": "o2", "text": "To say again" },
-            { "id": "o3", "text": "To check back" }
+            {
+              "id": "o1",
+              "text": "To reconfirm"
+            },
+            {
+              "id": "o2",
+              "text": "To say again"
+            },
+            {
+              "id": "o3",
+              "text": "To check back"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -681,9 +1221,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Sigue en pie?'?",
           "options": [
-            { "id": "o1", "text": "Is it still on?" },
-            { "id": "o2", "text": "Are we going?" },
-            { "id": "o3", "text": "Is plan good?" }
+            {
+              "id": "o1",
+              "text": "Is it still on?"
+            },
+            {
+              "id": "o2",
+              "text": "Are we going?"
+            },
+            {
+              "id": "o3",
+              "text": "Is plan good?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -693,13 +1242,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Podemos cambiar la hora?'",
           "options": [
-            { "id": "w1", "text": "time?" },
-            { "id": "w2", "text": "the" },
-            { "id": "w3", "text": "Can" },
-            { "id": "w4", "text": "change" },
-            { "id": "w5", "text": "we" }
+            {
+              "id": "w1",
+              "text": "time?"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "Can"
+            },
+            {
+              "id": "w4",
+              "text": "change"
+            },
+            {
+              "id": "w5",
+              "text": "we"
+            }
           ],
-          "correct_answer": ["w3", "w5", "w4", "w2", "w1"],
+          "correct_answer": [
+            "w3",
+            "w5",
+            "w4",
+            "w2",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -707,14 +1277,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Tengo que cancelar el plan'",
           "options": [
-            { "id": "w1", "text": "the" },
-            { "id": "w2", "text": "plan" },
-            { "id": "w3", "text": "cancel" },
-            { "id": "w4", "text": "I" },
-            { "id": "w5", "text": "have" },
-            { "id": "w6", "text": "to" }
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "plan"
+            },
+            {
+              "id": "w3",
+              "text": "cancel"
+            },
+            {
+              "id": "w4",
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "have"
+            },
+            {
+              "id": "w6",
+              "text": "to"
+            }
           ],
-          "correct_answer": ["w4", "w5", "w6", "w3", "w1", "w2"],
+          "correct_answer": [
+            "w4",
+            "w5",
+            "w6",
+            "w3",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -738,9 +1333,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Te va bien el lunes?'?",
           "options": [
-            { "id": "o1", "text": "Does Monday suit you? / Is Monday okay for you?" },
-            { "id": "o2", "text": "Monday good you?" },
-            { "id": "o3", "text": "Monday time you?" }
+            {
+              "id": "o1",
+              "text": "Does Monday suit you? / Is Monday okay for you?"
+            },
+            {
+              "id": "o2",
+              "text": "Monday good you?"
+            },
+            {
+              "id": "o3",
+              "text": "Monday time you?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -750,9 +1354,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estar libre'?",
           "options": [
-            { "id": "o1", "text": "To be free" },
-            { "id": "o2", "text": "To be open" },
-            { "id": "o3", "text": "To be ready" }
+            {
+              "id": "o1",
+              "text": "To be free"
+            },
+            {
+              "id": "o2",
+              "text": "To be open"
+            },
+            {
+              "id": "o3",
+              "text": "To be ready"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -762,9 +1375,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿A qué hora te va bien?'?",
           "options": [
-            { "id": "o1", "text": "What time is good for you?" },
-            { "id": "o2", "text": "Which hour you like?" },
-            { "id": "o3", "text": "When you want?" }
+            {
+              "id": "o1",
+              "text": "What time is good for you?"
+            },
+            {
+              "id": "o2",
+              "text": "Which hour you like?"
+            },
+            {
+              "id": "o3",
+              "text": "When you want?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -774,9 +1396,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nos vemos fuera'?",
           "options": [
-            { "id": "o1", "text": "See you outside" },
-            { "id": "o2", "text": "Meet you out" },
-            { "id": "o3", "text": "See you there out" }
+            {
+              "id": "o1",
+              "text": "See you outside"
+            },
+            {
+              "id": "o2",
+              "text": "Meet you out"
+            },
+            {
+              "id": "o3",
+              "text": "See you there out"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -786,9 +1417,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedes enviarme la ubicación?'?",
           "options": [
-            { "id": "o1", "text": "Can you send me the location?" },
-            { "id": "o2", "text": "Where you send me?" },
-            { "id": "o3", "text": "Location send please?" }
+            {
+              "id": "o1",
+              "text": "Can you send me the location?"
+            },
+            {
+              "id": "o2",
+              "text": "Where you send me?"
+            },
+            {
+              "id": "o3",
+              "text": "Location send please?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -798,9 +1438,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'esperar fuera'?",
           "options": [
-            { "id": "o1", "text": "To wait outside" },
-            { "id": "o2", "text": "To stay out" },
-            { "id": "o3", "text": "To wait there" }
+            {
+              "id": "o1",
+              "text": "To wait outside"
+            },
+            {
+              "id": "o2",
+              "text": "To stay out"
+            },
+            {
+              "id": "o3",
+              "text": "To wait there"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -810,14 +1459,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Te enviaré un mensaje más tarde'",
           "options": [
-            { "id": "w1", "text": "later" },
-            { "id": "w2", "text": "message" },
-            { "id": "w3", "text": "I'll" },
-            { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "send" },
-            { "id": "w6", "text": "you" }
+            {
+              "id": "w1",
+              "text": "later"
+            },
+            {
+              "id": "w2",
+              "text": "message"
+            },
+            {
+              "id": "w3",
+              "text": "I'll"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "send"
+            },
+            {
+              "id": "w6",
+              "text": "you"
+            }
           ],
-          "correct_answer": ["w3", "w5", "w6", "w4", "w2", "w1"],
+          "correct_answer": [
+            "w3",
+            "w5",
+            "w6",
+            "w4",
+            "w2",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -825,13 +1499,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Quedamos a las ocho?'",
           "options": [
-            { "id": "w1", "text": "eight?" },
-            { "id": "w2", "text": "we" },
-            { "id": "w3", "text": "at" },
-            { "id": "w4", "text": "Shall" },
-            { "id": "w5", "text": "meet" }
+            {
+              "id": "w1",
+              "text": "eight?"
+            },
+            {
+              "id": "w2",
+              "text": "we"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w4",
+              "text": "Shall"
+            },
+            {
+              "id": "w5",
+              "text": "meet"
+            }
           ],
-          "correct_answer": ["w4", "w2", "w5", "w3", "w1"],
+          "correct_answer": [
+            "w4",
+            "w2",
+            "w5",
+            "w3",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -879,9 +1574,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'avísame si cambias de idea'?",
           "options": [
-            { "id": "o1", "text": "Let me know if you change your mind" },
-            { "id": "o2", "text": "Tell me if new idea" },
-            { "id": "o3", "text": "Message me if change" }
+            {
+              "id": "o1",
+              "text": "Let me know if you change your mind"
+            },
+            {
+              "id": "o2",
+              "text": "Tell me if new idea"
+            },
+            {
+              "id": "o3",
+              "text": "Message me if change"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -896,31 +1600,131 @@
           "interaction_id": "U42_I76",
           "type": "word-search",
           "prompt_es": "Busca palabras de planificación:",
-          "words": ["PLAN", "DECIDE", "MEET", "TIME", "PLACE", "LATE", "EARLY", "AGREE", "IDEA", "SUGGEST"],
+          "words": [
+            "PLAN",
+            "DECIDE",
+            "MEET",
+            "TIME",
+            "PLACE",
+            "LATE",
+            "EARLY",
+            "AGREE",
+            "IDEA",
+            "SUGGEST"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "PLAN", "clue": "An arrangement" },
-            { "word": "DECIDE", "clue": "To make a choice" },
-            { "word": "MEET", "clue": "To see someone" },
-            { "word": "TIME", "clue": "What hour" },
-            { "word": "PLACE", "clue": "Where" },
-            { "word": "LATE", "clue": "After the time" },
-            { "word": "EARLY", "clue": "Before the time" },
-            { "word": "AGREE", "clue": "To say yes to an idea" },
-            { "word": "IDEA", "clue": "A thought" },
-            { "word": "SUGGEST", "clue": "To give an idea" }
+            {
+              "word": "PLAN",
+              "clue": "An arrangement"
+            },
+            {
+              "word": "DECIDE",
+              "clue": "To make a choice"
+            },
+            {
+              "word": "MEET",
+              "clue": "To see someone"
+            },
+            {
+              "word": "TIME",
+              "clue": "What hour"
+            },
+            {
+              "word": "PLACE",
+              "clue": "Where"
+            },
+            {
+              "word": "LATE",
+              "clue": "After the time"
+            },
+            {
+              "word": "EARLY",
+              "clue": "Before the time"
+            },
+            {
+              "word": "AGREE",
+              "clue": "To say yes to an idea"
+            },
+            {
+              "word": "IDEA",
+              "clue": "A thought"
+            },
+            {
+              "word": "SUGGEST",
+              "clue": "To give an idea"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U42_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de planes:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "PLAN", "clue": "To make a ___", "direction": "across", "row": 0, "col": 0 },
-            { "word": "PLACE", "clue": "Location", "direction": "down", "row": 0, "col": 0 },
-            { "word": "TIME", "clue": "O'clock", "direction": "across", "row": 2, "col": 0 },
-            { "word": "MEET", "clue": "Encounter", "direction": "down", "row": 0, "col": 3 }
+            {
+              "word": "GOODBYE",
+              "clue": "Traducción de: Adiós",
+              "direction": "across",
+              "row": 10,
+              "col": 6
+            },
+            {
+              "word": "MORNING",
+              "clue": "Traducción de: Mañana",
+              "direction": "down",
+              "row": 9,
+              "col": 7
+            },
+            {
+              "word": "PLEASE",
+              "clue": "Traducción de: Por favor",
+              "direction": "down",
+              "row": 8,
+              "col": 12
+            },
+            {
+              "word": "THANKS",
+              "clue": "Traducción de: Gracias",
+              "direction": "across",
+              "row": 14,
+              "col": 4
+            },
+            {
+              "word": "FRIEND",
+              "clue": "Traducción de: Amigo",
+              "direction": "down",
+              "row": 5,
+              "col": 9
+            },
+            {
+              "word": "HELLO",
+              "clue": "Traducción de: Hola",
+              "direction": "across",
+              "row": 13,
+              "col": 11
+            },
+            {
+              "word": "NIGHT",
+              "clue": "Traducción de: Noche",
+              "direction": "down",
+              "row": 10,
+              "col": 4
+            },
+            {
+              "word": "THEN",
+              "clue": "Traducción de: entonces",
+              "direction": "across",
+              "row": 10,
+              "col": 1
+            },
+            {
+              "word": "NAME",
+              "clue": "Traducción de: Nombre",
+              "direction": "across",
+              "row": 12,
+              "col": 7
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -953,9 +1757,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué quieres hacer mañana?'?",
           "options": [
-            { "id": "o1", "text": "What do you want to do tomorrow?" },
-            { "id": "o2", "text": "What you do tomorrow?" },
-            { "id": "o3", "text": "When you do tomorrow?" }
+            {
+              "id": "o1",
+              "text": "What do you want to do tomorrow?"
+            },
+            {
+              "id": "o2",
+              "text": "What you do tomorrow?"
+            },
+            {
+              "id": "o3",
+              "text": "When you do tomorrow?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -965,9 +1778,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'No tengo ni idea'?",
           "options": [
-            { "id": "o1", "text": "I have no idea" },
-            { "id": "o2", "text": "No idea me" },
-            { "id": "o3", "text": "Idea zero" }
+            {
+              "id": "o1",
+              "text": "I have no idea"
+            },
+            {
+              "id": "o2",
+              "text": "No idea me"
+            },
+            {
+              "id": "o3",
+              "text": "Idea zero"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -977,9 +1799,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Te apetece una pizza?'?",
           "options": [
-            { "id": "o1", "text": "Do you feel like a pizza?" },
-            { "id": "o2", "text": "Want pizza?" },
-            { "id": "o3", "text": "Like pizza?" }
+            {
+              "id": "o1",
+              "text": "Do you feel like a pizza?"
+            },
+            {
+              "id": "o2",
+              "text": "Want pizza?"
+            },
+            {
+              "id": "o3",
+              "text": "Like pizza?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -989,9 +1820,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'buena sugerencia'?",
           "options": [
-            { "id": "o1", "text": "Good suggestion" },
-            { "id": "o2", "text": "Fine idea" },
-            { "id": "o3", "text": "Nice plan" }
+            {
+              "id": "o1",
+              "text": "Good suggestion"
+            },
+            {
+              "id": "o2",
+              "text": "Fine idea"
+            },
+            {
+              "id": "o3",
+              "text": "Nice plan"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1001,9 +1841,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿A dónde vamos?'?",
           "options": [
-            { "id": "o1", "text": "Where are we going?" },
-            { "id": "o2", "text": "Where we go?" },
-            { "id": "o3", "text": "Which way go?" }
+            {
+              "id": "o1",
+              "text": "Where are we going?"
+            },
+            {
+              "id": "o2",
+              "text": "Where we go?"
+            },
+            {
+              "id": "o3",
+              "text": "Which way go?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1013,9 +1862,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Nos vemos allí?'?",
           "options": [
-            { "id": "o1", "text": "Shall we meet there?" },
-            { "id": "o2", "text": "See you there?" },
-            { "id": "o3", "text": "Meet there?" }
+            {
+              "id": "o1",
+              "text": "Shall we meet there?"
+            },
+            {
+              "id": "o2",
+              "text": "See you there?"
+            },
+            {
+              "id": "o3",
+              "text": "Meet there?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1025,9 +1883,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estar listo'?",
           "options": [
-            { "id": "o1", "text": "To be ready" },
-            { "id": "o2", "text": "To be set" },
-            { "id": "o3", "text": "To be go" }
+            {
+              "id": "o1",
+              "text": "To be ready"
+            },
+            {
+              "id": "o2",
+              "text": "To be set"
+            },
+            {
+              "id": "o3",
+              "text": "To be go"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1037,9 +1904,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Estás listo?'?",
           "options": [
-            { "id": "o1", "text": "Are you ready?" },
-            { "id": "o2", "text": "You ready?" },
-            { "id": "o3", "text": "Ready you?" }
+            {
+              "id": "o1",
+              "text": "Are you ready?"
+            },
+            {
+              "id": "o2",
+              "text": "You ready?"
+            },
+            {
+              "id": "o3",
+              "text": "Ready you?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1049,9 +1925,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'casi listo'?",
           "options": [
-            { "id": "o1", "text": "Almost ready" },
-            { "id": "o2", "text": "Near ready" },
-            { "id": "o3", "text": "Soon ready" }
+            {
+              "id": "o1",
+              "text": "Almost ready"
+            },
+            {
+              "id": "o2",
+              "text": "Near ready"
+            },
+            {
+              "id": "o3",
+              "text": "Soon ready"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1061,9 +1946,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dame cinco minutos'?",
           "options": [
-            { "id": "o1", "text": "Give me five minutes" },
-            { "id": "o2", "text": "Five minutes please" },
-            { "id": "o3", "text": "Take five minutes" }
+            {
+              "id": "o1",
+              "text": "Give me five minutes"
+            },
+            {
+              "id": "o2",
+              "text": "Five minutes please"
+            },
+            {
+              "id": "o3",
+              "text": "Take five minutes"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1073,9 +1967,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'no hay prisa'?",
           "options": [
-            { "id": "o1", "text": "There's no hurry / no rush" },
-            { "id": "o2", "text": "No fast" },
-            { "id": "o3", "text": "Slow down" }
+            {
+              "id": "o1",
+              "text": "There's no hurry / no rush"
+            },
+            {
+              "id": "o2",
+              "text": "No fast"
+            },
+            {
+              "id": "o3",
+              "text": "Slow down"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1085,9 +1988,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tómate tu tiempo'?",
           "options": [
-            { "id": "o1", "text": "Take your time" },
-            { "id": "o2", "text": "Use your time" },
-            { "id": "o3", "text": "Your time take" }
+            {
+              "id": "o1",
+              "text": "Take your time"
+            },
+            {
+              "id": "o2",
+              "text": "Use your time"
+            },
+            {
+              "id": "o3",
+              "text": "Your time take"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1097,9 +2009,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué tal si vamos caminando?'?",
           "options": [
-            { "id": "o1", "text": "What if we go walking?" },
-            { "id": "o2", "text": "Walk go what think?" },
-            { "id": "o3", "text": "Walking maybe?" }
+            {
+              "id": "o1",
+              "text": "What if we go walking?"
+            },
+            {
+              "id": "o2",
+              "text": "Walk go what think?"
+            },
+            {
+              "id": "o3",
+              "text": "Walking maybe?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1109,9 +2030,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'es un paseo corto'?",
           "options": [
-            { "id": "o1", "text": "It's a short walk" },
-            { "id": "o2", "text": "It is near" },
-            { "id": "o3", "text": "Short way" }
+            {
+              "id": "o1",
+              "text": "It's a short walk"
+            },
+            {
+              "id": "o2",
+              "text": "It is near"
+            },
+            {
+              "id": "o3",
+              "text": "Short way"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1121,9 +2051,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nos vemos fuera del restaurante'?",
           "options": [
-            { "id": "o1", "text": "See you outside the restaurant" },
-            { "id": "o2", "text": "Meet in restaurant door" },
-            { "id": "o3", "text": "Restaurant meet out" }
+            {
+              "id": "o1",
+              "text": "See you outside the restaurant"
+            },
+            {
+              "id": "o2",
+              "text": "Meet in restaurant door"
+            },
+            {
+              "id": "o3",
+              "text": "Restaurant meet out"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1133,9 +2072,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿A qué hora termina?'?",
           "options": [
-            { "id": "o1", "text": "What time does it finish?" },
-            { "id": "o2", "text": "When end?" },
-            { "id": "o3", "text": "Finish time what?" }
+            {
+              "id": "o1",
+              "text": "What time does it finish?"
+            },
+            {
+              "id": "o2",
+              "text": "When end?"
+            },
+            {
+              "id": "o3",
+              "text": "Finish time what?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1145,9 +2093,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Deberíamos llevar algo?'?",
           "options": [
-            { "id": "o1", "text": "Should we bring anything?" },
-            { "id": "o2", "text": "Bring something we?" },
-            { "id": "o3", "text": "Need bring thing?" }
+            {
+              "id": "o1",
+              "text": "Should we bring anything?"
+            },
+            {
+              "id": "o2",
+              "text": "Bring something we?"
+            },
+            {
+              "id": "o3",
+              "text": "Need bring thing?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1157,9 +2114,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hasta mañana'?",
           "options": [
-            { "id": "o1", "text": "See you tomorrow" },
-            { "id": "o2", "text": "Until tomorrow" },
-            { "id": "o3", "text": "Bye tomorrow" }
+            {
+              "id": "o1",
+              "text": "See you tomorrow"
+            },
+            {
+              "id": "o2",
+              "text": "Until tomorrow"
+            },
+            {
+              "id": "o3",
+              "text": "Bye tomorrow"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1169,9 +2135,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'entonces'?",
           "options": [
-            { "id": "o1", "text": "Then" },
-            { "id": "o2", "text": "Next" },
-            { "id": "o3", "text": "So" }
+            {
+              "id": "o1",
+              "text": "Then"
+            },
+            {
+              "id": "o2",
+              "text": "Next"
+            },
+            {
+              "id": "o3",
+              "text": "So"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1181,9 +2156,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nos vemos entonces'?",
           "options": [
-            { "id": "o1", "text": "See you then" },
-            { "id": "o2", "text": "Meet you next" },
-            { "id": "o3", "text": "Bye then" }
+            {
+              "id": "o1",
+              "text": "See you then"
+            },
+            {
+              "id": "o2",
+              "text": "Meet you next"
+            },
+            {
+              "id": "o3",
+              "text": "Bye then"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"

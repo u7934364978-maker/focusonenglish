@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'emergencia'?",
           "options": [
-            { "id": "o1", "text": "Emergency" },
-            { "id": "o2", "text": "Urgency" },
-            { "id": "o3", "text": "Danger" }
+            {
+              "id": "o1",
+              "text": "Emergency"
+            },
+            {
+              "id": "o2",
+              "text": "Urgency"
+            },
+            {
+              "id": "o3",
+              "text": "Danger"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ayuda'?",
           "options": [
-            { "id": "o1", "text": "Help" },
-            { "id": "o2", "text": "Aid" },
-            { "id": "o3", "text": "Support" }
+            {
+              "id": "o1",
+              "text": "Help"
+            },
+            {
+              "id": "o2",
+              "text": "Aid"
+            },
+            {
+              "id": "o3",
+              "text": "Support"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ambulancia'?",
           "options": [
-            { "id": "o1", "text": "Ambulance" },
-            { "id": "o2", "text": "Hospital car" },
-            { "id": "o3", "text": "Red cross" }
+            {
+              "id": "o1",
+              "text": "Ambulance"
+            },
+            {
+              "id": "o2",
+              "text": "Hospital car"
+            },
+            {
+              "id": "o3",
+              "text": "Red cross"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'policía'?",
           "options": [
-            { "id": "o1", "text": "Police" },
-            { "id": "o2", "text": "Guard" },
-            { "id": "o3", "text": "Officer" }
+            {
+              "id": "o1",
+              "text": "Police"
+            },
+            {
+              "id": "o2",
+              "text": "Guard"
+            },
+            {
+              "id": "o3",
+              "text": "Officer"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bomberos'?",
           "options": [
-            { "id": "o1", "text": "Firefighters" },
-            { "id": "o2", "text": "Fire men" },
-            { "id": "o3", "text": "Extinguishers" }
+            {
+              "id": "o1",
+              "text": "Firefighters"
+            },
+            {
+              "id": "o2",
+              "text": "Fire men"
+            },
+            {
+              "id": "o3",
+              "text": "Extinguishers"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fuego / incendio'?",
           "options": [
-            { "id": "o1", "text": "Fire" },
-            { "id": "o2", "text": "Hot" },
-            { "id": "o3", "text": "Burn" }
+            {
+              "id": "o1",
+              "text": "Fire"
+            },
+            {
+              "id": "o2",
+              "text": "Hot"
+            },
+            {
+              "id": "o3",
+              "text": "Burn"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'accidente'?",
           "options": [
-            { "id": "o1", "text": "Accident" },
-            { "id": "o2", "text": "Crash" },
-            { "id": "o3", "text": "Fall" }
+            {
+              "id": "o1",
+              "text": "Accident"
+            },
+            {
+              "id": "o2",
+              "text": "Crash"
+            },
+            {
+              "id": "o3",
+              "text": "Fall"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'herido/a'?",
           "options": [
-            { "id": "o1", "text": "Injured / Hurt" },
-            { "id": "o2", "text": "Pain" },
-            { "id": "o3", "text": "Bleeding" }
+            {
+              "id": "o1",
+              "text": "Injured / Hurt"
+            },
+            {
+              "id": "o2",
+              "text": "Pain"
+            },
+            {
+              "id": "o3",
+              "text": "Bleeding"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'peligro'?",
           "options": [
-            { "id": "o1", "text": "Danger" },
-            { "id": "o2", "text": "Hazard" },
-            { "id": "o3", "text": "Risk" }
+            {
+              "id": "o1",
+              "text": "Danger"
+            },
+            {
+              "id": "o2",
+              "text": "Hazard"
+            },
+            {
+              "id": "o3",
+              "text": "Risk"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Socorro!'?",
           "options": [
-            { "id": "o1", "text": "Help!" },
-            { "id": "o2", "text": "Stop!" },
-            { "id": "o3", "text": "Watch out!" }
+            {
+              "id": "o1",
+              "text": "Help!"
+            },
+            {
+              "id": "o2",
+              "text": "Stop!"
+            },
+            {
+              "id": "o3",
+              "text": "Watch out!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -137,11 +227,24 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¡Llama a la policía!'",
           "options": [
-            { "id": "w1", "text": "Call" },
-            { "id": "w2", "text": "police!" },
-            { "id": "w3", "text": "the" }
+            {
+              "id": "w1",
+              "text": "Call"
+            },
+            {
+              "id": "w2",
+              "text": "police!"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            }
           ],
-          "correct_answer": ["w1", "w3", "w2"],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -149,13 +252,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Hay un accidente aquí'",
           "options": [
-            { "id": "w1", "text": "accident" },
-            { "id": "w2", "text": "an" },
-            { "id": "w3", "text": "There" },
-            { "id": "w4", "text": "is" },
-            { "id": "w5", "text": "here" }
+            {
+              "id": "w1",
+              "text": "accident"
+            },
+            {
+              "id": "w2",
+              "text": "an"
+            },
+            {
+              "id": "w3",
+              "text": "There"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "here"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w2", "w1", "w5"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w2",
+            "w1",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -179,9 +303,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'testigo'?",
           "options": [
-            { "id": "o1", "text": "Witness" },
-            { "id": "o2", "text": "Viewer" },
-            { "id": "o3", "text": "Person see" }
+            {
+              "id": "o1",
+              "text": "Witness"
+            },
+            {
+              "id": "o2",
+              "text": "Viewer"
+            },
+            {
+              "id": "o3",
+              "text": "Person see"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -191,9 +324,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'primeros auxilios'?",
           "options": [
-            { "id": "o1", "text": "First aid" },
-            { "id": "o2", "text": "Initial help" },
-            { "id": "o3", "text": "Start medical" }
+            {
+              "id": "o1",
+              "text": "First aid"
+            },
+            {
+              "id": "o2",
+              "text": "Initial help"
+            },
+            {
+              "id": "o3",
+              "text": "Start medical"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -203,9 +345,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'salida de emergencia'?",
           "options": [
-            { "id": "o1", "text": "Emergency exit" },
-            { "id": "o2", "text": "Way out fast" },
-            { "id": "o3", "text": "Safety door" }
+            {
+              "id": "o1",
+              "text": "Emergency exit"
+            },
+            {
+              "id": "o2",
+              "text": "Way out fast"
+            },
+            {
+              "id": "o3",
+              "text": "Safety door"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -215,9 +366,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Cuidado!'?",
           "options": [
-            { "id": "o1", "text": "Watch out! / Be careful!" },
-            { "id": "o2", "text": "See you!" },
-            { "id": "o3", "text": "Look down!" }
+            {
+              "id": "o1",
+              "text": "Watch out! / Be careful!"
+            },
+            {
+              "id": "o2",
+              "text": "See you!"
+            },
+            {
+              "id": "o3",
+              "text": "Look down!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -227,9 +387,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estar a salvo'?",
           "options": [
-            { "id": "o1", "text": "To be safe" },
-            { "id": "o2", "text": "To be sure" },
-            { "id": "o3", "text": "To be out" }
+            {
+              "id": "o1",
+              "text": "To be safe"
+            },
+            {
+              "id": "o2",
+              "text": "To be sure"
+            },
+            {
+              "id": "o3",
+              "text": "To be out"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -239,9 +408,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'extintor'?",
           "options": [
-            { "id": "o1", "text": "Fire extinguisher" },
-            { "id": "o2", "text": "Fire stopper" },
-            { "id": "o3", "text": "Water gun" }
+            {
+              "id": "o1",
+              "text": "Fire extinguisher"
+            },
+            {
+              "id": "o2",
+              "text": "Fire stopper"
+            },
+            {
+              "id": "o3",
+              "text": "Water gun"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -251,12 +429,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Dónde está la salida?'",
           "options": [
-            { "id": "w1", "text": "the" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "Where" },
-            { "id": "w4", "text": "exit?" }
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "Where"
+            },
+            {
+              "id": "w4",
+              "text": "exit?"
+            }
           ],
-          "correct_answer": ["w3", "w2", "w1", "w4"],
+          "correct_answer": [
+            "w3",
+            "w2",
+            "w1",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -264,10 +459,19 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mantenga la calma'",
           "options": [
-            { "id": "w1", "text": "calm" },
-            { "id": "w2", "text": "Keep" }
+            {
+              "id": "w1",
+              "text": "calm"
+            },
+            {
+              "id": "w2",
+              "text": "Keep"
+            }
           ],
-          "correct_answer": ["w2", "w1"],
+          "correct_answer": [
+            "w2",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -291,11 +495,27 @@
           "type": "matching",
           "prompt_es": "Une los servicios de emergencia:",
           "pairs": [
-            { "id": "p1", "left": "Police", "right": "Crime / Safety" },
-            { "id": "p2", "left": "Ambulance", "right": "Medical" },
-            { "id": "p3", "left": "Firefighters", "right": "Fire" }
+            {
+              "id": "p1",
+              "left": "Police",
+              "right": "Crime / Safety"
+            },
+            {
+              "id": "p2",
+              "left": "Ambulance",
+              "right": "Medical"
+            },
+            {
+              "id": "p3",
+              "left": "Firefighters",
+              "right": "Fire"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         }
       ]
@@ -309,9 +529,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'no puedo respirar'?",
           "options": [
-            { "id": "o1", "text": "I can't breathe" },
-            { "id": "o2", "text": "No air me" },
-            { "id": "o3", "text": "I stop air" }
+            {
+              "id": "o1",
+              "text": "I can't breathe"
+            },
+            {
+              "id": "o2",
+              "text": "No air me"
+            },
+            {
+              "id": "o3",
+              "text": "I stop air"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -321,9 +550,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'le duele el pecho'?",
           "options": [
-            { "id": "o1", "text": "He / She has chest pain" },
-            { "id": "o2", "text": "His heart bad" },
-            { "id": "o3", "text": "Pain in box" }
+            {
+              "id": "o1",
+              "text": "He / She has chest pain"
+            },
+            {
+              "id": "o2",
+              "text": "His heart bad"
+            },
+            {
+              "id": "o3",
+              "text": "Pain in box"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -333,9 +571,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está sangrando'?",
           "options": [
-            { "id": "o1", "text": "He / She is bleeding" },
-            { "id": "o2", "text": "Red water out" },
-            { "id": "o3", "text": "Blood going" }
+            {
+              "id": "o1",
+              "text": "He / She is bleeding"
+            },
+            {
+              "id": "o2",
+              "text": "Red water out"
+            },
+            {
+              "id": "o3",
+              "text": "Blood going"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -345,9 +592,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'se ha desmayado'?",
           "options": [
-            { "id": "o1", "text": "He / She fainted / passed out" },
-            { "id": "o2", "text": "She go sleep fast" },
-            { "id": "o3", "text": "He fall down no move" }
+            {
+              "id": "o1",
+              "text": "He / She fainted / passed out"
+            },
+            {
+              "id": "o2",
+              "text": "She go sleep fast"
+            },
+            {
+              "id": "o3",
+              "text": "He fall down no move"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -357,9 +613,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'quemadura'?",
           "options": [
-            { "id": "o1", "text": "Burn" },
-            { "id": "o2", "text": "Hot skin" },
-            { "id": "o3", "text": "Fire mark" }
+            {
+              "id": "o1",
+              "text": "Burn"
+            },
+            {
+              "id": "o2",
+              "text": "Hot skin"
+            },
+            {
+              "id": "o3",
+              "text": "Fire mark"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -369,9 +634,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'alergia'?",
           "options": [
-            { "id": "o1", "text": "Allergy" },
-            { "id": "o2", "text": "Sneezing" },
-            { "id": "o3", "text": "Reaction" }
+            {
+              "id": "o1",
+              "text": "Allergy"
+            },
+            {
+              "id": "o2",
+              "text": "Sneezing"
+            },
+            {
+              "id": "o3",
+              "text": "Reaction"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -381,9 +655,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'veneno / intoxicación'?",
           "options": [
-            { "id": "o1", "text": "Poison / Poisoning" },
-            { "id": "o2", "text": "Toxic" },
-            { "id": "o3", "text": "Bad food" }
+            {
+              "id": "o1",
+              "text": "Poison / Poisoning"
+            },
+            {
+              "id": "o2",
+              "text": "Toxic"
+            },
+            {
+              "id": "o3",
+              "text": "Bad food"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -393,12 +676,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Él necesita un médico'",
           "options": [
-            { "id": "w1", "text": "doctor" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "He" },
-            { "id": "w4", "text": "needs" }
+            {
+              "id": "w1",
+              "text": "doctor"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "He"
+            },
+            {
+              "id": "w4",
+              "text": "needs"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w2", "w1"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w2",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -406,13 +706,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Es usted alérgico a algo?'",
           "options": [
-            { "id": "w1", "text": "to" },
-            { "id": "w2", "text": "allergic" },
-            { "id": "w3", "text": "Are" },
-            { "id": "w4", "text": "you" },
-            { "id": "w5", "text": "anything?" }
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "allergic"
+            },
+            {
+              "id": "w3",
+              "text": "Are"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            },
+            {
+              "id": "w5",
+              "text": "anything?"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w2", "w1", "w5"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w2",
+            "w1",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -436,9 +757,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'botiquín'?",
           "options": [
-            { "id": "o1", "text": "First aid kit" },
-            { "id": "o2", "text": "Medicine box" },
-            { "id": "o3", "text": "Help bag" }
+            {
+              "id": "o1",
+              "text": "First aid kit"
+            },
+            {
+              "id": "o2",
+              "text": "Medicine box"
+            },
+            {
+              "id": "o3",
+              "text": "Help bag"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -448,9 +778,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'venda'?",
           "options": [
-            { "id": "o1", "text": "Bandage" },
-            { "id": "o2", "text": "Tape" },
-            { "id": "o3", "text": "Wrap" }
+            {
+              "id": "o1",
+              "text": "Bandage"
+            },
+            {
+              "id": "o2",
+              "text": "Tape"
+            },
+            {
+              "id": "o3",
+              "text": "Wrap"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -460,9 +799,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'curita / tirita'?",
           "options": [
-            { "id": "o1", "text": "Plaster / Band-aid" },
-            { "id": "o2", "text": "Skin tape" },
-            { "id": "o3", "text": "Sticker" }
+            {
+              "id": "o1",
+              "text": "Plaster / Band-aid"
+            },
+            {
+              "id": "o2",
+              "text": "Skin tape"
+            },
+            {
+              "id": "o3",
+              "text": "Sticker"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -472,9 +820,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'desinfectante'?",
           "options": [
-            { "id": "o1", "text": "Antiseptic / Disinfectant" },
-            { "id": "o2", "text": "Cleaner" },
-            { "id": "o3", "text": "Soap" }
+            {
+              "id": "o1",
+              "text": "Antiseptic / Disinfectant"
+            },
+            {
+              "id": "o2",
+              "text": "Cleaner"
+            },
+            {
+              "id": "o3",
+              "text": "Soap"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -484,9 +841,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fractura / hueso roto'?",
           "options": [
-            { "id": "o1", "text": "Fracture / Broken bone" },
-            { "id": "o2", "text": "Crack" },
-            { "id": "o3", "text": "Snap" }
+            {
+              "id": "o1",
+              "text": "Fracture / Broken bone"
+            },
+            {
+              "id": "o2",
+              "text": "Crack"
+            },
+            {
+              "id": "o3",
+              "text": "Snap"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -496,9 +862,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'asfixia'?",
           "options": [
-            { "id": "o1", "text": "Choking" },
-            { "id": "o2", "text": "No air" },
-            { "id": "o3", "text": "Throat block" }
+            {
+              "id": "o1",
+              "text": "Choking"
+            },
+            {
+              "id": "o2",
+              "text": "No air"
+            },
+            {
+              "id": "o3",
+              "text": "Throat block"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -508,9 +883,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'respiración artificial'?",
           "options": [
-            { "id": "o1", "text": "CPR / Artificial respiration" },
-            { "id": "o2", "text": "Breath help" },
-            { "id": "o3", "text": "Heart push" }
+            {
+              "id": "o1",
+              "text": "CPR / Artificial respiration"
+            },
+            {
+              "id": "o2",
+              "text": "Breath help"
+            },
+            {
+              "id": "o3",
+              "text": "Heart push"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -520,11 +904,24 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Use el desfibrilador'",
           "options": [
-            { "id": "w1", "text": "defibrillator" },
-            { "id": "w2", "text": "Use" },
-            { "id": "w3", "text": "the" }
+            {
+              "id": "w1",
+              "text": "defibrillator"
+            },
+            {
+              "id": "w2",
+              "text": "Use"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            }
           ],
-          "correct_answer": ["w2", "w3", "w1"],
+          "correct_answer": [
+            "w2",
+            "w3",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -532,12 +929,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Puede oírme?'",
           "options": [
-            { "id": "w1", "text": "Can" },
-            { "id": "w2", "text": "me?" },
-            { "id": "w3", "text": "you" },
-            { "id": "w4", "text": "hear" }
+            {
+              "id": "w1",
+              "text": "Can"
+            },
+            {
+              "id": "w2",
+              "text": "me?"
+            },
+            {
+              "id": "w3",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "hear"
+            }
           ],
-          "correct_answer": ["w1", "w3", "w4", "w2"],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w4",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -591,9 +1005,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'crimen / delito'?",
           "options": [
-            { "id": "o1", "text": "Crime" },
-            { "id": "o2", "text": "Illegal" },
-            { "id": "o3", "text": "Bad act" }
+            {
+              "id": "o1",
+              "text": "Crime"
+            },
+            {
+              "id": "o2",
+              "text": "Illegal"
+            },
+            {
+              "id": "o3",
+              "text": "Bad act"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -603,9 +1026,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'robo' (de un objeto)?",
           "options": [
-            { "id": "o1", "text": "Theft / Robbery" },
-            { "id": "o2", "text": "Taking" },
-            { "id": "o3", "text": "Lost thing" }
+            {
+              "id": "o1",
+              "text": "Theft / Robbery"
+            },
+            {
+              "id": "o2",
+              "text": "Taking"
+            },
+            {
+              "id": "o3",
+              "text": "Lost thing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -615,9 +1047,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ladrón'?",
           "options": [
-            { "id": "o1", "text": "Thief / Robber" },
-            { "id": "o2", "text": "Bad man" },
-            { "id": "o3", "text": "Stealer" }
+            {
+              "id": "o1",
+              "text": "Thief / Robber"
+            },
+            {
+              "id": "o2",
+              "text": "Bad man"
+            },
+            {
+              "id": "o3",
+              "text": "Stealer"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -627,9 +1068,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'me han robado el bolso'?",
           "options": [
-            { "id": "o1", "text": "My bag has been stolen" },
-            { "id": "o2", "text": "Stolen my bag" },
-            { "id": "o3", "text": "No bag now robber" }
+            {
+              "id": "o1",
+              "text": "My bag has been stolen"
+            },
+            {
+              "id": "o2",
+              "text": "Stolen my bag"
+            },
+            {
+              "id": "o3",
+              "text": "No bag now robber"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -639,9 +1089,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sospechoso'?",
           "options": [
-            { "id": "o1", "text": "Suspect" },
-            { "id": "o2", "text": "Doubt person" },
-            { "id": "o3", "text": "Robber maybe" }
+            {
+              "id": "o1",
+              "text": "Suspect"
+            },
+            {
+              "id": "o2",
+              "text": "Doubt person"
+            },
+            {
+              "id": "o3",
+              "text": "Robber maybe"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -651,9 +1110,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'arrestar'?",
           "options": [
-            { "id": "o1", "text": "To arrest" },
-            { "id": "o2", "text": "To take to jail" },
-            { "id": "o3", "text": "To catch" }
+            {
+              "id": "o1",
+              "text": "To arrest"
+            },
+            {
+              "id": "o2",
+              "text": "To take to jail"
+            },
+            {
+              "id": "o3",
+              "text": "To catch"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -663,9 +1131,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'comisaría'?",
           "options": [
-            { "id": "o1", "text": "Police station" },
-            { "id": "o2", "text": "Law house" },
-            { "id": "o3", "text": "Officer office" }
+            {
+              "id": "o1",
+              "text": "Police station"
+            },
+            {
+              "id": "o2",
+              "text": "Law house"
+            },
+            {
+              "id": "o3",
+              "text": "Officer office"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -675,14 +1152,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Quiero denunciar un robo'",
           "options": [
-            { "id": "w1", "text": "a" },
-            { "id": "w2", "text": "report" },
-            { "id": "w3", "text": "robbery" },
-            { "id": "w4", "text": "I" },
-            { "id": "w5", "text": "to" },
-            { "id": "w6", "text": "want" }
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "report"
+            },
+            {
+              "id": "w3",
+              "text": "robbery"
+            },
+            {
+              "id": "w4",
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "want"
+            }
           ],
-          "correct_answer": ["w4", "w6", "w5", "w2", "w1", "w3"],
+          "correct_answer": [
+            "w4",
+            "w6",
+            "w5",
+            "w2",
+            "w1",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -690,13 +1192,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Vio usted al ladrón?'",
           "options": [
-            { "id": "w1", "text": "Did" },
-            { "id": "w2", "text": "the" },
-            { "id": "w3", "text": "you" },
-            { "id": "w4", "text": "see" },
-            { "id": "w5", "text": "thief?" }
+            {
+              "id": "w1",
+              "text": "Did"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "see"
+            },
+            {
+              "id": "w5",
+              "text": "thief?"
+            }
           ],
-          "correct_answer": ["w1", "w3", "w4", "w2", "w5"],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w4",
+            "w2",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -720,9 +1243,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'desaparecido' (persona)?",
           "options": [
-            { "id": "o1", "text": "Missing" },
-            { "id": "o2", "text": "Lost" },
-            { "id": "o3", "text": "Gone" }
+            {
+              "id": "o1",
+              "text": "Missing"
+            },
+            {
+              "id": "o2",
+              "text": "Lost"
+            },
+            {
+              "id": "o3",
+              "text": "Gone"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -732,9 +1264,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'asalto / ataque'?",
           "options": [
-            { "id": "o1", "text": "Assault / Attack" },
-            { "id": "o2", "text": "Fight" },
-            { "id": "o3", "text": "Hitting" }
+            {
+              "id": "o1",
+              "text": "Assault / Attack"
+            },
+            {
+              "id": "o2",
+              "text": "Fight"
+            },
+            {
+              "id": "o3",
+              "text": "Hitting"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -744,9 +1285,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'identificación'?",
           "options": [
-            { "id": "o1", "text": "ID / Identification" },
-            { "id": "o2", "text": "Name paper" },
-            { "id": "o3", "text": "Passport thing" }
+            {
+              "id": "o1",
+              "text": "ID / Identification"
+            },
+            {
+              "id": "o2",
+              "text": "Name paper"
+            },
+            {
+              "id": "o3",
+              "text": "Passport thing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -756,9 +1306,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puede describirlo/a?'?",
           "options": [
-            { "id": "o1", "text": "Can you describe him / her?" },
-            { "id": "o2", "text": "How he look like?" },
-            { "id": "o3", "text": "What color he is?" }
+            {
+              "id": "o1",
+              "text": "Can you describe him / her?"
+            },
+            {
+              "id": "o2",
+              "text": "How he look like?"
+            },
+            {
+              "id": "o3",
+              "text": "What color he is?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -768,9 +1327,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿A qué hora ocurrió?'?",
           "options": [
-            { "id": "o1", "text": "What time did it happen?" },
-            { "id": "o2", "text": "When was it?" },
-            { "id": "o3", "text": "Time of crime?" }
+            {
+              "id": "o1",
+              "text": "What time did it happen?"
+            },
+            {
+              "id": "o2",
+              "text": "When was it?"
+            },
+            {
+              "id": "o3",
+              "text": "Time of crime?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -780,9 +1348,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'seguridad'?",
           "options": [
-            { "id": "o1", "text": "Security / Safety" },
-            { "id": "o2", "text": "Protect" },
-            { "id": "o3", "text": "Guard" }
+            {
+              "id": "o1",
+              "text": "Security / Safety"
+            },
+            {
+              "id": "o2",
+              "text": "Protect"
+            },
+            {
+              "id": "o3",
+              "text": "Guard"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -792,14 +1369,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Necesito ver sus documentos'",
           "options": [
-            { "id": "w1", "text": "documents" },
-            { "id": "w2", "text": "to" },
-            { "id": "w3", "text": "see" },
-            { "id": "w4", "text": "I" },
-            { "id": "w5", "text": "your" },
-            { "id": "w6", "text": "need" }
+            {
+              "id": "w1",
+              "text": "documents"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "see"
+            },
+            {
+              "id": "w4",
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "your"
+            },
+            {
+              "id": "w6",
+              "text": "need"
+            }
           ],
-          "correct_answer": ["w4", "w6", "w2", "w3", "w5", "w1"],
+          "correct_answer": [
+            "w4",
+            "w6",
+            "w2",
+            "w3",
+            "w5",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -807,13 +1409,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'El ladrón corrió hacia allí'",
           "options": [
-            { "id": "w1", "text": "that" },
-            { "id": "w2", "text": "thief" },
-            { "id": "w3", "text": "way" },
-            { "id": "w4", "text": "ran" },
-            { "id": "w5", "text": "The" }
+            {
+              "id": "w1",
+              "text": "that"
+            },
+            {
+              "id": "w2",
+              "text": "thief"
+            },
+            {
+              "id": "w3",
+              "text": "way"
+            },
+            {
+              "id": "w4",
+              "text": "ran"
+            },
+            {
+              "id": "w5",
+              "text": "The"
+            }
           ],
-          "correct_answer": ["w5", "w2", "w4", "w1", "w3"],
+          "correct_answer": [
+            "w5",
+            "w2",
+            "w4",
+            "w1",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -861,9 +1484,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ayudante / auxiliar'?",
           "options": [
-            { "id": "o1", "text": "Helper / Aide" },
-            { "id": "o2", "text": "Second man" },
-            { "id": "o3", "text": "Support" }
+            {
+              "id": "o1",
+              "text": "Helper / Aide"
+            },
+            {
+              "id": "o2",
+              "text": "Second man"
+            },
+            {
+              "id": "o3",
+              "text": "Support"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -878,31 +1510,138 @@
           "interaction_id": "U39_I76",
           "type": "word-search",
           "prompt_es": "Busca palabras de emergencia:",
-          "words": ["HELP", "FIRE", "POLICE", "EXIT", "SAFE", "DANGER", "DOCTOR", "CRIME", "AID", "HURT"],
+          "words": [
+            "HELP",
+            "FIRE",
+            "POLICE",
+            "EXIT",
+            "SAFE",
+            "DANGER",
+            "DOCTOR",
+            "CRIME",
+            "AID",
+            "HURT"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "HELP", "clue": "Assistance" },
-            { "word": "FIRE", "clue": "Incendio" },
-            { "word": "POLICE", "clue": "Officers" },
-            { "word": "EXIT", "clue": "Way out" },
-            { "word": "SAFE", "clue": "Not in danger" },
-            { "word": "DANGER", "clue": "Risk" },
-            { "word": "DOCTOR", "clue": "Medical professional" },
-            { "word": "CRIME", "clue": "Illegal act" },
-            { "word": "AID", "clue": "First ___" },
-            { "word": "HURT", "clue": "Injured" }
+            {
+              "word": "HELP",
+              "clue": "Assistance"
+            },
+            {
+              "word": "FIRE",
+              "clue": "Incendio"
+            },
+            {
+              "word": "POLICE",
+              "clue": "Officers"
+            },
+            {
+              "word": "EXIT",
+              "clue": "Way out"
+            },
+            {
+              "word": "SAFE",
+              "clue": "Not in danger"
+            },
+            {
+              "word": "DANGER",
+              "clue": "Risk"
+            },
+            {
+              "word": "DOCTOR",
+              "clue": "Medical professional"
+            },
+            {
+              "word": "CRIME",
+              "clue": "Illegal act"
+            },
+            {
+              "word": "AID",
+              "clue": "First ___"
+            },
+            {
+              "word": "HURT",
+              "clue": "Injured"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U39_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de emergencias:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "HELP", "clue": "Cry for aid", "direction": "across", "row": 0, "col": 0 },
-            { "word": "FIRE", "clue": "Hot emergency", "direction": "down", "row": 0, "col": 0 },
-            { "word": "EXIT", "clue": "Way out", "direction": "across", "row": 2, "col": 0 },
-            { "word": "SAFE", "clue": "Opposite of danger", "direction": "down", "row": 0, "col": 3 }
+            {
+              "word": "FIREFIGHTERS",
+              "clue": "Traducción de: Fire",
+              "direction": "across",
+              "row": 10,
+              "col": 4
+            },
+            {
+              "word": "EVACUATION",
+              "clue": "Traducción de: evacuación",
+              "direction": "down",
+              "row": 3,
+              "col": 9
+            },
+            {
+              "word": "EMERGENCY",
+              "clue": "Traducción de: emergencia",
+              "direction": "across",
+              "row": 3,
+              "col": 9
+            },
+            {
+              "word": "AMBULANCE",
+              "clue": "Traducción de: Medical",
+              "direction": "across",
+              "row": 6,
+              "col": 2
+            },
+            {
+              "word": "ACCIDENT",
+              "clue": "Traducción de: accidente",
+              "direction": "down",
+              "row": 2,
+              "col": 16
+            },
+            {
+              "word": "CHOKING",
+              "clue": "Traducción de: asfixia",
+              "direction": "down",
+              "row": 9,
+              "col": 11
+            },
+            {
+              "word": "SUSPECT",
+              "clue": "Traducción de: sospechoso",
+              "direction": "down",
+              "row": 6,
+              "col": 13
+            },
+            {
+              "word": "BLANKET",
+              "clue": "Traducción de: manta / cobija",
+              "direction": "across",
+              "row": 14,
+              "col": 8
+            },
+            {
+              "word": "SHELTER",
+              "clue": "Traducción de: refugio",
+              "direction": "across",
+              "row": 16,
+              "col": 13
+            },
+            {
+              "word": "BURN",
+              "clue": "Traducción de: quemadura",
+              "direction": "down",
+              "row": 1,
+              "col": 12
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -935,9 +1674,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'evacuación'?",
           "options": [
-            { "id": "o1", "text": "Evacuation" },
-            { "id": "o2", "text": "Leaving" },
-            { "id": "o3", "text": "Clearance" }
+            {
+              "id": "o1",
+              "text": "Evacuation"
+            },
+            {
+              "id": "o2",
+              "text": "Leaving"
+            },
+            {
+              "id": "o3",
+              "text": "Clearance"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -947,9 +1695,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'refugio'?",
           "options": [
-            { "id": "o1", "text": "Shelter" },
-            { "id": "o2", "text": "House" },
-            { "id": "o3", "text": "Safe box" }
+            {
+              "id": "o1",
+              "text": "Shelter"
+            },
+            {
+              "id": "o2",
+              "text": "House"
+            },
+            {
+              "id": "o3",
+              "text": "Safe box"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -959,9 +1716,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'suministros' (comida, agua)?",
           "options": [
-            { "id": "o1", "text": "Supplies" },
-            { "id": "o2", "text": "Things" },
-            { "id": "o3", "text": "Store" }
+            {
+              "id": "o1",
+              "text": "Supplies"
+            },
+            {
+              "id": "o2",
+              "text": "Things"
+            },
+            {
+              "id": "o3",
+              "text": "Store"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -971,9 +1737,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'desastre natural'?",
           "options": [
-            { "id": "o1", "text": "Natural disaster" },
-            { "id": "o2", "text": "Nature problem" },
-            { "id": "o3", "text": "Earth crash" }
+            {
+              "id": "o1",
+              "text": "Natural disaster"
+            },
+            {
+              "id": "o2",
+              "text": "Nature problem"
+            },
+            {
+              "id": "o3",
+              "text": "Earth crash"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -983,9 +1758,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'advertencia / aviso'?",
           "options": [
-            { "id": "o1", "text": "Warning" },
-            { "id": "o2", "text": "Notice" },
-            { "id": "o3", "text": "Tell" }
+            {
+              "id": "o1",
+              "text": "Warning"
+            },
+            {
+              "id": "o2",
+              "text": "Notice"
+            },
+            {
+              "id": "o3",
+              "text": "Tell"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -995,9 +1779,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'linterna'?",
           "options": [
-            { "id": "o1", "text": "Flashlight / Torch" },
-            { "id": "o2", "text": "Light stick" },
-            { "id": "o3", "text": "Lamp" }
+            {
+              "id": "o1",
+              "text": "Flashlight / Torch"
+            },
+            {
+              "id": "o2",
+              "text": "Light stick"
+            },
+            {
+              "id": "o3",
+              "text": "Lamp"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1007,9 +1800,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'radio de baterías'?",
           "options": [
-            { "id": "o1", "text": "Battery radio" },
-            { "id": "o2", "text": "Power music" },
-            { "id": "o3", "text": "Small talk box" }
+            {
+              "id": "o1",
+              "text": "Battery radio"
+            },
+            {
+              "id": "o2",
+              "text": "Power music"
+            },
+            {
+              "id": "o3",
+              "text": "Small talk box"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1019,9 +1821,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'manta / cobija'?",
           "options": [
-            { "id": "o1", "text": "Blanket" },
-            { "id": "o2", "text": "Cover" },
-            { "id": "o3", "text": "Sheet" }
+            {
+              "id": "o1",
+              "text": "Blanket"
+            },
+            {
+              "id": "o2",
+              "text": "Cover"
+            },
+            {
+              "id": "o3",
+              "text": "Sheet"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1031,9 +1842,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'silbato'?",
           "options": [
-            { "id": "o1", "text": "Whistle" },
-            { "id": "o2", "text": "Sound thing" },
-            { "id": "o3", "text": "Blower" }
+            {
+              "id": "o1",
+              "text": "Whistle"
+            },
+            {
+              "id": "o2",
+              "text": "Sound thing"
+            },
+            {
+              "id": "o3",
+              "text": "Blower"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1043,9 +1863,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡No se mueva!'?",
           "options": [
-            { "id": "o1", "text": "Don't move!" },
-            { "id": "o2", "text": "Stay stop!" },
-            { "id": "o3", "text": "No go!" }
+            {
+              "id": "o1",
+              "text": "Don't move!"
+            },
+            {
+              "id": "o2",
+              "text": "Stay stop!"
+            },
+            {
+              "id": "o3",
+              "text": "No go!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1055,9 +1884,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Está usted bien?'?",
           "options": [
-            { "id": "o1", "text": "Are you okay?" },
-            { "id": "o2", "text": "You good?" },
-            { "id": "o3", "text": "How you?" }
+            {
+              "id": "o1",
+              "text": "Are you okay?"
+            },
+            {
+              "id": "o2",
+              "text": "You good?"
+            },
+            {
+              "id": "o3",
+              "text": "How you?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1067,9 +1905,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'espere ayuda'?",
           "options": [
-            { "id": "o1", "text": "Wait for help" },
-            { "id": "o2", "text": "Stay aid" },
-            { "id": "o3", "text": "Look for help" }
+            {
+              "id": "o1",
+              "text": "Wait for help"
+            },
+            {
+              "id": "o2",
+              "text": "Stay aid"
+            },
+            {
+              "id": "o3",
+              "text": "Look for help"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1079,9 +1926,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Deprisa!'?",
           "options": [
-            { "id": "o1", "text": "Hurry up! / Quick!" },
-            { "id": "o2", "text": "Fast time!" },
-            { "id": "o3", "text": "Run now!" }
+            {
+              "id": "o1",
+              "text": "Hurry up! / Quick!"
+            },
+            {
+              "id": "o2",
+              "text": "Fast time!"
+            },
+            {
+              "id": "o3",
+              "text": "Run now!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1091,9 +1947,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'llamar al 112 / 911'?",
           "options": [
-            { "id": "o1", "text": "Call emergency services / Call 911" },
-            { "id": "o2", "text": "Phone help number" },
-            { "id": "o3", "text": "Ring the bell" }
+            {
+              "id": "o1",
+              "text": "Call emergency services / Call 911"
+            },
+            {
+              "id": "o2",
+              "text": "Phone help number"
+            },
+            {
+              "id": "o3",
+              "text": "Ring the bell"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1103,9 +1968,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Hay heridos?'?",
           "options": [
-            { "id": "o1", "text": "Are there any injuries?" },
-            { "id": "o2", "text": "Any hurt people?" },
-            { "id": "o3", "text": "Someone bad?" }
+            {
+              "id": "o1",
+              "text": "Are there any injuries?"
+            },
+            {
+              "id": "o2",
+              "text": "Any hurt people?"
+            },
+            {
+              "id": "o3",
+              "text": "Someone bad?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1115,9 +1989,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mantenga las manos arriba'?",
           "options": [
-            { "id": "o1", "text": "Keep your hands up" },
-            { "id": "o2", "text": "Hands in air" },
-            { "id": "o3", "text": "High hands" }
+            {
+              "id": "o1",
+              "text": "Keep your hands up"
+            },
+            {
+              "id": "o2",
+              "text": "Hands in air"
+            },
+            {
+              "id": "o3",
+              "text": "High hands"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1127,9 +2010,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'testigo presencial'?",
           "options": [
-            { "id": "o1", "text": "Eyewitness" },
-            { "id": "o2", "text": "Face see" },
-            { "id": "o3", "text": "Close viewer" }
+            {
+              "id": "o1",
+              "text": "Eyewitness"
+            },
+            {
+              "id": "o2",
+              "text": "Face see"
+            },
+            {
+              "id": "o3",
+              "text": "Close viewer"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1139,9 +2031,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sospechoso armado'?",
           "options": [
-            { "id": "o1", "text": "Armed suspect" },
-            { "id": "o2", "text": "Gun man" },
-            { "id": "o3", "text": "Danger suspect" }
+            {
+              "id": "o1",
+              "text": "Armed suspect"
+            },
+            {
+              "id": "o2",
+              "text": "Gun man"
+            },
+            {
+              "id": "o3",
+              "text": "Danger suspect"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1151,9 +2052,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Sígame!'?",
           "options": [
-            { "id": "o1", "text": "Follow me!" },
-            { "id": "o2", "text": "Come after!" },
-            { "id": "o3", "text": "Go with me!" }
+            {
+              "id": "o1",
+              "text": "Follow me!"
+            },
+            {
+              "id": "o2",
+              "text": "Come after!"
+            },
+            {
+              "id": "o3",
+              "text": "Go with me!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1163,9 +2073,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'todo está bajo control'?",
           "options": [
-            { "id": "o1", "text": "Everything is under control" },
-            { "id": "o2", "text": "All good now" },
-            { "id": "o3", "text": "Control is here" }
+            {
+              "id": "o1",
+              "text": "Everything is under control"
+            },
+            {
+              "id": "o2",
+              "text": "All good now"
+            },
+            {
+              "id": "o3",
+              "text": "Control is here"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"

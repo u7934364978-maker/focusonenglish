@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'padre'?",
           "options": [
-            { "id": "o1", "text": "Father" },
-            { "id": "o2", "text": "Mother" },
-            { "id": "o3", "text": "Brother" }
+            {
+              "id": "o1",
+              "text": "Father"
+            },
+            {
+              "id": "o2",
+              "text": "Mother"
+            },
+            {
+              "id": "o3",
+              "text": "Brother"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'madre'?",
           "options": [
-            { "id": "o1", "text": "Mother" },
-            { "id": "o2", "text": "Father" },
-            { "id": "o3", "text": "Sister" }
+            {
+              "id": "o1",
+              "text": "Mother"
+            },
+            {
+              "id": "o2",
+              "text": "Father"
+            },
+            {
+              "id": "o3",
+              "text": "Sister"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hermano'?",
           "options": [
-            { "id": "o1", "text": "Brother" },
-            { "id": "o2", "text": "Sister" },
-            { "id": "o3", "text": "Cousin" }
+            {
+              "id": "o1",
+              "text": "Brother"
+            },
+            {
+              "id": "o2",
+              "text": "Sister"
+            },
+            {
+              "id": "o3",
+              "text": "Cousin"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hermana'?",
           "options": [
-            { "id": "o1", "text": "Sister" },
-            { "id": "o2", "text": "Brother" },
-            { "id": "o3", "text": "Aunt" }
+            {
+              "id": "o1",
+              "text": "Sister"
+            },
+            {
+              "id": "o2",
+              "text": "Brother"
+            },
+            {
+              "id": "o3",
+              "text": "Aunt"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hijo'?",
           "options": [
-            { "id": "o1", "text": "Son" },
-            { "id": "o2", "text": "Daughter" },
-            { "id": "o3", "text": "Sun" }
+            {
+              "id": "o1",
+              "text": "Son"
+            },
+            {
+              "id": "o2",
+              "text": "Daughter"
+            },
+            {
+              "id": "o3",
+              "text": "Sun"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hija'?",
           "options": [
-            { "id": "o1", "text": "Daughter" },
-            { "id": "o2", "text": "Son" },
-            { "id": "o3", "text": "Child" }
+            {
+              "id": "o1",
+              "text": "Daughter"
+            },
+            {
+              "id": "o2",
+              "text": "Son"
+            },
+            {
+              "id": "o3",
+              "text": "Child"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'abuelo'?",
           "options": [
-            { "id": "o1", "text": "Grandfather" },
-            { "id": "o2", "text": "Grandmother" },
-            { "id": "o3", "text": "Uncle" }
+            {
+              "id": "o1",
+              "text": "Grandfather"
+            },
+            {
+              "id": "o2",
+              "text": "Grandmother"
+            },
+            {
+              "id": "o3",
+              "text": "Uncle"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'abuela'?",
           "options": [
-            { "id": "o1", "text": "Grandmother" },
-            { "id": "o2", "text": "Grandfather" },
-            { "id": "o3", "text": "Aunt" }
+            {
+              "id": "o1",
+              "text": "Grandmother"
+            },
+            {
+              "id": "o2",
+              "text": "Grandfather"
+            },
+            {
+              "id": "o3",
+              "text": "Aunt"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tío'?",
           "options": [
-            { "id": "o1", "text": "Uncle" },
-            { "id": "o2", "text": "Aunt" },
-            { "id": "o3", "text": "Nephew" }
+            {
+              "id": "o1",
+              "text": "Uncle"
+            },
+            {
+              "id": "o2",
+              "text": "Aunt"
+            },
+            {
+              "id": "o3",
+              "text": "Nephew"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tía'?",
           "options": [
-            { "id": "o1", "text": "Aunt" },
-            { "id": "o2", "text": "Uncle" },
-            { "id": "o3", "text": "Niece" }
+            {
+              "id": "o1",
+              "text": "Aunt"
+            },
+            {
+              "id": "o2",
+              "text": "Uncle"
+            },
+            {
+              "id": "o3",
+              "text": "Niece"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,9 +227,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'primo/a'?",
           "options": [
-            { "id": "o1", "text": "Cousin" },
-            { "id": "o2", "text": "Friend" },
-            { "id": "o3", "text": "Relative" }
+            {
+              "id": "o1",
+              "text": "Cousin"
+            },
+            {
+              "id": "o2",
+              "text": "Friend"
+            },
+            {
+              "id": "o3",
+              "text": "Relative"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -149,9 +248,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sobrino'?",
           "options": [
-            { "id": "o1", "text": "Nephew" },
-            { "id": "o2", "text": "Niece" },
-            { "id": "o3", "text": "Cousin" }
+            {
+              "id": "o1",
+              "text": "Nephew"
+            },
+            {
+              "id": "o2",
+              "text": "Niece"
+            },
+            {
+              "id": "o3",
+              "text": "Cousin"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -161,9 +269,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sobrina'?",
           "options": [
-            { "id": "o1", "text": "Niece" },
-            { "id": "o2", "text": "Nephew" },
-            { "id": "o3", "text": "Child" }
+            {
+              "id": "o1",
+              "text": "Niece"
+            },
+            {
+              "id": "o2",
+              "text": "Nephew"
+            },
+            {
+              "id": "o3",
+              "text": "Child"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -173,9 +290,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'marido'?",
           "options": [
-            { "id": "o1", "text": "Husband" },
-            { "id": "o2", "text": "Wife" },
-            { "id": "o3", "text": "Partner" }
+            {
+              "id": "o1",
+              "text": "Husband"
+            },
+            {
+              "id": "o2",
+              "text": "Wife"
+            },
+            {
+              "id": "o3",
+              "text": "Partner"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -185,9 +311,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mujer/esposa'?",
           "options": [
-            { "id": "o1", "text": "Wife" },
-            { "id": "o2", "text": "Husband" },
-            { "id": "o3", "text": "Woman" }
+            {
+              "id": "o1",
+              "text": "Wife"
+            },
+            {
+              "id": "o2",
+              "text": "Husband"
+            },
+            {
+              "id": "o3",
+              "text": "Woman"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -197,9 +332,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'padres' (madre y padre)?",
           "options": [
-            { "id": "o1", "text": "Parents" },
-            { "id": "o2", "text": "Fathers" },
-            { "id": "o3", "text": "Relatives" }
+            {
+              "id": "o1",
+              "text": "Parents"
+            },
+            {
+              "id": "o2",
+              "text": "Fathers"
+            },
+            {
+              "id": "o3",
+              "text": "Relatives"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -209,9 +353,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hijos' (en general)?",
           "options": [
-            { "id": "o1", "text": "Children" },
-            { "id": "o2", "text": "Sons" },
-            { "id": "o3", "text": "Kids" }
+            {
+              "id": "o1",
+              "text": "Children"
+            },
+            {
+              "id": "o2",
+              "text": "Sons"
+            },
+            {
+              "id": "o3",
+              "text": "Kids"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -221,9 +374,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'abuelos'?",
           "options": [
-            { "id": "o1", "text": "Grandparents" },
-            { "id": "o2", "text": "Grandfathers" },
-            { "id": "o3", "text": "Old people" }
+            {
+              "id": "o1",
+              "text": "Grandparents"
+            },
+            {
+              "id": "o2",
+              "text": "Grandfathers"
+            },
+            {
+              "id": "o3",
+              "text": "Old people"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -233,9 +395,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nieto'?",
           "options": [
-            { "id": "o1", "text": "Grandson" },
-            { "id": "o2", "text": "Granddaughter" },
-            { "id": "o3", "text": "Grandchild" }
+            {
+              "id": "o1",
+              "text": "Grandson"
+            },
+            {
+              "id": "o2",
+              "text": "Granddaughter"
+            },
+            {
+              "id": "o3",
+              "text": "Grandchild"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -245,9 +416,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nieta'?",
           "options": [
-            { "id": "o1", "text": "Granddaughter" },
-            { "id": "o2", "text": "Grandson" },
-            { "id": "o3", "text": "Grandchild" }
+            {
+              "id": "o1",
+              "text": "Granddaughter"
+            },
+            {
+              "id": "o2",
+              "text": "Grandson"
+            },
+            {
+              "id": "o3",
+              "text": "Grandchild"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -257,11 +437,27 @@
           "type": "matching",
           "prompt_es": "Une los masculinos con sus femeninos:",
           "pairs": [
-            { "id": "p1", "left": "Father", "right": "Mother" },
-            { "id": "p2", "left": "Brother", "right": "Sister" },
-            { "id": "p3", "left": "Uncle", "right": "Aunt" }
+            {
+              "id": "p1",
+              "left": "Father",
+              "right": "Mother"
+            },
+            {
+              "id": "p2",
+              "left": "Brother",
+              "right": "Sister"
+            },
+            {
+              "id": "p3",
+              "left": "Uncle",
+              "right": "Aunt"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -269,11 +465,27 @@
           "type": "matching",
           "prompt_es": "Une los masculinos con sus femeninos:",
           "pairs": [
-            { "id": "p1", "left": "Son", "right": "Daughter" },
-            { "id": "p2", "left": "Husband", "right": "Wife" },
-            { "id": "p3", "left": "Nephew", "right": "Niece" }
+            {
+              "id": "p1",
+              "left": "Son",
+              "right": "Daughter"
+            },
+            {
+              "id": "p2",
+              "left": "Husband",
+              "right": "Wife"
+            },
+            {
+              "id": "p3",
+              "left": "Nephew",
+              "right": "Niece"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -321,11 +533,31 @@
           "type": "flashcard",
           "prompt_es": "Miembros de la Familia",
           "flashcards": [
-            { "front": "Father / Dad", "back": "Padre / Papá", "pronunciation": "/ˈfɑːðər/ - /dæd/" },
-            { "front": "Mother / Mum", "back": "Madre / Mamá", "pronunciation": "/ˈmʌðər/ - /mʌm/" },
-            { "front": "Grandparents", "back": "Abuelos", "pronunciation": "/ˈɡrænpeərənts/" },
-            { "front": "Children", "back": "Hijos/Niños", "pronunciation": "/ˈtʃɪldrən/" },
-            { "front": "Cousin", "back": "Primo/a", "pronunciation": "/ˈkʌzn/" }
+            {
+              "front": "Father / Dad",
+              "back": "Padre / Papá",
+              "pronunciation": "/ˈfɑːðər/ - /dæd/"
+            },
+            {
+              "front": "Mother / Mum",
+              "back": "Madre / Mamá",
+              "pronunciation": "/ˈmʌðər/ - /mʌm/"
+            },
+            {
+              "front": "Grandparents",
+              "back": "Abuelos",
+              "pronunciation": "/ˈɡrænpeərənts/"
+            },
+            {
+              "front": "Children",
+              "back": "Hijos/Niños",
+              "pronunciation": "/ˈtʃɪldrən/"
+            },
+            {
+              "front": "Cousin",
+              "back": "Primo/a",
+              "pronunciation": "/ˈkʌzn/"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -334,9 +566,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Relative'?",
           "options": [
-            { "id": "o1", "text": "Pariente / Familiar" },
-            { "id": "o2", "text": "Relativo" },
-            { "id": "o3", "text": "Amigo" }
+            {
+              "id": "o1",
+              "text": "Pariente / Familiar"
+            },
+            {
+              "id": "o2",
+              "text": "Relativo"
+            },
+            {
+              "id": "o3",
+              "text": "Amigo"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -346,9 +587,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hijo único'?",
           "options": [
-            { "id": "o1", "text": "An only child" },
-            { "id": "o2", "text": "A unique son" },
-            { "id": "o3", "text": "One child" }
+            {
+              "id": "o1",
+              "text": "An only child"
+            },
+            {
+              "id": "o2",
+              "text": "A unique son"
+            },
+            {
+              "id": "o3",
+              "text": "One child"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -364,9 +614,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'El coche de Mary'?",
           "options": [
-            { "id": "o1", "text": "Mary's car" },
-            { "id": "o2", "text": "The car of Mary" },
-            { "id": "o3", "text": "Mary car" }
+            {
+              "id": "o1",
+              "text": "Mary's car"
+            },
+            {
+              "id": "o2",
+              "text": "The car of Mary"
+            },
+            {
+              "id": "o3",
+              "text": "Mary car"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -376,9 +635,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'La casa de mis padres'?",
           "options": [
-            { "id": "o1", "text": "My parents' house" },
-            { "id": "o2", "text": "My parent's house" },
-            { "id": "o3", "text": "The house of my parents" }
+            {
+              "id": "o1",
+              "text": "My parents' house"
+            },
+            {
+              "id": "o2",
+              "text": "My parent's house"
+            },
+            {
+              "id": "o3",
+              "text": "The house of my parents"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -388,9 +656,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'El perro de Tom'?",
           "options": [
-            { "id": "o1", "text": "Tom's dog" },
-            { "id": "o2", "text": "Toms dog" },
-            { "id": "o3", "text": "The dog of Tom" }
+            {
+              "id": "o1",
+              "text": "Tom's dog"
+            },
+            {
+              "id": "o2",
+              "text": "Toms dog"
+            },
+            {
+              "id": "o3",
+              "text": "The dog of Tom"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -424,12 +701,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "This" },
-            { "id": "w3", "text": "John's" },
-            { "id": "w4", "text": "phone" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "John's"
+            },
+            {
+              "id": "w4",
+              "text": "phone"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -437,12 +731,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "wife" },
-            { "id": "w2", "text": "Tom's" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "Spanish" }
+            {
+              "id": "w1",
+              "text": "wife"
+            },
+            {
+              "id": "w2",
+              "text": "Tom's"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "Spanish"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -450,9 +761,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es correcto si el nombre termina en S (p.ej. James)?",
           "options": [
-            { "id": "o1", "text": "James's car" },
-            { "id": "o2", "text": "James' car" },
-            { "id": "o3", "text": "Both are acceptable" }
+            {
+              "id": "o1",
+              "text": "James's car"
+            },
+            {
+              "id": "o2",
+              "text": "James' car"
+            },
+            {
+              "id": "o3",
+              "text": "Both are acceptable"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -462,9 +782,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'El bolso de la mujer'?",
           "options": [
-            { "id": "o1", "text": "The woman's bag" },
-            { "id": "o2", "text": "The women's bag" },
-            { "id": "o3", "text": "The womans bag" }
+            {
+              "id": "o1",
+              "text": "The woman's bag"
+            },
+            {
+              "id": "o2",
+              "text": "The women's bag"
+            },
+            {
+              "id": "o3",
+              "text": "The womans bag"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -474,9 +803,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿De quién es esto?'?",
           "options": [
-            { "id": "o1", "text": "Whose is this?" },
-            { "id": "o2", "text": "Who is this?" },
-            { "id": "o3", "text": "Who's is this?" }
+            {
+              "id": "o1",
+              "text": "Whose is this?"
+            },
+            {
+              "id": "o2",
+              "text": "Who is this?"
+            },
+            {
+              "id": "o3",
+              "text": "Who's is this?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -486,9 +824,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes a 'Whose car is it?'?",
           "options": [
-            { "id": "o1", "text": "It's my sister's." },
-            { "id": "o2", "text": "It's of my sister." },
-            { "id": "o3", "text": "It's my sister." }
+            {
+              "id": "o1",
+              "text": "It's my sister's."
+            },
+            {
+              "id": "o2",
+              "text": "It's of my sister."
+            },
+            {
+              "id": "o3",
+              "text": "It's my sister."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -521,9 +868,18 @@
           "type": "multiple_choice",
           "prompt_es": "En 'John's tall', ¿qué significa 's?",
           "options": [
-            { "id": "o1", "text": "is" },
-            { "id": "o2", "text": "pertenencia" },
-            { "id": "o3", "text": "plural" }
+            {
+              "id": "o1",
+              "text": "is"
+            },
+            {
+              "id": "o2",
+              "text": "pertenencia"
+            },
+            {
+              "id": "o3",
+              "text": "plural"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -533,9 +889,18 @@
           "type": "multiple_choice",
           "prompt_es": "En 'John's car', ¿qué significa 's?",
           "options": [
-            { "id": "o1", "text": "pertenencia" },
-            { "id": "o2", "text": "is" },
-            { "id": "o3", "text": "plural" }
+            {
+              "id": "o1",
+              "text": "pertenencia"
+            },
+            {
+              "id": "o2",
+              "text": "is"
+            },
+            {
+              "id": "o3",
+              "text": "plural"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -545,13 +910,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta:",
           "options": [
-            { "id": "w1", "text": "this" },
-            { "id": "w2", "text": "Whose" },
-            { "id": "w3", "text": "bag" },
-            { "id": "w4", "text": "is" },
-            { "id": "w5", "text": "?" }
+            {
+              "id": "w1",
+              "text": "this"
+            },
+            {
+              "id": "w2",
+              "text": "Whose"
+            },
+            {
+              "id": "w3",
+              "text": "bag"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "?"
+            }
           ],
-          "correct_answer": ["w2", "w3", "w4", "w1", "w5"],
+          "correct_answer": [
+            "w2",
+            "w3",
+            "w4",
+            "w1",
+            "w5"
+          ],
           "mastery_tag": "communication"
         },
         {
@@ -559,9 +945,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Los juguetes de los niños'?",
           "options": [
-            { "id": "o1", "text": "The children's toys" },
-            { "id": "o2", "text": "The childrens' toys" },
-            { "id": "o3", "text": "The children toys" }
+            {
+              "id": "o1",
+              "text": "The children's toys"
+            },
+            {
+              "id": "o2",
+              "text": "The childrens' toys"
+            },
+            {
+              "id": "o3",
+              "text": "The children toys"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -571,9 +966,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'El despacho del jefe'?",
           "options": [
-            { "id": "o1", "text": "The boss's office" },
-            { "id": "o2", "text": "The boss office" },
-            { "id": "o3", "text": "The office boss" }
+            {
+              "id": "o1",
+              "text": "The boss's office"
+            },
+            {
+              "id": "o2",
+              "text": "The boss office"
+            },
+            {
+              "id": "o3",
+              "text": "The office boss"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -599,9 +1003,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es correcto?",
           "options": [
-            { "id": "o1", "text": "David and Amy's house" },
-            { "id": "o2", "text": "David's and Amy's house" },
-            { "id": "o3", "text": "David and Amy house" }
+            {
+              "id": "o1",
+              "text": "David and Amy's house"
+            },
+            {
+              "id": "o2",
+              "text": "David's and Amy's house"
+            },
+            {
+              "id": "o3",
+              "text": "David and Amy house"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -611,9 +1024,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'La cola del gato'?",
           "options": [
-            { "id": "o1", "text": "The cat's tail" },
-            { "id": "o2", "text": "The cat tail" },
-            { "id": "o3", "text": "The tail of the cat" }
+            {
+              "id": "o1",
+              "text": "The cat's tail"
+            },
+            {
+              "id": "o2",
+              "text": "The cat tail"
+            },
+            {
+              "id": "o3",
+              "text": "The tail of the cat"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -639,9 +1061,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'It's my mother-in-law's car'?",
           "options": [
-            { "id": "o1", "text": "Es el coche de mi suegra" },
-            { "id": "o2", "text": "Es el coche de mi madre" },
-            { "id": "o3", "text": "Es el coche de mi tía" }
+            {
+              "id": "o1",
+              "text": "Es el coche de mi suegra"
+            },
+            {
+              "id": "o2",
+              "text": "Es el coche de mi madre"
+            },
+            {
+              "id": "o3",
+              "text": "Es el coche de mi tía"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -651,12 +1082,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "are" },
-            { "id": "w2", "text": "These" },
-            { "id": "w3", "text": "Lucas'" },
-            { "id": "w4", "text": "keys" }
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w2",
+              "text": "These"
+            },
+            {
+              "id": "w3",
+              "text": "Lucas'"
+            },
+            {
+              "id": "w4",
+              "text": "keys"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -664,9 +1112,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'El cumpleaños de mi hermano'?",
           "options": [
-            { "id": "o1", "text": "My brother's birthday" },
-            { "id": "o2", "text": "The birthday of my brother" },
-            { "id": "o3", "text": "My brother birthday" }
+            {
+              "id": "o1",
+              "text": "My brother's birthday"
+            },
+            {
+              "id": "o2",
+              "text": "The birthday of my brother"
+            },
+            {
+              "id": "o3",
+              "text": "My brother birthday"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -676,9 +1133,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'El nombre de mi perro'?",
           "options": [
-            { "id": "o1", "text": "My dog's name" },
-            { "id": "o2", "text": "My dog name" },
-            { "id": "o3", "text": "The name of my dog" }
+            {
+              "id": "o1",
+              "text": "My dog's name"
+            },
+            {
+              "id": "o2",
+              "text": "My dog name"
+            },
+            {
+              "id": "o3",
+              "text": "The name of my dog"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -694,9 +1160,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'soltero/a'?",
           "options": [
-            { "id": "o1", "text": "Single" },
-            { "id": "o2", "text": "Alone" },
-            { "id": "o3", "text": "Lonely" }
+            {
+              "id": "o1",
+              "text": "Single"
+            },
+            {
+              "id": "o2",
+              "text": "Alone"
+            },
+            {
+              "id": "o3",
+              "text": "Lonely"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -706,9 +1181,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'casado/a'?",
           "options": [
-            { "id": "o1", "text": "Married" },
-            { "id": "o2", "text": "Couple" },
-            { "id": "o3", "text": "Wedding" }
+            {
+              "id": "o1",
+              "text": "Married"
+            },
+            {
+              "id": "o2",
+              "text": "Couple"
+            },
+            {
+              "id": "o3",
+              "text": "Wedding"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -718,9 +1202,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'divorciado/a'?",
           "options": [
-            { "id": "o1", "text": "Divorced" },
-            { "id": "o2", "text": "Separated" },
-            { "id": "o3", "text": "Single" }
+            {
+              "id": "o1",
+              "text": "Divorced"
+            },
+            {
+              "id": "o2",
+              "text": "Separated"
+            },
+            {
+              "id": "o3",
+              "text": "Single"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -730,9 +1223,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'viudo/a'?",
           "options": [
-            { "id": "o1", "text": "Widow (f) / Widower (m)" },
-            { "id": "o2", "text": "Dead" },
-            { "id": "o3", "text": "Alone" }
+            {
+              "id": "o1",
+              "text": "Widow (f) / Widower (m)"
+            },
+            {
+              "id": "o2",
+              "text": "Dead"
+            },
+            {
+              "id": "o3",
+              "text": "Alone"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -742,9 +1244,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'novio' (en una relación)?",
           "options": [
-            { "id": "o1", "text": "Boyfriend" },
-            { "id": "o2", "text": "Groom" },
-            { "id": "o3", "text": "Fiancé" }
+            {
+              "id": "o1",
+              "text": "Boyfriend"
+            },
+            {
+              "id": "o2",
+              "text": "Groom"
+            },
+            {
+              "id": "o3",
+              "text": "Fiancé"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -754,9 +1265,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'novia' (en una relación)?",
           "options": [
-            { "id": "o1", "text": "Girlfriend" },
-            { "id": "o2", "text": "Bride" },
-            { "id": "o3", "text": "Fiancée" }
+            {
+              "id": "o1",
+              "text": "Girlfriend"
+            },
+            {
+              "id": "o2",
+              "text": "Bride"
+            },
+            {
+              "id": "o3",
+              "text": "Fiancée"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -766,9 +1286,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'prometido/a'?",
           "options": [
-            { "id": "o1", "text": "Fiancé / Fiancée" },
-            { "id": "o2", "text": "Promised" },
-            { "id": "o3", "text": "Future" }
+            {
+              "id": "o1",
+              "text": "Fiancé / Fiancée"
+            },
+            {
+              "id": "o2",
+              "text": "Promised"
+            },
+            {
+              "id": "o3",
+              "text": "Future"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -778,9 +1307,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Estás casado?'?",
           "options": [
-            { "id": "o1", "text": "Are you married?" },
-            { "id": "o2", "text": "You are married?" },
-            { "id": "o3", "text": "Do you marry?" }
+            {
+              "id": "o1",
+              "text": "Are you married?"
+            },
+            {
+              "id": "o2",
+              "text": "You are married?"
+            },
+            {
+              "id": "o3",
+              "text": "Do you marry?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -790,9 +1328,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes 'No, estoy soltero'?",
           "options": [
-            { "id": "o1", "text": "No, I am single" },
-            { "id": "o2", "text": "No, I single" },
-            { "id": "o3", "text": "No, I am alone" }
+            {
+              "id": "o1",
+              "text": "No, I am single"
+            },
+            {
+              "id": "o2",
+              "text": "No, I single"
+            },
+            {
+              "id": "o3",
+              "text": "No, I am alone"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -802,9 +1349,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pareja'?",
           "options": [
-            { "id": "o1", "text": "Partner / Couple" },
-            { "id": "o2", "text": "Pair" },
-            { "id": "o3", "text": "Two" }
+            {
+              "id": "o1",
+              "text": "Partner / Couple"
+            },
+            {
+              "id": "o2",
+              "text": "Pair"
+            },
+            {
+              "id": "o3",
+              "text": "Two"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -814,9 +1370,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'mejor amigo'?",
           "options": [
-            { "id": "o1", "text": "Best friend" },
-            { "id": "o2", "text": "Good friend" },
-            { "id": "o3", "text": "Big friend" }
+            {
+              "id": "o1",
+              "text": "Best friend"
+            },
+            {
+              "id": "o2",
+              "text": "Good friend"
+            },
+            {
+              "id": "o3",
+              "text": "Big friend"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -826,9 +1391,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vecino/a'?",
           "options": [
-            { "id": "o1", "text": "Neighbor" },
-            { "id": "o2", "text": "Next-door" },
-            { "id": "o3", "text": "Citizen" }
+            {
+              "id": "o1",
+              "text": "Neighbor"
+            },
+            {
+              "id": "o2",
+              "text": "Next-door"
+            },
+            {
+              "id": "o3",
+              "text": "Citizen"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -838,9 +1412,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'compañero de clase'?",
           "options": [
-            { "id": "o1", "text": "Classmate" },
-            { "id": "o2", "text": "School friend" },
-            { "id": "o3", "text": "Colleague" }
+            {
+              "id": "o1",
+              "text": "Classmate"
+            },
+            {
+              "id": "o2",
+              "text": "School friend"
+            },
+            {
+              "id": "o3",
+              "text": "Colleague"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -850,9 +1433,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'compañero de trabajo'?",
           "options": [
-            { "id": "o1", "text": "Colleague / Co-worker" },
-            { "id": "o2", "text": "Workmate" },
-            { "id": "o3", "text": "Both are okay" }
+            {
+              "id": "o1",
+              "text": "Colleague / Co-worker"
+            },
+            {
+              "id": "o2",
+              "text": "Workmate"
+            },
+            {
+              "id": "o3",
+              "text": "Both are okay"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -862,9 +1454,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'suegro'?",
           "options": [
-            { "id": "o1", "text": "Father-in-law" },
-            { "id": "o2", "text": "Step-father" },
-            { "id": "o3", "text": "Dad-in-law" }
+            {
+              "id": "o1",
+              "text": "Father-in-law"
+            },
+            {
+              "id": "o2",
+              "text": "Step-father"
+            },
+            {
+              "id": "o3",
+              "text": "Dad-in-law"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -874,9 +1475,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nuera'?",
           "options": [
-            { "id": "o1", "text": "Daughter-in-law" },
-            { "id": "o2", "text": "Step-daughter" },
-            { "id": "o3", "text": "Girl-in-law" }
+            {
+              "id": "o1",
+              "text": "Daughter-in-law"
+            },
+            {
+              "id": "o2",
+              "text": "Step-daughter"
+            },
+            {
+              "id": "o3",
+              "text": "Girl-in-law"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -886,9 +1496,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'padrastro'?",
           "options": [
-            { "id": "o1", "text": "Stepfather" },
-            { "id": "o2", "text": "Father-in-law" },
-            { "id": "o3", "text": "New father" }
+            {
+              "id": "o1",
+              "text": "Stepfather"
+            },
+            {
+              "id": "o2",
+              "text": "Father-in-law"
+            },
+            {
+              "id": "o3",
+              "text": "New father"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -898,9 +1517,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hermanastro'?",
           "options": [
-            { "id": "o1", "text": "Stepbrother" },
-            { "id": "o2", "text": "Half-brother" },
-            { "id": "o3", "text": "Depends on the relation" }
+            {
+              "id": "o1",
+              "text": "Stepbrother"
+            },
+            {
+              "id": "o2",
+              "text": "Half-brother"
+            },
+            {
+              "id": "o3",
+              "text": "Depends on the relation"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -910,9 +1538,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Extended family'?",
           "options": [
-            { "id": "o1", "text": "Familia extendida (tíos, primos, etc.)" },
-            { "id": "o2", "text": "Familia numerosa" },
-            { "id": "o3", "text": "Familia lejana" }
+            {
+              "id": "o1",
+              "text": "Familia extendida (tíos, primos, etc.)"
+            },
+            {
+              "id": "o2",
+              "text": "Familia numerosa"
+            },
+            {
+              "id": "o3",
+              "text": "Familia lejana"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -922,9 +1559,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Nuclear family'?",
           "options": [
-            { "id": "o1", "text": "Familia nuclear (padres e hijos)" },
-            { "id": "o2", "text": "Familia pequeña" },
-            { "id": "o3", "text": "Familia moderna" }
+            {
+              "id": "o1",
+              "text": "Familia nuclear (padres e hijos)"
+            },
+            {
+              "id": "o2",
+              "text": "Familia pequeña"
+            },
+            {
+              "id": "o3",
+              "text": "Familia moderna"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -939,29 +1585,128 @@
           "interaction_id": "U4_I81",
           "type": "word-search",
           "prompt_es": "Encuentra miembros de la familia:",
-          "words": ["FATHER", "MOTHER", "SISTER", "BROTHER", "COUSIN", "UNCLE", "AUNT", "SON"],
+          "words": [
+            "FATHER",
+            "MOTHER",
+            "SISTER",
+            "BROTHER",
+            "COUSIN",
+            "UNCLE",
+            "AUNT",
+            "SON"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "FATHER", "clue": "Padre" },
-            { "word": "MOTHER", "clue": "Madre" },
-            { "word": "SISTER", "clue": "Hermana" },
-            { "word": "BROTHER", "clue": "Hermano" },
-            { "word": "COUSIN", "clue": "Primo/a" },
-            { "word": "UNCLE", "clue": "Tío" },
-            { "word": "AUNT", "clue": "Tía" },
-            { "word": "SON", "clue": "Hijo" }
+            {
+              "word": "FATHER",
+              "clue": "Padre"
+            },
+            {
+              "word": "MOTHER",
+              "clue": "Madre"
+            },
+            {
+              "word": "SISTER",
+              "clue": "Hermana"
+            },
+            {
+              "word": "BROTHER",
+              "clue": "Hermano"
+            },
+            {
+              "word": "COUSIN",
+              "clue": "Primo/a"
+            },
+            {
+              "word": "UNCLE",
+              "clue": "Tío"
+            },
+            {
+              "word": "AUNT",
+              "clue": "Tía"
+            },
+            {
+              "word": "SON",
+              "clue": "Hijo"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U4_I82",
           "type": "crossword",
-          "prompt_es": "Crucigrama familiar:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "WIFE", "clue": "A married woman", "direction": "across", "row": 0, "col": 0 },
-            { "word": "SON", "clue": "A male child", "direction": "down", "row": 0, "col": 0 },
-            { "word": "NIECE", "clue": "Your sister's daughter", "direction": "across", "row": 2, "col": 0 },
-            { "word": "DAD", "clue": "Informal for father", "direction": "down", "row": 0, "col": 4 }
+            {
+              "word": "GRANDFATHER",
+              "clue": "Traducción de: abuelo",
+              "direction": "across",
+              "row": 10,
+              "col": 4
+            },
+            {
+              "word": "GODFATHER",
+              "clue": "Traducción de: padrino",
+              "direction": "down",
+              "row": 2,
+              "col": 5
+            },
+            {
+              "word": "CLASSMATE",
+              "clue": "Traducción de: compañero de clase",
+              "direction": "down",
+              "row": 2,
+              "col": 13
+            },
+            {
+              "word": "BOYFRIEND",
+              "clue": "Traducción de: novio",
+              "direction": "down",
+              "row": 3,
+              "col": 7
+            },
+            {
+              "word": "DIVORCED",
+              "clue": "Traducción de: divorciado/a",
+              "direction": "across",
+              "row": 2,
+              "col": 8
+            },
+            {
+              "word": "HUSBAND",
+              "clue": "Traducción de: Wife",
+              "direction": "across",
+              "row": 8,
+              "col": 9
+            },
+            {
+              "word": "SISTER",
+              "clue": "Traducción de: hermana",
+              "direction": "down",
+              "row": 1,
+              "col": 9
+            },
+            {
+              "word": "NIECE",
+              "clue": "Traducción de: sobrina",
+              "direction": "across",
+              "row": 19,
+              "col": 9
+            },
+            {
+              "word": "TWINS",
+              "clue": "Traducción de: gemelos",
+              "direction": "down",
+              "row": 10,
+              "col": 11
+            },
+            {
+              "word": "WIFE",
+              "clue": "Traducción de: mujer/esposa",
+              "direction": "down",
+              "row": 16,
+              "col": 11
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -970,11 +1715,27 @@
           "type": "matching",
           "prompt_es": "Une la relación:",
           "pairs": [
-            { "id": "p1", "left": "Mary's son", "right": "Mary is his mother" },
-            { "id": "p2", "left": "Tom's wife", "right": "Tom is her husband" },
-            { "id": "p3", "left": "Sue's brother", "right": "Sue is his sister" }
+            {
+              "id": "p1",
+              "left": "Mary's son",
+              "right": "Mary is his mother"
+            },
+            {
+              "id": "p2",
+              "left": "Tom's wife",
+              "right": "Tom is her husband"
+            },
+            {
+              "id": "p3",
+              "left": "Sue's brother",
+              "right": "Sue is his sister"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -990,9 +1751,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Tienes hermanos?'?",
           "options": [
-            { "id": "o1", "text": "Do you have any brothers or sisters?" },
-            { "id": "o2", "text": "Do you have siblings?" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Do you have any brothers or sisters?"
+            },
+            {
+              "id": "o2",
+              "text": "Do you have siblings?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "communication"
@@ -1002,9 +1772,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Sibling'?",
           "options": [
-            { "id": "o1", "text": "Hermano/a (genérico)" },
-            { "id": "o2", "text": "Primo/a" },
-            { "id": "o3", "text": "Sobrino/a" }
+            {
+              "id": "o1",
+              "text": "Hermano/a (genérico)"
+            },
+            {
+              "id": "o2",
+              "text": "Primo/a"
+            },
+            {
+              "id": "o3",
+              "text": "Sobrino/a"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1014,9 +1793,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes 'Soy hijo único'?",
           "options": [
-            { "id": "o1", "text": "I am an only child" },
-            { "id": "o2", "text": "I am a single son" },
-            { "id": "o3", "text": "I don't have brothers" }
+            {
+              "id": "o1",
+              "text": "I am an only child"
+            },
+            {
+              "id": "o2",
+              "text": "I am a single son"
+            },
+            {
+              "id": "o3",
+              "text": "I don't have brothers"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1042,9 +1830,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'la casa de mis abuelos'?",
           "options": [
-            { "id": "o1", "text": "My grandparents' house" },
-            { "id": "o2", "text": "My grandparent's house" },
-            { "id": "o3", "text": "The house of my grandparents" }
+            {
+              "id": "o1",
+              "text": "My grandparents' house"
+            },
+            {
+              "id": "o2",
+              "text": "My grandparent's house"
+            },
+            {
+              "id": "o3",
+              "text": "The house of my grandparents"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1054,9 +1851,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'In-laws'?",
           "options": [
-            { "id": "o1", "text": "La familia política" },
-            { "id": "o2", "text": "Los abogados" },
-            { "id": "o3", "text": "Los suegros solamente" }
+            {
+              "id": "o1",
+              "text": "La familia política"
+            },
+            {
+              "id": "o2",
+              "text": "Los abogados"
+            },
+            {
+              "id": "o3",
+              "text": "Los suegros solamente"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1066,9 +1872,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gemelos'?",
           "options": [
-            { "id": "o1", "text": "Twins" },
-            { "id": "o2", "text": "Doubles" },
-            { "id": "o3", "text": "Equals" }
+            {
+              "id": "o1",
+              "text": "Twins"
+            },
+            {
+              "id": "o2",
+              "text": "Doubles"
+            },
+            {
+              "id": "o3",
+              "text": "Equals"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1078,9 +1893,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'generación'?",
           "options": [
-            { "id": "o1", "text": "Generation" },
-            { "id": "o2", "text": "Age" },
-            { "id": "o3", "text": "Time" }
+            {
+              "id": "o1",
+              "text": "Generation"
+            },
+            {
+              "id": "o2",
+              "text": "Age"
+            },
+            {
+              "id": "o3",
+              "text": "Time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1090,9 +1914,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Ancestors'?",
           "options": [
-            { "id": "o1", "text": "Antepasados" },
-            { "id": "o2", "text": "Ancianos" },
-            { "id": "o3", "text": "Antiguos" }
+            {
+              "id": "o1",
+              "text": "Antepasados"
+            },
+            {
+              "id": "o2",
+              "text": "Ancianos"
+            },
+            {
+              "id": "o3",
+              "text": "Antiguos"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1102,9 +1935,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'árbol genealógico'?",
           "options": [
-            { "id": "o1", "text": "Family tree" },
-            { "id": "o2", "text": "Genealogic tree" },
-            { "id": "o3", "text": "Relatives tree" }
+            {
+              "id": "o1",
+              "text": "Family tree"
+            },
+            {
+              "id": "o2",
+              "text": "Genealogic tree"
+            },
+            {
+              "id": "o3",
+              "text": "Relatives tree"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1114,9 +1956,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'heredar'?",
           "options": [
-            { "id": "o1", "text": "Inherit" },
-            { "id": "o2", "text": "Legacy" },
-            { "id": "o3", "text": "Get" }
+            {
+              "id": "o1",
+              "text": "Inherit"
+            },
+            {
+              "id": "o2",
+              "text": "Legacy"
+            },
+            {
+              "id": "o3",
+              "text": "Get"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1126,9 +1977,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Get married'?",
           "options": [
-            { "id": "o1", "text": "Casarse" },
-            { "id": "o2", "text": "Estar casado" },
-            { "id": "o3", "text": "Tener marido" }
+            {
+              "id": "o1",
+              "text": "Casarse"
+            },
+            {
+              "id": "o2",
+              "text": "Estar casado"
+            },
+            {
+              "id": "o3",
+              "text": "Tener marido"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1138,9 +1998,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Get divorced'?",
           "options": [
-            { "id": "o1", "text": "Divorciarse" },
-            { "id": "o2", "text": "Estar divorciado" },
-            { "id": "o3", "text": "Estar solo" }
+            {
+              "id": "o1",
+              "text": "Divorciarse"
+            },
+            {
+              "id": "o2",
+              "text": "Estar divorciado"
+            },
+            {
+              "id": "o3",
+              "text": "Estar solo"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1150,9 +2019,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'padrino'?",
           "options": [
-            { "id": "o1", "text": "Godfather" },
-            { "id": "o2", "text": "Stepfather" },
-            { "id": "o3", "text": "Goodfather" }
+            {
+              "id": "o1",
+              "text": "Godfather"
+            },
+            {
+              "id": "o2",
+              "text": "Stepfather"
+            },
+            {
+              "id": "o3",
+              "text": "Goodfather"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1162,9 +2040,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'madrina'?",
           "options": [
-            { "id": "o1", "text": "Godmother" },
-            { "id": "o2", "text": "Stepmother" },
-            { "id": "o3", "text": "Goodmother" }
+            {
+              "id": "o1",
+              "text": "Godmother"
+            },
+            {
+              "id": "o2",
+              "text": "Stepmother"
+            },
+            {
+              "id": "o3",
+              "text": "Goodmother"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"

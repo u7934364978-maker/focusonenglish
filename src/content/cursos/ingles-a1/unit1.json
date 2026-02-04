@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Hola' de manera informal?",
           "options": [
-            { "id": "o1", "text": "Hi" },
-            { "id": "o2", "text": "Goodbye" },
-            { "id": "o3", "text": "Thank you" }
+            {
+              "id": "o1",
+              "text": "Hi"
+            },
+            {
+              "id": "o2",
+              "text": "Goodbye"
+            },
+            {
+              "id": "o3",
+              "text": "Thank you"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el saludo apropiado por la mañana?",
           "options": [
-            { "id": "o1", "text": "Good morning" },
-            { "id": "o2", "text": "Good night" },
-            { "id": "o3", "text": "Good afternoon" }
+            {
+              "id": "o1",
+              "text": "Good morning"
+            },
+            {
+              "id": "o2",
+              "text": "Good night"
+            },
+            {
+              "id": "o3",
+              "text": "Good afternoon"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Adiós'?",
           "options": [
-            { "id": "o1", "text": "Goodbye" },
-            { "id": "o2", "text": "Welcome" },
-            { "id": "o3", "text": "Please" }
+            {
+              "id": "o1",
+              "text": "Goodbye"
+            },
+            {
+              "id": "o2",
+              "text": "Welcome"
+            },
+            {
+              "id": "o3",
+              "text": "Please"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo saludas por la tarde (12:00 - 18:00)?",
           "options": [
-            { "id": "o1", "text": "Good afternoon" },
-            { "id": "o2", "text": "Good morning" },
-            { "id": "o3", "text": "Good night" }
+            {
+              "id": "o1",
+              "text": "Good afternoon"
+            },
+            {
+              "id": "o2",
+              "text": "Good morning"
+            },
+            {
+              "id": "o3",
+              "text": "Good night"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo saludas al llegar a un sitio por la noche?",
           "options": [
-            { "id": "o1", "text": "Good evening" },
-            { "id": "o2", "text": "Good night" },
-            { "id": "o3", "text": "Good morning" }
+            {
+              "id": "o1",
+              "text": "Good evening"
+            },
+            {
+              "id": "o2",
+              "text": "Good night"
+            },
+            {
+              "id": "o3",
+              "text": "Good morning"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo te despides justo antes de ir a dormir?",
           "options": [
-            { "id": "o1", "text": "Good night" },
-            { "id": "o2", "text": "Good evening" },
-            { "id": "o3", "text": "Hello" }
+            {
+              "id": "o1",
+              "text": "Good night"
+            },
+            {
+              "id": "o2",
+              "text": "Good evening"
+            },
+            {
+              "id": "o3",
+              "text": "Hello"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Nice to meet you'?",
           "options": [
-            { "id": "o1", "text": "Encantado de conocerte" },
-            { "id": "o2", "text": "Hasta luego" },
-            { "id": "o3", "text": "Que tengas un buen día" }
+            {
+              "id": "o1",
+              "text": "Encantado de conocerte"
+            },
+            {
+              "id": "o2",
+              "text": "Hasta luego"
+            },
+            {
+              "id": "o3",
+              "text": "Que tengas un buen día"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,11 +164,27 @@
           "type": "matching",
           "prompt_es": "Une los saludos con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Hello", "right": "Hola" },
-            { "id": "p2", "left": "See you", "right": "Nos vemos" },
-            { "id": "p3", "left": "Welcome", "right": "Bienvenido" }
+            {
+              "id": "p1",
+              "left": "Hello",
+              "right": "Hola"
+            },
+            {
+              "id": "p2",
+              "left": "See you",
+              "right": "Nos vemos"
+            },
+            {
+              "id": "p3",
+              "left": "Welcome",
+              "right": "Bienvenido"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -113,11 +192,27 @@
           "type": "matching",
           "prompt_es": "Une las despedidas:",
           "pairs": [
-            { "id": "p1", "left": "Bye", "right": "Adiós" },
-            { "id": "p2", "left": "See you later", "right": "Hasta luego" },
-            { "id": "p3", "left": "Take care", "right": "Cuídate" }
+            {
+              "id": "p1",
+              "left": "Bye",
+              "right": "Adiós"
+            },
+            {
+              "id": "p2",
+              "left": "See you later",
+              "right": "Hasta luego"
+            },
+            {
+              "id": "p3",
+              "left": "Take care",
+              "right": "Cuídate"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -125,11 +220,31 @@
           "type": "flashcard",
           "prompt_es": "Repaso de saludos básicos",
           "flashcards": [
-            { "front": "Hello", "back": "Hola", "pronunciation": "/həˈloʊ/" },
-            { "front": "Good morning", "back": "Buenos días", "pronunciation": "/ɡʊd ˈmɔːrnɪŋ/" },
-            { "front": "Good afternoon", "back": "Buenas tardes", "pronunciation": "/ɡʊd ˌæftərˈnuːn/" },
-            { "front": "Good evening", "back": "Buenas noches (saludo)", "pronunciation": "/ɡʊd ˈiːvnɪŋ/" },
-            { "front": "Good night", "back": "Buenas noches (despedida)", "pronunciation": "/ɡʊd naɪt/" }
+            {
+              "front": "Hello",
+              "back": "Hola",
+              "pronunciation": "/həˈloʊ/"
+            },
+            {
+              "front": "Good morning",
+              "back": "Buenos días",
+              "pronunciation": "/ɡʊd ˈmɔːrnɪŋ/"
+            },
+            {
+              "front": "Good afternoon",
+              "back": "Buenas tardes",
+              "pronunciation": "/ɡʊd ˌæftərˈnuːn/"
+            },
+            {
+              "front": "Good evening",
+              "back": "Buenas noches (saludo)",
+              "pronunciation": "/ɡʊd ˈiːvnɪŋ/"
+            },
+            {
+              "front": "Good night",
+              "back": "Buenas noches (despedida)",
+              "pronunciation": "/ɡʊd naɪt/"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -138,9 +253,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Mi nombre es...'?",
           "options": [
-            { "id": "o1", "text": "My name is" },
-            { "id": "o2", "text": "I name is" },
-            { "id": "o3", "text": "Me name is" }
+            {
+              "id": "o1",
+              "text": "My name is"
+            },
+            {
+              "id": "o2",
+              "text": "I name is"
+            },
+            {
+              "id": "o3",
+              "text": "Me name is"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -150,9 +274,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Surname'?",
           "options": [
-            { "id": "o1", "text": "Apellido" },
-            { "id": "o2", "text": "Nombre" },
-            { "id": "o3", "text": "Apodo" }
+            {
+              "id": "o1",
+              "text": "Apellido"
+            },
+            {
+              "id": "o2",
+              "text": "Nombre"
+            },
+            {
+              "id": "o3",
+              "text": "Apodo"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -162,9 +295,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Cuál es tu nombre?'?",
           "options": [
-            { "id": "o1", "text": "What is your name?" },
-            { "id": "o2", "text": "How is your name?" },
-            { "id": "o3", "text": "Who is your name?" }
+            {
+              "id": "o1",
+              "text": "What is your name?"
+            },
+            {
+              "id": "o2",
+              "text": "How is your name?"
+            },
+            {
+              "id": "o3",
+              "text": "Who is your name?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -182,9 +324,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué título se usa para una mujer casada?",
           "options": [
-            { "id": "o1", "text": "Mrs." },
-            { "id": "o2", "text": "Miss" },
-            { "id": "o3", "text": "Mr." }
+            {
+              "id": "o1",
+              "text": "Mrs."
+            },
+            {
+              "id": "o2",
+              "text": "Miss"
+            },
+            {
+              "id": "o3",
+              "text": "Mr."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -194,9 +345,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué título se usa para una mujer soltera?",
           "options": [
-            { "id": "o1", "text": "Miss" },
-            { "id": "o2", "text": "Mrs." },
-            { "id": "o3", "text": "Ms." }
+            {
+              "id": "o1",
+              "text": "Miss"
+            },
+            {
+              "id": "o2",
+              "text": "Mrs."
+            },
+            {
+              "id": "o3",
+              "text": "Ms."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -206,9 +366,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué título es neutro para mujeres (no indica estado civil)?",
           "options": [
-            { "id": "o1", "text": "Ms." },
-            { "id": "o2", "text": "Miss" },
-            { "id": "o3", "text": "Mrs." }
+            {
+              "id": "o1",
+              "text": "Ms."
+            },
+            {
+              "id": "o2",
+              "text": "Miss"
+            },
+            {
+              "id": "o3",
+              "text": "Mrs."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -218,11 +387,27 @@
           "type": "matching",
           "prompt_es": "Une los títulos con su significado:",
           "pairs": [
-            { "id": "p1", "left": "Mr.", "right": "Señor" },
-            { "id": "p2", "left": "Mrs.", "right": "Señora (casada)" },
-            { "id": "p3", "left": "Miss", "right": "Señorita (soltera)" }
+            {
+              "id": "p1",
+              "left": "Mr.",
+              "right": "Señor"
+            },
+            {
+              "id": "p2",
+              "left": "Mrs.",
+              "right": "Señora (casada)"
+            },
+            {
+              "id": "p3",
+              "left": "Miss",
+              "right": "Señorita (soltera)"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -230,9 +415,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes formalmente a 'How are you?'?",
           "options": [
-            { "id": "o1", "text": "I am fine, thank you." },
-            { "id": "o2", "text": "I am Peter." },
-            { "id": "o3", "text": "Goodbye." }
+            {
+              "id": "o1",
+              "text": "I am fine, thank you."
+            },
+            {
+              "id": "o2",
+              "text": "I am Peter."
+            },
+            {
+              "id": "o3",
+              "text": "Goodbye."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -242,9 +436,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Mucho gusto' de manera más formal?",
           "options": [
-            { "id": "o1", "text": "Pleased to meet you" },
-            { "id": "o2", "text": "Hi there" },
-            { "id": "o3", "text": "See you" }
+            {
+              "id": "o1",
+              "text": "Pleased to meet you"
+            },
+            {
+              "id": "o2",
+              "text": "Hi there"
+            },
+            {
+              "id": "o3",
+              "text": "See you"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -254,9 +457,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'amigo'?",
           "options": [
-            { "id": "o1", "text": "Friend" },
-            { "id": "o2", "text": "Teacher" },
-            { "id": "o3", "text": "Student" }
+            {
+              "id": "o1",
+              "text": "Friend"
+            },
+            {
+              "id": "o2",
+              "text": "Teacher"
+            },
+            {
+              "id": "o3",
+              "text": "Student"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -266,9 +478,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'profesor'?",
           "options": [
-            { "id": "o1", "text": "Teacher" },
-            { "id": "o2", "text": "Student" },
-            { "id": "o3", "text": "Classmate" }
+            {
+              "id": "o1",
+              "text": "Teacher"
+            },
+            {
+              "id": "o2",
+              "text": "Student"
+            },
+            {
+              "id": "o3",
+              "text": "Classmate"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -278,9 +499,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estudiante'?",
           "options": [
-            { "id": "o1", "text": "Student" },
-            { "id": "o2", "text": "Teacher" },
-            { "id": "o3", "text": "Friend" }
+            {
+              "id": "o1",
+              "text": "Student"
+            },
+            {
+              "id": "o2",
+              "text": "Teacher"
+            },
+            {
+              "id": "o3",
+              "text": "Friend"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -290,9 +520,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'How do you do?' (muy formal)?",
           "options": [
-            { "id": "o1", "text": "¿Cómo está usted? (al conocerse)" },
-            { "id": "o2", "text": "¿Qué haces?" },
-            { "id": "o3", "text": "¿Cómo lo haces?" }
+            {
+              "id": "o1",
+              "text": "¿Cómo está usted? (al conocerse)"
+            },
+            {
+              "id": "o2",
+              "text": "¿Qué haces?"
+            },
+            {
+              "id": "o3",
+              "text": "¿Cómo lo haces?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -302,9 +541,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Nos vemos pronto'?",
           "options": [
-            { "id": "o1", "text": "See you soon" },
-            { "id": "o2", "text": "See you yesterday" },
-            { "id": "o3", "text": "See you never" }
+            {
+              "id": "o1",
+              "text": "See you soon"
+            },
+            {
+              "id": "o2",
+              "text": "See you yesterday"
+            },
+            {
+              "id": "o3",
+              "text": "See you never"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -314,9 +562,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Que tengas un buen día'?",
           "options": [
-            { "id": "o1", "text": "Have a nice day" },
-            { "id": "o2", "text": "Have a good night" },
-            { "id": "o3", "text": "Have a bad day" }
+            {
+              "id": "o1",
+              "text": "Have a nice day"
+            },
+            {
+              "id": "o2",
+              "text": "Have a good night"
+            },
+            {
+              "id": "o3",
+              "text": "Have a bad day"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -326,9 +583,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'De nada'?",
           "options": [
-            { "id": "o1", "text": "You are welcome" },
-            { "id": "o2", "text": "Thank you" },
-            { "id": "o3", "text": "Please" }
+            {
+              "id": "o1",
+              "text": "You are welcome"
+            },
+            {
+              "id": "o2",
+              "text": "Thank you"
+            },
+            {
+              "id": "o3",
+              "text": "Please"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -338,9 +604,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Perdón' (para llamar la atención)?",
           "options": [
-            { "id": "o1", "text": "Excuse me" },
-            { "id": "o2", "text": "I am sorry" },
-            { "id": "o3", "text": "Pardon" }
+            {
+              "id": "o1",
+              "text": "Excuse me"
+            },
+            {
+              "id": "o2",
+              "text": "I am sorry"
+            },
+            {
+              "id": "o3",
+              "text": "Pardon"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -350,9 +625,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Lo siento' (disculpa)?",
           "options": [
-            { "id": "o1", "text": "I am sorry" },
-            { "id": "o2", "text": "Excuse me" },
-            { "id": "o3", "text": "Hello" }
+            {
+              "id": "o1",
+              "text": "I am sorry"
+            },
+            {
+              "id": "o2",
+              "text": "Excuse me"
+            },
+            {
+              "id": "o3",
+              "text": "Hello"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -362,9 +646,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Por favor'?",
           "options": [
-            { "id": "o1", "text": "Please" },
-            { "id": "o2", "text": "Thanks" },
-            { "id": "o3", "text": "Welcome" }
+            {
+              "id": "o1",
+              "text": "Please"
+            },
+            {
+              "id": "o2",
+              "text": "Thanks"
+            },
+            {
+              "id": "o3",
+              "text": "Welcome"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -436,9 +729,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta?",
           "options": [
-            { "id": "o1", "text": "I am" },
-            { "id": "o2", "text": "I is" },
-            { "id": "o3", "text": "I are" }
+            {
+              "id": "o1",
+              "text": "I am"
+            },
+            {
+              "id": "o2",
+              "text": "I is"
+            },
+            {
+              "id": "o3",
+              "text": "I are"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -448,9 +750,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta?",
           "options": [
-            { "id": "o1", "text": "He is" },
-            { "id": "o2", "text": "He am" },
-            { "id": "o3", "text": "He are" }
+            {
+              "id": "o1",
+              "text": "He is"
+            },
+            {
+              "id": "o2",
+              "text": "He am"
+            },
+            {
+              "id": "o3",
+              "text": "He are"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -460,9 +771,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta?",
           "options": [
-            { "id": "o1", "text": "They are" },
-            { "id": "o2", "text": "They is" },
-            { "id": "o3", "text": "They am" }
+            {
+              "id": "o1",
+              "text": "They are"
+            },
+            {
+              "id": "o2",
+              "text": "They is"
+            },
+            {
+              "id": "o3",
+              "text": "They am"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -472,12 +792,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "am" },
-            { "id": "w2", "text": "I" },
-            { "id": "w3", "text": "John" },
-            { "id": "w4", "text": "." }
+            {
+              "id": "w1",
+              "text": "am"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "John"
+            },
+            {
+              "id": "w4",
+              "text": "."
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -485,12 +822,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "My" },
-            { "id": "w3", "text": "name" },
-            { "id": "w4", "text": "Anna" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "My"
+            },
+            {
+              "id": "w3",
+              "text": "name"
+            },
+            {
+              "id": "w4",
+              "text": "Anna"
+            }
           ],
-          "correct_answer": ["w2", "w3", "w1", "w4"],
+          "correct_answer": [
+            "w2",
+            "w3",
+            "w1",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -498,12 +852,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "are" },
-            { "id": "w2", "text": "We" },
-            { "id": "w3", "text": "from" },
-            { "id": "w4", "text": "Spain" }
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w2",
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "from"
+            },
+            {
+              "id": "w4",
+              "text": "Spain"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -511,9 +882,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se contrae 'I am'?",
           "options": [
-            { "id": "o1", "text": "I'm" },
-            { "id": "o2", "text": "I'is" },
-            { "id": "o3", "text": "Am'I" }
+            {
+              "id": "o1",
+              "text": "I'm"
+            },
+            {
+              "id": "o2",
+              "text": "I'is"
+            },
+            {
+              "id": "o3",
+              "text": "Am'I"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -523,9 +903,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se contrae 'You are'?",
           "options": [
-            { "id": "o1", "text": "You're" },
-            { "id": "o2", "text": "You's" },
-            { "id": "o3", "text": "You'm" }
+            {
+              "id": "o1",
+              "text": "You're"
+            },
+            {
+              "id": "o2",
+              "text": "You's"
+            },
+            {
+              "id": "o3",
+              "text": "You'm"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -535,9 +924,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se contrae 'He is'?",
           "options": [
-            { "id": "o1", "text": "He's" },
-            { "id": "o2", "text": "He'r" },
-            { "id": "o3", "text": "He'm" }
+            {
+              "id": "o1",
+              "text": "He's"
+            },
+            {
+              "id": "o2",
+              "text": "He'r"
+            },
+            {
+              "id": "o3",
+              "text": "He'm"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -579,9 +977,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo haces la negación de 'I am'?",
           "options": [
-            { "id": "o1", "text": "I am not" },
-            { "id": "o2", "text": "I not am" },
-            { "id": "o3", "text": "I no am" }
+            {
+              "id": "o1",
+              "text": "I am not"
+            },
+            {
+              "id": "o2",
+              "text": "I not am"
+            },
+            {
+              "id": "o3",
+              "text": "I no am"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -591,9 +998,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la negación de 'She is'?",
           "options": [
-            { "id": "o1", "text": "She is not" },
-            { "id": "o2", "text": "She not is" },
-            { "id": "o3", "text": "She no is" }
+            {
+              "id": "o1",
+              "text": "She is not"
+            },
+            {
+              "id": "o2",
+              "text": "She not is"
+            },
+            {
+              "id": "o3",
+              "text": "She no is"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -603,9 +1019,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la negación de 'They are'?",
           "options": [
-            { "id": "o1", "text": "They are not" },
-            { "id": "o2", "text": "They not are" },
-            { "id": "o3", "text": "They no are" }
+            {
+              "id": "o1",
+              "text": "They are not"
+            },
+            {
+              "id": "o2",
+              "text": "They not are"
+            },
+            {
+              "id": "o3",
+              "text": "They no are"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -639,9 +1064,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Estás tú...?'?",
           "options": [
-            { "id": "o1", "text": "Are you...?" },
-            { "id": "o2", "text": "You are...?" },
-            { "id": "o3", "text": "Is you...?" }
+            {
+              "id": "o1",
+              "text": "Are you...?"
+            },
+            {
+              "id": "o2",
+              "text": "You are...?"
+            },
+            {
+              "id": "o3",
+              "text": "Is you...?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -651,9 +1085,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Es él...?'?",
           "options": [
-            { "id": "o1", "text": "Is he...?" },
-            { "id": "o2", "text": "He is...?" },
-            { "id": "o3", "text": "Are he...?" }
+            {
+              "id": "o1",
+              "text": "Is he...?"
+            },
+            {
+              "id": "o2",
+              "text": "He is...?"
+            },
+            {
+              "id": "o3",
+              "text": "Are he...?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -663,9 +1106,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Son ellos...?'?",
           "options": [
-            { "id": "o1", "text": "Are they...?" },
-            { "id": "o2", "text": "They are...?" },
-            { "id": "o3", "text": "Is they...?" }
+            {
+              "id": "o1",
+              "text": "Are they...?"
+            },
+            {
+              "id": "o2",
+              "text": "They are...?"
+            },
+            {
+              "id": "o3",
+              "text": "Is they...?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -675,12 +1127,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta:",
           "options": [
-            { "id": "w1", "text": "you" },
-            { "id": "w2", "text": "Are" },
-            { "id": "w3", "text": "ready" },
-            { "id": "w4", "text": "?" }
+            {
+              "id": "w1",
+              "text": "you"
+            },
+            {
+              "id": "w2",
+              "text": "Are"
+            },
+            {
+              "id": "w3",
+              "text": "ready"
+            },
+            {
+              "id": "w4",
+              "text": "?"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         }
       ]
@@ -694,9 +1163,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué respondes a 'How are you?'?",
           "options": [
-            { "id": "o1", "text": "I'm fine, thanks." },
-            { "id": "o2", "text": "I'm from London." },
-            { "id": "o3", "text": "Nice to meet you." }
+            {
+              "id": "o1",
+              "text": "I'm fine, thanks."
+            },
+            {
+              "id": "o2",
+              "text": "I'm from London."
+            },
+            {
+              "id": "o3",
+              "text": "Nice to meet you."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -706,9 +1184,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué respondes a 'Nice to meet you'?",
           "options": [
-            { "id": "o1", "text": "Nice to meet you too." },
-            { "id": "o2", "text": "Hello there." },
-            { "id": "o3", "text": "Yes, I am." }
+            {
+              "id": "o1",
+              "text": "Nice to meet you too."
+            },
+            {
+              "id": "o2",
+              "text": "Hello there."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I am."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -718,9 +1205,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué preguntas para saber el nombre de alguien?",
           "options": [
-            { "id": "o1", "text": "What's your name?" },
-            { "id": "o2", "text": "How's your name?" },
-            { "id": "o3", "text": "Who are you?" }
+            {
+              "id": "o1",
+              "text": "What's your name?"
+            },
+            {
+              "id": "o2",
+              "text": "How's your name?"
+            },
+            {
+              "id": "o3",
+              "text": "Who are you?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -730,9 +1226,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo presentas a un amigo?",
           "options": [
-            { "id": "o1", "text": "This is my friend, Peter." },
-            { "id": "o2", "text": "That is my friend, Peter." },
-            { "id": "o3", "text": "He is my friend, Peter." }
+            {
+              "id": "o1",
+              "text": "This is my friend, Peter."
+            },
+            {
+              "id": "o2",
+              "text": "That is my friend, Peter."
+            },
+            {
+              "id": "o3",
+              "text": "He is my friend, Peter."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -742,9 +1247,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Cómo se escribe tu nombre?'?",
           "options": [
-            { "id": "o1", "text": "How do you spell your name?" },
-            { "id": "o2", "text": "How do you write your name?" },
-            { "id": "o3", "text": "Can you spell your name?" }
+            {
+              "id": "o1",
+              "text": "How do you spell your name?"
+            },
+            {
+              "id": "o2",
+              "text": "How do you write your name?"
+            },
+            {
+              "id": "o3",
+              "text": "Can you spell your name?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -754,9 +1268,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Where are you from?'?",
           "options": [
-            { "id": "o1", "text": "¿De dónde eres?" },
-            { "id": "o2", "text": "¿Dónde estás?" },
-            { "id": "o3", "text": "¿A dónde vas?" }
+            {
+              "id": "o1",
+              "text": "¿De dónde eres?"
+            },
+            {
+              "id": "o2",
+              "text": "¿Dónde estás?"
+            },
+            {
+              "id": "o3",
+              "text": "¿A dónde vas?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -766,9 +1289,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes a 'Where are you from?'?",
           "options": [
-            { "id": "o1", "text": "I'm from Spain." },
-            { "id": "o2", "text": "I'm fine." },
-            { "id": "o3", "text": "I'm a student." }
+            {
+              "id": "o1",
+              "text": "I'm from Spain."
+            },
+            {
+              "id": "o2",
+              "text": "I'm fine."
+            },
+            {
+              "id": "o3",
+              "text": "I'm a student."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -786,9 +1318,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo pides que repitan algo?",
           "options": [
-            { "id": "o1", "text": "Can you repeat that, please?" },
-            { "id": "o2", "text": "Repeat again!" },
-            { "id": "o3", "text": "What did you say?" }
+            {
+              "id": "o1",
+              "text": "Can you repeat that, please?"
+            },
+            {
+              "id": "o2",
+              "text": "Repeat again!"
+            },
+            {
+              "id": "o3",
+              "text": "What did you say?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -798,9 +1339,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Hablo un poco de inglés'?",
           "options": [
-            { "id": "o1", "text": "I speak a little English." },
-            { "id": "o2", "text": "I speak small English." },
-            { "id": "o3", "text": "I speak few English." }
+            {
+              "id": "o1",
+              "text": "I speak a little English."
+            },
+            {
+              "id": "o2",
+              "text": "I speak small English."
+            },
+            {
+              "id": "o3",
+              "text": "I speak few English."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -810,13 +1360,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena el saludo formal:",
           "options": [
-            { "id": "w1", "text": "do" },
-            { "id": "w2", "text": "How" },
-            { "id": "w3", "text": "you" },
-            { "id": "w4", "text": "do" },
-            { "id": "w5", "text": "?" }
+            {
+              "id": "w1",
+              "text": "do"
+            },
+            {
+              "id": "w2",
+              "text": "How"
+            },
+            {
+              "id": "w3",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "do"
+            },
+            {
+              "id": "w5",
+              "text": "?"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "communication"
         },
         {
@@ -824,9 +1395,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué dices al despedirte a las 11:00 PM?",
           "options": [
-            { "id": "o1", "text": "Good night!" },
-            { "id": "o2", "text": "Good evening!" },
-            { "id": "o3", "text": "Good morning!" }
+            {
+              "id": "o1",
+              "text": "Good night!"
+            },
+            {
+              "id": "o2",
+              "text": "Good evening!"
+            },
+            {
+              "id": "o3",
+              "text": "Good morning!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -836,9 +1416,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué dices al entrar a un restaurante a las 8:00 PM?",
           "options": [
-            { "id": "o1", "text": "Good evening!" },
-            { "id": "o2", "text": "Good night!" },
-            { "id": "o3", "text": "Good afternoon!" }
+            {
+              "id": "o1",
+              "text": "Good evening!"
+            },
+            {
+              "id": "o2",
+              "text": "Good night!"
+            },
+            {
+              "id": "o3",
+              "text": "Good afternoon!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -848,9 +1437,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Estás bien?'?",
           "options": [
-            { "id": "o1", "text": "Are you okay?" },
-            { "id": "o2", "text": "Is you okay?" },
-            { "id": "o3", "text": "Am you okay?" }
+            {
+              "id": "o1",
+              "text": "Are you okay?"
+            },
+            {
+              "id": "o2",
+              "text": "Is you okay?"
+            },
+            {
+              "id": "o3",
+              "text": "Am you okay?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -860,9 +1458,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes a 'Are you a student?'?",
           "options": [
-            { "id": "o1", "text": "Yes, I am." },
-            { "id": "o2", "text": "Yes, I'm." },
-            { "id": "o3", "text": "Yes, I are." }
+            {
+              "id": "o1",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I'm."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I are."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -872,9 +1479,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes negativamente a 'Are you English?'?",
           "options": [
-            { "id": "o1", "text": "No, I am not." },
-            { "id": "o2", "text": "No, I am." },
-            { "id": "o3", "text": "No, I aren't." }
+            {
+              "id": "o1",
+              "text": "No, I am not."
+            },
+            {
+              "id": "o2",
+              "text": "No, I am."
+            },
+            {
+              "id": "o3",
+              "text": "No, I aren't."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -884,9 +1500,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes a 'Is he from Italy?'?",
           "options": [
-            { "id": "o1", "text": "Yes, he is." },
-            { "id": "o2", "text": "Yes, he's." },
-            { "id": "o3", "text": "Yes, he are." }
+            {
+              "id": "o1",
+              "text": "Yes, he is."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, he's."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, he are."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -896,9 +1521,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes a 'Are they happy?'?",
           "options": [
-            { "id": "o1", "text": "No, they aren't." },
-            { "id": "o2", "text": "No, they isn't." },
-            { "id": "o3", "text": "No, they not." }
+            {
+              "id": "o1",
+              "text": "No, they aren't."
+            },
+            {
+              "id": "o2",
+              "text": "No, they isn't."
+            },
+            {
+              "id": "o3",
+              "text": "No, they not."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -908,9 +1542,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'How old are you?'?",
           "options": [
-            { "id": "o1", "text": "¿Cuántos años tienes?" },
-            { "id": "o2", "text": "¿Cómo estás de viejo?" },
-            { "id": "o3", "text": "¿Quién eres tú?" }
+            {
+              "id": "o1",
+              "text": "¿Cuántos años tienes?"
+            },
+            {
+              "id": "o2",
+              "text": "¿Cómo estás de viejo?"
+            },
+            {
+              "id": "o3",
+              "text": "¿Quién eres tú?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -920,9 +1563,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes a 'How old are you?'?",
           "options": [
-            { "id": "o1", "text": "I am twenty." },
-            { "id": "o2", "text": "I have twenty." },
-            { "id": "o3", "text": "I are twenty." }
+            {
+              "id": "o1",
+              "text": "I am twenty."
+            },
+            {
+              "id": "o2",
+              "text": "I have twenty."
+            },
+            {
+              "id": "o3",
+              "text": "I are twenty."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -937,29 +1589,114 @@
           "interaction_id": "U1_I81",
           "type": "word-search",
           "prompt_es": "Encuentra las palabras ocultas sobre saludos:",
-          "words": ["HELLO", "HI", "BYE", "GREETINGS", "MORNING", "NIGHT", "FRIEND", "NAME"],
+          "words": [
+            "HELLO",
+            "HI",
+            "BYE",
+            "GREETINGS",
+            "MORNING",
+            "NIGHT",
+            "FRIEND",
+            "NAME"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "HELLO", "clue": "Saludo básico" },
-            { "word": "HI", "clue": "Hola informal" },
-            { "word": "BYE", "clue": "Adiós informal" },
-            { "word": "GREETINGS", "clue": "Saludos en general" },
-            { "word": "MORNING", "clue": "Mañana" },
-            { "word": "NIGHT", "clue": "Noche" },
-            { "word": "FRIEND", "clue": "Amigo" },
-            { "word": "NAME", "clue": "Nombre" }
+            {
+              "word": "HELLO",
+              "clue": "Saludo básico"
+            },
+            {
+              "word": "HI",
+              "clue": "Hola informal"
+            },
+            {
+              "word": "BYE",
+              "clue": "Adiós informal"
+            },
+            {
+              "word": "GREETINGS",
+              "clue": "Saludos en general"
+            },
+            {
+              "word": "MORNING",
+              "clue": "Mañana"
+            },
+            {
+              "word": "NIGHT",
+              "clue": "Noche"
+            },
+            {
+              "word": "FRIEND",
+              "clue": "Amigo"
+            },
+            {
+              "word": "NAME",
+              "clue": "Nombre"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U1_I82",
           "type": "crossword",
-          "prompt_es": "Completa el crucigrama sobre introducciones:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "HELLO", "clue": "Opposite of goodbye", "direction": "across", "row": 0, "col": 0 },
-            { "word": "NAME", "clue": "What's your ___?", "direction": "down", "row": 0, "col": 0 },
-            { "word": "ARE", "clue": "How ___ you?", "direction": "across", "row": 2, "col": 0 },
-            { "word": "AM", "clue": "I ___ a student", "direction": "down", "row": 2, "col": 0 }
+            {
+              "word": "PLEASED",
+              "clue": "Traducción de: encantado",
+              "direction": "across",
+              "row": 10,
+              "col": 6
+            },
+            {
+              "word": "STUDENT",
+              "clue": "Traducción de: estudiante",
+              "direction": "down",
+              "row": 6,
+              "col": 8
+            },
+            {
+              "word": "WELCOME",
+              "clue": "Traducción de: Bienvenido",
+              "direction": "down",
+              "row": 9,
+              "col": 11
+            },
+            {
+              "word": "TEACHER",
+              "clue": "Traducción de: profesor",
+              "direction": "across",
+              "row": 12,
+              "col": 8
+            },
+            {
+              "word": "FRIEND",
+              "clue": "Traducción de: amigo",
+              "direction": "down",
+              "row": 11,
+              "col": 14
+            },
+            {
+              "word": "HELLO",
+              "clue": "Traducción de: Hola",
+              "direction": "across",
+              "row": 14,
+              "col": 13
+            },
+            {
+              "word": "MISS",
+              "clue": "Traducción de: Señorita (soltera)",
+              "direction": "across",
+              "row": 6,
+              "col": 5
+            },
+            {
+              "word": "BYE",
+              "clue": "Traducción de: Adiós",
+              "direction": "across",
+              "row": 15,
+              "col": 9
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -968,11 +1705,27 @@
           "type": "matching",
           "prompt_es": "Une las preguntas con sus respuestas:",
           "pairs": [
-            { "id": "p1", "left": "What's your name?", "right": "I'm Maria." },
-            { "id": "p2", "left": "Where are you from?", "right": "I'm from Mexico." },
-            { "id": "p3", "left": "How are you?", "right": "I'm great!" }
+            {
+              "id": "p1",
+              "left": "What's your name?",
+              "right": "I'm Maria."
+            },
+            {
+              "id": "p2",
+              "left": "Where are you from?",
+              "right": "I'm from Mexico."
+            },
+            {
+              "id": "p3",
+              "left": "How are you?",
+              "right": "I'm great!"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "communication"
         },
         {
@@ -988,9 +1741,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la respuesta correcta para 'Are you from Spain?'?",
           "options": [
-            { "id": "o1", "text": "Yes, I am." },
-            { "id": "o2", "text": "Yes, I'm." },
-            { "id": "o3", "text": "Yes, I is." }
+            {
+              "id": "o1",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I'm."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I is."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1000,9 +1762,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'encantado'?",
           "options": [
-            { "id": "o1", "text": "Pleased" },
-            { "id": "o2", "text": "Please" },
-            { "id": "o3", "text": "Pleasant" }
+            {
+              "id": "o1",
+              "text": "Pleased"
+            },
+            {
+              "id": "o2",
+              "text": "Please"
+            },
+            {
+              "id": "o3",
+              "text": "Pleasant"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1012,9 +1783,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'too' en 'Nice to meet you too'?",
           "options": [
-            { "id": "o1", "text": "También" },
-            { "id": "o2", "text": "Mucho" },
-            { "id": "o3", "text": "Dos" }
+            {
+              "id": "o1",
+              "text": "También"
+            },
+            {
+              "id": "o2",
+              "text": "Mucho"
+            },
+            {
+              "id": "o3",
+              "text": "Dos"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1040,9 +1820,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es un saludo informal?",
           "options": [
-            { "id": "o1", "text": "Hey!" },
-            { "id": "o2", "text": "Good morning" },
-            { "id": "o3", "text": "Pleased to meet you" }
+            {
+              "id": "o1",
+              "text": "Hey!"
+            },
+            {
+              "id": "o2",
+              "text": "Good morning"
+            },
+            {
+              "id": "o3",
+              "text": "Pleased to meet you"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1052,9 +1841,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas formalmente el nombre?",
           "options": [
-            { "id": "o1", "text": "May I have your name, please?" },
-            { "id": "o2", "text": "Who are you?" },
-            { "id": "o3", "text": "Name?" }
+            {
+              "id": "o1",
+              "text": "May I have your name, please?"
+            },
+            {
+              "id": "o2",
+              "text": "Who are you?"
+            },
+            {
+              "id": "o3",
+              "text": "Name?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1064,9 +1862,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes a 'Thank you'?",
           "options": [
-            { "id": "o1", "text": "Not at all" },
-            { "id": "o2", "text": "Please" },
-            { "id": "o3", "text": "Thank you too" }
+            {
+              "id": "o1",
+              "text": "Not at all"
+            },
+            {
+              "id": "o2",
+              "text": "Please"
+            },
+            {
+              "id": "o3",
+              "text": "Thank you too"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1076,9 +1883,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'It's a pleasure'?",
           "options": [
-            { "id": "o1", "text": "Es un placer" },
-            { "id": "o2", "text": "Es una presión" },
-            { "id": "o3", "text": "Es para ti" }
+            {
+              "id": "o1",
+              "text": "Es un placer"
+            },
+            {
+              "id": "o2",
+              "text": "Es una presión"
+            },
+            {
+              "id": "o3",
+              "text": "Es para ti"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1088,9 +1904,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo saludas a alguien que no has visto en mucho tiempo?",
           "options": [
-            { "id": "o1", "text": "Long time no see!" },
-            { "id": "o2", "text": "Short time no see!" },
-            { "id": "o3", "text": "Big time no see!" }
+            {
+              "id": "o1",
+              "text": "Long time no see!"
+            },
+            {
+              "id": "o2",
+              "text": "Short time no see!"
+            },
+            {
+              "id": "o3",
+              "text": "Big time no see!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1100,9 +1925,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'How's it going?' (informal)?",
           "options": [
-            { "id": "o1", "text": "¿Cómo te va?" },
-            { "id": "o2", "text": "¿A dónde vas?" },
-            { "id": "o3", "text": "¿Cómo vas allí?" }
+            {
+              "id": "o1",
+              "text": "¿Cómo te va?"
+            },
+            {
+              "id": "o2",
+              "text": "¿A dónde vas?"
+            },
+            {
+              "id": "o3",
+              "text": "¿Cómo vas allí?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1112,9 +1946,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo respondes a 'How's it going?'?",
           "options": [
-            { "id": "o1", "text": "Pretty good!" },
-            { "id": "o2", "text": "I go by car." },
-            { "id": "o3", "text": "Yes, it goes." }
+            {
+              "id": "o1",
+              "text": "Pretty good!"
+            },
+            {
+              "id": "o2",
+              "text": "I go by car."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it goes."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1124,9 +1967,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Igualmente'?",
           "options": [
-            { "id": "o1", "text": "Likewise" },
-            { "id": "o2", "text": "Same to you" },
-            { "id": "o3", "text": "Both" }
+            {
+              "id": "o1",
+              "text": "Likewise"
+            },
+            {
+              "id": "o2",
+              "text": "Same to you"
+            },
+            {
+              "id": "o3",
+              "text": "Both"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1136,9 +1988,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'See you around'?",
           "options": [
-            { "id": "o1", "text": "Nos vemos por ahí" },
-            { "id": "o2", "text": "Mira a tu alrededor" },
-            { "id": "o3", "text": "Te veo redondo" }
+            {
+              "id": "o1",
+              "text": "Nos vemos por ahí"
+            },
+            {
+              "id": "o2",
+              "text": "Mira a tu alrededor"
+            },
+            {
+              "id": "o3",
+              "text": "Te veo redondo"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1148,9 +2009,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo te despides deseando un buen fin de semana?",
           "options": [
-            { "id": "o1", "text": "Have a nice weekend!" },
-            { "id": "o2", "text": "Have a nice week!" },
-            { "id": "o3", "text": "Have a nice day!" }
+            {
+              "id": "o1",
+              "text": "Have a nice weekend!"
+            },
+            {
+              "id": "o2",
+              "text": "Have a nice week!"
+            },
+            {
+              "id": "o3",
+              "text": "Have a nice day!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"
@@ -1160,9 +2030,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Nos vemos mañana'?",
           "options": [
-            { "id": "o1", "text": "See you tomorrow" },
-            { "id": "o2", "text": "See you today" },
-            { "id": "o3", "text": "See you later" }
+            {
+              "id": "o1",
+              "text": "See you tomorrow"
+            },
+            {
+              "id": "o2",
+              "text": "See you today"
+            },
+            {
+              "id": "o3",
+              "text": "See you later"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "communication"

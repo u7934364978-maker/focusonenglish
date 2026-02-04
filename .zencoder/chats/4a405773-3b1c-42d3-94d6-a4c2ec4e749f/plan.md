@@ -44,9 +44,9 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - [x] Create `unit-7.ts`, `unit-8.ts`, `unit-9.ts`, `unit-10.ts`
     - [x] Populate with 100 exercises each following the curriculum
     - [x] Export in `src/lib/c2-units/index.ts`
-- [ ] **Phase 2: Module 2 Implementation (Units 11-20)**
-    - [ ] Create content files and populate with 100 exercises each
-    - [ ] Export in `src/lib/c2-units/index.ts`
+- [x] **Phase 2: Module 2 Implementation (Units 11-20)**
+    - [x] Create content files and populate with 100 exercises each
+    - [x] Export in `src/lib/c2-units/index.ts`
 - [ ] **Phase 3: Module 3 Implementation (Units 21-30)**
     - [ ] Create content files and populate with 100 exercises each
     - [ ] Export in `src/lib/c2-units/index.ts`

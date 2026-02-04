@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fiesta de cumpleaños'?",
           "options": [
-            { "id": "o1", "text": "Birthday party" },
-            { "id": "o2", "text": "Birth party" },
-            { "id": "o3", "text": "Day party" }
+            {
+              "id": "o1",
+              "text": "Birthday party"
+            },
+            {
+              "id": "o2",
+              "text": "Birth party"
+            },
+            {
+              "id": "o3",
+              "text": "Day party"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fiesta de inauguración de una casa'?",
           "options": [
-            { "id": "o1", "text": "Housewarming party" },
-            { "id": "o2", "text": "New house party" },
-            { "id": "o3", "text": "Home party" }
+            {
+              "id": "o1",
+              "text": "Housewarming party"
+            },
+            {
+              "id": "o2",
+              "text": "New house party"
+            },
+            {
+              "id": "o3",
+              "text": "Home party"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fiesta de disfraces'?",
           "options": [
-            { "id": "o1", "text": "Fancy dress party / Costume party" },
-            { "id": "o2", "text": "Mask party" },
-            { "id": "o3", "text": "Dress party" }
+            {
+              "id": "o1",
+              "text": "Fancy dress party / Costume party"
+            },
+            {
+              "id": "o2",
+              "text": "Mask party"
+            },
+            {
+              "id": "o3",
+              "text": "Dress party"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'anfitrión'?",
           "options": [
-            { "id": "o1", "text": "Host" },
-            { "id": "o2", "text": "Guest" },
-            { "id": "o3", "text": "Owner" }
+            {
+              "id": "o1",
+              "text": "Host"
+            },
+            {
+              "id": "o2",
+              "text": "Guest"
+            },
+            {
+              "id": "o3",
+              "text": "Owner"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'invitado'?",
           "options": [
-            { "id": "o1", "text": "Guest" },
-            { "id": "o2", "text": "Host" },
-            { "id": "o3", "text": "Friend" }
+            {
+              "id": "o1",
+              "text": "Guest"
+            },
+            {
+              "id": "o2",
+              "text": "Host"
+            },
+            {
+              "id": "o3",
+              "text": "Friend"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'globos'?",
           "options": [
-            { "id": "o1", "text": "Balloons" },
-            { "id": "o2", "text": "Balls" },
-            { "id": "o3", "text": "Airs" }
+            {
+              "id": "o1",
+              "text": "Balloons"
+            },
+            {
+              "id": "o2",
+              "text": "Balls"
+            },
+            {
+              "id": "o3",
+              "text": "Airs"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'decoración'?",
           "options": [
-            { "id": "o1", "text": "Decorations" },
-            { "id": "o2", "text": "Decors" },
-            { "id": "o3", "text": "Styles" }
+            {
+              "id": "o1",
+              "text": "Decorations"
+            },
+            {
+              "id": "o2",
+              "text": "Decors"
+            },
+            {
+              "id": "o3",
+              "text": "Styles"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué debo llevar?'?",
           "options": [
-            { "id": "o1", "text": "What should I bring?" },
-            { "id": "o2", "text": "What I take?" },
-            { "id": "o3", "text": "Which carry?" }
+            {
+              "id": "o1",
+              "text": "What should I bring?"
+            },
+            {
+              "id": "o2",
+              "text": "What I take?"
+            },
+            {
+              "id": "o3",
+              "text": "Which carry?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'puedes traer algo de picar'?",
           "options": [
-            { "id": "o1", "text": "You can bring some snacks" },
-            { "id": "o2", "text": "Bring food small" },
-            { "id": "o3", "text": "Take eat things" }
+            {
+              "id": "o1",
+              "text": "You can bring some snacks"
+            },
+            {
+              "id": "o2",
+              "text": "Bring food small"
+            },
+            {
+              "id": "o3",
+              "text": "Take eat things"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿A qué hora empieza?'?",
           "options": [
-            { "id": "o1", "text": "What time does it start?" },
-            { "id": "o2", "text": "When start party?" },
-            { "id": "o3", "text": "Time of begin?" }
+            {
+              "id": "o1",
+              "text": "What time does it start?"
+            },
+            {
+              "id": "o2",
+              "text": "When start party?"
+            },
+            {
+              "id": "o3",
+              "text": "Time of begin?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -137,14 +227,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Voy a una fiesta de cumpleaños'",
           "options": [
-            { "id": "w1", "text": "to" },
-            { "id": "w2", "text": "going" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "birthday" },
-            { "id": "w5", "text": "I'm" },
-            { "id": "w6", "text": "party" }
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "birthday"
+            },
+            {
+              "id": "w5",
+              "text": "I'm"
+            },
+            {
+              "id": "w6",
+              "text": "party"
+            }
           ],
-          "correct_answer": ["w5", "w2", "w1", "w3", "w4", "w6"],
+          "correct_answer": [
+            "w5",
+            "w2",
+            "w1",
+            "w3",
+            "w4",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -152,15 +267,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Necesitas ayuda con las decoraciones?'",
           "options": [
-            { "id": "w1", "text": "help" },
-            { "id": "w2", "text": "decorations?" },
-            { "id": "w3", "text": "you" },
-            { "id": "w4", "text": "Do" },
-            { "id": "w5", "text": "the" },
-            { "id": "w6", "text": "with" },
-            { "id": "w7", "text": "need" }
+            {
+              "id": "w1",
+              "text": "help"
+            },
+            {
+              "id": "w2",
+              "text": "decorations?"
+            },
+            {
+              "id": "w3",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "Do"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "with"
+            },
+            {
+              "id": "w7",
+              "text": "need"
+            }
           ],
-          "correct_answer": ["w4", "w3", "w7", "w1", "w6", "w5", "w2"],
+          "correct_answer": [
+            "w4",
+            "w3",
+            "w7",
+            "w1",
+            "w6",
+            "w5",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -184,9 +328,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Habrá música?'?",
           "options": [
-            { "id": "o1", "text": "Will there be music?" },
-            { "id": "o2", "text": "Is music there?" },
-            { "id": "o3", "text": "Music have?" }
+            {
+              "id": "o1",
+              "text": "Will there be music?"
+            },
+            {
+              "id": "o2",
+              "text": "Is music there?"
+            },
+            {
+              "id": "o3",
+              "text": "Music have?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -196,9 +349,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'bebidas'?",
           "options": [
-            { "id": "o1", "text": "Drinks / Beverages" },
-            { "id": "o2", "text": "Waters" },
-            { "id": "o3", "text": "Cups" }
+            {
+              "id": "o1",
+              "text": "Drinks / Beverages"
+            },
+            {
+              "id": "o2",
+              "text": "Waters"
+            },
+            {
+              "id": "o3",
+              "text": "Cups"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -208,9 +370,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hielo'?",
           "options": [
-            { "id": "o1", "text": "Ice" },
-            { "id": "o2", "text": "Cold" },
-            { "id": "o3", "text": "Freeze" }
+            {
+              "id": "o1",
+              "text": "Ice"
+            },
+            {
+              "id": "o2",
+              "text": "Cold"
+            },
+            {
+              "id": "o3",
+              "text": "Freeze"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -220,9 +391,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuánta gente viene?'?",
           "options": [
-            { "id": "o1", "text": "How many people are coming?" },
-            { "id": "o2", "text": "How much people?" },
-            { "id": "o3", "text": "Who comes?" }
+            {
+              "id": "o1",
+              "text": "How many people are coming?"
+            },
+            {
+              "id": "o2",
+              "text": "How much people?"
+            },
+            {
+              "id": "o3",
+              "text": "Who comes?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -232,9 +412,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'un regalo'?",
           "options": [
-            { "id": "o1", "text": "A gift / A present" },
-            { "id": "o2", "text": "A prize" },
-            { "id": "o3", "text": "A box" }
+            {
+              "id": "o1",
+              "text": "A gift / A present"
+            },
+            {
+              "id": "o2",
+              "text": "A prize"
+            },
+            {
+              "id": "o3",
+              "text": "A box"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -244,9 +433,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'envolver'?",
           "options": [
-            { "id": "o1", "text": "To wrap" },
-            { "id": "o2", "text": "To cover" },
-            { "id": "o3", "text": "To box" }
+            {
+              "id": "o1",
+              "text": "To wrap"
+            },
+            {
+              "id": "o2",
+              "text": "To cover"
+            },
+            {
+              "id": "o3",
+              "text": "To box"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -256,14 +454,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Tenemos que comprar un regalo'",
           "options": [
-            { "id": "w1", "text": "a" },
-            { "id": "w2", "text": "gift" },
-            { "id": "w3", "text": "to" },
-            { "id": "w4", "text": "We" },
-            { "id": "w5", "text": "buy" },
-            { "id": "w6", "text": "need" }
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "gift"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "We"
+            },
+            {
+              "id": "w5",
+              "text": "buy"
+            },
+            {
+              "id": "w6",
+              "text": "need"
+            }
           ],
-          "correct_answer": ["w4", "w6", "w3", "w5", "w1", "w2"],
+          "correct_answer": [
+            "w4",
+            "w6",
+            "w3",
+            "w5",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -271,13 +494,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Dónde está el papel de regalo?'",
           "options": [
-            { "id": "w1", "text": "wrapping" },
-            { "id": "w2", "text": "paper?" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "Where" },
-            { "id": "w5", "text": "the" }
+            {
+              "id": "w1",
+              "text": "wrapping"
+            },
+            {
+              "id": "w2",
+              "text": "paper?"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "Where"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            }
           ],
-          "correct_answer": ["w4", "w3", "w5", "w1", "w2"],
+          "correct_answer": [
+            "w4",
+            "w3",
+            "w5",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -301,11 +545,27 @@
           "type": "matching",
           "prompt_es": "Une los elementos de la fiesta:",
           "pairs": [
-            { "id": "p1", "left": "Music", "right": "Playlist" },
-            { "id": "p2", "left": "Gift", "right": "Present" },
-            { "id": "p3", "left": "Snacks", "right": "Crisps/Chips" }
+            {
+              "id": "p1",
+              "left": "Music",
+              "right": "Playlist"
+            },
+            {
+              "id": "p2",
+              "left": "Gift",
+              "right": "Present"
+            },
+            {
+              "id": "p3",
+              "left": "Snacks",
+              "right": "Crisps/Chips"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         }
       ]
@@ -319,9 +579,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Bienvenido!'?",
           "options": [
-            { "id": "o1", "text": "Welcome!" },
-            { "id": "o2", "text": "Hello in!" },
-            { "id": "o3", "text": "Good come!" }
+            {
+              "id": "o1",
+              "text": "Welcome!"
+            },
+            {
+              "id": "o2",
+              "text": "Hello in!"
+            },
+            {
+              "id": "o3",
+              "text": "Good come!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -331,9 +600,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pasa, por favor'?",
           "options": [
-            { "id": "o1", "text": "Come in, please" },
-            { "id": "o2", "text": "Pass, please" },
-            { "id": "o3", "text": "Enter now" }
+            {
+              "id": "o1",
+              "text": "Come in, please"
+            },
+            {
+              "id": "o2",
+              "text": "Pass, please"
+            },
+            {
+              "id": "o3",
+              "text": "Enter now"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -343,9 +621,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'puedes dejar tu abrigo aquí'?",
           "options": [
-            { "id": "o1", "text": "You can leave your coat here" },
-            { "id": "o2", "text": "Put jacket here" },
-            { "id": "o3", "text": "Coat location here" }
+            {
+              "id": "o1",
+              "text": "You can leave your coat here"
+            },
+            {
+              "id": "o2",
+              "text": "Put jacket here"
+            },
+            {
+              "id": "o3",
+              "text": "Coat location here"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -355,9 +642,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Quieres algo de beber?'?",
           "options": [
-            { "id": "o1", "text": "Would you like something to drink?" },
-            { "id": "o2", "text": "You want drink?" },
-            { "id": "o3", "text": "Like drink you?" }
+            {
+              "id": "o1",
+              "text": "Would you like something to drink?"
+            },
+            {
+              "id": "o2",
+              "text": "You want drink?"
+            },
+            {
+              "id": "o3",
+              "text": "Like drink you?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -367,9 +663,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sí, por favor'?",
           "options": [
-            { "id": "o1", "text": "Yes, please" },
-            { "id": "o2", "text": "If, please" },
-            { "id": "o3", "text": "Yes, thanks" }
+            {
+              "id": "o1",
+              "text": "Yes, please"
+            },
+            {
+              "id": "o2",
+              "text": "If, please"
+            },
+            {
+              "id": "o3",
+              "text": "Yes, thanks"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -379,9 +684,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'no, gracias'?",
           "options": [
-            { "id": "o1", "text": "No, thank you" },
-            { "id": "o2", "text": "No, please" },
-            { "id": "o3", "text": "Thanks no" }
+            {
+              "id": "o1",
+              "text": "No, thank you"
+            },
+            {
+              "id": "o2",
+              "text": "No, please"
+            },
+            {
+              "id": "o3",
+              "text": "Thanks no"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -391,9 +705,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'encantado de conocerte'?",
           "options": [
-            { "id": "o1", "text": "Nice to meet you" },
-            { "id": "o2", "text": "Happy to see you" },
-            { "id": "o3", "text": "Good meeting" }
+            {
+              "id": "o1",
+              "text": "Nice to meet you"
+            },
+            {
+              "id": "o2",
+              "text": "Happy to see you"
+            },
+            {
+              "id": "o3",
+              "text": "Good meeting"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -403,10 +726,19 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¡Feliz cumpleaños!'",
           "options": [
-            { "id": "w1", "text": "Happy" },
-            { "id": "w2", "text": "birthday!" }
+            {
+              "id": "w1",
+              "text": "Happy"
+            },
+            {
+              "id": "w2",
+              "text": "birthday!"
+            }
           ],
-          "correct_answer": ["w1", "w2"],
+          "correct_answer": [
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -414,13 +746,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿De qué conoces a Sarah?'",
           "options": [
-            { "id": "w1", "text": "How" },
-            { "id": "w2", "text": "Sarah?" },
-            { "id": "w3", "text": "know" },
-            { "id": "w4", "text": "do" },
-            { "id": "w5", "text": "you" }
+            {
+              "id": "w1",
+              "text": "How"
+            },
+            {
+              "id": "w2",
+              "text": "Sarah?"
+            },
+            {
+              "id": "w3",
+              "text": "know"
+            },
+            {
+              "id": "w4",
+              "text": "do"
+            },
+            {
+              "id": "w5",
+              "text": "you"
+            }
           ],
-          "correct_answer": ["w1", "w4", "w5", "w3", "w2"],
+          "correct_answer": [
+            "w1",
+            "w4",
+            "w5",
+            "w3",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -444,9 +797,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Te estás divirtiendo?'?",
           "options": [
-            { "id": "o1", "text": "Are you having fun?" },
-            { "id": "o2", "text": "You fun?" },
-            { "id": "o3", "text": "Is fun you?" }
+            {
+              "id": "o1",
+              "text": "Are you having fun?"
+            },
+            {
+              "id": "o2",
+              "text": "You fun?"
+            },
+            {
+              "id": "o3",
+              "text": "Is fun you?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -456,9 +818,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'me lo estoy pasando muy bien'?",
           "options": [
-            { "id": "o1", "text": "I'm having a great time" },
-            { "id": "o2", "text": "I pass good" },
-            { "id": "o3", "text": "Time is great" }
+            {
+              "id": "o1",
+              "text": "I'm having a great time"
+            },
+            {
+              "id": "o2",
+              "text": "I pass good"
+            },
+            {
+              "id": "o3",
+              "text": "Time is great"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -468,9 +839,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'presentar a alguien'?",
           "options": [
-            { "id": "o1", "text": "To introduce someone" },
-            { "id": "o2", "text": "To present someone" },
-            { "id": "o3", "text": "To say names" }
+            {
+              "id": "o1",
+              "text": "To introduce someone"
+            },
+            {
+              "id": "o2",
+              "text": "To present someone"
+            },
+            {
+              "id": "o3",
+              "text": "To say names"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -480,9 +860,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'déjame que te presente a mi amigo'?",
           "options": [
-            { "id": "o1", "text": "Let me introduce you to my friend" },
-            { "id": "o2", "text": "Present you friend" },
-            { "id": "o3", "text": "Know my friend" }
+            {
+              "id": "o1",
+              "text": "Let me introduce you to my friend"
+            },
+            {
+              "id": "o2",
+              "text": "Present you friend"
+            },
+            {
+              "id": "o3",
+              "text": "Know my friend"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -492,9 +881,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'somos compañeros de trabajo'?",
           "options": [
-            { "id": "o1", "text": "We are colleagues / co-workers" },
-            { "id": "o2", "text": "We are work friends" },
-            { "id": "o3", "text": "We work same" }
+            {
+              "id": "o1",
+              "text": "We are colleagues / co-workers"
+            },
+            {
+              "id": "o2",
+              "text": "We are work friends"
+            },
+            {
+              "id": "o3",
+              "text": "We work same"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -504,9 +902,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nos conocemos de la universidad'?",
           "options": [
-            { "id": "o1", "text": "We know each other from university" },
-            { "id": "o2", "text": "We know in uni" },
-            { "id": "o3", "text": "From college we know" }
+            {
+              "id": "o1",
+              "text": "We know each other from university"
+            },
+            {
+              "id": "o2",
+              "text": "We know in uni"
+            },
+            {
+              "id": "o3",
+              "text": "From college we know"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -516,9 +923,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Quieres bailar?'?",
           "options": [
-            { "id": "o1", "text": "Do you want to dance?" },
-            { "id": "o2", "text": "Dance you?" },
-            { "id": "o3", "text": "Want dance?" }
+            {
+              "id": "o1",
+              "text": "Do you want to dance?"
+            },
+            {
+              "id": "o2",
+              "text": "Dance you?"
+            },
+            {
+              "id": "o3",
+              "text": "Want dance?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -528,13 +944,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Este es mi hermano, David'",
           "options": [
-            { "id": "w1", "text": "This" },
-            { "id": "w2", "text": "my" },
-            { "id": "w3", "text": "brother," },
-            { "id": "w4", "text": "David" },
-            { "id": "w5", "text": "is" }
+            {
+              "id": "w1",
+              "text": "This"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "brother,"
+            },
+            {
+              "id": "w4",
+              "text": "David"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            }
           ],
-          "correct_answer": ["w1", "w5", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w5",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -542,12 +979,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Dónde está la cocina?'",
           "options": [
-            { "id": "w1", "text": "the" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "kitchen?" },
-            { "id": "w4", "text": "Where" }
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "kitchen?"
+            },
+            {
+              "id": "w4",
+              "text": "Where"
+            }
           ],
-          "correct_answer": ["w4", "w2", "w1", "w3"],
+          "correct_answer": [
+            "w4",
+            "w2",
+            "w1",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -601,9 +1055,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tengo que irme'?",
           "options": [
-            { "id": "o1", "text": "I have to go / I must go" },
-            { "id": "o2", "text": "I go now" },
-            { "id": "o3", "text": "I need leave" }
+            {
+              "id": "o1",
+              "text": "I have to go / I must go"
+            },
+            {
+              "id": "o2",
+              "text": "I go now"
+            },
+            {
+              "id": "o3",
+              "text": "I need leave"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -613,9 +1076,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'me temo que me tengo que ir'?",
           "options": [
-            { "id": "o1", "text": "I'm afraid I have to go" },
-            { "id": "o2", "text": "Scared I go" },
-            { "id": "o3", "text": "Maybe I go" }
+            {
+              "id": "o1",
+              "text": "I'm afraid I have to go"
+            },
+            {
+              "id": "o2",
+              "text": "Scared I go"
+            },
+            {
+              "id": "o3",
+              "text": "Maybe I go"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -625,9 +1097,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gracias por invitarme'?",
           "options": [
-            { "id": "o1", "text": "Thanks for inviting me" },
-            { "id": "o2", "text": "Thanks for invite" },
-            { "id": "o3", "text": "Thanks for the come" }
+            {
+              "id": "o1",
+              "text": "Thanks for inviting me"
+            },
+            {
+              "id": "o2",
+              "text": "Thanks for invite"
+            },
+            {
+              "id": "o3",
+              "text": "Thanks for the come"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -637,9 +1118,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ha sido una fiesta genial'?",
           "options": [
-            { "id": "o1", "text": "It's been a great party" },
-            { "id": "o2", "text": "Was good party" },
-            { "id": "o3", "text": "Great party is" }
+            {
+              "id": "o1",
+              "text": "It's been a great party"
+            },
+            {
+              "id": "o2",
+              "text": "Was good party"
+            },
+            {
+              "id": "o3",
+              "text": "Great party is"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -649,9 +1139,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cuídate'?",
           "options": [
-            { "id": "o1", "text": "Take care" },
-            { "id": "o2", "text": "Care you" },
-            { "id": "o3", "text": "Safe go" }
+            {
+              "id": "o1",
+              "text": "Take care"
+            },
+            {
+              "id": "o2",
+              "text": "Care you"
+            },
+            {
+              "id": "o3",
+              "text": "Safe go"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -661,9 +1160,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nos vemos pronto'?",
           "options": [
-            { "id": "o1", "text": "See you soon" },
-            { "id": "o2", "text": "See you fast" },
-            { "id": "o3", "text": "Meet soon" }
+            {
+              "id": "o1",
+              "text": "See you soon"
+            },
+            {
+              "id": "o2",
+              "text": "See you fast"
+            },
+            {
+              "id": "o3",
+              "text": "Meet soon"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -673,9 +1181,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cómo te vas a casa?'?",
           "options": [
-            { "id": "o1", "text": "How are you getting home?" },
-            { "id": "o2", "text": "How you go house?" },
-            { "id": "o3", "text": "Way to home?" }
+            {
+              "id": "o1",
+              "text": "How are you getting home?"
+            },
+            {
+              "id": "o2",
+              "text": "How you go house?"
+            },
+            {
+              "id": "o3",
+              "text": "Way to home?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -685,12 +1202,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Voy a coger un taxi'",
           "options": [
-            { "id": "w1", "text": "I'm" },
-            { "id": "w2", "text": "taking" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "taxi" }
+            {
+              "id": "w1",
+              "text": "I'm"
+            },
+            {
+              "id": "w2",
+              "text": "taking"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "taxi"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -698,14 +1232,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Llámame cuando llegues a casa'",
           "options": [
-            { "id": "w1", "text": "home" },
-            { "id": "w2", "text": "get" },
-            { "id": "w3", "text": "Call" },
-            { "id": "w4", "text": "me" },
-            { "id": "w5", "text": "when" },
-            { "id": "w6", "text": "you" }
+            {
+              "id": "w1",
+              "text": "home"
+            },
+            {
+              "id": "w2",
+              "text": "get"
+            },
+            {
+              "id": "w3",
+              "text": "Call"
+            },
+            {
+              "id": "w4",
+              "text": "me"
+            },
+            {
+              "id": "w5",
+              "text": "when"
+            },
+            {
+              "id": "w6",
+              "text": "you"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w5", "w6", "w2", "w1"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w2",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -729,9 +1288,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'saluda a Tom de mi parte'?",
           "options": [
-            { "id": "o1", "text": "Say hello to Tom for me" },
-            { "id": "o2", "text": "Give hello Tom" },
-            { "id": "o3", "text": "Hello Tom from me" }
+            {
+              "id": "o1",
+              "text": "Say hello to Tom for me"
+            },
+            {
+              "id": "o2",
+              "text": "Give hello Tom"
+            },
+            {
+              "id": "o3",
+              "text": "Hello Tom from me"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -741,9 +1309,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Necesitas que te lleven?'?",
           "options": [
-            { "id": "o1", "text": "Do you need a lift?" },
-            { "id": "o2", "text": "Need car?" },
-            { "id": "o3", "text": "Want go car?" }
+            {
+              "id": "o1",
+              "text": "Do you need a lift?"
+            },
+            {
+              "id": "o2",
+              "text": "Need car?"
+            },
+            {
+              "id": "o3",
+              "text": "Want go car?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -753,9 +1330,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gracias, pero voy andando'?",
           "options": [
-            { "id": "o1", "text": "Thanks, but I'm walking" },
-            { "id": "o2", "text": "Thanks, walk me" },
-            { "id": "o3", "text": "No, I go foot" }
+            {
+              "id": "o1",
+              "text": "Thanks, but I'm walking"
+            },
+            {
+              "id": "o2",
+              "text": "Thanks, walk me"
+            },
+            {
+              "id": "o3",
+              "text": "No, I go foot"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -765,9 +1351,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'está cerca'?",
           "options": [
-            { "id": "o1", "text": "It's nearby / It's close" },
-            { "id": "o2", "text": "It's near house" },
-            { "id": "o3", "text": "Close is" }
+            {
+              "id": "o1",
+              "text": "It's nearby / It's close"
+            },
+            {
+              "id": "o2",
+              "text": "It's near house"
+            },
+            {
+              "id": "o3",
+              "text": "Close is"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -777,9 +1372,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Has visto mis llaves?'?",
           "options": [
-            { "id": "o1", "text": "Have you seen my keys?" },
-            { "id": "o2", "text": "Keys see you?" },
-            { "id": "o3", "text": "Where keys?" }
+            {
+              "id": "o1",
+              "text": "Have you seen my keys?"
+            },
+            {
+              "id": "o2",
+              "text": "Keys see you?"
+            },
+            {
+              "id": "o3",
+              "text": "Where keys?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -789,9 +1393,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gracias por todo'?",
           "options": [
-            { "id": "o1", "text": "Thanks for everything" },
-            { "id": "o2", "text": "Thanks for all" },
-            { "id": "o3", "text": "All thanks" }
+            {
+              "id": "o1",
+              "text": "Thanks for everything"
+            },
+            {
+              "id": "o2",
+              "text": "Thanks for all"
+            },
+            {
+              "id": "o3",
+              "text": "All thanks"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -801,12 +1414,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Nos vemos el lunes'",
           "options": [
-            { "id": "w1", "text": "See" },
-            { "id": "w2", "text": "on" },
-            { "id": "w3", "text": "Monday" },
-            { "id": "w4", "text": "you" }
+            {
+              "id": "w1",
+              "text": "See"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w3",
+              "text": "Monday"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            }
           ],
-          "correct_answer": ["w1", "w4", "w2", "w3"],
+          "correct_answer": [
+            "w1",
+            "w4",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -814,12 +1444,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Dónde está mi bolso?'",
           "options": [
-            { "id": "w1", "text": "my" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "bag?" },
-            { "id": "w4", "text": "Where" }
+            {
+              "id": "w1",
+              "text": "my"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "bag?"
+            },
+            {
+              "id": "w4",
+              "text": "Where"
+            }
           ],
-          "correct_answer": ["w4", "w2", "w1", "w3"],
+          "correct_answer": [
+            "w4",
+            "w2",
+            "w1",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -867,9 +1514,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'llegar sano y salvo'?",
           "options": [
-            { "id": "o1", "text": "Get home safe" },
-            { "id": "o2", "text": "Arrive good" },
-            { "id": "o3", "text": "Safe come" }
+            {
+              "id": "o1",
+              "text": "Get home safe"
+            },
+            {
+              "id": "o2",
+              "text": "Arrive good"
+            },
+            {
+              "id": "o3",
+              "text": "Safe come"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -884,31 +1540,124 @@
           "interaction_id": "U43_I76",
           "type": "word-search",
           "prompt_es": "Busca palabras de fiesta:",
-          "words": ["PARTY", "GUEST", "HOST", "MUSIC", "DRINKS", "DANCE", "GIFT", "CAKE", "HAPPY", "FUN"],
+          "words": [
+            "PARTY",
+            "GUEST",
+            "HOST",
+            "MUSIC",
+            "DRINKS",
+            "DANCE",
+            "GIFT",
+            "CAKE",
+            "HAPPY",
+            "FUN"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "PARTY", "clue": "Social event" },
-            { "word": "GUEST", "clue": "Invited person" },
-            { "word": "HOST", "clue": "Organiser" },
-            { "word": "MUSIC", "clue": "Sounds for dancing" },
-            { "word": "DRINKS", "clue": "Liquids" },
-            { "word": "DANCE", "clue": "Move to music" },
-            { "word": "GIFT", "clue": "Present" },
-            { "word": "CAKE", "clue": "Sweet food" },
-            { "word": "HAPPY", "clue": "Feeling good" },
-            { "word": "FUN", "clue": "Enjoyment" }
+            {
+              "word": "PARTY",
+              "clue": "Social event"
+            },
+            {
+              "word": "GUEST",
+              "clue": "Invited person"
+            },
+            {
+              "word": "HOST",
+              "clue": "Organiser"
+            },
+            {
+              "word": "MUSIC",
+              "clue": "Sounds for dancing"
+            },
+            {
+              "word": "DRINKS",
+              "clue": "Liquids"
+            },
+            {
+              "word": "DANCE",
+              "clue": "Move to music"
+            },
+            {
+              "word": "GIFT",
+              "clue": "Present"
+            },
+            {
+              "word": "CAKE",
+              "clue": "Sweet food"
+            },
+            {
+              "word": "HAPPY",
+              "clue": "Feeling good"
+            },
+            {
+              "word": "FUN",
+              "clue": "Enjoyment"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U43_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de fiestas:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "CAKE", "clue": "Sweet birthday food", "direction": "across", "row": 0, "col": 0 },
-            { "word": "HOST", "clue": "Party organiser", "direction": "down", "row": 0, "col": 0 },
-            { "word": "GIFT", "clue": "A present", "direction": "across", "row": 2, "col": 0 },
-            { "word": "FUN", "clue": "Enjoyment", "direction": "down", "row": 0, "col": 3 }
+            {
+              "word": "DECORATIONS",
+              "clue": "Traducción de: decoración",
+              "direction": "across",
+              "row": 10,
+              "col": 4
+            },
+            {
+              "word": "BALLOONS",
+              "clue": "Traducción de: globos",
+              "direction": "down",
+              "row": 6,
+              "col": 7
+            },
+            {
+              "word": "SNACKS",
+              "clue": "Traducción de: Crisps/Chips",
+              "direction": "down",
+              "row": 9,
+              "col": 13
+            },
+            {
+              "word": "MUSIC",
+              "clue": "Traducción de: Playlist",
+              "direction": "down",
+              "row": 7,
+              "col": 11
+            },
+            {
+              "word": "GUEST",
+              "clue": "Traducción de: invitado",
+              "direction": "down",
+              "row": 8,
+              "col": 5
+            },
+            {
+              "word": "GIFT",
+              "clue": "Traducción de: Present",
+              "direction": "across",
+              "row": 12,
+              "col": 2
+            },
+            {
+              "word": "HOST",
+              "clue": "Traducción de: anfitrión",
+              "direction": "across",
+              "row": 14,
+              "col": 11
+            },
+            {
+              "word": "ICE",
+              "clue": "Traducción de: hielo",
+              "direction": "down",
+              "row": 12,
+              "col": 3
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -941,9 +1690,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'apagar las velas'?",
           "options": [
-            { "id": "o1", "text": "To blow out the candles" },
-            { "id": "o2", "text": "To stop the fire" },
-            { "id": "o3", "text": "To blow lights" }
+            {
+              "id": "o1",
+              "text": "To blow out the candles"
+            },
+            {
+              "id": "o2",
+              "text": "To stop the fire"
+            },
+            {
+              "id": "o3",
+              "text": "To blow lights"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -953,9 +1711,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pedir un deseo'?",
           "options": [
-            { "id": "o1", "text": "To make a wish" },
-            { "id": "o2", "text": "To say a want" },
-            { "id": "o3", "text": "To dream something" }
+            {
+              "id": "o1",
+              "text": "To make a wish"
+            },
+            {
+              "id": "o2",
+              "text": "To say a want"
+            },
+            {
+              "id": "o3",
+              "text": "To dream something"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -965,9 +1732,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'abrir los regalos'?",
           "options": [
-            { "id": "o1", "text": "To open the presents" },
-            { "id": "o2", "text": "To box out gifts" },
-            { "id": "o3", "text": "To see gifts" }
+            {
+              "id": "o1",
+              "text": "To open the presents"
+            },
+            {
+              "id": "o2",
+              "text": "To box out gifts"
+            },
+            {
+              "id": "o3",
+              "text": "To see gifts"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -977,9 +1753,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Quién más viene?'?",
           "options": [
-            { "id": "o1", "text": "Who else is coming?" },
-            { "id": "o2", "text": "Who more comes?" },
-            { "id": "o3", "text": "Others coming?" }
+            {
+              "id": "o1",
+              "text": "Who else is coming?"
+            },
+            {
+              "id": "o2",
+              "text": "Who more comes?"
+            },
+            {
+              "id": "o3",
+              "text": "Others coming?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -989,9 +1774,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'todo el mundo'?",
           "options": [
-            { "id": "o1", "text": "Everybody / Everyone" },
-            { "id": "o2", "text": "All world" },
-            { "id": "o3", "text": "All people" }
+            {
+              "id": "o1",
+              "text": "Everybody / Everyone"
+            },
+            {
+              "id": "o2",
+              "text": "All world"
+            },
+            {
+              "id": "o3",
+              "text": "All people"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1001,9 +1795,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'algunas personas'?",
           "options": [
-            { "id": "o1", "text": "Some people" },
-            { "id": "o2", "text": "Any people" },
-            { "id": "o3", "text": "Persons" }
+            {
+              "id": "o1",
+              "text": "Some people"
+            },
+            {
+              "id": "o2",
+              "text": "Any people"
+            },
+            {
+              "id": "o3",
+              "text": "Persons"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1013,9 +1816,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nadie'?",
           "options": [
-            { "id": "o1", "text": "Nobody / No one" },
-            { "id": "o2", "text": "None person" },
-            { "id": "o3", "text": "No people" }
+            {
+              "id": "o1",
+              "text": "Nobody / No one"
+            },
+            {
+              "id": "o2",
+              "text": "None person"
+            },
+            {
+              "id": "o3",
+              "text": "No people"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1025,9 +1837,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Estás listo para irte?'?",
           "options": [
-            { "id": "o1", "text": "Are you ready to leave?" },
-            { "id": "o2", "text": "Ready to go?" },
-            { "id": "o3", "text": "You go ready?" }
+            {
+              "id": "o1",
+              "text": "Are you ready to leave?"
+            },
+            {
+              "id": "o2",
+              "text": "Ready to go?"
+            },
+            {
+              "id": "o3",
+              "text": "You go ready?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1037,9 +1858,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'espera un momento'?",
           "options": [
-            { "id": "o1", "text": "Wait a moment" },
-            { "id": "o2", "text": "Stay second" },
-            { "id": "o3", "text": "Wait time" }
+            {
+              "id": "o1",
+              "text": "Wait a moment"
+            },
+            {
+              "id": "o2",
+              "text": "Stay second"
+            },
+            {
+              "id": "o3",
+              "text": "Wait time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1049,9 +1879,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'casi termino'?",
           "options": [
-            { "id": "o1", "text": "I'm almost finished" },
-            { "id": "o2", "text": "I end soon" },
-            { "id": "o3", "text": "Near finish" }
+            {
+              "id": "o1",
+              "text": "I'm almost finished"
+            },
+            {
+              "id": "o2",
+              "text": "I end soon"
+            },
+            {
+              "id": "o3",
+              "text": "Near finish"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1061,9 +1900,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Vives cerca de aquí?'?",
           "options": [
-            { "id": "o1", "text": "Do you live near here?" },
-            { "id": "o2", "text": "Live here close?" },
-            { "id": "o3", "text": "You live near?" }
+            {
+              "id": "o1",
+              "text": "Do you live near here?"
+            },
+            {
+              "id": "o2",
+              "text": "Live here close?"
+            },
+            {
+              "id": "o3",
+              "text": "You live near?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1073,9 +1921,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cómo estuvo la fiesta?'?",
           "options": [
-            { "id": "o1", "text": "How was the party?" },
-            { "id": "o2", "text": "Party was good?" },
-            { "id": "o3", "text": "How party?" }
+            {
+              "id": "o1",
+              "text": "How was the party?"
+            },
+            {
+              "id": "o2",
+              "text": "Party was good?"
+            },
+            {
+              "id": "o3",
+              "text": "How party?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -1085,9 +1942,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estuvo muy divertida'?",
           "options": [
-            { "id": "o1", "text": "It was very fun" },
-            { "id": "o2", "text": "Was fun much" },
-            { "id": "o3", "text": "Fun party was" }
+            {
+              "id": "o1",
+              "text": "It was very fun"
+            },
+            {
+              "id": "o2",
+              "text": "Was fun much"
+            },
+            {
+              "id": "o3",
+              "text": "Fun party was"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1097,9 +1963,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hice muchos amigos nuevos'?",
           "options": [
-            { "id": "o1", "text": "I made many new friends" },
-            { "id": "o2", "text": "I have new friends" },
-            { "id": "o3", "text": "Many friends new" }
+            {
+              "id": "o1",
+              "text": "I made many new friends"
+            },
+            {
+              "id": "o2",
+              "text": "I have new friends"
+            },
+            {
+              "id": "o3",
+              "text": "Many friends new"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1109,9 +1984,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'deberíamos quedar otra vez'?",
           "options": [
-            { "id": "o1", "text": "We should meet again" },
-            { "id": "o2", "text": "Meet again please" },
-            { "id": "o3", "text": "Must see again" }
+            {
+              "id": "o1",
+              "text": "We should meet again"
+            },
+            {
+              "id": "o2",
+              "text": "Meet again please"
+            },
+            {
+              "id": "o3",
+              "text": "Must see again"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1121,9 +2005,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pásame tu número'?",
           "options": [
-            { "id": "o1", "text": "Give me your number" },
-            { "id": "o2", "text": "What number you?" },
-            { "id": "o3", "text": "Number please" }
+            {
+              "id": "o1",
+              "text": "Give me your number"
+            },
+            {
+              "id": "o2",
+              "text": "What number you?"
+            },
+            {
+              "id": "o3",
+              "text": "Number please"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1133,9 +2026,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'te enviaré un mensaje'?",
           "options": [
-            { "id": "o1", "text": "I'll text you / I'll send you a message" },
-            { "id": "o2", "text": "I text you" },
-            { "id": "o3", "text": "Message you I" }
+            {
+              "id": "o1",
+              "text": "I'll text you / I'll send you a message"
+            },
+            {
+              "id": "o2",
+              "text": "I text you"
+            },
+            {
+              "id": "o3",
+              "text": "Message you I"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1145,9 +2047,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Buenas noches!' (despedida)?",
           "options": [
-            { "id": "o1", "text": "Goodnight!" },
-            { "id": "o2", "text": "Good night!" },
-            { "id": "o3", "text": "Evening!" }
+            {
+              "id": "o1",
+              "text": "Goodnight!"
+            },
+            {
+              "id": "o2",
+              "text": "Good night!"
+            },
+            {
+              "id": "o3",
+              "text": "Evening!"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1157,9 +2068,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dulces sueños'?",
           "options": [
-            { "id": "o1", "text": "Sweet dreams" },
-            { "id": "o2", "text": "Sugar dreams" },
-            { "id": "o3", "text": "Sleep well" }
+            {
+              "id": "o1",
+              "text": "Sweet dreams"
+            },
+            {
+              "id": "o2",
+              "text": "Sugar dreams"
+            },
+            {
+              "id": "o3",
+              "text": "Sleep well"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1169,9 +2089,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nos vemos mañana'?",
           "options": [
-            { "id": "o1", "text": "See you tomorrow" },
-            { "id": "o2", "text": "Meet tomorrow" },
-            { "id": "o3", "text": "Until tomorrow" }
+            {
+              "id": "o1",
+              "text": "See you tomorrow"
+            },
+            {
+              "id": "o2",
+              "text": "Meet tomorrow"
+            },
+            {
+              "id": "o3",
+              "text": "Until tomorrow"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"

@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'viaje de negocios'?",
           "options": [
-            { "id": "o1", "text": "Business trip" },
-            { "id": "o2", "text": "Work travel" },
-            { "id": "o3", "text": "Office voyage" }
+            {
+              "id": "o1",
+              "text": "Business trip"
+            },
+            {
+              "id": "o2",
+              "text": "Work travel"
+            },
+            {
+              "id": "o3",
+              "text": "Office voyage"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'vuelo'?",
           "options": [
-            { "id": "o1", "text": "Flight" },
-            { "id": "o2", "text": "Fly" },
-            { "id": "o3", "text": "Plane" }
+            {
+              "id": "o1",
+              "text": "Flight"
+            },
+            {
+              "id": "o2",
+              "text": "Fly"
+            },
+            {
+              "id": "o3",
+              "text": "Plane"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aeropuerto'?",
           "options": [
-            { "id": "o1", "text": "Airport" },
-            { "id": "o2", "text": "Air station" },
-            { "id": "o3", "text": "Plane port" }
+            {
+              "id": "o1",
+              "text": "Airport"
+            },
+            {
+              "id": "o2",
+              "text": "Air station"
+            },
+            {
+              "id": "o3",
+              "text": "Plane port"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tarjeta de embarque'?",
           "options": [
-            { "id": "o1", "text": "Boarding pass" },
-            { "id": "o2", "text": "Entry card" },
-            { "id": "o3", "text": "Plane ticket" }
+            {
+              "id": "o1",
+              "text": "Boarding pass"
+            },
+            {
+              "id": "o2",
+              "text": "Entry card"
+            },
+            {
+              "id": "o3",
+              "text": "Plane ticket"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'puerta de embarque'?",
           "options": [
-            { "id": "o1", "text": "Gate" },
-            { "id": "o2", "text": "Door" },
-            { "id": "o3", "text": "Entrance" }
+            {
+              "id": "o1",
+              "text": "Gate"
+            },
+            {
+              "id": "o2",
+              "text": "Door"
+            },
+            {
+              "id": "o3",
+              "text": "Entrance"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'equipaje de mano'?",
           "options": [
-            { "id": "o1", "text": "Carry-on luggage / Hand luggage" },
-            { "id": "o2", "text": "Small bag" },
-            { "id": "o3", "text": "Backpack" }
+            {
+              "id": "o1",
+              "text": "Carry-on luggage / Hand luggage"
+            },
+            {
+              "id": "o2",
+              "text": "Small bag"
+            },
+            {
+              "id": "o3",
+              "text": "Backpack"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'facturar' (el equipaje)?",
           "options": [
-            { "id": "o1", "text": "To check in" },
-            { "id": "o2", "text": "To register" },
-            { "id": "o3", "text": "To give bag" }
+            {
+              "id": "o1",
+              "text": "To check in"
+            },
+            {
+              "id": "o2",
+              "text": "To register"
+            },
+            {
+              "id": "o3",
+              "text": "To give bag"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pasaporte'?",
           "options": [
-            { "id": "o1", "text": "Passport" },
-            { "id": "o2", "text": "ID card" },
-            { "id": "o3", "text": "Travel book" }
+            {
+              "id": "o1",
+              "text": "Passport"
+            },
+            {
+              "id": "o2",
+              "text": "ID card"
+            },
+            {
+              "id": "o3",
+              "text": "Travel book"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'seguridad'?",
           "options": [
-            { "id": "o1", "text": "Security" },
-            { "id": "o2", "text": "Control" },
-            { "id": "o3", "text": "Police" }
+            {
+              "id": "o1",
+              "text": "Security"
+            },
+            {
+              "id": "o2",
+              "text": "Control"
+            },
+            {
+              "id": "o3",
+              "text": "Police"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aduana'?",
           "options": [
-            { "id": "o1", "text": "Customs" },
-            { "id": "o2", "text": "Border" },
-            { "id": "o3", "text": "Tax office" }
+            {
+              "id": "o1",
+              "text": "Customs"
+            },
+            {
+              "id": "o2",
+              "text": "Border"
+            },
+            {
+              "id": "o3",
+              "text": "Tax office"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,13 +227,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Estoy en un viaje de negocios'",
           "options": [
-            { "id": "w1", "text": "a" },
-            { "id": "w2", "text": "on" },
-            { "id": "w3", "text": "trip" },
-            { "id": "w4", "text": "business" },
-            { "id": "w5", "text": "I'm" }
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w3",
+              "text": "trip"
+            },
+            {
+              "id": "w4",
+              "text": "business"
+            },
+            {
+              "id": "w5",
+              "text": "I'm"
+            }
           ],
-          "correct_answer": ["w5", "w2", "w1", "w4", "w3"],
+          "correct_answer": [
+            "w5",
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -151,12 +262,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Dónde está mi puerta?'",
           "options": [
-            { "id": "w1", "text": "gate?" },
-            { "id": "w2", "text": "my" },
-            { "id": "w3", "text": "Where" },
-            { "id": "w4", "text": "is" }
+            {
+              "id": "w1",
+              "text": "gate?"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "Where"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w2", "w1"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w2",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -180,9 +308,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'retrasado'?",
           "options": [
-            { "id": "o1", "text": "Delayed" },
-            { "id": "o2", "text": "Late" },
-            { "id": "o3", "text": "Stopped" }
+            {
+              "id": "o1",
+              "text": "Delayed"
+            },
+            {
+              "id": "o2",
+              "text": "Late"
+            },
+            {
+              "id": "o3",
+              "text": "Stopped"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -192,9 +329,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cancelado'?",
           "options": [
-            { "id": "o1", "text": "Cancelled" },
-            { "id": "o2", "text": "No flight" },
-            { "id": "o3", "text": "Finished" }
+            {
+              "id": "o1",
+              "text": "Cancelled"
+            },
+            {
+              "id": "o2",
+              "text": "No flight"
+            },
+            {
+              "id": "o3",
+              "text": "Finished"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -204,9 +350,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'a tiempo'?",
           "options": [
-            { "id": "o1", "text": "On time" },
-            { "id": "o2", "text": "Ready" },
-            { "id": "o3", "text": "In hour" }
+            {
+              "id": "o1",
+              "text": "On time"
+            },
+            {
+              "id": "o2",
+              "text": "Ready"
+            },
+            {
+              "id": "o3",
+              "text": "In hour"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -216,9 +371,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'despegue'?",
           "options": [
-            { "id": "o1", "text": "Take-off" },
-            { "id": "o2", "text": "Start" },
-            { "id": "o3", "text": "Up" }
+            {
+              "id": "o1",
+              "text": "Take-off"
+            },
+            {
+              "id": "o2",
+              "text": "Start"
+            },
+            {
+              "id": "o3",
+              "text": "Up"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -228,9 +392,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aterrizaje'?",
           "options": [
-            { "id": "o1", "text": "Landing" },
-            { "id": "o2", "text": "Down" },
-            { "id": "o3", "text": "Stop" }
+            {
+              "id": "o1",
+              "text": "Landing"
+            },
+            {
+              "id": "o2",
+              "text": "Down"
+            },
+            {
+              "id": "o3",
+              "text": "Stop"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -240,9 +413,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'asiento'?",
           "options": [
-            { "id": "o1", "text": "Seat" },
-            { "id": "o2", "text": "Chair" },
-            { "id": "o3", "text": "Place" }
+            {
+              "id": "o1",
+              "text": "Seat"
+            },
+            {
+              "id": "o2",
+              "text": "Chair"
+            },
+            {
+              "id": "o3",
+              "text": "Place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -252,12 +434,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'El vuelo está retrasado'",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "The" },
-            { "id": "w3", "text": "delayed" },
-            { "id": "w4", "text": "flight" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "delayed"
+            },
+            {
+              "id": "w4",
+              "text": "flight"
+            }
           ],
-          "correct_answer": ["w2", "w4", "w1", "w3"],
+          "correct_answer": [
+            "w2",
+            "w4",
+            "w1",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -265,12 +464,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Es este mi asiento?'",
           "options": [
-            { "id": "w1", "text": "seat?" },
-            { "id": "w2", "text": "Is" },
-            { "id": "w3", "text": "my" },
-            { "id": "w4", "text": "this" }
+            {
+              "id": "w1",
+              "text": "seat?"
+            },
+            {
+              "id": "w2",
+              "text": "Is"
+            },
+            {
+              "id": "w3",
+              "text": "my"
+            },
+            {
+              "id": "w4",
+              "text": "this"
+            }
           ],
-          "correct_answer": ["w2", "w4", "w3", "w1"],
+          "correct_answer": [
+            "w2",
+            "w4",
+            "w3",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -294,11 +510,27 @@
           "type": "matching",
           "prompt_es": "Une los términos del aeropuerto:",
           "pairs": [
-            { "id": "p1", "left": "Passport", "right": "Pasaporte" },
-            { "id": "p2", "left": "Gate", "right": "Puerta" },
-            { "id": "p3", "left": "Luggage", "right": "Equipaje" }
+            {
+              "id": "p1",
+              "left": "Passport",
+              "right": "Pasaporte"
+            },
+            {
+              "id": "p2",
+              "left": "Gate",
+              "right": "Puerta"
+            },
+            {
+              "id": "p3",
+              "left": "Luggage",
+              "right": "Equipaje"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         }
       ]
@@ -312,9 +544,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'taxi'?",
           "options": [
-            { "id": "o1", "text": "Taxi / Cab" },
-            { "id": "o2", "text": "Car service" },
-            { "id": "o3", "text": "Driver" }
+            {
+              "id": "o1",
+              "text": "Taxi / Cab"
+            },
+            {
+              "id": "o2",
+              "text": "Car service"
+            },
+            {
+              "id": "o3",
+              "text": "Driver"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -324,9 +565,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'recibo'?",
           "options": [
-            { "id": "o1", "text": "Receipt" },
-            { "id": "o2", "text": "Paper" },
-            { "id": "o3", "text": "Ticket" }
+            {
+              "id": "o1",
+              "text": "Receipt"
+            },
+            {
+              "id": "o2",
+              "text": "Paper"
+            },
+            {
+              "id": "o3",
+              "text": "Ticket"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -336,9 +586,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gastos'?",
           "options": [
-            { "id": "o1", "text": "Expenses" },
-            { "id": "o2", "text": "Costs" },
-            { "id": "o3", "text": "Bills" }
+            {
+              "id": "o1",
+              "text": "Expenses"
+            },
+            {
+              "id": "o2",
+              "text": "Costs"
+            },
+            {
+              "id": "o3",
+              "text": "Bills"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -348,9 +607,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'alquiler de coches'?",
           "options": [
-            { "id": "o1", "text": "Car rental" },
-            { "id": "o2", "text": "Rent car" },
-            { "id": "o3", "text": "Borrow car" }
+            {
+              "id": "o1",
+              "text": "Car rental"
+            },
+            {
+              "id": "o2",
+              "text": "Rent car"
+            },
+            {
+              "id": "o3",
+              "text": "Borrow car"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -360,9 +628,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'itinerario'?",
           "options": [
-            { "id": "o1", "text": "Itinerary" },
-            { "id": "o2", "text": "Plan" },
-            { "id": "o3", "text": "Map" }
+            {
+              "id": "o1",
+              "text": "Itinerary"
+            },
+            {
+              "id": "o2",
+              "text": "Plan"
+            },
+            {
+              "id": "o3",
+              "text": "Map"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -372,9 +649,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tren de alta velocidad'?",
           "options": [
-            { "id": "o1", "text": "High-speed train" },
-            { "id": "o2", "text": "Fast train" },
-            { "id": "o3", "text": "Quick rail" }
+            {
+              "id": "o1",
+              "text": "High-speed train"
+            },
+            {
+              "id": "o2",
+              "text": "Fast train"
+            },
+            {
+              "id": "o3",
+              "text": "Quick rail"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -384,9 +670,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'chofer'?",
           "options": [
-            { "id": "o1", "text": "Chauffeur / Driver" },
-            { "id": "o2", "text": "Pilot" },
-            { "id": "o3", "text": "Captain" }
+            {
+              "id": "o1",
+              "text": "Chauffeur / Driver"
+            },
+            {
+              "id": "o2",
+              "text": "Pilot"
+            },
+            {
+              "id": "o3",
+              "text": "Captain"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -396,14 +691,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Puedo tener un recibo, por favor?'",
           "options": [
-            { "id": "w1", "text": "a" },
-            { "id": "w2", "text": "please?" },
-            { "id": "w3", "text": "Can" },
-            { "id": "w4", "text": "have" },
-            { "id": "w5", "text": "receipt," },
-            { "id": "w6", "text": "I" }
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "please?"
+            },
+            {
+              "id": "w3",
+              "text": "Can"
+            },
+            {
+              "id": "w4",
+              "text": "have"
+            },
+            {
+              "id": "w5",
+              "text": "receipt,"
+            },
+            {
+              "id": "w6",
+              "text": "I"
+            }
           ],
-          "correct_answer": ["w3", "w6", "w4", "w1", "w5", "w2"],
+          "correct_answer": [
+            "w3",
+            "w6",
+            "w4",
+            "w1",
+            "w5",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -411,14 +731,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Necesito alquilar un coche'",
           "options": [
-            { "id": "w1", "text": "car" },
-            { "id": "w2", "text": "rent" },
-            { "id": "w3", "text": "I" },
-            { "id": "w4", "text": "need" },
-            { "id": "w5", "text": "a" },
-            { "id": "w6", "text": "to" }
+            {
+              "id": "w1",
+              "text": "car"
+            },
+            {
+              "id": "w2",
+              "text": "rent"
+            },
+            {
+              "id": "w3",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "need"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "to"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w6", "w2", "w5", "w1"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w6",
+            "w2",
+            "w5",
+            "w1"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -442,9 +787,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'enlace / conexión' (vuelo)?",
           "options": [
-            { "id": "o1", "text": "Connection / Connecting flight" },
-            { "id": "o2", "text": "Link" },
-            { "id": "o3", "text": "Next plane" }
+            {
+              "id": "o1",
+              "text": "Connection / Connecting flight"
+            },
+            {
+              "id": "o2",
+              "text": "Link"
+            },
+            {
+              "id": "o3",
+              "text": "Next plane"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -454,9 +808,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'escala'?",
           "options": [
-            { "id": "o1", "text": "Layover / Stopover" },
-            { "id": "o2", "text": "Wait" },
-            { "id": "o3", "text": "Pause" }
+            {
+              "id": "o1",
+              "text": "Layover / Stopover"
+            },
+            {
+              "id": "o2",
+              "text": "Wait"
+            },
+            {
+              "id": "o3",
+              "text": "Pause"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -466,9 +829,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ida y vuelta'?",
           "options": [
-            { "id": "o1", "text": "Round trip / Return ticket" },
-            { "id": "o2", "text": "Two way" },
-            { "id": "o3", "text": "Go and back" }
+            {
+              "id": "o1",
+              "text": "Round trip / Return ticket"
+            },
+            {
+              "id": "o2",
+              "text": "Two way"
+            },
+            {
+              "id": "o3",
+              "text": "Go and back"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -478,9 +850,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'solo ida'?",
           "options": [
-            { "id": "o1", "text": "One way / Single ticket" },
-            { "id": "o2", "text": "Only go" },
-            { "id": "o3", "text": "First way" }
+            {
+              "id": "o1",
+              "text": "One way / Single ticket"
+            },
+            {
+              "id": "o2",
+              "text": "Only go"
+            },
+            {
+              "id": "o3",
+              "text": "First way"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -490,9 +871,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reserva'?",
           "options": [
-            { "id": "o1", "text": "Reservation / Booking" },
-            { "id": "o2", "text": "Save" },
-            { "id": "o3", "text": "Note" }
+            {
+              "id": "o1",
+              "text": "Reservation / Booking"
+            },
+            {
+              "id": "o2",
+              "text": "Save"
+            },
+            {
+              "id": "o3",
+              "text": "Note"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -502,9 +892,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'confirmar'?",
           "options": [
-            { "id": "o1", "text": "To confirm" },
-            { "id": "o2", "text": "To check" },
-            { "id": "o3", "text": "To say yes" }
+            {
+              "id": "o1",
+              "text": "To confirm"
+            },
+            {
+              "id": "o2",
+              "text": "To check"
+            },
+            {
+              "id": "o3",
+              "text": "To say yes"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -514,9 +913,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'clase ejecutiva'?",
           "options": [
-            { "id": "o1", "text": "Business class" },
-            { "id": "o2", "text": "First class" },
-            { "id": "o3", "text": "High class" }
+            {
+              "id": "o1",
+              "text": "Business class"
+            },
+            {
+              "id": "o2",
+              "text": "First class"
+            },
+            {
+              "id": "o3",
+              "text": "High class"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -526,9 +934,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'clase turista'?",
           "options": [
-            { "id": "o1", "text": "Economy class / Coach" },
-            { "id": "o2", "text": "Travel class" },
-            { "id": "o3", "text": "Low class" }
+            {
+              "id": "o1",
+              "text": "Economy class / Coach"
+            },
+            {
+              "id": "o2",
+              "text": "Travel class"
+            },
+            {
+              "id": "o3",
+              "text": "Low class"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -538,14 +955,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Tengo un billete de ida y vuelta'",
           "options": [
-            { "id": "w1", "text": "a" },
-            { "id": "w2", "text": "have" },
-            { "id": "w3", "text": "I" },
-            { "id": "w4", "text": "trip" },
-            { "id": "w5", "text": "round" },
-            { "id": "w6", "text": "ticket" }
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "trip"
+            },
+            {
+              "id": "w5",
+              "text": "round"
+            },
+            {
+              "id": "w6",
+              "text": "ticket"
+            }
           ],
-          "correct_answer": ["w3", "w2", "w1", "w5", "w4", "w6"],
+          "correct_answer": [
+            "w3",
+            "w2",
+            "w1",
+            "w5",
+            "w4",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -553,13 +995,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi conexión es en Londres'",
           "options": [
-            { "id": "w1", "text": "connection" },
-            { "id": "w2", "text": "London" },
-            { "id": "w3", "text": "My" },
-            { "id": "w4", "text": "in" },
-            { "id": "w5", "text": "is" }
+            {
+              "id": "w1",
+              "text": "connection"
+            },
+            {
+              "id": "w2",
+              "text": "London"
+            },
+            {
+              "id": "w3",
+              "text": "My"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            }
           ],
-          "correct_answer": ["w3", "w1", "w5", "w4", "w2"],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w5",
+            "w4",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -605,9 +1068,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'registrarse' (hotel)?",
           "options": [
-            { "id": "o1", "text": "To check in" },
-            { "id": "o2", "text": "To log in" },
-            { "id": "o3", "text": "To enter" }
+            {
+              "id": "o1",
+              "text": "To check in"
+            },
+            {
+              "id": "o2",
+              "text": "To log in"
+            },
+            {
+              "id": "o3",
+              "text": "To enter"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -617,9 +1089,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dejar la habitación'?",
           "options": [
-            { "id": "o1", "text": "To check out" },
-            { "id": "o2", "text": "To leave" },
-            { "id": "o3", "text": "To finish" }
+            {
+              "id": "o1",
+              "text": "To check out"
+            },
+            {
+              "id": "o2",
+              "text": "To leave"
+            },
+            {
+              "id": "o3",
+              "text": "To finish"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -629,9 +1110,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'recepción'?",
           "options": [
-            { "id": "o1", "text": "Reception / Front desk" },
-            { "id": "o2", "text": "Hello desk" },
-            { "id": "o3", "text": "Entry room" }
+            {
+              "id": "o1",
+              "text": "Reception / Front desk"
+            },
+            {
+              "id": "o2",
+              "text": "Hello desk"
+            },
+            {
+              "id": "o3",
+              "text": "Entry room"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -641,9 +1131,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'habitación individual'?",
           "options": [
-            { "id": "o1", "text": "Single room" },
-            { "id": "o2", "text": "One person room" },
-            { "id": "o3", "text": "Only room" }
+            {
+              "id": "o1",
+              "text": "Single room"
+            },
+            {
+              "id": "o2",
+              "text": "One person room"
+            },
+            {
+              "id": "o3",
+              "text": "Only room"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -653,9 +1152,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'habitación doble'?",
           "options": [
-            { "id": "o1", "text": "Double room" },
-            { "id": "o2", "text": "Two room" },
-            { "id": "o3", "text": "Pair room" }
+            {
+              "id": "o1",
+              "text": "Double room"
+            },
+            {
+              "id": "o2",
+              "text": "Two room"
+            },
+            {
+              "id": "o3",
+              "text": "Pair room"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -665,9 +1173,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'servicio de habitaciones'?",
           "options": [
-            { "id": "o1", "text": "Room service" },
-            { "id": "o2", "text": "Food to room" },
-            { "id": "o3", "text": "Hotel help" }
+            {
+              "id": "o1",
+              "text": "Room service"
+            },
+            {
+              "id": "o2",
+              "text": "Food to room"
+            },
+            {
+              "id": "o3",
+              "text": "Hotel help"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -677,9 +1194,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'desayuno incluido'?",
           "options": [
-            { "id": "o1", "text": "Breakfast included" },
-            { "id": "o2", "text": "Food with" },
-            { "id": "o3", "text": "Morning eat inside" }
+            {
+              "id": "o1",
+              "text": "Breakfast included"
+            },
+            {
+              "id": "o2",
+              "text": "Food with"
+            },
+            {
+              "id": "o3",
+              "text": "Morning eat inside"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -689,9 +1215,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Wi-Fi gratuito'?",
           "options": [
-            { "id": "o1", "text": "Free Wi-Fi" },
-            { "id": "o2", "text": "No pay web" },
-            { "id": "o3", "text": "Open net" }
+            {
+              "id": "o1",
+              "text": "Free Wi-Fi"
+            },
+            {
+              "id": "o2",
+              "text": "No pay web"
+            },
+            {
+              "id": "o3",
+              "text": "Open net"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -701,14 +1236,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Quisiera registrarme, por favor'",
           "options": [
-            { "id": "w1", "text": "check" },
-            { "id": "w2", "text": "to" },
-            { "id": "w3", "text": "please" },
-            { "id": "w4", "text": "in," },
-            { "id": "w5", "text": "like" },
-            { "id": "w6", "text": "I'd" }
+            {
+              "id": "w1",
+              "text": "check"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "please"
+            },
+            {
+              "id": "w4",
+              "text": "in,"
+            },
+            {
+              "id": "w5",
+              "text": "like"
+            },
+            {
+              "id": "w6",
+              "text": "I'd"
+            }
           ],
-          "correct_answer": ["w6", "w5", "w2", "w1", "w4", "w3"],
+          "correct_answer": [
+            "w6",
+            "w5",
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -716,13 +1276,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Tiene Wi-Fi el hotel?'",
           "options": [
-            { "id": "w1", "text": "have" },
-            { "id": "w2", "text": "Does" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "Wi-Fi?" },
-            { "id": "w5", "text": "hotel" }
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "Does"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "Wi-Fi?"
+            },
+            {
+              "id": "w5",
+              "text": "hotel"
+            }
           ],
-          "correct_answer": ["w2", "w3", "w5", "w1", "w4"],
+          "correct_answer": [
+            "w2",
+            "w3",
+            "w5",
+            "w1",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -730,9 +1311,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'factura'?",
           "options": [
-            { "id": "o1", "text": "Bill / Invoice" },
-            { "id": "o2", "text": "Check" },
-            { "id": "o3", "text": "Price paper" }
+            {
+              "id": "o1",
+              "text": "Bill / Invoice"
+            },
+            {
+              "id": "o2",
+              "text": "Check"
+            },
+            {
+              "id": "o3",
+              "text": "Price paper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -742,9 +1332,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gimnasio'?",
           "options": [
-            { "id": "o1", "text": "Gym / Fitness center" },
-            { "id": "o2", "text": "Sport room" },
-            { "id": "o3", "text": "Work-out place" }
+            {
+              "id": "o1",
+              "text": "Gym / Fitness center"
+            },
+            {
+              "id": "o2",
+              "text": "Sport room"
+            },
+            {
+              "id": "o3",
+              "text": "Work-out place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -754,9 +1353,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'conserje'?",
           "options": [
-            { "id": "o1", "text": "Concierge" },
-            { "id": "o2", "text": "Helper" },
-            { "id": "o3", "text": "Info person" }
+            {
+              "id": "o1",
+              "text": "Concierge"
+            },
+            {
+              "id": "o2",
+              "text": "Helper"
+            },
+            {
+              "id": "o3",
+              "text": "Info person"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -766,9 +1374,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'despertador' (servicio)?",
           "options": [
-            { "id": "o1", "text": "Wake-up call" },
-            { "id": "o2", "text": "Morning alarm" },
-            { "id": "o3", "text": "Start phone" }
+            {
+              "id": "o1",
+              "text": "Wake-up call"
+            },
+            {
+              "id": "o2",
+              "text": "Morning alarm"
+            },
+            {
+              "id": "o3",
+              "text": "Start phone"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -778,9 +1395,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'centro de negocios'?",
           "options": [
-            { "id": "o1", "text": "Business center" },
-            { "id": "o2", "text": "Work area" },
-            { "id": "o3", "text": "Office point" }
+            {
+              "id": "o1",
+              "text": "Business center"
+            },
+            {
+              "id": "o2",
+              "text": "Work area"
+            },
+            {
+              "id": "o3",
+              "text": "Office point"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -790,9 +1416,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'servicio de lavandería'?",
           "options": [
-            { "id": "o1", "text": "Laundry service" },
-            { "id": "o2", "text": "Wash clothes" },
-            { "id": "o3", "text": "Clean service" }
+            {
+              "id": "o1",
+              "text": "Laundry service"
+            },
+            {
+              "id": "o2",
+              "text": "Wash clothes"
+            },
+            {
+              "id": "o3",
+              "text": "Clean service"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -802,9 +1437,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'caja fuerte'?",
           "options": [
-            { "id": "o1", "text": "Safe" },
-            { "id": "o2", "text": "Strong box" },
-            { "id": "o3", "text": "Money place" }
+            {
+              "id": "o1",
+              "text": "Safe"
+            },
+            {
+              "id": "o2",
+              "text": "Strong box"
+            },
+            {
+              "id": "o3",
+              "text": "Money place"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -814,13 +1458,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Necesitas un servicio de lavandería?'",
           "options": [
-            { "id": "w1", "text": "laundry" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "Do" },
-            { "id": "w4", "text": "need" },
-            { "id": "w5", "text": "service?" }
+            {
+              "id": "w1",
+              "text": "laundry"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "Do"
+            },
+            {
+              "id": "w4",
+              "text": "need"
+            },
+            {
+              "id": "w5",
+              "text": "service?"
+            }
           ],
-          "correct_answer": ["w3", "w2", "w4", "w1", "w5"],
+          "correct_answer": [
+            "w3",
+            "w2",
+            "w4",
+            "w1",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -828,12 +1493,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'La factura es correcta'",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "The" },
-            { "id": "w3", "text": "correct" },
-            { "id": "w4", "text": "bill" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "correct"
+            },
+            {
+              "id": "w4",
+              "text": "bill"
+            }
           ],
-          "correct_answer": ["w2", "w4", "w1", "w3"],
+          "correct_answer": [
+            "w2",
+            "w4",
+            "w1",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -881,9 +1563,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pagar con tarjeta'?",
           "options": [
-            { "id": "o1", "text": "To pay by card" },
-            { "id": "o2", "text": "To use card" },
-            { "id": "o3", "text": "Card pay" }
+            {
+              "id": "o1",
+              "text": "To pay by card"
+            },
+            {
+              "id": "o2",
+              "text": "To use card"
+            },
+            {
+              "id": "o3",
+              "text": "Card pay"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -898,31 +1589,138 @@
           "interaction_id": "U33_I76",
           "type": "word-search",
           "prompt_es": "Busca palabras de viajes de negocios:",
-          "words": ["FLIGHT", "HOTEL", "TAXI", "GATE", "BILL", "SAFE", "SUIT", "TRIP", "MAP", "PASS"],
+          "words": [
+            "FLIGHT",
+            "HOTEL",
+            "TAXI",
+            "GATE",
+            "BILL",
+            "SAFE",
+            "SUIT",
+            "TRIP",
+            "MAP",
+            "PASS"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "FLIGHT", "clue": "Plane travel" },
-            { "word": "HOTEL", "clue": "Where you sleep" },
-            { "word": "TAXI", "clue": "Car with driver" },
-            { "word": "GATE", "clue": "Airport door" },
-            { "word": "BILL", "clue": "Money to pay" },
-            { "word": "SAFE", "clue": "Secure box" },
-            { "word": "SUIT", "clue": "Formal clothes" },
-            { "word": "TRIP", "clue": "Voyage" },
-            { "word": "MAP", "clue": "To find way" },
-            { "word": "PASS", "clue": "Ticket" }
+            {
+              "word": "FLIGHT",
+              "clue": "Plane travel"
+            },
+            {
+              "word": "HOTEL",
+              "clue": "Where you sleep"
+            },
+            {
+              "word": "TAXI",
+              "clue": "Car with driver"
+            },
+            {
+              "word": "GATE",
+              "clue": "Airport door"
+            },
+            {
+              "word": "BILL",
+              "clue": "Money to pay"
+            },
+            {
+              "word": "SAFE",
+              "clue": "Secure box"
+            },
+            {
+              "word": "SUIT",
+              "clue": "Formal clothes"
+            },
+            {
+              "word": "TRIP",
+              "clue": "Voyage"
+            },
+            {
+              "word": "MAP",
+              "clue": "To find way"
+            },
+            {
+              "word": "PASS",
+              "clue": "Ticket"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de viajes:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "GATE", "clue": "Airport door", "direction": "across", "row": 0, "col": 0 },
-            { "word": "GYM", "clue": "Sport place", "direction": "down", "row": 0, "col": 0 },
-            { "word": "TAXI", "clue": "Cab", "direction": "across", "row": 2, "col": 0 },
-            { "word": "BILL", "clue": "Invoice", "direction": "down", "row": 0, "col": 3 }
+            {
+              "word": "CONFERENCE",
+              "clue": "Traducción de: conferencia",
+              "direction": "across",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "CANCELLED",
+              "clue": "Traducción de: cancelado",
+              "direction": "down",
+              "row": 3,
+              "col": 9
+            },
+            {
+              "word": "SUITCASE",
+              "clue": "Traducción de: maleta",
+              "direction": "across",
+              "row": 7,
+              "col": 2
+            },
+            {
+              "word": "EXPENSES",
+              "clue": "Traducción de: gastos",
+              "direction": "down",
+              "row": 4,
+              "col": 14
+            },
+            {
+              "word": "DELAYED",
+              "clue": "Traducción de: retrasado",
+              "direction": "across",
+              "row": 4,
+              "col": 6
+            },
+            {
+              "word": "LUGGAGE",
+              "clue": "Traducción de: Equipaje",
+              "direction": "down",
+              "row": 6,
+              "col": 3
+            },
+            {
+              "word": "ADDRESS",
+              "clue": "Traducción de: dirección",
+              "direction": "down",
+              "row": 6,
+              "col": 11
+            },
+            {
+              "word": "SAFE",
+              "clue": "Traducción de: caja fuerte",
+              "direction": "across",
+              "row": 11,
+              "col": 14
+            },
+            {
+              "word": "GATE",
+              "clue": "Traducción de: Puerta",
+              "direction": "down",
+              "row": 1,
+              "col": 7
+            },
+            {
+              "word": "FAR",
+              "clue": "Traducción de: lejos",
+              "direction": "across",
+              "row": 2,
+              "col": 6
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -955,9 +1753,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿A qué hora es mi vuelo?'?",
           "options": [
-            { "id": "o1", "text": "What time is my flight?" },
-            { "id": "o2", "text": "When is my plane?" },
-            { "id": "o3", "text": "How hour my flight?" }
+            {
+              "id": "o1",
+              "text": "What time is my flight?"
+            },
+            {
+              "id": "o2",
+              "text": "When is my plane?"
+            },
+            {
+              "id": "o3",
+              "text": "How hour my flight?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -967,9 +1774,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'he perdido mi maleta'?",
           "options": [
-            { "id": "o1", "text": "I lost my suitcase / bag" },
-            { "id": "o2", "text": "No bag here" },
-            { "id": "o3", "text": "My luggage is go" }
+            {
+              "id": "o1",
+              "text": "I lost my suitcase / bag"
+            },
+            {
+              "id": "o2",
+              "text": "No bag here"
+            },
+            {
+              "id": "o3",
+              "text": "My luggage is go"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -979,9 +1795,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Dónde está el hotel?'?",
           "options": [
-            { "id": "o1", "text": "Where is the hotel?" },
-            { "id": "o2", "text": "The hotel is where?" },
-            { "id": "o3", "text": "Which place hotel?" }
+            {
+              "id": "o1",
+              "text": "Where is the hotel?"
+            },
+            {
+              "id": "o2",
+              "text": "The hotel is where?"
+            },
+            {
+              "id": "o3",
+              "text": "Which place hotel?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -991,9 +1816,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'necesito un mapa'?",
           "options": [
-            { "id": "o1", "text": "I need a map" },
-            { "id": "o2", "text": "Map please" },
-            { "id": "o3", "text": "Want map" }
+            {
+              "id": "o1",
+              "text": "I need a map"
+            },
+            {
+              "id": "o2",
+              "text": "Map please"
+            },
+            {
+              "id": "o3",
+              "text": "Want map"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1003,9 +1837,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pueblo / ciudad'?",
           "options": [
-            { "id": "o1", "text": "Town / City" },
-            { "id": "o2", "text": "Place" },
-            { "id": "o3", "text": "Area" }
+            {
+              "id": "o1",
+              "text": "Town / City"
+            },
+            {
+              "id": "o2",
+              "text": "Place"
+            },
+            {
+              "id": "o3",
+              "text": "Area"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1015,9 +1858,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dirección'?",
           "options": [
-            { "id": "o1", "text": "Address" },
-            { "id": "o2", "text": "Place name" },
-            { "id": "o3", "text": "Street number" }
+            {
+              "id": "o1",
+              "text": "Address"
+            },
+            {
+              "id": "o2",
+              "text": "Place name"
+            },
+            {
+              "id": "o3",
+              "text": "Street number"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1027,9 +1879,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'centro de la ciudad'?",
           "options": [
-            { "id": "o1", "text": "City center / Downtown" },
-            { "id": "o2", "text": "Center point" },
-            { "id": "o3", "text": "Main area" }
+            {
+              "id": "o1",
+              "text": "City center / Downtown"
+            },
+            {
+              "id": "o2",
+              "text": "Center point"
+            },
+            {
+              "id": "o3",
+              "text": "Main area"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1039,9 +1900,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lejos'?",
           "options": [
-            { "id": "o1", "text": "Far" },
-            { "id": "o2", "text": "Long" },
-            { "id": "o3", "text": "Away" }
+            {
+              "id": "o1",
+              "text": "Far"
+            },
+            {
+              "id": "o2",
+              "text": "Long"
+            },
+            {
+              "id": "o3",
+              "text": "Away"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1051,9 +1921,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cerca'?",
           "options": [
-            { "id": "o1", "text": "Near / Close" },
-            { "id": "o2", "text": "Next" },
-            { "id": "o3", "text": "Short" }
+            {
+              "id": "o1",
+              "text": "Near / Close"
+            },
+            {
+              "id": "o2",
+              "text": "Next"
+            },
+            {
+              "id": "o3",
+              "text": "Short"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1063,9 +1942,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Está lejos?'?",
           "options": [
-            { "id": "o1", "text": "Is it far?" },
-            { "id": "o2", "text": "Far place?" },
-            { "id": "o3", "text": "Long way?" }
+            {
+              "id": "o1",
+              "text": "Is it far?"
+            },
+            {
+              "id": "o2",
+              "text": "Far place?"
+            },
+            {
+              "id": "o3",
+              "text": "Long way?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1075,9 +1963,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Está cerca?'?",
           "options": [
-            { "id": "o1", "text": "Is it near?" },
-            { "id": "o2", "text": "Next door?" },
-            { "id": "o3", "text": "Short walk?" }
+            {
+              "id": "o1",
+              "text": "Is it near?"
+            },
+            {
+              "id": "o2",
+              "text": "Next door?"
+            },
+            {
+              "id": "o3",
+              "text": "Short walk?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1087,9 +1984,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'camino'?",
           "options": [
-            { "id": "o1", "text": "Way / Path" },
-            { "id": "o2", "text": "Road" },
-            { "id": "o3", "text": "Street" }
+            {
+              "id": "o1",
+              "text": "Way / Path"
+            },
+            {
+              "id": "o2",
+              "text": "Road"
+            },
+            {
+              "id": "o3",
+              "text": "Street"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1099,9 +2005,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pérdida de tiempo'?",
           "options": [
-            { "id": "o1", "text": "Waste of time" },
-            { "id": "o2", "text": "No time" },
-            { "id": "o3", "text": "Slow time" }
+            {
+              "id": "o1",
+              "text": "Waste of time"
+            },
+            {
+              "id": "o2",
+              "text": "No time"
+            },
+            {
+              "id": "o3",
+              "text": "Slow time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1111,9 +2026,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reunión de negocios'?",
           "options": [
-            { "id": "o1", "text": "Business meeting" },
-            { "id": "o2", "text": "Work talk" },
-            { "id": "o3", "text": "Office meet" }
+            {
+              "id": "o1",
+              "text": "Business meeting"
+            },
+            {
+              "id": "o2",
+              "text": "Work talk"
+            },
+            {
+              "id": "o3",
+              "text": "Office meet"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1123,9 +2047,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'conferencia'?",
           "options": [
-            { "id": "o1", "text": "Conference" },
-            { "id": "o2", "text": "Talk" },
-            { "id": "o3", "text": "Big meeting" }
+            {
+              "id": "o1",
+              "text": "Conference"
+            },
+            {
+              "id": "o2",
+              "text": "Talk"
+            },
+            {
+              "id": "o3",
+              "text": "Big meeting"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1135,9 +2068,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'exposición'?",
           "options": [
-            { "id": "o1", "text": "Exhibition / Expo" },
-            { "id": "o2", "text": "Show" },
-            { "id": "o3", "text": "Fair" }
+            {
+              "id": "o1",
+              "text": "Exhibition / Expo"
+            },
+            {
+              "id": "o2",
+              "text": "Show"
+            },
+            {
+              "id": "o3",
+              "text": "Fair"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1147,9 +2089,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'feria comercial'?",
           "options": [
-            { "id": "o1", "text": "Trade fair" },
-            { "id": "o2", "text": "Business show" },
-            { "id": "o3", "text": "Sales event" }
+            {
+              "id": "o1",
+              "text": "Trade fair"
+            },
+            {
+              "id": "o2",
+              "text": "Business show"
+            },
+            {
+              "id": "o3",
+              "text": "Sales event"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1159,9 +2110,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'delegado/a'?",
           "options": [
-            { "id": "o1", "text": "Delegate" },
-            { "id": "o2", "text": "Person" },
-            { "id": "o3", "text": "Guest" }
+            {
+              "id": "o1",
+              "text": "Delegate"
+            },
+            {
+              "id": "o2",
+              "text": "Person"
+            },
+            {
+              "id": "o3",
+              "text": "Guest"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1171,9 +2131,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ponencia'?",
           "options": [
-            { "id": "o1", "text": "Speech / Presentation" },
-            { "id": "o2", "text": "Talk" },
-            { "id": "o3", "text": "Words" }
+            {
+              "id": "o1",
+              "text": "Speech / Presentation"
+            },
+            {
+              "id": "o2",
+              "text": "Talk"
+            },
+            {
+              "id": "o3",
+              "text": "Words"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1183,9 +2152,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'maleta'?",
           "options": [
-            { "id": "o1", "text": "Suitcase" },
-            { "id": "o2", "text": "Bag" },
-            { "id": "o3", "text": "Box" }
+            {
+              "id": "o1",
+              "text": "Suitcase"
+            },
+            {
+              "id": "o2",
+              "text": "Bag"
+            },
+            {
+              "id": "o3",
+              "text": "Box"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"

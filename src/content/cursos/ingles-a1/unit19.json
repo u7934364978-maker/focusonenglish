@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'feliz'?",
           "options": [
-            { "id": "o1", "text": "Happy" },
-            { "id": "o2", "text": "Sad" },
-            { "id": "o3", "text": "Angry" }
+            {
+              "id": "o1",
+              "text": "Happy"
+            },
+            {
+              "id": "o2",
+              "text": "Sad"
+            },
+            {
+              "id": "o3",
+              "text": "Angry"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'triste'?",
           "options": [
-            { "id": "o1", "text": "Sad" },
-            { "id": "o2", "text": "Glad" },
-            { "id": "o3", "text": "Happy" }
+            {
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
+              "id": "o2",
+              "text": "Glad"
+            },
+            {
+              "id": "o3",
+              "text": "Happy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'enfadado'?",
           "options": [
-            { "id": "o1", "text": "Angry" },
-            { "id": "o2", "text": "Hungry" },
-            { "id": "o3", "text": "Sleepy" }
+            {
+              "id": "o1",
+              "text": "Angry"
+            },
+            {
+              "id": "o2",
+              "text": "Hungry"
+            },
+            {
+              "id": "o3",
+              "text": "Sleepy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sorprendido'?",
           "options": [
-            { "id": "o1", "text": "Surprised" },
-            { "id": "o2", "text": "Scared" },
-            { "id": "o3", "text": "Bored" }
+            {
+              "id": "o1",
+              "text": "Surprised"
+            },
+            {
+              "id": "o2",
+              "text": "Scared"
+            },
+            {
+              "id": "o3",
+              "text": "Bored"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'asustado'?",
           "options": [
-            { "id": "o1", "text": "Scared / Afraid" },
-            { "id": "o2", "text": "Brave" },
-            { "id": "o3", "text": "Excited" }
+            {
+              "id": "o1",
+              "text": "Scared / Afraid"
+            },
+            {
+              "id": "o2",
+              "text": "Brave"
+            },
+            {
+              "id": "o3",
+              "text": "Excited"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -77,9 +122,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aburrido'?",
           "options": [
-            { "id": "o1", "text": "Bored" },
-            { "id": "o2", "text": "Boring" },
-            { "id": "o3", "text": "Busy" }
+            {
+              "id": "o1",
+              "text": "Bored"
+            },
+            {
+              "id": "o2",
+              "text": "Boring"
+            },
+            {
+              "id": "o3",
+              "text": "Busy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -89,9 +143,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'emocionado'?",
           "options": [
-            { "id": "o1", "text": "Excited" },
-            { "id": "o2", "text": "Emotional" },
-            { "id": "o3", "text": "Moving" }
+            {
+              "id": "o1",
+              "text": "Excited"
+            },
+            {
+              "id": "o2",
+              "text": "Emotional"
+            },
+            {
+              "id": "o3",
+              "text": "Moving"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -101,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nervioso'?",
           "options": [
-            { "id": "o1", "text": "Nervous" },
-            { "id": "o2", "text": "Calm" },
-            { "id": "o3", "text": "Quiet" }
+            {
+              "id": "o1",
+              "text": "Nervous"
+            },
+            {
+              "id": "o2",
+              "text": "Calm"
+            },
+            {
+              "id": "o3",
+              "text": "Quiet"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -113,9 +185,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cansado'?",
           "options": [
-            { "id": "o1", "text": "Tired" },
-            { "id": "o2", "text": "Retired" },
-            { "id": "o3", "text": "Tried" }
+            {
+              "id": "o1",
+              "text": "Tired"
+            },
+            {
+              "id": "o2",
+              "text": "Retired"
+            },
+            {
+              "id": "o3",
+              "text": "Tried"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -125,9 +206,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hambriento'?",
           "options": [
-            { "id": "o1", "text": "Hungry" },
-            { "id": "o2", "text": "Angry" },
-            { "id": "o3", "text": "Thirsty" }
+            {
+              "id": "o1",
+              "text": "Hungry"
+            },
+            {
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o3",
+              "text": "Thirsty"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,9 +227,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sediento'?",
           "options": [
-            { "id": "o1", "text": "Thirsty" },
-            { "id": "o2", "text": "Thursday" },
-            { "id": "o3", "text": "Thirty" }
+            {
+              "id": "o1",
+              "text": "Thirsty"
+            },
+            {
+              "id": "o2",
+              "text": "Thursday"
+            },
+            {
+              "id": "o3",
+              "text": "Thirty"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -149,9 +248,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'preocupado'?",
           "options": [
-            { "id": "o1", "text": "Worried" },
-            { "id": "o2", "text": "Sorry" },
-            { "id": "o3", "text": "Busy" }
+            {
+              "id": "o1",
+              "text": "Worried"
+            },
+            {
+              "id": "o2",
+              "text": "Sorry"
+            },
+            {
+              "id": "o3",
+              "text": "Busy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -161,9 +269,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'orgulloso'?",
           "options": [
-            { "id": "o1", "text": "Proud" },
-            { "id": "o2", "text": "Pound" },
-            { "id": "o3", "text": "Prude" }
+            {
+              "id": "o1",
+              "text": "Proud"
+            },
+            {
+              "id": "o2",
+              "text": "Pound"
+            },
+            {
+              "id": "o3",
+              "text": "Prude"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -173,9 +290,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tímido'?",
           "options": [
-            { "id": "o1", "text": "Shy" },
-            { "id": "o2", "text": "Sky" },
-            { "id": "o3", "text": "Why" }
+            {
+              "id": "o1",
+              "text": "Shy"
+            },
+            {
+              "id": "o2",
+              "text": "Sky"
+            },
+            {
+              "id": "o3",
+              "text": "Why"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -185,9 +311,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tranquilo / calmado'?",
           "options": [
-            { "id": "o1", "text": "Calm" },
-            { "id": "o2", "text": "Noisy" },
-            { "id": "o3", "text": "Loud" }
+            {
+              "id": "o1",
+              "text": "Calm"
+            },
+            {
+              "id": "o2",
+              "text": "Noisy"
+            },
+            {
+              "id": "o3",
+              "text": "Loud"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -197,11 +332,27 @@
           "type": "matching",
           "prompt_es": "Une la emoción con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Happy", "right": "Feliz" },
-            { "id": "p2", "left": "Sad", "right": "Triste" },
-            { "id": "p3", "left": "Angry", "right": "Enfadado" }
+            {
+              "id": "p1",
+              "left": "Happy",
+              "right": "Feliz"
+            },
+            {
+              "id": "p2",
+              "left": "Sad",
+              "right": "Triste"
+            },
+            {
+              "id": "p3",
+              "left": "Angry",
+              "right": "Enfadado"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -209,11 +360,27 @@
           "type": "matching",
           "prompt_es": "Une los sentimientos físicos:",
           "pairs": [
-            { "id": "p1", "left": "Hungry", "right": "Hambriento" },
-            { "id": "p2", "left": "Thirsty", "right": "Sediento" },
-            { "id": "p3", "left": "Tired", "right": "Cansado" }
+            {
+              "id": "p1",
+              "left": "Hungry",
+              "right": "Hambriento"
+            },
+            {
+              "id": "p2",
+              "left": "Thirsty",
+              "right": "Sediento"
+            },
+            {
+              "id": "p3",
+              "left": "Tired",
+              "right": "Cansado"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -245,9 +412,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'confundido'?",
           "options": [
-            { "id": "o1", "text": "Confused" },
-            { "id": "o2", "text": "Confident" },
-            { "id": "o3", "text": "Connected" }
+            {
+              "id": "o1",
+              "text": "Confused"
+            },
+            {
+              "id": "o2",
+              "text": "Confident"
+            },
+            {
+              "id": "o3",
+              "text": "Connected"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -257,9 +433,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'avergonzado'?",
           "options": [
-            { "id": "o1", "text": "Embarrassed" },
-            { "id": "o2", "text": "Ashamed" },
-            { "id": "o3", "text": "Both are similar" }
+            {
+              "id": "o1",
+              "text": "Embarrassed"
+            },
+            {
+              "id": "o2",
+              "text": "Ashamed"
+            },
+            {
+              "id": "o3",
+              "text": "Both are similar"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -269,9 +454,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'agradecido'?",
           "options": [
-            { "id": "o1", "text": "Grateful / Thankful" },
-            { "id": "o2", "text": "Great" },
-            { "id": "o3", "text": "Graceful" }
+            {
+              "id": "o1",
+              "text": "Grateful / Thankful"
+            },
+            {
+              "id": "o2",
+              "text": "Great"
+            },
+            {
+              "id": "o3",
+              "text": "Graceful"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -281,9 +475,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'celoso'?",
           "options": [
-            { "id": "o1", "text": "Jealous" },
-            { "id": "o2", "text": "Yellow" },
-            { "id": "o3", "text": "Zealous" }
+            {
+              "id": "o1",
+              "text": "Jealous"
+            },
+            {
+              "id": "o2",
+              "text": "Yellow"
+            },
+            {
+              "id": "o3",
+              "text": "Zealous"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -293,9 +496,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'solitario'?",
           "options": [
-            { "id": "o1", "text": "Lonely" },
-            { "id": "o2", "text": "Alone" },
-            { "id": "o3", "text": "Only" }
+            {
+              "id": "o1",
+              "text": "Lonely"
+            },
+            {
+              "id": "o2",
+              "text": "Alone"
+            },
+            {
+              "id": "o3",
+              "text": "Only"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -311,9 +523,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta '¿Cómo te sientes?'?",
           "options": [
-            { "id": "o1", "text": "How do you feel?" },
-            { "id": "o2", "text": "How are you feeling?" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "How do you feel?"
+            },
+            {
+              "id": "o2",
+              "text": "How are you feeling?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -323,9 +544,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se responde 'Me siento feliz'?",
           "options": [
-            { "id": "o1", "text": "I feel happy" },
-            { "id": "o2", "text": "I am happy" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "I feel happy"
+            },
+            {
+              "id": "o2",
+              "text": "I am happy"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -351,9 +581,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tengo calor'?",
           "options": [
-            { "id": "o1", "text": "I am hot" },
-            { "id": "o2", "text": "I have heat" },
-            { "id": "o3", "text": "I feel hot" }
+            {
+              "id": "o1",
+              "text": "I am hot"
+            },
+            {
+              "id": "o2",
+              "text": "I have heat"
+            },
+            {
+              "id": "o3",
+              "text": "I feel hot"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -363,9 +602,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tengo frío'?",
           "options": [
-            { "id": "o1", "text": "I am cold" },
-            { "id": "o2", "text": "I have cold" },
-            { "id": "o3", "text": "I feel cold" }
+            {
+              "id": "o1",
+              "text": "I am cold"
+            },
+            {
+              "id": "o2",
+              "text": "I have cold"
+            },
+            {
+              "id": "o3",
+              "text": "I feel cold"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -375,9 +623,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tengo miedo'?",
           "options": [
-            { "id": "o1", "text": "I am scared / afraid" },
-            { "id": "o2", "text": "I have fear" },
-            { "id": "o3", "text": "I feel scare" }
+            {
+              "id": "o1",
+              "text": "I am scared / afraid"
+            },
+            {
+              "id": "o2",
+              "text": "I have fear"
+            },
+            {
+              "id": "o3",
+              "text": "I feel scare"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -387,9 +644,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tengo sueño'?",
           "options": [
-            { "id": "o1", "text": "I am sleepy" },
-            { "id": "o2", "text": "I have sleep" },
-            { "id": "o3", "text": "I want sleep" }
+            {
+              "id": "o1",
+              "text": "I am sleepy"
+            },
+            {
+              "id": "o2",
+              "text": "I have sleep"
+            },
+            {
+              "id": "o3",
+              "text": "I want sleep"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -399,9 +665,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tengo prisa'?",
           "options": [
-            { "id": "o1", "text": "I am in a hurry" },
-            { "id": "o2", "text": "I have hurry" },
-            { "id": "o3", "text": "I am fast" }
+            {
+              "id": "o1",
+              "text": "I am in a hurry"
+            },
+            {
+              "id": "o2",
+              "text": "I have hurry"
+            },
+            {
+              "id": "o3",
+              "text": "I am fast"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -411,11 +686,27 @@
           "type": "matching",
           "prompt_es": "Une la pregunta con la respuesta lógica:",
           "pairs": [
-            { "id": "p1", "left": "Are you hungry?", "right": "Yes, I want a sandwich." },
-            { "id": "p2", "left": "Are you thirsty?", "right": "Yes, I need some water." },
-            { "id": "p3", "left": "Are you tired?", "right": "Yes, I want to sleep." }
+            {
+              "id": "p1",
+              "left": "Are you hungry?",
+              "right": "Yes, I want a sandwich."
+            },
+            {
+              "id": "p2",
+              "left": "Are you thirsty?",
+              "right": "Yes, I need some water."
+            },
+            {
+              "id": "p3",
+              "left": "Are you tired?",
+              "right": "Yes, I want to sleep."
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "functional_language"
         },
         {
@@ -423,9 +714,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estoy de buen humor'?",
           "options": [
-            { "id": "o1", "text": "I am in a good mood" },
-            { "id": "o2", "text": "I am in good humor" },
-            { "id": "o3", "text": "I have a good spirit" }
+            {
+              "id": "o1",
+              "text": "I am in a good mood"
+            },
+            {
+              "id": "o2",
+              "text": "I am in good humor"
+            },
+            {
+              "id": "o3",
+              "text": "I have a good spirit"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -435,9 +735,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estoy de mal humor'?",
           "options": [
-            { "id": "o1", "text": "I am in a bad mood" },
-            { "id": "o2", "text": "I am in bad humor" },
-            { "id": "o3", "text": "I am angry mood" }
+            {
+              "id": "o1",
+              "text": "I am in a bad mood"
+            },
+            {
+              "id": "o2",
+              "text": "I am in bad humor"
+            },
+            {
+              "id": "o3",
+              "text": "I am angry mood"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -447,9 +756,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reír'?",
           "options": [
-            { "id": "o1", "text": "To laugh" },
-            { "id": "o2", "text": "To smile" },
-            { "id": "o3", "text": "To cry" }
+            {
+              "id": "o1",
+              "text": "To laugh"
+            },
+            {
+              "id": "o2",
+              "text": "To smile"
+            },
+            {
+              "id": "o3",
+              "text": "To cry"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -459,9 +777,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sonreír'?",
           "options": [
-            { "id": "o1", "text": "To smile" },
-            { "id": "o2", "text": "To laugh" },
-            { "id": "o3", "text": "To grin" }
+            {
+              "id": "o1",
+              "text": "To smile"
+            },
+            {
+              "id": "o2",
+              "text": "To laugh"
+            },
+            {
+              "id": "o3",
+              "text": "To grin"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -471,9 +798,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'llorar'?",
           "options": [
-            { "id": "o1", "text": "To cry" },
-            { "id": "o2", "text": "To scream" },
-            { "id": "o3", "text": "To shout" }
+            {
+              "id": "o1",
+              "text": "To cry"
+            },
+            {
+              "id": "o2",
+              "text": "To scream"
+            },
+            {
+              "id": "o3",
+              "text": "To shout"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -483,9 +819,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gritar'?",
           "options": [
-            { "id": "o1", "text": "To shout / To scream" },
-            { "id": "o2", "text": "To cry" },
-            { "id": "o3", "text": "To whisper" }
+            {
+              "id": "o1",
+              "text": "To shout / To scream"
+            },
+            {
+              "id": "o2",
+              "text": "To cry"
+            },
+            {
+              "id": "o3",
+              "text": "To whisper"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -495,9 +840,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'susurrar'?",
           "options": [
-            { "id": "o1", "text": "To whisper" },
-            { "id": "o2", "text": "To talk low" },
-            { "id": "o3", "text": "To speak quiet" }
+            {
+              "id": "o1",
+              "text": "To whisper"
+            },
+            {
+              "id": "o2",
+              "text": "To talk low"
+            },
+            {
+              "id": "o3",
+              "text": "To speak quiet"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -531,9 +885,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sorpresa'?",
           "options": [
-            { "id": "o1", "text": "Surprise" },
-            { "id": "o2", "text": "Shock" },
-            { "id": "o3", "text": "Wonder" }
+            {
+              "id": "o1",
+              "text": "Surprise"
+            },
+            {
+              "id": "o2",
+              "text": "Shock"
+            },
+            {
+              "id": "o3",
+              "text": "Wonder"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -543,9 +906,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'miedo'?",
           "options": [
-            { "id": "o1", "text": "Fear" },
-            { "id": "o2", "text": "Scare" },
-            { "id": "o3", "text": "Terror" }
+            {
+              "id": "o1",
+              "text": "Fear"
+            },
+            {
+              "id": "o2",
+              "text": "Scare"
+            },
+            {
+              "id": "o3",
+              "text": "Terror"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -555,9 +927,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'alegría'?",
           "options": [
-            { "id": "o1", "text": "Joy / Happiness" },
-            { "id": "o2", "text": "Happy" },
-            { "id": "o3", "text": "Gladness" }
+            {
+              "id": "o1",
+              "text": "Joy / Happiness"
+            },
+            {
+              "id": "o2",
+              "text": "Happy"
+            },
+            {
+              "id": "o3",
+              "text": "Gladness"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -567,9 +948,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'amor'?",
           "options": [
-            { "id": "o1", "text": "Love" },
-            { "id": "o2", "text": "Like" },
-            { "id": "o3", "text": "Heart" }
+            {
+              "id": "o1",
+              "text": "Love"
+            },
+            {
+              "id": "o2",
+              "text": "Like"
+            },
+            {
+              "id": "o3",
+              "text": "Heart"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -579,9 +969,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'odio'?",
           "options": [
-            { "id": "o1", "text": "Hate" },
-            { "id": "o2", "text": "Dislike" },
-            { "id": "o3", "text": "Angry" }
+            {
+              "id": "o1",
+              "text": "Hate"
+            },
+            {
+              "id": "o2",
+              "text": "Dislike"
+            },
+            {
+              "id": "o3",
+              "text": "Angry"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -597,9 +996,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'porque' (respuesta)?",
           "options": [
-            { "id": "o1", "text": "Because" },
-            { "id": "o2", "text": "Why" },
-            { "id": "o3", "text": "Cause" }
+            {
+              "id": "o1",
+              "text": "Because"
+            },
+            {
+              "id": "o2",
+              "text": "Why"
+            },
+            {
+              "id": "o3",
+              "text": "Cause"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -609,9 +1017,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿por qué?' (pregunta)?",
           "options": [
-            { "id": "o1", "text": "Why?" },
-            { "id": "o2", "text": "Because?" },
-            { "id": "o3", "text": "What for?" }
+            {
+              "id": "o1",
+              "text": "Why?"
+            },
+            {
+              "id": "o2",
+              "text": "Because?"
+            },
+            {
+              "id": "o3",
+              "text": "What for?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -637,9 +1054,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'relajante'?",
           "options": [
-            { "id": "o1", "text": "Relaxing" },
-            { "id": "o2", "text": "Relaxed" },
-            { "id": "o3", "text": "Relax" }
+            {
+              "id": "o1",
+              "text": "Relaxing"
+            },
+            {
+              "id": "o2",
+              "text": "Relaxed"
+            },
+            {
+              "id": "o3",
+              "text": "Relax"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -649,9 +1075,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estresante'?",
           "options": [
-            { "id": "o1", "text": "Stressing / Stressful" },
-            { "id": "o2", "text": "Stressed" },
-            { "id": "o3", "text": "Stress" }
+            {
+              "id": "o1",
+              "text": "Stressing / Stressful"
+            },
+            {
+              "id": "o2",
+              "text": "Stressed"
+            },
+            {
+              "id": "o3",
+              "text": "Stress"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -661,9 +1096,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'divertido'?",
           "options": [
-            { "id": "o1", "text": "Funny / Fun" },
-            { "id": "o2", "text": "Enjoy" },
-            { "id": "o3", "text": "Happy" }
+            {
+              "id": "o1",
+              "text": "Funny / Fun"
+            },
+            {
+              "id": "o2",
+              "text": "Enjoy"
+            },
+            {
+              "id": "o3",
+              "text": "Happy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -673,9 +1117,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'gracioso'?",
           "options": [
-            { "id": "o1", "text": "Funny" },
-            { "id": "o2", "text": "Fun" },
-            { "id": "o3", "text": "Joke" }
+            {
+              "id": "o1",
+              "text": "Funny"
+            },
+            {
+              "id": "o2",
+              "text": "Fun"
+            },
+            {
+              "id": "o3",
+              "text": "Joke"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -685,9 +1138,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'serio'?",
           "options": [
-            { "id": "o1", "text": "Serious" },
-            { "id": "o2", "text": "Graves" },
-            { "id": "o3", "text": "Deep" }
+            {
+              "id": "o1",
+              "text": "Serious"
+            },
+            {
+              "id": "o2",
+              "text": "Graves"
+            },
+            {
+              "id": "o3",
+              "text": "Deep"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -697,9 +1159,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'amable'?",
           "options": [
-            { "id": "o1", "text": "Kind / Nice" },
-            { "id": "o2", "text": "Polite" },
-            { "id": "o3", "text": "Friendly" }
+            {
+              "id": "o1",
+              "text": "Kind / Nice"
+            },
+            {
+              "id": "o2",
+              "text": "Polite"
+            },
+            {
+              "id": "o3",
+              "text": "Friendly"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -709,14 +1180,40 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'estoy cansado porque trabajo mucho'",
           "options": [
-            { "id": "w1", "text": "because" },
-            { "id": "w2", "text": "tired" },
-            { "id": "w3", "text": "I" },
-            { "id": "w4", "text": "am" },
-            { "id": "w5", "text": "work" },
-            { "id": "w6", "text": "a lot" }
+            {
+              "id": "w1",
+              "text": "because"
+            },
+            {
+              "id": "w2",
+              "text": "tired"
+            },
+            {
+              "id": "w3",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "am"
+            },
+            {
+              "id": "w5",
+              "text": "work"
+            },
+            {
+              "id": "w6",
+              "text": "a lot"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w2", "w1", "w3", "w5", "w6"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w2",
+            "w1",
+            "w3",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -724,12 +1221,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿por qué estás triste?'",
           "options": [
-            { "id": "w1", "text": "Why" },
-            { "id": "w2", "text": "sad" },
-            { "id": "w3", "text": "you" },
-            { "id": "w4", "text": "are" }
+            {
+              "id": "w1",
+              "text": "Why"
+            },
+            {
+              "id": "w2",
+              "text": "sad"
+            },
+            {
+              "id": "w3",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "are"
+            }
           ],
-          "correct_answer": ["w1", "w4", "w3", "w2"],
+          "correct_answer": [
+            "w1",
+            "w4",
+            "w3",
+            "w2"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -737,9 +1251,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'maravilloso'?",
           "options": [
-            { "id": "o1", "text": "Wonderful" },
-            { "id": "o2", "text": "Great" },
-            { "id": "o3", "text": "Amazing" }
+            {
+              "id": "o1",
+              "text": "Wonderful"
+            },
+            {
+              "id": "o2",
+              "text": "Great"
+            },
+            {
+              "id": "o3",
+              "text": "Amazing"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -749,9 +1272,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'horrible'?",
           "options": [
-            { "id": "o1", "text": "Horrible / Terrible" },
-            { "id": "o2", "text": "Bad" },
-            { "id": "o3", "text": "Awful" }
+            {
+              "id": "o1",
+              "text": "Horrible / Terrible"
+            },
+            {
+              "id": "o2",
+              "text": "Bad"
+            },
+            {
+              "id": "o3",
+              "text": "Awful"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -761,9 +1293,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fantástico'?",
           "options": [
-            { "id": "o1", "text": "Fantastic" },
-            { "id": "o2", "text": "Cool" },
-            { "id": "o3", "text": "Great" }
+            {
+              "id": "o1",
+              "text": "Fantastic"
+            },
+            {
+              "id": "o2",
+              "text": "Cool"
+            },
+            {
+              "id": "o3",
+              "text": "Great"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -773,9 +1314,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'esperanza'?",
           "options": [
-            { "id": "o1", "text": "Hope" },
-            { "id": "o2", "text": "Wish" },
-            { "id": "o3", "text": "Wait" }
+            {
+              "id": "o1",
+              "text": "Hope"
+            },
+            {
+              "id": "o2",
+              "text": "Wish"
+            },
+            {
+              "id": "o3",
+              "text": "Wait"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -785,9 +1335,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'paciencia'?",
           "options": [
-            { "id": "o1", "text": "Patience" },
-            { "id": "o2", "text": "Patient" },
-            { "id": "o3", "text": "Wait" }
+            {
+              "id": "o1",
+              "text": "Patience"
+            },
+            {
+              "id": "o2",
+              "text": "Patient"
+            },
+            {
+              "id": "o3",
+              "text": "Wait"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -797,9 +1356,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'confianza'?",
           "options": [
-            { "id": "o1", "text": "Trust / Confidence" },
-            { "id": "o2", "text": "Relief" },
-            { "id": "o3", "text": "Safety" }
+            {
+              "id": "o1",
+              "text": "Trust / Confidence"
+            },
+            {
+              "id": "o2",
+              "text": "Relief"
+            },
+            {
+              "id": "o3",
+              "text": "Safety"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -809,9 +1377,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'alivio'?",
           "options": [
-            { "id": "o1", "text": "Relief" },
-            { "id": "o2", "text": "Believe" },
-            { "id": "o3", "text": "Release" }
+            {
+              "id": "o1",
+              "text": "Relief"
+            },
+            {
+              "id": "o2",
+              "text": "Believe"
+            },
+            {
+              "id": "o3",
+              "text": "Release"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -821,9 +1398,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aburrimiento'?",
           "options": [
-            { "id": "o1", "text": "Boredom" },
-            { "id": "o2", "text": "Bored" },
-            { "id": "o3", "text": "Boring" }
+            {
+              "id": "o1",
+              "text": "Boredom"
+            },
+            {
+              "id": "o2",
+              "text": "Bored"
+            },
+            {
+              "id": "o3",
+              "text": "Boring"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -833,9 +1419,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'interesante'?",
           "options": [
-            { "id": "o1", "text": "Interesting" },
-            { "id": "o2", "text": "Interested" },
-            { "id": "o3", "text": "Interest" }
+            {
+              "id": "o1",
+              "text": "Interesting"
+            },
+            {
+              "id": "o2",
+              "text": "Interested"
+            },
+            {
+              "id": "o3",
+              "text": "Interest"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -845,9 +1440,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'emoción' (en general)?",
           "options": [
-            { "id": "o1", "text": "Emotion / Feeling" },
-            { "id": "o2", "text": "Movement" },
-            { "id": "o3", "text": "Spirit" }
+            {
+              "id": "o1",
+              "text": "Emotion / Feeling"
+            },
+            {
+              "id": "o2",
+              "text": "Movement"
+            },
+            {
+              "id": "o3",
+              "text": "Spirit"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -857,9 +1461,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sentimiento'?",
           "options": [
-            { "id": "o1", "text": "Feeling" },
-            { "id": "o2", "text": "Sense" },
-            { "id": "o3", "text": "Sensation" }
+            {
+              "id": "o1",
+              "text": "Feeling"
+            },
+            {
+              "id": "o2",
+              "text": "Sense"
+            },
+            {
+              "id": "o3",
+              "text": "Sensation"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -869,9 +1482,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'corazón roto'?",
           "options": [
-            { "id": "o1", "text": "Broken heart" },
-            { "id": "o2", "text": "Hurt heart" },
-            { "id": "o3", "text": "Sad heart" }
+            {
+              "id": "o1",
+              "text": "Broken heart"
+            },
+            {
+              "id": "o2",
+              "text": "Hurt heart"
+            },
+            {
+              "id": "o3",
+              "text": "Sad heart"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -881,9 +1503,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'volver a ser feliz'?",
           "options": [
-            { "id": "o1", "text": "To be happy again" },
-            { "id": "o2", "text": "To return happy" },
-            { "id": "o3", "text": "To stay happy" }
+            {
+              "id": "o1",
+              "text": "To be happy again"
+            },
+            {
+              "id": "o2",
+              "text": "To return happy"
+            },
+            {
+              "id": "o3",
+              "text": "To stay happy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -898,31 +1529,138 @@
           "interaction_id": "U19_I76",
           "type": "word-search",
           "prompt_es": "Encuentra emociones y sentimientos:",
-          "words": ["HAPPY", "SAD", "ANGRY", "TIRED", "SHY", "CALM", "PROUD", "BORED", "BUSY", "LOVE"],
+          "words": [
+            "HAPPY",
+            "SAD",
+            "ANGRY",
+            "TIRED",
+            "SHY",
+            "CALM",
+            "PROUD",
+            "BORED",
+            "BUSY",
+            "LOVE"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "HAPPY", "clue": "Feliz" },
-            { "word": "SAD", "clue": "Triste" },
-            { "word": "ANGRY", "clue": "Enfadado" },
-            { "word": "TIRED", "clue": "Cansado" },
-            { "word": "SHY", "clue": "Tímido" },
-            { "word": "CALM", "clue": "Tranquilo" },
-            { "word": "PROUD", "clue": "Orgulloso" },
-            { "word": "BORED", "clue": "Aburrido" },
-            { "word": "BUSY", "clue": "Ocupado" },
-            { "word": "LOVE", "clue": "Amor" }
+            {
+              "word": "HAPPY",
+              "clue": "Feliz"
+            },
+            {
+              "word": "SAD",
+              "clue": "Triste"
+            },
+            {
+              "word": "ANGRY",
+              "clue": "Enfadado"
+            },
+            {
+              "word": "TIRED",
+              "clue": "Cansado"
+            },
+            {
+              "word": "SHY",
+              "clue": "Tímido"
+            },
+            {
+              "word": "CALM",
+              "clue": "Tranquilo"
+            },
+            {
+              "word": "PROUD",
+              "clue": "Orgulloso"
+            },
+            {
+              "word": "BORED",
+              "clue": "Aburrido"
+            },
+            {
+              "word": "BUSY",
+              "clue": "Ocupado"
+            },
+            {
+              "word": "LOVE",
+              "clue": "Amor"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de emociones:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "FEELING", "clue": "An emotion", "direction": "down", "row": 0, "col": 0 },
-            { "word": "FUNNY", "clue": "Makes you laugh", "direction": "across", "row": 0, "col": 0 },
-            { "word": "GLAD", "clue": "Another word for happy", "direction": "across", "row": 4, "col": 0 },
-            { "word": "JOY", "clue": "Great happiness", "direction": "down", "row": 4, "col": 0 }
+            {
+              "word": "WONDERFUL",
+              "clue": "Traducción de: maravilloso",
+              "direction": "across",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "NERVOUS",
+              "clue": "Traducción de: nervioso",
+              "direction": "down",
+              "row": 10,
+              "col": 7
+            },
+            {
+              "word": "BOREDOM",
+              "clue": "Traducción de: aburrimiento",
+              "direction": "across",
+              "row": 12,
+              "col": 5
+            },
+            {
+              "word": "BECAUSE",
+              "clue": "Traducción de: porque",
+              "direction": "across",
+              "row": 16,
+              "col": 2
+            },
+            {
+              "word": "RELIEF",
+              "clue": "Traducción de: alivio",
+              "direction": "down",
+              "row": 12,
+              "col": 3
+            },
+            {
+              "word": "LONELY",
+              "clue": "Traducción de: solitario",
+              "direction": "across",
+              "row": 14,
+              "col": 6
+            },
+            {
+              "word": "FUNNY",
+              "clue": "Traducción de: gracioso",
+              "direction": "down",
+              "row": 12,
+              "col": 18
+            },
+            {
+              "word": "LOVE",
+              "clue": "Traducción de: amor",
+              "direction": "down",
+              "row": 7,
+              "col": 9
+            },
+            {
+              "word": "SIGH",
+              "clue": "Traducción de: suspiro",
+              "direction": "across",
+              "row": 17,
+              "col": 11
+            },
+            {
+              "word": "MOOD",
+              "clue": "Traducción de: ánimo",
+              "direction": "across",
+              "row": 8,
+              "col": 8
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -931,11 +1669,27 @@
           "type": "matching",
           "prompt_es": "Une los opuestos:",
           "pairs": [
-            { "id": "p1", "left": "Happy", "right": "Sad" },
-            { "id": "p2", "left": "Calm", "right": "Angry" },
-            { "id": "p3", "left": "Excited", "right": "Bored" }
+            {
+              "id": "p1",
+              "left": "Happy",
+              "right": "Sad"
+            },
+            {
+              "id": "p2",
+              "left": "Calm",
+              "right": "Angry"
+            },
+            {
+              "id": "p3",
+              "left": "Excited",
+              "right": "Bored"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -959,9 +1713,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ánimo'?",
           "options": [
-            { "id": "o1", "text": "Mood" },
-            { "id": "o2", "text": "Spirit" },
-            { "id": "o3", "text": "Soul" }
+            {
+              "id": "o1",
+              "text": "Mood"
+            },
+            {
+              "id": "o2",
+              "text": "Spirit"
+            },
+            {
+              "id": "o3",
+              "text": "Soul"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -971,9 +1734,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'lágrima'?",
           "options": [
-            { "id": "o1", "text": "Tear" },
-            { "id": "o2", "text": "Drop" },
-            { "id": "o3", "text": "Eye water" }
+            {
+              "id": "o1",
+              "text": "Tear"
+            },
+            {
+              "id": "o2",
+              "text": "Drop"
+            },
+            {
+              "id": "o3",
+              "text": "Eye water"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -983,9 +1755,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'suspiro'?",
           "options": [
-            { "id": "o1", "text": "Sigh" },
-            { "id": "o2", "text": "Breath" },
-            { "id": "o3", "text": "Sign" }
+            {
+              "id": "o1",
+              "text": "Sigh"
+            },
+            {
+              "id": "o2",
+              "text": "Breath"
+            },
+            {
+              "id": "o3",
+              "text": "Sign"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -995,9 +1776,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'dolor' (emocional)?",
           "options": [
-            { "id": "o1", "text": "Pain / Hurt" },
-            { "id": "o2", "text": "Ache" },
-            { "id": "o3", "text": "Sore" }
+            {
+              "id": "o1",
+              "text": "Pain / Hurt"
+            },
+            {
+              "id": "o2",
+              "text": "Ache"
+            },
+            {
+              "id": "o3",
+              "text": "Sore"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1007,9 +1797,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'estar harto'?",
           "options": [
-            { "id": "o1", "text": "To be fed up" },
-            { "id": "o2", "text": "To be full" },
-            { "id": "o3", "text": "To be tired of" }
+            {
+              "id": "o1",
+              "text": "To be fed up"
+            },
+            {
+              "id": "o2",
+              "text": "To be full"
+            },
+            {
+              "id": "o3",
+              "text": "To be tired of"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1019,9 +1818,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'nostálgico'?",
           "options": [
-            { "id": "o1", "text": "Nostalgic / Homesick" },
-            { "id": "o2", "text": "Old feel" },
-            { "id": "o3", "text": "Back feeling" }
+            {
+              "id": "o1",
+              "text": "Nostalgic / Homesick"
+            },
+            {
+              "id": "o2",
+              "text": "Old feel"
+            },
+            {
+              "id": "o3",
+              "text": "Back feeling"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1031,9 +1839,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'optimista'?",
           "options": [
-            { "id": "o1", "text": "Optimistic" },
-            { "id": "o2", "text": "Positive" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "Optimistic"
+            },
+            {
+              "id": "o2",
+              "text": "Positive"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -1043,9 +1860,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'pesimista'?",
           "options": [
-            { "id": "o1", "text": "Pessimistic" },
-            { "id": "o2", "text": "Negative" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "Pessimistic"
+            },
+            {
+              "id": "o2",
+              "text": "Negative"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -1055,9 +1881,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'agradecimiento'?",
           "options": [
-            { "id": "o1", "text": "Gratitude" },
-            { "id": "o2", "text": "Thanks" },
-            { "id": "o3", "text": "Giving" }
+            {
+              "id": "o1",
+              "text": "Gratitude"
+            },
+            {
+              "id": "o2",
+              "text": "Thanks"
+            },
+            {
+              "id": "o3",
+              "text": "Giving"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1067,9 +1902,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sorprendente'?",
           "options": [
-            { "id": "o1", "text": "Surprising / Amazing" },
-            { "id": "o2", "text": "Surprised" },
-            { "id": "o3", "text": "Amazed" }
+            {
+              "id": "o1",
+              "text": "Surprising / Amazing"
+            },
+            {
+              "id": "o2",
+              "text": "Surprised"
+            },
+            {
+              "id": "o3",
+              "text": "Amazed"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1079,9 +1923,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aterrador'?",
           "options": [
-            { "id": "o1", "text": "Scary" },
-            { "id": "o2", "text": "Scared" },
-            { "id": "o3", "text": "Fear" }
+            {
+              "id": "o1",
+              "text": "Scary"
+            },
+            {
+              "id": "o2",
+              "text": "Scared"
+            },
+            {
+              "id": "o3",
+              "text": "Fear"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1091,9 +1944,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'interés'?",
           "options": [
-            { "id": "o1", "text": "Interest" },
-            { "id": "o2", "text": "Care" },
-            { "id": "o3", "text": "Note" }
+            {
+              "id": "o1",
+              "text": "Interest"
+            },
+            {
+              "id": "o2",
+              "text": "Care"
+            },
+            {
+              "id": "o3",
+              "text": "Note"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1103,9 +1965,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'belleza'?",
           "options": [
-            { "id": "o1", "text": "Beauty" },
-            { "id": "o2", "text": "Beautiful" },
-            { "id": "o3", "text": "Nice" }
+            {
+              "id": "o1",
+              "text": "Beauty"
+            },
+            {
+              "id": "o2",
+              "text": "Beautiful"
+            },
+            {
+              "id": "o3",
+              "text": "Nice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1115,9 +1986,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fealdad'?",
           "options": [
-            { "id": "o1", "text": "Ugliness" },
-            { "id": "o2", "text": "Ugly" },
-            { "id": "o3", "text": "Bad look" }
+            {
+              "id": "o1",
+              "text": "Ugliness"
+            },
+            {
+              "id": "o2",
+              "text": "Ugly"
+            },
+            {
+              "id": "o3",
+              "text": "Bad look"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1127,9 +2007,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tranquilidad'?",
           "options": [
-            { "id": "o1", "text": "Peace / Quiet" },
-            { "id": "o2", "text": "Calmness" },
-            { "id": "o3", "text": "All are correct" }
+            {
+              "id": "o1",
+              "text": "Peace / Quiet"
+            },
+            {
+              "id": "o2",
+              "text": "Calmness"
+            },
+            {
+              "id": "o3",
+              "text": "All are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -1139,9 +2028,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ansiedad'?",
           "options": [
-            { "id": "o1", "text": "Anxiety" },
-            { "id": "o2", "text": "Anxious" },
-            { "id": "o3", "text": "Nervous" }
+            {
+              "id": "o1",
+              "text": "Anxiety"
+            },
+            {
+              "id": "o2",
+              "text": "Anxious"
+            },
+            {
+              "id": "o3",
+              "text": "Nervous"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1151,9 +2049,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'valentía'?",
           "options": [
-            { "id": "o1", "text": "Bravery / Courage" },
-            { "id": "o2", "text": "Brave" },
-            { "id": "o3", "text": "Strong" }
+            {
+              "id": "o1",
+              "text": "Bravery / Courage"
+            },
+            {
+              "id": "o2",
+              "text": "Brave"
+            },
+            {
+              "id": "o3",
+              "text": "Strong"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1163,9 +2070,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cobardía'?",
           "options": [
-            { "id": "o1", "text": "Cowardice" },
-            { "id": "o2", "text": "Scare" },
-            { "id": "o3", "text": "Weak" }
+            {
+              "id": "o1",
+              "text": "Cowardice"
+            },
+            {
+              "id": "o2",
+              "text": "Scare"
+            },
+            {
+              "id": "o3",
+              "text": "Weak"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1175,9 +2091,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'deseo'?",
           "options": [
-            { "id": "o1", "text": "Desire / Wish" },
-            { "id": "o2", "text": "Want" },
-            { "id": "o3", "text": "Hope" }
+            {
+              "id": "o1",
+              "text": "Desire / Wish"
+            },
+            {
+              "id": "o2",
+              "text": "Want"
+            },
+            {
+              "id": "o3",
+              "text": "Hope"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -1187,9 +2112,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'sentir'?",
           "options": [
-            { "id": "o1", "text": "To feel" },
-            { "id": "o2", "text": "To sense" },
-            { "id": "o3", "text": "To touch" }
+            {
+              "id": "o1",
+              "text": "To feel"
+            },
+            {
+              "id": "o2",
+              "text": "To sense"
+            },
+            {
+              "id": "o3",
+              "text": "To touch"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"

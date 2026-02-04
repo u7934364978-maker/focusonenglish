@@ -33,10 +33,11 @@ export const C2_U11_BLOCK1: Exercise = {
     {
       "id": "c2-u11-b1-q3",
       "type": "key-word-transformation",
+      "question": "There is a strong probability that global temperatures will surpass previous records in the next decade. (LIKELY)\n\nGlobal temperatures are likely to surpass __________",
       "sentence": "There is a strong probability that global temperatures will surpass previous records in the next decade.",
       "keyWord": "likely",
       "startOfAnswer": "Global temperatures are likely to surpass",
-      "correctAnswer": "Global temperatures are likely to surpass previous records in the next decade.",
+      "correctAnswer": "previous records in the next decade",
       "explanation": "Se espera que las temperaturas globales superen antiguos récords, y el uso de 'likely' implica alta probabilidad.",
       "points": 1
     },
@@ -65,10 +66,11 @@ export const C2_U11_BLOCK1: Exercise = {
     {
       "id": "c2-u11-b1-q6",
       "type": "key-word-transformation",
+      "question": "Scientists predict that renewable energy sources will become predominant in the next 50 years. (SET)\n\nRenewable energy sources are set to become __________",
       "sentence": "Scientists predict that renewable energy sources will become predominant in the next 50 years.",
       "keyWord": "set",
       "startOfAnswer": "Renewable energy sources are set to become",
-      "correctAnswer": "Renewable energy sources are set to become predominant in the next 50 years.",
+      "correctAnswer": "predominant in the next 50 years",
       "explanation": "Usar 'are set to' implica que algo está predestinado a suceder, en este caso, la predominancia de las energías renovables.",
       "points": 1
     },
@@ -97,10 +99,11 @@ export const C2_U11_BLOCK1: Exercise = {
     {
       "id": "c2-u11-b1-q9",
       "type": "key-word-transformation",
+      "question": "It is expected that the international community will agree on stricter environmental regulations in the following years. (EXPECTED)\n\nThe international community is expected to agree __________",
       "sentence": "It is expected that the international community will agree on stricter environmental regulations in the following years.",
       "keyWord": "expected",
       "startOfAnswer": "The international community is expected to agree",
-      "correctAnswer": "The international community is expected to agree on stricter environmental regulations in the following years.",
+      "correctAnswer": "on stricter environmental regulations in the following years",
       "explanation": "Con 'is expected to', se expresa una fuerte anticipación de que sucederá algo, aquí, un acuerdo en regulaciones más estrictas.",
       "points": 1
     },
@@ -152,10 +155,11 @@ export const C2_U11_BLOCK2: Exercise = {
     {
       "id": "c2-u11-b2-q3",
       "type": "key-word-transformation",
+      "question": "There's a possibility that the city will implement stricter emission controls in the near future. (LIKELY)\n\nThe city is likely to __________",
       "sentence": "There's a possibility that the city will implement stricter emission controls in the near future.",
       "keyWord": "likely",
       "startOfAnswer": "The city is likely to",
-      "correctAnswer": "The city is likely to implement stricter emission controls in the near future.",
+      "correctAnswer": "implement stricter emission controls in the near future",
       "explanation": "Se usa 'likely to' para expresar una alta probabilidad en el futuro.",
       "points": 1
     },
@@ -184,10 +188,11 @@ export const C2_U11_BLOCK2: Exercise = {
     {
       "id": "c2-u11-b2-q6",
       "type": "key-word-transformation",
+      "question": "Environmental changes are forecasted to cause significant shifts in global agriculture by 2050. (PREDICTED)\n\nEnvironmental changes are predicted to __________",
       "sentence": "Environmental changes are forecasted to cause significant shifts in global agriculture by 2050.",
       "keyWord": "predicted",
       "startOfAnswer": "Environmental changes are predicted to",
-      "correctAnswer": "Environmental changes are predicted to cause significant shifts in global agriculture by 2050.",
+      "correctAnswer": "cause significant shifts in global agriculture by 2050",
       "explanation": "La palabra 'predicted' también puede usarse en un contexto futuro para describir estimaciones.",
       "points": 1
     },
@@ -216,10 +221,11 @@ export const C2_U11_BLOCK2: Exercise = {
     {
       "id": "c2-u11-b2-q9",
       "type": "key-word-transformation",
+      "question": "The current environmental policies are unlikely to have a significant impact if no further changes are made. (EXPECTED)\n\nThe current environmental policies are not expected to __________",
       "sentence": "The current environmental policies are unlikely to have a significant impact if no further changes are made.",
       "keyWord": "expected",
       "startOfAnswer": "The current environmental policies are not expected to",
-      "correctAnswer": "The current environmental policies are not expected to have a significant impact if no further changes are made.",
+      "correctAnswer": "have a significant impact if no further changes are made",
       "explanation": "Aquí, 'not expected to' es una estructura idónea para describir una expectativa negativa para el futuro.",
       "points": 1
     },
@@ -271,10 +277,11 @@ export const C2_U11_BLOCK3: Exercise = {
     {
       "id": "c2-u11-b3-q3",
       "type": "key-word-transformation",
+      "question": "Experts declare that without immediate actions, the planet will face irreparable damage by 2050. (SET)\n\nThe planet is set __________",
       "sentence": "Experts declare that without immediate actions, the planet will face irreparable damage by 2050.",
       "keyWord": "set",
       "startOfAnswer": "The planet is set",
-      "correctAnswer": "The planet is set to face irreparable damage by 2050 unless immediate actions are taken.",
+      "correctAnswer": "to face irreparable damage by 2050 unless immediate actions are taken",
       "explanation": "El uso de 'set to' indica un futuro casi asegurado si no se actúa.",
       "points": 1
     },
@@ -294,19 +301,23 @@ export const C2_U11_BLOCK3: Exercise = {
     },
     {
       "id": "c2-u11-b3-q5",
-      "type": "fill-blank",
-      "question": "Should global temperatures continue to rise at the current rate, we __________ catastrophic environmental effects.",
-      "correctAnswer": "will encounter",
+      "startOfAnswer": "They will",
+      "keyWord": "will",
+      "sentence": "Scientists predict that the climate will worsen significantly if immediate action is not taken.",
+      "type": "key-word-transformation",
+      "question": "Scientists predict that the climate will worsen significantly if immediate action is not taken. (WILL)\n\nThey will __________",
+      "correctAnswer": "encounter significant climate challenges if no action is taken",
       "explanation": "El uso de 'will encounter' refleja una consecuencia inevitable en el futuro.",
       "points": 1
     },
     {
       "id": "c2-u11-b3-q6",
       "type": "key-word-transformation",
+      "question": "Scientists will inevitably discover more about the deep ocean ecosystems in the next decade. (BOUND)\n\nScientists are bound __________",
       "sentence": "Scientists will inevitably discover more about the deep ocean ecosystems in the next decade.",
       "keyWord": "bound",
       "startOfAnswer": "Scientists are bound",
-      "correctAnswer": "Scientists are bound to discover more about the deep ocean ecosystems in the next decade.",
+      "correctAnswer": "to discover more about the deep ocean ecosystems in the next decade",
       "explanation": "La expresión 'are bound to' indica un alto grado de certeza de que algo ocurrirá.",
       "points": 1
     },
@@ -326,19 +337,23 @@ export const C2_U11_BLOCK3: Exercise = {
     },
     {
       "id": "c2-u11-b3-q8",
-      "type": "fill-blank",
-      "question": "In the event of policy stagnation, the deforestation rates __________ steeply, exacerbating climate issues.",
-      "correctAnswer": "will escalate",
+      "startOfAnswer": "Climate change will",
+      "keyWord": "will",
+      "sentence": "The current trajectory of climate change suggests severe consequences unless immediate steps are taken.",
+      "type": "key-word-transformation",
+      "question": "The current trajectory of climate change suggests severe consequences unless immediate steps are taken. (WILL)\n\nClimate change will __________",
+      "correctAnswer": "escalate if action is not taken",
       "explanation": "Se utiliza 'will escalate' para describir un aumento futuro anticipado si no se toman medidas.",
       "points": 1
     },
     {
       "id": "c2-u11-b3-q9",
       "type": "key-word-transformation",
+      "question": "The introduction of electric vehicles is expected to significantly reduce urban pollution levels. (FORECAST)\n\nUrban pollution levels __________",
       "sentence": "The introduction of electric vehicles is expected to significantly reduce urban pollution levels.",
       "keyWord": "forecast",
       "startOfAnswer": "Urban pollution levels",
-      "correctAnswer": "Urban pollution levels are forecast to be significantly reduced by the introduction of electric vehicles.",
+      "correctAnswer": "are forecast to be significantly reduced by the introduction of electric vehicles",
       "explanation": "La palabra 'forecast' refleja una predicción basada en información presente.",
       "points": 1
     },
@@ -390,10 +405,11 @@ export const C2_U11_BLOCK4: Exercise = {
     {
       "id": "c2-u11-b4-q3",
       "type": "key-word-transformation",
+      "question": "The government is expected to unveil a comprehensive environmental policy next month. (DUE)\n\nThe government policy is due __________",
       "sentence": "The government is expected to unveil a comprehensive environmental policy next month.",
       "keyWord": "DUE",
       "startOfAnswer": "The government policy is due",
-      "correctAnswer": "The government policy is due to be unveiled next month.",
+      "correctAnswer": "to be unveiled next month",
       "explanation": "Se usa 'due to' para expresar que algo debe ocurrir en el futuro.",
       "points": 1
     },
@@ -422,10 +438,11 @@ export const C2_U11_BLOCK4: Exercise = {
     {
       "id": "c2-u11-b4-q6",
       "type": "key-word-transformation",
+      "question": "The organization intends to initiate a worldwide network for solar energy research. (SET)\n\nThe organization is set __________",
       "sentence": "The organization intends to initiate a worldwide network for solar energy research.",
       "keyWord": "SET",
       "startOfAnswer": "The organization is set",
-      "correctAnswer": "The organization is set to initiate a worldwide network for solar energy research.",
+      "correctAnswer": "to initiate a worldwide network for solar energy research",
       "explanation": "La frase 'is set to' se usa para decir que algo está planificado para suceder en el futuro.",
       "points": 1
     },
@@ -454,10 +471,11 @@ export const C2_U11_BLOCK4: Exercise = {
     {
       "id": "c2-u11-b4-q9",
       "type": "key-word-transformation",
+      "question": "The urban development plan is scheduled to take effect following a series of environmental assessments. (EXPECTED)\n\nThe urban development plan is expected __________",
       "sentence": "The urban development plan is scheduled to take effect following a series of environmental assessments.",
       "keyWord": "EXPECTED",
       "startOfAnswer": "The urban development plan is expected",
-      "correctAnswer": "The urban development plan is expected to take effect following a series of environmental assessments.",
+      "correctAnswer": "to take effect following a series of environmental assessments",
       "explanation": "Use 'is expected to' para expresar una acción futura anticipada basada en condiciones actuales.",
       "points": 1
     },
@@ -531,8 +549,8 @@ export const C2_U11_BLOCK5: Exercise = {
     {
       "id": "c2-u11-b5-q5",
       "type": "key-word-transformation",
-      "question": "The government plans to reduce emissions by 2030. (AIM)",
-      "correctAnswer": "The government aims to have reduced emissions by 2030.",
+      "question": "The government plans to reduce emissions by 2030. (AIM)\n\nThe government aims to have reduced __________",
+      "correctAnswer": "emissions by 2030",
       "explanation": "Se utiliza la estructura 'aims to have reduced' para indicar una intención futura que se completará para 2030.",
       "points": 1,
       "sentence": "The government plans to reduce emissions by 2030.",
@@ -564,8 +582,8 @@ export const C2_U11_BLOCK5: Exercise = {
     {
       "id": "c2-u11-b5-q8",
       "type": "key-word-transformation",
-      "question": "Climate scientists foresee that the ice caps will continue melting over the next decade. (LIKELY)",
-      "correctAnswer": "The ice caps are likely to continue melting over the next decade.",
+      "question": "Climate scientists foresee that the ice caps will continue melting over the next decade. (LIKELY)\n\nThe ice caps are likely to continue __________",
+      "correctAnswer": "melting over the next decade",
       "explanation": "Con 'are likely to continue melting', expresamos una alta probabilidad de que algo ocurra en el futuro.",
       "points": 1,
       "sentence": "Climate scientists foresee that the ice caps will continue melting over the next decade.",
@@ -590,8 +608,8 @@ export const C2_U11_BLOCK5: Exercise = {
       "id": "c2-u11-b5-q10",
       "type": "fill-blank",
       "question": "By the year 2100, many low-lying areas ________ (to submerge) due to rising sea levels.",
-      "correctAnswer": "will have submerged",
-      "explanation": "Usamos 'will have submerged' para indicar la finalización esperada de este suceso en un futuro específico.",
+      "correctAnswer": "will have been submerged",
+      "explanation": "Usamos 'will have been submerged' para indicar la finalización esperada de este suceso en un futuro específico,",
       "points": 1
     }
   ]
@@ -650,10 +668,11 @@ export const C2_U11_BLOCK6: Exercise = {
     {
       "id": "c2-u11-b6-q5",
       "type": "key-word-transformation",
+      "question": "They predict a significant rise in sea levels due to climate change. (EXPECTED)\n\nSea levels __________",
       "sentence": "They predict a significant rise in sea levels due to climate change.",
       "keyWord": "expected",
       "startOfAnswer": "Sea levels",
-      "correctAnswer": "Sea levels are expected to rise significantly due to climate change.",
+      "correctAnswer": "are expected to rise significantly due to climate change",
       "explanation": "Se utiliza 'are expected to rise' para transformar la predicción original en una estructura más compleja.",
       "points": 1
     },
@@ -682,10 +701,11 @@ export const C2_U11_BLOCK6: Exercise = {
     {
       "id": "c2-u11-b6-q8",
       "type": "key-word-transformation",
+      "question": "This decade is seeing a renewal of ecosystems thanks to extensive reforestation projects. (EXPECTED)\n\nEcosystems __________",
       "sentence": "This decade is seeing a renewal of ecosystems thanks to extensive reforestation projects.",
       "keyWord": "expected",
       "startOfAnswer": "Ecosystems",
-      "correctAnswer": "Ecosystems are expected to experience renewal thanks to extensive reforestation projects.",
+      "correctAnswer": "are expected to experience renewal thanks to extensive reforestation projects",
       "explanation": "Transforma el reportaje original en una predicción con 'are expected to'.",
       "points": 1
     },
@@ -745,10 +765,11 @@ export const C2_U11_BLOCK7: Exercise = {
     {
       "id": "c2-u11-b7-q3",
       "type": "key-word-transformation",
+      "question": "The committee will implement new recycling strategies by the end of the year. (SET)\n\nThe committee is set __________",
       "sentence": "The committee will implement new recycling strategies by the end of the year.",
       "keyWord": "set",
       "startOfAnswer": "The committee is set",
-      "correctAnswer": "The committee is set to implement new recycling strategies by the end of the year.",
+      "correctAnswer": "to implement new recycling strategies by the end of the year",
       "explanation": "La palabra clave 'set' se usa para expresar planes futuros que son casi seguros.",
       "points": 1
     },
@@ -777,10 +798,11 @@ export const C2_U11_BLOCK7: Exercise = {
     {
       "id": "c2-u11-b7-q6",
       "type": "key-word-transformation",
+      "question": "The environmental impact report shows the dam construction will start in the foreseeable future. (SET)\n\nThe dam construction is set __________",
       "sentence": "The environmental impact report shows the dam construction will start in the foreseeable future.",
       "keyWord": "set",
       "startOfAnswer": "The dam construction is set",
-      "correctAnswer": "The dam construction is set to start in the foreseeable future.",
+      "correctAnswer": "to start in the foreseeable future",
       "explanation": "Utilizar 'is set to' es una forma avanzada para expresar hechos futuros casi ciertos.",
       "points": 1
     },
@@ -809,10 +831,11 @@ export const C2_U11_BLOCK7: Exercise = {
     {
       "id": "c2-u11-b7-q9",
       "type": "key-word-transformation",
+      "question": "Scientists believe that if current trends continue, a rise in sea levels is inevitable. (BOUND)\n\nIf current trends continue, sea levels are bound __________",
       "sentence": "Scientists believe that if current trends continue, a rise in sea levels is inevitable.",
       "keyWord": "bound",
       "startOfAnswer": "If current trends continue, sea levels are bound",
-      "correctAnswer": "If current trends continue, sea levels are bound to rise.",
+      "correctAnswer": "to rise",
       "explanation": "La palabra clave 'bound' se usa para expresar resultados futuros inevitables.",
       "points": 1
     },
@@ -864,8 +887,8 @@ export const C2_U11_BLOCK8: Exercise = {
     {
       "id": "c2-u11-b8-q3",
       "type": "key-word-transformation",
-      "question": "Complete the second sentence using the key word and keeping the original meaning: The scientist warns that unless action is taken immediately, the polar ice caps will disappear by 2050. SOON",
-      "correctAnswer": "The scientist warns that unless action is taken soon, the polar ice caps will have disappeared by 2050.",
+      "question": "The scientist warns that unless action is taken immediately, the polar ice caps will disappear by 2050. (SOON)\n\nThe scientist warns that unless action is taken soon, __________",
+      "correctAnswer": "the polar ice caps will have disappeared by 2050",
       "explanation": "Usar 'soon' es crucial para expresar la urgencia temporal en la estructura avanzada del futuro.",
       "points": 1,
       "sentence": "The scientist warns that unless action is taken immediately, the polar ice caps will disappear by 2050.",
@@ -897,8 +920,8 @@ export const C2_U11_BLOCK8: Exercise = {
     {
       "id": "c2-u11-b8-q6",
       "type": "key-word-transformation",
-      "question": "Rewrite the sentence using the key word: Experts argue that, given the persistent carbon emissions, the Arctic ice sheets could vanish by the mid-21st century. FORESEEN",
-      "correctAnswer": "Experts argue that, given the persistent carbon emissions, the vanishing of the Arctic ice sheets by the mid-21st century is foreseen.",
+      "question": "Experts argue that, given the persistent carbon emissions, the Arctic ice sheets could vanish by the mid-21st century. (FORESEEN)\n\nExperts argue that, given the persistent carbon emissions, the vanishing of the Arctic ice sheets by the mid-21st century is __________",
+      "correctAnswer": "foreseen",
       "explanation": "Utilizar 'foreseen' convierte el pronóstico en un fenómeno anticipado basado en la evaluación experta.",
       "points": 1,
       "sentence": "Experts argue that, given the persistent carbon emissions, the Arctic ice sheets could vanish by the mid-21st century.",
@@ -930,8 +953,8 @@ export const C2_U11_BLOCK8: Exercise = {
     {
       "id": "c2-u11-b8-q9",
       "type": "key-word-transformation",
-      "question": "Complete the second sentence: Advocates believe that sustainable practices will result in better planetary health by 2100. DEEMED",
-      "correctAnswer": "It is deemed that sustainable practices will lead to an improvement in planetary health by 2100.",
+      "question": "Advocates believe that sustainable practices will result in better planetary health by 2100. (DEEMED)\n\nIt is deemed that __________",
+      "correctAnswer": "sustainable practices will lead to an improvement in planetary health by 2100",
       "explanation": "El uso de 'deemed' introduce una perspectiva formal y académica en el contexto de las opiniones sobre el futuro.",
       "points": 1,
       "sentence": "Advocates believe that sustainable practices will result in better planetary health by 2100.",
@@ -977,8 +1000,11 @@ export const C2_U11_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u11-b9-q2",
-      "type": "fill-blank",
-      "question": "By the year 2050, the effects of current environmental policies __________ felt worldwide.",
+      "startOfAnswer": "The solution will not be",
+      "keyWord": "EASY",
+      "sentence": "The solution will not be easy.",
+      "type": "key-word-transformation",
+      "question": "The solution will not be easy. (EASY)\n\nThe solution will not be __________",
       "correctAnswer": "will be",
       "explanation": "Se usa 'will be' para referirse a una certeza futura basada en acciones presentes.",
       "points": 1
@@ -986,8 +1012,8 @@ export const C2_U11_BLOCK9: Exercise = {
     {
       "id": "c2-u11-b9-q3",
       "type": "key-word-transformation",
-      "question": "The plans for reducing carbon emissions will not be completed by next year.",
-      "correctAnswer": "will not have been completed",
+      "question": "The plans for reducing carbon emissions... (COMPLETED)\n\nwill not have been __________",
+      "correctAnswer": "completed",
       "explanation": "Se usa 'will not have been completed' para indicar que en un futuro específico algo no se habrá terminado.",
       "points": 1,
       "sentence": "The plans for reducing carbon emissions...",
@@ -1010,8 +1036,11 @@ export const C2_U11_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u11-b9-q5",
-      "type": "fill-blank",
-      "question": "When we reach the 22nd century, renewable resources __________ the majority of our energy.",
+      "startOfAnswer": "The new policy will have",
+      "keyWord": "EFFECTS",
+      "sentence": "The new policy will have substantial effects.",
+      "type": "key-word-transformation",
+      "question": "The new policy will have substantial effects. (EFFECTS)\n\nThe new policy will have __________",
       "correctAnswer": "will represent",
       "explanation": "Se usa 'will represent' para hacer una predicción sobre el uso futuro de recursos.",
       "points": 1
@@ -1019,8 +1048,8 @@ export const C2_U11_BLOCK9: Exercise = {
     {
       "id": "c2-u11-b9-q6",
       "type": "key-word-transformation",
-      "question": "By next summer, they will finish building the eco-friendly park.",
-      "correctAnswer": "will have finished",
+      "question": "By next summer... (FINISHED)\n\nwill have __________",
+      "correctAnswer": "finished",
       "explanation": "Se utiliza 'will have finished' para expresar una acción futura que ya habrá sido completada antes de otro momento en el futuro.",
       "points": 1,
       "sentence": "By next summer...",
@@ -1043,8 +1072,11 @@ export const C2_U11_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u11-b9-q8",
-      "type": "fill-blank",
-      "question": "The scientists claim that the next breakthrough in environmental science __________ achieve significant reductions in carbon emissions.",
+      "startOfAnswer": "Many believe the discovery will",
+      "keyWord": "SIGNIFICANT",
+      "sentence": "Many believe the discovery will be significant.",
+      "type": "key-word-transformation",
+      "question": "Many believe the discovery will be significant. (SIGNIFICANT)\n\nMany believe the discovery will __________",
       "correctAnswer": "will",
       "explanation": "Se usa 'will' para indicar un verbo modal que expresa una certeza en el futuro.",
       "points": 1
@@ -1052,8 +1084,8 @@ export const C2_U11_BLOCK9: Exercise = {
     {
       "id": "c2-u11-b9-q9",
       "type": "key-word-transformation",
-      "question": "By 2030, the city aims to complete its transition to a zero-waste municipality.",
-      "correctAnswer": "will have completed",
+      "question": "By 2030... (COMPLETED)\n\nwill have __________",
+      "correctAnswer": "completed",
       "explanation": "La construcción 'will have completed' se usa para indicar que para el 2030 la acción ya se habrá culminado.",
       "points": 1,
       "sentence": "By 2030...",
@@ -1108,11 +1140,11 @@ export const C2_U11_BLOCK10: Exercise = {
     {
       "id": "c2-u11-b10-q3",
       "type": "key-word-transformation",
-      "question": "It is expected that new legislation will be enacted to curb emissions.",
+      "question": "New legislation is _____ being enacted to curb emissions. (ON THE VERGE OF)\n\non the verge of __________",
       "sentence": "New legislation is _____ being enacted to curb emissions.",
       "keyWord": "ON THE VERGE OF",
       "startOfAnswer": "on the verge of",
-      "correctAnswer": "on the verge of being enacted to curb emissions.",
+      "correctAnswer": "being enacted",
       "explanation": "La frase 'on the verge of' significa que algo está a punto de ocurrir.",
       "points": 1
     },
@@ -1141,11 +1173,11 @@ export const C2_U11_BLOCK10: Exercise = {
     {
       "id": "c2-u11-b10-q6",
       "type": "key-word-transformation",
-      "question": "The preservation of biodiversity is crucial to warding off environmental disaster.",
+      "question": "Only by preserving biodiversity _____ be averted. (CAN)\n\ncan environmental disaster __________",
       "sentence": "Only by preserving biodiversity _____ be averted.",
       "keyWord": "CAN",
       "startOfAnswer": "can environmental disaster",
-      "correctAnswer": "can environmental disaster be averted.",
+      "correctAnswer": "be averted",
       "explanation": "La estructura 'only by' se usa para enfatizar que algo es crucial para evitar un resultado negativo.",
       "points": 1
     },
@@ -1174,11 +1206,11 @@ export const C2_U11_BLOCK10: Exercise = {
     {
       "id": "c2-u11-b10-q9",
       "type": "key-word-transformation",
-      "question": "It is predicted that by 2050, renewable energy sources will dominate the energy market.",
+      "question": "By 2050, renewable energy sources are _____ the energy market. (SET TO)\n\nset to dominate __________",
       "sentence": "By 2050, renewable energy sources are _____ the energy market.",
       "keyWord": "SET TO",
       "startOfAnswer": "set to dominate",
-      "correctAnswer": "set to dominate the energy market.",
+      "correctAnswer": "the energy market",
       "explanation": "La frase 'set to' se utiliza cuando algo está planeado o esperado que ocurra.",
       "points": 1
     },
@@ -1202,8 +1234,8 @@ export const C2_U11_BLOCK10: Exercise = {
 export const C2_UNIT_11 = createC2Unit(
   'c2-u11',
   'Environmental Ethics & Sustainability',
-  'Advanced C2 level practice on environment.',
-  ["reading","vocabulary","writing"],
+  'Advanced C2 unit exploring complex topics and formal language structures.',
+  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
   [
     C2_U11_BLOCK1, C2_U11_BLOCK2, C2_U11_BLOCK3, C2_U11_BLOCK4, C2_U11_BLOCK5, C2_U11_BLOCK6, C2_U11_BLOCK7, C2_U11_BLOCK8, C2_U11_BLOCK9, C2_U11_BLOCK10
   ]

@@ -17,9 +17,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'trabajo en equipo'?",
           "options": [
-            { "id": "o1", "text": "teamwork" },
-            { "id": "o2", "text": "group work" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "teamwork"
+            },
+            {
+              "id": "o2",
+              "text": "group work"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -29,9 +38,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'apoyar' a un compañero?",
           "options": [
-            { "id": "o1", "text": "support" },
-            { "id": "o2", "text": "help" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "support"
+            },
+            {
+              "id": "o2",
+              "text": "help"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -41,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'compartir ideas'?",
           "options": [
-            { "id": "o1", "text": "share ideas" },
-            { "id": "o2", "text": "give ideas" },
-            { "id": "o3", "text": "talk ideas" }
+            {
+              "id": "o1",
+              "text": "share ideas"
+            },
+            {
+              "id": "o2",
+              "text": "give ideas"
+            },
+            {
+              "id": "o3",
+              "text": "talk ideas"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,9 +80,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Trabajamos juntos'?",
           "options": [
-            { "id": "o1", "text": "We work together" },
-            { "id": "o2", "text": "We are together working" },
-            { "id": "o3", "text": "Work together us" }
+            {
+              "id": "o1",
+              "text": "We work together"
+            },
+            {
+              "id": "o2",
+              "text": "We are together working"
+            },
+            {
+              "id": "o3",
+              "text": "Work together us"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -65,9 +101,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Ella me ayuda'?",
           "options": [
-            { "id": "o1", "text": "She helps me" },
-            { "id": "o2", "text": "She help me" },
-            { "id": "o3", "text": "She is help me" }
+            {
+              "id": "o1",
+              "text": "She helps me"
+            },
+            {
+              "id": "o2",
+              "text": "She help me"
+            },
+            {
+              "id": "o3",
+              "text": "She is help me"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -93,13 +138,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Trabajamos como un equipo'",
           "options": [
-            { "id": "w1", "text": "We" },
-            { "id": "w2", "text": "work" },
-            { "id": "w3", "text": "as" },
-            { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "team" }
+            {
+              "id": "w1",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "work"
+            },
+            {
+              "id": "w3",
+              "text": "as"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "team"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -107,12 +173,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Necesito tu opinión'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "need" },
-            { "id": "w3", "text": "your" },
-            { "id": "w4", "text": "feedback" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "need"
+            },
+            {
+              "id": "w3",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "feedback"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "vocabulary"
         },
         {
@@ -128,10 +211,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'responsabilidad'?",
           "options": [
-            { "id": "o1", "text": "responsibility" },
-            { "id": "o2", "text": "duty" },
-            { "id": "o3", "text": "task" },
-            { "id": "o4", "text": "All can be used" }
+            {
+              "id": "o1",
+              "text": "responsibility"
+            },
+            {
+              "id": "o2",
+              "text": "duty"
+            },
+            {
+              "id": "o3",
+              "text": "task"
+            },
+            {
+              "id": "o4",
+              "text": "All can be used"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -141,9 +236,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'tarea'?",
           "options": [
-            { "id": "o1", "text": "task" },
-            { "id": "o2", "text": "work" },
-            { "id": "o3", "text": "job" }
+            {
+              "id": "o1",
+              "text": "task"
+            },
+            {
+              "id": "o2",
+              "text": "work"
+            },
+            {
+              "id": "o3",
+              "text": "job"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -153,10 +257,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'objetivo'?",
           "options": [
-            { "id": "o1", "text": "goal" },
-            { "id": "o2", "text": "objective" },
-            { "id": "o3", "text": "target" },
-            { "id": "o4", "text": "All are common" }
+            {
+              "id": "o1",
+              "text": "goal"
+            },
+            {
+              "id": "o2",
+              "text": "objective"
+            },
+            {
+              "id": "o3",
+              "text": "target"
+            },
+            {
+              "id": "o4",
+              "text": "All are common"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -166,9 +282,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'éxito'?",
           "options": [
-            { "id": "o1", "text": "success" },
-            { "id": "o2", "text": "win" },
-            { "id": "o3", "text": "goal" }
+            {
+              "id": "o1",
+              "text": "success"
+            },
+            {
+              "id": "o2",
+              "text": "win"
+            },
+            {
+              "id": "o3",
+              "text": "goal"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -178,9 +303,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'organizado'?",
           "options": [
-            { "id": "o1", "text": "organized" },
-            { "id": "o2", "text": "tidy" },
-            { "id": "o3", "text": "ready" }
+            {
+              "id": "o1",
+              "text": "organized"
+            },
+            {
+              "id": "o2",
+              "text": "tidy"
+            },
+            {
+              "id": "o3",
+              "text": "ready"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -206,13 +340,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Somos un gran equipo'",
           "options": [
-            { "id": "w1", "text": "We" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "great" },
-            { "id": "w5", "text": "team" }
+            {
+              "id": "w1",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "great"
+            },
+            {
+              "id": "w5",
+              "text": "team"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -220,13 +375,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Gracias por tu apoyo'",
           "options": [
-            { "id": "w1", "text": "Thank" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "for" },
-            { "id": "w4", "text": "your" },
-            { "id": "w5", "text": "support" }
+            {
+              "id": "w1",
+              "text": "Thank"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "for"
+            },
+            {
+              "id": "w4",
+              "text": "your"
+            },
+            {
+              "id": "w5",
+              "text": "support"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -242,9 +418,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'confianza'?",
           "options": [
-            { "id": "o1", "text": "trust" },
-            { "id": "o2", "text": "confidence" },
-            { "id": "o3", "text": "Both are related" }
+            {
+              "id": "o1",
+              "text": "trust"
+            },
+            {
+              "id": "o2",
+              "text": "confidence"
+            },
+            {
+              "id": "o3",
+              "text": "Both are related"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -254,9 +439,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'respeto'?",
           "options": [
-            { "id": "o1", "text": "respect" },
-            { "id": "o2", "text": "value" },
-            { "id": "o3", "text": "care" }
+            {
+              "id": "o1",
+              "text": "respect"
+            },
+            {
+              "id": "o2",
+              "text": "value"
+            },
+            {
+              "id": "o3",
+              "text": "care"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -266,9 +460,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'comunicación'?",
           "options": [
-            { "id": "o1", "text": "communication" },
-            { "id": "o2", "text": "talking" },
-            { "id": "o3", "text": "chat" }
+            {
+              "id": "o1",
+              "text": "communication"
+            },
+            {
+              "id": "o2",
+              "text": "talking"
+            },
+            {
+              "id": "o3",
+              "text": "chat"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -278,9 +481,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ayudar a otros'?",
           "options": [
-            { "id": "o1", "text": "help others" },
-            { "id": "o2", "text": "assist people" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "help others"
+            },
+            {
+              "id": "o2",
+              "text": "assist people"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -290,9 +502,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'trabajar bajo presión'?",
           "options": [
-            { "id": "o1", "text": "work under pressure" },
-            { "id": "o2", "text": "work fast" },
-            { "id": "o3", "text": "busy work" }
+            {
+              "id": "o1",
+              "text": "work under pressure"
+            },
+            {
+              "id": "o2",
+              "text": "work fast"
+            },
+            {
+              "id": "o3",
+              "text": "busy work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -308,9 +529,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Qué opinas?'?",
           "options": [
-            { "id": "o1", "text": "What do you think?" },
-            { "id": "o2", "text": "What is your opinion?" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "What do you think?"
+            },
+            {
+              "id": "o2",
+              "text": "What is your opinion?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -320,9 +550,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Estoy de acuerdo contigo'?",
           "options": [
-            { "id": "o1", "text": "I agree with you" },
-            { "id": "o2", "text": "I'm agree with you" },
-            { "id": "o3", "text": "I agree you" }
+            {
+              "id": "o1",
+              "text": "I agree with you"
+            },
+            {
+              "id": "o2",
+              "text": "I'm agree with you"
+            },
+            {
+              "id": "o3",
+              "text": "I agree you"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -332,9 +571,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'No estoy de acuerdo'?",
           "options": [
-            { "id": "o1", "text": "I disagree" },
-            { "id": "o2", "text": "I don't agree" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "I disagree"
+            },
+            {
+              "id": "o2",
+              "text": "I don't agree"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -344,9 +592,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Tengo una idea'?",
           "options": [
-            { "id": "o1", "text": "I have an idea" },
-            { "id": "o2", "text": "I have a idea" },
-            { "id": "o3", "text": "An idea I have" }
+            {
+              "id": "o1",
+              "text": "I have an idea"
+            },
+            {
+              "id": "o2",
+              "text": "I have a idea"
+            },
+            {
+              "id": "o3",
+              "text": "An idea I have"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -356,9 +613,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas '¿Estás libre para una reunión?'?",
           "options": [
-            { "id": "o1", "text": "Are you free for a meeting?" },
-            { "id": "o2", "text": "Can we meet?" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "Are you free for a meeting?"
+            },
+            {
+              "id": "o2",
+              "text": "Can we meet?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -368,9 +634,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Hagámoslo'?",
           "options": [
-            { "id": "o1", "text": "Let's do it" },
-            { "id": "o2", "text": "We do it" },
-            { "id": "o3", "text": "Do it us" }
+            {
+              "id": "o1",
+              "text": "Let's do it"
+            },
+            {
+              "id": "o2",
+              "text": "We do it"
+            },
+            {
+              "id": "o3",
+              "text": "Do it us"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -380,9 +655,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Esa es una buena idea'?",
           "options": [
-            { "id": "o1", "text": "That's a good idea" },
-            { "id": "o2", "text": "Good point" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "That's a good idea"
+            },
+            {
+              "id": "o2",
+              "text": "Good point"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -408,12 +692,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Qué opinas tú?'",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "do" },
-            { "id": "w3", "text": "you" },
-            { "id": "w4", "text": "think?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "do"
+            },
+            {
+              "id": "w3",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "think?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -421,13 +722,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Estoy muy ocupado hoy'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "am" },
-            { "id": "w3", "text": "very" },
-            { "id": "w4", "text": "busy" },
-            { "id": "w5", "text": "today" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "am"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "busy"
+            },
+            {
+              "id": "w5",
+              "text": "today"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -451,10 +773,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Me gustaría añadir algo'?",
           "options": [
-            { "id": "o1", "text": "I would like to add something" },
-            { "id": "o2", "text": "I want say more" },
-            { "id": "o3", "text": "One more thing" },
-            { "id": "o4", "text": "All are common" }
+            {
+              "id": "o1",
+              "text": "I would like to add something"
+            },
+            {
+              "id": "o2",
+              "text": "I want say more"
+            },
+            {
+              "id": "o3",
+              "text": "One more thing"
+            },
+            {
+              "id": "o4",
+              "text": "All are common"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "functional_language"
@@ -464,9 +798,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Entiendo tu punto'?",
           "options": [
-            { "id": "o1", "text": "I see your point" },
-            { "id": "o2", "text": "I understand you" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "I see your point"
+            },
+            {
+              "id": "o2",
+              "text": "I understand you"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -476,9 +819,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'No estoy seguro de eso'?",
           "options": [
-            { "id": "o1", "text": "I'm not sure about that" },
-            { "id": "o2", "text": "I don't know" },
-            { "id": "o3", "text": "Maybe not" }
+            {
+              "id": "o1",
+              "text": "I'm not sure about that"
+            },
+            {
+              "id": "o2",
+              "text": "I don't know"
+            },
+            {
+              "id": "o3",
+              "text": "Maybe not"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -488,10 +840,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices '¿Podemos empezar?'?",
           "options": [
-            { "id": "o1", "text": "Can we start?" },
-            { "id": "o2", "text": "Let's start" },
-            { "id": "o3", "text": "Ready to begin?" },
-            { "id": "o4", "text": "All are correct" }
+            {
+              "id": "o1",
+              "text": "Can we start?"
+            },
+            {
+              "id": "o2",
+              "text": "Let's start"
+            },
+            {
+              "id": "o3",
+              "text": "Ready to begin?"
+            },
+            {
+              "id": "o4",
+              "text": "All are correct"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "functional_language"
@@ -501,9 +865,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'El tiempo se acaba'?",
           "options": [
-            { "id": "o1", "text": "Time is running out" },
-            { "id": "o2", "text": "No more time" },
-            { "id": "o3", "text": "Finish now" }
+            {
+              "id": "o1",
+              "text": "Time is running out"
+            },
+            {
+              "id": "o2",
+              "text": "No more time"
+            },
+            {
+              "id": "o3",
+              "text": "Finish now"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -513,9 +886,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Necesitamos una decisión'?",
           "options": [
-            { "id": "o1", "text": "We need a decision" },
-            { "id": "o2", "text": "Decide now please" },
-            { "id": "o3", "text": "Give us a choice" }
+            {
+              "id": "o1",
+              "text": "We need a decision"
+            },
+            {
+              "id": "o2",
+              "text": "Decide now please"
+            },
+            {
+              "id": "o3",
+              "text": "Give us a choice"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -525,9 +907,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'Gracias a todos por venir'?",
           "options": [
-            { "id": "o1", "text": "Thank you all for coming" },
-            { "id": "o2", "text": "Thanks for be here" },
-            { "id": "o3", "text": "Good you came" }
+            {
+              "id": "o1",
+              "text": "Thank you all for coming"
+            },
+            {
+              "id": "o2",
+              "text": "Thanks for be here"
+            },
+            {
+              "id": "o3",
+              "text": "Good you came"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -553,13 +944,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuál es el siguiente paso?'",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "next" },
-            { "id": "w5", "text": "step?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "next"
+            },
+            {
+              "id": "w5",
+              "text": "step?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -567,12 +979,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Tenemos un plan'",
           "options": [
-            { "id": "w1", "text": "We" },
-            { "id": "w2", "text": "have" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "plan" }
+            {
+              "id": "w1",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "plan"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -594,9 +1023,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'líder'?",
           "options": [
-            { "id": "o1", "text": "leader" },
-            { "id": "o2", "text": "boss" },
-            { "id": "o3", "text": "manager" }
+            {
+              "id": "o1",
+              "text": "leader"
+            },
+            {
+              "id": "o2",
+              "text": "boss"
+            },
+            {
+              "id": "o3",
+              "text": "manager"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -606,9 +1044,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'miembro del equipo'?",
           "options": [
-            { "id": "o1", "text": "team member" },
-            { "id": "o2", "text": "team player" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "team member"
+            },
+            {
+              "id": "o2",
+              "text": "team player"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -618,9 +1065,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'contribuir'?",
           "options": [
-            { "id": "o1", "text": "contribute" },
-            { "id": "o2", "text": "give" },
-            { "id": "o3", "text": "help" }
+            {
+              "id": "o1",
+              "text": "contribute"
+            },
+            {
+              "id": "o2",
+              "text": "give"
+            },
+            {
+              "id": "o3",
+              "text": "help"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -630,9 +1086,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'liderazgo'?",
           "options": [
-            { "id": "o1", "text": "leadership" },
-            { "id": "o2", "text": "leading" },
-            { "id": "o3", "text": "management" }
+            {
+              "id": "o1",
+              "text": "leadership"
+            },
+            {
+              "id": "o2",
+              "text": "leading"
+            },
+            {
+              "id": "o3",
+              "text": "management"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -642,9 +1107,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'coordinar'?",
           "options": [
-            { "id": "o1", "text": "coordinate" },
-            { "id": "o2", "text": "organize" },
-            { "id": "o3", "text": "manage" }
+            {
+              "id": "o1",
+              "text": "coordinate"
+            },
+            {
+              "id": "o2",
+              "text": "organize"
+            },
+            {
+              "id": "o3",
+              "text": "manage"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -654,9 +1128,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'motivar'?",
           "options": [
-            { "id": "o1", "text": "motivate" },
-            { "id": "o2", "text": "encourage" },
-            { "id": "o3", "text": "Both are related" }
+            {
+              "id": "o1",
+              "text": "motivate"
+            },
+            {
+              "id": "o2",
+              "text": "encourage"
+            },
+            {
+              "id": "o3",
+              "text": "Both are related"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -666,10 +1149,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'habilidades'?",
           "options": [
-            { "id": "o1", "text": "skills" },
-            { "id": "o2", "text": "abilities" },
-            { "id": "o3", "text": "talents" },
-            { "id": "o4", "text": "All are common" }
+            {
+              "id": "o1",
+              "text": "skills"
+            },
+            {
+              "id": "o2",
+              "text": "abilities"
+            },
+            {
+              "id": "o3",
+              "text": "talents"
+            },
+            {
+              "id": "o4",
+              "text": "All are common"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -679,9 +1174,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fuerzas/puntos fuertes'?",
           "options": [
-            { "id": "o1", "text": "strengths" },
-            { "id": "o2", "text": "powers" },
-            { "id": "o3", "text": "good things" }
+            {
+              "id": "o1",
+              "text": "strengths"
+            },
+            {
+              "id": "o2",
+              "text": "powers"
+            },
+            {
+              "id": "o3",
+              "text": "good things"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -691,9 +1195,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'debilidades'?",
           "options": [
-            { "id": "o1", "text": "weaknesses" },
-            { "id": "o2", "text": "bad things" },
-            { "id": "o3", "text": "problems" }
+            {
+              "id": "o1",
+              "text": "weaknesses"
+            },
+            {
+              "id": "o2",
+              "text": "bad things"
+            },
+            {
+              "id": "o3",
+              "text": "problems"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -703,9 +1216,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'aprender de los demás'?",
           "options": [
-            { "id": "o1", "text": "learn from others" },
-            { "id": "o2", "text": "watch people" },
-            { "id": "o3", "text": "copy team" }
+            {
+              "id": "o1",
+              "text": "learn from others"
+            },
+            {
+              "id": "o2",
+              "text": "watch people"
+            },
+            {
+              "id": "o3",
+              "text": "copy team"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -731,12 +1253,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Ella tiene buenas habilidades'",
           "options": [
-            { "id": "w1", "text": "She" },
-            { "id": "w2", "text": "has" },
-            { "id": "w3", "text": "good" },
-            { "id": "w4", "text": "skills" }
+            {
+              "id": "w1",
+              "text": "She"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w3",
+              "text": "good"
+            },
+            {
+              "id": "w4",
+              "text": "skills"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -744,12 +1283,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Aprendemos todos los días'",
           "options": [
-            { "id": "w1", "text": "We" },
-            { "id": "w2", "text": "learn" },
-            { "id": "w3", "text": "every" },
-            { "id": "w4", "text": "day" }
+            {
+              "id": "w1",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "learn"
+            },
+            {
+              "id": "w3",
+              "text": "every"
+            },
+            {
+              "id": "w4",
+              "text": "day"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "grammar"
         },
         {
@@ -765,9 +1321,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'proyecto'?",
           "options": [
-            { "id": "o1", "text": "project" },
-            { "id": "o2", "text": "plan" },
-            { "id": "o3", "text": "job" }
+            {
+              "id": "o1",
+              "text": "project"
+            },
+            {
+              "id": "o2",
+              "text": "plan"
+            },
+            {
+              "id": "o3",
+              "text": "job"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -777,9 +1342,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'desarrollar'?",
           "options": [
-            { "id": "o1", "text": "develop" },
-            { "id": "o2", "text": "make" },
-            { "id": "o3", "text": "build" }
+            {
+              "id": "o1",
+              "text": "develop"
+            },
+            {
+              "id": "o2",
+              "text": "make"
+            },
+            {
+              "id": "o3",
+              "text": "build"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -789,9 +1363,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'solución'?",
           "options": [
-            { "id": "o1", "text": "solution" },
-            { "id": "o2", "text": "answer" },
-            { "id": "o3", "text": "fix" }
+            {
+              "id": "o1",
+              "text": "solution"
+            },
+            {
+              "id": "o2",
+              "text": "answer"
+            },
+            {
+              "id": "o3",
+              "text": "fix"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -801,10 +1384,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'reunión de equipo'?",
           "options": [
-            { "id": "o1", "text": "team meeting" },
-            { "id": "o2", "text": "group talk" },
-            { "id": "o3", "text": "staff meeting" },
-            { "id": "o4", "text": "Both o1 and o3 are common" }
+            {
+              "id": "o1",
+              "text": "team meeting"
+            },
+            {
+              "id": "o2",
+              "text": "group talk"
+            },
+            {
+              "id": "o3",
+              "text": "staff meeting"
+            },
+            {
+              "id": "o4",
+              "text": "Both o1 and o3 are common"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -814,9 +1409,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'actualización'?",
           "options": [
-            { "id": "o1", "text": "update" },
-            { "id": "o2", "text": "news" },
-            { "id": "o3", "text": "change" }
+            {
+              "id": "o1",
+              "text": "update"
+            },
+            {
+              "id": "o2",
+              "text": "news"
+            },
+            {
+              "id": "o3",
+              "text": "change"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -826,9 +1430,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'progreso'?",
           "options": [
-            { "id": "o1", "text": "progress" },
-            { "id": "o2", "text": "step" },
-            { "id": "o3", "text": "way" }
+            {
+              "id": "o1",
+              "text": "progress"
+            },
+            {
+              "id": "o2",
+              "text": "step"
+            },
+            {
+              "id": "o3",
+              "text": "way"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -838,10 +1451,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'compañerismo'?",
           "options": [
-            { "id": "o1", "text": "camaraderie" },
-            { "id": "o2", "text": "friendship" },
-            { "id": "o3", "text": "team spirit" },
-            { "id": "o4", "text": "Both o1 and o3 relate" }
+            {
+              "id": "o1",
+              "text": "camaraderie"
+            },
+            {
+              "id": "o2",
+              "text": "friendship"
+            },
+            {
+              "id": "o3",
+              "text": "team spirit"
+            },
+            {
+              "id": "o4",
+              "text": "Both o1 and o3 relate"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary"
@@ -880,31 +1505,138 @@
           "interaction_id": "U57_I76",
           "type": "word-search",
           "prompt_es": "Busca palabras de TRABAJO EN EQUIPO:",
-          "words": ["TEAM", "GOAL", "TRUST", "SKILLS", "PLAN", "LEADER", "TASK", "IDEAS", "AGREE", "WORK"],
+          "words": [
+            "TEAM",
+            "GOAL",
+            "TRUST",
+            "SKILLS",
+            "PLAN",
+            "LEADER",
+            "TASK",
+            "IDEAS",
+            "AGREE",
+            "WORK"
+          ],
           "gridSize": 10,
           "clues": [
-            { "word": "TEAM", "clue": "Group" },
-            { "word": "GOAL", "clue": "Objective" },
-            { "word": "TRUST", "clue": "Confidence" },
-            { "word": "SKILLS", "clue": "Abilities" },
-            { "word": "PLAN", "clue": "Strategy" },
-            { "word": "LEADER", "clue": "Guide" },
-            { "word": "TASK", "clue": "Work" },
-            { "word": "IDEAS", "clue": "Thoughts" },
-            { "word": "AGREE", "clue": "Yes to plan" },
-            { "word": "WORK", "clue": "Activity" }
+            {
+              "word": "TEAM",
+              "clue": "Group"
+            },
+            {
+              "word": "GOAL",
+              "clue": "Objective"
+            },
+            {
+              "word": "TRUST",
+              "clue": "Confidence"
+            },
+            {
+              "word": "SKILLS",
+              "clue": "Abilities"
+            },
+            {
+              "word": "PLAN",
+              "clue": "Strategy"
+            },
+            {
+              "word": "LEADER",
+              "clue": "Guide"
+            },
+            {
+              "word": "TASK",
+              "clue": "Work"
+            },
+            {
+              "word": "IDEAS",
+              "clue": "Thoughts"
+            },
+            {
+              "word": "AGREE",
+              "clue": "Yes to plan"
+            },
+            {
+              "word": "WORK",
+              "clue": "Activity"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U57_I77",
           "type": "crossword",
-          "prompt_es": "Crucigrama de colaboración:",
+          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
           "items": [
-            { "word": "TOGETHER", "clue": "With other people", "direction": "across", "row": 0, "col": 0 },
-            { "word": "HELP", "clue": "Support someone", "direction": "down", "row": 0, "col": 2 },
-            { "word": "SHARE", "clue": "Give and take", "direction": "across", "row": 2, "col": 0 },
-            { "word": "GROUP", "clue": "Many people", "direction": "down", "row": 1, "col": 5 }
+            {
+              "word": "LEADERSHIP",
+              "clue": "Traducción de: liderazgo",
+              "direction": "across",
+              "row": 10,
+              "col": 5
+            },
+            {
+              "word": "COORDINATE",
+              "clue": "Traducción de: coordinar",
+              "direction": "down",
+              "row": 6,
+              "col": 8
+            },
+            {
+              "word": "CONTRIBUTE",
+              "clue": "Traducción de: contribuir",
+              "direction": "across",
+              "row": 14,
+              "col": 5
+            },
+            {
+              "word": "ORGANIZED",
+              "clue": "Traducción de: organizado",
+              "direction": "down",
+              "row": 3,
+              "col": 6
+            },
+            {
+              "word": "RESPECT",
+              "clue": "Traducción de: respeto",
+              "direction": "down",
+              "row": 13,
+              "col": 14
+            },
+            {
+              "word": "LEADER",
+              "clue": "Traducción de: líder",
+              "direction": "across",
+              "row": 4,
+              "col": 1
+            },
+            {
+              "word": "SOLVE",
+              "clue": "Traducción de: Problems",
+              "direction": "down",
+              "row": 2,
+              "col": 1
+            },
+            {
+              "word": "SHARE",
+              "clue": "Traducción de: Ideas",
+              "direction": "across",
+              "row": 17,
+              "col": 10
+            },
+            {
+              "word": "REACH",
+              "clue": "Traducción de: Goals",
+              "direction": "across",
+              "row": 6,
+              "col": 0
+            },
+            {
+              "word": "TRUST",
+              "clue": "Traducción de: Partners",
+              "direction": "down",
+              "row": 7,
+              "col": 11
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -913,11 +1645,26 @@
           "type": "matching",
           "prompt_es": "Une el verbo con el sustantivo:",
           "pairs": [
-            { "left": "Share", "right": "Ideas" },
-            { "left": "Reach", "right": "Goals" },
-            { "left": "Trust", "right": "Partners" },
-            { "left": "Solve", "right": "Problems" },
-            { "left": "Make", "right": "Decisions" }
+            {
+              "left": "Share",
+              "right": "Ideas"
+            },
+            {
+              "left": "Reach",
+              "right": "Goals"
+            },
+            {
+              "left": "Trust",
+              "right": "Partners"
+            },
+            {
+              "left": "Solve",
+              "right": "Problems"
+            },
+            {
+              "left": "Make",
+              "right": "Decisions"
+            }
           ],
           "mastery_tag": "vocabulary"
         },
@@ -926,9 +1673,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Quién es el líder?'?",
           "options": [
-            { "id": "o1", "text": "Who is the leader?" },
-            { "id": "o2", "text": "Who leads?" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "Who is the leader?"
+            },
+            {
+              "id": "o2",
+              "text": "Who leads?"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -938,9 +1694,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Necesitamos trabajar juntos'?",
           "options": [
-            { "id": "o1", "text": "We need to work together" },
-            { "id": "o2", "text": "Work together need" },
-            { "id": "o3", "text": "Together we work" }
+            {
+              "id": "o1",
+              "text": "We need to work together"
+            },
+            {
+              "id": "o2",
+              "text": "Work together need"
+            },
+            {
+              "id": "o3",
+              "text": "Together we work"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -950,9 +1715,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Puedes ayudarme con esto?'?",
           "options": [
-            { "id": "o1", "text": "Can you help me with this?" },
-            { "id": "o2", "text": "Help me this" },
-            { "id": "o3", "text": "Give help this" }
+            {
+              "id": "o1",
+              "text": "Can you help me with this?"
+            },
+            {
+              "id": "o2",
+              "text": "Help me this"
+            },
+            {
+              "id": "o3",
+              "text": "Give help this"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -962,9 +1736,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Gracias por tu tiempo'?",
           "options": [
-            { "id": "o1", "text": "Thank you for your time" },
-            { "id": "o2", "text": "Thanks time" },
-            { "id": "o3", "text": "Good time" }
+            {
+              "id": "o1",
+              "text": "Thank you for your time"
+            },
+            {
+              "id": "o2",
+              "text": "Thanks time"
+            },
+            {
+              "id": "o3",
+              "text": "Good time"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -974,9 +1757,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Tengo una sugerencia'?",
           "options": [
-            { "id": "o1", "text": "I have a suggestion" },
-            { "id": "o2", "text": "I suggest" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "I have a suggestion"
+            },
+            {
+              "id": "o2",
+              "text": "I suggest"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -986,9 +1778,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Cuál es el plan?'?",
           "options": [
-            { "id": "o1", "text": "What is the plan?" },
-            { "id": "o2", "text": "How is the plan?" },
-            { "id": "o3", "text": "The plan?" }
+            {
+              "id": "o1",
+              "text": "What is the plan?"
+            },
+            {
+              "id": "o2",
+              "text": "How is the plan?"
+            },
+            {
+              "id": "o3",
+              "text": "The plan?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -998,9 +1799,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Estamos en el buen camino'?",
           "options": [
-            { "id": "o1", "text": "We are on the right track" },
-            { "id": "o2", "text": "We are going good" },
-            { "id": "o3", "text": "Right way" }
+            {
+              "id": "o1",
+              "text": "We are on the right track"
+            },
+            {
+              "id": "o2",
+              "text": "We are going good"
+            },
+            {
+              "id": "o3",
+              "text": "Right way"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1010,9 +1820,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Necesitamos más tiempo'?",
           "options": [
-            { "id": "o1", "text": "We need more time" },
-            { "id": "o2", "text": "More time please" },
-            { "id": "o3", "text": "Time needed" }
+            {
+              "id": "o1",
+              "text": "We need more time"
+            },
+            {
+              "id": "o2",
+              "text": "More time please"
+            },
+            {
+              "id": "o3",
+              "text": "Time needed"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1022,9 +1841,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Qué piensas sobre esto?'?",
           "options": [
-            { "id": "o1", "text": "What do you think about this?" },
-            { "id": "o2", "text": "Think about this?" },
-            { "id": "o3", "text": "What about this?" }
+            {
+              "id": "o1",
+              "text": "What do you think about this?"
+            },
+            {
+              "id": "o2",
+              "text": "Think about this?"
+            },
+            {
+              "id": "o3",
+              "text": "What about this?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1034,9 +1862,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Es un placer trabajar contigo'?",
           "options": [
-            { "id": "o1", "text": "It is a pleasure working with you" },
-            { "id": "o2", "text": "Good work with you" },
-            { "id": "o3", "text": "I like work you" }
+            {
+              "id": "o1",
+              "text": "It is a pleasure working with you"
+            },
+            {
+              "id": "o2",
+              "text": "Good work with you"
+            },
+            {
+              "id": "o3",
+              "text": "I like work you"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1046,10 +1883,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Bien hecho equipo'?",
           "options": [
-            { "id": "o1", "text": "Well done team" },
-            { "id": "o2", "text": "Good team" },
-            { "id": "o3", "text": "Great team" },
-            { "id": "o4", "text": "All are common" }
+            {
+              "id": "o1",
+              "text": "Well done team"
+            },
+            {
+              "id": "o2",
+              "text": "Good team"
+            },
+            {
+              "id": "o3",
+              "text": "Great team"
+            },
+            {
+              "id": "o4",
+              "text": "All are common"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "functional_language"
@@ -1059,9 +1908,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Vamos a terminar esto'?",
           "options": [
-            { "id": "o1", "text": "Let's finish this" },
-            { "id": "o2", "text": "We finish" },
-            { "id": "o3", "text": "End now" }
+            {
+              "id": "o1",
+              "text": "Let's finish this"
+            },
+            {
+              "id": "o2",
+              "text": "We finish"
+            },
+            {
+              "id": "o3",
+              "text": "End now"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1087,12 +1945,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Puedes revisar esto?'",
           "options": [
-            { "id": "w1", "text": "Can" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "check" },
-            { "id": "w4", "text": "this?" }
+            {
+              "id": "w1",
+              "text": "Can"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "check"
+            },
+            {
+              "id": "w4",
+              "text": "this?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -1100,13 +1975,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Nos vemos en la reunión'",
           "options": [
-            { "id": "w1", "text": "See" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "in" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "meeting" }
+            {
+              "id": "w1",
+              "text": "See"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "meeting"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "functional_language"
         },
         {
@@ -1130,9 +2026,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Quién está a cargo?'?",
           "options": [
-            { "id": "o1", "text": "Who is in charge?" },
-            { "id": "o2", "text": "Who is boss?" },
-            { "id": "o3", "text": "Who leads?" }
+            {
+              "id": "o1",
+              "text": "Who is in charge?"
+            },
+            {
+              "id": "o2",
+              "text": "Who is boss?"
+            },
+            {
+              "id": "o3",
+              "text": "Who leads?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1142,9 +2047,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Buen punto!'?",
           "options": [
-            { "id": "o1", "text": "Good point!" },
-            { "id": "o2", "text": "Nice point!" },
-            { "id": "o3", "text": "Both are common" }
+            {
+              "id": "o1",
+              "text": "Good point!"
+            },
+            {
+              "id": "o2",
+              "text": "Nice point!"
+            },
+            {
+              "id": "o3",
+              "text": "Both are common"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "functional_language"
@@ -1154,9 +2068,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¡Ánimo equipo!'?",
           "options": [
-            { "id": "o1", "text": "Go team!" },
-            { "id": "o2", "text": "Team go!" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Go team!"
+            },
+            {
+              "id": "o2",
+              "text": "Team go!"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "functional_language"
@@ -1166,10 +2089,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '¿Estamos listos?'?",
           "options": [
-            { "id": "o1", "text": "Are we ready?" },
-            { "id": "o2", "text": "Ready we are?" },
-            { "id": "o3", "text": "Ready?" },
-            { "id": "o4", "text": "Both o1 and o3 are common" }
+            {
+              "id": "o1",
+              "text": "Are we ready?"
+            },
+            {
+              "id": "o2",
+              "text": "Ready we are?"
+            },
+            {
+              "id": "o3",
+              "text": "Ready?"
+            },
+            {
+              "id": "o4",
+              "text": "Both o1 and o3 are common"
+            }
           ],
           "correct_answer": "o4",
           "mastery_tag": "functional_language"

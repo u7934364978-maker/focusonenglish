@@ -28,10 +28,11 @@ export const C2_U10_BLOCK1: Exercise = {
     {
       "id": "c2-u10-b1-q3",
       "type": "key-word-transformation",
+      "question": "The experiment was successful beyond all expectations. (EXCEEDED)\n\nThe success of the experiment __________",
       "sentence": "The experiment was successful beyond all expectations.",
       "keyWord": "EXCEEDED",
       "startOfAnswer": "The success of the experiment",
-      "correctAnswer": "The success of the experiment exceeded all expectations.",
+      "correctAnswer": "exceeded all expectations",
       "explanation": "'Exceeded' es superar.",
       "points": 1
     },
@@ -55,10 +56,11 @@ export const C2_U10_BLOCK1: Exercise = {
     {
       "id": "c2-u10-b1-q6",
       "type": "key-word-transformation",
+      "question": "They are on the verge of a major discovery. (BRINK)\n\nThey are on the __________",
       "sentence": "They are on the verge of a major discovery.",
       "keyWord": "BRINK",
       "startOfAnswer": "They are on the",
-      "correctAnswer": "They are on the brink of a major discovery.",
+      "correctAnswer": "brink of a major discovery",
       "explanation": "'On the brink of' es al borde de (frecuentemente algo positivo en ciencia).",
       "points": 1
     },
@@ -82,10 +84,11 @@ export const C2_U10_BLOCK1: Exercise = {
     {
       "id": "c2-u10-b1-q9",
       "type": "key-word-transformation",
+      "question": "Scientists are trying to find the origin of the virus. (SOURCE)\n\nScientists are trying to __________",
       "sentence": "Scientists are trying to find the origin of the virus.",
       "keyWord": "SOURCE",
       "startOfAnswer": "Scientists are trying to",
-      "correctAnswer": "Scientists are trying to identify the source of the virus.",
+      "correctAnswer": "identify the source of the virus",
       "explanation": "'Source' como origen o fuente.",
       "points": 1
     },
@@ -127,10 +130,11 @@ export const C2_U10_BLOCK2: Exercise = {
     {
       "id": "c2-u10-b2-q3",
       "type": "key-word-transformation",
+      "question": "I will go only if you come with me. (PROVIDED)\n\nI will go __________",
       "sentence": "I will go only if you come with me.",
       "keyWord": "PROVIDED",
       "startOfAnswer": "I will go",
-      "correctAnswer": "I will go provided that you come with me.",
+      "correctAnswer": "provided that you come with me",
       "explanation": "'Provided that' es un conector condicional formal.",
       "points": 1
     },
@@ -162,10 +166,11 @@ export const C2_U10_BLOCK2: Exercise = {
     {
       "id": "c2-u10-b2-q7",
       "type": "key-word-transformation",
+      "question": "If you should see him, tell him I called. (SHOULD)\n\nShould you see him, __________",
       "sentence": "If you should see him, tell him I called.",
       "keyWord": "SHOULD",
-      "startOfAnswer": "",
-      "correctAnswer": "Should you see him, tell him I called.",
+      "startOfAnswer": "Should you see him,",
+      "correctAnswer": "tell him I called",
       "explanation": "Inversión en el primer condicional para mayor formalidad.",
       "points": 1
     },
@@ -318,10 +323,11 @@ export const C2_U10_BLOCK4: Exercise = {
     {
       "id": "c2-u10-b4-q3",
       "type": "key-word-transformation",
+      "question": "Mars might have been habitable in the past. (POSSIBILITY)\n\nThere is a __________",
       "sentence": "Mars might have been habitable in the past.",
       "keyWord": "POSSIBILITY",
       "startOfAnswer": "There is a",
-      "correctAnswer": "There is a possibility that Mars was habitable in the past.",
+      "correctAnswer": "possibility that Mars was habitable in the past",
       "explanation": "Transformación a estructura nominal.",
       "points": 1
     },
@@ -345,10 +351,11 @@ export const C2_U10_BLOCK4: Exercise = {
     {
       "id": "c2-u10-b4-q6",
       "type": "key-word-transformation",
+      "question": "The launch was cancelled due to bad weather. (ABORTED)\n\nThe launch was __________",
       "sentence": "The launch was cancelled due to bad weather.",
       "keyWord": "ABORTED",
       "startOfAnswer": "The launch was",
-      "correctAnswer": "The launch was aborted because of weather conditions.",
+      "correctAnswer": "aborted because of weather conditions",
       "explanation": "'Abort' es el término técnico para cancelar un lanzamiento.",
       "points": 1
     },
@@ -372,10 +379,11 @@ export const C2_U10_BLOCK4: Exercise = {
     {
       "id": "c2-u10-b4-q9",
       "type": "key-word-transformation",
+      "question": "We are searching for life elsewhere in the galaxy. (EXTRATERRESTRIAL)\n\nWe are searching for __________",
       "sentence": "We are searching for life elsewhere in the galaxy.",
       "keyWord": "EXTRATERRESTRIAL",
       "startOfAnswer": "We are searching for",
-      "correctAnswer": "We are searching for extraterrestrial life in the galaxy.",
+      "correctAnswer": "extraterrestrial life in the galaxy",
       "explanation": "Vida extraterrestre.",
       "points": 1
     },
@@ -407,9 +415,11 @@ export const C2_U10_BLOCK5: Exercise = {
     },
     {
       "id": "c2-u10-b5-q2",
-      "type": "multiple-choice",
-      "question": "Choose the correct form: 'Imagine you ________ (live) on the moon. What would you eat?'",
-      "options": ["live", "lived", "will live", "had lived"],
+      "startOfAnswer": "You would be",
+      "keyWord": "LIVE",
+      "sentence": "Imagine you live on the moon. What would you eat?",
+      "type": "key-word-transformation",
+      "question": "Imagine you live on the moon. What would you eat? (LIVE)\n\nYou would be __________",
       "correctAnswer": "lived",
       "explanation": "Después de 'Imagine' usamos el pasado simple para situaciones irreales presentes.",
       "points": 1
@@ -417,6 +427,7 @@ export const C2_U10_BLOCK5: Exercise = {
     {
       "id": "c2-u10-b5-q3",
       "type": "key-word-transformation",
+      "question": "What would happen if the project failed? (SUPPOSING)\n\n __________",
       "sentence": "What would happen if the project failed?",
       "keyWord": "SUPPOSING",
       "startOfAnswer": "",
@@ -434,10 +445,12 @@ export const C2_U10_BLOCK5: Exercise = {
     },
     {
       "id": "c2-u10-b5-q5",
-      "type": "multiple-choice",
-      "question": "Which structure is most common for inviting someone to consider a possibility?",
-      "options": ["If you suppose", "Just imagine", "What if", "Both Just imagine and What if"],
-      "correctAnswer": "Both Just imagine and What if",
+      "startOfAnswer": "Both Just imagine and What if",
+      "keyWord": "STRUCTURE",
+      "sentence": "Which structure is most common for inviting someone to consider a possibility?",
+      "type": "key-word-transformation",
+      "question": "Which structure is most common for inviting someone to consider a possibility? (STRUCTURE)\n\nBoth Just imagine and What if __________",
+      "correctAnswer": "",
       "explanation": "Ambas son muy comunes en el lenguaje hablado.",
       "points": 1
     },
@@ -452,10 +465,11 @@ export const C2_U10_BLOCK5: Exercise = {
     {
       "id": "c2-u10-b5-q7",
       "type": "key-word-transformation",
+      "question": "If we lost all our data, it would be a disaster. (SUPPOSING)\n\nIt would be a disaster __________",
       "sentence": "If we lost all our data, it would be a disaster.",
       "keyWord": "SUPPOSING",
       "startOfAnswer": "It would be a disaster",
-      "correctAnswer": "It would be a disaster supposing we lost all our data.",
+      "correctAnswer": "supposing we lost all our data",
       "explanation": "Posición final de la condición.",
       "points": 1
     },
@@ -514,10 +528,11 @@ export const C2_U10_BLOCK6: Exercise = {
     {
       "id": "c2-u10-b6-q3",
       "type": "key-word-transformation",
+      "question": "They started a new research project. (SET)\n\nThey __________",
       "sentence": "They started a new research project.",
       "keyWord": "SET",
       "startOfAnswer": "They",
-      "correctAnswer": "They set up a new research project.",
+      "correctAnswer": "set up a new research project",
       "explanation": "'Set up' es establecer u organizar.",
       "points": 1
     },
@@ -541,10 +556,11 @@ export const C2_U10_BLOCK6: Exercise = {
     {
       "id": "c2-u10-b6-q6",
       "type": "key-word-transformation",
+      "question": "The information was transmitted via satellite. (BEAMED)\n\nThe information was __________",
       "sentence": "The information was transmitted via satellite.",
       "keyWord": "BEAMED",
       "startOfAnswer": "The information was",
-      "correctAnswer": "The information was beamed via satellite.",
+      "correctAnswer": "beamed via satellite",
       "explanation": "'Beam' se usa para la transmisión de señales de radio/TV.",
       "points": 1
     },
@@ -568,10 +584,11 @@ export const C2_U10_BLOCK6: Exercise = {
     {
       "id": "c2-u10-b6-q9",
       "type": "key-word-transformation",
+      "question": "The research was based on old data. (DREW)\n\nThe research __________",
       "sentence": "The research was based on old data.",
       "keyWord": "DREW",
       "startOfAnswer": "The research",
-      "correctAnswer": "The research drew on old data.",
+      "correctAnswer": "drew on old data",
       "explanation": "'Draw on' es basarse o hacer uso de una fuente.",
       "points": 1
     },
@@ -603,20 +620,23 @@ export const C2_U10_BLOCK7: Exercise = {
     },
     {
       "id": "c2-u10-b7-q2",
-      "type": "multiple-choice",
-      "question": "Choose the correct word: 'You must pay now; ________, we cannot process the order.'",
-      "options": ["Unless", "Otherwise", "Provided", "Supposing"],
-      "correctAnswer": "Otherwise",
+      "startOfAnswer": "or we cannot process the order",
+      "keyWord": "CONDITION",
+      "sentence": "You must pay now; otherwise, we cannot process the order.",
+      "type": "key-word-transformation",
+      "question": "You must pay now; otherwise, we cannot process the order. (CONDITION)\n\nor we cannot process the order __________",
+      "correctAnswer": "",
       "explanation": "'Otherwise' significa 'de lo contrario'.",
       "points": 1
     },
     {
       "id": "c2-u10-b7-q3",
       "type": "key-word-transformation",
+      "question": "He only agreed to help because I paid him. (CONDITION)\n\nHe agreed to help __________",
       "sentence": "He only agreed to help because I paid him.",
       "keyWord": "CONDITION",
       "startOfAnswer": "He agreed to help",
-      "correctAnswer": "He agreed to help on condition that I paid him.",
+      "correctAnswer": "on condition that I paid him",
       "explanation": "'On condition that' es muy formal.",
       "points": 1
     },
@@ -648,10 +668,11 @@ export const C2_U10_BLOCK7: Exercise = {
     {
       "id": "c2-u10-b7-q7",
       "type": "key-word-transformation",
+      "question": "Whether or not it rains, we are going hiking. (RAIN)\n\nRain __________",
       "sentence": "Whether or not it rains, we are going hiking.",
       "keyWord": "RAIN",
       "startOfAnswer": "Rain",
-      "correctAnswer": "Rain or shine, we are going hiking.",
+      "correctAnswer": "or shine, we are going hiking",
       "explanation": "Expresión fija para 'sea como sea'.",
       "points": 1
     },
@@ -710,10 +731,11 @@ export const C2_U10_BLOCK8: Exercise = {
     {
       "id": "c2-u10-b8-q3",
       "type": "key-word-transformation",
+      "question": "The discovery was completely unexpected. (BLUE)\n\nThe discovery came out of the __________",
       "sentence": "The discovery was completely unexpected.",
       "keyWord": "BLUE",
       "startOfAnswer": "The discovery came out of the",
-      "correctAnswer": "The discovery came out of the blue.",
+      "correctAnswer": "blue",
       "explanation": "'Out of the blue' es de la nada o por sorpresa.",
       "points": 1
     },
@@ -737,10 +759,11 @@ export const C2_U10_BLOCK8: Exercise = {
     {
       "id": "c2-u10-b8-q6",
       "type": "key-word-transformation",
+      "question": "He is always thinking about new and original ideas. (OUTSIDE)\n\nHe always thinks __________",
       "sentence": "He is always thinking about new and original ideas.",
       "keyWord": "OUTSIDE",
       "startOfAnswer": "He always thinks",
-      "correctAnswer": "He always thinks outside the box.",
+      "correctAnswer": "outside the box",
       "explanation": "Pensar de forma creativa y no convencional.",
       "points": 1
     },
@@ -764,10 +787,11 @@ export const C2_U10_BLOCK8: Exercise = {
     {
       "id": "c2-u10-b8-q9",
       "type": "key-word-transformation",
+      "question": "The new technology is very advanced. (CUTTING)\n\nThe technology is __________",
       "sentence": "The new technology is very advanced.",
       "keyWord": "CUTTING",
       "startOfAnswer": "The technology is",
-      "correctAnswer": "The technology is cutting-edge.",
+      "correctAnswer": "cutting-edge",
       "explanation": "'Cutting-edge' es de vanguardia.",
       "points": 1
     },
@@ -808,10 +832,12 @@ export const C2_U10_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u10-b9-q3",
-      "type": "multiple-choice",
-      "question": "The 'Singularity' refers to:",
-      "options": ["A single computer", "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible", "A new language", "The end of the world"],
-      "correctAnswer": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible",
+      "startOfAnswer": "It refers to .",
+      "keyWord": "SINGULARITY",
+      "sentence": "The 'Singularity' refers to a hypothetical point in the future when technological growth becomes uncontrollable and irreversible.",
+      "type": "key-word-transformation",
+      "question": "The 'Singularity' refers to a hypothetical point in the future when technological growth becomes uncontrollable and irreversible. (SINGULARITY)\n\nIt refers to . __________",
+      "correctAnswer": "a hypothetical point in the future when technological growth becomes uncontrollable and irreversible",
       "explanation": "La singularidad tecnológica.",
       "points": 1
     },
@@ -825,10 +851,12 @@ export const C2_U10_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u10-b9-q5",
-      "type": "multiple-choice",
-      "question": "What is the 'Turing Test'?",
-      "options": ["A math exam", "A test of a machine's ability to exhibit intelligent behavior equivalent to that of a human", "A race between robots", "A type of security software"],
-      "correctAnswer": "A test of a machine's ability to exhibit intelligent behavior equivalent to that of a human",
+      "startOfAnswer": "The 'Turing Test' is .",
+      "keyWord": "TURING",
+      "sentence": "What is the 'Turing Test'?",
+      "type": "key-word-transformation",
+      "question": "What is the 'Turing Test'? (TURING)\n\nThe 'Turing Test' is . __________",
+      "correctAnswer": "a test of a machine's ability to exhibit intelligent behavior equivalent to that of a human",
       "explanation": "El test de Turing evalúa la inteligencia de la máquina.",
       "points": 1
     },
@@ -842,10 +870,12 @@ export const C2_U10_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u10-b9-q7",
-      "type": "multiple-choice",
-      "question": "What is a major concern with AI 'black boxes'?",
-      "options": ["They are too small", "The lack of transparency in how they reach decisions", "They are too expensive", "They only work at night"],
-      "correctAnswer": "The lack of transparency in how they reach decisions",
+      "startOfAnswer": "The major concern is .",
+      "keyWord": "TRANSPARENCY",
+      "sentence": "What is a major concern with AI 'black boxes'?",
+      "type": "key-word-transformation",
+      "question": "What is a major concern with AI 'black boxes'? (TRANSPARENCY)\n\nThe major concern is . __________",
+      "correctAnswer": "the lack of transparency in how they reach decisions",
       "explanation": "La falta de explicabilidad en las decisiones de la IA.",
       "points": 1
     },
@@ -859,10 +889,12 @@ export const C2_U10_BLOCK9: Exercise = {
     },
     {
       "id": "c2-u10-b9-q9",
-      "type": "multiple-choice",
-      "question": "What is 'automation'?",
-      "options": ["Driving a car", "The use of technology to perform tasks with reduced human intervention", "Working in an office", "Buying a robot"],
-      "correctAnswer": "The use of technology to perform tasks with reduced human intervention",
+      "startOfAnswer": "'Automation' means .",
+      "keyWord": "TECHNOLOGY",
+      "sentence": "What is 'automation'?",
+      "type": "key-word-transformation",
+      "question": "What is 'automation'? (TECHNOLOGY)\n\n'Automation' means . __________",
+      "correctAnswer": "the use of technology to perform tasks with reduced human intervention",
       "explanation": "Automatización.",
       "points": 1
     },
@@ -903,6 +935,7 @@ export const C2_U10_BLOCK10: Exercise = {
     {
       "id": "c2-u10-b10-q3",
       "type": "key-word-transformation",
+      "question": "If you need any help, just ask. (SHOULD)\n\n __________",
       "sentence": "If you need any help, just ask.",
       "keyWord": "SHOULD",
       "startOfAnswer": "",
@@ -920,9 +953,11 @@ export const C2_U10_BLOCK10: Exercise = {
     },
     {
       "id": "c2-u10-b10-q5",
-      "type": "multiple-choice",
-      "question": "What is a 'paradigm shift'?",
-      "options": ["A small change", "A fundamental change in thinking", "A gear shift", "A movement of the stars"],
+      "startOfAnswer": "",
+      "keyWord": "DEFINITION",
+      "sentence": "What is a 'paradigm shift'?",
+      "type": "key-word-transformation",
+      "question": "What is a 'paradigm shift'? (DEFINITION)\n\n __________",
       "correctAnswer": "A fundamental change in thinking",
       "explanation": "Cambio radical de enfoque.",
       "points": 1
@@ -938,19 +973,22 @@ export const C2_U10_BLOCK10: Exercise = {
     {
       "id": "c2-u10-b10-q7",
       "type": "key-word-transformation",
+      "question": "He only passed because he studied. (WOULDN'T)\n\nIf he hadn't studied, __________",
       "sentence": "He only passed because he studied.",
       "keyWord": "WOULDN'T",
       "startOfAnswer": "If he hadn't studied,",
-      "correctAnswer": "If he hadn't studied, he wouldn't have passed.",
+      "correctAnswer": "he wouldn't have passed",
       "explanation": "Tercer condicional estándar.",
       "points": 1
     },
     {
       "id": "c2-u10-b10-q8",
-      "type": "multiple-choice",
-      "question": "Which idiom means 'not difficult'?",
-      "options": ["Reinvent the wheel", "Rocket science", "Cutting-edge", "Out of the blue"],
-      "correctAnswer": "Rocket science",
+      "startOfAnswer": "",
+      "keyWord": "IDIOM",
+      "sentence": "Which idiom means 'not difficult'?",
+      "type": "key-word-transformation",
+      "question": "Which idiom means 'not difficult'? (IDIOM)\n\n __________",
+      "correctAnswer": "it's not rocket science",
       "explanation": "'It's not rocket science'.",
       "points": 1
     },
@@ -977,8 +1015,8 @@ export const C2_U10_BLOCK10: Exercise = {
 export const C2_UNIT_10 = createC2Unit(
   'c2-u10',
   'The Scientific Frontier',
-  'Explore the latest breakthroughs in science and technology while mastering advanced conditionals and hypothetical structures.',
-  ['Master mixed conditionals and formal alternatives', 'Use conditional conjunctions and inversions', 'Acquire advanced scientific and technical vocabulary', 'Discuss ethical implications of modern science'],
+  'Advanced C2 unit exploring complex topics and formal language structures.',
+  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
   [
     C2_U10_BLOCK1,
     C2_U10_BLOCK2,
