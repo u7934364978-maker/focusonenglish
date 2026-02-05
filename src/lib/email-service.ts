@@ -313,7 +313,7 @@ export async function sendWelcomeEmail({
     const loginUrl = `${process.env.NEXTAUTH_URL || process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/cuenta/login`;
 
     const { data, error } = await resend.emails.send({
-      from: 'Focus English <noreply@focus-on-english.com>',
+      from: 'Focus English <onboarding@resend.dev>', // Usar dominio de prueba de Resend
       to: [email],
       subject: '🚀 ¡Bienvenido a Focus English! Tu acceso está listo',
       html: `
@@ -345,14 +345,13 @@ export async function sendWelcomeEmail({
               }
               .button {
                 display: inline-block;
-                background: #ff7e5f;
-                color: white;
+                background: #ff7e5f !important;
+                color: white !important;
                 padding: 14px 35px;
                 text-decoration: none;
                 border-radius: 8px;
                 font-weight: 700;
                 margin: 25px 0;
-                box-shadow: 0 4px 6px rgba(255, 126, 95, 0.2);
               }
               .plan-box {
                 background: #fff7ed;
@@ -408,11 +407,11 @@ export async function sendWelcomeEmail({
                 </p>
                 <p style="margin: 10px 0 0 0; color: #6b7280; font-size: 12px;">(Te recomendamos cambiarla en tu perfil una vez accedas)</p>
               </div>
-              ` : ''}
-              
+              ` : `
               <p style="font-size: 16px; color: #4b5563;">
-                Ya puedes acceder a tu dashboard personal para ver tus cursos, seguir tu progreso y empezar a practicar.
+                Puedes acceder con tu cuenta habitual: <strong>${email}</strong>
               </p>
+              `}
               
               <div style="text-align: center;">
                 <a href="${loginUrl}" class="button">
@@ -420,24 +419,14 @@ export async function sendWelcomeEmail({
                 </a>
               </div>
               
-              <h3 style="color: #1f2937; font-size: 18px;">¿Qué puedes hacer ahora?</h3>
-              <ul style="color: #4b5563; padding-left: 20px;">
-                <li><strong>Explora los cursos:</strong> Elige el que mejor se adapte a tus objetivos actuales.</li>
-                <li><strong>Práctica ilimitada:</strong> Usa nuestro generador de ejercicios para mejorar cada día.</li>
-                <li><strong>Gana XP y Medallas:</strong> Mantén tu racha diaria y sube de nivel.</li>
-              </ul>
-              
               <p style="font-size: 14px; color: #6b7280; margin-top: 30px;">
-                Si tienes cualquier duda, simplemente responde a este correo o escríbenos a <a href="mailto:soporte@focus-on-english.com" style="color: #ff7e5f;">soporte@focus-on-english.com</a>. Estamos aquí para ayudarte.
+                Si tienes cualquier duda, simplemente responde a este correo o escríbenos a soporte@focus-on-english.com.
               </p>
             </div>
             
             <div class="footer">
               <p style="margin: 0 0 10px 0;">
                 © ${new Date().getFullYear()} Focus English. Todos los derechos reservados.
-              </p>
-              <p style="margin: 0;">
-                Este email fue enviado a ${email}
               </p>
             </div>
           </body>
@@ -450,7 +439,7 @@ export async function sendWelcomeEmail({
       return false;
     }
 
-    console.log('✅ Email de bienvenida enviado:', data?.id);
+    console.log('✅ Email de bienvenida enviado con éxito:', data?.id);
     return true;
   } catch (error) {
     console.error('❌ Error en sendWelcomeEmail:', error);

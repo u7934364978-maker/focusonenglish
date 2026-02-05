@@ -2,50 +2,29 @@
 
 ## Workflow Steps
 
-### [ ] Step: Requirements
+### [x] Step: Requirements
+### [x] Step: Technical Specification
+### [x] Step: Planning
 
-Create a Product Requirements Document (PRD) based on the feature description.
+## Implementation Tasks
 
-1. Review existing codebase to understand current architecture and patterns
-2. Analyze the feature definition and identify unclear aspects
-3. Ask the user for clarifications on aspects that significantly impact scope or user experience
-4. Make reasonable decisions for minor details based on context and conventions
-5. If user can't clarify, make a decision, state the assumption, and continue
+### Phase 1: Audit & Verification (JSON Levels A1-B1)
+- [x] **Audit A1 Content**: Verify 60 JSON units exist in `src/content/cursos/ingles-a1/`.
+- [x] **Audit A2 Content**: Verify 60 JSON units exist in `src/content/cursos/ingles-a2/`.
+- [x] **Audit B1 Content**: Verify 60 JSON units exist in `src/content/cursos/ingles-b1/`.
+- [ ] **Verification**: Ensure `premiumCourseServerService.getUnits` correctly lists all units for A1, A2, and B1.
 
-Save the PRD to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/7120a404-cfaf-4328-b3e9-c05e410e75af/requirements.md`.
+### Phase 2: Audit & Verification (TS Levels B2-C2)
+- [x] **Audit B2 Content**: Verify 60 TS units exist in `src/lib/b2-units/`.
+- [x] **Audit C1 Content**: Verify 60 TS units exist in `src/lib/c1-units/`.
+- [x] **Audit C2 Content**: Verify 60 TS units exist in `src/lib/c2-units/`.
+- [x] **Quality Check**: Verify no obvious corruption or placeholders in high-level units (e.g., C2 unit-60).
 
-### [ ] Step: Technical Specification
+### Phase 3: Integration & Global Verification
+- [ ] **Route Check**: Verify that `/curso/ingles-a1` through `/curso/ingles-c2` load correctly.
+- [ ] **Navigation Check**: Ensure unit-to-unit navigation works within the sessions.
+- [ ] **Progress Tracking**: Confirm progress is being saved to Supabase (spot check).
 
-Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/7120a404-cfaf-4328-b3e9-c05e410e75af/requirements.md`.
-
-1. Review existing codebase architecture and identify reusable components
-2. Define the implementation approach
-
-Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/7120a404-cfaf-4328-b3e9-c05e410e75af/spec.md` with:
-
-- Technical context (language, dependencies)
-- Implementation approach referencing existing code patterns
-- Source code structure changes
-- Data model / API / interface changes
-- Delivery phases (incremental, testable milestones)
-- Verification approach using project lint/test commands
-
-### [ ] Step: Planning
-
-Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/.zencoder/chats/7120a404-cfaf-4328-b3e9-c05e410e75af/spec.md`.
-
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
-
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint, write tests for a module). Avoid steps that are too granular (single function) or too broad (entire feature).
-
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
-
-Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/7120a404-cfaf-4328-b3e9-c05e410e75af/plan.md`.
-
-### [ ] Step: Implementation
-
-This step should be replaced with detailed implementation tasks from the Planning step.
-
-If Planning didn't replace this step, execute the tasks in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/7120a404-cfaf-4328-b3e9-c05e410e75af/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+### Phase 4: Final Push & Commit
+- [ ] **Final Build**: Run `npm run build` to verify all static course routes generate successfully.
+- [ ] **Commit**: Push all course content and fixes with a descriptive commit message.

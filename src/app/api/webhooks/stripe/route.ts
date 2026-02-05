@@ -80,6 +80,21 @@ export async function POST(request: NextRequest) {
             if (authError) {
               if (authError.message.includes('already registered')) {
                 console.log('ℹ️ User already exists in Supabase Auth');
+                
+                // Si el usuario ya existe, intentar obtener su ID para enviar el email de todos modos
+                const { data: existingUser } = await supabaseAdmin.auth.admin.listUsers();
+                const user = existingUser.users.find(u => u.email === customerEmail);
+                
+                if (user) {
+                  // Enviar email de bienvenida incluso si ya existía (quizás es una nueva suscripción)
+                  await sendWelcomeEmail({
+                    email: customerEmail,
+                    name: firstName || user.user_metadata?.first_name || 'Estudiante',
+                    planName: planName,
+                    // No enviamos password si ya existía
+                  });
+                  console.log('✅ Welcome email sent to existing user');
+                }
               } else {
                 console.error('❌ Error creating Supabase Auth user:', authError.message);
               }
