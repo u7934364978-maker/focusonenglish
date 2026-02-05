@@ -4,12 +4,14 @@ import path from 'path';
 import { notFound } from 'next/navigation';
 import PremiumUnitViewer from '@/components/course/PremiumUnitViewer';
 import { UnitData } from '@/types/premium-course';
+import { courseService } from '@/lib/services/course-service';
 
 export default async function B1UnitPage({ params }: { params: Promise<{ unitId: string }> }) {
   const { unitId } = await params;
   
   let unitData: UnitData | null = null;
 
+  // 1. Try loading from JSON file first (Legacy/New structure)
   const fileName = `${unitId.toLowerCase()}.json`;
   const filePath = path.join(process.cwd(), 'src/content/cursos/ingles-b1', fileName);
   
@@ -19,6 +21,11 @@ export default async function B1UnitPage({ params }: { params: Promise<{ unitId:
     } catch (error) {
       console.error('Error parsing unit data:', error);
     }
+  }
+
+  // 2. Fallback to Database if not found as file
+  if (!unitData) {
+    unitData = await courseService.getPremiumUnitData(unitId);
   }
 
   if (!unitData) {

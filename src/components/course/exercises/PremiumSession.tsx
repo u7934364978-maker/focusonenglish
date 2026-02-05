@@ -316,8 +316,15 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       ? currentItem.video.interactions[interactionIndex]
       : currentItem;
       
-    if (interaction?.type === 'matching' && shuffledRight.length === 0) {
-      const rightItems = (interaction.pairs || []).map((p: any) => ({ id: p.id, text: p.right }));
+    if ((interaction?.type === 'matching' || interaction?.type === 'vocabulary-match') && shuffledRight.length === 0) {
+      const pairs = (interaction.type === 'vocabulary-match') 
+        ? (interaction.content?.pairs || interaction.pairs || [])
+        : (interaction.pairs || []);
+        
+      const rightItems = pairs.map((p: any) => ({ 
+        id: p.id, 
+        text: (interaction.type === 'vocabulary-match') ? p.correctMatch : p.right 
+      }));
       // Fisher-Yates shuffle
       const shuffled = [...rightItems];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -393,10 +400,15 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         (interaction.options || []).find((o: any) => o.id === id)?.text
       ).join(' ').toLowerCase().trim();
       isAnswerCorrect = selectedText === correctText;
-    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank'].includes(interaction.type)) {
+    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
       // Robust comparison for boolean and string values
       const normalizedOption = typeof optionId === 'string' ? optionId.toLowerCase().trim() : optionId;
-      const normalizedCorrect = typeof interaction.correct_answer === 'string' ? interaction.correct_answer.toLowerCase().trim() : interaction.correct_answer;
+      
+      const q = (interaction.type === 'reading-comprehension' || interaction.type === 'writing-analysis')
+        ? (interaction.content?.questions?.[0] || interaction.content || interaction)
+        : interaction;
+        
+      const normalizedCorrect = typeof q.correctAnswer === 'string' ? q.correctAnswer.toLowerCase().trim() : (q.correctAnswer || q.correct_answer);
       
       if (interaction.type === 'true_false') {
         // Specifically handle True/False which might be stored as strings "true"/"false" or booleans
@@ -406,9 +418,13 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       } else {
         isAnswerCorrect = normalizedOption === normalizedCorrect;
       }
-    } else if (['matching', 'multiple_matching'].includes(interaction.type)) {
-      if (interaction.pairs) {
-        isAnswerCorrect = interaction.pairs.every((p: any) => {
+    } else if (['matching', 'multiple_matching', 'vocabulary-match'].includes(interaction.type)) {
+      const pairs = (interaction.type === 'vocabulary-match')
+        ? (interaction.content?.pairs || interaction.pairs || [])
+        : (interaction.pairs || []);
+
+      if (pairs.length > 0) {
+        isAnswerCorrect = pairs.every((p: any) => {
           const selectedRightId = matchingPairs[p.id];
           if (!selectedRightId) return false;
           
@@ -417,7 +433,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           
           // If ID doesn't match, check if the text of the selected option 
           // matches the expected correct text (handles duplicate values like "a"/"an")
-          const expectedText = String(p.right).toLowerCase().trim();
+          const expectedText = String((interaction.type === 'vocabulary-match') ? p.correctMatch : p.right).toLowerCase().trim();
           const selectedText = String((shuffledRight || []).find((r: any) => r.id === selectedRightId)?.text || "").toLowerCase().trim();
           return selectedText === expectedText;
         });
@@ -464,8 +480,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       } else {
         isAnswerCorrect = input.length > 2;
       }
-    } else if (interaction.type === 'word-search' || interaction.type === 'crossword') {
-      // These are handled by their own components but need to be acknowledged here
+    } else if (interaction.type === 'word-search' || interaction.type === 'crossword' || interaction.type === 'ai-mission') {
+      // These are handled by their own components or are transitions
       isAnswerCorrect = true;
     }
 
@@ -638,6 +654,187 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     if (!interaction) return null;
     
     switch (interaction.type) {
+      case 'reading-comprehension':
+      case 'writing-analysis':
+        const readingContent = interaction.content || interaction;
+        const q = readingContent.questions?.[0] || readingContent;
+        return (
+          <div className="w-full max-w-2xl mx-auto space-y-8">
+            <h2 className="text-2xl font-black text-slate-800 text-center">{readingContent.title || interaction.title}</h2>
+            {readingContent.text && (
+               <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 mb-8 max-h-[40vh] overflow-y-auto relative group">
+                  <PronunciationButton text={readingContent.text} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <p className="text-xl text-slate-700 leading-relaxed whitespace-pre-line">
+                    {readingContent.text}
+                  </p>
+               </div>
+            )}
+            {readingContent.instructions && (
+               <p className="text-center text-slate-500 font-bold mb-4 italic">{readingContent.instructions}</p>
+            )}
+            <div className="bg-indigo-50 p-8 rounded-[2rem] border-2 border-indigo-100 mb-6 relative group">
+              <PronunciationButton text={q.question || q.context} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+              <p className="text-2xl font-black text-indigo-900 leading-tight">
+                {q.question || q.context}
+              </p>
+            </div>
+            <div className="grid gap-4">
+              {q.options?.map((opt: any) => {
+                const optText = typeof opt === 'string' ? opt : opt.text;
+                const optId = typeof opt === 'string' ? opt : opt.id;
+                const isSelected = selectedOption === optId;
+                const isCorrectAns = optId === q.correctAnswer;
+                
+                return (
+                  <div
+                    key={optId}
+                    role="button"
+                    tabIndex={0}
+                    onClick={() => !feedback && setSelectedOption(optId)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        if (!feedback) setSelectedOption(optId);
+                      }
+                    }}
+                    className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
+                      feedback 
+                        ? isCorrectAns ? 'border-green-500 bg-green-50 text-green-700' : 'border-slate-100 bg-white text-slate-300'
+                        : isSelected 
+                          ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
+                          : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
+                    } ${feedback ? 'pointer-events-none' : ''}`}
+                  >
+                    <span className="flex items-center gap-3">
+                      {optText}
+                      {isLikelyEnglish(optText) && (
+                        <PronunciationButton text={optText} className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
+                      )}
+                    </span>
+                    {feedback && isCorrectAns && <CheckCircle2 className="w-6 h-6 text-green-500" />}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+
+      case 'vocabulary-match':
+        const vocabContent = interaction.content || interaction;
+        const vocabPairs = vocabContent.pairs || [];
+        return (
+          <div className="w-full max-w-3xl mx-auto space-y-8">
+            <h2 className="text-3xl font-black text-slate-800 text-center">{vocabContent.instructions || interaction.prompt_es || "Relaciona las frases"}</h2>
+            <div className="grid grid-cols-2 gap-8 md:gap-16">
+              <div className="space-y-4">
+                {vocabPairs.map((p: any) => (
+                  <div
+                    key={`left-${p.id}`}
+                    role="button"
+                    tabIndex={0}
+                    onClick={() => {
+                      if (!!feedback || !!matchingPairs[p.id]) return;
+                      const newSelections = { ...matchingSelections, left: p.id };
+                      if (newSelections.right) {
+                        setMatchingPairs(prev => ({ ...prev, [newSelections.left!]: newSelections.right! }));
+                        setMatchingSelections({});
+                      } else setMatchingSelections(newSelections);
+                    }}
+                    className={`w-full p-5 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all flex items-center justify-between group/left cursor-pointer ${
+                      matchingPairs[p.id] ? 'bg-slate-50 border-slate-100 text-slate-300 pointer-events-none' :
+                      matchingSelections.left === p.id ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-105 shadow-md' :
+                      'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
+                    } ${feedback ? 'pointer-events-none' : ''}`}
+                  >
+                    <span>{p.word}</span>
+                    <PronunciationButton text={p.word} className="opacity-0 group-hover/left:opacity-100 transition-opacity" />
+                  </div>
+                ))}
+              </div>
+              <div className="space-y-4">
+                {shuffledRight.map((p: any) => (
+                  <div
+                    key={`right-${p.id}`}
+                    role="button"
+                    tabIndex={0}
+                    onClick={() => {
+                      if (!!feedback || Object.values(matchingPairs).includes(p.id)) return;
+                      const newSelections = { ...matchingSelections, right: p.id };
+                      if (newSelections.left) {
+                        setMatchingPairs(prev => ({ ...prev, [newSelections.left!]: newSelections.right! }));
+                        setMatchingSelections({});
+                      } else setMatchingSelections(newSelections);
+                    }}
+                    className={`w-full p-5 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all cursor-pointer ${
+                      Object.values(matchingPairs).includes(p.id) ? 'bg-slate-50 border-slate-100 text-slate-300 pointer-events-none' :
+                      matchingSelections.right === p.id ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-105 shadow-md' :
+                      'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
+                    } ${feedback ? 'pointer-events-none' : ''}`}
+                  >
+                    {p.text}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        );
+
+      case 'ai-mission':
+        const mission = interaction.content || interaction;
+        return (
+          <div className="w-full max-w-2xl mx-auto space-y-8 pb-12">
+            <div className="text-center space-y-4">
+              <motion.div 
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                className="text-7xl mb-4"
+              >
+                {mission.persona?.avatar || '👔'}
+              </motion.div>
+              <h2 className="text-4xl font-black text-slate-800 tracking-tight">{mission.title}</h2>
+              <p className="text-2xl font-bold text-slate-500">{mission.briefing}</p>
+            </div>
+            
+            <motion.div 
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.2 }}
+              className="bg-indigo-600 p-10 rounded-[3rem] text-white shadow-2xl shadow-indigo-200 relative overflow-hidden"
+            >
+               <div className="absolute top-0 right-0 p-8 opacity-10">
+                 <Sparkles className="w-24 h-24" />
+               </div>
+               <h4 className="font-black text-indigo-200 mb-4 uppercase tracking-widest text-sm">TU OBJETIVO</h4>
+               <p className="text-3xl font-black leading-tight italic">
+                 &quot;{mission.goal}&quot;
+               </p>
+            </motion.div>
+
+            <div className="grid gap-4">
+               <h4 className="font-black text-slate-400 uppercase tracking-widest text-sm text-center">Debes cumplir con:</h4>
+               {mission.successCriteria?.map((c: string, i: number) => (
+                 <motion.div 
+                   key={i}
+                   initial={{ x: -20, opacity: 0 }}
+                   animate={{ x: 0, opacity: 1 }}
+                   transition={{ delay: 0.4 + i * 0.1 }}
+                   className="flex items-center gap-4 bg-white p-6 rounded-[2rem] border-2 border-slate-100 shadow-sm"
+                 >
+                   <div className="bg-green-100 p-2 rounded-full">
+                     <CheckCircle2 className="w-6 h-6 text-green-600" />
+                   </div>
+                   <span className="font-bold text-slate-700 text-lg">{c}</span>
+                 </motion.div>
+               ))}
+            </div>
+            <div className="p-8 bg-amber-50 rounded-[2rem] border-2 border-amber-100 text-center">
+               <p className="text-amber-800 font-bold text-lg">
+                 Prepárate para escribir este email. En la vida real, enviarías esto a un cliente o colega.
+               </p>
+            </div>
+          </div>
+        );
+
       case 'flashcard':
         const currentFlashcard = (interaction.flashcards || [])[flashcardIndex];
         if (!currentFlashcard) return null;
@@ -1739,7 +1936,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
                 if (!interaction) return false;
                 if (interaction.type === 'reorder_words') return selectedWords.length === 0;
-                if (interaction.type === 'matching') return Object.keys(matchingPairs).length < (interaction.pairs?.length || 0);
+                if (interaction.type === 'matching' || interaction.type === 'vocabulary-match') {
+                  const pairs = (interaction.content?.pairs || interaction.pairs || []);
+                  return Object.keys(matchingPairs).length < pairs.length;
+                }
                 if (['transformation', 'fill_blanks', 'fill_blank'].includes(interaction.type)) {
                   const stim = interaction.stimulus_en || "";
                   const gaps = stim.match(/_{2,}/g) || [];
@@ -1754,7 +1954,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 if (['short_writing', 'dictation_guided'].includes(interaction.type)) {
                   return !inputValues[0] || inputValues[0].trim().length === 0;
                 }
-                if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc'].includes(interaction.type)) {
+                if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
                   return selectedOption === null;
                 }
                 return false;
