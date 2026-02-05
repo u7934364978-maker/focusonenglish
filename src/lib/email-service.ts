@@ -34,7 +34,7 @@ export async function sendPasswordResetEmail(
     const resetUrl = `${process.env.NEXTAUTH_URL}/cuenta/resetear?token=${resetToken}`;
 
     const { data, error } = await resend.emails.send({
-      from: 'Focus English <hola@focus-on-english.com>',
+      from: 'Focus English <hola@updates.focus-on-english.com>',
       to: [email],
       subject: 'Recupera tu contraseña - Focus English',
       html: `
@@ -178,7 +178,7 @@ export async function sendPasswordChangedEmail(
 
   try {
     const { data, error } = await resend.emails.send({
-      from: 'Focus English <hola@focus-on-english.com>',
+      from: 'Focus English <hola@updates.focus-on-english.com>',
       to: [email],
       subject: '✅ Tu contraseña ha sido actualizada - Focus English',
       html: `
@@ -319,7 +319,7 @@ export async function sendWelcomeEmail({
     const loginUrl = `${process.env.NEXTAUTH_URL || process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/cuenta/login`;
 
     const { data, error } = await resend.emails.send({
-      from: 'Focus English <hola@focus-on-english.com>', // Usar dominio verificado
+      from: 'Focus English <hola@updates.focus-on-english.com>', // Usar subdominio verificado
       to: [email],
       subject: '🚀 ¡Bienvenido a Focus English! Tu acceso está listo',
       html: `
