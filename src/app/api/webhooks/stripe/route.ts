@@ -86,14 +86,21 @@ export async function POST(request: NextRequest) {
                 const user = existingUser.users.find(u => u.email === customerEmail);
                 
                 if (user) {
-                  // Enviar email de bienvenida incluso si ya existía (quizás es una nueva suscripción)
+                  // Generar una nueva contraseña temporal incluso si ya existía (para asegurar acceso tras el pago)
+                  const newTempPassword = crypto.randomBytes(12).toString('hex') + '!';
+                  
+                  await supabaseAdmin.auth.admin.updateUserById(user.id, {
+                    password: newTempPassword
+                  });
+
+                  // Enviar email de bienvenida con la nueva contraseña
                   await sendWelcomeEmail({
                     email: customerEmail,
                     name: firstName || user.user_metadata?.first_name || 'Estudiante',
                     planName: planName,
-                    // No enviamos password si ya existía
+                    tempPassword: newTempPassword
                   });
-                  console.log('✅ Welcome email sent to existing user');
+                  console.log('✅ Welcome email with new password sent to existing user');
                 }
               } else {
                 console.error('❌ Error creating Supabase Auth user:', authError.message);

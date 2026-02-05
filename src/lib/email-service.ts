@@ -408,9 +408,12 @@ export async function sendWelcomeEmail({
               ${tempPassword ? `
               <div class="password-box">
                 <p style="margin: 0; color: #4b5563; font-size: 14px;">Tus credenciales de acceso temporal:</p>
-                <p style="margin: 5px 0 0 0; font-size: 18px; font-family: monospace; font-weight: bold; color: #1f2937;">
-                  Password: ${tempPassword}
-                </p>
+                <div style="background: white; padding: 15px; border-radius: 6px; margin: 10px 0; border: 1px solid #e5e7eb; text-align: left;">
+                  <p style="margin: 0; font-size: 14px; color: #6b7280;">Email:</p>
+                  <p style="margin: 0 0 10px 0; font-size: 16px; font-weight: 600; color: #1f2937;">${email}</p>
+                  <p style="margin: 0; font-size: 14px; color: #6b7280;">Contraseña:</p>
+                  <p style="margin: 0; font-size: 18px; font-family: monospace; font-weight: bold; color: #ff7e5f;">${tempPassword}</p>
+                </div>
                 <p style="margin: 10px 0 0 0; color: #6b7280; font-size: 12px;">(Te recomendamos cambiarla en tu perfil una vez accedas)</p>
               </div>
               ` : `
