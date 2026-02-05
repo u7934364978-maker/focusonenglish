@@ -14,7 +14,7 @@ import Link from 'next/link';
 function SignInForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const callbackUrl = searchParams.get('callbackUrl') || '/dashboard';
+  const callbackUrl = searchParams.get('next') || searchParams.get('callbackUrl') || '/dashboard';
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -35,7 +35,8 @@ function SignInForm() {
       if (authError || !user) {
         setError('Email o contraseña incorrectos');
       } else {
-        router.push(callbackUrl);
+        // Redirigir y forzar recarga para actualizar el estado global de auth
+        window.location.href = callbackUrl;
       }
     } catch (err) {
       setError('Error al iniciar sesión. Intenta nuevamente.');
