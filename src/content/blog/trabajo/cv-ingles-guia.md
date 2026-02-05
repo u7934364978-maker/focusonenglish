@@ -1,19 +1,19 @@
 ---
-title: "Cómo escribir un CV en inglés que destaque: Guía definitiva y ejemplos 2026"
+title: "CV en Inglés: Ejemplos, Guía Definitiva y Plantillas 2026"
 date: "2026-01-30"
 author: "Focus English Team"
-excerpt: "Domina la redacción de tu currículum en inglés. Aprende las diferencias entre CV y Resume, verbos de acción y secciones clave para destacar en el mercado global en 2026."
+excerpt: "Descubre los mejores ejemplos de CV en inglés y aprende a redactar el tuyo. Incluimos plantillas, diferencias entre CV y Resume, y verbos de acción para destacar en 2026."
 category: "trabajo"
-readTime: "18 min"
+readTime: "20 min"
 image: "https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Currículum vitae profesional sobre un escritorio con portátil"
+alt: "Ejemplos de currículum vitae en inglés profesional"
 keywords:
-  - "CV en inglés"
+  - "CV en inglés ejemplos"
+  - "Ejemplos de CV en inglés"
   - "Resume en inglés"
-  - "frases para CV inglés"
-  - "Career tips"
-  - "Business English"
+  - "plantillas CV inglés"
   - "Curriculum Vitae inglés"
+  - "Business English"
 faqs:
   - question: "¿Cuál es la diferencia entre Resume y CV?"
     answer: "El 'Resume' es un documento breve (1-2 páginas) enfocado en logros, común en EE.UU. El 'CV' es más detallado y común en el Reino Unido, Europa y ámbitos académicos."
@@ -56,6 +56,49 @@ Un "elevator pitch" de 3 a 4 líneas. Evita los clichés como "hard worker" y en
 
 *Ejemplo:*
 > "Results-driven Project Manager with 8+ years of experience in Agile environments. Proven track record of reducing operational costs by 20% through process optimization and cross-functional leadership."
+
+---
+
+## 📄 Ejemplos de CV en Inglés por Perfiles
+
+Para ayudarte a visualizar cómo aplicar estos consejos, aquí tienes tres ejemplos de estructuras ganadoras según tu perfil profesional.
+
+### Ejemplo 1: Perfil Tecnológico (Modern & Tech)
+Ideal para desarrolladores, analistas de datos o perfiles digitales enfocados en el mercado de EE.UU. (formato *Resume*).
+
+| Sección | Contenido Sugerido |
+| :--- | :--- |
+| **Summary** | "Full-stack Developer with 4 years of experience specializing in React and Node.js. Focused on building scalable web applications and optimizing user performance." |
+| **Skills** | JavaScript (ES6+), TypeScript, AWS, Docker, Git, Agile/Scrum. |
+| **Experience** | "Developed a real-time analytics dashboard that improved data processing speed by 40%." |
+
+### Ejemplo 2: Perfil de Gestión (Classic & Professional)
+Recomendado para finanzas, ventas o administración, con un enfoque más tradicional y sobrio.
+
+| Sección | Contenido Sugerido |
+| :--- | :--- |
+| **Summary** | "Dedicated Sales Manager with a proven track record of exceeding annual targets by 15% in the pharmaceutical sector. Expert in B2B relationship management." |
+| **Education** | "MBA in International Business - Universidad Complutense de Madrid." |
+| **Experience** | "Led a regional sales team of 12, expanding the market share by 5% within the first year." |
+
+### Ejemplo 3: Perfil Junior o Estudiante (Functional)
+Si no tienes mucha experiencia, enfócate en tus logros académicos, proyectos y habilidades transferibles.
+
+| Sección | Contenido Sugerido |
+| :--- | :--- |
+| **Objective** | "Recent Graduate in English Philology seeking an entry-level position in Content Marketing to leverage strong writing skills and bilingual proficiency." |
+| **Projects** | "Managed a university blog with 5,000+ monthly visitors, coordinating a team of 3 student writers." |
+| **Languages** | "Spanish (Native), English (C1 - Advanced), French (B2 - Intermediate)." |
+
+---
+
+## 📥 Descarga de Plantillas de CV en Inglés (PDF/Word)
+
+Si buscas una solución rápida, te recomendamos usar formatos limpios que pasen los filtros ATS (Applicant Tracking Systems). 
+
+> 💡 **Tip Focus English:** Recuerda que lo más importante no es solo el diseño, sino el contenido. Usa nuestras herramientas de IA para revisar que tu gramática sea impecable antes de enviar el archivo.
+
+[👉 Accede a nuestro editor de CV y plantillas Premium](/cuenta/registro?plan=work)
 
 ---
 
