@@ -57,12 +57,21 @@ export async function POST(request: NextRequest) {
         const session = event.data.object as Stripe.Checkout.Session;
         
         console.log('💰 Processing Checkout Session Completed:', session.id);
-        const customerEmail = session.customer_email || session.metadata?.email;
-        const firstName = session.metadata?.firstName || '';
-        const lastName = session.metadata?.lastName || '';
+        
+        // Intentar obtener el email de todas las fuentes posibles
+        const customerEmail = session.customer_details?.email || session.customer_email || session.metadata?.email;
+        const firstName = session.metadata?.firstName || session.customer_details?.name?.split(' ')[0] || '';
+        const lastName = session.metadata?.lastName || session.customer_details?.name?.split(' ').slice(1).join(' ') || '';
         const planName = session.metadata?.planName || 'Plan Estándar';
 
-        console.log(`👤 Customer: ${customerEmail}, Name: ${firstName} ${lastName}, Plan: ${planName}`);
+        console.log(`👤 Customer Data Found - Email: ${customerEmail}, Name: ${firstName} ${lastName}`);
+
+        if (!customerEmail) {
+          console.error('❌ No email found for session:', session.id);
+          break;
+        }
+
+        console.log('📡 Resend Status Check:', process.env.RESEND_API_KEY ? 'API Key present' : 'API Key MISSING');
 
         // 1. Crear usuario en Supabase Auth si no existe
         if (customerEmail && supabaseAdmin) {
