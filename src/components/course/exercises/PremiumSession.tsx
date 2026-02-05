@@ -749,8 +749,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                       'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
                     } ${feedback ? 'pointer-events-none' : ''}`}
                   >
-                    <span>{p.word}</span>
-                    <PronunciationButton text={p.word} className="opacity-0 group-hover/left:opacity-100 transition-opacity" />
+                    <span>{p.left || p.word}</span>
+                    <PronunciationButton text={p.left || p.word} className="opacity-0 group-hover/left:opacity-100 transition-opacity" />
                   </div>
                 ))}
               </div>

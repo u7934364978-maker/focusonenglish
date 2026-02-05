@@ -58,6 +58,13 @@ Es lo primero que ven. Debe ser corto y descriptivo.
 
 ---
 
+## 🛠️ Herramienta Gratuita: Generador de Firmas
+Si quieres que tus correos tengan un aspecto 100% profesional, hemos creado una herramienta para ti.
+
+[👉 **Crea tu Firma de Email Profesional en Inglés aquí**](/herramientas/generador-firmas-email-ingles)
+
+---
+
 ## 📧 Plantillas Listas para Usar
 
 ### Plantilla 1: Solicitud de Reunión (Meeting Request)

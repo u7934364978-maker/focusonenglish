@@ -315,6 +315,7 @@ export const courseService = {
     const interaction: any = {
       interaction_id: ex.id,
       type: typeMap[ex.type] || ex.type,
+      ...content,
       prompt_es: content.prompt || content.instructions || content.text || content.title || '',
       mastery_tag: 'vocab_family' // Default tag
     };
@@ -325,7 +326,7 @@ export const courseService = {
         text: opt
       }));
       interaction.correct_answer = `o${content.answerIndex}`;
-    } else if (ex.type === 'matching') {
+    } else if (ex.type === 'matching' || ex.type === 'vocabulary-match') {
       interaction.pairs = (content.pairs || []).map((p: any) => ({
         id: p.id,
         left: p.word || p.left,

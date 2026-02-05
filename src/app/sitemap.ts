@@ -45,6 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/herramientas/generador-firmas-email-ingles`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
     
     // Blog - Contenido SEO
     {
