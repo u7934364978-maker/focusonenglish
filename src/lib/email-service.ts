@@ -10,6 +10,12 @@ const resend = process.env.RESEND_API_KEY
   ? new Resend(process.env.RESEND_API_KEY)
   : null;
 
+if (!process.env.RESEND_API_KEY) {
+  console.error('❌ RESEND_API_KEY no encontrada en las variables de entorno');
+} else {
+  console.log('📡 Resend configurado con API Key (primeros 5 caracteres):', process.env.RESEND_API_KEY.substring(0, 5) + '...');
+}
+
 /**
  * Enviar email de recuperación de contraseña
  */

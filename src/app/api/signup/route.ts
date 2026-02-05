@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { sendWelcomeEmail } from '@/lib/email-service';
 
 
 export const runtime = 'edge';
@@ -204,6 +205,18 @@ export async function POST(request: NextRequest) {
 
     // Crear contacto en HubSpot
     const hubspotResponse = await createHubSpotContact(body);
+
+    // INTENTO DE EMAIL DE PRUEBA (Para diagnosticar Resend)
+    try {
+      console.log('🧪 Iniciando prueba de email para:', body.email);
+      await sendWelcomeEmail({
+        email: body.email,
+        name: body.firstName,
+        planName: 'Interés en Focus English',
+      });
+    } catch (emailError) {
+      console.error('❌ Error en prueba de email durante signup:', emailError);
+    }
 
     // Respuesta exitosa
     return NextResponse.json({
