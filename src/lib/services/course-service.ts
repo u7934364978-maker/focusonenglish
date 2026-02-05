@@ -47,6 +47,7 @@ const cache = new Map<string, { data: any, timestamp: number }>();
 const CACHE_TTL = 1000 * 60 * 10; // 10 minutos
 
 function getCached<T>(key: string): T | null {
+  return null;
   const cached = cache.get(key);
   if (cached && Date.now() - cached.timestamp < CACHE_TTL) {
     return cached.data as T;

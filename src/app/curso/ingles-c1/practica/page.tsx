@@ -1,5 +1,6 @@
 import React from 'react';
 import { premiumCourseService } from '@/lib/services/premium-course-service';
+import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
 import { createClient } from '@/lib/supabase/client';
 import PracticeClient from './PracticeClient';
 
@@ -9,7 +10,7 @@ export default async function C1PracticePage() {
 
   const userId = user?.id || 'anonymous';
 
-  const allInteractions = await premiumCourseService.getAllC1Interactions();
+  const allInteractions = await premiumCourseServerService.getAllInteractions('ingles-c1');
   const completedIds = await premiumCourseService.getC1Progress(userId);
   
   const completedSet = new Set(completedIds);

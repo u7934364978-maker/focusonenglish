@@ -28,12 +28,24 @@ export const premiumCourseService = {
     return this.getProgress(userId, 'A1');
   },
 
+  async getA2Progress(userId: string): Promise<string[]> {
+    return this.getProgress(userId, 'A2');
+  },
+
   async getB1Progress(userId: string): Promise<string[]> {
     return this.getProgress(userId, 'B1');
   },
 
   async getB2Progress(userId: string): Promise<string[]> {
     return this.getProgress(userId, 'B2');
+  },
+
+  async getC1Progress(userId: string): Promise<string[]> {
+    return this.getProgress(userId, 'C1');
+  },
+
+  async getC2Progress(userId: string): Promise<string[]> {
+    return this.getProgress(userId, 'C2');
   },
 
   async getEmailsB1Progress(userId: string): Promise<string[]> {
