@@ -32,11 +32,11 @@ function SuccessContent() {
         <ul className="text-left space-y-3 text-slate-700">
           <li className="flex items-start gap-3">
             <span className="text-amber-600 mt-1">📧</span>
-            <span>Recibirás un email de confirmación con los detalles de tu curso</span>
+            <span>Te hemos enviado un <strong>email con tu contraseña temporal</strong> para acceder.</span>
           </li>
           <li className="flex items-start gap-3">
             <span className="text-amber-600 mt-1">🎓</span>
-            <span>Nuestro equipo te contactará en las próximas 24 horas para darte acceso a la plataforma</span>
+            <span>Ya puedes acceder a tu <strong>Dashboard</strong> y empezar a aprender inmediatamente.</span>
           </li>
           <li className="flex items-start gap-3">
             <span className="text-amber-600 mt-1">📚</span>
@@ -53,16 +53,16 @@ function SuccessContent() {
 
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <Link
-          href="/"
+          href="/dashboard"
           className="inline-flex items-center justify-center bg-amber-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-amber-700 transition-colors"
         >
-          Volver al Inicio
+          Ir a mi Dashboard
         </Link>
         <Link
-          href="/contacto"
+          href="/"
           className="inline-flex items-center justify-center bg-white text-amber-600 border-2 border-amber-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-amber-50 transition-colors"
         >
-          Contactar Soporte
+          Volver al Inicio
         </Link>
       </div>
 

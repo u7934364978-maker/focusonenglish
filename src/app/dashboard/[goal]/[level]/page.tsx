@@ -20,7 +20,13 @@ export default async function DashboardLevelPage({ params }: DashboardLevelPageP
   const { data: { user } } = await supabase.auth.getUser();
   const userId = user?.id || 'anonymous';
 
-  const modules = await courseService.getModules(cefrLevel, goal);
+  let modules = [];
+  try {
+    modules = await courseService.getModules(cefrLevel, goal);
+  } catch (error) {
+    console.error(`Error loading modules for ${goal}/${level}:`, error);
+    // Fallback or show error
+  }
 
   const goalTitles: Record<string, string> = {
     trabajo: 'Professional English',

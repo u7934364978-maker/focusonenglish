@@ -38,7 +38,8 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/e3ef9c6c-9cec-448
 4. [x] Integrate Resend welcome email into the Stripe checkout completion webhook.
 5. [x] Refine Dashboard UI (`src/app/dashboard/page.tsx`) to handle new users with no initial progress.
 6. [x] Fix build errors related to C1 practice page and service inconsistencies.
-7. [x] Perform end-to-end verification of the registration, payment, and onboarding flow.
+7. [x] Fix 404 error on payment success and improve success page.
+8. [ ] Perform end-to-end verification of the registration, payment, and onboarding flow.
 
 ### [x] Step: Implementation
 

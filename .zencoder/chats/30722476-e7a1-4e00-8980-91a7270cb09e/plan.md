@@ -57,4 +57,14 @@ Implement the `writingTask` exercise type and integrate it with the `/api/evalua
 Expand the badge system with milestone badges for each specialization (Executive, Digital Nomad, Scholar, AI Pioneer).
 
 ### [x] Task 7 - Certification Generation Logic
-Implement the logic to determine specialization completion and automatically issue certificates, including a public certificate viewer.
+60. Implement the logic to determine specialization completion and automatically issue certificates, including a public certificate viewer.
+
+### [x] Task 8 - Traveler A1 60-Unit Course Generation
+61. Generate and seed 60 situational lessons (units) for Travelers A1.
+62. Create 100 exercises per lesson (6,000 exercises total) focusing on real travel scenarios.
+
+### [in_progress] Task 9 - Course Migration & UI Optimization
+63. Migrate course to `/curso/viajes-a1` route.
+64. [x] Fix Internal Server Error (500) due to SSR/Data validation issues.
+65. [in_progress] Optimize Course Curriculum UI to handle 60 units effectively.
+66. [ ] Final verification of course flow and traveler experience.

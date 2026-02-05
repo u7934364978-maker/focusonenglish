@@ -25,7 +25,7 @@ const LessonSchema = z.object({
   title: z.string(),
   description: z.string().nullable().transform(val => val || ''),
   duration: z.number().nullable().transform(val => val || 0),
-  objectives: z.union([z.array(z.string()), z.string()]).transform(val => {
+  objectives: z.union([z.array(z.string()), z.string()]).nullable().transform(val => {
     if (typeof val === 'string') {
       try {
         return JSON.parse(val);
@@ -43,7 +43,7 @@ const ModuleSchema = z.object({
   title: z.string(),
   description: z.string().nullable().transform(val => val || ''),
   order_index: z.number(),
-  objectives: z.union([z.array(z.string()), z.string()]).transform(val => {
+  objectives: z.union([z.array(z.string()), z.string()]).nullable().transform(val => {
     if (typeof val === 'string') {
       try {
         return JSON.parse(val);
@@ -53,7 +53,7 @@ const ModuleSchema = z.object({
     }
     return val || [];
   }),
-  grammar: z.union([z.array(z.string()), z.string()]).transform(val => {
+  grammar: z.union([z.array(z.string()), z.string()]).nullable().transform(val => {
     if (typeof val === 'string') {
       try {
         return JSON.parse(val);
@@ -63,7 +63,7 @@ const ModuleSchema = z.object({
     }
     return val || [];
   }),
-  vocabulary: z.union([z.array(z.string()), z.string()]).transform(val => {
+  vocabulary: z.union([z.array(z.string()), z.string()]).nullable().transform(val => {
     if (typeof val === 'string') {
       try {
         return JSON.parse(val);
@@ -99,73 +99,98 @@ export const courseService = {
   /**
    * Get all modules for a specific level and goal, including their lessons
    */
-  async getModules(level: CEFRLevel, goal: string): Promise<Module[]> {
-    const cacheKey = `modules-${level}-${goal}`;
-    const cached = getCached<Module[]>(cacheKey);
-    if (cached) return cached;
+  async getModules(level: CEFRLevel, goal: string, customClient?: any): Promise<Module[]> {
+    try {
+      const client = customClient || supabase;
+      const cacheKey = `modules-${level}-${goal}`;
+      const cached = getCached<Module[]>(cacheKey);
+      if (cached) return cached;
 
-    if (!supabase) {
-      console.error('Supabase client not initialized');
-      return [];
-    }
-
-    const { data: modulesRaw, error: mError } = await supabase
-      .from('course_modules')
-      .select('*')
-      .eq('course_level', level)
-      .eq('course_goal', goal)
-      .order('order_index', { ascending: true });
-
-    if (mError) {
-      console.error('Error fetching modules:', mError);
-      return [];
-    }
-
-    const result: Module[] = [];
-
-    for (const mRaw of modulesRaw) {
-      // Validar módulo
-      const mParsed = ModuleSchema.safeParse(mRaw);
-      if (!mParsed.success) {
-        continue;
+      if (!client) {
+        console.error('[courseService] Supabase client not initialized');
+        return [];
       }
-      const m = mParsed.data;
 
-      const { data: lessonsRaw, error: lError } = await supabase
-        .from('course_lessons')
-        .select('*, course_exercises(id, type)')
-        .eq('module_id', m.id)
+      const { data: modulesRaw, error: mError } = await client
+        .from('course_modules')
+        .select('*')
+        .eq('course_level', level)
+        .eq('course_goal', goal)
         .order('order_index', { ascending: true });
 
-      if (lError) {
-        continue;
+      if (mError) {
+        console.error('[courseService] Error fetching modules:', mError);
+        throw new Error(`Error fetching modules: ${mError.message}`);
       }
 
-      const lessons = (lessonsRaw || []).map((lRaw: any) => {
-        const lParsed = LessonSchema.safeParse(lRaw);
-        if (!lParsed.success) return null;
-        
-        return {
-          ...lParsed.data,
-          exercises: lRaw.course_exercises || [],
-        };
-      }).filter(Boolean) as Lesson[];
+      if (!modulesRaw || modulesRaw.length === 0) {
+        console.warn(`[courseService] No modules found for level=${level}, goal=${goal}`);
+        return [];
+      }
 
-      result.push({
-        id: m.id,
-        number: m.order_index + 1,
-        title: m.title,
-        description: m.description,
-        duration: '10h', // Placeholder para cumplir con la interfaz Module
-        topics: m.objectives,
-        grammar: m.grammar,
-        vocabulary: m.vocabulary,
-        lessons: lessons,
-      } as Module);
+      const result: Module[] = [];
+
+      for (const mRaw of modulesRaw) {
+        try {
+          // Validar módulo
+          const mParsed = ModuleSchema.safeParse(mRaw);
+          if (!mParsed.success) {
+            console.error(`[courseService] Invalid module data for ${mRaw.id}:`, JSON.stringify(mParsed.error.format(), null, 2));
+            continue;
+          }
+          const m = mParsed.data;
+
+          const { data: lessonsRaw, error: lError } = await client
+            .from('course_lessons')
+            .select('*, course_exercises(id, type)')
+            .eq('module_id', m.id)
+            .order('order_index', { ascending: true });
+
+          if (lError) {
+            console.error(`[courseService] Error fetching lessons for module ${m.id}:`, lError);
+            continue;
+          }
+
+          const lessons = (lessonsRaw || []).map((lRaw: any) => {
+            try {
+              const lParsed = LessonSchema.safeParse(lRaw);
+              if (!lParsed.success) {
+                console.error(`[courseService] Invalid lesson data for ${lRaw.id}:`, lParsed.error.format());
+                return null;
+              }
+              
+              return {
+                ...lParsed.data,
+                exercises: lRaw.course_exercises || [],
+              };
+            } catch (err) {
+              console.error(`[courseService] Error mapping lesson ${lRaw?.id}:`, err);
+              return null;
+            }
+          }).filter(Boolean) as Lesson[];
+
+          result.push({
+            id: m.id,
+            number: m.order_index + 1,
+            title: m.title,
+            description: m.description,
+            duration: '10h', 
+            topics: m.objectives || [],
+            grammar: m.grammar || [],
+            vocabulary: m.vocabulary || [],
+            lessons: lessons,
+          } as Module);
+        } catch (err) {
+          console.error(`[courseService] Critical error processing module ${mRaw?.id}:`, err);
+        }
+      }
+
+      setCache(cacheKey, result);
+      return result;
+    } catch (err) {
+      console.error('[courseService] Global error in getModules:', err);
+      throw err; // Rethrow to let Next.js handle it or show more info
     }
-
-    setCache(cacheKey, result);
-    return result;
   },
 
   /**
