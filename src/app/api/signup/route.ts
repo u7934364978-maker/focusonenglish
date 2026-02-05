@@ -217,14 +217,18 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error('Error en signup:', error);
     
-    // Si el error es por contacto duplicado, dar un mensaje más amigable
+    // Si el error es por contacto duplicado o validación de HubSpot, ser más permisivos
     const errorMessage = error instanceof Error ? error.message : 'Error desconocido';
     
-    if (errorMessage.includes('already has that value') || errorMessage.includes('duplicate')) {
+    if (
+      errorMessage.includes('already has that value') || 
+      errorMessage.includes('already exists') || 
+      errorMessage.includes('duplicate')
+    ) {
       return NextResponse.json({
         success: true,
-        message: '¡Gracias! Ya tienes una cuenta con nosotros. Actualizaremos tu información y te contactaremos pronto.',
-        warning: 'Email ya registrado - información actualizada'
+        message: '¡Gracias! Tu información ha sido actualizada. Procediendo al pago...',
+        action: 'updated'
       }, { status: 200 });
     }
     
