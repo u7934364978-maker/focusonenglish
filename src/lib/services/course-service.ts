@@ -127,8 +127,6 @@ export const courseService = {
       // Validar módulo
       const mParsed = ModuleSchema.safeParse(mRaw);
       if (!mParsed.success) {
-        console.error(`Invalid module data for ${mRaw.id}:`, mParsed.error);
-        console.log('Raw module data:', JSON.stringify(mRaw, null, 2));
         continue;
       }
       const m = mParsed.data;
@@ -140,33 +138,30 @@ export const courseService = {
         .order('order_index', { ascending: true });
 
       if (lError) {
-        console.error(`Error fetching lessons for module ${m.id}:`, lError);
         continue;
       }
 
-      console.log(`Lessons fetched for module ${m.id}:`, lessonsRaw?.length || 0);
+      const lessons = (lessonsRaw || []).map((lRaw: any) => {
+        const lParsed = LessonSchema.safeParse(lRaw);
+        if (!lParsed.success) return null;
+        
+        return {
+          ...lParsed.data,
+          exercises: lRaw.course_exercises || [],
+        };
+      }).filter(Boolean) as Lesson[];
 
       result.push({
         id: m.id,
+        number: m.order_index + 1,
         title: m.title,
         description: m.description,
+        duration: '10h', // Placeholder para cumplir con la interfaz Module
         topics: m.objectives,
-        number: m.order_index + 1,
         grammar: m.grammar,
         vocabulary: m.vocabulary,
-        lessons: (lessonsRaw || []).map((lRaw: any) => {
-          const lParsed = LessonSchema.safeParse(lRaw);
-          if (!lParsed.success) {
-            console.error(`Invalid lesson data for ${lRaw.id}:`, lParsed.error);
-            console.log('Raw lesson data:', JSON.stringify(lRaw, null, 2));
-            return null;
-          }
-          return {
-            ...lParsed.data,
-            exercises: lRaw.course_exercises || [],
-          };
-        }).filter(Boolean) as unknown as Lesson[],
-      } as unknown as Module);
+        lessons: lessons,
+      } as Module);
     }
 
     setCache(cacheKey, result);

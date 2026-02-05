@@ -93,6 +93,12 @@ async function createHubSpotContact(data: SignupFormData) {
     })
   });
 
+  if (!searchResponse.ok) {
+    const errorData = await searchResponse.json().catch(() => ({}));
+    console.error('Error al buscar contacto en HubSpot:', errorData);
+    throw new Error(`Error HubSpot (Search): ${errorData.message || searchResponse.statusText}`);
+  }
+
   let contactResult;
   const searchData = await searchResponse.json();
   
@@ -223,7 +229,7 @@ export async function POST(request: NextRequest) {
     
     return NextResponse.json({
       success: false,
-      error: 'Hubo un problema al procesar tu inscripción. Por favor, inténtalo de nuevo o contáctanos directamente.'
+      error: errorMessage || 'Hubo un problema al procesar tu inscripción. Por favor, inténtalo de nuevo o contáctanos directamente.'
     }, { status: 500 });
   }
 }
