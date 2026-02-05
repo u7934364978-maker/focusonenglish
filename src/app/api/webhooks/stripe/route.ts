@@ -49,19 +49,24 @@ export async function POST(request: NextRequest) {
 
   // Manejar el evento
   try {
+    console.log('📦 Stripe Webhook Event Received:', event.type);
+
     switch (event.type) {
       case 'checkout.session.completed': {
         const session = event.data.object as Stripe.Checkout.Session;
         
-        console.log('✅ Payment successful!');
+        console.log('💰 Processing Checkout Session Completed:', session.id);
         const customerEmail = session.customer_email || session.metadata?.email;
         const firstName = session.metadata?.firstName || '';
         const lastName = session.metadata?.lastName || '';
         const planName = session.metadata?.planName || 'Plan Estándar';
 
+        console.log(`👤 Customer: ${customerEmail}, Name: ${firstName} ${lastName}, Plan: ${planName}`);
+
         // 1. Crear usuario en Supabase Auth si no existe
         if (customerEmail && supabaseAdmin) {
           try {
+            console.log('🔑 Attempting to create Supabase user for:', customerEmail);
             // Generar una contraseña temporal segura
             const tempPassword = crypto.randomBytes(12).toString('hex') + '!';
             
@@ -79,20 +84,31 @@ export async function POST(request: NextRequest) {
 
             if (authError) {
               if (authError.message.includes('already registered')) {
-                console.log('ℹ️ User already exists in Supabase Auth');
+                console.log('ℹ️ User already exists in Supabase Auth, resetting password...');
                 
                 // Si el usuario ya existe, intentar obtener su ID para enviar el email de todos modos
-                const { data: existingUser } = await supabaseAdmin.auth.admin.listUsers();
-                const user = existingUser.users.find(u => u.email === customerEmail);
+                const { data: existingUser, error: listError } = await supabaseAdmin.auth.admin.listUsers();
+                
+                if (listError) {
+                  console.error('❌ Error listing users from Supabase:', listError.message);
+                }
+
+                const user = existingUser?.users.find(u => u.email === customerEmail);
                 
                 if (user) {
+                  console.log('🔄 Found existing user ID:', user.id);
                   // Generar una nueva contraseña temporal incluso si ya existía (para asegurar acceso tras el pago)
                   const newTempPassword = crypto.randomBytes(12).toString('hex') + '!';
                   
-                  await supabaseAdmin.auth.admin.updateUserById(user.id, {
+                  const { error: updateError } = await supabaseAdmin.auth.admin.updateUserById(user.id, {
                     password: newTempPassword
                   });
 
+                  if (updateError) {
+                    console.error('❌ Error updating user password:', updateError.message);
+                  }
+
+                  console.log('✉️ Sending welcome email to existing user (reset password)...');
                   // Enviar email de bienvenida con la nueva contraseña
                   await sendWelcomeEmail({
                     email: customerEmail,
@@ -101,6 +117,8 @@ export async function POST(request: NextRequest) {
                     tempPassword: newTempPassword
                   });
                   console.log('✅ Welcome email with new password sent to existing user');
+                } else {
+                  console.warn('⚠️ User was said to be registered but not found in listUsers for email:', customerEmail);
                 }
               } else {
                 console.error('❌ Error creating Supabase Auth user:', authError.message);
@@ -108,7 +126,8 @@ export async function POST(request: NextRequest) {
             } else if (authData.user) {
               const userId = authData.user.id;
               console.log('✅ Supabase Auth user created:', userId);
-
+              
+              console.log('📝 Initializing user data in database...');
               // 2. Inicializar tablas públicas y gamificación
               await Promise.all([
                 // Tabla pública de usuarios
@@ -154,6 +173,7 @@ export async function POST(request: NextRequest) {
               ]);
               console.log('✅ User profile and gamification initialized');
 
+              console.log('✉️ Sending welcome email to new user...');
               // 3. Enviar email de bienvenida con la contraseña temporal
               await sendWelcomeEmail({
                 email: customerEmail,
