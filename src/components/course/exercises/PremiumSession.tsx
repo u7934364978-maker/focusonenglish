@@ -405,7 +405,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       const normalizedOption = String(optionId).toLowerCase().trim();
       
       const q = (interaction.type === 'reading-comprehension' || interaction.type === 'writing-analysis')
-        ? (interaction.content?.questions?.[0] || interaction.content || interaction)
+        ? ((interaction.options && interaction.options.length > 0) ? interaction : (interaction.content?.questions?.[0] || interaction.content || interaction))
         : interaction;
         
       const normalizedCorrect = String(q.correct_answer || q.correctAnswer || interaction.correct_answer).toLowerCase().trim();
@@ -663,7 +663,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     switch (interaction.type) {
       case 'reading-comprehension':
         const readingContent = interaction.content || interaction;
-        const q = readingContent.questions?.[0] || readingContent;
+        const q = (interaction.options && interaction.options.length > 0) 
+          ? interaction 
+          : (readingContent.questions?.[0] || readingContent);
+        
         const correctReadingAns = interaction.correct_answer || q.correct_answer || q.correctAnswer;
 
         return (
@@ -721,7 +724,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       case 'writing-analysis':
         const analysisContent = interaction.content || interaction;
         const analysisItems = analysisContent.analysis || [];
-        const toneOptions = ["Formal", "Informal", "Urgent"];
+        const toneOptions = (interaction.options && interaction.options.length > 0)
+          ? interaction.options
+          : ["Formal", "Informal", "Urgent"].map((t, i) => ({ id: t, text: t }));
         
         return (
           <div className="w-full max-w-3xl mx-auto space-y-8">
@@ -756,22 +761,24 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 Select the overall tone:
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {toneOptions.map((tone: string) => {
-                  const isSelected = selectedOption === tone;
+                {toneOptions.map((opt: any) => {
+                  const optId = opt.id;
+                  const optText = opt.text;
+                  const isSelected = selectedOption === optId;
                   const correctTone = interaction.correct_answer || analysisContent.correct_answer || analysisContent.correctAnswer;
-                  const isCorrectAns = tone === correctTone;
+                  const isCorrectAns = optId === correctTone;
                   
                   return (
                     <button
-                      key={tone}
-                      onClick={() => !feedback && setSelectedOption(tone)}
+                      key={optId}
+                      onClick={() => !feedback && setSelectedOption(optId)}
                       className={`p-6 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all ${
                         feedback 
                           ? isCorrectAns ? 'bg-green-50 border-green-500 text-green-700' : isSelected ? 'bg-red-50 border-red-500 text-red-700' : 'bg-white border-slate-200 text-slate-300'
                           : isSelected ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-105 shadow-md' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
                       } ${feedback ? 'pointer-events-none' : ''}`}
                     >
-                      {tone}
+                      {optText}
                     </button>
                   );
                 })}

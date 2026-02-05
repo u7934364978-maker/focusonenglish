@@ -64,6 +64,12 @@ export default async function SEORoutePage({ params }: { params: Promise<{ slug:
     "ingles-viajar": "ingles-para-viajar",
     "ingles-atencion-al-cliente": "ingles-para-atencion-al-cliente",
     "ingles-aprender-ingles": "hub",
+    "ingles-c1": "ingles-c1",
+    "ingles-c2": "ingles-c2",
+    "ingles-b1": "ingles-b1",
+    "ingles-b2": "ingles-b2",
+    "ingles-a1": "ingles-a1",
+    "ingles-a2": "ingles-a2",
   };
 
   if (manualMapping[seoFileName]) {

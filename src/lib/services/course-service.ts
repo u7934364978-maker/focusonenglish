@@ -310,8 +310,10 @@ export const courseService = {
       const typeMap: Record<string, string> = {
         'multipleChoice': 'multiple_choice',
         'matching': 'matching',
+        'vocabulary-match': 'matching',
         'drag-drop': 'reorder_words',
         'fillBlanks': 'fill_blanks',
+        'fill-blank': 'fill_blanks',
         'flashcard': 'flashcard'
       };
 
@@ -323,9 +325,12 @@ export const courseService = {
         mastery_tag: 'vocab_family' // Default tag
       };
 
-      if (ex.type === 'multipleChoice' || ex.type === 'reading-comprehension' || ex.type === 'writing-analysis') {
+      if (ex.type === 'multipleChoice' || ex.type === 'multiple-choice' || ex.type === 'reading-comprehension' || ex.type === 'writing-analysis') {
         const q = content.questions?.[0] || content;
         if (!q) return null;
+        
+        // Map question text to top level for easier rendering
+        interaction.question = q.question || q.context || content.question || content.context || '';
         
         const options = q.options || content.options || [];
         const correctAnswer = q.correctAnswer !== undefined ? q.correctAnswer : (q.correct_answer !== undefined ? q.correct_answer : (content.correctAnswer !== undefined ? content.correctAnswer : content.correct_answer));

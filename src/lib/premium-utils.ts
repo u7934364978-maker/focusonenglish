@@ -28,11 +28,22 @@ export function getSolutionText(interaction: PremiumInteraction): string {
     case 'role_play':
     case 'reading-comprehension':
     case 'writing-analysis':
-      if (interaction.options && interaction.correct_answer) {
-        const correctOption = interaction.options.find(opt => opt.id === interaction.correct_answer || opt.text === interaction.correct_answer);
-        return correctOption ? `${prefix}${correctOption.text}` : String(interaction.correct_answer);
+      const q = (interaction.type === 'reading-comprehension' || interaction.type === 'writing-analysis')
+        ? ((interaction.options && interaction.options.length > 0) ? interaction : (interaction.content?.questions?.[0] || interaction.content || interaction))
+        : interaction;
+      
+      const options = q.options || interaction.options;
+      const correctAnswer = q.correct_answer || q.correctAnswer || interaction.correct_answer;
+
+      if (options && correctAnswer) {
+        const correctOption = options.find((opt: any) => 
+          (opt.id && opt.id === correctAnswer) || 
+          (opt.text && opt.text === correctAnswer) ||
+          (opt === correctAnswer)
+        );
+        return correctOption ? `${prefix}${typeof correctOption === 'string' ? correctOption : correctOption.text}` : String(correctAnswer);
       }
-      break;
+      return String(correctAnswer || "");
 
     case 'reorder_words':
       if (Array.isArray(interaction.correct_answer) && interaction.options) {
