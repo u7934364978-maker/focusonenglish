@@ -12,6 +12,7 @@ const stripe = process.env.STRIPE_SECRET_KEY
   : null;
 
 export async function POST(request: NextRequest) {
+  console.log('🚀 Webhook POST request received at /api/webhooks/stripe');
   // Verificar que Stripe esté inicializado
   if (!stripe) {
     return NextResponse.json(
