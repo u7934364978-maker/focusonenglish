@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { sendWelcomeEmail } from '@/lib/email-service';
 
 
-export const runtime = 'edge';
+// export const runtime = 'edge'; - Eliminado por incompatibilidad con Resend en Edge Runtime
 // Tipos para el formulario de signup
 interface SignupFormData {
   firstName: string;
