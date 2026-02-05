@@ -319,7 +319,7 @@ export async function sendWelcomeEmail({
     const loginUrl = `${process.env.NEXTAUTH_URL || process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/cuenta/login`;
 
     const { data, error } = await resend.emails.send({
-      from: 'Focus English <onboarding@resend.dev>', // Usar dominio de prueba de Resend
+      from: 'Focus English <hola@focus-on-english.com>', // Usar dominio verificado
       to: [email],
       subject: '🚀 ¡Bienvenido a Focus English! Tu acceso está listo',
       html: `
