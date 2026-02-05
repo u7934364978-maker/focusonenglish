@@ -14,7 +14,17 @@ import Link from 'next/link';
 function SignInForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const callbackUrl = searchParams.get('next') || searchParams.get('callbackUrl') || '/dashboard';
+  
+  // Obtener la ruta de destino y asegurar que sea relativa
+  let callbackUrl = searchParams.get('next') || searchParams.get('callbackUrl') || '/dashboard';
+  if (callbackUrl.startsWith('http')) {
+    try {
+      const url = new URL(callbackUrl);
+      callbackUrl = url.pathname + url.search;
+    } catch (e) {
+      callbackUrl = '/dashboard';
+    }
+  }
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
