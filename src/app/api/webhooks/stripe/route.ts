@@ -112,15 +112,15 @@ export async function POST(request: NextRequest) {
                     console.error('❌ Error updating user password:', updateError.message);
                   }
 
-                  console.log('✉️ Calling Resend for existing user...');
-                  // Enviar email de bienvenida
-                  await sendWelcomeEmail({
+                  console.log('✉️ Calling Resend for existing user with new password...');
+                  // Enviar email de bienvenida con la nueva contraseña
+                  const sent = await sendWelcomeEmail({
                     email: customerEmail,
                     name: firstName || user.user_metadata?.full_name?.split(' ')[0] || 'Estudiante',
                     planName: planName,
                     tempPassword: newTempPassword
                   });
-                  console.log('✅ Welcome email sent to existing user');
+                  console.log(sent ? '✅ Welcome email sent to existing user' : '❌ Failed to send welcome email');
                 } else {
                   console.warn('⚠️ User not found in list despite being registered. Sending general welcome email.');
                   await sendWelcomeEmail({

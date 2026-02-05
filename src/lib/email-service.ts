@@ -34,7 +34,7 @@ export async function sendPasswordResetEmail(
     const resetUrl = `${process.env.NEXTAUTH_URL}/cuenta/resetear?token=${resetToken}`;
 
     const { data, error } = await resend.emails.send({
-      from: 'Focus English <noreply@focus-on-english.com>',
+      from: 'Focus English <hola@focus-on-english.com>',
       to: [email],
       subject: 'Recupera tu contraseña - Focus English',
       html: `
@@ -178,7 +178,7 @@ export async function sendPasswordChangedEmail(
 
   try {
     const { data, error } = await resend.emails.send({
-      from: 'Focus English <noreply@focus-on-english.com>',
+      from: 'Focus English <hola@focus-on-english.com>',
       to: [email],
       subject: '✅ Tu contraseña ha sido actualizada - Focus English',
       html: `
