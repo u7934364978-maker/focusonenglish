@@ -84,22 +84,25 @@ export async function POST(request: NextRequest) {
 
             if (authError) {
               if (authError.message.includes('already registered')) {
-                console.log('ℹ️ User already exists in Supabase Auth, resetting password...');
+                console.log('ℹ️ User already exists in Supabase Auth, identifying user...');
                 
-                // Si el usuario ya existe, intentar obtener su ID para enviar el email de todos modos
-                const { data: existingUser, error: listError } = await supabaseAdmin.auth.admin.listUsers();
+                // Buscar al usuario de forma más directa
+                const { data: { users }, error: listError } = await supabaseAdmin.auth.admin.listUsers({
+                  perPage: 1000 // Aumentar límite para asegurar encontrarlo
+                });
                 
                 if (listError) {
                   console.error('❌ Error listing users from Supabase:', listError.message);
                 }
 
-                const user = existingUser?.users.find(u => u.email === customerEmail);
+                const user = users?.find(u => u.email?.toLowerCase() === customerEmail?.toLowerCase());
                 
                 if (user) {
                   console.log('🔄 Found existing user ID:', user.id);
-                  // Generar una nueva contraseña temporal incluso si ya existía (para asegurar acceso tras el pago)
+                  // Generar una nueva contraseña temporal
                   const newTempPassword = crypto.randomBytes(12).toString('hex') + '!';
                   
+                  console.log('🔐 Updating password for existing user...');
                   const { error: updateError } = await supabaseAdmin.auth.admin.updateUserById(user.id, {
                     password: newTempPassword
                   });
@@ -108,17 +111,22 @@ export async function POST(request: NextRequest) {
                     console.error('❌ Error updating user password:', updateError.message);
                   }
 
-                  console.log('✉️ Sending welcome email to existing user (reset password)...');
-                  // Enviar email de bienvenida con la nueva contraseña
+                  console.log('✉️ Calling Resend for existing user...');
+                  // Enviar email de bienvenida
                   await sendWelcomeEmail({
                     email: customerEmail,
-                    name: firstName || user.user_metadata?.first_name || 'Estudiante',
+                    name: firstName || user.user_metadata?.full_name?.split(' ')[0] || 'Estudiante',
                     planName: planName,
                     tempPassword: newTempPassword
                   });
-                  console.log('✅ Welcome email with new password sent to existing user');
+                  console.log('✅ Welcome email sent to existing user');
                 } else {
-                  console.warn('⚠️ User was said to be registered but not found in listUsers for email:', customerEmail);
+                  console.warn('⚠️ User not found in list despite being registered. Sending general welcome email.');
+                  await sendWelcomeEmail({
+                    email: customerEmail,
+                    name: firstName || 'Estudiante',
+                    planName: planName
+                  });
                 }
               } else {
                 console.error('❌ Error creating Supabase Auth user:', authError.message);
