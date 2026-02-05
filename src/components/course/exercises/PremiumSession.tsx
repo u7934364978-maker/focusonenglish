@@ -400,7 +400,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         (interaction.options || []).find((o: any) => o.id === id)?.text
       ).join(' ').toLowerCase().trim();
       isAnswerCorrect = selectedText === correctText;
-    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
+    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'fill-blank', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
       // Robust comparison for boolean and string values
       const normalizedOption = typeof optionId === 'string' ? optionId.toLowerCase().trim() : optionId;
       
@@ -457,9 +457,12 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         return categorizedItems[itemId] === correctCatId;
       });
       isAnswerCorrect = allCategorizedCorrectly && Object.keys(categorizedItems).length === allItems.length;
-    } else if (['transformation', 'fill_blanks', 'fill_blank'].includes(interaction.type)) {
+    } else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
       const input = (optionId as string).trim().toLowerCase();
-      const correct = String(interaction.correct_answer).toLowerCase().trim();
+      const q = (interaction.type === 'reading-comprehension' || interaction.type === 'writing-analysis')
+        ? (interaction.content?.questions?.[0] || interaction.content || interaction)
+        : interaction;
+      const correct = String(q.correct_answer || q.correctAnswer || interaction.correct_answer).toLowerCase().trim();
       isAnswerCorrect = input === correct;
     } else if (interaction.type === 'writing_task') {
       const input = (optionId as string).trim();
@@ -1368,6 +1371,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       case 'transformation':
       case 'fill_blanks':
       case 'fill_blank':
+      case 'fill-blank':
+      case 'fill-blanks-mc':
         const hasBlank = /_{2,}/.test(interaction.stimulus_en || '');
         const isSolutionInPrompt = interaction.prompt_es && interaction.correct_answer && 
                                    interaction.prompt_es.toLowerCase().trim() === interaction.correct_answer.toLowerCase().trim();
@@ -1940,7 +1945,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                   const pairs = (interaction.content?.pairs || interaction.pairs || []);
                   return Object.keys(matchingPairs).length < pairs.length;
                 }
-                if (['transformation', 'fill_blanks', 'fill_blank'].includes(interaction.type)) {
+                if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
                   const stim = interaction.stimulus_en || "";
                   const gaps = stim.match(/_{2,}/g) || [];
                   const exp = gaps.length || 1;
@@ -1965,10 +1970,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 if (!interaction) return;
                 
                 if (interaction.type === 'reorder_words') handleCheckAnswer(selectedWords.map(w => w.id));
-                else if (['matching', 'multiple_matching'].includes(interaction.type)) handleCheckAnswer(matchingPairs);
+                else if (['matching', 'multiple_matching', 'vocabulary-match'].includes(interaction.type)) handleCheckAnswer(matchingPairs);
                 else if (interaction.type === 'categorization') handleCheckAnswer(Object.keys(categorizedItems));
                 else if (['gapped_text', 'multiple_choice_cloze'].includes(interaction.type)) handleCheckAnswer(inputValues);
-                else if (['transformation', 'fill_blanks', 'fill_blank'].includes(interaction.type)) {
+                else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
                   const stim = interaction.stimulus_en || "";
                   const gaps = stim.match(/_{2,}/g) || [];
                   const exp = gaps.length || 1;
@@ -1979,7 +1984,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 else if (['short_writing', 'dictation_guided', 'writing_task'].includes(interaction.type)) {
                    handleCheckAnswer(inputValues[0] || "");
                 }
-                else if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc'].includes(interaction.type)) {
+                else if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
                   if (selectedOption !== null) handleCheckAnswer(selectedOption);
                 }
                 else handleNext();
@@ -1988,7 +1993,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
               {(() => {
                 const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
                 if (!interaction) return 'SIGUIENTE';
-                return ['reorder_words', 'matching', 'multiple_matching', 'short_writing', 'transformation', 'fill_blanks', 'fill_blank', 'categorization', 'dictation_guided', 'multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'gapped_text', 'multiple_choice_cloze', 'writing_task'].includes(interaction.type) ? 'COMPROBAR' : 'SIGUIENTE';
+                return ['reorder_words', 'matching', 'multiple_matching', 'short_writing', 'transformation', 'fill_blanks', 'fill_blank', 'fill-blank', 'categorization', 'dictation_guided', 'multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'gapped_text', 'multiple_choice_cloze', 'writing_task', 'reading-comprehension', 'writing-analysis', 'vocabulary-match'].includes(interaction.type) ? 'COMPROBAR' : 'SIGUIENTE';
               })()}
             </Button>
           )}

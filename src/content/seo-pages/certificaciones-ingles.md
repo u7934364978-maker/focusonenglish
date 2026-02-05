@@ -57,6 +57,13 @@ El estándar de oro si miras hacia Estados Unidos. Se realiza íntegramente por 
 2.  **Evalúa tu tiempo**: Si necesitas el título rápido, IELTS y TOEFL ofrecen resultados en menos de una semana. Cambridge suele tardar más.
 3.  **Tu estilo de examen**: ¿Prefieres hablar con una persona real? IELTS. ¿Prefieres hablarle a un micrófono en un entorno controlado? TOEFL.
 
+## Análisis Detallados
+
+Para profundizar en cada examen, te recomendamos nuestras guías específicas:
+*   [**Guía B2 First (FCE)**](/blog/examenes/guia-b2-first-fce): Todo sobre el examen de Cambridge más popular.
+*   [**IELTS vs TOEFL**](/blog/trabajo/ielts-vs-toefl-trabajo): ¿Cuál elegir para trabajar en el extranjero?
+*   [**Trucos C1 Advanced**](/blog/examenes/trucos-writing-c1-advanced): Cómo dominar la parte de Writing.
+
 ## Prepárate con Focus English
 
 Independientemente del examen que elijas, la clave del éxito es la **preparación estratégica**. En Focus English hemos diseñado rutas específicas para cada nivel del Marco Común Europeo (A1-C1) que te darán la base necesaria para arrasar en cualquier examen oficial.

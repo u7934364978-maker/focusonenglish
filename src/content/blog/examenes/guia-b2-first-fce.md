@@ -57,6 +57,10 @@ El **B2 First Cambridge** utiliza la *Cambridge English Scale*. Para obtener el 
 3.  **Practica con exámenes reales**: Realizar simulacros con cronómetro es esencial para gestionar el tiempo el día del examen.
 4.  **Usa la IA a tu favor**: Plataformas como **Focus English** te permiten practicar el Speaking y el Use of English con feedback inmediato, simulando situaciones reales de examen.
 
+## ¿B2 First, IELTS o TOEFL?
+
+Si aún no tienes claro si el B2 First es la mejor opción para tus objetivos profesionales o académicos, te recomendamos consultar nuestra [guía comparativa de certificaciones oficiales de inglés](/certificaciones-ingles-oficiales), donde analizamos cuál es mejor según tu destino (Europa, USA, Australia) y propósito.
+
 ## Conclusión
 
 Obtener el **Cambridge Certificate** de nivel B2 es un paso fundamental para tu carrera profesional y académica. Requiere preparación y constancia, pero con los recursos adecuados, ¡es un objetivo totalmente alcanzable!
