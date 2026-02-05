@@ -6,8 +6,8 @@
 // Página dedicada para alumnos que ya tienen acceso
 // ============================================
 
-import { useState, Suspense } from 'react';
-import { signIn } from '@/lib/auth-helpers';
+import { useState, Suspense, useEffect } from 'react';
+import { signIn, getUser } from '@/lib/auth-helpers';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
@@ -31,6 +31,17 @@ function SignInForm() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
+  // Si ya hay sesión, redirigir
+  useEffect(() => {
+    async function checkUser() {
+      const { user } = await getUser();
+      if (user) {
+        window.location.replace(callbackUrl);
+      }
+    }
+    checkUser();
+  }, [callbackUrl]);
+
   // Login con credenciales
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -40,16 +51,14 @@ function SignInForm() {
     try {
       console.log('Login attempt with:', email);
       const { user, error: authError } = await signIn(email, password);
-      console.log('Login result:', { user: !!user, error: authError?.message });
-
+      
       if (authError || !user) {
+        console.error('Auth error:', authError);
         setError('Email o contraseña incorrectos');
       } else {
-        console.log('Login successful, preparing redirect to:', callbackUrl);
-        // Pequeño retraso para asegurar que las cookies se asientan
-        setTimeout(() => {
-          window.location.href = callbackUrl;
-        }, 500);
+        console.log('Login success, redirecting to:', callbackUrl);
+        // Forzar redirección nativa del navegador para asegurar limpieza de cookies
+        window.location.replace(callbackUrl);
       }
     } catch (err) {
       setError('Error al iniciar sesión. Intenta nuevamente.');
