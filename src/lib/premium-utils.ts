@@ -26,9 +26,11 @@ export function getSolutionText(interaction: PremiumInteraction): string {
     case 'multiple_choice':
     case 'odd_one_out':
     case 'role_play':
+    case 'reading-comprehension':
+    case 'writing-analysis':
       if (interaction.options && interaction.correct_answer) {
-        const correctOption = interaction.options.find(opt => opt.id === interaction.correct_answer);
-        return correctOption ? `${prefix}${correctOption.text}` : "";
+        const correctOption = interaction.options.find(opt => opt.id === interaction.correct_answer || opt.text === interaction.correct_answer);
+        return correctOption ? `${prefix}${correctOption.text}` : String(interaction.correct_answer);
       }
       break;
 
@@ -43,6 +45,7 @@ export function getSolutionText(interaction: PremiumInteraction): string {
       break;
 
     case 'matching':
+    case 'vocabulary-match':
       if (interaction.pairs) {
         const solution = interaction.pairs
           .map(pair => `${pair.left} → ${pair.right}`)

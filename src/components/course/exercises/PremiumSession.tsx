@@ -402,21 +402,27 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       isAnswerCorrect = selectedText === correctText;
     } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'fill-blank', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
       // Robust comparison for boolean and string values
-      const normalizedOption = typeof optionId === 'string' ? optionId.toLowerCase().trim() : optionId;
+      const normalizedOption = String(optionId).toLowerCase().trim();
       
       const q = (interaction.type === 'reading-comprehension' || interaction.type === 'writing-analysis')
         ? (interaction.content?.questions?.[0] || interaction.content || interaction)
         : interaction;
         
-      const normalizedCorrect = typeof q.correctAnswer === 'string' ? q.correctAnswer.toLowerCase().trim() : (q.correctAnswer || q.correct_answer);
+      const normalizedCorrect = String(q.correct_answer || q.correctAnswer || interaction.correct_answer).toLowerCase().trim();
       
       if (interaction.type === 'true_false') {
         // Specifically handle True/False which might be stored as strings "true"/"false" or booleans
-        const optBool = String(optionId).toLowerCase().trim() === 'true';
-        const correctBool = String(interaction.correct_answer).toLowerCase().trim() === 'true';
+        const optBool = normalizedOption === 'true';
+        const correctBool = normalizedCorrect === 'true';
         isAnswerCorrect = optBool === correctBool;
       } else {
-        isAnswerCorrect = normalizedOption === normalizedCorrect;
+        // Double check: if normalizedOption is an ID (like o1), but normalizedCorrect is also an ID,
+        // we might want to also check if the text matches just in case of mapping mismatches
+        const optionText = q.options?.find((o: any) => (o.id === optionId || o === optionId))?.text || optionId;
+        const correctText = q.options?.find((o: any) => (o.id === normalizedCorrect || o === normalizedCorrect))?.text || normalizedCorrect;
+        
+        isAnswerCorrect = normalizedOption === normalizedCorrect || 
+                         String(optionText).toLowerCase().trim() === String(correctText).toLowerCase().trim();
       }
     } else if (['matching', 'multiple_matching', 'vocabulary-match'].includes(interaction.type)) {
       const pairs = (interaction.type === 'vocabulary-match')
@@ -459,9 +465,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       isAnswerCorrect = allCategorizedCorrectly && Object.keys(categorizedItems).length === allItems.length;
     } else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
       const input = (optionId as string).trim().toLowerCase();
-      const q = (interaction.type === 'reading-comprehension' || interaction.type === 'writing-analysis')
-        ? (interaction.content?.questions?.[0] || interaction.content || interaction)
-        : interaction;
+      const q = interaction;
       const correct = String(q.correct_answer || q.correctAnswer || interaction.correct_answer).toLowerCase().trim();
       isAnswerCorrect = input === correct;
     } else if (interaction.type === 'writing_task') {
@@ -658,12 +662,13 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     
     switch (interaction.type) {
       case 'reading-comprehension':
-      case 'writing-analysis':
         const readingContent = interaction.content || interaction;
         const q = readingContent.questions?.[0] || readingContent;
+        const correctReadingAns = interaction.correct_answer || q.correct_answer || q.correctAnswer;
+
         return (
           <div className="w-full max-w-2xl mx-auto space-y-8">
-            <h2 className="text-2xl font-black text-slate-800 text-center">{readingContent.title || interaction.title}</h2>
+            <h2 className="text-2xl font-black text-slate-800 text-center">{readingContent.title || interaction.title || "Reading Comprehension"}</h2>
             {readingContent.text && (
                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 mb-8 max-h-[40vh] overflow-y-auto relative group">
                   <PronunciationButton text={readingContent.text} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -671,9 +676,6 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                     {readingContent.text}
                   </p>
                </div>
-            )}
-            {readingContent.instructions && (
-               <p className="text-center text-slate-500 font-bold mb-4 italic">{readingContent.instructions}</p>
             )}
             <div className="bg-indigo-50 p-8 rounded-[2rem] border-2 border-indigo-100 mb-6 relative group">
               <PronunciationButton text={q.question || q.context} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -686,7 +688,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 const optText = typeof opt === 'string' ? opt : opt.text;
                 const optId = typeof opt === 'string' ? opt : opt.id;
                 const isSelected = selectedOption === optId;
-                const isCorrectAns = optId === q.correctAnswer;
+                const isCorrectAns = optId === correctReadingAns;
                 
                 return (
                   <div
@@ -694,15 +696,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                     role="button"
                     tabIndex={0}
                     onClick={() => !feedback && setSelectedOption(optId)}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        if (!feedback) setSelectedOption(optId);
-                      }
-                    }}
                     className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
                       feedback 
-                        ? isCorrectAns ? 'border-green-500 bg-green-50 text-green-700' : 'border-slate-100 bg-white text-slate-300'
+                        ? isCorrectAns ? 'border-green-500 bg-green-50 text-green-700' : isSelected ? 'border-red-500 bg-red-50 text-red-700' : 'border-slate-100 bg-white text-slate-300'
                         : isSelected 
                           ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
                           : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
@@ -718,6 +714,68 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                   </div>
                 );
               })}
+            </div>
+          </div>
+        );
+
+      case 'writing-analysis':
+        const analysisContent = interaction.content || interaction;
+        const analysisItems = analysisContent.analysis || [];
+        const toneOptions = ["Formal", "Informal", "Urgent"];
+        
+        return (
+          <div className="w-full max-w-3xl mx-auto space-y-8">
+            <h2 className="text-3xl font-black text-slate-800 text-center">{interaction.title || "Email Analysis"}</h2>
+            
+            <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 mb-8 max-h-[40vh] overflow-y-auto">
+              <p className="text-xl text-slate-700 leading-relaxed whitespace-pre-line font-serif italic">
+                {analysisContent.text}
+              </p>
+            </div>
+
+            <div className="grid gap-6">
+              <h4 className="font-black text-slate-400 uppercase tracking-widest text-sm">Key Segments:</h4>
+              {analysisItems.map((item: any, i: number) => (
+                <div key={i} className="bg-white p-6 rounded-2xl border-2 border-slate-100 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
+                  <div className="flex-1">
+                    <p className="font-bold text-indigo-600 text-lg mb-1">{item.segment}</p>
+                    <p className="text-slate-500 font-medium">Type: {item.identification}</p>
+                  </div>
+                  {feedback && (
+                    <div className="bg-green-50 px-4 py-2 rounded-xl border border-green-100 text-green-700 font-bold">
+                      {item.correction}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+
+            <div className="space-y-6 pt-8">
+              <h3 className="text-2xl font-black text-slate-800 text-center flex items-center justify-center gap-3">
+                <CheckCircle2 className="text-emerald-500" />
+                Select the overall tone:
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {toneOptions.map((tone: string) => {
+                  const isSelected = selectedOption === tone;
+                  const correctTone = interaction.correct_answer || analysisContent.correct_answer || analysisContent.correctAnswer;
+                  const isCorrectAns = tone === correctTone;
+                  
+                  return (
+                    <button
+                      key={tone}
+                      onClick={() => !feedback && setSelectedOption(tone)}
+                      className={`p-6 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all ${
+                        feedback 
+                          ? isCorrectAns ? 'bg-green-50 border-green-500 text-green-700' : isSelected ? 'bg-red-50 border-red-500 text-red-700' : 'bg-white border-slate-200 text-slate-300'
+                          : isSelected ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-105 shadow-md' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
+                      } ${feedback ? 'pointer-events-none' : ''}`}
+                    >
+                      {tone}
+                    </button>
+                  );
+                })}
+              </div>
             </div>
           </div>
         );
@@ -1592,7 +1650,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
               <div className="bg-indigo-50 p-6 rounded-2xl border-2 border-indigo-100 text-center animate-in fade-in slide-in-from-bottom-2 duration-500">
                 <p className="text-indigo-400 font-bold text-sm uppercase tracking-widest mb-2">Orden Correcto:</p>
                 <p className="text-indigo-900 font-black text-xl italic leading-relaxed">
-                  "{interaction.correct_order}"
+                  &quot;{interaction.correct_order}&quot;
                 </p>
               </div>
             )}
@@ -1987,12 +2045,16 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 else if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
                   if (selectedOption !== null) handleCheckAnswer(selectedOption);
                 }
+                else if (interaction.type === 'ai-mission') {
+                  handleCheckAnswer('mission-completed');
+                }
                 else handleNext();
               }}
             >
               {(() => {
                 const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
                 if (!interaction) return 'SIGUIENTE';
+                if (interaction.type === 'ai-mission') return 'COMPLETAR MISIÓN';
                 return ['reorder_words', 'matching', 'multiple_matching', 'short_writing', 'transformation', 'fill_blanks', 'fill_blank', 'fill-blank', 'categorization', 'dictation_guided', 'multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'gapped_text', 'multiple_choice_cloze', 'writing_task', 'reading-comprehension', 'writing-analysis', 'vocabulary-match'].includes(interaction.type) ? 'COMPROBAR' : 'SIGUIENTE';
               })()}
             </Button>

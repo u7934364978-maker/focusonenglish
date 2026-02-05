@@ -78,3 +78,9 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
    - [x] Update `manualMapping` in `[slug]/page.tsx` for dynamic SEO routes.
    - [x] Fix Global Canonical tag in `layout.tsx` to allow site-wide indexing.
    - [x] Verification: Verify all routes resolve and Google indexing block is removed.
+
+8. **[x] Task 8: Deepen SEO Strategy & Conversion**
+   - [x] Create additional cluster articles (mejores-apps-ingles-ia-2025, ielts-vs-toefl-diferencias).
+   - [x] Add SoftwareApplication JSON-LD schema to the Email Signature Generator.
+   - [x] Clean up unused imports and escape entities in Tool components.
+   - [x] Verification: Successful build and schema validation.

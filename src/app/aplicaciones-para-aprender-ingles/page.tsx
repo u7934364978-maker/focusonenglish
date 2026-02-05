@@ -1,11 +1,12 @@
 import { Navigation } from "@/components/sections/Navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { getSEOPageBySlug } from "@/lib/seo";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Metadata } from "next";
 import { SEOComparisonTable } from "@/components/sections/SEOComparisonTable";
-import { ChevronRight, Home } from "lucide-react";
+import { ChevronRight, Home, Star, Zap, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Las 10 Mejores Aplicaciones para Aprender Inglés en 2026",
@@ -24,7 +25,7 @@ export default function SEOAppsPage() {
   }
 
   const MarkdownComponents = {
-    h1: ({ ...props }: React.ComponentPropsWithoutRef<'h1'>) => <h1 className="font-display text-4xl lg:text-6xl font-black text-slate-900 mb-8 leading-tight text-center lg:text-left" {...props} />,
+    h1: ({ ...props }: React.ComponentPropsWithoutRef<'h1'>) => <h1 className="font-display text-4xl lg:text-6xl font-black text-slate-900 mb-8 leading-tight" {...props} />,
     h2: ({ ...props }: React.ComponentPropsWithoutRef<'h2'>) => <h2 className="font-display text-3xl font-black text-slate-900 mt-12 mb-6 border-b border-slate-100 pb-4" {...props} />,
     h3: ({ ...props }: React.ComponentPropsWithoutRef<'h3'>) => <h3 className="font-display text-2xl font-bold text-slate-900 mt-8 mb-4" {...props} />,
     p: ({ ...props }: React.ComponentPropsWithoutRef<'p'>) => <p className="text-slate-700 text-lg leading-relaxed mb-6" {...props} />,
@@ -49,8 +50,44 @@ export default function SEOAppsPage() {
               Inicio
             </Link>
             <ChevronRight className="w-4 h-4 text-slate-300 shrink-0" />
-            <span className="text-slate-900">Aplicaciones para Aprender Inglés</span>
+            <span className="text-slate-900 font-bold">Aplicaciones para Aprender Inglés</span>
           </nav>
+
+          {/* Hero Section */}
+          <header className="mb-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-50 text-coral-600 font-bold text-sm mb-6 uppercase tracking-wider">
+                  <Star className="w-4 h-4 fill-coral-600" />
+                  Guía Experta 2026
+                </div>
+                <h1 className="font-display text-4xl lg:text-6xl font-black text-slate-900 mb-6 leading-tight">
+                  Las 10 Mejores <span className="text-coral-600">Aplicaciones</span> para Aprender Inglés
+                </h1>
+                <p className="text-xl text-slate-600 leading-relaxed mb-8">
+                  Analizamos las herramientas que realmente funcionan para conseguir fluidez. Desde la gamificación hasta el poder de la Inteligencia Artificial.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <div className="flex items-center gap-2 text-slate-500 font-medium">
+                    <CheckCircle2 className="w-5 h-5 text-green-500" /> Actualizado hoy
+                  </div>
+                  <div className="flex items-center gap-2 text-slate-500 font-medium">
+                    <CheckCircle2 className="w-5 h-5 text-green-500" /> +50 Apps testeadas
+                  </div>
+                </div>
+              </div>
+              <div className="relative aspect-video rounded-[2rem] overflow-hidden shadow-2xl shadow-coral-100 border-8 border-white">
+                <Image 
+                  src="https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg"
+                  alt="Mejores aplicaciones para aprender inglés"
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+            </div>
+          </header>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
             
@@ -68,12 +105,12 @@ export default function SEOAppsPage() {
               {/* FAQs Section */}
               {page.faqs && page.faqs.length > 0 && (
                 <section className="mt-16 pt-16 border-t border-slate-100">
-                  <h2 className="text-3xl font-black text-slate-900 mb-8">Preguntas Frecuentes</h2>
-                  <div className="space-y-6">
+                  <h2 className="text-3xl font-black text-slate-900 mb-8">Preguntas Frecuentes sobre Apps de Inglés</h2>
+                  <div className="grid gap-6">
                     {page.faqs.map((faq, index) => (
-                      <div key={index} className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                        <h4 className="text-lg font-bold text-slate-900 mb-2">{faq.question}</h4>
-                        <p className="text-slate-600 leading-relaxed">{faq.answer}</p>
+                      <div key={index} className="bg-slate-50 p-8 rounded-3xl border border-slate-100 hover:shadow-md transition-shadow">
+                        <h4 className="text-xl font-black text-slate-900 mb-4">{faq.question}</h4>
+                        <p className="text-slate-600 text-lg leading-relaxed">{faq.answer}</p>
                       </div>
                     ))}
                   </div>
@@ -85,48 +122,54 @@ export default function SEOAppsPage() {
             <aside className="lg:col-span-4">
               <div className="sticky top-32 space-y-8">
                 {/* Promo Card */}
-                <div className="bg-gradient-to-br from-coral-600 to-peach-600 rounded-3xl p-8 text-white shadow-xl shadow-coral-200">
-                  <h3 className="text-2xl font-black mb-4">¿Cansado de &quot;jugar&quot; a aprender?</h3>
-                  <p className="text-coral-50 mb-6 font-medium">Únete a Focus English y consigue fluidez real en 90 días con nuestro sistema guiado por IA.</p>
+                <div className="bg-gradient-to-br from-coral-600 to-peach-600 rounded-[2.5rem] p-10 text-white shadow-2xl shadow-coral-200 relative overflow-hidden group">
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16 blur-2xl group-hover:bg-white/20 transition-all duration-500"></div>
+                  <Zap className="w-12 h-12 text-white/30 mb-6" />
+                  <h3 className="text-3xl font-black mb-6 leading-tight">¿Cansado de &quot;jugar&quot; a aprender?</h3>
+                  <p className="text-coral-50 mb-8 text-lg font-medium opacity-90">Únete a Focus English y consigue fluidez real en 90 días con nuestro sistema guiado por IA.</p>
                   <Link 
-                    href="/test-nivel"
-                    className="block w-full text-center bg-white text-coral-600 px-6 py-4 rounded-xl font-bold text-lg hover:shadow-lg transition-all hover:scale-105"
+                    href="/cuenta/registro"
+                    className="block w-full text-center bg-white text-coral-600 px-8 py-5 rounded-2xl font-black text-xl hover:shadow-xl transition-all hover:scale-[1.02] active:scale-95"
                   >
-                    Hacer Test Gratis
+                    Prueba Gratis Ahora
                   </Link>
-                  <p className="mt-4 text-center text-xs text-coral-100 font-bold uppercase tracking-wider">
-                    Oferta Especial: 7 días gratis
+                  <p className="mt-6 text-center text-xs text-coral-100 font-bold uppercase tracking-widest">
+                    Oferta Especial: 7 días acceso total
                   </p>
                 </div>
 
-                {/* Related Routes */}
-                <div className="bg-white rounded-3xl p-8 border border-slate-100 shadow-sm">
-                  <h4 className="text-lg font-bold text-slate-900 mb-4">Rutas recomendadas</h4>
-                  <div className="space-y-3">
-                    <Link href="/curso-ingles-para-trabajo" className="block p-4 rounded-xl border border-slate-50 hover:border-coral-100 hover:bg-coral-50 transition-all font-bold text-slate-700">
-                      Inglés para el Trabajo →
+                {/* Related Blog Articles (Nuevos artículos creados) */}
+                <div className="bg-white rounded-[2rem] p-8 border border-slate-100 shadow-sm">
+                  <h4 className="text-xl font-black text-slate-900 mb-6">Lecturas Recomendadas</h4>
+                  <div className="space-y-6">
+                    <Link href="/blog/metodos/apps-ingles-gratuitas-vs-pago" className="group block">
+                      <p className="text-base font-bold text-slate-900 group-hover:text-coral-600 transition-colors mb-1">Gratis vs. Pago: ¿Cuál elegir?</p>
+                      <p className="text-sm text-slate-500 line-clamp-2 italic">Descubre si vale la pena invertir en tu fluidez en 2025.</p>
                     </Link>
-                    <Link href="/curso-ingles-para-viajar" className="block p-4 rounded-xl border border-slate-50 hover:border-coral-100 hover:bg-coral-50 transition-all font-bold text-slate-700">
-                      Inglés para Viajar →
+                    <hr className="border-slate-50" />
+                    <Link href="/blog/trabajo/vocabulario-negocios-ingles-esencial" className="group block">
+                      <p className="text-base font-bold text-slate-900 group-hover:text-coral-600 transition-colors mb-1">Vocabulario de Negocios</p>
+                      <p className="text-sm text-slate-500 line-clamp-2 italic">50 términos que impulsarán tu carrera profesional.</p>
+                    </Link>
+                    <hr className="border-slate-50" />
+                    <Link href="/blog/examenes/preparar-b1-cambridge-por-cuenta-propia" className="group block">
+                      <p className="text-base font-bold text-slate-900 group-hover:text-coral-600 transition-colors mb-1">Aprobar el B1 Solo</p>
+                      <p className="text-sm text-slate-500 line-clamp-2 italic">Guía paso a paso para certificar tu nivel sin academia.</p>
                     </Link>
                   </div>
                 </div>
 
-                {/* Related Blog Articles */}
-                <div className="bg-slate-50 rounded-3xl p-8 border border-slate-100 shadow-sm">
-                  <h4 className="text-lg font-bold text-slate-900 mb-4">Análisis detallados</h4>
+                {/* Related Routes */}
+                <div className="bg-slate-50 rounded-[2rem] p-8 border border-slate-100 shadow-sm">
+                  <h4 className="text-xl font-black text-slate-900 mb-6">Cursos Destacados</h4>
                   <div className="space-y-4">
-                    <Link href="/blog/trabajo/mejores-apps-ingles-trabajo" className="group block">
-                      <p className="text-sm font-bold text-slate-900 group-hover:text-coral-600 transition-colors">Apps para el trabajo (2026)</p>
-                      <p className="text-xs text-slate-500 line-clamp-1">Domina el Business English con las mejores herramientas.</p>
+                    <Link href="/curso-ingles-para-trabajo" className="flex items-center justify-between p-5 rounded-2xl bg-white border border-slate-100 hover:border-coral-200 hover:shadow-md transition-all group">
+                      <span className="font-bold text-slate-700 group-hover:text-slate-900">Inglés para Negocios</span>
+                      <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-coral-500" />
                     </Link>
-                    <Link href="/blog/metodos/apps-vs-cursos-ingles" className="group block">
-                      <p className="text-sm font-bold text-slate-900 group-hover:text-coral-600 transition-colors">Apps vs. Cursos: ¿Qué elegir?</p>
-                      <p className="text-xs text-slate-500 line-clamp-1">Comparativa definitiva para llegar al C1.</p>
-                    </Link>
-                    <Link href="/blog/metodos/ia-acelerar-aprendizaje-ingles" className="group block">
-                      <p className="text-sm font-bold text-slate-900 group-hover:text-coral-600 transition-colors">Aprende con IA</p>
-                      <p className="text-xs text-slate-500 line-clamp-1">Cómo la Inteligencia Artificial acelera tu fluidez.</p>
+                    <Link href="/curso-ingles-para-viajar" className="flex items-center justify-between p-5 rounded-2xl bg-white border border-slate-100 hover:border-coral-200 hover:shadow-md transition-all group">
+                      <span className="font-bold text-slate-700 group-hover:text-slate-900">Inglés para Viajes</span>
+                      <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-coral-500" />
                     </Link>
                   </div>
                 </div>

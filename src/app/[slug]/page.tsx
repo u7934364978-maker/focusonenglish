@@ -22,8 +22,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {};
   }
 
-  const seoFileName = slug.replace(/^curso-/, "");
-  const page = getSEOPageBySlug(seoFileName, true);
+  const seoFileNameRaw = slug.replace(/^curso-/, "");
+  
+  const manualMapping: Record<string, string> = {
+    "ingles-trabajo": "ingles-para-trabajo",
+    "ingles-viajar": "ingles-para-viajar",
+    "ingles-atencion-al-cliente": "ingles-para-atencion-al-cliente",
+    "ingles-aprender-ingles": "hub",
+  };
+
+  const seoFileName = manualMapping[seoFileNameRaw] || seoFileNameRaw;
+  const isHub = seoFileName === "hub";
+  const page = getSEOPageBySlug(seoFileName, !isHub);
   
   if (!page) return { title: "Curso de Inglés" };
 
@@ -57,6 +67,10 @@ export default async function SEORoutePage({ params }: { params: Promise<{ slug:
   };
 
   if (manualMapping[seoFileName]) {
+    // Si es el hub, redirigir a la URL limpia
+    if (manualMapping[seoFileName] === "hub") {
+      redirect("/aprender-ingles");
+    }
     seoFileName = manualMapping[seoFileName];
   }
 

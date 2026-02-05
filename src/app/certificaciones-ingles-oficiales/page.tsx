@@ -1,10 +1,11 @@
 import { Navigation } from "@/components/sections/Navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { getSEOPageBySlug } from "@/lib/seo";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Metadata } from "next";
-import { ChevronRight, Home, GraduationCap, Globe, Building2, Award } from "lucide-react";
+import { ChevronRight, Home, GraduationCap, Globe, Award, CheckCircle2, Star } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Certificaciones de Inglés Oficiales 2026: Guía Comparativa",
@@ -59,8 +60,44 @@ export default function SEOCertificationsPage() {
             <ChevronRight className="w-4 h-4 text-slate-300 shrink-0" />
             <Link href="/aprender-ingles" className="hover:text-coral-600 transition-colors">Aprender Inglés</Link>
             <ChevronRight className="w-4 h-4 text-slate-300 shrink-0" />
-            <span className="text-slate-900">Certificaciones Oficiales</span>
+            <span className="text-slate-900 font-bold">Certificaciones Oficiales</span>
           </nav>
+
+          {/* Hero Section */}
+          <header className="mb-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-blue-700 font-bold text-sm mb-6 uppercase tracking-wider">
+                  <Award className="w-4 h-4" />
+                  Guía de Certificación 2026
+                </div>
+                <h1 className="font-display text-4xl lg:text-6xl font-black text-slate-900 mb-6 leading-tight">
+                  Consigue tu <span className="text-coral-600">Certificado Oficial</span> de Inglés
+                </h1>
+                <p className="text-xl text-slate-600 leading-relaxed mb-8">
+                  Comparamos los exámenes más reconocidos del mundo para que elijas el que impulsará tu carrera o tus estudios internacionales.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <div className="flex items-center gap-2 text-slate-500 font-medium">
+                    <CheckCircle2 className="w-5 h-5 text-green-500" /> Válido para Visados
+                  </div>
+                  <div className="flex items-center gap-2 text-slate-500 font-medium">
+                    <CheckCircle2 className="w-5 h-5 text-green-500" /> Reconocimiento Global
+                  </div>
+                </div>
+              </div>
+              <div className="relative aspect-video rounded-[2rem] overflow-hidden shadow-2xl shadow-blue-100 border-8 border-white">
+                <Image 
+                  src="https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg"
+                  alt="Certificaciones de inglés oficiales"
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+            </div>
+          </header>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
             
@@ -78,12 +115,12 @@ export default function SEOCertificationsPage() {
               {/* FAQs Section */}
               {page.faqs && page.faqs.length > 0 && (
                 <section className="mt-16 pt-16 border-t border-slate-100">
-                  <h2 className="text-3xl font-black text-slate-900 mb-8">Preguntas Frecuentes</h2>
-                  <div className="space-y-6">
+                  <h2 className="text-3xl font-black text-slate-900 mb-8">Preguntas sobre Exámenes</h2>
+                  <div className="grid gap-6">
                     {page.faqs.map((faq, index) => (
-                      <div key={index} className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                        <h4 className="text-lg font-bold text-slate-900 mb-2">{faq.question}</h4>
-                        <p className="text-slate-600 leading-relaxed">{faq.answer}</p>
+                      <div key={index} className="bg-slate-50 p-8 rounded-3xl border border-slate-100 hover:shadow-md transition-shadow">
+                        <h4 className="text-xl font-black text-slate-900 mb-4">{faq.question}</h4>
+                        <p className="text-slate-600 text-lg leading-relaxed">{faq.answer}</p>
                       </div>
                     ))}
                   </div>
@@ -95,42 +132,47 @@ export default function SEOCertificationsPage() {
             <aside className="lg:col-span-4">
               <div className="sticky top-32 space-y-8">
                 {/* Exam Prep Promo */}
-                <div className="bg-gradient-to-br from-[#1A237E] to-[#283593] rounded-3xl p-8 text-white shadow-xl shadow-blue-100">
-                  <Award className="w-12 h-12 text-coral-400 mb-6" />
-                  <h3 className="text-2xl font-black mb-4">¿Te preparas para un examen?</h3>
-                  <p className="text-blue-100 mb-6 font-medium">Nuestra plataforma incluye simulacros y ejercicios específicos para B2 First, C1 Advanced e IELTS.</p>
+                <div className="bg-gradient-to-br from-[#1A237E] to-[#283593] rounded-[2.5rem] p-10 text-white shadow-2xl shadow-blue-200 relative overflow-hidden group">
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16 blur-2xl group-hover:bg-white/20 transition-all duration-500"></div>
+                  <Star className="w-12 h-12 text-coral-400 mb-6" />
+                  <h3 className="text-3xl font-black mb-6 leading-tight">¿Te preparas para un examen?</h3>
+                  <p className="text-blue-50 mb-8 text-lg font-medium opacity-90">Nuestra plataforma incluye simulacros y ejercicios específicos para B2 First, C1 Advanced e IELTS.</p>
                   <Link 
                     href="/cuenta/registro"
-                    className="block w-full text-center bg-coral-500 text-white px-6 py-4 rounded-xl font-bold text-lg hover:bg-coral-600 transition-all hover:scale-105"
+                    className="block w-full text-center bg-coral-500 text-white px-8 py-5 rounded-2xl font-black text-xl hover:bg-coral-600 transition-all hover:scale-[1.02] active:scale-95 shadow-lg shadow-coral-900/20"
                   >
-                    Empezar Preparación
+                    Empezar Ahora
+                  </Link>
+                </div>
+
+                {/* Related Blog Article (Nuevo artículo creado) */}
+                <div className="bg-white rounded-[2rem] p-8 border border-slate-100 shadow-sm">
+                  <h4 className="text-xl font-black text-slate-900 mb-6">Guías de Estudio</h4>
+                  <Link href="/blog/examenes/preparar-b1-cambridge-por-cuenta-propia" className="group block p-4 rounded-2xl bg-slate-50 border border-transparent hover:border-coral-200 transition-all">
+                    <p className="text-base font-bold text-slate-900 group-hover:text-coral-600 transition-colors mb-2">Preparar B1 por libre</p>
+                    <p className="text-sm text-slate-500 line-clamp-2 italic">Aprende cómo aprobar el PET de Cambridge sin ir a una academia.</p>
                   </Link>
                 </div>
 
                 {/* Related Routes */}
-                <div className="bg-white rounded-3xl p-8 border border-slate-100 shadow-sm">
-                  <h4 className="text-lg font-bold text-slate-900 mb-4">Cursos recomendados</h4>
-                  <div className="space-y-3">
-                    <Link href="/curso-ingles-para-trabajo" className="flex items-center gap-3 p-4 rounded-xl border border-slate-50 hover:border-coral-100 hover:bg-coral-50 transition-all font-bold text-slate-700">
-                      <Building2 className="w-5 h-5 text-coral-500" />
-                      Inglés Profesional
+                <div className="bg-slate-50 rounded-[2rem] p-8 border border-slate-100 shadow-sm">
+                  <h4 className="text-xl font-black text-slate-900 mb-6">Recursos Útiles</h4>
+                  <div className="space-y-4">
+                    <Link href="/curso-ingles-b2" className="flex items-center justify-between p-5 rounded-2xl bg-white border border-slate-100 hover:border-coral-200 hover:shadow-md transition-all group">
+                      <div className="flex items-center gap-3">
+                        <GraduationCap className="w-5 h-5 text-coral-500" />
+                        <span className="font-bold text-slate-700 group-hover:text-slate-900">Curso B2 Online</span>
+                      </div>
+                      <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-coral-500" />
                     </Link>
-                    <Link href="/curso-ingles-b2" className="flex items-center gap-3 p-4 rounded-xl border border-slate-50 hover:border-coral-100 hover:bg-coral-50 transition-all font-bold text-slate-700">
-                      <GraduationCap className="w-5 h-5 text-coral-500" />
-                      Preparación B2
+                    <Link href="/aplicaciones-para-aprender-ingles" className="flex items-center justify-between p-5 rounded-2xl bg-white border border-slate-100 hover:border-coral-200 hover:shadow-md transition-all group">
+                      <div className="flex items-center gap-3">
+                        <Globe className="w-5 h-5 text-coral-500" />
+                        <span className="font-bold text-slate-700 group-hover:text-slate-900">Mejores Apps 2026</span>
+                      </div>
+                      <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-coral-500" />
                     </Link>
                   </div>
-                </div>
-
-                {/* Info Card */}
-                <div className="bg-slate-50 rounded-3xl p-8 border border-slate-100">
-                  <div className="flex items-center gap-2 text-coral-600 mb-4">
-                    <Globe className="w-5 h-5" />
-                    <span className="font-bold text-sm uppercase tracking-wider">Reconocimiento Global</span>
-                  </div>
-                  <p className="text-sm text-slate-600 leading-relaxed">
-                    Más de 25.000 universidades y empresas en todo el mundo confían en estas certificaciones para validar el nivel de inglés.
-                  </p>
                 </div>
               </div>
             </aside>
