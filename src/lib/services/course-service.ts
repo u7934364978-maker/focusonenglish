@@ -25,7 +25,16 @@ const LessonSchema = z.object({
   title: z.string(),
   description: z.string().nullable().transform(val => val || ''),
   duration: z.number().nullable().transform(val => val || 0),
-  objectives: z.array(z.string()).default([]),
+  objectives: z.union([z.array(z.string()), z.string()]).transform(val => {
+    if (typeof val === 'string') {
+      try {
+        return JSON.parse(val);
+      } catch {
+        return [val];
+      }
+    }
+    return val || [];
+  }),
   exercises: z.array(z.any()).optional().default([]),
 });
 
@@ -34,9 +43,37 @@ const ModuleSchema = z.object({
   title: z.string(),
   description: z.string().nullable().transform(val => val || ''),
   order_index: z.number(),
-  objectives: z.array(z.string()).default([]),
-  grammar: z.array(z.string()).default([]),
-  vocabulary: z.array(z.string()).default([]),
+  objectives: z.union([z.array(z.string()), z.string()]).transform(val => {
+    if (typeof val === 'string') {
+      try {
+        return JSON.parse(val);
+      } catch {
+        return [];
+      }
+    }
+    return val || [];
+  }),
+  grammar: z.union([z.array(z.string()), z.string()]).transform(val => {
+    if (typeof val === 'string') {
+      try {
+        return JSON.parse(val);
+      } catch {
+        return [];
+      }
+    }
+    return val || [];
+  }),
+  vocabulary: z.union([z.array(z.string()), z.string()]).transform(val => {
+    if (typeof val === 'string') {
+      try {
+        return JSON.parse(val);
+      } catch {
+        return [];
+      }
+    }
+    return val || [];
+  }),
+  lessons: z.array(LessonSchema).default([]),
 });
 
 // ============================================
@@ -47,7 +84,6 @@ const cache = new Map<string, { data: any, timestamp: number }>();
 const CACHE_TTL = 1000 * 60 * 10; // 10 minutos
 
 function getCached<T>(key: string): T | null {
-  return null;
   const cached = cache.get(key);
   if (cached && Date.now() - cached.timestamp < CACHE_TTL) {
     return cached.data as T;
@@ -92,6 +128,7 @@ export const courseService = {
       const mParsed = ModuleSchema.safeParse(mRaw);
       if (!mParsed.success) {
         console.error(`Invalid module data for ${mRaw.id}:`, mParsed.error);
+        console.log('Raw module data:', JSON.stringify(mRaw, null, 2));
         continue;
       }
       const m = mParsed.data;
@@ -107,6 +144,8 @@ export const courseService = {
         continue;
       }
 
+      console.log(`Lessons fetched for module ${m.id}:`, lessonsRaw?.length || 0);
+
       result.push({
         id: m.id,
         title: m.title,
@@ -117,7 +156,11 @@ export const courseService = {
         vocabulary: m.vocabulary,
         lessons: (lessonsRaw || []).map((lRaw: any) => {
           const lParsed = LessonSchema.safeParse(lRaw);
-          if (!lParsed.success) return null;
+          if (!lParsed.success) {
+            console.error(`Invalid lesson data for ${lRaw.id}:`, lParsed.error);
+            console.log('Raw lesson data:', JSON.stringify(lRaw, null, 2));
+            return null;
+          }
           return {
             ...lParsed.data,
             exercises: lRaw.course_exercises || [],

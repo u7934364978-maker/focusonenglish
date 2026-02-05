@@ -95,7 +95,8 @@ export default function SignupPage() {
       });
 
       if (!hubspotResponse.ok) {
-        throw new Error('Error al guardar información');
+        const errorData = await hubspotResponse.json().catch(() => ({}));
+        throw new Error(errorData.error || 'Error al guardar información');
       }
 
       // 2. Crear sesión de pago en Stripe (suscripción)

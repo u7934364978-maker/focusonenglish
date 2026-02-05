@@ -23,23 +23,28 @@ async function createHubSpotContact(data: SignupFormData) {
 
   // Mapear niveles del formulario a los valores de HubSpot
   const levelMap: { [key: string]: string } = {
-    'a1': 'A1 Principiante',
-    'a2': 'A2 Elemental',
-    'b1': 'B1 Intermedio',
-    'b2': 'B2 Intermedio Alto',
-    'c1': 'C1 Avanzado',
-    'c2': 'C2 Maestría'
+    'a1': 'A1',
+    'a2': 'A2',
+    'b1': 'B1',
+    'b2': 'B2',
+    'c1': 'C1',
+    'c2': 'C2'
   };
 
   // Mapear cursos a formato legible
   const courseMap: { [key: string]: string } = {
+    'premium-monthly': 'Plan Premium Mensual',
+    'premium-yearly': 'Plan Premium Anual',
+    'basic-monthly': 'Plan Básico Mensual',
+    'basic-yearly': 'Plan Básico Anual',
+    'travel-pilot': 'Piloto: Inglés para Viajes',
     'trabajo': 'Inglés para Trabajar',
     'viajes': 'Inglés para Viajar',
     'examenes': 'Preparar Exámenes'
   };
 
   // Construir propiedades del contacto
-  const properties: { [key: string]: string } = {
+  const properties: { [key: string]: any } = {
     firstname: data.firstName,
     lastname: data.lastName,
     email: data.email,
@@ -54,25 +59,20 @@ async function createHubSpotContact(data: SignupFormData) {
 
   // Añadir nivel solo si se seleccionó uno (no vacío)
   if (data.currentLevel && data.currentLevel !== '') {
-    const mappedLevel = levelMap[data.currentLevel];
+    const mappedLevel = levelMap[data.currentLevel.toLowerCase()];
     if (mappedLevel) {
       properties.current_level = mappedLevel;
     }
   }
 
-  // Añadir curso e información en un solo campo de texto (message)
-  let fullMessage = '';
+  // Añadir curso de interés
   if (data.courseInterest) {
     const courseName = courseMap[data.courseInterest] || data.courseInterest;
-    fullMessage += `Curso de interés: ${courseName}\n\n`;
+    properties.course_interest = courseName;
   }
-  if (data.message && data.message.trim() !== '') {
-    fullMessage += `Mensaje: ${data.message}`;
-  }
-  
-  if (fullMessage.trim()) {
-    properties.message = fullMessage.trim();
-  }
+
+  // Si hay un mensaje, lo añadiremos después de crear/actualizar el contacto
+  const messageToSave = data.message && data.message.trim() !== '' ? data.message : null;
 
   // Primero intentar buscar si el contacto existe por email
   const searchUrl = `https://api.hubapi.com/crm/v3/objects/contacts/search`;
@@ -93,6 +93,7 @@ async function createHubSpotContact(data: SignupFormData) {
     })
   });
 
+  let contactResult;
   const searchData = await searchResponse.json();
   
   // Si el contacto existe, actualizarlo
@@ -115,27 +116,62 @@ async function createHubSpotContact(data: SignupFormData) {
       throw new Error(`Error al actualizar contacto en HubSpot: ${errorData.message || updateResponse.statusText}`);
     }
 
-    return await updateResponse.json();
+    contactResult = await updateResponse.json();
+  } else {
+    // Si no existe, crear uno nuevo
+    const createUrl = 'https://api.hubapi.com/crm/v3/objects/contacts';
+    const createResponse = await fetch(createUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${accessToken}`
+      },
+      body: JSON.stringify({ properties })
+    });
+
+    if (!createResponse.ok) {
+      const errorData = await createResponse.json();
+      console.error('Error al crear contacto en HubSpot:', errorData);
+      throw new Error(`Error al crear contacto en HubSpot: ${errorData.message || createResponse.statusText}`);
+    }
+
+    contactResult = await createResponse.json();
   }
 
-  // Si no existe, crear uno nuevo
-  const createUrl = 'https://api.hubapi.com/crm/v3/objects/contacts';
-  const createResponse = await fetch(createUrl, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${accessToken}`
-    },
-    body: JSON.stringify({ properties })
-  });
-
-  if (!createResponse.ok) {
-    const errorData = await createResponse.json();
-    console.error('Error al crear contacto en HubSpot:', errorData);
-    throw new Error(`Error al crear contacto en HubSpot: ${errorData.message || createResponse.statusText}`);
+  // Si hay mensaje, guardarlo como nota asociada al contacto
+  if (messageToSave && contactResult.id) {
+    try {
+      await fetch('https://api.hubapi.com/crm/v3/objects/notes', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${accessToken}`
+        },
+        body: JSON.stringify({
+          properties: {
+            hs_note_body: `Mensaje desde formulario de registro:\n\n${messageToSave}`,
+            hs_timestamp: new Date().toISOString()
+          },
+          associations: [
+            {
+              to: { id: contactResult.id },
+              types: [
+                {
+                  associationCategory: 'HUBSPOT_DEFINED',
+                  associationTypeId: 202 // Note to Contact
+                }
+              ]
+            }
+          ]
+        })
+      });
+    } catch (noteError) {
+      console.error('Error al guardar nota en HubSpot (no crítico):', noteError);
+      // No lanzamos error para no fallar el registro principal
+    }
   }
 
-  return await createResponse.json();
+  return contactResult;
 }
 
 // Handler POST para el formulario de signup

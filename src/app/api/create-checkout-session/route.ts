@@ -93,7 +93,7 @@ export async function POST(request: NextRequest) {
         lastName,
         phone: phone || '',
         email,
-        currentLevel: currentLevel || '',
+        currentLevel: (currentLevel || '').toUpperCase(),
       },
       // Configurar el formulario de billing
       billing_address_collection: 'required',
