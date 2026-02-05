@@ -32,7 +32,10 @@ function SuccessContent() {
         <ul className="text-left space-y-3 text-slate-700">
           <li className="flex items-start gap-3">
             <span className="text-amber-600 mt-1">📧</span>
-            <span>Te hemos enviado un <strong>email con tu contraseña temporal</strong> para acceder.</span>
+            <div>
+              <p>Te hemos enviado un <strong>email con tu contraseña temporal</strong> para acceder.</p>
+              <p className="text-xs text-slate-500 mt-1">Si no lo recibes en 5 minutos, revisa tu carpeta de <strong>spam</strong>.</p>
+            </div>
           </li>
           <li className="flex items-start gap-3">
             <span className="text-amber-600 mt-1">🎓</span>

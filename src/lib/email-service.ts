@@ -292,11 +292,17 @@ export async function sendPasswordChangedEmail(
 /**
  * Enviar email de bienvenida tras suscripción exitosa
  */
-export async function sendWelcomeEmail(
+export async function sendWelcomeEmail({
+  email,
+  name,
+  planName,
+  tempPassword
+}: {
   email: string,
-  userName: string,
-  planName: string
-): Promise<boolean> {
+  name: string,
+  planName: string,
+  tempPassword?: string
+}): Promise<boolean> {
   // Si Resend no está configurado, simular éxito en desarrollo
   if (!resend) {
     console.warn('Resend not configured, skipping welcome email');
@@ -356,6 +362,14 @@ export async function sendWelcomeEmail(
                 margin: 20px 0;
                 text-align: center;
               }
+              .password-box {
+                background: #f3f4f6;
+                border: 1px dashed #d1d5db;
+                padding: 15px;
+                border-radius: 8px;
+                margin: 20px 0;
+                text-align: center;
+              }
               .footer {
                 background: #f9fafb;
                 padding: 20px;
@@ -375,7 +389,7 @@ export async function sendWelcomeEmail(
             </div>
             
             <div class="content">
-              <h2 style="color: #1f2937; margin-top: 0;">¡Hola ${userName}!</h2>
+              <h2 style="color: #1f2937; margin-top: 0;">¡Hola ${name}!</h2>
               
               <p style="font-size: 16px; color: #4b5563;">
                 ¡Es un placer tenerte con nosotros! Tu suscripción se ha completado correctamente y ya tienes acceso total a nuestra plataforma.
@@ -385,6 +399,16 @@ export async function sendWelcomeEmail(
                 <p style="margin: 0; color: #9a3412; font-size: 14px; font-weight: 600; text-transform: uppercase;">Plan Activo</p>
                 <h3 style="margin: 5px 0; color: #c2410c; font-size: 24px; font-weight: 800;">${planName}</h3>
               </div>
+
+              ${tempPassword ? `
+              <div class="password-box">
+                <p style="margin: 0; color: #4b5563; font-size: 14px;">Tus credenciales de acceso temporal:</p>
+                <p style="margin: 5px 0 0 0; font-size: 18px; font-family: monospace; font-weight: bold; color: #1f2937;">
+                  Password: ${tempPassword}
+                </p>
+                <p style="margin: 10px 0 0 0; color: #6b7280; font-size: 12px;">(Te recomendamos cambiarla en tu perfil una vez accedas)</p>
+              </div>
+              ` : ''}
               
               <p style="font-size: 16px; color: #4b5563;">
                 Ya puedes acceder a tu dashboard personal para ver tus cursos, seguir tu progreso y empezar a practicar.
