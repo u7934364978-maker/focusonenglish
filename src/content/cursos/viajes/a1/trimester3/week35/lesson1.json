@@ -1,0 +1,1835 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "viajes-a1-u35",
+    "unit_title": "Ordering Lunch/Dinner",
+    "total_duration_minutes": 120
+  },
+  "blocks": [
+    {
+      "block_id": "B35",
+      "title": "Ordering Lunch/Dinner",
+      "content": [
+        {
+          "interaction_id": "U35_I1",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fish",
+              "right": "Pescado"
+            },
+            {
+              "id": "p1",
+              "left": "Steak",
+              "right": "Filete"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pollo",
+          "correct_answer": "Chicken",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pollo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Chicken"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I7",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Steak",
+              "right": "Filete"
+            },
+            {
+              "id": "p1",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I8",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "35"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I11",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Filete",
+          "correct_answer": "Steak",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pescado' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fish"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I13",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p1",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I14",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I17",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Filete",
+          "correct_answer": "Steak",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Filete' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Steak"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I19",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p1",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I20",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pollo",
+          "correct_answer": "Chicken",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pescado' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fish"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I25",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fish",
+              "right": "Pescado"
+            },
+            {
+              "id": "p1",
+              "left": "Fish",
+              "right": "Pescado"
+            },
+            {
+              "id": "p2",
+              "left": "Steak",
+              "right": "Filete"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I29",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pescado",
+          "correct_answer": "Fish",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Filete' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Steak"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I31",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fish",
+              "right": "Pescado"
+            },
+            {
+              "id": "p1",
+              "left": "Steak",
+              "right": "Filete"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I32",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I35",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pescado",
+          "correct_answer": "Fish",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pescado' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fish"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Steak",
+              "right": "Filete"
+            },
+            {
+              "id": "p1",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 35. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pollo",
+          "correct_answer": "Chicken",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pollo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Chicken"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p1",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I44",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 35. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Filete",
+          "correct_answer": "Steak",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Filete' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Steak"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I49",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p1",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I50",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I53",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Filete",
+          "correct_answer": "Steak",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Filete' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Steak"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I55",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fish",
+              "right": "Pescado"
+            },
+            {
+              "id": "p1",
+              "left": "Fish",
+              "right": "Pescado"
+            },
+            {
+              "id": "p2",
+              "left": "Steak",
+              "right": "Filete"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I56",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pescado",
+          "correct_answer": "Fish",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pescado' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Fish"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I61",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fish",
+              "right": "Pescado"
+            },
+            {
+              "id": "p1",
+              "left": "Steak",
+              "right": "Filete"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I62",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I65",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pollo",
+          "correct_answer": "Chicken",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Filete' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Steak"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I67",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Steak",
+              "right": "Filete"
+            },
+            {
+              "id": "p1",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I68",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "35"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I71",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pescado",
+          "correct_answer": "Fish",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pescado' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Fish"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I73",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p1",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I74",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I77",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Filete",
+          "correct_answer": "Steak",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pollo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Chicken"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I79",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p1",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pollo",
+          "correct_answer": "Chicken",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Filete' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Steak"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fish",
+              "right": "Pescado"
+            },
+            {
+              "id": "p1",
+              "left": "Fish",
+              "right": "Pescado"
+            },
+            {
+              "id": "p2",
+              "left": "Steak",
+              "right": "Filete"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I86",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I89",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pescado",
+          "correct_answer": "Fish",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pollo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Chicken"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I91",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fish",
+              "right": "Pescado"
+            },
+            {
+              "id": "p1",
+              "left": "Steak",
+              "right": "Filete"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I92",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 35. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I95",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pescado",
+          "correct_answer": "Fish",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pollo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Chicken"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I97",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Steak",
+              "right": "Filete"
+            },
+            {
+              "id": "p1",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p2",
+              "left": "Chicken",
+              "right": "Pollo"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I98",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (querer) ________ the chicken.",
+          "correct_answer": "want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 35. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

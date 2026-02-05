@@ -10,9 +10,10 @@ import type {
   WordSearchExercise as WordSearchType,
   CrosswordExercise as CrosswordType,
   FlashcardExercise as FlashcardType,
-  DragDropExercise as DragDropType
+  DragDropExercise as DragDropType,
+  WritingExercise as WritingType
 } from "./types";
-import { Headphones, BookOpen, Volume2, Info, Check, X } from "lucide-react";
+import { Headphones, BookOpen, Volume2, Info, Check, X, PenLine, Brain, Sparkles } from "lucide-react";
 import WordSearchExercise from "../../exercises/WordSearchExercise";
 import CrosswordExercise from "../../exercises/CrosswordExercise";
 import FlashcardExercise from "../../exercises/FlashcardExercise";
@@ -538,6 +539,188 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
             <span className="font-black">Explanation:</span> {ex.explanation}
           </div>
         )}
+      </div>
+    );
+  }
+
+  if (ex.type === "writingTask") {
+    const wex = ex as WritingType;
+    const [writingText, setWritingText] = useState("");
+    const [aiFeedback, setAiFeedback] = useState<any | null>(null);
+    const [isAnalyzing, setIsAnalyzing] = useState(false);
+    const wordCount = writingText.trim() ? writingText.trim().split(/\s+/).length : 0;
+
+    const handleGetFeedback = async () => {
+      if (wordCount < 10) return;
+      setIsAnalyzing(true);
+      
+      try {
+        const response = await fetch('/api/evaluate-writing', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            prompt: wex.instructions,
+            essay: writingText,
+            writingType: 'report', // Default to report for now, or extract from wex
+            minWords: 50,
+            maxWords: wex.maxWords || 250,
+            level: 'B2' // Should come from props or context
+          })
+        });
+
+        if (response.ok) {
+          const result = await response.json();
+          setAiFeedback(result);
+          setSubmitted(true);
+          onResult(true);
+        } else {
+          console.error("Failed to get AI feedback");
+        }
+      } catch (err) {
+        console.error("Error calling evaluation API:", err);
+      } finally {
+        setIsAnalyzing(false);
+      }
+    };
+
+    return (
+      <div className="space-y-6">
+        <div className="bg-white rounded-2xl p-6 border-2 border-slate-100 shadow-sm">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="p-2 bg-indigo-50 rounded-xl text-indigo-600">
+              <PenLine className="w-5 h-5" />
+            </div>
+            <div>
+              <h3 className="text-lg font-black text-slate-900">Writing Task</h3>
+              <p className="text-xs text-slate-500 font-bold uppercase tracking-widest">Exercise Type: Production</p>
+            </div>
+          </div>
+          
+          <div className="bg-slate-50 rounded-xl p-4 mb-6 border border-slate-100 italic text-slate-700">
+            {wex.instructions}
+          </div>
+
+          {wex.template && (
+            <div className="mb-6">
+              <h4 className="text-xs font-black text-slate-400 uppercase mb-3 flex items-center gap-2">
+                <Brain className="w-3 h-3" /> Suggested Template
+              </h4>
+              <div className="grid grid-cols-1 gap-2">
+                {Object.entries(wex.template).map(([key, value]) => (
+                  <div key={key} className="bg-indigo-50/30 p-3 rounded-lg border border-indigo-100/50">
+                    <span className="text-[10px] font-black text-indigo-400 uppercase block mb-1">{key}</span>
+                    <p className="text-sm text-slate-600 leading-relaxed">{value}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div className="relative">
+            <textarea
+              value={writingText}
+              onChange={(e) => setWritingText(e.target.value)}
+              disabled={submitted || isAnalyzing}
+              placeholder="Start writing here..."
+              className="w-full min-h-[200px] p-6 rounded-2xl border-2 border-slate-100 focus:border-indigo-500 outline-none text-slate-700 leading-relaxed font-medium transition placeholder:text-slate-300"
+            />
+            <div className="absolute bottom-4 right-4 flex items-center gap-2 bg-white/80 backdrop-blur px-3 py-1 rounded-full border border-slate-100 text-[10px] font-black uppercase tracking-widest">
+              <span className={wordCount > (wex.maxWords || 200) ? "text-red-500" : "text-slate-400"}>
+                {wordCount} / {wex.maxWords || 200} words
+              </span>
+            </div>
+          </div>
+
+          {!submitted && (
+            <button
+              onClick={handleGetFeedback}
+              disabled={wordCount < 10 || isAnalyzing}
+              className="w-full mt-4 bg-slate-900 text-white py-4 rounded-xl font-black text-sm hover:brightness-95 transition flex items-center justify-center gap-2 disabled:opacity-50"
+            >
+              {isAnalyzing ? (
+                <>
+                  <Sparkles className="w-4 h-4 animate-pulse" />
+                  Analyzing with AI...
+                </>
+              ) : (
+                <>
+                  <Sparkles className="w-4 h-4" />
+                  Get AI Feedback
+                </>
+              )}
+            </button>
+          )}
+
+          {aiFeedback && (
+            <div className="mt-8 animate-in fade-in slide-in-from-top-4 duration-500 space-y-4">
+              <div className="bg-gradient-to-br from-indigo-600 to-violet-700 rounded-2xl p-6 text-white shadow-xl shadow-indigo-100">
+                <div className="flex items-center justify-between mb-6">
+                  <div className="flex items-center gap-3">
+                    <Sparkles className="w-5 h-5 text-indigo-300" />
+                    <span className="font-black text-sm uppercase tracking-widest">AI Assessment Results</span>
+                  </div>
+                  <div className="bg-white/20 backdrop-blur-md px-4 py-1 rounded-full font-black text-lg">
+                    Score: {aiFeedback.overallScore}%
+                  </div>
+                </div>
+                
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+                  {Object.entries(aiFeedback.scores || {}).map(([key, value]: [string, any]) => (
+                    <div key={key} className="bg-white/10 rounded-xl p-3 border border-white/10">
+                      <p className="text-[10px] font-black text-indigo-200 uppercase mb-1">{key}</p>
+                      <p className="text-xl font-black">{value}%</p>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="text-xs font-black text-indigo-200 uppercase tracking-widest mb-3">Strengths:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {aiFeedback.strengths?.map((s: string, i: number) => (
+                        <span key={i} className="bg-green-500/20 text-green-200 text-[11px] font-bold px-3 py-1 rounded-full border border-green-500/30">
+                          {s}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xs font-black text-indigo-200 uppercase tracking-widest mb-3">Recommendations:</h4>
+                    <ul className="space-y-2">
+                      {aiFeedback.recommendations?.map((r: string, i: number) => (
+                        <li key={i} className="flex gap-2 text-sm bg-white/5 p-3 rounded-lg border border-white/5">
+                          <Check className="w-4 h-4 text-indigo-300 shrink-0" />
+                          {r}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {aiFeedback.grammarErrors?.length > 0 && (
+                <div className="bg-white rounded-2xl p-6 border-2 border-slate-100 shadow-sm">
+                  <h4 className="text-sm font-black text-slate-900 uppercase tracking-widest mb-4 flex items-center gap-2">
+                    <X className="w-4 h-4 text-red-500" /> Grammatical Corrections
+                  </h4>
+                  <div className="space-y-4">
+                    {aiFeedback.grammarErrors.map((err: any, i: number) => (
+                      <div key={i} className="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                        <p className="text-sm font-bold text-slate-800 line-through decoration-red-400 opacity-60 mb-1">{err.sentence}</p>
+                        <p className="text-sm font-black text-indigo-600 mb-2">{err.correction}</p>
+                        <div className="p-2 bg-indigo-50/50 rounded-lg text-xs text-slate-600 border border-indigo-100/50">
+                          <span className="font-black text-indigo-400 uppercase text-[9px] block mb-1">Why?</span>
+                          {err.explanation}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
       </div>
     );
   }

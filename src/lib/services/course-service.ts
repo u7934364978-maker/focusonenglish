@@ -240,62 +240,69 @@ export const courseService = {
    * Get a Premium unit by ID (maps from database to Premium structure)
    */
   async getPremiumUnitData(unitId: string): Promise<UnitData | null> {
-    if (!supabase) return null;
+    try {
+      if (!supabase) {
+        console.error('Supabase client not initialized');
+        return null;
+      }
 
-    // Map 'unitX' to 'a1-mY-lX' if needed, or use unitId directly if it's already a lesson ID
-    let lessonId = unitId;
-    
-    // Legacy support for 'unit6'
-    if (unitId.toLowerCase() === 'unit6') {
-      lessonId = 'a1-m1-l6';
-    }
+      // Map 'unitX' to 'a1-mY-lX' if needed, or use unitId directly if it's already a lesson ID
+      let lessonId = unitId;
+      
+      // Legacy support for 'unit6'
+      if (unitId.toLowerCase() === 'unit6') {
+        lessonId = 'a1-m1-l6';
+      }
 
-    // Fetch lesson info
-    const { data: lesson, error: lError } = await supabase
-      .from('course_lessons')
-      .select('*, course_modules(title, course_level)')
-      .eq('id', lessonId)
-      .single();
+      // Fetch lesson info
+      const { data: lesson, error: lError } = await supabase
+        .from('course_lessons')
+        .select('*, course_modules(title, course_level)')
+        .eq('id', lessonId)
+        .single();
 
-    if (lError || !lesson) {
-      // If not found by ID, try to find by order_index or title if necessary
-      // For now, we assume unitId is the lesson ID
+      if (lError || !lesson) {
+        console.warn(`Lesson not found: ${lessonId}`, lError);
+        return null;
+      }
+
+      // Fetch exercises
+      const { data: exercises, error: eError } = await supabase
+        .from('course_exercises')
+        .select('*')
+        .eq('lesson_id', lessonId)
+        .order('order_index', { ascending: true });
+
+      if (eError) {
+        console.error('Error fetching exercises for Premium unit:', eError);
+        return null;
+      }
+
+      // Map to UnitData structure
+      return {
+        course: {
+          unit_id: lesson.id,
+          unit_title: lesson.title,
+          level: lesson.course_modules?.course_level || 'A1',
+          total_duration_minutes: lesson.duration || 60,
+          language_ui: 'es-ES',
+          target_language: 'en'
+        },
+        learning_outcomes: lesson.objectives || [],
+        mastery_tags: [],
+        blocks: [
+          {
+            block_id: 'B1',
+            title: 'Contenido de la Unidad',
+            duration_minutes: lesson.duration || 60,
+            content: (exercises || []).map(ex => this.mapExerciseToInteraction(ex)).filter(Boolean) as PremiumInteraction[]
+          }
+        ]
+      };
+    } catch (error) {
+      console.error('Fatal error in getPremiumUnitData:', error);
       return null;
     }
-
-    // Fetch exercises
-    const { data: exercises, error: eError } = await supabase
-      .from('course_exercises')
-      .select('*')
-      .eq('lesson_id', lessonId)
-      .order('order_index', { ascending: true });
-
-    if (eError) {
-      console.error('Error fetching exercises for Premium unit:', eError);
-      return null;
-    }
-
-    // Map to UnitData structure
-    return {
-      course: {
-        unit_id: lesson.id,
-        unit_title: lesson.title,
-        level: lesson.course_modules?.course_level || 'A1',
-        total_duration_minutes: lesson.duration || 60,
-        language_ui: 'es-ES',
-        target_language: 'en'
-      },
-      learning_outcomes: lesson.objectives || [],
-      mastery_tags: [],
-      blocks: [
-        {
-          block_id: 'B1',
-          title: 'Contenido de la Unidad',
-          duration_minutes: lesson.duration || 60,
-          content: (exercises || []).map(ex => courseService.mapExerciseToInteraction(ex)).filter(Boolean)
-        }
-      ]
-    };
   },
 
   /**

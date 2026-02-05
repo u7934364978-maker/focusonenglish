@@ -1,5 +1,8 @@
 import Stripe from 'stripe';
 import { NextRequest, NextResponse } from 'next/server';
+import { supabaseAdmin } from '@/lib/supabase/client';
+import { sendWelcomeEmail } from '@/lib/email-service';
+import crypto from 'crypto';
 
 // Inicializar Stripe solo si la clave está disponible (evita errores en build time)
 const stripe = process.env.STRIPE_SECRET_KEY 
@@ -51,10 +54,97 @@ export async function POST(request: NextRequest) {
         const session = event.data.object as Stripe.Checkout.Session;
         
         console.log('✅ Payment successful!');
-        console.log('Session ID:', session.id);
-        console.log('Customer Email:', session.customer_email);
-        console.log('Amount Total:', session.amount_total);
-        console.log('Metadata:', session.metadata);
+        const customerEmail = session.customer_email || session.metadata?.email;
+        const firstName = session.metadata?.firstName || '';
+        const lastName = session.metadata?.lastName || '';
+        const planName = session.metadata?.planName || 'Plan Estándar';
+
+        // 1. Crear usuario en Supabase Auth si no existe
+        if (customerEmail && supabaseAdmin) {
+          try {
+            // Generar una contraseña temporal segura
+            const tempPassword = crypto.randomBytes(12).toString('hex') + '!';
+            
+            // Intentar crear el usuario
+            const { data: authData, error: authError } = await supabaseAdmin.auth.admin.createUser({
+              email: customerEmail,
+              password: tempPassword,
+              email_confirm: true,
+              user_metadata: {
+                full_name: `${firstName} ${lastName}`.trim(),
+                first_name: firstName,
+                last_name: lastName,
+              }
+            });
+
+            if (authError) {
+              if (authError.message.includes('already registered')) {
+                console.log('ℹ️ User already exists in Supabase Auth');
+              } else {
+                console.error('❌ Error creating Supabase Auth user:', authError.message);
+              }
+            } else if (authData.user) {
+              const userId = authData.user.id;
+              console.log('✅ Supabase Auth user created:', userId);
+
+              // 2. Inicializar tablas públicas y gamificación
+              await Promise.all([
+                // Tabla pública de usuarios
+                supabaseAdmin.from('users').upsert({
+                  id: userId,
+                  email: customerEmail,
+                  name: `${firstName} ${lastName}`.trim(),
+                  language_level: session.metadata?.currentLevel?.toUpperCase() || 'A1',
+                  updated_at: new Date().toISOString()
+                }),
+                // Perfil extendido
+                supabaseAdmin.from('user_profiles').upsert({
+                  user_id: userId,
+                  email: customerEmail,
+                  name: `${firstName} ${lastName}`.trim(),
+                  subscription_status: 'active',
+                  subscription_plan: session.metadata?.planId || 'premium',
+                  subscription_start_date: new Date().toISOString()
+                }),
+                // Estadísticas básicas
+                supabaseAdmin.from('user_stats').upsert({
+                  user_id: userId,
+                  total_lessons_completed: 0,
+                  total_exercises_completed: 0,
+                  total_study_time_minutes: 0,
+                  current_streak_days: 0,
+                  level: 1
+                }),
+                // Gamificación: XP
+                supabaseAdmin.from('user_xp').upsert({
+                  user_id: userId,
+                  total_xp: 0,
+                  level: 1,
+                  xp_to_next_level: 100
+                }),
+                // Gamificación: Streaks
+                supabaseAdmin.from('user_streaks').upsert({
+                  user_id: userId,
+                  current_streak: 0,
+                  longest_streak: 0,
+                  last_activity_date: new Date().toISOString().split('T')[0]
+                })
+              ]);
+              console.log('✅ User profile and gamification initialized');
+
+              // 3. Enviar email de bienvenida con la contraseña temporal
+              await sendWelcomeEmail({
+                email: customerEmail,
+                name: firstName,
+                planName: planName,
+                tempPassword: tempPassword
+              });
+              console.log('✅ Welcome email sent');
+            }
+          } catch (supabaseError: any) {
+            console.error('❌ Unexpected error in Supabase integration:', supabaseError.message);
+          }
+        }
 
         // Integración completa con HubSpot
         if (session.metadata && session.customer_email) {

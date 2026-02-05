@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { planId, email, firstName, lastName, phone } = await request.json();
+    const { planId, email, firstName, lastName, phone, currentLevel } = await request.json();
 
     // Validar que el plan existe
     const plan = getPlanById(planId);
@@ -94,6 +94,7 @@ export async function POST(request: NextRequest) {
         lastName,
         phone: phone || '',
         email,
+        currentLevel: currentLevel || '',
       },
       // Configurar el formulario de billing
       billing_address_collection: 'required',

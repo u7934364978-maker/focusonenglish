@@ -1,0 +1,1780 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "viajes-a1-u6",
+    "unit_title": "Security Control Phrases",
+    "total_duration_minutes": 120
+  },
+  "blocks": [
+    {
+      "block_id": "B6",
+      "title": "Security Control Phrases",
+      "content": [
+        {
+          "interaction_id": "U6_I1",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Liquid",
+              "right": "Líquido"
+            },
+            {
+              "id": "p1",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p2",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p3",
+              "left": "Shoes",
+              "right": "Zapatos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "6"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Zapatos",
+          "correct_answer": "Shoes",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cinturón' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Belt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I7",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p1",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p2",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p3",
+              "left": "Belt",
+              "right": "Cinturón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I8",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "6"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I11",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cinturón",
+          "correct_answer": "Belt",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Líquido' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Liquid"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I13",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p1",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p2",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p3",
+              "left": "Liquid",
+              "right": "Líquido"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I14",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "6"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I17",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Zapatos",
+          "correct_answer": "Shoes",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cinturón' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Belt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I19",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p1",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p2",
+              "left": "Liquid",
+              "right": "Líquido"
+            },
+            {
+              "id": "p3",
+              "left": "Shoes",
+              "right": "Zapatos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I20",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Zapatos",
+          "correct_answer": "Shoes",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cinturón' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Belt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I25",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p1",
+              "left": "Liquid",
+              "right": "Líquido"
+            },
+            {
+              "id": "p2",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p3",
+              "left": "Shoes",
+              "right": "Zapatos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I29",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Líquido",
+          "correct_answer": "Liquid",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Líquido' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Liquid"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I31",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Liquid",
+              "right": "Líquido"
+            },
+            {
+              "id": "p1",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p2",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p3",
+              "left": "Shoes",
+              "right": "Zapatos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I32",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "6"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I35",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cinturón",
+          "correct_answer": "Belt",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cinturón' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Belt"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p1",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p2",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p3",
+              "left": "Belt",
+              "right": "Cinturón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 6. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Líquido",
+          "correct_answer": "Liquid",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Líquido' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Liquid"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p1",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p2",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p3",
+              "left": "Liquid",
+              "right": "Líquido"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I44",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Zapatos",
+          "correct_answer": "Shoes",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cinturón' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Belt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I49",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p1",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p2",
+              "left": "Liquid",
+              "right": "Líquido"
+            },
+            {
+              "id": "p3",
+              "left": "Shoes",
+              "right": "Zapatos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I50",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I53",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Zapatos",
+          "correct_answer": "Shoes",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cinturón' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Belt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I55",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p1",
+              "left": "Liquid",
+              "right": "Líquido"
+            },
+            {
+              "id": "p2",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p3",
+              "left": "Shoes",
+              "right": "Zapatos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I56",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 6. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cinturón",
+          "correct_answer": "Belt",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cinturón' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Belt"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I61",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Liquid",
+              "right": "Líquido"
+            },
+            {
+              "id": "p1",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p2",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p3",
+              "left": "Shoes",
+              "right": "Zapatos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I62",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I65",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cinturón",
+          "correct_answer": "Belt",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Líquido' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Liquid"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I67",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p1",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p2",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p3",
+              "left": "Belt",
+              "right": "Cinturón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I68",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I71",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Zapatos",
+          "correct_answer": "Shoes",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cinturón' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Belt"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I73",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p1",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p2",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p3",
+              "left": "Liquid",
+              "right": "Líquido"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I74",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I77",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cinturón",
+          "correct_answer": "Belt",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Zapatos' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shoes"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I79",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p1",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p2",
+              "left": "Liquid",
+              "right": "Líquido"
+            },
+            {
+              "id": "p3",
+              "left": "Shoes",
+              "right": "Zapatos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Zapatos",
+          "correct_answer": "Shoes",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Líquido' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Liquid"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p1",
+              "left": "Liquid",
+              "right": "Líquido"
+            },
+            {
+              "id": "p2",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p3",
+              "left": "Shoes",
+              "right": "Zapatos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I86",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I89",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Zapatos",
+          "correct_answer": "Shoes",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Líquido' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Liquid"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I91",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Liquid",
+              "right": "Líquido"
+            },
+            {
+              "id": "p1",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p2",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p3",
+              "left": "Shoes",
+              "right": "Zapatos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I92",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I95",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Líquido",
+          "correct_answer": "Liquid",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Zapatos' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Shoes"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I97",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Belt",
+              "right": "Cinturón"
+            },
+            {
+              "id": "p1",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p2",
+              "left": "Shoes",
+              "right": "Zapatos"
+            },
+            {
+              "id": "p3",
+              "left": "Belt",
+              "right": "Cinturón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I98",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Please remove your (zapatos) ________.",
+          "correct_answer": "shoes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

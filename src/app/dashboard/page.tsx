@@ -45,7 +45,7 @@ export default function DashboardPage() {
           .from('users')
           .select('*')
           .eq('email', user.email)
-          .single();
+          .maybeSingle();
 
         // Fetch progress stats using RPC
         const { data: progressStats, error: statsError } = await supabase
@@ -56,21 +56,21 @@ export default function DashboardPage() {
           .from('user_xp')
           .select('*')
           .eq('user_id', user.id)
-          .single();
+          .maybeSingle();
 
         // Fetch Streak
         const { data: streakData, error: streakError } = await supabase
           .from('user_streaks')
           .select('*')
           .eq('user_id', user.id)
-          .single();
+          .maybeSingle();
 
         // Fetch User Stats for aggregate data
         const { data: userStats, error: userStatsError } = await supabase
           .from('user_stats')
           .select('*')
           .eq('user_id', user.id)
-          .single();
+          .maybeSingle();
 
         // Fetch Practice Sessions summary
         const { data: practiceSessions, error: practiceError } = await supabase
@@ -337,6 +337,99 @@ export default function DashboardPage() {
                   <div className="text-xs text-gray-600 mt-1">Perfectos</div>
                 </div>
               </div>
+            </div>
+          </div>
+
+          {/* Nuevas Líneas de Cursos Especializados */}
+          <div>
+            <h2 className="text-3xl font-black text-slate-900 mb-8 flex items-center gap-3">
+              <span className="p-2 bg-coral-100 rounded-lg">🎓</span>
+              Cursos Especializados
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {/* Email Writing Course */}
+              <Link
+                href="/curso/emails-b1"
+                className="group bg-gradient-to-br from-[#FF6B6B] to-[#FF8E53] rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-2 transform relative overflow-hidden text-white"
+              >
+                <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-bl-full -mr-16 -mt-16 group-hover:scale-110 transition-transform" />
+                <div className="relative z-10">
+                  <span className="text-5xl mb-6 block">📧</span>
+                  <h3 className="text-2xl font-black mb-3">
+                    Email Writing
+                  </h3>
+                  <p className="text-white/90 text-sm leading-relaxed mb-6">
+                    Domina el arte de escribir correos profesionales efectivos. 15 unidades de práctica intensiva.
+                  </p>
+                  <div className="flex items-center font-bold gap-2">
+                    <span>Empezar ahora</span>
+                    <span className="group-hover:translate-x-2 transition-transform">→</span>
+                  </div>
+                </div>
+              </Link>
+
+              {/* Professional Line */}
+              <Link
+                href={`/dashboard/trabajo/${userData.level.split('(')[1]?.replace(')', '') || 'B2'}`}
+                className="group bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all border-2 border-blue-50 hover:border-blue-200 hover:-translate-y-2 transform relative overflow-hidden"
+              >
+                <div className="absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-bl-full -mr-16 -mt-16 group-hover:scale-110 transition-transform" />
+                <div className="relative z-10">
+                  <span className="text-5xl mb-6 block">💼</span>
+                  <h3 className="text-2xl font-black text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
+                    Professional
+                  </h3>
+                  <p className="text-slate-600 text-sm leading-relaxed mb-6">
+                    Domina el inglés para negocios, IT y finanzas. Escala en tu carrera profesional.
+                  </p>
+                  <div className="flex items-center text-blue-600 font-bold gap-2">
+                    <span>Explorar curso</span>
+                    <span className="group-hover:translate-x-2 transition-transform">→</span>
+                  </div>
+                </div>
+              </Link>
+
+              {/* Traveler Line */}
+              <Link
+                href={`/dashboard/viajes/${userData.level.split('(')[1]?.replace(')', '') || 'B1'}`}
+                className="group bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all border-2 border-emerald-50 hover:border-emerald-200 hover:-translate-y-2 transform relative overflow-hidden"
+              >
+                <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-50 rounded-bl-full -mr-16 -mt-16 group-hover:scale-110 transition-transform" />
+                <div className="relative z-10">
+                  <span className="text-5xl mb-6 block">✈️</span>
+                  <h3 className="text-2xl font-black text-slate-900 mb-3 group-hover:text-emerald-600 transition-colors">
+                    Traveler
+                  </h3>
+                  <p className="text-slate-600 text-sm leading-relaxed mb-6">
+                    Prepárate para tu próxima aventura. Autonomía total en 90 días.
+                  </p>
+                  <div className="flex items-center text-emerald-600 font-bold gap-2">
+                    <span>Explorar curso</span>
+                    <span className="group-hover:translate-x-2 transition-transform">→</span>
+                  </div>
+                </div>
+              </Link>
+
+              {/* Academic Line */}
+              <Link
+                href={`/dashboard/examenes/${userData.level.split('(')[1]?.replace(')', '') || 'C1'}`}
+                className="group bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all border-2 border-purple-50 hover:border-purple-200 hover:-translate-y-2 transform relative overflow-hidden"
+              >
+                <div className="absolute top-0 right-0 w-32 h-32 bg-purple-50 rounded-bl-full -mr-16 -mt-16 group-hover:scale-110 transition-transform" />
+                <div className="relative z-10">
+                  <span className="text-5xl mb-6 block">📜</span>
+                  <h3 className="text-2xl font-black text-slate-900 mb-3 group-hover:text-purple-600 transition-colors">
+                    Exámenes
+                  </h3>
+                  <p className="text-slate-600 text-sm leading-relaxed mb-6">
+                    Certifica tu nivel. Preparación express para Cambridge, IELTS y TOEFL.
+                  </p>
+                  <div className="flex items-center text-purple-600 font-bold gap-2">
+                    <span>Explorar curso</span>
+                    <span className="group-hover:translate-x-2 transition-transform">→</span>
+                  </div>
+                </div>
+              </Link>
             </div>
           </div>
 

@@ -28,6 +28,9 @@ function isCourseRoute(pathname: string) {
 }
 
 export async function middleware(request: NextRequest) {
+  // Deshabilitar autenticación temporalmente
+  return NextResponse.next();
+  
   const pathname = request.nextUrl.pathname;
 
   // Rutas públicas

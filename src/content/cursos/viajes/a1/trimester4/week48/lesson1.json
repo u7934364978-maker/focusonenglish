@@ -1,0 +1,1815 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "viajes-a1-u48",
+    "unit_title": "Asking for Discounts & Deals",
+    "total_duration_minutes": 120
+  },
+  "blocks": [
+    {
+      "block_id": "B48",
+      "title": "Asking for Discounts & Deals",
+      "content": [
+        {
+          "interaction_id": "U48_I1",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p1",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p2",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p3",
+              "left": "Cheap",
+              "right": "Barato"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Barato",
+          "correct_answer": "Cheap",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Caro' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Expensive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I7",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p1",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p2",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p3",
+              "left": "Expensive",
+              "right": "Caro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I8",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I11",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Descuento",
+          "correct_answer": "Discount",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Barato' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Cheap"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I13",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p1",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p2",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p3",
+              "left": "Discount",
+              "right": "Descuento"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I14",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 48. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I17",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Descuento",
+          "correct_answer": "Discount",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Barato' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cheap"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I19",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p1",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p2",
+              "left": "Discount",
+              "right": "Descuento"
+            },
+            {
+              "id": "p3",
+              "left": "Discount",
+              "right": "Descuento"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I20",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Descuento",
+          "correct_answer": "Discount",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Barato' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cheap"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I25",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p1",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p2",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p3",
+              "left": "Cheap",
+              "right": "Barato"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I29",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Barato",
+          "correct_answer": "Cheap",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Barato' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cheap"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I31",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p1",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p2",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p3",
+              "left": "Cheap",
+              "right": "Barato"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I32",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "48"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I35",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Barato",
+          "correct_answer": "Cheap",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Barato' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Cheap"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p1",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p2",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p3",
+              "left": "Expensive",
+              "right": "Caro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Descuento",
+          "correct_answer": "Discount",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Barato' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cheap"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p1",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p2",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p3",
+              "left": "Discount",
+              "right": "Descuento"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I44",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Caro",
+          "correct_answer": "Expensive",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Caro' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I49",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p1",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p2",
+              "left": "Discount",
+              "right": "Descuento"
+            },
+            {
+              "id": "p3",
+              "left": "Discount",
+              "right": "Descuento"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I50",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 48. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I53",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Descuento",
+          "correct_answer": "Discount",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Descuento' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Discount"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I55",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p1",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p2",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p3",
+              "left": "Cheap",
+              "right": "Barato"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I56",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "48"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Descuento",
+          "correct_answer": "Discount",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Descuento' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Discount"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I61",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p1",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p2",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p3",
+              "left": "Cheap",
+              "right": "Barato"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I62",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I65",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Descuento",
+          "correct_answer": "Discount",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Descuento' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Discount"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I67",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p1",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p2",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p3",
+              "left": "Expensive",
+              "right": "Caro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I68",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I71",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Caro",
+          "correct_answer": "Expensive",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Caro' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I73",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p1",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p2",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p3",
+              "left": "Discount",
+              "right": "Descuento"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I74",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I77",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Caro",
+          "correct_answer": "Expensive",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Barato' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cheap"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I79",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p1",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p2",
+              "left": "Discount",
+              "right": "Descuento"
+            },
+            {
+              "id": "p3",
+              "left": "Discount",
+              "right": "Descuento"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Barato",
+          "correct_answer": "Cheap",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Descuento' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Discount"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p1",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p2",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p3",
+              "left": "Cheap",
+              "right": "Barato"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I86",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I89",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Caro",
+          "correct_answer": "Expensive",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Caro' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Expensive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I91",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p1",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p2",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p3",
+              "left": "Cheap",
+              "right": "Barato"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I92",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 48. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I95",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Barato",
+          "correct_answer": "Cheap",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Descuento' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Discount"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I97",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p1",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p2",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p3",
+              "left": "Expensive",
+              "right": "Caro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I98",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Hay) ________ there a discount?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

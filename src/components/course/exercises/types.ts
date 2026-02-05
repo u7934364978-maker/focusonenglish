@@ -12,7 +12,8 @@ export type ExerciseBase = {
     | "crossword"
     | "flashcard"
     | "drag-drop"
-    | "grammar";
+    | "grammar"
+    | "writingTask";
   track?: "core" | "extension";
 };
 
@@ -143,6 +144,14 @@ export type ErrorCorrectionExercise = ExerciseBase & {
   }>;
 };
 
+export type WritingExercise = ExerciseBase & {
+  type: "writingTask";
+  instructions: string;
+  template?: Record<string, string>;
+  maxWords?: number;
+  aiGradingCriteria?: Record<string, number>;
+};
+
 export type ExerciseItem =
   | MultipleChoiceExercise
   | FillBlanksExercise
@@ -154,7 +163,8 @@ export type ExerciseItem =
   | WordSearchExercise
   | CrosswordExercise
   | FlashcardExercise
-  | DragDropExercise;
+  | DragDropExercise
+  | WritingExercise;
 
 export type ExercisesFile = {
   goal: string;

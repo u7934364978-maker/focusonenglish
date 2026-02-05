@@ -1,0 +1,524 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "emails-work-u10",
+    "unit_title": "Unit 10: Follow-ups & Reminders",
+    "total_duration_minutes": 120
+  },
+  "learning_outcomes": [
+    "Send polite follow-up emails for unanswered messages",
+    "Use 'gentle reminders' to prompt action without being rude",
+    "Follow up after meetings, interviews, or events",
+    "Master time-related expressions (as soon as possible, by EOD)",
+    "Request status updates on projects and tasks"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Persistence Vocabulary",
+      "duration_minutes": 30,
+      "content": [
+        {
+          "interaction_id": "u10_v1",
+          "type": "matching",
+          "prompt_es": "Seguimiento básico:",
+          "pairs": [
+            { "id": "p1", "left": "Follow up", "right": "Hacer un seguimiento" },
+            { "id": "p2", "left": "Gentle reminder", "right": "Recordatorio amable" },
+            { "id": "p3", "left": "Touch base", "right": "Ponerse en contacto / Retomar contacto" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u10_v2",
+          "type": "matching",
+          "prompt_es": "Sobre respuestas:",
+          "pairs": [
+            { "id": "p1", "left": "Unanswered", "right": "Sin respuesta" },
+            { "id": "p2", "left": "Pending response", "right": "Respuesta pendiente" },
+            { "id": "p3", "left": "Overdue", "right": "Vencido / Fuera de plazo" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u10_v3",
+          "type": "matching",
+          "prompt_es": "Tiempos de entrega:",
+          "pairs": [
+            { "id": "p1", "left": "Deadline", "right": "Fecha límite" },
+            { "id": "p2", "left": "EOD (End of Day)", "right": "Al final del día" },
+            { "id": "p3", "left": "COB (Close of Business)", "right": "Al cierre del horario comercial" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u10_v4",
+          "type": "matching",
+          "prompt_es": "Acciones de recordatorio:",
+          "pairs": [
+            { "id": "p1", "left": "Prompt", "right": "Impulsar / Incitar a la acción" },
+            { "id": "p2", "left": "Chase up", "right": "Meter prisa / Perseguir (una respuesta)" },
+            { "id": "p3", "left": "Keep on top of", "right": "Estar al tanto de / No dejar que algo se pase" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u10_v5",
+          "type": "matching",
+          "prompt_es": "Contexto del seguimiento:",
+          "pairs": [
+            { "id": "p1", "left": "Previous email", "right": "Email anterior" },
+            { "id": "p2", "left": "Last time we spoke", "right": "La última vez que hablamos" },
+            { "id": "p3", "left": "In the meantime", "right": "Mientras tanto" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Future and Time Clauses",
+      "duration_minutes": 25,
+      "content": [
+        {
+          "interaction_id": "u10_g1",
+          "type": "transformation",
+          "prompt_es": "Uso de 'when' + presente para el futuro:",
+          "stimulus_en": "I will follow up again when you ________ (tener) more information.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u10_g2",
+          "type": "transformation",
+          "prompt_es": "Uso de 'as soon as':",
+          "stimulus_en": "Please let me know ________ (tan pronto como) as you have an update.",
+          "correct_answer": "as soon",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u10_g3",
+          "type": "transformation",
+          "prompt_es": "Future Continuous para cortesía:",
+          "stimulus_en": "I ________ (estaré esperando) for your reply.",
+          "correct_answer": "will be waiting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u10_g4",
+          "type": "transformation",
+          "prompt_es": "Present Continuous para acciones planeadas:",
+          "stimulus_en": "I ________ (escribo - en este momento) to follow up on my previous email.",
+          "correct_answer": "am writing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u10_g5",
+          "type": "transformation",
+          "prompt_es": "Modal 'could' para pedir estatus:",
+          "stimulus_en": "________ (Podrías) you please provide an update on the project status?",
+          "correct_answer": "Could",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u10_g6",
+          "type": "transformation",
+          "prompt_es": "Uso de 'by the time':",
+          "stimulus_en": "We need the report ________ (para cuando) the meeting starts.",
+          "correct_answer": "by the time",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u10_g7",
+          "type": "transformation",
+          "prompt_es": "Present Perfect con 'yet' en seguimiento:",
+          "stimulus_en": "I haven't heard back from you ________ (todavía).",
+          "correct_answer": "yet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u10_g8",
+          "type": "transformation",
+          "prompt_es": "First Conditional para urgencia:",
+          "stimulus_en": "If we don't receive the data today, we ________ (no seremos) able to finish.",
+          "correct_answer": "won't be",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u10_g9",
+          "type": "transformation",
+          "prompt_es": "Contracción de 'will not':",
+          "stimulus_en": "I ________ (will not) be able to wait past Friday.",
+          "correct_answer": "won't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u10_g10",
+          "type": "transformation",
+          "prompt_es": "Uso de 'just' para suavizar el recordatorio:",
+          "stimulus_en": "I'm ________ (solo) checking in to see if you had a chance to look at the proposal.",
+          "correct_answer": "just",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Email Analysis: Polite Persistence",
+      "duration_minutes": 30,
+      "content": [
+        {
+          "interaction_id": "u10_r1",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'I'm just checking in on the status of my request.' ¿Qué tono tiene?",
+          "options": [
+            { "id": "o1", "text": "Informal y amistoso" },
+            { "id": "o2", "text": "Agresivo y exigente" },
+            { "id": "o3", "text": "Demasiado formal" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u10_r2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to bring this to the top of your inbox'?",
+          "options": [
+            { "id": "o1", "text": "Reenviar un email para que aparezca arriba y lo veas" },
+            { "id": "o2", "text": "Limpiar la bandeja de entrada" },
+            { "id": "o3", "text": "Subir el volumen de las notificaciones" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u10_r3",
+          "type": "multiple_choice",
+          "prompt_es": "Si alguien pide un 'status update', quiere saber:",
+          "options": [
+            { "id": "o1", "text": "Cómo va el progreso de algo" },
+            { "id": "o2", "text": "Tu estado civil" },
+            { "id": "o3", "text": "Qué tiempo hace" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u10_r4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'ASAP'?",
+          "options": [
+            { "id": "o1", "text": "Tan pronto como sea posible" },
+            { "id": "o2", "text": "Después de comer" },
+            { "id": "o3", "text": "Siempre que puedas" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u10_r5",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'I know you're busy, but I'd appreciate a quick update.' ¿Por qué empieza así?",
+          "options": [
+            { "id": "o1", "text": "Para mostrar empatía y suavizar la petición" },
+            { "id": "o2", "text": "Para quejarse de que el otro trabaja mucho" },
+            { "id": "o3", "text": "Para decir que él no está ocupado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u10_r6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to drop a line'?",
+          "options": [
+            { "id": "o1", "text": "Escribir un mensaje corto / ponerse en contacto" },
+            { "id": "o2", "text": "Tirar una cuerda" },
+            { "id": "o3", "text": "Borrar una línea de un texto" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u10_r7",
+          "type": "multiple_choice",
+          "prompt_es": "Si un email dice 'Please ignore this if you have already sent it', es:",
+          "options": [
+            { "id": "o1", "text": "Una cortesía por si los emails se han cruzado" },
+            { "id": "o2", "text": "Una orden para no leer el email" },
+            { "id": "o3", "text": "Un error de sistema" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u10_r8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'High priority'?",
+          "options": [
+            { "id": "o1", "text": "Alta prioridad / urgente" },
+            { "id": "o2", "text": "Muy caro" },
+            { "id": "o3", "text": "De buena calidad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u10_r9",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'Could you please loop me in on the latest developments?' ¿Qué pide?",
+          "options": [
+            { "id": "o1", "text": "Que le mantengan informado / le incluyan en las novedades" },
+            { "id": "o2", "text": "Que le regalen un lazo" },
+            { "id": "o3", "text": "Que deje de trabajar" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u10_r10",
+          "type": "multiple_choice",
+          "prompt_es": "Si alguien dice 'I'll get back to you by EOD', promete responder:",
+          "options": [
+            { "id": "o1", "text": "Antes de que acabe el día de hoy" },
+            { "id": "o2", "text": "La semana que viene" },
+            { "id": "o3", "text": "Mañana por la mañana" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Writing Analysis: Reminders",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "u10_w1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo envías un recordatorio muy educado?",
+          "options": [
+            { "id": "o1", "text": "Where is my answer?" },
+            { "id": "o2", "text": "I am writing to kindly remind you about our upcoming deadline." },
+            { "id": "o3", "text": "Don't forget the date." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u10_w2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo haces seguimiento después de una entrevista?",
+          "options": [
+            { "id": "o1", "text": "Thank you for your time yesterday. I am following up to see if there is any news." },
+            { "id": "o2", "text": "Do I have the job?" },
+            { "id": "o3", "text": "I am waiting for your call." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u10_w3",
+          "type": "multiple_choice",
+          "prompt_es": "Quieres pedir una respuesta rápida por urgencia:",
+          "options": [
+            { "id": "o1", "text": "I would appreciate a response at your earliest convenience." },
+            { "id": "o2", "text": "Answer me now." },
+            { "id": "o3", "text": "Quick response please." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u10_w4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo retomas contacto después de mucho tiempo?",
+          "options": [
+            { "id": "o1", "text": "It's been a while since we last spoke, so I wanted to touch base." },
+            { "id": "o2", "text": "Who are you?" },
+            { "id": "o3", "text": "Long time no see." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u10_w5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la mejor opción: 'Just a ________ (amable) reminder that the invoice is overdue.'",
+          "options": [
+            { "id": "o1", "text": "gentle" },
+            { "id": "o2", "text": "sweet" },
+            { "id": "o3", "text": "soft" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u10_w6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué frase indica que vas a esperar hasta una fecha?",
+          "options": [
+            { "id": "o1", "text": "If I don't hear from you by Friday, I will call you." },
+            { "id": "o2", "text": "Friday is the day." },
+            { "id": "o3", "text": "I wait until Friday." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u10_w7",
+          "type": "multiple_choice",
+          "prompt_es": "Para confirmar que has recibido un recordatorio:",
+          "options": [
+            { "id": "o1", "text": "Thanks for the reminder. I am working on it now." },
+            { "id": "o2", "text": "I know." },
+            { "id": "o3", "text": "Received." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u10_w8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'To chase someone up'?",
+          "options": [
+            { "id": "o1", "text": "Presionar a alguien para que dé una respuesta" },
+            { "id": "o2", "text": "Correr detrás de alguien" },
+            { "id": "o3", "text": "Invitar a alguien a subir" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u10_w9",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la mejor opción: 'I'm writing to ________ (dar seguimiento) on our conversation.'",
+          "options": [
+            { "id": "o1", "text": "follow up" },
+            { "id": "o2", "text": "go after" },
+            { "id": "o3", "text": "keep going" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u10_w10",
+          "type": "multiple_choice",
+          "prompt_es": "Si quieres disculparte por el seguimiento:",
+          "options": [
+            { "id": "o1", "text": "Sorry to bother you again, but I haven't heard back yet." },
+            { "id": "o2", "text": "I bother you." },
+            { "id": "o3", "text": "Excuse me for email." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Mission: Follow-up Challenges",
+      "duration_minutes": 15,
+      "content": [
+        {
+          "interaction_id": "u10_m1",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Recordatorio Amable de Factura",
+          "video": {
+            "video_id": "u10_m1",
+            "objective": "Remind a client about an unpaid invoice.",
+            "vocabulary": ["Gentle reminder", "Overdue", "Payment"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u10_m1_i1",
+                "type": "ai-mission",
+                "prompt_es": "Recuerda al cliente que la factura #456 venció ayer y pide que confirmen el pago.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u10_m2",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Seguimiento tras Entrevista",
+          "video": {
+            "video_id": "u10_m2",
+            "objective": "Follow up after a job interview.",
+            "vocabulary": ["Thank you", "Interview", "Updates"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u10_m2_i1",
+                "type": "ai-mission",
+                "prompt_es": "Escribe un email agradeciendo el tiempo y preguntando si hay alguna novedad sobre el proceso.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u10_m3",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Pedir Estatus de Proyecto",
+          "video": {
+            "video_id": "u10_m3",
+            "objective": "Get an update on a delayed project.",
+            "vocabulary": ["Status", "Progress", "Delay"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u10_m3_i1",
+                "type": "ai-mission",
+                "prompt_es": "Pregunta a un compañero cómo va el informe mensual, ya que lo necesitas para mañana.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u10_m4",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Reenviar Email 'Perdido'",
+          "video": {
+            "video_id": "u10_m4",
+            "objective": "Resend an email that might have been missed.",
+            "vocabulary": ["Missed", "Top of inbox", "Attached"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u10_m4_i1",
+                "type": "ai-mission",
+                "prompt_es": "Dile que reenviáis el email anterior por si se perdió en su bandeja de entrada.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u10_m5",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Seguimiento de Ventas",
+          "video": {
+            "video_id": "u10_m5",
+            "objective": "Follow up with a potential client after a demo.",
+            "vocabulary": ["Touch base", "Decision", "Further questions"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u10_m5_i1",
+                "type": "ai-mission",
+                "prompt_es": "Pregunta al cliente si ha tenido tiempo de revisar la propuesta tras la demo del martes.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

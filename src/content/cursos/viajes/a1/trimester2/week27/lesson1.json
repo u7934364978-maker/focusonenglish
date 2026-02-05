@@ -1,0 +1,1800 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "viajes-a1-u27",
+    "unit_title": "Hotel Check-out & Bill",
+    "total_duration_minutes": 120
+  },
+  "blocks": [
+    {
+      "block_id": "B27",
+      "title": "Hotel Check-out & Bill",
+      "content": [
+        {
+          "interaction_id": "U27_I1",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p1",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p2",
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p3",
+              "left": "Receipt",
+              "right": "Recibo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 27. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Recibo",
+          "correct_answer": "Receipt",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Recibo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Receipt"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I7",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p1",
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p2",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p3",
+              "left": "Receipt",
+              "right": "Recibo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I8",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I11",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuenta",
+          "correct_answer": "Bill",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Recibo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Receipt"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I13",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p1",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p2",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p3",
+              "left": "Receipt",
+              "right": "Recibo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I14",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I17",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuenta' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Bill"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I19",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p1",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p2",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I20",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Recibo",
+          "correct_answer": "Receipt",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Salida' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Check-out"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I25",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p1",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p2",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I29",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuenta",
+          "correct_answer": "Bill",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Recibo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Receipt"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I31",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p1",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p2",
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p3",
+              "left": "Receipt",
+              "right": "Recibo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I32",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 27. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "27"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I35",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuenta' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Bill"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p1",
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p2",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p3",
+              "left": "Receipt",
+              "right": "Recibo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Salida' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Check-out"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p1",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p2",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p3",
+              "left": "Receipt",
+              "right": "Recibo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I44",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuenta' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Bill"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I49",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p1",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p2",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I50",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "27"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I53",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Recibo",
+          "correct_answer": "Receipt",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuenta' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Bill"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I55",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p1",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p2",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I56",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuenta",
+          "correct_answer": "Bill",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuenta' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bill"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I61",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p1",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p2",
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p3",
+              "left": "Receipt",
+              "right": "Recibo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I62",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I65",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Recibo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Receipt"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I67",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p1",
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p2",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p3",
+              "left": "Receipt",
+              "right": "Recibo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I68",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I71",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Recibo",
+          "correct_answer": "Receipt",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Salida' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Check-out"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I73",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p1",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p2",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p3",
+              "left": "Receipt",
+              "right": "Recibo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I74",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 27. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I77",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Recibo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Receipt"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I79",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p1",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p2",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuenta",
+          "correct_answer": "Bill",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuenta' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bill"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p1",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p2",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I86",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I89",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuenta",
+          "correct_answer": "Bill",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Recibo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Receipt"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I91",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p1",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p2",
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p3",
+              "left": "Receipt",
+              "right": "Recibo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I92",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I95",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuenta' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Bill"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I97",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bill",
+              "right": "Cuenta"
+            },
+            {
+              "id": "p1",
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p2",
+              "left": "Receipt",
+              "right": "Recibo"
+            },
+            {
+              "id": "p3",
+              "left": "Receipt",
+              "right": "Recibo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I98",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Can I have the (cuenta) ________?",
+          "correct_answer": "bill",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 27. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "27"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

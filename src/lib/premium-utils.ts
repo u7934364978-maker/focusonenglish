@@ -102,19 +102,7 @@ export function getSolutionText(interaction: PremiumInteraction): string {
 
 export function getEncouragingMessage(isCorrect: boolean, failCount: number): string {
   if (isCorrect) {
-    const successMessages = [
-      "¡Excelente!",
-      "¡Muy bien!",
-      "¡Buen trabajo!",
-      "¡Increíble!",
-      "¡Perfecto!",
-      "¡Lo lograste!",
-      "¡Sigue así!",
-      "¡Eres una máquina!",
-      "¡Impresionante!",
-      "¡Qué crack!"
-    ];
-    return successMessages[Math.floor(Math.random() * successMessages.length)];
+    return "¡Excelente!";
   } else {
     if (failCount === 1) {
       return "¡Casi! Inténtalo una vez más.";

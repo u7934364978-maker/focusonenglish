@@ -1,0 +1,1805 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "viajes-a1-u7",
+    "unit_title": "Immigration & Passport Control",
+    "total_duration_minutes": 120
+  },
+  "blocks": [
+    {
+      "block_id": "B7",
+      "title": "Immigration & Passport Control",
+      "content": [
+        {
+          "interaction_id": "U7_I1",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p2",
+              "left": "Visit",
+              "right": "Visita"
+            },
+            {
+              "id": "p3",
+              "left": "Stay",
+              "right": "Estancia"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Estancia",
+          "correct_answer": "Stay",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Propósito' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Purpose"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I7",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Visit",
+              "right": "Visita"
+            },
+            {
+              "id": "p2",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p3",
+              "left": "Purpose",
+              "right": "Propósito"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I8",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I11",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Estancia",
+          "correct_answer": "Stay",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estancia' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Stay"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I13",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Visit",
+              "right": "Visita"
+            },
+            {
+              "id": "p1",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p2",
+              "left": "Purpose",
+              "right": "Propósito"
+            },
+            {
+              "id": "p3",
+              "left": "Stay",
+              "right": "Estancia"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I14",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "7"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I17",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Estancia",
+          "correct_answer": "Stay",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estancia' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Stay"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I19",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Purpose",
+              "right": "Propósito"
+            },
+            {
+              "id": "p2",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p3",
+              "left": "Purpose",
+              "right": "Propósito"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I20",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 7. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Propósito",
+          "correct_answer": "Purpose",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Propósito' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Purpose"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I25",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p2",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p3",
+              "left": "Visit",
+              "right": "Visita"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I29",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Estancia",
+          "correct_answer": "Stay",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visita' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Visit"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I31",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p2",
+              "left": "Visit",
+              "right": "Visita"
+            },
+            {
+              "id": "p3",
+              "left": "Stay",
+              "right": "Estancia"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I32",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I35",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Estancia",
+          "correct_answer": "Stay",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visita' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Visit"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Visit",
+              "right": "Visita"
+            },
+            {
+              "id": "p2",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p3",
+              "left": "Purpose",
+              "right": "Propósito"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Estancia",
+          "correct_answer": "Stay",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Propósito' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Purpose"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Visit",
+              "right": "Visita"
+            },
+            {
+              "id": "p1",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p2",
+              "left": "Purpose",
+              "right": "Propósito"
+            },
+            {
+              "id": "p3",
+              "left": "Stay",
+              "right": "Estancia"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I44",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 7. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Visita",
+          "correct_answer": "Visit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visita' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Visit"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I49",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Purpose",
+              "right": "Propósito"
+            },
+            {
+              "id": "p2",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p3",
+              "left": "Purpose",
+              "right": "Propósito"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I50",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I53",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Propósito",
+          "correct_answer": "Purpose",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visita' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Visit"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I55",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p2",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p3",
+              "left": "Visit",
+              "right": "Visita"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I56",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "7"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Estancia",
+          "correct_answer": "Stay",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visita' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Visit"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I61",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p2",
+              "left": "Visit",
+              "right": "Visita"
+            },
+            {
+              "id": "p3",
+              "left": "Stay",
+              "right": "Estancia"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I62",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "7"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I65",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Propósito",
+          "correct_answer": "Purpose",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visita' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Visit"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I67",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Visit",
+              "right": "Visita"
+            },
+            {
+              "id": "p2",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p3",
+              "left": "Purpose",
+              "right": "Propósito"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I68",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "7"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I71",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Propósito",
+          "correct_answer": "Purpose",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estancia' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Stay"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I73",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Visit",
+              "right": "Visita"
+            },
+            {
+              "id": "p1",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p2",
+              "left": "Purpose",
+              "right": "Propósito"
+            },
+            {
+              "id": "p3",
+              "left": "Stay",
+              "right": "Estancia"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I74",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I77",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Visita",
+          "correct_answer": "Visit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visita' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Visit"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I79",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Purpose",
+              "right": "Propósito"
+            },
+            {
+              "id": "p2",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p3",
+              "left": "Purpose",
+              "right": "Propósito"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 7. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Estancia",
+          "correct_answer": "Stay",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visita' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Visit"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p2",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p3",
+              "left": "Visit",
+              "right": "Visita"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I86",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 7. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I89",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Propósito",
+          "correct_answer": "Purpose",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estancia' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Stay"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I91",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p2",
+              "left": "Visit",
+              "right": "Visita"
+            },
+            {
+              "id": "p3",
+              "left": "Stay",
+              "right": "Estancia"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I92",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "7"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I95",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Visita",
+          "correct_answer": "Visit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visita' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Visit"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I97",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p1",
+              "left": "Visit",
+              "right": "Visita"
+            },
+            {
+              "id": "p2",
+              "left": "Stay",
+              "right": "Estancia"
+            },
+            {
+              "id": "p3",
+              "left": "Purpose",
+              "right": "Propósito"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I98",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What (ser/estar - ello) ________ the purpose of your visit?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

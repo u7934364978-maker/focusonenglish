@@ -289,7 +289,153 @@ export async function sendPasswordChangedEmail(
   }
 }
 
+/**
+ * Enviar email de bienvenida tras suscripción exitosa
+ */
+export async function sendWelcomeEmail(
+  email: string,
+  userName: string,
+  planName: string
+): Promise<boolean> {
+  // Si Resend no está configurado, simular éxito en desarrollo
+  if (!resend) {
+    console.warn('Resend not configured, skipping welcome email');
+    return process.env.NODE_ENV === 'development';
+  }
+
+  try {
+    const loginUrl = `${process.env.NEXTAUTH_URL || process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/cuenta/login`;
+
+    const { data, error } = await resend.emails.send({
+      from: 'Focus English <noreply@focus-on-english.com>',
+      to: [email],
+      subject: '🚀 ¡Bienvenido a Focus English! Tu acceso está listo',
+      html: `
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <meta charset="utf-8">
+            <style>
+              body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+              }
+              .header {
+                background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
+                color: white;
+                padding: 40px 30px;
+                text-align: center;
+                border-radius: 10px 10px 0 0;
+              }
+              .content {
+                background: #ffffff;
+                padding: 30px;
+                border: 1px solid #e5e7eb;
+                border-top: none;
+              }
+              .button {
+                display: inline-block;
+                background: #ff7e5f;
+                color: white;
+                padding: 14px 35px;
+                text-decoration: none;
+                border-radius: 8px;
+                font-weight: 700;
+                margin: 25px 0;
+                box-shadow: 0 4px 6px rgba(255, 126, 95, 0.2);
+              }
+              .plan-box {
+                background: #fff7ed;
+                border: 2px solid #ffedd5;
+                padding: 20px;
+                border-radius: 12px;
+                margin: 20px 0;
+                text-align: center;
+              }
+              .footer {
+                background: #f9fafb;
+                padding: 20px;
+                text-align: center;
+                font-size: 12px;
+                color: #6b7280;
+                border-radius: 0 0 10px 10px;
+                border: 1px solid #e5e7eb;
+                border-top: none;
+              }
+            </style>
+          </head>
+          <body>
+            <div class="header">
+              <h1 style="margin: 0; font-size: 32px;">🎓 Focus English</h1>
+              <p style="margin: 10px 0 0 0; font-size: 18px; opacity: 0.9;">¡Tu viaje hacia la fluidez comienza hoy!</p>
+            </div>
+            
+            <div class="content">
+              <h2 style="color: #1f2937; margin-top: 0;">¡Hola ${userName}!</h2>
+              
+              <p style="font-size: 16px; color: #4b5563;">
+                ¡Es un placer tenerte con nosotros! Tu suscripción se ha completado correctamente y ya tienes acceso total a nuestra plataforma.
+              </p>
+              
+              <div class="plan-box">
+                <p style="margin: 0; color: #9a3412; font-size: 14px; font-weight: 600; text-transform: uppercase;">Plan Activo</p>
+                <h3 style="margin: 5px 0; color: #c2410c; font-size: 24px; font-weight: 800;">${planName}</h3>
+              </div>
+              
+              <p style="font-size: 16px; color: #4b5563;">
+                Ya puedes acceder a tu dashboard personal para ver tus cursos, seguir tu progreso y empezar a practicar.
+              </p>
+              
+              <div style="text-align: center;">
+                <a href="${loginUrl}" class="button">
+                  Acceder a mi Dashboard
+                </a>
+              </div>
+              
+              <h3 style="color: #1f2937; font-size: 18px;">¿Qué puedes hacer ahora?</h3>
+              <ul style="color: #4b5563; padding-left: 20px;">
+                <li><strong>Explora los cursos:</strong> Elige el que mejor se adapte a tus objetivos actuales.</li>
+                <li><strong>Práctica ilimitada:</strong> Usa nuestro generador de ejercicios para mejorar cada día.</li>
+                <li><strong>Gana XP y Medallas:</strong> Mantén tu racha diaria y sube de nivel.</li>
+              </ul>
+              
+              <p style="font-size: 14px; color: #6b7280; margin-top: 30px;">
+                Si tienes cualquier duda, simplemente responde a este correo o escríbenos a <a href="mailto:soporte@focus-on-english.com" style="color: #ff7e5f;">soporte@focus-on-english.com</a>. Estamos aquí para ayudarte.
+              </p>
+            </div>
+            
+            <div class="footer">
+              <p style="margin: 0 0 10px 0;">
+                © ${new Date().getFullYear()} Focus English. Todos los derechos reservados.
+              </p>
+              <p style="margin: 0;">
+                Este email fue enviado a ${email}
+              </p>
+            </div>
+          </body>
+        </html>
+      `,
+    });
+
+    if (error) {
+      console.error('❌ Error enviando email de bienvenida:', error);
+      return false;
+    }
+
+    console.log('✅ Email de bienvenida enviado:', data?.id);
+    return true;
+  } catch (error) {
+    console.error('❌ Error en sendWelcomeEmail:', error);
+    return false;
+  }
+}
+
 export default {
+  sendWelcomeEmail,
   sendPasswordResetEmail,
   sendPasswordChangedEmail,
 };

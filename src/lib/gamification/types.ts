@@ -26,12 +26,14 @@ export type BadgeCategory =
   | 'speed'
   | 'dedication'
   | 'mastery'
-  | 'social';
+  | 'social'
+  | 'specialization';
 
 export interface BadgeRequirement {
-  type: 'lesson-count' | 'streak-days' | 'perfect-scores' | 'total-xp' | 'practice-sessions' | 'skill-level';
+  type: 'lesson-count' | 'streak-days' | 'perfect-scores' | 'total-xp' | 'practice-sessions' | 'skill-level' | 'specialization-complete';
   target: number;
   skill?: 'speaking' | 'listening' | 'reading' | 'writing' | 'grammar' | 'vocabulary';
+  goal?: string; // e.g., 'trabajo', 'viajes', 'examenes', 'ia'
 }
 
 /**

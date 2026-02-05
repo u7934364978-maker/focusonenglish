@@ -1,0 +1,524 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "emails-work-u6",
+    "unit_title": "Unit 6: Handling Complaints & Issues",
+    "total_duration_minutes": 120
+  },
+  "learning_outcomes": [
+    "Make professional complaints without being rude",
+    "Respond to dissatisfied clients effectively",
+    "Offer solutions and compensations for service failures",
+    "Use appropriate vocabulary for damage control",
+    "Acknowledge mistakes and promise investigation"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Complaints Vocabulary",
+      "duration_minutes": 30,
+      "content": [
+        {
+          "interaction_id": "u6_v1",
+          "type": "matching",
+          "prompt_es": "Vocabulario de quejas y problemas:",
+          "pairs": [
+            { "id": "p1", "left": "Complaint", "right": "Queja / Reclamación" },
+            { "id": "p2", "left": "Dissatisfied", "right": "Insatisfecho" },
+            { "id": "p3", "left": "Issue / Problem", "right": "Problema / Incidencia" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u6_v2",
+          "type": "matching",
+          "prompt_es": "Tipos de problemas:",
+          "pairs": [
+            { "id": "p1", "left": "Damaged goods", "right": "Mercancía dañada" },
+            { "id": "p2", "left": "Delay in delivery", "right": "Retraso en la entrega" },
+            { "id": "p3", "left": "Missing items", "right": "Artículos faltantes" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u6_v3",
+          "type": "matching",
+          "prompt_es": "Respuestas de la empresa:",
+          "pairs": [
+            { "id": "p1", "left": "Apologize", "right": "Pedir disculpas" },
+            { "id": "p2", "left": "Investigate", "right": "Investigar" },
+            { "id": "p3", "left": "Resolve", "right": "Resolver" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u6_v4",
+          "type": "matching",
+          "prompt_es": "Soluciones y compensación:",
+          "pairs": [
+            { "id": "p1", "left": "Refund", "right": "Reembolso" },
+            { "id": "p2", "left": "Replacement", "right": "Sustitución / Reemplazo" },
+            { "id": "p3", "left": "Credit note", "right": "Vale / Abono" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u6_v5",
+          "type": "matching",
+          "prompt_es": "Estados de ánimo (escritura):",
+          "pairs": [
+            { "id": "p1", "left": "Disappointed", "right": "Decepcionado" },
+            { "id": "p2", "left": "Inconvenience", "right": "Molestia / Inconveniente" },
+            { "id": "p3", "left": "Urgency", "right": "Urgencia" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Politeness & Conditionals",
+      "duration_minutes": 25,
+      "content": [
+        {
+          "interaction_id": "u6_g1",
+          "type": "transformation",
+          "prompt_es": "Uso de 'unfortunate' para suavizar:",
+          "stimulus_en": "It is ________ (lamentable) that the items arrived broken.",
+          "correct_answer": "unfortunate",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u6_g2",
+          "type": "transformation",
+          "prompt_es": "Present Perfect para el impacto del problema:",
+          "stimulus_en": "This delay ________ (causar) us many problems.",
+          "correct_answer": "has caused",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u6_g3",
+          "type": "transformation",
+          "prompt_es": "Conditional Type 1 para soluciones:",
+          "stimulus_en": "If you send a photo, we ________ (remplazar) it immediately.",
+          "correct_answer": "will replace",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u6_g4",
+          "type": "transformation",
+          "prompt_es": "Uso de 'should' en disculpas:",
+          "stimulus_en": "This ________ (no debería) have happened.",
+          "correct_answer": "should not",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u6_g5",
+          "type": "transformation",
+          "prompt_es": "Modal 'would' para ofrecer ayuda:",
+          "stimulus_en": "________ you like a full refund or a replacement?",
+          "correct_answer": "Would",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u6_g6",
+          "type": "transformation",
+          "prompt_es": "Preposición 'for' con disculpas:",
+          "stimulus_en": "Please accept our apologies ________ the delay.",
+          "correct_answer": "for",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u6_g7",
+          "type": "transformation",
+          "prompt_es": "Uso de 'instead':",
+          "stimulus_en": "Can we offer you a discount ________ (en su lugar)?",
+          "correct_answer": "instead",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u6_g8",
+          "type": "transformation",
+          "prompt_es": "Adverbio 'sincerely':",
+          "stimulus_en": "We ________ (sinceramente) regret the inconvenience.",
+          "correct_answer": "sincerely",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u6_g9",
+          "type": "transformation",
+          "prompt_es": "Uso de 'assure' (asegurar):",
+          "stimulus_en": "I can ________ (asegurar) you that this will not happen again.",
+          "correct_answer": "assure",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u6_g10",
+          "type": "transformation",
+          "prompt_es": "Pasiva de presente continuo:",
+          "stimulus_en": "The matter ________ (investigar) by our team now.",
+          "correct_answer": "is being investigated",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Email Analysis: Handling Friction",
+      "duration_minutes": 30,
+      "content": [
+        {
+          "interaction_id": "u6_r1",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'We are writing to express our dissatisfaction with the recent shipment.' ¿Cuál es el tono?",
+          "options": [
+            { "id": "o1", "text": "Alegre" },
+            { "id": "o2", "text": "Formal e insatisfecho" },
+            { "id": "o3", "text": "Sarcástico" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u6_r2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to file a complaint'?",
+          "options": [
+            { "id": "o1", "text": "Archivar un papel" },
+            { "id": "o2", "text": "Presentar una queja formal" },
+            { "id": "o3", "text": "Borrar una queja" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u6_r3",
+          "type": "multiple_choice",
+          "prompt_es": "Si una empresa ofrece un 'Credit note', el cliente puede:",
+          "options": [
+            { "id": "o1", "text": "Usar ese dinero para futuras compras en la empresa" },
+            { "id": "o2", "text": "Recuperar el dinero en su cuenta bancaria inmediatamente" },
+            { "id": "o3", "text": "No hacer nada" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u6_r4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to look into a matter'?",
+          "options": [
+            { "id": "o1", "text": "Mirar dentro de una caja" },
+            { "id": "o2", "text": "Investigar un asunto" },
+            { "id": "o3", "text": "Ignorar un asunto" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u6_r5",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'I am afraid there has been a misunderstanding.' ¿Qué está pasando?",
+          "options": [
+            { "id": "o1", "text": "Teme que haya habido un malentendido" },
+            { "id": "o2", "text": "Tiene miedo de la otra persona" },
+            { "id": "o3", "text": "No entiende nada" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u6_r6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to make amends'?",
+          "options": [
+            { "id": "o1", "text": "Compensar por un error o daño causado" },
+            { "id": "o2", "text": "Hacer amigos nuevos" },
+            { "id": "o3", "text": "Escribir un email largo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u6_r7",
+          "type": "multiple_choice",
+          "prompt_es": "Si un cliente dice que el servicio fue 'below standards', quiere decir que:",
+          "options": [
+            { "id": "o1", "text": "Fue excelente" },
+            { "id": "o2", "text": "Estuvo por debajo de lo esperado / estándares" },
+            { "id": "o3", "text": "Fue muy barato" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u6_r8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to rectify the situation'?",
+          "options": [
+            { "id": "o1", "text": "Corregir / rectificar la situación" },
+            { "id": "o2", "text": "Empeorar la situación" },
+            { "id": "o3", "text": "Hablar de la situación" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u6_r9",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'We value your business and hope to resolve this soon.' ¿Qué intenta la empresa?",
+          "options": [
+            { "id": "o1", "text": "Mantener al cliente y resolver el problema rápido" },
+            { "id": "o2", "text": "Venderle más cosas ahora mismo" },
+            { "id": "o3", "text": "Decirle que no le importa el problema" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u6_r10",
+          "type": "multiple_choice",
+          "prompt_es": "Si alguien escribe 'At your earliest convenience' en una queja, está pidiendo:",
+          "options": [
+            { "id": "o1", "text": "Una respuesta tan pronto como sea posible" },
+            { "id": "o2", "text": "Que le inviten a comer" },
+            { "id": "o3", "text": "Que no respondan nunca" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Writing Analysis: Responding to Complaints",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "u6_w1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la mejor forma de empezar una disculpa formal?",
+          "options": [
+            { "id": "o1", "text": "Sorry about that." },
+            { "id": "o2", "text": "Please accept our sincere apologies for the inconvenience caused." },
+            { "id": "o3", "text": "My bad." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u6_w2",
+          "type": "multiple_choice",
+          "prompt_es": "Tienes que quejarte de un retraso. ¿Qué frase usas?",
+          "options": [
+            { "id": "o1", "text": "I am writing to bring to your attention a delay in our latest order." },
+            { "id": "o2", "text": "Why are you late again?" },
+            { "id": "o3", "text": "I hate waiting." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u6_w3",
+          "type": "multiple_choice",
+          "prompt_es": "Ofreces una solución. ¿Qué frase es más profesional?",
+          "options": [
+            { "id": "o1", "text": "We will send a replacement immediately at no extra cost." },
+            { "id": "o2", "text": "We give you another one for free." },
+            { "id": "o3", "text": "Pick another one." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u6_w4",
+          "type": "multiple_choice",
+          "prompt_es": "Quieres asegurar al cliente que no volverá a pasar:",
+          "options": [
+            { "id": "o1", "text": "We are taking steps to ensure this does not happen again." },
+            { "id": "o2", "text": "It's the last time, I promise." },
+            { "id": "o3", "text": "Don't worry about the future." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u6_w5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la mejor opción para admitir un error: 'We ________ (admitir) that the mistake was on our side.'",
+          "options": [
+            { "id": "o1", "text": "admit" },
+            { "id": "o2", "text": "acknowledge" },
+            { "id": "o3", "text": "tell" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u6_w6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to be entitled to a refund'?",
+          "options": [
+            { "id": "o1", "text": "Tener derecho a un reembolso" },
+            { "id": "o2", "text": "Haber perdido el derecho al reembolso" },
+            { "id": "o3", "text": "No querer el reembolso" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u6_w7",
+          "type": "multiple_choice",
+          "prompt_es": "Para pedir pruebas de un daño:",
+          "options": [
+            { "id": "o1", "text": "Could you please send us photos of the damaged items for our records?" },
+            { "id": "o2", "text": "Show me the broken things." },
+            { "id": "o3", "text": "Send proof." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u6_w8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Customer Satisfaction'?",
+          "options": [
+            { "id": "o1", "text": "Satisfacción del cliente" },
+            { "id": "o2", "text": "Quejas de los clientes" },
+            { "id": "o3", "text": "Ventas a clientes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u6_w9",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la mejor opción: 'We will ________ (investigar) the cause of this delay.'",
+          "options": [
+            { "id": "o1", "text": "look" },
+            { "id": "o2", "text": "investigate" },
+            { "id": "o3", "text": "search" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u6_w10",
+          "type": "multiple_choice",
+          "prompt_es": "Cierre educado tras una queja resuelta:",
+          "options": [
+            { "id": "o1", "text": "We hope this solution meets your expectations." },
+            { "id": "o2", "text": "Are you happy now?" },
+            { "id": "o3", "text": "End of story." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Mission: Resolution Challenges",
+      "duration_minutes": 15,
+      "content": [
+        {
+          "interaction_id": "u6_m1",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Queja por Retraso",
+          "video": {
+            "video_id": "u6_m1",
+            "objective": "Complain about a 1-week delay in a shipment.",
+            "vocabulary": ["Dissatisfied", "Inconvenience", "Update"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u6_m1_i1",
+                "type": "ai-mission",
+                "prompt_es": "Escribe un email quejándote por el retraso de una semana y pidiendo una fecha de entrega definitiva.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u6_m2",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Disculpa por Error de Facturación",
+          "video": {
+            "video_id": "u6_m2",
+            "objective": "Apologize for an overcharge on an invoice.",
+            "vocabulary": ["Sincere apologies", "Overcharge", "Corrected invoice"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u6_m2_i1",
+                "type": "ai-mission",
+                "prompt_es": "Pide disculpas a un cliente por cobrarle de más y envíale la factura corregida.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u6_m3",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Mercancía Dañada",
+          "video": {
+            "video_id": "u6_m3",
+            "objective": "Report that some items arrived broken.",
+            "vocabulary": ["Damaged", "Broken", "Replacement"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u6_m3_i1",
+                "type": "ai-mission",
+                "prompt_es": "Informa a tu proveedor que 5 cajas llegaron dañadas y solicita una sustitución.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u6_m4",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Ofrecer Compensación",
+          "video": {
+            "video_id": "u6_m4",
+            "objective": "Offer a discount for a recurring problem.",
+            "vocabulary": ["Goodwill gesture", "Discount", "Valued customer"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u6_m4_i1",
+                "type": "ai-mission",
+                "prompt_es": "Ofrece un 10% de descuento en el próximo pedido a un cliente recurrente que ha tenido problemas.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u6_m5",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Malentendido de Servicio",
+          "video": {
+            "video_id": "u6_m5",
+            "objective": "Clarify a misunderstanding about a service agreement.",
+            "vocabulary": ["Clarify", "Misunderstanding", "Agreement"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u6_m5_i1",
+                "type": "ai-mission",
+                "prompt_es": "Explica educadamente que hubo un malentendido con las fechas del servicio contratado.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "emails-work-u11",
+    "unit_title": "Unit 11: Internal Communication & Teamwork",
+    "total_duration_minutes": 120
+  },
+  "learning_outcomes": [
+    "Communicate effectively with colleagues and team members",
+    "Delegate tasks and responsibilities clearly",
+    "Ask for help or assistance from coworkers",
+    "Provide progress updates on shared projects",
+    "Use less formal language appropriate for internal emails"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Teamwork Vocabulary",
+      "duration_minutes": 30,
+      "content": [
+        {
+          "interaction_id": "u11_v1",
+          "type": "matching",
+          "prompt_es": "Colaboración interna:",
+          "pairs": [
+            { "id": "p1", "left": "Colleague / Coworker", "right": "Colega / Compañero de trabajo" },
+            { "id": "p2", "left": "Collaborate", "right": "Colaborar" },
+            { "id": "p3", "left": "Contribute", "right": "Contribuir / Aportar" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u11_v2",
+          "type": "matching",
+          "prompt_es": "Delegación de tareas:",
+          "pairs": [
+            { "id": "p1", "left": "Delegate", "right": "Delegar" },
+            { "id": "p2", "left": "Take ownership", "right": "Hacerse responsable / Tomar las riendas" },
+            { "id": "p3", "left": "Assign", "right": "Asignar" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u11_v3",
+          "type": "matching",
+          "prompt_es": "Sobre la carga de trabajo:",
+          "pairs": [
+            { "id": "p1", "left": "Workload", "right": "Carga de trabajo" },
+            { "id": "p2", "left": "Overwhelmed", "right": "Abrumado / Desbordado" },
+            { "id": "p3", "left": "Capacity", "right": "Capacidad (de trabajo)" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u11_v4",
+          "type": "matching",
+          "prompt_es": "Comunicación en equipo:",
+          "pairs": [
+            { "id": "p1", "left": "Brainstorm", "right": "Intercambiar ideas (lluvia de ideas)" },
+            { "id": "p2", "left": "Get back to you", "right": "Responderte / Volver a hablar contigo" },
+            { "id": "p3", "left": "Keep in the loop", "right": "Mantener al tanto" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u11_v5",
+          "type": "matching",
+          "prompt_es": "Resultados compartidos:",
+          "pairs": [
+            { "id": "p1", "left": "Milestone", "right": "Hito / Logro importante" },
+            { "id": "p2", "left": "Joint effort", "right": "Esfuerzo conjunto" },
+            { "id": "p3", "left": "Synergy", "right": "Sinergia" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Reported Speech & Suggestions",
+      "duration_minutes": 25,
+      "content": [
+        {
+          "interaction_id": "u11_g1",
+          "type": "transformation",
+          "prompt_es": "Reported speech básico (decir que algo se ha hecho):",
+          "stimulus_en": "Mark said that he ________ (haber terminado) the report.",
+          "correct_answer": "had finished",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u11_g2",
+          "type": "transformation",
+          "prompt_es": "Hacer sugerencias con 'How about' + -ing:",
+          "stimulus_en": "How about ________ (reunirnos) tomorrow morning to discuss this?",
+          "correct_answer": "meeting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u11_g3",
+          "type": "transformation",
+          "prompt_es": "Sugerencias con 'Let's':",
+          "stimulus_en": "________ (Vamos a) try to finish this by noon.",
+          "correct_answer": "Let's",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u11_g4",
+          "type": "transformation",
+          "prompt_es": "Uso de 'could' para sugerencias:",
+          "stimulus_en": "We ________ (podríamos) use the shared drive for these files.",
+          "correct_answer": "could",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u11_g5",
+          "type": "transformation",
+          "prompt_es": "Verbo 'to suggest' + that clause:",
+          "stimulus_en": "I suggest that we ________ (revisar) the figures again.",
+          "correct_answer": "review",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u11_g6",
+          "type": "transformation",
+          "prompt_es": "Reported commands (decir a alguien que haga algo):",
+          "stimulus_en": "The manager asked me ________ (que enviara) the invite.",
+          "correct_answer": "to send",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u11_g7",
+          "type": "transformation",
+          "prompt_es": "Uso de 'why don't we':",
+          "stimulus_en": "Why ________ we split the tasks between us?",
+          "correct_answer": "don't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u11_g8",
+          "type": "transformation",
+          "prompt_es": "Verbo 'to tell' en reported speech:",
+          "stimulus_en": "She ________ (dijo - a alguien) me that the meeting was canceled.",
+          "correct_answer": "told",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u11_g9",
+          "type": "transformation",
+          "prompt_es": "Modal 'should' para obligaciones internas:",
+          "stimulus_en": "We ________ (deberíamos) update the spreadsheet daily.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u11_g10",
+          "type": "transformation",
+          "prompt_es": "Uso de 'shall' para ofrecer ayuda:",
+          "stimulus_en": "________ (¿Quieres que?) I help you with those slides?",
+          "correct_answer": "Shall",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Email Analysis: Working Together",
+      "duration_minutes": 30,
+      "content": [
+        {
+          "interaction_id": "u11_r1",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'Can you take the lead on this project?' ¿Qué pide?",
+          "options": [
+            { "id": "o1", "text": "Que lideres el proyecto" },
+            { "id": "o2", "text": "Que dejes el proyecto" },
+            { "id": "o3", "text": "Que leas sobre el proyecto" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u11_r2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to pitch in'?",
+          "options": [
+            { "id": "o1", "text": "Colaborar / Echar una mano" },
+            { "id": "o2", "text": "Lanzar una pelota" },
+            { "id": "o3", "text": "Irse del trabajo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u11_r3",
+          "type": "multiple_choice",
+          "prompt_es": "Si un colega dice 'I'm swamped', quiere decir:",
+          "options": [
+            { "id": "o1", "text": "Está muy ocupado / desbordado de trabajo" },
+            { "id": "o2", "text": "Está en un pantano" },
+            { "id": "o3", "text": "No tiene nada que hacer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u11_r4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to touch base'? (repaso)",
+          "options": [
+            { "id": "o1", "text": "Contactar para ponerse al día" },
+            { "id": "o2", "text": "Tocar una base de béisbol" },
+            { "id": "o3", "text": "Limpiar la mesa" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u11_r5",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'Let's jump on a quick call.' ¿Qué propone?",
+          "options": [
+            { "id": "o1", "text": "Hacer una llamada rápida ahora mismo" },
+            { "id": "o2", "text": "Saltar sobre el teléfono" },
+            { "id": "o3", "text": "Cerrar el ordenador" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u11_r6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to delegate'?",
+          "options": [
+            { "id": "o1", "text": "Asignar tareas a otros" },
+            { "id": "o2", "text": "Hacerlo todo uno mismo" },
+            { "id": "o3", "text": "Borrar una tarea" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u11_r7",
+          "type": "multiple_choice",
+          "prompt_es": "Si alguien dice 'Great job team!', está:",
+          "options": [
+            { "id": "o1", "text": "Reconociendo el buen trabajo del equipo" },
+            { "id": "o2", "text": "Buscando un nuevo trabajo" },
+            { "id": "o3", "text": "Pidiendo que trabajen más" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u11_r8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to collaborate'?",
+          "options": [
+            { "id": "o1", "text": "Trabajar juntos hacia un objetivo" },
+            { "id": "o2", "text": "Trabajar solo" },
+            { "id": "o3", "text": "No trabajar" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u11_r9",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'I'll take care of the slides, you handle the data.' ¿Qué están haciendo?",
+          "options": [
+            { "id": "o1", "text": "Repartiendo tareas" },
+            { "id": "o2", "text": "Peleándose" },
+            { "id": "o3", "text": "Haciendo las dos cosas ambos" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u11_r10",
+          "type": "multiple_choice",
+          "prompt_es": "Si un email interno termina con 'Cheers', el tono es:",
+          "options": [
+            { "id": "o1", "text": "Informal / Amistoso" },
+            { "id": "o2", "text": "Extremadamente formal" },
+            { "id": "o3", "text": "Enojado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Writing Analysis: Internal Tone",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "u11_w1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo saludas a un colega con el que hablas a diario?",
+          "options": [
+            { "id": "o1", "text": "Hi [Name]," },
+            { "id": "o2", "text": "Dear Sir," },
+            { "id": "o3", "text": "To whom it may concern," }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u11_w2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides ayuda de forma directa pero educada?",
+          "options": [
+            { "id": "o1", "text": "Could you give me a hand with this report when you have a moment?" },
+            { "id": "o2", "text": "Help me now." },
+            { "id": "o3", "text": "You must help me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u11_w3",
+          "type": "multiple_choice",
+          "prompt_es": "Quieres informar de que has terminado tu parte:",
+          "options": [
+            { "id": "o1", "text": "Just letting you know that my part is done and uploaded." },
+            { "id": "o2", "text": "I finished." },
+            { "id": "o3", "text": "End of work." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u11_w4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo propones una idea en una lluvia de ideas por email?",
+          "options": [
+            { "id": "o1", "text": "I was thinking we could try a different approach this time." },
+            { "id": "o2", "text": "My idea is better." },
+            { "id": "o3", "text": "Do this." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u11_w5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la mejor opción: 'Let's ________ (reunirnos) for a coffee and discuss.'",
+          "options": [
+            { "id": "o1", "text": "get together" },
+            { "id": "o2", "text": "put together" },
+            { "id": "o3", "text": "see together" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u11_w6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué frase indica que vas a estar fuera de la oficina?",
+          "options": [
+            { "id": "o1", "text": "I'll be OOO (Out Of Office) tomorrow." },
+            { "id": "o2", "text": "I am not here." },
+            { "id": "o3", "text": "Gone." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u11_w7",
+          "type": "multiple_choice",
+          "prompt_es": "Para delegar una tarea educadamente:",
+          "options": [
+            { "id": "o1", "text": "Would you mind taking care of the minutes for today's meeting?" },
+            { "id": "o2", "text": "Do the minutes." },
+            { "id": "o3", "text": "You are doing the minutes." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u11_w8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'FYI'?",
+          "options": [
+            { "id": "o1", "text": "For Your Information (Para tu información)" },
+            { "id": "o2", "text": "For Your Interest" },
+            { "id": "o3", "text": "Find Your Idea" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u11_w9",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la mejor opción: 'Thanks for ________ (intervenir) in the meeting.'",
+          "options": [
+            { "id": "o1", "text": "stepping in" },
+            { "id": "o2", "text": "walking in" },
+            { "id": "o3", "text": "looking in" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u11_w10",
+          "type": "multiple_choice",
+          "prompt_es": "Si quieres decir que valoras la ayuda de un compañero:",
+          "options": [
+            { "id": "o1", "text": "I really appreciate your help with this." },
+            { "id": "o2", "text": "Thanks for help." },
+            { "id": "o3", "text": "Good help." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Mission: Internal Team Challenges",
+      "duration_minutes": 15,
+      "content": [
+        {
+          "interaction_id": "u11_m1",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Pedir Ayuda con un Excel",
+          "video": {
+            "video_id": "u11_m1",
+            "objective": "Ask a coworker for help with a technical task.",
+            "vocabulary": ["Struggling", "Expertise", "Hand"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u11_m1_i1",
+                "type": "ai-mission",
+                "prompt_es": "Pide a un compañero que te ayude con una fórmula de Excel que no te sale, si tiene 5 minutos.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u11_m2",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Delegar la reserva de sala",
+          "video": {
+            "video_id": "u11_m2",
+            "objective": "Delegate a small administrative task.",
+            "vocabulary": ["Mind", "Booking", "Available"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u11_m2_i1",
+                "type": "ai-mission",
+                "prompt_es": "Pide a un compañero junior si puede encargarse de reservar la sala para la reunión de mañana.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u11_m3",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Dar Update de Proyecto",
+          "video": {
+            "video_id": "u11_m3",
+            "objective": "Give a quick progress update to the team.",
+            "vocabulary": ["Schedule", "Update", "Progress"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u11_m3_i1",
+                "type": "ai-mission",
+                "prompt_es": "Escribe un email rápido al equipo diciendo que vamos según lo previsto (on schedule) con el proyecto X.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u11_m4",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Proponer Lluvia de Ideas",
+          "video": {
+            "video_id": "u11_m4",
+            "objective": "Suggest an informal meeting to share ideas.",
+            "vocabulary": ["Brainstorm", "Share", "Thoughts"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u11_m4_i1",
+                "type": "ai-mission",
+                "prompt_es": "Sugiere reunirnos 15 minutos para compartir ideas sobre el nuevo logo.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u11_m5",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Felicitar al Equipo",
+          "video": {
+            "video_id": "u11_m5",
+            "objective": "Congratulate colleagues on a successful task.",
+            "vocabulary": ["Effort", "Well done", "Achievement"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u11_m5_i1",
+                "type": "ai-mission",
+                "prompt_es": "Manda un email corto felicitando a todos por cerrar el trato con el cliente ayer.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

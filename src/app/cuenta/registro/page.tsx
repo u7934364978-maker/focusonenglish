@@ -110,6 +110,7 @@ export default function SignupPage() {
           firstName: firstName || formData.firstName,
           lastName,
           phone: formData.phone,
+          currentLevel: formData.currentLevel,
         }),
       });
 

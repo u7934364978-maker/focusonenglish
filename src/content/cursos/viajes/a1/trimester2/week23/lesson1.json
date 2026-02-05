@@ -1,0 +1,1830 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "viajes-a1-u23",
+    "unit_title": "Room Features & Amenities",
+    "total_duration_minutes": 120
+  },
+  "blocks": [
+    {
+      "block_id": "B23",
+      "title": "Room Features & Amenities",
+      "content": [
+        {
+          "interaction_id": "U23_I1",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Toalla",
+          "correct_answer": "Towel",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Toalla' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Towel"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I7",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I8",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I11",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Jabón",
+          "correct_answer": "Soap",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cama' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Bed"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I13",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Soap",
+              "right": "Jabón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I14",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "23"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I17",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cama",
+          "correct_answer": "Bed",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Toalla' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Towel"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I19",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Soap",
+              "right": "Jabón"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I20",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Jabón",
+          "correct_answer": "Soap",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cama' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Bed"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I25",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p1",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I29",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Jabón",
+          "correct_answer": "Soap",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Jabón' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Soap"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I31",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I32",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 23. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I35",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Toalla",
+          "correct_answer": "Towel",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Toalla' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Towel"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cama",
+          "correct_answer": "Bed",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Jabón' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Soap"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Soap",
+              "right": "Jabón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I44",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Jabón",
+          "correct_answer": "Soap",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Jabón' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Soap"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I49",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Soap",
+              "right": "Jabón"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I50",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I53",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Toalla",
+          "correct_answer": "Towel",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Toalla' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Towel"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I55",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p1",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I56",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 23. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cama",
+          "correct_answer": "Bed",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cama' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Bed"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I61",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I62",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I65",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Jabón",
+          "correct_answer": "Soap",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Jabón' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Soap"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I67",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I68",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 23. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I71",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cama",
+          "correct_answer": "Bed",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Toalla' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Towel"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I73",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Soap",
+              "right": "Jabón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I74",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I77",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Toalla",
+          "correct_answer": "Towel",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Jabón' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Soap"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I79",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Soap",
+              "right": "Jabón"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cama",
+          "correct_answer": "Bed",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cama' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Bed"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p1",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I86",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I89",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cama",
+          "correct_answer": "Bed",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Toalla' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Towel"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I91",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I92",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I95",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cama",
+          "correct_answer": "Bed",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Toalla' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Towel"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I97",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p1",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p2",
+              "left": "Towel",
+              "right": "Toalla"
+            },
+            {
+              "id": "p3",
+              "left": "Towel",
+              "right": "Toalla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I98",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I need a (toalla) ________.",
+          "correct_answer": "towel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 23. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

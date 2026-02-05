@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navigation } from '@/components/sections/Navigation';
 import { premiumCourseService } from '@/lib/services/premium-course-service';
+import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
 import { createClient } from '@/lib/supabase/client';
 import Link from 'next/link';
 import { Trophy, Play, CheckCircle2, LayoutGrid, Target, Clock } from 'lucide-react';
@@ -12,12 +13,12 @@ export default async function A1CoursePage() {
   const userId = user?.id || 'anonymous';
 
   // Fetch all units and user progress
-  const allUnits = await premiumCourseService.getUnits('ingles-a1');
+  const allUnits = await premiumCourseServerService.getUnits('ingles-a1');
   const units = allUnits.slice(0, 60);
   const completedIds = await premiumCourseService.getA1Progress(userId);
   const completedSet = new Set(completedIds);
   
-  const allInteractions = await premiumCourseService.getAllA1Interactions();
+  const allInteractions = await premiumCourseServerService.getAllInteractions('ingles-a1');
   
   // Filter interactions to only include those belonging to the first 60 units
   const allowedInteractionIds = new Set(units.flatMap(u => u.interactionIds));

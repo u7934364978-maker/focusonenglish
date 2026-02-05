@@ -9,9 +9,9 @@ import { SEOComparisonTable } from "@/components/sections/SEOComparisonTable";
 import { ChevronRight, Home, Star, Zap, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Las 10 Mejores Aplicaciones para Aprender Inglés en 2026",
-  description: "Descubre las mejores aplicaciones para aprender inglés este año. Comparativa honesta entre Duolingo, Babbel, Focus English y más. ¡Elige la mejor para ti!",
-  keywords: ["aplicaciones para aprender ingles", "mejores apps ingles", "duolingo vs babbel", "aprender ingles rapido app"],
+  title: "Mejores Aplicaciones para Aprender Inglés 2026: Guía Gratis",
+  description: "Ranking actualizado de las mejores aplicaciones para aprender inglés este año. Comparativa honesta de apps gratis, con IA y para trabajar. ¡Elige la tuya!",
+  keywords: ["aplicaciones para aprender ingles", "mejores apps ingles gratis", "apps para aprender ingles 2026", "aprender ingles rapido app"],
   alternates: {
     canonical: 'https://www.focus-on-english.com/aplicaciones-para-aprender-ingles',
   },

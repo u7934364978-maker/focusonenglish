@@ -346,71 +346,210 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
     level: "A1",
     cefr: "Viajero Principiante",
     description: "Inglés desde cero diseñado para sobrevivir y disfrutar tus viajes por el mundo",
-    duration: "36 semanas (9 meses)",
+    duration: "60 semanas (15 meses)",
     modules: [
       {
-        title: "Módulo 1: Primeros Pasos y Salida",
+        title: "Trimester 1: Survival Basics & Airport",
         topics: [
-          "Alfabeto y deletreo de nombres",
-          "Saludos y presentaciones básicas",
-          "Números y precios esenciales",
-          "Frases de supervivencia",
-          "El aeropuerto: Check-in y Seguridad"
+          "Greetings & Personal Information",
+          "Airport Procedures (Check-in, Security, Immigration)",
+          "Numbers, Prices & Currency",
+          "Essential Survival Phrases",
+          "Time & Flight Schedules"
         ],
         grammar: [
-          "Verb 'to be' (I am, You are)",
-          "Personal pronouns",
-          "Possessive adjectives (My, Your)",
-          "Numbers 1-100",
-          "Basic questions (Where, What, How much)"
+          "Verb 'to be' (Present)",
+          "Personal Pronouns & Possessive Adjectives",
+          "Basic Question Words (What, Where, How much)",
+          "Plural Nouns (Passport/Passports)",
+          "Numbers 1-100"
         ],
         vocabulary: [
-          "Greetings (Hello, Good morning, etc.)",
-          "Travel objects (Passport, ticket, suitcase)",
-          "Airport vocabulary",
-          "Polite phrases (Please, Thank you, Excuse me)"
+          "Airport terminology",
+          "Greetings & Polite phrases",
+          "Travel documents",
+          "Numbers & Money",
+          "Time expressions"
         ],
-        weeks: [
-          {
-            id: "semana01",
-            title: "Semana 1: Bienvenida y Primeros Pasos",
-            lessons: [
-              { id: "lesson1", title: "Getting Started: Introduction to English for Travel" },
-              { id: "lesson2", title: "Navigating Airports, Transportation, and Accommodations" },
-              { id: "lesson3", title: "Eating Out: Restaurants, Cafés, and Food" }
-            ]
-          },
-          {
-            id: "semana02",
-            title: "Semana 2: Supervivencia en la Ciudad",
-            lessons: [
-              { id: "lesson1", title: "Exploring the City: Directions, Shopping, and Emergencies" },
-              { id: "lesson2", title: "Review and Practice: Real-Life Travel Scenarios" },
-              { id: "lesson3", title: "Health, Wellness, and Pharmacy: Managing Medical Needs Abroad" }
-            ]
-          }
-        ],
+        weeks: Array.from({ length: 15 }, (_, i) => ({
+          id: `viajes-a1-w${(i + 1).toString().padStart(2, '0')}`,
+          title: `Week ${i + 1}: ${[
+            "Greetings & Introductions",
+            "The Alphabet & Spelling Names",
+            "Numbers 1-20 & Age",
+            "Numbers 20-100 & Prices",
+            "At the Check-in Counter",
+            "Security Control Phrases",
+            "Immigration & Passport Control",
+            "Gate Information & Announcements",
+            "Baggage Claim & Lost Luggage",
+            "Basic Survival: Asking for Help",
+            "Time & Flight Schedules",
+            "Connecting Flights & Transfers",
+            "Duty Free & Simple Shopping",
+            "Airport Services (WiFi, ATM, Toilet)",
+            "Review & Trimester 1 Assessment"
+          ][i]}`,
+          lessons: [{ id: "lesson1", title: "Core Travel Lesson" }]
+        })),
         skills: {
-          reading: [
-            "Leer billetes de avión y tarjetas de embarque",
-            "Identificar señales de aeropuerto",
-            "Leer nombres y precios básicos"
-          ],
-          writing: [
-            "Deletrear tu nombre y apellido",
-            "Completar formularios de inmigración básicos",
-            "Escribir números y precios"
-          ],
-          listening: [
-            "Entender saludos y presentaciones lentas",
-            "Identificar letras y números en anuncios",
-            "Comprender instrucciones de seguridad básicas"
-          ],
-          speaking: [
-            "Saludar y presentarte",
-            "Deletrear tu nombre para una reserva",
-            "Preguntar precios y direcciones simples"
-          ]
+          reading: ["Boarding passes", "Airport signs", "Simple forms"],
+          writing: ["Filling entry forms", "Spelling names", "Writing prices"],
+          listening: ["Airport announcements", "Simple greetings", "Clear instructions"],
+          speaking: ["Answering immigration questions", "Ordering at airport cafe", "Asking for directions"]
+        }
+      },
+      {
+        title: "Trimester 2: Transport & Accommodation",
+        topics: [
+          "Hotel Reservations & Check-in",
+          "Public Transport (Taxi, Bus, Train, Metro)",
+          "Asking for and Giving Directions",
+          "Describing Places & Facilities",
+          "Handling Room Issues"
+        ],
+        grammar: [
+          "Prepositions of Place (in, on, at, next to)",
+          "Imperatives for Directions",
+          "There is / There are",
+          "Present Simple for Routines",
+          "Can for Requests/Possibility"
+        ],
+        vocabulary: [
+          "Hotel rooms & amenities",
+          "Directions & Landmarks",
+          "Transport modes",
+          "City places",
+          "Basic furniture"
+        ],
+        weeks: Array.from({ length: 15 }, (_, i) => ({
+          id: `viajes-a1-w${(i + 16).toString().padStart(2, '0')}`,
+          title: `Week ${i + 16}: ${[
+            "Taking a Taxi/Uber",
+            "Bus & Train Stations",
+            "Buying Tickets",
+            "Asking 'Where is...?'",
+            "Directions: Left, Right, Straight",
+            "Hotel Check-in Process",
+            "Asking about Hotel Facilities",
+            "Room Features & Amenities",
+            "Using the Hotel WiFi & Services",
+            "Ordering Room Service",
+            "Reporting Room Problems",
+            "Hotel Check-out & Bill",
+            "Exploring the Neighborhood",
+            "Tourist Information Centers",
+            "Review & Trimester 2 Assessment"
+          ][i]}`,
+          lessons: [{ id: "lesson1", title: "Core Travel Lesson" }]
+        })),
+        skills: {
+          reading: ["Hotel brochures", "Maps", "Bus schedules"],
+          writing: ["Hotel booking details", "Simple directions", "Short reviews"],
+          listening: ["Direction instructions", "Hotel receptionist dialogue", "Public transport announcements"],
+          speaking: ["Booking a taxi", "Checking in at a hotel", "Asking for the way"]
+        }
+      },
+      {
+        title: "Trimester 3: Food, Dining & Social",
+        topics: [
+          "Restaurants & Cafes",
+          "Ordering Food & Drinks",
+          "Supermarkets & Food Shopping",
+          "Socializing & Making Friends",
+          "Likes & Dislikes"
+        ],
+        grammar: [
+          "Present Simple (Affirmative/Negative)",
+          "Countable & Uncountable Nouns",
+          "Some / Any",
+          "Would like for requests",
+          "Object Pronouns (it, them)"
+        ],
+        vocabulary: [
+          "Food & Drink items",
+          "Restaurant vocabulary",
+          "Daily activities",
+          "Adjectives for food",
+          "Hobbies & Interests"
+        ],
+        weeks: Array.from({ length: 15 }, (_, i) => ({
+          id: `viajes-a1-w${(i + 31).toString().padStart(2, '0')}`,
+          title: `Week ${i + 31}: ${[
+            "At the Cafe: Ordering Coffee",
+            "Breakfast Foods",
+            "Making a Restaurant Reservation",
+            "Reading a Menu",
+            "Ordering Lunch/Dinner",
+            "Dietary Requirements & Allergies",
+            "Paying the Bill & Tipping",
+            "At the Supermarket",
+            "Buying Snacks & Street Food",
+            "Simple Conversations: Hobbies",
+            "Talking about your Home Country",
+            "Inviting Someone for a Drink",
+            "Describing your Day",
+            "Meeting People at the Hostel",
+            "Review & Trimester 3 Assessment"
+          ][i]}`,
+          lessons: [{ id: "lesson1", title: "Core Travel Lesson" }]
+        })),
+        skills: {
+          reading: ["Menus", "Food labels", "Social media profiles"],
+          writing: ["Ordering food online", "Simple social messages", "Grocery lists"],
+          listening: ["Waiter dialogues", "Casual introductions", "Food preferences"],
+          speaking: ["Ordering a meal", "Introducing yourself to travelers", "Buying groceries"]
+        }
+      },
+      {
+        title: "Trimester 4: Shopping, Health & Emergencies",
+        topics: [
+          "Shopping for Clothes & Souvenirs",
+          "Health & Pharmacy",
+          "Emergency Situations",
+          "Sightseeing & Tours",
+          "Future Travel Plans"
+        ],
+        grammar: [
+          "Comparative Adjectives (cheaper, bigger)",
+          "Past Simple of 'to be' (was/were)",
+          "Present Continuous for Future Plans",
+          "Modal: Should for advice",
+          "Question words review"
+        ],
+        vocabulary: [
+          "Clothes & Sizes",
+          "Body parts & Symptoms",
+          "Emergency contacts",
+          "Sightseeing spots",
+          "Weather"
+        ],
+        weeks: Array.from({ length: 15 }, (_, i) => ({
+          id: `viajes-a1-w${(i + 46).toString().padStart(2, '0')}`,
+          title: `Week ${i + 46}: ${[
+            "Shopping for Souvenirs",
+            "Clothes Shopping & Sizes",
+            "Asking for Discounts & Deals",
+            "Describing the Weather",
+            "Booking a City Tour",
+            "At a Museum/Gallery",
+            "Renting a Car/Bike",
+            "Parts of the Body",
+            "At the Pharmacy",
+            "Seeing a Doctor",
+            "Reporting a Crime/Theft",
+            "Asking for Help in Emergency",
+            "Losing your Passport/Phone",
+            "Future Travel Dreams",
+            "Final Review & Graduation"
+          ][i]}`,
+          lessons: [{ id: "lesson1", title: "Core Travel Lesson" }]
+        })),
+        skills: {
+          reading: ["Price tags", "Medicine labels", "Emergency signs"],
+          writing: ["Emergency contact info", "Simple travel blog", "Postcards"],
+          listening: ["Pharmacy advice", "Tour guide speech", "Emergency calls"],
+          speaking: ["Buying clothes", "Describing symptoms", "Reporting a problem"]
         }
       }
     ]

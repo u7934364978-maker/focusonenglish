@@ -1,0 +1,1820 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "viajes-a1-u32",
+    "unit_title": "Breakfast Foods",
+    "total_duration_minutes": 120
+  },
+  "blocks": [
+    {
+      "block_id": "B32",
+      "title": "Breakfast Foods",
+      "content": [
+        {
+          "interaction_id": "U32_I1",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p1",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p2",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p3",
+              "left": "Eggs",
+              "right": "Huevos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Huevos",
+          "correct_answer": "Eggs",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fruta' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Fruit"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I7",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p1",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p2",
+              "left": "Eggs",
+              "right": "Huevos"
+            },
+            {
+              "id": "p3",
+              "left": "Fruit",
+              "right": "Fruta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I8",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 32. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I11",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Fruta",
+          "correct_answer": "Fruit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bread"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I13",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p1",
+              "left": "Eggs",
+              "right": "Huevos"
+            },
+            {
+              "id": "p2",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Pan"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I14",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I17",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Fruta",
+          "correct_answer": "Fruit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Bread"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I19",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Eggs",
+              "right": "Huevos"
+            },
+            {
+              "id": "p1",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p2",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p3",
+              "left": "Fruit",
+              "right": "Fruta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I20",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 32. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Fruta",
+          "correct_answer": "Fruit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fruta' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Fruit"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I25",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Eggs",
+              "right": "Huevos"
+            },
+            {
+              "id": "p1",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p2",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Pan"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 32. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I29",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Huevos",
+          "correct_answer": "Eggs",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bread"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I31",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p1",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p2",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p3",
+              "left": "Eggs",
+              "right": "Huevos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I32",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I35",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Fruta",
+          "correct_answer": "Fruit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Huevos' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Eggs"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p1",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p2",
+              "left": "Eggs",
+              "right": "Huevos"
+            },
+            {
+              "id": "p3",
+              "left": "Fruit",
+              "right": "Fruta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 32. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pan",
+          "correct_answer": "Bread",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fruta' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Fruit"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p1",
+              "left": "Eggs",
+              "right": "Huevos"
+            },
+            {
+              "id": "p2",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Pan"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I44",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Huevos",
+          "correct_answer": "Eggs",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fruta' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Fruit"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I49",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Eggs",
+              "right": "Huevos"
+            },
+            {
+              "id": "p1",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p2",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p3",
+              "left": "Fruit",
+              "right": "Fruta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I50",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I53",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pan",
+          "correct_answer": "Bread",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Huevos' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Eggs"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I55",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Eggs",
+              "right": "Huevos"
+            },
+            {
+              "id": "p1",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p2",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Pan"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I56",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "32"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Fruta",
+          "correct_answer": "Fruit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fruta' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Fruit"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I61",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p1",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p2",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p3",
+              "left": "Eggs",
+              "right": "Huevos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I62",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I65",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Fruta",
+          "correct_answer": "Fruit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bread"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I67",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p1",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p2",
+              "left": "Eggs",
+              "right": "Huevos"
+            },
+            {
+              "id": "p3",
+              "left": "Fruit",
+              "right": "Fruta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I68",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I71",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Huevos",
+          "correct_answer": "Eggs",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Bread"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I73",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p1",
+              "left": "Eggs",
+              "right": "Huevos"
+            },
+            {
+              "id": "p2",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Pan"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I74",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I77",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Huevos",
+          "correct_answer": "Eggs",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Huevos' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Eggs"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I79",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Eggs",
+              "right": "Huevos"
+            },
+            {
+              "id": "p1",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p2",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p3",
+              "left": "Fruit",
+              "right": "Fruta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 32. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Huevos",
+          "correct_answer": "Eggs",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Huevos' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Eggs"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Eggs",
+              "right": "Huevos"
+            },
+            {
+              "id": "p1",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p2",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Pan"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I86",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I89",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Fruta",
+          "correct_answer": "Fruit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fruta' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fruit"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I91",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p1",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p2",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p3",
+              "left": "Eggs",
+              "right": "Huevos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I92",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I95",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Huevos",
+          "correct_answer": "Eggs",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Huevos' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Eggs"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I97",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fruit",
+              "right": "Fruta"
+            },
+            {
+              "id": "p1",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p2",
+              "left": "Eggs",
+              "right": "Huevos"
+            },
+            {
+              "id": "p3",
+              "left": "Fruit",
+              "right": "Fruta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I98",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I like (huevos) ________ for breakfast.",
+          "correct_answer": "eggs",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U32_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

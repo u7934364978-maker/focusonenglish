@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navigation } from '@/components/sections/Navigation';
 import { premiumCourseService } from '@/lib/services/premium-course-service';
+import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
 import { createClient } from '@/lib/supabase/client';
 import Link from 'next/link';
 import { Trophy, Play, CheckCircle2, LayoutGrid, Target, Clock } from 'lucide-react';
@@ -26,11 +27,11 @@ export default async function B1CoursePage() {
   const userId = user?.id || 'anonymous';
 
   // Fetch all units and user progress
-  const units = await premiumCourseService.getUnits('ingles-b1');
+  const units = await premiumCourseServerService.getUnits('ingles-b1');
   const completedIds = await premiumCourseService.getB1Progress(userId);
   const completedSet = new Set(completedIds);
   
-  const allInteractions = await premiumCourseService.getAllB1Interactions();
+  const allInteractions = await premiumCourseServerService.getAllInteractions('ingles-b1');
   const totalExercises = allInteractions.length;
   const completedExercises = completedIds.length;
   const progressPercentage = totalExercises > 0 

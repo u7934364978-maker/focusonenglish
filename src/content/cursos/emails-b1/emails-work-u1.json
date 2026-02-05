@@ -1,0 +1,525 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "emails-work-u1",
+    "unit_title": "Unit 1: Introductions & Networking",
+    "total_duration_minutes": 120
+  },
+  "learning_outcomes": [
+    "Write professional self-introductions",
+    "Use appropriate formal and semi-formal greetings",
+    "Reference previous meetings or mutual contacts correctly",
+    "State the purpose of an outreach email clearly",
+    "Choose appropriate professional sign-offs"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Warm-up & Vocabulary",
+      "duration_minutes": 30,
+      "content": [
+        {
+          "interaction_id": "u1_v1",
+          "type": "matching",
+          "prompt_es": "Une la frase en inglés con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "I am writing to introduce myself", "right": "Le escribo para presentarme" },
+            { "id": "p2", "left": "It was a pleasure meeting you", "right": "Fue un placer conocerle" },
+            { "id": "p3", "left": "I would like to reach out to you", "right": "Me gustaría ponerme en contacto con usted" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u1_v2",
+          "type": "matching",
+          "prompt_es": "Vocabulario de eventos y networking:",
+          "pairs": [
+            { "id": "p1", "left": "Trade fair", "right": "Feria comercial" },
+            { "id": "p2", "left": "Business card", "right": "Tarjeta de visita" },
+            { "id": "p3", "left": "Keynote speaker", "right": "Ponente principal" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u1_v3",
+          "type": "matching",
+          "prompt_es": "Frases sobre contactos comunes:",
+          "pairs": [
+            { "id": "p1", "left": "Mutual contact", "right": "Contacto mutuo" },
+            { "id": "p2", "left": "Shared connection", "right": "Conexión compartida" },
+            { "id": "p3", "left": "Referred by", "right": "Recomendado por" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u1_v4",
+          "type": "matching",
+          "prompt_es": "Propósitos del email:",
+          "pairs": [
+            { "id": "p1", "left": "Explore collaboration", "right": "Explorar colaboración" },
+            { "id": "p2", "left": "Schedule a call", "right": "Programar una llamada" },
+            { "id": "p3", "left": "Follow up", "right": "Hacer un seguimiento" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u1_v5",
+          "type": "matching",
+          "prompt_es": "Sobre el perfil profesional:",
+          "pairs": [
+            { "id": "p1", "left": "Background", "right": "Trayectoria / Antecedentes" },
+            { "id": "p2", "left": "Expertise", "right": "Experiencia / Conocimientos" },
+            { "id": "p3", "left": "Current role", "right": "Puesto actual" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar in Context",
+      "duration_minutes": 25,
+      "content": [
+        {
+          "interaction_id": "u1_g1",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta de 'look forward to':",
+          "stimulus_en": "I look forward to (hear) ________ from you.",
+          "correct_answer": "hearing",
+          "tip_es": "Después de 'look forward to', siempre usamos el gerundio (-ing).",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u1_g2",
+          "type": "transformation",
+          "prompt_es": "Usa el Present Perfect para hablar de una acción reciente:",
+          "stimulus_en": "I (see) ________ your profile on LinkedIn recently.",
+          "correct_answer": "have seen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u1_g3",
+          "type": "transformation",
+          "prompt_es": "Forma una pregunta educada con 'Could':",
+          "stimulus_en": "________ (you/send) me more information about your services?",
+          "correct_answer": "Could you send",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u1_g4",
+          "type": "transformation",
+          "prompt_es": "Propósito del email (Writing to + infinitive):",
+          "stimulus_en": "I am writing (invite) ________ you to our upcoming event.",
+          "correct_answer": "to invite",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u1_g5",
+          "type": "transformation",
+          "prompt_es": "Completa con 'Would' para una invitación:",
+          "stimulus_en": "________ you be interested in a short meeting next week?",
+          "correct_answer": "Would",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u1_g6",
+          "type": "transformation",
+          "prompt_es": "Pasiva para descripciones de empresa:",
+          "stimulus_en": "Our company (base) ________ in Madrid.",
+          "correct_answer": "is based",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u1_g7",
+          "type": "transformation",
+          "prompt_es": "Gerundio después de preposiciones:",
+          "stimulus_en": "Thank you for (take) ________ the time to meet me.",
+          "correct_answer": "taking",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u1_g8",
+          "type": "transformation",
+          "prompt_es": "Uso de 'since' con Present Perfect:",
+          "stimulus_en": "We have been in business ________ (desde) 2010.",
+          "correct_answer": "since",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u1_g9",
+          "type": "transformation",
+          "prompt_es": "Completa la frase de presentación:",
+          "stimulus_en": "My name is John and I (work) ________ as a Sales Manager.",
+          "correct_answer": "work",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u1_g10",
+          "type": "transformation",
+          "prompt_es": "Present Perfect con 'already':",
+          "stimulus_en": "I have ________ (ya) spoken to your colleague about this.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Reading & Analysis",
+      "duration_minutes": 30,
+      "content": [
+        {
+          "interaction_id": "u1_r1",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza este fragmento: 'I am writing to you on the recommendation of Ms. Garcia.' ¿Cuál es el propósito?",
+          "options": [
+            { "id": "o1", "text": "Hacer una queja" },
+            { "id": "o2", "text": "Mencionar un contacto mutuo" },
+            { "id": "o3", "text": "Pedir un reembolso" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u1_r2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué frase es más apropiada para un primer contacto formal?",
+          "options": [
+            { "id": "o1", "text": "Hey, what's up?" },
+            { "id": "o2", "text": "I hope this email finds you well." },
+            { "id": "o3", "text": "Yo, check this out." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u1_r3",
+          "type": "multiple_choice",
+          "prompt_es": "Si dices 'I enjoyed our conversation at the trade fair', ¿qué estás haciendo?",
+          "options": [
+            { "id": "o1", "text": "Haciendo un seguimiento (Follow-up)" },
+            { "id": "o2", "text": "Cancelando una reunión" },
+            { "id": "o3", "text": "Pidiendo un aumento de sueldo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u1_r4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el significado de 'Let's keep in touch'?",
+          "options": [
+            { "id": "o1", "text": "No me escribas más" },
+            { "id": "o2", "text": "Mantengamos el contacto" },
+            { "id": "o3", "text": "Tócame la mano" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u1_r5",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'I would like to explore ways we might collaborate.' ¿Qué busca el autor?",
+          "options": [
+            { "id": "o1", "text": "Vender un producto inmediatamente" },
+            { "id": "o2", "text": "Explorar una posible colaboración" },
+            { "id": "o3", "text": "Criticar el trabajo de la otra persona" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u1_r6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estas despedidas es más profesional?",
+          "options": [
+            { "id": "o1", "text": "XOXO" },
+            { "id": "o2", "text": "Best regards," },
+            { "id": "o3", "text": "See ya," }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u1_r7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to schedule a call'?",
+          "options": [
+            { "id": "o1", "text": "Programar una llamada" },
+            { "id": "o2", "text": "Borrar un número" },
+            { "id": "o3", "text": "Gritar fuerte" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u1_r8",
+          "type": "multiple_choice",
+          "prompt_es": "Si escribes 'I am the Operations Manager at Focus English', estás:",
+          "options": [
+            { "id": "o1", "text": "Presentando tu cargo y empresa" },
+            { "id": "o2", "text": "Preguntando la hora" },
+            { "id": "o3", "text": "Pidiendo perdón" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u1_r9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué frase usarías para pedir una reunión de 15 minutos?",
+          "options": [
+            { "id": "o1", "text": "Give me 15 minutes now!" },
+            { "id": "o2", "text": "Would you be available for a brief 15-minute call?" },
+            { "id": "o3", "text": "I will call you for 15 minutes." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u1_r10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'outreach' en un contexto profesional?",
+          "options": [
+            { "id": "o1", "text": "Acción de contactar/llegar a alguien" },
+            { "id": "o2", "text": "Salir de la oficina" },
+            { "id": "o3", "text": "Estirarse mucho" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Writing Skills",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "u1_w1",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la mejor opción para el asunto (Subject line) de un email de presentación:",
+          "options": [
+            { "id": "o1", "text": "Hi" },
+            { "id": "o2", "text": "Introduction - [Your Name] from [Company]" },
+            { "id": "o3", "text": "Open this email please" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u1_w2",
+          "type": "multiple_choice",
+          "prompt_es": "Has conocido a alguien en una conferencia. ¿Cómo empiezas?",
+          "options": [
+            { "id": "o1", "text": "I enjoyed meeting you at the conference last week." },
+            { "id": "o2", "text": "Who are you again?" },
+            { "id": "o3", "text": "I want to buy your product." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u1_w3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma más profesional de decir que estás adjuntando un archivo?",
+          "options": [
+            { "id": "o1", "text": "Look at the file." },
+            { "id": "o2", "text": "Please find attached my company profile." },
+            { "id": "o3", "text": "The file is here." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u1_w4",
+          "type": "multiple_choice",
+          "prompt_es": "Quieres sugerir una reunión. ¿Qué frase es mejor?",
+          "options": [
+            { "id": "o1", "text": "Meeting tomorrow at 10?" },
+            { "id": "o2", "text": "Would you be open to a brief meeting to discuss potential synergy?" },
+            { "id": "o3", "text": "You must meet me." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u1_w5",
+          "type": "multiple_choice",
+          "prompt_es": "Corrige el error: 'I look forward to meet you.'",
+          "options": [
+            { "id": "o1", "text": "I look forward to meeting you." },
+            { "id": "o2", "text": "I look forward meeting you." },
+            { "id": "o3", "text": "I looking forward to meet you." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u1_w6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es un cierre apropiado para un email de networking?",
+          "options": [
+            { "id": "o1", "text": "Thanks for everything." },
+            { "id": "o2", "text": "I look forward to hearing from you soon." },
+            { "id": "o3", "text": "Call me." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u1_w7",
+          "type": "multiple_choice",
+          "prompt_es": "Mencionar un contacto mutuo ayuda a:",
+          "options": [
+            { "id": "o1", "text": "Generar confianza (Trust)" },
+            { "id": "o2", "text": "Confundir al receptor" },
+            { "id": "o3", "text": "Ahorrar palabras" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u1_w8",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la frase para presentarte: 'I am the [Role] at Focus English.'",
+          "options": [
+            { "id": "o1", "text": "I work for..." },
+            { "id": "o2", "text": "My company is..." },
+            { "id": "o3", "text": "I am the [Role] at..." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u1_w9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Brief introduction'?",
+          "options": [
+            { "id": "o1", "text": "Presentación breve" },
+            { "id": "o2", "text": "Presentación larga" },
+            { "id": "o3", "text": "Sin presentación" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u1_w10",
+          "type": "multiple_choice",
+          "prompt_es": "Si no conoces el nombre de la persona, puedes usar:",
+          "options": [
+            { "id": "o1", "text": "Hi friend," },
+            { "id": "o2", "text": "To whom it may concern," },
+            { "id": "o3", "text": "Hey you," }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "writing"
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Practical Missions",
+      "duration_minutes": 15,
+      "content": [
+        {
+          "interaction_id": "u1_m1",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Seguimiento de Feria Comercial",
+          "video": {
+            "video_id": "m1",
+            "objective": "Follow up with a contact you met at a trade fair.",
+            "vocabulary": ["Trade fair", "Brief meeting", "Next steps"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u1_m1_i1",
+                "type": "ai-mission",
+                "prompt_es": "Escribe un email a Sarah, a quien conociste en la 'TechExpo', para proponer una breve llamada.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u1_m2",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Contacto en LinkedIn",
+          "video": {
+            "video_id": "m2",
+            "objective": "Reach out to a professional contact on LinkedIn.",
+            "vocabulary": ["Shared connection", "Insightful posts", "Connect"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u1_m2_i1",
+                "type": "ai-mission",
+                "prompt_es": "Escribe un mensaje de conexión mencionando que te gustan sus publicaciones sobre IA.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u1_m3",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Contacto Mutuo",
+          "video": {
+            "video_id": "m3",
+            "objective": "Introduce yourself referencing a mutual contact.",
+            "vocabulary": ["On the recommendation of", "Mutual friend", "Expertise"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u1_m3_i1",
+                "type": "ai-mission",
+                "prompt_es": "Escribe un email mencionando que vienes de parte de David Miller.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u1_m4",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Propuesta de Colaboración",
+          "video": {
+            "video_id": "m4",
+            "objective": "Propose a potential collaboration.",
+            "vocabulary": ["Synergy", "Strategic partnership", "Value proposition"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u1_m4_i1",
+                "type": "ai-mission",
+                "prompt_es": "Escribe un email en frío proponiendo explorar sinergias entre vuestras empresas.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u1_m5",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Invitación a Evento",
+          "video": {
+            "video_id": "m5",
+            "objective": "Invite a contact to a professional event.",
+            "vocabulary": ["Guest speaker", "Webinar", "RSVP"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u1_m5_i1",
+                "type": "ai-mission",
+                "prompt_es": "Invita a un contacto a un webinar gratuito que organiza tu empresa el próximo jueves.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

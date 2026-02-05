@@ -1,0 +1,524 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "emails-work-u8",
+    "unit_title": "Unit 8: Negotiating & Proposals",
+    "total_duration_minutes": 120
+  },
+  "learning_outcomes": [
+    "Present professional proposals and counter-offers",
+    "Use conditional sentences for negotiation (If we..., then...)",
+    "Negotiate prices, terms, and deadlines via email",
+    "Accept or decline offers politely and professionally",
+    "Persuade others using benefit-oriented language"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Negotiation Vocabulary",
+      "duration_minutes": 30,
+      "content": [
+        {
+          "interaction_id": "u8_v1",
+          "type": "matching",
+          "prompt_es": "Vocabulario de negociación:",
+          "pairs": [
+            { "id": "p1", "left": "Counter-offer", "right": "Contraoferta" },
+            { "id": "p2", "left": "Terms and conditions", "right": "Términos y condiciones" },
+            { "id": "p3", "left": "Mutual agreement", "right": "Acuerdo mutuo" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u8_v2",
+          "type": "matching",
+          "prompt_es": "Sobre precios y pagos:",
+          "pairs": [
+            { "id": "p1", "left": "Unit price", "right": "Precio por unidad" },
+            { "id": "p2", "left": "Bulk discount", "right": "Descuento por volumen" },
+            { "id": "p3", "left": "Installment", "right": "Plazo (de pago)" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u8_v3",
+          "type": "matching",
+          "prompt_es": "Logros en la negociación:",
+          "pairs": [
+            { "id": "p1", "left": "Win-win situation", "right": "Situación en la que todos ganan" },
+            { "id": "p2", "left": "Breakthrough", "right": "Avance significativo" },
+            { "id": "p3", "left": "Finalize", "right": "Finalizar / Concluir" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u8_v4",
+          "type": "matching",
+          "prompt_es": "Acciones de negociación:",
+          "pairs": [
+            { "id": "p1", "left": "Compromise", "right": "Llegar a un acuerdo intermedio / Ceder" },
+            { "id": "p2", "left": "Reject", "right": "Rechazar" },
+            { "id": "p3", "left": "Consider", "right": "Considerar / Tener en cuenta" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u8_v5",
+          "type": "matching",
+          "prompt_es": "Persuasión:",
+          "pairs": [
+            { "id": "p1", "left": "Added value", "right": "Valor añadido" },
+            { "id": "p2", "left": "Competitive edge", "right": "Ventaja competitiva" },
+            { "id": "p3", "left": "Feasible", "right": "Viable / Factible" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Conditionals (If/Unless)",
+      "duration_minutes": 25,
+      "content": [
+        {
+          "interaction_id": "u8_g1",
+          "type": "transformation",
+          "prompt_es": "First Conditional (If + present, will + infinitive):",
+          "stimulus_en": "If you buy 100 units, we ________ (dar) you a 10% discount.",
+          "correct_answer": "will give",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u8_g2",
+          "type": "transformation",
+          "prompt_es": "Second Conditional (If + past, would + infinitive) para propuestas hipotéticas:",
+          "stimulus_en": "If we ________ (bajar) the price, would you sign today?",
+          "correct_answer": "lowered",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u8_g3",
+          "type": "transformation",
+          "prompt_es": "Uso de 'Unless' (A menos que):",
+          "stimulus_en": "We cannot offer a discount ________ (a menos que) you pay upfront.",
+          "correct_answer": "unless",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u8_g4",
+          "type": "transformation",
+          "prompt_es": "First Conditional con 'as long as' (siempre que):",
+          "stimulus_en": "We can deliver by Monday ________ long as we receive the PO today.",
+          "correct_answer": "as",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u8_g5",
+          "type": "transformation",
+          "prompt_es": "Modal 'might' para oferta tentativa:",
+          "stimulus_en": "We ________ (podríamos quizás) be able to adjust the delivery date.",
+          "correct_answer": "might",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u8_g6",
+          "type": "transformation",
+          "prompt_es": "Uso de 'provided that' (con tal de que):",
+          "stimulus_en": "________ (Con tal de que) that the quality is high, we are interested.",
+          "correct_answer": "Provided",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u8_g7",
+          "type": "transformation",
+          "prompt_es": "Future simple para decisiones espontáneas:",
+          "stimulus_en": "That sounds fair. I ________ (aceptar) those terms.",
+          "correct_answer": "will accept",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u8_g8",
+          "type": "transformation",
+          "prompt_es": "Uso de 'although' (aunque) en contraofertas:",
+          "stimulus_en": "________ (Aunque) we like the proposal, the price is too high.",
+          "correct_answer": "Although",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u8_g9",
+          "type": "transformation",
+          "prompt_es": "Passive voice for agreements:",
+          "stimulus_en": "The terms ________ (acordar) during our last call.",
+          "correct_answer": "were agreed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u8_g10",
+          "type": "transformation",
+          "prompt_es": "Uso de 'be able to' en negociaciones:",
+          "stimulus_en": "Will you ________ (ser capaz) to meet our deadline?",
+          "correct_answer": "be able",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Email Analysis: Persuasion & Terms",
+      "duration_minutes": 30,
+      "content": [
+        {
+          "interaction_id": "u8_r1",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'We are prepared to offer a 5% discount if the order is increased.' ¿Qué propone?",
+          "options": [
+            { "id": "o1", "text": "Un descuento condicionado a aumentar el pedido" },
+            { "id": "o2", "text": "Un descuento sin condiciones" },
+            { "id": "o3", "text": "Subir el precio un 5%" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u8_r2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to reach a deadlock'?",
+          "options": [
+            { "id": "o1", "text": "Llegar a un punto muerto / estancamiento" },
+            { "id": "o2", "text": "Llegar a un acuerdo rápido" },
+            { "id": "o3", "text": "Abrir una puerta muerta" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u8_r3",
+          "type": "multiple_choice",
+          "prompt_es": "Si alguien pide 'favorable terms', busca:",
+          "options": [
+            { "id": "o1", "text": "Condiciones beneficiosas" },
+            { "id": "o2", "text": "Palabras bonitas" },
+            { "id": "o3", "text": "Un clima caluroso" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u8_r4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to meet someone halfway'?",
+          "options": [
+            { "id": "o1", "text": "Ceder ambas partes para llegar a un acuerdo medio" },
+            { "id": "o2", "text": "Caminar la mitad del camino" },
+            { "id": "o3", "text": "Ignorar la mitad de la oferta" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u8_r5",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'This offer is only valid until Friday.' ¿Qué introduce?",
+          "options": [
+            { "id": "o1", "text": "Sentido de urgencia" },
+            { "id": "o2", "text": "Un día de fiesta" },
+            { "id": "o3", "text": "Un descuento para siempre" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u8_r6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Non-negotiable'?",
+          "options": [
+            { "id": "o1", "text": "Que no se puede negociar" },
+            { "id": "o2", "text": "Que es muy barato" },
+            { "id": "o3", "text": "Que no hay negocio" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u8_r7",
+          "type": "multiple_choice",
+          "prompt_es": "Si una propuesta es 'comprehensive', quiere decir que:",
+          "options": [
+            { "id": "o1", "text": "Es detallada y completa" },
+            { "id": "o2", "text": "Es muy comprensiva con los problemas" },
+            { "id": "o3", "text": "Es corta y sencilla" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u8_r8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to seal the deal'?",
+          "options": [
+            { "id": "o1", "text": "Cerrar / finalizar el acuerdo" },
+            { "id": "o2", "text": "Poner un sello a un sobre" },
+            { "id": "o3", "text": "Empezar a negociar" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u8_r9",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'We are open to further negotiation.' ¿Qué indica?",
+          "options": [
+            { "id": "o1", "text": "Flexibilidad para seguir negociando" },
+            { "id": "o2", "text": "Que la negociación ha terminado" },
+            { "id": "o3", "text": "Que no aceptan cambios" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u8_r10",
+          "type": "multiple_choice",
+          "prompt_es": "Si alguien dice 'This is our final offer', significa:",
+          "options": [
+            { "id": "o1", "text": "Es la última oferta y no habrá más cambios" },
+            { "id": "o2", "text": "Es la primera de muchas ofertas" },
+            { "id": "o3", "text": "Es una oferta falsa" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Writing Analysis: Proposals",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "u8_w1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo introduces una contraoferta de precio?",
+          "options": [
+            { "id": "o1", "text": "Your price is bad." },
+            { "id": "o2", "text": "Based on our budget, we would like to propose a price of $X instead." },
+            { "id": "o3", "text": "I want it cheaper." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u8_w2",
+          "type": "multiple_choice",
+          "prompt_es": "Aceptas los términos. ¿Qué frase usas?",
+          "options": [
+            { "id": "o1", "text": "We are happy to accept the terms as outlined in your proposal." },
+            { "id": "o2", "text": "Yes, let's do it." },
+            { "id": "o3", "text": "Okay for me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u8_w3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo rechazas una oferta educadamente?",
+          "options": [
+            { "id": "o1", "text": "No, thanks." },
+            { "id": "o2", "text": "I'm afraid we cannot accept this offer at the moment, but we appreciate your interest." },
+            { "id": "o3", "text": "Your offer is not good enough." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u8_w4",
+          "type": "multiple_choice",
+          "prompt_es": "Quieres enfatizar un beneficio:",
+          "options": [
+            { "id": "o1", "text": "By using our service, you will significantly reduce your operational costs." },
+            { "id": "o2", "text": "Our service is good for you." },
+            { "id": "o3", "text": "You will like us." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u8_w5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la mejor opción para pedir flexibilidad: 'Is there any ________ (margen) for negotiation on the delivery date?'",
+          "options": [
+            { "id": "o1", "text": "room" },
+            { "id": "o2", "text": "space" },
+            { "id": "o3", "text": "place" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u8_w6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Value for money'?",
+          "options": [
+            { "id": "o1", "text": "Relación calidad-precio" },
+            { "id": "o2", "text": "Dinero de valor" },
+            { "id": "o3", "text": "Gastar mucho dinero" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u8_w7",
+          "type": "multiple_choice",
+          "prompt_es": "Para pedir que revisen una propuesta:",
+          "options": [
+            { "id": "o1", "text": "Please take a look at the attached proposal and let us know your thoughts." },
+            { "id": "o2", "text": "Read this and tell me." },
+            { "id": "o3", "text": "Review it now." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u8_w8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Core requirements'?",
+          "options": [
+            { "id": "o1", "text": "Requisitos fundamentales" },
+            { "id": "o2", "text": "Requisitos secundarios" },
+            { "id": "o3", "text": "Requisitos del corazón" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u8_w9",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la mejor opción: 'We look forward to a ________ (fructífera) collaboration.'",
+          "options": [
+            { "id": "o1", "text": "fruitful" },
+            { "id": "o2", "text": "good" },
+            { "id": "o3", "text": "happy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u8_w10",
+          "type": "multiple_choice",
+          "prompt_es": "Si quieres concluir el email con optimismo:",
+          "options": [
+            { "id": "o1", "text": "I am confident that we can reach a mutually beneficial agreement." },
+            { "id": "o2", "text": "I hope you say yes." },
+            { "id": "o3", "text": "See you soon." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Mission: Negotiation Challenges",
+      "duration_minutes": 15,
+      "content": [
+        {
+          "interaction_id": "u8_m1",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Contraoferta de Precio",
+          "video": {
+            "video_id": "u8_m1",
+            "objective": "Negotiate a lower price for a service.",
+            "vocabulary": ["Budget", "Counter-offer", "Competitive"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u8_m1_i1",
+                "type": "ai-mission",
+                "prompt_es": "Explica que el precio es un poco alto para tu presupuesto y ofrece pagar un 10% menos.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u8_m2",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Pedir Descuento por Volumen",
+          "video": {
+            "video_id": "u8_m2",
+            "objective": "Request a discount for a large order.",
+            "vocabulary": ["Bulk discount", "Increase", "Conditions"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u8_m2_i1",
+                "type": "ai-mission",
+                "prompt_es": "Propón aumentar el pedido a 500 unidades si te ofrecen un descuento del 15%.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u8_m3",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Negociar Plazo de Entrega",
+          "video": {
+            "video_id": "u8_m3",
+            "objective": "Request an earlier delivery date.",
+            "vocabulary": ["Deadline", "Accelerate", "Appreciate"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u8_m3_i1",
+                "type": "ai-mission",
+                "prompt_es": "Pide si es posible adelantar la entrega una semana por un evento urgente.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u8_m4",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Aceptar Propuesta con Cambio",
+          "video": {
+            "video_id": "u8_m4",
+            "objective": "Accept a proposal but change one condition.",
+            "vocabulary": ["Agree", "Condition", "Adjustment"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u8_m4_i1",
+                "type": "ai-mission",
+                "prompt_es": "Dile que aceptas el presupuesto pero que necesitas pagar en dos plazos.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u8_m5",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Rechazar con Elegancia",
+          "video": {
+            "video_id": "u8_m5",
+            "objective": "Decline an offer while keeping the door open.",
+            "vocabulary": ["Decline", "Future opportunities", "Current needs"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u8_m5_i1",
+                "type": "ai-mission",
+                "prompt_es": "Rechaza una propuesta de software diciendo que ya tenéis una solución, pero que les tendréis en cuenta a futuro.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

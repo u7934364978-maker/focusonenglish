@@ -1,5 +1,6 @@
 import React from 'react';
 import { premiumCourseService } from '@/lib/services/premium-course-service';
+import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
 import { createClient } from '@/lib/supabase/client';
 import PracticeClient from './PracticeClient';
 
@@ -10,10 +11,10 @@ export default async function PracticePage() {
   const userId = user?.id || 'anonymous';
 
   // Fetch all interactions and filter by those NOT completed
-  const allInteractions = await premiumCourseService.getAllA1Interactions();
+  const allInteractions = await premiumCourseServerService.getAllInteractions('ingles-a1');
   
   // Only use interactions from units 1-60
-  const units = await premiumCourseService.getUnits('ingles-a1');
+  const units = await premiumCourseServerService.getUnits('ingles-a1');
   const allowedUnits = units.slice(0, 60);
   const allowedInteractionIds = new Set(allowedUnits.flatMap(u => u.interactionIds));
   const filteredInteractions = allInteractions.filter(i => allowedInteractionIds.has(i.interaction_id));

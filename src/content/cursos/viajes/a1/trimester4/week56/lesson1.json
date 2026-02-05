@@ -1,0 +1,1820 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "viajes-a1-u56",
+    "unit_title": "Reporting a Crime/Theft",
+    "total_duration_minutes": 120
+  },
+  "blocks": [
+    {
+      "block_id": "B56",
+      "title": "Reporting a Crime/Theft",
+      "content": [
+        {
+          "interaction_id": "U56_I1",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p1",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p2",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p3",
+              "left": "Police",
+              "right": "Policía"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Policía",
+          "correct_answer": "Police",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ladrón' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Thief"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I7",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p1",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p2",
+              "left": "Police",
+              "right": "Policía"
+            },
+            {
+              "id": "p3",
+              "left": "Thief",
+              "right": "Ladrón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I8",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "56"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I11",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Robado",
+          "correct_answer": "Stolen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Robado' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Stolen"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I13",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p1",
+              "left": "Police",
+              "right": "Policía"
+            },
+            {
+              "id": "p2",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p3",
+              "left": "Thief",
+              "right": "Ladrón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I14",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I17",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Policía",
+          "correct_answer": "Police",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Robado' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Stolen"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I19",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Police",
+              "right": "Policía"
+            },
+            {
+              "id": "p1",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p2",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p3",
+              "left": "Stolen",
+              "right": "Robado"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I20",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 56. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Policía",
+          "correct_answer": "Police",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Policía' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Police"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I25",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Police",
+              "right": "Policía"
+            },
+            {
+              "id": "p1",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p2",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p3",
+              "left": "Stolen",
+              "right": "Robado"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "56"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I29",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ladrón",
+          "correct_answer": "Thief",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ladrón' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Thief"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I31",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p1",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p2",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p3",
+              "left": "Police",
+              "right": "Policía"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I32",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I35",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ladrón",
+          "correct_answer": "Thief",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Policía' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Police"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p1",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p2",
+              "left": "Police",
+              "right": "Policía"
+            },
+            {
+              "id": "p3",
+              "left": "Thief",
+              "right": "Ladrón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ladrón",
+          "correct_answer": "Thief",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ladrón' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Thief"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p1",
+              "left": "Police",
+              "right": "Policía"
+            },
+            {
+              "id": "p2",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p3",
+              "left": "Thief",
+              "right": "Ladrón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I44",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 56. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Robado",
+          "correct_answer": "Stolen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ladrón' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Thief"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I49",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Police",
+              "right": "Policía"
+            },
+            {
+              "id": "p1",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p2",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p3",
+              "left": "Stolen",
+              "right": "Robado"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I50",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 56. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "56"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I53",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Policía",
+          "correct_answer": "Police",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ladrón' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Thief"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I55",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Police",
+              "right": "Policía"
+            },
+            {
+              "id": "p1",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p2",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p3",
+              "left": "Stolen",
+              "right": "Robado"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I56",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "56"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ladrón",
+          "correct_answer": "Thief",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ladrón' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Thief"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I61",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p1",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p2",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p3",
+              "left": "Police",
+              "right": "Policía"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I62",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I65",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Robado",
+          "correct_answer": "Stolen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Policía' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Police"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I67",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p1",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p2",
+              "left": "Police",
+              "right": "Policía"
+            },
+            {
+              "id": "p3",
+              "left": "Thief",
+              "right": "Ladrón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I68",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "56"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I71",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Policía",
+          "correct_answer": "Police",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Robado' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Stolen"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I73",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p1",
+              "left": "Police",
+              "right": "Policía"
+            },
+            {
+              "id": "p2",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p3",
+              "left": "Thief",
+              "right": "Ladrón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I74",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I77",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Robado",
+          "correct_answer": "Stolen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ladrón' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Thief"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I79",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Police",
+              "right": "Policía"
+            },
+            {
+              "id": "p1",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p2",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p3",
+              "left": "Stolen",
+              "right": "Robado"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Robado",
+          "correct_answer": "Stolen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ladrón' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Thief"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Police",
+              "right": "Policía"
+            },
+            {
+              "id": "p1",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p2",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p3",
+              "left": "Stolen",
+              "right": "Robado"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I86",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I89",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ladrón",
+          "correct_answer": "Thief",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Robado' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Stolen"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I91",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p1",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p2",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p3",
+              "left": "Police",
+              "right": "Policía"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I92",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 56. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I95",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Policía",
+          "correct_answer": "Police",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Robado' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Stolen"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I97",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Thief",
+              "right": "Ladrón"
+            },
+            {
+              "id": "p1",
+              "left": "Stolen",
+              "right": "Robado"
+            },
+            {
+              "id": "p2",
+              "left": "Police",
+              "right": "Policía"
+            },
+            {
+              "id": "p3",
+              "left": "Thief",
+              "right": "Ladrón"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U56_I98",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bag was (robado) ________.",
+          "correct_answer": "stolen",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

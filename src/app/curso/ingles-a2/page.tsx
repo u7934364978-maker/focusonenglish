@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navigation } from '@/components/sections/Navigation';
 import { premiumCourseService } from '@/lib/services/premium-course-service';
+import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
 import { createClient } from '@/lib/supabase/client';
 import Link from 'next/link';
 import { Trophy, Play, CheckCircle2, LayoutGrid, Target, Clock } from 'lucide-react';
@@ -12,7 +13,7 @@ export default async function A2CoursePage() {
   const userId = user?.id || 'anonymous';
 
   // Fetch all units and user progress
-  const units = await premiumCourseService.getUnits('ingles-a2');
+  const units = await premiumCourseServerService.getUnits('ingles-a2');
   
   // A2 progress fetching logic
   const { data: progressData } = await supabase
@@ -23,7 +24,7 @@ export default async function A2CoursePage() {
   const completedIds = (progressData || []).map(p => p.interaction_id);
   const completedSet = new Set(completedIds);
   
-  const allInteractions = await premiumCourseService.getAllInteractions('ingles-a2');
+  const allInteractions = await premiumCourseServerService.getAllInteractions('ingles-a2');
   const totalExercises = allInteractions.length;
   const completedExercises = allInteractions.filter(i => completedSet.has(i.interaction_id)).length;
   const progressPercentage = totalExercises > 0 

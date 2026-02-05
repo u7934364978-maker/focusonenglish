@@ -1,5 +1,6 @@
 import React from 'react';
 import { premiumCourseService } from '@/lib/services/premium-course-service';
+import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
 import { createClient } from '@/lib/supabase/client';
 import { redirect } from 'next/navigation';
 import PracticeClient from './PracticeClient';
@@ -18,7 +19,7 @@ export default async function PracticePage() {
   const userId = user?.id || 'anonymous';
 
   // Fetch all interactions and filter by those NOT completed
-  const allInteractions = await premiumCourseService.getAllB2Interactions();
+  const allInteractions = await premiumCourseServerService.getAllB2Interactions();
   const completedIds = await premiumCourseService.getB2Progress(userId);
   
   const completedSet = new Set(completedIds);

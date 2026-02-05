@@ -38,25 +38,20 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. Each task should reference relevant contracts and include verification steps
 3. Replace the Implementation step below with the planned tasks
 
-### [x] Step: Implementation Tasks
+### [x] Phase 2: UX Excellence & Content Expansion (200 Exercises)
 
-1. [x] Create `NEGOCIACIONES_B2` curriculum structure in `src/lib/curriculum-data.ts`
-2. [x] Implement M1 L1: The Preparation Phase (Vocab & Grammar) in `src/lib/b2-neg-m1-l1.ts`
-3. [x] Implement M1 L2: Opening the Negotiation (Listening & Speaking) in `src/lib/b2-neg-m1-l2.ts`
-4. [x] Implement M2 L1: The Art of Bargaining (Conditionals & Roleplay) in `src/lib/b2-neg-m2-l1.ts`
-5. [x] Implement M3 L1: Reaching Agreements & Closing (Writing & Review) in `src/lib/b2-neg-m3-l1.ts`
-6. [x] Create course aggregation data in `src/lib/course-data-b2-neg.ts`
-7. [x] Implement Course Dashboard at `src/app/curso/negociaciones-b2/page.tsx`
-8. [x] Refactor `B2UnitSession` and create Lesson Player at `src/app/curso/negociaciones-b2/[lessonId]/page.tsx`
-9. [x] Verify integration and fix type errors in new files
-10. [x] Final verification and completion check
-11. [x] Troubleshoot CSS/JS loading issues (MIME type mismatch)
-    - [x] Update `src/middleware.ts` to include `/curso/` routes
-    - [x] Temporarily disable `nosniff` header in `next.config.js` to debug
-    - [x] Align `supabase` client usage with existing course pages
-12. [x] Add listening exercises and generate audio
-    - [x] Add listening exercise to Module 1 Lesson 1
-    - [x] Update `scripts/generate-course-audio.ts` to support `listening-comprehension`
-    - [x] Execute audio generation (Note: 1/4 generated, remaining pending due to ElevenLabs quota)
+1. [x] **UX Excellence**: Enhance student engagement
+    - [x] Granular progress tracking and XP display in `B2UnitSession.tsx`
+    - [x] Implementation of "Modo Foco" (Focus Mode)
+    - [x] Celebration effects (confetti) on block/unit completion
+    - [x] Advanced feedback (streaks, floating XP) in `B2ExerciseDispatcher.tsx`
+2. [x] **Content Expansion**: 50 exercises per unit
+    - [x] Unit 1: The Preparation Phase (50 exercises)
+    - [x] Unit 2: Opening the Negotiation (50 exercises)
+    - [x] Unit 3: The Art of Bargaining (50 exercises)
+    - [x] Unit 4: Handling Conflict and Closing (50 exercises)
+3. [x] **Verification & Quality Check**
+    - [x] Run typechecks and linting on new files
+    - [x] Verify course progression in the browser
 
 

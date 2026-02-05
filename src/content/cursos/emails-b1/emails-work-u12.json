@@ -1,0 +1,524 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "emails-work-u12",
+    "unit_title": "Unit 12: Giving News (Good & Bad)",
+    "total_duration_minutes": 120
+  },
+  "learning_outcomes": [
+    "Announce positive developments (promotions, successes, new hires)",
+    "Deliver negative news professionally (delays, rejections, cancellations)",
+    "Use appropriate transition words (Fortunately, Unfortunately, However)",
+    "Express empathy and offer solutions when giving bad news",
+    "Maintain a professional tone regardless of the news type"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Announcement Vocabulary",
+      "duration_minutes": 30,
+      "content": [
+        {
+          "interaction_id": "u12_v1",
+          "type": "matching",
+          "prompt_es": "Anuncios positivos:",
+          "pairs": [
+            { "id": "p1", "left": "Pleased to announce", "right": "Encantado de anunciar" },
+            { "id": "p2", "left": "Promotion", "right": "Ascenso" },
+            { "id": "p3", "left": "Achievement", "right": "Logro / Éxito" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u12_v2",
+          "type": "matching",
+          "prompt_es": "Anuncios negativos:",
+          "pairs": [
+            { "id": "p1", "left": "Regret to inform", "right": "Lamentar informar" },
+            { "id": "p2", "left": "Cancellation", "right": "Cancelación" },
+            { "id": "p3", "left": "Setback", "right": "Contratiempo / Revés" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u12_v3",
+          "type": "matching",
+          "prompt_es": "Palabras de transición:",
+          "pairs": [
+            { "id": "p1", "left": "Fortunately", "right": "Afortunadamente" },
+            { "id": "p2", "left": "Regrettably", "right": "Lamentablemente" },
+            { "id": "p3", "left": "Due to", "right": "Debido a" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u12_v4",
+          "type": "matching",
+          "prompt_es": "Sobre personal:",
+          "pairs": [
+            { "id": "p1", "left": "Join the team", "right": "Unirse al equipo" },
+            { "id": "p2", "left": "Departure", "right": "Salida / Partida (de un empleado)" },
+            { "id": "p3", "left": "Successor", "right": "Sucesor" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u12_v5",
+          "type": "matching",
+          "prompt_es": "Impacto de las noticias:",
+          "pairs": [
+            { "id": "p1", "left": "Implications", "right": "Implicaciones" },
+            { "id": "p2", "left": "Next steps", "right": "Próximos pasos" },
+            { "id": "p3", "left": "Adjustment", "right": "Ajuste" }
+          ],
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Contrast Conjunctions",
+      "duration_minutes": 25,
+      "content": [
+        {
+          "interaction_id": "u12_g1",
+          "type": "transformation",
+          "prompt_es": "Uso de 'However' para contrastar:",
+          "stimulus_en": "We hit our targets. ________ (Sin embargo), we still need to improve efficiency.",
+          "correct_answer": "However",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u12_g2",
+          "type": "transformation",
+          "prompt_es": "Uso de 'Despite' + sustantivo:",
+          "stimulus_en": "________ (A pesar de) the delay, the client is happy with the result.",
+          "correct_answer": "Despite",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u12_g3",
+          "type": "transformation",
+          "prompt_es": "Uso de 'Although' + oración completa:",
+          "stimulus_en": "________ (Aunque) the news is difficult, we have a plan.",
+          "correct_answer": "Although",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u12_g4",
+          "type": "transformation",
+          "prompt_es": "Future Perfect para metas logradas:",
+          "stimulus_en": "By next month, we ________ (habremos lanzado) the new app.",
+          "correct_answer": "will have launched",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u12_g5",
+          "type": "transformation",
+          "prompt_es": "Modal 'would like to' para anuncios formales:",
+          "stimulus_en": "We ________ (nos gustaría) to introduce our new CEO.",
+          "correct_answer": "would like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u12_g6",
+          "type": "transformation",
+          "prompt_es": "Uso de 'Due to' para causas de malas noticias:",
+          "stimulus_en": "The event is canceled ________ to unforeseen circumstances.",
+          "correct_answer": "due",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u12_g7",
+          "type": "transformation",
+          "prompt_es": "Passive voice para anuncios de empresa:",
+          "stimulus_en": "It ________ (ha sido decidido) that the office will close on Fridays.",
+          "correct_answer": "has been decided",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u12_g8",
+          "type": "transformation",
+          "prompt_es": "Uso de 'Even though':",
+          "stimulus_en": "________ though we lost the contract, we learned a lot.",
+          "correct_answer": "Even",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u12_g9",
+          "type": "transformation",
+          "prompt_es": "Modal 'might' para posibles consecuencias:",
+          "stimulus_en": "This change ________ (podría quizás) affect your login details.",
+          "correct_answer": "might",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u12_g10",
+          "type": "transformation",
+          "prompt_es": "Uso de 'In spite of':",
+          "stimulus_en": "In ________ of the challenges, we finished on time.",
+          "correct_answer": "spite",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Email Analysis: Tones of News",
+      "duration_minutes": 30,
+      "content": [
+        {
+          "interaction_id": "u12_r1",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'I am delighted to share some wonderful news.' ¿Qué sigue?",
+          "options": [
+            { "id": "o1", "text": "Algo positivo (ej. un premio o éxito)" },
+            { "id": "o2", "text": "Un despido" },
+            { "id": "o3", "text": "Una factura impagada" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u12_r2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to break the news'?",
+          "options": [
+            { "id": "o1", "text": "Dar una noticia (generalmente importante o difícil)" },
+            { "id": "o2", "text": "Romper un periódico" },
+            { "id": "o3", "text": "Inventar una noticia" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u12_r3",
+          "type": "multiple_choice",
+          "prompt_es": "Si un email dice 'I'm afraid I have some bad news', el autor está:",
+          "options": [
+            { "id": "o1", "text": "Suavizando el impacto de una noticia negativa" },
+            { "id": "o2", "text": "Diciendo que tiene miedo de la oscuridad" },
+            { "id": "o3", "text": "Bromeando" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u12_r4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to step down'?",
+          "options": [
+            { "id": "o1", "text": "Dejar un cargo o posición" },
+            { "id": "o2", "text": "Bajar un escalón" },
+            { "id": "o3", "text": "Pisar fuerte" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u12_r5",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'We have no choice but to postpone the launch.' ¿Qué indica?",
+          "options": [
+            { "id": "o1", "text": "Que es una decisión obligada e inevitable" },
+            { "id": "o2", "text": "Que tienen muchas opciones" },
+            { "id": "o3", "text": "Que el lanzamiento ha sido un éxito" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u12_r6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'to be thrilled'?",
+          "options": [
+            { "id": "o1", "text": "Estar muy emocionado / encantado" },
+            { "id": "o2", "text": "Estar cansado" },
+            { "id": "o3", "text": "Estar asustado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u12_r7",
+          "type": "multiple_choice",
+          "prompt_es": "Si alguien dice 'We appreciate your understanding', suele ser:",
+          "options": [
+            { "id": "o1", "text": "Al final de una mala noticia o cambio molesto" },
+            { "id": "o2", "text": "Al recibir un premio" },
+            { "id": "o3", "text": "Al pedir dinero" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u12_r8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Unforeseen'?",
+          "options": [
+            { "id": "o1", "text": "Imprevisto / Inesperado" },
+            { "id": "o2", "text": "Sin visión" },
+            { "id": "o3", "text": "Muy caro" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u12_r9",
+          "type": "multiple_choice",
+          "prompt_es": "Analiza: 'Please join me in welcoming Maria to the team.' ¿Qué ocurre?",
+          "options": [
+            { "id": "o1", "text": "Se anuncia una nueva incorporación" },
+            { "id": "o2", "text": "Maria se va de la empresa" },
+            { "id": "o3", "text": "Maria ha ganado un premio" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u12_r10",
+          "type": "multiple_choice",
+          "prompt_es": "Si un anuncio dice 'This change is effective immediately', significa:",
+          "options": [
+            { "id": "o1", "text": "El cambio se aplica desde ya mismo" },
+            { "id": "o2", "text": "El cambio será el año que viene" },
+            { "id": "o3", "text": "El cambio no es importante" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Writing Analysis: Softening the Blow",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "u12_w1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo empiezas un email de buenas noticias de forma profesional?",
+          "options": [
+            { "id": "o1", "text": "Great news!" },
+            { "id": "o2", "text": "I am pleased to inform you that your proposal has been accepted." },
+            { "id": "o3", "text": "You won." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u12_w2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo das una noticia negativa de forma diplomática?",
+          "options": [
+            { "id": "o1", "text": "We cannot do it." },
+            { "id": "o2", "text": "Unfortunately, we are unable to proceed with your request at this time." },
+            { "id": "o3", "text": "No for you." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u12_w3",
+          "type": "multiple_choice",
+          "prompt_es": "Quieres anunciar que alguien deja la empresa amablemente:",
+          "options": [
+            { "id": "o1", "text": "We wish John all the best in his future endeavors." },
+            { "id": "o2", "text": "John is gone." },
+            { "id": "o3", "text": "John doesn't work here anymore." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u12_w4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides disculpas por un cambio de planes repentino?",
+          "options": [
+            { "id": "o1", "text": "We apologize for any inconvenience this change may cause." },
+            { "id": "o2", "text": "Sorry for change." },
+            { "id": "o3", "text": "My bad for the plans." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u12_w5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la mejor opción: 'We are ________ (orgullosos) to be part of this project.'",
+          "options": [
+            { "id": "o1", "text": "proud" },
+            { "id": "o2", "text": "happy" },
+            { "id": "o3", "text": "good" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u12_w6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué frase indica que vas a dar una explicación?",
+          "options": [
+            { "id": "o1", "text": "Let me provide some context regarding this decision." },
+            { "id": "o2", "text": "I will tell you why." },
+            { "id": "o3", "text": "Here is the reason." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u12_w7",
+          "type": "multiple_choice",
+          "prompt_es": "Para felicitar a alguien por un logro:",
+          "options": [
+            { "id": "o1", "text": "Congratulations on your well-deserved promotion!" },
+            { "id": "o2", "text": "Good for you." },
+            { "id": "o3", "text": "Happy for your new job." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u12_w8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'To make redundant'?",
+          "options": [
+            { "id": "o1", "text": "Despedir por causas económicas o de reestructuración" },
+            { "id": "o2", "text": "Hacer algo dos veces" },
+            { "id": "o3", "text": "Ser muy repetitivo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u12_w9",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la mejor opción: 'We ________ (lamentamos) any delay in our response.'",
+          "options": [
+            { "id": "o1", "text": "regret" },
+            { "id": "o2", "text": "feel bad" },
+            { "id": "o3", "text": "are sorry" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "u12_w10",
+          "type": "multiple_choice",
+          "prompt_es": "Si quieres cerrar con esperanza tras una mala noticia:",
+          "options": [
+            { "id": "o1", "text": "We are confident that we will overcome this challenge together." },
+            { "id": "o2", "text": "I hope it gets better." },
+            { "id": "o3", "text": "See you soon anyway." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "writing"
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Mission: News Delivery Challenges",
+      "duration_minutes": 15,
+      "content": [
+        {
+          "interaction_id": "u12_m1",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Anunciar Éxito en Ventas",
+          "video": {
+            "video_id": "u12_m1",
+            "objective": "Announce a major success to the company.",
+            "vocabulary": ["Delighted", "Milestone", "Team effort"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u12_m1_i1",
+                "type": "ai-mission",
+                "prompt_es": "Anuncia a toda la empresa que habéis conseguido el contrato más grande del año.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u12_m2",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Informar de un Retraso",
+          "video": {
+            "video_id": "u12_m2",
+            "objective": "Inform a client about a project delay.",
+            "vocabulary": ["Unfortunately", "Delay", "Revised schedule"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u12_m2_i1",
+                "type": "ai-mission",
+                "prompt_es": "Explica al cliente que el lanzamiento se retrasa una semana debido a problemas técnicos imprevistos.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u12_m3",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Anunciar Nuevo Empleado",
+          "video": {
+            "video_id": "u12_m3",
+            "objective": "Introduce a new team member via email.",
+            "vocabulary": ["Welcome", "Role", "Expertise"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u12_m3_i1",
+                "type": "ai-mission",
+                "prompt_es": "Escribe un email dando la bienvenida a David, el nuevo diseñador gráfico, que empieza el lunes.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u12_m4",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Rechazar una Candidatura",
+          "video": {
+            "video_id": "u12_m4",
+            "objective": "Politely reject a job applicant.",
+            "vocabulary": ["Regret", "Strong candidate", "Future opportunities"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u12_m4_i1",
+                "type": "ai-mission",
+                "prompt_es": "Dile a un candidato que, aunque su perfil es bueno, han decidido avanzar con otra persona.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        },
+        {
+          "interaction_id": "u12_m5",
+          "type": "ai-mission",
+          "prompt_es": "Misión: Anunciar Salida de un Colega",
+          "video": {
+            "video_id": "u12_m5",
+            "objective": "Announce that a colleague is leaving the company.",
+            "vocabulary": ["Departure", "Contribution", "Wish well"],
+            "scenes": [],
+            "interactions": [
+              {
+                "interaction_id": "u12_m5_i1",
+                "type": "ai-mission",
+                "prompt_es": "Informa de que Laura deja la empresa este viernes y agradécele su trabajo estos años.",
+                "mastery_tag": "production"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

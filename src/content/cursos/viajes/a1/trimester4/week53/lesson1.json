@@ -1,0 +1,1810 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "viajes-a1-u53",
+    "unit_title": "Parts of the Body",
+    "total_duration_minutes": 120
+  },
+  "blocks": [
+    {
+      "block_id": "B53",
+      "title": "Parts of the Body",
+      "content": [
+        {
+          "interaction_id": "U53_I1",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p1",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 53. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pierna",
+          "correct_answer": "Leg",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pierna' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Leg"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I7",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p1",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I8",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I11",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pierna",
+          "correct_answer": "Leg",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cabeza' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Head"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I13",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p1",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I14",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I17",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Brazo",
+          "correct_answer": "Arm",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pierna' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Leg"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I19",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p1",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Arm",
+              "right": "Brazo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I20",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 53. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Brazo",
+          "correct_answer": "Arm",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pierna' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Leg"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I25",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Head",
+              "right": "Cabeza"
+            },
+            {
+              "id": "p1",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p2",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I29",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Brazo",
+          "correct_answer": "Arm",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cabeza' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Head"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I31",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p1",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I32",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 53. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "53"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I35",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cabeza",
+          "correct_answer": "Head",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pierna' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Leg"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p1",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w2",
+              "text": "visiting"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "places"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pierna",
+          "correct_answer": "Leg",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Arm"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p1",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I44",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 53. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pierna",
+          "correct_answer": "Leg",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Arm"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I49",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p1",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Arm",
+              "right": "Brazo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I50",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I53",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Brazo",
+          "correct_answer": "Arm",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Arm"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I55",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Head",
+              "right": "Cabeza"
+            },
+            {
+              "id": "p1",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p2",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I56",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 53. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cabeza",
+          "correct_answer": "Head",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cabeza' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Head"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I61",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p1",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I62",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I love visiting new places. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "passport?"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I65",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cabeza",
+          "correct_answer": "Head",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Arm"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I67",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p1",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I68",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"English is useful. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I71",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cabeza",
+          "correct_answer": "Head",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Arm"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I73",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p1",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I74",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 53. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I77",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pierna",
+          "correct_answer": "Leg",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Arm"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I79",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p1",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Arm",
+              "right": "Brazo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "amazing"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Travel"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Brazo",
+          "correct_answer": "Arm",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o1",
+              "text": "Arm"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Head",
+              "right": "Cabeza"
+            },
+            {
+              "id": "p1",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p2",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I86",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is my passport? no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I89",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cabeza",
+          "correct_answer": "Head",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cabeza' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Head"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I91",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p1",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I92",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 53. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "53"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I95",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cabeza",
+          "correct_answer": "Head",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pierna' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wrong1"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong2"
+            },
+            {
+              "id": "o1",
+              "text": "Leg"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I97",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p1",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p2",
+              "left": "Leg",
+              "right": "Pierna"
+            },
+            {
+              "id": "p3",
+              "left": "Leg",
+              "right": "Pierna"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I98",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My (pierna) ________ hurts.",
+          "correct_answer": "leg",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Travel is amazing. no\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U53_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "useful"
+            },
+            {
+              "id": "w0",
+              "text": "English"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}
