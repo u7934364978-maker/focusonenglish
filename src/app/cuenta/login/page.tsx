@@ -35,8 +35,11 @@ function SignInForm() {
       if (authError || !user) {
         setError('Email o contraseña incorrectos');
       } else {
-        // Redirigir y forzar recarga para actualizar el estado global de auth
-        window.location.href = callbackUrl;
+        console.log('Login successful, preparing redirect to:', callbackUrl);
+        // Pequeño retraso para asegurar que las cookies se asientan
+        setTimeout(() => {
+          window.location.href = callbackUrl;
+        }, 500);
       }
     } catch (err) {
       setError('Error al iniciar sesión. Intenta nuevamente.');

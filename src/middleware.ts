@@ -72,6 +72,14 @@ export async function middleware(request: NextRequest) {
 
   const { data: { user } } = await supabase.auth.getUser();
 
+  // Si está autenticado y va a login o registro, al dashboard
+  if (user && (pathname === "/cuenta/login" || pathname === "/cuenta/registro")) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/dashboard";
+    url.searchParams.delete("next");
+    return NextResponse.redirect(url);
+  }
+
   if (!user) {
     const url = request.nextUrl.clone();
     url.pathname = "/cuenta/login";
