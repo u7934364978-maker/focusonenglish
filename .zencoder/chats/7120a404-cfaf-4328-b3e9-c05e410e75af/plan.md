@@ -28,3 +28,9 @@
 ### Phase 4: Final Push & Commit
 - [x] **Final Build**: Run `npm run build` to verify all static course routes generate successfully.
 - [x] **Commit**: Push all course content and fixes with a descriptive commit message.
+
+### Phase 5: Dashboard Integration & Access Control
+- [x] **Access Logic**: Re-enabled middleware authentication for `/dashboard` and `/curso`.
+- [x] **Dashboard UI**: Added "Mi Curso Principal" card to `/dashboard` with dynamic link based on user level.
+- [x] **Route Protection**: Updated middleware to redirect unauthorized users.
+- [x] **Verification**: Run build and verify route linking.

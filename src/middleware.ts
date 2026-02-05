@@ -28,24 +28,26 @@ function isCourseRoute(pathname: string) {
 }
 
 export async function middleware(request: NextRequest) {
-  // Deshabilitar autenticación temporalmente
-  return NextResponse.next();
-  
   const pathname = request.nextUrl.pathname;
 
   // Rutas públicas
   if (
     PUBLIC_ROUTES.has(pathname) || 
     isBlogRoute(pathname) || 
-    isCourseRoute(pathname) ||
     pathname.startsWith("/api/webhooks") ||
     pathname.startsWith("/audio/")
   ) {
     return NextResponse.next();
   }
 
-  // Protección para la zona /dashboard y /app (si existe)
-  if (!pathname.startsWith("/dashboard") && !pathname.startsWith("/app")) {
+  // Protección para la zona /dashboard, /curso, /cursos, /aula, y /app
+  if (
+    !pathname.startsWith("/dashboard") && 
+    !pathname.startsWith("/curso") && 
+    !pathname.startsWith("/cursos") && 
+    !pathname.startsWith("/aula") && 
+    !pathname.startsWith("/app")
+  ) {
     return NextResponse.next();
   }
 

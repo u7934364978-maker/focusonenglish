@@ -103,6 +103,8 @@ export default function DashboardPage() {
           streakDays: streakData?.current_streak || 0,
           userLevel: currentLevel,
           levelTitle: getLevelTitle(currentLevel),
+          courseLink: profile?.language_level ? `/curso/ingles-${profile.language_level.toLowerCase()}` : '/curso/ingles-a1',
+          languageLevel: profile?.language_level || 'A1'
         });
 
         const statsData = progressStats?.[0] || {
@@ -229,6 +231,57 @@ export default function DashboardPage() {
                 <div className="flex items-center gap-2">
                   <span className="text-2xl">⚡</span>
                   <span>Progreso en tiempo real</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Sección de Curso Principal */}
+          <div className="bg-white rounded-3xl p-8 shadow-xl border-2 border-coral-50 overflow-hidden relative group">
+            <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:scale-110 transition-transform">
+              <span className="text-9xl">📚</span>
+            </div>
+            
+            <div className="relative z-10">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
+                <div>
+                  <h2 className="text-3xl font-black text-slate-900 mb-2">
+                    Mi Curso Principal: <span className="text-coral-500">Nivel {userData.languageLevel}</span>
+                  </h2>
+                  <p className="text-slate-600 text-lg max-w-2xl">
+                    Accede a las 60 unidades oficiales de tu nivel para dominar el inglés de manera estructurada.
+                  </p>
+                </div>
+                <Link
+                  href={userData.courseLink}
+                  className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-coral-500 text-white rounded-xl hover:bg-coral-600 transition-all font-bold text-lg shadow-lg hover:shadow-coral-200"
+                >
+                  <span>Continuar Estudiando</span>
+                  <span>→</span>
+                </Link>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                <div className="flex items-center gap-4 p-4 bg-slate-50 rounded-2xl">
+                  <span className="text-3xl">🎯</span>
+                  <div>
+                    <div className="text-xs text-slate-500 font-bold uppercase">Objetivo</div>
+                    <div className="text-sm font-black text-slate-900">Dominio {userData.languageLevel}</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4 p-4 bg-slate-50 rounded-2xl">
+                  <span className="text-3xl">📂</span>
+                  <div>
+                    <div className="text-xs text-slate-500 font-bold uppercase">Contenido</div>
+                    <div className="text-sm font-black text-slate-900">60 Unidades</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4 p-4 bg-slate-50 rounded-2xl">
+                  <span className="text-3xl">🏅</span>
+                  <div>
+                    <div className="text-xs text-slate-500 font-bold uppercase">Certificado</div>
+                    <div className="text-sm font-black text-slate-900">Al finalizar</div>
+                  </div>
                 </div>
               </div>
             </div>
