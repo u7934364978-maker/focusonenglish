@@ -103,7 +103,7 @@ export async function createHubSpotTicket(params: {
   pipeline?: string;
   stage?: string;
 }) {
-  const { subject, content, pipeline = 'default', stage = '1' } = params;
+  const { subject, content, pipeline = '0', stage = '4498894073' } = params;
   
   const ticketResult = await hubspotRequest('/crm/v3/objects/tickets', 'POST', {
     properties: {
