@@ -17,7 +17,9 @@ import {
 } from '../src/lib/text-to-speech';
 import { ALL_MODULES } from '../src/lib/course-data-b2';
 import { B2_NEG_MODULES } from '../src/lib/course-data-b2-neg';
+import { TOEFL_COURSES } from '../src/lib/toefl-units';
 import type { Module, Lesson, Exercise } from '../src/lib/exercise-types';
+import { UnitData, PremiumInteraction, PremiumBlock } from '../src/types/premium-course';
 import * as path from 'path';
 import * as fs from 'fs';
 
@@ -83,9 +85,10 @@ interface AudioToGenerate {
  */
 function collectAudiosToGenerate(): AudioToGenerate[] {
   const audios: AudioToGenerate[] = [];
+  
+  // 1. Process Legacy/Standard Courses
   const allAvailableModules = [...(ALL_MODULES as any[]), ...(B2_NEG_MODULES as any[])];
 
-  // Iterar por todos los módulos y lecciones
   allAvailableModules.forEach((module: any) => {
     const lessons = module.lessons || module.units || [];
     lessons.forEach((lesson: any) => {
@@ -113,7 +116,7 @@ function collectAudiosToGenerate(): AudioToGenerate[] {
           }
         }
 
-        // SPEAKING/PRONUNCIATION EXERCISES (generar modelos de audio)
+        // SPEAKING/PRONUNCIATION EXERCISES
         if ((exercise.type === 'speaking' || exercise.type === 'pronunciation') && 'targetText' in exercise) {
           const speakingEx = exercise as any;
           
@@ -134,6 +137,53 @@ function collectAudiosToGenerate(): AudioToGenerate[] {
             });
           }
         }
+      });
+    });
+  });
+
+  // 2. Process TOEFL Courses (Premium Structure)
+  TOEFL_COURSES.forEach(course => {
+    course.units.forEach((unit: any) => {
+      const unitData = unit as UnitData;
+      unitData.blocks.forEach(block => {
+        block.content.forEach((content: any) => {
+          // Check for audioUrl and transcript/tts_en
+          if (content.audioUrl && (content.transcript || content.tts_en)) {
+            const outputPath = path.join(process.cwd(), 'public', content.audioUrl);
+            
+            // Choose voice based on type
+            let voiceId = VOICE_IDS.narrator;
+            if (content.type?.includes('listening')) voiceId = VOICE_IDS.british_female;
+            if (content.type?.includes('speaking')) voiceId = VOICE_IDS.american_female;
+            if (content.type?.includes('conversation')) voiceId = VOICE_IDS.young_female;
+
+            audios.push({
+              lessonId: unitData.course.unit_id,
+              exerciseId: content.interaction_id || 'unknown',
+              text: (content.transcript || content.tts_en) as string,
+              voiceId,
+              outputPath,
+              type: 'listening'
+            });
+          }
+          
+          // Check for video scenes with tts_en
+          if (content.video?.scenes) {
+            content.video.scenes.forEach((scene: any) => {
+              if (scene.audioUrl && scene.tts_en) {
+                const outputPath = path.join(process.cwd(), 'public', scene.audioUrl);
+                audios.push({
+                  lessonId: unitData.course.unit_id,
+                  exerciseId: scene.scene_id,
+                  text: scene.tts_en,
+                  voiceId: VOICE_IDS.young_female,
+                  outputPath,
+                  type: 'conversation'
+                });
+              }
+            });
+          }
+        });
       });
     });
   });

@@ -343,6 +343,30 @@ class HubSpotCRM:
     # PROPIEDADES PERSONALIZADAS
     # =========================
     
+    def create_property_group(self, object_type: str, name: str, label: str) -> Dict[str, Any]:
+        """
+        Crear un grupo de propiedades
+        
+        Args:
+            object_type: Tipo de objeto (contacts, companies, etc.)
+            name: Nombre interno del grupo
+            label: Etiqueta visible del grupo
+            
+        Returns:
+            Diccionario con el resultado
+        """
+        data = {
+            'name': name,
+            'label': label
+        }
+        
+        result = self._make_request('POST', f'/crm/v3/properties/{object_type}/groups', data)
+        
+        if result.get('name'):
+            print(f"✅ Grupo de propiedades creado: {name}")
+        
+        return result
+
     def create_custom_property(self, object_type: str, name: str, label: str, 
                               field_type: str, group_name: str = 'contactinformation',
                               options: Optional[List[Dict]] = None) -> Dict[str, Any]:
@@ -360,11 +384,33 @@ class HubSpotCRM:
         Returns:
             Diccionario con el resultado de la operación
         """
+        # Mapeo de tipos para HubSpot
+        type_mapping = {
+            'text': 'string',
+            'number': 'number',
+            'date': 'date',
+            'datetime': 'datetime',
+            'enumeration': 'enumeration',
+            'boolean': 'bool'
+        }
+        
+        field_type_mapping = {
+            'text': 'text',
+            'number': 'number',
+            'date': 'date',
+            'datetime': 'date',
+            'enumeration': 'select',
+            'boolean': 'boolean'
+        }
+        
+        hs_type = type_mapping.get(field_type, field_type)
+        hs_field_type = field_type_mapping.get(field_type, field_type)
+        
         data = {
             'name': name,
             'label': label,
-            'type': field_type,
-            'fieldType': field_type,
+            'type': hs_type,
+            'fieldType': hs_field_type,
             'groupName': group_name
         }
         

@@ -194,6 +194,7 @@ class StudentProgressTracker:
             'current_lesson': properties.get('current_lesson', 'N/A'),
             'total_study_time': int(properties.get('total_study_time', 0)),
             'study_streak': int(properties.get('study_streak', 0)),
+            'total_xp': int(properties.get('total_xp', 0)),
             'average_score': float(properties.get('average_score', 0)) if properties.get('average_score') else None,
             'progress_percentage': float(properties.get('progress_percentage', 0)) if properties.get('progress_percentage') else 0,
             'last_activity_date': properties.get('last_activity_date', 'N/A'),
@@ -210,6 +211,10 @@ class StudentProgressTracker:
         """Crear propiedades de progreso en HubSpot"""
         print("\n🔧 Configurando propiedades de progreso en HubSpot...")
         
+        # 1. Crear grupo si no existe
+        self.crm.create_property_group('contacts', 'progresstracking', 'Seguimiento de Progreso')
+        
+        # 2. Definir propiedades
         properties = [
             {
                 'object_type': 'contacts',
@@ -258,6 +263,13 @@ class StudentProgressTracker:
                 'name': 'last_activity_date',
                 'label': 'Última Actividad',
                 'field_type': 'date',
+                'group_name': 'progresstracking'
+            },
+            {
+                'object_type': 'contacts',
+                'name': 'total_xp',
+                'label': 'Total XP',
+                'field_type': 'number',
                 'group_name': 'progresstracking'
             },
             {
@@ -380,6 +392,7 @@ def main():
                     print(f"Lección actual: {progress['current_lesson']}")
                     print(f"Tiempo total de estudio: {progress['total_study_time']} minutos")
                     print(f"Racha de estudio: {progress['study_streak']} días")
+                    print(f"Total XP: {progress['total_xp']}")
                     print(f"Calificación promedio: {progress['average_score']}")
                     print(f"Progreso: {progress['progress_percentage']}%")
                     print(f"Última actividad: {progress['last_activity_date']}")
