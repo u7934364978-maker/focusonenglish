@@ -24,8 +24,15 @@ def check_unit(filename, data):
     for i, interaction in enumerate(interactions):
         # Create a signature based on content
         content_parts = []
+        if 'prompt_es' in interaction: content_parts.append(f"prompt:{interaction['prompt_es']}")
         if 'stimulus_en' in interaction: content_parts.append(f"en:{interaction['stimulus_en']}")
         if 'stimulus_es' in interaction: content_parts.append(f"es:{interaction['stimulus_es']}")
+        
+        # Include options for multiple choice to differentiate
+        if interaction.get('type') == 'multiple_choice' and 'options' in interaction:
+            opts = "|".join(sorted([f"{o['id']}:{o['text']}" for o in interaction['options']]))
+            content_parts.append(f"opts:{opts}")
+
         if 'correct_answer' in interaction: 
             ans = interaction['correct_answer']
             if isinstance(ans, list): ans = ",".join(map(str, ans))

@@ -120,7 +120,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         url: `${baseUrl}/blog/${category}`,
         lastModified: latestDate,
         changeFrequency: "weekly" as const,
-        priority: 0.75,
+        priority: 0.8,
       };
     })
   );

@@ -58,10 +58,13 @@ async function generateToeflShardContent(level: string, title: string, count: nu
 }
 
 async function updateWeekFile(filePath: string) {
+  if (!fs.existsSync(filePath)) {
+      console.log(`File not found: ${filePath}`);
+      return;
+  }
   console.log(`Updating file: ${filePath}`);
   let content = fs.readFileSync(filePath, 'utf8');
   
-  // Extract level and unit from filename or content
   const levelMatch = content.match(/const LEVEL = '([^']+)';/);
   const unitMatch = content.match(/const UNIT_ID = ([0-9]+);/);
   
@@ -71,45 +74,64 @@ async function updateWeekFile(filePath: string) {
   }
   
   const level = levelMatch[1];
-  const unitId = unitMatch[1];
   
-  // Find shards of type 'listening' that look like placeholders
-  // Pattern: const shardX = { ... type: 'listening' ... }
-  const shardRegex = /const (s[0-9]+|shard[0-9]+) = \{[\s\S]*?type: 'listening'[\s\S]*?\};/g;
+  // Find all shards and decide whether to update them inside the loop
+  const shardRegex = /const (s[0-9]+|shard[0-9]+) = \{[\s\S]*?\};/g;
   let match;
+  let replacements = [];
   
   while ((match = shardRegex.exec(content)) !== null) {
     const fullShardMatch = match[0];
     const shardVarName = match[1];
     
-    // Check if it's a placeholder (contains Array.from or Simulated)
-    if (fullShardMatch.includes('Array.from') || fullShardMatch.includes('[Simulated')) {
-      // Extract title
-      const titleMatch = fullShardMatch.match(/title: '([^']+)'/);
-      const title = titleMatch ? titleMatch[1] : 'TOEFL Listening';
+    // Check if it's one of the types we want to handle
+    const typeMatch = fullShardMatch.match(/type: '([^']+)'/);
+    const type = typeMatch ? typeMatch[1] : '';
+    
+    if (!['listening', 'speaking', 'conversation'].includes(type)) {
+      continue;
+    }
+    
+    // Check if it's a placeholder (contains Array.from or Simulated or missing transcript)
+    const isPlaceholder = fullShardMatch.includes('Array.from') || fullShardMatch.includes('[Simulated') || fullShardMatch.includes('Listening Question');
+    const hasTranscript = fullShardMatch.includes('transcript:');
+    
+    if (isPlaceholder || !hasTranscript) {
+      replacements.push({
+        oldString: fullShardMatch,
+        varName: shardVarName,
+        index: match.index
+      });
+    }
+  }
+
+  // Process replacements in reverse order to maintain indices
+  replacements.sort((a, b) => b.index - a.index);
+
+  for (const r of replacements) {
+    const titleMatch = r.oldString.match(/title: '([^']+)'/);
+    const title = titleMatch ? titleMatch[1] : 'TOEFL Practice';
+    const typeMatch = r.oldString.match(/type: '([^']+)'/);
+    const type = typeMatch ? typeMatch[1] : 'listening';
+    
+    const generated = await generateToeflShardContent(level, title);
+    
+    if (generated && generated.questions) {
+      const shardId = `genId(LEVEL, UNIT_ID, '${r.varName}', 0)`;
+      const formattedQuestions = generated.questions.map((q: any, i: number) => {
+        q.id = `genId(LEVEL, UNIT_ID, '${r.varName}', ${i + 1})`;
+        return q;
+      });
       
-      const generated = await generateToeflShardContent(level, title);
-      
-      if (generated && generated.questions) {
-        // Build the new shard string
-        const shardId = `genId(LEVEL, UNIT_ID, '${shardVarName}', 0)`;
-        
-        // Format questions with correct IDs
-        const formattedQuestions = generated.questions.map((q: any, i: number) => {
-          q.id = `genId(LEVEL, UNIT_ID, '${shardVarName}', ${i + 1})`;
-          return q;
-        });
-        
-        const newShardString = `const ${shardVarName} = {
+      const newShardString = `const ${r.varName} = {
   id: ${shardId},
-  type: 'listening',
+  type: '${type}',
   title: '${title}',
   transcript: \`${generated.transcript.replace(/`/g, '\\`').replace(/\$/g, '\\$')}\`,
   questions: ${JSON.stringify(formattedQuestions, null, 2).replace(/"id": "genId\(([^)]+)\)"/g, '"id": genId($1)')}
 };`;
 
-        content = content.replace(fullShardMatch, newShardString);
-      }
+      content = content.substring(0, r.index) + newShardString + content.substring(r.index + r.oldString.length);
     }
   }
   
@@ -117,18 +139,17 @@ async function updateWeekFile(filePath: string) {
 }
 
 async function main() {
-  const weeks = [
-    'src/lib/toefl-units/b1/week-1.ts',
-    'src/lib/toefl-units/b1/week-2.ts',
-    'src/lib/toefl-units/b1/week-3.ts',
-    'src/lib/toefl-units/b1/week-4.ts'
-  ];
-  
-  for (const week of weeks) {
-    await updateWeekFile(path.join(process.cwd(), week));
+  const level = process.argv[2] || 'b1';
+  const startWeek = parseInt(process.argv[3]) || 1;
+  const endWeek = parseInt(process.argv[4]) || 5;
+
+  console.log(`Batch: Level ${level}, Weeks ${startWeek} to ${endWeek}`);
+
+  for (let i = startWeek; i <= endWeek; i++) {
+    await updateWeekFile(path.join(process.cwd(), `src/lib/toefl-units/${level}/week-${i}.ts`));
   }
   
-  console.log('Finished updating TOEFL units.');
+  console.log('Finished batch update.');
 }
 
 main();

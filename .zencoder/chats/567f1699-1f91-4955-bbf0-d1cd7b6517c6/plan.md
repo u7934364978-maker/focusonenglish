@@ -52,7 +52,7 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/567f1699-1f91-495
   - Apply findings from Task 1 to all other A1 units.
   - [x] **Batch 1 (Units 1, 8, 9, 10)**: Completed.
   - [x] **Batch 2 (Units 2, 3, 4, 5, 6, 7)**: Completed.
-  - [in_progress] **Batch 3 (Units 11, 12, 13, 15, 16, 17, 18, 19, 20)**: Pending.
+  - [in_progress] **Batch 3 (Units 11, 12, 13, 15, 16, 17, 18, 19, 20)**: Units 11-19 refactored. Pending 20.
 - [ ] **Task 4: Verification**
   - Re-run audit scripts.
   - Run `npm run validate-exercises` to ensure JSON integrity.

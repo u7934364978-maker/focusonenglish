@@ -28,10 +28,20 @@ export function Footer() {
           </div>
 
           <div>
+            <h4 className="font-bold mb-4">Blog</h4>
+            <ul className="space-y-2 text-sm text-slate-400">
+              <li><Link href="/blog/trabajo" className="hover:text-white transition-colors">Inglés para Trabajar</Link></li>
+              <li><Link href="/blog/viajes" className="hover:text-white transition-colors">Inglés para Viajar</Link></li>
+              <li><Link href="/blog/examenes" className="hover:text-white transition-colors">Preparación Exámenes</Link></li>
+              <li><Link href="/blog/metodos" className="hover:text-white transition-colors">Métodos de Estudio</Link></li>
+            </ul>
+          </div>
+
+          <div>
             <h4 className="font-bold mb-4">Recursos</h4>
             <ul className="space-y-2 text-sm text-slate-400">
               <li><Link href="/frases-en-ingles" className="hover:text-white transition-colors font-semibold text-coral-400">Hub de Frases</Link></li>
-              <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
+              <li><Link href="/blog" className="hover:text-white transition-colors">Blog Principal</Link></li>
               <li><Link href="/test-nivel" className="hover:text-white transition-colors">Test de Nivel</Link></li>
               <li><Link href="/contacto" className="hover:text-white transition-colors">Contacto</Link></li>
             </ul>

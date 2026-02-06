@@ -17,12 +17,33 @@
           "type": "matching",
           "prompt_es": "Une cada palabra con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Time", "right": "Tiempo/Hora" },
-            { "id": "p2", "left": "Hour", "right": "Hora (unidad)" },
-            { "id": "p3", "left": "Minute", "right": "Minuto" },
-            { "id": "p4", "left": "Second", "right": "Segundo" }
+            {
+              "id": "p1",
+              "left": "Time",
+              "right": "Tiempo/Hora"
+            },
+            {
+              "id": "p2",
+              "left": "Hour",
+              "right": "Hora (unidad)"
+            },
+            {
+              "id": "p3",
+              "left": "Minute",
+              "right": "Minuto"
+            },
+            {
+              "id": "p4",
+              "left": "Second",
+              "right": "Segundo"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -30,9 +51,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta '¿Qué hora es?'?",
           "options": [
-            { "id": "o1", "text": "What time is it?" },
-            { "id": "o2", "text": "How time is it?" },
-            { "id": "o3", "text": "What hour is it?" }
+            {
+              "id": "o1",
+              "text": "What time is it?"
+            },
+            {
+              "id": "o2",
+              "text": "How time is it?"
+            },
+            {
+              "id": "o3",
+              "text": "What hour is it?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "phrases"
@@ -50,12 +80,33 @@
           "type": "matching",
           "prompt_es": "Partes de la hora:",
           "pairs": [
-            { "id": "p1", "left": "Quarter", "right": "Cuarto" },
-            { "id": "p2", "left": "Half", "right": "Media" },
-            { "id": "p3", "left": "Past", "right": "Pasadas las" },
-            { "id": "p4", "left": "To", "right": "Para las" }
+            {
+              "id": "p1",
+              "left": "Quarter",
+              "right": "Cuarto"
+            },
+            {
+              "id": "p2",
+              "left": "Half",
+              "right": "Media"
+            },
+            {
+              "id": "p3",
+              "left": "Past",
+              "right": "Pasadas las"
+            },
+            {
+              "id": "p4",
+              "left": "To",
+              "right": "Para las"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -71,13 +122,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Es la una y media'",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "half" },
-            { "id": "w3", "text": "past" },
-            { "id": "w4", "text": "one" },
-            { "id": "w0", "text": "It" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "half"
+            },
+            {
+              "id": "w3",
+              "text": "past"
+            },
+            {
+              "id": "w4",
+              "text": "one"
+            },
+            {
+              "id": "w0",
+              "text": "It"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -85,9 +157,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 6:45?",
           "options": [
-            { "id": "o1", "text": "A quarter past six" },
-            { "id": "o2", "text": "A quarter to seven" },
-            { "id": "o3", "text": "Six and fifteen" }
+            {
+              "id": "o1",
+              "text": "A quarter past six"
+            },
+            {
+              "id": "o2",
+              "text": "A quarter to seven"
+            },
+            {
+              "id": "o3",
+              "text": "Six and fifteen"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "phrases"
@@ -120,12 +201,33 @@
           "type": "matching",
           "prompt_es": "Momentos del día:",
           "pairs": [
-            { "id": "p1", "left": "Morning", "right": "Mañana" },
-            { "id": "p2", "left": "Noon", "right": "Mediodía" },
-            { "id": "p3", "left": "Afternoon", "right": "Tarde" },
-            { "id": "p4", "left": "Midnight", "right": "Medianoche" }
+            {
+              "id": "p1",
+              "left": "Morning",
+              "right": "Mañana"
+            },
+            {
+              "id": "p2",
+              "left": "Noon",
+              "right": "Mediodía"
+            },
+            {
+              "id": "p3",
+              "left": "Afternoon",
+              "right": "Tarde"
+            },
+            {
+              "id": "p4",
+              "left": "Midnight",
+              "right": "Medianoche"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -133,9 +235,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'AM'?",
           "options": [
-            { "id": "o1", "text": "After Morning" },
-            { "id": "o2", "text": "Before noon (Ante meridiem)" },
-            { "id": "o3", "text": "Always Midnight" }
+            {
+              "id": "o1",
+              "text": "After Morning"
+            },
+            {
+              "id": "o2",
+              "text": "Before noon (Ante meridiem)"
+            },
+            {
+              "id": "o3",
+              "text": "Always Midnight"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary"
@@ -145,13 +256,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'La película empieza a las ocho'",
           "options": [
-            { "id": "w1", "text": "movie" },
-            { "id": "w2", "text": "starts" },
-            { "id": "w3", "text": "at" },
-            { "id": "w4", "text": "eight" },
-            { "id": "w0", "text": "The" }
+            {
+              "id": "w1",
+              "text": "movie"
+            },
+            {
+              "id": "w2",
+              "text": "starts"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w4",
+              "text": "eight"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -174,9 +306,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 12:00 de la noche?",
           "options": [
-            { "id": "o1", "text": "Noon" },
-            { "id": "o2", "text": "Midnight" },
-            { "id": "o3", "text": "Midday" }
+            {
+              "id": "o1",
+              "text": "Noon"
+            },
+            {
+              "id": "o2",
+              "text": "Midnight"
+            },
+            {
+              "id": "o3",
+              "text": "Midday"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary"
@@ -186,12 +327,33 @@
           "type": "matching",
           "prompt_es": "Relaciona:",
           "pairs": [
-            { "id": "p1", "left": "Early", "right": "Temprano" },
-            { "id": "p2", "left": "Late", "right": "Tarde (retrasado)" },
-            { "id": "p3", "left": "On time", "right": "A tiempo" },
-            { "id": "p4", "left": "Now", "right": "Ahora" }
+            {
+              "id": "p1",
+              "left": "Early",
+              "right": "Temprano"
+            },
+            {
+              "id": "p2",
+              "left": "Late",
+              "right": "Tarde (retrasado)"
+            },
+            {
+              "id": "p3",
+              "left": "On time",
+              "right": "A tiempo"
+            },
+            {
+              "id": "p4",
+              "left": "Now",
+              "right": "Ahora"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -207,9 +369,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué hora es 'Ten to four'?",
           "options": [
-            { "id": "o1", "text": "4:10" },
-            { "id": "o2", "text": "3:50" },
-            { "id": "o3", "text": "10:04" }
+            {
+              "id": "o1",
+              "text": "4:10"
+            },
+            {
+              "id": "o2",
+              "text": "3:50"
+            },
+            {
+              "id": "o3",
+              "text": "10:04"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "phrases"
@@ -234,13 +405,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Son las nueve y cuarto'",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "quarter" },
-            { "id": "w3", "text": "past" },
-            { "id": "w4", "text": "nine" },
-            { "id": "w0", "text": "It" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "quarter"
+            },
+            {
+              "id": "w3",
+              "text": "past"
+            },
+            {
+              "id": "w4",
+              "text": "nine"
+            },
+            {
+              "id": "w0",
+              "text": "It"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -248,12 +440,33 @@
           "type": "matching",
           "prompt_es": "Une los sinónimos/relacionados:",
           "pairs": [
-            { "id": "p1", "left": "Clock", "right": "Wall" },
-            { "id": "p2", "left": "Watch", "right": "Wrist" },
-            { "id": "p3", "left": "Alarm", "right": "Wake up" },
-            { "id": "p4", "left": "Hour", "right": "60 minutes" }
+            {
+              "id": "p1",
+              "left": "Clock",
+              "right": "Wall"
+            },
+            {
+              "id": "p2",
+              "left": "Watch",
+              "right": "Wrist"
+            },
+            {
+              "id": "p3",
+              "left": "Alarm",
+              "right": "Wake up"
+            },
+            {
+              "id": "p4",
+              "left": "Hour",
+              "right": "60 minutes"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -261,12 +474,1526 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 1:00 PM?",
           "options": [
-            { "id": "o1", "text": "One in the morning" },
-            { "id": "o2", "text": "One in the afternoon" },
-            { "id": "o3", "text": "One at night" }
+            {
+              "id": "o1",
+              "text": "One in the morning"
+            },
+            {
+              "id": "o2",
+              "text": "One in the afternoon"
+            },
+            {
+              "id": "o3",
+              "text": "One at night"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I21",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (read) a book when you called.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "was reading"
+            },
+            {
+              "id": "o2",
+              "text": "were reading"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I22",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Yo estaba durmiendo':",
+          "correct_answer": "I was sleeping",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I23",
+          "type": "matching",
+          "prompt_es": "Past Simple vs Continuous:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Action in progress",
+              "right": "Past Continuous"
+            },
+            {
+              "id": "p2",
+              "left": "Completed action",
+              "right": "Past Simple"
+            },
+            {
+              "id": "p3",
+              "left": "Background scene",
+              "right": "Past Continuous"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I24",
+          "type": "true_false",
+          "prompt_es": "¿Usamos 'were' con 'He/She/It' en pasado continuo?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "No, usamos 'was'.",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I25",
+          "type": "multiple_choice",
+          "prompt_es": "They ___ (play) football at 10:00 yesterday.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "was playing"
+            },
+            {
+              "id": "o2",
+              "text": "were playing"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I26",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'What were you doing at 8 PM?'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "were"
+            },
+            {
+              "id": "w3",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "doing"
+            },
+            {
+              "id": "w5",
+              "text": "at"
+            },
+            {
+              "id": "w6",
+              "text": "8"
+            },
+            {
+              "id": "w7",
+              "text": "PM"
+            },
+            {
+              "id": "w8",
+              "text": "?"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I27",
+          "type": "multiple_choice",
+          "prompt_es": "While I ___ (walk), I saw a bird.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "was walking"
+            },
+            {
+              "id": "o2",
+              "text": "walked"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I28",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Qué estabas comiendo?':",
+          "correct_answer": "What were you eating?",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I29",
+          "type": "matching",
+          "prompt_es": "Vocabulario de hotel:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Check-in",
+              "right": "Registrarse"
+            },
+            {
+              "id": "p2",
+              "left": "Single room",
+              "right": "Habitación individual"
+            },
+            {
+              "id": "p3",
+              "left": "Reception",
+              "right": "Recepción"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "holidays_travel_vocab"
+        },
+        {
+          "interaction_id": "U11_I30",
+          "type": "true_false",
+          "prompt_es": "¿'Boarding pass' es la tarjeta de embarque?",
+          "correct_answer": true,
+          "mastery_tag": "holidays_travel_vocab"
+        },
+        {
+          "interaction_id": "U11_I31",
+          "type": "multiple_choice",
+          "prompt_es": "The sun ___ (shine) when we arrived.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "shone"
+            },
+            {
+              "id": "o2",
+              "text": "was shining"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I32",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'No estábamos trabajando':",
+          "correct_answer": "We weren't working",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I33",
+          "type": "matching",
+          "prompt_es": "Preguntas y respuestas:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Were you crying?",
+              "right": "No, I wasn't."
+            },
+            {
+              "id": "p2",
+              "left": "Was it raining?",
+              "right": "Yes, it was."
+            },
+            {
+              "id": "p3",
+              "left": "Were they sleeping?",
+              "right": "Yes, they were."
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I34",
+          "type": "true_false",
+          "prompt_es": "¿'Were' se usa con 'You, We, They'?",
+          "correct_answer": true,
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I35",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (not study) when she came in.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "wasn't studying"
+            },
+            {
+              "id": "o2",
+              "text": "weren't studying"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I36",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'She was waiting for the bus'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "She"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w3",
+              "text": "waiting"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "bus"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I37",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Qué estabas haciendo?':",
+          "correct_answer": "What were you doing?",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I38",
+          "type": "matching",
+          "prompt_es": "Vocabulario de aeropuerto:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Gate",
+              "right": "Puerta de embarque"
+            },
+            {
+              "id": "p2",
+              "left": "Flight",
+              "right": "Vuelo"
+            },
+            {
+              "id": "p3",
+              "left": "Luggage",
+              "right": "Equipaje"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "holidays_travel_vocab"
+        },
+        {
+          "interaction_id": "U11_I39",
+          "type": "true_false",
+          "prompt_es": "¿'Delayed' significa que el vuelo llega a tiempo?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "No, significa que lleva retraso.",
+          "mastery_tag": "holidays_travel_vocab"
+        },
+        {
+          "interaction_id": "U11_I40",
+          "type": "multiple_choice",
+          "prompt_es": "We ___ (have) lunch when the phone rang.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "were having"
+            },
+            {
+              "id": "o2",
+              "text": "was having"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I41",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'They were not listening to me'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "They"
+            },
+            {
+              "id": "w2",
+              "text": "were"
+            },
+            {
+              "id": "w3",
+              "text": "not"
+            },
+            {
+              "id": "w4",
+              "text": "listening"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "me"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I42",
+          "type": "multiple_choice",
+          "prompt_es": "While they ___ (cook), the lights went out.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "were cooking"
+            },
+            {
+              "id": "o2",
+              "text": "cooked"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I43",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Estaba lloviendo':",
+          "correct_answer": "It was raining",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I44",
+          "type": "matching",
+          "prompt_es": "Formas de 'Be' en pasado:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "I / He / She / It",
+              "right": "Was"
+            },
+            {
+              "id": "p2",
+              "left": "You / We / They",
+              "right": "Were"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I45",
+          "type": "true_false",
+          "prompt_es": "¿El pasado continuo describe acciones terminadas en un punto exacto?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "No, describe acciones que estaban en progreso.",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I46",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (look) for my passport all morning.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "was looking"
+            },
+            {
+              "id": "o2",
+              "text": "were looking"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I47",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Where were they going?'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "were"
+            },
+            {
+              "id": "w3",
+              "text": "they"
+            },
+            {
+              "id": "w4",
+              "text": "going"
+            },
+            {
+              "id": "w5",
+              "text": "?"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I48",
+          "type": "multiple_choice",
+          "prompt_es": "He ___ (drive) too fast when the police stopped him.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "was driving"
+            },
+            {
+              "id": "o2",
+              "text": "drove"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I49",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Estabas escuchando?':",
+          "correct_answer": "Were you listening?",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I50",
+          "type": "matching",
+          "prompt_es": "Verbos y sus terminaciones -ing:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Swim",
+              "right": "Swimming"
+            },
+            {
+              "id": "p2",
+              "left": "Lie",
+              "right": "Lying"
+            },
+            {
+              "id": "p3",
+              "left": "Write",
+              "right": "Writing"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I51",
+          "type": "true_false",
+          "prompt_es": "¿'Souvenir' es un objeto que compras para recordar un viaje?",
+          "correct_answer": true,
+          "mastery_tag": "holidays_travel_vocab"
+        },
+        {
+          "interaction_id": "U11_I52",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (not watch) TV at 9 PM.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "wasn't watching"
+            },
+            {
+              "id": "o2",
+              "text": "weren't watching"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I53",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'They were traveling by boat'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "They"
+            },
+            {
+              "id": "w2",
+              "text": "were"
+            },
+            {
+              "id": "w3",
+              "text": "traveling"
+            },
+            {
+              "id": "w4",
+              "text": "by"
+            },
+            {
+              "id": "w5",
+              "text": "boat"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Did you enjoy the flight? No, I ___.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "didn't"
+            },
+            {
+              "id": "o2",
+              "text": "wasn't"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_questions_did"
+        },
+        {
+          "interaction_id": "U11_I55",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Ella estaba leyendo':",
+          "correct_answer": "She was reading",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I56",
+          "type": "matching",
+          "prompt_es": "Vocabulario de viaje:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Boarding",
+              "right": "Embarque"
+            },
+            {
+              "id": "p2",
+              "left": "Landing",
+              "right": "Aterrizaje"
+            },
+            {
+              "id": "p3",
+              "left": "Take-off",
+              "right": "Despegue"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "holidays_travel_vocab"
+        },
+        {
+          "interaction_id": "U11_I57",
+          "type": "true_false",
+          "prompt_es": "¿Usamos 'wasn't' para negar con 'We'?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "No, usamos 'weren't'.",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I58",
+          "type": "multiple_choice",
+          "prompt_es": "Who ___ (you/talk) to when I saw you?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "were you talking"
+            },
+            {
+              "id": "o2",
+              "text": "was you talking"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I59",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'It was snowing in London'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "It"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w3",
+              "text": "snowing"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "London"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I60",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (meet) my wife while I was living in Japan.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "met"
+            },
+            {
+              "id": "o2",
+              "text": "was meeting"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_irregular_verbs"
+        },
+        {
+          "interaction_id": "U11_I61",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Qué estaban comprando?':",
+          "correct_answer": "What were they buying?",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I62",
+          "type": "matching",
+          "prompt_es": "Pasado Simple vs Continuo:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "When I arrived...",
+              "right": "...they were eating."
+            },
+            {
+              "id": "p2",
+              "left": "I was sleeping...",
+              "right": "...when the phone rang."
+            },
+            {
+              "id": "p3",
+              "left": "While I was walking...",
+              "right": "...I found some money."
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I63",
+          "type": "true_false",
+          "prompt_es": "¿'While' se usa normalmente con el pasado continuo?",
+          "correct_answer": true,
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I64",
+          "type": "multiple_choice",
+          "prompt_es": "He ___ (not pay) attention.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "wasn't paying"
+            },
+            {
+              "id": "o2",
+              "text": "weren't paying"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I65",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Were you watching a movie?'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "Were"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "watching"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "movie"
+            },
+            {
+              "id": "w6",
+              "text": "?"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I66",
+          "type": "multiple_choice",
+          "prompt_es": "They ___ (work) in the garden all day.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "were working"
+            },
+            {
+              "id": "o2",
+              "text": "worked"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I67",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Yo estaba esperando el tren':",
+          "correct_answer": "I was waiting for the train",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I68",
+          "type": "matching",
+          "prompt_es": "Vocabulario de hotel:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Reservation",
+              "right": "Reserva"
+            },
+            {
+              "id": "p2",
+              "left": "Bill",
+              "right": "Factura/Cuenta"
+            },
+            {
+              "id": "p3",
+              "left": "Staff",
+              "right": "Personal"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "holidays_travel_vocab"
+        },
+        {
+          "interaction_id": "U11_I69",
+          "type": "true_false",
+          "prompt_es": "¿'Check-out' es cuando llegas al hotel?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "No, es cuando te vas.",
+          "mastery_tag": "holidays_travel_vocab"
+        },
+        {
+          "interaction_id": "U11_I70",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (drive) when I heard the news.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "was driving"
+            },
+            {
+              "id": "o2",
+              "text": "drove"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I71",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'What was she wearing today?'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w3",
+              "text": "she"
+            },
+            {
+              "id": "w4",
+              "text": "wearing"
+            },
+            {
+              "id": "w5",
+              "text": "today"
+            },
+            {
+              "id": "w6",
+              "text": "?"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I72",
+          "type": "multiple_choice",
+          "prompt_es": "The birds ___ (sing) beautifully.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "were singing"
+            },
+            {
+              "id": "o2",
+              "text": "was singing"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I73",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Por qué estabas llorando?':",
+          "correct_answer": "Why were you crying?",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I74",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Run",
+              "right": "Running"
+            },
+            {
+              "id": "p2",
+              "left": "Get",
+              "right": "Getting"
+            },
+            {
+              "id": "p3",
+              "left": "Stop",
+              "right": "Stopping"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I75",
+          "type": "true_false",
+          "prompt_es": "¿El pasado continuo de 'Study' es 'Studying'?",
+          "correct_answer": true,
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I76",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (not feel) well yesterday.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "wasn't feeling"
+            },
+            {
+              "id": "o2",
+              "text": "wasn't feel"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I77",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Were they playing games?'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "Were"
+            },
+            {
+              "id": "w2",
+              "text": "they"
+            },
+            {
+              "id": "w3",
+              "text": "playing"
+            },
+            {
+              "id": "w4",
+              "text": "games"
+            },
+            {
+              "id": "w5",
+              "text": "?"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I78",
+          "type": "multiple_choice",
+          "prompt_es": "Did you take the taxi? Yes, I ___.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "did"
+            },
+            {
+              "id": "o2",
+              "text": "took"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_questions_did"
+        },
+        {
+          "interaction_id": "U11_I79",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Él no estaba escuchando':",
+          "correct_answer": "He wasn't listening",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I80",
+          "type": "matching",
+          "prompt_es": "Vocabulario de viaje:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Delay",
+              "right": "Retraso"
+            },
+            {
+              "id": "p2",
+              "left": "Cancellation",
+              "right": "Cancelación"
+            },
+            {
+              "id": "p3",
+              "left": "Refund",
+              "right": "Reembolso"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "holidays_travel_vocab"
+        },
+        {
+          "interaction_id": "U11_I81",
+          "type": "true_false",
+          "prompt_es": "¿Se usa 'did' en pasado continuo?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "No, se usa 'was' o 'were'.",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I82",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (wait) for you.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "was waiting"
+            },
+            {
+              "id": "o2",
+              "text": "were waiting"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I83",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Was it raining when you left?'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "Was"
+            },
+            {
+              "id": "w2",
+              "text": "it"
+            },
+            {
+              "id": "w3",
+              "text": "raining"
+            },
+            {
+              "id": "w4",
+              "text": "when"
+            },
+            {
+              "id": "w5",
+              "text": "you"
+            },
+            {
+              "id": "w6",
+              "text": "left"
+            },
+            {
+              "id": "w7",
+              "text": "?"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I84",
+          "type": "multiple_choice",
+          "prompt_es": "They ___ (not study) for the test.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "weren't studying"
+            },
+            {
+              "id": "o2",
+              "text": "wasn't studying"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I85",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Nosotros estábamos bailando':",
+          "correct_answer": "We were dancing",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I86",
+          "type": "matching",
+          "prompt_es": "Vocabulario de transporte:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "On foot",
+              "right": "A pie"
+            },
+            {
+              "id": "p2",
+              "left": "By car",
+              "right": "En coche"
+            },
+            {
+              "id": "p3",
+              "left": "By bike",
+              "right": "En bici"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "holidays_travel_vocab"
+        },
+        {
+          "interaction_id": "U11_I87",
+          "type": "true_false",
+          "prompt_es": "¿'Baggage' es lo mismo que 'Luggage'?",
+          "correct_answer": true,
+          "mastery_tag": "holidays_travel_vocab"
+        },
+        {
+          "interaction_id": "U11_I88",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (have) a shower when you called.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "was having"
+            },
+            {
+              "id": "o2",
+              "text": "had"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I89",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'What were you talking about?'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "were"
+            },
+            {
+              "id": "w3",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "talking"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            },
+            {
+              "id": "w6",
+              "text": "?"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I90",
+          "type": "multiple_choice",
+          "prompt_es": "She ___ (cook) dinner when I arrived.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "was cooking"
+            },
+            {
+              "id": "o2",
+              "text": "cooked"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I91",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Yo estaba mirando el mapa':",
+          "correct_answer": "I was looking at the map",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I92",
+          "type": "matching",
+          "prompt_es": "Vocabulario de viaje:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Journey",
+              "right": "Trayecto/Viaje"
+            },
+            {
+              "id": "p2",
+              "left": "Destination",
+              "right": "Destino"
+            },
+            {
+              "id": "p3",
+              "left": "Passenger",
+              "right": "Pasajero"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "holidays_travel_vocab"
+        },
+        {
+          "interaction_id": "U11_I93",
+          "type": "true_false",
+          "prompt_es": "¿'While' significa 'Mientras'?",
+          "correct_answer": true,
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I94",
+          "type": "multiple_choice",
+          "prompt_es": "They ___ (not listen).",
+          "options": [
+            {
+              "id": "o1",
+              "text": "weren't listening"
+            },
+            {
+              "id": "o2",
+              "text": "wasn't listening"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I95",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I was sleeping in my bed'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w3",
+              "text": "sleeping"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "my"
+            },
+            {
+              "id": "w6",
+              "text": "bed"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I96",
+          "type": "multiple_choice",
+          "prompt_es": "We ___ (play) cards.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "were playing"
+            },
+            {
+              "id": "o2",
+              "text": "was playing"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I97",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Él estaba escribiendo un correo':",
+          "correct_answer": "He was writing an email",
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I98",
+          "type": "matching",
+          "prompt_es": "Pasado Simple vs Continuo:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "When I saw her...",
+              "right": "...she was crying."
+            },
+            {
+              "id": "p2",
+              "left": "They were singing...",
+              "right": "...when I entered."
+            },
+            {
+              "id": "p3",
+              "left": "I was reading...",
+              "right": "...when you called."
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I99",
+          "type": "true_false",
+          "prompt_es": "¿'When' se usa normalmente antes del pasado simple?",
+          "correct_answer": true,
+          "mastery_tag": "past_continuous"
+        },
+        {
+          "interaction_id": "U11_I100",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (study) at 10 PM.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "was studying"
+            },
+            {
+              "id": "o2",
+              "text": "were studying"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_continuous"
         }
       ]
     }

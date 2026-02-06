@@ -1,0 +1,969 @@
+[dotenv@17.2.3] injecting env (0) from .env.local -- tip: ⚙️  write to custom object with { processEnv: myObject }
+🎙️  GENERADOR DE AUDIOS PARA CURSO B2
+=====================================
+
+📊 Verificando uso de la API...
+   Caracteres usados: 0 / ilimitado
+   Plan: starter
+
+📝 Total de audios a generar: 87
+
+
+[1/87] (1.1%) Generando audio:
+   Lección: b2-neg-m1-l1
+   Ejercicio: b2-neg-m1-l1-listening-1
+   Tipo: listening
+   Tamaño texto: 233 caracteres
+   ⏭️ El archivo ya existe: b2-batna-analysis.mp3
+   ✅ Generado exitosamente
+
+[2/87] (2.3%) Generando audio:
+   Lección: b2-neg-m1-l1
+   Ejercicio: b2-neg-m1-l1-listening-2
+   Tipo: listening
+   Tamaño texto: 114 caracteres
+   ⏭️ El archivo ya existe: b2-leverage-expert.mp3
+   ✅ Generado exitosamente
+
+[3/87] (3.4%) Generando audio:
+   Lección: b2-neg-m1-l2
+   Ejercicio: b2-neg-m1-l2-listening-1
+   Tipo: listening
+   Tamaño texto: 173 caracteres
+   ⏭️ El archivo ya existe: b2-opening-scenario.mp3
+   ✅ Generado exitosamente
+
+[4/87] (4.6%) Generando audio:
+   Lección: b2-neg-m1-l2
+   Ejercicio: b2-neg-m1-l2-listening-2
+   Tipo: listening
+   Tamaño texto: 177 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 177 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/negotiations/b2-hostile-opening.mp3
+   ✅ Generado exitosamente
+
+[5/87] (5.7%) Generando audio:
+   Lección: b2-neg-m2-l1
+   Ejercicio: b2-neg-m2-l1-listening-1
+   Tipo: listening
+   Tamaño texto: 114 caracteres
+   ⏭️ El archivo ya existe: b2-bargaining-tactics.mp3
+   ✅ Generado exitosamente
+
+[6/87] (6.9%) Generando audio:
+   Lección: b2-neg-m2-l1
+   Ejercicio: b2-neg-m2-l1-listening-2
+   Tipo: listening
+   Tamaño texto: 86 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 86 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/negotiations/b2-creative-concessions.mp3
+   ✅ Generado exitosamente
+
+[7/87] (8.0%) Generando audio:
+   Lección: b2-neg-m3-l1
+   Ejercicio: b2-neg-m2-l2-listening-1
+   Tipo: listening
+   Tamaño texto: 138 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 138 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/negotiations/b2-conflict-resolution.mp3
+   ✅ Generado exitosamente
+
+[8/87] (9.2%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s1-q1
+   Tipo: listening
+   Tamaño texto: 86 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 86 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s1-q1.mp3
+   ✅ Generado exitosamente
+
+[9/87] (10.3%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s1-q2
+   Tipo: listening
+   Tamaño texto: 95 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 95 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s1-q2.mp3
+   ✅ Generado exitosamente
+
+[10/87] (11.5%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s1-q3
+   Tipo: listening
+   Tamaño texto: 64 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 64 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s1-q3.mp3
+   ✅ Generado exitosamente
+
+[11/87] (12.6%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s1-q4
+   Tipo: listening
+   Tamaño texto: 81 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 81 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s1-q4.mp3
+   ✅ Generado exitosamente
+
+[12/87] (13.8%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s1-q5
+   Tipo: listening
+   Tamaño texto: 75 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 75 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s1-q5.mp3
+   ✅ Generado exitosamente
+
+[13/87] (14.9%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s1-q6
+   Tipo: listening
+   Tamaño texto: 91 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 91 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s1-q6.mp3
+   ✅ Generado exitosamente
+
+[14/87] (16.1%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s1-q7
+   Tipo: listening
+   Tamaño texto: 44 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 44 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s1-q7.mp3
+   ✅ Generado exitosamente
+
+[15/87] (17.2%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s1-q8
+   Tipo: listening
+   Tamaño texto: 38 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 38 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s1-q8.mp3
+   ✅ Generado exitosamente
+
+[16/87] (18.4%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s1-q9
+   Tipo: listening
+   Tamaño texto: 60 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 60 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s1-q9.mp3
+   ✅ Generado exitosamente
+
+[17/87] (19.5%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s1-q10
+   Tipo: listening
+   Tamaño texto: 55 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 55 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s1-q10.mp3
+   ✅ Generado exitosamente
+
+[18/87] (20.7%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s6-q1
+   Tipo: listening
+   Tamaño texto: 124 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 124 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s6-q1.mp3
+   ✅ Generado exitosamente
+
+[19/87] (21.8%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s6-q2
+   Tipo: listening
+   Tamaño texto: 149 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 149 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s6-q2.mp3
+   ✅ Generado exitosamente
+
+[20/87] (23.0%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s6-q3
+   Tipo: listening
+   Tamaño texto: 151 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 151 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s6-q3.mp3
+   ✅ Generado exitosamente
+
+[21/87] (24.1%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s6-q4
+   Tipo: listening
+   Tamaño texto: 106 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 106 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s6-q4.mp3
+   ✅ Generado exitosamente
+
+[22/87] (25.3%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s6-q5
+   Tipo: listening
+   Tamaño texto: 77 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 77 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s6-q5.mp3
+   ✅ Generado exitosamente
+
+[23/87] (26.4%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s6-q6
+   Tipo: listening
+   Tamaño texto: 121 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 121 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s6-q6.mp3
+   ✅ Generado exitosamente
+
+[24/87] (27.6%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s6-q7
+   Tipo: listening
+   Tamaño texto: 94 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 94 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s6-q7.mp3
+   ✅ Generado exitosamente
+
+[25/87] (28.7%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s6-q8
+   Tipo: listening
+   Tamaño texto: 87 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 87 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s6-q8.mp3
+   ✅ Generado exitosamente
+
+[26/87] (29.9%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s6-q9
+   Tipo: listening
+   Tamaño texto: 117 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 117 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s6-q9.mp3
+   ✅ Generado exitosamente
+
+[27/87] (31.0%) Generando audio:
+   Lección: toefl-b1-w1
+   Ejercicio: toefl-b1-u1-s6-q10
+   Tipo: listening
+   Tamaño texto: 107 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 107 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w1-toefl-b1-u1-s6-q10.mp3
+   ✅ Generado exitosamente
+
+[28/87] (32.2%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s1-q1
+   Tipo: listening
+   Tamaño texto: 80 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 80 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s1-q1.mp3
+   ✅ Generado exitosamente
+
+[29/87] (33.3%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s1-q2
+   Tipo: listening
+   Tamaño texto: 44 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 44 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s1-q2.mp3
+   ✅ Generado exitosamente
+
+[30/87] (34.5%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s1-q3
+   Tipo: listening
+   Tamaño texto: 62 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 62 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s1-q3.mp3
+   ✅ Generado exitosamente
+
+[31/87] (35.6%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s1-q4
+   Tipo: listening
+   Tamaño texto: 86 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 86 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s1-q4.mp3
+   ✅ Generado exitosamente
+
+[32/87] (36.8%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s1-q5
+   Tipo: listening
+   Tamaño texto: 73 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 73 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s1-q5.mp3
+   ✅ Generado exitosamente
+
+[33/87] (37.9%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s1-q6
+   Tipo: listening
+   Tamaño texto: 112 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 112 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s1-q6.mp3
+   ✅ Generado exitosamente
+
+[34/87] (39.1%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s1-q7
+   Tipo: listening
+   Tamaño texto: 114 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 114 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s1-q7.mp3
+   ✅ Generado exitosamente
+
+[35/87] (40.2%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s1-q8
+   Tipo: listening
+   Tamaño texto: 67 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 67 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s1-q8.mp3
+   ✅ Generado exitosamente
+
+[36/87] (41.4%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s1-q9
+   Tipo: listening
+   Tamaño texto: 72 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 72 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s1-q9.mp3
+   ✅ Generado exitosamente
+
+[37/87] (42.5%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s1-q10
+   Tipo: listening
+   Tamaño texto: 100 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 100 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s1-q10.mp3
+   ✅ Generado exitosamente
+
+[38/87] (43.7%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s8-q1
+   Tipo: listening
+   Tamaño texto: 73 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 73 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s8-q1.mp3
+   ✅ Generado exitosamente
+
+[39/87] (44.8%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s8-q2
+   Tipo: listening
+   Tamaño texto: 95 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 95 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s8-q2.mp3
+   ✅ Generado exitosamente
+
+[40/87] (46.0%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s8-q3
+   Tipo: listening
+   Tamaño texto: 33 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+✅ Audio generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s8-q3.mp3
+   Tamaño: 34.33 KB
+   Voz: 21m00Tcm4TlvDq8ikWAM
+   ✅ Generado exitosamente
+
+[41/87] (47.1%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s8-q4
+   Tipo: listening
+   Tamaño texto: 44 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 44 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s8-q4.mp3
+   ✅ Generado exitosamente
+
+[42/87] (48.3%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s8-q5
+   Tipo: listening
+   Tamaño texto: 43 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 43 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s8-q5.mp3
+   ✅ Generado exitosamente
+
+[43/87] (49.4%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s8-q6
+   Tipo: listening
+   Tamaño texto: 65 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 65 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s8-q6.mp3
+   ✅ Generado exitosamente
+
+[44/87] (50.6%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s8-q7
+   Tipo: listening
+   Tamaño texto: 54 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 54 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s8-q7.mp3
+   ✅ Generado exitosamente
+
+[45/87] (51.7%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s8-q8
+   Tipo: listening
+   Tamaño texto: 43 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 43 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s8-q8.mp3
+   ✅ Generado exitosamente
+
+[46/87] (52.9%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s8-q9
+   Tipo: listening
+   Tamaño texto: 25 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 25 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s8-q9.mp3
+   ✅ Generado exitosamente
+
+[47/87] (54.0%) Generando audio:
+   Lección: toefl-b1-w2
+   Ejercicio: toefl-b1-u2-s8-q10
+   Tipo: listening
+   Tamaño texto: 25 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 25 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w2-toefl-b1-u2-s8-q10.mp3
+   ✅ Generado exitosamente
+
+[48/87] (55.2%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s1-q1
+   Tipo: listening
+   Tamaño texto: 69 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 69 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s1-q1.mp3
+   ✅ Generado exitosamente
+
+[49/87] (56.3%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s1-q2
+   Tipo: listening
+   Tamaño texto: 55 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 55 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s1-q2.mp3
+   ✅ Generado exitosamente
+
+[50/87] (57.5%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s1-q3
+   Tipo: listening
+   Tamaño texto: 95 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 95 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s1-q3.mp3
+   ✅ Generado exitosamente
+
+[51/87] (58.6%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s1-q4
+   Tipo: listening
+   Tamaño texto: 87 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 87 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s1-q4.mp3
+   ✅ Generado exitosamente
+
+[52/87] (59.8%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s1-q5
+   Tipo: listening
+   Tamaño texto: 121 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 121 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s1-q5.mp3
+   ✅ Generado exitosamente
+
+[53/87] (60.9%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s1-q6
+   Tipo: listening
+   Tamaño texto: 112 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 112 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s1-q6.mp3
+   ✅ Generado exitosamente
+
+[54/87] (62.1%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s1-q7
+   Tipo: listening
+   Tamaño texto: 57 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 57 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s1-q7.mp3
+   ✅ Generado exitosamente
+
+[55/87] (63.2%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s1-q8
+   Tipo: listening
+   Tamaño texto: 87 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 87 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s1-q8.mp3
+   ✅ Generado exitosamente
+
+[56/87] (64.4%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s1-q9
+   Tipo: listening
+   Tamaño texto: 83 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 83 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s1-q9.mp3
+   ✅ Generado exitosamente
+
+[57/87] (65.5%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s1-q10
+   Tipo: listening
+   Tamaño texto: 51 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 51 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s1-q10.mp3
+   ✅ Generado exitosamente
+
+[58/87] (66.7%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s8-q1
+   Tipo: listening
+   Tamaño texto: 79 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 79 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s8-q1.mp3
+   ✅ Generado exitosamente
+
+[59/87] (67.8%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s8-q2
+   Tipo: listening
+   Tamaño texto: 74 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 74 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s8-q2.mp3
+   ✅ Generado exitosamente
+
+[60/87] (69.0%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s8-q3
+   Tipo: listening
+   Tamaño texto: 92 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 92 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s8-q3.mp3
+   ✅ Generado exitosamente
+
+[61/87] (70.1%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s8-q4
+   Tipo: listening
+   Tamaño texto: 101 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 101 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s8-q4.mp3
+   ✅ Generado exitosamente
+
+[62/87] (71.3%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s8-q5
+   Tipo: listening
+   Tamaño texto: 66 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 66 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s8-q5.mp3
+   ✅ Generado exitosamente
+
+[63/87] (72.4%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s8-q6
+   Tipo: listening
+   Tamaño texto: 102 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 102 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s8-q6.mp3
+   ✅ Generado exitosamente
+
+[64/87] (73.6%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s8-q7
+   Tipo: listening
+   Tamaño texto: 70 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 70 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s8-q7.mp3
+   ✅ Generado exitosamente
+
+[65/87] (74.7%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s8-q8
+   Tipo: listening
+   Tamaño texto: 56 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 37 credits remaining, while 56 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s8-q8.mp3
+   ✅ Generado exitosamente
+
+[66/87] (75.9%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s8-q9
+   Tipo: listening
+   Tamaño texto: 92 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 92 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s8-q9.mp3
+   ✅ Generado exitosamente
+
+[67/87] (77.0%) Generando audio:
+   Lección: toefl-b1-w3
+   Ejercicio: toefl-b1-u3-s8-q10
+   Tipo: listening
+   Tamaño texto: 48 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 48 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w3-toefl-b1-u3-s8-q10.mp3
+   ✅ Generado exitosamente
+
+[68/87] (78.2%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s1-q1
+   Tipo: listening
+   Tamaño texto: 53 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 53 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s1-q1.mp3
+   ✅ Generado exitosamente
+
+[69/87] (79.3%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s1-q2
+   Tipo: listening
+   Tamaño texto: 47 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 47 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s1-q2.mp3
+   ✅ Generado exitosamente
+
+[70/87] (80.5%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s1-q3
+   Tipo: listening
+   Tamaño texto: 95 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 95 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s1-q3.mp3
+   ✅ Generado exitosamente
+
+[71/87] (81.6%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s1-q4
+   Tipo: listening
+   Tamaño texto: 83 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 83 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s1-q4.mp3
+   ✅ Generado exitosamente
+
+[72/87] (82.8%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s1-q5
+   Tipo: listening
+   Tamaño texto: 83 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 83 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s1-q5.mp3
+   ✅ Generado exitosamente
+
+[73/87] (83.9%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s1-q6
+   Tipo: listening
+   Tamaño texto: 98 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 98 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s1-q6.mp3
+   ✅ Generado exitosamente
+
+[74/87] (85.1%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s1-q7
+   Tipo: listening
+   Tamaño texto: 97 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 97 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s1-q7.mp3
+   ✅ Generado exitosamente
+
+[75/87] (86.2%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s1-q8
+   Tipo: listening
+   Tamaño texto: 37 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 37 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s1-q8.mp3
+   ✅ Generado exitosamente
+
+[76/87] (87.4%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s1-q9
+   Tipo: listening
+   Tamaño texto: 83 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 83 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s1-q9.mp3
+   ✅ Generado exitosamente
+
+[77/87] (88.5%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s1-q10
+   Tipo: listening
+   Tamaño texto: 83 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 83 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s1-q10.mp3
+   ✅ Generado exitosamente
+
+[78/87] (89.7%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s8-q1
+   Tipo: listening
+   Tamaño texto: 62 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 62 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s8-q1.mp3
+   ✅ Generado exitosamente
+
+[79/87] (90.8%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s8-q2
+   Tipo: listening
+   Tamaño texto: 59 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 59 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s8-q2.mp3
+   ✅ Generado exitosamente
+
+[80/87] (92.0%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s8-q3
+   Tipo: listening
+   Tamaño texto: 83 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 83 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s8-q3.mp3
+   ✅ Generado exitosamente
+
+[81/87] (93.1%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s8-q4
+   Tipo: listening
+   Tamaño texto: 69 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 69 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s8-q4.mp3
+   ✅ Generado exitosamente
+
+[82/87] (94.3%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s8-q5
+   Tipo: listening
+   Tamaño texto: 58 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 58 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s8-q5.mp3
+   ✅ Generado exitosamente
+
+[83/87] (95.4%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s8-q6
+   Tipo: listening
+   Tamaño texto: 33 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 33 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s8-q6.mp3
+   ✅ Generado exitosamente
+
+[84/87] (96.6%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s8-q7
+   Tipo: listening
+   Tamaño texto: 59 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 59 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s8-q7.mp3
+   ✅ Generado exitosamente
+
+[85/87] (97.7%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s8-q8
+   Tipo: listening
+   Tamaño texto: 57 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 57 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s8-q8.mp3
+   ✅ Generado exitosamente
+
+[86/87] (98.9%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s8-q9
+   Tipo: listening
+   Tamaño texto: 62 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 62 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s8-q9.mp3
+   ✅ Generado exitosamente
+
+[87/87] (100.0%) Generando audio:
+   Lección: toefl-b1-w4
+   Ejercicio: toefl-b1-u4-s8-q10
+   Tipo: listening
+   Tamaño texto: 79 caracteres
+   Attempting ElevenLabs with voice: 21m00Tcm4TlvDq8ikWAM...
+❌ Error generando audio: Error: ElevenLabs API error: 401 - {"detail":{"status":"quota_exceeded","message":"This request exceeds your quota of 30002. You have 4 credits remaining, while 79 credits are required for this request."}}
+   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...
+✅ Audio OpenAI generado: /Users/lidia/Documents/focusonenglish/public/audio/toefl/toefl-b1-w4-toefl-b1-u4-s8-q10.mp3
+   ✅ Generado exitosamente
+
+
+=====================================
+📊 RESUMEN DE GENERACIÓN
+=====================================
+✅ Exitosos: 87
+❌ Errores: 0
+📁 Total: 87
+📈 Tasa de éxito: 100.0%
+
+✨ Proceso completado!
+
+📊 Uso final de la API:
+   Caracteres usados: 0 / ilimitado

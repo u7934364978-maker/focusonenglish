@@ -17,33 +17,12 @@
           "type": "matching",
           "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "Understand",
-              "right": "Entender"
-            },
-            {
-              "id": "p1",
-              "left": "Speak",
-              "right": "Hablar"
-            },
-            {
-              "id": "p2",
-              "left": "Write",
-              "right": "Escribir"
-            },
-            {
-              "id": "p3",
-              "left": "Read",
-              "right": "Leer"
-            }
+            { "id": "p0", "left": "Understand", "right": "Entender" },
+            { "id": "p1", "left": "Speak", "right": "Hablar" },
+            { "id": "p2", "left": "Write", "right": "Escribir" },
+            { "id": "p3", "left": "Read", "right": "Leer" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
           "mastery_tag": "vocabulary"
         },
         {
@@ -64,7 +43,7 @@
         {
           "interaction_id": "U14_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena: 'Ellos estudian en la universidad'",
           "options": [
             { "id": "w0", "text": "They" },
             { "id": "w1", "text": "study" },
@@ -78,7 +57,7 @@
         {
           "interaction_id": "U14_I5",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce: 'Escuchar'",
           "stimulus_es": "Escuchar",
           "correct_answer": "Listen",
           "mastery_tag": "vocabulary"
@@ -98,7 +77,7 @@
         {
           "interaction_id": "U14_I7",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Acciones comunes:",
           "pairs": [
             { "id": "p0", "left": "Work", "right": "Trabajar" },
             { "id": "p1", "left": "Live", "right": "Vivir" },
@@ -111,8 +90,8 @@
         {
           "interaction_id": "U14_I8",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (practicar) ________ basketball.",
+          "prompt_es": "Completa: 'We ________ (practicar) basketball.'",
+          "stimulus_en": "We ________ basketball.",
           "correct_answer": "practice",
           "mastery_tag": "grammar"
         },
@@ -126,12 +105,12 @@
         {
           "interaction_id": "U14_I10",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena: 'Uso mi ordenador'",
           "options": [
-            { "id": "w0", "text": "I" },
             { "id": "w1", "text": "use" },
             { "id": "w2", "text": "my" },
-            { "id": "w3", "text": "computer" }
+            { "id": "w3", "text": "computer" },
+            { "id": "w0", "text": "I" }
           ],
           "correct_answer": ["w0", "w1", "w2", "w3"],
           "mastery_tag": "syntax"
@@ -139,7 +118,7 @@
         {
           "interaction_id": "U14_I11",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce: 'Necesitar'",
           "stimulus_es": "Necesitar",
           "correct_answer": "Need",
           "mastery_tag": "vocabulary"
@@ -159,7 +138,7 @@
         {
           "interaction_id": "U14_I13",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Más verbos:",
           "pairs": [
             { "id": "p0", "left": "Help", "right": "Ayudar" },
             { "id": "p1", "left": "Visit", "right": "Visitar" },
@@ -172,8 +151,8 @@
         {
           "interaction_id": "U14_I14",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "They (visitar) ________ their grandparents.",
+          "prompt_es": "Completa: 'They ________ (visitar) their grandparents.'",
+          "stimulus_en": "They ________ their grandparents.",
           "correct_answer": "visit",
           "mastery_tag": "grammar"
         },
@@ -187,13 +166,13 @@
         {
           "interaction_id": "U14_I16",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena: 'Comemos a la una'",
           "options": [
-            { "id": "w0", "text": "We" },
             { "id": "w1", "text": "eat" },
             { "id": "w2", "text": "at" },
             { "id": "w3", "text": "one" },
-            { "id": "w4", "text": "o'clock" }
+            { "id": "w4", "text": "o'clock" },
+            { "id": "w0", "text": "We" }
           ],
           "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
           "mastery_tag": "syntax"
@@ -201,7 +180,7 @@
         {
           "interaction_id": "U14_I17",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce: 'Hablar'",
           "stimulus_es": "Hablar",
           "correct_answer": "Speak",
           "mastery_tag": "vocabulary"
@@ -217,6 +196,62 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I19",
+          "type": "transformation",
+          "prompt_es": "Completa: 'I ________ (beber) coffee.'",
+          "stimulus_en": "I ________ coffee.",
+          "correct_answer": "drink",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I20",
+          "type": "true_false",
+          "prompt_es": "En el presente simple con 'I, You, We, They', el verbo no cambia.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I21",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ellos viven en Madrid'",
+          "stimulus_es": "Ellos viven en Madrid",
+          "correct_answer": "They live in Madrid",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U14_I22",
+          "type": "matching",
+          "prompt_es": "Sujetos y verbos:",
+          "pairs": [
+            { "id": "p1", "left": "I", "right": "Yo" },
+            { "id": "p2", "left": "You", "right": "Tú/Vosotros" },
+            { "id": "p3", "left": "We", "right": "Nosotros" },
+            { "id": "p4", "left": "They", "right": "Ellos" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa correcta?",
+          "options": [
+            { "id": "o1", "text": "I don't know" },
+            { "id": "o2", "text": "I no know" },
+            { "id": "o3", "text": "I not know" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I24",
+          "type": "transformation",
+          "prompt_es": "Completa: 'We ________ (estudiar) English.'",
+          "stimulus_en": "We ________ English.",
+          "correct_answer": "study",
+          "mastery_tag": "grammar"
         }
       ]
     }

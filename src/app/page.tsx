@@ -230,10 +230,10 @@ export default function HomePage() {
                   </Link>
                   
                   <Link
-                    href="/blog/trabajo/guia-definitiva-curso-ingles-profesional"
-                    className="block text-center mt-3 text-coral-600 font-semibold hover:text-coral-700"
+                    href="/blog/trabajo"
+                    className="block text-center mt-3 text-coral-600 font-bold hover:text-coral-700"
                   >
-                    Leer guía profesional
+                    Ver todas las guías de trabajo →
                   </Link>
                 </div>
               </div>
@@ -277,10 +277,10 @@ export default function HomePage() {
                   </Link>
                   
                   <Link
-                    href="/blog/viajes/guia-maestra-curso-ingles-viajeros"
-                    className="block text-center mt-3 text-coral-600 font-semibold hover:text-coral-700"
+                    href="/blog/viajes"
+                    className="block text-center mt-3 text-coral-600 font-bold hover:text-coral-700"
                   >
-                    Leer guía para viajeros
+                    Ver todas las guías de viajes →
                   </Link>
                 </div>
               </div>
@@ -324,10 +324,10 @@ export default function HomePage() {
                   </Link>
                   
                   <Link
-                    href="/blog/metodos/clases-de-ingles-guia"
-                    className="block text-center mt-3 text-amber-600 font-semibold hover:text-amber-700"
+                    href="/blog/examenes"
+                    className="block text-center mt-3 text-amber-600 font-bold hover:text-amber-700"
                   >
-                    Leer guía de estudios
+                    Ver todas las guías de exámenes →
                   </Link>
                 </div>
               </div>
@@ -344,16 +344,28 @@ export default function HomePage() {
                 <p className="text-lg text-slate-600">Últimas guías para tu éxito profesional y personal</p>
                 <div className="mt-4 flex flex-wrap gap-3">
                   <Link 
-                    href="/aplicaciones-para-aprender-ingles"
+                    href="/blog/trabajo"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-50 text-coral-600 text-sm font-bold hover:bg-coral-100 transition-colors"
                   >
-                    📱 Mejores Apps 2026
+                    💼 Trabajo
                   </Link>
                   <Link 
-                    href="/blog/metodos/clases-de-ingles-guia"
+                    href="/blog/viajes"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-50 text-coral-600 text-sm font-bold hover:bg-orange-100 transition-colors"
+                  >
+                    ✈️ Viajes
+                  </Link>
+                  <Link 
+                    href="/blog/examenes"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-600 text-sm font-bold hover:bg-amber-100 transition-colors"
+                  >
+                    📝 Exámenes
+                  </Link>
+                  <Link 
+                    href="/blog/metodos"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 text-slate-600 text-sm font-bold hover:bg-slate-200 transition-colors"
                   >
-                    📚 Guía de Clases
+                    🎯 Métodos
                   </Link>
                 </div>
               </div>
