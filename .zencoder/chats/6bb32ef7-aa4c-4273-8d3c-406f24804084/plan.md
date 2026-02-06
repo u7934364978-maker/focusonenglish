@@ -23,6 +23,10 @@
 - [x] Verification: Check that relevant courses are linked at the bottom of category pages.
 
 ## Phase 3: Final Review & Testing
-- [x] Run `npm run lint` to ensure no errors.
+- [x] Run `npm run lint` to ensure no errors (Verified modified files).
 - [x] Final manual review of all "Frases" related navigation.
+- [x] Fixed production 404 by adding `force-dynamic` and updating seed script.
+- [x] Refactored `phraseService` to use `createServerClient` for server-side fetching.
+- [ ] Ensure database migrations are applied to production (Requires manual SQL execution in Supabase Dashboard).
+- [ ] Push changes and verify deployment.
 - [x] Update `plan.md` with completion.

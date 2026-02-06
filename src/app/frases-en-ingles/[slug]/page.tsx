@@ -8,9 +8,6 @@ import { ChevronRight, Home, ArrowLeft, MessageCircle, Info, Sparkles } from "lu
 import { Metadata } from "next";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { createClient } from "@/lib/supabase/server";
-
-export const dynamic = 'force-dynamic';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -18,8 +15,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const supabase = await createClient();
-  const category = await phraseService.getCategoryBySlug(slug, supabase);
+  const category = await phraseService.getCategoryBySlug(slug);
   
   if (!category) return { title: "Frases en Inglés" };
 
@@ -34,8 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export async function generateStaticParams() {
-  const supabase = await createClient();
-  const categories = await phraseService.getAllCategories(supabase);
+  const categories = await phraseService.getAllCategories();
   return categories.map((category) => ({
     slug: category.slug,
   }));
@@ -49,14 +44,13 @@ const MarkdownComponents = {
 
 export default async function PhraseCategoryPage({ params }: Props) {
   const { slug } = await params;
-  const supabase = await createClient();
-  const category = await phraseService.getCategoryBySlug(slug, supabase);
+  const category = await phraseService.getCategoryBySlug(slug);
 
   if (!category) {
     notFound();
   }
 
-  const phrases = await phraseService.getPhrasesByCategory(slug, supabase);
+  const phrases = await phraseService.getPhrasesByCategory(slug);
 
   const recommendations: Record<string, { title: string, href: string, description: string }> = {
     viajes: {
