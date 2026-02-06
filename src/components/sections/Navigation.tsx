@@ -4,15 +4,22 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { Sun, Moon } from "lucide-react";
+import { getUser } from "@/lib/auth-helpers";
 
 export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  // Evitar error de hidratación
+  // Evitar error de hidratación y verificar auth
   useEffect(() => {
     setMounted(true);
+    async function checkAuth() {
+      const { user } = await getUser();
+      setIsLoggedIn(!!user);
+    }
+    checkAuth();
   }, []);
 
   return (
@@ -33,7 +40,7 @@ export function Navigation() {
               <span className="text-lg">💎</span> Planes
             </Link>
             
-            <Link href="/planes" className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors flex items-center gap-1 dark:text-slate-200 dark:hover:text-[#FF6B6B]">
+            <Link href={isLoggedIn ? "/dashboard" : "/planes"} className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors flex items-center gap-1 dark:text-slate-200 dark:hover:text-[#FF6B6B]">
               <span className="text-lg">📚</span> Cursos
             </Link>
             
@@ -60,14 +67,16 @@ export function Navigation() {
               href="/cuenta/login"
               className="px-4 py-2 rounded-xl text-sm font-bold text-gray-700 hover:text-[#FF6B6B] border border-transparent hover:border-[#FF6B6B]/20 hover:bg-[#FF6B6B]/5 transition-all dark:text-slate-200 dark:hover:text-[#FF6B6B]"
             >
-              Iniciar Sesión
+              {isLoggedIn ? 'Mi Panel' : 'Iniciar Sesión'}
             </Link>
-            <Link 
-              href="/cuenta/registro"
-              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] text-white font-black text-sm hover:shadow-coral-lg transition-all transform hover:scale-105"
-            >
-              Empezar Ahora
-            </Link>
+            {!isLoggedIn && (
+              <Link 
+                href="/cuenta/registro"
+                className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] text-white font-black text-sm hover:shadow-coral-lg transition-all transform hover:scale-105"
+              >
+                Empezar Ahora
+              </Link>
+            )}
           </div>
 
           {/* Mobile menu button */}
@@ -106,7 +115,7 @@ export function Navigation() {
               </Link>
               
               <Link 
-                href="/planes" 
+                href={isLoggedIn ? "/dashboard" : "/planes"}
                 className="text-sm font-bold text-slate-700 hover:text-coral-600 transition-colors pl-4 block dark:text-slate-300"
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -139,15 +148,17 @@ export function Navigation() {
                 className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-bold text-slate-700 hover:text-coral-600 hover:bg-coral-50 transition-all dark:text-slate-300 dark:hover:bg-slate-800"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                <span>🔑</span> Iniciar Sesión
+                <span>🔑</span> {isLoggedIn ? 'Mi Panel' : 'Iniciar Sesión'}
               </Link>
-              <Link 
-                href="/cuenta/registro"
-                className="px-4 py-2 rounded-lg bg-gradient-to-r from-coral-600 to-peach-600 text-white font-black text-sm text-center"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Empezar Ahora
-              </Link>
+              {!isLoggedIn && (
+                <Link 
+                  href="/cuenta/registro"
+                  className="px-4 py-2 rounded-lg bg-gradient-to-r from-coral-600 to-peach-600 text-white font-black text-sm text-center"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Empezar Ahora
+                </Link>
+              )}
             </div>
           </div>
         )}

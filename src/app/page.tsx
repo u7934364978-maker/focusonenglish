@@ -132,6 +132,65 @@ export default function HomePage() {
             {/* Courses Grid */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               
+              {/* AI Speaking Coach */}
+              <div className="bg-white rounded-3xl shadow-xl border-2 border-coral-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 lg:col-span-3 flex flex-col md:flex-row items-stretch">
+                <div className="bg-gradient-to-br from-slate-900 to-slate-800 p-10 text-white md:w-2/5 relative overflow-hidden flex flex-col justify-center">
+                  <div className="absolute top-0 right-0 w-64 h-64 bg-coral-500/10 rounded-full -mr-32 -mt-32 animate-pulse"></div>
+                  <div className="relative z-10">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-coral-600 text-[10px] font-black uppercase tracking-widest mb-4">
+                      Nuevo • AI Powered
+                    </div>
+                    <div className="text-6xl mb-6">🤖</div>
+                    <h3 className="text-3xl font-black mb-4">AI Speaking Coach</h3>
+                    <p className="text-slate-300 text-lg leading-relaxed">
+                      Practica conversaciones reales con nuestro tutor de IA. Feedback instantáneo en pronunciación y gramática.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="p-10 flex-1 flex flex-col justify-between">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-coral-50 rounded-2xl flex items-center justify-center text-2xl shadow-sm">🎙️</div>
+                      <div>
+                        <h4 className="font-black text-slate-900">Conversación Real</h4>
+                        <p className="text-sm text-slate-500">Habla de forma natural, la IA te responde al instante.</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-amber-50 rounded-2xl flex items-center justify-center text-2xl shadow-sm">📊</div>
+                      <div>
+                        <h4 className="font-black text-slate-900">Métricas Detalladas</h4>
+                        <p className="text-sm text-slate-500">Evaluación de tono, fluidez y vocabulario.</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center text-2xl shadow-sm">🎭</div>
+                      <div>
+                        <h4 className="font-black text-slate-900">Roleplay Guiado</h4>
+                        <p className="text-sm text-slate-500">Misiones desde entrevistas hasta viajes.</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-green-50 rounded-2xl flex items-center justify-center text-2xl shadow-sm">🧠</div>
+                      <div>
+                        <h4 className="font-black text-slate-900">Memoria Persistente</h4>
+                        <p className="text-sm text-slate-500">La IA recuerda tus errores y tu progreso.</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <Link
+                      href="/practica-ia"
+                      className="flex-1 text-center bg-slate-900 text-white px-8 py-5 rounded-2xl font-black text-lg hover:bg-coral-600 transition-all shadow-xl hover:shadow-coral-200"
+                    >
+                      Probar Coach Gratis →
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
               {/* Inglés para Trabajar */}
               <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
                 <div className="bg-gradient-to-br from-coral-600 to-peach-600 p-8 text-white relative overflow-hidden">

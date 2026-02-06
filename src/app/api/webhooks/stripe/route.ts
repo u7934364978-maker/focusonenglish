@@ -71,50 +71,52 @@ export async function POST(request: NextRequest) {
             }
           });
 
+          let userId: string | undefined;
+          let generatedPassword = crypto.randomBytes(12).toString('hex') + '!';
+
           if (authError) {
             const errorMsg = authError.message.toLowerCase();
             if (errorMsg.includes('already') || errorMsg.includes('registered') || authError.status === 422) {
-              console.log('ℹ️ User already exists, identifying and sending email...');
+              console.log('ℹ️ User already exists, identifying...');
               
               // Intentar obtener ID por email
               const { data: userData } = await supabaseAdmin.from('users').select('id').eq('email', customerEmail).single();
-              let uid = userData?.id;
+              userId = userData?.id;
 
-              if (!uid) {
+              if (!userId) {
                 const { data: { users } } = await supabaseAdmin.auth.admin.listUsers({ perPage: 1000 });
-                uid = users?.find(u => u.email?.toLowerCase() === customerEmail.toLowerCase())?.id;
+                userId = users?.find(u => u.email?.toLowerCase() === customerEmail.toLowerCase())?.id;
               }
               
-              if (uid) {
-                const newPass = crypto.randomBytes(12).toString('hex') + '!';
-                await supabaseAdmin.auth.admin.updateUserById(uid, { password: newPass });
-                await sendWelcomeEmail({
-                  email: customerEmail,
-                  name: firstName || 'Estudiante',
-                  planName,
-                  tempPassword: newPass
-                });
-                console.log('✅ Welcome email sent to existing user');
-              } else {
-                await sendWelcomeEmail({ email: customerEmail, name: firstName || 'Estudiante', planName });
+              if (userId) {
+                await supabaseAdmin.auth.admin.updateUserById(userId, { password: generatedPassword });
+                console.log('✅ Password updated for existing user:', userId);
               }
             } else {
               console.error('❌ Auth Error:', authError.message);
             }
           } else if (authData.user) {
-            const userId = authData.user.id;
+            userId = authData.user.id;
             console.log('✅ User created:', userId);
-            
-            // Inicializar datos del usuario
+          }
+
+          if (userId) {
+            // Inicializar o actualizar datos del usuario SIEMPRE
+            console.log('🔄 Updating user data for:', userId);
             await Promise.all([
               supabaseAdmin.from('users').upsert({
-                id: userId, email: customerEmail, name: `${firstName} ${lastName}`.trim(),
+                id: userId, 
+                email: customerEmail, 
+                name: `${firstName} ${lastName}`.trim(),
                 language_level: session.metadata?.currentLevel?.toUpperCase() || 'A1',
                 updated_at: new Date().toISOString()
               }),
               supabaseAdmin.from('user_profiles').upsert({
-                user_id: userId, email: customerEmail, name: `${firstName} ${lastName}`.trim(),
-                subscription_status: 'active', subscription_plan: session.metadata?.planId || 'premium',
+                user_id: userId, 
+                email: customerEmail, 
+                name: `${firstName} ${lastName}`.trim(),
+                subscription_status: 'active', 
+                subscription_plan: session.metadata?.planId || 'premium',
                 subscription_start_date: new Date().toISOString()
               }),
               supabaseAdmin.from('user_stats').upsert({ user_id: userId, level: 1 }),
@@ -122,13 +124,18 @@ export async function POST(request: NextRequest) {
               supabaseAdmin.from('user_streaks').upsert({ user_id: userId, current_streak: 0, longest_streak: 0 })
             ]);
 
+            // Enviar email con la contraseña generada (ya sea nueva o reseteada)
             await sendWelcomeEmail({
               email: customerEmail,
-              name: firstName,
+              name: firstName || 'Estudiante',
               planName,
-              tempPassword
+              tempPassword: generatedPassword
             });
-            console.log('✅ Welcome email sent to new user');
+            
+            console.log('✅ Welcome email sent to:', customerEmail);
+          } else {
+            // Fallback si no pudimos obtener el ID
+            await sendWelcomeEmail({ email: customerEmail, name: firstName || 'Estudiante', planName });
           }
         } catch (err: any) {
           console.error('❌ Supabase error:', err.message);

@@ -30,17 +30,19 @@ function SignInForm() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const [isAlreadyLoggedIn, setIsAlreadyLoggedIn] = useState(false);
 
-  // Si ya hay sesión, redirigir
+  // Si ya hay sesión, mostrar mensaje en lugar de redirigir automáticamente para evitar bucles si no tiene suscripción
   useEffect(() => {
     async function checkUser() {
       const { user } = await getUser();
       if (user) {
-        window.location.replace(callbackUrl);
+        setIsAlreadyLoggedIn(true);
+        setEmail(user.email || '');
       }
     }
     checkUser();
-  }, [callbackUrl]);
+  }, []);
 
   // Login con credenciales
   const handleSubmit = async (e: React.FormEvent) => {
@@ -56,7 +58,28 @@ function SignInForm() {
         console.error('Auth error:', authError);
         setError('Email o contraseña incorrectos');
       } else {
-        console.log('Login success, redirecting to:', callbackUrl);
+        console.log('Login success, ensuring profile exists...');
+        
+        // Asegurar que existe un perfil para evitar redirecciones infinitas si el webhook falló
+        const { supabase } = await import('@/lib/supabase-client');
+        const { data: profile } = await supabase
+          .from('user_profiles')
+          .select('subscription_status')
+          .eq('user_id', user.id)
+          .single();
+        
+        if (!profile) {
+          console.log('Profile missing, creating default inactive profile...');
+          await supabase.from('user_profiles').insert({
+            user_id: user.id,
+            email: user.email,
+            name: user.user_metadata?.full_name || user.user_metadata?.name || '',
+            subscription_status: 'inactive',
+            subscription_plan: 'free'
+          });
+        }
+
+        console.log('Redirecting to:', callbackUrl);
         // Forzar redirección nativa del navegador para asegurar limpieza de cookies
         window.location.replace(callbackUrl);
       }
@@ -65,6 +88,12 @@ function SignInForm() {
     } finally {
       setLoading(false);
     }
+  };
+
+  const handleLogout = async () => {
+    const { supabase } = await import('@/lib/supabase-client');
+    await supabase.auth.signOut();
+    window.location.reload();
   };
 
   return (
@@ -91,91 +120,113 @@ function SignInForm() {
           {/* Header */}
           <div className="text-center mb-8">
             <h1 className="text-3xl font-black text-slate-900 mb-2">
-              Bienvenido de Nuevo
+              {isAlreadyLoggedIn ? 'Sesión Activa' : 'Bienvenido de Nuevo'}
             </h1>
             <p className="text-slate-600">
-              Accede a tus cursos de inglés
+              {isAlreadyLoggedIn 
+                ? `Has iniciado sesión como ${email}`
+                : 'Accede a tus cursos de inglés'}
             </p>
           </div>
 
-          {/* Error Message */}
-          {error && (
-            <div className="mb-6 bg-red-50 border-2 border-red-200 text-red-700 px-4 py-3 rounded-xl text-sm font-medium">
-              ⚠️ {error}
-            </div>
-          )}
-
-          {/* Login Form */}
-          <form onSubmit={handleSubmit} className="space-y-5">
-            <div>
-              <label htmlFor="email" className="block text-sm font-bold text-slate-700 mb-2">
-                Email
-              </label>
-              <input
-                id="email"
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                disabled={loading}
-                className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-coral-500 focus:ring-4 focus:ring-coral-100 outline-none transition-all disabled:bg-slate-100 disabled:cursor-not-allowed text-slate-900 placeholder-slate-400"
-                placeholder="tu@email.com"
-              />
-            </div>
-
-            <div>
-              <label htmlFor="password" className="block text-sm font-bold text-slate-700 mb-2">
-                Contraseña
-              </label>
-              <input
-                id="password"
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-                disabled={loading}
-                className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-coral-500 focus:ring-4 focus:ring-coral-100 outline-none transition-all disabled:bg-slate-100 disabled:cursor-not-allowed text-slate-900"
-                placeholder="••••••••"
-              />
-            </div>
-
-            <div className="flex items-center justify-between text-sm">
-              <label className="flex items-center cursor-pointer group">
-                <input
-                  type="checkbox"
-                  className="w-4 h-4 text-coral-600 border-slate-300 rounded focus:ring-2 focus:ring-coral-500"
-                />
-                <span className="ml-2 text-slate-600 group-hover:text-slate-900 transition-colors">
-                  Recordarme
-                </span>
-              </label>
-
-              <Link
-                href="/cuenta/recuperar"
-                className="font-semibold text-coral-600 hover:text-coral-700 transition-colors"
+          {/* Already logged in view */}
+          {isAlreadyLoggedIn ? (
+            <div className="space-y-4">
+              <button
+                onClick={() => window.location.replace(callbackUrl)}
+                className="w-full bg-gradient-to-r from-coral-500 to-peach-500 text-white font-bold py-4 px-6 rounded-xl hover:shadow-xl hover:scale-[1.02] transition-all"
               >
-                ¿Olvidaste tu contraseña?
-              </Link>
+                Ir a mis Cursos
+              </button>
+              <button
+                onClick={handleLogout}
+                className="w-full bg-slate-100 text-slate-700 font-bold py-4 px-6 rounded-xl hover:bg-slate-200 transition-all"
+              >
+                Cerrar Sesión
+              </button>
             </div>
-
-            <button
-              type="submit"
-              disabled={loading}
-              className="w-full bg-gradient-to-r from-coral-500 to-peach-500 text-white font-bold py-4 px-6 rounded-xl hover:shadow-xl hover:scale-[1.02] transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
-            >
-              {loading ? (
-                <span className="flex items-center justify-center gap-2">
-                  <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                  </svg>
-                  Iniciando sesión...
-                </span>
-              ) : (
-                'Acceder a mis Cursos'
+          ) : (
+            <>
+              {/* Error Message */}
+              {error && (
+                <div className="mb-6 bg-red-50 border-2 border-red-200 text-red-700 px-4 py-3 rounded-xl text-sm font-medium">
+                  ⚠️ {error}
+                </div>
               )}
-            </button>
-          </form>
+
+              {/* Login Form */}
+              <form onSubmit={handleSubmit} className="space-y-5">
+                <div>
+                  <label htmlFor="email" className="block text-sm font-bold text-slate-700 mb-2">
+                    Email
+                  </label>
+                  <input
+                    id="email"
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                    disabled={loading}
+                    className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-coral-500 focus:ring-4 focus:ring-coral-100 outline-none transition-all disabled:bg-slate-100 disabled:cursor-not-allowed text-slate-900 placeholder-slate-400"
+                    placeholder="tu@email.com"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="password" className="block text-sm font-bold text-slate-700 mb-2">
+                    Contraseña
+                  </label>
+                  <input
+                    id="password"
+                    type="password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required
+                    disabled={loading}
+                    className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-coral-500 focus:ring-4 focus:ring-coral-100 outline-none transition-all disabled:bg-slate-100 disabled:cursor-not-allowed text-slate-900"
+                    placeholder="••••••••"
+                  />
+                </div>
+
+                <div className="flex items-center justify-between text-sm">
+                  <label className="flex items-center cursor-pointer group">
+                    <input
+                      type="checkbox"
+                      className="w-4 h-4 text-coral-600 border-slate-300 rounded focus:ring-2 focus:ring-coral-500"
+                    />
+                    <span className="ml-2 text-slate-600 group-hover:text-slate-900 transition-colors">
+                      Recordarme
+                    </span>
+                  </label>
+
+                  <Link
+                    href="/cuenta/recuperar"
+                    className="font-semibold text-coral-600 hover:text-coral-700 transition-colors"
+                  >
+                    ¿Olvidaste tu contraseña?
+                  </Link>
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="w-full bg-gradient-to-r from-coral-500 to-peach-500 text-white font-bold py-4 px-6 rounded-xl hover:shadow-xl hover:scale-[1.02] transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+                >
+                  {loading ? (
+                    <span className="flex items-center justify-center gap-2">
+                      <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                      </svg>
+                      Iniciando sesión...
+                    </span>
+                  ) : (
+                    'Acceder a mis Cursos'
+                  )}
+                </button>
+              </form>
+            </>
+          )}
 
           {/* Divider */}
           <div className="relative my-8">

@@ -63,6 +63,7 @@ export async function middleware(request: NextRequest) {
       .eq("user_id", user.id)
       .single();
     profile = data;
+    console.log(`[Middleware] User: ${user.email}, Status: ${profile?.subscription_status}, Role: ${profile?.role}`);
   }
 
   // Rutas públicas que NO deben redirigir al dashboard si está logueado (ej. recursos estáticos, webhooks, etc.)
@@ -74,12 +75,18 @@ export async function middleware(request: NextRequest) {
     return response;
   }
 
-  // Si está autenticado y va a login, al dashboard
+  // Si está autenticado y va a login, al dashboard (solo si es premium)
   if (user && pathname === "/cuenta/login") {
-    const url = request.nextUrl.clone();
-    url.pathname = "/dashboard";
-    url.searchParams.delete("next");
-    return NextResponse.redirect(url);
+    const isPaid = profile?.subscription_status === "active" || profile?.subscription_status === "trialing";
+    const isAdmin = profile?.role === "admin";
+    
+    if (isPaid || isAdmin) {
+      const url = request.nextUrl.clone();
+      url.pathname = "/dashboard";
+      url.searchParams.delete("next");
+      return NextResponse.redirect(url);
+    }
+    // Si no es premium, permitimos que se quede en /cuenta/login para que vea el mensaje de sesión activa o pueda cerrar sesión
   }
 
   // Si está autenticado y va a registro, solo redirigir si YA TIENE suscripción activa
@@ -120,13 +127,14 @@ export async function middleware(request: NextRequest) {
       return NextResponse.redirect(url);
     }
 
-    // Si está autenticado, verificar que tenga una suscripción activa o sea admin
-    // Usamos el perfil ya obtenido anteriormente
+    // Si está autenticado, verificar que tenga una suscripción activa o sea admin para cursos y aula
+    // NO redirigimos desde /dashboard si está logueado, para que pueda ver su panel aunque no sea premium
     const isPaid = profile?.subscription_status === "active" || profile?.subscription_status === "trialing";
     const isAdmin = profile?.role === "admin";
     const isToeflExempt = pathname.startsWith("/curso/toefl-");
+    const isDashboard = pathname.startsWith("/dashboard");
 
-    if (!isPaid && !isAdmin && !isToeflExempt) {
+    if (!isPaid && !isAdmin && !isToeflExempt && !isDashboard) {
       const url = request.nextUrl.clone();
       url.pathname = "/planes";
       url.searchParams.set("reason", "premium_required");

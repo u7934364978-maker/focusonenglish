@@ -47,6 +47,13 @@ export default function DashboardPage() {
           .eq('email', user.email)
           .maybeSingle();
 
+        // Fetch extended profile data from user_profiles
+        const { data: extendedProfile, error: extendedError } = await supabase
+          .from('user_profiles')
+          .select('*')
+          .eq('user_id', user.id)
+          .maybeSingle();
+
         // Fetch progress stats using RPC
         const { data: progressStats, error: statsError } = await supabase
           .rpc('get_user_progress_stats', { p_user_id: user.id });
@@ -104,7 +111,8 @@ export default function DashboardPage() {
           userLevel: currentLevel,
           levelTitle: getLevelTitle(currentLevel),
           courseLink: profile?.language_level ? `/curso/ingles-${profile.language_level.toLowerCase()}` : '/curso/ingles-a1',
-          languageLevel: profile?.language_level || 'A1'
+          languageLevel: profile?.language_level || 'A1',
+          subscriptionStatus: extendedProfile?.subscription_status || 'inactive'
         });
 
         const statsData = progressStats?.[0] || {
@@ -196,6 +204,25 @@ export default function DashboardPage() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="space-y-8">
           
+          {/* Subscription Status Banner */}
+          {userData.subscriptionStatus !== 'active' && userData.subscriptionStatus !== 'trialing' && (
+            <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl p-6 flex flex-col md:flex-row items-center justify-between gap-4 shadow-sm">
+              <div className="flex items-center gap-4">
+                <span className="text-4xl">⚠️</span>
+                <div>
+                  <h3 className="text-lg font-bold text-amber-900">Tu suscripción no está activa</h3>
+                  <p className="text-amber-700">Para acceder a todos los cursos y funciones, necesitas activar tu plan.</p>
+                </div>
+              </div>
+              <Link 
+                href="/planes" 
+                className="px-8 py-3 bg-amber-600 text-white font-black rounded-xl hover:bg-amber-700 transition-all shadow-md"
+              >
+                Ver Planes
+              </Link>
+            </div>
+          )}
+
           {/* Hero Card Principal - Práctica Ilimitada */}
           <div className="bg-gradient-to-br from-coral-600 via-peach-600 to-orange-600 rounded-3xl p-12 text-white shadow-2xl hover:shadow-coral-lg transition-all hover:-translate-y-1 transform">
             <div className="text-center">
@@ -231,6 +258,62 @@ export default function DashboardPage() {
                 <div className="flex items-center gap-2">
                   <span className="text-2xl">⚡</span>
                   <span>Progreso en tiempo real</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* AI Speaking Coach Section */}
+          <div className="bg-white rounded-3xl p-8 shadow-xl border-2 border-slate-100 overflow-hidden relative group">
+            <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:scale-110 transition-transform">
+              <span className="text-9xl">🤖</span>
+            </div>
+            
+            <div className="relative z-10">
+              <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
+                <div className="flex-1">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-coral-100 text-coral-600 text-[10px] font-black uppercase tracking-widest mb-4">
+                    Nueva Función AI
+                  </div>
+                  <h2 className="text-3xl font-black text-slate-900 mb-2">
+                    Tu Coach de Speaking Personal
+                  </h2>
+                  <p className="text-slate-600 text-lg max-w-2xl">
+                    Mejora tu fluidez practicando situaciones reales. Obtén feedback instantáneo en cada turno.
+                  </p>
+                  
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8">
+                    <div className="text-center p-3 bg-slate-50 rounded-2xl">
+                      <div className="text-xl mb-1">🎙️</div>
+                      <div className="text-[10px] font-black text-slate-400 uppercase">Voz Real</div>
+                    </div>
+                    <div className="text-center p-3 bg-slate-50 rounded-2xl">
+                      <div className="text-xl mb-1">🎯</div>
+                      <div className="text-[10px] font-black text-slate-400 uppercase">Puntería</div>
+                    </div>
+                    <div className="text-center p-3 bg-slate-50 rounded-2xl">
+                      <div className="text-xl mb-1">📊</div>
+                      <div className="text-[10px] font-black text-slate-400 uppercase">Métricas</div>
+                    </div>
+                    <div className="text-center p-3 bg-slate-50 rounded-2xl">
+                      <div className="text-xl mb-1">🧠</div>
+                      <div className="text-[10px] font-black text-slate-400 uppercase">Memoria</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="lg:w-1/3 flex flex-col gap-4">
+                  <Link
+                    href="/practica-ia"
+                    className="w-full inline-flex items-center justify-center gap-3 px-8 py-5 bg-slate-900 text-white rounded-2xl hover:bg-coral-600 transition-all font-black text-lg shadow-xl hover:shadow-coral-200"
+                  >
+                    <span>🎙️</span>
+                    <span>Iniciar Práctica IA</span>
+                    <span>→</span>
+                  </Link>
+                  <p className="text-center text-xs text-slate-400 font-bold uppercase tracking-wider">
+                    Sugerido: Entrevista de Trabajo
+                  </p>
                 </div>
               </div>
             </div>
