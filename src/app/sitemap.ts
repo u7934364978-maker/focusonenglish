@@ -2,9 +2,11 @@ import type { MetadataRoute } from "next";
 import { getBlogArticles } from "@/lib/blog";
 import { getAllSEORoutes } from "@/lib/seo";
 
+import { phraseService } from "@/lib/phrases";
+
 const baseUrl = "https://www.focus-on-english.com";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
 
   const urls: MetadataRoute.Sitemap = [
@@ -19,6 +21,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // SEO Hub - Alta prioridad para captar "aprender inglés"
     {
       url: `${baseUrl}/aprender-ingles`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.95,
+    },
+
+    // Frases en Inglés Hub
+    {
+      url: `${baseUrl}/frases-en-ingles`,
       lastModified: now,
       changeFrequency: "daily",
       priority: 0.95,
@@ -122,6 +132,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(article.date),
       changeFrequency: "monthly" as const,
       priority: 0.7,
+    }))
+  );
+
+  // 3. Añadir categorías de frases dinámicamente
+  const phraseCategories = await phraseService.getAllCategories();
+  urls.push(
+    ...phraseCategories.map((cat) => ({
+      url: `${baseUrl}/frases-en-ingles/${cat.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.85,
     }))
   );
 
