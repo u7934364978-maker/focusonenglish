@@ -27,6 +27,9 @@
 - [x] Final manual review of all "Frases" related navigation.
 - [x] Fixed production 404 by adding `force-dynamic` and updating seed script.
 - [x] Refactored `phraseService` to use `createServerClient` for server-side fetching.
-- [ ] Ensure database migrations are applied to production (Requires manual SQL execution in Supabase Dashboard).
-- [ ] Push changes and verify deployment.
-- [x] Update `plan.md` with completion.
+- [x] Ensure database migrations are applied to production.
+- [x] Seed production data using `scripts/seed-seo-content.mjs`.
+- [x] Push changes and verify deployment.
+- [x] Remove "Practicar con IA" button from category pages (UX cleanup).
+- [ ] Expand content to ~100 phrases per category for SEO.
+- [ ] Update `plan.md` with completion.

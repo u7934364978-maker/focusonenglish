@@ -121,9 +121,6 @@ export default async function PhraseCategoryPage({ params }: Props) {
                 Haz clic en el botón de reproducción para escuchar la pronunciación exacta. Puedes copiar las frases directamente para usarlas en tus mensajes o redes sociales.
               </p>
             </div>
-            <Link href="/cuenta/registro" className="md:ml-auto bg-coral-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-coral-700 transition-all whitespace-nowrap">
-              Practicar con IA
-            </Link>
           </div>
 
           {/* Phrases Grid */}
