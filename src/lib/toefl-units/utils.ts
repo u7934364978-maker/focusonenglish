@@ -30,6 +30,7 @@ export function createToeflUnit(
         const interaction: any = {
           interaction_id: q.id,
           type: q.type === 'multiple-choice' ? 'multiple_choice' : q.type,
+          block_type: block.type, // Preserve original shard type
           prompt_es: q.question,
           mastery_tag: 'toefl_prep',
           explanation_es: q.explanation || block.explanation,
@@ -99,8 +100,7 @@ export function createShardedToeflUnit(
   title: string,
   description: string,
   objectives: string[],
-  shards: Exercise[][]
+  shards: any[]
 ): any {
-  const allBlocks = shards.flat();
-  return createToeflUnit(id, title, description, objectives, allBlocks);
+  return createToeflUnit(id, title, description, objectives, shards);
 }

@@ -52,3 +52,7 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 - [x] Task 2.5: Create `vocabulario-negocios-ingles-profesional.md` in `trabajo/`.
 
 *Verification*: Check SEO keywords integration and content depth. [x] Done.
+
+### Step: Phase 3 - Technical Verification
+
+- [x] Task 3.1: Verify `robots.ts` for crawler restrictions (Google/AI).

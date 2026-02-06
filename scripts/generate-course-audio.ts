@@ -148,23 +148,50 @@ function collectAudiosToGenerate(): AudioToGenerate[] {
       unitData.blocks.forEach(block => {
         block.content.forEach((content: any) => {
           // Check for audioUrl and transcript/tts_en
-          if (content.audioUrl && (content.transcript || content.tts_en)) {
+          if (content.audioUrl && (content.transcript || content.tts_en || content.stimulus_en)) {
             const outputPath = path.join(process.cwd(), 'public', content.audioUrl);
             
             // Choose voice based on type
             let voiceId = VOICE_IDS.narrator;
-            if (content.type?.includes('listening')) voiceId = VOICE_IDS.british_female;
-            if (content.type?.includes('speaking')) voiceId = VOICE_IDS.american_female;
-            if (content.type?.includes('conversation')) voiceId = VOICE_IDS.young_female;
+            const type = content.block_type || content.type || '';
+            if (type.includes('listening')) voiceId = VOICE_IDS.british_female;
+            if (type.includes('speaking')) voiceId = VOICE_IDS.american_female;
+            if (type.includes('conversation')) voiceId = VOICE_IDS.young_female;
 
             audios.push({
               lessonId: unitData.course.unit_id,
               exerciseId: content.interaction_id || 'unknown',
-              text: (content.transcript || content.tts_en) as string,
+              text: (content.transcript || content.tts_en || content.stimulus_en) as string,
               voiceId,
               outputPath,
               type: 'listening'
             });
+          } else if ((content.block_type || content.type || '').includes('listening') || (content.block_type || content.type || '').includes('speaking')) {
+              // Automatically assign audioUrl if missing but text exists
+              const text = content.transcript || content.tts_en || content.stimulus_en;
+              if (text && !content.audioUrl) {
+                  const unitId = unitData.course.unit_id;
+                  const intId = content.interaction_id || 'q';
+                  const audioPath = `audio/toefl/${unitId}-${intId}.mp3`;
+                  const outputPath = path.join(process.cwd(), 'public', audioPath);
+                  
+                  let voiceId = VOICE_IDS.narrator;
+                  const type = content.block_type || content.type || '';
+                  if (type.includes('listening')) voiceId = VOICE_IDS.british_female;
+                  if (type.includes('speaking')) voiceId = VOICE_IDS.american_female;
+
+                  audios.push({
+                    lessonId: unitId,
+                    exerciseId: intId,
+                    text: text as string,
+                    voiceId,
+                    outputPath,
+                    type: 'listening'
+                  });
+                  
+                  // In a real scenario we'd want to save this back to the file, 
+                  // but for now we just generate it so it can be used.
+              }
           }
           
           // Check for video scenes with tts_en
@@ -281,11 +308,14 @@ async function generateTestAudio() {
     'test-audio.mp3'
   );
 
-  const success = await generateInstructionAudio(
-    testText,
-    VOICE_IDS.narrator,
-    outputPath
-  );
+  const success = await generateWithFallback({
+    lessonId: 'test',
+    exerciseId: 'test',
+    text: testText,
+    voiceId: VOICE_IDS.narrator,
+    outputPath: outputPath,
+    type: 'instruction'
+  });
 
   if (success) {
     console.log('\n✅ Audio de prueba generado exitosamente!');

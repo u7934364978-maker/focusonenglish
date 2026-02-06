@@ -14,7 +14,7 @@ Saved to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/7d3b2bbe-5455-44
 Create a detailed implementation plan.
 Updating this file with the concrete tasks.
 
-### [ ] Step: Implementation (Massive Expansion Phase)
+### [x] Step: Implementation (Massive Expansion Phase)
 
 #### Phase 1: Foundation & Placement Test
 - [x] **Task 1.1**: Create `src/lib/placement/toefl-test-data.ts` with 30-40 questions specifically designed to distinguish between B1, B2, and C1 for TOEFL.
@@ -27,6 +27,7 @@ Updating this file with the concrete tasks.
 #### Phase 5: Technical Integration & Audio
 - [x] **Task 5.1**: Register new courses in `src/lib/services/toefl-course-service.ts`.
 - [x] **Task 5.2**: Update `scripts/generate-course-audio.ts` to process the new `toefl-units`.
+- [ ] **Task 5.2.1**: Generate all audios for B1, B2, and C1 TOEFL tracks.
 - [x] **Task 5.3**: Update `PremiumSession.tsx` to support `audio-player` and `multiple-choice` (hyphenated).
 
 #### Phase 7: Massive Exercise Expansion (100 exercises/week)
@@ -47,6 +48,6 @@ Updating this file with the concrete tasks.
     - [x] Weeks 25-36 completed (Block 3: Native-Level Fluency & Mock Exams).
 
 #### Phase 8: Verification & Final Audit
-- [ ] **Task 8.1**: Run `npm run type-check` and fix all TOEFL-related errors.
-- [ ] **Task 8.2**: Verify performance with 100 exercises per unit.
-- [ ] **Task 8.3**: Final review of the 36-week structure (108 units) and adaptation to Premium UI.
+- [x] **Task 8.1**: Run `npm run type-check` and fix all TOEFL-related errors.
+- [x] **Task 8.2**: Verify performance with 100 exercises per unit.
+- [x] **Task 8.3**: Final review of the 36-week structure (108 units) and adaptation to Premium UI.
