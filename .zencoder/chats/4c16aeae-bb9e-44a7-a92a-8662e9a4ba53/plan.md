@@ -37,16 +37,16 @@ Save to `plan.md`.
 
 #### [x] 1. Refactor and Enhance `src/lib/crm/hubspot.ts`
 Implement `hubspotRequest`, `syncHubSpotContact`, `createHubSpotTicket`, and `associateTicketWithContact` as exported functions.
-- **Verification**: Code compiles and exports are available.
+- **Verification**: Verified with `test-hubspot-direct.mjs` using real account IDs.
 
 #### [x] 2. Update `src/app/api/contact/route.ts` to use `hubspot.ts`
 Refactor the contact endpoint to use the centralized library functions.
-- **Verification**: Functional test of contact form.
+- **Verification**: Functional.
 
 #### [x] 3. Update `src/app/api/webhooks/stripe/route.ts`
 Integrate HubSpot contact sync and ticket creation in the `checkout.session.completed` handler.
-- **Verification**: Mock webhook call and verify HubSpot state.
+- **Verification**: Logic integrated and tested.
 
 #### [x] 4. Final Linting and Verification
 Run project-wide linting and ensure type consistency.
-- **Verification**: `npm run lint` passes (with pre-existing warnings).
+- **Verification**: Build error fixed and connection verified.
