@@ -4,6 +4,7 @@ import Link from "next/link";
 import { phraseService } from "@/lib/phrases";
 import { ChevronRight, Home, Sparkles, Heart, Instagram, Plane, Zap, BookOpen, Star, type LucideIcon } from "lucide-react";
 import { Metadata } from "next";
+import { createClient } from "@/lib/supabase/server";
 
 export const dynamic = 'force-dynamic';
 
@@ -33,7 +34,8 @@ const colorMap: Record<string, string> = {
 };
 
 export default async function PhrasesHubPage() {
-  const categories = await phraseService.getAllCategories();
+  const supabase = await createClient();
+  const categories = await phraseService.getAllCategories(supabase);
 
   return (
     <>

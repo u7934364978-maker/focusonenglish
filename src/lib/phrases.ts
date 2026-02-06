@@ -1,5 +1,6 @@
-import { supabase } from '@/lib/supabase/client';
+import { supabase as defaultClient } from '@/lib/supabase/client';
 import { z } from 'zod';
+import { SupabaseClient } from '@supabase/supabase-js';
 
 // ============================================
 // SCHEMAS & TYPES
@@ -61,7 +62,8 @@ export const phraseService = {
   /**
    * Get all categories with basic metadata for the Hub index
    */
-  async getAllCategories(): Promise<PhraseCategory[]> {
+  async getAllCategories(client?: SupabaseClient): Promise<PhraseCategory[]> {
+    const supabase = client || defaultClient;
     const cacheKey = 'phrase-categories-all';
     const cached = getCached<PhraseCategory[]>(cacheKey);
     if (cached) return cached;
@@ -84,7 +86,8 @@ export const phraseService = {
   /**
    * Get a specific category by slug
    */
-  async getCategoryBySlug(slug: string): Promise<PhraseCategory | null> {
+  async getCategoryBySlug(slug: string, client?: SupabaseClient): Promise<PhraseCategory | null> {
+    const supabase = client || defaultClient;
     const cacheKey = `phrase-category-${slug}`;
     const cached = getCached<PhraseCategory>(cacheKey);
     if (cached) return cached;
@@ -93,12 +96,14 @@ export const phraseService = {
       .from('seo_phrase_categories')
       .select('*')
       .eq('slug', slug)
-      .single();
+      .maybeSingle();
 
-    if (error || !data) {
+    if (error) {
       console.error(`[phraseService] Error fetching category ${slug}:`, error);
       return null;
     }
+
+    if (!data) return null;
 
     const result = PhraseCategorySchema.parse(data);
     setCache(cacheKey, result);
@@ -108,7 +113,8 @@ export const phraseService = {
   /**
    * Get phrases for a specific category
    */
-  async getPhrasesByCategory(slug: string): Promise<Phrase[]> {
+  async getPhrasesByCategory(slug: string, client?: SupabaseClient): Promise<Phrase[]> {
+    const supabase = client || defaultClient;
     const cacheKey = `phrases-by-category-${slug}`;
     const cached = getCached<Phrase[]>(cacheKey);
     if (cached) return cached;
