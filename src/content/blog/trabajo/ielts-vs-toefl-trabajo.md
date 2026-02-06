@@ -14,7 +14,7 @@ faqs:
     answer: "Muchos profesionales prefieren el IELTS porque el Speaking es con una persona real, lo que permite una comunicación más natural que hablarle a un ordenador en el TOEFL."
 ---
 
-# IELTS vs TOEFL: La Decisión que Marcará tu Carrera Internacional
+## IELTS vs TOEFL: La Decisión que Marcará tu Carrera Internacional
 
 Si estás leyendo esto, es probable que tengas una oferta de trabajo en el extranjero o que estés planeando buscar una. Para la mayoría de visados y puestos cualificados, demostrar tu nivel de inglés no es opcional.
 

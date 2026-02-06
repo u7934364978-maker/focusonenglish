@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 17;
 const LEVEL = 'b2';
 
-export const B2_W${UNIT_ID}_BLOCK1: Exercise = {
+const B2_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'writing' : 'speaking',
+  type: true ? 'writing' : 'speaking',
   title: 'Writing Task 1 (B2 Integration)',
   explanation: 'Production practice focusing on Writing Task 1 (B2 Integration).',
   questions: [
@@ -27,5 +27,5 @@ export const B2_WEEK_17 = createToeflUnit(
   'Week 17: Writing Task 1 (B2 Integration)',
   'Mastering Writing Task 1 (B2 Integration) for the TOEFL iBT at B2 level.',
   ['Perfect the organization of Writing Task 1 (B2 Integration) responses', 'Improve synthesis of multiple sources', 'Enhance grammatical variety and accuracy'],
-  [B2_W${UNIT_ID}_BLOCK1]
+  [B2_WFIXED_BLOCK1]
 );

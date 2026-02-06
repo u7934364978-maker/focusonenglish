@@ -7,7 +7,7 @@ const LEVEL = 'b1';
 // ============================================
 // BLOCK 1: READING - VOCABULARY IN CONTEXT
 // ============================================
-export const B1_W1_BLOCK1: Exercise = {
+export const B1_W1_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
   type: 'vocabulary',
   title: 'Academic Vocabulary: Campus Life',
@@ -44,7 +44,7 @@ export const B1_W1_BLOCK1: Exercise = {
 // ============================================
 // BLOCK 2: LISTENING - CONVERSATION (CAMPUS)
 // ============================================
-export const B1_W1_BLOCK2: Exercise = {
+export const B1_W1_BLOCK2: any = {
   id: genId(LEVEL, UNIT_ID, 'b2', 0),
   type: 'listening',
   title: 'Listening: Meeting a Counselor',

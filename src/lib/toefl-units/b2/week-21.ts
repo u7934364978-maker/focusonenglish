@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 21;
 const LEVEL = 'b2';
 
-export const B2_W${UNIT_ID}_BLOCK1: Exercise = {
+const B2_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'writing' : 'speaking',
+  type: true ? 'writing' : 'speaking',
   title: 'Cohesion and Coherence in B2 Writing',
   explanation: 'Production practice focusing on Cohesion and Coherence in B2 Writing.',
   questions: [
@@ -27,5 +27,5 @@ export const B2_WEEK_21 = createToeflUnit(
   'Week 21: Cohesion and Coherence in B2 Writing',
   'Mastering Cohesion and Coherence in B2 Writing for the TOEFL iBT at B2 level.',
   ['Perfect the organization of Cohesion and Coherence in B2 Writing responses', 'Improve synthesis of multiple sources', 'Enhance grammatical variety and accuracy'],
-  [B2_W${UNIT_ID}_BLOCK1]
+  [B2_WFIXED_BLOCK1]
 );

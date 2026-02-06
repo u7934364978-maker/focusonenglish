@@ -51,6 +51,17 @@ Nuestra plataforma está optimizada para profesionales con poco tiempo pero gran
 *   **Escenarios por Industria**: Personaliza tu aprendizaje según tu sector (tecnología, salud, finanzas, marketing, etc.).
 *   **Micro-learning**: Lecciones de 10-15 minutos que puedes completar entre reunión y reunión.
 
+---
+
+## Recursos Adicionales para Profesionales
+
+Optimiza tu perfil con nuestras guías de expertos:
+- [**Guía para Entrevistas de Trabajo**](/blog/trabajo/entrevista-trabajo-ingles-preguntas): Preguntas típicas y cómo responderlas.
+- [**Emails Profesionales en Inglés**](/blog/trabajo/emails-profesionales-ingles): Plantillas y vocabulario clave.
+- [**Presentaciones de Impacto**](/blog/trabajo/presentaciones-ingles-guia): Estructuras para brillar en público.
+
+---
+
 ## Preguntas Frecuentes (FAQ)
 
 ### ¿Qué nivel necesito para empezar un curso de inglés de negocios?

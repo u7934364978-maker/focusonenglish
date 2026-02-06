@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 18;
 const LEVEL = 'b1';
 
-export const B1_W${UNIT_ID}_BLOCK1: Exercise = {
+const B1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'writing' : 'speaking',
+  type: true ? 'writing' : 'speaking',
   title: 'Speaking Task 3 - Integrated Academic',
   explanation: 'Practice exercises for Speaking Task 3 - Integrated Academic.',
   questions: [
@@ -27,5 +27,5 @@ export const B1_WEEK_18 = createToeflUnit(
   'Week 18: Speaking Task 3 - Integrated Academic',
   'Deep dive into Speaking Task 3 - Integrated Academic for the TOEFL iBT.',
   ['Master Speaking Task 3 - Integrated Academic strategies', 'Improve response organization', 'Practice under timed conditions'],
-  [B1_W${UNIT_ID}_BLOCK1]
+  [B1_WFIXED_BLOCK1]
 );

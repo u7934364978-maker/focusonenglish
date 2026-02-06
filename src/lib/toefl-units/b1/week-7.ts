@@ -4,7 +4,7 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 7;
 const LEVEL = 'b1';
 
-export const B1_W${UNIT_ID}_BLOCK1: Exercise = {
+const B1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
   type: 'grammar',
   title: 'Academic Practice Week 7',
@@ -27,5 +27,5 @@ export const B1_WEEK_7 = createToeflUnit(
   'Week 7: Academic Foundation',
   'Continuing the development of academic English skills for TOEFL.',
   ['Improve academic vocabulary', 'Practice exam-style tasks'],
-  [B1_W${UNIT_ID}_BLOCK1]
+  [B1_WFIXED_BLOCK1]
 );

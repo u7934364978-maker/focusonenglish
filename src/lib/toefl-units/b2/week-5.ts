@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 5;
 const LEVEL = 'b2';
 
-export const B2_W${UNIT_ID}_BLOCK1: Exercise = {
+const B2_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 3 == 0 ? 'reading-comprehension' : 'listening',
+  type: true ? 'reading-comprehension' : 'listening',
   title: 'Reading: Negative Factual Information',
   explanation: 'Advanced practice focusing on Reading: Negative Factual Information.',
   questions: [
@@ -27,5 +27,5 @@ export const B2_WEEK_5 = createToeflUnit(
   'Week 5: Reading: Negative Factual Information',
   'Advancing TOEFL skills at B2 level focusing on Reading: Negative Factual Information.',
   ['Analyze Reading: Negative Factual Information in academic contexts', 'Improve accuracy in complex tasks', 'Expand academic vocabulary'],
-  [B2_W${UNIT_ID}_BLOCK1]
+  [B2_WFIXED_BLOCK1]
 );

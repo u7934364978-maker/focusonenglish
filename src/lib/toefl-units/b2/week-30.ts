@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 30;
 const LEVEL = 'b2';
 
-export const B2_W${UNIT_ID}_BLOCK1: Exercise = {
+const B2_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: 'practice_set',
+  type: 'reading',
   title: 'Advanced Time Management',
   explanation: 'Final intensive practice for Advanced Time Management.',
   questions: [
@@ -27,5 +27,5 @@ export const B2_WEEK_30 = createToeflUnit(
   'Week 30: Advanced Time Management',
   'Final preparation phase for the TOEFL iBT at B2 level.',
   ['Consolidate Advanced Time Management performance', 'Handle full-length mock exams', 'Refine time-saving strategies'],
-  [B2_W${UNIT_ID}_BLOCK1]
+  [B2_WFIXED_BLOCK1]
 );

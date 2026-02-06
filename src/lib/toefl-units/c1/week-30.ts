@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 30;
 const LEVEL = 'c1';
 
-export const C1_W${UNIT_ID}_BLOCK1: Exercise = {
+const C1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: 'practice_set',
+  type: 'reading',
   title: 'Strategy: Maximizing Points in Integrated Tasks',
   explanation: 'Advanced C1 intensive practice for Strategy: Maximizing Points in Integrated Tasks.',
   questions: [
@@ -27,5 +27,5 @@ export const C1_WEEK_30 = createToeflUnit(
   'Week 30: Strategy: Maximizing Points in Integrated Tasks',
   'Ultimate preparation phase for the TOEFL iBT at C1 mastery level.',
   ['Execute Strategy: Maximizing Points in Integrated Tasks with total accuracy', 'Analyze complex patterns in mock exams', 'Finalize elite-level exam strategies'],
-  [C1_W${UNIT_ID}_BLOCK1]
+  [C1_WFIXED_BLOCK1]
 );

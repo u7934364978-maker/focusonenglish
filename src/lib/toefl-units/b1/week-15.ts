@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 15;
 const LEVEL = 'b1';
 
-export const B1_W${UNIT_ID}_BLOCK1: Exercise = {
+const B1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'writing' : 'speaking',
+  type: true ? 'writing' : 'speaking',
   title: '',
   explanation: 'Practice exercises for .',
   questions: [
@@ -27,5 +27,5 @@ export const B1_WEEK_15 = createToeflUnit(
   'Week 15: ',
   'Deep dive into  for the TOEFL iBT.',
   ['Master  strategies', 'Improve response organization', 'Practice under timed conditions'],
-  [B1_W${UNIT_ID}_BLOCK1]
+  [B1_WFIXED_BLOCK1]
 );

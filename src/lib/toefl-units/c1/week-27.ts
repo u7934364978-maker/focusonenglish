@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 27;
 const LEVEL = 'c1';
 
-export const C1_W${UNIT_ID}_BLOCK1: Exercise = {
+const C1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: 'practice_set',
+  type: 'reading',
   title: 'Full Listening Practice (High Complexity)',
   explanation: 'Advanced C1 intensive practice for Full Listening Practice (High Complexity).',
   questions: [
@@ -27,5 +27,5 @@ export const C1_WEEK_27 = createToeflUnit(
   'Week 27: Full Listening Practice (High Complexity)',
   'Ultimate preparation phase for the TOEFL iBT at C1 mastery level.',
   ['Execute Full Listening Practice (High Complexity) with total accuracy', 'Analyze complex patterns in mock exams', 'Finalize elite-level exam strategies'],
-  [C1_W${UNIT_ID}_BLOCK1]
+  [C1_WFIXED_BLOCK1]
 );

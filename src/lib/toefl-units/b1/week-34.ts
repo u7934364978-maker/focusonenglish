@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 34;
 const LEVEL = 'b1';
 
-export const B1_W${UNIT_ID}_BLOCK1: Exercise = {
+const B1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: 'practice_set',
+  type: 'reading',
   title: 'Reading Review - Inference & Purpose',
   explanation: 'Final preparation for Reading Review - Inference & Purpose.',
   questions: [
@@ -27,5 +27,5 @@ export const B1_WEEK_34 = createToeflUnit(
   'Week 34: Reading Review - Inference & Purpose',
   'Final stretch focusing on Reading Review - Inference & Purpose.',
   ['Consolidate Reading Review - Inference & Purpose skills', 'Complete full-length practice', 'Final strategy adjustments'],
-  [B1_W${UNIT_ID}_BLOCK1]
+  [B1_WFIXED_BLOCK1]
 );

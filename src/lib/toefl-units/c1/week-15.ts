@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 15;
 const LEVEL = 'c1';
 
-export const C1_W${UNIT_ID}_BLOCK1: Exercise = {
+const C1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'writing' : 'speaking',
+  type: true ? 'writing' : 'speaking',
   title: 'Writing: Academic Discussion (Nuanced Arguments)',
   explanation: 'Advanced C1 production focusing on Writing: Academic Discussion (Nuanced Arguments).',
   questions: [
@@ -27,5 +27,5 @@ export const C1_WEEK_15 = createToeflUnit(
   'Week 15: Writing: Academic Discussion (Nuanced Arguments)',
   'Mastering Writing: Academic Discussion (Nuanced Arguments) at C1 level with focus on sophistication and precision.',
   ['Perfect the delivery of Writing: Academic Discussion (Nuanced Arguments) responses', 'Integrate complex ideas with academic flair', 'Maintain high accuracy under strict time constraints'],
-  [C1_W${UNIT_ID}_BLOCK1]
+  [C1_WFIXED_BLOCK1]
 );

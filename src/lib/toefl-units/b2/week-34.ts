@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 34;
 const LEVEL = 'b2';
 
-export const B2_W${UNIT_ID}_BLOCK1: Exercise = {
+const B2_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: 'practice_set',
+  type: 'reading',
   title: 'Advanced Inference and Logic (Reading)',
   explanation: 'Final intensive practice for Advanced Inference and Logic (Reading).',
   questions: [
@@ -27,5 +27,5 @@ export const B2_WEEK_34 = createToeflUnit(
   'Week 34: Advanced Inference and Logic (Reading)',
   'Final preparation phase for the TOEFL iBT at B2 level.',
   ['Consolidate Advanced Inference and Logic (Reading) performance', 'Handle full-length mock exams', 'Refine time-saving strategies'],
-  [B2_W${UNIT_ID}_BLOCK1]
+  [B2_WFIXED_BLOCK1]
 );

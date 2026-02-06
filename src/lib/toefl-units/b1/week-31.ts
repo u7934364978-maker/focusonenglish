@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 31;
 const LEVEL = 'b1';
 
-export const B1_W${UNIT_ID}_BLOCK1: Exercise = {
+const B1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: 'practice_set',
+  type: 'reading',
   title: 'Error Analysis & Correction',
   explanation: 'Final preparation for Error Analysis & Correction.',
   questions: [
@@ -27,5 +27,5 @@ export const B1_WEEK_31 = createToeflUnit(
   'Week 31: Error Analysis & Correction',
   'Final stretch focusing on Error Analysis & Correction.',
   ['Consolidate Error Analysis & Correction skills', 'Complete full-length practice', 'Final strategy adjustments'],
-  [B1_W${UNIT_ID}_BLOCK1]
+  [B1_WFIXED_BLOCK1]
 );

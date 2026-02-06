@@ -14,7 +14,7 @@ faqs:
     answer: "Para ambas partes, la extensión recomendada es de entre 220 y 260 palabras."
 ---
 
-# Domina el Writing del C1 Advanced: El Secreto para Impresionar al Examinador
+## Domina el Writing del C1 Advanced: El Secreto para Impresionar al Examinador
 
 El examen **C1 Advanced (CAE)** no solo mide tu nivel de inglés, mide tu capacidad para comunicarte de forma sofisticada y precisa. En el Writing, la diferencia entre un "Pass" y un "Fail" suele estar en los detalles.
 

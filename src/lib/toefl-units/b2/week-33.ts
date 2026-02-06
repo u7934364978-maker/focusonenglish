@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 33;
 const LEVEL = 'b2';
 
-export const B2_W${UNIT_ID}_BLOCK1: Exercise = {
+const B2_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: 'practice_set',
+  type: 'reading',
   title: 'Understanding Nuance and Tone (Listening)',
   explanation: 'Final intensive practice for Understanding Nuance and Tone (Listening).',
   questions: [
@@ -27,5 +27,5 @@ export const B2_WEEK_33 = createToeflUnit(
   'Week 33: Understanding Nuance and Tone (Listening)',
   'Final preparation phase for the TOEFL iBT at B2 level.',
   ['Consolidate Understanding Nuance and Tone (Listening) performance', 'Handle full-length mock exams', 'Refine time-saving strategies'],
-  [B2_W${UNIT_ID}_BLOCK1]
+  [B2_WFIXED_BLOCK1]
 );

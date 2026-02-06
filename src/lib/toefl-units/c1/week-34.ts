@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 34;
 const LEVEL = 'c1';
 
-export const C1_W${UNIT_ID}_BLOCK1: Exercise = {
+const C1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: 'practice_set',
+  type: 'reading',
   title: 'Advanced Logic and Abstract Reasoning (Reading)',
   explanation: 'Advanced C1 intensive practice for Advanced Logic and Abstract Reasoning (Reading).',
   questions: [
@@ -27,5 +27,5 @@ export const C1_WEEK_34 = createToeflUnit(
   'Week 34: Advanced Logic and Abstract Reasoning (Reading)',
   'Ultimate preparation phase for the TOEFL iBT at C1 mastery level.',
   ['Execute Advanced Logic and Abstract Reasoning (Reading) with total accuracy', 'Analyze complex patterns in mock exams', 'Finalize elite-level exam strategies'],
-  [C1_W${UNIT_ID}_BLOCK1]
+  [C1_WFIXED_BLOCK1]
 );

@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 28;
 const LEVEL = 'c1';
 
-export const C1_W${UNIT_ID}_BLOCK1: Exercise = {
+const C1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: 'practice_set',
+  type: 'reading',
   title: 'Full Speaking Practice (Mastery Feedback)',
   explanation: 'Advanced C1 intensive practice for Full Speaking Practice (Mastery Feedback).',
   questions: [
@@ -27,5 +27,5 @@ export const C1_WEEK_28 = createToeflUnit(
   'Week 28: Full Speaking Practice (Mastery Feedback)',
   'Ultimate preparation phase for the TOEFL iBT at C1 mastery level.',
   ['Execute Full Speaking Practice (Mastery Feedback) with total accuracy', 'Analyze complex patterns in mock exams', 'Finalize elite-level exam strategies'],
-  [C1_W${UNIT_ID}_BLOCK1]
+  [C1_WFIXED_BLOCK1]
 );

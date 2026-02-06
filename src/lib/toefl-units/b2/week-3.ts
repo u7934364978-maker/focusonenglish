@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 3;
 const LEVEL = 'b2';
 
-export const B2_W${UNIT_ID}_BLOCK1: Exercise = {
+const B2_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 3 == 0 ? 'reading-comprehension' : 'listening',
+  type: true ? 'reading-comprehension' : 'listening',
   title: 'Advanced Academic Vocabulary',
   explanation: 'Advanced practice focusing on Advanced Academic Vocabulary.',
   questions: [
@@ -27,5 +27,5 @@ export const B2_WEEK_3 = createToeflUnit(
   'Week 3: Advanced Academic Vocabulary',
   'Advancing TOEFL skills at B2 level focusing on Advanced Academic Vocabulary.',
   ['Analyze Advanced Academic Vocabulary in academic contexts', 'Improve accuracy in complex tasks', 'Expand academic vocabulary'],
-  [B2_W${UNIT_ID}_BLOCK1]
+  [B2_WFIXED_BLOCK1]
 );

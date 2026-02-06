@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 18;
 const LEVEL = 'c1';
 
-export const C1_W${UNIT_ID}_BLOCK1: Exercise = {
+const C1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'writing' : 'speaking',
+  type: true ? 'writing' : 'speaking',
   title: 'Speaking Task 3 (Critical Analysis of Campus Issues)',
   explanation: 'Advanced C1 production focusing on Speaking Task 3 (Critical Analysis of Campus Issues).',
   questions: [
@@ -27,5 +27,5 @@ export const C1_WEEK_18 = createToeflUnit(
   'Week 18: Speaking Task 3 (Critical Analysis of Campus Issues)',
   'Mastering Speaking Task 3 (Critical Analysis of Campus Issues) at C1 level with focus on sophistication and precision.',
   ['Perfect the delivery of Speaking Task 3 (Critical Analysis of Campus Issues) responses', 'Integrate complex ideas with academic flair', 'Maintain high accuracy under strict time constraints'],
-  [C1_W${UNIT_ID}_BLOCK1]
+  [C1_WFIXED_BLOCK1]
 );

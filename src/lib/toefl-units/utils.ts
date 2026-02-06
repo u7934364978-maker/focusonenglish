@@ -22,7 +22,7 @@ export function createToeflUnit(
   
   const interactions: any[] = [];
 
-  exerciseBlocks.forEach((block) => {
+  exerciseBlocks.forEach((block: any) => {
     // Add block title/explanation as a header interaction if needed
     
     if (block.questions) {

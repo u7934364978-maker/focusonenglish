@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 35;
 const LEVEL = 'c1';
 
-export const C1_W${UNIT_ID}_BLOCK1: Exercise = {
+const C1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: 'practice_set',
+  type: 'reading',
   title: 'C1 Level Mock Exam 1',
   explanation: 'Advanced C1 intensive practice for C1 Level Mock Exam 1.',
   questions: [
@@ -27,5 +27,5 @@ export const C1_WEEK_35 = createToeflUnit(
   'Week 35: C1 Level Mock Exam 1',
   'Ultimate preparation phase for the TOEFL iBT at C1 mastery level.',
   ['Execute C1 Level Mock Exam 1 with total accuracy', 'Analyze complex patterns in mock exams', 'Finalize elite-level exam strategies'],
-  [C1_W${UNIT_ID}_BLOCK1]
+  [C1_WFIXED_BLOCK1]
 );

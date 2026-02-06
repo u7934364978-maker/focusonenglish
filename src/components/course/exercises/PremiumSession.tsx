@@ -66,11 +66,13 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       // Normalize type (handle camelCase from migrations)
       const typeMap: Record<string, string> = {
         'multipleChoice': 'multiple_choice',
+        'multiple-choice': 'multiple_choice',
         'fillBlanks': 'fill_blanks',
         'fill_blank': 'fill_blanks',
         'drag-drop': 'reorder_words',
         'matching': 'matching',
-        'flashcard': 'flashcard'
+        'flashcard': 'flashcard',
+        'audio-player': 'audio_player'
       };
       if (typeMap[normalized.type]) {
         normalized.type = typeMap[normalized.type];
@@ -661,6 +663,36 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     if (!interaction) return null;
     
     switch (interaction.type) {
+      case 'audio_player':
+        return (
+          <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
+            <div className="bg-blue-50 p-8 rounded-3xl border-2 border-blue-100 w-full text-center">
+              <Play className="w-16 h-16 text-blue-600 mx-auto mb-4" />
+              <h3 className="text-xl font-bold text-blue-900 mb-2">Listening Task</h3>
+              <p className="text-slate-600">{interaction.prompt_es || interaction.instructions}</p>
+            </div>
+            
+            <div className="flex flex-col items-center gap-4 w-full">
+              <button
+                onClick={() => playAudio(interaction.audioUrl || interaction.audio_url)}
+                className="bg-blue-600 text-white px-10 py-4 rounded-2xl font-black text-xl hover:bg-blue-700 transition-all shadow-lg flex items-center gap-3 active:scale-95"
+              >
+                <Volume2 className="w-6 h-6" />
+                Play Audio
+              </button>
+              
+              {!isInteractionDisabled && (
+                <button
+                  onClick={() => handleCheckAnswer(true)}
+                  className="mt-4 text-slate-400 font-bold hover:text-slate-600 transition-colors"
+                >
+                  I have finished listening
+                </button>
+              )}
+            </div>
+          </div>
+        );
+
       case 'reading-comprehension':
         const readingContent = interaction.content || interaction;
         const q = (interaction.options && interaction.options.length > 0) 

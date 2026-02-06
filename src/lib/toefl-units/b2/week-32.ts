@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 32;
 const LEVEL = 'b2';
 
-export const B2_W${UNIT_ID}_BLOCK1: Exercise = {
+const B2_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: 'practice_set',
+  type: 'reading',
   title: 'Complex Vocabulary in Academic Contexts',
   explanation: 'Final intensive practice for Complex Vocabulary in Academic Contexts.',
   questions: [
@@ -27,5 +27,5 @@ export const B2_WEEK_32 = createToeflUnit(
   'Week 32: Complex Vocabulary in Academic Contexts',
   'Final preparation phase for the TOEFL iBT at B2 level.',
   ['Consolidate Complex Vocabulary in Academic Contexts performance', 'Handle full-length mock exams', 'Refine time-saving strategies'],
-  [B2_W${UNIT_ID}_BLOCK1]
+  [B2_WFIXED_BLOCK1]
 );

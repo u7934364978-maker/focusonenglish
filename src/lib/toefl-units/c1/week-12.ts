@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 12;
 const LEVEL = 'c1';
 
-export const C1_W${UNIT_ID}_BLOCK1: Exercise = {
+const C1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'reading-comprehension' : 'listening',
+  type: 'reading',
   title: 'Reading: Mastery of Logical Relationships',
   explanation: 'Advanced C1 practice focusing on Reading: Mastery of Logical Relationships.',
   questions: [
@@ -27,5 +27,5 @@ export const C1_WEEK_12 = createToeflUnit(
   'Week 12: Reading: Mastery of Logical Relationships',
   'Mastering high-level TOEFL skills at C1 level focusing on Reading: Mastery of Logical Relationships.',
   ['Deconstruct complex Reading: Mastery of Logical Relationships in academic texts', 'Identify implicit information and authorial tone', 'Utilize sophisticated academic vocabulary'],
-  [C1_W${UNIT_ID}_BLOCK1]
+  [C1_WFIXED_BLOCK1]
 );

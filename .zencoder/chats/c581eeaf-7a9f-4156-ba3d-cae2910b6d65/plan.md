@@ -2,7 +2,7 @@
 
 ## Workflow Steps
 
-### [ ] Step: Requirements
+### [x] Step: Requirements
 
 Create a Product Requirements Document (PRD) based on the feature description.
 
@@ -14,7 +14,7 @@ Create a Product Requirements Document (PRD) based on the feature description.
 
 Save the PRD to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/c581eeaf-7a9f-4156-ba3d-cae2910b6d65/requirements.md`.
 
-### [ ] Step: Technical Specification
+### [x] Step: Technical Specification
 
 Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/c581eeaf-7a9f-4156-ba3d-cae2910b6d65/requirements.md`.
 
@@ -30,7 +30,7 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/c581eeaf-7a9f-415
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
 
 Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/.zencoder/chats/c581eeaf-7a9f-4156-ba3d-cae2910b6d65/spec.md`.
 
@@ -38,14 +38,21 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. Each task should reference relevant contracts and include verification steps
 3. Replace the Implementation step below with the planned tasks
 
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint, write tests for a module). Avoid steps that are too granular (single function) or too broad (entire feature).
+### [x] Step: Implementation - Phase 1: Hospitality Cluster
+- Create `src/content/blog/viajes/ingles-para-camareros-guia.md` (Target: `ingles para camareros`)
+- Create `src/content/blog/viajes/ingles-para-recepcionistas-guia.md` (Target: `ingles para recepcionistas`)
+- Update `src/content/seo-pages/rutas/ingles-para-hosteleria.md` with internal links to new posts.
 
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
+### [x] Step: Implementation - Phase 2: Exam Cluster
+- Create `src/content/blog/examenes/guia-precios-cambridge-2026.md` (Target: `precios examenes cambridge`)
+- Create `src/content/blog/examenes/aptis-a2-guia-completa.md` (Target: `aptis a2`)
+- Update exams pillar page (Hub) with internal links.
 
-Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/c581eeaf-7a9f-4156-ba3d-cae2910b6d65/plan.md`.
+### [x] Step: Implementation - Phase 3: Work Cluster
+- Create `src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md` (Target: `entrevista trabajo ingles`)
+- Update `src/content/seo-pages/rutas/ingles-para-trabajo.md` with internal links.
 
-### [ ] Step: Implementation
+### [x] Step: Verification & Audit
+- Run `npm run lint` and `npm run build`
+- Validate keyword presence and metadata using `scripts/audit-blog-seo.mjs`
 
-This step should be replaced with detailed implementation tasks from the Planning step.
-
-If Planning didn't replace this step, execute the tasks in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/c581eeaf-7a9f-4156-ba3d-cae2910b6d65/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.

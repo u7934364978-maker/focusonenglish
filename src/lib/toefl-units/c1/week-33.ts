@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 33;
 const LEVEL = 'c1';
 
-export const C1_W${UNIT_ID}_BLOCK1: Exercise = {
+const C1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: 'practice_set',
+  type: 'reading',
   title: 'Mastering Tone and Register (Full Sections)',
   explanation: 'Advanced C1 intensive practice for Mastering Tone and Register (Full Sections).',
   questions: [
@@ -27,5 +27,5 @@ export const C1_WEEK_33 = createToeflUnit(
   'Week 33: Mastering Tone and Register (Full Sections)',
   'Ultimate preparation phase for the TOEFL iBT at C1 mastery level.',
   ['Execute Mastering Tone and Register (Full Sections) with total accuracy', 'Analyze complex patterns in mock exams', 'Finalize elite-level exam strategies'],
-  [C1_W${UNIT_ID}_BLOCK1]
+  [C1_WFIXED_BLOCK1]
 );

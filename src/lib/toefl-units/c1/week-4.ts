@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 4;
 const LEVEL = 'c1';
 
-export const C1_W${UNIT_ID}_BLOCK1: Exercise = {
+const C1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'reading-comprehension' : 'listening',
+  type: 'reading',
   title: 'Reading: Complex Rhetorical Purpose',
   explanation: 'Advanced C1 practice focusing on Reading: Complex Rhetorical Purpose.',
   questions: [
@@ -27,5 +27,5 @@ export const C1_WEEK_4 = createToeflUnit(
   'Week 4: Reading: Complex Rhetorical Purpose',
   'Mastering high-level TOEFL skills at C1 level focusing on Reading: Complex Rhetorical Purpose.',
   ['Deconstruct complex Reading: Complex Rhetorical Purpose in academic texts', 'Identify implicit information and authorial tone', 'Utilize sophisticated academic vocabulary'],
-  [C1_W${UNIT_ID}_BLOCK1]
+  [C1_WFIXED_BLOCK1]
 );

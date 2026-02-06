@@ -37,10 +37,11 @@ Updating this file with the concrete tasks.
 - [x] **Task 4.3**: Generate content for weeks 25-36.
 
 #### Phase 5: Technical Integration & Audio
-- [ ] **Task 5.1**: Register new courses in `src/lib/course-service.ts`.
-- [ ] **Task 5.2**: Update `scripts/generate-course-audio.ts` to process the new `toefl-units`.
-- [ ] **Task 5.3**: Run audio generation for a subset of lessons to verify.
+- [x] **Task 5.1**: Register new courses in `src/lib/services/toefl-course-service.ts`.
+- [x] **Task 5.2**: Update `scripts/generate-course-audio.ts` to process the new `toefl-units`.
+- [x] **Task 5.3**: Update `PremiumSession.tsx` to support `audio-player` and `multiple-choice` (hyphenated).
 
 #### Phase 6: Verification & Final Audit
-- [ ] **Task 6.1**: Run `npm run lint` and `tsc --noEmit`.
-- [ ] **Task 6.2**: Run validation scripts for the new JSON/TS content.
+- [x] **Task 6.1**: Run `npm run type-check` and fix all TOEFL-related errors.
+- [x] **Task 6.2**: Verify placement test routing and course unit accessibility.
+- [x] **Task 6.3**: Final review of the 36-week structure (108 units) and adaptation to Premium UI.

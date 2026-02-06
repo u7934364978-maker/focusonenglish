@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 24;
 const LEVEL = 'b1';
 
-export const B1_W${UNIT_ID}_BLOCK1: Exercise = {
+const B1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'writing' : 'speaking',
+  type: true ? 'writing' : 'speaking',
   title: 'Writing - Paraphrasing Techniques',
   explanation: 'Practice exercises for Writing - Paraphrasing Techniques.',
   questions: [
@@ -27,5 +27,5 @@ export const B1_WEEK_24 = createToeflUnit(
   'Week 24: Writing - Paraphrasing Techniques',
   'Deep dive into Writing - Paraphrasing Techniques for the TOEFL iBT.',
   ['Master Writing - Paraphrasing Techniques strategies', 'Improve response organization', 'Practice under timed conditions'],
-  [B1_W${UNIT_ID}_BLOCK1]
+  [B1_WFIXED_BLOCK1]
 );

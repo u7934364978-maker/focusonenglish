@@ -2,9 +2,9 @@ import * as B1_WEEKS from './b1';
 import * as B2_WEEKS from './b2';
 import * as C1_WEEKS from './c1';
 
-export const TOEFL_B1_UNITS = Object.values(B1_WEEKS);
-export const TOEFL_B2_UNITS = Object.values(B2_WEEKS);
-export const TOEFL_C1_UNITS = Object.values(C1_WEEKS);
+export const TOEFL_B1_UNITS = Object.values(B1_WEEKS).filter((v: any) => v && typeof v === 'object' && 'blocks' in v);
+export const TOEFL_B2_UNITS = Object.values(B2_WEEKS).filter((v: any) => v && typeof v === 'object' && 'blocks' in v);
+export const TOEFL_C1_UNITS = Object.values(C1_WEEKS).filter((v: any) => v && typeof v === 'object' && 'blocks' in v);
 
 export const TOEFL_COURSES = [
   {

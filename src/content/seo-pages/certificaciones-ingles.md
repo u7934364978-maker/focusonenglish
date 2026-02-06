@@ -60,6 +60,8 @@ El estándar de oro si miras hacia Estados Unidos. Se realiza íntegramente por 
 ## Análisis Detallados
 
 Para profundizar en cada examen, te recomendamos nuestras guías específicas:
+*   [**Precios Exámenes Cambridge 2026**](/blog/examenes/guia-precios-cambridge-2026): Tasas actualizadas por niveles.
+*   [**Guía Aptis A2**](/blog/examenes/aptis-a2-guia-completa): Cómo conseguir tu certificado básico rápido.
 *   [**Guía B2 First (FCE)**](/blog/examenes/guia-b2-first-fce): Todo sobre el examen de Cambridge más popular.
 *   [**IELTS vs TOEFL**](/blog/trabajo/ielts-vs-toefl-trabajo): ¿Cuál elegir para trabajar en el extranjero?
 *   [**Trucos C1 Advanced**](/blog/examenes/trucos-writing-c1-advanced): Cómo dominar la parte de Writing.

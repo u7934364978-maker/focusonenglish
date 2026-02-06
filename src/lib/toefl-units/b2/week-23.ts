@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 23;
 const LEVEL = 'b2';
 
-export const B2_W${UNIT_ID}_BLOCK1: Exercise = {
+const B2_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'writing' : 'speaking',
+  type: true ? 'writing' : 'speaking',
   title: 'Argument Development for Academic Discussion',
   explanation: 'Production practice focusing on Argument Development for Academic Discussion.',
   questions: [
@@ -27,5 +27,5 @@ export const B2_WEEK_23 = createToeflUnit(
   'Week 23: Argument Development for Academic Discussion',
   'Mastering Argument Development for Academic Discussion for the TOEFL iBT at B2 level.',
   ['Perfect the organization of Argument Development for Academic Discussion responses', 'Improve synthesis of multiple sources', 'Enhance grammatical variety and accuracy'],
-  [B2_W${UNIT_ID}_BLOCK1]
+  [B2_WFIXED_BLOCK1]
 );

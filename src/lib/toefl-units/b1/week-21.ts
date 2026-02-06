@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 21;
 const LEVEL = 'b1';
 
-export const B1_W${UNIT_ID}_BLOCK1: Exercise = {
+const B1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'writing' : 'speaking',
+  type: true ? 'writing' : 'speaking',
   title: 'Speaking - Pronunciation and Pacing',
   explanation: 'Practice exercises for Speaking - Pronunciation and Pacing.',
   questions: [
@@ -27,5 +27,5 @@ export const B1_WEEK_21 = createToeflUnit(
   'Week 21: Speaking - Pronunciation and Pacing',
   'Deep dive into Speaking - Pronunciation and Pacing for the TOEFL iBT.',
   ['Master Speaking - Pronunciation and Pacing strategies', 'Improve response organization', 'Practice under timed conditions'],
-  [B1_W${UNIT_ID}_BLOCK1]
+  [B1_WFIXED_BLOCK1]
 );

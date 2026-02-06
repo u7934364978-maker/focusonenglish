@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 11;
 const LEVEL = 'c1';
 
-export const C1_W${UNIT_ID}_BLOCK1: Exercise = {
+const C1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'reading-comprehension' : 'listening',
+  type: 'reading',
   title: 'Reading: Evaluating Evidence and Claims',
   explanation: 'Advanced C1 practice focusing on Reading: Evaluating Evidence and Claims.',
   questions: [
@@ -27,5 +27,5 @@ export const C1_WEEK_11 = createToeflUnit(
   'Week 11: Reading: Evaluating Evidence and Claims',
   'Mastering high-level TOEFL skills at C1 level focusing on Reading: Evaluating Evidence and Claims.',
   ['Deconstruct complex Reading: Evaluating Evidence and Claims in academic texts', 'Identify implicit information and authorial tone', 'Utilize sophisticated academic vocabulary'],
-  [C1_W${UNIT_ID}_BLOCK1]
+  [C1_WFIXED_BLOCK1]
 );

@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 20;
 const LEVEL = 'b2';
 
-export const B2_W${UNIT_ID}_BLOCK1: Exercise = {
+const B2_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'writing' : 'speaking',
+  type: true ? 'writing' : 'speaking',
   title: 'Advanced Note-taking for Speaking',
   explanation: 'Production practice focusing on Advanced Note-taking for Speaking.',
   questions: [
@@ -27,5 +27,5 @@ export const B2_WEEK_20 = createToeflUnit(
   'Week 20: Advanced Note-taking for Speaking',
   'Mastering Advanced Note-taking for Speaking for the TOEFL iBT at B2 level.',
   ['Perfect the organization of Advanced Note-taking for Speaking responses', 'Improve synthesis of multiple sources', 'Enhance grammatical variety and accuracy'],
-  [B2_W${UNIT_ID}_BLOCK1]
+  [B2_WFIXED_BLOCK1]
 );

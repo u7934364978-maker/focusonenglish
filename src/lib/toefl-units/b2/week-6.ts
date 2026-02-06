@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 6;
 const LEVEL = 'b2';
 
-export const B2_W${UNIT_ID}_BLOCK1: Exercise = {
+const B2_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 3 == 0 ? 'reading-comprehension' : 'listening',
+  type: true ? 'reading-comprehension' : 'listening',
   title: 'Listening: Basic Comprehension (Lectures)',
   explanation: 'Advanced practice focusing on Listening: Basic Comprehension (Lectures).',
   questions: [
@@ -27,5 +27,5 @@ export const B2_WEEK_6 = createToeflUnit(
   'Week 6: Listening: Basic Comprehension (Lectures)',
   'Advancing TOEFL skills at B2 level focusing on Listening: Basic Comprehension (Lectures).',
   ['Analyze Listening: Basic Comprehension (Lectures) in academic contexts', 'Improve accuracy in complex tasks', 'Expand academic vocabulary'],
-  [B2_W${UNIT_ID}_BLOCK1]
+  [B2_WFIXED_BLOCK1]
 );

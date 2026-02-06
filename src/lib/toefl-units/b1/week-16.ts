@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 16;
 const LEVEL = 'b1';
 
-export const B1_W${UNIT_ID}_BLOCK1: Exercise = {
+const B1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'writing' : 'speaking',
+  type: true ? 'writing' : 'speaking',
   title: 'Speaking Task 2 - Integrated Campus',
   explanation: 'Practice exercises for Speaking Task 2 - Integrated Campus.',
   questions: [
@@ -27,5 +27,5 @@ export const B1_WEEK_16 = createToeflUnit(
   'Week 16: Speaking Task 2 - Integrated Campus',
   'Deep dive into Speaking Task 2 - Integrated Campus for the TOEFL iBT.',
   ['Master Speaking Task 2 - Integrated Campus strategies', 'Improve response organization', 'Practice under timed conditions'],
-  [B1_W${UNIT_ID}_BLOCK1]
+  [B1_WFIXED_BLOCK1]
 );

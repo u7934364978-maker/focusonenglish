@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 22;
 const LEVEL = 'b2';
 
-export const B2_W${UNIT_ID}_BLOCK1: Exercise = {
+const B2_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'writing' : 'speaking',
+  type: true ? 'writing' : 'speaking',
   title: 'Intonation and Fluency in Speaking',
   explanation: 'Production practice focusing on Intonation and Fluency in Speaking.',
   questions: [
@@ -27,5 +27,5 @@ export const B2_WEEK_22 = createToeflUnit(
   'Week 22: Intonation and Fluency in Speaking',
   'Mastering Intonation and Fluency in Speaking for the TOEFL iBT at B2 level.',
   ['Perfect the organization of Intonation and Fluency in Speaking responses', 'Improve synthesis of multiple sources', 'Enhance grammatical variety and accuracy'],
-  [B2_W${UNIT_ID}_BLOCK1]
+  [B2_WFIXED_BLOCK1]
 );

@@ -50,5 +50,14 @@ Ampliación de vocabulario específico sobre instalaciones, tipos de habitacione
 
 ---
 
+## Profundiza en el Sector Hostelería
+
+Explora nuestras guías detalladas para perfiles específicos:
+- [**Guía de Inglés para Camareros**](/blog/viajes/ingles-para-camareros-guia): Vocabulario esencial para servicio de mesa.
+- [**Inglés para Recepcionistas**](/blog/viajes/ingles-para-recepcionistas-guia): Domina el front desk y la atención telefónica.
+- [**Inglés para Hoteles**](/blog/viajes/ingles-hoteles-guia): Check-in, servicios y reclamaciones.
+
+---
+
 **Convierte cada interacción en una oportunidad de éxito.**  
 [**Regístrate en Focus English y perfecciona tu servicio internacional hoy mismo.**](/cuenta/registro)

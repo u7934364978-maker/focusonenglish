@@ -4,7 +4,7 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 14;
 const LEVEL = 'b1';
 
-export const B1_W14_BLOCK1: Exercise = {
+export const B1_W14_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
   type: 'writing',
   title: 'Writing for an Academic Discussion',

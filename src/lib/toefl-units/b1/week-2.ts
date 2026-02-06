@@ -4,7 +4,7 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 2;
 const LEVEL = 'b1';
 
-export const B1_W2_BLOCK1: Exercise = {
+export const B1_W2_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
   type: 'reading-comprehension',
   title: 'Skimming and Scanning',

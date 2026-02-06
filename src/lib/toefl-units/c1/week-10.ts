@@ -4,9 +4,9 @@ import { createToeflUnit, genId } from '../utils';
 const UNIT_ID = 10;
 const LEVEL = 'c1';
 
-export const C1_W${UNIT_ID}_BLOCK1: Exercise = {
+const C1_WFIXED_BLOCK1: any = {
   id: genId(LEVEL, UNIT_ID, 'b1', 0),
-  type: i % 2 == 0 ? 'reading-comprehension' : 'listening',
+  type: 'reading',
   title: 'Listening: Complex Note-taking Strategies',
   explanation: 'Advanced C1 practice focusing on Listening: Complex Note-taking Strategies.',
   questions: [
@@ -27,5 +27,5 @@ export const C1_WEEK_10 = createToeflUnit(
   'Week 10: Listening: Complex Note-taking Strategies',
   'Mastering high-level TOEFL skills at C1 level focusing on Listening: Complex Note-taking Strategies.',
   ['Deconstruct complex Listening: Complex Note-taking Strategies in academic texts', 'Identify implicit information and authorial tone', 'Utilize sophisticated academic vocabulary'],
-  [C1_W${UNIT_ID}_BLOCK1]
+  [C1_WFIXED_BLOCK1]
 );
