@@ -192,6 +192,15 @@ export default function SignupPage() {
             <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
               Selecciona tu plan, completa tus datos y realiza el pago seguro para acceder inmediatamente a todos los cursos.
             </p>
+
+            <div className="flex justify-center gap-4">
+              <Link 
+                href="/cuenta/login" 
+                className="text-coral-600 font-bold hover:text-coral-700 underline decoration-2 underline-offset-4"
+              >
+                ¿Ya tienes cuenta? Iniciar sesión para alumnos
+              </Link>
+            </div>
           </div>
         </section>
 

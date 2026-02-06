@@ -58,7 +58,7 @@ export function Navigation() {
 
             <Link 
               href="/cuenta/login"
-              className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors dark:text-slate-200 dark:hover:text-[#FF6B6B]"
+              className="px-4 py-2 rounded-xl text-sm font-bold text-gray-700 hover:text-[#FF6B6B] border border-transparent hover:border-[#FF6B6B]/20 hover:bg-[#FF6B6B]/5 transition-all dark:text-slate-200 dark:hover:text-[#FF6B6B]"
             >
               Iniciar Sesión
             </Link>
@@ -136,10 +136,10 @@ export function Navigation() {
               </Link>
               <Link 
                 href="/cuenta/login" 
-                className="text-sm font-bold text-slate-700 hover:text-coral-600 transition-colors dark:text-slate-300"
+                className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-bold text-slate-700 hover:text-coral-600 hover:bg-coral-50 transition-all dark:text-slate-300 dark:hover:bg-slate-800"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Iniciar Sesión
+                <span>🔑</span> Iniciar Sesión
               </Link>
               <Link 
                 href="/cuenta/registro"

@@ -33,8 +33,9 @@ Updating this file with the concrete tasks.
 - [x] **Task 7.1**: Create `scripts/generate-toefl-mass-exercises.ts` (Managed manually/via agent).
 - [x] **Task 7.2**: Refactor `src/lib/toefl-units/utils.ts` to support larger data volumes (sharding).
 - [ ] **Task 7.3**: Execute expansion for B1 (36 weeks * 100 exercises).
-    - [x] Weeks 1-6 completed.
-    - [ ] Weeks 7-36 pending.
+    - [x] Weeks 1-18 completed.
+    - [ ] Weeks 19-24 in progress.
+    - [ ] Weeks 25-36 pending.
 - [ ] **Task 7.4**: Execute expansion for B2 (36 weeks * 100 exercises).
 - [ ] **Task 7.5**: Execute expansion for C1 (36 weeks * 100 exercises).
 

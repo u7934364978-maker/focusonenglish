@@ -270,9 +270,9 @@ export default function ContactPage() {
                       />
                       <label htmlFor="privacy" className="text-sm text-slate-600">
                         He leído y acepto la{" "}
-                        <a href="#" className="text-coral-600 font-bold hover:text-coral-700">
+                        <Link href="/privacidad" className="text-coral-600 font-bold hover:text-coral-700">
                           política de privacidad
-                        </a>
+                        </Link>
                         {" "}y el tratamiento de mis datos personales.
                       </label>
                     </div>

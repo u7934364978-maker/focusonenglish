@@ -82,14 +82,14 @@ export default function HomePage() {
                 
                 <Link
                   href="/cuenta/login"
-                  className="cta-primary inline-flex items-center gap-2"
+                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-white text-coral-600 font-black text-lg hover:shadow-lg hover:scale-105 transition-all border-2 border-coral-100"
                 >
                   🔑 Iniciar Sesión
                 </Link>
                 
                 <Link
                   href="#cursos"
-                  className="cta-secondary inline-flex items-center gap-2"
+                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl border-2 border-white/20 bg-white/10 text-white font-black text-lg hover:bg-white hover:text-coral-600 transition-all backdrop-blur-sm"
                 >
                   Ver Cursos →
                 </Link>
@@ -369,15 +369,15 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/test-nivel"
-                className="bg-white text-coral-600 px-10 py-5 rounded-xl font-black text-lg hover:shadow-2xl hover:scale-105 transition-all"
+                className="bg-white text-coral-600 px-10 py-5 rounded-xl font-black text-lg hover:shadow-2xl hover:scale-105 transition-all shadow-md"
               >
                 🎯 Hacer Test de Nivel
               </Link>
               <Link
                 href="/cuenta/login?callbackUrl=/dashboard"
-                className="bg-blue-600 text-white px-10 py-5 rounded-xl font-black text-lg hover:bg-blue-700 transition-all border-2 border-white/20"
+                className="bg-slate-900 text-white px-10 py-5 rounded-xl font-black text-lg hover:bg-slate-800 transition-all border-2 border-white/10 shadow-xl"
               >
-                📊 Acceder Dashboard
+                🔑 Acceder como Alumno
               </Link>
               <Link
                 href="/blog"
