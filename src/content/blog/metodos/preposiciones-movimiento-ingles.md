@@ -1,76 +1,101 @@
 ---
-title: "Preposiciones de Movimiento en Inglés: Guía Visual y Ejemplos"
-description: "Aprende a usar To, Into, Across, Through y otras preposiciones de movimiento en inglés. Mejora tu fluidez con ejemplos claros y trucos prácticos."
-excerpt: "Aprende a usar To, Into, Across, Through y otras preposiciones de movimiento en inglés. Mejora tu fluidez con ejemplos claros y trucos prácticos."
-keywords: ["preposiciones de movimiento en ingles", "preposiciones en ingles", "gramatica inglesa", "to vs into", "across vs through"]
+title: "Preposiciones de Movimiento en Inglés: Guía Académica y Material de Estudio"
+description: "Domina To, Into, Across, Through, Onto y más. Incluye guía visual de preposiciones de movimiento en inglés y ejemplos para exámenes Cambridge."
+excerpt: "Aprende a usar las preposiciones de movimiento en inglés con precisión. Guía académica con ejemplos prácticos, comparativas y lista imprimible."
+keywords: ["preposiciones de movimiento en ingles", "preposiciones en ingles", "gramatica inglesa", "to vs into", "across vs through", "ejercicios de gramatica en ingles", "aprender vocabulario ingles"]
 author: "Equipo Focus English"
 date: "2026-02-06"
 image: "https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg"
 category: "Gramática"
 ---
 
-A diferencia de las preposiciones de lugar (in, at, on), las **preposiciones de movimiento** indican una dirección o un trayecto desde un punto A hasta un punto B. Dominarlas es esencial para describir viajes, dar indicaciones de direcciones o simplemente narrar acciones cotidianas de forma precisa.
+Las **preposiciones de movimiento** (Prepositions of Movement) son fundamentales para dar dinamismo a tu inglés. Mientras que las preposiciones de lugar describen dónde está algo, las de movimiento describen **hacia dónde va**.
 
-En esta guía, desglosamos las preposiciones más importantes con ejemplos que podrás usar hoy mismo.
-
-## Las 5 Preposiciones de Movimiento Imprescindibles
-
-### 1. To (Hacia / A)
-Es la más común. Indica el destino final.
-*   *I am going **to** the cinema.*
-*   *He travels **to** London every month.*
-
-### 2. Into (Hacia el interior)
-Indica movimiento hacia adentro de un espacio cerrado (un edificio, un coche, una caja).
-*   *She walked **into** the room.*
-*   *Don't jump **into** the pool!*
-
-### 3. Across (A través de / Cruzando)
-Se usa cuando cruzamos una superficie plana (una calle, un puente, un río).
-*   *We swam **across** the river.*
-*   *Be careful when you walk **across** the road.*
-
-### 4. Through (A través de / Por medio de)
-A diferencia de *across*, *through* implica movimiento dentro de un espacio tridimensional (un túnel, un bosque, una multitud).
-*   *The train goes **through** the tunnel.*
-*   *We walked **through** the park.*
-
-### 5. Over (Por encima de)
-Indica movimiento por encima de algo, normalmente sin tocarlo o cruzando al otro lado.
-*   *The cat jumped **over** the wall.*
-*   *We flew **over** the Alps.*
+Como profesor de Cambridge, he notado que la precisión en el uso de estas preposiciones es lo que separa a un estudiante de nivel B1 de uno de nivel B2/C1. A continuación, exploraremos no solo las básicas, sino los matices que necesitas para sonar como un profesional.
 
 ---
 
-## Otras Preposiciones de Dirección Útiles
+## 📥 Material de Estudio: Esquema de Preposiciones de Movimiento
 
-*   **Along**: A lo largo de (*Walk along the corridor*).
-*   **Past**: Pasar por delante de (*Go past the post office*).
-*   **Towards**: Hacia (dirección, no necesariamente destino final). (*He is walking towards the beach*).
-*   **Up / Down**: Subir / Bajar (*He ran up the stairs*).
-*   **Out of**: Hacia fuera de (*Get out of the car*).
+Puedes usar esta tabla para repasar o imprimirla para tus sesiones de estudio.
+
+| Preposición | Movimiento | Ejemplo Académico |
+| :--- | :--- | :--- |
+| **To** | Hacia un destino específico | *We walked to the university.* |
+| **Towards** | En dirección a (sin llegar) | *She ran towards the exit.* |
+| **Into** | Hacia el interior de un espacio | *The witness went into the courtroom.* |
+| **Onto** | Hacia una superficie | *The cat jumped onto the table.* |
+| **Out of** | Salir de un espacio | *He took the keys out of his pocket.* |
+| **Off** | Salir de una superficie | *Please take your feet off the sofa.* |
+| **Across** | Cruzar por encima (2D) | *The bridge goes across the river.* |
+| **Through** | Atravesar por dentro (3D) | *The light passes through the glass.* |
+| **Over** | Por encima de algo | *The plane flew over the city.* |
+| **Under** | Por debajo de algo | *The subway runs under the street.* |
+| **Along** | Siguiendo una línea | *We strolled along the shore.* |
+| **Past** | Pasar por delante de | *Walk past the library and turn left.* |
+| **Around** | Rodear algo | *The runners went around the track.* |
+| **Up** | Subir | *He climbed up the mountain.* |
+| **Down** | Bajar | *She walked down the stairs.* |
 
 ---
 
-## Errores Comunes: To vs Into
+## Profundización: Comparativas Críticas
 
-Muchos estudiantes confunden estas dos. La regla es sencilla:
-*   Usa **To** para el destino general: *Go **to** the bank.*
-*   Usa **Into** si quieres enfatizar el hecho de entrar físicamente: *Go **into** the bank.*
+### 1. Across vs Through: La regla de las dimensiones
+*   **Across**: Úsalo para superficies planas o abiertas. Es un movimiento en 2D.
+    *   *I walked across the field.*
+*   **Through**: Úsalo para espacios cerrados, con límites a los lados o arriba. Es un movimiento en 3D.
+    *   *I walked through the tunnel.*
+
+### 2. To vs Into vs Onto
+*   **To**: Indica el destino final (*I'm going to London*).
+*   **Into**: Enfatiza el movimiento hacia el interior de un volumen (*He dived into the water*).
+*   **Onto**: Enfatiza el movimiento hacia una superficie (*The paper fell onto the floor*).
+
+---
+
+## Verbos de Movimiento Comunes
+Estas preposiciones suelen ir acompañadas de verbos específicos. Aprenderlos en parejas (colocaciones) te ayudará a memorizarlos:
+*   **Go / Come / Travel** + To
+*   **Run / Walk / Drive** + Across/Through/Along
+*   **Jump / Climb** + Onto/Over/Into
+*   **Get** + Into (coche) / Onto (bus, tren, avión)
+
+---
+
+## 📥 Lista de Ejemplos para Práctica (Versión Imprimible)
+
+Copia estas frases para practicar tu traducción y comprensión:
+
+1.  **To**: *The students are going to the library to study.*
+2.  **Into**: *The magician put the rabbit into the hat.*
+3.  **Out of**: *She stepped out of the taxi and paid the driver.*
+4.  **Across**: *It took us twenty minutes to walk across the bridge.*
+5.  **Through**: *The river flows through the center of the valley.*
+6.  **Along**: *Walk along this street for two blocks and then stop.*
+7.  **Past**: *Drive past the supermarket and you will see the hotel.*
+8.  **Around**: *The earth revolves around the sun.*
+9.  **Onto**: *The heavy rain fell onto the dry ground.*
+10. **Off**: *The book fell off the shelf and hit the floor.*
+11. **Over**: *The thief climbed over the fence to escape.*
+12. **Under**: *We sought shelter under the bridge during the storm.*
+13. **Towards**: *He looked towards the horizon as the sun set.*
+14. **Up**: *They carried the heavy boxes up the stairs.*
+15. **Down**: *Be careful when you walk down the slippery path.*
 
 ---
 
 ## Preguntas Frecuentes (FAQs)
 
-### ¿Cuál es la diferencia entre Across y Through?
-Imagina una hoja de papel. Si dibujas una línea encima, es **Across**. Si atraviesas el papel con el lápiz de un lado a otro, es **Through**.
+### ¿Se puede usar "In" en lugar de "Into"?
+En inglés coloquial, a veces verás *Go in the house*. Sin embargo, en un examen académico o escrito, **Into** es la única forma correcta para indicar movimiento hacia el interior.
 
-### ¿Se dice "Go to home"?
-No. "Home" es una excepción. Decimos **Go home**, sin preposición. Sin embargo, sí decimos *Go to my house*.
+### ¿Cuál es la diferencia entre "To" y "Towards"?
+**To** implica que llegas al destino. **Towards** solo indica la dirección; puedes detenerte antes de llegar.
 
-### ¿Cómo puedo practicar estas preposiciones?
-Lo mejor es describir lo que haces mientras te mueves: *"I'm walking into the kitchen"*, *"I'm going to the supermarket"*.
+### ¿Cómo memorizar "Along" vs "Around"?
+**Along** es como una línea recta (paralelo a algo). **Around** es un círculo o una curva.
 
 ---
 
-¿Quieres dominar las preposiciones con nuestra tecnología de reconocimiento de voz? [Pruébalo gratis en Focus English](/cuenta/registro) y recibe correcciones en tiempo real.
+¿Quieres practicar estas preposiciones con situaciones reales? En **Focus English** disponemos de simuladores interactivos que te retan a dar direcciones y describir trayectos usando estas reglas. [**Regístrate gratis y mejora tu fluidez.**](/cuenta/registro)

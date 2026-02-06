@@ -34,14 +34,17 @@ Updating this file with the concrete tasks.
 - [x] **Task 7.2**: Refactor `src/lib/toefl-units/utils.ts` to support larger data volumes (sharding).
 - [x] **Task 7.3**: Execute expansion for B1 (36 weeks * 100 exercises).
     - [x] Weeks 1-36 completed.
-- [ ] **Task 7.4**: Execute expansion for B2 (36 weeks * 100 exercises).
+- [x] **Task 7.4**: Execute expansion for B2 (36 weeks * 100 exercises).
     - [x] Weeks 1-4 completed (Block 1: Reading Focus).
     - [x] Weeks 5-8 completed (Block 2: Listening Focus).
     - [x] Weeks 9-12 completed (Block 3: Speaking Focus).
     - [x] Weeks 13-16 completed (Block 4: Writing Focus).
     - [x] Weeks 17-24 completed (Block 5: Mixed Review & Advanced Strategy).
-    - [ ] Weeks 25-36 pending (Block 6: Full Simulacros & Score Boost).
-- [ ] **Task 7.5**: Execute expansion for C1 (36 weeks * 100 exercises).
+    - [x] Weeks 25-36 completed (Block 6: Full Simulacros & Score Boost).
+- [x] **Task 7.5**: Execute expansion for C1 (36 weeks * 100 exercises).
+    - [x] Weeks 1-12 completed (Block 1: Academic Mastery).
+    - [x] Weeks 13-24 completed (Block 2: Rhetorical Analysis).
+    - [x] Weeks 25-36 completed (Block 3: Native-Level Fluency & Mock Exams).
 
 #### Phase 8: Verification & Final Audit
 - [ ] **Task 8.1**: Run `npm run type-check` and fix all TOEFL-related errors.

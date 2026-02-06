@@ -1,10 +1,10 @@
 ---
-title: "Present Perfect vs Past Simple: ¿Cuándo usar cada uno?"
-description: "Aprende la diferencia entre Present Perfect y Past Simple en inglés. Guía definitiva con reglas, ejemplos claros y trucos para no volver a equivocarte."
-excerpt: "¿Dudas entre el Present Perfect y el Past Simple? En este artículo te explicamos las reglas clave, los marcadores temporales y ejemplos prácticos para dominarlos."
-keywords: ["present perfect and past simple", "present perfect tense examples", "difference between present perfect and past simple", "ejemplos present perfect vs past simple", "gramatica inglesa"]
-date: "2024-02-04"
-category: "metodos"
+title: "Present Perfect vs Past Simple: Guía Definitiva y Material de Estudio"
+description: "Aprende la diferencia entre Present Perfect y Past Simple en inglés. Guía definitiva con reglas, ejemplos avanzados, comparativa de marcadores y lista descargable."
+excerpt: "¿Dudas entre el Present Perfect y el Past Simple? En este artículo te explicamos las reglas de nivel Cambridge, los marcadores temporales y ejemplos prácticos para dominarlos."
+keywords: ["present perfect and past simple", "present perfect tense examples", "difference between present perfect and past simple", "ejemplos present perfect vs past simple", "gramatica inglesa", "ejercicios gramatica ingles", "clases de gramatica en ingles gratis"]
+date: "2026-02-06"
+category: "Gramática"
 author: "Focus English"
 image: "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg"
 faqs:
@@ -16,62 +16,99 @@ faqs:
     answer: "Palabras como ever, never, just, already, yet, so far y since suelen ir acompañadas de Present Perfect."
 ---
 
-## Domina el Present Perfect vs Past Simple
+## Domina el Present Perfect vs Past Simple (Nivel A1-C1)
 
-Uno de los mayores retos para los estudiantes de inglés es saber cuándo usar el **Present Perfect** y cuándo el **Past Simple**. Aunque en español a veces los usamos de forma parecida, en inglés tienen funciones muy distintas.
+Uno de los mayores retos para los estudiantes de inglés es saber cuándo usar el **Present Perfect** y cuándo el **Past Simple**. Como profesor de Cambridge, te aseguro que entender esta distinción es el "puente" que te llevará del nivel intermedio al avanzado.
 
-En esta guía, vamos a ver la **difference between present perfect and past simple** con ejemplos claros y trucos que podrás aplicar hoy mismo.
-
----
-
-## 1. Past Simple: El tiempo de los detalles
-
-Usamos el Past Simple cuando hablamos de una acción que **empezó y terminó en el pasado** en un momento concreto.
-
-*   **Regla de oro**: Si sabes "cuándo" ocurrió (ayer, el lunes, hace una hora), usa Past Simple.
-*   **Ejemplo**: *I saw a movie yesterday.* (Vi una película ayer).
-
-### Marcadores temporales del Past Simple
-*   *Yesterday* (Ayer)
-*   *Last night/week/month* (Anoche, la semana pasada...)
-*   *Two days ago* (Hace dos días)
-*   *In 2010* (En 2010)
+En esta guía exhaustiva, vamos a ver la **difference between present perfect and past simple** con una profundidad académica superior, incluyendo casos especiales que suelen aparecer en los exámenes oficiales.
 
 ---
 
-## 2. Present Perfect: El tiempo de las experiencias y resultados
+## 1. Past Simple: El tiempo de los detalles y hechos cerrados
 
-El Present Perfect se utiliza para acciones que ocurrieron en un momento **no especificado** del pasado o que tienen una conexión directa con el presente.
+Usamos el Past Simple cuando hablamos de una acción que **empezó y terminó en el pasado** en un momento concreto. Para el cerebro anglosajón, este tiempo es como una "caja cerrada".
 
-*   **Regla de oro**: Si lo importante es la acción en sí, no cuándo ocurrió, usa Present Perfect.
-*   **Ejemplo**: *I have seen that movie.* (He visto esa película - no importa cuándo, lo importante es que conozco la historia).
-
-### Present Perfect Tense Examples
-*   **Experiencias**: *I have been to London.* (He estado en Londres).
-*   **Acciones recientes**: *I have just finished my homework.* (Acabo de terminar mis deberes).
-*   **Acciones que continúan**: *She has lived here for ten years.* (Ella ha vivido aquí durante diez años - y sigue viviendo aquí).
+### Reglas académicas del Past Simple
+1.  **Tiempo Específico**: Siempre que mencionamos *cuándo* ocurrió la acción.
+    *   *Example: We finished the project last Friday.*
+2.  **Acciones Consecutivas**: Para narrar historias o secuencias de eventos.
+    *   *Example: I woke up, had breakfast and went to work.*
+3.  **Periodos de tiempo terminados**: Incluso si el periodo es largo.
+    *   *Example: I lived in London for five years (but I don't live there now).*
 
 ---
 
-## 3. Comparativa Directa: Casos Reales
+## 2. Present Perfect: Experiencias, Resultados y Continuidad
 
-| Situación | Past Simple | Present Perfect |
+El Present Perfect se utiliza para acciones que ocurrieron en un momento **no especificado** del pasado o que tienen una relevancia directa con el "ahora".
+
+### Present Perfect Tense Examples (Casos de Uso)
+*   **Experiencias de vida**: Lo importante es *qué* has hecho, no *cuándo*.
+    *   *I have travelled to more than twenty countries.*
+*   **Acciones que continúan**: Usamos *since* y *for*.
+    *   *She has worked here since 2015 (and still works here).*
+*   **Resultados presentes**: Una acción pasada que afecta al presente.
+    *   *I have lost my keys (I can't enter my house now).*
+
+### Casos especiales: Been vs Gone
+*   **Been to**: Has ido y has vuelto.
+    *   *I've been to Italy twice.* (Estoy aquí ahora).
+*   **Gone to**: Has ido pero aún no has vuelto.
+    *   *Where is Mike? He has gone to the supermarket.* (No está aquí).
+
+---
+
+## 3. Comparativa de Marcadores Temporales
+
+Esta es la clave para aprobar cualquier examen de gramática. Identifica estas palabras y sabrás qué tiempo usar.
+
+| Marcadores de Past Simple (Terminado) | Marcadores de Present Perfect (Abierto/Reciente) |
+| :--- | :--- |
+| **Yesterday** (Ayer) | **Just** (Acabar de) |
+| **Last** week/month/year | **Already** (Ya) |
+| **Ago** (Hace...) | **Yet** (Aún no / ¿Ya?) |
+| **In** 1998 / **In** July | **Ever / Never** (Alguna vez / Nunca) |
+| **When** I was a child | **Recently / Lately** (Recientemente) |
+| **The other day** | **So far / Up to now** (Hasta ahora) |
+
+---
+
+## 4. Diferencias Sutiles: ¿Present Perfect o Past Simple?
+
+### Contexto de vida vs Contexto cerrado
+*   **Past Simple**: *Did you see the match last night?* (Pregunto por un momento específico).
+*   **Present Perfect**: *Have you seen the match?* (Pregunto si tienes la información del resultado, no importa cuándo lo viste).
+
+### Personas fallecidas vs Personas vivas
+*   *Michael Jackson wrote many hits.* (Past Simple porque ya no puede escribir más).
+*   *Ed Sheeran has written many hits.* (Present Perfect porque su carrera sigue abierta).
+
+---
+
+## 📥 Material de Estudio: Resumen Comparativo (Versión Imprimible)
+
+Copia o imprime esta tabla para repasar antes de tus exámenes.
+
+| Aspecto | Past Simple | Present Perfect |
 | :--- | :--- | :--- |
-| **Tiempo** | Definido (*yesterday*, *in 1990*) | Indefinido (*ever*, *never*, *already*) |
-| **Estado de la acción** | Terminada y cerrada | Relevante ahora o continúa |
-| **Ejemplo (Viajes)** | *I went to France last year.* | *I have been to France.* |
-| **Ejemplo (Trabajo)** | *She left the office at 5:00.* | *She has already left the office.* |
+| **Estructura** | Sujeto + Verbo (-ed o irregular) | Sujeto + Have/Has + Participio (-ed o 3ª col.) |
+| **Pregunta Clave** | ¿Cuándo? (When?) | ¿Qué? o ¿Cuánto tiempo? |
+| **Relación Presente** | Ninguna. La acción terminó. | Total. La acción es relevante hoy. |
+| **Ejemplo Negativo** | *I didn't see him yesterday.* | *I haven't seen him yet.* |
+| **Ejemplo Interrogativo** | *Did you like the movie?* | *Have you liked the movie?* |
+
+### Lista de Ejemplos para Práctica
+1.  **Past Simple**: *I finished my degree in 2020.*
+2.  **Present Perfect**: *I have finished my degree (I am a graduate now).*
+3.  **Past Simple**: *They visited Paris last summer.*
+4.  **Present Perfect**: *They have visited Paris three times.*
+5.  **Past Simple**: *She was sick two days ago.*
+6.  **Present Perfect**: *She has been sick lately.*
 
 ---
-
-## 4. Trucos para no fallar
-
-1.  **Pregunta "¿Cuándo?"**: Si la respuesta es un momento específico, usa Past Simple. Si la respuesta es "alguna vez" o "últimamente", usa Present Perfect.
-2.  **Cuidado con "Since" y "For"**: Estas palabras son casi exclusivas del Present Perfect cuando hablamos de la duración de una acción que empezó en el pasado.
-3.  **¿La persona sigue viva?**: Cuando hablamos de la obra de alguien que ha fallecido, usamos Past Simple (*Shakespeare wrote many plays*). Si la persona vive, podemos usar Present Perfect (*J.K. Rowling has written many books*).
 
 ## Conclusión
 
-Entender la **difference between present perfect and past simple** es un gran paso hacia la fluidez. Recuerda que el Past Simple es un "punto" en el tiempo, mientras que el Present Perfect es un "puente" entre el pasado y el presente.
+Dominar la **difference between present perfect and past simple** requiere práctica constante. Recuerda: si el tiempo está "muerto" (terminado), usa Past Simple. Si el tiempo está "vivo" (sigue teniendo efecto), usa Present Perfect.
 
-[**¿Quieres practicar estos tiempos verbales con ejercicios interactivos? Únete a Focus English y domina la gramática de una vez por todas.**](/cuenta/registro)
+¿Quieres poner a prueba lo aprendido? En **Focus English** hemos desarrollado simuladores de conversación con IA que te corrigen en tiempo real. [**Únete gratis y domina la gramática inglesa.**](/cuenta/registro)
