@@ -86,11 +86,31 @@ export async function middleware(request: NextRequest) {
     pathname.startsWith("/aula") || 
     pathname.startsWith("/app");
 
-  if (isProtectedArea && !user) {
-    const url = request.nextUrl.clone();
-    url.pathname = "/cuenta/login";
-    url.searchParams.set("next", pathname);
-    return NextResponse.redirect(url);
+  if (isProtectedArea) {
+    if (!user) {
+      const url = request.nextUrl.clone();
+      url.pathname = "/cuenta/login";
+      url.searchParams.set("next", pathname);
+      return NextResponse.redirect(url);
+    }
+
+    // Si está autenticado, verificar que tenga una suscripción activa o sea admin
+    const { data: profile } = await supabase
+      .from("user_profiles")
+      .select("subscription_status, role")
+      .eq("user_id", user.id)
+      .single();
+
+    const isPaid = profile?.subscription_status === "active" || profile?.subscription_status === "trialing";
+    const isAdmin = profile?.role === "admin";
+
+    if (!isPaid && !isAdmin) {
+      const url = request.nextUrl.clone();
+      url.pathname = "/planes";
+      url.searchParams.set("reason", "premium_required");
+      url.searchParams.set("next", pathname);
+      return NextResponse.redirect(url);
+    }
   }
 
   return response;
