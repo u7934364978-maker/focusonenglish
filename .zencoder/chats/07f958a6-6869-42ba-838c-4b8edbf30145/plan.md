@@ -52,4 +52,4 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/07f958a6-6869-42b
 
 ### [x] Step: Deployment
 
-1. [x] **Commit and push**: Deploy the changes to the repository.
+1. [x] **Commit and push**: Deploy the changes to the repository. (Commit: 2a09f4375825daeb0feb2c30853bb2f829395f56)

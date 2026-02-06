@@ -36,8 +36,8 @@ Updating this file with the concrete tasks.
     - [x] Weeks 1-36 completed.
 - [ ] **Task 7.4**: Execute expansion for B2 (36 weeks * 100 exercises).
     - [x] Weeks 1-4 completed (Block 1: Reading Focus).
-    - [ ] Weeks 5-8 pending (Block 2: Listening Focus).
-    - [ ] Weeks 9-12 pending.
+    - [x] Weeks 5-8 completed (Block 2: Listening Focus).
+    - [x] Weeks 9-12 completed (Block 3: Speaking Focus).
     - [ ] Weeks 13-24 pending.
     - [ ] Weeks 25-36 pending.
 - [ ] **Task 7.5**: Execute expansion for C1 (36 weeks * 100 exercises).
