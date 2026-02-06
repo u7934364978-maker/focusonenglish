@@ -73,7 +73,7 @@ export async function POST(request: NextRequest) {
         console.log(`Intentando enviar consulta de contacto para: ${email}`);
         // Send auto-reply to user
         const userEmail = await resend.emails.send({
-          from: 'Focus English <no-reply@focus-on-english.com>',
+          from: 'Focus English <hola@updates.focus-on-english.com>',
           to: [email],
           subject: 'Hemos recibido tu consulta - Focus English',
           html: `
@@ -95,7 +95,7 @@ export async function POST(request: NextRequest) {
 
         // Send notification to admin
         const adminNotify = await resend.emails.send({
-          from: 'Focus English System <system@focus-on-english.com>',
+          from: 'Focus English System <sistema@updates.focus-on-english.com>',
           to: [adminEmail],
           subject: `📩 Nueva consulta: ${subject}`,
           html: `
