@@ -31,5 +31,5 @@
 - [x] Seed production data using `scripts/seed-seo-content.mjs`.
 - [x] Push changes and verify deployment.
 - [x] Remove "Practicar con IA" button from category pages (UX cleanup).
-- [ ] Expand content to ~100 phrases per category for SEO.
-- [ ] Update `plan.md` with completion.
+- [x] Expand content to ~100 phrases per category for SEO (Current: 100).
+- [x] Update `plan.md` with completion.
