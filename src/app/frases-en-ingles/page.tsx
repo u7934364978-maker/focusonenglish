@@ -5,6 +5,8 @@ import { phraseService } from "@/lib/phrases";
 import { ChevronRight, Home, Sparkles, Heart, Instagram, Plane, Zap, BookOpen, Star, type LucideIcon } from "lucide-react";
 import { Metadata } from "next";
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: "Frases en Inglés: Guía Maestra por Categorías | Focus English",
   description: "Descubre miles de frases en inglés útiles, cortas y bonitas. Categorizadas por amor, viajes, instagram y más. Con traducción y audio para mejorar tu fluidez.",

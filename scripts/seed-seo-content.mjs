@@ -22,11 +22,11 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 const categories = [
   {
     slug: 'amor',
-    title: 'Frases de Amor en Inglés',
-    h1_title: 'Las Mejores Frases de Amor en Inglés Traducidas',
-    description: 'Descubre frases románticas, cortas y bonitas para dedicar o compartir en pareja.',
+    title: 'Frases de Amor en Inglés con Traducción | Focus English',
+    h1_title: 'Las Mejores Frases de Amor en Inglés',
+    description: 'Descubre las frases de amor en inglés más bonitas y románticas. Traducidas al español y con audio para que aprendas a expresarte con sentimiento.',
     content_top: 'El amor no tiene fronteras, y expresarlo en inglés puede darle un toque especial. Aquí tienes una selección de las mejores frases de amor.',
-    keywords: ['frases de amor en ingles', 'frase amor ingles', 'frases romanticas ingles'],
+    keywords: ['frases de amor en ingles', 'frase de amor en ingles', 'frases románticas ingles'],
     faqs: [
       { question: '¿Cómo se dice "Te quiero" en inglés?', answer: 'Se dice "I love you".' },
       { question: '¿Cuál es una frase de amor corta en inglés?', answer: '"You are my everything" es una opción clásica y hermosa.' }
@@ -34,46 +34,46 @@ const categories = [
   },
   {
     slug: 'instagram',
-    title: 'Frases para Instagram en Inglés',
-    h1_title: 'Frases Cortas y Estéticas para Instagram en Inglés',
-    description: 'Frases ideales para tus fotos, reels y stories de Instagram con traducción.',
+    title: 'Frases para Instagram en Inglés: Cortas y Aesthetic | Focus English',
+    h1_title: 'Frases en Inglés para tus Fotos de Instagram',
+    description: 'Las mejores frases en inglés para Instagram. Cortas, bonitas y aesthetic para tus posts, stories y biografía. ¡Copia y pega la que más te guste!',
     content_top: 'Dale un toque internacional a tu perfil con estas frases diseñadas para destacar en Instagram.',
-    keywords: ['frases para instagram en ingles', 'frases aesthetic ingles', 'frases cortas instagram'],
+    keywords: ['frases en ingles para instagram', 'frases para instagram en ingles', 'frases aesthetic ingles'],
     faqs: [
       { question: '¿Qué poner en mi bio de Instagram en inglés?', answer: '"Living my best life" o "Keep it simple" son opciones populares.' }
     ]
   },
   {
     slug: 'viajes',
-    title: 'Frases para Viajar en Inglés',
-    h1_title: 'Frases de Inglés para Viajeros: Guía Imprescindible',
-    description: 'Aprende las frases básicas y útiles que necesitas para tu próximo viaje al extranjero.',
+    title: 'Frases en Inglés para Viajar: Guía de Supervivencia | Focus English',
+    h1_title: 'Frases Básicas en Inglés para Viajar',
+    description: 'Guía completa de frases en inglés para viajar. Aeropuertos, hoteles, restaurantes y emergencias. Todo lo que necesitas para moverte por el mundo sin miedo.',
     content_top: 'Si vas a viajar, dominar estas frases básicas te abrirá puertas y te hará la vida más fácil en aeropuertos y hoteles.',
-    keywords: ['frases para viajar en ingles', 'ingles para viajeros', 'frases basicas viaje'],
+    keywords: ['frases en ingles para viajar', 'ingles para viajes', 'frases basicas viajar ingles'],
     faqs: [
       { question: '¿Qué frases son esenciales para viajar?', answer: '"Where is the bathroom?" y "How much does this cost?" son fundamentales.' }
     ]
   },
   {
     slug: 'motivacion',
-    title: 'Frases Motivadoras en Inglés',
-    h1_title: 'Frases de Motivación y Superación en Inglés',
-    description: 'Encuentra la inspiración que necesitas con estas frases motivadoras traducidas al español.',
+    title: 'Frases Motivadoras en Inglés: Inspiración Diaria | Focus English',
+    h1_title: 'Frases Motivadoras e Inspiradoras en Inglés',
+    description: 'Encuentra la inspiración que necesitas con nuestra selección de frases motivadoras en inglés. Cortas, potentes y traducidas para tu éxito personal.',
     content_top: 'La motivación es la clave del éxito. Inspírate con estas frases de grandes pensadores y líderes en inglés.',
-    keywords: ['frases motivadoras en ingles', 'frases de superacion ingles', 'frases positivas'],
+    keywords: ['frases motivadoras en ingles', 'frases inspiradoras ingles', 'frases positivas ingles'],
     faqs: [
       { question: '¿Cuál es una frase motivadora corta?', answer: '"Believe in yourself" (Cree en ti mismo).' }
     ]
   },
   {
-    slug: 'basico',
-    title: 'Frases Básicas en Inglés',
-    h1_title: 'Frases Básicas y Comunes en Inglés para Principiantes',
-    description: 'Aprende las expresiones más utilizadas y cotidianas del inglés para empezar a hablar hoy mismo.',
-    content_top: 'Domina los fundamentos del idioma con estas frases básicas que todo principiante debe conocer.',
-    keywords: ['frases basicas en ingles', 'frases comunes ingles', 'frases cotidianas'],
+    slug: 'gramatica',
+    title: 'Frases en Inglés: Pasiva, Condicionales y Comparativos | Focus English',
+    h1_title: 'Ejemplos de Frases Gramaticales en Inglés',
+    description: 'Aprende gramática con ejemplos reales. Frases en voz pasiva, condicionales y comparativos explicados de forma sencilla con su traducción.',
+    content_top: 'Domina los fundamentos de la gramática inglesa con estos ejemplos prácticos y frases explicadas.',
+    keywords: ['frases pasivas en ingles', 'frases condicionales ingles', 'comparativos ingles'],
     faqs: [
-      { question: '¿Cuáles son las frases más usadas?', answer: '"How are you?", "Nice to meet you" y "Thank you" son las más comunes.' }
+      { question: '¿Cuándo usar la voz pasiva?', answer: 'Cuando el objeto de la acción es más importante que el sujeto.' }
     ]
   }
 ];
@@ -107,12 +107,10 @@ const phrases = [
   { phrase_en: "The best is yet to come.", phrase_es: "Lo mejor está por venir.", category_slug: 'motivacion', tags: ['esperanza'], order_index: 4 },
   { phrase_en: "Success is not final, failure is not fatal.", phrase_es: "El éxito no es el final, el fracaso no es fatal.", category_slug: 'motivacion', tags: ['exito'], order_index: 5 },
 
-  // BASICO
-  { phrase_en: "How are you today?", phrase_es: "¿Cómo estás hoy?", category_slug: 'basico', tags: ['basicas', 'comunes'], order_index: 1 },
-  { phrase_en: "Nice to meet you.", phrase_es: "Encantado de conocerte.", category_slug: 'basico', tags: ['basicas', 'comunes'], order_index: 2 },
-  { phrase_en: "Thank you very much.", phrase_es: "Muchas gracias.", category_slug: 'basico', tags: ['basicas', 'comunes'], order_index: 3 },
-  { phrase_en: "Where is the nearest station?", phrase_es: "¿Dónde está la estación más cercana?", category_slug: 'basico', tags: ['utiles', 'viajes'], order_index: 4 },
-  { phrase_en: "Can you help me, please?", phrase_es: "¿Puedes ayudarme, por favor?", category_slug: 'basico', tags: ['utiles'], order_index: 5 }
+  // GRAMATICA
+  { phrase_en: "The book was written by him.", phrase_es: "El libro fue escrito por él.", category_slug: 'gramatica', tags: ['pasiva'], order_index: 1 },
+  { phrase_en: "If I were you, I would go.", phrase_es: "Si yo fuera tú, iría.", category_slug: 'gramatica', tags: ['condicional'], order_index: 2 },
+  { phrase_en: "She is taller than her sister.", phrase_es: "Ella es más alta que su hermana.", category_slug: 'gramatica', tags: ['comparativo'], order_index: 3 }
 ];
 
 async function seed() {
