@@ -1,6 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import { Resend } from 'resend';
+import { 
+  syncHubSpotContact, 
+  createHubSpotTicket, 
+  associateTicketWithContact 
+} from '@/lib/crm/hubspot';
 
 export const runtime = 'nodejs';
 
@@ -11,113 +16,6 @@ const resendApiKey = process.env.RESEND_API_KEY || '';
 const adminEmail = process.env.ADMIN_EMAIL || 'info@focus-on-english.com';
 
 const resend = resendApiKey ? new Resend(resendApiKey) : null;
-const hubspotApiKey = process.env.HUBSPOT_API_KEY || process.env.HUBSPOT_ACCESS_TOKEN || '';
-
-/**
- * Helper to make requests to HubSpot API
- */
-async function hubspotRequest(endpoint: string, method: string = 'GET', body?: Record<string, unknown>) {
-  if (!hubspotApiKey) {
-    console.error('HubSpot API key not configured');
-    return null;
-  }
-
-  try {
-    const response = await fetch(`https://api.hubapi.com${endpoint}`, {
-      method,
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${hubspotApiKey}`,
-      },
-      body: body ? JSON.stringify(body) : undefined,
-    });
-
-    if (!response.ok) {
-      const errorData = await response.json();
-      console.error(`HubSpot API error (${endpoint}):`, errorData);
-      return null;
-    }
-
-    // Some endpoints return 204 No Content
-    if (response.status === 204) {
-      return { success: true };
-    }
-
-    return await response.json();
-  } catch (error) {
-    console.error(`HubSpot request exception (${endpoint}):`, error);
-    return null;
-  }
-}
-
-/**
- * Sync contact with HubSpot
- */
-async function syncHubSpotContact(email: string, firstName: string, lastName: string, phone?: string) {
-  // 1. Search for existing contact
-  const searchResult = await hubspotRequest('/crm/v3/objects/contacts/search', 'POST', {
-    filterGroups: [
-      {
-        filters: [
-          {
-            propertyName: 'email',
-            operator: 'EQ',
-            value: email,
-          },
-        ],
-      },
-    ],
-  });
-
-  const properties = {
-    email,
-    firstname: firstName,
-    lastname: lastName,
-    phone: phone || '',
-  };
-
-  if (searchResult?.results?.length > 0) {
-    // Update existing
-    const contactId = searchResult.results[0].id;
-    await hubspotRequest(`/crm/v3/objects/contacts/${contactId}`, 'PATCH', { properties });
-    return contactId;
-  } else {
-    // Create new
-    const createResult = await hubspotRequest('/crm/v3/objects/contacts', 'POST', {
-      properties: {
-        ...properties,
-        hs_lead_status: 'NEW',
-        lifecyclestage: 'lead',
-      },
-    });
-    return createResult?.id;
-  }
-}
-
-/**
- * Create a support ticket in HubSpot
- */
-async function createHubSpotTicket(subject: string, content: string) {
-  const ticketResult = await hubspotRequest('/crm/v3/objects/tickets', 'POST', {
-    properties: {
-      subject,
-      content,
-      hs_pipeline: 'default',
-      hs_pipeline_stage: '1', // "New" stage in many default setups
-    },
-  });
-  return ticketResult?.id;
-}
-
-/**
- * Associate a ticket with a contact
- */
-async function associateTicketWithContact(ticketId: string, contactId: string) {
-  return await hubspotRequest(
-    `/crm/v3/objects/tickets/${ticketId}/associations/contacts/${contactId}/228`,
-    'PUT'
-  );
-}
 
 export async function POST(request: NextRequest) {
   try {
@@ -178,10 +76,18 @@ export async function POST(request: NextRequest) {
     // Using a separate try-catch to ensure form submission succeeds even if HubSpot fails
     try {
       console.warn(`Starting HubSpot sync for: ${email}`);
-      const contactId = await syncHubSpotContact(email, firstName, lastName, phone);
+      const contactId = await syncHubSpotContact({ 
+        email, 
+        firstName, 
+        lastName, 
+        phone 
+      });
       
       if (contactId) {
-        const ticketId = await createHubSpotTicket(subject, message);
+        const ticketId = await createHubSpotTicket({ 
+          subject, 
+          content: message 
+        });
         if (ticketId) {
           await associateTicketWithContact(ticketId, contactId);
           console.warn(`Successfully created HubSpot ticket ${ticketId} for contact ${contactId}`);

@@ -2,59 +2,51 @@
 
 ## Workflow Steps
 
-### [x] Step: Requirements
+### [x] Step: Requirements (Phase 1)
+Integración inicial de formulario de contacto con HubSpot.
+Ver [requirements.md](./requirements.md).
 
-Create a Product Requirements Document (PRD) based on the feature description.
+### [x] Step: Technical Specification (Phase 1)
+Ver [spec.md](./spec.md).
 
-1. Review existing codebase to understand current architecture and patterns
-2. Analyze the feature definition and identify unclear aspects
-3. Ask the user for clarifications on aspects that significantly impact scope or user experience
-4. Make reasonable decisions for minor details based on context and conventions
-5. If user can't clarify, make a decision, state the assumption, and continue
+### [x] Step: Planning (Phase 1)
+Ver tareas en implementación.
 
-Save the PRD to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/4c16aeae-bb9e-44a7-a92a-8662e9a4ba53/requirements.md`.
+### [x] Step: Implementation (Phase 1) - Contact Form Integration
+Finalizado satisfactoriamente.
 
-### [x] Step: Technical Specification
+---
 
-Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/4c16aeae-bb9e-44a7-a92a-8662e9a4ba53/requirements.md`.
+## New Phase: Subscription Ticket Integration
 
-1. Review existing codebase architecture and identify reusable components
-2. Define the implementation approach
+### [x] Step: Requirements (Phase 2)
+Crear PRD para la integración de tickets tras suscripción.
+Ver [requirements_subscription.md](./requirements_subscription.md).
 
-Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/4c16aeae-bb9e-44a7-a92a-8662e9a4ba53/spec.md`.
+### [x] Step: Technical Specification (Phase 2)
+1. Definir cómo reutilizar la lógica de HubSpot en el webhook de Stripe.
+2. Definir los parámetros del ticket de bienvenida.
+Ver [spec_subscription.md](./spec_subscription.md).
 
-### [x] Step: Planning
+### [x] Step: Planning (Phase 2)
+1. Break down implementation into granular tasks in `plan.md`.
 
-Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/.zencoder/chats/4c16aeae-bb9e-44a7-a92a-8662e9a4ba53/spec.md`.
+Save to `plan.md`.
 
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
+### [x] Step: Implementation (Phase 2)
 
-Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/4c16aeae-bb9e-44a7-a92a-8662e9a4ba53/plan.md`.
+#### [x] 1. Refactor and Enhance `src/lib/crm/hubspot.ts`
+Implement `hubspotRequest`, `syncHubSpotContact`, `createHubSpotTicket`, and `associateTicketWithContact` as exported functions.
+- **Verification**: Code compiles and exports are available.
 
-### [x] Step: Implementation
+#### [x] 2. Update `src/app/api/contact/route.ts` to use `hubspot.ts`
+Refactor the contact endpoint to use the centralized library functions.
+- **Verification**: Functional test of contact form.
 
-#### [x] 1. Define HubSpot API Constants and Helpers
-Define the necessary HubSpot API endpoints and a generic `hubspotRequest` helper in `src/app/api/contact/route.ts` (or a shared lib if applicable, but for simplicity we'll keep it in the route for now as it matches existing patterns).
-- **Verification**: Code compiles and variables are correctly typed.
+#### [x] 3. Update `src/app/api/webhooks/stripe/route.ts`
+Integrate HubSpot contact sync and ticket creation in the `checkout.session.completed` handler.
+- **Verification**: Mock webhook call and verify HubSpot state.
 
-#### [x] 2. Implement Contact Synchronization Logic
-Implement the logic to search for an existing contact by email and update it, or create a new one if it doesn't exist.
-- **Verification**: Function correctly returns a `contactId`.
-
-#### [x] 3. Implement Ticket Creation Logic
-Implement the logic to create a new ticket in HubSpot with the form's subject and message.
-- **Verification**: Function correctly returns a `ticketId`.
-
-#### [x] 4. Implement Ticket-Contact Association Logic
-Implement the logic to associate the newly created ticket with the contact using the Association API (ID 228).
-- **Verification**: API call returns success.
-
-#### [x] 5. Integrate into the Main POST Handler
-Update the `POST` function in `src/app/api/contact/route.ts` to execute the HubSpot synchronization flow. Ensure it's wrapped in a try/catch to not block the main response if HubSpot fails.
-- **Verification**: `POST` request to `/api/contact` still returns 200/success even if HubSpot has an issue (as per PRD requirements).
-
-#### [x] 6. Final Verification and Linting
-Run linting and verify the integration.
-- **Verification**: `npm run lint` passes.
+#### [x] 4. Final Linting and Verification
+Run project-wide linting and ensure type consistency.
+- **Verification**: `npm run lint` passes (with pre-existing warnings).

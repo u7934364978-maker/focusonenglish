@@ -3,6 +3,11 @@ import { NextRequest, NextResponse } from 'next/server';
 import { supabaseAdmin } from '@/lib/supabase/client';
 import { sendWelcomeEmail } from '@/lib/email-service';
 import crypto from 'crypto';
+import { 
+  syncHubSpotContact, 
+  createHubSpotTicket, 
+  associateTicketWithContact 
+} from '@/lib/crm/hubspot';
 
 // Inicializar Stripe solo si la clave está disponible
 const stripe = process.env.STRIPE_SECRET_KEY 
@@ -132,38 +137,32 @@ export async function POST(request: NextRequest) {
 
       // HubSpot integration
       try {
-        const hubspotContact = {
-          properties: {
-            email: customerEmail,
-            firstname: firstName,
-            lastname: lastName,
+        console.warn(`Syncing subscription to HubSpot for: ${customerEmail}`);
+        const contactId = await syncHubSpotContact({
+          email: customerEmail,
+          firstName,
+          lastName,
+          extraProperties: {
             subscription_plan: session.metadata?.planId || planName,
             subscription_status: 'active',
             lifecyclestage: 'customer',
           }
-        };
-
-        const hsResp = await fetch(`https://api.hubapi.com/crm/v3/objects/contacts`, {
-          method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${process.env.HUBSPOT_ACCESS_TOKEN}`,
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(hubspotContact)
         });
 
-        if (!hsResp.ok) {
-          const emailEncoded = encodeURIComponent(customerEmail);
-          await fetch(`https://api.hubapi.com/crm/v3/objects/contacts/${emailEncoded}?idProperty=email`, {
-            method: 'PATCH',
-            headers: {
-              'Authorization': `Bearer ${process.env.HUBSPOT_ACCESS_TOKEN}`,
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(hubspotContact)
+        if (contactId) {
+          const ticketId = await createHubSpotTicket({
+            subject: `Nueva Suscripción: ${planName}`,
+            content: `El usuario ha completado el pago para el plan: ${planName}.
+ID de Sesión: ${session.id}
+Email: ${customerEmail}
+Nombre: ${firstName} ${lastName}`
           });
+          
+          if (ticketId) {
+            await associateTicketWithContact(ticketId, contactId);
+            console.log(`✅ HubSpot ticket ${ticketId} created for subscription`);
+          }
         }
-        console.log('✅ HubSpot synced');
       } catch (err: any) {
         console.error('❌ HubSpot error:', err.message);
       }
