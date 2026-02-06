@@ -1,14 +1,26 @@
 'use client';
 
 import { Navigation } from "@/components/sections/Navigation";
-import { getAllPlans, formatPrice } from "@/lib/subscription-plans";
-import { useState } from "react";
+import { getAllPlans, formatPrice, getPlanById } from "@/lib/subscription-plans";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 
 export default function PlanesPage() {
   const allPlans = getAllPlans();
   const [isLoading, setIsLoading] = useState<string | null>(null);
   const [billingCycle, setBillingCycle] = useState<'month' | 'year'>('year'); // Mostrar anual por defecto
+
+  // Detectar plan desde URL para ajustar el ciclo de facturación
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const planId = params.get('plan');
+    if (planId) {
+      const plan = getPlanById(planId);
+      if (plan) {
+        setBillingCycle(plan.interval);
+      }
+    }
+  }, []);
 
   // Filtrar planes según el ciclo de facturación seleccionado
   const plans = allPlans.filter(plan => plan.interval === billingCycle);

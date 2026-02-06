@@ -11,6 +11,8 @@ import Link from "next/link";
 import { useState, FormEvent, useEffect } from "react";
 import { loadStripe } from '@stripe/stripe-js';
 import { getAllPlans, formatPrice, type SubscriptionPlan } from "@/lib/subscription-plans";
+import { getUser } from "@/lib/auth-helpers";
+import { supabase } from "@/lib/supabase-client";
 
 // Inicializar Stripe de forma segura
 const getStripe = async () => {
@@ -38,13 +40,35 @@ export default function SignupPage() {
     message: ""
   });
 
-  // Detectar plan desde URL
+  // Detectar plan desde URL y pre-cargar datos de usuario si está logueado
   useEffect(() => {
+    async function loadUserData() {
+      const { user } = await getUser();
+      if (user) {
+        // Intentar obtener más datos del perfil de Supabase
+        const { data: profile } = await supabase
+          .from('users')
+          .select('*')
+          .eq('email', user.email)
+          .maybeSingle();
+
+        setFormData(prev => ({
+          ...prev,
+          email: user.email || prev.email,
+          firstName: profile?.name || user.user_metadata?.full_name || user.user_metadata?.name || prev.firstName,
+          phone: profile?.phone || prev.phone,
+          currentLevel: (profile?.language_level || prev.currentLevel).toLowerCase(),
+        }));
+      }
+    }
+
     const params = new URLSearchParams(window.location.search);
     const planParam = params.get('plan');
     if (planParam && plans.some(p => p.id === planParam)) {
       setSelectedPlan(planParam);
     }
+
+    loadUserData();
   }, [plans]);
 
   const [isSubmitting, setIsSubmitting] = useState(false);

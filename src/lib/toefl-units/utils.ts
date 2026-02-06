@@ -89,3 +89,18 @@ export function createToeflUnit(
     ]
   };
 }
+
+/**
+ * Creates a large TOEFL unit from multiple shards (blocks).
+ * Useful for 100+ exercises per week.
+ */
+export function createShardedToeflUnit(
+  id: string,
+  title: string,
+  description: string,
+  objectives: string[],
+  shards: Exercise[][]
+): any {
+  const allBlocks = shards.flat();
+  return createToeflUnit(id, title, description, objectives, allBlocks);
+}
