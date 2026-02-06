@@ -54,7 +54,11 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/a594e339-e94c-458
 
 Implement the task according to the technical specification and general engineering best practices.
 
-1. [in_progress] Stage and commit TOEFL course content and audio files.
-2. [pending] Push changes to the repository.
-3. [pending] Provide the commit number to the user.
-4. [pending] Write a report to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/a594e339-e94c-458f-bc2a-5d55eaffd6f8/report.md`.
+1. [x] Stage and commit TOEFL course content and audio files.
+2. [x] Push changes to the repository.
+3. [x] Provide the commit number to the user.
+4. [x] Write a report to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/a594e339-e94c-458f-bc2a-5d55eaffd6f8/report.md`.
+5. [in_progress] Stage and commit all remaining course content and audio files for all levels (TOEFL, B2, C1, C2, etc.).
+6. [pending] Push all changes to the repository.
+7. [pending] Provide the commit number to the user.
+8. [pending] Update the report in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/a594e339-e94c-458f-bc2a-5d55eaffd6f8/report.md`.
