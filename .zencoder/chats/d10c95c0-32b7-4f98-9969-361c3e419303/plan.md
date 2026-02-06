@@ -14,51 +14,23 @@ Do not make assumptions on important decisions — get clarification first.
 
 ## Workflow Steps
 
-### [ ] Step: Technical Specification
+### [x] Step: Technical Specification
 
-Assess the task's difficulty, as underestimating it leads to poor outcomes.
-
-- easy: Straightforward implementation, trivial bug fix or feature
-- medium: Moderate complexity, some edge cases or caveats to consider
-- hard: Complex logic, many caveats, architectural considerations, or high-risk changes
-
-Create a technical specification for the task that is appropriate for the complexity level:
-
-- Review the existing codebase architecture and identify reusable components.
-- Define the implementation approach based on established patterns in the project.
-- Identify all source code files that will be created or modified.
-- Define any necessary data model, API, or interface changes.
-- Describe verification steps using the project's test and lint commands.
-
-Save the output to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/d10c95c0-32b7-4f98-9969-361c3e419303/spec.md` with:
-
-- Technical context (language, dependencies)
-- Implementation approach
-- Source code structure changes
-- Data model / API / interface changes
-- Verification approach
-
-If the task is complex enough, create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/.zencoder/chats/d10c95c0-32b7-4f98-9969-361c3e419303/spec.md`:
-
-- Break down the work into concrete tasks (incrementable, testable milestones)
-- Each task should reference relevant contracts and include verification steps
-- Replace the Implementation step below with the planned tasks
-
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint, write tests for a module). Avoid steps that are too granular (single function).
-
-Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/d10c95c0-32b7-4f98-9969-361c3e419303/plan.md`. If the feature is trivial and doesn't warrant this breakdown, keep the Implementation step below as is.
+Assessment: easy - Integrating existing JSON batches into course content and pushing changes.
 
 ---
 
-### [ ] Step: Implementation
+### [x] Step: Implementation
 
-Implement the task according to the technical specification and general engineering best practices.
+1. [x] Integrate `unit9_batch1.json` and `unit9_batch2.json` into `unit9.json`
+2. [x] Integrate `unit10_batch1.json` and `unit10_batch2.json` into `unit10.json`
+3. [x] Integrate `unit11_batch1.json` into `unit11.json`
+4. [x] Commit and push changes to origin/main
 
-1. Break the task into steps where possible.
-2. Implement the required changes in the codebase.
-3. Add and run relevant tests and linters.
-4. Perform basic manual verification if applicable.
-5. After completion, write a report to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/d10c95c0-32b7-4f98-9969-361c3e419303/report.md` describing:
-   - What was implemented
-   - How the solution was tested
-   - The biggest issues or challenges encountered
+---
+
+### Step: English A2 Diversification
+
+1. [x] Audit English A2 course content for repeated exercises
+2. [ ] Replace repeated exercises with original and varied content for all 60 units (1-10 completed)
+3. [ ] Verify content integrity and push changes (Units 1-10 verified and pushed)
