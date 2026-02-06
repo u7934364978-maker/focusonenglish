@@ -15,6 +15,7 @@ const PUBLIC_ROUTES = new Set([
   "/api/generate-exercise",
   "/test-nivel",
   "/pilot",
+  "/test-toefl",
 ]);
 
 function isBlogRoute(pathname: string) {
@@ -103,8 +104,9 @@ export async function middleware(request: NextRequest) {
 
     const isPaid = profile?.subscription_status === "active" || profile?.subscription_status === "trialing";
     const isAdmin = profile?.role === "admin";
+    const isToeflExempt = pathname.startsWith("/curso/toefl-");
 
-    if (!isPaid && !isAdmin) {
+    if (!isPaid && !isAdmin && !isToeflExempt) {
       const url = request.nextUrl.clone();
       url.pathname = "/planes";
       url.searchParams.set("reason", "premium_required");

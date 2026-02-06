@@ -4,7 +4,7 @@ date: "2026-02-06"
 author: "Focus English Team"
 excerpt: "Todo lo que necesitas saber sobre el examen Aptis A2. Estructura, puntuación y consejos para obtener tu certificado de forma rápida y económica."
 category: "examenes"
-readTime: "9 min"
+readTime: "12 min"
 image: "https://images.pexels.com/photos/3769999/pexels-photo-3769999.jpeg?auto=compress&cs=tinysrgb&w=1200"
 alt: "Estudiante sonriente celebrando sus resultados académicos"
 keywords:
@@ -17,6 +17,10 @@ faqs:
     answer: "Aptis General evalúa desde el nivel A1 hasta el C (B2 con opción a C). El Aptis A2 es una variante enfocada específicamente en certificar que posees las competencias básicas del nivel A2."
   - question: "¿Cuánto tiempo tardan los resultados de Aptis?"
     answer: "Una de las ventajas de Aptis es su rapidez: los resultados suelen estar disponibles en un plazo de 48 a 72 horas laborables."
+  - question: "¿Es Aptis válido para habilitación lingüística?"
+    answer: "Sí, en la mayoría de comunidades autónomas de España, Aptis ESOL (General o Advanced) es válido para la habilitación lingüística de profesores, siempre que se alcance el nivel requerido (B2 o C1)."
+  - question: "¿Puedo hacer el examen desde casa?"
+    answer: "No, el examen Aptis se realiza presencialmente en un centro autorizado, aunque se haga íntegramente por ordenador."
 ---
 
 ## Consigue tu Certificado Aptis A2
@@ -31,11 +35,11 @@ Para más detalles sobre otras rutas, visita nuestra [Guía de Certificaciones](
 
 Aptis evalúa las cuatro destrezas lingüísticas, además de una prueba obligatoria de gramática y vocabulario.
 
-1. **Grammar & Vocabulary**: 25 preguntas de gramática y 25 de vocabulario. Es la base del examen.
-2. **Reading**: Evalúa tu capacidad para entender textos cortos y sencillos.
-3. **Listening**: Mensajes cortos, conversaciones y anuncios.
-4. **Writing**: Dividido en 4 partes, desde responder mensajes cortos hasta escribir una redacción informal.
-5. **Speaking**: 4 partes grabadas en ordenador (presentación, descripción de fotos y opinión).
+1. **Grammar & Vocabulary**: 25 preguntas de gramática y 25 de vocabulario. Es el núcleo del examen.
+2. **Reading**: Evalúa tu capacidad para entender textos cortos, correos electrónicos y ordenar párrafos.
+3. **Listening**: Mensajes cortos, conversaciones telefónicas e identificación de opiniones.
+4. **Writing**: Dividido en 4 partes, desde responder mensajes en una red social hasta escribir un email formal de reclamación.
+5. **Speaking**: 4 partes grabadas (presentación personal, descripción de imágenes, comparación de fotos y opinión sobre un tema abstracto).
 
 ---
 
@@ -44,16 +48,35 @@ Aptis evalúa las cuatro destrezas lingüísticas, además de una prueba obligat
 Para obtener el nivel A2, debes alcanzar una puntuación específica en cada habilidad. A diferencia de otros exámenes, si destacas en una parte pero flojeas en otra, Aptis hace una media ponderada que puede ayudarte a compensar.
 
 - **Puntuación máxima por habilidad**: 50 puntos.
-- **Nivel A2**: Suele requerir una puntuación entre 12 y 21 puntos en cada sección (dependiendo de la escala del año vigente).
+- **Total**: 200 puntos (sin contar Gramática/Vocabulario, que se usa para desempatar).
+- **Nivel A2**: Suele requerir una puntuación entre 12 y 21 puntos en cada sección.
 
 ---
 
-## 💡 Consejos para aprobar
+## 🎓 Aptis for Teachers vs General
 
-- **No dejes preguntas en blanco**: En Aptis, los errores no restan puntos.
-- **Controla el tiempo**: Especialmente en el *Reading* y *Writing*.
-- **Practica con auriculares**: Para aclimatarte al formato del *Listening* y *Speaking* por ordenador.
-- **Aprende conectores básicos**: Palabras como *"because"*, *"and"*, *"but"* o *"so"* son fundamentales para el nivel A2.
+Si eres docente o estudiante de magisterio, existe una versión específica: **Aptis for Teachers**.
+- **Contenido**: Los textos y audios están relacionados con el entorno educativo (colegios, alumnos, profesores).
+- **Validez**: Exactamente la misma que el Aptis General, pero los temas te resultarán más familiares.
+
+---
+
+## 💡 Consejos para el Speaking
+
+- **Habla hasta que se acabe el tiempo**: No te quedes en silencio. Si terminas antes, añade detalles o ejemplos.
+- **Describe, no solo nombres**: En lugar de decir *"There is a dog"*, di *"I can see a small white dog playing in the park"*.
+- **Conectores**: Usa *"On the other hand"*, *"In the background"* o *"What I like about this photo is..."*.
+
+---
+
+## 📚 Vocabulario por Temas (Nivel A2)
+
+Para aprobar el A2, debes dominar estos temas básicos:
+- **Family and Friends**: Describir relaciones y personalidades.
+- **Hobbies and Free Time**: Hablar de lo que te gusta hacer los fines de semana.
+- **Work and Study**: Tu puesto actual o qué quieres estudiar.
+- **Travel and Transport**: Cómo moverte por una ciudad y tipos de vacaciones.
+- **Food and Health**: Pedir en un restaurante y síntomas básicos.
 
 ---
 

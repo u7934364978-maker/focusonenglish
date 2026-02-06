@@ -18,7 +18,9 @@ Nuestro plan de estudios está estructurado para cubrir todas las competencias l
 
 ### 1. Gramática Avanzada para el Día a Día
 *   **Tiempos verbales**: Consolidación del *Present Perfect*, introducción al *Past Continuous* y uso de conectores complejos.
+*   **Verbos Modales**: Domina el uso de Can, Must y Should. Consulta nuestro [esquema de verbos modales](/blog/metodos/verbos-modales-ingles-guia).
 *   **Condicionales**: Uso del primer y segundo condicional para expresar hipótesis y planes futuros.
+*   **Preposiciones**: Aprende a indicar dirección con nuestra guía de [preposiciones de movimiento en inglés](/blog/metodos/preposiciones-movimiento-ingles).
 *   **Voz Pasiva**: Cómo estructurar frases de manera más formal y profesional.
 
 ### 2. Vocabulario y Expresiones

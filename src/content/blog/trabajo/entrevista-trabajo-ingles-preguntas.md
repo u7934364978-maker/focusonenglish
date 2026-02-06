@@ -4,7 +4,7 @@ date: "2026-02-06"
 author: "Focus English Team"
 excerpt: "Prepárate para tu próxima entrevista de trabajo en inglés. Descubre las preguntas más comunes, cómo responder con seguridad y el vocabulario profesional necesario."
 category: "trabajo"
-readTime: "11 min"
+readTime: "14 min"
 image: "https://images.pexels.com/photos/1311518/pexels-photo-1311518.jpeg?auto=compress&cs=tinysrgb&w=1200"
 alt: "Profesional en una entrevista de trabajo exitosa demostrando confianza"
 keywords:
@@ -17,6 +17,10 @@ faqs:
     answer: "No cuentes tu vida personal. Enfócate en tu trayectoria profesional reciente, tus logros clave y por qué encajas en el puesto."
   - question: "¿Qué hago si no entiendo una pregunta en la entrevista?"
     answer: "No entres en pánico. Usa frases como: 'Could you please rephrase that?' o 'If I understand correctly, you are asking about...'"
+  - question: "¿Cómo hablo de mis debilidades?"
+    answer: "Elige una debilidad real pero no crítica para el puesto, y explica qué estás haciendo para mejorarla. Por ejemplo: 'I used to struggle with public speaking, so I joined a workshop to improve my confidence.'"
+  - question: "¿Debo preguntar algo al final de la entrevista?"
+    answer: "¡Sí! Siempre. Demuestra interés preguntando sobre la cultura del equipo, los retos del puesto o los próximos pasos del proceso."
 ---
 
 ## Triunfa en tu Entrevista de Trabajo en Inglés
@@ -37,10 +41,10 @@ Casi todas las entrevistas en inglés comienzan o incluyen estas tres cuestiones
 
 ### "What are your strengths and weaknesses?"
 - **Strengths**: Enfócate en habilidades transferibles (*soft skills*) como *problem-solving* o *teamwork*.
-- **Weaknesses**: Menciona algo real pero muestra cómo estás trabajando para mejorarlo.
+- **Weaknesses**: Menciona algo real pero muestra cómo estás trabajando para mejorarlo. Usa la estructura: *"I sometimes struggle with... however, I have started to..."*.
 
 ### "Why do you want to work for us?"
-- **Objetivo**: Demostrar que has investigado a la empresa. Menciona su cultura, sus proyectos o su posición en el mercado.
+- **Objetivo**: Demostrar que has investigado a la empresa. Menciona su cultura, sus proyectos o su posición en el mercado. Evita respuestas genéricas.
 
 ---
 
@@ -53,6 +57,7 @@ En lugar de usar verbos simples, usa verbos de acción que denoten liderazgo y r
 | **Did** | **Achieved / Managed** | *"I managed a team of five..."* |
 | **Helped** | **Assisted / Collaborated** | *"I collaborated with the marketing team..."* |
 | **Changed** | **Improved / Optimized** | *"I optimized the delivery process..."* |
+| **Started** | **Initiated / Launched** | *"I initiated a new customer feedback system..."* |
 
 ---
 
@@ -60,9 +65,26 @@ En lugar de usar verbos simples, usa verbos de acción que denoten liderazgo y r
 
 Cuando te pidan ejemplos de situaciones pasadas (*Behavioral Questions*), usa el método STAR:
 - **S (Situation)**: Contexto breve.
-- **T (Task)**: Cuál era el reto.
-- **A (Action)**: Qué hiciste TÚ específicamente.
-- **R (Result)**: Cuál fue el desenlace positivo (con números si es posible).
+- **T (Task)**: Cuál era el reto o problema.
+- **A (Action)**: Qué hiciste TÚ específicamente para resolverlo.
+- **R (Result)**: Cuál fue el desenlace positivo (con números o porcentajes si es posible).
+
+---
+
+## 🤝 4. Preguntas para el Reclutador
+
+Al final, cuando te pregunten *"Do you have any questions for us?"*, usa alguna de estas:
+- *"What does a typical day in this role look like?"*
+- *"How would you describe the company culture?"*
+- *"What are the most immediate challenges for the team?"*
+- *"What are the next steps in the hiring process?"*
+
+---
+
+## 📧 5. El "Follow-up Email"
+
+No olvides enviar un correo de agradecimiento 24 horas después de la entrevista.
+*"Dear [Name], thank you for the opportunity to interview for the [Position] role yesterday. I enjoyed learning more about the team and I am very excited about the possibility of joining [Company Name]."*
 
 ---
 

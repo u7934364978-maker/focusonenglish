@@ -1,7 +1,7 @@
 import { Question, LevelResult } from '../level-test-data';
 
 export const TOEFL_LEVEL_TEST_QUESTIONS: Question[] = [
-  // ===== B1 LEVEL (Threshold for TOEFL readiness) =====
+  // ===== B1 LEVEL (Threshold for TOEFL readiness - 10 questions) =====
   {
     id: 'toefl-b1-1',
     type: 'multiple-choice',
@@ -27,7 +27,7 @@ export const TOEFL_LEVEL_TEST_QUESTIONS: Question[] = [
     type: 'reading-comprehension',
     skill: 'reading',
     level: 'B1',
-    points: 2,
+    points: 1,
     context: 'The campus library will be closed for renovations during the summer break. Students can still access digital resources online.',
     question: 'What is the main point of this announcement?',
     options: [
@@ -38,8 +38,84 @@ export const TOEFL_LEVEL_TEST_QUESTIONS: Question[] = [
     ],
     correctAnswer: 2,
   },
+  {
+    id: 'toefl-b1-4',
+    type: 'multiple-choice',
+    skill: 'grammar',
+    level: 'B1',
+    points: 1,
+    question: 'If you _____ any help with the registration, please let me know.',
+    options: ['needed', 'will need', 'need', 'are needing'],
+    correctAnswer: 2,
+  },
+  {
+    id: 'toefl-b1-5',
+    type: 'multiple-choice',
+    skill: 'vocabulary',
+    level: 'B1',
+    points: 1,
+    question: 'The new student lounge is located _____ the cafeteria and the gym.',
+    options: ['among', 'between', 'inside', 'through'],
+    correctAnswer: 1,
+  },
+  {
+    id: 'toefl-b1-6',
+    type: 'reading-comprehension',
+    skill: 'reading',
+    level: 'B1',
+    points: 1,
+    context: 'Many students prefer taking morning classes because it allows them to have free time in the afternoon for part-time jobs or extracurricular activities.',
+    question: 'Why do some students choose morning schedules?',
+    options: [
+      'They are more productive in the morning',
+      'They want to avoid heavy traffic',
+      'They need time for other responsibilities',
+      'Morning classes are easier than evening ones'
+    ],
+    correctAnswer: 2,
+  },
+  {
+    id: 'toefl-b1-7',
+    type: 'multiple-choice',
+    skill: 'grammar',
+    level: 'B1',
+    points: 1,
+    question: 'I have been studying English _____ three years now.',
+    options: ['since', 'for', 'during', 'ago'],
+    correctAnswer: 1,
+  },
+  {
+    id: 'toefl-b1-8',
+    type: 'multiple-choice',
+    skill: 'vocabulary',
+    level: 'B1',
+    points: 1,
+    question: 'It is important to _____ notes during a university lecture.',
+    options: ['make', 'take', 'do', 'get'],
+    correctAnswer: 1,
+  },
+  {
+    id: 'toefl-b1-9',
+    type: 'multiple-choice',
+    skill: 'grammar',
+    level: 'B1',
+    points: 1,
+    question: 'Does anyone know _____ the registrar\'s office is?',
+    options: ['where', 'which', 'who', 'how'],
+    correctAnswer: 0,
+  },
+  {
+    id: 'toefl-b1-10',
+    type: 'multiple-choice',
+    skill: 'vocabulary',
+    level: 'B1',
+    points: 1,
+    question: 'Please _____ your name at the top of the exam paper.',
+    options: ['print', 'type', 'draw', 'sign'],
+    correctAnswer: 0,
+  },
 
-  // ===== B2 LEVEL (Target for many undergraduate programs) =====
+  // ===== B2 LEVEL (Target for many undergraduate programs - 10 questions) =====
   {
     id: 'toefl-b2-1',
     type: 'multiple-choice',
@@ -65,7 +141,7 @@ export const TOEFL_LEVEL_TEST_QUESTIONS: Question[] = [
     type: 'reading-comprehension',
     skill: 'reading',
     level: 'B2',
-    points: 3,
+    points: 2,
     context: 'Photosynthesis is a process used by plants to convert light energy into chemical energy that, through cellular respiration, can later be released to fuel the organism\'s activities.',
     question: 'According to the passage, what is the primary purpose of photosynthesis?',
     options: [
@@ -76,8 +152,84 @@ export const TOEFL_LEVEL_TEST_QUESTIONS: Question[] = [
     ],
     correctAnswer: 1,
   },
+  {
+    id: 'toefl-b2-4',
+    type: 'multiple-choice',
+    skill: 'grammar',
+    level: 'B2',
+    points: 2,
+    question: 'The professor suggested that we _____ the additional chapters for the next seminar.',
+    options: ['reading', 'must read', 'read', 'should have read'],
+    correctAnswer: 2,
+  },
+  {
+    id: 'toefl-b2-5',
+    type: 'multiple-choice',
+    skill: 'vocabulary',
+    level: 'B2',
+    points: 2,
+    question: 'Despite the complexity of the theory, the results were remarkably _____.',
+    options: ['consistent', 'persistent', 'insistent', 'resistant'],
+    correctAnswer: 0,
+  },
+  {
+    id: 'toefl-b2-6',
+    type: 'multiple-choice',
+    skill: 'grammar',
+    level: 'B2',
+    points: 2,
+    question: 'Not only _____ the deadline, but they also exceeded the budget.',
+    options: ['they missed', 'did they miss', 'missed they', 'they did miss'],
+    correctAnswer: 1,
+  },
+  {
+    id: 'toefl-b2-7',
+    type: 'reading-comprehension',
+    skill: 'reading',
+    level: 'B2',
+    points: 2,
+    context: 'Urbanization has led to a significant increase in the use of public transportation, which in turn has helped reduce the overall carbon footprint of large cities.',
+    question: 'What is an effect of urbanization according to the text?',
+    options: [
+      'A decrease in public transportation use',
+      'A higher carbon footprint in cities',
+      'An increase in environmental awareness',
+      'Lower city pollution through transport changes'
+    ],
+    correctAnswer: 3,
+  },
+  {
+    id: 'toefl-b2-8',
+    type: 'multiple-choice',
+    skill: 'vocabulary',
+    level: 'B2',
+    points: 2,
+    question: 'The researcher was able to _____ the hypothesis through extensive testing.',
+    options: ['confirm', 'conform', 'confine', 'confuse'],
+    correctAnswer: 0,
+  },
+  {
+    id: 'toefl-b2-9',
+    type: 'multiple-choice',
+    skill: 'grammar',
+    level: 'B2',
+    points: 2,
+    question: 'I would rather you _____ the data yourself instead of relying on secondary sources.',
+    options: ['analyzed', 'analyze', 'analyzing', 'to analyze'],
+    correctAnswer: 0,
+  },
+  {
+    id: 'toefl-b2-10',
+    type: 'multiple-choice',
+    skill: 'vocabulary',
+    level: 'B2',
+    points: 2,
+    question: 'The atmosphere on campus was quite _____ after the victory of the debate team.',
+    options: ['vibrant', 'fragrant', 'dominant', 'hesitant'],
+    correctAnswer: 0,
+  },
 
-  // ===== C1 LEVEL (Target for graduate programs and high-tier universities) =====
+  // ===== C1 LEVEL (Target for graduate programs - 10 questions) =====
   {
     id: 'toefl-c1-1',
     type: 'multiple-choice',
@@ -95,15 +247,15 @@ export const TOEFL_LEVEL_TEST_QUESTIONS: Question[] = [
     level: 'C1',
     points: 3,
     question: 'The findings of the report are _____ with the previous theories in the field.',
-    options: ['consistent', 'persistent', 'resistant', 'insistent'],
-    correctAnswer: 0,
+    options: ['consistent', 'compatible', 'conducive', 'complicit'],
+    correctAnswer: 1,
   },
   {
     id: 'toefl-c1-3',
     type: 'reading-comprehension',
     skill: 'reading',
     level: 'C1',
-    points: 4,
+    points: 3,
     context: 'The industrial revolution was not a singular event but rather a protracted series of shifts in production methods, social structures, and economic theories that fundamentally altered the human experience.',
     question: 'The author characterizes the industrial revolution as:',
     options: [
@@ -113,13 +265,89 @@ export const TOEFL_LEVEL_TEST_QUESTIONS: Question[] = [
       'An event that had little impact on social structures'
     ],
     correctAnswer: 2,
+  },
+  {
+    id: 'toefl-c1-4',
+    type: 'multiple-choice',
+    skill: 'grammar',
+    level: 'C1',
+    points: 3,
+    question: 'Such _____ the intensity of the storm that the entire power grid collapsed.',
+    options: ['was', 'had been', 'it was', 'did'],
+    correctAnswer: 0,
+  },
+  {
+    id: 'toefl-c1-5',
+    type: 'multiple-choice',
+    skill: 'vocabulary',
+    level: 'C1',
+    points: 3,
+    question: 'The ambiguity of the results _____ any definitive conclusion at this stage.',
+    options: ['precludes', 'includes', 'concludes', 'eludes'],
+    correctAnswer: 0,
+  },
+  {
+    id: 'toefl-c1-6',
+    type: 'reading-comprehension',
+    skill: 'reading',
+    level: 'C1',
+    points: 3,
+    context: 'Cognitive dissonance occurs when an individual holds two or more contradictory beliefs simultaneously, leading to psychological discomfort that often results in the modification of one of the beliefs to restore consistency.',
+    question: 'What is the primary outcome of cognitive dissonance according to the text?',
+    options: [
+      'Enhanced psychological stability',
+      'A permanent state of confusion',
+      'The rejection of all contradictory beliefs',
+      'An adjustment of internal perceptions'
+    ],
+    correctAnswer: 3,
+  },
+  {
+    id: 'toefl-c1-7',
+    type: 'multiple-choice',
+    skill: 'grammar',
+    level: 'C1',
+    points: 3,
+    question: 'Provided that all variables _____ controlled, the results should be reproducible.',
+    options: ['are', 'will be', 'being', 'having been'],
+    correctAnswer: 0,
+  },
+  {
+    id: 'toefl-c1-8',
+    type: 'multiple-choice',
+    skill: 'vocabulary',
+    level: 'C1',
+    points: 3,
+    question: 'The speaker\'s arguments were _____ by a lack of empirical evidence.',
+    options: ['undermined', 'underlined', 'undertaken', 'understood'],
+    correctAnswer: 0,
+  },
+  {
+    id: 'toefl-c1-9',
+    type: 'multiple-choice',
+    skill: 'grammar',
+    level: 'C1',
+    points: 3,
+    question: 'Try _____ he might, the student could not grasp the complexities of quantum mechanics.',
+    options: ['as', 'though', 'however', 'since'],
+    correctAnswer: 0,
+  },
+  {
+    id: 'toefl-c1-10',
+    type: 'multiple-choice',
+    skill: 'vocabulary',
+    level: 'C1',
+    points: 3,
+    question: 'The decision to merge the two departments was seen as a _____ move to increase efficiency.',
+    options: ['shrewd', 'crude', 'stewed', 'renewed'],
+    correctAnswer: 0,
   }
 ];
 
 export function calculateToeflLevel(score: number, totalPoints: number): LevelResult {
   const percentage = (score / totalPoints) * 100;
   
-  if (percentage >= 80) {
+  if (percentage >= 75) {
     return {
       level: 'C1',
       percentage,
@@ -134,7 +362,7 @@ export function calculateToeflLevel(score: number, totalPoints: number): LevelRe
       color: 'from-orange-600 to-red-600',
       gradient: 'bg-gradient-to-br from-orange-600 to-red-600',
     };
-  } else if (percentage >= 50) {
+  } else if (percentage >= 45) {
     return {
       level: 'B2',
       percentage,

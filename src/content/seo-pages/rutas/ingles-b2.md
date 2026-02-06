@@ -19,11 +19,13 @@ Nuestro programa de nivel B2 se centra en la sofisticación del lenguaje y la ca
 ### 1. Gramática y Estructuras Complejas
 *   **Narrativa Avanzada**: Uso experto de todos los tiempos pasados para contar historias y anécdotas con detalle.
 *   **Modales de Especulación**: Cómo expresar grados de certeza sobre el presente y el pasado.
+*   **Phrasal Verbs Avanzados**: Dominio de los verbos compuestos esenciales para el FCE. Consulta nuestra [guía completa de Phrasal Verbs B2](/blog/metodos/phrasal-verbs-guia-b2).
 *   **Reported Speech y Estructuras Causativas**: Esenciales para el entorno laboral y la gestión de equipos.
 
 ### 2. Vocabulario Especializado y Expresiones Idiomáticas
 *   Uso de **Idioms** y frases hechas para sonar más natural.
 *   Diferenciación entre registros formales e informales.
+*   **Pronunciación y Fluidez**: Mejora tu acento con nuestras [reglas de pronunciación en inglés](/blog/metodos/reglas-pronunciacion-ingles).
 *   Conectores avanzados para estructurar discursos y ensayos de manera lógica y persuasiva.
 
 ### 3. Inglés para el Mundo Real
