@@ -7,7 +7,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Metadata } from "next";
 import { BreadcrumbSchema } from "@/app/schema";
-import { ChevronRight, Home, Smartphone, GraduationCap, Briefcase, Plane, Sparkles, Star } from "lucide-react";
+import { ChevronRight, Home, Smartphone, GraduationCap, Briefcase, Plane, Sparkles, Star, MessageCircle } from "lucide-react";
 
 export async function generateMetadata(): Promise<Metadata> {
   const page = getSEOPageBySlug("hub");
@@ -98,7 +98,7 @@ export default function SEOHubPage() {
           {/* Pillar Topics Grid */}
           <section className="mb-20">
             <h2 className="text-3xl font-black text-slate-900 mb-10 text-center lg:text-left">Explora por Categoría</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <Link href="/aplicaciones-para-aprender-ingles" className="group bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-coral-200 hover:shadow-xl hover:shadow-coral-50 transition-all">
                 <div className="w-14 h-14 bg-coral-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   <Smartphone className="w-8 h-8 text-coral-600" />
@@ -140,6 +140,17 @@ export default function SEOHubPage() {
                 <p className="text-slate-500 text-sm leading-relaxed mb-4">Frases y situaciones reales para tu próximo destino.</p>
                 <span className="text-peach-600 font-bold text-sm inline-flex items-center gap-1 group-hover:translate-x-2 transition-transform">
                   Preparar viaje <ChevronRight className="w-4 h-4" />
+                </span>
+              </Link>
+
+              <Link href="/frases-en-ingles" className="group bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-purple-200 hover:shadow-xl hover:shadow-purple-50 transition-all">
+                <div className="w-14 h-14 bg-purple-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                  <MessageCircle className="w-8 h-8 text-purple-600" />
+                </div>
+                <h3 className="text-xl font-black text-slate-900 mb-3">Frases en Inglés</h3>
+                <p className="text-slate-500 text-sm leading-relaxed mb-4">Guía maestra de frases útiles categorizadas por temática.</p>
+                <span className="text-purple-600 font-bold text-sm inline-flex items-center gap-1 group-hover:translate-x-2 transition-transform">
+                  Ver frases <ChevronRight className="w-4 h-4" />
                 </span>
               </Link>
             </div>

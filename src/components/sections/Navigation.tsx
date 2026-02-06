@@ -40,6 +40,9 @@ export function Navigation() {
             <Link href="/blog" className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors dark:text-slate-200 dark:hover:text-[#FF6B6B]">
               Blog
             </Link>
+            <Link href="/frases-en-ingles" className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors dark:text-slate-200 dark:hover:text-[#FF6B6B]">
+              Frases
+            </Link>
             <Link href="/test-nivel" className="text-sm font-bold text-gray-700 hover:text-[#FF6B6B] transition-colors dark:text-slate-200 dark:hover:text-[#FF6B6B]">
               Test de Nivel
             </Link>
@@ -116,6 +119,13 @@ export function Navigation() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Blog
+              </Link>
+              <Link 
+                href="/frases-en-ingles" 
+                className="text-sm font-bold text-slate-700 hover:text-coral-600 transition-colors dark:text-slate-300"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Frases
               </Link>
               <Link 
                 href="/test-nivel" 

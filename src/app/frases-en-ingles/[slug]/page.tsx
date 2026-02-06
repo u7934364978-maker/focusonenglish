@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { phraseService } from "@/lib/phrases";
 import { PhraseCard } from "@/components/seo/PhraseCard";
-import { ChevronRight, Home, ArrowLeft, MessageCircle, Info } from "lucide-react";
+import { ChevronRight, Home, ArrowLeft, MessageCircle, Info, Sparkles } from "lucide-react";
 import { Metadata } from "next";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -51,6 +51,26 @@ export default async function PhraseCategoryPage({ params }: Props) {
   }
 
   const phrases = await phraseService.getPhrasesByCategory(slug);
+
+  const recommendations: Record<string, { title: string, href: string, description: string }> = {
+    viajes: {
+      title: "Curso de Inglés para Viajar",
+      href: "/curso-ingles-para-viajar",
+      description: "Domina todas las situaciones de tu próximo viaje con nuestro curso especializado."
+    },
+    gramatica: {
+      title: "Inglés A1: Desde Cero",
+      href: "/curso-ingles-a1",
+      description: "Aprende las bases del inglés de forma estructurada y divertida."
+    },
+    default: {
+      title: "Plan de Estudios Personalizado",
+      href: "/planes",
+      description: "Lleva tu inglés al siguiente nivel con un plan diseñado para tus objetivos."
+    }
+  };
+
+  const recommended = recommendations[slug] || recommendations.default;
 
   return (
     <>
@@ -147,6 +167,32 @@ export default async function PhraseCategoryPage({ params }: Props) {
               )}
             </footer>
           )}
+
+          {/* Cross-linking Recommendation */}
+          <section className="mt-20 bg-slate-900 rounded-[3rem] p-8 lg:p-16 text-center overflow-hidden relative">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-coral-500/10 blur-[100px] rounded-full -mr-32 -mt-32"></div>
+            <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-500/10 blur-[100px] rounded-full -ml-32 -mb-32"></div>
+            
+            <div className="relative z-10 max-w-2xl mx-auto">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-coral-400 font-bold text-sm mb-8 uppercase tracking-wider">
+                <Sparkles className="w-4 h-4" />
+                Continuar Aprendiendo
+              </div>
+              <h2 className="text-3xl lg:text-5xl font-black text-white mb-6 leading-tight">
+                ¿Quieres ir más allá de las frases?
+              </h2>
+              <p className="text-xl text-slate-400 mb-10 leading-relaxed">
+                {recommended.description}
+              </p>
+              <Link 
+                href={recommended.href} 
+                className="inline-flex items-center gap-3 bg-coral-600 text-white px-10 py-5 rounded-2xl font-black text-xl hover:bg-coral-700 transition-all hover:scale-105 shadow-2xl shadow-coral-900/40"
+              >
+                {recommended.title}
+                <ChevronRight className="w-6 h-6" />
+              </Link>
+            </div>
+          </section>
         </div>
       </main>
 
