@@ -38,8 +38,9 @@ Updating this file with the concrete tasks.
     - [x] Weeks 1-4 completed (Block 1: Reading Focus).
     - [x] Weeks 5-8 completed (Block 2: Listening Focus).
     - [x] Weeks 9-12 completed (Block 3: Speaking Focus).
-    - [ ] Weeks 13-24 pending.
-    - [ ] Weeks 25-36 pending.
+    - [x] Weeks 13-16 completed (Block 4: Writing Focus).
+    - [x] Weeks 17-24 completed (Block 5: Mixed Review & Advanced Strategy).
+    - [ ] Weeks 25-36 pending (Block 6: Full Simulacros & Score Boost).
 - [ ] **Task 7.5**: Execute expansion for C1 (36 weeks * 100 exercises).
 
 #### Phase 8: Verification & Final Audit

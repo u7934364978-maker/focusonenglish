@@ -888,4 +888,10 @@ const s10 = {
   ]
 };
 
-export const week7 = createShardedToeflUnit(UNIT_ID, LEVEL, [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]);
+export const B2_WEEK_7 = createShardedToeflUnit(
+  'toefl-b2-w7',
+  'Week 7: Listening - Science & History Deep Dive',
+  'Exploring complex topics in science and history through academic discussions and lectures.',
+  ['Analyze historical migration and megafauna extinction theories', 'Understand advanced concepts in AI and plate tectonics', 'Identify relationships between ideas in long-form lectures'],
+  [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]
+);

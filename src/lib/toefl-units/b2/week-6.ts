@@ -888,4 +888,10 @@ const s10 = {
   ]
 };
 
-export const week6 = createShardedToeflUnit(UNIT_ID, LEVEL, [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]);
+export const B2_WEEK_6 = createShardedToeflUnit(
+  'toefl-b2-w6',
+  'Week 6: Listening - Advanced Lectures & Rhetoric',
+  'Analyzing advanced lectures on astronomy and economics with focus on rhetorical devices.',
+  ['Identify rhetorical devices and speaker intent in lectures', 'Analyze complex information in astronomy and economics contexts', 'Understand the development of ideas in academic discourse'],
+  [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]
+);

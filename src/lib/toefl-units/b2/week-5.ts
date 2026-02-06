@@ -888,4 +888,10 @@ const s10 = {
   ]
 };
 
-export const week5 = createShardedToeflUnit(UNIT_ID, LEVEL, [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]);
+export const B2_WEEK_5 = createShardedToeflUnit(
+  'toefl-b2-w5',
+  'Week 5: Listening - Campus Life & Academic Discussions',
+  'Mastering the listening section with focus on functional language and complex academic discussions.',
+  ['Understand functional language and idioms in campus life', 'Analyze complex academic discussions on environmental science and psychology', 'Identify speaker intent and rhetorical devices'],
+  [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]
+);

@@ -52,4 +52,7 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/07f958a6-6869-42b
 
 ### [x] Step: Deployment
 
-1. [x] **Commit and push**: Deploy the changes to the repository. (Commit: 2a09f4375825daeb0feb2c30853bb2f829395f56)
+1. [x] **Commit and push**: Deploy the changes to the repository. (Commit: 3bcc075f11b359ebfc71406c607828bc4b5a093c)
+2. [x] **Fix build error**: Corrected argument count for `createShardedToeflUnit` in B2 units.
+3. [x] **Manual Activation**: Activated `lrmlo@icloud.com` in `user_profiles`.
+4. [ ] **Final Push**: Commit and push final fixes.

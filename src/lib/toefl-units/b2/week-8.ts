@@ -888,4 +888,10 @@ const s10 = {
   ]
 };
 
-export const week8 = createShardedToeflUnit(UNIT_ID, LEVEL, [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]);
+export const B2_WEEK_8 = createShardedToeflUnit(
+  'toefl-b2-w8',
+  'Week 8: Listening - Pragmatics & Natural Sciences',
+  'Developing pragmatic understanding and exploring topics in natural sciences and history.',
+  ['Understand speaker intent and degrees of certainty', 'Analyze complex lectures on biology and the Silk Road', 'Handle academic discussions on urban environmental issues'],
+  [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]
+);
