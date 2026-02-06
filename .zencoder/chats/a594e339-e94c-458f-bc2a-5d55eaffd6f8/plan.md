@@ -58,7 +58,9 @@ Implement the task according to the technical specification and general engineer
 2. [x] Push changes to the repository.
 3. [x] Provide the commit number to the user.
 4. [x] Write a report to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/a594e339-e94c-458f-bc2a-5d55eaffd6f8/report.md`.
-5. [in_progress] Stage and commit all remaining course content and audio files for all levels (TOEFL, B2, C1, C2, etc.).
-6. [pending] Push all changes to the repository.
-7. [pending] Provide the commit number to the user.
-8. [pending] Update the report in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/a594e339-e94c-458f-bc2a-5d55eaffd6f8/report.md`.
+5. [x] Stage and commit all remaining course content and audio files for all levels (TOEFL, B2, C1, C2, etc.).
+6. [x] Push all changes to the repository.
+7. [x] Provide the commit number to the user.
+8. [x] Update the report in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/a594e339-e94c-458f-bc2a-5d55eaffd6f8/report.md`.
+9. [x] Add TOEFL courses to the Dashboard Academic section.
+10. [in_progress] Inform the user about the TOEFL course URLs and their location in the dashboard.

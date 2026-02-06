@@ -30,7 +30,7 @@ export default function CourseCatalogPage() {
       description: 'Cambridge, IELTS, TOEFL, and DET preparation.',
       icon: '📜',
       color: 'purple',
-      levels: ['B2', 'C1', 'C2'],
+      levels: ['B1', 'B2', 'C1', 'C2'],
       goal: 'examenes'
     },
     {
