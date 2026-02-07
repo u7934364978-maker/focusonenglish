@@ -53,10 +53,11 @@ Create a detailed implementation plan based on `spec.md`.
 2. [x] **Commit and Push**: Ensure all audio files and logic changes are pushed to the repository.
    - **Commit**: `a144f93b` (Audio files) + `10dc2e26` (Resilience logic)
 
-### [ ] Step: Expansion Audio Generation (Missing Audios)
+### [x] Step: Expansion Audio Generation (Missing Audios)
 
-1. [ ] **Identify Expansion Audios**: Verify if `_EXP_` interactions are missing audio.
-2. [ ] **Modify Generation Script**: Update `scripts/generate-a1-expansion-audio.ts` to use ElevenLabs and handle complex structures.
-3. [ ] **Run Expansion Generation**: Generate audio for the ~30 missing expansion exercises.
-4. [ ] **Final Push**: Push all generated expansion audios and updated JSONs.
+1. [x] **Identify Expansion Audios**: Verify if `_EXP_` interactions are missing audio.
+2. [x] **Modify Generation Script**: Update `scripts/generate-a1-expansion-audio.ts` (handled via `generate-a1-expansion-fix.mjs`) to use ElevenLabs and handle complex structures.
+3. [x] **Run Expansion Generation**: Generate audio for the missing expansion exercises.
+4. [x] **Final Push**: Push all generated expansion audios and updated JSONs.
+   - **Commit**: `733b77ae`
 
