@@ -6,7 +6,7 @@ keywords: ["passive voice examples", "the passive voice", "examples of passive v
 date: "2026-02-06"
 category: "Gramática"
 author: "Focus English"
-image: "https://images.pexels.com/photos/5943714/pexels-photo-5943714.jpeg"
+image: "https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg"
 faqs:
   - question: "¿Cómo se forma la voz pasiva en inglés?"
     answer: "Se forma con el verbo 'to be' (en el tiempo verbal correspondiente) + el participio pasado del verbo principal."

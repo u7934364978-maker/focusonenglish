@@ -6,7 +6,7 @@ keywords: ["fce first certificate in english exam", "b2 first cambridge", "exame
 date: "2024-02-04"
 category: "examenes"
 author: "Focus English"
-image: "https://images.pexels.com/photos/3762224/pexels-photo-3762224.jpeg"
+image: "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg"
 faqs:
   - question: "¿Qué nivel de inglés es el B2 First?"
     answer: "El B2 First, anteriormente conocido como FCE (First Certificate in English), corresponde al nivel intermedio-alto del Marco Común Europeo de Referencia (MCER)."

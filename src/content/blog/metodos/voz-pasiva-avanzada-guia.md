@@ -5,7 +5,7 @@ excerpt: "Lleva tu inglés al siguiente nivel. Aprende las estructuras pasivas q
 keywords: ["voz pasiva avanzada ingles", "impersonal passive examples", "have something done grammar", "it is said that passive", "gramatica c1 advanced"]
 author: "Equipo Focus English"
 date: "2026-02-06"
-image: "https://images.pexels.com/photos/5943714/pexels-photo-5943714.jpeg"
+image: "https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg"
 category: "Gramática"
 ---
 

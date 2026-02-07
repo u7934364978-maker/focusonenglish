@@ -63,6 +63,11 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       
       const normalized = { ...interaction };
 
+      // Standardize correct_answer
+      if (!normalized.correct_answer) {
+        normalized.correct_answer = normalized.correctAnswer || normalized.answer || normalized.solution;
+      }
+
       // Normalize type (handle camelCase from migrations)
       const typeMap: Record<string, string> = {
         'multipleChoice': 'multiple_choice',
@@ -128,7 +133,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       }
 
       // Normalize options (handle array of strings from migrations)
-      if (normalized.options && normalized.options.length > 0 && typeof normalized.options[0] === 'string') {
+      if (Array.isArray(normalized.options) && normalized.options.length > 0 && typeof normalized.options[0] === 'string') {
         const ans = normalized.correctAnswer || normalized.answer || normalized.correct_answer;
         const hasLetterAnswer = typeof ans === 'string' && /^[A-E]$/.test(ans);
         normalized.options = normalized.options.map((opt: string, idx: number) => ({
@@ -148,7 +153,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       }
 
       // Normalize pairs for matching
-      if (normalized.pairs && normalized.pairs.length > 0 && normalized.pairs[0].word) {
+      if (Array.isArray(normalized.pairs) && normalized.pairs.length > 0 && normalized.pairs[0].word) {
         normalized.pairs = normalized.pairs.map((p: any) => ({
           id: p.id || Math.random().toString(36).substr(2, 9),
           left: p.word,
@@ -157,14 +162,20 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       }
 
       // Normalize reorder_words (drag-drop)
-      if (normalized.correctSentence && normalized.type === 'reorder_words') {
-        if (!normalized.options) {
+      if (normalized.type === 'reorder_words') {
+        if (normalized.correctSentence && !normalized.options) {
           const words = normalized.correctSentence.split(' ');
           normalized.options = words.map((word: string, idx: number) => ({
             id: idx.toString(),
             text: word
           }));
-          normalized.correct_answer = normalized.options.map((o: any) => o.id);
+          normalized.correct_answer = (normalized.options || []).map((o: any) => o.id);
+        } else if (typeof normalized.correct_answer === 'string' && normalized.options) {
+          // If correct_answer is a string but type is reorder_words, try to map it to IDs
+          const words = normalized.correct_answer.split(' ');
+          normalized.correct_answer = words.map((w: string) => 
+            normalized.options.find((o: any) => o.text.toLowerCase().trim() === w.toLowerCase().trim())?.id
+          ).filter(Boolean);
         }
       }
 
@@ -210,7 +221,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             if (content.textPassage && !flattened.stimulus_en) {
               flattened.stimulus_en = content.textPassage;
             }
-            if (q.options && typeof q.options[0] === 'string') {
+            if (Array.isArray(q.options) && typeof q.options[0] === 'string') {
               flattened.options = q.options.map((opt: string, idx: number) => ({
                 id: q.type === 'multiple-choice' && opt.includes(') ') ? opt.split(') ')[0] : String.fromCharCode(65 + idx),
                 text: opt.includes(') ') ? opt.split(') ')[1] : opt
@@ -222,6 +233,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             if (q.answer && !flattened.correct_answer) {
               flattened.correct_answer = q.answer;
             }
+            if (q.solution && !flattened.correct_answer) {
+              flattened.correct_answer = q.solution;
+            }
             if (q.explanation && !flattened.feedback_correct_es) {
               flattened.feedback_correct_es = q.explanation;
             }
@@ -229,9 +243,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             // Handle reorder_words fields in sub-questions
             if (q.words && q.correctOrder && !flattened.options) {
               flattened.type = 'reorder_words';
-              flattened.options = q.words.map((w: string, idx: number) => ({ id: idx.toString(), text: w }));
-              flattened.correct_answer = q.correctOrder.map((w: string) => 
-                flattened.options.find((o: any) => o.text === w)?.id
+              flattened.options = (q.words || []).map((w: string, idx: number) => ({ id: idx.toString(), text: w }));
+              flattened.correct_answer = (Array.isArray(q.correctOrder) ? q.correctOrder : []).map((w: string) => 
+                (flattened.options || []).find((o: any) => o.text === w)?.id
               ).filter(Boolean);
             }
 
@@ -246,8 +260,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
               type: 'reorder_words',
               interaction_id: `${content.interaction_id || 'ex'}-s${sIdx}`,
               prompt_es: content.instructions || "Ordena la oración:",
-              correctSentence: s.correctOrder.join(' '),
-              options: s.words.map((w: string, idx: number) => ({ id: idx.toString(), text: w })),
+              correctSentence: Array.isArray(s.correctOrder) ? s.correctOrder.join(' ') : (s.correctOrder || ""),
+              options: (Array.isArray(s.words) ? s.words : []).map((w: string, idx: number) => ({ id: idx.toString(), text: w })),
               blockTitle: block.title
             }));
           });
@@ -529,10 +543,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     let isAnswerCorrect = false;
 
     if (interaction.type === 'reorder_words') {
-      const selectedText = (optionId as string[]).map(id => 
+      const selectedText = (Array.isArray(optionId) ? optionId : []).map(id => 
         (interaction.options || []).find((o: any) => o.id === id)?.text
       ).join(' ').toLowerCase().trim();
-      const correctText = (interaction.correct_answer as string[]).map((id: string) => 
+      const correctText = (Array.isArray(interaction.correct_answer) ? interaction.correct_answer : []).map((id: string) => 
         (interaction.options || []).find((o: any) => o.id === id)?.text
       ).join(' ').toLowerCase().trim();
       isAnswerCorrect = selectedText === correctText;
@@ -580,10 +594,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           return selectedText === expectedText;
         });
       } else {
-        isAnswerCorrect = Object.entries(interaction.correct_answer as Record<string, string>).every(([k, v]) => matchingPairs[k] === v);
+        isAnswerCorrect = Object.entries(interaction.correct_answer || {}).every(([k, v]) => matchingPairs[k] === v);
       }
     } else if (['gapped_text', 'multiple_choice_cloze'].includes(interaction.type)) {
-      const allCorrect = Object.entries(interaction.correct_answer as Record<string, string>).every(([gapId, correctVal]) => {
+      const allCorrect = Object.entries(interaction.correct_answer || {}).every(([gapId, correctVal]) => {
         const inputVal = String(inputValues[gapId as any] || "").toLowerCase().trim();
         const correctValStr = String(correctVal).toLowerCase().trim();
         return inputVal === correctValStr;
