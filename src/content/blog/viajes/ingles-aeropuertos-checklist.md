@@ -7,6 +7,7 @@ category: "viajes"
 readTime: "8 min"
 image: "https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg?auto=compress&cs=tinysrgb&w=1200"
 alt: "Vista interior de una terminal de aeropuerto moderna con pasajeros y ventanales"
+canonical: "https://www.focus-on-english.com/blog/viajes/ingles-aeropuertos-checklist"
 keywords:
   - "clases de inglés"
   - "inglés en el aeropuerto"

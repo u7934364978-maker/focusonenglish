@@ -7,6 +7,7 @@ category: "viajes"
 readTime: "12 min"
 image: "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&w=1200"
 alt: "Grupo de personas disfrutando de una cena en un restaurante acogedor"
+canonical: "https://www.focus-on-english.com/blog/viajes/ingles-restaurantes-guia"
 keywords:
   - "inglés para restaurantes"
   - "pedir comida en inglés"

@@ -99,6 +99,15 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       if (normalized.question && !normalized.prompt_es) {
         normalized.prompt_es = normalized.question;
       }
+      if (normalized.title && !normalized.prompt_es) {
+        normalized.prompt_es = normalized.title;
+      }
+      if (normalized.topic && !normalized.prompt_es) {
+        normalized.prompt_es = normalized.topic;
+      }
+      if (!normalized.prompt_es) {
+        normalized.prompt_es = "Selecciona la respuesta correcta:";
+      }
 
       // Normalize stimulus
       if (normalized.text && !normalized.stimulus_en) {
@@ -149,7 +158,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
       // Normalize correct_answer for fill_blanks
       if (normalized.answers && !normalized.correct_answer) {
-        normalized.correct_answer = Array.isArray(normalized.answers) ? normalized.answers.join(' ') : normalized.answers;
+        normalized.correct_answer = Array.isArray(normalized.answers) ? normalized.answers.join(' / ') : normalized.answers;
+      }
+      if (normalized.answer && !normalized.correct_answer) {
+        normalized.correct_answer = normalized.answer;
       }
 
       // Normalize pairs for matching
@@ -204,7 +216,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
               ...q,
               interaction_id: `${content.interaction_id || 'ex'}-q${qIdx}`,
               // Ensure we don't lose the main instructions or title
-              main_instructions: content.title || content.instructions || content.prompt_es,
+              main_instructions: q.instructions || q.prompt || q.question || q.title || content.instructions || content.prompt_es || content.topic || content.title || block.title,
               blockTitle: block.title
             };
             
@@ -235,6 +247,12 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             }
             if (q.solution && !flattened.correct_answer) {
               flattened.correct_answer = q.solution;
+            }
+            if (q.correct_answer && !flattened.correct_answer) {
+              flattened.correct_answer = q.correct_answer;
+            }
+            if (q.correct_answer_es && !flattened.correct_answer_es) {
+              flattened.correct_answer_es = q.correct_answer_es;
             }
             if (q.explanation && !flattened.feedback_correct_es) {
               flattened.feedback_correct_es = q.explanation;
@@ -666,7 +684,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       setFailCount(prev => ({ ...prev, [id]: currentFails }));
       
       let message = "";
-      if (currentFails >= 3) {
+      if (currentFails >= 1) {
         message = getSolutionText(interaction);
       } else {
         message = interaction.feedback_incorrect_es || getEncouragingMessage(false, currentFails);
@@ -690,7 +708,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       return;
     }
 
-    if (feedback?.correct || ((failCount[id] || 0) >= 3)) {
+    if (feedback?.correct || ((failCount[id] || 0) >= 1)) {
       if (isVideoMode) {
         setInteractionIndex(interactionIndex + 1);
         setShowInteraction(false);
@@ -2196,7 +2214,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                   </div>
                   <div className="space-y-0.5">
                     <h3 className={`text-xl font-black ${feedback.correct ? 'text-[#4b7e02]' : 'text-[#ea2b2b]'}`}>
-                      {feedback.correct ? getEncouragingMessage(true, 0) : ((failCount[id] || 0) >= 3 ? 'La solución es:' : '¡Uy! Casi...')}
+                      {feedback.correct ? getEncouragingMessage(true, 0) : ((failCount[id] || 0) >= 1 ? 'La solución es:' : '¡Uy! Casi...')}
                     </h3>
                     <p className={`text-base font-bold whitespace-pre-line ${feedback.correct ? 'text-[#4b7e02]/80' : 'text-[#ea2b2b]/80'}`}>
                       {feedback.message}

@@ -7,6 +7,7 @@ category: "viajes"
 readTime: "15 min"
 image: "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1200"
 alt: "Habitación de hotel de lujo con una cama cómoda y diseño interior elegante"
+canonical: "https://www.focus-on-english.com/blog/viajes/ingles-hoteles-guia"
 keywords:
   - "inglés para hoteles"
   - "frases check-in inglés"

@@ -66,7 +66,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
       images: [ogImage.startsWith('http') ? ogImage : `https://www.focus-on-english.com${ogImage}`],
     },
     alternates: {
-      canonical: `https://www.focus-on-english.com/blog/${normalizeCategory(article.category)}/${slug}`,
+      canonical: article.canonical || `https://www.focus-on-english.com/blog/${normalizeCategory(article.category)}/${slug}`,
     },
   };
 }

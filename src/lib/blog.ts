@@ -17,6 +17,7 @@ export interface BlogPost {
   keywords?: string[];
   faqs?: { question: string, answer: string }[];
   featured?: boolean;
+  canonical?: string;
   content: string;
 }
 
@@ -74,6 +75,7 @@ export function getBlogArticles(): BlogPost[] {
       keywords: data.keywords || [],
       faqs: data.faqs || [],
       featured: data.featured || false,
+      canonical: data.canonical,
       content,
     } as BlogPost;
   }).filter((a): a is BlogPost => a !== null);
@@ -109,6 +111,7 @@ export function getArticleBySlug(slug: string): BlogPost | null {
     keywords: data.keywords || [],
     faqs: data.faqs || [],
     featured: data.featured || false,
+    canonical: data.canonical,
     content,
   } as BlogPost;
 }
