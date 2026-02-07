@@ -405,6 +405,114 @@ def generate_role_play(unit_id, int_id, topic_data):
         "mastery_tag": "speaking"
     }
 
+def generate_odd_one_out(unit_id, int_id, topic_data):
+    items = topic_data.get("items", [])
+    if len(items) >= 3:
+        # Pick 3 related items and 1 unrelated
+        related = random.sample(items, 3)
+        # For simplicity, pick an item from a different grammar unit if possible
+        unrelated_unit = random.choice([u for u in range(1, 11) if u != unit_id])
+        unrelated = random.choice(GRAMMAR_DATA[unrelated_unit]["items"])
+        
+        options = [
+            {"id": "o1", "text": related[0][1]},
+            {"id": "o2", "text": related[1][1]},
+            {"id": "o3", "text": related[2][1]},
+            {"id": "o4", "text": unrelated[1]}
+        ]
+        random.shuffle(options)
+        correct_id = next(o["id"] for o in options if o["text"] == unrelated[1])
+    else:
+        options = [
+            {"id": "o1", "text": "Apple"},
+            {"id": "o2", "text": "Banana"},
+            {"id": "o3", "text": "Orange"},
+            {"id": "o4", "text": "Car"}
+        ]
+        correct_id = "o4"
+
+    return {
+        "interaction_id": f"unit{unit_id}-i{int_id}",
+        "type": "odd_one_out",
+        "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+        "options": options,
+        "correct_answer": correct_id,
+        "mastery_tag": "vocabulary"
+    }
+
+def generate_mc_cloze(unit_id, int_id, topic_data):
+    items = topic_data.get("items", [])
+    if items:
+        item = random.choice(items)
+        sentence = item[1]
+        # Find a word to replace
+        words = sentence.split()
+        if len(words) > 3:
+            idx = random.randint(0, len(words) - 1)
+            original = words[idx]
+            words[idx] = "_____"
+            cloze_text = " ".join(words)
+            
+            options = [
+                {"id": "o1", "text": original},
+                {"id": "o2", "text": "wrong"},
+                {"id": "o3", "text": "incorrect"},
+                {"id": "o4", "text": "false"}
+            ]
+            random.shuffle(options)
+            correct_id = next(o["id"] for o in options if o["text"] == original)
+        else:
+            cloze_text = "He is _____ (good) student."
+            options = [{"id": "o1", "text": "a"}, {"id": "o2", "text": "an"}, {"id": "o3", "text": "the"}]
+            correct_id = "o1"
+    else:
+        cloze_text = "I have _____ car."
+        options = [{"id": "o1", "text": "a"}, {"id": "o2", "text": "an"}]
+        correct_id = "o1"
+
+    return {
+        "interaction_id": f"unit{unit_id}-i{int_id}",
+        "type": "multiple_choice_cloze",
+        "prompt_es": "Elige la opción correcta para completar la frase:",
+        "text": cloze_text,
+        "options": options,
+        "correct_answer": correct_id,
+        "mastery_tag": "grammar"
+    }
+
+def generate_gapped_text(unit_id, int_id, topic_data):
+    items = topic_data.get("items", [])
+    if len(items) >= 3:
+        # Combine 3 sentences into a paragraph
+        p_items = random.sample(items, 3)
+        gaps = []
+        full_text_parts = []
+        for i, item in enumerate(p_items):
+            sentence = item[1]
+            words = sentence.split()
+            if len(words) > 2:
+                idx = random.randint(0, len(words) - 1)
+                original = words[idx]
+                words[idx] = f"{{{{gap{i}}}}}"
+                gaps.append({"id": f"gap{i}", "correct_answer": original})
+                full_text_parts.append(" ".join(words))
+            else:
+                full_text_parts.append(sentence)
+        
+        text = ". ".join(full_text_parts) + "."
+    else:
+        text = "This is a {{gap0}} text."
+        gaps = [{"id": "gap0", "correct_answer": "sample"}]
+
+    return {
+        "interaction_id": f"unit{unit_id}-i{int_id}",
+        "type": "gapped_text",
+        "prompt_es": "Completa los huecos en el siguiente texto:",
+        "text": text,
+        "gaps": gaps,
+        "mastery_tag": "reading"
+    }
+
 def generate_unit(unit_id):
     if unit_id <= 10:
         topic_info = GRAMMAR_DATA[unit_id]
@@ -415,30 +523,27 @@ def generate_unit(unit_id):
         topic_info = GRAMMAR_DATA[random.randint(1, 10)]
 
     interactions = []
-    # 10 MC
-    for i in range(10):
-        interactions.append(generate_mc(unit_id, len(interactions), topic_info))
-    # 10 Reorder
-    for i in range(10):
-        interactions.append(generate_reorder(unit_id, len(interactions), topic_info))
-    # 20 Fill
-    for i in range(20):
-        interactions.append(generate_fill(unit_id, len(interactions), topic_info))
-    # 15 True/False
-    for i in range(15):
-        interactions.append(generate_tf(unit_id, len(interactions), topic_info))
-    # 15 Matching
-    for i in range(15):
-        interactions.append(generate_matching(unit_id, len(interactions), topic_info))
-    # 10 Categorization
-    for i in range(10):
-        interactions.append(generate_categorization(unit_id, len(interactions), topic_info))
-    # 10 Dictation
-    for i in range(10):
-        interactions.append(generate_dictation(unit_id, len(interactions), topic_info))
-    # 10 Role Play
-    for i in range(10):
-        interactions.append(generate_role_play(unit_id, len(interactions), topic_info))
+    # 9 types x 10 = 90
+    # 1 type x 10 = 10
+    # Total 100
+    
+    types_config = [
+        (generate_mc, 10),
+        (generate_reorder, 10),
+        (generate_fill, 10),
+        (generate_tf, 10),
+        (generate_matching, 10),
+        (generate_categorization, 10),
+        (generate_dictation, 10),
+        (generate_role_play, 10),
+        (generate_odd_one_out, 10),
+        (generate_mc_cloze, 5),
+        (generate_gapped_text, 5)
+    ]
+
+    for gen_func, count in types_config:
+        for i in range(count):
+            interactions.append(gen_func(unit_id, len(interactions), topic_info))
 
     # Shuffle interactions to mix types
     random.shuffle(interactions)

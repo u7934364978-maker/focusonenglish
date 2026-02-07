@@ -15,27 +15,87 @@
       "content": [
         {
           "interaction_id": "U29_I1",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "o3",
-              "text": "maybe"
+              "id": "w3",
+              "text": "happy"
             },
             {
-              "id": "o2",
-              "text": "childrens"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "o1",
-              "text": "children"
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U29_I2",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "enough",
+          "correct_answer": "enough",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U29_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "milk enough"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I4",
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "enough",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U29_I5",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
@@ -44,138 +104,44 @@
               "text": "maybe"
             },
             {
-              "id": "o2",
-              "text": "childrens"
+              "id": "o1",
+              "text": "enough"
             },
             {
-              "id": "o1",
-              "text": "children"
+              "id": "o2",
+              "text": "enough of"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I3",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I4",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "to go"
-                },
-                {
-                  "id": "item2",
-                  "text": "a"
-                },
-                {
-                  "id": "item4",
-                  "text": "children"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "a"
-                },
-                {
-                  "id": "item3",
-                  "text": "a lot of"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Do you have ___ car?",
-          "correct_answer": "a",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I6",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
             {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "id": "o3",
+              "text": "enough"
             },
             {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "id": "o2",
+              "text": "enough"
             },
             {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o4",
+              "text": "A small notebook."
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I7",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I didn't wear ___ uniform.",
-          "correct_answer": "a",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I8",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I9",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
@@ -188,8 +154,68 @@
               "text": "is"
             },
             {
+              "id": "w1",
+              "text": "student"
+            },
+            {
               "id": "w3",
               "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_I8",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_I9",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w1",
@@ -206,124 +232,34 @@
         },
         {
           "interaction_id": "U29_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "enough hot"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I11",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "children",
-          "correct_answer": "children",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U29_I12",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "to go"
-                },
-                {
-                  "id": "item2",
-                  "text": "a"
-                },
-                {
-                  "id": "item4",
-                  "text": "children"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "a"
-                },
-                {
-                  "id": "item3",
-                  "text": "a lot of"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I13",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "to go"
-                },
-                {
-                  "id": "item2",
-                  "text": "a"
-                },
-                {
-                  "id": "item4",
-                  "text": "children"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "a"
-                },
-                {
-                  "id": "item3",
-                  "text": "a lot of"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I14",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "a lot of",
-          "correct_answer": "a lot of",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U29_I15",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "to go",
-          "correct_answer": "to go",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U29_I16",
           "type": "role_play",
           "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "to go",
+          "stimulus_en": "enough",
           "options": [
             {
               "id": "o1",
-              "text": "to go"
+              "text": "enough"
             },
             {
               "id": "o2",
@@ -338,28 +274,61 @@
           "mastery_tag": "speaking"
         },
         {
-          "interaction_id": "U29_I17",
+          "interaction_id": "U29_I12",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "enough",
+          "correct_answer": "enough",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U29_I13",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o3",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "enough"
+            },
+            {
+              "id": "o4",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I14",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
               "id": "o2",
-              "text": "much"
+              "text": "enough tall"
             },
             {
               "id": "o3",
               "text": "maybe"
-            },
-            {
-              "id": "o1",
-              "text": "a lot of"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I18",
+          "interaction_id": "U29_I15",
           "type": "categorization",
           "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
           "categories": [
@@ -369,15 +338,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "to go"
+                  "text": "enough"
                 },
                 {
                   "id": "item2",
-                  "text": "a"
+                  "text": "enough"
                 },
                 {
                   "id": "item4",
-                  "text": "children"
+                  "text": "enough"
                 }
               ]
             },
@@ -387,11 +356,11 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "a"
+                  "text": "enough"
                 },
                 {
                   "id": "item3",
-                  "text": "a lot of"
+                  "text": "enough"
                 }
               ]
             }
@@ -399,43 +368,72 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U29_I19",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "interaction_id": "U29_I16",
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "enough"
+                },
+                {
+                  "id": "item2",
+                  "text": "enough"
+                },
+                {
+                  "id": "item4",
+                  "text": "enough"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "enough"
+                },
+                {
+                  "id": "item3",
+                  "text": "enough"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U29_I20",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "My mother didn't allow me ___ out.",
-          "correct_answer": "to go",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I21",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
+          "interaction_id": "U29_I17",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
           "options": [
             {
               "id": "o3",
-              "text": "maybe"
-            },
-            {
-              "id": "o1",
-              "text": "to go"
+              "text": "enough"
             },
             {
               "id": "o2",
-              "text": "go"
+              "text": "enough"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o4",
+              "text": "as well as"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U29_I22",
+          "interaction_id": "U29_I18",
           "type": "matching",
           "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
@@ -463,22 +461,112 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U29_I23",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I didn't wear ___ uniform.",
-          "correct_answer": "a",
-          "mastery_tag": "grammar"
+          "interaction_id": "U29_I19",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U29_I24",
+          "interaction_id": "U29_I20",
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "enough"
+                },
+                {
+                  "id": "item2",
+                  "text": "enough"
+                },
+                {
+                  "id": "item4",
+                  "text": "enough"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "enough"
+                },
+                {
+                  "id": "item3",
+                  "text": "enough"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I21",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I22",
           "type": "role_play",
           "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "children",
+          "stimulus_en": "enough",
           "options": [
             {
               "id": "o1",
-              "text": "children"
+              "text": "enough"
             },
             {
               "id": "o2",
@@ -493,51 +581,121 @@
           "mastery_tag": "speaking"
         },
         {
+          "interaction_id": "U29_I23",
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "enough"
+                },
+                {
+                  "id": "item2",
+                  "text": "enough"
+                },
+                {
+                  "id": "item4",
+                  "text": "enough"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "enough"
+                },
+                {
+                  "id": "item3",
+                  "text": "enough"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I24",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I don’t have ___ warm clothes.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
+        },
+        {
           "interaction_id": "U29_I25",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "It’s not hot ___.",
+          "correct_answer": "enough",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I26",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
+              "id": "o1",
+              "text": "enough"
             },
             {
-              "id": "w1",
-              "text": "student"
+              "id": "o3",
+              "text": "enough"
             },
             {
-              "id": "w3",
-              "text": "happy"
+              "id": "o2",
+              "text": "enough"
             },
             {
-              "id": "w0",
-              "text": "The"
+              "id": "o4",
+              "text": "always"
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I27",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "enough",
           "options": [
             {
-              "id": "o3",
-              "text": "maybe"
+              "id": "o1",
+              "text": "enough"
             },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U29_I28",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I29",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "He is _____ (good) student.",
+          "options": [
             {
               "id": "o1",
               "text": "a"
@@ -545,97 +703,95 @@
             {
               "id": "o2",
               "text": "an"
+            },
+            {
+              "id": "o3",
+              "text": "the"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I28",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "to go",
-          "correct_answer": "to go",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U29_I29",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
           "interaction_id": "U29_I30",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "children",
-          "correct_answer": "children",
-          "mastery_tag": "listening"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I don’t have ___ warm clothes.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I31",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "a lot of",
-          "options": [
-            {
-              "id": "o1",
-              "text": "a lot of"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "enough. enough. enough.",
+          "gaps": [],
+          "mastery_tag": "reading"
         },
         {
           "interaction_id": "U29_I32",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "My mother didn't allow me ___ out.",
-          "correct_answer": "to go",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I33",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Do you have ___ car?",
-          "correct_answer": "a",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I34",
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "enough. enough. enough.",
+          "gaps": [],
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U29_I35",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "enough"
+            },
+            {
+              "id": "o4",
+              "text": "tallest"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o3",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "It’s not hot ___.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I37",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I38",
           "type": "categorization",
           "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
           "categories": [
@@ -645,15 +801,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "to go"
+                  "text": "enough"
                 },
                 {
                   "id": "item2",
-                  "text": "a"
+                  "text": "enough"
                 },
                 {
                   "id": "item4",
-                  "text": "children"
+                  "text": "enough"
                 }
               ]
             },
@@ -663,11 +819,11 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "a"
+                  "text": "enough"
                 },
                 {
                   "id": "item3",
-                  "text": "a lot of"
+                  "text": "enough"
                 }
               ]
             }
@@ -675,114 +831,65 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U29_I35",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
+          "interaction_id": "U29_I39",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "He is _____ (good) student.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "a"
+            },
+            {
+              "id": "o2",
+              "text": "an"
+            },
+            {
+              "id": "o3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I36",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "to go",
-          "correct_answer": "to go",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U29_I37",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "children",
-          "correct_answer": "children",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U29_I38",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I39",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
           "interaction_id": "U29_I40",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
             {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "enough"
+                },
+                {
+                  "id": "item2",
+                  "text": "enough"
+                },
+                {
+                  "id": "item4",
+                  "text": "enough"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "enough"
+                },
+                {
+                  "id": "item3",
+                  "text": "enough"
+                }
+              ]
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -796,15 +903,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "to go"
+                  "text": "enough"
                 },
                 {
                   "id": "item2",
-                  "text": "a"
+                  "text": "enough"
                 },
                 {
                   "id": "item4",
-                  "text": "children"
+                  "text": "enough"
                 }
               ]
             },
@@ -814,11 +921,11 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "a"
+                  "text": "enough"
                 },
                 {
                   "id": "item3",
-                  "text": "a lot of"
+                  "text": "enough"
                 }
               ]
             }
@@ -827,63 +934,36 @@
         },
         {
           "interaction_id": "U29_I42",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "enough",
           "options": [
             {
-              "id": "o2",
-              "text": "an"
+              "id": "o1",
+              "text": "enough"
             },
             {
-              "id": "o1",
-              "text": "a"
+              "id": "o2",
+              "text": "Incorrect response"
             },
             {
               "id": "o3",
-              "text": "maybe"
+              "text": "Wrong answer"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "speaking"
         },
         {
           "interaction_id": "U29_I43",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "maybe"
-            },
-            {
-              "id": "o2",
-              "text": "childrens"
-            },
-            {
-              "id": "o1",
-              "text": "children"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "enough",
+          "correct_answer": "enough",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U29_I44",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I45",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I didn't wear ___ uniform.",
-          "correct_answer": "a",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I46",
           "type": "categorization",
           "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
           "categories": [
@@ -893,15 +973,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "to go"
+                  "text": "enough"
                 },
                 {
                   "id": "item2",
-                  "text": "a"
+                  "text": "enough"
                 },
                 {
                   "id": "item4",
-                  "text": "children"
+                  "text": "enough"
                 }
               ]
             },
@@ -911,11 +991,11 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "a"
+                  "text": "enough"
                 },
                 {
                   "id": "item3",
-                  "text": "a lot of"
+                  "text": "enough"
                 }
               ]
             }
@@ -923,22 +1003,52 @@
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U29_I45",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "enough",
+          "correct_answer": "enough",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U29_I46",
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "enough",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
+        },
+        {
           "interaction_id": "U29_I47",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "My mother didn't allow me ___ out.",
-          "correct_answer": "to go",
-          "mastery_tag": "grammar"
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "enough. enough. enough.",
+          "gaps": [],
+          "mastery_tag": "reading"
         },
         {
           "interaction_id": "U29_I48",
           "type": "role_play",
           "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "a lot of",
+          "stimulus_en": "enough",
           "options": [
             {
               "id": "o1",
-              "text": "a lot of"
+              "text": "enough"
             },
             {
               "id": "o2",
@@ -954,13 +1064,125 @@
         },
         {
           "interaction_id": "U29_I49",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "enough of"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I don’t have ___ warm clothes.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I51",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "enough of"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I52",
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "enough. enough. enough.",
+          "gaps": [],
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U29_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "enough hot"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I54",
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "enough"
+                },
+                {
+                  "id": "item2",
+                  "text": "enough"
+                },
+                {
+                  "id": "item4",
+                  "text": "enough"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "enough"
+                },
+                {
+                  "id": "item3",
+                  "text": "enough"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I55",
           "type": "matching",
           "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
@@ -988,112 +1210,30 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U29_I51",
+          "interaction_id": "U29_I56",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Do you have ___ car?",
-          "correct_answer": "a",
+          "stimulus_en": "I don’t have ___ warm clothes.",
+          "correct_answer": "enough",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I52",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "interaction_id": "U29_I57",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "enough",
+          "correct_answer": "enough",
+          "mastery_tag": "listening"
         },
         {
-          "interaction_id": "U29_I53",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I have 3 ___.",
-          "correct_answer": "children",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I54",
+          "interaction_id": "U29_I58",
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I55",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "children",
-          "correct_answer": "children",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U29_I56",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "a",
-          "options": [
-            {
-              "id": "o1",
-              "text": "a"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U29_I57",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "a",
-          "options": [
-            {
-              "id": "o1",
-              "text": "a"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U29_I58",
+          "interaction_id": "U29_I59",
           "type": "matching",
           "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
@@ -1119,14 +1259,6 @@
             "p2": "p2"
           },
           "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I59",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Do you have ___ car?",
-          "correct_answer": "a",
-          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I60",
@@ -1158,54 +1290,91 @@
         },
         {
           "interaction_id": "U29_I61",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Do you have ___ car?",
-          "correct_answer": "a",
-          "mastery_tag": "grammar"
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "enough",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
         },
         {
           "interaction_id": "U29_I62",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "to go"
-                },
-                {
-                  "id": "item2",
-                  "text": "a"
-                },
-                {
-                  "id": "item4",
-                  "text": "children"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "a"
-                },
-                {
-                  "id": "item3",
-                  "text": "a lot of"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I’m not tall ___.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I63",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "He is _____ (good) student.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "a"
+            },
+            {
+              "id": "o2",
+              "text": "an"
+            },
+            {
+              "id": "o3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I64",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "enough"
+            },
+            {
+              "id": "o4",
+              "text": "never"
+            },
+            {
+              "id": "o3",
+              "text": "enough"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I65",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "enough",
+          "correct_answer": "enough",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U29_I66",
           "type": "matching",
           "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
@@ -1233,73 +1402,48 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U29_I64",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I65",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I66",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U29_I67",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "a lot of"
-            },
-            {
-              "id": "o2",
-              "text": "much"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "enough",
+          "correct_answer": "enough",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U29_I68",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U29_I69",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I70",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I71",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "a",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "He is _____ (good) student.",
           "options": [
             {
               "id": "o1",
@@ -1307,52 +1451,143 @@
             },
             {
               "id": "o2",
-              "text": "Incorrect response"
+              "text": "an"
             },
             {
               "id": "o3",
-              "text": "Wrong answer"
+              "text": "the"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "speaking"
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I70",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "enough"
+            },
+            {
+              "id": "o3",
+              "text": "enough"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o4",
+              "text": "in"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I71",
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "enough"
+                },
+                {
+                  "id": "item2",
+                  "text": "enough"
+                },
+                {
+                  "id": "item4",
+                  "text": "enough"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "enough"
+                },
+                {
+                  "id": "item3",
+                  "text": "enough"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I72",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "a",
-          "correct_answer": "a",
-          "mastery_tag": "listening"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U29_I73",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I didn't wear ___ uniform.",
-          "correct_answer": "a",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I74",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
           "options": [
             {
-              "id": "o1",
-              "text": "children"
+              "id": "o2",
+              "text": "enough"
             },
             {
               "id": "o3",
-              "text": "maybe"
+              "text": "enough"
             },
             {
-              "id": "o2",
-              "text": "childrens"
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o4",
+              "text": "best"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I74",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "enough",
+          "correct_answer": "enough",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U29_I75",
@@ -1384,179 +1619,54 @@
         },
         {
           "interaction_id": "U29_I76",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "a lot of",
-          "options": [
-            {
-              "id": "o1",
-              "text": "a lot of"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I don’t have ___ warm clothes.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I77",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I didn't wear ___ uniform.",
-          "correct_answer": "a",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U29_I78",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I79",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "My friend has ___ money.",
-          "correct_answer": "a lot of",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I80",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I81",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "children",
-          "options": [
-            {
-              "id": "o1",
-              "text": "children"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U29_I82",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I83",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Do you have ___ car?",
-          "correct_answer": "a",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I84",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I85",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "o2",
-              "text": "childrens"
+              "id": "o1",
+              "text": "enough"
             },
             {
-              "id": "o1",
-              "text": "children"
+              "id": "o2",
+              "text": "enough tall"
             },
             {
               "id": "o3",
@@ -1567,131 +1677,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I86",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "a",
-          "correct_answer": "a",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U29_I87",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Do you have ___ car?",
-          "correct_answer": "a",
+          "interaction_id": "U29_I79",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I88",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "children",
-          "options": [
-            {
-              "id": "o1",
-              "text": "children"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U29_I89",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "My mother didn't allow me ___ out.",
-          "correct_answer": "to go",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I90",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I91",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "to go"
-                },
-                {
-                  "id": "item2",
-                  "text": "a"
-                },
-                {
-                  "id": "item4",
-                  "text": "children"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "a"
-                },
-                {
-                  "id": "item3",
-                  "text": "a lot of"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I92",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I have 3 ___.",
-          "correct_answer": "children",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I93",
+          "interaction_id": "U29_I80",
           "type": "matching",
           "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
@@ -1719,10 +1712,94 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U29_I94",
+          "interaction_id": "U29_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I82",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I83",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "enough",
+          "correct_answer": "enough",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U29_I84",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I85",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_I86",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
             {
               "id": "w0",
               "text": "The"
@@ -1730,10 +1807,6 @@
             {
               "id": "w2",
               "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
             },
             {
               "id": "w1",
@@ -1749,52 +1822,143 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U29_I95",
+          "interaction_id": "U29_I87",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "enough",
+          "correct_answer": "enough",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U29_I88",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "My friend has ___ money.",
-          "correct_answer": "a lot of",
+          "stimulus_en": "It’s not hot ___.",
+          "correct_answer": "enough",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I96",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
+          "interaction_id": "U29_I89",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I90",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
             {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "to go"
-                },
-                {
-                  "id": "item2",
-                  "text": "a"
-                },
-                {
-                  "id": "item4",
-                  "text": "children"
-                }
-              ]
+              "id": "o1",
+              "text": "enough"
             },
             {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "a"
-                },
-                {
-                  "id": "item3",
-                  "text": "a lot of"
-                }
-              ]
+              "id": "o4",
+              "text": "been"
+            },
+            {
+              "id": "o3",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "enough"
             }
           ],
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I91",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "enough of"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I92",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I93",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o3",
+              "text": "enough"
+            },
+            {
+              "id": "o4",
+              "text": "children"
+            },
+            {
+              "id": "o2",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I94",
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "enough",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U29_I95",
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "enough. enough. enough.",
+          "gaps": [],
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U29_I96",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "There isn’t ___ milk.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I97",
@@ -1826,87 +1990,68 @@
         },
         {
           "interaction_id": "U29_I98",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "enough",
+          "options": [
             {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "id": "o1",
+              "text": "enough"
             },
             {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "id": "o2",
+              "text": "Incorrect response"
             },
             {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "id": "o3",
+              "text": "Wrong answer"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
         },
         {
           "interaction_id": "U29_I99",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "He is _____ (good) student.",
+          "options": [
             {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "id": "o1",
+              "text": "a"
             },
             {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "id": "o2",
+              "text": "an"
             },
             {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "id": "o3",
+              "text": "the"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U29_I100",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
             {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "id": "o3",
+              "text": "maybe"
             },
             {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "id": "o1",
+              "text": "enough"
             },
             {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "id": "o2",
+              "text": "milk enough"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         }
       ]
     }

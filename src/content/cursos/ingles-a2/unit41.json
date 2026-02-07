@@ -15,64 +15,6 @@
       "content": [
         {
           "interaction_id": "U41_I1",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U41_I2",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "been",
-          "correct_answer": "been",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U41_I3",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "been",
-          "options": [
-            {
-              "id": "o1",
-              "text": "been"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U41_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "told"
-            },
-            {
-              "id": "o2",
-              "text": "tell"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U41_I5",
           "type": "matching",
           "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
@@ -100,23 +42,220 @@
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U41_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "confused"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "confusing"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I3",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I4",
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "surprised",
+          "options": [
+            {
+              "id": "o1",
+              "text": "surprised"
+            },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U41_I5",
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "surprised. confusing. boring.",
+          "gaps": [],
+          "mastery_tag": "reading"
+        },
+        {
           "interaction_id": "U41_I6",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "visited",
-          "correct_answer": "visited",
-          "mastery_tag": "listening"
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "bored"
+                },
+                {
+                  "id": "item2",
+                  "text": "surprised"
+                },
+                {
+                  "id": "item4",
+                  "text": "tiring"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "excited"
+                },
+                {
+                  "id": "item3",
+                  "text": "interesting"
+                },
+                {
+                  "id": "item5",
+                  "text": "boring"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U41_I7",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the funniest joke you’ve ever been ___?",
-          "correct_answer": "told",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "He is _____ (good) student.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "a"
+            },
+            {
+              "id": "o2",
+              "text": "an"
+            },
+            {
+              "id": "o3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I8",
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "amused",
+          "options": [
+            {
+              "id": "o1",
+              "text": "amused"
+            },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U41_I9",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "amusing"
+            },
+            {
+              "id": "o3",
+              "text": "surprised"
+            },
+            {
+              "id": "o4",
+              "text": "in"
+            },
+            {
+              "id": "o2",
+              "text": "confusing"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I10",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "amusing"
+            },
+            {
+              "id": "o1",
+              "text": "amused"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I11",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
@@ -125,12 +264,42 @@
               "text": "student"
             },
             {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I12",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
               "id": "w3",
               "text": "happy"
             },
             {
               "id": "w2",
               "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
             },
             {
               "id": "w0",
@@ -146,138 +315,216 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U41_I9",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U41_I10",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U41_I11",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
-          "correct_answer": "listened",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U41_I12",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U41_I13",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "had",
-          "options": [
-            {
-              "id": "o1",
-              "text": "had"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I14",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the highest building you’ve ever ___?",
-          "correct_answer": "visited",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U41_I15",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "been"
-            },
-            {
-              "id": "o2",
-              "text": "go"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "excited. confused. tiring.",
+          "gaps": [],
+          "mastery_tag": "reading"
         },
         {
           "interaction_id": "U41_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Who’s the shyest person you’ve ever ___?",
-          "correct_answer": "met",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "He is _____ (good) student.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "a"
+            },
+            {
+              "id": "o2",
+              "text": "an"
+            },
+            {
+              "id": "o3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I17",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U41_I18",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the funniest joke you’ve ever been ___?",
-          "correct_answer": "told",
+          "stimulus_en": "Are you ___ or were you expecting this?",
+          "correct_answer": "surprised",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I19",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "surprising"
+            },
+            {
+              "id": "o2",
+              "text": "boring"
+            },
+            {
+              "id": "o1",
+              "text": "amused"
+            },
+            {
+              "id": "o4",
+              "text": "boring"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I20",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I23",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I24",
           "type": "role_play",
           "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "been",
+          "stimulus_en": "tiring",
           "options": [
             {
               "id": "o1",
-              "text": "been"
+              "text": "tiring"
             },
             {
               "id": "o2",
@@ -292,74 +539,11 @@
           "mastery_tag": "speaking"
         },
         {
-          "interaction_id": "U41_I20",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Who’s the shyest person you’ve ever ___?",
-          "correct_answer": "met",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U41_I21",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the longest beach you’ve ever ___ to?",
-          "correct_answer": "been",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U41_I22",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the highest building you’ve ever ___?",
-          "correct_answer": "visited",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U41_I23",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U41_I24",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "met",
-          "correct_answer": "met",
-          "mastery_tag": "listening"
-        },
-        {
           "interaction_id": "U41_I25",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "visited",
-          "correct_answer": "visited",
-          "mastery_tag": "listening"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I26",
@@ -372,15 +556,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "been"
+                  "text": "bored"
                 },
                 {
                   "id": "item2",
-                  "text": "visited"
+                  "text": "surprised"
                 },
                 {
                   "id": "item4",
-                  "text": "met"
+                  "text": "tiring"
                 }
               ]
             },
@@ -390,15 +574,15 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "tasted"
+                  "text": "excited"
                 },
                 {
                   "id": "item3",
-                  "text": "been"
+                  "text": "interesting"
                 },
                 {
                   "id": "item5",
-                  "text": "listened"
+                  "text": "boring"
                 }
               ]
             }
@@ -407,58 +591,6 @@
         },
         {
           "interaction_id": "U41_I27",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "tasted",
-          "options": [
-            {
-              "id": "o1",
-              "text": "tasted"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U41_I28",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U41_I29",
           "type": "matching",
           "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
@@ -486,15 +618,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U41_I30",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the funniest joke you’ve ever been ___?",
-          "correct_answer": "told",
-          "mastery_tag": "grammar"
+          "interaction_id": "U41_I28",
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "bored",
+          "options": [
+            {
+              "id": "o1",
+              "text": "bored"
+            },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
         },
         {
-          "interaction_id": "U41_I31",
+          "interaction_id": "U41_I29",
           "type": "categorization",
           "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
           "categories": [
@@ -504,15 +650,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "been"
+                  "text": "bored"
                 },
                 {
                   "id": "item2",
-                  "text": "visited"
+                  "text": "surprised"
                 },
                 {
                   "id": "item4",
-                  "text": "met"
+                  "text": "tiring"
                 }
               ]
             },
@@ -522,133 +668,93 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "tasted"
+                  "text": "excited"
                 },
                 {
                   "id": "item3",
-                  "text": "been"
+                  "text": "interesting"
                 },
                 {
                   "id": "item5",
-                  "text": "listened"
+                  "text": "boring"
                 }
               ]
             }
           ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I30",
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "boring. interesting. exciting.",
+          "gaps": [],
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U41_I31",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "tiring"
+            },
+            {
+              "id": "o3",
+              "text": "bored"
+            },
+            {
+              "id": "o4",
+              "text": "best"
+            },
+            {
+              "id": "o1",
+              "text": "boring"
+            }
+          ],
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U41_I32",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "been"
-                },
-                {
-                  "id": "item2",
-                  "text": "visited"
-                },
-                {
-                  "id": "item4",
-                  "text": "met"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "tasted"
-                },
-                {
-                  "id": "item3",
-                  "text": "been"
-                },
-                {
-                  "id": "item5",
-                  "text": "listened"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I was ___ from start to finish.",
+          "correct_answer": "bored",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I33",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "amusing",
+          "correct_answer": "amusing",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U41_I34",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U41_I35",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the most difficult language you’ve ever ___?",
-          "correct_answer": "studied",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U41_I36",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
-            {
-              "id": "o1",
-              "text": "listened"
-            },
             {
               "id": "o3",
               "text": "maybe"
             },
             {
               "id": "o2",
-              "text": "listen"
+              "text": "bored"
+            },
+            {
+              "id": "o1",
+              "text": "boring"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U41_I37",
+          "interaction_id": "U41_I35",
           "type": "categorization",
           "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
           "categories": [
@@ -658,15 +764,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "been"
+                  "text": "bored"
                 },
                 {
                   "id": "item2",
-                  "text": "visited"
+                  "text": "surprised"
                 },
                 {
                   "id": "item4",
-                  "text": "met"
+                  "text": "tiring"
                 }
               ]
             },
@@ -676,15 +782,15 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "tasted"
+                  "text": "excited"
                 },
                 {
                   "id": "item3",
-                  "text": "been"
+                  "text": "interesting"
                 },
                 {
                   "id": "item5",
-                  "text": "listened"
+                  "text": "boring"
                 }
               ]
             }
@@ -692,23 +798,73 @@
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U41_I36",
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "bored"
+                },
+                {
+                  "id": "item2",
+                  "text": "surprised"
+                },
+                {
+                  "id": "item4",
+                  "text": "tiring"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "excited"
+                },
+                {
+                  "id": "item3",
+                  "text": "interesting"
+                },
+                {
+                  "id": "item5",
+                  "text": "boring"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I37",
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "confusing",
+          "options": [
+            {
+              "id": "o1",
+              "text": "confusing"
+            },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
+        },
+        {
           "interaction_id": "U41_I38",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "been",
-          "correct_answer": "been",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U41_I39",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "visited",
-          "correct_answer": "visited",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U41_I40",
           "type": "matching",
           "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
@@ -736,14 +892,36 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U41_I41",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "visited",
+          "interaction_id": "U41_I39",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "He is _____ (good) student.",
           "options": [
             {
               "id": "o1",
-              "text": "visited"
+              "text": "a"
+            },
+            {
+              "id": "o2",
+              "text": "an"
+            },
+            {
+              "id": "o3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I40",
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "confusing",
+          "options": [
+            {
+              "id": "o1",
+              "text": "confusing"
             },
             {
               "id": "o2",
@@ -758,32 +936,154 @@
           "mastery_tag": "speaking"
         },
         {
+          "interaction_id": "U41_I41",
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "bored"
+                },
+                {
+                  "id": "item2",
+                  "text": "surprised"
+                },
+                {
+                  "id": "item4",
+                  "text": "tiring"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "excited"
+                },
+                {
+                  "id": "item3",
+                  "text": "interesting"
+                },
+                {
+                  "id": "item5",
+                  "text": "boring"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
           "interaction_id": "U41_I42",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the highest building you’ve ever ___?",
-          "correct_answer": "visited",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U41_I43",
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I44",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I45",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "confused"
+            },
+            {
+              "id": "o1",
+              "text": "confusing"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I46",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I47",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "The"
-            },
-            {
               "id": "w2",
               "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w3",
@@ -803,127 +1103,153 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U41_I45",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U41_I46",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U41_I47",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U41_I48",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U41_I49",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "o3",
-              "text": "maybe"
-            },
-            {
               "id": "o2",
-              "text": "was"
+              "text": "amusing"
             },
             {
               "id": "o1",
-              "text": "been"
+              "text": "amused"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
             }
           ],
           "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I’m very ___ because I’m going to New York.",
+          "correct_answer": "excited",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I50",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the highest building you’ve ever ___?",
-          "correct_answer": "visited",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U41_I51",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "An old man."
+            },
+            {
+              "id": "o2",
+              "text": "amusing"
+            },
+            {
+              "id": "o3",
+              "text": "interesting"
+            },
+            {
+              "id": "o1",
+              "text": "bored"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I52",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "while"
+            },
+            {
+              "id": "o2",
+              "text": "interesting"
+            },
+            {
+              "id": "o1",
+              "text": "amused"
+            },
+            {
+              "id": "o3",
+              "text": "confusing"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I53",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
               "id": "o2",
-              "text": "have"
-            },
-            {
-              "id": "o1",
-              "text": "had"
+              "text": "bored"
             },
             {
               "id": "o3",
               "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "boring"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U41_I52",
+          "interaction_id": "U41_I54",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "amusing",
+          "correct_answer": "amusing",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U41_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I laughed. It was an ___ story.",
+          "correct_answer": "amusing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I56",
           "type": "categorization",
           "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
           "categories": [
@@ -933,15 +1259,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "been"
+                  "text": "bored"
                 },
                 {
                   "id": "item2",
-                  "text": "visited"
+                  "text": "surprised"
                 },
                 {
                   "id": "item4",
-                  "text": "met"
+                  "text": "tiring"
                 }
               ]
             },
@@ -951,15 +1277,15 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "tasted"
+                  "text": "excited"
                 },
                 {
                   "id": "item3",
-                  "text": "been"
+                  "text": "interesting"
                 },
                 {
                   "id": "item5",
-                  "text": "listened"
+                  "text": "boring"
                 }
               ]
             }
@@ -967,80 +1293,22 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U41_I53",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the highest building you’ve ever ___?",
-          "correct_answer": "visited",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U41_I54",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U41_I55",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U41_I56",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "listened",
-          "correct_answer": "listened",
-          "mastery_tag": "listening"
-        },
-        {
           "interaction_id": "U41_I57",
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "had",
-          "correct_answer": "had",
+          "tts_en": "boring",
+          "correct_answer": "boring",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U41_I58",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U41_I59",
           "type": "role_play",
           "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "listened",
+          "stimulus_en": "tiring",
           "options": [
             {
               "id": "o1",
-              "text": "listened"
+              "text": "tiring"
             },
             {
               "id": "o2",
@@ -1055,172 +1323,204 @@
           "mastery_tag": "speaking"
         },
         {
-          "interaction_id": "U41_I60",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "interaction_id": "U41_I59",
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "exciting. boring. bored.",
+          "gaps": [],
+          "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U41_I61",
+          "interaction_id": "U41_I60",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
+            {
+              "id": "o1",
+              "text": "interested"
+            },
             {
               "id": "o3",
               "text": "maybe"
             },
             {
               "id": "o2",
-              "text": "have"
-            },
-            {
-              "id": "o1",
-              "text": "had"
+              "text": "interesting"
             }
           ],
           "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "She was ___ because she had nothing to do.",
+          "correct_answer": "bored",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I62",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U41_I63",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
           "options": [
             {
               "id": "o3",
-              "text": "maybe"
-            },
-            {
-              "id": "o2",
-              "text": "went"
+              "text": "confusing"
             },
             {
               "id": "o1",
-              "text": "been"
+              "text": "bored"
+            },
+            {
+              "id": "o2",
+              "text": "boring"
+            },
+            {
+              "id": "o4",
+              "text": "Nonetheless"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I63",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "surprised"
+            },
+            {
+              "id": "o2",
+              "text": "boring"
+            },
+            {
+              "id": "o4",
+              "text": "bigger"
+            },
+            {
+              "id": "o1",
+              "text": "surprised"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U41_I64",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the coldest country you’ve ever ___ to?",
-          "correct_answer": "been",
-          "mastery_tag": "grammar"
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "bored"
+                },
+                {
+                  "id": "item2",
+                  "text": "surprised"
+                },
+                {
+                  "id": "item4",
+                  "text": "tiring"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "excited"
+                },
+                {
+                  "id": "item3",
+                  "text": "interesting"
+                },
+                {
+                  "id": "item5",
+                  "text": "boring"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U41_I65",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
             {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "id": "o4",
+              "text": "enough"
             },
             {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "id": "o2",
+              "text": "interested"
             },
             {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "id": "o3",
+              "text": "tiring"
+            },
+            {
+              "id": "o1",
+              "text": "boring"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U41_I66",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
             {
-              "id": "w3",
-              "text": "happy"
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "bored"
+                },
+                {
+                  "id": "item2",
+                  "text": "surprised"
+                },
+                {
+                  "id": "item4",
+                  "text": "tiring"
+                }
+              ]
             },
             {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w0",
-              "text": "The"
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "excited"
+                },
+                {
+                  "id": "item3",
+                  "text": "interesting"
+                },
+                {
+                  "id": "item5",
+                  "text": "boring"
+                }
+              ]
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U41_I67",
@@ -1228,16 +1528,16 @@
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "listened"
-            },
-            {
               "id": "o3",
               "text": "maybe"
             },
             {
+              "id": "o1",
+              "text": "boring"
+            },
+            {
               "id": "o2",
-              "text": "listen"
+              "text": "bored"
             }
           ],
           "correct_answer": "o1",
@@ -1247,172 +1547,144 @@
           "interaction_id": "U41_I68",
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "told",
-          "correct_answer": "told",
+          "tts_en": "confusing",
+          "correct_answer": "confusing",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U41_I69",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Who’s the shyest person you’ve ever ___?",
-          "correct_answer": "met",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "He is _____ (good) student.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "a"
+            },
+            {
+              "id": "o2",
+              "text": "an"
+            },
+            {
+              "id": "o3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I70",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I laughed. It was an ___ story.",
+          "correct_answer": "amusing",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I71",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
             {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "been"
-                },
-                {
-                  "id": "item2",
-                  "text": "visited"
-                },
-                {
-                  "id": "item4",
-                  "text": "met"
-                }
-              ]
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "tasted"
-                },
-                {
-                  "id": "item3",
-                  "text": "been"
-                },
-                {
-                  "id": "item5",
-                  "text": "listened"
-                }
-              ]
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U41_I72",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "met",
-          "options": [
-            {
-              "id": "o1",
-              "text": "met"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "surprising",
+          "correct_answer": "surprising",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U41_I73",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "been"
-                },
-                {
-                  "id": "item2",
-                  "text": "visited"
-                },
-                {
-                  "id": "item4",
-                  "text": "met"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "tasted"
-                },
-                {
-                  "id": "item3",
-                  "text": "been"
-                },
-                {
-                  "id": "item5",
-                  "text": "listened"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I’m very ___ because I’m going to New York.",
+          "correct_answer": "excited",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I74",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U41_I75",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "surprised",
+          "correct_answer": "surprised",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U41_I76",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "He is _____ (good) student.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "a"
+            },
+            {
+              "id": "o2",
+              "text": "an"
+            },
+            {
+              "id": "o3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I77",
           "type": "matching",
           "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
@@ -1440,78 +1712,42 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U41_I77",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the coldest country you’ve ever ___ to?",
-          "correct_answer": "been",
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U41_I78",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "had",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "had"
+              "id": "w2",
+              "text": "is"
             },
             {
-              "id": "o2",
-              "text": "Incorrect response"
+              "id": "w1",
+              "text": "student"
             },
             {
-              "id": "o3",
-              "text": "Wrong answer"
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U41_I79",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "been"
-                },
-                {
-                  "id": "item2",
-                  "text": "visited"
-                },
-                {
-                  "id": "item4",
-                  "text": "met"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "tasted"
-                },
-                {
-                  "id": "item3",
-                  "text": "been"
-                },
-                {
-                  "id": "item5",
-                  "text": "listened"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "confusing",
+          "correct_answer": "confusing",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U41_I80",
@@ -1524,26 +1760,55 @@
           "interaction_id": "U41_I81",
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I82",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the coldest country you’ve ever ___ to?",
-          "correct_answer": "been",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "interesting"
+            },
+            {
+              "id": "o1",
+              "text": "interested"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I83",
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "bored. excited. confused.",
+          "gaps": [],
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U41_I84",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "confusing",
+          "correct_answer": "confusing",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U41_I85",
           "type": "role_play",
           "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "had",
+          "stimulus_en": "confused",
           "options": [
             {
               "id": "o1",
-              "text": "had"
+              "text": "confused"
             },
             {
               "id": "o2",
@@ -1558,69 +1823,11 @@
           "mastery_tag": "speaking"
         },
         {
-          "interaction_id": "U41_I84",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U41_I85",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
           "interaction_id": "U41_I86",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the most delicious food you’ve ever ___?",
-          "correct_answer": "tasted",
+          "stimulus_en": "She was ___ because she had nothing to do.",
+          "correct_answer": "bored",
           "mastery_tag": "grammar"
         },
         {
@@ -1634,15 +1841,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "been"
+                  "text": "bored"
                 },
                 {
                   "id": "item2",
-                  "text": "visited"
+                  "text": "surprised"
                 },
                 {
                   "id": "item4",
-                  "text": "met"
+                  "text": "tiring"
                 }
               ]
             },
@@ -1652,15 +1859,15 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "tasted"
+                  "text": "excited"
                 },
                 {
                   "id": "item3",
-                  "text": "been"
+                  "text": "interesting"
                 },
                 {
                   "id": "item5",
-                  "text": "listened"
+                  "text": "boring"
                 }
               ]
             }
@@ -1669,20 +1876,49 @@
         },
         {
           "interaction_id": "U41_I88",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "interesting",
+          "correct_answer": "interesting",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U41_I89",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I90",
           "type": "role_play",
           "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "listened",
+          "stimulus_en": "excited",
           "options": [
             {
               "id": "o1",
-              "text": "listened"
+              "text": "excited"
             },
             {
               "id": "o2",
@@ -1697,110 +1933,112 @@
           "mastery_tag": "speaking"
         },
         {
-          "interaction_id": "U41_I90",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
+          "interaction_id": "U41_I91",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
             {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "id": "o2",
+              "text": "interesting"
             },
             {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "id": "o1",
+              "text": "exciting"
             },
             {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "id": "o3",
+              "text": "surprised"
+            },
+            {
+              "id": "o4",
+              "text": "excited"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U41_I91",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the coldest country you’ve ever ___ to?",
-          "correct_answer": "been",
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U41_I92",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
             {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "id": "o3",
+              "text": "excited"
             },
             {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "id": "o2",
+              "text": "surprised"
             },
             {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "id": "o4",
+              "text": "tasted"
+            },
+            {
+              "id": "o1",
+              "text": "amused"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U41_I93",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "surprising",
           "options": [
             {
               "id": "o1",
-              "text": "visited"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
+              "text": "surprising"
             },
             {
               "id": "o2",
-              "text": "visit"
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "speaking"
         },
         {
           "interaction_id": "U41_I94",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I95",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "Visit our ___ new shop!",
+          "correct_answer": "exciting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I96",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w3",
-              "text": "happy"
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w1",
               "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
             }
           ],
           "correct_answer": [
@@ -1812,141 +2050,48 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U41_I95",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "told",
-          "correct_answer": "told",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U41_I96",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U41_I97",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "been"
-                },
-                {
-                  "id": "item2",
-                  "text": "visited"
-                },
-                {
-                  "id": "item4",
-                  "text": "met"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "tasted"
-                },
-                {
-                  "id": "item3",
-                  "text": "been"
-                },
-                {
-                  "id": "item5",
-                  "text": "listened"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I’ve had a very ___ day at work.",
+          "correct_answer": "tiring",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I98",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U41_I99",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "o2",
-              "text": "study"
+              "id": "o3",
+              "text": "maybe"
             },
             {
               "id": "o1",
-              "text": "studied"
+              "text": "surprising"
             },
             {
-              "id": "o3",
-              "text": "maybe"
+              "id": "o2",
+              "text": "surprised"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U41_I100",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What’s the coldest country you’ve ever ___ to?",
-          "correct_answer": "been",
+          "interaction_id": "U41_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U41_I100",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "interesting",
+          "correct_answer": "interesting",
+          "mastery_tag": "listening"
         }
       ]
     }

@@ -15,74 +15,23 @@
       "content": [
         {
           "interaction_id": "U27_I1",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o2",
-              "text": "enough of"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I3",
           "type": "matching",
           "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "left": "Una habitación llena.",
+              "right": "A full room."
             },
             {
               "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "left": "Una mujer alta.",
+              "right": "A tall woman."
             },
             {
               "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "left": "Es un restaurante barato.",
+              "right": "It’s a cheap restaurant."
             }
           ],
           "correct_answer": {
@@ -93,15 +42,14 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "There isn’t ___ milk.",
-          "correct_answer": "enough",
+          "interaction_id": "U27_I2",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The cheese and tomato sandwich is expensive. expensive sandwich\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I5",
+          "interaction_id": "U27_I3",
           "type": "categorization",
           "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
           "categories": [
@@ -111,15 +59,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "enough"
+                  "text": "This is a good coffee."
                 },
                 {
                   "id": "item2",
-                  "text": "enough"
+                  "text": "The young lady is beautiful too."
                 },
                 {
                   "id": "item4",
-                  "text": "enough"
+                  "text": "It’s a cheap restaurant."
                 }
               ]
             },
@@ -129,11 +77,15 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "enough"
+                  "text": "The cheese and tomato sandwich is expensive."
                 },
                 {
                   "id": "item3",
-                  "text": "enough"
+                  "text": "The new hotel is nice."
+                },
+                {
+                  "id": "item5",
+                  "text": "A big bottle."
                 }
               ]
             }
@@ -141,127 +93,165 @@
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U27_I4",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "The new hotel is nice."
+            },
+            {
+              "id": "o4",
+              "text": "hotter"
+            },
+            {
+              "id": "o1",
+              "text": "The cheese and tomato sandwich is expensive."
+            },
+            {
+              "id": "o2",
+              "text": "The young lady is beautiful too."
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I5",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Una botella grande.",
+              "right": "A big bottle."
+            },
+            {
+              "id": "p1",
+              "left": "Es un restaurante barato.",
+              "right": "It’s a cheap restaurant."
+            },
+            {
+              "id": "p2",
+              "left": "El hotel nuevo es bonito.",
+              "right": "The new hotel is nice."
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
           "interaction_id": "U27_I6",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening"
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "The new hotel is nice.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "The new hotel is nice."
+            },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
         },
         {
           "interaction_id": "U27_I7",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Do you have ___ flour?",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I8",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I9",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I10",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I11",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "o2",
-              "text": "milk enough"
-            },
-            {
               "id": "o1",
-              "text": "enough"
+              "text": "It’s a cheap restaurant."
             },
             {
               "id": "o3",
-              "text": "maybe"
+              "text": "restaurant cheap"
+            },
+            {
+              "id": "o2",
+              "text": "cheap restaurant"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I8",
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "{{gap0}} big bottle.. The {{gap1}} hotel is nice.. It’s {{gap2}} cheap restaurant..",
+          "gaps": [
+            {
+              "id": "gap0",
+              "correct_answer": "A"
+            },
+            {
+              "id": "gap1",
+              "correct_answer": "new"
+            },
+            {
+              "id": "gap2",
+              "correct_answer": "a"
+            }
+          ],
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U27_I9",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "This is a ___ coffee. (good)",
+          "correct_answer": "good",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I10",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Una habitación llena.",
+              "right": "A full room."
+            },
+            {
+              "id": "p1",
+              "left": "Un cuaderno pequeño.",
+              "right": "A small notebook."
+            },
+            {
+              "id": "p2",
+              "left": "La chica joven es guapa también.",
+              "right": "The young lady is beautiful too."
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I11",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "It’s a cheap restaurant.",
+          "correct_answer": "It’s a cheap restaurant.",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U27_I12",
@@ -274,15 +264,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "enough"
+                  "text": "This is a good coffee."
                 },
                 {
                   "id": "item2",
-                  "text": "enough"
+                  "text": "The young lady is beautiful too."
                 },
                 {
                   "id": "item4",
-                  "text": "enough"
+                  "text": "It’s a cheap restaurant."
                 }
               ]
             },
@@ -292,11 +282,15 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "enough"
+                  "text": "The cheese and tomato sandwich is expensive."
                 },
                 {
                   "id": "item3",
-                  "text": "enough"
+                  "text": "The new hotel is nice."
+                },
+                {
+                  "id": "item5",
+                  "text": "A big bottle."
                 }
               ]
             }
@@ -305,97 +299,13 @@
         },
         {
           "interaction_id": "U27_I13",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "enough"
-                },
-                {
-                  "id": "item2",
-                  "text": "enough"
-                },
-                {
-                  "id": "item4",
-                  "text": "enough"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "enough"
-                },
-                {
-                  "id": "item3",
-                  "text": "enough"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I14",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            },
-            {
-              "id": "o2",
-              "text": "enough tall"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "There isn’t ___ milk.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I16",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I17",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "There isn’t ___ milk.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I18",
           "type": "role_play",
           "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "enough",
+          "stimulus_en": "A tall woman.",
           "options": [
             {
               "id": "o1",
-              "text": "enough"
+              "text": "A tall woman."
             },
             {
               "id": "o2",
@@ -410,23 +320,188 @@
           "mastery_tag": "speaking"
         },
         {
-          "interaction_id": "U27_I19",
+          "interaction_id": "U27_I14",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I’m not tall ___.",
-          "correct_answer": "enough",
+          "stimulus_en": "This is a ___ coffee. (good)",
+          "correct_answer": "good",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I15",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "lady"
+            },
+            {
+              "id": "w5",
+              "text": "too"
+            },
+            {
+              "id": "w1",
+              "text": "young"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I16",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Un hombre viejo.",
+              "right": "An old man."
+            },
+            {
+              "id": "p1",
+              "left": "Éste es un café bueno.",
+              "right": "This is a good coffee."
+            },
+            {
+              "id": "p2",
+              "left": "Una botella grande.",
+              "right": "A big bottle."
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I17",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "A small notebook.",
+          "correct_answer": "A small notebook.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U27_I18",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Una botella grande.",
+              "right": "A big bottle."
+            },
+            {
+              "id": "p1",
+              "left": "Una habitación llena.",
+              "right": "A full room."
+            },
+            {
+              "id": "p2",
+              "left": "El hotel nuevo es bonito.",
+              "right": "The new hotel is nice."
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I19",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "The new hotel is nice."
+            },
+            {
+              "id": "o2",
+              "text": "An old man."
+            },
+            {
+              "id": "o4",
+              "text": "usually"
+            },
+            {
+              "id": "o3",
+              "text": "This is a good coffee."
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U27_I20",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "It’s not hot ___.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "It’s a cheap restaurant.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "It’s a cheap restaurant."
+            },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
         },
         {
           "interaction_id": "U27_I21",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "He is _____ (good) student.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "a"
+            },
+            {
+              "id": "o2",
+              "text": "an"
+            },
+            {
+              "id": "o3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I22",
           "type": "categorization",
           "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
           "categories": [
@@ -436,15 +511,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "enough"
+                  "text": "This is a good coffee."
                 },
                 {
                   "id": "item2",
-                  "text": "enough"
+                  "text": "The young lady is beautiful too."
                 },
                 {
                   "id": "item4",
-                  "text": "enough"
+                  "text": "It’s a cheap restaurant."
                 }
               ]
             },
@@ -454,11 +529,15 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "enough"
+                  "text": "The cheese and tomato sandwich is expensive."
                 },
                 {
                   "id": "item3",
-                  "text": "enough"
+                  "text": "The new hotel is nice."
+                },
+                {
+                  "id": "item5",
+                  "text": "A big bottle."
                 }
               ]
             }
@@ -466,28 +545,47 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I22",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "It’s not hot ___.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U27_I23",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "It’s not hot ___.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "good"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "coffee"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U27_I24",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "This is a ___ coffee. (good)",
+          "correct_answer": "good",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U27_I25",
@@ -495,16 +593,16 @@
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "o2",
-              "text": "milk enough"
+              "id": "o3",
+              "text": "coffee good"
             },
             {
-              "id": "o3",
-              "text": "maybe"
+              "id": "o2",
+              "text": "good coffee"
             },
             {
               "id": "o1",
-              "text": "enough"
+              "text": "This is a good coffee."
             }
           ],
           "correct_answer": "o1",
@@ -512,108 +610,106 @@
         },
         {
           "interaction_id": "U27_I26",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I27",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"This is a good coffee.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
+          "interaction_id": "U27_I27",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "The new hotel is nice."
+            },
+            {
+              "id": "o4",
+              "text": "a lot of"
+            },
+            {
+              "id": "o2",
+              "text": "An old man."
+            },
+            {
+              "id": "o3",
+              "text": "The young lady is beautiful too."
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
           "interaction_id": "U27_I28",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Es un restaurante barato.",
+              "right": "It’s a cheap restaurant."
+            },
+            {
+              "id": "p1",
+              "left": "Una mujer alta.",
+              "right": "A tall woman."
+            },
+            {
+              "id": "p2",
+              "left": "El hotel nuevo es bonito.",
+              "right": "The new hotel is nice."
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I29",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
               "id": "o3",
-              "text": "maybe"
-            },
-            {
-              "id": "o2",
-              "text": "enough tall"
+              "text": "bottle big"
             },
             {
               "id": "o1",
-              "text": "enough"
+              "text": "A big bottle."
+            },
+            {
+              "id": "o2",
+              "text": "big bottle"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I29",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
+          "interaction_id": "U27_I30",
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "A tall woman.",
+          "options": [
             {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "enough"
-                },
-                {
-                  "id": "item2",
-                  "text": "enough"
-                },
-                {
-                  "id": "item4",
-                  "text": "enough"
-                }
-              ]
+              "id": "o1",
+              "text": "A tall woman."
             },
             {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "enough"
-                },
-                {
-                  "id": "item3",
-                  "text": "enough"
-                }
-              ]
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
             }
           ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I30",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
         },
         {
           "interaction_id": "U27_I31",
@@ -622,18 +718,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "left": "El hotel nuevo es bonito.",
+              "right": "The new hotel is nice."
             },
             {
               "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "left": "La chica joven es guapa también.",
+              "right": "The young lady is beautiful too."
             },
             {
               "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "left": "Una botella grande.",
+              "right": "A big bottle."
             }
           ],
           "correct_answer": {
@@ -645,327 +741,415 @@
         },
         {
           "interaction_id": "U27_I32",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Una habitación llena.",
+              "right": "A full room."
+            },
+            {
+              "id": "p1",
+              "left": "Éste es un café bueno.",
+              "right": "This is a good coffee."
+            },
+            {
+              "id": "p2",
+              "left": "La chica joven es guapa también.",
+              "right": "The young lady is beautiful too."
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I33",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "A big bottle.",
+          "correct_answer": "A big bottle.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U27_I34",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "This is a good coffee."
+            },
+            {
+              "id": "o3",
+              "text": "A small notebook."
+            },
+            {
+              "id": "o1",
+              "text": "The cheese and tomato sandwich is expensive."
+            },
+            {
+              "id": "o4",
+              "text": "children"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I35",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "This is a ___ coffee. (good)",
+          "correct_answer": "good",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I36",
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "A full {{gap0}}. {{gap1}} tall woman.. This is a {{gap2}} coffee..",
+          "gaps": [
+            {
+              "id": "gap0",
+              "correct_answer": "room."
+            },
+            {
+              "id": "gap1",
+              "correct_answer": "A"
+            },
+            {
+              "id": "gap2",
+              "correct_answer": "good"
+            }
+          ],
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U27_I37",
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "The young lady {{gap0}} beautiful too.. A small {{gap1}}. It’s a cheap {{gap2}}.",
+          "gaps": [
+            {
+              "id": "gap0",
+              "correct_answer": "is"
+            },
+            {
+              "id": "gap1",
+              "correct_answer": "notebook."
+            },
+            {
+              "id": "gap2",
+              "correct_answer": "restaurant."
+            }
+          ],
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U27_I38",
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "The cheese and tomato sandwich is expensive.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "The cheese and tomato sandwich is expensive."
+            },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U27_I39",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
               "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "A"
             },
             {
               "id": "w1",
-              "text": "student"
+              "text": "full"
+            },
+            {
+              "id": "w2",
+              "text": "room"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "coffee"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "good"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I33",
+          "interaction_id": "U27_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "This is a ___ coffee. (good)",
+          "correct_answer": "good",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I42",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
+              "id": "o2",
+              "text": "good coffee"
+            },
+            {
               "id": "o3",
-              "text": "maybe"
+              "text": "coffee good"
             },
             {
               "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o2",
-              "text": "enough tall"
+              "text": "This is a good coffee."
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I34",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I35",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I36",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Do you have ___ flour?",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I37",
+          "interaction_id": "U27_I43",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I38",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"It’s a cheap restaurant. cheap restaurant\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I39",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "It’s not hot ___.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I40",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I41",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "enough"
-                },
-                {
-                  "id": "item2",
-                  "text": "enough"
-                },
-                {
-                  "id": "item4",
-                  "text": "enough"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "enough"
-                },
-                {
-                  "id": "item3",
-                  "text": "enough"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I42",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U27_I43",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U27_I44",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "small notebook"
+            },
+            {
+              "id": "o3",
+              "text": "notebook small"
+            },
+            {
+              "id": "o1",
+              "text": "A small notebook."
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U27_I45",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "enough"
-                },
-                {
-                  "id": "item2",
-                  "text": "enough"
-                },
-                {
-                  "id": "item4",
-                  "text": "enough"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "enough"
-                },
-                {
-                  "id": "item3",
-                  "text": "enough"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "This is a ___ coffee. (good)",
+          "correct_answer": "good",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U27_I46",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I don’t have ___ warm clothes.",
-          "correct_answer": "enough",
+          "stimulus_en": "This is a ___ coffee. (good)",
+          "correct_answer": "good",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U27_I47",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I don’t have ___ warm clothes.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "The young lady is beautiful too.",
+          "correct_answer": "The young lady is beautiful too.",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U27_I48",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "An old man.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "An old man."
+            },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
         },
         {
           "interaction_id": "U27_I49",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Do you have ___ flour?",
-          "correct_answer": "enough",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "full room"
+            },
+            {
+              "id": "o3",
+              "text": "room full"
+            },
+            {
+              "id": "o1",
+              "text": "A full room."
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U27_I50",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "A small notebook.",
+          "correct_answer": "A small notebook.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U27_I51",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "An old man."
+            },
+            {
+              "id": "o1",
+              "text": "A tall woman."
+            },
+            {
+              "id": "o4",
+              "text": "tasted"
+            },
+            {
+              "id": "o2",
+              "text": "A full room."
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I52",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "met"
+            },
+            {
+              "id": "o1",
+              "text": "A big bottle."
+            },
+            {
+              "id": "o2",
+              "text": "An old man."
+            },
+            {
+              "id": "o3",
+              "text": "A full room."
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I53",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "An old man.",
+          "correct_answer": "An old man.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U27_I54",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "_____ young lady is beautiful too.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "wrong"
+            },
+            {
+              "id": "o4",
+              "text": "false"
+            },
+            {
+              "id": "o1",
+              "text": "The"
+            },
+            {
+              "id": "o3",
+              "text": "incorrect"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I55",
           "type": "categorization",
           "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
           "categories": [
@@ -975,15 +1159,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "enough"
+                  "text": "This is a good coffee."
                 },
                 {
                   "id": "item2",
-                  "text": "enough"
+                  "text": "The young lady is beautiful too."
                 },
                 {
                   "id": "item4",
-                  "text": "enough"
+                  "text": "It’s a cheap restaurant."
                 }
               ]
             },
@@ -993,11 +1177,15 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "enough"
+                  "text": "The cheese and tomato sandwich is expensive."
                 },
                 {
                   "id": "item3",
-                  "text": "enough"
+                  "text": "The new hotel is nice."
+                },
+                {
+                  "id": "item5",
+                  "text": "A big bottle."
                 }
               ]
             }
@@ -1005,66 +1193,43 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I51",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U27_I52",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U27_I53",
+          "interaction_id": "U27_I56",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
               "id": "o2",
-              "text": "enough tall"
-            },
-            {
-              "id": "o1",
-              "text": "enough"
+              "text": "big bottle"
             },
             {
               "id": "o3",
-              "text": "maybe"
+              "text": "bottle big"
+            },
+            {
+              "id": "o1",
+              "text": "A big bottle."
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I54",
+          "interaction_id": "U27_I57",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I don’t have ___ warm clothes.",
-          "correct_answer": "enough",
+          "stimulus_en": "This is a ___ coffee. (good)",
+          "correct_answer": "good",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I55",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I56",
+          "interaction_id": "U27_I58",
           "type": "role_play",
           "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "enough",
+          "stimulus_en": "It’s a cheap restaurant.",
           "options": [
             {
               "id": "o1",
-              "text": "enough"
+              "text": "It’s a cheap restaurant."
             },
             {
               "id": "o2",
@@ -1079,135 +1244,108 @@
           "mastery_tag": "speaking"
         },
         {
-          "interaction_id": "U27_I57",
+          "interaction_id": "U27_I59",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "He is _____ (good) student.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "a"
+            },
+            {
+              "id": "o2",
+              "text": "an"
+            },
+            {
+              "id": "o3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I60",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "A small notebook."
+            },
+            {
+              "id": "o2",
+              "text": "The cheese and tomato sandwich is expensive."
+            },
+            {
+              "id": "o4",
+              "text": "in"
+            },
+            {
+              "id": "o1",
+              "text": "An old man."
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I61",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"A full room.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I62",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"A small notebook. small notebook\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I63",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "An old man.",
+          "correct_answer": "An old man.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U27_I64",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "student"
+              "id": "w3",
+              "text": "good"
             },
             {
               "id": "w0",
-              "text": "The"
+              "text": "This"
             },
             {
-              "id": "w3",
-              "text": "happy"
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "coffee"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I58",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Do you have ___ flour?",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I59",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I60",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            },
-            {
-              "id": "o2",
-              "text": "milk enough"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I61",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I62",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "enough",
-          "options": [
-            {
-              "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U27_I63",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I64",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I don’t have ___ warm clothes.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U27_I65",
@@ -1216,18 +1354,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "left": "El sandwich de queso y tomate es caro.",
+              "right": "The cheese and tomato sandwich is expensive."
             },
             {
               "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "left": "Una mujer alta.",
+              "right": "A tall woman."
             },
             {
               "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "left": "Éste es un café bueno.",
+              "right": "This is a good coffee."
             }
           ],
           "correct_answer": {
@@ -1239,115 +1377,6 @@
         },
         {
           "interaction_id": "U27_I66",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "enough",
-          "options": [
-            {
-              "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U27_I67",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U27_I68",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "enough",
-          "options": [
-            {
-              "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U27_I69",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "It’s not hot ___.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I70",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I71",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "enough tall"
-            },
-            {
-              "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I72",
           "type": "categorization",
           "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
           "categories": [
@@ -1357,15 +1386,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "enough"
+                  "text": "This is a good coffee."
                 },
                 {
                   "id": "item2",
-                  "text": "enough"
+                  "text": "The young lady is beautiful too."
                 },
                 {
                   "id": "item4",
-                  "text": "enough"
+                  "text": "It’s a cheap restaurant."
                 }
               ]
             },
@@ -1375,11 +1404,15 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "enough"
+                  "text": "The cheese and tomato sandwich is expensive."
                 },
                 {
                   "id": "item3",
-                  "text": "enough"
+                  "text": "The new hotel is nice."
+                },
+                {
+                  "id": "item5",
+                  "text": "A big bottle."
                 }
               ]
             }
@@ -1387,195 +1420,331 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I73",
+          "interaction_id": "U27_I67",
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
+          "tts_en": "A small notebook.",
+          "correct_answer": "A small notebook.",
           "mastery_tag": "listening"
         },
         {
-          "interaction_id": "U27_I74",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I75",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I76",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I77",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I78",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U27_I79",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I80",
+          "interaction_id": "U27_I68",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"A full room.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I69",
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "This is a good coffee."
+                },
+                {
+                  "id": "item2",
+                  "text": "The young lady is beautiful too."
+                },
+                {
+                  "id": "item4",
+                  "text": "It’s a cheap restaurant."
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "The cheese and tomato sandwich is expensive."
+                },
+                {
+                  "id": "item3",
+                  "text": "The new hotel is nice."
+                },
+                {
+                  "id": "item5",
+                  "text": "A big bottle."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I70",
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "This is a good coffee."
+                },
+                {
+                  "id": "item2",
+                  "text": "The young lady is beautiful too."
+                },
+                {
+                  "id": "item4",
+                  "text": "It’s a cheap restaurant."
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "The cheese and tomato sandwich is expensive."
+                },
+                {
+                  "id": "item3",
+                  "text": "The new hotel is nice."
+                },
+                {
+                  "id": "item5",
+                  "text": "A big bottle."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "A small notebook."
+            },
+            {
+              "id": "o2",
+              "text": "small notebook"
+            },
+            {
+              "id": "o3",
+              "text": "notebook small"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I72",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The young lady is beautiful too. young lady\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I81",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "enough",
+          "interaction_id": "U27_I73",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "This is a ___ coffee. (good)",
+          "correct_answer": "good",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I74",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "A tall woman.",
+          "correct_answer": "A tall woman.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U27_I75",
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
           "options": [
             {
-              "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
+              "id": "o4",
+              "text": "interested"
             },
             {
               "id": "o3",
-              "text": "Wrong answer"
+              "text": "A small notebook."
+            },
+            {
+              "id": "o2",
+              "text": "A big bottle."
+            },
+            {
+              "id": "o1",
+              "text": "The young lady is beautiful too."
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I76",
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "This is a good coffee."
+                },
+                {
+                  "id": "item2",
+                  "text": "The young lady is beautiful too."
+                },
+                {
+                  "id": "item4",
+                  "text": "It’s a cheap restaurant."
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "The cheese and tomato sandwich is expensive."
+                },
+                {
+                  "id": "item3",
+                  "text": "The new hotel is nice."
+                },
+                {
+                  "id": "item5",
+                  "text": "A big bottle."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I77",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "It’s"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "restaurant"
+            },
+            {
+              "id": "w2",
+              "text": "cheap"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I78",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The cheese and tomato sandwich is expensive. expensive sandwich\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I79",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "A full room."
+            },
+            {
+              "id": "o3",
+              "text": "room full"
+            },
+            {
+              "id": "o2",
+              "text": "full room"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "speaking"
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I80",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Un hombre viejo.",
+              "right": "An old man."
+            },
+            {
+              "id": "p1",
+              "left": "Una habitación llena.",
+              "right": "A full room."
+            },
+            {
+              "id": "p2",
+              "left": "Es un restaurante barato.",
+              "right": "It’s a cheap restaurant."
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I81",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "woman"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w1",
+              "text": "tall"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U27_I82",
@@ -1588,15 +1757,15 @@
               "items": [
                 {
                   "id": "item0",
-                  "text": "enough"
+                  "text": "This is a good coffee."
                 },
                 {
                   "id": "item2",
-                  "text": "enough"
+                  "text": "The young lady is beautiful too."
                 },
                 {
                   "id": "item4",
-                  "text": "enough"
+                  "text": "It’s a cheap restaurant."
                 }
               ]
             },
@@ -1606,11 +1775,15 @@
               "items": [
                 {
                   "id": "item1",
-                  "text": "enough"
+                  "text": "The cheese and tomato sandwich is expensive."
                 },
                 {
                   "id": "item3",
-                  "text": "enough"
+                  "text": "The new hotel is nice."
+                },
+                {
+                  "id": "item5",
+                  "text": "A big bottle."
                 }
               ]
             }
@@ -1619,20 +1792,25 @@
         },
         {
           "interaction_id": "U27_I83",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "_____ a cheap restaurant.",
           "options": [
             {
               "id": "o3",
-              "text": "maybe"
-            },
-            {
-              "id": "o2",
-              "text": "enough tall"
+              "text": "incorrect"
             },
             {
               "id": "o1",
-              "text": "enough"
+              "text": "It’s"
+            },
+            {
+              "id": "o2",
+              "text": "wrong"
+            },
+            {
+              "id": "o4",
+              "text": "false"
             }
           ],
           "correct_answer": "o1",
@@ -1640,129 +1818,166 @@
         },
         {
           "interaction_id": "U27_I84",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "enough",
-          "options": [
-            {
-              "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U27_I85",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I86",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "id": "w4",
+              "text": "beautiful"
             },
             {
               "id": "w0",
               "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "too"
+            },
+            {
+              "id": "w1",
+              "text": "young"
+            },
+            {
+              "id": "w2",
+              "text": "lady"
+            },
+            {
+              "id": "w3",
+              "text": "is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
+          "interaction_id": "U27_I85",
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "The cheese and tomato sandwich is {{gap0}}. The young lady {{gap1}} beautiful too.. It’s a cheap {{gap2}}.",
+          "gaps": [
+            {
+              "id": "gap0",
+              "correct_answer": "expensive."
+            },
+            {
+              "id": "gap1",
+              "correct_answer": "is"
+            },
+            {
+              "id": "gap2",
+              "correct_answer": "restaurant."
+            }
+          ],
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U27_I86",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta para completar la frase:",
+          "text": "_____ young lady is beautiful too.",
+          "options": [
+            {
+              "id": "o3",
+              "text": "incorrect"
+            },
+            {
+              "id": "o1",
+              "text": "The"
+            },
+            {
+              "id": "o4",
+              "text": "false"
+            },
+            {
+              "id": "o2",
+              "text": "wrong"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
           "interaction_id": "U27_I87",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"The new hotel is nice. new hotel\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U27_I88",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "enough",
-          "options": [
+          "type": "categorization",
+          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "categories": [
             {
-              "id": "o1",
-              "text": "enough"
+              "id": "cat1",
+              "title": "Category A",
+              "items": [
+                {
+                  "id": "item0",
+                  "text": "This is a good coffee."
+                },
+                {
+                  "id": "item2",
+                  "text": "The young lady is beautiful too."
+                },
+                {
+                  "id": "item4",
+                  "text": "It’s a cheap restaurant."
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
+              "id": "cat2",
+              "title": "Category B",
+              "items": [
+                {
+                  "id": "item1",
+                  "text": "The cheese and tomato sandwich is expensive."
+                },
+                {
+                  "id": "item3",
+                  "text": "The new hotel is nice."
+                },
+                {
+                  "id": "item5",
+                  "text": "A big bottle."
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U27_I89",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U27_I89",
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "tts_en": "A small notebook.",
+          "correct_answer": "A small notebook.",
+          "mastery_tag": "listening"
+        },
+        {
           "interaction_id": "U27_I90",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"A small notebook. small notebook\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I91",
           "type": "role_play",
           "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "enough",
+          "stimulus_en": "The young lady is beautiful too.",
           "options": [
             {
               "id": "o1",
-              "text": "enough"
+              "text": "The young lady is beautiful too."
             },
             {
               "id": "o2",
@@ -1777,38 +1992,43 @@
           "mastery_tag": "speaking"
         },
         {
-          "interaction_id": "U27_I91",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening"
-        },
-        {
           "interaction_id": "U27_I92",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening"
+          "type": "gapped_text",
+          "prompt_es": "Completa los huecos en el siguiente texto:",
+          "text": "The cheese and tomato sandwich is {{gap0}}. {{gap1}} old man.. This is {{gap2}} good coffee..",
+          "gaps": [
+            {
+              "id": "gap0",
+              "correct_answer": "expensive."
+            },
+            {
+              "id": "gap1",
+              "correct_answer": "An"
+            },
+            {
+              "id": "gap2",
+              "correct_answer": "a"
+            }
+          ],
+          "mastery_tag": "reading"
         },
         {
           "interaction_id": "U27_I93",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I don’t have ___ warm clothes.",
-          "correct_answer": "enough",
+          "stimulus_en": "This is a ___ coffee. (good)",
+          "correct_answer": "good",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U27_I94",
           "type": "role_play",
           "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "enough",
+          "stimulus_en": "It’s a cheap restaurant.",
           "options": [
             {
               "id": "o1",
-              "text": "enough"
+              "text": "It’s a cheap restaurant."
             },
             {
               "id": "o2",
@@ -1824,89 +2044,166 @@
         },
         {
           "interaction_id": "U27_I95",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
             {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "id": "o3",
+              "text": "It’s a cheap restaurant."
             },
             {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "id": "o4",
+              "text": "confusing"
             },
             {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "id": "o1",
+              "text": "An old man."
+            },
+            {
+              "id": "o2",
+              "text": "The new hotel is nice."
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U27_I96",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "This is a good coffee."
+            },
+            {
+              "id": "o1",
+              "text": "The young lady is beautiful too."
+            },
+            {
+              "id": "o2",
+              "text": "An old man."
+            },
+            {
+              "id": "o4",
+              "text": "sometimes"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U27_I97",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "and"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w1",
+              "text": "cheese"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "tomato"
+            },
+            {
+              "id": "w4",
+              "text": "sandwich"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U27_I98",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "It’s not hot ___.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "woman"
+            },
+            {
+              "id": "w1",
+              "text": "tall"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U27_I99",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I’m not tall ___.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar"
+          "type": "role_play",
+          "prompt_es": "Responde a la siguiente situación:",
+          "stimulus_en": "A tall woman.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "A tall woman."
+            },
+            {
+              "id": "o2",
+              "text": "Incorrect response"
+            },
+            {
+              "id": "o3",
+              "text": "Wrong answer"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
         },
         {
           "interaction_id": "U27_I100",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
             {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "id": "o2",
+              "text": "small notebook"
             },
             {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "id": "o3",
+              "text": "notebook small"
             },
             {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "id": "o1",
+              "text": "A small notebook."
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         }
       ]
     }
