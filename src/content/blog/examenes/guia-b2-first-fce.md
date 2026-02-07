@@ -1,5 +1,5 @@
 ---
-title: "Guía Completa para el B2 First (FCE) de Cambridge: Todo lo que necesitas saber"
+title: "Guía Completa para el B2 First (FCE) de Cambridge"
 description: "Prepárate para el examen B2 First (FCE) de Cambridge. Descubre la estructura del examen, consejos prácticos, puntuación y recursos para aprobar a la primera."
 excerpt: "¿Pensando en presentarte al B2 First? En esta guía maestra te explicamos la estructura del FCE, cómo se puntúa y los mejores consejos para dominar cada sección del examen de Cambridge."
 keywords: ["fce first certificate in english exam", "b2 first cambridge", "examen cambridge first", "first certificate exam fce", "cambridge certificate", "preparacion b2 first"]

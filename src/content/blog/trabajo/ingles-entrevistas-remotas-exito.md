@@ -1,5 +1,5 @@
 ---
-title: "Inglés para Entrevistas Remotas: La Mega-Guía para el Éxito Global 2026"
+title: "Inglés para Entrevistas Remotas: Guía para el Éxito"
 date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "¿Aplicando a una empresa internacional? Las entrevistas remotas en inglés son la puerta de entrada al mercado laboral global. Esta guía de más de 1,500 palabras te ofrece las estrategias, el vocabulario y los secretos que aprenderás en nuestras clases de inglés para conseguir el puesto."

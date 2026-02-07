@@ -1,5 +1,5 @@
 ---
-title: "La Voz Pasiva en Inglés: Guía Completa, Tiempos Verbales y Material de Estudio"
+title: "La Voz Pasiva en Inglés: Guía de Tiempos Verbales"
 description: "Domina la voz pasiva en inglés. Incluye fórmulas para todos los tiempos, pasivas con doble objeto, 'get' passive y lista imprimible de ejemplos."
 excerpt: "¿Te cuesta entender la voz pasiva? En esta guía académica te enseñamos cómo transformar oraciones, los casos avanzados y ejemplos de uso real para exámenes."
 keywords: ["passive voice examples", "the passive voice", "examples of passive voice", "voz pasiva en ingles", "gramatica b1 b2", "ejercicios de gramatica en ingles", "practicar gramatica ingles"]

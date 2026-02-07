@@ -1,5 +1,5 @@
 ---
-title: "¿No tienes tiempo para estudiar inglés? 5 Estrategias de Micro-Learning"
+title: "Cómo estudiar inglés sin tiempo: 5 Estrategias"
 description: "Aprende inglés incluso con una agenda apretada. Descubre cómo aprovechar los 'tiempos muertos' para mejorar tu nivel sin sacrificar tu descanso."
 excerpt: "Descubre cómo aprender inglés sin tiempo con el micro-learning. 5 estrategias prácticas para integrar el inglés en tu rutina diaria y avanzar rápido."
 keywords: ["aprender ingles sin tiempo", "micro-learning ingles", "estudiar ingles rapido", "como aprender ingles gratis", "mejorar ingles"]

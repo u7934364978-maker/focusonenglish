@@ -1,5 +1,5 @@
 ---
-title: "Inglés para Recepcionistas: Frases y Vocabulario para una Atención de 5 Estrellas"
+title: "Inglés para Recepcionistas: Frases y Vocabulario"
 date: "2026-02-06"
 author: "Focus English Team"
 excerpt: "La guía definitiva de inglés para recepcionistas de hotel. Aprende a gestionar reservas, check-ins y peticiones de huéspedes con profesionalidad."

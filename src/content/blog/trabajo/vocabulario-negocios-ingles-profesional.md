@@ -1,5 +1,5 @@
 ---
-title: "Vocabulario de Negocios en Inglés: 100+ Frases para Profesionales"
+title: "Vocabulario de Negocios en Inglés para Profesionales"
 description: "Mejora tu carrera con el mejor vocabulario de negocios en inglés. Frases para reuniones, emails, negociaciones y lista imprimible de términos esenciales."
 excerpt: "Domina el inglés profesional. Aprende más de 100 frases y términos clave para reuniones, presentaciones y networking internacional con nuestra guía completa."
 keywords: ["vocabulario de negocios en ingles", "business english phrases", "ingles comercial gratis", "frases para reuniones en ingles", "vocabulario empresarial ingles"]

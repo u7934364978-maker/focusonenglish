@@ -1,5 +1,5 @@
 ---
-title: "Vocabulario de Ropa en Inglés: Guía Académica y Material de Estudio"
+title: "Vocabulario de Ropa en Inglés: Guía y Material"
 description: "Domina el vocabulario de ropa en inglés, calzado y accesorios. Incluye verbos, adjetivos de estilo y lista imprimible para niveles A1-C1."
 excerpt: "Aprende los nombres de las prendas de ropa en inglés, accesorios y calzado. Guía académica con verbos de acción, descripción de estilos y material de práctica."
 keywords: ["prendas de ropa en ingles", "clothes in english", "vocabulario ropa ingles", "nombres de ropa en ingles", "verbos para ropa ingles", "vocabulario ropa ingles pdf", "aprender vocabulario ingles"]

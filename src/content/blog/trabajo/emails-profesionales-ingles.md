@@ -1,5 +1,5 @@
 ---
-title: "Cómo redactar correos profesionales en inglés: Guía y Plantillas 2026"
+title: "Correos Profesionales en Inglés: Guía y Plantillas"
 date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Domina la comunicación escrita en el trabajo. Aprende las frases clave, saludos y despedidas para escribir correos profesionales en inglés que generen impacto."

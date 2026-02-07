@@ -1,5 +1,5 @@
 ---
-title: "Networking en Inglés: Cómo Conectar en Eventos Internacionales"
+title: "Networking en Inglés: Cómo Conectar en Eventos"
 date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "¿Te dan miedo las pausas incómodas en los eventos de networking? Domina el 'small talk' y crea conexiones profesionales valiosas. Descubre cómo las clases de inglés te dan la confianza necesaria."

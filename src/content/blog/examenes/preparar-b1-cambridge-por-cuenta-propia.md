@@ -1,5 +1,5 @@
 ---
-title: "Cómo preparar el B1 Preliminary (PET) de Cambridge por tu cuenta en 2025"
+title: "Preparar el B1 de Cambridge por tu cuenta en 2025"
 description: "Guía completa para aprobar el examen B1 de Cambridge estudiando solo. Recursos, consejos para el Speaking y cómo organizar tu plan de estudio."
 excerpt: "Aprende a preparar el B1 de Cambridge por tu cuenta. Te damos las claves para dominar el Reading, Writing y cómo usar la IA para practicar el Speaking sin profesor."
 keywords: ["preparar b1 cambridge solo", "examen pet cambridge guia", "recursos gratis b1 ingles", "practicar speaking b1 solo", "focus english b1 preparation"]

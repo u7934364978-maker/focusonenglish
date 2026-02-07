@@ -1,5 +1,5 @@
 ---
-title: "Preguntas de Inmigración en Inglés: Guía para superar el control de pasaportes 2026"
+title: "Inmigración en Inglés: Guía del Control de Pasaportes"
 date: "2026-01-30"
 author: "Focus Team"
 excerpt: "No dejes que los nervios te bloqueen. Aprende las preguntas clave que te hará un oficial de inmigración y cómo responder correctamente para entrar a tu destino sin problemas."

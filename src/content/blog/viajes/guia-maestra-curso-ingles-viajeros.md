@@ -1,5 +1,5 @@
 ---
-title: "Guía Maestra: Por qué un Curso de Inglés es tu Mejor Compañero de Viaje en 2026"
+title: "Curso de Inglés para Viajar: Guía para el Viajero"
 date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Viajar es descubrir, y el inglés es la llave. En esta guía de +2,000 palabras, exploramos cómo un curso de inglés especializado puede transformar tus vacaciones en experiencias inolvidables, seguras y auténticas."

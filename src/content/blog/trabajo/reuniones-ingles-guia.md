@@ -1,5 +1,5 @@
 ---
-title: "Inglés para Reuniones y Videollamadas: Guía de Supervivencia 2026"
+title: "Inglés para Reuniones y Videollamadas: Guía 2026"
 date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Participa con confianza en tus reuniones internacionales. Aprende frases clave para moderar, interrumpir educadamente y resolver problemas técnicos en inglés."

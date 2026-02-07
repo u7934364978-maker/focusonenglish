@@ -2,7 +2,7 @@
 category: "seo"
 date: "2026-02-07"
 author: "Focus English"
-title: "Vocabulario Inglés B1: Trabajo, Viajes y Vida Cotidiana | Focus English"
+title: "Vocabulario Inglés B1: Trabajo, Viajes y Vida Cotidiana"
 description: "Lista de vocabulario esencial para el nivel B1 de inglés. Aprende las palabras y expresiones clave para el trabajo, viajar y situaciones sociales."
 keywords: ["vocabulario ingles b1", "palabras ingles b1", "expresiones ingles b1", "vocabulario trabajo ingles b1"]
 canonical: "https://focusonenglish.ai/curso-ingles-vocabulario-b1-ingles-trabajo"

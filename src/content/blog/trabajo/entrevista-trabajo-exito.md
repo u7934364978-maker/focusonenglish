@@ -1,5 +1,5 @@
 ---
-title: "Cómo superar una entrevista de trabajo en inglés: Guía de éxito 2026"
+title: "Superar una Entrevista de Trabajo en Inglés: Guía"
 date: "2026-01-30"
 author: "Expert HR"
 excerpt: "Los secretos para destacar en tu próxima entrevista internacional. Aprende a responder las preguntas difíciles y a demostrar tu valor profesional en inglés."

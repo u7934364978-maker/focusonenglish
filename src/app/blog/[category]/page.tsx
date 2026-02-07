@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getArticlesByCategory, getBlogArticles, normalizeCategory } from "@/lib/blog";
+import { optimizeSEOTitle } from "@/utils/seo-utils";
 
 export async function generateStaticParams() {
   const articles = getBlogArticles();
@@ -14,49 +15,49 @@ export async function generateStaticParams() {
 
 const categoryMetadata: Record<string, { name: string, description: string, icon: string, color: string }> = {
   trabajo: {
-    name: "Inglés para Trabajar",
+    name: "Inglés para el Trabajo y Negocios: Guías Profesionales",
     description: "Domina el vocabulario profesional, prepara entrevistas internacionales y redacta emails efectivos para tu carrera global.",
     icon: "💼",
     color: "from-coral-600 to-peach-600"
   },
   viajes: {
-    name: "Inglés para Viajar",
+    name: "Inglés para Viajar y Turismo: Guía de Supervivencia",
     description: "Todo lo que necesitas para moverte con confianza por el mundo: desde el aeropuerto hasta emergencias médicas.",
     icon: "✈️",
     color: "from-coral-600 to-peach-600"
   },
   examenes: {
-    name: "Preparación de Exámenes",
+    name: "Preparación de Exámenes Oficiales de Inglés: Guía",
     description: "Estrategias y recursos específicos para aprobar el Cambridge, TOEFL o IELTS con la mejor nota.",
     icon: "📝",
     color: "from-amber-600 to-amber-600"
   },
   metodos: {
-    name: "Métodos de Aprendizaje",
+    name: "Métodos de Aprendizaje de Inglés: Técnicas Efectivas",
     description: "Técnicas y estrategias efectivas basadas en la ciencia para aprender inglés más rápido.",
     icon: "🎯",
     color: "from-amber-600 to-orange-600"
   },
   seo: {
-    name: "Cursos y Guías de Inglés",
+    name: "Cursos y Guías de Inglés por Niveles: Formación Completa",
     description: "Aprende con nuestras guías completas por niveles y cursos especializados para profesionales y viajeros.",
     icon: "🎓",
     color: "from-blue-600 to-indigo-600"
   },
   gramatica: {
-    name: "Gramática Inglesa",
+    name: "Gramática Inglesa: Guía Completa de Tiempos y Reglas",
     description: "Domina las estructuras, tiempos verbales y reglas gramaticales con nuestras guías simplificadas.",
     icon: "📚",
     color: "from-indigo-600 to-blue-700"
   },
   vocabulario: {
-    name: "Vocabulario y Expresiones",
+    name: "Vocabulario y Expresiones en Inglés: Guía Temática",
     description: "Amplía tu léxico con listas de palabras, phrasal verbs y expresiones idiomáticas para cada situación.",
     icon: "🔤",
     color: "from-emerald-600 to-teal-700"
   },
   habilidades: {
-    name: "Habilidades Lingüísticas",
+    name: "Habilidades Lingüísticas: Speaking, Listening y Más",
     description: "Mejora tu Speaking, Listening, Reading y Writing con técnicas y ejercicios prácticos.",
     icon: "🗣️",
     color: "from-violet-600 to-purple-700"
@@ -72,7 +73,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   if (!meta) return { title: "Categoría no encontrada" };
 
   return {
-    title: `${meta.name} | Blog`,
+    title: `${optimizeSEOTitle(meta.name)} | Blog`,
     description: meta.description,
     alternates: {
       canonical: `https://www.focus-on-english.com/blog/${category}`,

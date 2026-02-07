@@ -8,7 +8,7 @@ import { Metadata } from "next";
 import { ChevronRight, Home, GraduationCap, Globe, Award, CheckCircle2, Star } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Certificaciones de Inglés Oficiales 2026: Guía Comparativa",
+  title: "Certificaciones de Inglés Oficiales 2026: Guía Maestra Completa",
   description: "¿Qué examen de inglés es mejor para ti? Comparamos B2 First, IELTS y TOEFL. Descubre cuál necesitas para trabajar o estudiar en el extranjero.",
   keywords: ["certificaciones ingles oficiales", "b2 first vs ielts", "toefl vs ielts", "examenes ingles oficiales"],
   alternates: {

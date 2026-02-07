@@ -1,5 +1,5 @@
 ---
-title: "Vocabulario de Negocios en Inglés: 50 Expresiones Esenciales para 2025"
+title: "Vocabulario de Negocios en Inglés: Frases Esenciales"
 description: "Domina el inglés profesional con nuestra lista de 50 términos y frases clave para reuniones, emails y presentaciones. Impulsa tu carrera con Focus English."
 excerpt: "Si trabajas en un entorno internacional, este vocabulario de negocios es para ti. Aprende los 'phrasal verbs' y expresiones que te harán sonar como un nativo en la oficina."
 keywords: ["vocabulario negocios ingles", "business english expressions", "ingles profesional oficina", "frases reuniones ingles", "focus english business"]

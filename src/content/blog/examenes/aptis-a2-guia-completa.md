@@ -1,5 +1,5 @@
 ---
-title: "Aptis A2: Guía Completa para Superar el Nivel Básico de British Council"
+title: "Aptis A2: Guía Completa para Superar el Nivel Básico"
 date: "2026-02-06"
 author: "Focus English Team"
 excerpt: "Todo lo que necesitas saber sobre el examen Aptis A2. Estructura, puntuación y consejos para obtener tu certificado de forma rápida y económica."

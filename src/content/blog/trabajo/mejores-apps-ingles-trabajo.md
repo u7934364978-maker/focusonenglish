@@ -1,5 +1,5 @@
 ---
-title: "Mejores aplicaciones para aprender inglés en el trabajo (2026)"
+title: "Mejores Apps para aprender Inglés en el Trabajo"
 description: "Si necesitas el inglés para tu carrera profesional, no todas las apps valen. Analizamos las mejores opciones para dominar el Business English."
 excerpt: "Descubre cuáles son las mejores aplicaciones para mejorar tu inglés profesional. Desde reuniones hasta redacción de emails, te ayudamos a elegir la herramienta adecuada."
 keywords: ["apps ingles trabajo", "business english apps", "aprender ingles profesional", "focus english para empresas", "ingles para negocios app"]

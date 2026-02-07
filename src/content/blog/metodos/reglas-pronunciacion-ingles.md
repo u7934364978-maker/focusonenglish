@@ -1,5 +1,5 @@
 ---
-title: "Reglas de Pronunciación en Inglés: Guía Académica y Material de Estudio"
+title: "Reglas de Pronunciación en Inglés: Guía de Estudio"
 description: "Domina la fonética inglesa con nuestras reglas de pronunciación en inglés. Incluye Magic E, Silent Letters, terminaciones -ED y lista imprimible."
 excerpt: "Mejora tu acento y claridad al hablar. Guía académica con las reglas de pronunciación fundamentales, ejemplos de nivel Cambridge y lista de práctica."
 keywords: ["reglas de pronunciacion en ingles", "pronunciacion ingles", "como pronunciar ingles", "letras mudas ingles", "fonetica inglesa", "ejercicios de deletreo en ingles online", "reglas pronunciacion ingles"]

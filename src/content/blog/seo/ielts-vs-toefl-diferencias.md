@@ -2,7 +2,7 @@
 category: "seo"
 date: "2026-02-07"
 author: "Focus English"
-title: "IELTS vs TOEFL: ¿Cuál es mejor para ti? Diferencias y Guía | Focus English"
+title: "IELTS vs TOEFL: ¿Cuál es mejor para ti? Diferencias y Guía"
 description: "Comparativa detallada IELTS vs TOEFL: descubre las diferencias clave, cuál es más fácil según tu perfil y cuál necesitas para trabajar o estudiar en el extranjero."
 keywords: ["ielts vs toefl diferencias", "cual es mas facil ielts o toefl", "ielts o toefl profesional", "examen ingles para visado", "ielts vs toefl para trabajar"]
 canonical: "https://www.focus-on-english.com/blog/seo/ielts-vs-toefl-diferencias"

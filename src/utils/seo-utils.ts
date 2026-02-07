@@ -46,8 +46,10 @@ export function optimizeSEOTitle(title: string): string {
   let optimizedTitle = title;
 
   if (!optimizedTitle.includes(currentYear)) {
-    if (optimizedTitle.includes("Guía")) {
+    if (optimizedTitle.includes("Guía ") || optimizedTitle.endsWith("Guía")) {
       optimizedTitle = optimizedTitle.replace("Guía", `Guía ${currentYear}`);
+    } else if (optimizedTitle.includes("Guías")) {
+      optimizedTitle = optimizedTitle.replace("Guías", `Guías ${currentYear}`);
     } else {
       optimizedTitle = `${optimizedTitle} (${currentYear})`;
     }

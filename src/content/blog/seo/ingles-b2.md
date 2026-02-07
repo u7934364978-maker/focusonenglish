@@ -2,7 +2,7 @@
 category: "seo"
 date: "2026-02-07"
 author: "Focus English"
-title: "Curso de Inglés B2: Nivel Intermedio Alto | Focus English"
+title: "Curso de Inglés B2: Prepárate para el Nivel Intermedio Alto"
 description: "Alcanza la fluidez necesaria para trabajar y estudiar en el extranjero con nuestro curso B2. Prepárate para el First Certificate (FCE) y mejora tu perfil profesional."
 keywords: ["curso inglés b2", "nivel avanzado inglés", "cambridge first", "fce preparación", "fluidez inglés avanzado", "estudiar inglés b2"]
 canonical: "https://www.focus-on-english.com/blog/seo/ingles-b2"

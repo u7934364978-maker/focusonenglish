@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import { getBlogArticles } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog | Recursos y Guías para Aprender Inglés",
+  title: "Blog de Inglés: Recursos, Guías y Consejos para Aprender Online",
   description: "Explora nuestras guías especializadas en inglés para el trabajo, viajes y preparación de exámenes oficiales. Contenido actualizado y metodologías efectivas.",
   keywords: [
     "blog inglés",
@@ -29,31 +29,31 @@ export default function BlogPage() {
   // Logic for dynamic categories
   const categoryMetadata: Record<string, { name: string, description: string, icon: string, color: string }> = {
     trabajo: {
-      name: "Inglés para Trabajar",
+      name: "Inglés para el Trabajo y Negocios: Guías Profesionales",
       description: "Guías y consejos para el inglés profesional y empresarial",
       icon: "💼",
       color: "from-coral-600 to-peach-600"
     },
     viajes: {
-      name: "Inglés para Viajar",
+      name: "Inglés para Viajar y Turismo: Guía de Supervivencia",
       description: "Inglés práctico para tus aventuras internacionales",
       icon: "✈️",
       color: "from-coral-600 to-peach-600"
     },
     examenes: {
-      name: "Preparación de Exámenes",
+      name: "Preparación de Exámenes Oficiales de Inglés: Guía",
       description: "Estrategias y recursos para aprobar exámenes oficiales",
       icon: "📝",
       color: "from-amber-600 to-amber-600"
     },
     metodos: {
-      name: "Métodos de Aprendizaje",
+      name: "Métodos de Aprendizaje de Inglés: Técnicas Efectivas",
       description: "Técnicas y estrategias efectivas para aprender inglés",
       icon: "🎯",
       color: "from-amber-600 to-orange-600"
     },
     seo: {
-      name: "Cursos y Guías de Inglés",
+      name: "Cursos y Guías de Inglés por Niveles: Formación Completa",
       description: "Aprende con nuestras guías completas por niveles y cursos especializados para profesionales y viajeros.",
       icon: "🎓",
       color: "from-blue-600 to-indigo-600"
@@ -63,6 +63,24 @@ export default function BlogPage() {
       description: "Guías completas y recursos estructurados para aprender inglés",
       icon: "📚",
       color: "from-blue-600 to-indigo-600"
+    },
+    gramatica: {
+      name: "Gramática Inglesa: Guía Completa de Tiempos y Reglas",
+      description: "Domina las estructuras y reglas gramaticales con nuestras guías simplificadas.",
+      icon: "📚",
+      color: "from-indigo-600 to-blue-700"
+    },
+    vocabulario: {
+      name: "Vocabulario y Expresiones en Inglés: Guía Temática",
+      description: "Amplía tu léxico con listas de palabras y expresiones idiomáticas.",
+      icon: "🔤",
+      color: "from-emerald-600 to-teal-700"
+    },
+    habilidades: {
+      name: "Habilidades Lingüísticas: Speaking, Listening y Más",
+      description: "Mejora tu Speaking, Listening, Reading y Writing con técnicas prácticas.",
+      icon: "🗣️",
+      color: "from-violet-600 to-purple-700"
     }
   };
 

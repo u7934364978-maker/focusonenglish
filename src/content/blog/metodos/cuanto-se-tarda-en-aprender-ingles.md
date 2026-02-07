@@ -1,5 +1,5 @@
 ---
-title: "¿Cuánto se tarda en aprender inglés realmente? (Guía 2024)"
+title: "¿Cuánto se tarda en aprender inglés realmente? Guía"
 description: "Descubre el tiempo real que necesitas para aprender inglés según tu nivel actual y objetivos. Desmontamos mitos y te damos un roadmap claro."
 excerpt: "¿Quieres saber cuánto se tarda en aprender inglés? Desglosamos las horas necesarias por nivel (A1-C1) y te damos consejos para acelerar tu fluidez."
 keywords: ["cuanto se tarda en aprender ingles", "tiempo para aprender ingles", "niveles ingles mcer", "aprender ingles rapido", "horas para aprender ingles"]

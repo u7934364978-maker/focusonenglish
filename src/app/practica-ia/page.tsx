@@ -14,6 +14,13 @@ import { SPEAKING_SCENARIOS } from '@/lib/ai/speaking-scenarios';
 import VoiceVisualizer from '@/components/metodologias/VoiceVisualizer';
 import { Navigation } from '@/components/sections/Navigation';
 import { Progress } from '@/components/ui/progress';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Speaking Coach con IA: Practica Conversación en Inglés Online',
+  description: 'Practica tu inglés con nuestro tutor de IA. Conversaciones reales, feedback instantáneo y misiones personalizadas para mejorar tu fluidez.',
+  keywords: ['hablar ingles ia', 'speaking coach online', 'practicar ingles gratis', 'tutor ingles inteligente'],
+};
 
 const AI_TUTORS = [
   {

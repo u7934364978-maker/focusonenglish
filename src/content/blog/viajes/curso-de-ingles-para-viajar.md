@@ -1,5 +1,5 @@
 ---
-title: "Curso de Inglés para Viajar: Tu Pasaporte a la Fluidez en 2026"
+title: "Curso de Inglés para Viajar: Pasaporte a la Fluidez"
 date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "¿Planeas un viaje al extranjero? Un curso de inglés para viajar es la clave para moverte con seguridad. Aprende frases esenciales y practica situaciones reales antes de despegar."

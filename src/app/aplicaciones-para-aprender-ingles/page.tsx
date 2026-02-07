@@ -9,7 +9,7 @@ import { SEOComparisonTable } from "@/components/sections/SEOComparisonTable";
 import { ChevronRight, Home, Star, Zap, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Mejores Aplicaciones para Aprender Inglés 2026: Guía Gratis",
+  title: "Mejores Aplicaciones para Aprender Inglés 2026: Guía Comparativa",
   description: "Ranking actualizado de las mejores aplicaciones para aprender inglés este año. Comparativa honesta de apps gratis, con IA y para trabajar. ¡Elige la tuya!",
   keywords: ["aplicaciones para aprender ingles", "mejores apps ingles gratis", "apps para aprender ingles 2026", "aprender ingles rapido app"],
   alternates: {

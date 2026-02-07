@@ -1,5 +1,5 @@
 ---
-title: "Present Perfect vs Past Simple: Guía Definitiva y Material de Estudio"
+title: "Present Perfect vs Past Simple: Guía y Diferencias"
 description: "Aprende la diferencia entre Present Perfect y Past Simple en inglés. Guía definitiva con reglas, ejemplos avanzados, comparativa de marcadores y lista descargable."
 excerpt: "¿Dudas entre el Present Perfect y el Past Simple? En este artículo te explicamos las reglas de nivel Cambridge, los marcadores temporales y ejemplos prácticos para dominarlos."
 keywords: ["present perfect and past simple", "present perfect tense examples", "difference between present perfect and past simple", "ejemplos present perfect vs past simple", "gramatica inglesa", "ejercicios gramatica ingles", "clases de gramatica en ingles gratis"]

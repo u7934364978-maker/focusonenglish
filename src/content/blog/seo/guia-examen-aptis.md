@@ -2,7 +2,7 @@
 category: "seo"
 date: "2026-02-07"
 author: "Focus English"
-title: "Guía Completa Examen Aptis: Puntuación y Preparación | Focus English"
+title: "Guía Completa Examen Aptis: Puntuación y Preparación"
 description: "Guía completa del examen Aptis del British Council. Descubre cómo funciona la puntuación Aptis, preparación online para todos los niveles y trucos para aprobar."
 keywords: ["examen aptis", "aptis a2", "puntuacion aptis", "british council aptis", "preparacion aptis online"]
 canonical: "https://www.focus-on-english.com/blog/seo/guia-examen-aptis"

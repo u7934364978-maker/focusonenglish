@@ -3,7 +3,7 @@ import ToeflLevelTestInteractive from "@/components/test/ToeflLevelTestInteracti
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Test de Nivel TOEFL iBT | Focus English",
+  title: "Test de Nivel TOEFL iBT Online: Evalúa tu Inglés Académico Gratis",
   description: "Evalúa tu nivel de inglés académico y descubre qué curso preparatorio de TOEFL iBT es el adecuado para ti. Test de 30 preguntas críticas de nivel B1 a C1.",
   keywords: ["test toefl", "toefl ibt test nivel", "preparacion toefl", "focus english toefl", "nivel ingles academico"],
 };

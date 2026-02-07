@@ -4,7 +4,7 @@ import LevelTestInteractive from "@/components/test/LevelTestInteractive";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Test de Nivel de Inglés Gratuito A1-C2",
+  title: "Test de Nivel de Inglés Gratuito (A1-C2): Evalúa tu Nivel Online",
   description: "Evalúa tu nivel de inglés actual con nuestro test de diagnóstico gratuito. 24 preguntas adaptativas de A1 a C2. Recibe tu nivel CEFR y recomendaciones personalizadas en 15 minutos.",
   keywords: ["test de nivel inglés", "evaluación inglés gratis", "diagnóstico inglés online", "nivel CEFR", "test Cambridge gratuito", "evaluar nivel inglés"],
   alternates: {

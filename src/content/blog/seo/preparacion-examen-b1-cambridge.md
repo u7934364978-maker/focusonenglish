@@ -2,7 +2,7 @@
 category: "seo"
 date: "2026-02-07"
 author: "Focus English"
-title: "Preparación Examen B1 Inglés: Guía Cambridge PET y Aptis | Focus English"
+title: "Preparación Examen B1 Inglés: Guía Cambridge PET y Aptis"
 description: "Guía completa para aprobar el examen B1 de inglés. Estrategias para Cambridge PET y Aptis General, recursos gratuitos y simulacros de examen con IA."
 keywords: ["preparacion examen b1 ingles", "cambridge pet b1", "aptis general b1", "examen b1 ingles consejos", "preparar b1 cambridge solo", "examen pet cambridge guia", "recursos gratis b1 ingles", "practicar speaking b1 solo", "título b1 ingles online", "ingles b1 online gratis", "ejercicios b1 ingles", "examen aptis", "aptis a2", "puntuacion aptis", "british council aptis", "preparacion aptis online", "precios examenes cambridge", "precio certificacion cambridge", "tasas cambridge 2026", "cuanto cuesta el examen first", "tasas fce 2026", "cambridge certificate", "linguaskill cambridge", "linguaskill english live", "examen multinivel ingles", "certificacion rapida ingles"]
 canonical: "https://www.focus-on-english.com/blog/seo/preparacion-examen-b1-cambridge"

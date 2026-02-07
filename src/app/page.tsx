@@ -7,7 +7,7 @@ import { Metadata } from "next";
 import { getBlogArticles } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Cursos de Inglés Online en España",
+  title: "Cursos de Inglés Online en España: Trabajo, Viajes y Exámenes",
   description: "Cursos de inglés online en España certificados. Especializados en trabajo, viajes y exámenes oficiales. Programas de 90 días. Desde €6.99/mes.",
   keywords: [
     "cursos de inglés online españa",

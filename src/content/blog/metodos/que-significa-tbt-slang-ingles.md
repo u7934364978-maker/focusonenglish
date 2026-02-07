@@ -1,5 +1,5 @@
 ---
-title: "¿Qué significa TBT? Guía de Slang y Redes Sociales en Inglés"
+title: "¿Qué significa TBT? Guía de Slang y Redes Sociales"
 description: "Descubre qué significa TBT, POV, ASAP y otros términos de redes sociales en inglés. Guía completa de slang moderno para entender internet."
 excerpt: "¿Ves hashtags como #TBT o #POV y no sabes qué significan? Te explicamos el origen y el uso de los acrónimos y slang más populares de las redes sociales en inglés."
 keywords: ["que significa tbt", "tbt significado", "slang in english", "acronimos redes sociales ingles", "ingles moderno internet"]

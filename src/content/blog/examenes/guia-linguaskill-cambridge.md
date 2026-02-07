@@ -1,5 +1,5 @@
 ---
-title: "Linguaskill de Cambridge: Qué es y cómo prepararlo con éxito"
+title: "Linguaskill de Cambridge: Guía para prepararlo con éxito"
 description: "Descubre todo sobre Linguaskill de Cambridge: el examen multinivel rápido y preciso. Conoce su estructura, ventajas y cómo obtener tu certificado en 48 horas."
 excerpt: "¿Necesitas un certificado de inglés rápido? Linguaskill de Cambridge es la solución. Te explicamos cómo funciona este test multinivel por ordenador y cómo prepararlo."
 keywords: ["linguaskill", "linguaskill cambridge", "linguaskill english live", "examen multinivel ingles", "certificacion rapida ingles"]

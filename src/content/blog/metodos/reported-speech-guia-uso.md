@@ -1,5 +1,5 @@
 ---
-title: "Reported Speech: Guía Completa de Estilo Indirecto en Inglés"
+title: "Reported Speech: Guía del Estilo Indirecto en Inglés"
 description: "Aprende a usar el Reported Speech. Reglas de cambios verbales, pronombres, expresiones de tiempo y lista imprimible para estudiar."
 excerpt: "Domina el estilo indirecto en inglés. Aprende las reglas de 'backshift', cómo transformar preguntas y órdenes, y descarga nuestro esquema de estudio."
 keywords: ["reported speech rules", "estilo indirecto ingles", "reported speech examples", "cambios verbales reported speech", "gramatica b2 c1"]

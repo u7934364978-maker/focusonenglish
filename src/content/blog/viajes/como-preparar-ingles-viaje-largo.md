@@ -1,5 +1,5 @@
 ---
-title: "Cómo Preparar tu Inglés para un Viaje Largo: La Mega-Guía Definitiva 2026"
+title: "Preparar tu Inglés para un Viaje Largo: Guía 2026"
 date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "¿Sueñas con un año sabático o un viaje de varios meses? Preparar tu nivel de idioma es tan importante como tu mochila. Esta guía de más de 1,500 palabras te explica cómo las clases de inglés transformarán tu aventura de principio a fin."

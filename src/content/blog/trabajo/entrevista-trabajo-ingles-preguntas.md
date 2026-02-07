@@ -1,5 +1,5 @@
 ---
-title: "Entrevista de Trabajo en Inglés: Preguntas, Respuestas y Método STAR"
+title: "Entrevista en Inglés: Preguntas y Método STAR"
 date: "2026-02-06"
 author: "Focus English Team"
 excerpt: "Prepárate para tu próxima entrevista de trabajo en inglés. Descubre las preguntas más comunes, el método STAR, y consejos para triunfar en procesos internacionales."

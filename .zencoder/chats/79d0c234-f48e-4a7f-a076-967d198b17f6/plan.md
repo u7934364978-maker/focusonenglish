@@ -21,6 +21,8 @@
     - [x] Implemented "Dynamic Word Bank" for fill-blanks: collects all answers in a block to provide selection options if none were generated.
     - [x] Supported multiple correct answers (separated by `/`) in fill-blanks.
     - [x] Advanced stimulus cleanup to remove solutions hidden in parentheses like `(often)`.
+    - [x] **Fix Comprobar Button**: Resolved issue where the "Check" button remained inactive in `fill_blanks` when using options.
+    - [x] **Render Optimization**: Unified `fill_blanks` rendering to display selected options directly within the blanks, avoiding double text and improving clarity.
 
 ## Phase 3: Batch Generation (Remaining Units)
 - [ ] Generate Batch 2 (Units 11-20).

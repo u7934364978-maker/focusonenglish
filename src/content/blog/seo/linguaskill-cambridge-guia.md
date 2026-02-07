@@ -2,7 +2,7 @@
 category: "seo"
 date: "2026-02-07"
 author: "Focus English"
-title: "Linguaskill de Cambridge: Certificación Rápida y Online | Focus English"
+title: "Linguaskill de Cambridge: Certificación Rápida y Online"
 description: "Descubre Linguaskill de Cambridge, el examen multinivel rápido con resultados en 48 horas. Ideal para graduación universitaria, oposiciones y acreditación rápida."
 keywords: ["linguaskill cambridge", "linguaskill english live", "examen multinivel ingles", "certificacion rapida ingles"]
 canonical: "https://www.focus-on-english.com/blog/seo/linguaskill-cambridge-guia"

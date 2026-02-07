@@ -14,6 +14,12 @@ import { PhaseIndicator } from '@/components/tutor/PhaseIndicator';
 import VoiceVisualizer from '@/components/metodologias/VoiceVisualizer';
 import { Navigation } from '@/components/sections/Navigation';
 import { Progress } from '@/components/ui/progress';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Tutor Privado de Inglés con IA: Clases Personalizadas Online 24/7',
+  description: 'Aprende inglés con clases particulares 100% personalizadas con IA. Mejora tu gramática, vocabulario y pronunciación a tu propio ritmo.',
+};
 
 const AI_TUTORS = [
   { id: 'tutor1', name: 'Emma', avatar: '👩‍🏫', specialty: 'Business English' },

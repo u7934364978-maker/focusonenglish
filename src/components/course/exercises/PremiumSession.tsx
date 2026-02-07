@@ -207,7 +207,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
           // 4. Remove standalone parenthesized words if they look like answers (1-3 words)
           // Solo si hay guiones bajos cerca, para no romper explicaciones legítimas
-          if (cleaned.includes('___')) {
+          if (cleaned.includes('___') || /_{2,}/.test(cleaned)) {
             cleaned = cleaned.replace(/\s*\([^)]+\)\s*/g, ' ').replace(/\s*\[[^\]]+\]\s*/g, ' ');
           }
 
@@ -225,6 +225,11 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       if (normalized.stimulus_en && normalized.prompt_es && 
           normalized.stimulus_en.toLowerCase().trim() === normalized.prompt_es.toLowerCase().trim()) {
         normalized.prompt_es = "Completa el espacio:";
+      }
+
+      // Final check: if stimulus_en contains many underscores but no "___", normalize it to "___" for easier processing
+      if (normalized.stimulus_en && /_{4,}/.test(normalized.stimulus_en)) {
+        normalized.stimulus_en = normalized.stimulus_en.replace(/_{4,}/g, '___');
       }
 
       // Normalize pairs for matching
@@ -728,12 +733,22 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       });
       isAnswerCorrect = allCategorizedCorrectly && Object.keys(categorizedItems).length === allItems.length;
     } else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
-      const input = (optionId as string).trim().toLowerCase();
       const q = interaction;
+      const normalizedOption = String(optionId).toLowerCase().trim();
       const correctText = String(q.correct_answer || q.correctAnswer || q.answer || q.gap || "").toLowerCase().trim();
+      
+      // If we have options, we should also check if the text of the selected option matches the correct answer
+      let optionText = normalizedOption;
+      if (q.options && q.options.length > 0) {
+        const opt = q.options.find((o: any) => String(o.id).toLowerCase() === normalizedOption);
+        if (opt) optionText = String(opt.text).toLowerCase().trim();
+      }
+
       // Support multiple correct answers separated by / or ,
       const possibleAnswers = correctText.split(/[\\/]+/).map(a => a.trim().toLowerCase()).filter(Boolean);
-      isAnswerCorrect = possibleAnswers.length > 0 ? possibleAnswers.includes(input) : input.length > 0;
+      isAnswerCorrect = possibleAnswers.length > 0 
+        ? (possibleAnswers.includes(normalizedOption) || possibleAnswers.includes(optionText)) 
+        : normalizedOption.length > 0;
     } else if (interaction.type === 'writing_task') {
       const input = (optionId as string).trim();
       const minWords = interaction.word_count_min || 100;
@@ -1792,20 +1807,32 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         const isSolutionInPrompt = interaction.prompt_es && interaction.correct_answer && 
                                    interaction.prompt_es.toLowerCase().trim() === interaction.correct_answer.toLowerCase().trim();
         
-        // Fallback for exercises that are actually multiple choice (they have options)
+        // Use multiple choice style if options exist, but show the blank in the stimulus
         if (interaction.options && interaction.options.length > 0) {
           return (
             <div className="w-full max-w-2xl mx-auto space-y-8">
               <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
-              {interaction.stimulus_en && (
-                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 max-h-[60vh] overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent relative group">
-                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-2xl font-bold text-slate-700 leading-relaxed whitespace-pre-line">
-                    {interaction.stimulus_en}
-                  </p>
+              <div className="bg-slate-50 p-10 rounded-[3rem] border-4 border-slate-200 shadow-inner text-center relative group">
+                <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-6 top-6 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="text-2xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-4 gap-y-8">
+                  {(interaction.stimulus_en || "").split(/_{2,}/).map((part: string, i: number, arr: any[]) => (
+                    <React.Fragment key={i}>
+                      <span>{part}</span>
+                      {i < arr.length - 1 && (
+                        <div className="relative inline-block min-w-[120px] px-4 py-2 border-b-8 border-indigo-500 text-indigo-600">
+                          {selectedOption ? (
+                            interaction.options.find((o: any) => o.id === selectedOption)?.text || selectedOption
+                          ) : (
+                            <span className="text-slate-200">...</span>
+                          )}
+                        </div>
+                      )}
+                    </React.Fragment>
+                  ))}
                 </div>
-              )}
-              <div className="grid gap-4">
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {(interaction.options || []).map((opt: any) => (
                   <div
                     key={opt.id}
@@ -1818,21 +1845,15 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                         if (!feedback) setSelectedOption(opt.id);
                       }
                     }}
-                    className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
+                    className={`w-full p-4 text-center border-2 border-b-4 rounded-2xl font-bold text-xl transition-all cursor-pointer ${
                       feedback 
-                        ? opt.id === interaction.correct_answer ? 'border-green-500 bg-green-50 text-green-700' : 'border-slate-100 bg-white text-slate-300'
+                        ? opt.id === interaction.correct_answer ? 'border-green-500 bg-green-50 text-green-700' : selectedOption === opt.id ? 'border-red-500 bg-red-50 text-red-700' : 'border-slate-100 bg-white text-slate-300'
                         : selectedOption === opt.id 
                           ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
                           : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
                     } ${feedback ? 'pointer-events-none' : ''}`}
                   >
-                    <span className="flex items-center gap-3">
-                      {opt.text}
-                      {isLikelyEnglish(opt.text) && (
-                        <PronunciationButton text={opt.text} className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
-                      )}
-                    </span>
-                    {feedback && opt.id === interaction.correct_answer && <CheckCircle2 className="w-6 h-6" />}
+                    {opt.text}
                   </div>
                 ))}
               </div>
@@ -2381,6 +2402,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                   return Object.keys(matchingPairs).length < pairs.length;
                 }
                 if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
+                  if (interaction.options && interaction.options.length > 0) {
+                    return selectedOption === null;
+                  }
                   const stim = interaction.stimulus_en || "";
                   const gaps = stim.match(/_{2,}/g) || [];
                   const exp = gaps.length || 1;
@@ -2409,6 +2433,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 else if (interaction.type === 'categorization') handleCheckAnswer(Object.keys(categorizedItems));
                 else if (['gapped_text', 'multiple_choice_cloze'].includes(interaction.type)) handleCheckAnswer(inputValues);
                 else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
+                  if (interaction.options && interaction.options.length > 0) {
+                    if (selectedOption !== null) handleCheckAnswer(selectedOption);
+                    return;
+                  }
                   const stim = interaction.stimulus_en || "";
                   const gaps = stim.match(/_{2,}/g) || [];
                   const exp = gaps.length || 1;

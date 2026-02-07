@@ -1,5 +1,5 @@
 ---
-title: "Cómo usar la IA para acelerar tu aprendizaje de inglés en 2026"
+title: "IA para acelerar tu aprendizaje de inglés en 2026"
 description: "La Inteligencia Artificial ha revolucionado las aplicaciones para aprender inglés. Aprende a usarla para mejorar tu fluidez y gramática en tiempo récord."
 excerpt: "La IA ya no es el futuro, es el presente del aprendizaje de idiomas. Descubre cómo las herramientas modernas pueden ayudarte a aprender inglés el doble de rápido."
 keywords: ["IA aprender ingles", "inteligencia artificial idiomas", "mejorar fluidez ingles IA", "aplicaciones para aprender ingles con IA", "AI english tutor"]

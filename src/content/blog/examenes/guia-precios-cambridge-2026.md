@@ -1,5 +1,5 @@
 ---
-title: "Precios Exámenes Cambridge 2026: Guía Completa de Tasas y Tasas por Niveles"
+title: "Precios Exámenes Cambridge 2026: Guía de Tasas"
 date: "2026-02-06"
 author: "Focus English Team"
 excerpt: "Consulta los precios actualizados de los exámenes Cambridge (A2 Key, B1 Preliminary, B2 First, C1 Advanced). Todo lo que necesitas saber antes de matricularte."

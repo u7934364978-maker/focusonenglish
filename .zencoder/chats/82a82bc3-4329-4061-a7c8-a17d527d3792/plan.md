@@ -22,6 +22,7 @@
 - [x] Update metadata generation in `src/app/blog/[category]/[slug]/page.tsx` to use the canonical field.
 - [x] Add canonical tags to requested travel guides in `src/content/blog/viajes/`.
 
-### 5. Meta Descriptions
-- [x] Update `src/lib/blog.ts` to map `description` frontmatter field to `excerpt`.
-- [x] Verify meta descriptions for all requested SEO blog posts in `src/content/blog/seo/`.
+### 6. Title Optimization (60-70 chars)
+- [x] Optimize static page titles (Planes, Frases, Contacto, etc.)
+- [x] Optimize blog post titles in `src/content/blog/`
+- [x] Optimize category/topic page titles in `src/app/blog/[category]/page.tsx` or similar

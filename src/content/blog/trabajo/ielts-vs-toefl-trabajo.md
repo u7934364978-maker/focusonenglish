@@ -1,5 +1,5 @@
 ---
-title: "IELTS vs TOEFL: ¿Cuál es mejor para trabajar en el extranjero?"
+title: "IELTS vs TOEFL: Cuál es mejor para trabajar fuera"
 description: "Comparamos IELTS y TOEFL desde una perspectiva profesional. Descubre qué examen valoran más las empresas y cuál te ayudará a conseguir tu visado de trabajo."
 excerpt: "¿Buscas dar el salto internacional? Analizamos las diferencias clave entre IELTS y TOEFL para profesionales y te ayudamos a elegir el certificado que impulsará tu carrera."
 keywords: ["ielts vs toefl para trabajar", "diferencias ielts toefl", "examen ingles para visado", "ielts o toefl profesional", "mejor examen ingles trabajo"]

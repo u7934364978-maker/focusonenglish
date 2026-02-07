@@ -1,5 +1,5 @@
 ---
-title: "Redacción de Emails Profesionales en Inglés: Guía de Estilo"
+title: "Redacción de Emails Profesionales en Inglés: Guía"
 date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "¿Pasas horas redactando un correo en inglés? Aprende las estructuras clave y los errores comunes que debes evitar. Las clases de inglés son la clave para una comunicación escrita impecable."

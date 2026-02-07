@@ -4,6 +4,12 @@ import { Navigation } from "@/components/sections/Navigation";
 import { CourseLaunchBanner } from "@/components/CourseLaunchBanner";
 import Link from "next/link";
 import { useState } from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contacto: Habla con un Asesor de Focus English para tu Curso",
+  description: "¿Tienes dudas? Contacta con nuestro equipo para recibir orientación sobre nuestros cursos de inglés online. Estamos aquí para ayudarte a lograr tus objetivos.",
+};
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({

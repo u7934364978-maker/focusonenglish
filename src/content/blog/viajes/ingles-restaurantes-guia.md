@@ -1,5 +1,5 @@
 ---
-title: "Guía 2026: Cómo pedir comida en inglés y disfrutar de la experiencia"
+title: "Cómo pedir comida en inglés: Guía de Restaurantes"
 date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "Aprende el vocabulario y las frases clave para comer fuera en inglés con total seguridad. Desde reservas hasta propinas, todo lo que necesitas para tu próximo viaje."

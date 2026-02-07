@@ -2,7 +2,7 @@
 category: "seo"
 date: "2026-02-07"
 author: "Focus English"
-title: "Inglés para Restaurantes: Cómo pedir comida y vocabulario | Focus English"
+title: "Inglés para Restaurantes: Cómo pedir comida y vocabulario"
 description: "Guía completa de inglés para restaurantes. Aprende a pedir comida, reservar mesa y domina todo el vocabulario necesario para disfrutar de la gastronomía mundial."
 keywords: ["inglés para restaurantes", "pedir comida en inglés", "frases para comer fuera en inglés", "vocabulario de restaurante en inglés", "como reservar mesa en inglés", "vocabulario restaurante inglés"]
 canonical: "https://www.focus-on-english.com/blog/seo/ingles-restaurantes-guia"

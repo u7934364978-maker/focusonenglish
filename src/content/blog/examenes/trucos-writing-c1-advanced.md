@@ -1,5 +1,5 @@
 ---
-title: "5 Trucos de Expertos para Aprobar el Writing del C1 Advanced (CAE)"
+title: "Trucos para Aprobar el Writing del C1 Advanced (CAE)"
 description: "Domina el Writing del C1 Advanced con estos 5 consejos clave. Aprende a usar conectores avanzados, estructuras complejas y a impresionar a los examinadores de Cambridge."
 excerpt: "¿Atascado en el Writing del C1? Te revelamos los secretos para pasar de un aprobado raspado a una puntuación excepcional en el examen C1 Advanced de Cambridge."
 keywords: ["trucos writing c1 advanced", "consejos cae writing", "conectores ingles c1", "como aprobar writing cambridge c1", "estructuras avanzadas ingles c1"]

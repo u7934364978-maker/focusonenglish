@@ -1,5 +1,5 @@
 ---
-title: "Clases de Inglés: Guía Definitiva para Elegir la Mejor Opción en 2026"
+title: "Clases de Inglés: Guía para elegir la mejor opción"
 date: "2026-01-30"
 author: "Focus English Team"
 excerpt: "¿Buscas clases de inglés que realmente funcionen? Descubre los diferentes métodos, desde clases particulares hasta la revolución de la IA, y elige la opción ideal para tu carrera."

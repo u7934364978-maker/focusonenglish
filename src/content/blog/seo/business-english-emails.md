@@ -2,7 +2,7 @@
 category: "seo"
 date: "2026-02-07"
 author: "Focus English"
-title: "Cómo escribir correos en inglés profesionales | Focus English"
+title: "Cómo escribir correos en inglés: Guía de Business English"
 description: "Guía completa para escribir correos en inglés profesionales. Plantillas, frases clave y consejos de redacción comercial para mejorar tu comunicación laboral."
 keywords: ["correos en inglés", "emails profesionales inglés", "frases para correos inglés", "business english emails", "plantillas correos inglés", "redacción comercial inglés"]
 canonical: "https://www.focus-on-english.com/blog/seo/business-english-emails"

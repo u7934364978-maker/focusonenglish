@@ -2,7 +2,7 @@
 category: "seo"
 date: "2026-02-07"
 author: "Focus English"
-title: "Inglés para Hoteles: Vocabulario y Cómo Reclamar | Focus English"
+title: "Inglés para Hoteles: Vocabulario y Cómo Reclamar"
 description: "Guía esencial de inglés para hoteles. Aprende vocabulario de alojamiento, frases para el check-in y cómo gestionar reclamaciones en un hotel de forma profesional."
 keywords: ["inglés para hoteles", "reclamar en un hotel en inglés", "vocabulario alojamiento inglés", "frases check-in inglés", "frases recepción inglés"]
 canonical: "https://www.focus-on-english.com/blog/seo/ingles-hoteles-guia"
