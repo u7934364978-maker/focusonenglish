@@ -1,147 +1,265 @@
 {
   "course": {
     "unit_id": "unit7",
-    "unit_title": "Location & Directions",
+    "unit_title": "Transport & Prepositions",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Usar correctamente las preposiciones de lugar (near, next to, etc.)",
-    "Evitar el error común de usar 'of' después de 'near'",
-    "Diferenciar entre 'in front of' (delante) y 'opposite' (enfrente)",
-    "Hacer descripciones básicas de la ubicación de lugares"
+    "Diferenciar entre 'By', 'On' e 'In' con transportes",
+    "Aprender los verbos para subir y bajar (Get on/off, Get into/out of)",
+    "Usar correctamente preposiciones de lugar (Near, Close to, Next to)",
+    "Diferenciar entre 'In front of' y 'Opposite'"
   ],
   "blocks": [
     {
-      "block_id": "B7",
-      "title": "Preposiciones de Lugar",
+      "block_id": "B1",
+      "title": "Preposiciones de Transporte",
       "content": [
         {
-          "interaction_id": "U7_I1",
+          "interaction_id": "U7_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál de estas opciones es CORRECTA?",
+          "prompt_es": "Usamos 'By' cuando hablamos de forma general, seguido de:",
           "options": [
-            { "id": "o1", "text": "Near my house" },
-            { "id": "o2", "text": "Near of my house" }
+            { "id": "o1", "text": "El medio de transporte directo (sin artículo)" },
+            { "id": "o2", "text": "Un artículo o posesivo (by the car)" }
           ],
           "correct_answer": "o1",
-          "explanation": "'Near' no necesita la preposición 'of'.",
+          "explanation": "Ejemplo: 'I go by car' (No 'by the car').",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U7_I2",
-          "type": "true_false",
-          "prompt_es": "¿'In front of' significa 'enfrente de'?",
-          "correct_answer": false,
-          "explanation": "No. 'In front of' significa 'delante de'. 'Enfrente de' se dice 'opposite'.",
+          "interaction_id": "U7_B1_I2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Me gusta viajar en tren.'",
+          "stimulus_en": "I like travelling ________ train.",
+          "correct_answer": "by",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U7_I3",
-          "type": "matching",
-          "prompt_es": "Une las preposiciones con su traducción:",
-          "pairs": [
-            { "id": "p1", "left": "Next to", "right": "Al lado de" },
-            { "id": "p2", "left": "Opposite", "right": "Enfrente de" },
-            { "id": "p3", "left": "In front of", "right": "Delante de" },
-            { "id": "p4", "left": "Close to", "right": "Cerca de" }
+          "interaction_id": "U7_B1_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál se usa con 'Foot' (pie)?",
+          "options": [
+            { "id": "o1", "text": "On foot" },
+            { "id": "o2", "text": "By foot" }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U7_I4",
+          "interaction_id": "U7_B1_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase: 'Al lado del colegio hay una parada de autobús.'",
+          "prompt_es": "Ordena: 'Voy a trabajar en coche.'",
           "options": [
-            { "id": "w1", "text": "Next" },
-            { "id": "w2", "text": "to" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "school" },
-            { "id": "w5", "text": "there" },
-            { "id": "w6", "text": "is" },
-            { "id": "w7", "text": "a" },
-            { "id": "w8", "text": "bus" },
-            { "id": "w9", "text": "stop" }
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "go" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "work" },
+            { "id": "w5", "text": "by" },
+            { "id": "w6", "text": "car" }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U7_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la preposición correcta: 'The table is close ________ the TV.'",
-          "stimulus_en": "The table is close ________ the TV.",
-          "correct_answer": "to",
+          "interaction_id": "U7_B1_I5",
+          "type": "true_false",
+          "prompt_es": "¿Es correcto decir 'by my car'?",
+          "correct_answer": false,
+          "explanation": "Incorrecto. Se dice 'in my car' o simplemente 'by car'.",
           "mastery_tag": "grammar"
-        },
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Subir y Bajar",
+      "content": [
         {
-          "interaction_id": "U7_I6",
-          "type": "categorization",
-          "prompt_es": "Clasifica según necesiten 'to', 'of' o nada:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Usan 'to'",
-              "items": ["Next", "Close"]
-            },
-            {
-              "id": "c2",
-              "title": "Usan 'of'",
-              "items": ["In front"]
-            },
-            {
-              "id": "c3",
-              "title": "No usan nada",
-              "items": ["Near", "Opposite"]
-            }
+          "interaction_id": "U7_B2_I1",
+          "type": "matching",
+          "prompt_es": "Une el verbo con el transporte:",
+          "pairs": [
+            { "id": "p1", "left": "Get on / off", "right": "Bus, Train, Plane, Bike" },
+            { "id": "p2", "left": "Get into / out of", "right": "Car, Taxi" }
           ],
-          "correct_answer": "categorization_logic",
+          "correct_answer": { "p1": "p1", "p2": "p2" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_B2_I2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Bájate del tren en la estación de Atocha.'",
+          "stimulus_en": "Get ________ the train at Atocha Station.",
+          "correct_answer": "off",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U7_I7",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Hay muchos bares cerca de mi casa.'",
-          "stimulus_es": "Hay muchos bares cerca de mi casa.",
-          "correct_answer": "There are a lot of bars near my house",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I8",
-          "type": "flashcard",
-          "prompt_es": "¿Qué significa 'Go straight on'?",
-          "stimulus_en": "Go straight on",
-          "correct_answer": "Sigue recto",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I9",
-          "type": "reading-comprehension",
-          "title": "Around the Town",
-          "text": "There is a supermarket near my house. Go straight on and in front of the church there is a bank. Next to my school there aren't any apartment blocks, but I sat opposite a beautiful woman on the train.",
-          "question": "¿Dónde está el banco?",
+          "interaction_id": "U7_B2_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'entrar en el taxi'?",
           "options": [
-            { "id": "o1", "text": "Delante de la iglesia." },
-            { "id": "o2", "text": "Al lado de la escuela." },
-            { "id": "o3", "text": "Enfrente de la iglesia." }
+            { "id": "o1", "text": "Get into the taxi" },
+            { "id": "o2", "text": "Get on the taxi" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_B2_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Me bajé del taxi y pagué al conductor.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "got" },
+            { "id": "w3", "text": "out" },
+            { "id": "w4", "text": "of" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "taxi" },
+            { "id": "w7", "text": "and" },
+            { "id": "w8", "text": "paid" },
+            { "id": "w9", "text": "the" },
+            { "id": "w10", "text": "driver" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9", "w10"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_B2_I5",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se dice 'subirse al avión'?",
+          "stimulus_en": "Get on the plane",
+          "correct_answer": "Subirse al avión",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Preposiciones de Lugar",
+      "content": [
+        {
+          "interaction_id": "U7_B3_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estas preposiciones NO lleva 'of'?",
+          "options": [
+            { "id": "o1", "text": "Near" },
+            { "id": "o2", "text": "In front" }
+          ],
+          "correct_answer": "o1",
+          "explanation": "Se dice 'Near my house' (No 'near of').",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_B3_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Opposite'?",
+          "options": [
+            { "id": "o1", "text": "Enfrente de (cara a cara)" },
+            { "id": "o2", "text": "Delante de (en la misma dirección)" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_B3_I3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Al lado de la escuela' -> ________ to the school.",
+          "stimulus_en": "Next",
+          "correct_answer": "Next",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_B3_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Hay un supermercado cerca de mi casa.'",
+          "options": [
+            { "id": "w1", "text": "There" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "supermarket" },
+            { "id": "w5", "text": "near" },
+            { "id": "w6", "text": "my" },
+            { "id": "w7", "text": "house" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_B3_I5",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Next to", "right": "Al lado de" },
+            { "id": "p2", "left": "Close to", "right": "Cerca de (con 'to')" },
+            { "id": "p3", "left": "In front of", "right": "Delante de" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Repaso Final",
+      "content": [
+        {
+          "interaction_id": "U7_B4_I1",
+          "type": "reading-comprehension",
+          "title": "Getting to School",
+          "text": "When I was a child I used to go to school on foot. Now, I go to work by bus. My office is next to a bank and opposite a beautiful park.",
+          "question": "¿Cómo va al trabajo ahora?",
+          "options": [
+            { "id": "o1", "text": "En autobús." },
+            { "id": "o2", "text": "A pie." },
+            { "id": "o3", "text": "En coche." }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U7_I10",
-          "type": "multiple_choice",
-          "prompt_es": "Traduce: 'No me quiero sentar enfrente de él.'",
-          "options": [
-            { "id": "o1", "text": "I don't want to sit opposite him." },
-            { "id": "o2", "text": "I don't want to sit in front of him." },
-            { "id": "o3", "text": "I don't want to sit opposite to him." }
-          ],
-          "correct_answer": "o1",
+          "interaction_id": "U7_B4_I2",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Hay muchos bares cerca de mi casa.'",
+          "stimulus_es": "Hay muchos bares cerca de mi casa.",
+          "correct_answer": "There are a lot of bars near my house",
+          "validation_regex": "^there are a lot of bars near my house\\.?$",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_B4_I3",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'No me quiero sentar enfrente de él.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "don't" },
+            { "id": "w3", "text": "want" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "sit" },
+            { "id": "w6", "text": "opposite" },
+            { "id": "w7", "text": "him" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_B4_I4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Delante de la iglesia' -> In ________ of the church.",
+          "stimulus_en": "front",
+          "correct_answer": "front",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_B4_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Subí al avión.' (Pasado de get on = got on)",
+          "stimulus_es": "Subí al avión.",
+          "correct_answer": "I got on the plane",
+          "validation_regex": "^i got on the plane\\.?$",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

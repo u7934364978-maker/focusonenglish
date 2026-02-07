@@ -136,6 +136,15 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         }
       }
 
+      // Normalize flashcards
+      if (normalized.type === 'flashcard' && !normalized.flashcards && normalized.stimulus_en) {
+        normalized.flashcards = [{
+          front: normalized.stimulus_en,
+          back: normalized.correct_answer || normalized.stimulus_es || '',
+          pronunciation: normalized.pronunciation
+        }];
+      }
+
       return normalized;
     };
 

@@ -1,156 +1,101 @@
 {
   "course": {
     "unit_id": "unit1",
-    "unit_title": "Describing Things & People",
+    "unit_title": "Adjetivos: Posición y Reglas",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Comprender la posición de los adjetivos en inglés",
-    "Aprender que los adjetivos no tienen plural",
-    "Evitar errores comunes con sustantivos contables e incontables",
-    "Usar vocabulario descriptivo básico para objetos y personas"
+    "Dominar la posición Adjetivo + Sustantivo",
+    "Comprender que los adjetivos no tienen plural",
+    "Aprender vocabulario descriptivo básico",
+    "Evitar errores comunes con artículos y sustantivos incontables"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Adjetivos: Reglas de Oro",
+      "title": "Las Dos Reglas de Oro",
       "content": [
         {
-          "interaction_id": "U1_I1",
+          "interaction_id": "U1_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la regla correcta para la posición del adjetivo?",
+          "prompt_es": "¿Cuál es la regla básica de posición?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Adjective + Noun (Adjetivo + Sustantivo)"
-            },
-            {
-              "id": "o2",
-              "text": "Noun + Adjective (Sustantivo + Adjetivo)"
-            }
+            { "id": "o1", "text": "Adjetivo + Sustantivo" },
+            { "id": "o2", "text": "Sustantivo + Adjetivo" }
           ],
           "correct_answer": "o1",
-          "explanation": "En inglés, el adjetivo siempre va ANTES del sustantivo.",
+          "explanation": "En inglés siempre decimos 'a good coffee', no 'a coffee good'.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I2",
+          "interaction_id": "U1_B1_I2",
           "type": "true_false",
-          "prompt_es": "¿Los adjetivos en inglés tienen forma plural?",
+          "prompt_es": "¿Los adjetivos en inglés se ponen en plural (con -s)?",
           "correct_answer": false,
-          "explanation": "Los adjetivos en inglés son invariables, siempre van en singular.",
+          "explanation": "Los adjetivos son invariables. Decimos 'beautiful girls', no 'beautifuls girls'.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I3",
-          "type": "matching",
-          "prompt_es": "Une las descripciones con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "A big bottle",
-              "right": "Una botella grande"
-            },
-            {
-              "id": "p2",
-              "left": "A small notebook",
-              "right": "Un cuaderno pequeño"
-            },
-            {
-              "id": "p3",
-              "left": "A tall woman",
-              "right": "Una mujer alta"
-            },
-            {
-              "id": "p4",
-              "left": "An old man",
-              "right": "Un hombre viejo"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I4",
+          "interaction_id": "U1_B1_I3",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase: 'Éste es un café bueno.'",
+          "prompt_es": "Ordena: 'El sándwich de queso y tomate es caro.'",
           "options": [
-            { "id": "w1", "text": "This" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "good" },
-            { "id": "w5", "text": "coffee" }
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "cheese" },
+            { "id": "w3", "text": "and" },
+            { "id": "w4", "text": "tomato" },
+            { "id": "w5", "text": "sandwich" },
+            { "id": "w6", "text": "is" },
+            { "id": "w7", "text": "expensive" }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I5",
+          "interaction_id": "U1_B1_I4",
+          "type": "matching",
+          "prompt_es": "Une los opuestos:",
+          "pairs": [
+            { "id": "p1", "left": "Good", "right": "Bad" },
+            { "id": "p2", "left": "Big", "right": "Small" },
+            { "id": "p3", "left": "Cheap", "right": "Expensive" },
+            { "id": "p4", "left": "Old", "right": "New/Young" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U1_B1_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa con el adjetivo correcto: 'The ________ (nuevo) hotel is nice.'",
-          "stimulus_en": "The ________ hotel is nice.",
-          "correct_answer": "new",
+          "prompt_es": "Completa: 'Es un restaurante barato.'",
+          "stimulus_en": "It's a ________ restaurant.",
+          "correct_answer": "cheap",
           "mastery_tag": "vocabulary"
-        },
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Práctica de Vocabulario",
+      "content": [
         {
-          "interaction_id": "U1_I6",
-          "type": "categorization",
-          "prompt_es": "Clasifica estos errores comunes:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Correcto",
-              "items": ["a lot of money", "a car", "information"]
-            },
-            {
-              "id": "c2",
-              "title": "Incorrecto",
-              "items": ["much money (en afirmativo)", "informations", "homeworks"]
-            }
+          "interaction_id": "U1_B2_I1",
+          "type": "matching",
+          "prompt_es": "Traduce estas frases cortas:",
+          "pairs": [
+            { "id": "p1", "left": "A big bottle", "right": "Una botella grande" },
+            { "id": "p2", "left": "A small notebook", "right": "Un cuaderno pequeño" },
+            { "id": "p3", "left": "A tall woman", "right": "Una mujer alta" },
+            { "id": "p4", "left": "An old man", "right": "Un hombre viejo" }
           ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I7",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Es un restaurante barato.'",
-          "stimulus_es": "Es un restaurante barato.",
-          "correct_answer": "It's a cheap restaurant",
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I8",
-          "type": "flashcard",
-          "prompt_es": "¿Cómo se dice 'habitación llena'?",
-          "stimulus_en": "A full room",
-          "correct_answer": "Una habitación llena",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I9",
-          "type": "reading-comprehension",
-          "title": "Common Mistakes Review",
-          "text": "In English, we say 'a car' or 'a uniform' because singular countable nouns need an article. We also say 'a lot of money' in positive sentences, not 'much money'. Words like 'information' and 'homework' are uncountable, so they never have an -s.",
-          "question": "¿Cuál de estas palabras NUNCA lleva plural (-s)?",
-          "options": [
-            { "id": "o1", "text": "Homework" },
-            { "id": "o2", "text": "Car" },
-            { "id": "o3", "text": "Bottle" }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U1_I10",
+          "interaction_id": "U1_B2_I2",
           "type": "multiple_choice",
           "prompt_es": "Traduce: 'La chica joven es guapa también.'",
           "options": [
@@ -160,6 +105,191 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U1_B2_I3",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'El hotel nuevo es bonito.'",
+          "options": [
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "new" },
+            { "id": "w3", "text": "hotel" },
+            { "id": "w4", "text": "is" },
+            { "id": "w5", "text": "nice" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U1_B2_I4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Una habitación llena.'",
+          "stimulus_en": "A ________ room.",
+          "correct_answer": "full",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U1_B2_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta?",
+          "options": [
+            { "id": "o1", "text": "A good coffee" },
+            { "id": "o2", "text": "A coffee good" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Errores Comunes y Artículos",
+      "content": [
+        {
+          "interaction_id": "U1_B3_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Es correcto decir 'Do you have car?'?",
+          "options": [
+            { "id": "o1", "text": "Sí" },
+            { "id": "o2", "text": "No, falta el artículo 'a'" }
+          ],
+          "correct_answer": "o2",
+          "explanation": "Los sustantivos contables en singular siempre necesitan un artículo.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U1_B3_I2",
+          "type": "categorization",
+          "prompt_es": "Clasifica estos usos de artículos y sustantivos:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Correcto",
+              "items": [
+                { "id": "i1", "text": "A uniform" },
+                { "id": "i2", "text": "Information" },
+                { "id": "i3", "text": "A lot of money" }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Incorrecto",
+              "items": [
+                { "id": "i4", "text": "Informations" },
+                { "id": "i5", "text": "Homeworks" },
+                { "id": "i6", "text": "Much money (en (+) )" }
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U1_B3_I3",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi amigo tiene mucho dinero.'",
+          "options": [
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "friend" },
+            { "id": "w3", "text": "has" },
+            { "id": "w4", "text": "a" },
+            { "id": "w5", "text": "lot" },
+            { "id": "w6", "text": "of" },
+            { "id": "w7", "text": "money" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U1_B3_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el plural de 'child'?",
+          "options": [
+            { "id": "o1", "text": "Childrens" },
+            { "id": "o2", "text": "Children" }
+          ],
+          "correct_answer": "o2",
+          "explanation": "Children ya es plural, no necesita la -s.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U1_B3_I5",
+          "type": "true_false",
+          "prompt_es": "¿Se dice 'in Internet' o 'on the Internet'?",
+          "options": [
+            { "id": "o1", "text": "in Internet" },
+            { "id": "o2", "text": "on the Internet" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Repaso Final",
+      "content": [
+        {
+          "interaction_id": "U1_B4_I1",
+          "type": "reading-comprehension",
+          "title": "Common Mistakes Review",
+          "text": "In English, we say 'a car' or 'a uniform' because singular countable nouns need an article. We also say 'a lot of money' in positive sentences, not 'much money'. Words like 'information' and 'homework' are uncountable, so they never have an -s. Also, adjectives are always singular and come before the noun.",
+          "question": "¿Cuál de estas frases es CORRECTA?",
+          "options": [
+            { "id": "o1", "text": "I have three children." },
+            { "id": "o2", "text": "I have three childrens." },
+            { "id": "o3", "text": "I have much money." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U1_B4_I2",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Es un restaurante barato.'",
+          "stimulus_es": "Es un restaurante barato.",
+          "correct_answer": "It's a cheap restaurant",
+          "validation_regex": "^(it's|it is) a cheap restaurant\\.?$",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U1_B4_I3",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se dice 'una mujer alta'?",
+          "stimulus_en": "A tall woman",
+          "correct_answer": "Una mujer alta",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U1_B4_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Traduce: 'El colegio público.'",
+          "options": [
+            { "id": "o1", "text": "A state school" },
+            { "id": "o2", "text": "A public school" }
+          ],
+          "correct_answer": "o1",
+          "explanation": "En el contexto de educación gratuita, usamos 'state school'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U1_B4_I5",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi amigo es la persona más inteligente del mundo.'",
+          "options": [
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "friend" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "most" },
+            { "id": "w6", "text": "intelligent" },
+            { "id": "w7", "text": "person" },
+            { "id": "w8", "text": "in" },
+            { "id": "w9", "text": "the" },
+            { "id": "w10", "text": "world" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9", "w10"],
+          "mastery_tag": "syntax"
         }
       ]
     }

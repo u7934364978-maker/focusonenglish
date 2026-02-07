@@ -1,142 +1,268 @@
 {
   "course": {
     "unit_id": "unit6",
-    "unit_title": "Moving Around",
+    "unit_title": "Ordinals & Dates",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Usar correctamente las preposiciones con transportes (by, on, in)",
-    "Diferenciar entre situaciones generales y específicas en transportes",
-    "Aprender los verbos para subir y bajar de diferentes vehículos",
-    "Expresar desplazamientos a pie correctamente"
+    "Formar números ordinales correctamente (1st, 2nd, 3rd...)",
+    "Escribir y decir la fecha en formato británico y americano",
+    "Usar correctamente las preposiciones con fechas",
+    "Recordar las excepciones ortográficas en ordinales (fifth, ninth...)"
   ],
   "blocks": [
     {
-      "block_id": "B6",
-      "title": "Transportes y Preposiciones",
+      "block_id": "B1",
+      "title": "Números Ordinales",
       "content": [
         {
-          "interaction_id": "U6_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué preposición usamos para hablar de un medio de transporte en sentido general?",
-          "options": [
-            { "id": "o1", "text": "By (Ej: by car, by train)" },
-            { "id": "o2", "text": "In (Ej: in car)" },
-            { "id": "o3", "text": "On (Ej: on train)" }
-          ],
-          "correct_answer": "o1",
-          "explanation": "'By' va directamente seguido del transporte sin artículos ni posesivos.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I2",
-          "type": "true_false",
-          "prompt_es": "¿Es correcto decir 'I go to work by my car'?",
-          "correct_answer": false,
-          "explanation": "Incorrecto. Con 'by' no se usa posesivo. Debería ser 'by car' o 'in my car'.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I3",
+          "interaction_id": "U6_B1_I1",
           "type": "matching",
-          "prompt_es": "Une cada acción con el transporte adecuado:",
+          "prompt_es": "Une los números cardinales con sus ordinales:",
           "pairs": [
-            { "id": "p1", "left": "Get on", "right": "A bus / A train" },
-            { "id": "p2", "left": "Get into", "right": "A car / A taxi" },
-            { "id": "p3", "left": "Get off", "right": "A plane / A bike" },
-            { "id": "p4", "left": "Get out of", "right": "A taxi / A car" }
+            { "id": "p1", "left": "One", "right": "First (1st)" },
+            { "id": "p2", "left": "Two", "right": "Second (2nd)" },
+            { "id": "p3", "left": "Three", "right": "Third (3rd)" },
+            { "id": "p4", "left": "Four", "right": "Fourth (4th)" }
           ],
           "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U6_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase: 'Voy al trabajo a pie todos los días.'",
+          "interaction_id": "U6_B1_I2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la excepción: 'Five' -> ________ (Quinto)",
+          "stimulus_en": "fifth",
+          "correct_answer": "fifth",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_B1_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el ordinal de 9 (Nine)?",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "go" },
-            { "id": "w3", "text": "to" },
-            { "id": "w4", "text": "work" },
-            { "id": "w5", "text": "on" },
-            { "id": "w6", "text": "foot" },
-            { "id": "w7", "text": "every" },
-            { "id": "w8", "text": "day" }
+            { "id": "o1", "text": "Ninth" },
+            { "id": "o2", "text": "Nineth" }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "correct_answer": "o1",
+          "explanation": "Se quita la 'e' final: Ninth.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_B1_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena el número 421º:",
+          "options": [
+            { "id": "w1", "text": "four" },
+            { "id": "w2", "text": "hundred" },
+            { "id": "w3", "text": "and" },
+            { "id": "w4", "text": "twenty-first" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U6_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la preposición específica: 'I saw an accident when I was ________ my car.'",
-          "stimulus_en": "I saw an accident when I was ________ my car.",
-          "correct_answer": "in",
+          "interaction_id": "U6_B1_I5",
+          "type": "true_false",
+          "prompt_es": "¿En los números compuestos (ej. 21º) solo el último número es ordinal?",
+          "correct_answer": true,
+          "explanation": "Correcto: Twenty-first (no twentieth-first).",
           "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Escribir la Fecha",
+      "content": [
+        {
+          "interaction_id": "U6_B2_I1",
+          "type": "multiple_choice",
+          "prompt_es": "En formato británico, ¿qué va primero?",
+          "options": [
+            { "id": "o1", "text": "El día (24th September)" },
+            { "id": "o2", "text": "El mes (September 24th)" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "culture"
         },
         {
-          "interaction_id": "U6_I6",
+          "interaction_id": "U6_B2_I2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '18 de mayo' -> 18th ________",
+          "stimulus_en": "May",
+          "correct_answer": "May",
+          "explanation": "Recuerda que los meses siempre van en Mayúscula.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_B2_I3",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "22nd April", "right": "Británico" },
+            { "id": "p2", "left": "April 22nd", "right": "Americano" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2" },
+          "mastery_tag": "culture"
+        },
+        {
+          "interaction_id": "U6_B2_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '24 de septiembre'",
+          "options": [
+            { "id": "w1", "text": "24th" },
+            { "id": "w2", "text": "September" }
+          ],
+          "correct_answer": ["w1", "w2"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_B2_I5",
+          "type": "true_false",
+          "prompt_es": "¿Al escribir la fecha se suelen poner 'the' y 'of' (ej. the 24th of September)?",
+          "correct_answer": false,
+          "explanation": "Se dicen al hablar, pero normalmente NO se escriben.",
+          "mastery_tag": "culture"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Diciendo la Fecha",
+      "content": [
+        {
+          "interaction_id": "U6_B3_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '22nd April' en voz alta?",
+          "options": [
+            { "id": "o1", "text": "The twenty-second of April" },
+            { "id": "o2", "text": "Twenty-two April" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U6_B3_I2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa lo que falta al hablar: 'May ________ eighteenth'",
+          "stimulus_en": "the",
+          "correct_answer": "the",
+          "explanation": "En estilo americano: 'May the eighteenth'.",
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U6_B3_I3",
           "type": "categorization",
-          "prompt_es": "Clasifica los verbos según si subes o bajas:",
+          "prompt_es": "Clasifica las terminaciones de los ordinales:",
           "categories": [
             {
               "id": "c1",
-              "title": "Subirse",
-              "items": ["Get on", "Get into"]
+              "title": "Terminan en -st, -nd, -rd",
+              "items": [
+                { "id": "i1", "text": "First" },
+                { "id": "i2", "text": "Second" },
+                { "id": "i3", "text": "Third" }
+              ]
             },
             {
               "id": "c2",
-              "title": "Bajarse",
-              "items": ["Get off", "Get out of"]
+              "title": "Terminan en -th",
+              "items": [
+                { "id": "i4", "text": "Fourth" },
+                { "id": "i5", "text": "Tenth" },
+                { "id": "i6", "text": "Twentieth" }
+              ]
             }
           ],
           "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U6_I7",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Llámame cuando te subas al tren.'",
-          "stimulus_es": "Llámame cuando te subas al tren.",
-          "correct_answer": "Phone me when you get on the train",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I8",
-          "type": "flashcard",
-          "prompt_es": "¿Cómo se dice 'ir andando'? (2 formas)",
-          "stimulus_en": "On foot / Walk",
-          "correct_answer": "On foot / Walk",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I9",
-          "type": "reading-comprehension",
-          "title": "Travel Diary",
-          "text": "Peter always goes to work by bus as he hates driving. However, today he is on the train because the bus is broken. He usually walks home on foot in the evening.",
-          "question": "¿Cómo suele ir Peter a trabajar?",
+          "interaction_id": "U6_B3_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena al hablar: 'El 10 de mayo'",
           "options": [
-            { "id": "o1", "text": "By bus." },
-            { "id": "o2", "text": "By train." },
-            { "id": "o3", "text": "By car." }
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "tenth" },
+            { "id": "w3", "text": "of" },
+            { "id": "w4", "text": "May" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U6_B3_I5",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se dice 'duodécimo'?",
+          "stimulus_en": "Twelfth",
+          "correct_answer": "Twelfth",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Práctica de Fechas",
+      "content": [
+        {
+          "interaction_id": "U6_B4_I1",
+          "type": "reading-comprehension",
+          "title": "Important Dates",
+          "text": "My birthday is on 8th May. My sister's birthday is on 22nd April. We have a test on 10th June.",
+          "question": "¿Cuándo es el cumpleaños de mi hermana?",
+          "options": [
+            { "id": "o1", "text": "22 de abril." },
+            { "id": "o2", "text": "8 de mayo." },
+            { "id": "o3", "text": "10 de junio." }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U6_I10",
+          "interaction_id": "U6_B4_I2",
+          "type": "short_writing",
+          "prompt_es": "Escribe la fecha '8 de mayo' (formato británico corto):",
+          "stimulus_es": "8 de mayo",
+          "correct_answer": "8th May",
+          "validation_regex": "^8th May$",
+          "mastery_tag": "writing"
+        },
+        {
+          "interaction_id": "U6_B4_I3",
           "type": "multiple_choice",
-          "prompt_es": "Completa: 'We can have a sandwich ________ the train while going to Madrid.'",
+          "prompt_es": "Completa: 'Te veo el sábado.'",
           "options": [
-            { "id": "o1", "text": "on" },
-            { "id": "o2", "text": "by" },
-            { "id": "o3", "text": "in" }
+            { "id": "o1", "text": "I'll see you on Saturday" },
+            { "id": "o2", "text": "I'll see you in Saturday" }
           ],
           "correct_answer": "o1",
+          "explanation": "Con días usamos 'on'.",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_B4_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi cumpleaños es en febrero.'",
+          "options": [
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "birthday" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "in" },
+            { "id": "w5", "text": "February" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_B4_I5",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se dice 'veinteavo' / 'vigésimo'?",
+          "stimulus_en": "Twentieth",
+          "correct_answer": "Twentieth",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

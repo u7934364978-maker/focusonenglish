@@ -44,3 +44,9 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. **Generate Missing Audios**: Run the generation script to recreate system audios and any missing expansion audios. (COMPLETED)
 3. **Verify Cookiebot Config**: Investigate the domain authorization error for Cookiebot. (COMPLETED)
 4. **Final Verification**: Confirm all console errors from the screenshot are resolved. (COMPLETED)
+
+### [ ] Step: Bug Fix - Flashcard Exercises Not Loading
+
+1. **Identify the cause**: Analyze why flashcard exercises are not loading in `ingles-a1/unit26`.
+2. **Fix the normalization logic**: Correct the code that processes exercise data.
+3. **Verify the fix**: Ensure flashcards load and function correctly in the browser.

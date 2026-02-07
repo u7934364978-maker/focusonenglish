@@ -10,129 +10,260 @@
   "learning_outcomes": [
     "Diferenciar entre adjetivos y adverbios",
     "Aprender a formar adverbios con la terminación -ly",
-    "Conocer los adverbios irregulares más comunes (well, hard, fast)",
+    "Conocer los adverbios irregulares (well, hard, fast)",
     "Aplicar la 'prueba del cómo' para identificar adverbios"
   ],
   "blocks": [
     {
-      "block_id": "B2",
+      "block_id": "B1",
       "title": "Adjetivos vs Adverbios",
       "content": [
         {
-          "interaction_id": "U2_I1",
+          "interaction_id": "U2_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué pregunta le haces al verbo para saber si necesitas un adverbio?",
+          "prompt_es": "¿Qué describe el adverbio?",
           "options": [
-            { "id": "o1", "text": "¿Cómo? (How?)" },
-            { "id": "o2", "text": "¿Quién? (Who?)" },
-            { "id": "o3", "text": "¿Qué? (What?)" }
+            { "id": "o1", "text": "Cómo se hace la acción (el verbo)" },
+            { "id": "o2", "text": "Una cualidad de la persona (sustantivo)" }
           ],
           "correct_answer": "o1",
-          "explanation": "Si le preguntas '¿cómo?' al verbo y obtienes respuesta, necesitas un adverbio.",
+          "explanation": "El adverbio acompaña al verbo para decirnos cómo se hace algo.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I2",
+          "interaction_id": "U2_B1_I2",
           "type": "true_false",
-          "prompt_es": "¿En la frase 'He drives slow', la palabra 'slow' es correcta?",
-          "correct_answer": false,
-          "explanation": "Incorrecto. Debería ser 'slowly' porque describe CÓMO conduce (adverbio).",
+          "prompt_es": "Para saber si es un adverbio, ¿le preguntamos '¿cómo?' al verbo?",
+          "correct_answer": true,
+          "explanation": "Exacto. 'Él escribe bien' -> ¿Cómo escribe? Bien. 'Bien' es adverbio.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I3",
-          "type": "matching",
-          "prompt_es": "Une el adjetivo con su adverbio correspondiente:",
-          "pairs": [
-            { "id": "p1", "left": "Quick", "right": "Quickly" },
-            { "id": "p2", "left": "Beautiful", "right": "Beautifully" },
-            { "id": "p3", "left": "Bad", "right": "Badly" },
-            { "id": "p4", "left": "Dangerous", "right": "Dangerously" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I4",
+          "interaction_id": "U2_B1_I3",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase: 'Él escribe bien.'",
+          "prompt_es": "Ordena: 'Él conduce despacio.'",
           "options": [
             { "id": "w1", "text": "He" },
-            { "id": "w2", "text": "writes" },
-            { "id": "w3", "text": "well" }
+            { "id": "w2", "text": "drives" },
+            { "id": "w3", "text": "slowly" }
           ],
           "correct_answer": ["w1", "w2", "w3"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U2_I5",
+          "interaction_id": "U2_B1_I4",
+          "type": "matching",
+          "prompt_es": "Une el adjetivo con su adverbio:",
+          "pairs": [
+            { "id": "p1", "left": "Slow", "right": "Slowly" },
+            { "id": "p2", "left": "Quick", "right": "Quickly" },
+            { "id": "p3", "left": "Dangerous", "right": "Dangerously" },
+            { "id": "p4", "left": "Beautiful", "right": "Beautifully" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_B1_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa con el adverbio de 'good': 'She sings very ________.'",
-          "stimulus_en": "She sings very ________.",
-          "correct_answer": "well",
+          "prompt_es": "Completa: 'Él es un conductor ________ (peligroso).'",
+          "stimulus_en": "He is a ________ driver.",
+          "correct_answer": "dangerous",
+          "explanation": "Aquí necesitamos un adjetivo porque describe al sustantivo 'driver'.",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Adverbios Irregulares",
+      "content": [
+        {
+          "interaction_id": "U2_B2_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el adverbio de 'good'?",
+          "options": [
+            { "id": "o1", "text": "Goodly" },
+            { "id": "o2", "text": "Well" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I6",
+          "interaction_id": "U2_B2_I2",
+          "type": "true_false",
+          "prompt_es": "¿'Fast' es tanto adjetivo como adverbio?",
+          "correct_answer": true,
+          "explanation": "Correcto. 'Fastly' no existe en inglés.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_B2_I3",
+          "type": "matching",
+          "prompt_es": "Une los irregulares:",
+          "pairs": [
+            { "id": "p1", "left": "Good (adj)", "right": "Well (adv)" },
+            { "id": "p2", "left": "Hard (adj)", "right": "Hard (adv)" },
+            { "id": "p3", "left": "Fast (adj)", "right": "Fast (adv)" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_B2_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Hablo inglés bien.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "speak" },
+            { "id": "w3", "text": "English" },
+            { "id": "w4", "text": "well" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_B2_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Él trabaja duro.'",
+          "stimulus_en": "He works ________.",
+          "correct_answer": "hard",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Práctica de Aplicación",
+      "content": [
+        {
+          "interaction_id": "U2_B3_I1",
           "type": "categorization",
-          "prompt_es": "Clasifica estos adverbios en Regulares e Irregulares:",
+          "prompt_es": "Clasifica en Adjetivo o Adverbio según la frase:",
           "categories": [
             {
               "id": "c1",
-              "title": "Regulares (-ly)",
-              "items": ["slowly", "quickly", "badly"]
+              "title": "Adjetivo",
+              "items": [
+                { "id": "i1", "text": "He is a SLOW driver" },
+                { "id": "i2", "text": "It's a GOOD book" }
+              ]
             },
             {
               "id": "c2",
-              "title": "Irregulares",
-              "items": ["well", "hard", "fast"]
+              "title": "Adverbio",
+              "items": [
+                { "id": "i3", "text": "He drives SLOWLY" },
+                { "id": "i4", "text": "She sings WELL" }
+              ]
             }
           ],
           "correct_answer": "categorization_logic",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I7",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Él conduce peligrosamente.'",
-          "stimulus_es": "Él conduce peligrosamente.",
-          "correct_answer": "He drives dangerously",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I8",
-          "type": "flashcard",
-          "prompt_es": "¿Cuál es el adverbio de 'fast'?",
-          "stimulus_en": "Fast",
-          "correct_answer": "Fast",
-          "explanation": "'Fast' es un adverbio irregular y no cambia.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I9",
-          "type": "reading-comprehension",
-          "title": "Adjective or Adverb?",
-          "text": "He is a dangerous driver. He drives dangerously because he is always in a hurry. However, he is a good person and speaks English well.",
-          "question": "¿Por qué usamos 'well' en lugar de 'good' al final?",
+          "interaction_id": "U2_B3_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
           "options": [
-            { "id": "o1", "text": "Porque describe cómo habla (verbo)." },
-            { "id": "o2", "text": "Porque se refiere a la persona (sustantivo)." },
-            { "id": "o3", "text": "Porque es una excepción rara." }
+            { "id": "o1", "text": "I speak English good" },
+            { "id": "o2", "text": "I speak English well" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_B3_I3",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Podría hablar más bajito, por favor?'",
+          "options": [
+            { "id": "w1", "text": "Could" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "speak" },
+            { "id": "w4", "text": "more" },
+            { "id": "w5", "text": "quietly," },
+            { "id": "w6", "text": "please?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_B3_I4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Ella canta muy ________ (bien).'",
+          "stimulus_en": "She sings very ________.",
+          "correct_answer": "well",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_B3_I5",
+          "type": "true_false",
+          "prompt_es": "En 'He talked interestingly', 'interestingly' es un adverbio?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Repaso Final",
+      "content": [
+        {
+          "interaction_id": "U2_B4_I1",
+          "type": "reading-comprehension",
+          "title": "The Careful Driver",
+          "text": "My friend is a slow driver. He drives slowly because he wants to be safe. He always checks his mirrors carefully. He is a good driver and he knows the rules well.",
+          "question": "¿Por qué el amigo conduce despacio?",
+          "options": [
+            { "id": "o1", "text": "Porque quiere estar seguro (safe)." },
+            { "id": "o2", "text": "Porque su coche es viejo." },
+            { "id": "o3", "text": "Porque no sabe conducir." }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U2_I10",
+          "interaction_id": "U2_B4_I2",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ella escribe perfectamente en inglés.'",
+          "stimulus_es": "Ella escribe perfectamente en inglés.",
+          "correct_answer": "She writes perfectly in English",
+          "validation_regex": "^she writes perfectly in [Ee]nglish\\.?$",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_B4_I3",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se dice 'maravillosamente'?",
+          "stimulus_en": "Wonderfully",
+          "correct_answer": "Maravillosamente",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_B4_I4",
           "type": "multiple_choice",
-          "prompt_es": "Completa: 'You've cooked that meat ________ (wonderful).'",
+          "prompt_es": "Completa: 'I've got an ________ (fácil) job for you.'",
           "options": [
-            { "id": "o1", "text": "wonderfully" },
-            { "id": "o2", "text": "wonderful" },
-            { "id": "o3", "text": "wonderfuly" }
+            { "id": "o1", "text": "easy" },
+            { "id": "o2", "text": "easily" }
           ],
           "correct_answer": "o1",
+          "explanation": "Necesitamos un adjetivo para describir el sustantivo 'job'.",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_B4_I5",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Has cocinado esa carne de maravilla.'",
+          "options": [
+            { "id": "w1", "text": "You've" },
+            { "id": "w2", "text": "cooked" },
+            { "id": "w3", "text": "that" },
+            { "id": "w4", "text": "meat" },
+            { "id": "w5", "text": "wonderfully" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
         }
       ]
     }

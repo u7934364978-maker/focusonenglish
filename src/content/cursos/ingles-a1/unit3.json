@@ -15,126 +15,274 @@
   ],
   "blocks": [
     {
-      "block_id": "B3",
-      "title": "Adverbios de Frecuencia",
+      "block_id": "B1",
+      "title": "Adverbios de Frecuencia (Grupo 1)",
       "content": [
         {
-          "interaction_id": "U3_I1",
+          "interaction_id": "U3_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde se coloca 'always' si el verbo es 'to be'?",
+          "prompt_es": "¿Dónde se coloca 'always' con verbos normales (no to be)?",
+          "options": [
+            { "id": "o1", "text": "Entre el sujeto y el verbo" },
+            { "id": "o2", "text": "Al final de la frase" }
+          ],
+          "correct_answer": "o1",
+          "explanation": "Ejemplo: 'I always go to school'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_B1_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Y con el verbo 'to be'?",
           "options": [
             { "id": "o1", "text": "Delante del verbo" },
             { "id": "o2", "text": "Detrás del verbo" }
           ],
           "correct_answer": "o2",
-          "explanation": "Con el verbo 'to be', el adverbio de frecuencia va después: 'She is always at home'.",
+          "explanation": "Ejemplo: 'She is always at home'.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_I2",
-          "type": "true_false",
-          "prompt_es": "¿Es correcto decir 'Every Tuesdays I go to the gym'?",
-          "correct_answer": false,
-          "explanation": "Incorrecto. 'Every' siempre va seguido de singular: 'Every Tuesday'.",
-          "mastery_tag": "grammar"
+          "interaction_id": "U3_B1_I3",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Normalmente me levanto a las 7.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "usually" },
+            { "id": "w3", "text": "get" },
+            { "id": "w4", "text": "up" },
+            { "id": "w5", "text": "at" },
+            { "id": "w6", "text": "7" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U3_I3",
+          "interaction_id": "U3_B1_I4",
           "type": "matching",
-          "prompt_es": "Une las expresiones de frecuencia con su traducción:",
+          "prompt_es": "Une los adverbios con su frecuencia aproximada:",
           "pairs": [
-            { "id": "p1", "left": "Once a week", "right": "Una vez a la semana" },
-            { "id": "p2", "left": "Twice a month", "right": "Dos veces al mes" },
-            { "id": "p3", "left": "Every day", "right": "Todos los días" },
-            { "id": "p4", "left": "Hardly ever", "right": "Casi nunca" }
+            { "id": "p1", "left": "Always", "right": "100%" },
+            { "id": "p2", "left": "Often", "right": "70%" },
+            { "id": "p3", "left": "Sometimes", "right": "50%" },
+            { "id": "p4", "left": "Never", "right": "0%" }
           ],
           "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U3_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase: 'A menudo voy a la cama antes de las 11.'",
+          "interaction_id": "U3_B1_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A menudo veo la tele por la noche.'",
+          "stimulus_en": "I ________ watch TV in the evening.",
+          "correct_answer": "often",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Expresiones de Frecuencia (Grupo 2)",
+      "content": [
+        {
+          "interaction_id": "U3_B2_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde suelen ir expresiones como 'every day'?",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "often" },
-            { "id": "w3", "text": "go" },
-            { "id": "w4", "text": "to" },
-            { "id": "w5", "text": "bed" },
-            { "id": "w6", "text": "before" },
-            { "id": "w7", "text": "11" }
+            { "id": "o1", "text": "Al principio o al final de la frase" },
+            { "id": "o2", "text": "Solo entre sujeto y verbo" }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "explanation": "Ejemplo: 'Every day I work' o 'I work every day'.",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe el día en inglés (¡cuidado con la mayúscula!): 'I work every ________ (lunes).'",
-          "stimulus_en": "I work every ________.",
-          "correct_answer": "Monday",
+          "interaction_id": "U3_B2_I2",
+          "type": "true_false",
+          "prompt_es": "¿Es correcto decir 'Every Mondays'?",
+          "correct_answer": false,
+          "explanation": "'Every' siempre va seguido de singular: 'Every Monday'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_B2_I3",
+          "type": "matching",
+          "prompt_es": "Une la expresión con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Once a month", "right": "Una vez al mes" },
+            { "id": "p2", "left": "Twice a week", "right": "Dos veces a la semana" },
+            { "id": "p3", "left": "Every day", "right": "Todos los días" },
+            { "id": "p4", "left": "On Tuesdays", "right": "Los martes" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U3_I6",
+          "interaction_id": "U3_B2_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Voy al gimnasio dos veces a la semana.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "go" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "gym" },
+            { "id": "w6", "text": "twice" },
+            { "id": "w7", "text": "a" },
+            { "id": "w8", "text": "week" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_B2_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Casi nunca voy al cine.'",
+          "stimulus_en": "I ________ ever go to the cinema.",
+          "correct_answer": "hardly",
+          "explanation": "'Hardly ever' significa 'casi nunca'.",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Mayúsculas y Días",
+      "content": [
+        {
+          "interaction_id": "U3_B3_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuáles de estos se escriben SIEMPRE con mayúscula en inglés?",
+          "options": [
+            { "id": "o1", "text": "Días de la semana y meses" },
+            { "id": "o2", "text": "Días de la semana (los meses no)" },
+            { "id": "o3", "text": "Ninguno, solo al principio de frase" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "culture"
+        },
+        {
+          "interaction_id": "U3_B3_I2",
           "type": "categorization",
-          "prompt_es": "Clasifica según su posición habitual:",
+          "prompt_es": "Clasifica según su posición habitual (Grupo 1 vs Grupo 2):",
           "categories": [
             {
               "id": "c1",
-              "title": "Entre Sujeto y Verbo",
-              "items": ["Always", "Never", "Hardly ever"]
+              "title": "Grupo 1 (Sujeto - Verbo)",
+              "items": [
+                { "id": "i1", "text": "Always" },
+                { "id": "i2", "text": "Never" },
+                { "id": "i3", "text": "Hardly ever" }
+              ]
             },
             {
               "id": "c2",
-              "title": "Principio o Final de frase",
-              "items": ["Every day", "Once a month", "On Mondays"]
+              "title": "Grupo 2 (Inicio/Final)",
+              "items": [
+                { "id": "i4", "text": "Every day" },
+                { "id": "i5", "text": "Once a year" },
+                { "id": "i6", "text": "Every Monday" }
+              ]
             }
           ],
           "correct_answer": "categorization_logic",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_I7",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Casi nunca voy al cine.'",
-          "stimulus_es": "Casi nunca voy al cine.",
-          "correct_answer": "I hardly ever go to the cinema",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I8",
-          "type": "flashcard",
-          "prompt_es": "¿Cómo se dice 'dos veces a la semana'?",
-          "stimulus_en": "Twice a week",
-          "correct_answer": "Dos veces a la semana",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I9",
-          "type": "reading-comprehension",
-          "title": "My Routine",
-          "text": "I usually get up at 7. Every Monday I have my English class. I always go to school by bus, but sometimes I walk. I never arrive late.",
-          "question": "¿Qué hace siempre (always) el protagonista?",
+          "interaction_id": "U3_B3_I3",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Con qué frecuencia tienes clases de italiano?'",
           "options": [
-            { "id": "o1", "text": "Ir al colegio en autobús." },
-            { "id": "o2", "text": "Llegar tarde." },
-            { "id": "o3", "text": "Caminar al trabajo." }
+            { "id": "w1", "text": "How" },
+            { "id": "w2", "text": "often" },
+            { "id": "w3", "text": "do" },
+            { "id": "w4", "text": "you" },
+            { "id": "w5", "text": "have" },
+            { "id": "w6", "text": "Italian" },
+            { "id": "w7", "text": "classes?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_B3_I4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (¡cuidado con la mayúscula!): 'Mi cumpleaños es en mayo.'",
+          "stimulus_en": "My birthday is in ________.",
+          "correct_answer": "May",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_B3_I5",
+          "type": "true_false",
+          "prompt_es": "¿Es correcto escribir 'i'm learning english'?",
+          "correct_answer": false,
+          "explanation": "Tanto 'I' (yo) como 'English' (idioma) deben ir en mayúscula.",
+          "mastery_tag": "culture"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Repaso de Rutinas",
+      "content": [
+        {
+          "interaction_id": "U3_B4_I1",
+          "type": "reading-comprehension",
+          "title": "Jennifer's Routine",
+          "text": "Jennifer usually goes out to see a concert twice a month. She often watches TV in the evenings, but she never drinks coffee late. Every Monday she goes to her English class.",
+          "question": "¿Qué hace Jennifer los lunes?",
+          "options": [
+            { "id": "o1", "text": "Va a clase de inglés." },
+            { "id": "o2", "text": "Va a un concierto." },
+            { "id": "o3", "text": "Bebe café." }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U3_I10",
+          "interaction_id": "U3_B4_I2",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ella nunca bebe café por la noche.'",
+          "stimulus_es": "Ella nunca bebe café por la noche.",
+          "correct_answer": "She never drinks coffee in the evening",
+          "validation_regex": "^she never drinks coffee in the evening\\.?$",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_B4_I3",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se dice 'apenas' / 'casi nunca'?",
+          "stimulus_en": "Hardly ever",
+          "correct_answer": "Apenas / Casi nunca",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_B4_I4",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcta siguiendo la regla de las mayúsculas?",
+          "prompt_es": "Completa: 'The bus ________ (normalmente) arrives late.'",
           "options": [
-            { "id": "o1", "text": "My birthday is in May." },
-            { "id": "o2", "text": "My birthday is in may." },
-            { "id": "o3", "text": "my birthday is in May." }
+            { "id": "o1", "text": "usually" },
+            { "id": "o2", "text": "sometimes" },
+            { "id": "o3", "text": "never" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_B4_I5",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Los estudiantes usan a menudo el diccionario.'",
+          "options": [
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "students" },
+            { "id": "w3", "text": "often" },
+            { "id": "w4", "text": "use" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "dictionary" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
         }
       ]
     }

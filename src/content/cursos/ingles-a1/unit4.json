@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit4",
-    "unit_title": "Sequence & Time",
+    "unit_title": "Sequencing & Connectors",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
@@ -9,134 +9,278 @@
   },
   "learning_outcomes": [
     "Diferenciar entre 'After', 'Then' y 'Afterwards'",
-    "Aprender los números ordinales básicos",
-    "Saber escribir y decir la fecha en inglés",
-    "Comprender la diferencia entre el formato británico y americano de fechas"
+    "Usar correctamente 'After' como preposición y conjunción",
+    "Aprender a conectar acciones cronológicamente",
+    "Evitar errores comunes de traducción directa del español"
   ],
   "blocks": [
     {
-      "block_id": "B4",
-      "title": "Conectores y Secuencia",
+      "block_id": "B1",
+      "title": "Uso de 'After'",
       "content": [
         {
-          "interaction_id": "U4_I1",
+          "interaction_id": "U4_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál de estos se traduce por 'después de' y va seguido de sustantivo?",
+          "prompt_es": "Como preposición, 'After' va seguido de:",
           "options": [
-            { "id": "o1", "text": "After" },
-            { "id": "o2", "text": "Then" },
-            { "id": "o3", "text": "Afterwards" }
+            { "id": "o1", "text": "Un sustantivo (Noun)" },
+            { "id": "o2", "text": "Un verbo solo" }
           ],
           "correct_answer": "o1",
-          "explanation": "'After' es una preposición que significa 'después de': 'After lunch'.",
+          "explanation": "Ejemplo: 'After lunch' (Después de la comida).",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U4_I2",
-          "type": "true_false",
-          "prompt_es": "¿'Then' siempre va seguido de Sujeto y Verbo?",
-          "correct_answer": true,
-          "explanation": "'Then' es un adverbio que indica correlación: 'I get up and then I get dressed'.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U4_I3",
-          "type": "matching",
-          "prompt_es": "Une los números ordinales con su abreviatura:",
-          "pairs": [
-            { "id": "p1", "left": "First", "right": "1st" },
-            { "id": "p2", "left": "Second", "right": "2nd" },
-            { "id": "p3", "left": "Third", "right": "3rd" },
-            { "id": "p4", "left": "Fourth", "right": "4th" }
+          "interaction_id": "U4_B1_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Como conjunción, 'After' va seguido de:",
+          "options": [
+            { "id": "o1", "text": "Una oración completa (Sujeto + Verbo)" },
+            { "id": "o2", "text": "Solo un adjetivo" }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1",
+          "explanation": "Ejemplo: 'After I have a shower'.",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U4_I4",
+          "interaction_id": "U4_B1_I3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Te llamaré después de clase.'",
+          "stimulus_en": "I'll call you ________ class.",
+          "correct_answer": "after",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_B1_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase: 'Desayuno después de ducharme.'",
+          "prompt_es": "Ordena: 'Hago los deberes después de la comida.'",
           "options": [
             { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "have" },
-            { "id": "w3", "text": "breakfast" },
-            { "id": "w4", "text": "after" },
-            { "id": "w5", "text": "I" },
-            { "id": "w6", "text": "have" },
-            { "id": "w7", "text": "a" },
-            { "id": "w8", "text": "shower" }
+            { "id": "w2", "text": "do" },
+            { "id": "w3", "text": "my" },
+            { "id": "w4", "text": "homework" },
+            { "id": "w5", "text": "after" },
+            { "id": "w6", "text": "lunch" }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U4_I5",
+          "interaction_id": "U4_B1_I5",
+          "type": "true_false",
+          "prompt_es": "¿En inglés se puede traducir 'después de comer' como 'after to eat'?",
+          "correct_answer": false,
+          "explanation": "Se usa un sustantivo ('after lunch') o una oración ('after I eat'). 'After to eat' es incorrecto.",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Then vs Afterwards",
+      "content": [
+        {
+          "interaction_id": "U4_B2_I1",
+          "type": "multiple_choice",
+          "prompt_es": "'Then' se traduce como:",
+          "options": [
+            { "id": "o1", "text": "Después / Luego / Entonces" },
+            { "id": "o2", "text": "Después de" }
+          ],
+          "correct_answer": "o1",
+          "explanation": "'Then' no lleva 'de' detrás, a diferencia de 'After'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_B2_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa con el conector correcto: 'I get up and ________ I have a shower.'",
-          "stimulus_en": "I get up and ________ I have a shower.",
+          "prompt_es": "Completa: 'Me levanto y LUEGO me visto.'",
+          "stimulus_en": "I get up and ________ I get dressed.",
           "correct_answer": "then",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U4_I6",
+          "interaction_id": "U4_B2_I3",
+          "type": "matching",
+          "prompt_es": "Une los conectores con su uso:",
+          "pairs": [
+            { "id": "p1", "left": "After + Noun", "right": "Después de [Algo]" },
+            { "id": "p2", "left": "Then", "right": "Luego / Después" },
+            { "id": "p3", "left": "Afterwards", "right": "Más tarde (sinónimo de then)" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_B2_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Él fue a la carnicería y después fue a la panadería.'",
+          "options": [
+            { "id": "w1", "text": "He" },
+            { "id": "w2", "text": "went" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "butcher's" },
+            { "id": "w6", "text": "and" },
+            { "id": "w7", "text": "then" },
+            { "id": "w8", "text": "he" },
+            { "id": "w9", "text": "went" },
+            { "id": "w10", "text": "to" },
+            { "id": "w11", "text": "the" },
+            { "id": "w12", "text": "baker's" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9", "w10", "w11", "w12"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U4_B2_I5",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se dice 'más tarde' o 'después' (adverbio solo)?",
+          "stimulus_en": "Afterwards",
+          "correct_answer": "Más tarde / Después",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Errores Comunes",
+      "content": [
+        {
+          "interaction_id": "U4_B3_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta?",
+          "options": [
+            { "id": "o1", "text": "Do you have a car?" },
+            { "id": "o2", "text": "Do you have car?" }
+          ],
+          "correct_answer": "o1",
+          "explanation": "Los sustantivos contables singulares necesitan artículo (a/an).",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_B3_I2",
+          "type": "true_false",
+          "prompt_es": "¿'Children' puede llevar 's' de plural (childrens)?",
+          "correct_answer": false,
+          "explanation": "'Children' ya es el plural de 'child'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_B3_I3",
           "type": "categorization",
-          "prompt_es": "Clasifica según el formato de fecha:",
+          "prompt_es": "Clasifica estas palabras como Contables o Incontables:",
           "categories": [
             {
               "id": "c1",
-              "title": "Británico (Día + Mes)",
-              "items": ["24th September", "18th May"]
+              "title": "Incontables (No llevan -s)",
+              "items": [
+                { "id": "i1", "text": "Information" },
+                { "id": "i2", "text": "Homework" },
+                { "id": "i3", "text": "Money" }
+              ]
             },
             {
               "id": "c2",
-              "title": "Americano (Mes + Día)",
-              "items": ["September 24th", "May 18th"]
+              "title": "Contables (Llevan -s)",
+              "items": [
+                { "id": "i4", "text": "Car" },
+                { "id": "i5", "text": "Bottle" },
+                { "id": "i6", "text": "Notebook" }
+              ]
             }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "culture"
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U4_I7",
+          "interaction_id": "U4_B3_I4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'En internet' se dice...",
+          "stimulus_en": "________ the Internet",
+          "correct_answer": "on",
+          "explanation": "Siempre usamos 'on' con 'the Internet'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_B3_I5",
           "type": "short_writing",
-          "prompt_es": "Escribe en inglés: '10 de mayo' (Formato británico)",
-          "stimulus_es": "10 de mayo",
-          "correct_answer": "10th May",
-          "mastery_tag": "vocabulary"
-        },
+          "prompt_es": "Traduce: 'Mi amigo tiene mucho dinero.'",
+          "stimulus_es": "Mi amigo tiene mucho dinero.",
+          "correct_answer": "My friend has a lot of money",
+          "validation_regex": "^my friend has a lot of money\\.?$",
+          "explanation": "En frases afirmativas preferimos 'a lot of' en lugar de 'much'.",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Práctica de Secuencia",
+      "content": [
         {
-          "interaction_id": "U4_I8",
-          "type": "flashcard",
-          "prompt_es": "¿Cuál es el ordinal de 'twelve' (doce)?",
-          "stimulus_en": "Twelfth",
-          "correct_answer": "12th",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I9",
+          "interaction_id": "U4_B4_I1",
           "type": "reading-comprehension",
           "title": "A Morning Routine",
-          "text": "He wakes up and then he has a shower. After his shower, he has an orange juice for breakfast and then he leaves home. Today is the 22nd of April.",
-          "question": "¿Qué toma para desayunar?",
+          "text": "He wakes up and then he has a shower. After his shower, he has an orange juice for breakfast and then he leaves home.",
+          "question": "¿Cuándo toma el zumo de naranja?",
           "options": [
-            { "id": "o1", "text": "An orange juice." },
-            { "id": "o2", "text": "Coffee." },
-            { "id": "o3", "text": "Nothing." }
+            { "id": "o1", "text": "Después de ducharse." },
+            { "id": "o2", "text": "Antes de despertarse." },
+            { "id": "o3", "text": "Después de irse de casa." }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U4_I10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '421º' en ordinal?",
+          "interaction_id": "U4_B4_I2",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ella limpia la casa y luego va de compras.'",
           "options": [
-            { "id": "o1", "text": "four hundred and twenty-first" },
-            { "id": "o2", "text": "four hundred and twenty-one" },
-            { "id": "o3", "text": "four hundred and twenty-th" }
+            { "id": "w1", "text": "She" },
+            { "id": "w2", "text": "does" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "housework" },
+            { "id": "w5", "text": "and" },
+            { "id": "w6", "text": "then" },
+            { "id": "w7", "text": "she" },
+            { "id": "w8", "text": "goes" },
+            { "id": "w9", "text": "shopping" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U4_B4_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Completa: 'We can discuss it ________ lunch.'",
+          "options": [
+            { "id": "o1", "text": "after" },
+            { "id": "o2", "text": "then" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_B4_I4",
+          "type": "matching",
+          "prompt_es": "Une los errores con su corrección:",
+          "pairs": [
+            { "id": "p1", "left": "In Internet", "right": "On the Internet" },
+            { "id": "p2", "left": "3 childrens", "right": "3 children" },
+            { "id": "p3", "left": "Homeworks", "right": "Homework" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_B4_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Tienes un coche?'",
+          "stimulus_es": "¿Tienes un coche?",
+          "correct_answer": "Do you have a car?",
+          "validation_regex": "^do you have a car\\??$",
+          "mastery_tag": "grammar"
         }
       ]
     }
