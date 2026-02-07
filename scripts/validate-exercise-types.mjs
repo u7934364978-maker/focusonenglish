@@ -206,6 +206,11 @@ const VALIDATION_RULES = {
         optional: ['acceptableAlternatives', 'explanation']
       }
     }
+  },
+  'multiple-choice': {
+    required: ['id', 'type', 'question', 'correctAnswer', 'points'],
+    optional: ['options', 'explanation'],
+    nested: {}
   }
 };
 
@@ -366,11 +371,12 @@ async function main() {
   console.log('Validating exercises against their type-specific schemas\n');
   console.log('=' .repeat(80));
   
-  const libDir = path.join(__dirname, '..', 'lib');
-  
+  const libDir = path.join(__dirname, '..', 'src', 'lib');
+
   const filesToCheck = [
     'course-data-a1.ts',
     'course-data-b2.ts',
+    'a1-expansion-content.ts',
     'b2-improvements-part1-open-cloze.ts',
     'b2-improvements-part2-gapped-text.ts',
     'b2-improvements-part3-multiple-matching.ts',

@@ -15,6 +15,17 @@ import { A1_M2_L1_ALL_EXERCISES } from './a1-m2-l1-detailed';
 import { A1_M2_L2_ALL_EXERCISES } from './a1-m2-l2-detailed';
 import { A1_M2_L3_ALL_EXERCISES } from './a1-m2-l3-detailed';
 import { A1_M3_L1_ALL_EXERCISES } from './a1-m3-l1-detailed';
+import { 
+  A1_EXP_ADJECTIVES, 
+  A1_EXP_ADVERBS, 
+  A1_EXP_CONNECTORS, 
+  A1_EXP_COMMON_MISTAKES, 
+  A1_EXP_POSSESSION, 
+  A1_EXP_CAPITALS, 
+  A1_EXP_DATES, 
+  A1_EXP_TRANSPORT, 
+  A1_EXP_PLACE 
+} from './a1-expansion-content';
 
 import type { 
   Exercise, 
@@ -57,7 +68,7 @@ export const MODULE_1_LESSONS: Lesson[] = [
     description: 'Review all topics from Month 1 and take the first monthly evaluation',
     duration: 90,
     objectives: ['Review Month 1 topics', 'Complete monthly evaluation'],
-    exercises: A1_M1_L6_ALL_EXERCISES as Exercise[]
+    exercises: [...(A1_M1_L6_ALL_EXERCISES as Exercise[]), ...A1_EXP_COMMON_MISTAKES]
   },
 ];
 
@@ -73,7 +84,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
     description: 'Learn vocabulary about family members and relationships',
     duration: 90,
     objectives: ['Learn family vocabulary', 'Describe relationships'],
-    exercises: A1_M1_L5_ALL_EXERCISES as Exercise[]
+    exercises: [...(A1_M1_L5_ALL_EXERCISES as Exercise[]), ...A1_EXP_ADJECTIVES]
   },
   {
     id: 'a1-m2-l2',
@@ -89,7 +100,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
     description: 'Learn how to express possession in English',
     duration: 90,
     objectives: ['Master possessive adjectives', 'Use genitive case'],
-    exercises: A1_M2_L2_ALL_EXERCISES as Exercise[]
+    exercises: [...(A1_M2_L2_ALL_EXERCISES as Exercise[]), ...A1_EXP_POSSESSION]
   },
   {
     id: 'a1-m2-l4',
@@ -97,7 +108,7 @@ export const MODULE_2_LESSONS: Lesson[] = [
     description: 'Review Month 2 topics and evaluation',
     duration: 90,
     objectives: ['Review Month 2 topics', 'Complete monthly evaluation'],
-    exercises: A1_M1_L7_ALL_EXERCISES as Exercise[]
+    exercises: [...(A1_M1_L7_ALL_EXERCISES as Exercise[]), ...A1_EXP_COMMON_MISTAKES]
   }
 ];
 // ===============================================
@@ -111,7 +122,7 @@ export const MODULE_3_LESSONS: Lesson[] = [
     description: 'Learn to describe your daily activities using present simple',
     duration: 90,
     objectives: ['Describe daily routine', 'Use present simple'],
-    exercises: A1_M2_L1_ALL_EXERCISES as Exercise[]
+    exercises: [...(A1_M2_L1_ALL_EXERCISES as Exercise[]), ...A1_EXP_ADVERBS, ...A1_EXP_CONNECTORS]
   },
   {
     id: 'a1-m3-l2',
@@ -119,7 +130,7 @@ export const MODULE_3_LESSONS: Lesson[] = [
     description: 'Learn how to tell the time and talk about calendar dates',
     duration: 90,
     objectives: ['Tell the time', 'Learn calendar vocabulary'],
-    exercises: A1_M1_L3_ALL_EXERCISES as Exercise[]
+    exercises: [...(A1_M1_L3_ALL_EXERCISES as Exercise[]), ...A1_EXP_CAPITALS, ...A1_EXP_DATES]
   },
   {
     id: 'a1-m3-l3',
@@ -171,7 +182,7 @@ export const MODULE_5_LESSONS: Lesson[] = [
     description: 'Vocabulary for city locations and giving directions',
     duration: 90,
     objectives: ['Learn city vocabulary', 'Give directions'],
-    exercises: []
+    exercises: [...A1_EXP_TRANSPORT, ...A1_EXP_PLACE]
   }
 ];
 

@@ -156,11 +156,12 @@ async function main() {
   console.log('Checking for missing or empty exercise statements (title, instructions, prompt, question)\n');
   console.log('=' .repeat(80));
   
-  const libDir = path.join(__dirname, '..', 'lib');
+  const libDir = path.join(__dirname, '..', 'src', 'lib');
   
   const filesToCheck = [
     'course-data-a1.ts',
     'course-data-b2.ts',
+    'a1-expansion-content.ts',
     'b2-improvements-part1-open-cloze.ts',
     'b2-improvements-part2-gapped-text.ts',
     'b2-improvements-part3-multiple-matching.ts',
