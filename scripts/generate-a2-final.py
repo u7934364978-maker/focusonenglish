@@ -338,6 +338,73 @@ def generate_matching(unit_id, int_id, topic_data):
         "mastery_tag": "vocabulary"
     }
 
+def generate_categorization(unit_id, int_id, topic_data):
+    # Split items into two categories
+    items = topic_data.get("items", [])
+    categories = [
+        {"id": "cat1", "title": "Category A", "items": []},
+        {"id": "cat2", "title": "Category B", "items": []}
+    ]
+    if items:
+        for i, item in enumerate(items[:6]):
+            cat_idx = i % 2
+            text = item[1] if len(item) == 4 else item[1]
+            categories[cat_idx]["items"].append({"id": f"item{i}", "text": text})
+    else:
+        categories[0]["items"] = [{"id": "i1", "text": "Dog"}, {"id": "i2", "text": "Cat"}]
+        categories[1]["items"] = [{"id": "i3", "text": "Apple"}, {"id": "i4", "text": "Banana"}]
+        categories[0]["title"] = "Animals"
+        categories[1]["title"] = "Fruits"
+
+    return {
+        "interaction_id": f"unit{unit_id}-i{int_id}",
+        "type": "categorization",
+        "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+        "categories": categories,
+        "mastery_tag": "vocabulary"
+    }
+
+def generate_dictation(unit_id, int_id, topic_data):
+    items = topic_data.get("items", [])
+    if items:
+        item = random.choice(items)
+        sentence = item[1]
+    else:
+        sentence = "This is a simple dictation."
+
+    return {
+        "interaction_id": f"unit{unit_id}-i{int_id}",
+        "type": "dictation_guided",
+        "prompt_es": "Escucha y escribe lo que oyes:",
+        "tts_en": sentence,
+        "correct_answer": sentence,
+        "mastery_tag": "listening"
+    }
+
+def generate_role_play(unit_id, int_id, topic_data):
+    items = topic_data.get("items", [])
+    if items:
+        item = random.choice(items)
+        stimulus = item[1]
+        correct = item[1]
+    else:
+        stimulus = "Hello, how are you?"
+        correct = "I am fine, thank you."
+
+    return {
+        "interaction_id": f"unit{unit_id}-i{int_id}",
+        "type": "role_play",
+        "prompt_es": "Responde a la siguiente situación:",
+        "stimulus_en": stimulus,
+        "options": [
+            {"id": "o1", "text": correct},
+            {"id": "o2", "text": "Incorrect response"},
+            {"id": "o3", "text": "Wrong answer"}
+        ],
+        "correct_answer": "o1",
+        "mastery_tag": "speaking"
+    }
+
 def generate_unit(unit_id):
     if unit_id <= 10:
         topic_info = GRAMMAR_DATA[unit_id]
@@ -348,21 +415,30 @@ def generate_unit(unit_id):
         topic_info = GRAMMAR_DATA[random.randint(1, 10)]
 
     interactions = []
-    # 20 MC
-    for i in range(20):
+    # 10 MC
+    for i in range(10):
         interactions.append(generate_mc(unit_id, len(interactions), topic_info))
-    # 20 Reorder
-    for i in range(20):
+    # 10 Reorder
+    for i in range(10):
         interactions.append(generate_reorder(unit_id, len(interactions), topic_info))
     # 20 Fill
     for i in range(20):
         interactions.append(generate_fill(unit_id, len(interactions), topic_info))
-    # 20 True/False
-    for i in range(20):
+    # 15 True/False
+    for i in range(15):
         interactions.append(generate_tf(unit_id, len(interactions), topic_info))
-    # 20 Matching
-    for i in range(20):
+    # 15 Matching
+    for i in range(15):
         interactions.append(generate_matching(unit_id, len(interactions), topic_info))
+    # 10 Categorization
+    for i in range(10):
+        interactions.append(generate_categorization(unit_id, len(interactions), topic_info))
+    # 10 Dictation
+    for i in range(10):
+        interactions.append(generate_dictation(unit_id, len(interactions), topic_info))
+    # 10 Role Play
+    for i in range(10):
+        interactions.append(generate_role_play(unit_id, len(interactions), topic_info))
 
     # Shuffle interactions to mix types
     random.shuffle(interactions)
