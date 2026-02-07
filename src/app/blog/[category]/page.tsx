@@ -36,6 +36,12 @@ const categoryMetadata: Record<string, { name: string, description: string, icon
     description: "Técnicas y estrategias efectivas basadas en la ciencia para aprender inglés más rápido.",
     icon: "🎯",
     color: "from-amber-600 to-orange-600"
+  },
+  seo: {
+    name: "Cursos y Guías de Inglés",
+    description: "Aprende con nuestras guías completas por niveles y cursos especializados para profesionales y viajeros.",
+    icon: "🎓",
+    color: "from-blue-600 to-indigo-600"
   }
 };
 
