@@ -8,9 +8,9 @@
 
 ## Phase 2: Implementation & Batch 1
 - [x] Create `scripts/generate-a2-course.ts` with batch generation capabilities.
-- [ ] Generate exercises for Units 1-10 (500 exercises).
-- [ ] Create SQL migration for Units 1-10.
-- [ ] **Verification**: Run `npm run lint` and manually check sample exercises.
+- [x] Generate exercises for Units 1-10 (500 exercises).
+- [x] Create SQL migration for Units 1-10.
+- [x] **Verification**: Run `npm run lint` and manually check sample exercises.
 
 ## Phase 3: Batch Generation (Remaining Units)
 - [ ] Generate Batch 2 (Units 11-20).

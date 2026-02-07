@@ -56,13 +56,18 @@ async function main() {
     let unitExercises: any[] = [];
     
     if (fs.existsSync(unitFile)) {
-      console.log(`📦 Unit ${unitId} already exists, skipping...`);
-      continue;
+      const existing = JSON.parse(fs.readFileSync(unitFile, 'utf-8'));
+      if (existing.length >= EXERCISES_PER_UNIT) {
+        console.log(`📦 Unit ${unitId} already exists and is complete, skipping...`);
+        continue;
+      }
+      console.log(`🔄 Resuming Unit ${unitId} (${existing.length}/${EXERCISES_PER_UNIT})...`);
+      unitExercises = existing;
     }
 
     console.log(`\n--- Unit ${unitId}: ${unit.title} ---`);
 
-    for (let i = 0; i < EXERCISES_PER_UNIT; i++) {
+    for (let i = unitExercises.length; i < EXERCISES_PER_UNIT; i++) {
       const exerciseType = EXERCISE_TYPES[i % EXERCISE_TYPES.length];
       
       const customPrompt = `
