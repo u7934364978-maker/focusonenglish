@@ -34,11 +34,11 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "In Spain it's hot, ___ in England it rains.",
+          "stimulus_en": "You’ve cooked that meat ___.",
           "options": [
             {
               "id": "o1",
-              "text": "while"
+              "text": "wonderfully"
             },
             {
               "id": "o3",
@@ -46,7 +46,7 @@
             },
             {
               "id": "o2",
-              "text": "whereas"
+              "text": "wonderful"
             }
           ],
           "correct_answer": "o1",
@@ -56,19 +56,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "___, she didn't hurt herself.",
+          "stimulus_en": "He drives ___.",
           "options": [
-            {
-              "id": "o2",
-              "text": "Unfortunately"
-            },
-            {
-              "id": "o1",
-              "text": "Fortunately"
-            },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o1",
+              "text": "slowly"
+            },
+            {
+              "id": "o2",
+              "text": "slow"
             }
           ],
           "correct_answer": "o1",
@@ -78,19 +78,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It is raining. ___, it is not cold.",
+          "stimulus_en": "He drives ___.",
           "options": [
             {
-              "id": "o1",
-              "text": "Nonetheless"
-            },
-            {
               "id": "o2",
-              "text": "However"
+              "text": "dangerous"
             },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o1",
+              "text": "dangerously"
             }
           ],
           "correct_answer": "o1",
@@ -100,19 +100,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "___, I didn't pass.",
+          "stimulus_en": "He drives ___.",
           "options": [
             {
-              "id": "o3",
-              "text": "other"
+              "id": "o2",
+              "text": "slow"
             },
             {
               "id": "o1",
-              "text": "Unfortunately"
+              "text": "slowly"
             },
             {
-              "id": "o2",
-              "text": "Fortunately"
+              "id": "o3",
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -122,19 +122,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It is raining. ___, it is not cold.",
+          "stimulus_en": "He drives ___.",
           "options": [
+            {
+              "id": "o1",
+              "text": "slowly"
+            },
             {
               "id": "o3",
               "text": "other"
             },
             {
               "id": "o2",
-              "text": "However"
-            },
-            {
-              "id": "o1",
-              "text": "Nonetheless"
+              "text": "slow"
             }
           ],
           "correct_answer": "o1",
@@ -144,11 +144,11 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "The teacher bought sweets ___ cookies.",
+          "stimulus_en": "Speak more ___, please.",
           "options": [
             {
               "id": "o2",
-              "text": "as well"
+              "text": "quiet"
             },
             {
               "id": "o3",
@@ -156,7 +156,7 @@
             },
             {
               "id": "o1",
-              "text": "as well as"
+              "text": "quietly"
             }
           ],
           "correct_answer": "o1",
@@ -166,19 +166,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "The teacher bought sweets ___ cookies.",
+          "stimulus_en": "Speak more ___, please.",
           "options": [
             {
-              "id": "o3",
-              "text": "other"
-            },
-            {
               "id": "o2",
-              "text": "as well"
+              "text": "quiet"
             },
             {
               "id": "o1",
-              "text": "as well as"
+              "text": "quietly"
+            },
+            {
+              "id": "o3",
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -188,19 +188,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "In Spain it's hot, ___ in England it rains.",
+          "stimulus_en": "He is a ___ driver.",
           "options": [
+            {
+              "id": "o2",
+              "text": "dangerously"
+            },
             {
               "id": "o3",
               "text": "other"
             },
             {
-              "id": "o2",
-              "text": "whereas"
-            },
-            {
               "id": "o1",
-              "text": "while"
+              "text": "dangerous"
             }
           ],
           "correct_answer": "o1",
@@ -213,7 +213,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "Fortunately"
+              "text": "perfect"
             }
           ],
           "correct_answer": [
@@ -228,7 +228,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "Unfortunately"
+              "text": "well"
             }
           ],
           "correct_answer": [
@@ -243,21 +243,11 @@
           "options": [
             {
               "id": "w0",
-              "text": "as"
-            },
-            {
-              "id": "w1",
               "text": "well"
-            },
-            {
-              "id": "w2",
-              "text": "as"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U17_I12"
@@ -268,7 +258,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "while"
+              "text": "interestingly"
             }
           ],
           "correct_answer": [
@@ -283,16 +273,11 @@
           "options": [
             {
               "id": "w0",
-              "text": "as"
-            },
-            {
-              "id": "w1",
-              "text": "well"
+              "text": "wonderfully"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U17_I14"
@@ -303,7 +288,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "whereas"
+              "text": "perfect"
             }
           ],
           "correct_answer": [
@@ -318,7 +303,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "Since"
+              "text": "wonderfully"
             }
           ],
           "correct_answer": [
@@ -333,7 +318,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "Unfortunately"
+              "text": "well"
             }
           ],
           "correct_answer": [
@@ -345,119 +330,119 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "In Spain shops close late. ___, in France they close early.",
-          "correct_answer": "In contrast",
+          "stimulus_en": "Could I have a ___ word with you?",
+          "correct_answer": "quick",
           "mastery_tag": "grammar",
           "interaction_id": "U17_I18"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "___, I didn't pass.",
-          "correct_answer": "Unfortunately",
+          "stimulus_en": "Speak more ___, please.",
+          "correct_answer": "quietly",
           "mastery_tag": "grammar",
           "interaction_id": "U17_I19"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I love the beach ___ my partner hates it.",
-          "correct_answer": "whereas",
+          "stimulus_en": "She writes in ___ English.",
+          "correct_answer": "perfect",
           "mastery_tag": "grammar",
           "interaction_id": "U17_I20"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "In Spain shops close late. ___, in France they close early.",
-          "correct_answer": "In contrast",
+          "stimulus_en": "He talked very ___ about his work.",
+          "correct_answer": "interestingly",
           "mastery_tag": "grammar",
           "interaction_id": "U17_I21"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I love the beach ___ my partner hates it.",
-          "correct_answer": "whereas",
+          "stimulus_en": "I speak English ___.",
+          "correct_answer": "well",
           "mastery_tag": "grammar",
           "interaction_id": "U17_I22"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "In Spain it's hot, ___ in England it rains.",
-          "correct_answer": "while",
+          "stimulus_en": "I’ve got an ___ job for you.",
+          "correct_answer": "easy",
           "mastery_tag": "grammar",
           "interaction_id": "U17_I23"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "He didn't study. ___, he failed.",
-          "correct_answer": "As a consequence",
+          "stimulus_en": "This is a ___ train.",
+          "correct_answer": "slow",
           "mastery_tag": "grammar",
           "interaction_id": "U17_I24"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "In Spain it's hot, ___ in England it rains.",
-          "correct_answer": "while",
+          "stimulus_en": "He talked very ___ about his work.",
+          "correct_answer": "interestingly",
           "mastery_tag": "grammar",
           "interaction_id": "U17_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"while\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"easy not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U17_I26"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"in contrast with\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"slowly not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U17_I27"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"as well as\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"well not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U17_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Nonetheless not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"interestingly not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U17_I29"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"In contrast\"",
+          "prompt_es": "¿Es correcta esta frase?: \"easy\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U17_I30"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"In contrast\"",
+          "prompt_es": "¿Es correcta esta frase?: \"dangerous\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U17_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"As a consequence not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"easy not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U17_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"whereas\"",
+          "prompt_es": "¿Es correcta esta frase?: \"dangerous\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U17_I33"
@@ -468,23 +453,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "In Spain it's hot, ___ in England it rains.",
-              "right": "while"
+              "left": "You’ve cooked that meat ___.",
+              "right": "wonderfully"
             },
             {
               "id": "p1",
-              "left": "My brother is blond, ___ our youngest brother has black hair.",
-              "right": "in contrast with"
+              "left": "I’ve got an ___ job for you.",
+              "right": "easy"
             },
             {
               "id": "p2",
-              "left": "___ you're working, I won't cook.",
-              "right": "Since"
+              "left": "Speak more ___, please.",
+              "right": "quietly"
             },
             {
               "id": "p3",
-              "left": "___, I didn't pass.",
-              "right": "Unfortunately"
+              "left": "She sings very ___.",
+              "right": "well"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -496,23 +481,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "___, she didn't hurt herself.",
-              "right": "Fortunately"
+              "left": "This is a ___ train.",
+              "right": "slow"
             },
             {
               "id": "p1",
-              "left": "My brother is blond, ___ our youngest brother has black hair.",
-              "right": "in contrast with"
+              "left": "She sings very ___.",
+              "right": "well"
             },
             {
               "id": "p2",
-              "left": "In Spain it's hot, ___ in England it rains.",
-              "right": "while"
+              "left": "I’ve got an ___ job for you.",
+              "right": "easy"
             },
             {
               "id": "p3",
-              "left": "I love the beach ___ my partner hates it.",
-              "right": "whereas"
+              "left": "You’ve cooked that meat ___.",
+              "right": "wonderfully"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -524,23 +509,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "The teacher bought sweets ___ cookies.",
-              "right": "as well as"
+              "left": "I’ve got an ___ job for you.",
+              "right": "easy"
             },
             {
               "id": "p1",
-              "left": "In Spain it's hot, ___ in England it rains.",
-              "right": "while"
+              "left": "I speak English ___.",
+              "right": "well"
             },
             {
               "id": "p2",
-              "left": "He didn't study. ___, he failed.",
-              "right": "As a consequence"
+              "left": "He drives ___.",
+              "right": "dangerously"
             },
             {
               "id": "p3",
-              "left": "___ you're working, I won't cook.",
-              "right": "Since"
+              "left": "She writes in ___ English.",
+              "right": "perfect"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -552,23 +537,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I like football. I like it ___.",
-              "right": "as well"
+              "left": "I’ve got an ___ job for you.",
+              "right": "easy"
             },
             {
               "id": "p1",
-              "left": "He didn't study. ___, he failed.",
-              "right": "As a consequence"
+              "left": "He is a ___ driver.",
+              "right": "dangerous"
             },
             {
               "id": "p2",
-              "left": "It is raining. ___, it is not cold.",
-              "right": "Nonetheless"
+              "left": "I speak English ___.",
+              "right": "well"
             },
             {
               "id": "p3",
-              "left": "___, I didn't pass.",
-              "right": "Unfortunately"
+              "left": "Speak more ___, please.",
+              "right": "quietly"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -580,23 +565,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "He didn't study. ___, he failed.",
-              "right": "As a consequence"
+              "left": "He drives ___.",
+              "right": "slowly"
             },
             {
               "id": "p1",
-              "left": "In Spain shops close late. ___, in France they close early.",
-              "right": "In contrast"
+              "left": "She writes in ___ English.",
+              "right": "perfect"
             },
             {
               "id": "p2",
-              "left": "My brother is blond, ___ our youngest brother has black hair.",
-              "right": "in contrast with"
+              "left": "He talked very ___ about his work.",
+              "right": "interestingly"
             },
             {
               "id": "p3",
-              "left": "I love the beach ___ my partner hates it.",
-              "right": "whereas"
+              "left": "I’ve got an ___ job for you.",
+              "right": "easy"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -608,23 +593,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I love the beach ___ my partner hates it.",
-              "right": "whereas"
+              "left": "This is a ___ train.",
+              "right": "slow"
             },
             {
               "id": "p1",
-              "left": "I like football. I like it ___.",
-              "right": "as well"
+              "left": "He drives ___.",
+              "right": "slowly"
             },
             {
               "id": "p2",
-              "left": "He didn't study. ___, he failed.",
-              "right": "As a consequence"
+              "left": "He drives ___.",
+              "right": "dangerously"
             },
             {
               "id": "p3",
-              "left": "In Spain it's hot, ___ in England it rains.",
-              "right": "while"
+              "left": "He is a ___ driver.",
+              "right": "dangerous"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -636,23 +621,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "In Spain it's hot, ___ in England it rains.",
-              "right": "while"
+              "left": "He talked very ___ about his work.",
+              "right": "interestingly"
             },
             {
               "id": "p1",
-              "left": "It is raining. ___, it is not cold.",
-              "right": "Nonetheless"
+              "left": "She sings very ___.",
+              "right": "well"
             },
             {
               "id": "p2",
-              "left": "The teacher bought sweets ___ cookies.",
-              "right": "as well as"
+              "left": "She writes in ___ English.",
+              "right": "perfect"
             },
             {
               "id": "p3",
-              "left": "I love the beach ___ my partner hates it.",
-              "right": "whereas"
+              "left": "Could I have a ___ word with you?",
+              "right": "quick"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -664,23 +649,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "My brother is blond, ___ our youngest brother has black hair.",
-              "right": "in contrast with"
+              "left": "He drives ___.",
+              "right": "dangerously"
             },
             {
               "id": "p1",
-              "left": "It is raining. ___, it is not cold.",
-              "right": "Nonetheless"
+              "left": "She writes in ___ English.",
+              "right": "perfect"
             },
             {
               "id": "p2",
-              "left": "In Spain shops close late. ___, in France they close early.",
-              "right": "In contrast"
+              "left": "He is a ___ driver.",
+              "right": "dangerous"
             },
             {
               "id": "p3",
-              "left": "___ you're working, I won't cook.",
-              "right": "Since"
+              "left": "You’ve cooked that meat ___.",
+              "right": "wonderfully"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -977,64 +962,64 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "in contrast with",
-          "correct_answer": "in contrast with",
+          "tts_en": "quietly",
+          "correct_answer": "quietly",
           "mastery_tag": "listening",
           "interaction_id": "U17_I50"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "In contrast",
-          "correct_answer": "In contrast",
+          "tts_en": "dangerously",
+          "correct_answer": "dangerously",
           "mastery_tag": "listening",
           "interaction_id": "U17_I51"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "Fortunately",
-          "correct_answer": "Fortunately",
+          "tts_en": "quietly",
+          "correct_answer": "quietly",
           "mastery_tag": "listening",
           "interaction_id": "U17_I52"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "as well",
-          "correct_answer": "as well",
+          "tts_en": "quietly",
+          "correct_answer": "quietly",
           "mastery_tag": "listening",
           "interaction_id": "U17_I53"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "Nonetheless",
-          "correct_answer": "Nonetheless",
+          "tts_en": "well",
+          "correct_answer": "well",
           "mastery_tag": "listening",
           "interaction_id": "U17_I54"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "Nonetheless",
-          "correct_answer": "Nonetheless",
+          "tts_en": "dangerously",
+          "correct_answer": "dangerously",
           "mastery_tag": "listening",
           "interaction_id": "U17_I55"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "Fortunately",
-          "correct_answer": "Fortunately",
+          "tts_en": "quick",
+          "correct_answer": "quick",
           "mastery_tag": "listening",
           "interaction_id": "U17_I56"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "Unfortunately",
-          "correct_answer": "Unfortunately",
+          "tts_en": "perfect",
+          "correct_answer": "perfect",
           "mastery_tag": "listening",
           "interaction_id": "U17_I57"
         },
@@ -1423,31 +1408,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U17_I74"
         },
@@ -1460,31 +1447,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U17_I75"
         },
@@ -1497,31 +1486,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U17_I76"
         },
@@ -1534,31 +1525,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U17_I77"
         },
@@ -1571,31 +1564,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U17_I78"
         },
@@ -1608,31 +1603,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U17_I79"
         },
@@ -1645,31 +1642,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U17_I80"
         },
@@ -1682,31 +1681,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U17_I81"
         },

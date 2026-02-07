@@ -23,19 +23,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "His speech was very long and very ___.",
+          "stimulus_en": "It is the biggest city ___ the country.",
           "options": [
-            {
-              "id": "o1",
-              "text": "boring"
-            },
             {
               "id": "o3",
               "text": "other"
             },
             {
               "id": "o2",
-              "text": "bored"
+              "text": "of"
+            },
+            {
+              "id": "o1",
+              "text": "in"
             }
           ],
           "correct_answer": "o1",
@@ -45,19 +45,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "She wasn't ___ by the joke.",
+          "stimulus_en": "He is the tallest ___ the class.",
           "options": [
-            {
-              "id": "o2",
-              "text": "amusing"
-            },
             {
               "id": "o3",
               "text": "other"
             },
             {
+              "id": "o2",
+              "text": "of"
+            },
+            {
               "id": "o1",
-              "text": "amused"
+              "text": "in"
             }
           ],
           "correct_answer": "o1",
@@ -67,19 +67,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I was ___ from start to finish.",
+          "stimulus_en": "This is the best restaurant ___ town.",
           "options": [
-            {
-              "id": "o2",
-              "text": "boring"
-            },
             {
               "id": "o3",
               "text": "other"
             },
             {
+              "id": "o2",
+              "text": "of"
+            },
+            {
               "id": "o1",
-              "text": "bored"
+              "text": "in"
             }
           ],
           "correct_answer": "o1",
@@ -89,19 +89,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Are you ___ or were you expecting this?",
+          "stimulus_en": "This is the best restaurant ___ town.",
           "options": [
+            {
+              "id": "o1",
+              "text": "in"
+            },
             {
               "id": "o3",
               "text": "other"
             },
             {
               "id": "o2",
-              "text": "surprising"
-            },
-            {
-              "id": "o1",
-              "text": "surprised"
+              "text": "of"
             }
           ],
           "correct_answer": "o1",
@@ -111,11 +111,11 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Visit our ___ new shop!",
+          "stimulus_en": "It is the biggest city ___ the country.",
           "options": [
             {
               "id": "o1",
-              "text": "exciting"
+              "text": "in"
             },
             {
               "id": "o3",
@@ -123,7 +123,7 @@
             },
             {
               "id": "o2",
-              "text": "excited"
+              "text": "of"
             }
           ],
           "correct_answer": "o1",
@@ -133,15 +133,15 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "The map was ___ and I got lost.",
+          "stimulus_en": "It is the biggest city ___ the country.",
           "options": [
             {
               "id": "o2",
-              "text": "confused"
+              "text": "of"
             },
             {
               "id": "o1",
-              "text": "confusing"
+              "text": "in"
             },
             {
               "id": "o3",
@@ -155,19 +155,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I’m very ___ because I’m going to New York.",
+          "stimulus_en": "It is the biggest city ___ the country.",
           "options": [
             {
               "id": "o1",
-              "text": "excited"
+              "text": "in"
+            },
+            {
+              "id": "o2",
+              "text": "of"
             },
             {
               "id": "o3",
               "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "exciting"
             }
           ],
           "correct_answer": "o1",
@@ -177,19 +177,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "His speech was very long and very ___.",
+          "stimulus_en": "This is the best restaurant ___ town.",
           "options": [
+            {
+              "id": "o1",
+              "text": "in"
+            },
             {
               "id": "o3",
               "text": "other"
             },
             {
-              "id": "o1",
-              "text": "boring"
-            },
-            {
               "id": "o2",
-              "text": "bored"
+              "text": "of"
             }
           ],
           "correct_answer": "o1",
@@ -202,7 +202,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "boring"
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -217,7 +217,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "exciting"
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -232,7 +232,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "confusing"
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -247,7 +247,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "excited"
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -262,7 +262,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "surprised"
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -277,7 +277,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "confused"
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -292,7 +292,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "bored"
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -307,7 +307,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "amusing"
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -319,119 +319,119 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "She’s ___ in politics.",
-          "correct_answer": "interested",
+          "stimulus_en": "This is the best restaurant ___ town.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I18"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "She wasn't ___ by the joke.",
-          "correct_answer": "amused",
+          "stimulus_en": "She is the smartest person ___ the world.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I19"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I’m reading a very ___ book.",
-          "correct_answer": "interesting",
+          "stimulus_en": "This is the best restaurant ___ town.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I20"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I’m a bit ___ because it was complicated.",
-          "correct_answer": "confused",
+          "stimulus_en": "He is the tallest ___ the class.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I21"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I’m reading a very ___ book.",
-          "correct_answer": "interesting",
+          "stimulus_en": "This is the best restaurant ___ town.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I22"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It is ___ that she failed.",
-          "correct_answer": "surprising",
+          "stimulus_en": "He is the tallest ___ the class.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I23"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Are you ___ or were you expecting this?",
-          "correct_answer": "surprised",
+          "stimulus_en": "She is the smartest person ___ the world.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I24"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Everyone was ___ by the noise.",
-          "correct_answer": "surprised",
+          "stimulus_en": "This is the best restaurant ___ town.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"surprised\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"in not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I26"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"confusing not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"in not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I27"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"exciting\"",
+          "prompt_es": "¿Es correcta esta frase?: \"in\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"amused not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"in\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I29"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"surprised\"",
+          "prompt_es": "¿Es correcta esta frase?: \"in\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I30"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"surprised\"",
+          "prompt_es": "¿Es correcta esta frase?: \"in\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"interested\"",
+          "prompt_es": "¿Es correcta esta frase?: \"in\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"amused not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"in not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I33"
@@ -442,23 +442,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "She’s ___ in politics.",
-              "right": "interested"
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "I’ve had a very ___ day at work.",
-              "right": "tiring"
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "I’m a bit ___ because it was complicated.",
-              "right": "confused"
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "She was ___ because she had nothing to do.",
-              "right": "bored"
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -470,23 +470,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I’m reading a very ___ book.",
-              "right": "interesting"
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "The film was ___.",
-              "right": "boring"
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "It is ___ that she failed.",
-              "right": "surprising"
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "I’m very ___ because I’m going to New York.",
-              "right": "excited"
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -498,23 +498,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "She wasn't ___ by the joke.",
-              "right": "amused"
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "She was ___ because she had nothing to do.",
-              "right": "bored"
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "She’s ___ in politics.",
-              "right": "interested"
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "I’m very ___ because I’m going to New York.",
-              "right": "excited"
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -526,23 +526,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "She was ___ because she had nothing to do.",
-              "right": "bored"
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "Visit our ___ new shop!",
-              "right": "exciting"
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "I’ve had a very ___ day at work.",
-              "right": "tiring"
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "I’m reading a very ___ book.",
-              "right": "interesting"
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -554,23 +554,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "She’s ___ in politics.",
-              "right": "interested"
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "I’m a bit ___ because it was complicated.",
-              "right": "confused"
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "It is ___ that she failed.",
-              "right": "surprising"
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "The film was ___.",
-              "right": "boring"
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -582,23 +582,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Everyone was ___ by the noise.",
-              "right": "surprised"
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "His speech was very long and very ___.",
-              "right": "boring"
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "The map was ___ and I got lost.",
-              "right": "confusing"
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "I was ___ from start to finish.",
-              "right": "bored"
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -610,23 +610,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "The map was ___ and I got lost.",
-              "right": "confusing"
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "I’m reading a very ___ book.",
-              "right": "interesting"
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "Are you ___ or were you expecting this?",
-              "right": "surprised"
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "I’m a bit ___ because it was complicated.",
-              "right": "confused"
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -638,23 +638,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "His speech was very long and very ___.",
-              "right": "boring"
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "Are you ___ or were you expecting this?",
-              "right": "surprised"
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "She was ___ because she had nothing to do.",
-              "right": "bored"
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "I’m reading a very ___ book.",
-              "right": "interesting"
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -951,64 +951,64 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "boring",
-          "correct_answer": "boring",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U18_I50"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "surprising",
-          "correct_answer": "surprising",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U18_I51"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "interesting",
-          "correct_answer": "interesting",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U18_I52"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "amused",
-          "correct_answer": "amused",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U18_I53"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "amused",
-          "correct_answer": "amused",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U18_I54"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "tiring",
-          "correct_answer": "tiring",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U18_I55"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "boring",
-          "correct_answer": "boring",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U18_I56"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "boring",
-          "correct_answer": "boring",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U18_I57"
         },
@@ -1397,31 +1397,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U18_I74"
         },
@@ -1434,31 +1436,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U18_I75"
         },
@@ -1471,31 +1475,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U18_I76"
         },
@@ -1508,31 +1514,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U18_I77"
         },
@@ -1545,31 +1553,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U18_I78"
         },
@@ -1582,31 +1592,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U18_I79"
         },
@@ -1619,31 +1631,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U18_I80"
         },
@@ -1656,31 +1670,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U18_I81"
         },

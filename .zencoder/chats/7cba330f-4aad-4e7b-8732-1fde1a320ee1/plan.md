@@ -44,3 +44,4 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. [x] **Generation Script**: Implement `scripts/generate-a2-final.py` with exercise templates for all topics (15+ interaction types).
 3. [x] **Execution**: Generate 60 unit JSON files with 100 exercises each.
 4. [x] **Validation**: Run `python3 scripts/validate-a2-course.py` and verify the `/curso/ingles-a2` route.
+5. [x] **Logic Verification**: Run `python3 scripts/verify-exercise-logic.py` to ensure correct/incorrect answer detection.

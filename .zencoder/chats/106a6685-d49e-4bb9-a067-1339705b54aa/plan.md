@@ -30,8 +30,19 @@ Create a detailed implementation plan based on `spec.md`.
 3. **Task 3: Implement verification**: Write the logic to check file existence in `public/`.
 4. **Task 4: Report generation**: Format the output for the console.
 
-### [ ] Step: Implementation
+### [x] Step: Implementation
 
 1. **Create verification script**: Implement `scripts/verify-a1-audio.mjs` with the planned tasks. [./scripts/verify-a1-audio.mjs](./scripts/verify-a1-audio.mjs)
 2. **Run verification**: Execute `node scripts/verify-a1-audio.mjs` and identify missing audio files.
+   - **Result**: **110 missing audio files** identified.
+   - **Diagnosis**: Existing audio files in `public/audio/courses/ingles-a1/shared/` (71 files) do not match any references in the JSON files. They appear to have been generated for `stimulus_en` fields instead of the `text` field used in `audio_player` interactions.
 3. **Verify results**: Present the list of missing files to the user for confirmation.
+
+### [x] Step: Audio Generation
+
+1. **Create generation script**: Implement `scripts/generate-a1-audio-fix.mjs` that reads all unit JSONs and generates missing audio files using the `text` field. [./scripts/generate-a1-audio-fix.mjs](./scripts/generate-a1-audio-fix.mjs)
+2. **Verify API Credits**: Check ElevenLabs usage before starting. (Verified via ElevenLabs API key provided).
+3. **Run generation**: Execute the script to generate all 110 missing files.
+   - **Result**: **110 files generated** successfully.
+4. **Final Verification**: Run `scripts/verify-a1-audio.mjs` again to ensure all files are now present.
+   - **Result**: **All 110 audio files are present**.

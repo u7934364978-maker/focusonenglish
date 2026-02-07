@@ -14,10 +14,21 @@
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Escucha el audio antes de continuar:",
-          "tts_en": "This is an introductory audio for the unit.",
-          "mastery_tag": "listening",
+          "type": "flashcard",
+          "prompt_es": "Repasa el vocabulario clave:",
+          "flashcards": [
+            {
+              "front": "Table",
+              "back": "Mesa",
+              "pronunciation": "/ˈteɪ.bəl/"
+            },
+            {
+              "front": "Chair",
+              "back": "Silla",
+              "pronunciation": "/tʃeər/"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I1"
         },
         {
@@ -26,16 +37,16 @@
           "stimulus_en": "Sharon is the ___ girl in her class.",
           "options": [
             {
-              "id": "o3",
-              "text": "other"
+              "id": "o2",
+              "text": "taller"
             },
             {
               "id": "o1",
               "text": "tallest"
             },
             {
-              "id": "o2",
-              "text": "taller"
+              "id": "o3",
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -45,19 +56,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It's ___ today than yesterday.",
+          "stimulus_en": "This house is ___ than that one.",
           "options": [
-            {
-              "id": "o1",
-              "text": "hotter"
-            },
-            {
-              "id": "o2",
-              "text": "more hot"
-            },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o2",
+              "text": "the biggest"
+            },
+            {
+              "id": "o1",
+              "text": "bigger"
             }
           ],
           "correct_answer": "o1",
@@ -67,19 +78,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It's ___ today than yesterday.",
+          "stimulus_en": "My partner is the ___ woman in the world.",
           "options": [
             {
               "id": "o3",
               "text": "other"
             },
             {
-              "id": "o1",
-              "text": "hotter"
+              "id": "o2",
+              "text": "more beautiful"
             },
             {
-              "id": "o2",
-              "text": "more hot"
+              "id": "o1",
+              "text": "most beautiful"
             }
           ],
           "correct_answer": "o1",
@@ -114,16 +125,16 @@
           "stimulus_en": "This house is ___ than that one.",
           "options": [
             {
+              "id": "o3",
+              "text": "other"
+            },
+            {
               "id": "o2",
               "text": "the biggest"
             },
             {
               "id": "o1",
               "text": "bigger"
-            },
-            {
-              "id": "o3",
-              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -133,19 +144,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It's ___ today than yesterday.",
+          "stimulus_en": "Sharon is the ___ girl in her class.",
           "options": [
             {
-              "id": "o3",
-              "text": "other"
-            },
-            {
               "id": "o1",
-              "text": "hotter"
+              "text": "tallest"
             },
             {
               "id": "o2",
-              "text": "more hot"
+              "text": "taller"
+            },
+            {
+              "id": "o3",
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -155,19 +166,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He is the ___ student in the group.",
+          "stimulus_en": "It's ___ today than yesterday.",
           "options": [
             {
-              "id": "o1",
-              "text": "best"
+              "id": "o2",
+              "text": "more hot"
             },
             {
               "id": "o3",
               "text": "other"
             },
             {
-              "id": "o2",
-              "text": "goodest"
+              "id": "o1",
+              "text": "hotter"
             }
           ],
           "correct_answer": "o1",
@@ -184,12 +195,12 @@
               "text": "other"
             },
             {
-              "id": "o2",
-              "text": "the biggest"
-            },
-            {
               "id": "o1",
               "text": "bigger"
+            },
+            {
+              "id": "o2",
+              "text": "the biggest"
             }
           ],
           "correct_answer": "o1",
@@ -217,11 +228,16 @@
           "options": [
             {
               "id": "w0",
-              "text": "best"
+              "text": "most"
+            },
+            {
+              "id": "w1",
+              "text": "beautiful"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U56_I11"
@@ -247,7 +263,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "best"
+              "text": "hotter"
             }
           ],
           "correct_answer": [
@@ -261,17 +277,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "beautiful"
-            },
-            {
               "id": "w0",
-              "text": "most"
+              "text": "hotter"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U56_I14"
@@ -282,7 +293,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "tallest"
+              "text": "hotter"
             }
           ],
           "correct_answer": [
@@ -297,7 +308,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "hotter"
+              "text": "best"
             }
           ],
           "correct_answer": [
@@ -324,24 +335,24 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "correct_answer": "hotter",
+          "stimulus_en": "He is the ___ student in the group.",
+          "correct_answer": "best",
           "mastery_tag": "grammar",
           "interaction_id": "U56_I18"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "correct_answer": "tallest",
+          "stimulus_en": "It's ___ today than yesterday.",
+          "correct_answer": "hotter",
           "mastery_tag": "grammar",
           "interaction_id": "U56_I19"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "My partner is the ___ woman in the world.",
-          "correct_answer": "most beautiful",
+          "stimulus_en": "This house is ___ than that one.",
+          "correct_answer": "bigger",
           "mastery_tag": "grammar",
           "interaction_id": "U56_I20"
         },
@@ -356,18 +367,26 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "correct_answer": "tallest",
+          "stimulus_en": "It's ___ today than yesterday.",
+          "correct_answer": "hotter",
           "mastery_tag": "grammar",
           "interaction_id": "U56_I22"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "correct_answer": "hotter",
+          "stimulus_en": "He is the ___ student in the group.",
+          "correct_answer": "best",
           "mastery_tag": "grammar",
           "interaction_id": "U56_I23"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "He is the ___ student in the group.",
+          "correct_answer": "best",
+          "mastery_tag": "grammar",
+          "interaction_id": "U56_I24"
         },
         {
           "type": "fill_blanks",
@@ -375,69 +394,61 @@
           "stimulus_en": "This house is ___ than that one.",
           "correct_answer": "bigger",
           "mastery_tag": "grammar",
-          "interaction_id": "U56_I24"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "correct_answer": "hotter",
-          "mastery_tag": "grammar",
           "interaction_id": "U56_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"best not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"best\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U56_I26"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tallest\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"most beautiful not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U56_I27"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"most beautiful\"",
+          "prompt_es": "¿Es correcta esta frase?: \"tallest\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U56_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"hotter not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"bigger not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U56_I29"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tallest\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"most beautiful not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U56_I30"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tallest\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"bigger not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U56_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"hotter not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"most beautiful\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U56_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"best\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"tallest not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U56_I33"
         },
@@ -447,8 +458,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "left": "Sharon is the ___ girl in her class.",
+              "right": "tallest"
             },
             {
               "id": "p1",
@@ -457,8 +468,8 @@
             },
             {
               "id": "p2",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
+              "left": "He is the ___ student in the group.",
+              "right": "best"
             },
             {
               "id": "p3",
@@ -475,8 +486,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "left": "It's ___ today than yesterday.",
+              "right": "hotter"
             },
             {
               "id": "p1",
@@ -485,13 +496,13 @@
             },
             {
               "id": "p2",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
+              "left": "This house is ___ than that one.",
+              "right": "bigger"
             },
             {
               "id": "p3",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "left": "He is the ___ student in the group.",
+              "right": "best"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -503,8 +514,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
+              "left": "My partner is the ___ woman in the world.",
+              "right": "most beautiful"
             },
             {
               "id": "p1",
@@ -513,8 +524,8 @@
             },
             {
               "id": "p2",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
+              "left": "Sharon is the ___ girl in her class.",
+              "right": "tallest"
             },
             {
               "id": "p3",
@@ -531,23 +542,23 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "This house is ___ than that one.",
+              "right": "bigger"
+            },
+            {
+              "id": "p1",
               "left": "Sharon is the ___ girl in her class.",
               "right": "tallest"
             },
             {
-              "id": "p1",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
               "id": "p2",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "left": "He is the ___ student in the group.",
+              "right": "best"
             },
             {
               "id": "p3",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "left": "It's ___ today than yesterday.",
+              "right": "hotter"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -559,8 +570,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "left": "Sharon is the ___ girl in her class.",
+              "right": "tallest"
             },
             {
               "id": "p1",
@@ -569,13 +580,13 @@
             },
             {
               "id": "p2",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "left": "This house is ___ than that one.",
+              "right": "bigger"
             },
             {
               "id": "p3",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
+              "left": "He is the ___ student in the group.",
+              "right": "best"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -592,18 +603,18 @@
             },
             {
               "id": "p1",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
-              "id": "p2",
               "left": "Sharon is the ___ girl in her class.",
               "right": "tallest"
             },
             {
+              "id": "p2",
+              "left": "My partner is the ___ woman in the world.",
+              "right": "most beautiful"
+            },
+            {
               "id": "p3",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "left": "This house is ___ than that one.",
+              "right": "bigger"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -620,18 +631,18 @@
             },
             {
               "id": "p1",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "left": "This house is ___ than that one.",
+              "right": "bigger"
             },
             {
               "id": "p2",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "left": "My partner is the ___ woman in the world.",
+              "right": "most beautiful"
             },
             {
               "id": "p3",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
+              "left": "It's ___ today than yesterday.",
+              "right": "hotter"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -648,18 +659,18 @@
             },
             {
               "id": "p1",
+              "left": "This house is ___ than that one.",
+              "right": "bigger"
+            },
+            {
+              "id": "p2",
               "left": "My partner is the ___ woman in the world.",
               "right": "most beautiful"
             },
             {
-              "id": "p2",
+              "id": "p3",
               "left": "Sharon is the ___ girl in her class.",
               "right": "tallest"
-            },
-            {
-              "id": "p3",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -956,16 +967,16 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "tallest",
-          "correct_answer": "tallest",
+          "tts_en": "best",
+          "correct_answer": "best",
           "mastery_tag": "listening",
           "interaction_id": "U56_I50"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "best",
-          "correct_answer": "best",
+          "tts_en": "hotter",
+          "correct_answer": "hotter",
           "mastery_tag": "listening",
           "interaction_id": "U56_I51"
         },
@@ -980,10 +991,18 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
+          "tts_en": "hotter",
+          "correct_answer": "hotter",
+          "mastery_tag": "listening",
+          "interaction_id": "U56_I53"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
           "tts_en": "most beautiful",
           "correct_answer": "most beautiful",
           "mastery_tag": "listening",
-          "interaction_id": "U56_I53"
+          "interaction_id": "U56_I54"
         },
         {
           "type": "dictation_guided",
@@ -991,21 +1010,13 @@
           "tts_en": "hotter",
           "correct_answer": "hotter",
           "mastery_tag": "listening",
-          "interaction_id": "U56_I54"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "most beautiful",
-          "correct_answer": "most beautiful",
-          "mastery_tag": "listening",
           "interaction_id": "U56_I55"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "most beautiful",
-          "correct_answer": "most beautiful",
+          "tts_en": "tallest",
+          "correct_answer": "tallest",
           "mastery_tag": "listening",
           "interaction_id": "U56_I56"
         },
@@ -1402,31 +1413,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U56_I74"
         },
@@ -1439,31 +1452,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U56_I75"
         },
@@ -1476,31 +1491,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U56_I76"
         },
@@ -1513,31 +1530,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U56_I77"
         },
@@ -1550,31 +1569,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U56_I78"
         },
@@ -1587,31 +1608,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U56_I79"
         },
@@ -1624,31 +1647,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U56_I80"
         },
@@ -1661,31 +1686,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U56_I81"
         },
@@ -2198,13 +2225,10 @@
           "interaction_id": "U56_I99"
         },
         {
-          "type": "writing_task",
-          "writing_type": "email",
-          "prompt_es": "Escribe un email corto a un amigo.",
-          "word_count_min": 10,
-          "word_count_max": 50,
-          "input_placeholder_es": "Escribe aquí...",
-          "mastery_tag": "writing",
+          "type": "speaking_task",
+          "speaking_type": "description",
+          "prompt_es": "Describe lo que hiciste ayer en voz alta.",
+          "mastery_tag": "speaking",
           "interaction_id": "U56_I100"
         }
       ]

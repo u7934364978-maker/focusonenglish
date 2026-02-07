@@ -14,22 +14,55 @@
       "duration_minutes": 60,
       "content": [
         {
-          "type": "flashcard",
-          "prompt_es": "Repasa el vocabulario clave:",
-          "flashcards": [
+          "type": "audio_player",
+          "prompt_es": "Escucha el audio antes de continuar:",
+          "tts_en": "This is an introductory audio for the unit.",
+          "mastery_tag": "listening",
+          "interaction_id": "U1_I1"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "El sandwich de queso y tomate es caro.",
+          "options": [
             {
-              "front": "Table",
-              "back": "Mesa",
-              "pronunciation": "/ˈteɪ.bəl/"
+              "id": "o2",
+              "text": "expensive sandwich"
             },
             {
-              "front": "Chair",
-              "back": "Silla",
-              "pronunciation": "/tʃeər/"
+              "id": "o1",
+              "text": "The cheese and tomato sandwich is expensive."
+            },
+            {
+              "id": "o3",
+              "text": "sandwich expensive"
             }
           ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I1"
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I2"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "Un cuaderno pequeño.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "A small notebook."
+            },
+            {
+              "id": "o2",
+              "text": "small notebook"
+            },
+            {
+              "id": "o3",
+              "text": "notebook small"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I3"
         },
         {
           "type": "multiple_choice",
@@ -51,7 +84,73 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U1_I2"
+          "interaction_id": "U1_I4"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "Es un restaurante barato.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "cheap restaurant"
+            },
+            {
+              "id": "o3",
+              "text": "restaurant cheap"
+            },
+            {
+              "id": "o1",
+              "text": "It’s a cheap restaurant."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I5"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "Es un restaurante barato.",
+          "options": [
+            {
+              "id": "o3",
+              "text": "restaurant cheap"
+            },
+            {
+              "id": "o2",
+              "text": "cheap restaurant"
+            },
+            {
+              "id": "o1",
+              "text": "It’s a cheap restaurant."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I6"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "Un hombre viejo.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "old man"
+            },
+            {
+              "id": "o3",
+              "text": "man old"
+            },
+            {
+              "id": "o1",
+              "text": "An old man."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I7"
         },
         {
           "type": "multiple_choice",
@@ -63,122 +162,12 @@
               "text": "A big bottle."
             },
             {
-              "id": "o3",
-              "text": "bottle big"
-            },
-            {
               "id": "o2",
               "text": "big bottle"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I3"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "El sandwich de queso y tomate es caro.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "The cheese and tomato sandwich is expensive."
             },
             {
               "id": "o3",
-              "text": "sandwich expensive"
-            },
-            {
-              "id": "o2",
-              "text": "expensive sandwich"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I4"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "La chica joven es guapa también.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "young lady"
-            },
-            {
-              "id": "o3",
-              "text": "lady young"
-            },
-            {
-              "id": "o1",
-              "text": "The young lady is beautiful too."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I5"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Éste es un café bueno.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "good coffee"
-            },
-            {
-              "id": "o1",
-              "text": "This is a good coffee."
-            },
-            {
-              "id": "o3",
-              "text": "coffee good"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I6"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Una habitación llena.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "room full"
-            },
-            {
-              "id": "o2",
-              "text": "full room"
-            },
-            {
-              "id": "o1",
-              "text": "A full room."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I7"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Un hombre viejo.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "old man"
-            },
-            {
-              "id": "o3",
-              "text": "man old"
-            },
-            {
-              "id": "o1",
-              "text": "An old man."
+              "text": "bottle big"
             }
           ],
           "correct_answer": "o1",
@@ -188,19 +177,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Un hombre viejo.",
+          "stimulus_en": "La chica joven es guapa también.",
           "options": [
             {
+              "id": "o1",
+              "text": "The young lady is beautiful too."
+            },
+            {
               "id": "o2",
-              "text": "old man"
+              "text": "young lady"
             },
             {
               "id": "o3",
-              "text": "man old"
-            },
-            {
-              "id": "o1",
-              "text": "An old man."
+              "text": "lady young"
             }
           ],
           "correct_answer": "o1",
@@ -212,42 +201,22 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w3",
-              "text": "tomato"
+              "id": "w1",
+              "text": "small"
             },
             {
               "id": "w2",
-              "text": "and"
-            },
-            {
-              "id": "w1",
-              "text": "cheese"
-            },
-            {
-              "id": "w4",
-              "text": "sandwich"
-            },
-            {
-              "id": "w5",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
+              "text": "notebook"
             },
             {
               "id": "w0",
-              "text": "The"
+              "text": "A"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U1_I10"
@@ -257,42 +226,22 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w4",
-              "text": "sandwich"
-            },
-            {
-              "id": "w3",
-              "text": "tomato"
-            },
-            {
               "id": "w2",
-              "text": "and"
+              "text": "notebook"
             },
             {
               "id": "w1",
-              "text": "cheese"
-            },
-            {
-              "id": "w5",
-              "text": "is"
+              "text": "small"
             },
             {
               "id": "w0",
-              "text": "The"
+              "text": "A"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U1_I11"
@@ -303,21 +252,31 @@
           "options": [
             {
               "id": "w0",
-              "text": "A"
+              "text": "The"
             },
             {
               "id": "w2",
-              "text": "woman"
+              "text": "hotel"
+            },
+            {
+              "id": "w4",
+              "text": "nice"
             },
             {
               "id": "w1",
-              "text": "tall"
+              "text": "new"
+            },
+            {
+              "id": "w3",
+              "text": "is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2"
+            "w2",
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U1_I12"
@@ -327,22 +286,32 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "small"
+              "id": "w4",
+              "text": "nice"
             },
             {
               "id": "w0",
-              "text": "A"
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "new"
             },
             {
               "id": "w2",
-              "text": "notebook"
+              "text": "hotel"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2"
+            "w2",
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U1_I13"
@@ -353,15 +322,15 @@
           "options": [
             {
               "id": "w1",
-              "text": "tall"
+              "text": "big"
+            },
+            {
+              "id": "w2",
+              "text": "bottle"
             },
             {
               "id": "w0",
               "text": "A"
-            },
-            {
-              "id": "w2",
-              "text": "woman"
             }
           ],
           "correct_answer": [
@@ -378,23 +347,27 @@
           "options": [
             {
               "id": "w0",
-              "text": "This"
+              "text": "The"
             },
             {
-              "id": "w3",
-              "text": "good"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "is"
+              "id": "w5",
+              "text": "too"
             },
             {
               "id": "w4",
-              "text": "coffee"
+              "text": "beautiful"
+            },
+            {
+              "id": "w2",
+              "text": "lady"
+            },
+            {
+              "id": "w1",
+              "text": "young"
+            },
+            {
+              "id": "w3",
+              "text": "is"
             }
           ],
           "correct_answer": [
@@ -402,7 +375,8 @@
             "w1",
             "w2",
             "w3",
-            "w4"
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U1_I15"
@@ -413,15 +387,15 @@
           "options": [
             {
               "id": "w2",
-              "text": "man"
-            },
-            {
-              "id": "w1",
-              "text": "old"
+              "text": "notebook"
             },
             {
               "id": "w0",
-              "text": "An"
+              "text": "A"
+            },
+            {
+              "id": "w1",
+              "text": "small"
             }
           ],
           "correct_answer": [
@@ -437,37 +411,22 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w4",
-              "text": "beautiful"
-            },
-            {
               "id": "w1",
-              "text": "young"
-            },
-            {
-              "id": "w2",
-              "text": "lady"
-            },
-            {
-              "id": "w5",
-              "text": "too"
-            },
-            {
-              "id": "w3",
-              "text": "is"
+              "text": "big"
             },
             {
               "id": "w0",
-              "text": "The"
+              "text": "A"
+            },
+            {
+              "id": "w2",
+              "text": "bottle"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w2"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U1_I17"
@@ -475,34 +434,10 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una botella grande. (___)",
-          "correct_answer": "A big bottle.",
+          "stimulus_en": "El hotel nuevo es bonito. (___)",
+          "correct_answer": "The new hotel is nice.",
           "mastery_tag": "grammar",
           "interaction_id": "U1_I18"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una habitación llena. (___)",
-          "correct_answer": "A full room.",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I19"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Éste es un café bueno. (___)",
-          "correct_answer": "This is a good coffee.",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I20"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una mujer alta. (___)",
-          "correct_answer": "A tall woman.",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I21"
         },
         {
           "type": "fill_blanks",
@@ -510,15 +445,15 @@
           "stimulus_en": "Un cuaderno pequeño. (___)",
           "correct_answer": "A small notebook.",
           "mastery_tag": "grammar",
-          "interaction_id": "U1_I22"
+          "interaction_id": "U1_I19"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una botella grande. (___)",
-          "correct_answer": "A big bottle.",
+          "stimulus_en": "La chica joven es guapa también. (___)",
+          "correct_answer": "The young lady is beautiful too.",
           "mastery_tag": "grammar",
-          "interaction_id": "U1_I23"
+          "interaction_id": "U1_I20"
         },
         {
           "type": "fill_blanks",
@@ -526,69 +461,93 @@
           "stimulus_en": "Una habitación llena. (___)",
           "correct_answer": "A full room.",
           "mastery_tag": "grammar",
+          "interaction_id": "U1_I21"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "Una habitación llena. (___)",
+          "correct_answer": "A full room.",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I22"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "El hotel nuevo es bonito. (___)",
+          "correct_answer": "The new hotel is nice.",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I23"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "Un hombre viejo. (___)",
+          "correct_answer": "An old man.",
+          "mastery_tag": "grammar",
           "interaction_id": "U1_I24"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una mujer alta. (___)",
-          "correct_answer": "A tall woman.",
+          "stimulus_en": "Una botella grande. (___)",
+          "correct_answer": "A big bottle.",
           "mastery_tag": "grammar",
           "interaction_id": "U1_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The young lady is beautiful too. not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"The cheese and tomato sandwich is expensive. not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U1_I26"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The new hotel is nice.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"The young lady is beautiful too.\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U1_I27"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A tall woman. not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"The young lady is beautiful too. not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U1_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"An old man. not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"This is a good coffee. not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U1_I29"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A tall woman.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"A full room.\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U1_I30"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is a good coffee.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"A full room.\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U1_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A small notebook.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"The new hotel is nice.\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U1_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A big bottle. not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"The young lady is beautiful too.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U1_I33"
         },
@@ -598,23 +557,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "La chica joven es guapa también.",
-              "right": "The young lady is beautiful too."
+              "left": "Un cuaderno pequeño.",
+              "right": "A small notebook."
             },
             {
               "id": "p1",
+              "left": "Una mujer alta.",
+              "right": "A tall woman."
+            },
+            {
+              "id": "p2",
               "left": "Es un restaurante barato.",
               "right": "It’s a cheap restaurant."
             },
             {
-              "id": "p2",
-              "left": "El sandwich de queso y tomate es caro.",
-              "right": "The cheese and tomato sandwich is expensive."
-            },
-            {
               "id": "p3",
-              "left": "Una mujer alta.",
-              "right": "A tall woman."
+              "left": "El hotel nuevo es bonito.",
+              "right": "The new hotel is nice."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -626,23 +585,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Éste es un café bueno.",
-              "right": "This is a good coffee."
+              "left": "El hotel nuevo es bonito.",
+              "right": "The new hotel is nice."
             },
             {
               "id": "p1",
-              "left": "Es un restaurante barato.",
-              "right": "It’s a cheap restaurant."
+              "left": "Un cuaderno pequeño.",
+              "right": "A small notebook."
             },
             {
               "id": "p2",
-              "left": "Una mujer alta.",
-              "right": "A tall woman."
+              "left": "Un hombre viejo.",
+              "right": "An old man."
             },
             {
               "id": "p3",
-              "left": "Una habitación llena.",
-              "right": "A full room."
+              "left": "Éste es un café bueno.",
+              "right": "This is a good coffee."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -654,23 +613,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Es un restaurante barato.",
-              "right": "It’s a cheap restaurant."
+              "left": "Un hombre viejo.",
+              "right": "An old man."
             },
             {
               "id": "p1",
-              "left": "Una botella grande.",
-              "right": "A big bottle."
-            },
-            {
-              "id": "p2",
               "left": "El sandwich de queso y tomate es caro.",
               "right": "The cheese and tomato sandwich is expensive."
             },
             {
+              "id": "p2",
+              "left": "El hotel nuevo es bonito.",
+              "right": "The new hotel is nice."
+            },
+            {
               "id": "p3",
-              "left": "Una habitación llena.",
-              "right": "A full room."
+              "left": "Es un restaurante barato.",
+              "right": "It’s a cheap restaurant."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -682,23 +641,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Es un restaurante barato.",
-              "right": "It’s a cheap restaurant."
-            },
-            {
-              "id": "p1",
-              "left": "Un cuaderno pequeño.",
-              "right": "A small notebook."
-            },
-            {
-              "id": "p2",
               "left": "Una habitación llena.",
               "right": "A full room."
             },
             {
+              "id": "p1",
+              "left": "La chica joven es guapa también.",
+              "right": "The young lady is beautiful too."
+            },
+            {
+              "id": "p2",
+              "left": "El hotel nuevo es bonito.",
+              "right": "The new hotel is nice."
+            },
+            {
               "id": "p3",
-              "left": "Éste es un café bueno.",
-              "right": "This is a good coffee."
+              "left": "Un hombre viejo.",
+              "right": "An old man."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -710,8 +669,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Un cuaderno pequeño.",
-              "right": "A small notebook."
+              "left": "Una mujer alta.",
+              "right": "A tall woman."
             },
             {
               "id": "p1",
@@ -720,8 +679,8 @@
             },
             {
               "id": "p2",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "Un hombre viejo.",
+              "right": "An old man."
             },
             {
               "id": "p3",
@@ -743,50 +702,22 @@
             },
             {
               "id": "p1",
-              "left": "El sandwich de queso y tomate es caro.",
-              "right": "The cheese and tomato sandwich is expensive."
-            },
-            {
-              "id": "p2",
-              "left": "Una habitación llena.",
-              "right": "A full room."
-            },
-            {
-              "id": "p3",
-              "left": "Éste es un café bueno.",
-              "right": "This is a good coffee."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I39"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Una mujer alta.",
-              "right": "A tall woman."
-            },
-            {
-              "id": "p1",
-              "left": "El sandwich de queso y tomate es caro.",
-              "right": "The cheese and tomato sandwich is expensive."
-            },
-            {
-              "id": "p2",
               "left": "Un cuaderno pequeño.",
               "right": "A small notebook."
             },
             {
-              "id": "p3",
+              "id": "p2",
               "left": "La chica joven es guapa también.",
               "right": "The young lady is beautiful too."
+            },
+            {
+              "id": "p3",
+              "left": "Un hombre viejo.",
+              "right": "An old man."
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I40"
+          "interaction_id": "U1_I39"
         },
         {
           "type": "matching",
@@ -799,18 +730,46 @@
             },
             {
               "id": "p1",
-              "left": "Una botella grande.",
-              "right": "A big bottle."
-            },
-            {
-              "id": "p2",
               "left": "La chica joven es guapa también.",
               "right": "The young lady is beautiful too."
             },
             {
-              "id": "p3",
+              "id": "p2",
               "left": "Una habitación llena.",
               "right": "A full room."
+            },
+            {
+              "id": "p3",
+              "left": "Es un restaurante barato.",
+              "right": "It’s a cheap restaurant."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I40"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Una botella grande.",
+              "right": "A big bottle."
+            },
+            {
+              "id": "p1",
+              "left": "Una habitación llena.",
+              "right": "A full room."
+            },
+            {
+              "id": "p2",
+              "left": "El sandwich de queso y tomate es caro.",
+              "right": "The cheese and tomato sandwich is expensive."
+            },
+            {
+              "id": "p3",
+              "left": "Es un restaurante barato.",
+              "right": "It’s a cheap restaurant."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1107,40 +1066,40 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "A big bottle.",
-          "correct_answer": "A big bottle.",
+          "tts_en": "It’s a cheap restaurant.",
+          "correct_answer": "It’s a cheap restaurant.",
           "mastery_tag": "listening",
           "interaction_id": "U1_I50"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "A big bottle.",
-          "correct_answer": "A big bottle.",
+          "tts_en": "A small notebook.",
+          "correct_answer": "A small notebook.",
           "mastery_tag": "listening",
           "interaction_id": "U1_I51"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The new hotel is nice.",
-          "correct_answer": "The new hotel is nice.",
+          "tts_en": "A big bottle.",
+          "correct_answer": "A big bottle.",
           "mastery_tag": "listening",
           "interaction_id": "U1_I52"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The new hotel is nice.",
-          "correct_answer": "The new hotel is nice.",
+          "tts_en": "A big bottle.",
+          "correct_answer": "A big bottle.",
           "mastery_tag": "listening",
           "interaction_id": "U1_I53"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The cheese and tomato sandwich is expensive.",
-          "correct_answer": "The cheese and tomato sandwich is expensive.",
+          "tts_en": "A small notebook.",
+          "correct_answer": "A small notebook.",
           "mastery_tag": "listening",
           "interaction_id": "U1_I54"
         },
@@ -1155,8 +1114,8 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The cheese and tomato sandwich is expensive.",
-          "correct_answer": "The cheese and tomato sandwich is expensive.",
+          "tts_en": "A full room.",
+          "correct_answer": "A full room.",
           "mastery_tag": "listening",
           "interaction_id": "U1_I56"
         },
@@ -1553,31 +1512,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U1_I74"
         },
@@ -1590,31 +1551,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U1_I75"
         },
@@ -1627,31 +1590,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U1_I76"
         },
@@ -1664,31 +1629,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U1_I77"
         },
@@ -1701,31 +1668,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U1_I78"
         },
@@ -1738,31 +1707,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U1_I79"
         },
@@ -1775,31 +1746,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U1_I80"
         },
@@ -1812,31 +1785,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U1_I81"
         },
@@ -2349,10 +2324,13 @@
           "interaction_id": "U1_I99"
         },
         {
-          "type": "speaking_task",
-          "speaking_type": "description",
-          "prompt_es": "Describe lo que hiciste ayer en voz alta.",
-          "mastery_tag": "speaking",
+          "type": "writing_task",
+          "writing_type": "email",
+          "prompt_es": "Escribe un email corto a un amigo.",
+          "word_count_min": 10,
+          "word_count_max": 50,
+          "input_placeholder_es": "Escribe aquí...",
+          "mastery_tag": "writing",
           "interaction_id": "U1_I100"
         }
       ]

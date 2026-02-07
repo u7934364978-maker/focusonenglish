@@ -23,19 +23,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Un cuaderno pequeño.",
+          "stimulus_en": "Do you have ___ flour?",
           "options": [
             {
-              "id": "o1",
-              "text": "A small notebook."
-            },
-            {
               "id": "o2",
-              "text": "small notebook"
+              "text": "enough of"
             },
             {
               "id": "o3",
-              "text": "notebook small"
+              "text": "other"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
             }
           ],
           "correct_answer": "o1",
@@ -45,19 +45,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Una botella grande.",
+          "stimulus_en": "Do you have ___ flour?",
           "options": [
             {
-              "id": "o3",
-              "text": "bottle big"
-            },
-            {
               "id": "o2",
-              "text": "big bottle"
+              "text": "enough of"
             },
             {
               "id": "o1",
-              "text": "A big bottle."
+              "text": "enough"
+            },
+            {
+              "id": "o3",
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -67,19 +67,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "El hotel nuevo es bonito.",
+          "stimulus_en": "There isn’t ___ milk.",
           "options": [
             {
               "id": "o1",
-              "text": "The new hotel is nice."
-            },
-            {
-              "id": "o3",
-              "text": "hotel new"
+              "text": "enough"
             },
             {
               "id": "o2",
-              "text": "new hotel"
+              "text": "milk enough"
+            },
+            {
+              "id": "o3",
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -89,19 +89,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "El sandwich de queso y tomate es caro.",
+          "stimulus_en": "Do you have ___ flour?",
           "options": [
             {
-              "id": "o3",
-              "text": "sandwich expensive"
+              "id": "o1",
+              "text": "enough"
             },
             {
-              "id": "o1",
-              "text": "The cheese and tomato sandwich is expensive."
+              "id": "o3",
+              "text": "other"
             },
             {
               "id": "o2",
-              "text": "expensive sandwich"
+              "text": "enough of"
             }
           ],
           "correct_answer": "o1",
@@ -111,19 +111,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Una habitación llena.",
+          "stimulus_en": "I don’t have ___ warm clothes.",
           "options": [
             {
-              "id": "o2",
-              "text": "full room"
+              "id": "o3",
+              "text": "other"
             },
             {
-              "id": "o3",
-              "text": "room full"
+              "id": "o2",
+              "text": "enough of"
             },
             {
               "id": "o1",
-              "text": "A full room."
+              "text": "enough"
             }
           ],
           "correct_answer": "o1",
@@ -133,19 +133,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "El sandwich de queso y tomate es caro.",
+          "stimulus_en": "There isn’t ___ milk.",
           "options": [
             {
-              "id": "o1",
-              "text": "The cheese and tomato sandwich is expensive."
+              "id": "o2",
+              "text": "milk enough"
             },
             {
               "id": "o3",
-              "text": "sandwich expensive"
+              "text": "other"
             },
             {
-              "id": "o2",
-              "text": "expensive sandwich"
+              "id": "o1",
+              "text": "enough"
             }
           ],
           "correct_answer": "o1",
@@ -155,19 +155,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Un hombre viejo.",
+          "stimulus_en": "I don’t have ___ warm clothes.",
           "options": [
             {
               "id": "o1",
-              "text": "An old man."
-            },
-            {
-              "id": "o3",
-              "text": "man old"
+              "text": "enough"
             },
             {
               "id": "o2",
-              "text": "old man"
+              "text": "enough of"
+            },
+            {
+              "id": "o3",
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -177,19 +177,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "El sandwich de queso y tomate es caro.",
+          "stimulus_en": "It’s not hot ___.",
           "options": [
             {
+              "id": "o2",
+              "text": "enough hot"
+            },
+            {
               "id": "o1",
-              "text": "The cheese and tomato sandwich is expensive."
+              "text": "enough"
             },
             {
               "id": "o3",
-              "text": "sandwich expensive"
-            },
-            {
-              "id": "o2",
-              "text": "expensive sandwich"
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -201,22 +201,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "tall"
-            },
-            {
               "id": "w0",
-              "text": "A"
-            },
-            {
-              "id": "w2",
-              "text": "woman"
+              "text": "enough"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U28_I10"
@@ -226,27 +216,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w2",
-              "text": "cheap"
-            },
-            {
               "id": "w0",
-              "text": "It’s"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "restaurant"
+              "text": "enough"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U28_I11"
@@ -256,22 +231,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w2",
-              "text": "notebook"
-            },
-            {
-              "id": "w1",
-              "text": "small"
-            },
-            {
               "id": "w0",
-              "text": "A"
+              "text": "enough"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U28_I12"
@@ -282,21 +247,11 @@
           "options": [
             {
               "id": "w0",
-              "text": "A"
-            },
-            {
-              "id": "w1",
-              "text": "small"
-            },
-            {
-              "id": "w2",
-              "text": "notebook"
+              "text": "enough"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U28_I13"
@@ -306,42 +261,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "cheese"
-            },
-            {
-              "id": "w5",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "tomato"
-            },
-            {
-              "id": "w4",
-              "text": "sandwich"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
               "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "and"
+              "text": "enough"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U28_I14"
@@ -351,27 +276,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "a"
-            },
-            {
               "id": "w0",
-              "text": "It’s"
-            },
-            {
-              "id": "w2",
-              "text": "cheap"
-            },
-            {
-              "id": "w3",
-              "text": "restaurant"
+              "text": "enough"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U28_I15"
@@ -382,21 +292,11 @@
           "options": [
             {
               "id": "w0",
-              "text": "A"
-            },
-            {
-              "id": "w2",
-              "text": "woman"
-            },
-            {
-              "id": "w1",
-              "text": "tall"
+              "text": "enough"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U28_I16"
@@ -406,42 +306,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w5",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "and"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w4",
-              "text": "sandwich"
-            },
-            {
-              "id": "w3",
-              "text": "tomato"
-            },
-            {
               "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "cheese"
+              "text": "enough"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U28_I17"
@@ -449,119 +319,119 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una mujer alta. (___)",
-          "correct_answer": "A tall woman.",
+          "stimulus_en": "There isn’t ___ milk.",
+          "correct_answer": "enough",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I18"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Éste es un café bueno. (___)",
-          "correct_answer": "This is a good coffee.",
+          "stimulus_en": "I don’t have ___ warm clothes.",
+          "correct_answer": "enough",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I19"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "La chica joven es guapa también. (___)",
-          "correct_answer": "The young lady is beautiful too.",
+          "stimulus_en": "There isn’t ___ milk.",
+          "correct_answer": "enough",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I20"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una mujer alta. (___)",
-          "correct_answer": "A tall woman.",
+          "stimulus_en": "It’s not hot ___.",
+          "correct_answer": "enough",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I21"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Un cuaderno pequeño. (___)",
-          "correct_answer": "A small notebook.",
+          "stimulus_en": "There isn’t ___ milk.",
+          "correct_answer": "enough",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I22"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Éste es un café bueno. (___)",
-          "correct_answer": "This is a good coffee.",
+          "stimulus_en": "Do you have ___ flour?",
+          "correct_answer": "enough",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I23"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una mujer alta. (___)",
-          "correct_answer": "A tall woman.",
+          "stimulus_en": "I’m not tall ___.",
+          "correct_answer": "enough",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I24"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Un cuaderno pequeño. (___)",
-          "correct_answer": "A small notebook.",
+          "stimulus_en": "I don’t have ___ warm clothes.",
+          "correct_answer": "enough",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A full room.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"enough\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I26"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A big bottle. not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"enough\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I27"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A full room. not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A small notebook.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I29"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A tall woman.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"enough\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I30"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A small notebook.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The cheese and tomato sandwich is expensive. not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A full room. not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I33"
@@ -572,23 +442,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "El sandwich de queso y tomate es caro.",
-              "right": "The cheese and tomato sandwich is expensive."
+              "left": "I’m not tall ___.",
+              "right": "enough"
             },
             {
               "id": "p1",
-              "left": "Una botella grande.",
-              "right": "A big bottle."
+              "left": "It’s not hot ___.",
+              "right": "enough"
             },
             {
               "id": "p2",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "I don’t have ___ warm clothes.",
+              "right": "enough"
             },
             {
               "id": "p3",
-              "left": "Un hombre viejo.",
-              "right": "An old man."
+              "left": "Do you have ___ flour?",
+              "right": "enough"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -600,23 +470,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "I’m not tall ___.",
+              "right": "enough"
             },
             {
               "id": "p1",
-              "left": "Una habitación llena.",
-              "right": "A full room."
+              "left": "There isn’t ___ milk.",
+              "right": "enough"
             },
             {
               "id": "p2",
-              "left": "Es un restaurante barato.",
-              "right": "It’s a cheap restaurant."
+              "left": "I don’t have ___ warm clothes.",
+              "right": "enough"
             },
             {
               "id": "p3",
-              "left": "El sandwich de queso y tomate es caro.",
-              "right": "The cheese and tomato sandwich is expensive."
+              "left": "Do you have ___ flour?",
+              "right": "enough"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -628,23 +498,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Es un restaurante barato.",
-              "right": "It’s a cheap restaurant."
+              "left": "I’m not tall ___.",
+              "right": "enough"
             },
             {
               "id": "p1",
-              "left": "La chica joven es guapa también.",
-              "right": "The young lady is beautiful too."
+              "left": "I don’t have ___ warm clothes.",
+              "right": "enough"
             },
             {
               "id": "p2",
-              "left": "Un hombre viejo.",
-              "right": "An old man."
+              "left": "There isn’t ___ milk.",
+              "right": "enough"
             },
             {
               "id": "p3",
-              "left": "Un cuaderno pequeño.",
-              "right": "A small notebook."
+              "left": "It’s not hot ___.",
+              "right": "enough"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -656,23 +526,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Un cuaderno pequeño.",
-              "right": "A small notebook."
+              "left": "There isn’t ___ milk.",
+              "right": "enough"
             },
             {
               "id": "p1",
-              "left": "Una botella grande.",
-              "right": "A big bottle."
+              "left": "Do you have ___ flour?",
+              "right": "enough"
             },
             {
               "id": "p2",
-              "left": "La chica joven es guapa también.",
-              "right": "The young lady is beautiful too."
+              "left": "I don’t have ___ warm clothes.",
+              "right": "enough"
             },
             {
               "id": "p3",
-              "left": "Una habitación llena.",
-              "right": "A full room."
+              "left": "It’s not hot ___.",
+              "right": "enough"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -684,23 +554,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "I don’t have ___ warm clothes.",
+              "right": "enough"
             },
             {
               "id": "p1",
-              "left": "Un cuaderno pequeño.",
-              "right": "A small notebook."
+              "left": "There isn’t ___ milk.",
+              "right": "enough"
             },
             {
               "id": "p2",
-              "left": "Una botella grande.",
-              "right": "A big bottle."
+              "left": "It’s not hot ___.",
+              "right": "enough"
             },
             {
               "id": "p3",
-              "left": "El sandwich de queso y tomate es caro.",
-              "right": "The cheese and tomato sandwich is expensive."
+              "left": "Do you have ___ flour?",
+              "right": "enough"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -712,23 +582,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Una mujer alta.",
-              "right": "A tall woman."
+              "left": "I’m not tall ___.",
+              "right": "enough"
             },
             {
               "id": "p1",
-              "left": "La chica joven es guapa también.",
-              "right": "The young lady is beautiful too."
+              "left": "There isn’t ___ milk.",
+              "right": "enough"
             },
             {
               "id": "p2",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "It’s not hot ___.",
+              "right": "enough"
             },
             {
               "id": "p3",
-              "left": "El sandwich de queso y tomate es caro.",
-              "right": "The cheese and tomato sandwich is expensive."
+              "left": "Do you have ___ flour?",
+              "right": "enough"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -740,23 +610,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Una habitación llena.",
-              "right": "A full room."
+              "left": "I don’t have ___ warm clothes.",
+              "right": "enough"
             },
             {
               "id": "p1",
-              "left": "Es un restaurante barato.",
-              "right": "It’s a cheap restaurant."
+              "left": "There isn’t ___ milk.",
+              "right": "enough"
             },
             {
               "id": "p2",
-              "left": "Un cuaderno pequeño.",
-              "right": "A small notebook."
+              "left": "It’s not hot ___.",
+              "right": "enough"
             },
             {
               "id": "p3",
-              "left": "Una botella grande.",
-              "right": "A big bottle."
+              "left": "Do you have ___ flour?",
+              "right": "enough"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -768,23 +638,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Un hombre viejo.",
-              "right": "An old man."
+              "left": "There isn’t ___ milk.",
+              "right": "enough"
             },
             {
               "id": "p1",
-              "left": "Éste es un café bueno.",
-              "right": "This is a good coffee."
+              "left": "Do you have ___ flour?",
+              "right": "enough"
             },
             {
               "id": "p2",
-              "left": "Es un restaurante barato.",
-              "right": "It’s a cheap restaurant."
+              "left": "I don’t have ___ warm clothes.",
+              "right": "enough"
             },
             {
               "id": "p3",
-              "left": "Un cuaderno pequeño.",
-              "right": "A small notebook."
+              "left": "It’s not hot ___.",
+              "right": "enough"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1081,64 +951,64 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "This is a good coffee.",
-          "correct_answer": "This is a good coffee.",
+          "tts_en": "enough",
+          "correct_answer": "enough",
           "mastery_tag": "listening",
           "interaction_id": "U28_I50"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "A small notebook.",
-          "correct_answer": "A small notebook.",
+          "tts_en": "enough",
+          "correct_answer": "enough",
           "mastery_tag": "listening",
           "interaction_id": "U28_I51"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The cheese and tomato sandwich is expensive.",
-          "correct_answer": "The cheese and tomato sandwich is expensive.",
+          "tts_en": "enough",
+          "correct_answer": "enough",
           "mastery_tag": "listening",
           "interaction_id": "U28_I52"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The young lady is beautiful too.",
-          "correct_answer": "The young lady is beautiful too.",
+          "tts_en": "enough",
+          "correct_answer": "enough",
           "mastery_tag": "listening",
           "interaction_id": "U28_I53"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The new hotel is nice.",
-          "correct_answer": "The new hotel is nice.",
+          "tts_en": "enough",
+          "correct_answer": "enough",
           "mastery_tag": "listening",
           "interaction_id": "U28_I54"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The new hotel is nice.",
-          "correct_answer": "The new hotel is nice.",
+          "tts_en": "enough",
+          "correct_answer": "enough",
           "mastery_tag": "listening",
           "interaction_id": "U28_I55"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "An old man.",
-          "correct_answer": "An old man.",
+          "tts_en": "enough",
+          "correct_answer": "enough",
           "mastery_tag": "listening",
           "interaction_id": "U28_I56"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The young lady is beautiful too.",
-          "correct_answer": "The young lady is beautiful too.",
+          "tts_en": "enough",
+          "correct_answer": "enough",
           "mastery_tag": "listening",
           "interaction_id": "U28_I57"
         },
@@ -1527,31 +1397,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U28_I74"
         },
@@ -1564,31 +1436,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U28_I75"
         },
@@ -1601,31 +1475,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U28_I76"
         },
@@ -1638,31 +1514,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U28_I77"
         },
@@ -1675,31 +1553,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U28_I78"
         },
@@ -1712,31 +1592,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U28_I79"
         },
@@ -1749,31 +1631,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U28_I80"
         },
@@ -1786,31 +1670,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U28_I81"
         },

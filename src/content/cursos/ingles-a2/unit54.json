@@ -14,39 +14,28 @@
       "duration_minutes": 60,
       "content": [
         {
-          "type": "flashcard",
-          "prompt_es": "Repasa el vocabulario clave:",
-          "flashcards": [
-            {
-              "front": "Table",
-              "back": "Mesa",
-              "pronunciation": "/ˈteɪ.bəl/"
-            },
-            {
-              "front": "Chair",
-              "back": "Silla",
-              "pronunciation": "/tʃeər/"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "audio_player",
+          "prompt_es": "Escucha el audio antes de continuar:",
+          "tts_en": "This is an introductory audio for the unit.",
+          "mastery_tag": "listening",
           "interaction_id": "U54_I1"
         },
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Una mujer alta.",
+          "stimulus_en": "This is the best restaurant ___ town.",
           "options": [
             {
               "id": "o3",
-              "text": "woman tall"
-            },
-            {
-              "id": "o2",
-              "text": "tall woman"
+              "text": "other"
             },
             {
               "id": "o1",
-              "text": "A tall woman."
+              "text": "in"
+            },
+            {
+              "id": "o2",
+              "text": "of"
             }
           ],
           "correct_answer": "o1",
@@ -56,19 +45,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Es un restaurante barato.",
+          "stimulus_en": "This is the best restaurant ___ town.",
           "options": [
             {
               "id": "o3",
-              "text": "restaurant cheap"
-            },
-            {
-              "id": "o2",
-              "text": "cheap restaurant"
+              "text": "other"
             },
             {
               "id": "o1",
-              "text": "It’s a cheap restaurant."
+              "text": "in"
+            },
+            {
+              "id": "o2",
+              "text": "of"
             }
           ],
           "correct_answer": "o1",
@@ -78,19 +67,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Éste es un café bueno.",
+          "stimulus_en": "It is the biggest city ___ the country.",
           "options": [
             {
               "id": "o3",
-              "text": "coffee good"
+              "text": "other"
             },
             {
               "id": "o2",
-              "text": "good coffee"
+              "text": "of"
             },
             {
               "id": "o1",
-              "text": "This is a good coffee."
+              "text": "in"
             }
           ],
           "correct_answer": "o1",
@@ -100,19 +89,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Éste es un café bueno.",
+          "stimulus_en": "He is the tallest ___ the class.",
           "options": [
             {
+              "id": "o1",
+              "text": "in"
+            },
+            {
               "id": "o2",
-              "text": "good coffee"
+              "text": "of"
             },
             {
               "id": "o3",
-              "text": "coffee good"
-            },
-            {
-              "id": "o1",
-              "text": "This is a good coffee."
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -122,19 +111,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "El hotel nuevo es bonito.",
+          "stimulus_en": "It is the biggest city ___ the country.",
           "options": [
             {
               "id": "o3",
-              "text": "hotel new"
+              "text": "other"
             },
             {
               "id": "o2",
-              "text": "new hotel"
+              "text": "of"
             },
             {
               "id": "o1",
-              "text": "The new hotel is nice."
+              "text": "in"
             }
           ],
           "correct_answer": "o1",
@@ -144,19 +133,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Éste es un café bueno.",
+          "stimulus_en": "This is the best restaurant ___ town.",
           "options": [
             {
-              "id": "o1",
-              "text": "This is a good coffee."
-            },
-            {
               "id": "o2",
-              "text": "good coffee"
+              "text": "of"
             },
             {
               "id": "o3",
-              "text": "coffee good"
+              "text": "other"
+            },
+            {
+              "id": "o1",
+              "text": "in"
             }
           ],
           "correct_answer": "o1",
@@ -166,19 +155,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Un hombre viejo.",
+          "stimulus_en": "She is the smartest person ___ the world.",
           "options": [
             {
               "id": "o1",
-              "text": "An old man."
-            },
-            {
-              "id": "o3",
-              "text": "man old"
+              "text": "in"
             },
             {
               "id": "o2",
-              "text": "old man"
+              "text": "of"
+            },
+            {
+              "id": "o3",
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -188,19 +177,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Una botella grande.",
+          "stimulus_en": "She is the smartest person ___ the world.",
           "options": [
             {
-              "id": "o1",
-              "text": "A big bottle."
+              "id": "o2",
+              "text": "of"
             },
             {
               "id": "o3",
-              "text": "bottle big"
+              "text": "other"
             },
             {
-              "id": "o2",
-              "text": "big bottle"
+              "id": "o1",
+              "text": "in"
             }
           ],
           "correct_answer": "o1",
@@ -212,22 +201,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "big"
-            },
-            {
               "id": "w0",
-              "text": "A"
-            },
-            {
-              "id": "w2",
-              "text": "bottle"
+              "text": "in"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U54_I10"
@@ -238,21 +217,11 @@
           "options": [
             {
               "id": "w0",
-              "text": "An"
-            },
-            {
-              "id": "w2",
-              "text": "man"
-            },
-            {
-              "id": "w1",
-              "text": "old"
+              "text": "in"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U54_I11"
@@ -262,22 +231,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "full"
-            },
-            {
-              "id": "w2",
-              "text": "room"
-            },
-            {
               "id": "w0",
-              "text": "A"
+              "text": "in"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U54_I12"
@@ -288,21 +247,11 @@
           "options": [
             {
               "id": "w0",
-              "text": "An"
-            },
-            {
-              "id": "w2",
-              "text": "man"
-            },
-            {
-              "id": "w1",
-              "text": "old"
+              "text": "in"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U54_I13"
@@ -312,32 +261,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "good"
-            },
-            {
-              "id": "w4",
-              "text": "coffee"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
               "id": "w0",
-              "text": "This"
+              "text": "in"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U54_I14"
@@ -348,21 +277,11 @@
           "options": [
             {
               "id": "w0",
-              "text": "A"
-            },
-            {
-              "id": "w1",
-              "text": "small"
-            },
-            {
-              "id": "w2",
-              "text": "notebook"
+              "text": "in"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U54_I15"
@@ -372,37 +291,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w5",
-              "text": "too"
-            },
-            {
-              "id": "w4",
-              "text": "beautiful"
-            },
-            {
               "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "young"
-            },
-            {
-              "id": "w2",
-              "text": "lady"
-            },
-            {
-              "id": "w3",
-              "text": "is"
+              "text": "in"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U54_I16"
@@ -412,22 +306,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "tall"
-            },
-            {
-              "id": "w2",
-              "text": "woman"
-            },
-            {
               "id": "w0",
-              "text": "A"
+              "text": "in"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U54_I17"
@@ -435,119 +319,119 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una habitación llena. (___)",
-          "correct_answer": "A full room.",
+          "stimulus_en": "This is the best restaurant ___ town.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U54_I18"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una habitación llena. (___)",
-          "correct_answer": "A full room.",
+          "stimulus_en": "He is the tallest ___ the class.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U54_I19"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una botella grande. (___)",
-          "correct_answer": "A big bottle.",
+          "stimulus_en": "This is the best restaurant ___ town.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U54_I20"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Es un restaurante barato. (___)",
-          "correct_answer": "It’s a cheap restaurant.",
+          "stimulus_en": "He is the tallest ___ the class.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U54_I21"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una mujer alta. (___)",
-          "correct_answer": "A tall woman.",
+          "stimulus_en": "She is the smartest person ___ the world.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U54_I22"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "El sandwich de queso y tomate es caro. (___)",
-          "correct_answer": "The cheese and tomato sandwich is expensive.",
+          "stimulus_en": "It is the biggest city ___ the country.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U54_I23"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "El sandwich de queso y tomate es caro. (___)",
-          "correct_answer": "The cheese and tomato sandwich is expensive.",
+          "stimulus_en": "This is the best restaurant ___ town.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U54_I24"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Un hombre viejo. (___)",
-          "correct_answer": "An old man.",
+          "stimulus_en": "It is the biggest city ___ the country.",
+          "correct_answer": "in",
           "mastery_tag": "grammar",
           "interaction_id": "U54_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The new hotel is nice.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"in\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U54_I26"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A small notebook.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"in not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U54_I27"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The new hotel is nice.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"in not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U54_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A full room. not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"in not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U54_I29"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is a good coffee.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"in not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U54_I30"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A big bottle. not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"in not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U54_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A small notebook. not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"in\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U54_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"It’s a cheap restaurant.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"in\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U54_I33"
@@ -558,23 +442,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "El sandwich de queso y tomate es caro.",
-              "right": "The cheese and tomato sandwich is expensive."
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "Éste es un café bueno.",
-              "right": "This is a good coffee."
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "Una botella grande.",
-              "right": "A big bottle."
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "La chica joven es guapa también.",
-              "right": "The young lady is beautiful too."
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -586,23 +470,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "Una habitación llena.",
-              "right": "A full room."
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "El sandwich de queso y tomate es caro.",
-              "right": "The cheese and tomato sandwich is expensive."
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "La chica joven es guapa también.",
-              "right": "The young lady is beautiful too."
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -614,23 +498,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Una mujer alta.",
-              "right": "A tall woman."
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "La chica joven es guapa también.",
-              "right": "The young lady is beautiful too."
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "Es un restaurante barato.",
-              "right": "It’s a cheap restaurant."
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -642,23 +526,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Una mujer alta.",
-              "right": "A tall woman."
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "La chica joven es guapa también.",
-              "right": "The young lady is beautiful too."
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "Un hombre viejo.",
-              "right": "An old man."
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -670,23 +554,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Una mujer alta.",
-              "right": "A tall woman."
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "Una botella grande.",
-              "right": "A big bottle."
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "Éste es un café bueno.",
-              "right": "This is a good coffee."
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "Un cuaderno pequeño.",
-              "right": "A small notebook."
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -698,23 +582,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Un hombre viejo.",
-              "right": "An old man."
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "Una mujer alta.",
-              "right": "A tall woman."
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "Un cuaderno pequeño.",
-              "right": "A small notebook."
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "Éste es un café bueno.",
-              "right": "This is a good coffee."
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -726,23 +610,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "Una botella grande.",
-              "right": "A big bottle."
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "Éste es un café bueno.",
-              "right": "This is a good coffee."
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "Es un restaurante barato.",
-              "right": "It’s a cheap restaurant."
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -754,23 +638,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Un cuaderno pequeño.",
-              "right": "A small notebook."
+              "left": "He is the tallest ___ the class.",
+              "right": "in"
             },
             {
               "id": "p1",
-              "left": "Es un restaurante barato.",
-              "right": "It’s a cheap restaurant."
+              "left": "It is the biggest city ___ the country.",
+              "right": "in"
             },
             {
               "id": "p2",
-              "left": "La chica joven es guapa también.",
-              "right": "The young lady is beautiful too."
+              "left": "This is the best restaurant ___ town.",
+              "right": "in"
             },
             {
               "id": "p3",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "She is the smartest person ___ the world.",
+              "right": "in"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1067,64 +951,64 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The cheese and tomato sandwich is expensive.",
-          "correct_answer": "The cheese and tomato sandwich is expensive.",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U54_I50"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "A tall woman.",
-          "correct_answer": "A tall woman.",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U54_I51"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "It’s a cheap restaurant.",
-          "correct_answer": "It’s a cheap restaurant.",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U54_I52"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "This is a good coffee.",
-          "correct_answer": "This is a good coffee.",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U54_I53"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "This is a good coffee.",
-          "correct_answer": "This is a good coffee.",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U54_I54"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "It’s a cheap restaurant.",
-          "correct_answer": "It’s a cheap restaurant.",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U54_I55"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "A tall woman.",
-          "correct_answer": "A tall woman.",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U54_I56"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "It’s a cheap restaurant.",
-          "correct_answer": "It’s a cheap restaurant.",
+          "tts_en": "in",
+          "correct_answer": "in",
           "mastery_tag": "listening",
           "interaction_id": "U54_I57"
         },
@@ -1513,31 +1397,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U54_I74"
         },
@@ -1550,31 +1436,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U54_I75"
         },
@@ -1587,31 +1475,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U54_I76"
         },
@@ -1624,31 +1514,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U54_I77"
         },
@@ -1661,31 +1553,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U54_I78"
         },
@@ -1698,31 +1592,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U54_I79"
         },
@@ -1735,31 +1631,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U54_I80"
         },
@@ -1772,31 +1670,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U54_I81"
         },

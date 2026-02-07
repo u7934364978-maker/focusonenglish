@@ -14,28 +14,39 @@
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Escucha el audio antes de continuar:",
-          "tts_en": "This is an introductory audio for the unit.",
-          "mastery_tag": "listening",
+          "type": "flashcard",
+          "prompt_es": "Repasa el vocabulario clave:",
+          "flashcards": [
+            {
+              "front": "Table",
+              "back": "Mesa",
+              "pronunciation": "/ˈteɪ.bəl/"
+            },
+            {
+              "front": "Chair",
+              "back": "Silla",
+              "pronunciation": "/tʃeər/"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U33_I1"
         },
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Sally ___ borrows money.",
+          "stimulus_en": "I ___ get up at 7.",
           "options": [
             {
-              "id": "o1",
-              "text": "often"
+              "id": "o2",
+              "text": "I get usually up"
             },
             {
               "id": "o3",
               "text": "other"
             },
             {
-              "id": "o2",
-              "text": "borrows often"
+              "id": "o1",
+              "text": "usually"
             }
           ],
           "correct_answer": "o1",
@@ -45,46 +56,24 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "My neighbour ___ spoils my holidays.",
+          "stimulus_en": "I ___ get up at 7.",
           "options": [
             {
-              "id": "o3",
-              "text": "other"
-            },
-            {
               "id": "o1",
-              "text": "always"
+              "text": "usually"
             },
             {
               "id": "o2",
-              "text": "spoils always"
+              "text": "I get usually up"
+            },
+            {
+              "id": "o3",
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U33_I3"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Sally ___ borrows money.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "often"
-            },
-            {
-              "id": "o2",
-              "text": "borrows often"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U33_I4"
         },
         {
           "type": "multiple_choice",
@@ -96,12 +85,34 @@
               "text": "always"
             },
             {
-              "id": "o3",
-              "text": "other"
-            },
-            {
               "id": "o2",
               "text": "I go always"
+            },
+            {
+              "id": "o3",
+              "text": "other"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U33_I4"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "I ___ go to bed before 11.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "often go"
+            },
+            {
+              "id": "o1",
+              "text": "often"
+            },
+            {
+              "id": "o3",
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -111,19 +122,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "The boys ___ play football.",
+          "stimulus_en": "My neighbour ___ spoils my holidays.",
           "options": [
             {
-              "id": "o3",
-              "text": "other"
-            },
-            {
               "id": "o2",
-              "text": "always play"
+              "text": "spoils always"
             },
             {
               "id": "o1",
               "text": "always"
+            },
+            {
+              "id": "o3",
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -133,24 +144,46 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Paul ___ helps me.",
+          "stimulus_en": "I ___ go to bed before 11.",
           "options": [
-            {
-              "id": "o2",
-              "text": "helps sometimes"
-            },
-            {
-              "id": "o1",
-              "text": "sometimes"
-            },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o1",
+              "text": "often"
+            },
+            {
+              "id": "o2",
+              "text": "often go"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U33_I7"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "Our teacher ___ is angry.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "is usually"
+            },
+            {
+              "id": "o3",
+              "text": "other"
+            },
+            {
+              "id": "o1",
+              "text": "usually"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U33_I8"
         },
         {
           "type": "multiple_choice",
@@ -168,28 +201,6 @@
             {
               "id": "o1",
               "text": "often"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U33_I8"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "The boys ___ play football.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "always play"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "always"
             }
           ],
           "correct_answer": "o1",
@@ -222,7 +233,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "never"
+              "text": "always"
             }
           ],
           "correct_answer": [
@@ -237,7 +248,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "always"
+              "text": "sometimes"
             }
           ],
           "correct_answer": [
@@ -251,17 +262,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "often"
-            },
-            {
               "id": "w0",
-              "text": "doesn't"
+              "text": "often"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U33_I13"
@@ -272,7 +278,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "always"
+              "text": "never"
             }
           ],
           "correct_answer": [
@@ -301,12 +307,17 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
+              "id": "w1",
+              "text": "often"
+            },
+            {
               "id": "w0",
-              "text": "usually"
+              "text": "doesn't"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U33_I16"
@@ -317,7 +328,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "usually"
+              "text": "often"
             }
           ],
           "correct_answer": [
@@ -329,7 +340,7 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Paul ___ helps me.",
+          "stimulus_en": "I ___ have lunch in a restaurant.",
           "correct_answer": "sometimes",
           "mastery_tag": "grammar",
           "interaction_id": "U33_I18"
@@ -337,7 +348,7 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "My neighbour ___ spoils my holidays.",
+          "stimulus_en": "I ___ go to school by bus.",
           "correct_answer": "always",
           "mastery_tag": "grammar",
           "interaction_id": "U33_I19"
@@ -345,15 +356,15 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "My neighbour ___ spoils my holidays.",
-          "correct_answer": "always",
+          "stimulus_en": "The bus ___ arrives late.",
+          "correct_answer": "usually",
           "mastery_tag": "grammar",
           "interaction_id": "U33_I20"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Sally ___ borrows money.",
+          "stimulus_en": "The students ___ use the dictionary.",
           "correct_answer": "often",
           "mastery_tag": "grammar",
           "interaction_id": "U33_I21"
@@ -361,15 +372,15 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "The boys ___ play football.",
-          "correct_answer": "always",
+          "stimulus_en": "I ___ watch TV in the evening.",
+          "correct_answer": "often",
           "mastery_tag": "grammar",
           "interaction_id": "U33_I22"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Jonathan ___ visits the dentist.",
+          "stimulus_en": "Jennifer ___ goes out to a concert.",
           "correct_answer": "usually",
           "mastery_tag": "grammar",
           "interaction_id": "U33_I23"
@@ -377,30 +388,30 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I ___ go to school by bus.",
-          "correct_answer": "always",
+          "stimulus_en": "She ___ drinks coffee.",
+          "correct_answer": "never",
           "mastery_tag": "grammar",
           "interaction_id": "U33_I24"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I ___ watch TV in the evenings.",
-          "correct_answer": "hardly ever",
+          "stimulus_en": "She ___ drinks coffee.",
+          "correct_answer": "never",
           "mastery_tag": "grammar",
           "interaction_id": "U33_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"always\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"always not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U33_I26"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"never\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"usually not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U33_I27"
         },
@@ -420,29 +431,29 @@
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"never not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"always\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U33_I30"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"usually not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"never\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U33_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"usually not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"always\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U33_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"often not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"always\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U33_I33"
         },
@@ -452,18 +463,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "The police ___ try to keep order.",
-              "right": "always"
+              "left": "I ___ drink alcohol if I drive.",
+              "right": "never"
             },
             {
               "id": "p1",
-              "left": "My neighbour ___ spoils my holidays.",
-              "right": "always"
+              "left": "I ___ have lunch in a restaurant.",
+              "right": "sometimes"
             },
             {
               "id": "p2",
-              "left": "The boys ___ play football.",
-              "right": "always"
+              "left": "The bus ___ arrives late.",
+              "right": "usually"
             },
             {
               "id": "p3",
@@ -480,23 +491,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Jonathan ___ visits the dentist.",
-              "right": "usually"
+              "left": "The boys ___ play football.",
+              "right": "always"
             },
             {
               "id": "p1",
-              "left": "Jennifer ___ goes out to a concert.",
-              "right": "usually"
-            },
-            {
-              "id": "p2",
               "left": "I ___ go to school by bus.",
               "right": "always"
             },
             {
+              "id": "p2",
+              "left": "Paul ___ helps me.",
+              "right": "sometimes"
+            },
+            {
               "id": "p3",
-              "left": "I ___ drink alcohol if I drive.",
-              "right": "never"
+              "left": "She ___ write to me.",
+              "right": "doesn't often"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -508,23 +519,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "She ___ write to me.",
-              "right": "doesn't often"
+              "left": "Paul ___ helps me.",
+              "right": "sometimes"
             },
             {
               "id": "p1",
-              "left": "The boys ___ play football.",
-              "right": "always"
+              "left": "She ___ drinks coffee.",
+              "right": "never"
             },
             {
               "id": "p2",
-              "left": "Jennifer ___ goes out to a concert.",
-              "right": "usually"
+              "left": "I ___ have lunch in a restaurant.",
+              "right": "sometimes"
             },
             {
               "id": "p3",
-              "left": "I ___ watch TV in the evening.",
-              "right": "often"
+              "left": "I ___ go to school by bus.",
+              "right": "always"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -536,7 +547,7 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I ___ watch TV in the evening.",
+              "left": "Sally ___ borrows money.",
               "right": "often"
             },
             {
@@ -546,12 +557,12 @@
             },
             {
               "id": "p2",
-              "left": "I ___ arrive late.",
-              "right": "never"
+              "left": "I ___ watch TV in the evenings.",
+              "right": "hardly ever"
             },
             {
               "id": "p3",
-              "left": "Jennifer ___ goes out to a concert.",
+              "left": "The bus ___ arrives late.",
               "right": "usually"
             }
           ],
@@ -564,8 +575,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I ___ go to school by bus.",
-              "right": "always"
+              "left": "I ___ arrive late.",
+              "right": "never"
             },
             {
               "id": "p1",
@@ -574,13 +585,13 @@
             },
             {
               "id": "p2",
-              "left": "Jennifer ___ goes out to a concert.",
-              "right": "usually"
+              "left": "I ___ drink alcohol if I drive.",
+              "right": "never"
             },
             {
               "id": "p3",
-              "left": "I ___ drink alcohol if I drive.",
-              "right": "never"
+              "left": "Jennifer ___ goes out to a concert.",
+              "right": "usually"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -592,22 +603,22 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Our teacher ___ is angry.",
-              "right": "usually"
+              "left": "I ___ drink alcohol if I drive.",
+              "right": "never"
             },
             {
               "id": "p1",
-              "left": "My neighbour ___ spoils my holidays.",
-              "right": "always"
+              "left": "I ___ watch TV in the evenings.",
+              "right": "hardly ever"
             },
             {
               "id": "p2",
-              "left": "The bus ___ arrives late.",
-              "right": "usually"
+              "left": "I ___ go to bed before 11.",
+              "right": "often"
             },
             {
               "id": "p3",
-              "left": "I ___ arrive late.",
+              "left": "She ___ drinks coffee.",
               "right": "never"
             }
           ],
@@ -620,23 +631,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I ___ drink alcohol if I drive.",
-              "right": "never"
-            },
-            {
-              "id": "p1",
               "left": "I ___ go to bed before 11.",
               "right": "often"
             },
             {
-              "id": "p2",
-              "left": "Jonathan ___ visits the dentist.",
+              "id": "p1",
+              "left": "Jennifer ___ goes out to a concert.",
               "right": "usually"
             },
             {
+              "id": "p2",
+              "left": "The students ___ use the dictionary.",
+              "right": "often"
+            },
+            {
               "id": "p3",
-              "left": "The bus ___ arrives late.",
-              "right": "usually"
+              "left": "I ___ drink alcohol if I drive.",
+              "right": "never"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -648,23 +659,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "The students ___ use the dictionary.",
-              "right": "often"
+              "left": "Jennifer ___ goes out to a concert.",
+              "right": "usually"
             },
             {
               "id": "p1",
-              "left": "I ___ drink alcohol if I drive.",
-              "right": "never"
+              "left": "I ___ watch TV in the evenings.",
+              "right": "hardly ever"
             },
             {
               "id": "p2",
-              "left": "I ___ go to school by bus.",
+              "left": "My neighbour ___ spoils my holidays.",
               "right": "always"
             },
             {
               "id": "p3",
-              "left": "I ___ have lunch in a restaurant.",
-              "right": "sometimes"
+              "left": "I ___ go to bed before 11.",
+              "right": "often"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -961,18 +972,10 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "always",
-          "correct_answer": "always",
-          "mastery_tag": "listening",
-          "interaction_id": "U33_I50"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
           "tts_en": "usually",
           "correct_answer": "usually",
           "mastery_tag": "listening",
-          "interaction_id": "U33_I51"
+          "interaction_id": "U33_I50"
         },
         {
           "type": "dictation_guided",
@@ -980,37 +983,45 @@
           "tts_en": "never",
           "correct_answer": "never",
           "mastery_tag": "listening",
+          "interaction_id": "U33_I51"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "always",
+          "correct_answer": "always",
+          "mastery_tag": "listening",
           "interaction_id": "U33_I52"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "often",
-          "correct_answer": "often",
+          "tts_en": "hardly ever",
+          "correct_answer": "hardly ever",
           "mastery_tag": "listening",
           "interaction_id": "U33_I53"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "sometimes",
-          "correct_answer": "sometimes",
+          "tts_en": "usually",
+          "correct_answer": "usually",
           "mastery_tag": "listening",
           "interaction_id": "U33_I54"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "sometimes",
-          "correct_answer": "sometimes",
+          "tts_en": "usually",
+          "correct_answer": "usually",
           "mastery_tag": "listening",
           "interaction_id": "U33_I55"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "usually",
-          "correct_answer": "usually",
+          "tts_en": "sometimes",
+          "correct_answer": "sometimes",
           "mastery_tag": "listening",
           "interaction_id": "U33_I56"
         },
@@ -1407,31 +1418,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U33_I74"
         },
@@ -1444,31 +1457,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U33_I75"
         },
@@ -1481,31 +1496,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U33_I76"
         },
@@ -1518,31 +1535,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U33_I77"
         },
@@ -1555,31 +1574,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U33_I78"
         },
@@ -1592,31 +1613,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U33_I79"
         },
@@ -1629,31 +1652,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U33_I80"
         },
@@ -1666,31 +1691,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U33_I81"
         },

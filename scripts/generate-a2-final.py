@@ -334,9 +334,10 @@ def generate_mc_cloze(unit_id, int_id, topic_data):
         "prompt_es": "Elige la opción correcta:",
         "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
         "gaps": [
-            {"id": "1", "options": [{"id": "a", "text": "a"}, {"id": "an", "text": "an"}], "correct_answer": "a"},
-            {"id": "2", "options": [{"id": "big", "text": "big"}, {"id": "sky", "text": "sky"}], "correct_answer": "big"}
+            {"id": "1", "options": [{"id": "o1", "text": "a"}, {"id": "o2", "text": "an"}]},
+            {"id": "2", "options": [{"id": "o1", "text": "big"}, {"id": "o2", "text": "sky"}]}
         ],
+        "correct_answer": {"1": "o1", "2": "o1"},
         "mastery_tag": "grammar"
     }
 

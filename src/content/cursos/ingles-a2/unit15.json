@@ -23,19 +23,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I love the beach ___ my partner hates it.",
+          "stimulus_en": "What’s the highest building you’ve ever ___?",
           "options": [
             {
               "id": "o1",
-              "text": "whereas"
-            },
-            {
-              "id": "o2",
-              "text": "while"
+              "text": "visited"
             },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o2",
+              "text": "visit"
             }
           ],
           "correct_answer": "o1",
@@ -45,19 +45,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "In Spain it's hot, ___ in England it rains.",
+          "stimulus_en": "What’s the most delicious food you’ve ever ___?",
           "options": [
             {
               "id": "o2",
-              "text": "whereas"
+              "text": "taste"
+            },
+            {
+              "id": "o1",
+              "text": "tasted"
             },
             {
               "id": "o3",
               "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "while"
             }
           ],
           "correct_answer": "o1",
@@ -67,15 +67,15 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I love the beach ___ my partner hates it.",
+          "stimulus_en": "What’s the highest building you’ve ever ___?",
           "options": [
             {
-              "id": "o1",
-              "text": "whereas"
+              "id": "o2",
+              "text": "visit"
             },
             {
-              "id": "o2",
-              "text": "while"
+              "id": "o1",
+              "text": "visited"
             },
             {
               "id": "o3",
@@ -89,19 +89,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "The teacher bought sweets ___ cookies.",
+          "stimulus_en": "What’s the funniest joke you’ve ever been ___?",
           "options": [
             {
+              "id": "o1",
+              "text": "told"
+            },
+            {
               "id": "o2",
-              "text": "as well"
+              "text": "tell"
             },
             {
               "id": "o3",
               "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "as well as"
             }
           ],
           "correct_answer": "o1",
@@ -111,19 +111,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "In Spain it's hot, ___ in England it rains.",
+          "stimulus_en": "What’s the happiest day you’ve ever ___?",
           "options": [
             {
-              "id": "o2",
-              "text": "whereas"
+              "id": "o1",
+              "text": "had"
             },
             {
               "id": "o3",
               "text": "other"
             },
             {
-              "id": "o1",
-              "text": "while"
+              "id": "o2",
+              "text": "have"
             }
           ],
           "correct_answer": "o1",
@@ -133,19 +133,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It is raining. ___, it is not cold.",
+          "stimulus_en": "What’s the funniest joke you’ve ever been ___?",
           "options": [
             {
-              "id": "o2",
-              "text": "However"
+              "id": "o1",
+              "text": "told"
             },
             {
               "id": "o3",
               "text": "other"
             },
             {
-              "id": "o1",
-              "text": "Nonetheless"
+              "id": "o2",
+              "text": "tell"
             }
           ],
           "correct_answer": "o1",
@@ -155,15 +155,15 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "___, she didn't hurt herself.",
+          "stimulus_en": "What’s the longest beach you’ve ever ___ to?",
           "options": [
             {
-              "id": "o1",
-              "text": "Fortunately"
+              "id": "o2",
+              "text": "go"
             },
             {
-              "id": "o2",
-              "text": "Unfortunately"
+              "id": "o1",
+              "text": "been"
             },
             {
               "id": "o3",
@@ -177,11 +177,11 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "The teacher bought sweets ___ cookies.",
+          "stimulus_en": "What’s the coldest country you’ve ever ___ to?",
           "options": [
             {
               "id": "o2",
-              "text": "as well"
+              "text": "was"
             },
             {
               "id": "o3",
@@ -189,7 +189,7 @@
             },
             {
               "id": "o1",
-              "text": "as well as"
+              "text": "been"
             }
           ],
           "correct_answer": "o1",
@@ -202,7 +202,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "Fortunately"
+              "text": "listened"
             }
           ],
           "correct_answer": [
@@ -217,7 +217,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "while"
+              "text": "had"
             }
           ],
           "correct_answer": [
@@ -231,17 +231,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "well"
-            },
-            {
               "id": "w0",
-              "text": "as"
+              "text": "visited"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U15_I12"
@@ -251,22 +246,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "well"
-            },
-            {
               "id": "w0",
-              "text": "as"
-            },
-            {
-              "id": "w2",
-              "text": "as"
+              "text": "tasted"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U15_I13"
@@ -277,16 +262,11 @@
           "options": [
             {
               "id": "w0",
-              "text": "as"
-            },
-            {
-              "id": "w1",
-              "text": "well"
+              "text": "told"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U15_I14"
@@ -297,21 +277,11 @@
           "options": [
             {
               "id": "w0",
-              "text": "As"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "consequence"
+              "text": "told"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U15_I15"
@@ -322,16 +292,11 @@
           "options": [
             {
               "id": "w0",
-              "text": "as"
-            },
-            {
-              "id": "w1",
-              "text": "well"
+              "text": "had"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U15_I16"
@@ -341,22 +306,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "consequence"
-            },
-            {
               "id": "w0",
-              "text": "As"
+              "text": "visited"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U15_I17"
@@ -364,120 +319,120 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "In Spain shops close late. ___, in France they close early.",
-          "correct_answer": "In contrast",
+          "stimulus_en": "What’s the most delicious food you’ve ever ___?",
+          "correct_answer": "tasted",
           "mastery_tag": "grammar",
           "interaction_id": "U15_I18"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "___, she didn't hurt herself.",
-          "correct_answer": "Fortunately",
+          "stimulus_en": "What’s the funniest joke you’ve ever been ___?",
+          "correct_answer": "told",
           "mastery_tag": "grammar",
           "interaction_id": "U15_I19"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "___, she didn't hurt herself.",
-          "correct_answer": "Fortunately",
+          "stimulus_en": "What’s the coldest country you’ve ever ___ to?",
+          "correct_answer": "been",
           "mastery_tag": "grammar",
           "interaction_id": "U15_I20"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "My brother is blond, ___ our youngest brother has black hair.",
-          "correct_answer": "in contrast with",
+          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
+          "correct_answer": "listened",
           "mastery_tag": "grammar",
           "interaction_id": "U15_I21"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It is raining. ___, it is not cold.",
-          "correct_answer": "Nonetheless",
+          "stimulus_en": "What’s the happiest day you’ve ever ___?",
+          "correct_answer": "had",
           "mastery_tag": "grammar",
           "interaction_id": "U15_I22"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "In Spain shops close late. ___, in France they close early.",
-          "correct_answer": "In contrast",
+          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
+          "correct_answer": "listened",
           "mastery_tag": "grammar",
           "interaction_id": "U15_I23"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "___, I didn't pass.",
-          "correct_answer": "Unfortunately",
+          "stimulus_en": "What’s the happiest day you’ve ever ___?",
+          "correct_answer": "had",
           "mastery_tag": "grammar",
           "interaction_id": "U15_I24"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "___, she didn't hurt herself.",
-          "correct_answer": "Fortunately",
+          "stimulus_en": "What’s the most difficult language you’ve ever ___?",
+          "correct_answer": "studied",
           "mastery_tag": "grammar",
           "interaction_id": "U15_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"as well as\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"been not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U15_I26"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"as well\"",
+          "prompt_es": "¿Es correcta esta frase?: \"visited\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U15_I27"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"As a consequence\"",
+          "prompt_es": "¿Es correcta esta frase?: \"visited\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U15_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"whereas not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"been\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U15_I29"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"As a consequence not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"visited\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U15_I30"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Fortunately not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"visited\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U15_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Fortunately\"",
+          "prompt_es": "¿Es correcta esta frase?: \"visited\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U15_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Fortunately not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"been\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U15_I33"
         },
@@ -487,23 +442,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "My brother is blond, ___ our youngest brother has black hair.",
-              "right": "in contrast with"
+              "left": "What’s the most difficult language you’ve ever ___?",
+              "right": "studied"
             },
             {
               "id": "p1",
-              "left": "I like football. I like it ___.",
-              "right": "as well"
+              "left": "What’s the hottest place you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p2",
-              "left": "It is raining. ___, it is not cold.",
-              "right": "Nonetheless"
+              "left": "What’s the saddest song you’ve ever ___ to?",
+              "right": "listened"
             },
             {
               "id": "p3",
-              "left": "The teacher bought sweets ___ cookies.",
-              "right": "as well as"
+              "left": "What’s the longest beach you’ve ever ___ to?",
+              "right": "been"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -515,23 +470,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "It is raining. ___, it is not cold.",
-              "right": "Nonetheless"
+              "left": "Who’s the shyest person you’ve ever ___?",
+              "right": "met"
             },
             {
               "id": "p1",
-              "left": "___, she didn't hurt herself.",
-              "right": "Fortunately"
+              "left": "What’s the most delicious food you’ve ever ___?",
+              "right": "tasted"
             },
             {
               "id": "p2",
-              "left": "In Spain it's hot, ___ in England it rains.",
-              "right": "while"
+              "left": "What’s the happiest day you’ve ever ___?",
+              "right": "had"
             },
             {
               "id": "p3",
-              "left": "My brother is blond, ___ our youngest brother has black hair.",
-              "right": "in contrast with"
+              "left": "What’s the saddest song you’ve ever ___ to?",
+              "right": "listened"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -543,23 +498,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "In Spain it's hot, ___ in England it rains.",
-              "right": "while"
+              "left": "What’s the saddest song you’ve ever ___ to?",
+              "right": "listened"
             },
             {
               "id": "p1",
-              "left": "___, she didn't hurt herself.",
-              "right": "Fortunately"
+              "left": "What’s the most difficult language you’ve ever ___?",
+              "right": "studied"
             },
             {
               "id": "p2",
-              "left": "I like football. I like it ___.",
-              "right": "as well"
+              "left": "What’s the coldest country you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p3",
-              "left": "My brother is blond, ___ our youngest brother has black hair.",
-              "right": "in contrast with"
+              "left": "What’s the longest beach you’ve ever ___ to?",
+              "right": "been"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -571,23 +526,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "My brother is blond, ___ our youngest brother has black hair.",
-              "right": "in contrast with"
+              "left": "What’s the funniest joke you’ve ever been ___?",
+              "right": "told"
             },
             {
               "id": "p1",
-              "left": "___, she didn't hurt herself.",
-              "right": "Fortunately"
+              "left": "Who’s the shyest person you’ve ever ___?",
+              "right": "met"
             },
             {
               "id": "p2",
-              "left": "___ you're working, I won't cook.",
-              "right": "Since"
+              "left": "What’s the coldest country you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p3",
-              "left": "He didn't study. ___, he failed.",
-              "right": "As a consequence"
+              "left": "What’s the hottest place you’ve ever ___ to?",
+              "right": "been"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -599,23 +554,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "He didn't study. ___, he failed.",
-              "right": "As a consequence"
+              "left": "What’s the hottest place you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p1",
-              "left": "In Spain shops close late. ___, in France they close early.",
-              "right": "In contrast"
+              "left": "What’s the saddest song you’ve ever ___ to?",
+              "right": "listened"
             },
             {
               "id": "p2",
-              "left": "I like football. I like it ___.",
-              "right": "as well"
+              "left": "What’s the happiest day you’ve ever ___?",
+              "right": "had"
             },
             {
               "id": "p3",
-              "left": "I love the beach ___ my partner hates it.",
-              "right": "whereas"
+              "left": "Who’s the shyest person you’ve ever ___?",
+              "right": "met"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -627,23 +582,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "___, she didn't hurt herself.",
-              "right": "Fortunately"
+              "left": "What’s the hottest place you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p1",
-              "left": "In Spain shops close late. ___, in France they close early.",
-              "right": "In contrast"
+              "left": "What’s the longest beach you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p2",
-              "left": "I love the beach ___ my partner hates it.",
-              "right": "whereas"
+              "left": "What’s the most difficult language you’ve ever ___?",
+              "right": "studied"
             },
             {
               "id": "p3",
-              "left": "___ you're working, I won't cook.",
-              "right": "Since"
+              "left": "What’s the coldest country you’ve ever ___ to?",
+              "right": "been"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -655,23 +610,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I like football. I like it ___.",
-              "right": "as well"
+              "left": "Who’s the shyest person you’ve ever ___?",
+              "right": "met"
             },
             {
               "id": "p1",
-              "left": "___, I didn't pass.",
-              "right": "Unfortunately"
+              "left": "What’s the most delicious food you’ve ever ___?",
+              "right": "tasted"
             },
             {
               "id": "p2",
-              "left": "It is raining. ___, it is not cold.",
-              "right": "Nonetheless"
+              "left": "What’s the highest building you’ve ever ___?",
+              "right": "visited"
             },
             {
               "id": "p3",
-              "left": "I love the beach ___ my partner hates it.",
-              "right": "whereas"
+              "left": "What’s the coldest country you’ve ever ___ to?",
+              "right": "been"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -683,23 +638,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "My brother is blond, ___ our youngest brother has black hair.",
-              "right": "in contrast with"
+              "left": "What’s the coldest country you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p1",
-              "left": "The teacher bought sweets ___ cookies.",
-              "right": "as well as"
+              "left": "What’s the highest building you’ve ever ___?",
+              "right": "visited"
             },
             {
               "id": "p2",
-              "left": "It is raining. ___, it is not cold.",
-              "right": "Nonetheless"
+              "left": "What’s the hottest place you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p3",
-              "left": "I like football. I like it ___.",
-              "right": "as well"
+              "left": "What’s the happiest day you’ve ever ___?",
+              "right": "had"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -996,64 +951,64 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "in contrast with",
-          "correct_answer": "in contrast with",
+          "tts_en": "tasted",
+          "correct_answer": "tasted",
           "mastery_tag": "listening",
           "interaction_id": "U15_I50"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "Unfortunately",
-          "correct_answer": "Unfortunately",
+          "tts_en": "met",
+          "correct_answer": "met",
           "mastery_tag": "listening",
           "interaction_id": "U15_I51"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "in contrast with",
-          "correct_answer": "in contrast with",
+          "tts_en": "visited",
+          "correct_answer": "visited",
           "mastery_tag": "listening",
           "interaction_id": "U15_I52"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "Nonetheless",
-          "correct_answer": "Nonetheless",
+          "tts_en": "been",
+          "correct_answer": "been",
           "mastery_tag": "listening",
           "interaction_id": "U15_I53"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "as well",
-          "correct_answer": "as well",
+          "tts_en": "studied",
+          "correct_answer": "studied",
           "mastery_tag": "listening",
           "interaction_id": "U15_I54"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "Since",
-          "correct_answer": "Since",
+          "tts_en": "told",
+          "correct_answer": "told",
           "mastery_tag": "listening",
           "interaction_id": "U15_I55"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "whereas",
-          "correct_answer": "whereas",
+          "tts_en": "been",
+          "correct_answer": "been",
           "mastery_tag": "listening",
           "interaction_id": "U15_I56"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "Unfortunately",
-          "correct_answer": "Unfortunately",
+          "tts_en": "visited",
+          "correct_answer": "visited",
           "mastery_tag": "listening",
           "interaction_id": "U15_I57"
         },
@@ -1442,31 +1397,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U15_I74"
         },
@@ -1479,31 +1436,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U15_I75"
         },
@@ -1516,31 +1475,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U15_I76"
         },
@@ -1553,31 +1514,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U15_I77"
         },
@@ -1590,31 +1553,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U15_I78"
         },
@@ -1627,31 +1592,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U15_I79"
         },
@@ -1664,31 +1631,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U15_I80"
         },
@@ -1701,31 +1670,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U15_I81"
         },

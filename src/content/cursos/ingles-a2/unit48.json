@@ -14,39 +14,28 @@
       "duration_minutes": 60,
       "content": [
         {
-          "type": "flashcard",
-          "prompt_es": "Repasa el vocabulario clave:",
-          "flashcards": [
-            {
-              "front": "Table",
-              "back": "Mesa",
-              "pronunciation": "/ˈteɪ.bəl/"
-            },
-            {
-              "front": "Chair",
-              "back": "Silla",
-              "pronunciation": "/tʃeər/"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "audio_player",
+          "prompt_es": "Escucha el audio antes de continuar:",
+          "tts_en": "This is an introductory audio for the unit.",
+          "mastery_tag": "listening",
           "interaction_id": "U48_I1"
         },
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Una botella grande.",
+          "stimulus_en": "What’s the highest building you’ve ever ___?",
           "options": [
             {
               "id": "o2",
-              "text": "big bottle"
+              "text": "visit"
             },
             {
               "id": "o1",
-              "text": "A big bottle."
+              "text": "visited"
             },
             {
               "id": "o3",
-              "text": "bottle big"
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -56,19 +45,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Una mujer alta.",
+          "stimulus_en": "What’s the happiest day you’ve ever ___?",
           "options": [
             {
               "id": "o2",
-              "text": "tall woman"
-            },
-            {
-              "id": "o1",
-              "text": "A tall woman."
+              "text": "have"
             },
             {
               "id": "o3",
-              "text": "woman tall"
+              "text": "other"
+            },
+            {
+              "id": "o1",
+              "text": "had"
             }
           ],
           "correct_answer": "o1",
@@ -78,19 +67,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "El sandwich de queso y tomate es caro.",
+          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
           "options": [
             {
+              "id": "o3",
+              "text": "other"
+            },
+            {
               "id": "o1",
-              "text": "The cheese and tomato sandwich is expensive."
+              "text": "listened"
             },
             {
               "id": "o2",
-              "text": "expensive sandwich"
-            },
-            {
-              "id": "o3",
-              "text": "sandwich expensive"
+              "text": "listen"
             }
           ],
           "correct_answer": "o1",
@@ -100,19 +89,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Éste es un café bueno.",
+          "stimulus_en": "What’s the highest building you’ve ever ___?",
           "options": [
             {
-              "id": "o2",
-              "text": "good coffee"
+              "id": "o1",
+              "text": "visited"
             },
             {
-              "id": "o1",
-              "text": "This is a good coffee."
+              "id": "o2",
+              "text": "visit"
             },
             {
               "id": "o3",
-              "text": "coffee good"
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -122,19 +111,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Un hombre viejo.",
+          "stimulus_en": "What’s the longest beach you’ve ever ___ to?",
           "options": [
             {
               "id": "o3",
-              "text": "man old"
-            },
-            {
-              "id": "o2",
-              "text": "old man"
+              "text": "other"
             },
             {
               "id": "o1",
-              "text": "An old man."
+              "text": "been"
+            },
+            {
+              "id": "o2",
+              "text": "go"
             }
           ],
           "correct_answer": "o1",
@@ -144,19 +133,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "El hotel nuevo es bonito.",
+          "stimulus_en": "What’s the happiest day you’ve ever ___?",
           "options": [
             {
               "id": "o2",
-              "text": "new hotel"
+              "text": "have"
             },
             {
               "id": "o1",
-              "text": "The new hotel is nice."
+              "text": "had"
             },
             {
               "id": "o3",
-              "text": "hotel new"
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -166,19 +155,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Un cuaderno pequeño.",
+          "stimulus_en": "What’s the highest building you’ve ever ___?",
           "options": [
             {
               "id": "o1",
-              "text": "A small notebook."
-            },
-            {
-              "id": "o2",
-              "text": "small notebook"
+              "text": "visited"
             },
             {
               "id": "o3",
-              "text": "notebook small"
+              "text": "other"
+            },
+            {
+              "id": "o2",
+              "text": "visit"
             }
           ],
           "correct_answer": "o1",
@@ -188,19 +177,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "La chica joven es guapa también.",
+          "stimulus_en": "What’s the longest beach you’ve ever ___ to?",
           "options": [
             {
               "id": "o1",
-              "text": "The young lady is beautiful too."
+              "text": "been"
             },
             {
               "id": "o3",
-              "text": "lady young"
+              "text": "other"
             },
             {
               "id": "o2",
-              "text": "young lady"
+              "text": "go"
             }
           ],
           "correct_answer": "o1",
@@ -212,42 +201,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w3",
-              "text": "tomato"
-            },
-            {
-              "id": "w5",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w4",
-              "text": "sandwich"
-            },
-            {
-              "id": "w2",
-              "text": "and"
-            },
-            {
-              "id": "w1",
-              "text": "cheese"
-            },
-            {
               "id": "w0",
-              "text": "The"
+              "text": "tasted"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U48_I10"
@@ -257,27 +216,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "restaurant"
-            },
-            {
-              "id": "w2",
-              "text": "cheap"
-            },
-            {
               "id": "w0",
-              "text": "It’s"
+              "text": "studied"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U48_I11"
@@ -287,22 +231,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w2",
-              "text": "notebook"
-            },
-            {
-              "id": "w1",
-              "text": "small"
-            },
-            {
               "id": "w0",
-              "text": "A"
+              "text": "met"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U48_I12"
@@ -313,31 +247,11 @@
           "options": [
             {
               "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "nice"
-            },
-            {
-              "id": "w2",
-              "text": "hotel"
-            },
-            {
-              "id": "w1",
-              "text": "new"
+              "text": "met"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U48_I13"
@@ -347,22 +261,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "old"
-            },
-            {
-              "id": "w2",
-              "text": "man"
-            },
-            {
               "id": "w0",
-              "text": "An"
+              "text": "visited"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U48_I14"
@@ -372,22 +276,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w2",
-              "text": "man"
-            },
-            {
-              "id": "w1",
-              "text": "old"
-            },
-            {
               "id": "w0",
-              "text": "An"
+              "text": "told"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U48_I15"
@@ -397,27 +291,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w3",
-              "text": "restaurant"
-            },
-            {
               "id": "w0",
-              "text": "It’s"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "cheap"
+              "text": "been"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U48_I16"
@@ -427,32 +306,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "new"
-            },
-            {
-              "id": "w2",
-              "text": "hotel"
-            },
-            {
-              "id": "w4",
-              "text": "nice"
-            },
-            {
               "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "is"
+              "text": "studied"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U48_I17"
@@ -460,120 +319,120 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Un hombre viejo. (___)",
-          "correct_answer": "An old man.",
+          "stimulus_en": "What’s the highest building you’ve ever ___?",
+          "correct_answer": "visited",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I18"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una botella grande. (___)",
-          "correct_answer": "A big bottle.",
+          "stimulus_en": "What’s the highest building you’ve ever ___?",
+          "correct_answer": "visited",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I19"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "El hotel nuevo es bonito. (___)",
-          "correct_answer": "The new hotel is nice.",
+          "stimulus_en": "Who’s the shyest person you’ve ever ___?",
+          "correct_answer": "met",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I20"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Éste es un café bueno. (___)",
-          "correct_answer": "This is a good coffee.",
+          "stimulus_en": "What’s the highest building you’ve ever ___?",
+          "correct_answer": "visited",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I21"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Éste es un café bueno. (___)",
-          "correct_answer": "This is a good coffee.",
+          "stimulus_en": "What’s the coldest country you’ve ever ___ to?",
+          "correct_answer": "been",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I22"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Un hombre viejo. (___)",
-          "correct_answer": "An old man.",
+          "stimulus_en": "Who’s the shyest person you’ve ever ___?",
+          "correct_answer": "met",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I23"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "La chica joven es guapa también. (___)",
-          "correct_answer": "The young lady is beautiful too.",
+          "stimulus_en": "Who’s the shyest person you’ve ever ___?",
+          "correct_answer": "met",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I24"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Una habitación llena. (___)",
-          "correct_answer": "A full room.",
+          "stimulus_en": "Who’s the shyest person you’ve ever ___?",
+          "correct_answer": "met",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is a good coffee. not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"been\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I26"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The young lady is beautiful too. not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"had\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I27"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The cheese and tomato sandwich is expensive.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"visited\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A tall woman. not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"had not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I29"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The cheese and tomato sandwich is expensive. not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"been\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I30"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A small notebook.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"tasted\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The cheese and tomato sandwich is expensive. not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"told not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A full room. not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"been\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I33"
         },
@@ -583,23 +442,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Una mujer alta.",
-              "right": "A tall woman."
+              "left": "What’s the highest building you’ve ever ___?",
+              "right": "visited"
             },
             {
               "id": "p1",
-              "left": "Una botella grande.",
-              "right": "A big bottle."
+              "left": "What’s the funniest joke you’ve ever been ___?",
+              "right": "told"
             },
             {
               "id": "p2",
-              "left": "Un hombre viejo.",
-              "right": "An old man."
+              "left": "What’s the happiest day you’ve ever ___?",
+              "right": "had"
             },
             {
               "id": "p3",
-              "left": "Una habitación llena.",
-              "right": "A full room."
+              "left": "What’s the most difficult language you’ve ever ___?",
+              "right": "studied"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -611,23 +470,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Un hombre viejo.",
-              "right": "An old man."
+              "left": "What’s the hottest place you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p1",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "What’s the saddest song you’ve ever ___ to?",
+              "right": "listened"
             },
             {
               "id": "p2",
-              "left": "Es un restaurante barato.",
-              "right": "It’s a cheap restaurant."
+              "left": "What’s the funniest joke you’ve ever been ___?",
+              "right": "told"
             },
             {
               "id": "p3",
-              "left": "Una botella grande.",
-              "right": "A big bottle."
+              "left": "What’s the highest building you’ve ever ___?",
+              "right": "visited"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -639,23 +498,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "El sandwich de queso y tomate es caro.",
-              "right": "The cheese and tomato sandwich is expensive."
+              "left": "What’s the longest beach you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p1",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "What’s the happiest day you’ve ever ___?",
+              "right": "had"
             },
             {
               "id": "p2",
-              "left": "Un cuaderno pequeño.",
-              "right": "A small notebook."
+              "left": "What’s the saddest song you’ve ever ___ to?",
+              "right": "listened"
             },
             {
               "id": "p3",
-              "left": "Una mujer alta.",
-              "right": "A tall woman."
+              "left": "What’s the most delicious food you’ve ever ___?",
+              "right": "tasted"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -667,23 +526,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Éste es un café bueno.",
-              "right": "This is a good coffee."
+              "left": "What’s the most delicious food you’ve ever ___?",
+              "right": "tasted"
             },
             {
               "id": "p1",
-              "left": "La chica joven es guapa también.",
-              "right": "The young lady is beautiful too."
+              "left": "What’s the funniest joke you’ve ever been ___?",
+              "right": "told"
             },
             {
               "id": "p2",
-              "left": "Un cuaderno pequeño.",
-              "right": "A small notebook."
+              "left": "What’s the longest beach you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p3",
-              "left": "Una mujer alta.",
-              "right": "A tall woman."
+              "left": "What’s the happiest day you’ve ever ___?",
+              "right": "had"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -695,23 +554,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Una mujer alta.",
-              "right": "A tall woman."
+              "left": "What’s the most difficult language you’ve ever ___?",
+              "right": "studied"
             },
             {
               "id": "p1",
-              "left": "La chica joven es guapa también.",
-              "right": "The young lady is beautiful too."
+              "left": "What’s the saddest song you’ve ever ___ to?",
+              "right": "listened"
             },
             {
               "id": "p2",
-              "left": "Es un restaurante barato.",
-              "right": "It’s a cheap restaurant."
+              "left": "What’s the happiest day you’ve ever ___?",
+              "right": "had"
             },
             {
               "id": "p3",
-              "left": "Una habitación llena.",
-              "right": "A full room."
+              "left": "What’s the highest building you’ve ever ___?",
+              "right": "visited"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -723,23 +582,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Una habitación llena.",
-              "right": "A full room."
+              "left": "What’s the hottest place you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p1",
-              "left": "El sandwich de queso y tomate es caro.",
-              "right": "The cheese and tomato sandwich is expensive."
+              "left": "What’s the coldest country you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p2",
-              "left": "Una botella grande.",
-              "right": "A big bottle."
+              "left": "What’s the funniest joke you’ve ever been ___?",
+              "right": "told"
             },
             {
               "id": "p3",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "What’s the most difficult language you’ve ever ___?",
+              "right": "studied"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -751,23 +610,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Un cuaderno pequeño.",
-              "right": "A small notebook."
+              "left": "What’s the most difficult language you’ve ever ___?",
+              "right": "studied"
             },
             {
               "id": "p1",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "Who’s the shyest person you’ve ever ___?",
+              "right": "met"
             },
             {
               "id": "p2",
-              "left": "Una habitación llena.",
-              "right": "A full room."
+              "left": "What’s the hottest place you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p3",
-              "left": "Una mujer alta.",
-              "right": "A tall woman."
+              "left": "What’s the coldest country you’ve ever ___ to?",
+              "right": "been"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -779,23 +638,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "La chica joven es guapa también.",
-              "right": "The young lady is beautiful too."
+              "left": "What’s the coldest country you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p1",
-              "left": "Es un restaurante barato.",
-              "right": "It’s a cheap restaurant."
+              "left": "What’s the longest beach you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p2",
-              "left": "El hotel nuevo es bonito.",
-              "right": "The new hotel is nice."
+              "left": "What’s the most difficult language you’ve ever ___?",
+              "right": "studied"
             },
             {
               "id": "p3",
-              "left": "Éste es un café bueno.",
-              "right": "This is a good coffee."
+              "left": "What’s the happiest day you’ve ever ___?",
+              "right": "had"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1092,64 +951,64 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The young lady is beautiful too.",
-          "correct_answer": "The young lady is beautiful too.",
+          "tts_en": "been",
+          "correct_answer": "been",
           "mastery_tag": "listening",
           "interaction_id": "U48_I50"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "A small notebook.",
-          "correct_answer": "A small notebook.",
+          "tts_en": "studied",
+          "correct_answer": "studied",
           "mastery_tag": "listening",
           "interaction_id": "U48_I51"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The new hotel is nice.",
-          "correct_answer": "The new hotel is nice.",
+          "tts_en": "visited",
+          "correct_answer": "visited",
           "mastery_tag": "listening",
           "interaction_id": "U48_I52"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "This is a good coffee.",
-          "correct_answer": "This is a good coffee.",
+          "tts_en": "visited",
+          "correct_answer": "visited",
           "mastery_tag": "listening",
           "interaction_id": "U48_I53"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The new hotel is nice.",
-          "correct_answer": "The new hotel is nice.",
+          "tts_en": "had",
+          "correct_answer": "had",
           "mastery_tag": "listening",
           "interaction_id": "U48_I54"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "A full room.",
-          "correct_answer": "A full room.",
+          "tts_en": "been",
+          "correct_answer": "been",
           "mastery_tag": "listening",
           "interaction_id": "U48_I55"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "The young lady is beautiful too.",
-          "correct_answer": "The young lady is beautiful too.",
+          "tts_en": "tasted",
+          "correct_answer": "tasted",
           "mastery_tag": "listening",
           "interaction_id": "U48_I56"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "An old man.",
-          "correct_answer": "An old man.",
+          "tts_en": "visited",
+          "correct_answer": "visited",
           "mastery_tag": "listening",
           "interaction_id": "U48_I57"
         },
@@ -1538,31 +1397,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U48_I74"
         },
@@ -1575,31 +1436,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U48_I75"
         },
@@ -1612,31 +1475,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U48_I76"
         },
@@ -1649,31 +1514,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U48_I77"
         },
@@ -1686,31 +1553,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U48_I78"
         },
@@ -1723,31 +1592,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U48_I79"
         },
@@ -1760,31 +1631,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U48_I80"
         },
@@ -1797,31 +1670,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U48_I81"
         },
@@ -2334,10 +2209,13 @@
           "interaction_id": "U48_I99"
         },
         {
-          "type": "speaking_task",
-          "speaking_type": "description",
-          "prompt_es": "Describe lo que hiciste ayer en voz alta.",
-          "mastery_tag": "speaking",
+          "type": "writing_task",
+          "writing_type": "email",
+          "prompt_es": "Escribe un email corto a un amigo.",
+          "word_count_min": 10,
+          "word_count_max": 50,
+          "input_placeholder_es": "Escribe aquí...",
+          "mastery_tag": "writing",
           "interaction_id": "U48_I100"
         }
       ]

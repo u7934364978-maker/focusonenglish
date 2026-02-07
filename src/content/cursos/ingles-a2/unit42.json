@@ -34,19 +34,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Are you ___ or were you expecting this?",
+          "stimulus_en": "She wasn't ___ by the joke.",
           "options": [
-            {
-              "id": "o1",
-              "text": "surprised"
-            },
-            {
-              "id": "o2",
-              "text": "surprising"
-            },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o1",
+              "text": "amused"
+            },
+            {
+              "id": "o2",
+              "text": "amusing"
             }
           ],
           "correct_answer": "o1",
@@ -56,19 +56,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Are you ___ or were you expecting this?",
+          "stimulus_en": "She’s ___ in politics.",
           "options": [
+            {
+              "id": "o2",
+              "text": "interesting"
+            },
             {
               "id": "o3",
               "text": "other"
             },
             {
               "id": "o1",
-              "text": "surprised"
-            },
-            {
-              "id": "o2",
-              "text": "surprising"
+              "text": "interested"
             }
           ],
           "correct_answer": "o1",
@@ -78,11 +78,11 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I’m reading a very ___ book.",
+          "stimulus_en": "I’m very ___ because I’m going to New York.",
           "options": [
             {
               "id": "o1",
-              "text": "interesting"
+              "text": "excited"
             },
             {
               "id": "o3",
@@ -90,7 +90,7 @@
             },
             {
               "id": "o2",
-              "text": "interested"
+              "text": "exciting"
             }
           ],
           "correct_answer": "o1",
@@ -100,19 +100,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I’ve had a very ___ day at work.",
+          "stimulus_en": "She’s ___ in politics.",
           "options": [
             {
               "id": "o1",
-              "text": "tiring"
-            },
-            {
-              "id": "o2",
-              "text": "tired"
+              "text": "interested"
             },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o2",
+              "text": "interesting"
             }
           ],
           "correct_answer": "o1",
@@ -122,19 +122,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I’ve had a very ___ day at work.",
+          "stimulus_en": "His speech was very long and very ___.",
           "options": [
             {
-              "id": "o2",
-              "text": "tired"
+              "id": "o1",
+              "text": "boring"
             },
             {
               "id": "o3",
               "text": "other"
             },
             {
-              "id": "o1",
-              "text": "tiring"
+              "id": "o2",
+              "text": "bored"
             }
           ],
           "correct_answer": "o1",
@@ -144,15 +144,15 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Are you ___ or were you expecting this?",
+          "stimulus_en": "The film was ___.",
           "options": [
             {
-              "id": "o2",
-              "text": "surprising"
+              "id": "o1",
+              "text": "boring"
             },
             {
-              "id": "o1",
-              "text": "surprised"
+              "id": "o2",
+              "text": "bored"
             },
             {
               "id": "o3",
@@ -166,19 +166,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Everyone was ___ by the noise.",
+          "stimulus_en": "I was ___ from start to finish.",
           "options": [
             {
               "id": "o3",
               "text": "other"
             },
             {
-              "id": "o2",
-              "text": "surprising"
+              "id": "o1",
+              "text": "bored"
             },
             {
-              "id": "o1",
-              "text": "surprised"
+              "id": "o2",
+              "text": "boring"
             }
           ],
           "correct_answer": "o1",
@@ -188,19 +188,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "The film was ___.",
+          "stimulus_en": "I’ve had a very ___ day at work.",
           "options": [
+            {
+              "id": "o2",
+              "text": "tired"
+            },
             {
               "id": "o3",
               "text": "other"
             },
             {
-              "id": "o2",
-              "text": "bored"
-            },
-            {
               "id": "o1",
-              "text": "boring"
+              "text": "tiring"
             }
           ],
           "correct_answer": "o1",
@@ -213,7 +213,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "tiring"
+              "text": "surprised"
             }
           ],
           "correct_answer": [
@@ -228,7 +228,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "boring"
+              "text": "confusing"
             }
           ],
           "correct_answer": [
@@ -243,7 +243,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "bored"
+              "text": "surprised"
             }
           ],
           "correct_answer": [
@@ -258,7 +258,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "surprised"
+              "text": "confusing"
             }
           ],
           "correct_answer": [
@@ -273,7 +273,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "interesting"
+              "text": "bored"
             }
           ],
           "correct_answer": [
@@ -288,7 +288,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "interested"
+              "text": "boring"
             }
           ],
           "correct_answer": [
@@ -303,7 +303,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "confused"
+              "text": "interesting"
             }
           ],
           "correct_answer": [
@@ -318,7 +318,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "surprising"
+              "text": "boring"
             }
           ],
           "correct_answer": [
@@ -330,58 +330,18 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I’m very ___ because I’m going to New York.",
-          "correct_answer": "excited",
+          "stimulus_en": "I’m reading a very ___ book.",
+          "correct_answer": "interesting",
           "mastery_tag": "grammar",
           "interaction_id": "U42_I18"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "The film was ___.",
-          "correct_answer": "boring",
+          "stimulus_en": "The map was ___ and I got lost.",
+          "correct_answer": "confusing",
           "mastery_tag": "grammar",
           "interaction_id": "U42_I19"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "She was ___ because she had nothing to do.",
-          "correct_answer": "bored",
-          "mastery_tag": "grammar",
-          "interaction_id": "U42_I20"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I’ve had a very ___ day at work.",
-          "correct_answer": "tiring",
-          "mastery_tag": "grammar",
-          "interaction_id": "U42_I21"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I laughed. It was an ___ story.",
-          "correct_answer": "amusing",
-          "mastery_tag": "grammar",
-          "interaction_id": "U42_I22"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I’m a bit ___ because it was complicated.",
-          "correct_answer": "confused",
-          "mastery_tag": "grammar",
-          "interaction_id": "U42_I23"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I’ve had a very ___ day at work.",
-          "correct_answer": "tiring",
-          "mastery_tag": "grammar",
-          "interaction_id": "U42_I24"
         },
         {
           "type": "fill_blanks",
@@ -389,60 +349,100 @@
           "stimulus_en": "His speech was very long and very ___.",
           "correct_answer": "boring",
           "mastery_tag": "grammar",
+          "interaction_id": "U42_I20"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "Are you ___ or were you expecting this?",
+          "correct_answer": "surprised",
+          "mastery_tag": "grammar",
+          "interaction_id": "U42_I21"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "I’ve had a very ___ day at work.",
+          "correct_answer": "tiring",
+          "mastery_tag": "grammar",
+          "interaction_id": "U42_I22"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "Are you ___ or were you expecting this?",
+          "correct_answer": "surprised",
+          "mastery_tag": "grammar",
+          "interaction_id": "U42_I23"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "His speech was very long and very ___.",
+          "correct_answer": "boring",
+          "mastery_tag": "grammar",
+          "interaction_id": "U42_I24"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "I’m a bit ___ because it was complicated.",
+          "correct_answer": "confused",
+          "mastery_tag": "grammar",
           "interaction_id": "U42_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"surprising\"",
+          "prompt_es": "¿Es correcta esta frase?: \"interested\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I26"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"confused\"",
+          "prompt_es": "¿Es correcta esta frase?: \"tiring\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I27"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"interested not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"tiring not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"surprised not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"confusing\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I29"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"amusing not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"surprised\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I30"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"amused\"",
+          "prompt_es": "¿Es correcta esta frase?: \"confusing\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"amusing\"",
+          "prompt_es": "¿Es correcta esta frase?: \"excited\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"bored not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"boring not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I33"
@@ -453,23 +453,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I’m very ___ because I’m going to New York.",
-              "right": "excited"
+              "left": "I laughed. It was an ___ story.",
+              "right": "amusing"
             },
             {
               "id": "p1",
-              "left": "I’m a bit ___ because it was complicated.",
-              "right": "confused"
+              "left": "She wasn't ___ by the joke.",
+              "right": "amused"
             },
             {
               "id": "p2",
-              "left": "Are you ___ or were you expecting this?",
-              "right": "surprised"
+              "left": "Visit our ___ new shop!",
+              "right": "exciting"
             },
             {
               "id": "p3",
-              "left": "Everyone was ___ by the noise.",
-              "right": "surprised"
+              "left": "I’m very ___ because I’m going to New York.",
+              "right": "excited"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -481,23 +481,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I’m very ___ because I’m going to New York.",
-              "right": "excited"
-            },
-            {
-              "id": "p1",
-              "left": "She’s ___ in politics.",
-              "right": "interested"
-            },
-            {
-              "id": "p2",
               "left": "His speech was very long and very ___.",
               "right": "boring"
             },
             {
-              "id": "p3",
-              "left": "I was ___ from start to finish.",
+              "id": "p1",
+              "left": "She was ___ because she had nothing to do.",
               "right": "bored"
+            },
+            {
+              "id": "p2",
+              "left": "Everyone was ___ by the noise.",
+              "right": "surprised"
+            },
+            {
+              "id": "p3",
+              "left": "I’m a bit ___ because it was complicated.",
+              "right": "confused"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -509,23 +509,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I’ve had a very ___ day at work.",
-              "right": "tiring"
+              "left": "Are you ___ or were you expecting this?",
+              "right": "surprised"
             },
             {
               "id": "p1",
-              "left": "She wasn't ___ by the joke.",
-              "right": "amused"
+              "left": "His speech was very long and very ___.",
+              "right": "boring"
             },
             {
               "id": "p2",
-              "left": "I was ___ from start to finish.",
-              "right": "bored"
+              "left": "The film was ___.",
+              "right": "boring"
             },
             {
               "id": "p3",
-              "left": "The film was ___.",
-              "right": "boring"
+              "left": "I’m reading a very ___ book.",
+              "right": "interesting"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -537,18 +537,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "It is ___ that she failed.",
-              "right": "surprising"
+              "left": "Are you ___ or were you expecting this?",
+              "right": "surprised"
             },
             {
               "id": "p1",
-              "left": "I’ve had a very ___ day at work.",
-              "right": "tiring"
+              "left": "She’s ___ in politics.",
+              "right": "interested"
             },
             {
               "id": "p2",
-              "left": "Everyone was ___ by the noise.",
-              "right": "surprised"
+              "left": "The map was ___ and I got lost.",
+              "right": "confusing"
             },
             {
               "id": "p3",
@@ -565,23 +565,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I’m a bit ___ because it was complicated.",
-              "right": "confused"
+              "left": "She was ___ because she had nothing to do.",
+              "right": "bored"
             },
             {
               "id": "p1",
-              "left": "I’ve had a very ___ day at work.",
-              "right": "tiring"
-            },
-            {
-              "id": "p2",
               "left": "It is ___ that she failed.",
               "right": "surprising"
             },
             {
+              "id": "p2",
+              "left": "I’m reading a very ___ book.",
+              "right": "interesting"
+            },
+            {
               "id": "p3",
-              "left": "His speech was very long and very ___.",
-              "right": "boring"
+              "left": "I’m very ___ because I’m going to New York.",
+              "right": "excited"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -593,23 +593,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "She’s ___ in politics.",
-              "right": "interested"
-            },
-            {
-              "id": "p1",
-              "left": "I’m very ___ because I’m going to New York.",
-              "right": "excited"
-            },
-            {
-              "id": "p2",
-              "left": "She was ___ because she had nothing to do.",
+              "left": "I was ___ from start to finish.",
               "right": "bored"
             },
             {
+              "id": "p1",
+              "left": "It is ___ that she failed.",
+              "right": "surprising"
+            },
+            {
+              "id": "p2",
+              "left": "Everyone was ___ by the noise.",
+              "right": "surprised"
+            },
+            {
               "id": "p3",
-              "left": "I laughed. It was an ___ story.",
-              "right": "amusing"
+              "left": "I’ve had a very ___ day at work.",
+              "right": "tiring"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -621,22 +621,22 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "It is ___ that she failed.",
-              "right": "surprising"
-            },
-            {
-              "id": "p1",
-              "left": "Are you ___ or were you expecting this?",
-              "right": "surprised"
-            },
-            {
-              "id": "p2",
               "left": "I’m very ___ because I’m going to New York.",
               "right": "excited"
             },
             {
+              "id": "p1",
+              "left": "She’s ___ in politics.",
+              "right": "interested"
+            },
+            {
+              "id": "p2",
+              "left": "Everyone was ___ by the noise.",
+              "right": "surprised"
+            },
+            {
               "id": "p3",
-              "left": "She was ___ because she had nothing to do.",
+              "left": "I was ___ from start to finish.",
               "right": "bored"
             }
           ],
@@ -654,17 +654,17 @@
             },
             {
               "id": "p1",
+              "left": "She wasn't ___ by the joke.",
+              "right": "amused"
+            },
+            {
+              "id": "p2",
               "left": "I laughed. It was an ___ story.",
               "right": "amusing"
             },
             {
-              "id": "p2",
-              "left": "His speech was very long and very ___.",
-              "right": "boring"
-            },
-            {
               "id": "p3",
-              "left": "I was ___ from start to finish.",
+              "left": "She was ___ because she had nothing to do.",
               "right": "bored"
             }
           ],
@@ -970,42 +970,10 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "surprised",
-          "correct_answer": "surprised",
+          "tts_en": "surprising",
+          "correct_answer": "surprising",
           "mastery_tag": "listening",
           "interaction_id": "U42_I51"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "interesting",
-          "correct_answer": "interesting",
-          "mastery_tag": "listening",
-          "interaction_id": "U42_I52"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "surprised",
-          "correct_answer": "surprised",
-          "mastery_tag": "listening",
-          "interaction_id": "U42_I53"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "confused",
-          "correct_answer": "confused",
-          "mastery_tag": "listening",
-          "interaction_id": "U42_I54"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "surprised",
-          "correct_answer": "surprised",
-          "mastery_tag": "listening",
-          "interaction_id": "U42_I55"
         },
         {
           "type": "dictation_guided",
@@ -1013,13 +981,45 @@
           "tts_en": "boring",
           "correct_answer": "boring",
           "mastery_tag": "listening",
+          "interaction_id": "U42_I52"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "interested",
+          "correct_answer": "interested",
+          "mastery_tag": "listening",
+          "interaction_id": "U42_I53"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "interesting",
+          "correct_answer": "interesting",
+          "mastery_tag": "listening",
+          "interaction_id": "U42_I54"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "confused",
+          "correct_answer": "confused",
+          "mastery_tag": "listening",
+          "interaction_id": "U42_I55"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "amusing",
+          "correct_answer": "amusing",
+          "mastery_tag": "listening",
           "interaction_id": "U42_I56"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "amused",
-          "correct_answer": "amused",
+          "tts_en": "amusing",
+          "correct_answer": "amusing",
           "mastery_tag": "listening",
           "interaction_id": "U42_I57"
         },
@@ -1408,31 +1408,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U42_I74"
         },
@@ -1445,31 +1447,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U42_I75"
         },
@@ -1482,31 +1486,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U42_I76"
         },
@@ -1519,31 +1525,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U42_I77"
         },
@@ -1556,31 +1564,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U42_I78"
         },
@@ -1593,31 +1603,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U42_I79"
         },
@@ -1630,31 +1642,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U42_I80"
         },
@@ -1667,31 +1681,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U42_I81"
         },

@@ -23,72 +23,6 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Do you have ___ car?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "a"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "the"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U10_I2"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "My friend has ___ money.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "a lot of"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "much"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U10_I3"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "My mother didn't allow me ___ out.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "to go"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "go"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U10_I4"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
           "stimulus_en": "I have 3 ___.",
           "options": [
             {
@@ -106,16 +40,16 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U10_I5"
+          "interaction_id": "U10_I2"
         },
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I didn't wear ___ uniform.",
+          "stimulus_en": "My mother didn't allow me ___ out.",
           "options": [
             {
               "id": "o1",
-              "text": "a"
+              "text": "to go"
             },
             {
               "id": "o3",
@@ -123,34 +57,34 @@
             },
             {
               "id": "o2",
-              "text": "an"
+              "text": "go"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U10_I6"
+          "interaction_id": "U10_I3"
         },
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Do you have ___ car?",
+          "stimulus_en": "My mother didn't allow me ___ out.",
           "options": [
-            {
-              "id": "o2",
-              "text": "the"
-            },
             {
               "id": "o3",
               "text": "other"
             },
             {
+              "id": "o2",
+              "text": "go"
+            },
+            {
               "id": "o1",
-              "text": "a"
+              "text": "to go"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U10_I7"
+          "interaction_id": "U10_I4"
         },
         {
           "type": "multiple_choice",
@@ -162,8 +96,74 @@
               "text": "go"
             },
             {
+              "id": "o3",
+              "text": "other"
+            },
+            {
               "id": "o1",
               "text": "to go"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U10_I5"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "I didn't wear ___ uniform.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "an"
+            },
+            {
+              "id": "o1",
+              "text": "a"
+            },
+            {
+              "id": "o3",
+              "text": "other"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U10_I6"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "My friend has ___ money.",
+          "options": [
+            {
+              "id": "o3",
+              "text": "other"
+            },
+            {
+              "id": "o2",
+              "text": "much"
+            },
+            {
+              "id": "o1",
+              "text": "a lot of"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U10_I7"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "I didn't wear ___ uniform.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "a"
+            },
+            {
+              "id": "o2",
+              "text": "an"
             },
             {
               "id": "o3",
@@ -177,19 +177,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I have 3 ___.",
+          "stimulus_en": "My mother didn't allow me ___ out.",
           "options": [
             {
-              "id": "o2",
-              "text": "childrens"
-            },
-            {
               "id": "o1",
-              "text": "children"
+              "text": "to go"
             },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o2",
+              "text": "go"
             }
           ],
           "correct_answer": "o1",
@@ -201,16 +201,16 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "lot"
-            },
-            {
               "id": "w2",
               "text": "of"
             },
             {
               "id": "w0",
               "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "lot"
             }
           ],
           "correct_answer": [
@@ -227,11 +227,21 @@
           "options": [
             {
               "id": "w0",
-              "text": "children"
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "lot"
+            },
+            {
+              "id": "w2",
+              "text": "of"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1",
+            "w2"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U10_I11"
@@ -242,16 +252,21 @@
           "options": [
             {
               "id": "w0",
-              "text": "to"
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "of"
             },
             {
               "id": "w1",
-              "text": "go"
+              "text": "lot"
             }
           ],
           "correct_answer": [
             "w0",
-            "w1"
+            "w1",
+            "w2"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U10_I12"
@@ -278,10 +293,20 @@
             {
               "id": "w0",
               "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "lot"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1",
+            "w2"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U10_I14"
@@ -292,11 +317,16 @@
           "options": [
             {
               "id": "w0",
-              "text": "a"
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "go"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U10_I15"
@@ -307,7 +337,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "children"
+              "text": "a"
             }
           ],
           "correct_answer": [
@@ -321,22 +351,12 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
-              "id": "w1",
-              "text": "lot"
-            },
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
               "id": "w0",
               "text": "a"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w0"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U10_I17"
@@ -344,39 +364,39 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "My mother didn't allow me ___ out.",
-          "correct_answer": "to go",
+          "stimulus_en": "Do you have ___ car?",
+          "correct_answer": "a",
           "mastery_tag": "grammar",
           "interaction_id": "U10_I18"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "My friend has ___ money.",
-          "correct_answer": "a lot of",
+          "stimulus_en": "My mother didn't allow me ___ out.",
+          "correct_answer": "to go",
           "mastery_tag": "grammar",
           "interaction_id": "U10_I19"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "My mother didn't allow me ___ out.",
-          "correct_answer": "to go",
+          "stimulus_en": "I have 3 ___.",
+          "correct_answer": "children",
           "mastery_tag": "grammar",
           "interaction_id": "U10_I20"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "My friend has ___ money.",
-          "correct_answer": "a lot of",
+          "stimulus_en": "I have 3 ___.",
+          "correct_answer": "children",
           "mastery_tag": "grammar",
           "interaction_id": "U10_I21"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I didn't wear ___ uniform.",
+          "stimulus_en": "Do you have ___ car?",
           "correct_answer": "a",
           "mastery_tag": "grammar",
           "interaction_id": "U10_I22"
@@ -384,8 +404,8 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Do you have ___ car?",
-          "correct_answer": "a",
+          "stimulus_en": "My friend has ___ money.",
+          "correct_answer": "a lot of",
           "mastery_tag": "grammar",
           "interaction_id": "U10_I23"
         },
@@ -400,63 +420,63 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I have 3 ___.",
-          "correct_answer": "children",
+          "stimulus_en": "Do you have ___ car?",
+          "correct_answer": "a",
           "mastery_tag": "grammar",
           "interaction_id": "U10_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"children\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"children not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U10_I26"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"children not\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U10_I27"
         },
         {
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"a lot of\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
-          "interaction_id": "U10_I27"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"a lot of not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
           "interaction_id": "U10_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"a not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"a lot of not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U10_I29"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"children not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"a not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U10_I30"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"children not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"a lot of\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U10_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"a lot of not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"to go\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U10_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"children not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"to go not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U10_I33"
@@ -467,23 +487,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "My mother didn't allow me ___ out.",
-              "right": "to go"
-            },
-            {
-              "id": "p1",
-              "left": "I have 3 ___.",
-              "right": "children"
-            },
-            {
-              "id": "p2",
               "left": "Do you have ___ car?",
               "right": "a"
             },
             {
-              "id": "p3",
+              "id": "p1",
               "left": "My friend has ___ money.",
               "right": "a lot of"
+            },
+            {
+              "id": "p2",
+              "left": "I have 3 ___.",
+              "right": "children"
+            },
+            {
+              "id": "p3",
+              "left": "My mother didn't allow me ___ out.",
+              "right": "to go"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -495,6 +515,62 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Do you have ___ car?",
+              "right": "a"
+            },
+            {
+              "id": "p1",
+              "left": "My mother didn't allow me ___ out.",
+              "right": "to go"
+            },
+            {
+              "id": "p2",
+              "left": "I have 3 ___.",
+              "right": "children"
+            },
+            {
+              "id": "p3",
+              "left": "My friend has ___ money.",
+              "right": "a lot of"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I35"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Do you have ___ car?",
+              "right": "a"
+            },
+            {
+              "id": "p1",
+              "left": "I didn't wear ___ uniform.",
+              "right": "a"
+            },
+            {
+              "id": "p2",
+              "left": "My friend has ___ money.",
+              "right": "a lot of"
+            },
+            {
+              "id": "p3",
+              "left": "I have 3 ___.",
+              "right": "children"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I36"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
               "left": "My mother didn't allow me ___ out.",
               "right": "to go"
             },
@@ -507,62 +583,6 @@
               "id": "p2",
               "left": "I didn't wear ___ uniform.",
               "right": "a"
-            },
-            {
-              "id": "p3",
-              "left": "Do you have ___ car?",
-              "right": "a"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I35"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "My mother didn't allow me ___ out.",
-              "right": "to go"
-            },
-            {
-              "id": "p1",
-              "left": "I have 3 ___.",
-              "right": "children"
-            },
-            {
-              "id": "p2",
-              "left": "Do you have ___ car?",
-              "right": "a"
-            },
-            {
-              "id": "p3",
-              "left": "I didn't wear ___ uniform.",
-              "right": "a"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I36"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Do you have ___ car?",
-              "right": "a"
-            },
-            {
-              "id": "p1",
-              "left": "I didn't wear ___ uniform.",
-              "right": "a"
-            },
-            {
-              "id": "p2",
-              "left": "My mother didn't allow me ___ out.",
-              "right": "to go"
             },
             {
               "id": "p3",
@@ -584,18 +604,18 @@
             },
             {
               "id": "p1",
-              "left": "My friend has ___ money.",
-              "right": "a lot of"
-            },
-            {
-              "id": "p2",
               "left": "I have 3 ___.",
               "right": "children"
             },
             {
+              "id": "p2",
+              "left": "My mother didn't allow me ___ out.",
+              "right": "to go"
+            },
+            {
               "id": "p3",
-              "left": "I didn't wear ___ uniform.",
-              "right": "a"
+              "left": "My friend has ___ money.",
+              "right": "a lot of"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -607,23 +627,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I didn't wear ___ uniform.",
+              "left": "Do you have ___ car?",
               "right": "a"
             },
             {
               "id": "p1",
-              "left": "My mother didn't allow me ___ out.",
-              "right": "to go"
-            },
-            {
-              "id": "p2",
               "left": "My friend has ___ money.",
               "right": "a lot of"
             },
             {
-              "id": "p3",
+              "id": "p2",
               "left": "I have 3 ___.",
               "right": "children"
+            },
+            {
+              "id": "p3",
+              "left": "I didn't wear ___ uniform.",
+              "right": "a"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -635,23 +655,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Do you have ___ car?",
-              "right": "a"
-            },
-            {
-              "id": "p1",
               "left": "My friend has ___ money.",
               "right": "a lot of"
             },
             {
+              "id": "p1",
+              "left": "Do you have ___ car?",
+              "right": "a"
+            },
+            {
               "id": "p2",
-              "left": "I have 3 ___.",
-              "right": "children"
+              "left": "I didn't wear ___ uniform.",
+              "right": "a"
             },
             {
               "id": "p3",
-              "left": "I didn't wear ___ uniform.",
-              "right": "a"
+              "left": "I have 3 ___.",
+              "right": "children"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -663,23 +683,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I didn't wear ___ uniform.",
-              "right": "a"
-            },
-            {
-              "id": "p1",
               "left": "My friend has ___ money.",
               "right": "a lot of"
             },
             {
-              "id": "p2",
-              "left": "Do you have ___ car?",
+              "id": "p1",
+              "left": "I didn't wear ___ uniform.",
               "right": "a"
             },
             {
-              "id": "p3",
+              "id": "p2",
               "left": "I have 3 ___.",
               "right": "children"
+            },
+            {
+              "id": "p3",
+              "left": "My mother didn't allow me ___ out.",
+              "right": "to go"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -976,8 +996,8 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "children",
-          "correct_answer": "children",
+          "tts_en": "to go",
+          "correct_answer": "to go",
           "mastery_tag": "listening",
           "interaction_id": "U10_I50"
         },
@@ -992,16 +1012,16 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "a",
-          "correct_answer": "a",
+          "tts_en": "to go",
+          "correct_answer": "to go",
           "mastery_tag": "listening",
           "interaction_id": "U10_I52"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "to go",
-          "correct_answer": "to go",
+          "tts_en": "a",
+          "correct_answer": "a",
           "mastery_tag": "listening",
           "interaction_id": "U10_I53"
         },
@@ -1016,16 +1036,16 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "a lot of",
-          "correct_answer": "a lot of",
+          "tts_en": "to go",
+          "correct_answer": "to go",
           "mastery_tag": "listening",
           "interaction_id": "U10_I55"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "children",
-          "correct_answer": "children",
+          "tts_en": "a",
+          "correct_answer": "a",
           "mastery_tag": "listening",
           "interaction_id": "U10_I56"
         },
@@ -1422,31 +1442,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U10_I74"
         },
@@ -1459,31 +1481,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U10_I75"
         },
@@ -1496,31 +1520,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U10_I76"
         },
@@ -1533,31 +1559,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U10_I77"
         },
@@ -1570,31 +1598,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U10_I78"
         },
@@ -1607,31 +1637,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U10_I79"
         },
@@ -1644,31 +1676,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U10_I80"
         },
@@ -1681,31 +1715,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U10_I81"
         },

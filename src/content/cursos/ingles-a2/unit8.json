@@ -14,10 +14,21 @@
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Escucha el audio antes de continuar:",
-          "tts_en": "This is an introductory audio for the unit.",
-          "mastery_tag": "listening",
+          "type": "flashcard",
+          "prompt_es": "Repasa el vocabulario clave:",
+          "flashcards": [
+            {
+              "front": "Table",
+              "back": "Mesa",
+              "pronunciation": "/ˈteɪ.bəl/"
+            },
+            {
+              "front": "Chair",
+              "back": "Silla",
+              "pronunciation": "/tʃeər/"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U8_I1"
         },
         {
@@ -26,16 +37,16 @@
           "stimulus_en": "What’s the hottest place you’ve ever ___ to?",
           "options": [
             {
-              "id": "o2",
-              "text": "went"
+              "id": "o1",
+              "text": "been"
             },
             {
               "id": "o3",
               "text": "other"
             },
             {
-              "id": "o1",
-              "text": "been"
+              "id": "o2",
+              "text": "went"
             }
           ],
           "correct_answer": "o1",
@@ -45,19 +56,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the coldest country you’ve ever ___ to?",
+          "stimulus_en": "What’s the happiest day you’ve ever ___?",
           "options": [
+            {
+              "id": "o2",
+              "text": "have"
+            },
             {
               "id": "o3",
               "text": "other"
             },
             {
               "id": "o1",
-              "text": "been"
-            },
-            {
-              "id": "o2",
-              "text": "was"
+              "text": "had"
             }
           ],
           "correct_answer": "o1",
@@ -67,19 +78,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the hottest place you’ve ever ___ to?",
+          "stimulus_en": "What’s the most delicious food you’ve ever ___?",
           "options": [
-            {
-              "id": "o2",
-              "text": "went"
-            },
             {
               "id": "o3",
               "text": "other"
             },
             {
               "id": "o1",
-              "text": "been"
+              "text": "tasted"
+            },
+            {
+              "id": "o2",
+              "text": "taste"
             }
           ],
           "correct_answer": "o1",
@@ -89,19 +100,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the coldest country you’ve ever ___ to?",
+          "stimulus_en": "What’s the happiest day you’ve ever ___?",
           "options": [
             {
-              "id": "o3",
-              "text": "other"
-            },
-            {
               "id": "o1",
-              "text": "been"
+              "text": "had"
             },
             {
               "id": "o2",
-              "text": "was"
+              "text": "have"
+            },
+            {
+              "id": "o3",
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -111,19 +122,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the hottest place you’ve ever ___ to?",
+          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
           "options": [
             {
               "id": "o2",
-              "text": "went"
-            },
-            {
-              "id": "o1",
-              "text": "been"
+              "text": "listen"
             },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o1",
+              "text": "listened"
             }
           ],
           "correct_answer": "o1",
@@ -133,19 +144,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the hottest place you’ve ever ___ to?",
+          "stimulus_en": "What’s the most delicious food you’ve ever ___?",
           "options": [
             {
-              "id": "o3",
-              "text": "other"
-            },
-            {
               "id": "o2",
-              "text": "went"
+              "text": "taste"
             },
             {
               "id": "o1",
-              "text": "been"
+              "text": "tasted"
+            },
+            {
+              "id": "o3",
+              "text": "other"
             }
           ],
           "correct_answer": "o1",
@@ -155,19 +166,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the most difficult language you’ve ever ___?",
+          "stimulus_en": "What’s the longest beach you’ve ever ___ to?",
           "options": [
             {
-              "id": "o1",
-              "text": "studied"
+              "id": "o2",
+              "text": "go"
             },
             {
               "id": "o3",
               "text": "other"
             },
             {
-              "id": "o2",
-              "text": "study"
+              "id": "o1",
+              "text": "been"
             }
           ],
           "correct_answer": "o1",
@@ -177,19 +188,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the highest building you’ve ever ___?",
+          "stimulus_en": "Who’s the shyest person you’ve ever ___?",
           "options": [
-            {
-              "id": "o2",
-              "text": "visit"
-            },
             {
               "id": "o3",
               "text": "other"
             },
             {
+              "id": "o2",
+              "text": "meet"
+            },
+            {
               "id": "o1",
-              "text": "visited"
+              "text": "met"
             }
           ],
           "correct_answer": "o1",
@@ -202,7 +213,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "met"
+              "text": "been"
             }
           ],
           "correct_answer": [
@@ -217,7 +228,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "listened"
+              "text": "studied"
             }
           ],
           "correct_answer": [
@@ -232,7 +243,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "been"
+              "text": "told"
             }
           ],
           "correct_answer": [
@@ -262,7 +273,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "been"
+              "text": "met"
             }
           ],
           "correct_answer": [
@@ -292,7 +303,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "listened"
+              "text": "been"
             }
           ],
           "correct_answer": [
@@ -307,7 +318,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "tasted"
+              "text": "told"
             }
           ],
           "correct_answer": [
@@ -319,8 +330,8 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the most delicious food you’ve ever ___?",
-          "correct_answer": "tasted",
+          "stimulus_en": "What’s the longest beach you’ve ever ___ to?",
+          "correct_answer": "been",
           "mastery_tag": "grammar",
           "interaction_id": "U8_I18"
         },
@@ -335,32 +346,32 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the hottest place you’ve ever ___ to?",
-          "correct_answer": "been",
+          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
+          "correct_answer": "listened",
           "mastery_tag": "grammar",
           "interaction_id": "U8_I20"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the funniest joke you’ve ever been ___?",
-          "correct_answer": "told",
+          "stimulus_en": "What’s the highest building you’ve ever ___?",
+          "correct_answer": "visited",
           "mastery_tag": "grammar",
           "interaction_id": "U8_I21"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the hottest place you’ve ever ___ to?",
-          "correct_answer": "been",
+          "stimulus_en": "Who’s the shyest person you’ve ever ___?",
+          "correct_answer": "met",
           "mastery_tag": "grammar",
           "interaction_id": "U8_I22"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the hottest place you’ve ever ___ to?",
-          "correct_answer": "been",
+          "stimulus_en": "What’s the most delicious food you’ve ever ___?",
+          "correct_answer": "tasted",
           "mastery_tag": "grammar",
           "interaction_id": "U8_I23"
         },
@@ -375,15 +386,15 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the funniest joke you’ve ever been ___?",
-          "correct_answer": "told",
+          "stimulus_en": "What’s the hottest place you’ve ever ___ to?",
+          "correct_answer": "been",
           "mastery_tag": "grammar",
           "interaction_id": "U8_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"studied\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"been not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U8_I26"
         },
@@ -396,14 +407,14 @@
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tasted not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"met\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U8_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tasted\"",
+          "prompt_es": "¿Es correcta esta frase?: \"listened\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U8_I29"
@@ -417,22 +428,22 @@
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"visited\"",
+          "prompt_es": "¿Es correcta esta frase?: \"been\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U8_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"been not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"told\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U8_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"told\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"visited not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U8_I33"
         },
@@ -442,8 +453,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "What’s the most delicious food you’ve ever ___?",
-              "right": "tasted"
+              "left": "What’s the most difficult language you’ve ever ___?",
+              "right": "studied"
             },
             {
               "id": "p1",
@@ -452,129 +463,17 @@
             },
             {
               "id": "p2",
-              "left": "What’s the hottest place you’ve ever ___ to?",
-              "right": "been"
+              "left": "Who’s the shyest person you’ve ever ___?",
+              "right": "met"
             },
             {
               "id": "p3",
-              "left": "Who’s the shyest person you’ve ever ___?",
-              "right": "met"
+              "left": "What’s the most delicious food you’ve ever ___?",
+              "right": "tasted"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U8_I34"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "What’s the hottest place you’ve ever ___ to?",
-              "right": "been"
-            },
-            {
-              "id": "p1",
-              "left": "Who’s the shyest person you’ve ever ___?",
-              "right": "met"
-            },
-            {
-              "id": "p2",
-              "left": "What’s the most difficult language you’ve ever ___?",
-              "right": "studied"
-            },
-            {
-              "id": "p3",
-              "left": "What’s the saddest song you’ve ever ___ to?",
-              "right": "listened"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U8_I35"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Who’s the shyest person you’ve ever ___?",
-              "right": "met"
-            },
-            {
-              "id": "p1",
-              "left": "What’s the hottest place you’ve ever ___ to?",
-              "right": "been"
-            },
-            {
-              "id": "p2",
-              "left": "What’s the most delicious food you’ve ever ___?",
-              "right": "tasted"
-            },
-            {
-              "id": "p3",
-              "left": "What’s the most difficult language you’ve ever ___?",
-              "right": "studied"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U8_I36"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "What’s the funniest joke you’ve ever been ___?",
-              "right": "told"
-            },
-            {
-              "id": "p1",
-              "left": "What’s the highest building you’ve ever ___?",
-              "right": "visited"
-            },
-            {
-              "id": "p2",
-              "left": "What’s the saddest song you’ve ever ___ to?",
-              "right": "listened"
-            },
-            {
-              "id": "p3",
-              "left": "What’s the most delicious food you’ve ever ___?",
-              "right": "tasted"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U8_I37"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "What’s the highest building you’ve ever ___?",
-              "right": "visited"
-            },
-            {
-              "id": "p1",
-              "left": "What’s the most delicious food you’ve ever ___?",
-              "right": "tasted"
-            },
-            {
-              "id": "p2",
-              "left": "Who’s the shyest person you’ve ever ___?",
-              "right": "met"
-            },
-            {
-              "id": "p3",
-              "left": "What’s the hottest place you’ve ever ___ to?",
-              "right": "been"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U8_I38"
         },
         {
           "type": "matching",
@@ -587,18 +486,130 @@
             },
             {
               "id": "p1",
+              "left": "Who’s the shyest person you’ve ever ___?",
+              "right": "met"
+            },
+            {
+              "id": "p2",
               "left": "What’s the most difficult language you’ve ever ___?",
               "right": "studied"
             },
             {
-              "id": "p2",
+              "id": "p3",
               "left": "What’s the highest building you’ve ever ___?",
               "right": "visited"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U8_I35"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "What’s the saddest song you’ve ever ___ to?",
+              "right": "listened"
+            },
+            {
+              "id": "p1",
+              "left": "What’s the longest beach you’ve ever ___ to?",
+              "right": "been"
+            },
+            {
+              "id": "p2",
+              "left": "What’s the most delicious food you’ve ever ___?",
+              "right": "tasted"
             },
             {
               "id": "p3",
+              "left": "What’s the hottest place you’ve ever ___ to?",
+              "right": "been"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U8_I36"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
               "left": "What’s the happiest day you’ve ever ___?",
               "right": "had"
+            },
+            {
+              "id": "p1",
+              "left": "What’s the saddest song you’ve ever ___ to?",
+              "right": "listened"
+            },
+            {
+              "id": "p2",
+              "left": "Who’s the shyest person you’ve ever ___?",
+              "right": "met"
+            },
+            {
+              "id": "p3",
+              "left": "What’s the funniest joke you’ve ever been ___?",
+              "right": "told"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U8_I37"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "What’s the happiest day you’ve ever ___?",
+              "right": "had"
+            },
+            {
+              "id": "p1",
+              "left": "Who’s the shyest person you’ve ever ___?",
+              "right": "met"
+            },
+            {
+              "id": "p2",
+              "left": "What’s the most delicious food you’ve ever ___?",
+              "right": "tasted"
+            },
+            {
+              "id": "p3",
+              "left": "What’s the coldest country you’ve ever ___ to?",
+              "right": "been"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U8_I38"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "What’s the most delicious food you’ve ever ___?",
+              "right": "tasted"
+            },
+            {
+              "id": "p1",
+              "left": "What’s the happiest day you’ve ever ___?",
+              "right": "had"
+            },
+            {
+              "id": "p2",
+              "left": "What’s the saddest song you’ve ever ___ to?",
+              "right": "listened"
+            },
+            {
+              "id": "p3",
+              "left": "What’s the coldest country you’ve ever ___ to?",
+              "right": "been"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -620,13 +631,13 @@
             },
             {
               "id": "p2",
-              "left": "Who’s the shyest person you’ve ever ___?",
-              "right": "met"
+              "left": "What’s the highest building you’ve ever ___?",
+              "right": "visited"
             },
             {
               "id": "p3",
-              "left": "What’s the most difficult language you’ve ever ___?",
-              "right": "studied"
+              "left": "What’s the coldest country you’ve ever ___ to?",
+              "right": "been"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -638,23 +649,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "What’s the hottest place you’ve ever ___ to?",
-              "right": "been"
-            },
-            {
-              "id": "p1",
               "left": "What’s the funniest joke you’ve ever been ___?",
               "right": "told"
             },
             {
+              "id": "p1",
+              "left": "What’s the coldest country you’ve ever ___ to?",
+              "right": "been"
+            },
+            {
               "id": "p2",
-              "left": "What’s the highest building you’ve ever ___?",
-              "right": "visited"
+              "left": "What’s the hottest place you’ve ever ___ to?",
+              "right": "been"
             },
             {
               "id": "p3",
-              "left": "Who’s the shyest person you’ve ever ___?",
-              "right": "met"
+              "left": "What’s the longest beach you’ve ever ___ to?",
+              "right": "been"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -951,34 +962,18 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "been",
-          "correct_answer": "been",
+          "tts_en": "told",
+          "correct_answer": "told",
           "mastery_tag": "listening",
           "interaction_id": "U8_I50"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "had",
-          "correct_answer": "had",
+          "tts_en": "been",
+          "correct_answer": "been",
           "mastery_tag": "listening",
           "interaction_id": "U8_I51"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "listened",
-          "correct_answer": "listened",
-          "mastery_tag": "listening",
-          "interaction_id": "U8_I52"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "met",
-          "correct_answer": "met",
-          "mastery_tag": "listening",
-          "interaction_id": "U8_I53"
         },
         {
           "type": "dictation_guided",
@@ -986,21 +981,37 @@
           "tts_en": "tasted",
           "correct_answer": "tasted",
           "mastery_tag": "listening",
+          "interaction_id": "U8_I52"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "told",
+          "correct_answer": "told",
+          "mastery_tag": "listening",
+          "interaction_id": "U8_I53"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "told",
+          "correct_answer": "told",
+          "mastery_tag": "listening",
           "interaction_id": "U8_I54"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "been",
-          "correct_answer": "been",
+          "tts_en": "had",
+          "correct_answer": "had",
           "mastery_tag": "listening",
           "interaction_id": "U8_I55"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "been",
-          "correct_answer": "been",
+          "tts_en": "listened",
+          "correct_answer": "listened",
           "mastery_tag": "listening",
           "interaction_id": "U8_I56"
         },
@@ -1397,31 +1408,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U8_I74"
         },
@@ -1434,31 +1447,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U8_I75"
         },
@@ -1471,31 +1486,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U8_I76"
         },
@@ -1508,31 +1525,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U8_I77"
         },
@@ -1545,31 +1564,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U8_I78"
         },
@@ -1582,31 +1603,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U8_I79"
         },
@@ -1619,31 +1642,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U8_I80"
         },
@@ -1656,31 +1681,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U8_I81"
         },
@@ -2193,13 +2220,10 @@
           "interaction_id": "U8_I99"
         },
         {
-          "type": "writing_task",
-          "writing_type": "email",
-          "prompt_es": "Escribe un email corto a un amigo.",
-          "word_count_min": 10,
-          "word_count_max": 50,
-          "input_placeholder_es": "Escribe aquí...",
-          "mastery_tag": "writing",
+          "type": "speaking_task",
+          "speaking_type": "description",
+          "prompt_es": "Describe lo que hiciste ayer en voz alta.",
+          "mastery_tag": "speaking",
           "interaction_id": "U8_I100"
         }
       ]

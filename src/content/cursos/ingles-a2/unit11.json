@@ -14,11 +14,44 @@
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Escucha el audio antes de continuar:",
-          "tts_en": "This is an introductory audio for the unit.",
-          "mastery_tag": "listening",
+          "type": "flashcard",
+          "prompt_es": "Repasa el vocabulario clave:",
+          "flashcards": [
+            {
+              "front": "Table",
+              "back": "Mesa",
+              "pronunciation": "/ˈteɪ.bəl/"
+            },
+            {
+              "front": "Chair",
+              "back": "Silla",
+              "pronunciation": "/tʃeər/"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U11_I1"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "He is a ___ driver.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "dangerously"
+            },
+            {
+              "id": "o3",
+              "text": "other"
+            },
+            {
+              "id": "o1",
+              "text": "dangerous"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U11_I2"
         },
         {
           "type": "multiple_choice",
@@ -30,34 +63,12 @@
               "text": "other"
             },
             {
-              "id": "o1",
-              "text": "easy"
-            },
-            {
               "id": "o2",
               "text": "easily"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U11_I2"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He drives ___.",
-          "options": [
+            },
             {
               "id": "o1",
-              "text": "dangerously"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "dangerous"
+              "text": "easy"
             }
           ],
           "correct_answer": "o1",
@@ -67,19 +78,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He drives ___.",
+          "stimulus_en": "I’ve got an ___ job for you.",
           "options": [
+            {
+              "id": "o1",
+              "text": "easy"
+            },
             {
               "id": "o3",
               "text": "other"
             },
             {
-              "id": "o1",
-              "text": "slowly"
-            },
-            {
               "id": "o2",
-              "text": "slow"
+              "text": "easily"
             }
           ],
           "correct_answer": "o1",
@@ -89,19 +100,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He drives ___.",
+          "stimulus_en": "She sings very ___.",
           "options": [
-            {
-              "id": "o1",
-              "text": "dangerously"
-            },
             {
               "id": "o3",
               "text": "other"
             },
             {
               "id": "o2",
-              "text": "dangerous"
+              "text": "good"
+            },
+            {
+              "id": "o1",
+              "text": "well"
             }
           ],
           "correct_answer": "o1",
@@ -111,19 +122,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He drives ___.",
+          "stimulus_en": "I speak English ___.",
           "options": [
             {
               "id": "o2",
-              "text": "dangerous"
-            },
-            {
-              "id": "o1",
-              "text": "dangerously"
+              "text": "good"
             },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o1",
+              "text": "well"
             }
           ],
           "correct_answer": "o1",
@@ -133,15 +144,15 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He talked very ___ about his work.",
+          "stimulus_en": "He drives ___.",
           "options": [
             {
               "id": "o1",
-              "text": "interestingly"
+              "text": "dangerously"
             },
             {
               "id": "o2",
-              "text": "interesting"
+              "text": "dangerous"
             },
             {
               "id": "o3",
@@ -155,11 +166,11 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He drives ___.",
+          "stimulus_en": "She writes in ___ English.",
           "options": [
             {
               "id": "o2",
-              "text": "slow"
+              "text": "perfectly"
             },
             {
               "id": "o3",
@@ -167,7 +178,7 @@
             },
             {
               "id": "o1",
-              "text": "slowly"
+              "text": "perfect"
             }
           ],
           "correct_answer": "o1",
@@ -177,19 +188,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I’ve got an ___ job for you.",
+          "stimulus_en": "Could I have a ___ word with you?",
           "options": [
-            {
-              "id": "o2",
-              "text": "easily"
-            },
-            {
-              "id": "o1",
-              "text": "easy"
-            },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o1",
+              "text": "quick"
+            },
+            {
+              "id": "o2",
+              "text": "quickly"
             }
           ],
           "correct_answer": "o1",
@@ -202,7 +213,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "quietly"
+              "text": "dangerous"
             }
           ],
           "correct_answer": [
@@ -217,7 +228,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "wonderfully"
+              "text": "well"
             }
           ],
           "correct_answer": [
@@ -232,7 +243,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "quick"
+              "text": "perfect"
             }
           ],
           "correct_answer": [
@@ -262,7 +273,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "well"
+              "text": "quietly"
             }
           ],
           "correct_answer": [
@@ -277,7 +288,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "dangerously"
+              "text": "well"
             }
           ],
           "correct_answer": [
@@ -292,7 +303,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "slowly"
+              "text": "well"
             }
           ],
           "correct_answer": [
@@ -307,7 +318,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "well"
+              "text": "easy"
             }
           ],
           "correct_answer": [
@@ -319,120 +330,120 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Speak more ___, please.",
-          "correct_answer": "quietly",
+          "stimulus_en": "He drives ___.",
+          "correct_answer": "slowly",
           "mastery_tag": "grammar",
           "interaction_id": "U11_I18"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Could I have a ___ word with you?",
-          "correct_answer": "quick",
+          "stimulus_en": "I speak English ___.",
+          "correct_answer": "well",
           "mastery_tag": "grammar",
           "interaction_id": "U11_I19"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "She sings very ___.",
-          "correct_answer": "well",
+          "stimulus_en": "I’ve got an ___ job for you.",
+          "correct_answer": "easy",
           "mastery_tag": "grammar",
           "interaction_id": "U11_I20"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I’ve got an ___ job for you.",
-          "correct_answer": "easy",
+          "stimulus_en": "She sings very ___.",
+          "correct_answer": "well",
           "mastery_tag": "grammar",
           "interaction_id": "U11_I21"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I speak English ___.",
-          "correct_answer": "well",
+          "stimulus_en": "Speak more ___, please.",
+          "correct_answer": "quietly",
           "mastery_tag": "grammar",
           "interaction_id": "U11_I22"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I’ve got an ___ job for you.",
-          "correct_answer": "easy",
+          "stimulus_en": "I speak English ___.",
+          "correct_answer": "well",
           "mastery_tag": "grammar",
           "interaction_id": "U11_I23"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I speak English ___.",
-          "correct_answer": "well",
+          "stimulus_en": "This is a ___ train.",
+          "correct_answer": "slow",
           "mastery_tag": "grammar",
           "interaction_id": "U11_I24"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "She sings very ___.",
-          "correct_answer": "well",
+          "stimulus_en": "He drives ___.",
+          "correct_answer": "dangerously",
           "mastery_tag": "grammar",
           "interaction_id": "U11_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"easy not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"quietly\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U11_I26"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"slow\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U11_I27"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"slowly\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U11_I28"
         },
         {
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"wonderfully\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
-          "interaction_id": "U11_I29"
+          "interaction_id": "U11_I27"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"interestingly\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U11_I28"
         },
         {
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"well not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
+          "interaction_id": "U11_I29"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"slow not\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U11_I30"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"quick not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"perfect not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U11_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"easy\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"wonderfully not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U11_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"quietly not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"dangerous\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U11_I33"
         },
@@ -447,13 +458,13 @@
             },
             {
               "id": "p1",
-              "left": "She sings very ___.",
-              "right": "well"
+              "left": "Could I have a ___ word with you?",
+              "right": "quick"
             },
             {
               "id": "p2",
-              "left": "This is a ___ train.",
-              "right": "slow"
+              "left": "He drives ___.",
+              "right": "slowly"
             },
             {
               "id": "p3",
@@ -463,62 +474,6 @@
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U11_I34"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "This is a ___ train.",
-              "right": "slow"
-            },
-            {
-              "id": "p1",
-              "left": "I speak English ___.",
-              "right": "well"
-            },
-            {
-              "id": "p2",
-              "left": "I’ve got an ___ job for you.",
-              "right": "easy"
-            },
-            {
-              "id": "p3",
-              "left": "You’ve cooked that meat ___.",
-              "right": "wonderfully"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U11_I35"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "He drives ___.",
-              "right": "slowly"
-            },
-            {
-              "id": "p1",
-              "left": "You’ve cooked that meat ___.",
-              "right": "wonderfully"
-            },
-            {
-              "id": "p2",
-              "left": "He talked very ___ about his work.",
-              "right": "interestingly"
-            },
-            {
-              "id": "p3",
-              "left": "Could I have a ___ word with you?",
-              "right": "quick"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U11_I36"
         },
         {
           "type": "matching",
@@ -536,13 +491,69 @@
             },
             {
               "id": "p2",
-              "left": "I’ve got an ___ job for you.",
-              "right": "easy"
+              "left": "He drives ___.",
+              "right": "slowly"
+            },
+            {
+              "id": "p3",
+              "left": "Speak more ___, please.",
+              "right": "quietly"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U11_I35"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "He is a ___ driver.",
+              "right": "dangerous"
+            },
+            {
+              "id": "p1",
+              "left": "He drives ___.",
+              "right": "slowly"
+            },
+            {
+              "id": "p2",
+              "left": "She writes in ___ English.",
+              "right": "perfect"
             },
             {
               "id": "p3",
               "left": "You’ve cooked that meat ___.",
               "right": "wonderfully"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U11_I36"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "She writes in ___ English.",
+              "right": "perfect"
+            },
+            {
+              "id": "p1",
+              "left": "He talked very ___ about his work.",
+              "right": "interestingly"
+            },
+            {
+              "id": "p2",
+              "left": "He is a ___ driver.",
+              "right": "dangerous"
+            },
+            {
+              "id": "p3",
+              "left": "Could I have a ___ word with you?",
+              "right": "quick"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -554,23 +565,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "She writes in ___ English.",
-              "right": "perfect"
+              "left": "He is a ___ driver.",
+              "right": "dangerous"
             },
             {
               "id": "p1",
-              "left": "Could I have a ___ word with you?",
-              "right": "quick"
+              "left": "This is a ___ train.",
+              "right": "slow"
             },
             {
               "id": "p2",
-              "left": "Speak more ___, please.",
-              "right": "quietly"
+              "left": "I’ve got an ___ job for you.",
+              "right": "easy"
             },
             {
               "id": "p3",
-              "left": "I’ve got an ___ job for you.",
-              "right": "easy"
+              "left": "She sings very ___.",
+              "right": "well"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -582,23 +593,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Speak more ___, please.",
-              "right": "quietly"
-            },
-            {
-              "id": "p1",
-              "left": "I’ve got an ___ job for you.",
-              "right": "easy"
-            },
-            {
-              "id": "p2",
               "left": "You’ve cooked that meat ___.",
               "right": "wonderfully"
             },
             {
-              "id": "p3",
+              "id": "p1",
               "left": "He drives ___.",
               "right": "slowly"
+            },
+            {
+              "id": "p2",
+              "left": "He drives ___.",
+              "right": "dangerously"
+            },
+            {
+              "id": "p3",
+              "left": "Speak more ___, please.",
+              "right": "quietly"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -610,23 +621,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "You’ve cooked that meat ___.",
-              "right": "wonderfully"
+              "left": "Speak more ___, please.",
+              "right": "quietly"
             },
             {
               "id": "p1",
-              "left": "He drives ___.",
-              "right": "slowly"
+              "left": "I speak English ___.",
+              "right": "well"
             },
             {
               "id": "p2",
-              "left": "She writes in ___ English.",
-              "right": "perfect"
+              "left": "He talked very ___ about his work.",
+              "right": "interestingly"
             },
             {
               "id": "p3",
-              "left": "He talked very ___ about his work.",
-              "right": "interestingly"
+              "left": "He drives ___.",
+              "right": "dangerously"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -638,23 +649,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Could I have a ___ word with you?",
-              "right": "quick"
-            },
-            {
-              "id": "p1",
-              "left": "She sings very ___.",
-              "right": "well"
-            },
-            {
-              "id": "p2",
               "left": "I’ve got an ___ job for you.",
               "right": "easy"
             },
             {
-              "id": "p3",
+              "id": "p1",
               "left": "He talked very ___ about his work.",
               "right": "interestingly"
+            },
+            {
+              "id": "p2",
+              "left": "I speak English ___.",
+              "right": "well"
+            },
+            {
+              "id": "p3",
+              "left": "This is a ___ train.",
+              "right": "slow"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -959,16 +970,16 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "well",
-          "correct_answer": "well",
+          "tts_en": "easy",
+          "correct_answer": "easy",
           "mastery_tag": "listening",
           "interaction_id": "U11_I51"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "slowly",
-          "correct_answer": "slowly",
+          "tts_en": "easy",
+          "correct_answer": "easy",
           "mastery_tag": "listening",
           "interaction_id": "U11_I52"
         },
@@ -983,32 +994,32 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "well",
-          "correct_answer": "well",
+          "tts_en": "slow",
+          "correct_answer": "slow",
           "mastery_tag": "listening",
           "interaction_id": "U11_I54"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "wonderfully",
-          "correct_answer": "wonderfully",
+          "tts_en": "slow",
+          "correct_answer": "slow",
           "mastery_tag": "listening",
           "interaction_id": "U11_I55"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "quick",
-          "correct_answer": "quick",
+          "tts_en": "interestingly",
+          "correct_answer": "interestingly",
           "mastery_tag": "listening",
           "interaction_id": "U11_I56"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "well",
-          "correct_answer": "well",
+          "tts_en": "wonderfully",
+          "correct_answer": "wonderfully",
           "mastery_tag": "listening",
           "interaction_id": "U11_I57"
         },
@@ -1397,31 +1408,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U11_I74"
         },
@@ -1434,31 +1447,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U11_I75"
         },
@@ -1471,31 +1486,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U11_I76"
         },
@@ -1508,31 +1525,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U11_I77"
         },
@@ -1545,31 +1564,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U11_I78"
         },
@@ -1582,31 +1603,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U11_I79"
         },
@@ -1619,31 +1642,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U11_I80"
         },
@@ -1656,31 +1681,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U11_I81"
         },

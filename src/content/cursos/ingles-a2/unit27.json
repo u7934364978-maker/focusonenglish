@@ -34,7 +34,7 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Do you have ___ flour?",
+          "stimulus_en": "Sharon is the ___ girl in her class.",
           "options": [
             {
               "id": "o3",
@@ -42,11 +42,11 @@
             },
             {
               "id": "o2",
-              "text": "enough of"
+              "text": "taller"
             },
             {
               "id": "o1",
-              "text": "enough"
+              "text": "tallest"
             }
           ],
           "correct_answer": "o1",
@@ -56,19 +56,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "There isn’t ___ milk.",
+          "stimulus_en": "This house is ___ than that one.",
           "options": [
             {
-              "id": "o2",
-              "text": "milk enough"
-            },
-            {
               "id": "o1",
-              "text": "enough"
+              "text": "bigger"
             },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o2",
+              "text": "the biggest"
             }
           ],
           "correct_answer": "o1",
@@ -78,19 +78,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It’s not hot ___.",
+          "stimulus_en": "This house is ___ than that one.",
           "options": [
-            {
-              "id": "o2",
-              "text": "enough hot"
-            },
-            {
-              "id": "o1",
-              "text": "enough"
-            },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o2",
+              "text": "the biggest"
+            },
+            {
+              "id": "o1",
+              "text": "bigger"
             }
           ],
           "correct_answer": "o1",
@@ -100,15 +100,15 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "There isn’t ___ milk.",
+          "stimulus_en": "Sharon is the ___ girl in her class.",
           "options": [
             {
               "id": "o2",
-              "text": "milk enough"
+              "text": "taller"
             },
             {
               "id": "o1",
-              "text": "enough"
+              "text": "tallest"
             },
             {
               "id": "o3",
@@ -122,15 +122,15 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Do you have ___ flour?",
+          "stimulus_en": "My partner is the ___ woman in the world.",
           "options": [
             {
-              "id": "o1",
-              "text": "enough"
+              "id": "o2",
+              "text": "more beautiful"
             },
             {
-              "id": "o2",
-              "text": "enough of"
+              "id": "o1",
+              "text": "most beautiful"
             },
             {
               "id": "o3",
@@ -144,19 +144,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "There isn’t ___ milk.",
+          "stimulus_en": "My partner is the ___ woman in the world.",
           "options": [
+            {
+              "id": "o2",
+              "text": "more beautiful"
+            },
             {
               "id": "o3",
               "text": "other"
             },
             {
               "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o2",
-              "text": "milk enough"
+              "text": "most beautiful"
             }
           ],
           "correct_answer": "o1",
@@ -166,19 +166,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Do you have ___ flour?",
+          "stimulus_en": "It's ___ today than yesterday.",
           "options": [
             {
-              "id": "o2",
-              "text": "enough of"
-            },
-            {
               "id": "o1",
-              "text": "enough"
+              "text": "hotter"
             },
             {
               "id": "o3",
               "text": "other"
+            },
+            {
+              "id": "o2",
+              "text": "more hot"
             }
           ],
           "correct_answer": "o1",
@@ -188,19 +188,19 @@
         {
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It’s not hot ___.",
+          "stimulus_en": "This house is ___ than that one.",
           "options": [
-            {
-              "id": "o1",
-              "text": "enough"
-            },
             {
               "id": "o3",
               "text": "other"
             },
             {
+              "id": "o1",
+              "text": "bigger"
+            },
+            {
               "id": "o2",
-              "text": "enough hot"
+              "text": "the biggest"
             }
           ],
           "correct_answer": "o1",
@@ -213,7 +213,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "enough"
+              "text": "bigger"
             }
           ],
           "correct_answer": [
@@ -228,7 +228,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "enough"
+              "text": "bigger"
             }
           ],
           "correct_answer": [
@@ -243,11 +243,16 @@
           "options": [
             {
               "id": "w0",
-              "text": "enough"
+              "text": "most"
+            },
+            {
+              "id": "w1",
+              "text": "beautiful"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U27_I12"
@@ -258,7 +263,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "enough"
+              "text": "tallest"
             }
           ],
           "correct_answer": [
@@ -273,7 +278,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "enough"
+              "text": "tallest"
             }
           ],
           "correct_answer": [
@@ -288,7 +293,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "enough"
+              "text": "hotter"
             }
           ],
           "correct_answer": [
@@ -303,7 +308,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "enough"
+              "text": "best"
             }
           ],
           "correct_answer": [
@@ -317,12 +322,17 @@
           "prompt_es": "Ordena las palabras:",
           "options": [
             {
+              "id": "w1",
+              "text": "beautiful"
+            },
+            {
               "id": "w0",
-              "text": "enough"
+              "text": "most"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U27_I17"
@@ -330,120 +340,120 @@
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Do you have ___ flour?",
-          "correct_answer": "enough",
+          "stimulus_en": "Sharon is the ___ girl in her class.",
+          "correct_answer": "tallest",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I18"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Do you have ___ flour?",
-          "correct_answer": "enough",
+          "stimulus_en": "Sharon is the ___ girl in her class.",
+          "correct_answer": "tallest",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I19"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "There isn’t ___ milk.",
-          "correct_answer": "enough",
+          "stimulus_en": "Sharon is the ___ girl in her class.",
+          "correct_answer": "tallest",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I20"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Do you have ___ flour?",
-          "correct_answer": "enough",
+          "stimulus_en": "My partner is the ___ woman in the world.",
+          "correct_answer": "most beautiful",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I21"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I don’t have ___ warm clothes.",
-          "correct_answer": "enough",
+          "stimulus_en": "This house is ___ than that one.",
+          "correct_answer": "bigger",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I22"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "There isn’t ___ milk.",
-          "correct_answer": "enough",
+          "stimulus_en": "He is the ___ student in the group.",
+          "correct_answer": "best",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I23"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It’s not hot ___.",
-          "correct_answer": "enough",
+          "stimulus_en": "He is the ___ student in the group.",
+          "correct_answer": "best",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I24"
         },
         {
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I don’t have ___ warm clothes.",
-          "correct_answer": "enough",
+          "stimulus_en": "Sharon is the ___ girl in her class.",
+          "correct_answer": "tallest",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I25"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"most beautiful\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I26"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"most beautiful\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I27"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"hotter\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"best\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I29"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
+          "prompt_es": "¿Es correcta esta frase?: \"best not\"",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I30"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"bigger\"",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I31"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough\"",
+          "prompt_es": "¿Es correcta esta frase?: \"best\"",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I32"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es correcta esta frase?: \"hotter not\"",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I33"
         },
@@ -453,23 +463,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "There isn’t ___ milk.",
-              "right": "enough"
+              "left": "Sharon is the ___ girl in her class.",
+              "right": "tallest"
             },
             {
               "id": "p1",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
+              "left": "He is the ___ student in the group.",
+              "right": "best"
             },
             {
               "id": "p2",
-              "left": "It’s not hot ___.",
-              "right": "enough"
+              "left": "My partner is the ___ woman in the world.",
+              "right": "most beautiful"
             },
             {
               "id": "p3",
-              "left": "I don’t have ___ warm clothes.",
-              "right": "enough"
+              "left": "This house is ___ than that one.",
+              "right": "bigger"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -481,23 +491,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I’m not tall ___.",
-              "right": "enough"
+              "left": "It's ___ today than yesterday.",
+              "right": "hotter"
             },
             {
               "id": "p1",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
+              "left": "Sharon is the ___ girl in her class.",
+              "right": "tallest"
             },
             {
               "id": "p2",
-              "left": "It’s not hot ___.",
-              "right": "enough"
+              "left": "This house is ___ than that one.",
+              "right": "bigger"
             },
             {
               "id": "p3",
-              "left": "I don’t have ___ warm clothes.",
-              "right": "enough"
+              "left": "He is the ___ student in the group.",
+              "right": "best"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -509,23 +519,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I’m not tall ___.",
-              "right": "enough"
+              "left": "Sharon is the ___ girl in her class.",
+              "right": "tallest"
             },
             {
               "id": "p1",
-              "left": "It’s not hot ___.",
-              "right": "enough"
+              "left": "This house is ___ than that one.",
+              "right": "bigger"
             },
             {
               "id": "p2",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
+              "left": "He is the ___ student in the group.",
+              "right": "best"
             },
             {
               "id": "p3",
-              "left": "There isn’t ___ milk.",
-              "right": "enough"
+              "left": "It's ___ today than yesterday.",
+              "right": "hotter"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -537,23 +547,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "There isn’t ___ milk.",
-              "right": "enough"
+              "left": "Sharon is the ___ girl in her class.",
+              "right": "tallest"
             },
             {
               "id": "p1",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
+              "left": "It's ___ today than yesterday.",
+              "right": "hotter"
             },
             {
               "id": "p2",
-              "left": "It’s not hot ___.",
-              "right": "enough"
+              "left": "My partner is the ___ woman in the world.",
+              "right": "most beautiful"
             },
             {
               "id": "p3",
-              "left": "I’m not tall ___.",
-              "right": "enough"
+              "left": "This house is ___ than that one.",
+              "right": "bigger"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -565,23 +575,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I’m not tall ___.",
-              "right": "enough"
+              "left": "This house is ___ than that one.",
+              "right": "bigger"
             },
             {
               "id": "p1",
-              "left": "I don’t have ___ warm clothes.",
-              "right": "enough"
+              "left": "My partner is the ___ woman in the world.",
+              "right": "most beautiful"
             },
             {
               "id": "p2",
-              "left": "It’s not hot ___.",
-              "right": "enough"
+              "left": "It's ___ today than yesterday.",
+              "right": "hotter"
             },
             {
               "id": "p3",
-              "left": "There isn’t ___ milk.",
-              "right": "enough"
+              "left": "He is the ___ student in the group.",
+              "right": "best"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -593,23 +603,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "I’m not tall ___.",
-              "right": "enough"
+              "left": "My partner is the ___ woman in the world.",
+              "right": "most beautiful"
             },
             {
               "id": "p1",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
+              "left": "It's ___ today than yesterday.",
+              "right": "hotter"
             },
             {
               "id": "p2",
-              "left": "It’s not hot ___.",
-              "right": "enough"
+              "left": "He is the ___ student in the group.",
+              "right": "best"
             },
             {
               "id": "p3",
-              "left": "I don’t have ___ warm clothes.",
-              "right": "enough"
+              "left": "Sharon is the ___ girl in her class.",
+              "right": "tallest"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -621,23 +631,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "It’s not hot ___.",
-              "right": "enough"
+              "left": "My partner is the ___ woman in the world.",
+              "right": "most beautiful"
             },
             {
               "id": "p1",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
+              "left": "Sharon is the ___ girl in her class.",
+              "right": "tallest"
             },
             {
               "id": "p2",
-              "left": "There isn’t ___ milk.",
-              "right": "enough"
+              "left": "He is the ___ student in the group.",
+              "right": "best"
             },
             {
               "id": "p3",
-              "left": "I’m not tall ___.",
-              "right": "enough"
+              "left": "It's ___ today than yesterday.",
+              "right": "hotter"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -649,23 +659,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
+              "left": "He is the ___ student in the group.",
+              "right": "best"
             },
             {
               "id": "p1",
-              "left": "It’s not hot ___.",
-              "right": "enough"
+              "left": "Sharon is the ___ girl in her class.",
+              "right": "tallest"
             },
             {
               "id": "p2",
-              "left": "I don’t have ___ warm clothes.",
-              "right": "enough"
+              "left": "This house is ___ than that one.",
+              "right": "bigger"
             },
             {
               "id": "p3",
-              "left": "There isn’t ___ milk.",
-              "right": "enough"
+              "left": "It's ___ today than yesterday.",
+              "right": "hotter"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -962,64 +972,64 @@
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
+          "tts_en": "bigger",
+          "correct_answer": "bigger",
           "mastery_tag": "listening",
           "interaction_id": "U27_I50"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
+          "tts_en": "tallest",
+          "correct_answer": "tallest",
           "mastery_tag": "listening",
           "interaction_id": "U27_I51"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
+          "tts_en": "best",
+          "correct_answer": "best",
           "mastery_tag": "listening",
           "interaction_id": "U27_I52"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
+          "tts_en": "tallest",
+          "correct_answer": "tallest",
           "mastery_tag": "listening",
           "interaction_id": "U27_I53"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
+          "tts_en": "hotter",
+          "correct_answer": "hotter",
           "mastery_tag": "listening",
           "interaction_id": "U27_I54"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
+          "tts_en": "most beautiful",
+          "correct_answer": "most beautiful",
           "mastery_tag": "listening",
           "interaction_id": "U27_I55"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
+          "tts_en": "most beautiful",
+          "correct_answer": "most beautiful",
           "mastery_tag": "listening",
           "interaction_id": "U27_I56"
         },
         {
           "type": "dictation_guided",
           "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
+          "tts_en": "hotter",
+          "correct_answer": "hotter",
           "mastery_tag": "listening",
           "interaction_id": "U27_I57"
         },
@@ -1408,31 +1418,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U27_I74"
         },
@@ -1445,31 +1457,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U27_I75"
         },
@@ -1482,31 +1496,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U27_I76"
         },
@@ -1519,31 +1535,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U27_I77"
         },
@@ -1556,31 +1574,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U27_I78"
         },
@@ -1593,31 +1613,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U27_I79"
         },
@@ -1630,31 +1652,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U27_I80"
         },
@@ -1667,31 +1691,33 @@
               "id": "1",
               "options": [
                 {
-                  "id": "a",
+                  "id": "o1",
                   "text": "a"
                 },
                 {
-                  "id": "an",
+                  "id": "o2",
                   "text": "an"
                 }
-              ],
-              "correct_answer": "a"
+              ]
             },
             {
               "id": "2",
               "options": [
                 {
-                  "id": "big",
+                  "id": "o1",
                   "text": "big"
                 },
                 {
-                  "id": "sky",
+                  "id": "o2",
                   "text": "sky"
                 }
-              ],
-              "correct_answer": "big"
+              ]
             }
           ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
           "mastery_tag": "grammar",
           "interaction_id": "U27_I81"
         },
