@@ -1,267 +1,37 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
+    "unit_id": "unit8",
+    "unit_title": "Superlatives + Present Perfect (Ever)",
     "level": "A2",
-    "unit_id": "U8",
-    "unit_title": "School & University Life",
-    "total_duration_minutes": 120
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
   "blocks": [
     {
-      "block_id": "B8",
-      "title": "School & University Life",
+      "block_id": "U8_B1",
+      "title": "Práctica General",
+      "duration_minutes": 60,
       "content": [
         {
           "interaction_id": "U8_I1",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Biblioteca':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Library"
-            },
-            {
-              "id": "o2",
-              "text": "Knowledge"
-            },
-            {
-              "id": "o3",
-              "text": "Teacher"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Deberes':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Homework"
-            },
-            {
-              "id": "o3",
-              "text": "Teacher"
-            },
-            {
-              "id": "o2",
-              "text": "Degree"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I3",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Nota':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Grade"
-            },
-            {
-              "id": "o3",
-              "text": "Homework"
-            },
-            {
-              "id": "o2",
-              "text": "Degree"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Investigación':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Research"
-            },
-            {
-              "id": "o2",
-              "text": "Exam"
-            },
-            {
-              "id": "o3",
-              "text": "Subject"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Examen':",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Grade"
-            },
-            {
-              "id": "o1",
-              "text": "Exam"
-            },
-            {
-              "id": "o3",
-              "text": "Teacher"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I6",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Profesor':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Teacher"
-            },
-            {
-              "id": "o2",
-              "text": "Library"
-            },
-            {
-              "id": "o3",
-              "text": "Homework"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I7",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Clase magistral':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Grade"
-            },
-            {
-              "id": "o2",
-              "text": "Degree"
-            },
-            {
-              "id": "o1",
-              "text": "Lecture"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I8",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Estudiante':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Exam"
-            },
-            {
-              "id": "o2",
-              "text": "Library"
-            },
-            {
-              "id": "o1",
-              "text": "Student"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I9",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Asignatura':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Knowledge"
-            },
-            {
-              "id": "o1",
-              "text": "Subject"
-            },
-            {
-              "id": "o2",
-              "text": "Teacher"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I10",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Título/Carrera':",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Subject"
-            },
-            {
-              "id": "o3",
-              "text": "Exam"
-            },
-            {
-              "id": "o1",
-              "text": "Degree"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I11",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Conocimiento':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Knowledge"
-            },
-            {
-              "id": "o3",
-              "text": "Homework"
-            },
-            {
-              "id": "o2",
-              "text": "Grade"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I12",
           "type": "matching",
-          "prompt_es": "Une los términos:",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Homework",
-              "right": "Deberes"
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
               "id": "p1",
-              "left": "Student",
-              "right": "Estudiante"
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
               "id": "p2",
-              "left": "Grade",
-              "right": "Nota"
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
           "correct_answer": {
@@ -272,24 +42,225 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U8_I13",
+          "interaction_id": "U8_I2",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "studied"
+            },
+            {
+              "id": "o2",
+              "text": "study"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I5",
           "type": "matching",
-          "prompt_es": "Une los términos:",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Degree",
-              "right": "Título/Carrera"
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
               "id": "p1",
-              "left": "Research",
-              "right": "Investigación"
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
               "id": "p2",
-              "left": "Exam",
-              "right": "Examen"
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I6",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I7",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I8",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I9",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U8_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U8_I11",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I12",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the longest beach you’ve ever ___ to?",
+          "correct_answer": "been",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I13",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
           "correct_answer": {
@@ -302,22 +273,22 @@
         {
           "interaction_id": "U8_I14",
           "type": "matching",
-          "prompt_es": "Une los términos:",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Lecture",
-              "right": "Clase magistral"
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
               "id": "p1",
-              "left": "Subject",
-              "right": "Asignatura"
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
               "id": "p2",
-              "left": "Library",
-              "right": "Biblioteca"
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
           "correct_answer": {
@@ -330,379 +301,699 @@
         {
           "interaction_id": "U8_I15",
           "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "He (be) ________ a very good student.",
-          "correct_answer": "is",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
+          "correct_answer": "listened",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "I (study) ________ history.",
-          "correct_answer": "study",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "studied"
+            },
+            {
+              "id": "o2",
+              "text": "study"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I17",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "We (need) ________ to do our homework.",
-          "correct_answer": "need",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I18",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "They (not/go) ________ to the library often.",
-          "correct_answer": "don't go",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I19",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "Do you ________ (like) math?",
-          "correct_answer": "like",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I20",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "She (have) ________ an exam tomorrow.",
-          "correct_answer": "has",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I21",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "He is doing a degree in computer science.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I22",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "My subject favorite at school was history.",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I23",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "I am studying hard for my final exams.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "We a have lot of homework this week.",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I25",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "She got a very high grade in her test.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I26",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "The library university is open 24 hours.",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I27",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "homework"
-            },
-            {
-              "id": "w7",
-              "text": "week"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
               "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w6",
-              "text": "this"
-            },
-            {
-              "id": "w0",
-              "text": "We"
+              "text": "student"
             },
             {
               "id": "w3",
-              "text": "lot"
+              "text": "happy"
             },
             {
-              "id": "w4",
-              "text": "of"
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U8_I18",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "taste"
+            },
+            {
+              "id": "o1",
+              "text": "tasted"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I19",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the longest beach you’ve ever ___ to?",
+          "correct_answer": "been",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I20",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I21",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
+          "correct_answer": "listened",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I22",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the hottest place you’ve ever ___ to?",
+          "correct_answer": "been",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I23",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I24",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I25",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "have"
+            },
+            {
+              "id": "o1",
+              "text": "had"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I26",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "taste"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "tasted"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I27",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I28",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "school"
-            },
-            {
-              "id": "w5",
-              "text": "was"
-            },
-            {
-              "id": "w1",
-              "text": "favorite"
-            },
-            {
               "id": "w3",
-              "text": "at"
+              "text": "happy"
             },
             {
               "id": "w2",
-              "text": "subject"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w6",
-              "text": "history"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I29",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "high"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "test"
-            },
-            {
-              "id": "w7",
-              "text": "her"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w5",
-              "text": "grade"
-            },
-            {
-              "id": "w1",
-              "text": "got"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I30",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "university"
+              "text": "is"
             },
             {
               "id": "w0",
               "text": "The"
             },
             {
-              "id": "w5",
-              "text": "24"
-            },
-            {
-              "id": "w4",
-              "text": "open"
-            },
-            {
-              "id": "w6",
-              "text": "hours"
-            },
-            {
-              "id": "w2",
-              "text": "library"
-            },
-            {
-              "id": "w3",
-              "text": "is"
+              "id": "w1",
+              "text": "student"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U8_I31",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "interaction_id": "U8_I29",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "studying"
+              "id": "o2",
+              "text": "go"
             },
+            {
+              "id": "o1",
+              "text": "been"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I31",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
             {
               "id": "w3",
-              "text": "hard"
+              "text": "happy"
             },
             {
-              "id": "w6",
-              "text": "final"
+              "id": "w2",
+              "text": "is"
             },
             {
               "id": "w1",
-              "text": "am"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w5",
-              "text": "my"
-            },
-            {
-              "id": "w7",
-              "text": "exams"
+              "text": "student"
             },
             {
               "id": "w0",
-              "text": "I"
+              "text": "The"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I32",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the most delicious food you’ve ever ___?",
+          "correct_answer": "tasted",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I33",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "w7",
-              "text": "science"
+              "id": "o1",
+              "text": "been"
             },
             {
+              "id": "o2",
+              "text": "went"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I34",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I35",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I36",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
               "id": "w2",
-              "text": "doing"
+              "text": "is"
             },
             {
               "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "degree"
-            },
-            {
-              "id": "w6",
-              "text": "computer"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "He"
+              "text": "happy"
             },
             {
               "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U8_I37",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I38",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U8_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the highest building you’ve ever ___?",
+          "correct_answer": "visited",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the most delicious food you’ve ever ___?",
+          "correct_answer": "tasted",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I41",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U8_I42",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "been"
+            },
+            {
+              "id": "o2",
+              "text": "was"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the most delicious food you’ve ever ___?",
+          "correct_answer": "tasted",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I44",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I45",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U8_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
+          "correct_answer": "listened",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I47",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "Who’s the shyest person you’ve ever ___?",
+          "correct_answer": "met",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I49",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I50",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
               "text": "is"
             }
           ],
@@ -710,3756 +1001,896 @@
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U8_I33",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I34",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I35",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I36",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I37",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I38",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I39",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I40",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I41",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I42",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I43",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I44",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 0:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I45",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 1:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I46",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 2:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I47",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 3:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I48",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 4:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I49",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 5:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I50",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 6:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I51",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 7:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I52",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 8:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U8_I53",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 9:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I54",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 10:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I55",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 11:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the longest beach you’ve ever ___ to?",
+          "correct_answer": "been",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I56",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 12:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "study"
+            },
+            {
+              "id": "o1",
+              "text": "studied"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I57",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 13:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I58",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 14:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I59",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 15:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the most difficult language you’ve ever ___?",
+          "correct_answer": "studied",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I60",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 16:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "Who’s the shyest person you’ve ever ___?",
+          "correct_answer": "met",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I61",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 17:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I62",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 18:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "taste"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "tasted"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I63",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 19:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "been"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "was"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I64",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 20:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "have"
+            },
+            {
+              "id": "o1",
+              "text": "had"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I65",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 21:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I66",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 22:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I67",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 23:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "told"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "tell"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I68",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 24:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I69",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 25:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I70",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 26:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I71",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 27:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I72",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 28:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I73",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 29:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I74",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 30:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "listened"
+            },
+            {
+              "id": "o2",
+              "text": "listen"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I75",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 31:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I76",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 32:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I77",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 33:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "listen"
+            },
+            {
+              "id": "o1",
+              "text": "listened"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I78",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 34:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I79",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 35:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
+          "correct_answer": "listened",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I80",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 36:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I81",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 37:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "taste"
+            },
+            {
+              "id": "o1",
+              "text": "tasted"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I82",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 38:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I83",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 39:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "was"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "been"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I84",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 40:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
+          "correct_answer": "listened",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I85",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 41:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
+          "correct_answer": "listened",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I86",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 42:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I87",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 43:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I88",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 44:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the funniest joke you’ve ever been ___?",
+          "correct_answer": "told",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I89",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 45:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I90",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 46:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the funniest joke you’ve ever been ___?",
+          "correct_answer": "told",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I91",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 47:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I92",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 48:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What’s the highest building you’ve ever ___?",
+          "correct_answer": "visited",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I93",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 49:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "met"
+            },
+            {
+              "id": "o2",
+              "text": "meet"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I94",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 50:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I95",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 51:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I96",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 52:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "meet"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "met"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I97",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 53:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I98",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 54:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I99",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 55:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "met"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "meet"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I100",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 56:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I101",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 57:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I102",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 58:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I103",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 59:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I104",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 60:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I105",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 61:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I106",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 62:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I107",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 63:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I108",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 64:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I109",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 65:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I110",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 66:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I111",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 67:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I112",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 68:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I113",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 69:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I114",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 70:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I115",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 71:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I116",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 72:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I117",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 73:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I118",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 74:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I119",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 75:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I120",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 76:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I121",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 77:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I122",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 78:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I123",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 79:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I124",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 80:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I125",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 81:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I126",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 82:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I127",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 83:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I128",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 84:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I129",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 85:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I130",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 86:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I131",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 87:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I132",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 88:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I133",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 89:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I134",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 90:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I135",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 91:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I136",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 92:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I137",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 93:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I138",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 94:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I139",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 95:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I140",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 96:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I141",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 97:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I142",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 98:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I143",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 99:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I144",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 100:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I145",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 101:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I146",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 102:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I147",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 103:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I148",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 104:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I149",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 105:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I150",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 106:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I151",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 107:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I152",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 108:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I153",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 109:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I154",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 110:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I155",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 111:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I156",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 112:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I157",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 113:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I158",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 114:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I159",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 115:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I160",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 116:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I161",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 117:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I162",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 118:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I163",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 119:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I164",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 120:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I165",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 121:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I166",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 122:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I167",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 123:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I168",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 124:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I169",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 125:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I170",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 126:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I171",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 127:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I172",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 128:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I173",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 129:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I174",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 130:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I175",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 131:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I176",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 132:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I177",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 133:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I178",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 134:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I179",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 135:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I180",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 136:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I181",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 137:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I182",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 138:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I183",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 139:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I184",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 140:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I185",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 141:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I186",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 142:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I187",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 143:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I188",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 144:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I189",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 145:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I190",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 146:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I191",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 147:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I192",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 148:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I193",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 149:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I194",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 150:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I195",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 151:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I196",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 152:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I197",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 153:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I198",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 154:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I199",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 155:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I200",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 156:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I201",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 157:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I202",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 158:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I203",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 159:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I204",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 160:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I205",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 161:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I206",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 162:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I207",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 163:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I208",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 164:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I209",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 165:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I210",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 166:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I211",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 167:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I212",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 168:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I213",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 169:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I214",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 170:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I215",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 171:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I216",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 172:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I217",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 173:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I218",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 174:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I219",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 175:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I220",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 176:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I221",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 177:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I222",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 178:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I223",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 179:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I224",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 180:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I225",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 181:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I226",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 182:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I227",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 183:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I228",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 184:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I229",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 185:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I230",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 186:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I231",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 187:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I232",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 188:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I233",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 189:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I234",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 190:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I235",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 191:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I236",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 192:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I237",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 193:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I238",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 194:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I239",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 195:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I240",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 196:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I241",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 197:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I242",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 198:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I243",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 199:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I244",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 200:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I245",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 201:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I246",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 202:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I247",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 203:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I248",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 204:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I249",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 205:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I250",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 206:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I251",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 207:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I252",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 208:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I253",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 209:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I254",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 210:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I255",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 211:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I256",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 212:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I257",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 213:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I258",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 214:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I259",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 215:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I260",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 216:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I261",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 217:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I262",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 218:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I263",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 219:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I264",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 220:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I265",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 221:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I266",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 222:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I267",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 223:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I268",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 224:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I269",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 225:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I270",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 226:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I271",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 227:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I272",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 228:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I273",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 229:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I274",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 230:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I275",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 231:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I276",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 232:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I277",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 233:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I278",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 234:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I279",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 235:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I280",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 236:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I281",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 237:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I282",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 238:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I283",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 239:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I284",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 240:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I285",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 241:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I286",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 242:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I287",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 243:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I288",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 244:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I289",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 245:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I290",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 246:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I291",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 247:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I292",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 248:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I293",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 249:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I294",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 250:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I295",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 251:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I296",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 252:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I297",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 253:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I298",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 254:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I299",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 255:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I300",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 256:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I301",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 257:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I302",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 258:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I303",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 259:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I304",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 260:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I305",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 261:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I306",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 262:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I307",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 263:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I308",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 264:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I309",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 265:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I310",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 266:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I311",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 267:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I312",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 268:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I313",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 269:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I314",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 270:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I315",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 271:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I316",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 272:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I317",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 273:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I318",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 274:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I319",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 275:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I320",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 276:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I321",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 277:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I322",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 278:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I323",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 279:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I324",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 280:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I325",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 281:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I326",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 282:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I327",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 283:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I328",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 284:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I329",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 285:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I330",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 286:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I331",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 287:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I332",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 288:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I333",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 289:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I334",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 290:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I335",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 291:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I336",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 292:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I337",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 293:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I338",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 294:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I339",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 295:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I340",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 296:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I341",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 297:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I342",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 298:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I343",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 299:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I344",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 300:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I345",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 301:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I346",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 302:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I347",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 303:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I348",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 304:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I349",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 305:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I350",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 306:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I351",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 307:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I352",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 308:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I353",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 309:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I354",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 310:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I355",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 311:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I356",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 312:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I357",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 313:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I358",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 314:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I359",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 315:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I360",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 316:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I361",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 317:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I362",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 318:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I363",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 319:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I364",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 320:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I365",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 321:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I366",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 322:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I367",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 323:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I368",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 324:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I369",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 325:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I370",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 326:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I371",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 327:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I372",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 328:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I373",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 329:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I374",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 330:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I375",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 331:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I376",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 332:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I377",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 333:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I378",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 334:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I379",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 335:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I380",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 336:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I381",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 337:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I382",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 338:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I383",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 339:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I384",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 340:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I385",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 341:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I386",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 342:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I387",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 343:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I388",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 344:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I389",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 345:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I390",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 346:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I391",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 347:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I392",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 348:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I393",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 349:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I394",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 350:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I395",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 351:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I396",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 352:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I397",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 353:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I398",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 354:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I399",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 355:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I400",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 356:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I401",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 357:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I402",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 358:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I403",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 359:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I404",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 360:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I405",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 361:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I406",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 362:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I407",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 363:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I408",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 364:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I409",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 365:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I410",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 366:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I411",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 367:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I412",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 368:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I413",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 369:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I414",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 370:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I415",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 371:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I416",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 372:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I417",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 373:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I418",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 374:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I419",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 375:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I420",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 376:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I421",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 377:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I422",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 378:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I423",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 379:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I424",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 380:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I425",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 381:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I426",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 382:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I427",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 383:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I428",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 384:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I429",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 385:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I430",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 386:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I431",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 387:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I432",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 388:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I433",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 389:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I434",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 390:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I435",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 391:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I436",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 392:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I437",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 393:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I438",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 394:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I439",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 395:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I440",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 396:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I441",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 397:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I442",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 398:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I443",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 399:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I444",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 400:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I445",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 401:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I446",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 402:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I447",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 403:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I448",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 404:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I449",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 405:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I450",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 406:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I451",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 407:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I452",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 408:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I453",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 409:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I454",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 410:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I455",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 411:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I456",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 412:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I457",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 413:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I458",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 414:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I459",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 415:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I460",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 416:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I461",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 417:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I462",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 418:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I463",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 419:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I464",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 420:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I465",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 421:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I466",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 422:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I467",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 423:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I468",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 424:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I469",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 425:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I470",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 426:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I471",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 427:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I472",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 428:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I473",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 429:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I474",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 430:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I475",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 431:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I476",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 432:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I477",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 433:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I478",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 434:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I479",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 435:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I480",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 436:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I481",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 437:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I482",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 438:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I483",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 439:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I484",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 440:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I485",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 441:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I486",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 442:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I487",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 443:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I488",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 444:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I489",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 445:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I490",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 446:",
-          "stimulus_es": "Nota",
-          "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I491",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 447:",
-          "stimulus_es": "Título/Carrera",
-          "correct_answer": "Degree",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I492",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 448:",
-          "stimulus_es": "Clase magistral",
-          "correct_answer": "Lecture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I493",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 449:",
-          "stimulus_es": "Investigación",
-          "correct_answer": "Research",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I494",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 450:",
-          "stimulus_es": "Conocimiento",
-          "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I495",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 451:",
-          "stimulus_es": "Asignatura",
-          "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I496",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 452:",
-          "stimulus_es": "Examen",
-          "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I497",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 453:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I498",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 454:",
-          "stimulus_es": "Profesor",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I499",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 455:",
-          "stimulus_es": "Estudiante",
-          "correct_answer": "Student",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I500",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 456:",
-          "stimulus_es": "Deberes",
-          "correct_answer": "Homework",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         }
       ]

@@ -1,540 +1,451 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
+    "unit_id": "unit3",
+    "unit_title": "Adjectives and Adverbs",
     "level": "A2",
-    "unit_id": "U3",
-    "unit_title": "Personality & Character",
-    "total_duration_minutes": 120
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
   "blocks": [
     {
-      "block_id": "B3",
-      "title": "Personality & Character",
+      "block_id": "U3_B1",
+      "title": "Práctica General",
+      "duration_minutes": 60,
       "content": [
         {
           "interaction_id": "U3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Tímido':",
+          "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Shy"
+              "id": "o3",
+              "text": "maybe"
             },
             {
               "id": "o2",
-              "text": "Friendly"
+              "text": "slow"
             },
             {
-              "id": "o3",
-              "text": "Patient"
+              "id": "o1",
+              "text": "slowly"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Simpático':",
+          "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
               "id": "o2",
-              "text": "Lazy"
+              "text": "perfectly"
             },
             {
               "id": "o3",
-              "text": "Intelligent"
+              "text": "maybe"
             },
             {
               "id": "o1",
-              "text": "Friendly"
+              "text": "perfect"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I3",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Servicial':",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Shy"
-            },
-            {
-              "id": "o3",
-              "text": "Serious"
-            },
-            {
-              "id": "o1",
-              "text": "Helpful"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "You’ve cooked that meat ___.",
+          "correct_answer": "wonderfully",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Maleducado':",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o2",
-              "text": "Honest"
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
-              "id": "o3",
-              "text": "Funny"
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
-              "id": "o1",
-              "text": "Rude"
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Listo':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Kind"
-            },
-            {
-              "id": "o1",
-              "text": "Clever"
-            },
-            {
-              "id": "o2",
-              "text": "Honest"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I6",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Tranquilo':",
+          "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Quiet"
-            },
-            {
               "id": "o2",
-              "text": "Outgoing"
+              "text": "good"
             },
             {
               "id": "o3",
-              "text": "Kind"
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "well"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I7",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Alegre':",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Cheerful"
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
-              "id": "o2",
-              "text": "Patient"
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
-              "id": "o3",
-              "text": "Mean"
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I8",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Paciente':",
+          "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "o3",
-              "text": "Shy"
-            },
-            {
               "id": "o1",
-              "text": "Patient"
+              "text": "quietly"
             },
             {
               "id": "o2",
-              "text": "Generous"
+              "text": "quiet"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I9",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Generoso':",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o2",
-              "text": "Clever"
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
-              "id": "o3",
-              "text": "Intelligent"
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
-              "id": "o1",
-              "text": "Generous"
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I10",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Honesto':",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "o2",
-              "text": "Quiet"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "o3",
-              "text": "Hard-working"
+              "id": "w3",
+              "text": "happy"
             },
             {
-              "id": "o1",
-              "text": "Honest"
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I11",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Tacaño/Malo':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mean"
-            },
-            {
-              "id": "o3",
-              "text": "Funny"
-            },
-            {
-              "id": "o2",
-              "text": "Moody"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He drives ___.",
+          "correct_answer": "dangerously",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I12",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Inteligente':",
+          "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
               "id": "o2",
-              "text": "Helpful"
-            },
-            {
-              "id": "o1",
-              "text": "Intelligent"
+              "text": "quiet"
             },
             {
               "id": "o3",
-              "text": "Quiet"
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "quietly"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I13",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Malhumorado':",
+          "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
+              "id": "o2",
+              "text": "slow"
+            },
+            {
               "id": "o1",
-              "text": "Moody"
+              "text": "slowly"
             },
             {
               "id": "o3",
-              "text": "Rude"
-            },
-            {
-              "id": "o2",
-              "text": "Funny"
+              "text": "maybe"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I14",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Trabajador':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hard-working"
-            },
-            {
-              "id": "o2",
-              "text": "Honest"
-            },
-            {
-              "id": "o3",
-              "text": "Helpful"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I15",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Serio':",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "o2",
-              "text": "Honest"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "o1",
-              "text": "Serious"
+              "id": "w3",
+              "text": "happy"
             },
             {
-              "id": "o3",
-              "text": "Shy"
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I16",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Divertido':",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o2",
-              "text": "Kind"
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
-              "id": "o1",
-              "text": "Funny"
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
-              "id": "o3",
-              "text": "Outgoing"
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I17",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Amable':",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Kind"
+              "id": "w3",
+              "text": "happy"
             },
             {
-              "id": "o3",
-              "text": "Patient"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "o2",
-              "text": "Mean"
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I18",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Perezoso':",
+          "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
+              "id": "o1",
+              "text": "slow"
+            },
+            {
               "id": "o2",
-              "text": "Mean"
+              "text": "slowly"
             },
             {
               "id": "o3",
-              "text": "Cheerful"
-            },
-            {
-              "id": "o1",
-              "text": "Lazy"
+              "text": "maybe"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I19",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Extrovertido':",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Kind"
-            },
-            {
-              "id": "o3",
-              "text": "Serious"
-            },
-            {
-              "id": "o1",
-              "text": "Outgoing"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I20",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Educado':",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Kind"
-            },
-            {
-              "id": "o1",
-              "text": "Polite"
-            },
-            {
-              "id": "o3",
-              "text": "Lazy"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I21",
-          "type": "matching",
-          "prompt_es": "Une los términos:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Lazy",
-              "right": "Perezoso"
-            },
-            {
-              "id": "p1",
-              "left": "Outgoing",
-              "right": "Extrovertido"
-            },
-            {
-              "id": "p2",
-              "left": "Patient",
-              "right": "Paciente"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I22",
-          "type": "matching",
-          "prompt_es": "Une los términos:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Hard-working",
-              "right": "Trabajador"
-            },
-            {
-              "id": "p1",
-              "left": "Generous",
-              "right": "Generoso"
-            },
-            {
-              "id": "p2",
-              "left": "Moody",
-              "right": "Malhumorado"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I23",
-          "type": "matching",
-          "prompt_es": "Une los términos:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Helpful",
-              "right": "Servicial"
-            },
-            {
-              "id": "p1",
-              "left": "Honest",
-              "right": "Honesto"
-            },
-            {
-              "id": "p2",
-              "left": "Cheerful",
-              "right": "Alegre"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I24",
           "type": "matching",
-          "prompt_es": "Une los términos:",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Serious",
-              "right": "Serio"
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
               "id": "p1",
-              "left": "Funny",
-              "right": "Divertido"
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
               "id": "p2",
-              "left": "Polite",
-              "right": "Educado"
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
           "correct_answer": {
@@ -546,4164 +457,1441 @@
         },
         {
           "interaction_id": "U3_I25",
-          "type": "matching",
-          "prompt_es": "Une los términos:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
             {
-              "id": "p0",
-              "left": "Friendly",
-              "right": "Simpático"
+              "id": "o3",
+              "text": "maybe"
             },
             {
-              "id": "p1",
-              "left": "Clever",
-              "right": "Listo"
+              "id": "o1",
+              "text": "well"
             },
             {
-              "id": "p2",
-              "left": "Mean",
-              "right": "Tacaño/Malo"
+              "id": "o2",
+              "text": "good"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I26",
-          "type": "matching",
-          "prompt_es": "Une los términos:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Quiet",
-              "right": "Tranquilo"
-            },
-            {
-              "id": "p1",
-              "left": "Rude",
-              "right": "Maleducado"
-            },
-            {
-              "id": "p2",
-              "left": "Intelligent",
-              "right": "Inteligente"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I27",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "She (not/be) ________ very patient.",
-          "correct_answer": "is not",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I28",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "Are you ________ (lazy) than your brother?",
-          "correct_answer": "lazier",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I29",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "He is the ________ (funny) person I know.",
-          "correct_answer": "funniest",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I30",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "We (be) ________ both quite shy.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I31",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "He (be) ________ always very helpful.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I32",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "I (think) ________ she is very clever.",
-          "correct_answer": "think",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I33",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "My teacher is very patient with us.",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
+          "interaction_id": "U3_I27",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I28",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "interesting"
+            },
+            {
+              "id": "o1",
+              "text": "interestingly"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I30",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I31",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I32",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He talked very ___ about his work.",
+          "correct_answer": "interestingly",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I33",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
           "interaction_id": "U3_I34",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "She quite is shy with new people.",
-          "correct_answer": false,
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "well"
+            },
+            {
+              "id": "o2",
+              "text": "good"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I35",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "Don't be rude to the customers.",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I36",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "She cleverer is than her older brother.",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I37",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "He is a very funny and cheerful man.",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "dangerously"
+            },
+            {
+              "id": "o2",
+              "text": "dangerous"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I38",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "I a am quiet and sensible person.",
-          "correct_answer": false,
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I39",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "He is the most hard-working employee.",
-          "correct_answer": true,
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He talked very ___ about his work.",
+          "correct_answer": "interestingly",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I40",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "They very are helpful neighbors.",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I41",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I42",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "Is your brother an outgoing person?",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_I42",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w3",
-              "text": "most"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "employee"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "hard-working"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
           "interaction_id": "U3_I43",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
             {
-              "id": "w4",
-              "text": "the"
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
-              "id": "w1",
-              "text": "be"
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
-              "id": "w5",
-              "text": "customers"
-            },
-            {
-              "id": "w3",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "Don't"
-            },
-            {
-              "id": "w2",
-              "text": "rude"
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I44",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Is"
-            },
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w3",
-              "text": "an"
-            },
-            {
-              "id": "w2",
-              "text": "brother"
-            },
-            {
-              "id": "w5",
-              "text": "person"
-            },
-            {
-              "id": "w4",
-              "text": "outgoing"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He is a ___ driver.",
+          "correct_answer": "dangerous",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I45",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
             {
-              "id": "w1",
-              "text": "are"
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
-              "id": "w4",
-              "text": "neighbors"
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
-              "id": "w0",
-              "text": "They"
-            },
-            {
-              "id": "w3",
-              "text": "helpful"
-            },
-            {
-              "id": "w2",
-              "text": "very"
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I46",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "quiet"
-            },
-            {
               "id": "w1",
-              "text": "am"
+              "text": "student"
             },
             {
-              "id": "w2",
-              "text": "a"
+              "id": "w3",
+              "text": "happy"
             },
             {
               "id": "w0",
-              "text": "I"
+              "text": "The"
             },
             {
-              "id": "w4",
-              "text": "and"
-            },
-            {
-              "id": "w6",
-              "text": "person"
-            },
-            {
-              "id": "w5",
-              "text": "sensible"
+              "id": "w2",
+              "text": "is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I47",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "new"
-            },
-            {
-              "id": "w3",
-              "text": "shy"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "quite"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w6",
-              "text": "people"
-            },
-            {
-              "id": "w4",
-              "text": "with"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I48",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w4",
-              "text": "patient"
-            },
-            {
-              "id": "w1",
-              "text": "teacher"
-            },
-            {
-              "id": "w5",
-              "text": "with"
-            },
-            {
-              "id": "w6",
-              "text": "us"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I49",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "funny"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "cheerful"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w7",
-              "text": "man"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I50",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "cleverer"
+              "id": "o3",
+              "text": "maybe"
             },
+            {
+              "id": "o2",
+              "text": "slow"
+            },
+            {
+              "id": "o1",
+              "text": "slowly"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I51",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
             {
               "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w6",
-              "text": "brother"
-            },
-            {
-              "id": "w4",
-              "text": "her"
-            },
-            {
-              "id": "w5",
-              "text": "older"
+              "text": "The"
             },
             {
               "id": "w1",
-              "text": "is"
+              "text": "student"
             },
             {
               "id": "w3",
-              "text": "than"
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U3_I51",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U3_I52",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I53",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I54",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He drives ___.",
+          "correct_answer": "dangerously",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I55",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "slow"
+            },
+            {
+              "id": "o2",
+              "text": "slowly"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I56",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He drives ___.",
+          "correct_answer": "slowly",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I57",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "good"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "well"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I58",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "quick"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "quickly"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I59",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "This is a ___ train.",
+          "correct_answer": "slow",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I60",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I61",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I62",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I’ve got an ___ job for you.",
+          "correct_answer": "easy",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I63",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I64",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "slow"
+            },
+            {
+              "id": "o1",
+              "text": "slowly"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I65",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "She sings very ___.",
+          "correct_answer": "well",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I66",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "good"
+            },
+            {
+              "id": "o1",
+              "text": "well"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I67",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I68",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I69",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I70",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I71",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 0:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He drives ___.",
+          "correct_answer": "dangerously",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I72",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 1:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I73",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 2:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He drives ___.",
+          "correct_answer": "slowly",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I74",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 3:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I’ve got an ___ job for you.",
+          "correct_answer": "easy",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I75",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 4:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He is a ___ driver.",
+          "correct_answer": "dangerous",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I76",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 5:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "Speak more ___, please.",
+          "correct_answer": "quietly",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I77",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 6:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I78",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 7:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "She sings very ___.",
+          "correct_answer": "well",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I79",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 8:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "good"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "well"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I80",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 9:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I81",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 10:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He talked very ___ about his work.",
+          "correct_answer": "interestingly",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I82",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 11:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I83",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 12:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I84",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 13:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I85",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 14:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He drives ___.",
+          "correct_answer": "slowly",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I86",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 15:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I87",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 16:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "She writes in ___ English.",
+          "correct_answer": "perfect",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I88",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 17:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I89",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 18:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I90",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 19:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I91",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 20:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I92",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 21:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I93",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 22:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I94",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 23:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He talked very ___ about his work.",
+          "correct_answer": "interestingly",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I95",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 24:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "easy"
+            },
+            {
+              "id": "o2",
+              "text": "easily"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I96",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 25:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "perfect"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "perfectly"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I97",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 26:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I98",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 27:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I99",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 28:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I100",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 29:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I101",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 30:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I102",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 31:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I103",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 32:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I104",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 33:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I105",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 34:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I106",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 35:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I107",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 36:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I108",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 37:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I109",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 38:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I110",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 39:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I111",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 40:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I112",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 41:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I113",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 42:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I114",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 43:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I115",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 44:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I116",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 45:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I117",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 46:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I118",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 47:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I119",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 48:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I120",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 49:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I121",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 50:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I122",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 51:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I123",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 52:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I124",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 53:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I125",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 54:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I126",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 55:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I127",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 56:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I128",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 57:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I129",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 58:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I130",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 59:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I131",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 60:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I132",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 61:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I133",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 62:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I134",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 63:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I135",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 64:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I136",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 65:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I137",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 66:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I138",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 67:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I139",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 68:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I140",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 69:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I141",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 70:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I142",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 71:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I143",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 72:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I144",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 73:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I145",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 74:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I146",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 75:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I147",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 76:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I148",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 77:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I149",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 78:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I150",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 79:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I151",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 80:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I152",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 81:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I153",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 82:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I154",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 83:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I155",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 84:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I156",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 85:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I157",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 86:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I158",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 87:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I159",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 88:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I160",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 89:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I161",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 90:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I162",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 91:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I163",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 92:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I164",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 93:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I165",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 94:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I166",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 95:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I167",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 96:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I168",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 97:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I169",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 98:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I170",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 99:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I171",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 100:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I172",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 101:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I173",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 102:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I174",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 103:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I175",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 104:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I176",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 105:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I177",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 106:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I178",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 107:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I179",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 108:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I180",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 109:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I181",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 110:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I182",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 111:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I183",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 112:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I184",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 113:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I185",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 114:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I186",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 115:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I187",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 116:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I188",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 117:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I189",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 118:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I190",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 119:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I191",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 120:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I192",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 121:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I193",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 122:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I194",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 123:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I195",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 124:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I196",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 125:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I197",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 126:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I198",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 127:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I199",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 128:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I200",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 129:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I201",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 130:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I202",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 131:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I203",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 132:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I204",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 133:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I205",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 134:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I206",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 135:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I207",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 136:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I208",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 137:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I209",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 138:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I210",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 139:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I211",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 140:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I212",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 141:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I213",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 142:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I214",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 143:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I215",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 144:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I216",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 145:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I217",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 146:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I218",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 147:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I219",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 148:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I220",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 149:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I221",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 150:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I222",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 151:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I223",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 152:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I224",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 153:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I225",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 154:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I226",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 155:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I227",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 156:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I228",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 157:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I229",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 158:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I230",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 159:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I231",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 160:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I232",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 161:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I233",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 162:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I234",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 163:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I235",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 164:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I236",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 165:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I237",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 166:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I238",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 167:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I239",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 168:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I240",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 169:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I241",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 170:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I242",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 171:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I243",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 172:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I244",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 173:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I245",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 174:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I246",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 175:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I247",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 176:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I248",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 177:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I249",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 178:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I250",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 179:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I251",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 180:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I252",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 181:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I253",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 182:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I254",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 183:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I255",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 184:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I256",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 185:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I257",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 186:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I258",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 187:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I259",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 188:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I260",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 189:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I261",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 190:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I262",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 191:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I263",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 192:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I264",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 193:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I265",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 194:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I266",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 195:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I267",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 196:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I268",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 197:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I269",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 198:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I270",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 199:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I271",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 200:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I272",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 201:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I273",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 202:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I274",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 203:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I275",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 204:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I276",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 205:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I277",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 206:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I278",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 207:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I279",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 208:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I280",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 209:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I281",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 210:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I282",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 211:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I283",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 212:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I284",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 213:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I285",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 214:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I286",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 215:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I287",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 216:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I288",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 217:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I289",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 218:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I290",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 219:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I291",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 220:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I292",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 221:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I293",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 222:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I294",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 223:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I295",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 224:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I296",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 225:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I297",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 226:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I298",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 227:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I299",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 228:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I300",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 229:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I301",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 230:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I302",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 231:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I303",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 232:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I304",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 233:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I305",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 234:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I306",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 235:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I307",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 236:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I308",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 237:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I309",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 238:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I310",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 239:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I311",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 240:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I312",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 241:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I313",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 242:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I314",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 243:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I315",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 244:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I316",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 245:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I317",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 246:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I318",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 247:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I319",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 248:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I320",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 249:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I321",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 250:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I322",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 251:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I323",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 252:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I324",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 253:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I325",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 254:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I326",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 255:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I327",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 256:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I328",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 257:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I329",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 258:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I330",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 259:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I331",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 260:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I332",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 261:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I333",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 262:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I334",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 263:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I335",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 264:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I336",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 265:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I337",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 266:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I338",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 267:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I339",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 268:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I340",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 269:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I341",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 270:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I342",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 271:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I343",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 272:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I344",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 273:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I345",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 274:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I346",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 275:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I347",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 276:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I348",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 277:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I349",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 278:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I350",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 279:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I351",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 280:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I352",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 281:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I353",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 282:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I354",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 283:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I355",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 284:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I356",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 285:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I357",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 286:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I358",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 287:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I359",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 288:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I360",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 289:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I361",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 290:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I362",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 291:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I363",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 292:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I364",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 293:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I365",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 294:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I366",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 295:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I367",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 296:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I368",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 297:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I369",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 298:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I370",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 299:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I371",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 300:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I372",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 301:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I373",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 302:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I374",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 303:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I375",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 304:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I376",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 305:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I377",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 306:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I378",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 307:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I379",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 308:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I380",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 309:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I381",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 310:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I382",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 311:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I383",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 312:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I384",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 313:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I385",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 314:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I386",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 315:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I387",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 316:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I388",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 317:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I389",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 318:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I390",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 319:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I391",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 320:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I392",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 321:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I393",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 322:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I394",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 323:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I395",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 324:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I396",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 325:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I397",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 326:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I398",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 327:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I399",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 328:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I400",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 329:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I401",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 330:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I402",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 331:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I403",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 332:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I404",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 333:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I405",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 334:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I406",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 335:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I407",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 336:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I408",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 337:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I409",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 338:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I410",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 339:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I411",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 340:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I412",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 341:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I413",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 342:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I414",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 343:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I415",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 344:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I416",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 345:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I417",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 346:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I418",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 347:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I419",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 348:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I420",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 349:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I421",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 350:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I422",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 351:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I423",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 352:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I424",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 353:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I425",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 354:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I426",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 355:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I427",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 356:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I428",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 357:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I429",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 358:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I430",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 359:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I431",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 360:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I432",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 361:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I433",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 362:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I434",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 363:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I435",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 364:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I436",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 365:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I437",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 366:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I438",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 367:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I439",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 368:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I440",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 369:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I441",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 370:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I442",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 371:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I443",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 372:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I444",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 373:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I445",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 374:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I446",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 375:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I447",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 376:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I448",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 377:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I449",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 378:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I450",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 379:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I451",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 380:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I452",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 381:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I453",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 382:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I454",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 383:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I455",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 384:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I456",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 385:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I457",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 386:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I458",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 387:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I459",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 388:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I460",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 389:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I461",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 390:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I462",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 391:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I463",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 392:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I464",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 393:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I465",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 394:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I466",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 395:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I467",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 396:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I468",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 397:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I469",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 398:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I470",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 399:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I471",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 400:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I472",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 401:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I473",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 402:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I474",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 403:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I475",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 404:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I476",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 405:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I477",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 406:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I478",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 407:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I479",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 408:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I480",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 409:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I481",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 410:",
-          "stimulus_es": "Honesto",
-          "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I482",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 411:",
-          "stimulus_es": "Educado",
-          "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I483",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 412:",
-          "stimulus_es": "Maleducado",
-          "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I484",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 413:",
-          "stimulus_es": "Serio",
-          "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I485",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 414:",
-          "stimulus_es": "Tranquilo",
-          "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I486",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 415:",
-          "stimulus_es": "Servicial",
-          "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I487",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 416:",
-          "stimulus_es": "Generoso",
-          "correct_answer": "Generous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I488",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 417:",
-          "stimulus_es": "Tacaño/Malo",
-          "correct_answer": "Mean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I489",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 418:",
-          "stimulus_es": "Alegre",
-          "correct_answer": "Cheerful",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I490",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 419:",
-          "stimulus_es": "Malhumorado",
-          "correct_answer": "Moody",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I491",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 420:",
-          "stimulus_es": "Amable",
-          "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I492",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 421:",
-          "stimulus_es": "Simpático",
-          "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I493",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 422:",
-          "stimulus_es": "Divertido",
-          "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I494",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 423:",
-          "stimulus_es": "Listo",
-          "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I495",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 424:",
-          "stimulus_es": "Inteligente",
-          "correct_answer": "Intelligent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I496",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 425:",
-          "stimulus_es": "Perezoso",
-          "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I497",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 426:",
-          "stimulus_es": "Trabajador",
-          "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I498",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 427:",
-          "stimulus_es": "Tímido",
-          "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I499",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 428:",
-          "stimulus_es": "Extrovertido",
-          "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I500",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 429:",
-          "stimulus_es": "Paciente",
-          "correct_answer": "Patient",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         }
       ]
     }

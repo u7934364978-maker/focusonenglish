@@ -1,4489 +1,1897 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
+    "unit_id": "unit6",
+    "unit_title": "Comparative and Superlative Adjectives",
     "level": "A2",
-    "unit_id": "U6",
-    "unit_title": "Housework & Home Activities",
-    "total_duration_minutes": 120
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
   "blocks": [
     {
-      "block_id": "B6",
-      "title": "Housework & Home Activities",
+      "block_id": "U6_B1",
+      "title": "Práctica General",
+      "duration_minutes": 60,
       "content": [
         {
           "interaction_id": "U6_I1",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Limpieza':",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o3",
-              "text": "Laundry"
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
-              "id": "o1",
-              "text": "Cleaning"
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
-              "id": "o2",
-              "text": "Cooking"
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Jardín':",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Ironing"
-            },
-            {
-              "id": "o1",
-              "text": "Garden"
-            },
-            {
-              "id": "o3",
-              "text": "Mop"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "My partner is the ___ woman in the world.",
+          "correct_answer": "most beautiful",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I3",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Barrer':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Dishes"
-            },
-            {
-              "id": "o1",
-              "text": "Sweep"
-            },
-            {
-              "id": "o2",
-              "text": "Dusting"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Platos':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Dishes"
-            },
-            {
-              "id": "o3",
-              "text": "Vacuum"
-            },
-            {
-              "id": "o2",
-              "text": "Sweep"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "My partner is the ___ woman in the world.",
+          "correct_answer": "most beautiful",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Cocinar':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Vacuum"
-            },
-            {
-              "id": "o2",
-              "text": "Shopping"
-            },
-            {
-              "id": "o1",
-              "text": "Cooking"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I6",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Fregar':",
+          "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "o3",
-              "text": "Dusting"
+              "id": "o1",
+              "text": "hotter"
             },
             {
-              "id": "o1",
-              "text": "Mop"
+              "id": "o3",
+              "text": "maybe"
             },
             {
               "id": "o2",
-              "text": "Ironing"
+              "text": "more hot"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I7",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Aspirar':",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Garden"
-            },
-            {
-              "id": "o3",
-              "text": "Cooking"
-            },
-            {
-              "id": "o1",
-              "text": "Vacuum"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "My partner is the ___ woman in the world.",
+          "correct_answer": "most beautiful",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I8",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Compras':",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Dishes"
-            },
-            {
-              "id": "o1",
-              "text": "Shopping"
-            },
-            {
-              "id": "o3",
-              "text": "Vacuum"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I9",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Planchado':",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Tidy up"
-            },
-            {
-              "id": "o3",
-              "text": "Mop"
-            },
-            {
-              "id": "o1",
-              "text": "Ironing"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I10",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Ordenar':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Vacuum"
-            },
-            {
-              "id": "o1",
-              "text": "Tidy up"
-            },
-            {
-              "id": "o2",
-              "text": "Dusting"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I11",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Quitar el polvo':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Dusting"
-            },
-            {
-              "id": "o2",
-              "text": "Mop"
-            },
-            {
-              "id": "o3",
-              "text": "Tidy up"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I12",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Colada':",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Shopping"
-            },
-            {
-              "id": "o1",
-              "text": "Laundry"
-            },
-            {
-              "id": "o3",
-              "text": "Cooking"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I13",
-          "type": "matching",
-          "prompt_es": "Une los términos:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Mop",
-              "right": "Fregar"
-            },
-            {
-              "id": "p1",
-              "left": "Garden",
-              "right": "Jardín"
-            },
-            {
-              "id": "p2",
-              "left": "Tidy up",
-              "right": "Ordenar"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I14",
-          "type": "matching",
-          "prompt_es": "Une los términos:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Ironing",
-              "right": "Planchado"
-            },
-            {
-              "id": "p1",
-              "left": "Sweep",
-              "right": "Barrer"
-            },
-            {
-              "id": "p2",
-              "left": "Cleaning",
-              "right": "Limpieza"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I15",
-          "type": "matching",
-          "prompt_es": "Une los términos:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Vacuum",
-              "right": "Aspirar"
-            },
-            {
-              "id": "p1",
-              "left": "Dishes",
-              "right": "Platos"
-            },
-            {
-              "id": "p2",
-              "left": "Cooking",
-              "right": "Cocinar"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I16",
-          "type": "matching",
-          "prompt_es": "Une los términos:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Shopping",
-              "right": "Compras"
-            },
-            {
-              "id": "p1",
-              "left": "Laundry",
-              "right": "Colada"
-            },
-            {
-              "id": "p2",
-              "left": "Dusting",
-              "right": "Quitar el polvo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I17",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "They (not/like) ________ doing the dishes.",
-          "correct_answer": "don't like",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I18",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "Have you ________ (finish) the ironing?",
-          "correct_answer": "finished",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I19",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "We (must) ________ tidy up the house.",
-          "correct_answer": "must",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I20",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "I (be) ________ cleaning the floor.",
-          "correct_answer": "am",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I21",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "He (usually) ________ cooks dinner.",
-          "correct_answer": "usually",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I22",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "She (need) ________ to do the laundry.",
-          "correct_answer": "needs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I23",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "The house is finally clean and tidy.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "She all spent morning dusting the furniture.",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I25",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "I have to do the laundry every Saturday.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I26",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "I doing hate the shopping on weekends.",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I27",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "He is helping me with the dishes.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I28",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "We to need tidy up before the guests arrive.",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I29",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
-            {
-              "id": "w7",
-              "text": "Saturday"
-            },
-            {
-              "id": "w5",
-              "text": "laundry"
-            },
             {
               "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w3",
-              "text": "do"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w4",
-              "text": "the"
+              "text": "student"
             },
             {
               "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "every"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U6_I30",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w1",
               "text": "is"
             },
             {
               "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w6",
-              "text": "dishes"
-            },
-            {
-              "id": "w4",
-              "text": "with"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "helping"
+              "text": "The"
             },
             {
               "id": "w3",
-              "text": "me"
+              "text": "happy"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I10",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "goodest"
+            },
+            {
+              "id": "o1",
+              "text": "best"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I13",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I14",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "My partner is the ___ woman in the world.",
+          "correct_answer": "most beautiful",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I16",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "the biggest"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "bigger"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I17",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I18",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I19",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "most beautiful"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "more beautiful"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I20",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "bigger"
+            },
+            {
+              "id": "o2",
+              "text": "the biggest"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I21",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "hotter"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "more hot"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I24",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I25",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "taller"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "tallest"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I26",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I27",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "goodest"
+            },
+            {
+              "id": "o1",
+              "text": "best"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I30",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U6_I31",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "arrive"
-            },
-            {
-              "id": "w4",
-              "text": "up"
-            },
-            {
-              "id": "w5",
-              "text": "before"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "guests"
-            },
-            {
-              "id": "w1",
-              "text": "need"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w3",
-              "text": "tidy"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I32",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "on"
+              "id": "o3",
+              "text": "maybe"
             },
             {
-              "id": "w2",
-              "text": "doing"
+              "id": "o2",
+              "text": "goodest"
             },
             {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w4",
-              "text": "shopping"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "weekends"
-            },
-            {
-              "id": "w1",
-              "text": "hate"
+              "id": "o1",
+              "text": "best"
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I33",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
             {
-              "id": "w2",
-              "text": "all"
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
-              "id": "w3",
-              "text": "morning"
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "dusting"
-            },
-            {
-              "id": "w1",
-              "text": "spent"
-            },
-            {
-              "id": "w6",
-              "text": "furniture"
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I34",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
               "id": "w0",
               "text": "The"
             },
             {
-              "id": "w4",
-              "text": "clean"
+              "id": "w1",
+              "text": "student"
             },
             {
               "id": "w3",
-              "text": "finally"
-            },
-            {
-              "id": "w6",
-              "text": "tidy"
-            },
-            {
-              "id": "w1",
-              "text": "house"
+              "text": "happy"
             },
             {
               "id": "w2",
               "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "and"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U6_I35",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I36",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "It's ___ today than yesterday.",
+          "correct_answer": "hotter",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I37",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "hotter"
+            },
+            {
+              "id": "o2",
+              "text": "more hot"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I38",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U6_I39",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I40",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "hotter"
+            },
+            {
+              "id": "o2",
+              "text": "more hot"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I41",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U6_I42",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "taller"
+            },
+            {
+              "id": "o1",
+              "text": "tallest"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I43",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He is the ___ student in the group.",
+          "correct_answer": "best",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I44",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I45",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I46",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I47",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 0:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "more beautiful"
+            },
+            {
+              "id": "o1",
+              "text": "most beautiful"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I48",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 1:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U6_I49",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 2:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U6_I50",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 3:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I51",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 4:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "My partner is the ___ woman in the world.",
+          "correct_answer": "most beautiful",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I52",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 5:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I53",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 6:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I54",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 7:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "My partner is the ___ woman in the world.",
+          "correct_answer": "most beautiful",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I55",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 8:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He is the ___ student in the group.",
+          "correct_answer": "best",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I56",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 9:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U6_I57",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 10:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "more hot"
+            },
+            {
+              "id": "o1",
+              "text": "hotter"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I58",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 11:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I59",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 12:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U6_I60",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 13:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I61",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 14:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He is the ___ student in the group.",
+          "correct_answer": "best",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I62",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 15:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I63",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 16:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I64",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 17:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "My partner is the ___ woman in the world.",
+          "correct_answer": "most beautiful",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I65",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 18:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I66",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 19:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I67",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 20:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I68",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 21:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "best"
+            },
+            {
+              "id": "o2",
+              "text": "goodest"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I69",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 22:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "tallest"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "taller"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I70",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 23:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U6_I71",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 24:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U6_I72",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 25:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "My partner is the ___ woman in the world.",
+          "correct_answer": "most beautiful",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I73",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 26:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I74",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 27:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I75",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 28:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He is the ___ student in the group.",
+          "correct_answer": "best",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I76",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 29:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "Sharon is the ___ girl in her class.",
+          "correct_answer": "tallest",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I77",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 30:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I78",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 31:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I79",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 32:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I80",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 33:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I81",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 34:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "My partner is the ___ woman in the world.",
+          "correct_answer": "most beautiful",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I82",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 35:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I83",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 36:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "most beautiful"
+            },
+            {
+              "id": "o2",
+              "text": "more beautiful"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I84",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 37:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He is the ___ student in the group.",
+          "correct_answer": "best",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I85",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 38:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "Sharon is the ___ girl in her class.",
+          "correct_answer": "tallest",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I86",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 39:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I87",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 40:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "best"
+            },
+            {
+              "id": "o2",
+              "text": "goodest"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I88",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 41:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He is the ___ student in the group.",
+          "correct_answer": "best",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I89",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 42:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I90",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 43:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "It's ___ today than yesterday.",
+          "correct_answer": "hotter",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I91",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 44:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "more beautiful"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "most beautiful"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I92",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 45:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I93",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 46:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "hotter"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "more hot"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I94",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 47:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U6_I95",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 48:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "It's ___ today than yesterday.",
+          "correct_answer": "hotter",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I96",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 49:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I97",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 50:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I98",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 51:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I99",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 52:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I100",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 53:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I101",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 54:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I102",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 55:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I103",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 56:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I104",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 57:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I105",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 58:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I106",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 59:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I107",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 60:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I108",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 61:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I109",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 62:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I110",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 63:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I111",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 64:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I112",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 65:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I113",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 66:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I114",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 67:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I115",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 68:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I116",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 69:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I117",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 70:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I118",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 71:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I119",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 72:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I120",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 73:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I121",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 74:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I122",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 75:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I123",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 76:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I124",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 77:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I125",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 78:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I126",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 79:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I127",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 80:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I128",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 81:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I129",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 82:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I130",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 83:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I131",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 84:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I132",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 85:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I133",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 86:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I134",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 87:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I135",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 88:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I136",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 89:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I137",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 90:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I138",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 91:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I139",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 92:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I140",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 93:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I141",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 94:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I142",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 95:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I143",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 96:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I144",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 97:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I145",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 98:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I146",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 99:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I147",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 100:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I148",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 101:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I149",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 102:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I150",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 103:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I151",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 104:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I152",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 105:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I153",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 106:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I154",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 107:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I155",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 108:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I156",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 109:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I157",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 110:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I158",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 111:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I159",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 112:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I160",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 113:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I161",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 114:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I162",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 115:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I163",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 116:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I164",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 117:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I165",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 118:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I166",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 119:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I167",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 120:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I168",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 121:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I169",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 122:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I170",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 123:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I171",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 124:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I172",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 125:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I173",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 126:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I174",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 127:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I175",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 128:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I176",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 129:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I177",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 130:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I178",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 131:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I179",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 132:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I180",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 133:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I181",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 134:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I182",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 135:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I183",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 136:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I184",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 137:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I185",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 138:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I186",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 139:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I187",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 140:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I188",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 141:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I189",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 142:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I190",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 143:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I191",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 144:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I192",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 145:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I193",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 146:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I194",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 147:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I195",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 148:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I196",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 149:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I197",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 150:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I198",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 151:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I199",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 152:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I200",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 153:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I201",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 154:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I202",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 155:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I203",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 156:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I204",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 157:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I205",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 158:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I206",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 159:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I207",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 160:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I208",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 161:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I209",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 162:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I210",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 163:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I211",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 164:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I212",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 165:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I213",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 166:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I214",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 167:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I215",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 168:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I216",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 169:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I217",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 170:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I218",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 171:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I219",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 172:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I220",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 173:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I221",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 174:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I222",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 175:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I223",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 176:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I224",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 177:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I225",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 178:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I226",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 179:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I227",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 180:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I228",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 181:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I229",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 182:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I230",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 183:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I231",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 184:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I232",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 185:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I233",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 186:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I234",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 187:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I235",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 188:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I236",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 189:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I237",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 190:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I238",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 191:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I239",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 192:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I240",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 193:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I241",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 194:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I242",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 195:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I243",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 196:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I244",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 197:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I245",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 198:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I246",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 199:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I247",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 200:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I248",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 201:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I249",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 202:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I250",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 203:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I251",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 204:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I252",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 205:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I253",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 206:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I254",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 207:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I255",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 208:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I256",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 209:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I257",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 210:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I258",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 211:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I259",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 212:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I260",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 213:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I261",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 214:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I262",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 215:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I263",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 216:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I264",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 217:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I265",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 218:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I266",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 219:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I267",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 220:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I268",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 221:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I269",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 222:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I270",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 223:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I271",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 224:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I272",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 225:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I273",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 226:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I274",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 227:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I275",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 228:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I276",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 229:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I277",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 230:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I278",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 231:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I279",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 232:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I280",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 233:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I281",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 234:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I282",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 235:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I283",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 236:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I284",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 237:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I285",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 238:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I286",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 239:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I287",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 240:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I288",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 241:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I289",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 242:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I290",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 243:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I291",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 244:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I292",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 245:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I293",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 246:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I294",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 247:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I295",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 248:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I296",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 249:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I297",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 250:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I298",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 251:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I299",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 252:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I300",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 253:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I301",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 254:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I302",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 255:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I303",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 256:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I304",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 257:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I305",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 258:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I306",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 259:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I307",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 260:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I308",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 261:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I309",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 262:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I310",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 263:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I311",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 264:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I312",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 265:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I313",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 266:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I314",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 267:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I315",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 268:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I316",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 269:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I317",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 270:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I318",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 271:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I319",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 272:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I320",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 273:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I321",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 274:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I322",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 275:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I323",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 276:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I324",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 277:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I325",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 278:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I326",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 279:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I327",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 280:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I328",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 281:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I329",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 282:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I330",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 283:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I331",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 284:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I332",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 285:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I333",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 286:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I334",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 287:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I335",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 288:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I336",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 289:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I337",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 290:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I338",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 291:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I339",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 292:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I340",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 293:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I341",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 294:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I342",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 295:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I343",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 296:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I344",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 297:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I345",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 298:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I346",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 299:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I347",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 300:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I348",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 301:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I349",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 302:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I350",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 303:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I351",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 304:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I352",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 305:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I353",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 306:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I354",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 307:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I355",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 308:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I356",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 309:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I357",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 310:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I358",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 311:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I359",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 312:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I360",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 313:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I361",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 314:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I362",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 315:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I363",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 316:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I364",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 317:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I365",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 318:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I366",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 319:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I367",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 320:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I368",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 321:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I369",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 322:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I370",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 323:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I371",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 324:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I372",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 325:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I373",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 326:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I374",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 327:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I375",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 328:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I376",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 329:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I377",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 330:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I378",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 331:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I379",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 332:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I380",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 333:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I381",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 334:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I382",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 335:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I383",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 336:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I384",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 337:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I385",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 338:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I386",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 339:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I387",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 340:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I388",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 341:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I389",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 342:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I390",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 343:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I391",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 344:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I392",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 345:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I393",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 346:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I394",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 347:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I395",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 348:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I396",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 349:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I397",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 350:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I398",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 351:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I399",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 352:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I400",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 353:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I401",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 354:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I402",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 355:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I403",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 356:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I404",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 357:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I405",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 358:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I406",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 359:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I407",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 360:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I408",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 361:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I409",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 362:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I410",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 363:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I411",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 364:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I412",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 365:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I413",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 366:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I414",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 367:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I415",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 368:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I416",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 369:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I417",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 370:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I418",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 371:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I419",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 372:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I420",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 373:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I421",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 374:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I422",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 375:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I423",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 376:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I424",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 377:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I425",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 378:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I426",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 379:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I427",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 380:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I428",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 381:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I429",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 382:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I430",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 383:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I431",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 384:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I432",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 385:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I433",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 386:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I434",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 387:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I435",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 388:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I436",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 389:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I437",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 390:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I438",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 391:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I439",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 392:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I440",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 393:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I441",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 394:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I442",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 395:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I443",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 396:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I444",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 397:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I445",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 398:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I446",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 399:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I447",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 400:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I448",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 401:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I449",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 402:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I450",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 403:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I451",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 404:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I452",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 405:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I453",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 406:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I454",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 407:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I455",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 408:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I456",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 409:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I457",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 410:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I458",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 411:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I459",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 412:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I460",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 413:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I461",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 414:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I462",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 415:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I463",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 416:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I464",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 417:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I465",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 418:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I466",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 419:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I467",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 420:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I468",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 421:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I469",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 422:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I470",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 423:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I471",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 424:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I472",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 425:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I473",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 426:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I474",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 427:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I475",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 428:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I476",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 429:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I477",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 430:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I478",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 431:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I479",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 432:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I480",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 433:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I481",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 434:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I482",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 435:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I483",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 436:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I484",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 437:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I485",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 438:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I486",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 439:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I487",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 440:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I488",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 441:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I489",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 442:",
-          "stimulus_es": "Fregar",
-          "correct_answer": "Mop",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I490",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 443:",
-          "stimulus_es": "Aspirar",
-          "correct_answer": "Vacuum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I491",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 444:",
-          "stimulus_es": "Limpieza",
-          "correct_answer": "Cleaning",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I492",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 445:",
-          "stimulus_es": "Colada",
-          "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I493",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 446:",
-          "stimulus_es": "Platos",
-          "correct_answer": "Dishes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I494",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 447:",
-          "stimulus_es": "Planchado",
-          "correct_answer": "Ironing",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I495",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 448:",
-          "stimulus_es": "Quitar el polvo",
-          "correct_answer": "Dusting",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I496",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 449:",
-          "stimulus_es": "Ordenar",
-          "correct_answer": "Tidy up",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I497",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 450:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I498",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 451:",
-          "stimulus_es": "Cocinar",
-          "correct_answer": "Cooking",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I499",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 452:",
-          "stimulus_es": "Jardín",
-          "correct_answer": "Garden",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I500",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 453:",
-          "stimulus_es": "Barrer",
-          "correct_answer": "Sweep",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         }
       ]
     }

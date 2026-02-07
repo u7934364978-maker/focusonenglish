@@ -1,4494 +1,1897 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
+    "unit_id": "unit9",
+    "unit_title": "Using Enough",
     "level": "A2",
-    "unit_id": "U9",
-    "unit_title": "Feelings & Emotions",
-    "total_duration_minutes": 120
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
   "blocks": [
     {
-      "block_id": "B9",
-      "title": "Feelings & Emotions",
+      "block_id": "U9_B1",
+      "title": "Práctica General",
+      "duration_minutes": 60,
       "content": [
         {
           "interaction_id": "U9_I1",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Asustado':",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Scared"
+              "id": "w3",
+              "text": "happy"
             },
             {
-              "id": "o2",
-              "text": "Excited"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "o3",
-              "text": "Nervous"
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Cansado':",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o3",
-              "text": "Nervous"
-            },
-            {
-              "id": "o1",
-              "text": "Tired"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "It’s not hot ___.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I3",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Solo/Solitario':",
+          "prompt_es": "Selecciona la opción correcta:",
           "options": [
             {
               "id": "o1",
-              "text": "Lonely"
-            },
-            {
-              "id": "o2",
-              "text": "Proud"
+              "text": "enough"
             },
             {
               "id": "o3",
-              "text": "Excited"
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "milk enough"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Triste':",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Sad"
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
-              "id": "o3",
-              "text": "Tired"
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
-              "id": "o2",
-              "text": "Nervous"
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Preocupado':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Worried"
-            },
-            {
-              "id": "o2",
-              "text": "Surprised"
-            },
-            {
-              "id": "o3",
-              "text": "Tired"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I don’t have ___ warm clothes.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I6",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Sorprendido':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Bored"
-            },
-            {
-              "id": "o1",
-              "text": "Surprised"
-            },
-            {
-              "id": "o2",
-              "text": "Nervous"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I7",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Emocionado':",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Sad"
-            },
-            {
-              "id": "o3",
-              "text": "Bored"
-            },
-            {
-              "id": "o1",
-              "text": "Excited"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I8",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Aburrido':",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o3",
-              "text": "Worried"
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
-              "id": "o2",
-              "text": "Excited"
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
-              "id": "o1",
-              "text": "Bored"
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I9",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Nervioso':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Nervous"
-            },
-            {
-              "id": "o3",
-              "text": "Worried"
-            },
-            {
-              "id": "o2",
-              "text": "Scared"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I10",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Enfadado':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Angry"
-            },
-            {
-              "id": "o3",
-              "text": "Lonely"
-            },
-            {
-              "id": "o2",
-              "text": "Proud"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I11",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Feliz':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Worried"
-            },
-            {
-              "id": "o2",
-              "text": "Bored"
-            },
-            {
-              "id": "o1",
-              "text": "Happy"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I12",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción para 'Orgulloso':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Proud"
-            },
-            {
-              "id": "o3",
-              "text": "Sad"
-            },
-            {
-              "id": "o2",
-              "text": "Bored"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I13",
-          "type": "matching",
-          "prompt_es": "Une los términos:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sad",
-              "right": "Triste"
-            },
-            {
-              "id": "p1",
-              "left": "Lonely",
-              "right": "Solo/Solitario"
-            },
-            {
-              "id": "p2",
-              "left": "Surprised",
-              "right": "Sorprendido"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I14",
-          "type": "matching",
-          "prompt_es": "Une los términos:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Happy",
-              "right": "Feliz"
-            },
-            {
-              "id": "p1",
-              "left": "Scared",
-              "right": "Asustado"
-            },
-            {
-              "id": "p2",
-              "left": "Nervous",
-              "right": "Nervioso"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I15",
-          "type": "matching",
-          "prompt_es": "Une los términos:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Angry",
-              "right": "Enfadado"
-            },
-            {
-              "id": "p1",
-              "left": "Proud",
-              "right": "Orgulloso"
-            },
-            {
-              "id": "p2",
-              "left": "Excited",
-              "right": "Emocionado"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I16",
-          "type": "matching",
-          "prompt_es": "Une los términos:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Tired",
-              "right": "Cansado"
-            },
-            {
-              "id": "p1",
-              "left": "Worried",
-              "right": "Preocupado"
-            },
-            {
-              "id": "p2",
-              "left": "Bored",
-              "right": "Aburrido"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I17",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "Are you ________ (tired) than usual?",
-          "correct_answer": "more tired",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I18",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "We (be) ________ proud of you.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I19",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "I (be) ________ very happy today.",
-          "correct_answer": "am",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I20",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "She (feel) ________ nervous about the test.",
-          "correct_answer": "feels",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I21",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "He (be) ________ the most excited person.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I22",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe la forma correcta:",
-          "stimulus_en": "They (not/be) ________ bored at all.",
-          "correct_answer": "are not",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I23",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "We are very worried about the situation.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "He always is tired after a long day at work.",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I25",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "I feel very happy when I am with my friends.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I26",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "She surprised was by the news.",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I27",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "Don't be scared of the dark.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I28",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?",
-          "stimulus_en": "I proud am of my academic achievements.",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I29",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "w8",
-              "text": "my"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w4",
-              "text": "when"
-            },
-            {
-              "id": "w5",
-              "text": "I"
-            },
-            {
-              "id": "w1",
-              "text": "feel"
+              "id": "w2",
+              "text": "is"
             },
             {
               "id": "w3",
               "text": "happy"
             },
             {
-              "id": "w9",
-              "text": "friends"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "w7",
-              "text": "with"
-            },
-            {
-              "id": "w6",
-              "text": "am"
-            },
-            {
-              "id": "w2",
-              "text": "very"
+              "id": "w1",
+              "text": "student"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w3"
           ],
           "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I11",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "enough hot"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I13",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I14",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "milk enough"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I15",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I16",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "enough of"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I17",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I18",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I19",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I20",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I22",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I23",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I24",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "milk enough"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I25",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I26",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "There isn’t ___ milk.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I27",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I28",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I29",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "Do you have ___ flour?",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I30",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "surprised"
-            },
-            {
-              "id": "w1",
-              "text": "was"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w3",
-              "text": "by"
-            },
-            {
-              "id": "w5",
-              "text": "news"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I31",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "of"
-            },
-            {
-              "id": "w0",
-              "text": "Don't"
-            },
-            {
-              "id": "w1",
-              "text": "be"
-            },
-            {
-              "id": "w5",
-              "text": "dark"
-            },
-            {
-              "id": "w2",
-              "text": "scared"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I32",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
             {
-              "id": "w3",
-              "text": "worried"
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
             },
             {
-              "id": "w2",
-              "text": "very"
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
             },
             {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w4",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "situation"
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I33",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "achievements"
-            },
-            {
-              "id": "w3",
-              "text": "of"
-            },
-            {
-              "id": "w4",
-              "text": "my"
-            },
-            {
-              "id": "w5",
-              "text": "academic"
-            },
-            {
               "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w1",
-              "text": "am"
+              "text": "The"
             },
             {
               "id": "w2",
-              "text": "proud"
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w1",
+              "text": "student"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I34",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I35",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I36",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "after"
-            },
-            {
-              "id": "w7",
-              "text": "day"
-            },
-            {
-              "id": "w2",
-              "text": "always"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "at"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
               "id": "w3",
-              "text": "tired"
-            },
-            {
-              "id": "w6",
-              "text": "long"
+              "text": "happy"
             },
             {
               "id": "w0",
-              "text": "He"
+              "text": "The"
             },
             {
-              "id": "w9",
-              "text": "work"
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U9_I35",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I36",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U9_I37",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "enough hot"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I38",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I39",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "enough tall"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I40",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I41",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I42",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "There isn’t ___ milk.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I43",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I44",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I45",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I46",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I47",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 0:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "enough of"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I48",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 1:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I49",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 2:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I’m not tall ___.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I50",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 3:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I51",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 4:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I52",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 5:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I53",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 6:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I54",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 7:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I55",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 8:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "Do you have ___ flour?",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I56",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 9:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "Do you have ___ flour?",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I57",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 10:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "enough of"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I58",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 11:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I don’t have ___ warm clothes.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I59",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 12:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I60",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 13:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I61",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 14:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I62",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 15:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I don’t have ___ warm clothes.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I63",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 16:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "enough of"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I64",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 17:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I65",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 18:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I66",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 19:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I67",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 20:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "enough of"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I68",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 21:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "There isn’t ___ milk.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I69",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 22:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "milk enough"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I70",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 23:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I71",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 24:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I72",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 25:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "enough of"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I73",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 26:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "There isn’t ___ milk.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I74",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 27:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "milk enough"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I75",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 28:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "enough hot"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I76",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 29:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "enough tall"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I77",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 30:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "It’s not hot ___.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I78",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 31:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I79",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 32:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I80",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 33:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I81",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 34:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I82",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 35:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "enough of"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I83",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 36:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I84",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 37:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I85",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 38:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I86",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 39:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "enough of"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o1",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I87",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 40:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "It’s not hot ___.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I88",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 41:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I don’t have ___ warm clothes.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I89",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 42:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I90",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 43:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o2",
+              "text": "milk enough"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I91",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 44:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I92",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 45:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I don’t have ___ warm clothes.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I93",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 46:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I94",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 47:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I don’t have ___ warm clothes.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I95",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 48:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "There isn’t ___ milk.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I96",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 49:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "It’s not hot ___.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I97",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 50:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I98",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 51:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "enough"
+            },
+            {
+              "id": "o3",
+              "text": "maybe"
+            },
+            {
+              "id": "o2",
+              "text": "enough of"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I99",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 52:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
+          "type": "matching",
+          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Option 0",
+              "right": "Match 0"
+            },
+            {
+              "id": "p1",
+              "left": "Option 1",
+              "right": "Match 1"
+            },
+            {
+              "id": "p2",
+              "left": "Option 2",
+              "right": "Match 2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I100",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 53:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I101",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 54:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I102",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 55:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I103",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 56:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I104",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 57:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I105",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 58:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I106",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 59:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I107",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 60:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I108",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 61:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I109",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 62:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I110",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 63:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I111",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 64:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I112",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 65:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I113",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 66:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I114",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 67:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I115",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 68:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I116",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 69:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I117",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 70:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I118",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 71:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I119",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 72:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I120",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 73:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I121",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 74:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I122",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 75:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I123",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 76:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I124",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 77:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I125",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 78:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I126",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 79:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I127",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 80:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I128",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 81:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I129",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 82:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I130",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 83:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I131",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 84:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I132",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 85:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I133",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 86:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I134",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 87:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I135",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 88:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I136",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 89:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I137",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 90:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I138",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 91:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I139",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 92:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I140",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 93:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I141",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 94:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I142",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 95:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I143",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 96:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I144",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 97:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I145",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 98:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I146",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 99:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I147",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 100:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I148",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 101:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I149",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 102:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I150",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 103:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I151",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 104:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I152",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 105:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I153",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 106:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I154",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 107:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I155",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 108:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I156",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 109:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I157",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 110:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I158",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 111:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I159",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 112:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I160",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 113:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I161",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 114:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I162",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 115:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I163",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 116:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I164",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 117:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I165",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 118:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I166",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 119:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I167",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 120:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I168",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 121:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I169",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 122:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I170",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 123:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I171",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 124:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I172",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 125:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I173",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 126:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I174",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 127:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I175",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 128:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I176",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 129:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I177",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 130:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I178",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 131:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I179",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 132:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I180",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 133:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I181",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 134:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I182",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 135:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I183",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 136:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I184",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 137:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I185",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 138:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I186",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 139:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I187",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 140:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I188",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 141:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I189",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 142:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I190",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 143:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I191",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 144:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I192",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 145:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I193",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 146:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I194",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 147:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I195",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 148:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I196",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 149:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I197",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 150:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I198",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 151:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I199",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 152:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I200",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 153:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I201",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 154:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I202",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 155:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I203",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 156:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I204",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 157:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I205",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 158:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I206",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 159:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I207",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 160:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I208",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 161:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I209",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 162:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I210",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 163:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I211",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 164:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I212",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 165:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I213",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 166:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I214",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 167:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I215",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 168:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I216",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 169:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I217",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 170:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I218",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 171:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I219",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 172:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I220",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 173:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I221",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 174:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I222",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 175:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I223",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 176:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I224",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 177:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I225",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 178:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I226",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 179:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I227",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 180:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I228",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 181:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I229",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 182:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I230",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 183:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I231",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 184:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I232",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 185:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I233",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 186:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I234",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 187:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I235",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 188:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I236",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 189:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I237",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 190:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I238",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 191:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I239",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 192:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I240",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 193:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I241",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 194:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I242",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 195:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I243",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 196:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I244",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 197:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I245",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 198:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I246",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 199:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I247",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 200:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I248",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 201:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I249",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 202:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I250",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 203:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I251",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 204:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I252",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 205:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I253",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 206:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I254",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 207:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I255",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 208:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I256",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 209:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I257",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 210:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I258",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 211:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I259",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 212:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I260",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 213:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I261",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 214:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I262",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 215:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I263",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 216:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I264",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 217:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I265",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 218:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I266",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 219:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I267",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 220:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I268",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 221:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I269",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 222:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I270",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 223:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I271",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 224:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I272",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 225:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I273",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 226:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I274",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 227:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I275",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 228:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I276",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 229:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I277",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 230:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I278",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 231:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I279",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 232:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I280",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 233:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I281",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 234:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I282",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 235:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I283",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 236:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I284",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 237:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I285",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 238:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I286",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 239:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I287",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 240:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I288",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 241:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I289",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 242:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I290",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 243:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I291",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 244:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I292",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 245:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I293",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 246:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I294",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 247:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I295",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 248:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I296",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 249:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I297",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 250:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I298",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 251:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I299",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 252:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I300",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 253:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I301",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 254:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I302",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 255:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I303",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 256:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I304",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 257:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I305",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 258:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I306",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 259:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I307",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 260:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I308",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 261:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I309",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 262:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I310",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 263:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I311",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 264:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I312",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 265:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I313",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 266:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I314",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 267:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I315",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 268:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I316",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 269:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I317",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 270:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I318",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 271:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I319",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 272:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I320",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 273:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I321",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 274:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I322",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 275:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I323",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 276:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I324",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 277:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I325",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 278:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I326",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 279:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I327",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 280:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I328",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 281:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I329",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 282:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I330",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 283:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I331",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 284:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I332",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 285:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I333",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 286:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I334",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 287:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I335",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 288:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I336",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 289:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I337",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 290:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I338",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 291:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I339",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 292:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I340",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 293:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I341",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 294:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I342",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 295:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I343",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 296:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I344",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 297:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I345",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 298:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I346",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 299:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I347",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 300:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I348",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 301:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I349",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 302:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I350",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 303:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I351",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 304:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I352",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 305:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I353",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 306:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I354",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 307:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I355",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 308:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I356",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 309:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I357",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 310:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I358",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 311:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I359",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 312:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I360",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 313:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I361",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 314:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I362",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 315:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I363",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 316:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I364",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 317:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I365",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 318:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I366",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 319:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I367",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 320:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I368",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 321:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I369",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 322:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I370",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 323:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I371",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 324:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I372",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 325:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I373",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 326:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I374",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 327:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I375",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 328:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I376",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 329:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I377",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 330:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I378",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 331:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I379",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 332:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I380",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 333:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I381",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 334:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I382",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 335:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I383",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 336:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I384",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 337:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I385",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 338:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I386",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 339:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I387",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 340:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I388",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 341:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I389",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 342:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I390",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 343:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I391",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 344:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I392",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 345:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I393",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 346:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I394",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 347:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I395",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 348:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I396",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 349:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I397",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 350:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I398",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 351:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I399",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 352:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I400",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 353:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I401",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 354:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I402",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 355:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I403",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 356:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I404",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 357:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I405",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 358:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I406",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 359:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I407",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 360:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I408",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 361:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I409",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 362:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I410",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 363:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I411",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 364:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I412",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 365:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I413",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 366:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I414",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 367:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I415",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 368:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I416",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 369:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I417",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 370:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I418",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 371:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I419",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 372:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I420",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 373:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I421",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 374:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I422",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 375:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I423",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 376:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I424",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 377:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I425",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 378:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I426",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 379:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I427",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 380:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I428",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 381:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I429",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 382:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I430",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 383:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I431",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 384:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I432",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 385:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I433",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 386:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I434",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 387:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I435",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 388:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I436",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 389:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I437",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 390:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I438",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 391:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I439",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 392:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I440",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 393:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I441",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 394:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I442",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 395:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I443",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 396:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I444",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 397:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I445",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 398:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I446",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 399:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I447",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 400:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I448",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 401:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I449",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 402:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I450",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 403:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I451",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 404:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I452",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 405:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I453",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 406:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I454",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 407:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I455",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 408:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I456",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 409:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I457",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 410:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I458",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 411:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I459",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 412:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I460",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 413:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I461",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 414:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I462",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 415:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I463",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 416:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I464",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 417:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I465",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 418:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I466",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 419:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I467",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 420:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I468",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 421:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I469",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 422:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I470",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 423:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I471",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 424:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I472",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 425:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I473",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 426:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I474",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 427:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I475",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 428:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I476",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 429:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I477",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 430:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I478",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 431:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I479",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 432:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I480",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 433:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I481",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 434:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I482",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 435:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I483",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 436:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I484",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 437:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I485",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 438:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I486",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 439:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I487",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 440:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I488",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 441:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I489",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 442:",
-          "stimulus_es": "Orgulloso",
-          "correct_answer": "Proud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I490",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 443:",
-          "stimulus_es": "Solo/Solitario",
-          "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I491",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 444:",
-          "stimulus_es": "Feliz",
-          "correct_answer": "Happy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I492",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 445:",
-          "stimulus_es": "Triste",
-          "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I493",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 446:",
-          "stimulus_es": "Enfadado",
-          "correct_answer": "Angry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I494",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 447:",
-          "stimulus_es": "Nervioso",
-          "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I495",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 448:",
-          "stimulus_es": "Emocionado",
-          "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I496",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 449:",
-          "stimulus_es": "Aburrido",
-          "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I497",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 450:",
-          "stimulus_es": "Cansado",
-          "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I498",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 451:",
-          "stimulus_es": "Sorprendido",
-          "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I499",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 452:",
-          "stimulus_es": "Asustado",
-          "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I500",
-          "type": "short_writing",
-          "prompt_es": "Translate variant 453:",
-          "stimulus_es": "Preocupado",
-          "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "There isn’t ___ milk.",
+          "correct_answer": "enough",
+          "mastery_tag": "grammar"
         }
       ]
     }
