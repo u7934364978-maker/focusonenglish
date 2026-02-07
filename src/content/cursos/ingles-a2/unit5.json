@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "stimulus_en": "The pilot likes a house, ___ The pilot prefers a car....",
-          "correct_answer": "while",
+          "prompt_es": "Completa 33 (Work: Daily Routine):",
+          "stimulus_en": "I likes coffee, ___ I prefers a laptop - 581.",
+          "correct_answer": "besides",
           "mastery_tag": "grammar",
           "interaction_id": "U5_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
-          "stimulus_en": "The student likes a book, but The student prefers a cat - amazing.",
-          "stimulus_es": "Ref: A The student le gusta a book, as a consequence The student prefiere a cat - amazing.",
+          "prompt_es": "\u00bfCorrecto? 33 (Work: Daily Routine)",
+          "stimulus_en": "The player likes a report, but The player prefers a camera!.",
+          "stimulus_es": "Ref: A The player le gusta a report, meanwhile The player prefiere a camera!.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U5_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "prompt_es": "Relaciona 33 (Work: Daily Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A The chef le gusta a gift, furthermore The chef prefiere a book - interesting.",
-              "right": "The chef likes a gift, furthermore The chef prefers a book - interesting."
+              "left": "A The artist le gusta a door, despite The artist prefiere a window..",
+              "right": "The artist likes a door, despite The artist prefers a window.."
             },
             {
               "id": "p1",
-              "left": "A The baker le gusta a letter, meanwhile The baker prefiere a window - interesting.",
-              "right": "The baker likes a letter, meanwhile The baker prefers a window - interesting."
+              "left": "A The architect le gusta an email, nevertheless The architect prefiere a bag - interesting.",
+              "right": "The architect likes an email, nevertheless The architect prefers a bag - interesting."
             },
             {
               "id": "p2",
-              "left": "A Sarah le gusta English, whereas Sarah prefiere a watch (today).",
-              "right": "Sarah likes English, whereas Sarah prefers a watch (today)."
+              "left": "A The driver le gusta a bag, nevertheless The driver prefiere a pen (now).",
+              "right": "The driver likes a bag, nevertheless The driver prefers a pen (now)."
             },
             {
               "id": "p3",
-              "left": "A The boss le gusta a bike, unfortunately The boss prefiere a ticket (now).",
-              "right": "The boss likes a bike, unfortunately The boss prefers a ticket (now)."
+              "left": "A The player le gusta coffee, however The player prefiere a cat....",
+              "right": "The player likes coffee, however The player prefers a cat...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Daily Routine):",
-          "tts_en": "The coach likes a report, furthermore The coach prefers a book..",
-          "correct_answer": "The coach likes a report, furthermore The coach prefers a book..",
+          "prompt_es": "Dictado 33 (Work: Daily Routine):",
+          "tts_en": "The artist likes a ticket, therefore The artist prefers a door!.",
+          "correct_answer": "The artist likes a ticket, therefore The artist prefers a door!.",
           "mastery_tag": "listening",
           "interaction_id": "U5_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 33:",
           "options": [
             {
-              "id": "o2",
-              "text": "Star"
+              "id": "o3",
+              "text": "plane"
             },
             {
               "id": "o4",
-              "text": "Hot8418"
+              "text": "cat1253"
             },
             {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
+              "id": "o2",
+              "text": "train"
             },
             {
               "id": "o0",
-              "text": "Sun"
+              "text": "car"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "De qui\u00e9n son esos libros?.",
-              "back": "Whose books are those= or Whose are those books."
+              "front": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo!",
+              "back": "how often do you have Italian classes? = I have every Tuesday.!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 33 (Work: Daily Routine):",
-          "instruction_en": "Describe Work: Daily Routine in 5 words. [Ref: 63]",
+          "instruction_en": "Why is Work: Daily Routine important? [Ref: 92]",
           "mastery_tag": "writing",
           "interaction_id": "U5_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 33 (Work: Daily Routine):",
-          "stimulus_en": "Improve Work: Daily Routine. (208)",
+          "stimulus_en": "This is Work: Daily Routine. (395)",
           "mastery_tag": "speaking",
           "interaction_id": "U5_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
-          "stimulus": "Matching set 3673",
+          "prompt_es": "Une 29 (Work: Daily Routine):",
+          "stimulus": "Matching set 7756",
           "items": [
             {
               "id": "i0",
-              "text": "Qu\u00e9 tiempo verbal utilizamos? - interesting",
+              "text": "Por tanto, podemos afirmar que -ed para personas y -ing para cosas o situaciones. Es cierto que a veces tambi\u00e9n utilizamos -ing para personas, y \u00bfcu\u00e1ndo? Debes tener en cuenta que la terminaci\u00f3n -ing indica una cualidad permanente, mientras que -ed es temporal. Si yo digo - 552",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo (now)",
+              "text": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo - amazing",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "2. el primer elemento es un animal. Ejemplo (now)",
+              "text": "1. La puerta de mi casa - 523",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno. (now)"
+              "id": "m2",
+              "text": "the door of my house - 523"
             },
             {
-              "id": "m2",
-              "text": "the bird\u2018s legs = las piernas del p\u00e1jaro. (now)"
+              "id": "m1",
+              "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - amazing"
             },
             {
               "id": "m0",
-              "text": "present continuous, porque lo est\u00e1s buscando en este momento. - interesting"
+              "text": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. - 552"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Work: Daily Routine):",
+          "prompt_es": "Clasifica 29 (Work: Daily Routine):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I haven\u2019t a car. (now)"
+                  "text": "Do you have any friends who live near your house? = al ser interrogativa, any. (today)"
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "in summer, in winter...."
+                  "text": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the (today)"
                 }
               ]
             }
@@ -202,19 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "main_text": "In Work: Daily Routine (4291), The driver [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 29 (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (2986), Sarah [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "spoke"
+                  "text": "listened"
                 },
                 {
                   "id": "o2",
-                  "text": "speak"
+                  "text": "listen"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "worked"
+                  "text": "designed"
                 },
                 {
                   "id": "o2",
-                  "text": "work"
+                  "text": "design"
                 }
               ]
             }
@@ -241,21 +241,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Daily Routine:",
-          "stimulus_en": "Our neighbors likes a gift, consequently Our neighbors prefers a phone - interesting.",
-          "stimulus_es": "A Our neighbors le gusta a gift, consequently Our neighbors prefiere a phone - interesting.",
+          "prompt_es": "Elige 29 para Work: Daily Routine:",
+          "stimulus_en": "A colleague likes a bag, moreover A colleague prefers tennis (now).",
+          "stimulus_es": "A A colleague le gusta a bag, moreover A colleague prefiere tennis (now).",
           "options": [
             {
-              "id": "o2",
-              "text": "but"
-            },
-            {
               "id": "o1",
-              "text": "consequently"
+              "text": "moreover"
             },
             {
               "id": "o3",
-              "text": "Other 1265"
+              "text": "Other 4897"
+            },
+            {
+              "id": "o2",
+              "text": "but"
             }
           ],
           "correct_answer": "o1",
@@ -264,23 +264,43 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Daily Routine:",
+          "prompt_es": "Ordena 29 sobre Work: Daily Routine:",
           "options": [
             {
-              "id": "w9",
-              "text": "coffee"
-            },
-            {
               "id": "w7",
-              "text": "chef"
+              "text": "doctor"
             },
             {
-              "id": "w4",
-              "text": "ticket"
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "The"
+            },
+            {
+              "id": "w11",
+              "text": "amazing"
+            },
+            {
+              "id": "w5",
+              "text": "while"
+            },
+            {
+              "id": "w10",
+              "text": "printer"
             },
             {
               "id": "w8",
               "text": "prefers"
+            },
+            {
+              "id": "w1",
+              "text": "doctor"
+            },
+            {
+              "id": "w9",
+              "text": "a"
             },
             {
               "id": "w0",
@@ -291,24 +311,8 @@
               "text": "likes"
             },
             {
-              "id": "w5",
-              "text": "unfortunately"
-            },
-            {
-              "id": "w6",
-              "text": "The"
-            },
-            {
-              "id": "w10",
-              "text": "amazing"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "chef"
+              "id": "w4",
+              "text": "window"
             }
           ],
           "correct_answer": [
@@ -322,51 +326,52 @@
             "w7",
             "w8",
             "w9",
-            "w10"
+            "w10",
+            "w11"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U5_I14"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "stimulus_en": "My friend likes a dog, ___ My friend prefers a table - interesting.",
-          "correct_answer": "despite",
+          "prompt_es": "Completa 34 (Work: Daily Routine):",
+          "stimulus_en": "The lawyer likes a window, ___ The lawyer prefers an apple..",
+          "correct_answer": "furthermore",
           "mastery_tag": "grammar",
           "interaction_id": "U5_I15"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
-          "stimulus_en": "You likes an apple, but You prefers a chair - interesting.",
-          "stimulus_es": "Ref: A You le gusta an apple, unfortunately You prefiere a chair - interesting.",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 34 (Work: Daily Routine)",
+          "stimulus_en": "John likes a radio, however John prefers a television (today).",
+          "stimulus_es": "Ref: A John le gusta a radio, however John prefiere a television (today).",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U5_I16"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "prompt_es": "Relaciona 34 (Work: Daily Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A The pilot le gusta a camera, since The pilot prefiere a house - 773.",
-              "right": "The pilot likes a camera, since The pilot prefers a house - 773."
+              "left": "A The police officer le gusta a television, consequently The police officer prefiere a chair - interesting.",
+              "right": "The police officer likes a television, consequently The police officer prefers a chair - interesting."
             },
             {
               "id": "p1",
-              "left": "A The driver le gusta an apple, otherwise The driver prefiere a pen - amazing.",
-              "right": "The driver likes an apple, otherwise The driver prefers a pen - amazing."
+              "left": "A My friend le gusta a newspaper, therefore My friend prefiere a window - 454.",
+              "right": "My friend likes a newspaper, therefore My friend prefers a window - 454."
             },
             {
               "id": "p2",
-              "left": "A The waiter le gusta a pen, despite The waiter prefiere English - 829.",
-              "right": "The waiter likes a pen, despite The waiter prefers English - 829."
+              "left": "A Our neighbors le gusta football, unfortunately Our neighbors prefiere a gift..",
+              "right": "Our neighbors likes football, unfortunately Our neighbors prefers a gift.."
             },
             {
               "id": "p3",
-              "left": "A My friend le gusta tennis, otherwise My friend prefiere a newspaper (today).",
-              "right": "My friend likes tennis, otherwise My friend prefers a newspaper (today)."
+              "left": "A The actress le gusta a book, however The actress prefiere a house (now).",
+              "right": "The actress likes a book, however The actress prefers a house (now)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -374,35 +379,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Daily Routine):",
-          "tts_en": "The lawyer likes coffee, otherwise The lawyer prefers a laptop....",
-          "correct_answer": "The lawyer likes coffee, otherwise The lawyer prefers a laptop....",
+          "prompt_es": "Dictado 34 (Work: Daily Routine):",
+          "tts_en": "John likes English, whereas John prefers a pen....",
+          "correct_answer": "John likes English, whereas John prefers a pen....",
           "mastery_tag": "listening",
           "interaction_id": "U5_I18"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 34:",
           "options": [
             {
-              "id": "o3",
-              "text": "Calm"
+              "id": "o4",
+              "text": "rain3942"
             },
             {
               "id": "o0",
-              "text": "Happy"
+              "text": "pizza"
             },
             {
-              "id": "o4",
-              "text": "Fast4081"
+              "id": "o3",
+              "text": "soup"
             },
             {
               "id": "o2",
-              "text": "Angry"
+              "text": "salad"
             },
             {
               "id": "o1",
-              "text": "Sad"
+              "text": "burger"
             }
           ],
           "correct_answer": "o4",
@@ -415,8 +420,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Qu\u00e9 hora es? - 666",
-              "back": "What time is it - 666"
+              "front": "\u00bfEst\u00e1s estudiando franc\u00e9s? - interesting",
+              "back": "are you learning French? - interesting"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -425,50 +430,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 34 (Work: Daily Routine):",
-          "instruction_en": "Describe Work: Daily Routine in 5 words. [Ref: 38]",
+          "instruction_en": "Why is Work: Daily Routine important? [Ref: 46]",
           "mastery_tag": "writing",
           "interaction_id": "U5_I21"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 34 (Work: Daily Routine):",
-          "stimulus_en": "Where is Work: Daily Routine? (634)",
+          "stimulus_en": "The Connectors is here. (907)",
           "mastery_tag": "speaking",
           "interaction_id": "U5_I22"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
-          "stimulus": "Matching set 7602",
+          "prompt_es": "Une 30 (Work: Daily Routine):",
+          "stimulus": "Matching set 9963",
           "items": [
             {
               "id": "i0",
-              "text": "in + car/ taxi (now)",
+              "text": "4. go to bed before 11 / often / I - 369",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Hay muchos bares cerca de mi casa!",
+              "text": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? - 755",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "D\u00f3nde te lo dijo? - interesting",
+              "text": "Empecemos analizando el siguiente ejemplo - interesting",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m2",
+              "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). - interesting"
+            },
+            {
               "id": "m1",
-              "text": "There are a lot of bars near my house.!"
+              "text": "What\u2019s the happiest day you\u2019ve ever had - 755"
             },
             {
               "id": "m0",
-              "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). (now)"
-            },
-            {
-              "id": "m2",
-              "text": "Where did he/she tell you - interesting"
+              "text": "I often go to bed before 11 - 369"
             }
           ],
           "correct_answer": {
@@ -481,7 +486,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Work: Daily Routine):",
+          "prompt_es": "Clasifica 30 (Work: Daily Routine):",
           "categories": [
             {
               "id": "c1",
@@ -489,7 +494,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Can I have your ID/ passport/ credit card?. (today)"
+                  "text": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on. (today)"
                 }
               ]
             },
@@ -499,7 +504,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "how often do you have Italian classes? = I have every Tuesday.!"
+                  "text": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject! (now)"
                 }
               ]
             }
@@ -509,19 +514,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "main_text": "In Work: Daily Routine (5955), They [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 30 (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (9143), You [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "stopped"
+                  "text": "cooked"
                 },
                 {
                   "id": "o2",
-                  "text": "stop"
+                  "text": "cook"
                 }
               ]
             },
@@ -530,11 +535,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "sent"
+                  "text": "finished"
                 },
                 {
                   "id": "o2",
-                  "text": "send"
+                  "text": "finish"
                 }
               ]
             }
@@ -548,21 +553,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Daily Routine:",
-          "stimulus_en": "The singer likes a radio, nevertheless The singer prefers a book....",
-          "stimulus_es": "A The singer le gusta a radio, nevertheless The singer prefiere a book....",
+          "prompt_es": "Elige 30 para Work: Daily Routine:",
+          "stimulus_en": "She likes a watch, while She prefers a cat - amazing.",
+          "stimulus_es": "A She le gusta a watch, while She prefiere a cat - amazing.",
           "options": [
             {
-              "id": "o2",
-              "text": "but"
-            },
-            {
               "id": "o1",
-              "text": "nevertheless"
+              "text": "while"
             },
             {
               "id": "o3",
-              "text": "Other 9620"
+              "text": "Other 5595"
+            },
+            {
+              "id": "o2",
+              "text": "but"
             }
           ],
           "correct_answer": "o1",
@@ -571,35 +576,11 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Daily Routine:",
+          "prompt_es": "Ordena 30 sobre Work: Daily Routine:",
           "options": [
             {
-              "id": "w11",
-              "text": "697"
-            },
-            {
-              "id": "w2",
-              "text": "likes"
-            },
-            {
-              "id": "w10",
-              "text": "watch"
-            },
-            {
-              "id": "w8",
-              "text": "prefers"
-            },
-            {
               "id": "w7",
-              "text": "chef"
-            },
-            {
-              "id": "w5",
-              "text": "whereas"
-            },
-            {
-              "id": "w4",
-              "text": "camera"
+              "text": "consequence"
             },
             {
               "id": "w0",
@@ -607,15 +588,39 @@
             },
             {
               "id": "w1",
-              "text": "chef"
+              "text": "doctor"
             },
             {
-              "id": "w6",
-              "text": "The"
+              "id": "w2",
+              "text": "likes"
+            },
+            {
+              "id": "w11",
+              "text": "football"
             },
             {
               "id": "w9",
+              "text": "doctor"
+            },
+            {
+              "id": "w4",
+              "text": "clock"
+            },
+            {
+              "id": "w5",
+              "text": "as"
+            },
+            {
+              "id": "w6",
               "text": "a"
+            },
+            {
+              "id": "w10",
+              "text": "prefers"
+            },
+            {
+              "id": "w8",
+              "text": "The"
             },
             {
               "id": "w3",
@@ -641,44 +646,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "stimulus_en": "The architect likes a newspaper, ___ The architect prefers a laptop....",
-          "correct_answer": "although",
+          "prompt_es": "Completa 35 (Work: Daily Routine):",
+          "stimulus_en": "The actress likes a house, ___ The actress prefers a door (today).",
+          "correct_answer": "nevertheless",
           "mastery_tag": "grammar",
           "interaction_id": "U5_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
-          "stimulus_en": "The actress likes a ticket, furthermore The actress prefers music!.",
-          "stimulus_es": "Ref: A The actress le gusta a ticket, furthermore The actress prefiere music!.",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 35 (Work: Daily Routine)",
+          "stimulus_en": "The nurse likes a window, but The nurse prefers a pen - interesting.",
+          "stimulus_es": "Ref: A The nurse le gusta a window, although The nurse prefiere a pen - interesting.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U5_I29"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "prompt_es": "Relaciona 35 (Work: Daily Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A The singer le gusta a clock, besides The singer prefiere a chair....",
-              "right": "The singer likes a clock, besides The singer prefers a chair...."
+              "left": "A We le gusta a pizza, otherwise We prefiere a report....",
+              "right": "We likes a pizza, otherwise We prefers a report...."
             },
             {
               "id": "p1",
-              "left": "A The boss le gusta a ticket, while The boss prefiere a printer!.",
-              "right": "The boss likes a ticket, while The boss prefers a printer!."
+              "left": "A My cousin le gusta tennis, nevertheless My cousin prefiere a radio..",
+              "right": "My cousin likes tennis, nevertheless My cousin prefers a radio.."
             },
             {
               "id": "p2",
-              "left": "A The boss le gusta a car, moreover The boss prefiere a radio - interesting.",
-              "right": "The boss likes a car, moreover The boss prefers a radio - interesting."
+              "left": "A My cousin le gusta a book, as a consequence My cousin prefiere a watch - amazing.",
+              "right": "My cousin likes a book, as a consequence My cousin prefers a watch - amazing."
             },
             {
               "id": "p3",
-              "left": "A My friend le gusta a window, moreover My friend prefiere a ticket!.",
-              "right": "My friend likes a window, moreover My friend prefers a ticket!."
+              "left": "A The scientist le gusta a ticket, however The scientist prefiere a pen - amazing.",
+              "right": "The scientist likes a ticket, however The scientist prefers a pen - amazing."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -686,35 +691,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Daily Routine):",
-          "tts_en": "The student likes a table, since The student prefers a movie..",
-          "correct_answer": "The student likes a table, since The student prefers a movie..",
+          "prompt_es": "Dictado 35 (Work: Daily Routine):",
+          "tts_en": "My friend likes music, fortunately My friend prefers a book!.",
+          "correct_answer": "My friend likes music, fortunately My friend prefers a book!.",
           "mastery_tag": "listening",
           "interaction_id": "U5_I31"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 35:",
           "options": [
             {
-              "id": "o0",
-              "text": "Monday"
+              "id": "o4",
+              "text": "Fast5743"
             },
             {
               "id": "o2",
-              "text": "Sunday"
+              "text": "Angry"
             },
             {
               "id": "o1",
-              "text": "Tuesday"
-            },
-            {
-              "id": "o4",
-              "text": "June2451"
+              "text": "Sad"
             },
             {
               "id": "o3",
-              "text": "Friday"
+              "text": "Calm"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
             }
           ],
           "correct_answer": "o4",
@@ -727,8 +732,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "The correct thing.",
-              "back": "on the Internet."
+              "front": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio...",
+              "back": "\u00bfDe d\u00f3nde eres?..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -737,50 +742,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 35 (Work: Daily Routine):",
-          "instruction_en": "Why is Work: Daily Routine important? [Ref: 45]",
+          "instruction_en": "A small story about Work: Daily Routine. [Ref: 45]",
           "mastery_tag": "writing",
           "interaction_id": "U5_I34"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 35 (Work: Daily Routine):",
-          "stimulus_en": "I like Work: Daily Routine. (836)",
+          "stimulus_en": "The Connectors is here. (992)",
           "mastery_tag": "speaking",
           "interaction_id": "U5_I35"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
-          "stimulus": "Matching set 7776",
+          "prompt_es": "Une 31 (Work: Daily Routine):",
+          "stimulus": "Matching set 2529",
           "items": [
             {
               "id": "i0",
-              "text": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca? - interesting",
+              "text": "Mi cumplea\u00f1os es en febrero - amazing",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Si pasamos la oraci\u00f3n a interrogativa, quedar\u00eda as\u00ed...",
+              "text": "A qu\u00e9 hora abre el supermercado? (today)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Movie (Br Eng!",
+              "text": "\u2013 Meses del a\u00f1o...",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "film) Pel\u00edcula!"
-            },
-            {
               "id": "m1",
-              "text": "Do you have any friends who live near your house? = al ser interrogativa, any...."
+              "text": "What time does the supermarket open (today)"
             },
             {
               "id": "m0",
-              "text": "What\u2019s the funniest joke you\u2019ve ever been told - interesting"
+              "text": "my birthday is in February. - amazing"
+            },
+            {
+              "id": "m2",
+              "text": "in May, in August, etc...."
             }
           ],
           "correct_answer": {
@@ -793,7 +798,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Work: Daily Routine):",
+          "prompt_es": "Clasifica 31 (Work: Daily Routine):",
           "categories": [
             {
               "id": "c1",
@@ -801,7 +806,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb.."
+                  "text": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos. - interesting"
                 }
               ]
             },
@@ -811,7 +816,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "information, homework, work.."
+                  "text": "I haven\u2019t got much money (remember, money is uncountable). - 167"
                 }
               ]
             }
@@ -821,19 +826,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "main_text": "In Work: Daily Routine (6424), The baker [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 31 (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (8395), Sarah [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "designed"
+                  "text": "finished"
                 },
                 {
                   "id": "o2",
-                  "text": "design"
+                  "text": "finish"
                 }
               ]
             },
@@ -842,11 +847,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "fixed"
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "fix"
                 }
               ]
             }
@@ -860,21 +865,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Daily Routine:",
-          "stimulus_en": "The singer likes a house, whereas The singer prefers football (now).",
-          "stimulus_es": "A The singer le gusta a house, whereas The singer prefiere football (now).",
+          "prompt_es": "Elige 31 para Work: Daily Routine:",
+          "stimulus_en": "The baker likes a chair, however The baker prefers English....",
+          "stimulus_es": "A The baker le gusta a chair, however The baker prefiere English....",
           "options": [
             {
+              "id": "o1",
+              "text": "however"
+            },
+            {
               "id": "o3",
-              "text": "Other 5946"
+              "text": "Other 4836"
             },
             {
               "id": "o2",
               "text": "but"
-            },
-            {
-              "id": "o1",
-              "text": "whereas"
             }
           ],
           "correct_answer": "o1",
@@ -883,59 +888,39 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Daily Routine:",
+          "prompt_es": "Ordena 31 sobre Work: Daily Routine:",
           "options": [
             {
-              "id": "w8",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "as"
-            },
-            {
-              "id": "w11",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "ticket"
+              "id": "w7",
+              "text": "tennis"
             },
             {
               "id": "w2",
-              "text": "likes"
+              "text": "a"
             },
             {
-              "id": "w12",
-              "text": "laptop"
-            },
-            {
-              "id": "w9",
-              "text": "artist"
-            },
-            {
-              "id": "w10",
+              "id": "w6",
               "text": "prefers"
             },
             {
               "id": "w1",
-              "text": "artist"
+              "text": "likes"
             },
             {
               "id": "w0",
-              "text": "The"
+              "text": "Sarah"
             },
             {
-              "id": "w6",
-              "text": "a"
+              "id": "w5",
+              "text": "Sarah"
             },
             {
-              "id": "w7",
-              "text": "consequence"
+              "id": "w4",
+              "text": "moreover"
             },
             {
               "id": "w3",
-              "text": "a"
+              "text": "report"
             }
           ],
           "correct_answer": [
@@ -946,56 +931,51 @@
             "w4",
             "w5",
             "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12"
+            "w7"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U5_I40"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "stimulus_en": "I likes a report, ___ I prefers tennis - interesting.",
-          "correct_answer": "fortunately",
+          "prompt_es": "Completa 36 (Work: Daily Routine):",
+          "stimulus_en": "They likes a watch, ___ They prefers a ticket - amazing.",
+          "correct_answer": "while",
           "mastery_tag": "grammar",
           "interaction_id": "U5_I41"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
-          "stimulus_en": "The police officer likes a printer, moreover The police officer prefers English (now).",
-          "stimulus_es": "Ref: A The police officer le gusta a printer, moreover The police officer prefiere English (now).",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 36 (Work: Daily Routine)",
+          "stimulus_en": "Our neighbors likes a window, but Our neighbors prefers a newspaper - interesting.",
+          "stimulus_es": "Ref: A Our neighbors le gusta a window, otherwise Our neighbors prefiere a newspaper - interesting.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U5_I42"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "prompt_es": "Relaciona 36 (Work: Daily Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A The police officer le gusta a report, whereas The police officer prefiere a house - amazing.",
-              "right": "The police officer likes a report, whereas The police officer prefers a house - amazing."
+              "left": "A The player le gusta a gift, therefore The player prefiere a sandwich!.",
+              "right": "The player likes a gift, therefore The player prefers a sandwich!."
             },
             {
               "id": "p1",
-              "left": "A They le gusta a pen, whereas They prefiere a newspaper (now).",
-              "right": "They likes a pen, whereas They prefers a newspaper (now)."
+              "left": "A The baker le gusta a newspaper, fortunately The baker prefiere a television - interesting.",
+              "right": "The baker likes a newspaper, fortunately The baker prefers a television - interesting."
             },
             {
               "id": "p2",
-              "left": "A The teacher le gusta a table, consequently The teacher prefiere a window..",
-              "right": "The teacher likes a table, consequently The teacher prefers a window.."
+              "left": "A John le gusta a ticket, meanwhile John prefiere English..",
+              "right": "John likes a ticket, meanwhile John prefers English.."
             },
             {
               "id": "p3",
-              "left": "A John le gusta music, nevertheless John prefiere a movie - interesting.",
-              "right": "John likes music, nevertheless John prefers a movie - interesting."
+              "left": "A Sarah le gusta a watch, since Sarah prefiere a house (today).",
+              "right": "Sarah likes a watch, since Sarah prefers a house (today)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1003,35 +983,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Daily Routine):",
-          "tts_en": "The waiter likes a bike, despite The waiter prefers a computer..",
-          "correct_answer": "The waiter likes a bike, despite The waiter prefers a computer..",
+          "prompt_es": "Dictado 36 (Work: Daily Routine):",
+          "tts_en": "A colleague likes a gift, consequently A colleague prefers a dog..",
+          "correct_answer": "A colleague likes a gift, consequently A colleague prefers a dog..",
           "mastery_tag": "listening",
           "interaction_id": "U5_I44"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 36:",
           "options": [
             {
-              "id": "o2",
-              "text": "Angry"
+              "id": "o4",
+              "text": "Slow3890"
             },
             {
-              "id": "o4",
-              "text": "Fast5250"
+              "id": "o2",
+              "text": "Berlin"
             },
             {
               "id": "o0",
-              "text": "Happy"
+              "text": "London"
             },
             {
               "id": "o3",
-              "text": "Calm"
+              "text": "Paris"
             },
             {
               "id": "o1",
-              "text": "Sad"
+              "text": "Tokyo"
             }
           ],
           "correct_answer": "o4",
@@ -1044,8 +1024,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "3. Las hermanas de Pedro...",
-              "back": "Peter\u2019s sisters..."
+              "front": "\u2013 Seasons (estaciones).",
+              "back": "in summer, in winter.."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1054,50 +1034,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 36 (Work: Daily Routine):",
-          "instruction_en": "Draft an email regarding Work: Daily Routine. [Ref: 35]",
+          "instruction_en": "Why is Work: Daily Routine important? [Ref: 71]",
           "mastery_tag": "writing",
           "interaction_id": "U5_I47"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 36 (Work: Daily Routine):",
-          "stimulus_en": "Where is Work: Daily Routine? (187)",
+          "stimulus_en": "Study Work: Daily Routine now. (196)",
           "mastery_tag": "speaking",
           "interaction_id": "U5_I48"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
-          "stimulus": "Matching set 9973",
+          "prompt_es": "Une 32 (Work: Daily Routine):",
+          "stimulus": "Matching set 9462",
           "items": [
             {
               "id": "i0",
-              "text": "Al lado de mi casa hay una guarder\u00eda (now)",
+              "text": "Y en negativa...",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "\u2022in the fall (Br Eng.",
+              "text": "2. Play football on Saturday afternoons / the boys / always!",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "puedo abrir la ventana, por favor? - amazing",
+              "text": "De qui\u00e9n ese coche?.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet - amazing"
+              "id": "m0",
+              "text": "I don\u2019t have any friends who live near my house...."
             },
             {
-              "id": "m0",
-              "text": "Next to my house there is a nursery school. (now)"
+              "id": "m2",
+              "text": "Whose car is that."
             },
             {
               "id": "m1",
-              "text": "autumn) En oto\u00f1o."
+              "text": "the boys always play football on Saturday afternoons!"
             }
           ],
           "correct_answer": {
@@ -1110,7 +1090,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Work: Daily Routine):",
+          "prompt_es": "Clasifica 32 (Work: Daily Routine):",
           "categories": [
             {
               "id": "c1",
@@ -1118,7 +1098,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos.."
+                  "text": "Have you got a car? - amazing"
                 }
               ]
             },
@@ -1128,7 +1108,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Go straight on and in front of the church there is a supermarket.."
+                  "text": "have you ever studied a foreign laguage apart from English - interesting"
                 }
               ]
             }
@@ -1138,19 +1118,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "main_text": "In Work: Daily Routine (4129), My brother [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 32 (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (7264), The player [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "visited"
+                  "text": "watched"
                 },
                 {
                   "id": "o2",
-                  "text": "visit"
+                  "text": "watch"
                 }
               ]
             },
@@ -1159,11 +1139,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "planned"
+                  "text": "stopped"
                 },
                 {
                   "id": "o2",
-                  "text": "plan"
+                  "text": "stop"
                 }
               ]
             }
@@ -1177,17 +1157,17 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Daily Routine:",
-          "stimulus_en": "Maria likes a dog, fortunately Maria prefers a report (now).",
-          "stimulus_es": "A Maria le gusta a dog, fortunately Maria prefiere a report (now).",
+          "prompt_es": "Elige 32 para Work: Daily Routine:",
+          "stimulus_en": "A colleague likes a gift, consequently A colleague prefers a pen - amazing.",
+          "stimulus_es": "A A colleague le gusta a gift, consequently A colleague prefiere a pen - amazing.",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 7416"
+              "id": "o1",
+              "text": "consequently"
             },
             {
-              "id": "o1",
-              "text": "fortunately"
+              "id": "o3",
+              "text": "Other 2758"
             },
             {
               "id": "o2",
@@ -1200,67 +1180,43 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Daily Routine:",
+          "prompt_es": "Ordena 32 sobre Work: Daily Routine:",
           "options": [
             {
-              "id": "w6",
-              "text": "as"
-            },
-            {
-              "id": "w12",
-              "text": "prefers"
+              "id": "w2",
+              "text": "football"
             },
             {
               "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w9",
-              "text": "The"
-            },
-            {
-              "id": "w7",
-              "text": "a"
-            },
-            {
-              "id": "w10",
-              "text": "police"
-            },
-            {
-              "id": "w8",
-              "text": "consequence"
+              "text": "He"
             },
             {
               "id": "w5",
-              "text": "window"
-            },
-            {
-              "id": "w1",
-              "text": "police"
-            },
-            {
-              "id": "w2",
-              "text": "officer"
+              "text": "prefers"
             },
             {
               "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w11",
-              "text": "officer"
-            },
-            {
-              "id": "w13",
-              "text": "a"
-            },
-            {
-              "id": "w14",
-              "text": "phone"
+              "text": "He"
             },
             {
               "id": "w3",
+              "text": "since"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "bag"
+            },
+            {
+              "id": "w1",
               "text": "likes"
+            },
+            {
+              "id": "w8",
+              "text": "interesting"
             }
           ],
           "correct_answer": [
@@ -1272,57 +1228,51 @@
             "w5",
             "w6",
             "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14"
+            "w8"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U5_I53"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "stimulus_en": "The actress likes a clock, ___ The actress prefers a ticket (today).",
-          "correct_answer": "otherwise",
+          "prompt_es": "Completa 37 (Work: Daily Routine):",
+          "stimulus_en": "A colleague likes football, ___ A colleague prefers a laptop....",
+          "correct_answer": "nonetheless",
           "mastery_tag": "grammar",
           "interaction_id": "U5_I54"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
-          "stimulus_en": "He likes a report, but He prefers music (now).",
-          "stimulus_es": "Ref: A He le gusta a report, since He prefiere music (now).",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 37 (Work: Daily Routine)",
+          "stimulus_en": "The doctor likes a door, despite The doctor prefers a pizza - interesting.",
+          "stimulus_es": "Ref: A The doctor le gusta a door, despite The doctor prefiere a pizza - interesting.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U5_I55"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "prompt_es": "Relaciona 37 (Work: Daily Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A She le gusta a window, since She prefiere an email (now).",
-              "right": "She likes a window, since She prefers an email (now)."
+              "left": "A The scientist le gusta music, fortunately The scientist prefiere a dog (now).",
+              "right": "The scientist likes music, fortunately The scientist prefers a dog (now)."
             },
             {
               "id": "p1",
-              "left": "A John le gusta a printer, fortunately John prefiere a house (now).",
-              "right": "John likes a printer, fortunately John prefers a house (now)."
+              "left": "A My sister le gusta a bag, nevertheless My sister prefiere a gift - amazing.",
+              "right": "My sister likes a bag, nevertheless My sister prefers a gift - amazing."
             },
             {
               "id": "p2",
-              "left": "A They le gusta a book, since They prefiere a dog..",
-              "right": "They likes a book, since They prefers a dog.."
+              "left": "A The artist le gusta a gift, despite The artist prefiere coffee (today).",
+              "right": "The artist likes a gift, despite The artist prefers coffee (today)."
             },
             {
               "id": "p3",
-              "left": "A The waiter le gusta a pen, besides The waiter prefiere a ticket (now).",
-              "right": "The waiter likes a pen, besides The waiter prefers a ticket (now)."
+              "left": "A The coach le gusta a sandwich, furthermore The coach prefiere a window....",
+              "right": "The coach likes a sandwich, furthermore The coach prefers a window...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1330,35 +1280,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Daily Routine):",
-          "tts_en": "The scientist likes a window, moreover The scientist prefers a door (now).",
-          "correct_answer": "The scientist likes a window, moreover The scientist prefers a door (now).",
+          "prompt_es": "Dictado 37 (Work: Daily Routine):",
+          "tts_en": "We likes a bag, since We prefers a report..",
+          "correct_answer": "We likes a bag, since We prefers a report..",
           "mastery_tag": "listening",
           "interaction_id": "U5_I57"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 37:",
           "options": [
             {
-              "id": "o0",
-              "text": "Guitar"
+              "id": "o4",
+              "text": "run3607"
             },
             {
               "id": "o2",
-              "text": "Flute"
+              "text": "green"
             },
             {
               "id": "o1",
-              "text": "Piano"
+              "text": "red"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
             },
             {
               "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o4",
-              "text": "Book7732"
+              "text": "pink"
             }
           ],
           "correct_answer": "o4",
@@ -1371,8 +1321,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "The correct thing - interesting",
-              "back": "I went to a state school. - interesting"
+              "front": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales!",
+              "back": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1381,50 +1331,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 37 (Work: Daily Routine):",
-          "instruction_en": "Write a note about Work: Daily Routine. [Ref: 45]",
+          "instruction_en": "Compare Work: Daily Routine with another topic. [Ref: 91]",
           "mastery_tag": "writing",
           "interaction_id": "U5_I60"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 37 (Work: Daily Routine):",
-          "stimulus_en": "The Connectors is here. (823)",
+          "stimulus_en": "Where is Work: Daily Routine? (867)",
           "mastery_tag": "speaking",
           "interaction_id": "U5_I61"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
-          "stimulus": "Matching set 1321",
+          "prompt_es": "Une 33 (Work: Daily Routine):",
+          "stimulus": "Matching set 6271",
           "items": [
             {
               "id": "i0",
-              "text": "2. La hamburguesa de Harry (today)",
+              "text": "For example...",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Uncountable nouns (today)",
+              "text": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material (now)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "car / I / drink / never / if / drive / I / alcohol / a (now)",
+              "text": "TV / ever / hardly / I / in / watch / evenings / the!",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "I never drink alcohol if I drive a car (now)"
+              "text": "I hardly ever watch TV in the evenings!"
             },
             {
               "id": "m0",
-              "text": "Harry\u2019s burger (today)"
+              "text": "She drives carefully...."
             },
             {
               "id": "m1",
-              "text": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. (today)"
+              "text": "preguntas en ingl\u00e9s (now)"
             }
           ],
           "correct_answer": {
@@ -1437,7 +1387,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Work: Daily Routine):",
+          "prompt_es": "Clasifica 33 (Work: Daily Routine):",
           "categories": [
             {
               "id": "c1",
@@ -1445,7 +1395,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I don\u2019t have many friends (friends is countable).!"
+                  "text": "I never drink alcohol if I drive a car (now)"
                 }
               ]
             },
@@ -1455,7 +1405,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. - 504"
+                  "text": "I hardly ever go to the cinema = casi nunca voy al cine. - interesting"
                 }
               ]
             }
@@ -1465,24 +1415,11 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "main_text": "In Work: Daily Routine (3247), The scientist [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 33 (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (5737), The student [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "read"
-                },
-                {
-                  "id": "o2",
-                  "text": "read"
-                }
-              ]
-            },
-            {
-              "id": "2",
               "options": [
                 {
                   "id": "o1",
@@ -1491,6 +1428,19 @@
                 {
                   "id": "o2",
                   "text": "learn"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "prepared"
+                },
+                {
+                  "id": "o2",
+                  "text": "prepare"
                 }
               ]
             }
@@ -1504,21 +1454,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Daily Routine:",
-          "stimulus_en": "He likes a house, otherwise He prefers a pen..",
-          "stimulus_es": "A He le gusta a house, otherwise He prefiere a pen..",
+          "prompt_es": "Elige 33 para Work: Daily Routine:",
+          "stimulus_en": "John likes a printer, unfortunately John prefers a door..",
+          "stimulus_es": "A John le gusta a printer, unfortunately John prefiere a door..",
           "options": [
+            {
+              "id": "o1",
+              "text": "unfortunately"
+            },
             {
               "id": "o2",
               "text": "but"
             },
             {
               "id": "o3",
-              "text": "Other 8060"
-            },
-            {
-              "id": "o1",
-              "text": "otherwise"
+              "text": "Other 1652"
             }
           ],
           "correct_answer": "o1",
@@ -1527,43 +1477,43 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Daily Routine:",
+          "prompt_es": "Ordena 33 sobre Work: Daily Routine:",
           "options": [
             {
-              "id": "w5",
-              "text": "We"
-            },
-            {
-              "id": "w3",
-              "text": "cat"
-            },
-            {
-              "id": "w8",
-              "text": "(today)"
+              "id": "w2",
+              "text": "a"
             },
             {
               "id": "w7",
-              "text": "tennis"
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "She"
             },
             {
               "id": "w1",
               "text": "likes"
             },
             {
-              "id": "w4",
-              "text": "moreover"
+              "id": "w3",
+              "text": "ticket"
             },
             {
-              "id": "w2",
-              "text": "a"
+              "id": "w4",
+              "text": "therefore"
+            },
+            {
+              "id": "w8",
+              "text": "radio"
+            },
+            {
+              "id": "w5",
+              "text": "She"
             },
             {
               "id": "w6",
               "text": "prefers"
-            },
-            {
-              "id": "w0",
-              "text": "We"
             }
           ],
           "correct_answer": [
@@ -1582,44 +1532,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "stimulus_en": "John likes a gift, ___ John prefers football!.",
-          "correct_answer": "while",
+          "prompt_es": "Completa 38 (Work: Daily Routine):",
+          "stimulus_en": "The actress likes a phone, ___ The actress prefers a report - amazing.",
+          "correct_answer": "nevertheless",
           "mastery_tag": "grammar",
           "interaction_id": "U5_I67"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
-          "stimulus_en": "My friend likes a dog, but My friend prefers a movie....",
-          "stimulus_es": "Ref: A My friend le gusta a dog, consequently My friend prefiere a movie....",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 38 (Work: Daily Routine)",
+          "stimulus_en": "John likes a printer, as a consequence John prefers coffee..",
+          "stimulus_es": "Ref: A John le gusta a printer, as a consequence John prefiere coffee..",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U5_I68"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "prompt_es": "Relaciona 38 (Work: Daily Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A The architect le gusta a dog, consequently The architect prefiere a bag - 297.",
-              "right": "The architect likes a dog, consequently The architect prefers a bag - 297."
+              "left": "A The nurse le gusta a window, however The nurse prefiere a door..",
+              "right": "The nurse likes a window, however The nurse prefers a door.."
             },
             {
               "id": "p1",
-              "left": "A The artist le gusta a clock, fortunately The artist prefiere a cat..",
-              "right": "The artist likes a clock, fortunately The artist prefers a cat.."
+              "left": "A The pilot le gusta a laptop, besides The pilot prefiere a window - interesting.",
+              "right": "The pilot likes a laptop, besides The pilot prefers a window - interesting."
             },
             {
               "id": "p2",
-              "left": "A The police officer le gusta a camera, unfortunately The police officer prefiere coffee - interesting.",
-              "right": "The police officer likes a camera, unfortunately The police officer prefers coffee - interesting."
+              "left": "A The player le gusta a door, as a consequence The player prefiere a watch - amazing.",
+              "right": "The player likes a door, as a consequence The player prefers a watch - amazing."
             },
             {
               "id": "p3",
-              "left": "A They le gusta a printer, whereas They prefiere a phone (today).",
-              "right": "They likes a printer, whereas They prefers a phone (today)."
+              "left": "A I le gusta a chair, as a consequence I prefiere a laptop (now).",
+              "right": "I likes a chair, as a consequence I prefers a laptop (now)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1627,35 +1577,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Daily Routine):",
-          "tts_en": "The architect likes a gift, although The architect prefers a house (today).",
-          "correct_answer": "The architect likes a gift, although The architect prefers a house (today).",
+          "prompt_es": "Dictado 38 (Work: Daily Routine):",
+          "tts_en": "The player likes a report, since The player prefers a cat..",
+          "correct_answer": "The player likes a report, since The player prefers a cat..",
           "mastery_tag": "listening",
           "interaction_id": "U5_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 38:",
           "options": [
             {
-              "id": "o0",
-              "text": "apple"
-            },
-            {
-              "id": "o1",
-              "text": "banana"
+              "id": "o2",
+              "text": "train"
             },
             {
               "id": "o3",
-              "text": "mango"
+              "text": "plane"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
             },
             {
               "id": "o4",
-              "text": "bike3895"
-            },
-            {
-              "id": "o2",
-              "text": "pear"
+              "text": "cat515"
             }
           ],
           "correct_answer": "o4",
@@ -1668,8 +1618,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "2. Siempre van antes del sustantivo, la regla es - interesting",
-              "back": "ADJECTIVE + NOUN - interesting"
+              "front": "Qu\u00e9 quieres?...",
+              "back": "la respuesta es ilimitada, puede ser cualquier cosa...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1678,50 +1628,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 38 (Work: Daily Routine):",
-          "instruction_en": "Why is Work: Daily Routine important? [Ref: 53]",
+          "instruction_en": "Explain Connectors using Work: Daily Routine. [Ref: 47]",
           "mastery_tag": "writing",
           "interaction_id": "U5_I73"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 38 (Work: Daily Routine):",
-          "stimulus_en": "Focus on Work: Daily Routine. (410)",
+          "stimulus_en": "This is Work: Daily Routine. (724)",
           "mastery_tag": "speaking",
           "interaction_id": "U5_I74"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
-          "stimulus": "Matching set 2837",
+          "prompt_es": "Une 34 (Work: Daily Routine):",
+          "stimulus": "Matching set 6588",
           "items": [
             {
               "id": "i0",
-              "text": "A qu\u00e9 hora sale el autob\u00fas?...",
+              "text": "Verbos irregulares.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "M\u00e1s plurales irregulares que nos podemos encontrar son...",
+              "text": "Tyre (Am Eng (now)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "De qui\u00e9n ese coche?.",
+              "text": "La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo (today)",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "What time does the bus leave..."
+              "id": "m1",
+              "text": "tire) Neum\u00e1tico (now)"
             },
             {
-              "id": "m1",
-              "text": "men, women, people, etc...."
+              "id": "m0",
+              "text": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna.."
             },
             {
               "id": "m2",
-              "text": "Whose car is that."
+              "text": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is. (today)"
             }
           ],
           "correct_answer": {
@@ -1734,7 +1684,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Work: Daily Routine):",
+          "prompt_es": "Clasifica 34 (Work: Daily Routine):",
           "categories": [
             {
               "id": "c1",
@@ -1742,7 +1692,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar.."
+                  "text": "information, homework, work. - 220"
                 }
               ]
             },
@@ -1752,7 +1702,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Whose mobile is that!"
+                  "text": "Jonathan usually visits the dentist - 796"
                 }
               ]
             }
@@ -1762,19 +1712,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "main_text": "In Work: Daily Routine (452), They [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 34 (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (5607), The student [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "drank"
+                  "text": "met"
                 },
                 {
                   "id": "o2",
-                  "text": "drink"
+                  "text": "meet"
                 }
               ]
             },
@@ -1783,11 +1733,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "sold"
+                  "text": "started"
                 },
                 {
                   "id": "o2",
-                  "text": "sell"
+                  "text": "start"
                 }
               ]
             }
@@ -1801,21 +1751,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Daily Routine:",
-          "stimulus_en": "The nurse likes a movie, fortunately The nurse prefers a cat!.",
-          "stimulus_es": "A The nurse le gusta a movie, fortunately The nurse prefiere a cat!.",
+          "prompt_es": "Elige 34 para Work: Daily Routine:",
+          "stimulus_en": "My brother likes a cat, besides My brother prefers a chair - interesting.",
+          "stimulus_es": "A My brother le gusta a cat, besides My brother prefiere a chair - interesting.",
           "options": [
+            {
+              "id": "o1",
+              "text": "besides"
+            },
             {
               "id": "o2",
               "text": "but"
             },
             {
-              "id": "o1",
-              "text": "fortunately"
-            },
-            {
               "id": "o3",
-              "text": "Other 2350"
+              "text": "Other 2595"
             }
           ],
           "correct_answer": "o1",
@@ -1824,47 +1774,55 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Daily Routine:",
+          "prompt_es": "Ordena 34 sobre Work: Daily Routine:",
           "options": [
             {
-              "id": "w3",
-              "text": "apple"
-            },
-            {
-              "id": "w4",
-              "text": "despite"
-            },
-            {
-              "id": "w9",
-              "text": "(today)"
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w8",
-              "text": "radio"
-            },
-            {
-              "id": "w2",
-              "text": "an"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w6",
               "text": "prefers"
             },
             {
-              "id": "w7",
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w9",
               "text": "a"
             },
             {
               "id": "w1",
-              "text": "likes"
+              "text": "doctor"
+            },
+            {
+              "id": "w7",
+              "text": "doctor"
             },
             {
               "id": "w5",
-              "text": "He"
+              "text": "although"
+            },
+            {
+              "id": "w2",
+              "text": "likes"
+            },
+            {
+              "id": "w6",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "printer"
+            },
+            {
+              "id": "w11",
+              "text": "154"
+            },
+            {
+              "id": "w10",
+              "text": "door"
             }
           ],
           "correct_answer": [
@@ -1877,51 +1835,53 @@
             "w6",
             "w7",
             "w8",
-            "w9"
+            "w9",
+            "w10",
+            "w11"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U5_I79"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "stimulus_en": "The teacher likes a chair, ___ The teacher prefers a clock (now).",
-          "correct_answer": "furthermore",
+          "prompt_es": "Completa 39 (Work: Daily Routine):",
+          "stimulus_en": "The singer likes a movie, ___ The singer prefers a sandwich - 513.",
+          "correct_answer": "although",
           "mastery_tag": "grammar",
           "interaction_id": "U5_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
-          "stimulus_en": "They likes a house, but They prefers an email - 846.",
-          "stimulus_es": "Ref: A They le gusta a house, moreover They prefiere an email - 846.",
+          "prompt_es": "\u00bfCorrecto? 39 (Work: Daily Routine)",
+          "stimulus_en": "My cousin likes a radio, but My cousin prefers a pizza - amazing.",
+          "stimulus_es": "Ref: A My cousin le gusta a radio, moreover My cousin prefiere a pizza - amazing.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U5_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "prompt_es": "Relaciona 39 (Work: Daily Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A The scientist le gusta a table, fortunately The scientist prefiere a gift!.",
-              "right": "The scientist likes a table, fortunately The scientist prefers a gift!."
+              "left": "A The waiter le gusta a laptop, as a consequence The waiter prefiere a pen - amazing.",
+              "right": "The waiter likes a laptop, as a consequence The waiter prefers a pen - amazing."
             },
             {
               "id": "p1",
-              "left": "A John le gusta a clock, while John prefiere an email..",
-              "right": "John likes a clock, while John prefers an email.."
+              "left": "A The student le gusta a printer, despite The student prefiere football - interesting.",
+              "right": "The student likes a printer, despite The student prefers football - interesting."
             },
             {
               "id": "p2",
-              "left": "A The nurse le gusta tennis, meanwhile The nurse prefiere a watch - interesting.",
-              "right": "The nurse likes tennis, meanwhile The nurse prefers a watch - interesting."
+              "left": "A The singer le gusta a pen, meanwhile The singer prefiere a book - interesting.",
+              "right": "The singer likes a pen, meanwhile The singer prefers a book - interesting."
             },
             {
               "id": "p3",
-              "left": "A The player le gusta a report, since The player prefiere a chair..",
-              "right": "The player likes a report, since The player prefers a chair.."
+              "left": "A A colleague le gusta a radio, fortunately A colleague prefiere football - interesting.",
+              "right": "A colleague likes a radio, fortunately A colleague prefers football - interesting."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1929,35 +1889,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Daily Routine):",
-          "tts_en": "The teacher likes a newspaper, since The teacher prefers a watch (now).",
-          "correct_answer": "The teacher likes a newspaper, since The teacher prefers a watch (now).",
+          "prompt_es": "Dictado 39 (Work: Daily Routine):",
+          "tts_en": "My sister likes a door, unfortunately My sister prefers a cat - 168.",
+          "correct_answer": "My sister likes a door, unfortunately My sister prefers a cat - 168.",
           "mastery_tag": "listening",
           "interaction_id": "U5_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 39:",
           "options": [
             {
               "id": "o4",
-              "text": "cat6002"
-            },
-            {
-              "id": "o0",
-              "text": "car"
+              "text": "Pen4131"
             },
             {
               "id": "o2",
-              "text": "train"
+              "text": "Sofa"
             },
             {
-              "id": "o3",
-              "text": "plane"
+              "id": "o0",
+              "text": "Table"
             },
             {
               "id": "o1",
-              "text": "bus"
+              "text": "Chair"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
             }
           ],
           "correct_answer": "o4",
@@ -1970,8 +1930,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "TV / ever / hardly / I / in / watch / evenings / the - 429",
-              "back": "I hardly ever watch TV in the evenings - 429"
+              "front": "often / money / Sally / her / borrows / friends / from!",
+              "back": "Sally often borrows money from her friends!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1980,50 +1940,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 39 (Work: Daily Routine):",
-          "instruction_en": "A small story about Work: Daily Routine. [Ref: 22]",
+          "instruction_en": "Why is Work: Daily Routine important? [Ref: 90]",
           "mastery_tag": "writing",
           "interaction_id": "U5_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 39 (Work: Daily Routine):",
-          "stimulus_en": "Improve Work: Daily Routine. (796)",
+          "stimulus_en": "The Connectors is here. (623)",
           "mastery_tag": "speaking",
           "interaction_id": "U5_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
-          "stimulus": "Matching set 3502",
+          "prompt_es": "Une 35 (Work: Daily Routine):",
+          "stimulus": "Matching set 4357",
           "items": [
             {
               "id": "i0",
-              "text": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo!",
+              "text": "En espa\u00f1ol dir\u00edamos - 913",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo - 732",
+              "text": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo - 539",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "2. Let\u2019s do the same with the first example.",
+              "text": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son!",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo.!"
+              "id": "m1",
+              "text": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. - 539"
             },
             {
-              "id": "m1",
-              "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - 732"
+              "id": "m0",
+              "text": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest). - 913"
             },
             {
               "id": "m2",
-              "text": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject!."
+              "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar.!"
             }
           ],
           "correct_answer": {
@@ -2036,7 +1996,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Work: Daily Routine):",
+          "prompt_es": "Clasifica 35 (Work: Daily Routine):",
           "categories": [
             {
               "id": "c1",
@@ -2044,7 +2004,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "my father usually goes to work by bus - interesting"
+                  "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables.."
                 }
               ]
             },
@@ -2054,7 +2014,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "biscuit) Patatas fritas (today)"
+                  "text": "My friend has a lot of money. - 952"
                 }
               ]
             }
@@ -2064,19 +2024,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "main_text": "In Work: Daily Routine (5409), The doctor [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 35 (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (4021), She [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "wrote"
+                  "text": "fixed"
                 },
                 {
                   "id": "o2",
-                  "text": "write"
+                  "text": "fix"
                 }
               ]
             },
@@ -2085,11 +2045,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
+                  "text": "drank"
                 },
                 {
                   "id": "o2",
-                  "text": "organize"
+                  "text": "drink"
                 }
               ]
             }
@@ -2103,21 +2063,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Daily Routine:",
-          "stimulus_en": "The student likes a bag, furthermore The student prefers tennis - 343.",
-          "stimulus_es": "A The student le gusta a bag, furthermore The student prefiere tennis - 343.",
+          "prompt_es": "Elige 35 para Work: Daily Routine:",
+          "stimulus_en": "You likes a computer, nonetheless You prefers a laptop - interesting.",
+          "stimulus_es": "A You le gusta a computer, nonetheless You prefiere a laptop - interesting.",
           "options": [
             {
               "id": "o2",
               "text": "but"
             },
             {
-              "id": "o3",
-              "text": "Other 1935"
+              "id": "o1",
+              "text": "nonetheless"
             },
             {
-              "id": "o1",
-              "text": "furthermore"
+              "id": "o3",
+              "text": "Other 1516"
             }
           ],
           "correct_answer": "o1",
@@ -2126,39 +2086,55 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Daily Routine:",
+          "prompt_es": "Ordena 35 sobre Work: Daily Routine:",
           "options": [
             {
-              "id": "w7",
-              "text": "football"
-            },
-            {
-              "id": "w1",
-              "text": "likes"
+              "id": "w10",
+              "text": "bag"
             },
             {
               "id": "w3",
-              "text": "pizza"
-            },
-            {
-              "id": "w6",
-              "text": "prefers"
-            },
-            {
-              "id": "w4",
-              "text": "since"
-            },
-            {
-              "id": "w2",
               "text": "a"
             },
             {
+              "id": "w8",
+              "text": "prefers"
+            },
+            {
+              "id": "w9",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "watch"
+            },
+            {
+              "id": "w6",
+              "text": "A"
+            },
+            {
+              "id": "w7",
+              "text": "colleague"
+            },
+            {
               "id": "w5",
-              "text": "John"
+              "text": "moreover"
             },
             {
               "id": "w0",
-              "text": "John"
+              "text": "A"
+            },
+            {
+              "id": "w2",
+              "text": "likes"
+            },
+            {
+              "id": "w1",
+              "text": "colleague"
+            },
+            {
+              "id": "w11",
+              "text": "amazing"
             }
           ],
           "correct_answer": [
@@ -2169,51 +2145,55 @@
             "w4",
             "w5",
             "w6",
-            "w7"
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U5_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Daily Routine):",
-          "stimulus_en": "The actress likes a clock, ___ The actress prefers a newspaper - interesting.",
-          "correct_answer": "however",
+          "prompt_es": "Completa 40 (Work: Daily Routine):",
+          "stimulus_en": "My sister likes a television, ___ My sister prefers a door (today).",
+          "correct_answer": "nevertheless",
           "mastery_tag": "grammar",
           "interaction_id": "U5_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
-          "stimulus_en": "She likes a ticket, although She prefers a laptop!.",
-          "stimulus_es": "Ref: A She le gusta a ticket, although She prefiere a laptop!.",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 40 (Work: Daily Routine)",
+          "stimulus_en": "Maria likes a bike, but Maria prefers an apple (today).",
+          "stimulus_es": "Ref: A Maria le gusta a bike, nonetheless Maria prefiere an apple (today).",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U5_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "prompt_es": "Relaciona 40 (Work: Daily Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A The coach le gusta music, furthermore The coach prefiere a pen!.",
-              "right": "The coach likes music, furthermore The coach prefers a pen!."
+              "left": "A They le gusta football, while They prefiere a letter - amazing.",
+              "right": "They likes football, while They prefers a letter - amazing."
             },
             {
               "id": "p1",
-              "left": "A The player le gusta a television, furthermore The player prefiere a letter - interesting.",
-              "right": "The player likes a television, furthermore The player prefers a letter - interesting."
+              "left": "A The student le gusta music, while The student prefiere a television..",
+              "right": "The student likes music, while The student prefers a television.."
             },
             {
               "id": "p2",
-              "left": "A She le gusta a watch, consequently She prefiere a pen - 753.",
-              "right": "She likes a watch, consequently She prefers a pen - 753."
+              "left": "A She le gusta a phone, therefore She prefiere football....",
+              "right": "She likes a phone, therefore She prefers football...."
             },
             {
               "id": "p3",
-              "left": "A The teacher le gusta a camera, unfortunately The teacher prefiere a pizza (today).",
-              "right": "The teacher likes a camera, unfortunately The teacher prefers a pizza (today)."
+              "left": "A The baker le gusta a pen, since The baker prefiere a computer (now).",
+              "right": "The baker likes a pen, since The baker prefers a computer (now)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2221,35 +2201,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Daily Routine):",
-          "tts_en": "He likes a dog, otherwise He prefers a phone..",
-          "correct_answer": "He likes a dog, otherwise He prefers a phone..",
+          "prompt_es": "Dictado 40 (Work: Daily Routine):",
+          "tts_en": "Our neighbors likes a car, nevertheless Our neighbors prefers a chair!.",
+          "correct_answer": "Our neighbors likes a car, nevertheless Our neighbors prefers a chair!.",
           "mastery_tag": "listening",
           "interaction_id": "U5_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 40:",
           "options": [
             {
-              "id": "o4",
-              "text": "Hot7036"
-            },
-            {
               "id": "o2",
-              "text": "Star"
+              "text": "Angry"
             },
             {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
+              "id": "o4",
+              "text": "Fast7448"
             },
             {
               "id": "o0",
-              "text": "Sun"
+              "text": "Happy"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
             }
           ],
           "correct_answer": "o4",
@@ -2262,8 +2242,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales.",
-              "back": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/.."
+              "front": "Uncountable nouns.",
+              "back": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb.."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2272,14 +2252,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 40 (Work: Daily Routine):",
-          "instruction_en": "Why is Work: Daily Routine important? [Ref: 41]",
+          "instruction_en": "Your daily routine in Work: Daily Routine. [Ref: 85]",
           "mastery_tag": "writing",
           "interaction_id": "U5_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 40 (Work: Daily Routine):",
-          "stimulus_en": "Study Work: Daily Routine now. (914)",
+          "stimulus_en": "The Connectors is here. (401)",
           "mastery_tag": "speaking",
           "interaction_id": "U5_I100"
         }

@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Furniture):",
-          "stimulus_en": "The chef has ___ worked a ticket in the balcony - 716.",
+          "prompt_es": "Completa 449 (Home: Furniture):",
+          "stimulus_en": "The singer has ___ played a dog in the station!.",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U57_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Furniture)",
-          "stimulus_en": "My brother has yet taught music in the beach - amazing.",
-          "stimulus_es": "Ref: My brother ya ha taught music en the beach - amazing.",
+          "prompt_es": "\u00bfCorrecto? 449 (Home: Furniture)",
+          "stimulus_en": "John has yet eaten a radio in the beach (now).",
+          "stimulus_es": "Ref: John ya ha eaten a radio en the beach (now).",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U57_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
+          "prompt_es": "Relaciona 449 (Home: Furniture):",
           "pairs": [
             {
               "id": "p0",
-              "left": "They ya ha designed a report en the mountains (now).",
-              "right": "They has already designed a report in the mountains (now)."
+              "left": "The boss ya ha drunk a watch en the country....",
+              "right": "The boss has already drunk a watch in the country...."
             },
             {
               "id": "p1",
-              "left": "You ya ha watched a table en the restaurant..",
-              "right": "You has already watched a table in the restaurant.."
+              "left": "My brother ya ha cleaned a book en the hospital - amazing.",
+              "right": "My brother has already cleaned a book in the hospital - amazing."
             },
             {
               "id": "p2",
-              "left": "The teacher ya ha created coffee en the country!.",
-              "right": "The teacher has already created coffee in the country!."
+              "left": "I ya ha called a sandwich en the museum..",
+              "right": "I has already called a sandwich in the museum.."
             },
             {
               "id": "p3",
-              "left": "They ya ha studied tennis en school - amazing.",
-              "right": "They has already studied tennis in school - amazing."
+              "left": "You ya ha worked a report en the station....",
+              "right": "You has already worked a report in the station...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Furniture):",
-          "tts_en": "The pilot has already created a table in the country....",
-          "correct_answer": "The pilot has already created a table in the country....",
+          "prompt_es": "Dictado 449 (Home: Furniture):",
+          "tts_en": "The nurse has already played music in the airport....",
+          "correct_answer": "The nurse has already played music in the airport....",
           "mastery_tag": "listening",
           "interaction_id": "U57_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 449:",
           "options": [
             {
               "id": "o4",
-              "text": "Pen8144"
-            },
-            {
-              "id": "o0",
-              "text": "Table"
-            },
-            {
-              "id": "o1",
-              "text": "Chair"
+              "text": "June1540"
             },
             {
               "id": "o2",
-              "text": "Sofa"
+              "text": "Sunday"
             },
             {
               "id": "o3",
-              "text": "Bed"
+              "text": "Friday"
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday"
+            },
+            {
+              "id": "o0",
+              "text": "Monday"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Common mistake!",
-              "back": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele.!"
+              "front": "4. go to bed before 11 / often / I...",
+              "back": "I often go to bed before 11..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 449 (Home: Furniture):",
-          "instruction_en": "Your daily routine in Home: Furniture. [Ref: 42]",
+          "instruction_en": "Review Home: Furniture from last week. [Ref: 46]",
           "mastery_tag": "writing",
           "interaction_id": "U57_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 449 (Home: Furniture):",
-          "stimulus_en": "This is Home: Furniture. (493)",
+          "stimulus_en": "I like Home: Furniture. (458)",
           "mastery_tag": "speaking",
           "interaction_id": "U57_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
-          "stimulus": "Matching set 195",
+          "prompt_es": "Une 393 (Home: Furniture):",
+          "stimulus": "Matching set 8986",
           "items": [
             {
               "id": "i0",
-              "text": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba!",
+              "text": "3. Las hermanas de Pedro (today)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son - interesting",
+              "text": "Tienes zapatos para la boda? (now)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Cu\u00e1l es la playa m\u00e1s larga en la que has estado nunca? - interesting",
+              "text": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo...",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar. - interesting"
+              "text": "do you have any shoes for the wedding (now)"
             },
             {
               "id": "m0",
-              "text": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM!"
+              "text": "Peter\u2019s sisters (today)"
             },
             {
               "id": "m2",
-              "text": "What\u2019s the longest beach you\u2019ve ever been to - interesting"
+              "text": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo...."
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Home: Furniture):",
+          "prompt_es": "Clasifica 393 (Home: Furniture):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "in summer, in winter. - interesting"
+                  "text": "on the Internet!"
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "have you ever spoken English on the phone..."
+                  "text": "would you like some more (today)"
                 }
               ]
             }
@@ -202,19 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Furniture):",
-          "main_text": "In Home: Furniture (544), A colleague [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 393 (Home: Furniture):",
+          "main_text": "In Home: Furniture (3439), The doctor [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "visited"
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "visit"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "called"
+                  "text": "taught"
                 },
                 {
                   "id": "o2",
-                  "text": "call"
+                  "text": "teach"
                 }
               ]
             }
@@ -241,21 +241,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Furniture:",
-          "stimulus_en": "Sarah has already started a house in the airport - amazing.",
-          "stimulus_es": "Sarah ya ha started a house en the airport - amazing.",
+          "prompt_es": "Elige 393 para Home: Furniture:",
+          "stimulus_en": "The student has already read a bike in the library!.",
+          "stimulus_es": "The student ya ha read a bike en the library!.",
           "options": [
             {
               "id": "o1",
               "text": "already"
             },
             {
-              "id": "o3",
-              "text": "Other 8732"
-            },
-            {
               "id": "o2",
               "text": "yet"
+            },
+            {
+              "id": "o3",
+              "text": "Other 7924"
             }
           ],
           "correct_answer": "o1",
@@ -264,19 +264,39 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Furniture:",
+          "prompt_es": "Ordena 393 sobre Home: Furniture:",
           "options": [
             {
-              "id": "w1",
-              "text": "player"
+              "id": "w5",
+              "text": "studied"
             },
             {
-              "id": "w4",
-              "text": "sent"
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "has"
             },
             {
               "id": "w2",
-              "text": "has"
+              "text": "officer"
+            },
+            {
+              "id": "w10",
+              "text": "315"
+            },
+            {
+              "id": "w4",
+              "text": "already"
+            },
+            {
+              "id": "w1",
+              "text": "police"
+            },
+            {
+              "id": "w7",
+              "text": "in"
             },
             {
               "id": "w0",
@@ -284,31 +304,11 @@
             },
             {
               "id": "w9",
-              "text": "stadium"
+              "text": "museum"
             },
             {
               "id": "w6",
-              "text": "report"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "already"
-            },
-            {
-              "id": "w10",
-              "text": "(now)"
+              "text": "football"
             }
           ],
           "correct_answer": [
@@ -329,44 +329,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Furniture):",
-          "stimulus_en": "Sarah has ___ received a bag in the garage..",
+          "prompt_es": "Completa 450 (Home: Furniture):",
+          "stimulus_en": "The artist has ___ started a cat in the street....",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U57_I15"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Furniture)",
-          "stimulus_en": "I has yet worked a ticket in the stadium..",
-          "stimulus_es": "Ref: I ya ha worked a ticket en the stadium..",
+          "prompt_es": "\u00bfCorrecto? 450 (Home: Furniture)",
+          "stimulus_en": "A colleague has yet drunk a bike in the kitchen (now).",
+          "stimulus_es": "Ref: A colleague ya ha drunk a bike en the kitchen (now).",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U57_I16"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
+          "prompt_es": "Relaciona 450 (Home: Furniture):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A colleague ya ha sent English en the stadium - interesting.",
-              "right": "A colleague has already sent English in the stadium - interesting."
+              "left": "The student ya ha helped a house en the shop (today).",
+              "right": "The student has already helped a house in the shop (today)."
             },
             {
               "id": "p1",
-              "left": "The artist ya ha drunk a television en the woods - amazing.",
-              "right": "The artist has already drunk a television in the woods - amazing."
+              "left": "John ya ha built English en the beach (now).",
+              "right": "John has already built English in the beach (now)."
             },
             {
               "id": "p2",
-              "left": "She ya ha driven a newspaper en the kitchen..",
-              "right": "She has already driven a newspaper in the kitchen.."
+              "left": "Our neighbors ya ha traveled a gift en the gym!.",
+              "right": "Our neighbors has already traveled a gift in the gym!."
             },
             {
               "id": "p3",
-              "left": "The doctor ya ha sent an apple en London....",
-              "right": "The doctor has already sent an apple in London...."
+              "left": "The police officer ya ha started a phone en London!.",
+              "right": "The police officer has already started a phone in London!."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -374,35 +374,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Furniture):",
-          "tts_en": "The teacher has already visited a pen in the balcony - interesting.",
-          "correct_answer": "The teacher has already visited a pen in the balcony - interesting.",
+          "prompt_es": "Dictado 450 (Home: Furniture):",
+          "tts_en": "The artist has already bought tennis in the garage (now).",
+          "correct_answer": "The artist has already bought tennis in the garage (now).",
           "mastery_tag": "listening",
           "interaction_id": "U57_I18"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 450:",
           "options": [
             {
               "id": "o1",
-              "text": "Piano"
+              "text": "Chair"
             },
             {
               "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
-            },
-            {
-              "id": "o2",
-              "text": "Flute"
+              "text": "Bed"
             },
             {
               "id": "o4",
-              "text": "Book6104"
+              "text": "Pen4986"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
             }
           ],
           "correct_answer": "o4",
@@ -415,8 +415,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Por tanto, podemos afirmar que -ed para personas y -ing para cosas o situaciones. Es cierto que a veces tambi\u00e9n utilizamos -ing para personas, y \u00bfcu\u00e1ndo? Debes tener en cuenta que la terminaci\u00f3n -ing indica una cualidad permanente, mientras que -ed es temporal. Si yo digo (today)",
-              "back": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. (today)"
+              "front": "Chips (Br Eng) (Am Eng - interesting",
+              "back": "biscuit) Patatas fritas - interesting"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -425,50 +425,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 450 (Home: Furniture):",
-          "instruction_en": "Your daily routine in Home: Furniture. [Ref: 14]",
+          "instruction_en": "Compare Home: Furniture with another topic. [Ref: 83]",
           "mastery_tag": "writing",
           "interaction_id": "U57_I21"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 450 (Home: Furniture):",
-          "stimulus_en": "Study Home: Furniture now. (437)",
+          "stimulus_en": "Where is Home: Furniture? (815)",
           "mastery_tag": "speaking",
           "interaction_id": "U57_I22"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
-          "stimulus": "Matching set 4478",
+          "prompt_es": "Une 394 (Home: Furniture):",
+          "stimulus": "Matching set 4074",
           "items": [
             {
               "id": "i0",
-              "text": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo - interesting",
+              "text": "A qu\u00e9 hora tenemos el examen? (today)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Y en negativa (now)",
+              "text": "visits / Jonathan / usually / dentist / the - 359",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Qu\u00e9 es lo que empieza?.",
+              "text": "Te veo el s\u00e1bado...",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "la pel\u00edcula, entonces SUBJECT = THE FILM."
-            },
-            {
               "id": "m1",
-              "text": "I don\u2019t have any friends who live near my house. (now)"
+              "text": "Jonathan usually visits the dentist - 359"
             },
             {
               "id": "m0",
-              "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - interesting"
+              "text": "What time do we have our exam (today)"
+            },
+            {
+              "id": "m2",
+              "text": "I\u2019ll see you on Saturday..."
             }
           ],
           "correct_answer": {
@@ -481,7 +481,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Home: Furniture):",
+          "prompt_es": "Clasifica 394 (Home: Furniture):",
           "categories": [
             {
               "id": "c1",
@@ -489,7 +489,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "would you like some coke? (today)"
+                  "text": "I never drink alcohol if I drive a car..."
                 }
               ]
             },
@@ -499,7 +499,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. (now)"
+                  "text": "any + thing = en oraci\u00f3n INTERROGATIVA. - interesting"
                 }
               ]
             }
@@ -509,19 +509,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Furniture):",
-          "main_text": "In Home: Furniture (1577), Sarah [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 394 (Home: Furniture):",
+          "main_text": "In Home: Furniture (3652), A colleague [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "traveled"
+                  "text": "bought"
                 },
                 {
                   "id": "o2",
-                  "text": "travel"
+                  "text": "buy"
                 }
               ]
             },
@@ -530,11 +530,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "read"
+                  "text": "prepared"
                 },
                 {
                   "id": "o2",
-                  "text": "read"
+                  "text": "prepare"
                 }
               ]
             }
@@ -548,9 +548,301 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Furniture:",
-          "stimulus_en": "The scientist has already learned a pen in the gym!.",
-          "stimulus_es": "The scientist ya ha learned a pen en the gym!.",
+          "prompt_es": "Elige 394 para Home: Furniture:",
+          "stimulus_en": "The player has already eaten English in the beach..",
+          "stimulus_es": "The player ya ha eaten English en the beach..",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 1197"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U57_I26"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 394 sobre Home: Furniture:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w2",
+              "text": "already"
+            },
+            {
+              "id": "w7",
+              "text": "amazing"
+            },
+            {
+              "id": "w3",
+              "text": "drunk"
+            },
+            {
+              "id": "w6",
+              "text": "school"
+            },
+            {
+              "id": "w4",
+              "text": "football"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U57_I27"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 451 (Home: Furniture):",
+          "stimulus_en": "The singer has ___ taught a sandwich in London..",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U57_I28"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 451 (Home: Furniture)",
+          "stimulus_en": "He has already listened a book in the country (now).",
+          "stimulus_es": "Ref: He ya ha listened a book en the country (now).",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U57_I29"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 451 (Home: Furniture):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The driver ya ha bought a letter en the beach - 571.",
+              "right": "The driver has already bought a letter in the beach - 571."
+            },
+            {
+              "id": "p1",
+              "left": "My friend ya ha walked a book en the street (now).",
+              "right": "My friend has already walked a book in the street (now)."
+            },
+            {
+              "id": "p2",
+              "left": "The driver ya ha traveled a chair en the beach (today).",
+              "right": "The driver has already traveled a chair in the beach (today)."
+            },
+            {
+              "id": "p3",
+              "left": "The baker ya ha stopped a sandwich en the hospital - 643.",
+              "right": "The baker has already stopped a sandwich in the hospital - 643."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U57_I30"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 451 (Home: Furniture):",
+          "tts_en": "The coach has already stopped coffee in the kitchen - amazing.",
+          "correct_answer": "The coach has already stopped coffee in the kitchen - amazing.",
+          "mastery_tag": "listening",
+          "interaction_id": "U57_I31"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 451:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o4",
+              "text": "Pen4967"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U57_I32"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 451 - Home: Furniture:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "me / Paul / helps / sometimes / my / with / homework (now)",
+              "back": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U57_I33"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 451 (Home: Furniture):",
+          "instruction_en": "Why is Home: Furniture important? [Ref: 55]",
+          "mastery_tag": "writing",
+          "interaction_id": "U57_I34"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 451 (Home: Furniture):",
+          "stimulus_en": "Study Home: Furniture now. (813)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U57_I35"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 395 (Home: Furniture):",
+          "stimulus": "Matching set 1805",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "3. usually/ arrives late / the bus.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Alguna vez has probado la comida tailandesa?.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "Have you ever tried Thai food."
+            },
+            {
+              "id": "m1",
+              "text": "the bus usually arrives late."
+            },
+            {
+              "id": "m0",
+              "text": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado...."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U57_I36"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 395 (Home: Furniture):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n)..."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "My friend has a lot of money...."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U57_I37"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 395 (Home: Furniture):",
+          "main_text": "In Home: Furniture (7052), Maria [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "watched"
+                },
+                {
+                  "id": "o2",
+                  "text": "watch"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "checked"
+                },
+                {
+                  "id": "o2",
+                  "text": "check"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U57_I38"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 395 para Home: Furniture:",
+          "stimulus_en": "The boss has already driven a clock in the garage - 481.",
+          "stimulus_es": "The boss ya ha driven a clock en the garage - 481.",
           "options": [
             {
               "id": "o1",
@@ -562,56 +854,56 @@
             },
             {
               "id": "o3",
-              "text": "Other 8135"
+              "text": "Other 1616"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U57_I26"
+          "interaction_id": "U57_I39"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Furniture:",
+          "prompt_es": "Ordena 395 sobre Home: Furniture:",
           "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w9",
-              "text": "park"
-            },
             {
               "id": "w7",
               "text": "in"
             },
             {
-              "id": "w6",
-              "text": "letter"
+              "id": "w4",
+              "text": "traveled"
             },
             {
-              "id": "w2",
-              "text": "has"
+              "id": "w1",
+              "text": "neighbors"
             },
             {
               "id": "w8",
               "text": "the"
             },
             {
+              "id": "w9",
+              "text": "restaurant"
+            },
+            {
+              "id": "w0",
+              "text": "Our"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "letter"
+            },
+            {
               "id": "w3",
               "text": "already"
             },
             {
-              "id": "w1",
-              "text": "waiter"
-            },
-            {
-              "id": "w4",
-              "text": "written"
+              "id": "w2",
+              "text": "has"
             }
           ],
           "correct_answer": [
@@ -627,345 +919,48 @@
             "w9"
           ],
           "mastery_tag": "syntax",
-          "interaction_id": "U57_I27"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Furniture):",
-          "stimulus_en": "The chef has ___ finished a pizza in the park!.",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U57_I28"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Furniture)",
-          "stimulus_en": "She has yet watched a house in the garage..",
-          "stimulus_es": "Ref: She ya ha watched a house en the garage..",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U57_I29"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "I ya ha studied a movie en the garage..",
-              "right": "I has already studied a movie in the garage.."
-            },
-            {
-              "id": "p1",
-              "left": "The teacher ya ha traveled a house en the station (now).",
-              "right": "The teacher has already traveled a house in the station (now)."
-            },
-            {
-              "id": "p2",
-              "left": "My sister ya ha visited a car en the bedroom (now).",
-              "right": "My sister has already visited a car in the bedroom (now)."
-            },
-            {
-              "id": "p3",
-              "left": "The waiter ya ha written a printer en the garden..",
-              "right": "The waiter has already written a printer in the garden.."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U57_I30"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Furniture):",
-          "tts_en": "You has already played a laptop in the hospital - interesting.",
-          "correct_answer": "You has already played a laptop in the hospital - interesting.",
-          "mastery_tag": "listening",
-          "interaction_id": "U57_I31"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o2",
-              "text": "Flute"
-            },
-            {
-              "id": "o4",
-              "text": "Book5246"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U57_I32"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 451 - Home: Furniture:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "En qu\u00e9 trabaja Juan? - 903",
-              "back": "What does Juan do - 903"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U57_I33"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 451 (Home: Furniture):",
-          "instruction_en": "Describe Home: Furniture in 5 words. [Ref: 27]",
-          "mastery_tag": "writing",
-          "interaction_id": "U57_I34"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 451 (Home: Furniture):",
-          "stimulus_en": "Study Home: Furniture now. (213)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U57_I35"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
-          "stimulus": "Matching set 1715",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Mi cumplea\u00f1os es en febrero - 507",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Movie (Br Eng - interesting",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "try / police / keep / The / order / always / to / the...",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "film) Pel\u00edcula - interesting"
-            },
-            {
-              "id": "m2",
-              "text": "The police always try to keep the order..."
-            },
-            {
-              "id": "m0",
-              "text": "my birthday is in February. - 507"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U57_I36"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Home: Furniture):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "in May, in August, etc.!"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "Sometimes I have lunch in a restaurant. (today)"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U57_I37"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Furniture):",
-          "main_text": "In Home: Furniture (5327), My friend [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "visited"
-                },
-                {
-                  "id": "o2",
-                  "text": "visit"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "drove"
-                },
-                {
-                  "id": "o2",
-                  "text": "drive"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U57_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Furniture:",
-          "stimulus_en": "The architect has already worked a computer in the country!.",
-          "stimulus_es": "The architect ya ha worked a computer en the country!.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "already"
-            },
-            {
-              "id": "o3",
-              "text": "Other 8219"
-            },
-            {
-              "id": "o2",
-              "text": "yet"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U57_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Furniture:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "already"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "learned"
-            },
-            {
-              "id": "w7",
-              "text": "bank"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w8",
-              "text": "595"
-            },
-            {
-              "id": "w4",
-              "text": "music"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax",
           "interaction_id": "U57_I40"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Furniture):",
-          "stimulus_en": "We has ___ bought a pen in the stadium - amazing.",
+          "prompt_es": "Completa 452 (Home: Furniture):",
+          "stimulus_en": "They has ___ fixed a printer in the supermarket..",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U57_I41"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Furniture)",
-          "stimulus_en": "The player has already checked a chair in the mountains - amazing.",
-          "stimulus_es": "Ref: The player ya ha checked a chair en the mountains - amazing.",
+          "prompt_es": "\u00bfCorrecto? 452 (Home: Furniture)",
+          "stimulus_en": "The pilot has already drunk a report in the bank (now).",
+          "stimulus_es": "Ref: The pilot ya ha drunk a report en the bank (now).",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U57_I42"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
+          "prompt_es": "Relaciona 452 (Home: Furniture):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The baker ya ha cooked a printer en the park - amazing.",
-              "right": "The baker has already cooked a printer in the park - amazing."
+              "left": "My cousin ya ha built a gift en the station..",
+              "right": "My cousin has already built a gift in the station.."
             },
             {
               "id": "p1",
-              "left": "The waiter ya ha started a phone en the beach..",
-              "right": "The waiter has already started a phone in the beach.."
+              "left": "Maria ya ha planned a table en the office (now).",
+              "right": "Maria has already planned a table in the office (now)."
             },
             {
               "id": "p2",
-              "left": "My brother ya ha visited a movie en the university..",
-              "right": "My brother has already visited a movie in the university.."
+              "left": "The coach ya ha prepared English en the hotel - 761.",
+              "right": "The coach has already prepared English in the hotel - 761."
             },
             {
               "id": "p3",
-              "left": "The actress ya ha finished a report en Paris....",
-              "right": "The actress has already finished a report in Paris...."
+              "left": "They ya ha studied a letter en school..",
+              "right": "They has already studied a letter in school.."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -973,35 +968,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Furniture):",
-          "tts_en": "The architect has already received a television in the bedroom - interesting.",
-          "correct_answer": "The architect has already received a television in the bedroom - interesting.",
+          "prompt_es": "Dictado 452 (Home: Furniture):",
+          "tts_en": "The player has already eaten a letter in the hospital (today).",
+          "correct_answer": "The player has already eaten a letter in the hospital (today).",
           "mastery_tag": "listening",
           "interaction_id": "U57_I44"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 452:",
           "options": [
             {
-              "id": "o2",
-              "text": "pear"
-            },
-            {
               "id": "o4",
-              "text": "bike2103"
+              "text": "run5976"
             },
             {
-              "id": "o1",
-              "text": "banana"
-            },
-            {
-              "id": "o3",
-              "text": "mango"
+              "id": "o2",
+              "text": "green"
             },
             {
               "id": "o0",
-              "text": "apple"
+              "text": "blue"
+            },
+            {
+              "id": "o1",
+              "text": "red"
+            },
+            {
+              "id": "o3",
+              "text": "pink"
             }
           ],
           "correct_answer": "o4",
@@ -1014,8 +1009,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo (today)",
-              "back": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. (today)"
+              "front": "Otro common mistake (today)",
+              "back": "I haven\u2019t a car. (today)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1024,50 +1019,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 452 (Home: Furniture):",
-          "instruction_en": "Why is Home: Furniture important? [Ref: 17]",
+          "instruction_en": "List 3 facts about Home: Furniture. [Ref: 98]",
           "mastery_tag": "writing",
           "interaction_id": "U57_I47"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 452 (Home: Furniture):",
-          "stimulus_en": "I like Home: Furniture. (979)",
+          "stimulus_en": "Look at Home: Furniture. (591)",
           "mastery_tag": "speaking",
           "interaction_id": "U57_I48"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
-          "stimulus": "Matching set 8996",
+          "prompt_es": "Une 396 (Home: Furniture):",
+          "stimulus": "Matching set 2116",
           "items": [
             {
               "id": "i0",
-              "text": "\u00bfEst\u00e1s estudiando franc\u00e9s? - 909",
+              "text": "Metre (Br Eng) (Am Eng - amazing",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo.",
+              "text": "Qu\u00e9 tiempo verbal utilizamos? - interesting",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "De qui\u00e9n son esos libros?!",
+              "text": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "Whose books are those= or Whose are those books!"
+              "id": "m1",
+              "text": "present continuous, porque lo est\u00e1s buscando en este momento. - interesting"
             },
             {
-              "id": "m1",
-              "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta.."
+              "id": "m2",
+              "text": "I hardly ever go to the cinema = casi nunca voy al cine. - amazing"
             },
             {
               "id": "m0",
-              "text": "are you learning French? - 909"
+              "text": "meter) Metro - amazing"
             }
           ],
           "correct_answer": {
@@ -1080,7 +1075,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Home: Furniture):",
+          "prompt_es": "Clasifica 396 (Home: Furniture):",
           "categories": [
             {
               "id": "c1",
@@ -1088,7 +1083,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Jennifer usually goes out to see a concert!"
+                  "text": "have you ever spoken English on the phone."
                 }
               ]
             },
@@ -1098,7 +1093,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "she never drinks coffee in the evening..."
+                  "text": "may come, might go.."
                 }
               ]
             }
@@ -1108,19 +1103,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Furniture):",
-          "main_text": "In Home: Furniture (2303), The actress [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 396 (Home: Furniture):",
+          "main_text": "In Home: Furniture (1232), The nurse [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "sent"
+                  "text": "learned"
                 },
                 {
                   "id": "o2",
-                  "text": "send"
+                  "text": "learn"
                 }
               ]
             },
@@ -1129,11 +1124,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "fixed"
+                  "text": "listened"
                 },
                 {
                   "id": "o2",
-                  "text": "fix"
+                  "text": "listen"
                 }
               ]
             }
@@ -1147,21 +1142,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Furniture:",
-          "stimulus_en": "The teacher has already visited coffee in the kitchen....",
-          "stimulus_es": "The teacher ya ha visited coffee en the kitchen....",
+          "prompt_es": "Elige 396 para Home: Furniture:",
+          "stimulus_en": "The scientist has already played a gift in the office....",
+          "stimulus_es": "The scientist ya ha played a gift en the office....",
           "options": [
             {
-              "id": "o1",
-              "text": "already"
+              "id": "o3",
+              "text": "Other 5185"
             },
             {
               "id": "o2",
               "text": "yet"
             },
             {
-              "id": "o3",
-              "text": "Other 6289"
+              "id": "o1",
+              "text": "already"
             }
           ],
           "correct_answer": "o1",
@@ -1170,54 +1165,46 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Furniture:",
+          "prompt_es": "Ordena 396 sobre Home: Furniture:",
           "options": [
             {
               "id": "w3",
-              "text": "has"
-            },
-            {
-              "id": "w5",
-              "text": "planned"
-            },
-            {
-              "id": "w10",
-              "text": "office"
-            },
-            {
-              "id": "w7",
-              "text": "ticket"
-            },
-            {
-              "id": "w9",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "already"
-            },
-            {
-              "id": "w11",
-              "text": "(now)"
+              "text": "met"
             },
             {
               "id": "w2",
-              "text": "officer"
+              "text": "already"
+            },
+            {
+              "id": "w9",
+              "text": "574"
             },
             {
               "id": "w1",
-              "text": "police"
+              "text": "has"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "email"
+            },
+            {
+              "id": "w4",
+              "text": "an"
             },
             {
               "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "a"
+              "text": "Sarah"
             },
             {
               "id": "w8",
+              "text": "woods"
+            },
+            {
+              "id": "w6",
               "text": "in"
             }
           ],
@@ -1231,53 +1218,51 @@
             "w6",
             "w7",
             "w8",
-            "w9",
-            "w10",
-            "w11"
+            "w9"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U57_I53"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Furniture):",
-          "stimulus_en": "You has ___ cleaned a house in the bedroom - interesting.",
+          "prompt_es": "Completa 453 (Home: Furniture):",
+          "stimulus_en": "The lawyer has ___ sold a pen in the balcony - 919.",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U57_I54"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Furniture)",
-          "stimulus_en": "The driver has already watched a bike in the street!.",
-          "stimulus_es": "Ref: The driver ya ha watched a bike en the street!.",
+          "prompt_es": "\u00bfCorrecto? 453 (Home: Furniture)",
+          "stimulus_en": "The driver has already read a watch in the shop - interesting.",
+          "stimulus_es": "Ref: The driver ya ha read a watch en the shop - interesting.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U57_I55"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
+          "prompt_es": "Relaciona 453 (Home: Furniture):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The coach ya ha received a bag en the country (now).",
-              "right": "The coach has already received a bag in the country (now)."
+              "left": "The coach ya ha watched English en the garage!.",
+              "right": "The coach has already watched English in the garage!."
             },
             {
               "id": "p1",
-              "left": "A colleague ya ha fixed a newspaper en the mountains!.",
-              "right": "A colleague has already fixed a newspaper in the mountains!."
+              "left": "The coach ya ha traveled a printer en the airport - amazing.",
+              "right": "The coach has already traveled a printer in the airport - amazing."
             },
             {
               "id": "p2",
-              "left": "The baker ya ha started a computer en the cinema (now).",
-              "right": "The baker has already started a computer in the cinema (now)."
+              "left": "The baker ya ha spoken a movie en the garden....",
+              "right": "The baker has already spoken a movie in the garden...."
             },
             {
               "id": "p3",
-              "left": "He ya ha met an email en the street (now).",
-              "right": "He has already met an email in the street (now)."
+              "left": "You ya ha checked a television en school - amazing.",
+              "right": "You has already checked a television in school - amazing."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1285,23 +1270,27 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Furniture):",
-          "tts_en": "The doctor has already studied tennis in the street (now).",
-          "correct_answer": "The doctor has already studied tennis in the street (now).",
+          "prompt_es": "Dictado 453 (Home: Furniture):",
+          "tts_en": "The nurse has already traveled a chair in the shop - interesting.",
+          "correct_answer": "The nurse has already traveled a chair in the shop - interesting.",
           "mastery_tag": "listening",
           "interaction_id": "U57_I57"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 453:",
           "options": [
-            {
-              "id": "o4",
-              "text": "June2348"
-            },
             {
               "id": "o1",
               "text": "Tuesday"
+            },
+            {
+              "id": "o4",
+              "text": "June532"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
             },
             {
               "id": "o3",
@@ -1310,10 +1299,6 @@
             {
               "id": "o0",
               "text": "Monday"
-            },
-            {
-              "id": "o2",
-              "text": "Sunday"
             }
           ],
           "correct_answer": "o4",
@@ -1326,8 +1311,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Elevator (Br Eng!",
-              "back": "lift) Ascensor!"
+              "front": "Otro ejemplo - amazing",
+              "back": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1336,50 +1321,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 453 (Home: Furniture):",
-          "instruction_en": "Describe Home: Furniture in 5 words. [Ref: 27]",
+          "instruction_en": "Draft an email regarding Home: Furniture. [Ref: 32]",
           "mastery_tag": "writing",
           "interaction_id": "U57_I60"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 453 (Home: Furniture):",
-          "stimulus_en": "The Past Simple vs Present Perfect is here. (785)",
+          "stimulus_en": "Repeat Home: Furniture. (113)",
           "mastery_tag": "speaking",
           "interaction_id": "U57_I61"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
-          "stimulus": "Matching set 527",
+          "prompt_es": "Une 397 (Home: Furniture):",
+          "stimulus": "Matching set 4862",
           "items": [
             {
               "id": "i0",
-              "text": "Metre (Br Eng) (Am Eng...",
+              "text": "Hay guisantes en el frigo?.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales (now)",
+              "text": "Uncountable nouns (today)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "El marido de mi prima es alem\u00e1n y su madre irlandesa - interesting",
+              "text": "Bookstore (Br Eng (today)",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "my cousin\u2019s husband is German and his mother Irish. - interesting"
+              "text": "bookshop) Librer\u00eda (today)"
             },
             {
               "id": "m1",
-              "text": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio (now)"
+              "text": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. (today)"
             },
             {
               "id": "m0",
-              "text": "meter) Metro..."
+              "text": "are there any peas in the fridge."
             }
           ],
           "correct_answer": {
@@ -1392,7 +1377,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Home: Furniture):",
+          "prompt_es": "Clasifica 397 (Home: Furniture):",
           "categories": [
             {
               "id": "c1",
@@ -1400,7 +1385,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "What time does the train leave - interesting"
+                  "text": "What\u2019s that!"
                 }
               ]
             },
@@ -1410,7 +1395,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on. (now)"
+                  "text": "the students often use the dictionary."
                 }
               ]
             }
@@ -1420,19 +1405,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Furniture):",
-          "main_text": "In Home: Furniture (1998), The teacher [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 397 (Home: Furniture):",
+          "main_text": "In Home: Furniture (5298), You [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "planned"
+                  "text": "studied"
                 },
                 {
                   "id": "o2",
-                  "text": "plan"
+                  "text": "study"
                 }
               ]
             },
@@ -1441,11 +1426,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "wrote"
+                  "text": "prepared"
                 },
                 {
                   "id": "o2",
-                  "text": "write"
+                  "text": "prepare"
                 }
               ]
             }
@@ -1459,21 +1444,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Furniture:",
-          "stimulus_en": "The coach has already built a table in the supermarket..",
-          "stimulus_es": "The coach ya ha built a table en the supermarket..",
+          "prompt_es": "Elige 397 para Home: Furniture:",
+          "stimulus_en": "We has already planned a watch in the bedroom....",
+          "stimulus_es": "We ya ha planned a watch en the bedroom....",
           "options": [
             {
-              "id": "o1",
-              "text": "already"
+              "id": "o3",
+              "text": "Other 344"
             },
             {
               "id": "o2",
               "text": "yet"
             },
             {
-              "id": "o3",
-              "text": "Other 8565"
+              "id": "o1",
+              "text": "already"
             }
           ],
           "correct_answer": "o1",
@@ -1482,31 +1467,23 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Furniture:",
+          "prompt_es": "Ordena 397 sobre Home: Furniture:",
           "options": [
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "taught"
-            },
-            {
-              "id": "w3",
-              "text": "already"
-            },
             {
               "id": "w7",
               "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w9",
               "text": "office"
             },
             {
-              "id": "w1",
-              "text": "waiter"
+              "id": "w6",
+              "text": "printer"
             },
             {
               "id": "w2",
@@ -1517,12 +1494,20 @@
               "text": "a"
             },
             {
-              "id": "w0",
-              "text": "The"
+              "id": "w1",
+              "text": "coach"
             },
             {
-              "id": "w6",
-              "text": "movie"
+              "id": "w4",
+              "text": "finished"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "already"
             }
           ],
           "correct_answer": [
@@ -1542,44 +1527,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Furniture):",
-          "stimulus_en": "We has ___ written a gift in the university!.",
+          "prompt_es": "Completa 454 (Home: Furniture):",
+          "stimulus_en": "You has ___ checked tennis in the mountains (now).",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U57_I67"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Furniture)",
-          "stimulus_en": "The boss has yet learned football in the street..",
-          "stimulus_es": "Ref: The boss ya ha learned football en the street..",
+          "prompt_es": "\u00bfCorrecto? 454 (Home: Furniture)",
+          "stimulus_en": "The lawyer has yet designed a table in the shop..",
+          "stimulus_es": "Ref: The lawyer ya ha designed a table en the shop..",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U57_I68"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
+          "prompt_es": "Relaciona 454 (Home: Furniture):",
           "pairs": [
             {
               "id": "p0",
-              "left": "John ya ha prepared a gift en the supermarket....",
-              "right": "John has already prepared a gift in the supermarket...."
+              "left": "I ya ha studied a book en the park (today).",
+              "right": "I has already studied a book in the park (today)."
             },
             {
               "id": "p1",
-              "left": "The lawyer ya ha cooked a watch en the park - interesting.",
-              "right": "The lawyer has already cooked a watch in the park - interesting."
+              "left": "The boss ya ha checked a printer en the gym - 547.",
+              "right": "The boss has already checked a printer in the gym - 547."
             },
             {
               "id": "p2",
-              "left": "My cousin ya ha received a television en the beach....",
-              "right": "My cousin has already received a television in the beach...."
+              "left": "Sarah ya ha watched a window en London (today).",
+              "right": "Sarah has already watched a window in London (today)."
             },
             {
               "id": "p3",
-              "left": "The nurse ya ha taught a television en the university - interesting.",
-              "right": "The nurse has already taught a television in the university - interesting."
+              "left": "My cousin ya ha cleaned coffee en the street - amazing.",
+              "right": "My cousin has already cleaned coffee in the street - amazing."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1587,35 +1572,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Furniture):",
-          "tts_en": "They has already written a book in the street - 485.",
-          "correct_answer": "They has already written a book in the street - 485.",
+          "prompt_es": "Dictado 454 (Home: Furniture):",
+          "tts_en": "The singer has already designed a table in the airport..",
+          "correct_answer": "The singer has already designed a table in the airport..",
           "mastery_tag": "listening",
           "interaction_id": "U57_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 454:",
           "options": [
             {
-              "id": "o4",
-              "text": "Pen211"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
-            },
-            {
               "id": "o3",
-              "text": "Bed"
-            },
-            {
-              "id": "o0",
-              "text": "Table"
+              "text": "Friday"
             },
             {
               "id": "o1",
-              "text": "Chair"
+              "text": "Tuesday"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
+            },
+            {
+              "id": "o0",
+              "text": "Monday"
+            },
+            {
+              "id": "o4",
+              "text": "June5815"
             }
           ],
           "correct_answer": "o4",
@@ -1628,8 +1613,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "A qu\u00e9 hora abre el supermercado? - interesting",
-              "back": "What time does the supermarket open - interesting"
+              "front": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba - amazing",
+              "back": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1638,50 +1623,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 454 (Home: Furniture):",
-          "instruction_en": "List 3 facts about Home: Furniture. [Ref: 30]",
+          "instruction_en": "Review Home: Furniture from last week. [Ref: 38]",
           "mastery_tag": "writing",
           "interaction_id": "U57_I73"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 454 (Home: Furniture):",
-          "stimulus_en": "Repeat Home: Furniture. (529)",
+          "stimulus_en": "I like Home: Furniture. (119)",
           "mastery_tag": "speaking",
           "interaction_id": "U57_I74"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
-          "stimulus": "Matching set 9325",
+          "prompt_es": "Une 398 (Home: Furniture):",
+          "stimulus": "Matching set 9484",
           "items": [
             {
               "id": "i0",
-              "text": "3. Las hermanas de Pedro...",
+              "text": "\u2022in the fall (Br Eng (now)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Tienes hijos?...",
+              "text": "in + car/ taxi.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question ten\u00edamos la inversi\u00f3n entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet?\u00a0), en la indirect question, ya no hay inversi\u00f3n, sino que tenemos question word + subject + verb. Si te das cuenta, la inversi\u00f3n la tenemos en \u2018Can you tell me\u2026\u2019. Como ya tenemos una inversi\u00f3n al comenzar la pregunta, ya no podemos hacer otra inversi\u00f3n. Recuerda - amazing",
+              "text": "The correct thing (now)",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "Do you have any children..."
+              "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a).."
             },
             {
               "id": "m2",
-              "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n! - amazing"
+              "text": "I went to a state school. (now)"
             },
             {
               "id": "m0",
-              "text": "Peter\u2019s sisters..."
+              "text": "autumn) En oto\u00f1o (now)"
             }
           ],
           "correct_answer": {
@@ -1694,7 +1679,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Home: Furniture):",
+          "prompt_es": "Clasifica 398 (Home: Furniture):",
           "categories": [
             {
               "id": "c1",
@@ -1702,7 +1687,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "read, write, eat, run, sleep, etc - amazing"
+                  "text": "What\u2019s the funniest joke you\u2019ve ever been told (today)"
                 }
               ]
             },
@@ -1712,7 +1697,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "may come, might go. - 662"
+                  "text": "Go straight on and in front of the church there is a supermarket.!"
                 }
               ]
             }
@@ -1722,19 +1707,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Furniture):",
-          "main_text": "In Home: Furniture (8475), My cousin [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 398 (Home: Furniture):",
+          "main_text": "In Home: Furniture (7765), John [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "worked"
+                  "text": "played"
                 },
                 {
                   "id": "o2",
-                  "text": "work"
+                  "text": "play"
                 }
               ]
             },
@@ -1743,11 +1728,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "traveled"
+                  "text": "sent"
                 },
                 {
                   "id": "o2",
-                  "text": "travel"
+                  "text": "send"
                 }
               ]
             }
@@ -1761,21 +1746,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Furniture:",
-          "stimulus_en": "The police officer has already visited a letter in London - 808.",
-          "stimulus_es": "The police officer ya ha visited a letter en London - 808.",
+          "prompt_es": "Elige 398 para Home: Furniture:",
+          "stimulus_en": "The actress has already prepared a phone in school (today).",
+          "stimulus_es": "The actress ya ha prepared a phone en school (today).",
           "options": [
             {
               "id": "o2",
               "text": "yet"
             },
             {
-              "id": "o3",
-              "text": "Other 3003"
-            },
-            {
               "id": "o1",
               "text": "already"
+            },
+            {
+              "id": "o3",
+              "text": "Other 7070"
             }
           ],
           "correct_answer": "o1",
@@ -1784,39 +1769,43 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Furniture:",
+          "prompt_es": "Ordena 398 sobre Home: Furniture:",
           "options": [
             {
-              "id": "w1",
-              "text": "cousin"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
               "id": "w7",
-              "text": "school"
-            },
-            {
-              "id": "w3",
-              "text": "already"
+              "text": "the"
             },
             {
               "id": "w4",
-              "text": "taught"
+              "text": "a"
             },
             {
-              "id": "w5",
-              "text": "English"
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w3",
+              "text": "started"
+            },
+            {
+              "id": "w8",
+              "text": "office"
+            },
+            {
+              "id": "w0",
+              "text": "John"
             },
             {
               "id": "w6",
               "text": "in"
             },
             {
+              "id": "w5",
+              "text": "door"
+            },
+            {
               "id": "w2",
-              "text": "has"
+              "text": "already"
             }
           ],
           "correct_answer": [
@@ -1827,51 +1816,52 @@
             "w4",
             "w5",
             "w6",
-            "w7"
+            "w7",
+            "w8"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U57_I79"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Furniture):",
-          "stimulus_en": "My brother has ___ written an email in the woods (now).",
+          "prompt_es": "Completa 455 (Home: Furniture):",
+          "stimulus_en": "The police officer has ___ planned a sandwich in the hotel..",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U57_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Furniture)",
-          "stimulus_en": "The lawyer has yet cooked a book in the mountains....",
-          "stimulus_es": "Ref: The lawyer ya ha cooked a book en the mountains....",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 455 (Home: Furniture)",
+          "stimulus_en": "Maria has already met a letter in the gym..",
+          "stimulus_es": "Ref: Maria ya ha met a letter en the gym..",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U57_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
+          "prompt_es": "Relaciona 455 (Home: Furniture):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The boss ya ha read a camera en the kitchen - 417.",
-              "right": "The boss has already read a camera in the kitchen - 417."
+              "left": "He ya ha visited coffee en the library (today).",
+              "right": "He has already visited coffee in the library (today)."
             },
             {
               "id": "p1",
-              "left": "The manager ya ha sent coffee en school (today).",
-              "right": "The manager has already sent coffee in school (today)."
+              "left": "She ya ha cooked tennis en the bedroom - amazing.",
+              "right": "She has already cooked tennis in the bedroom - amazing."
             },
             {
               "id": "p2",
-              "left": "The student ya ha learned music en the park - amazing.",
-              "right": "The student has already learned music in the park - amazing."
+              "left": "Sarah ya ha fixed a sandwich en the stadium - amazing.",
+              "right": "Sarah has already fixed a sandwich in the stadium - amazing."
             },
             {
               "id": "p3",
-              "left": "He ya ha played English en the restaurant (today).",
-              "right": "He has already played English in the restaurant (today)."
+              "left": "My sister ya ha drunk a cat en the city - amazing.",
+              "right": "My sister has already drunk a cat in the city - amazing."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1879,35 +1869,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Furniture):",
-          "tts_en": "He has already read a camera in the library - interesting.",
-          "correct_answer": "He has already read a camera in the library - interesting.",
+          "prompt_es": "Dictado 455 (Home: Furniture):",
+          "tts_en": "The singer has already bought a camera in the mountains (now).",
+          "correct_answer": "The singer has already bought a camera in the mountains (now).",
           "mastery_tag": "listening",
           "interaction_id": "U57_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 455:",
           "options": [
             {
-              "id": "o0",
-              "text": "Monday"
-            },
-            {
               "id": "o3",
-              "text": "Friday"
-            },
-            {
-              "id": "o4",
-              "text": "June5199"
+              "text": "mango"
             },
             {
               "id": "o1",
-              "text": "Tuesday"
+              "text": "banana"
+            },
+            {
+              "id": "o0",
+              "text": "apple"
             },
             {
               "id": "o2",
-              "text": "Sunday"
+              "text": "pear"
+            },
+            {
+              "id": "o4",
+              "text": "bike6627"
             }
           ],
           "correct_answer": "o4",
@@ -1920,8 +1910,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Cabe destacar que la palabra every es singular en ingl\u00e9s, por tanto, tanto \u00abday\u00bb como cualquiera de los d\u00edas que pongamos, deben ir en singular. Es incorrecto decir (now)",
-              "back": "every days o every Tuesdays. (now)"
+              "front": "Para responder en plural, dir\u00edamos - interesting",
+              "back": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). - interesting"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1930,50 +1920,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 455 (Home: Furniture):",
-          "instruction_en": "List 3 facts about Home: Furniture. [Ref: 83]",
+          "instruction_en": "Your daily routine in Home: Furniture. [Ref: 16]",
           "mastery_tag": "writing",
           "interaction_id": "U57_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 455 (Home: Furniture):",
-          "stimulus_en": "I like Home: Furniture. (909)",
+          "stimulus_en": "I like Home: Furniture. (857)",
           "mastery_tag": "speaking",
           "interaction_id": "U57_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
-          "stimulus": "Matching set 3298",
+          "prompt_es": "Une 399 (Home: Furniture):",
+          "stimulus": "Matching set 2931",
           "items": [
             {
               "id": "i0",
-              "text": "Empecemos analizando el siguiente ejemplo - 409",
+              "text": "2. La hamburguesa de Harry (today)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "La podemos contestar de la seguiente manera - 255",
+              "text": "Otro ejemplo!",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Est\u00e1 estudiando ella ingl\u00e9s?!",
+              "text": "Los adjetivos tienen tres formas - 940",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "Is she studying English!"
+              "id": "m0",
+              "text": "Harry\u2019s burger (today)"
             },
             {
               "id": "m1",
-              "text": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l) - 255"
+              "text": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big.!"
             },
             {
-              "id": "m0",
-              "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). - 409"
+              "id": "m2",
+              "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. - 940"
             }
           ],
           "correct_answer": {
@@ -1986,7 +1976,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Home: Furniture):",
+          "prompt_es": "Clasifica 399 (Home: Furniture):",
           "categories": [
             {
               "id": "c1",
@@ -1994,7 +1984,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I haven\u2019t a car. - amazing"
+                  "text": "preguntas en ingl\u00e9s."
                 }
               ]
             },
@@ -2004,7 +1994,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Harry\u2019s burger!"
+                  "text": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost."
                 }
               ]
             }
@@ -2014,19 +2004,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Furniture):",
-          "main_text": "In Home: Furniture (7863), You [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 399 (Home: Furniture):",
+          "main_text": "In Home: Furniture (673), My cousin [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "helped"
+                  "text": "planned"
                 },
                 {
                   "id": "o2",
-                  "text": "help"
+                  "text": "plan"
                 }
               ]
             },
@@ -2035,11 +2025,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "traveled"
+                  "text": "read"
                 },
                 {
                   "id": "o2",
-                  "text": "travel"
+                  "text": "read"
                 }
               ]
             }
@@ -2053,21 +2043,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Furniture:",
-          "stimulus_en": "I has already started a cat in the mountains!.",
-          "stimulus_es": "I ya ha started a cat en the mountains!.",
+          "prompt_es": "Elige 399 para Home: Furniture:",
+          "stimulus_en": "She has already called a gift in the hospital - interesting.",
+          "stimulus_es": "She ya ha called a gift en the hospital - interesting.",
           "options": [
+            {
+              "id": "o1",
+              "text": "already"
+            },
             {
               "id": "o2",
               "text": "yet"
             },
             {
               "id": "o3",
-              "text": "Other 2294"
-            },
-            {
-              "id": "o1",
-              "text": "already"
+              "text": "Other 9705"
             }
           ],
           "correct_answer": "o1",
@@ -2076,35 +2066,47 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Furniture:",
+          "prompt_es": "Ordena 399 sobre Home: Furniture:",
           "options": [
             {
-              "id": "w3",
-              "text": "read"
-            },
-            {
-              "id": "w2",
-              "text": "already"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
               "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w6",
-              "text": "school"
-            },
-            {
-              "id": "w4",
-              "text": "English"
+              "text": "Our"
             },
             {
               "id": "w1",
+              "text": "neighbors"
+            },
+            {
+              "id": "w6",
+              "text": "dog"
+            },
+            {
+              "id": "w4",
+              "text": "spoken"
+            },
+            {
+              "id": "w9",
+              "text": "bank"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w2",
               "text": "has"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "already"
             }
           ],
           "correct_answer": [
@@ -2114,51 +2116,54 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7",
+            "w8",
+            "w9"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U57_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Furniture):",
-          "stimulus_en": "The singer has ___ received coffee in the mountains - 974.",
+          "prompt_es": "Completa 456 (Home: Furniture):",
+          "stimulus_en": "The scientist has ___ eaten a window in London - interesting.",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U57_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Furniture)",
-          "stimulus_en": "The lawyer has yet written a dog in the park - 933.",
-          "stimulus_es": "Ref: The lawyer ya ha written a dog en the park - 933.",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 456 (Home: Furniture)",
+          "stimulus_en": "The nurse has already cleaned a pizza in London (now).",
+          "stimulus_es": "Ref: The nurse ya ha cleaned a pizza en London (now).",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U57_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Furniture):",
+          "prompt_es": "Relaciona 456 (Home: Furniture):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The manager ya ha visited a sandwich en the university (now).",
-              "right": "The manager has already visited a sandwich in the university (now)."
+              "left": "My friend ya ha met a report en the office..",
+              "right": "My friend has already met a report in the office.."
             },
             {
               "id": "p1",
-              "left": "Maria ya ha planned a gift en the bedroom - 595.",
-              "right": "Maria has already planned a gift in the bedroom - 595."
+              "left": "The baker ya ha prepared a sandwich en the shop - amazing.",
+              "right": "The baker has already prepared a sandwich in the shop - amazing."
             },
             {
               "id": "p2",
-              "left": "A colleague ya ha called a door en the street - 253.",
-              "right": "A colleague has already called a door in the street - 253."
+              "left": "My cousin ya ha traveled English en the supermarket....",
+              "right": "My cousin has already traveled English in the supermarket...."
             },
             {
               "id": "p3",
-              "left": "He ya ha drunk English en the stadium!.",
-              "right": "He has already drunk English in the stadium!."
+              "left": "The actress ya ha started a phone en the restaurant!.",
+              "right": "The actress has already started a phone in the restaurant!."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2166,16 +2171,28 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Furniture):",
-          "tts_en": "The pilot has already written a printer in the university - interesting.",
-          "correct_answer": "The pilot has already written a printer in the university - interesting.",
+          "prompt_es": "Dictado 456 (Home: Furniture):",
+          "tts_en": "The scientist has already sold a chair in the park - 926.",
+          "correct_answer": "The scientist has already sold a chair in the park - 926.",
           "mastery_tag": "listening",
           "interaction_id": "U57_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 456:",
           "options": [
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
+            },
+            {
+              "id": "o4",
+              "text": "cat5463"
+            },
             {
               "id": "o3",
               "text": "plane"
@@ -2183,18 +2200,6 @@
             {
               "id": "o0",
               "text": "car"
-            },
-            {
-              "id": "o2",
-              "text": "train"
-            },
-            {
-              "id": "o4",
-              "text": "cat6769"
-            },
-            {
-              "id": "o1",
-              "text": "bus"
             }
           ],
           "correct_answer": "o4",
@@ -2207,8 +2212,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto - 369",
-              "back": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. - 369"
+              "front": "Si pasamos la oraci\u00f3n a interrogativa, quedar\u00eda as\u00ed (now)",
+              "back": "Do you have any friends who live near your house? = al ser interrogativa, any. (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2217,14 +2222,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 456 (Home: Furniture):",
-          "instruction_en": "Your daily routine in Home: Furniture. [Ref: 19]",
+          "instruction_en": "Review Home: Furniture from last week. [Ref: 34]",
           "mastery_tag": "writing",
           "interaction_id": "U57_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 456 (Home: Furniture):",
-          "stimulus_en": "This is Home: Furniture. (961)",
+          "stimulus_en": "Repeat Home: Furniture. (287)",
           "mastery_tag": "speaking",
           "interaction_id": "U57_I100"
         }

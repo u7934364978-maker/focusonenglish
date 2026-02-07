@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Future: Predictions):",
-          "stimulus_en": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM (today) (___)",
+          "prompt_es": "Completa 241 (Future: Predictions):",
+          "stimulus_en": "What time does the bus leave! (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U31_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Future: Predictions)",
-          "stimulus_en": "do you have any shoes for the wedding (now)",
-          "stimulus_es": "Ref: Tienes zapatos para la boda? (now)",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 241 (Future: Predictions)",
+          "stimulus_en": "la respuesta es ilimitada, puede ser cualquier cosa. (now)",
+          "stimulus_es": "Ref: Qu\u00e9 quieres? (now)",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U31_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
+          "prompt_es": "Relaciona 241 (Future: Predictions):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca?.",
-              "right": "What\u2019s the most difficult language you\u2019ve ever studied."
+              "left": "Uncountable nouns (now)",
+              "right": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. (now)"
             },
             {
               "id": "p1",
-              "left": "Por ejemplo - amazing",
-              "right": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. - amazing"
+              "left": "\u2013 Meses del a\u00f1o (today)",
+              "right": "in May, in August, etc. (today)"
             },
             {
               "id": "p2",
-              "left": "A qu\u00e9 hora abre el supermercado? - amazing",
-              "right": "What time does the supermarket open - amazing"
+              "left": "TV / ever / hardly / I / in / watch / evenings / the - amazing",
+              "right": "I hardly ever watch TV in the evenings - amazing"
             },
             {
               "id": "p3",
-              "left": "visits / Jonathan / usually / dentist / the - 578",
-              "right": "Jonathan usually visits the dentist - 578"
+              "left": "Est\u00e1 estudiando ella ingl\u00e9s? (today)",
+              "right": "Is she studying English (today)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Future: Predictions):",
-          "tts_en": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l) (today)",
-          "correct_answer": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l) (today)",
+          "prompt_es": "Dictado 241 (Future: Predictions):",
+          "tts_en": "do you have any brothers or sisters (today)",
+          "correct_answer": "do you have any brothers or sisters (today)",
           "mastery_tag": "listening",
           "interaction_id": "U31_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 241:",
           "options": [
             {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
-            },
-            {
-              "id": "o2",
-              "text": "salad"
-            },
-            {
               "id": "o0",
-              "text": "pizza"
+              "text": "Guitar"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
             },
             {
               "id": "o4",
-              "text": "rain5212"
+              "text": "Book2765"
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar (now)",
-              "back": "read, write, eat, run, sleep, etc (now)"
+              "front": "Has jugado alguna vez al ajedrez?...",
+              "back": "have you ever played chess..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 241 (Future: Predictions):",
-          "instruction_en": "Draft an email regarding Future: Predictions. [Ref: 19]",
+          "instruction_en": "Your daily routine in Future: Predictions. [Ref: 59]",
           "mastery_tag": "writing",
           "interaction_id": "U31_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 241 (Future: Predictions):",
-          "stimulus_en": "Look at Future: Predictions. (962)",
+          "stimulus_en": "Look at Future: Predictions. (565)",
           "mastery_tag": "speaking",
           "interaction_id": "U31_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
-          "stimulus": "Matching set 4783",
+          "prompt_es": "Une 211 (Future: Predictions):",
+          "stimulus": "Matching set 4500",
           "items": [
             {
               "id": "i0",
-              "text": "\u2013 Seasons (estaciones)!",
+              "text": "8. \u00a0usually / my father / goes to work by bus...",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Chips (Br Eng) (Am Eng - 941",
+              "text": "Esto si es un precio exacto, pero \u00bfy si hay c\u00e9ntimos? Entonces dir\u00edamos (today)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo.",
+              "text": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales (now)",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables.."
+              "id": "m0",
+              "text": "my father usually goes to work by bus..."
             },
             {
-              "id": "m0",
-              "text": "in summer, in winter.!"
+              "id": "m2",
+              "text": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio (now)"
             },
             {
               "id": "m1",
-              "text": "biscuit) Patatas fritas - 941"
+              "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. (today)"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Future: Predictions):",
+          "prompt_es": "Clasifica 211 (Future: Predictions):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a)...."
+                  "text": "I hardly ever go to the cinema = casi nunca voy al cine. - interesting"
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "She drives carefully. - interesting"
+                  "text": "Where did he/she tell you!"
                 }
               ]
             }
@@ -202,19 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Future: Predictions):",
-          "main_text": "In Future: Predictions (5022), John [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 211 (Future: Predictions):",
+          "main_text": "In Future: Predictions (9915), A colleague [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "cooked"
+                  "text": "cleaned"
                 },
                 {
                   "id": "o2",
-                  "text": "cook"
+                  "text": "clean"
                 }
               ]
             },
@@ -241,21 +241,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Future: Predictions:",
-          "stimulus_en": "meter) Metro - 186",
-          "stimulus_es": "Metre (Br Eng) (Am Eng - 186",
+          "prompt_es": "Elige 211 para Future: Predictions:",
+          "stimulus_en": "Jennifer usually goes out to see a concert!",
+          "stimulus_es": "see / usually / Jennifer / out / goes / a / to / concert!",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 7246"
+              "id": "o1",
+              "text": "Option A"
             },
             {
               "id": "o2",
               "text": "Option B"
             },
             {
-              "id": "o1",
-              "text": "Option A"
+              "id": "o3",
+              "text": "Other 7828"
             }
           ],
           "correct_answer": "o1",
@@ -264,95 +264,409 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Future: Predictions:",
+          "prompt_es": "Ordena 211 sobre Future: Predictions:",
           "options": [
             {
-              "id": "w0",
-              "text": "igual"
-            },
-            {
-              "id": "w10",
-              "text": "esta"
-            },
-            {
-              "id": "w20",
-              "text": "\u00abalguien\u00bb"
-            },
-            {
-              "id": "w16",
-              "text": "en"
-            },
-            {
-              "id": "w9",
-              "text": "que"
-            },
-            {
-              "id": "w6",
-              "text": "la"
-            },
-            {
-              "id": "w7",
-              "text": "\u00fanica"
-            },
-            {
-              "id": "w11",
-              "text": "oraci\u00f3n"
-            },
-            {
-              "id": "w18",
-              "text": "caso"
-            },
-            {
-              "id": "w14",
-              "text": "La"
-            },
-            {
-              "id": "w5",
-              "text": "con"
-            },
-            {
-              "id": "w4",
-              "text": "anterior"
-            },
-            {
-              "id": "w19",
-              "text": "es"
-            },
-            {
-              "id": "w21",
-              "text": "(now)"
-            },
-            {
-              "id": "w13",
-              "text": "INTERROGATIVA"
-            },
-            {
-              "id": "w8",
-              "text": "diferencia"
-            },
-            {
-              "id": "w17",
-              "text": "este"
-            },
-            {
               "id": "w1",
-              "text": "que"
+              "text": "days"
             },
             {
               "id": "w3",
-              "text": "oraci\u00f3n"
+              "text": "every"
             },
             {
-              "id": "w15",
-              "text": "traducci\u00f3n"
+              "id": "w4",
+              "text": "Tuesdays"
+            },
+            {
+              "id": "w0",
+              "text": "every"
             },
             {
               "id": "w2",
-              "text": "la"
+              "text": "o"
+            },
+            {
+              "id": "w5",
+              "text": "(now)"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U31_I14"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 242 (Future: Predictions):",
+          "stimulus_en": "Go straight on and in front of the church there is a supermarket.! (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U31_I15"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 242 (Future: Predictions)",
+          "stimulus_en": "men, women, people, etc.!",
+          "stimulus_es": "Ref: M\u00e1s plurales irregulares que nos podemos encontrar son!",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U31_I16"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 242 (Future: Predictions):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1 - 632",
+              "right": "Can I have your ID/ passport/ credit card?. - 632"
+            },
+            {
+              "id": "p1",
+              "left": "6. it / rain in the summer / often / doesn\u2019t (today)",
+              "right": "it doesn\u2019t often rain in the summer (today)"
+            },
+            {
+              "id": "p2",
+              "left": "Has visto alguna vez una pel\u00edcula en versi\u00f3n original? (now)",
+              "right": "have you ever seen a film in original version (now)"
+            },
+            {
+              "id": "p3",
+              "left": "A qu\u00e9 hora sale el tren? - interesting",
+              "right": "What time does the train leave - interesting"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U31_I17"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 242 (Future: Predictions):",
+          "tts_en": "What\u2019s the highest building you\u2019ve ever visited (now)",
+          "correct_answer": "What\u2019s the highest building you\u2019ve ever visited (now)",
+          "mastery_tag": "listening",
+          "interaction_id": "U31_I18"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 242:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Moon"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            },
+            {
+              "id": "o4",
+              "text": "Hot8465"
+            },
+            {
+              "id": "o3",
+              "text": "Planet"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U31_I19"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 242 - Future: Predictions:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "\u2013 D\u00edas de la semana (today)",
+              "back": "on Monday, on Wednesday, etc. (today)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U31_I20"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 242 (Future: Predictions):",
+          "instruction_en": "Write a note about Future: Predictions. [Ref: 72]",
+          "mastery_tag": "writing",
+          "interaction_id": "U31_I21"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 242 (Future: Predictions):",
+          "stimulus_en": "I like Future: Predictions. (692)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U31_I22"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 212 (Future: Predictions):",
+          "stimulus": "Matching set 3685",
+          "items": [
+            {
+              "id": "i0",
+              "text": "3. usually/ arrives late / the bus!",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material...",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Escribir ingl\u00e9s correctamente (now)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "uso de las may\u00fasculas (now)"
+            },
+            {
+              "id": "m0",
+              "text": "the bus usually arrives late!"
+            },
+            {
+              "id": "m1",
+              "text": "preguntas en ingl\u00e9s..."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U31_I23"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 212 (Future: Predictions):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Have you ever tried Thai food..."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "durante o desde hace."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U31_I24"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 212 (Future: Predictions):",
+          "main_text": "In Future: Predictions (474), The police officer [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "worked"
+                },
+                {
+                  "id": "o2",
+                  "text": "work"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "started"
+                },
+                {
+                  "id": "o2",
+                  "text": "start"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U31_I25"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 212 para Future: Predictions:",
+          "stimulus_en": "tire) Neum\u00e1tico (today)",
+          "stimulus_es": "Tyre (Am Eng (today)",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o3",
+              "text": "Other 7795"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U31_I26"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 212 sobre Future: Predictions:",
+          "options": [
+            {
+              "id": "w27",
+              "text": "al"
+            },
+            {
+              "id": "w20",
+              "text": "acci\u00f3n"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w13",
+              "text": "dos"
+            },
+            {
+              "id": "w5",
+              "text": "my"
+            },
+            {
+              "id": "w29",
+              "text": "tiempo"
+            },
+            {
+              "id": "w6",
+              "text": "husband"
+            },
+            {
+              "id": "w14",
+              "text": "estamos"
+            },
+            {
+              "id": "w15",
+              "text": "haciendo"
+            },
+            {
+              "id": "w19",
+              "text": "una"
+            },
+            {
+              "id": "w25",
+              "text": "dos"
             },
             {
               "id": "w12",
-              "text": "es"
+              "text": "los"
+            },
+            {
+              "id": "w22",
+              "text": "est\u00e1n"
+            },
+            {
+              "id": "w2",
+              "text": "watching"
+            },
+            {
+              "id": "w23",
+              "text": "ocurriendo"
+            },
+            {
+              "id": "w26",
+              "text": "acciones"
+            },
+            {
+              "id": "w10",
+              "text": "book"
+            },
+            {
+              "id": "w4",
+              "text": "while"
+            },
+            {
+              "id": "w8",
+              "text": "reading"
+            },
+            {
+              "id": "w17",
+              "text": "cada"
+            },
+            {
+              "id": "w28",
+              "text": "mismo"
+            },
+            {
+              "id": "w16",
+              "text": "algo"
+            },
+            {
+              "id": "w18",
+              "text": "uno"
+            },
+            {
+              "id": "w7",
+              "text": "was"
+            },
+            {
+              "id": "w11",
+              "text": "="
+            },
+            {
+              "id": "w3",
+              "text": "TV"
+            },
+            {
+              "id": "w9",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w24",
+              "text": "las"
+            },
+            {
+              "id": "w21",
+              "text": "pero"
             }
           ],
           "correct_answer": [
@@ -377,343 +691,59 @@
             "w18",
             "w19",
             "w20",
-            "w21"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U31_I14"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Future: Predictions):",
-          "stimulus_en": "I hadn\u2019t got a mobile. (now) (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U31_I15"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Future: Predictions)",
-          "stimulus_en": "Do you have any friends who live near your house? = al ser interrogativa, any. - interesting",
-          "stimulus_es": "Ref: Si pasamos la oraci\u00f3n a interrogativa, quedar\u00eda as\u00ed - interesting",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U31_I16"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Movie star (Br Eng (today)",
-              "right": "film star) Estrella de cine (today)"
-            },
-            {
-              "id": "p1",
-              "left": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n - 430",
-              "right": "Sometimes I have lunch in a restaurant. - 430"
-            },
-            {
-              "id": "p2",
-              "left": "Para responder en plural, dir\u00edamos...",
-              "right": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l)...."
-            },
-            {
-              "id": "p3",
-              "left": "Alguna vez has probado la comida tailandesa? - interesting",
-              "right": "Have you ever tried Thai food - interesting"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U31_I17"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Future: Predictions):",
-          "tts_en": "chips) Patatas fritas (now)",
-          "correct_answer": "chips) Patatas fritas (now)",
-          "mastery_tag": "listening",
-          "interaction_id": "U31_I18"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "Book3050"
-            },
-            {
-              "id": "o2",
-              "text": "Flute"
-            },
-            {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U31_I19"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 242 - Future: Predictions:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Escribir ingl\u00e9s correctamente (today)",
-              "back": "uso de las may\u00fasculas (today)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U31_I20"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 242 (Future: Predictions):",
-          "instruction_en": "A small story about Future: Predictions. [Ref: 31]",
-          "mastery_tag": "writing",
-          "interaction_id": "U31_I21"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 242 (Future: Predictions):",
-          "stimulus_en": "I like Future: Predictions. (930)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U31_I22"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
-          "stimulus": "Matching set 3326",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Mi cumplea\u00f1os es en febrero - amazing",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "En un post anterior sobre verb patterns puedes revisar la diferencia entre allow y let (today)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Sigue recto y delante de la iglesia hay un supermercado (now)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "verb patters. (today)"
-            },
-            {
-              "id": "m2",
-              "text": "Go straight on and in front of the church there is a supermarket. (now)"
-            },
-            {
-              "id": "m0",
-              "text": "my birthday is in February. - amazing"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U31_I23"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Future: Predictions):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "What time does the train leave - interesting"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "on Monday, on Wednesday, etc. - interesting"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U31_I24"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Future: Predictions):",
-          "main_text": "In Future: Predictions (124), The player [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "helped"
-                },
-                {
-                  "id": "o2",
-                  "text": "help"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "played"
-                },
-                {
-                  "id": "o2",
-                  "text": "play"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U31_I25"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Future: Predictions:",
-          "stimulus_en": "cinema) Cine (today)",
-          "stimulus_es": "Movie theater (Br Eng (today)",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 3154"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U31_I26"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Future: Predictions:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "saddest"
-            },
-            {
-              "id": "w4",
-              "text": "you\u2019ve"
-            },
-            {
-              "id": "w1",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "What\u2019s"
-            },
-            {
-              "id": "w7",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "song"
-            },
-            {
-              "id": "w6",
-              "text": "listened"
-            },
-            {
-              "id": "w5",
-              "text": "ever"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
+            "w21",
+            "w22",
+            "w23",
+            "w24",
+            "w25",
+            "w26",
+            "w27",
+            "w28",
+            "w29"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U31_I27"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Future: Predictions):",
-          "stimulus_en": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto.... (___)",
+          "prompt_es": "Completa 243 (Future: Predictions):",
+          "stimulus_en": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos. (now) (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U31_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Future: Predictions)",
-          "stimulus_en": "have you seen my keys anywhere (today)",
-          "stimulus_es": "Ref: Has visto mis llaves en alg\u00fan sitio? (today)",
+          "prompt_es": "\u00bfCorrecto? 243 (Future: Predictions)",
+          "stimulus_en": "my cousin\u2019s husband is German and his mother Irish..",
+          "stimulus_es": "Ref: El marido de mi prima es alem\u00e1n y su madre irlandesa.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U31_I29"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
+          "prompt_es": "Relaciona 243 (Future: Predictions):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio.",
-              "right": "\u00bfDe d\u00f3nde eres?."
+              "left": "3. el primer elemento es un pa\u00eds/ciudad/pueblo\u2026 Ejemplo - 836",
+              "right": "Spain\u2018s monuments are very nice. - 836"
             },
             {
               "id": "p1",
-              "left": "The correct thing (now)",
-              "right": "on the Internet (now)"
+              "left": "Metre (Br Eng) (Am Eng (today)",
+              "right": "meter) Metro (today)"
             },
             {
               "id": "p2",
-              "left": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca? (today)",
-              "right": "What\u2019s the hottest place you\u2019ve ever been to (today)"
+              "left": "2. Play football on Saturday afternoons / the boys / always (now)",
+              "right": "the boys always play football on Saturday afternoons (now)"
             },
             {
               "id": "p3",
-              "left": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material (today)",
-              "right": "preguntas en ingl\u00e9s (today)"
+              "left": "4. go to bed before 11 / often / I - 720",
+              "right": "I often go to bed before 11 - 720"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -721,35 +751,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Future: Predictions):",
-          "tts_en": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo....",
-          "correct_answer": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo....",
+          "prompt_es": "Dictado 243 (Future: Predictions):",
+          "tts_en": "What\u2019s the longest beach you\u2019ve ever been to (now)",
+          "correct_answer": "What\u2019s the longest beach you\u2019ve ever been to (now)",
           "mastery_tag": "listening",
           "interaction_id": "U31_I31"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 243:",
           "options": [
             {
-              "id": "o0",
-              "text": "Table"
+              "id": "o2",
+              "text": "Sunday"
             },
             {
-              "id": "o1",
-              "text": "Chair"
+              "id": "o0",
+              "text": "Monday"
             },
             {
               "id": "o3",
-              "text": "Bed"
+              "text": "Friday"
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday"
             },
             {
               "id": "o4",
-              "text": "Pen9928"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
+              "text": "June5050"
             }
           ],
           "correct_answer": "o4",
@@ -762,8 +792,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Al lado de mi colegio no hay bloques de pisos - 646",
-              "back": "Next to my school there aren\u2019t any apartment blocks. - 646"
+              "front": "2. La hamburguesa de Harry - amazing",
+              "back": "Harry\u2019s burger - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -772,50 +802,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 243 (Future: Predictions):",
-          "instruction_en": "A small story about Future: Predictions. [Ref: 21]",
+          "instruction_en": "Describe Future: Predictions in 5 words. [Ref: 32]",
           "mastery_tag": "writing",
           "interaction_id": "U31_I34"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 243 (Future: Predictions):",
-          "stimulus_en": "I like Future: Predictions. (351)",
+          "stimulus_en": "Study Future: Predictions now. (861)",
           "mastery_tag": "speaking",
           "interaction_id": "U31_I35"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
-          "stimulus": "Matching set 3487",
+          "prompt_es": "Une 213 (Future: Predictions):",
+          "stimulus": "Matching set 766",
           "items": [
             {
               "id": "i0",
-              "text": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca?.",
+              "text": "Common mistake.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Un ejemplo de to seguido de infinitivo es (now)",
+              "text": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Alguien dijo mi nombre? - 838",
+              "text": "2. Siempre van antes del sustantivo, la regla es - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "What\u2019s the funniest joke you\u2019ve ever been told."
+              "id": "m1",
+              "text": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the."
             },
             {
-              "id": "m1",
-              "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! (now)"
+              "id": "m0",
+              "text": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele.."
             },
             {
               "id": "m2",
-              "text": "Did anybody say my name - 838"
+              "text": "ADJECTIVE + NOUN - amazing"
             }
           ],
           "correct_answer": {
@@ -828,7 +858,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Future: Predictions):",
+          "prompt_es": "Clasifica 213 (Future: Predictions):",
           "categories": [
             {
               "id": "c1",
@@ -836,7 +866,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "have you ever spoken English on the phone..."
+                  "text": "There are a lot of bars near my house. - interesting"
                 }
               ]
             },
@@ -846,7 +876,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject!..."
+                  "text": "have you ever studied a foreign laguage apart from English - 123"
                 }
               ]
             }
@@ -856,547 +886,8 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Future: Predictions):",
-          "main_text": "In Future: Predictions (4071), The architect [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "designed"
-                },
-                {
-                  "id": "o2",
-                  "text": "design"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "sent"
-                },
-                {
-                  "id": "o2",
-                  "text": "send"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U31_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Future: Predictions:",
-          "stimulus_en": "are there any peas in the fridge (today)",
-          "stimulus_es": "Hay guisantes en el frigo? (today)",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 8405"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U31_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Future: Predictions:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "Farmacia"
-            },
-            {
-              "id": "w0",
-              "text": "chemist)"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U31_I40"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Future: Predictions):",
-          "stimulus_en": "John\u2018s job is boring. (today) (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U31_I41"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Future: Predictions)",
-          "stimulus_en": "The girls\u2019 ball - amazing",
-          "stimulus_es": "Ref: 4. La pelota de las ni\u00f1as - amazing",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U31_I42"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "5. El zumo de tu abuela - interesting",
-              "right": "Your grandmother\u2019s juice - interesting"
-            },
-            {
-              "id": "p1",
-              "left": "see / usually / Jennifer / out / goes / a / to / concert (now)",
-              "right": "Jennifer usually goes out to see a concert (now)"
-            },
-            {
-              "id": "p2",
-              "left": "Cabe destacar que la palabra every es singular en ingl\u00e9s, por tanto, tanto \u00abday\u00bb como cualquiera de los d\u00edas que pongamos, deben ir en singular. Es incorrecto decir (today)",
-              "right": "every days o every Tuesdays. (today)"
-            },
-            {
-              "id": "p3",
-              "left": "Common mistake...",
-              "right": "Had you got a motorbike\u2026?..."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U31_I43"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Future: Predictions):",
-          "tts_en": "What\u2019s the longest beach you\u2019ve ever been to - 415",
-          "correct_answer": "What\u2019s the longest beach you\u2019ve ever been to - 415",
-          "mastery_tag": "listening",
-          "interaction_id": "U31_I44"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
-              "id": "o4",
-              "text": "Hot5565"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
-            },
-            {
-              "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o2",
-              "text": "Star"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U31_I45"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 244 - Future: Predictions:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda?.",
-              "back": "How old is Mar\u00eda."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U31_I46"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 244 (Future: Predictions):",
-          "instruction_en": "Explain Common Mistakes using Future: Predictions. [Ref: 68]",
-          "mastery_tag": "writing",
-          "interaction_id": "U31_I47"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 244 (Future: Predictions):",
-          "stimulus_en": "Repeat Future: Predictions. (835)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U31_I48"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
-          "stimulus": "Matching set 1883",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo - 834",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "3. Las hermanas de Pedro (now)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca!",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "I hardly ever go to the cinema = casi nunca voy al cine.!"
-            },
-            {
-              "id": "m0",
-              "text": "how often do you have Italian classes? = I have every Tuesday. - 834"
-            },
-            {
-              "id": "m1",
-              "text": "Peter\u2019s sisters (now)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U31_I49"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Future: Predictions):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n! - amazing"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "What does Juan do..."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U31_I50"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Future: Predictions):",
-          "main_text": "In Future: Predictions (5640), John [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "drove"
-                },
-                {
-                  "id": "o2",
-                  "text": "drive"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "read"
-                },
-                {
-                  "id": "o2",
-                  "text": "read"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U31_I51"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Future: Predictions:",
-          "stimulus_en": "my cousin\u2019s husband is German and his mother Irish....",
-          "stimulus_es": "El marido de mi prima es alem\u00e1n y su madre irlandesa...",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o3",
-              "text": "Other 7810"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U31_I52"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Future: Predictions:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "computer"
-            },
-            {
-              "id": "w4",
-              "text": "507"
-            },
-            {
-              "id": "w1",
-              "text": "that"
-            },
-            {
-              "id": "w3",
-              "text": "work"
-            },
-            {
-              "id": "w0",
-              "text": "Does"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U31_I53"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Future: Predictions):",
-          "stimulus_en": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. - amazing (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U31_I54"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Future: Predictions)",
-          "stimulus_en": "There are a lot of bars near my house. - amazing",
-          "stimulus_es": "Ref: Hay muchos bares cerca de mi casa - amazing",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U31_I55"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Tienes hermanos? - interesting",
-              "right": "do you have any brothers or sisters - interesting"
-            },
-            {
-              "id": "p1",
-              "left": "Tyre (Am Eng.",
-              "right": "tire) Neum\u00e1tico."
-            },
-            {
-              "id": "p2",
-              "left": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1...",
-              "right": "Can I have your ID/ passport/ credit card?...."
-            },
-            {
-              "id": "p3",
-              "left": "Por qu\u00e9 no me lo dijiste?.",
-              "right": "Why didn\u2019t you tell me."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U31_I56"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Future: Predictions):",
-          "tts_en": "What\u2019s the highest building you\u2019ve ever visited (now)",
-          "correct_answer": "What\u2019s the highest building you\u2019ve ever visited (now)",
-          "mastery_tag": "listening",
-          "interaction_id": "U31_I57"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o0",
-              "text": "London"
-            },
-            {
-              "id": "o3",
-              "text": "Paris"
-            },
-            {
-              "id": "o4",
-              "text": "Slow6492"
-            },
-            {
-              "id": "o2",
-              "text": "Berlin"
-            },
-            {
-              "id": "o1",
-              "text": "Tokyo"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U31_I58"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 245 - Future: Predictions:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "7. read books slowly / I / always - interesting",
-              "back": "I always read books slowly - interesting"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U31_I59"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 245 (Future: Predictions):",
-          "instruction_en": "Describe Future: Predictions in 5 words. [Ref: 11]",
-          "mastery_tag": "writing",
-          "interaction_id": "U31_I60"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 245 (Future: Predictions):",
-          "stimulus_en": "Look at Future: Predictions. (987)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U31_I61"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
-          "stimulus": "Matching set 9608",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Empecemos analizando el siguiente ejemplo - interesting",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo!",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "The correct thing - 408",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo.!"
-            },
-            {
-              "id": "m2",
-              "text": "information, homework, work. - 408"
-            },
-            {
-              "id": "m0",
-              "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). - interesting"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U31_I62"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Future: Predictions):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta. - 346"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "may come, might go. - 754"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U31_I63"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Future: Predictions):",
-          "main_text": "In Future: Predictions (4451), John [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 213 (Future: Predictions):",
+          "main_text": "In Future: Predictions (2378), He [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
@@ -1416,11 +907,575 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "ate"
+                  "text": "built"
                 },
                 {
                   "id": "o2",
-                  "text": "eat"
+                  "text": "build"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U31_I38"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 213 para Future: Predictions:",
+          "stimulus_en": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n!.",
+          "stimulus_es": "Un ejemplo de to seguido de infinitivo es.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option A"
+            },
+            {
+              "id": "o3",
+              "text": "Other 667"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U31_I39"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 213 sobre Future: Predictions:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "252"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "What\u2019s"
+            },
+            {
+              "id": "w5",
+              "text": "you\u2019ve"
+            },
+            {
+              "id": "w6",
+              "text": "ever"
+            },
+            {
+              "id": "w2",
+              "text": "most"
+            },
+            {
+              "id": "w7",
+              "text": "studied"
+            },
+            {
+              "id": "w3",
+              "text": "difficult"
+            },
+            {
+              "id": "w4",
+              "text": "language"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U31_I40"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 244 (Future: Predictions):",
+          "stimulus_en": "Have you got a car?! (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U31_I41"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 244 (Future: Predictions)",
+          "stimulus_en": "What\u2019s the most delicious food you\u2019ve ever tasted...",
+          "stimulus_es": "Ref: Cu\u00e1l es la comida m\u00e1s buena que has probado nunca?...",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U31_I42"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 244 (Future: Predictions):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "2. el primer elemento es un animal. Ejemplo...",
+              "right": "the bird\u2018s legs = las piernas del p\u00e1jaro...."
+            },
+            {
+              "id": "p1",
+              "left": "Common mistake - interesting",
+              "right": "Had you got a motorbike\u2026? - interesting"
+            },
+            {
+              "id": "p2",
+              "left": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir - interesting",
+              "right": "I can to speak English. - interesting"
+            },
+            {
+              "id": "p3",
+              "left": "I / fish / often / hours / for / catching / anything / without (today)",
+              "right": "I often fish for hours without catching anything (today)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U31_I43"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 244 (Future: Predictions):",
+          "tts_en": "Were you having a beer when you saw Peter!",
+          "correct_answer": "Were you having a beer when you saw Peter!",
+          "mastery_tag": "listening",
+          "interaction_id": "U31_I44"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 244:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o4",
+              "text": "Pen2438"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U31_I45"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 244 - Future: Predictions:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "1. La puerta de mi casa - amazing",
+              "back": "the door of my house - amazing"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U31_I46"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 244 (Future: Predictions):",
+          "instruction_en": "Describe Future: Predictions in 5 words. [Ref: 42]",
+          "mastery_tag": "writing",
+          "interaction_id": "U31_I47"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 244 (Future: Predictions):",
+          "stimulus_en": "Look at Future: Predictions. (283)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U31_I48"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 214 (Future: Predictions):",
+          "stimulus": "Matching set 8739",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son - 964",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Cu\u00e1l es el pa\u00eds m\u00e1s fr\u00edo en el que has estado nunca?!",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "The correct thing - amazing",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "What\u2019s the coldest country you\u2019ve ever been to!"
+            },
+            {
+              "id": "m0",
+              "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar. - 964"
+            },
+            {
+              "id": "m2",
+              "text": "information, homework, work. - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U31_I49"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 214 (Future: Predictions):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I don\u2019t want to sit opposite him.!"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "may I open the window, please (today)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U31_I50"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 214 (Future: Predictions):",
+          "main_text": "In Future: Predictions (1143), The teacher [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "visited"
+                },
+                {
+                  "id": "o2",
+                  "text": "visit"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "prepared"
+                },
+                {
+                  "id": "o2",
+                  "text": "prepare"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U31_I51"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 214 para Future: Predictions:",
+          "stimulus_en": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). (today)",
+          "stimulus_es": "in + car/ taxi (today)",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o3",
+              "text": "Other 5011"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U31_I52"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 214 sobre Future: Predictions:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "En"
+            },
+            {
+              "id": "w2",
+              "text": "oto\u00f1o"
+            },
+            {
+              "id": "w0",
+              "text": "autumn)"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U31_I53"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 245 (Future: Predictions):",
+          "stimulus_en": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc. (now) (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U31_I54"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 245 (Future: Predictions)",
+          "stimulus_en": "in summer, in winter. - 583",
+          "stimulus_es": "Ref: \u2013 Seasons (estaciones) - 583",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U31_I55"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 245 (Future: Predictions):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Qu\u00e9 es lo que empieza? - interesting",
+              "right": "la pel\u00edcula, entonces SUBJECT = THE FILM - interesting"
+            },
+            {
+              "id": "p1",
+              "left": "Cu\u00e1ndo la ayudaste? - interesting",
+              "right": "When did you help him/her - interesting"
+            },
+            {
+              "id": "p2",
+              "left": "Otro common mistake - 313",
+              "right": "Have you a car? - 313"
+            },
+            {
+              "id": "p3",
+              "left": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo.",
+              "right": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables.."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U31_I56"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 245 (Future: Predictions):",
+          "tts_en": "present continuous, porque lo est\u00e1s buscando en este momento. - interesting",
+          "correct_answer": "present continuous, porque lo est\u00e1s buscando en este momento. - interesting",
+          "mastery_tag": "listening",
+          "interaction_id": "U31_I57"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 245:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Paris"
+            },
+            {
+              "id": "o2",
+              "text": "Berlin"
+            },
+            {
+              "id": "o0",
+              "text": "London"
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o4",
+              "text": "Slow5106"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U31_I58"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 245 - Future: Predictions:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "6. Los juguetes de mis hijos...",
+              "back": "My children\u2019s toys..."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U31_I59"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 245 (Future: Predictions):",
+          "instruction_en": "Why is Future: Predictions important? [Ref: 44]",
+          "mastery_tag": "writing",
+          "interaction_id": "U31_I60"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 245 (Future: Predictions):",
+          "stimulus_en": "Where is Future: Predictions? (914)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U31_I61"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 215 (Future: Predictions):",
+          "stimulus": "Matching set 2166",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo - interesting",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect (now)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "dictionary / often / use / The / the / students!",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "how often do you have Italian classes? = I have every Tuesday. - interesting"
+            },
+            {
+              "id": "m2",
+              "text": "the students often use the dictionary!"
+            },
+            {
+              "id": "m1",
+              "text": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil. (now)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U31_I62"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 215 (Future: Predictions):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "lift) Ascensor!"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "would you like some more - 214"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U31_I63"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 215 (Future: Predictions):",
+          "main_text": "In Future: Predictions (2494), Sarah [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drove"
+                },
+                {
+                  "id": "o2",
+                  "text": "drive"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "studied"
+                },
+                {
+                  "id": "o2",
+                  "text": "study"
                 }
               ]
             }
@@ -1434,9 +1489,9 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Future: Predictions:",
-          "stimulus_en": "My cousins\u2019 house is very big (today)",
-          "stimulus_es": "7. La casa de mis primos es muy grande (today)",
+          "prompt_es": "Elige 215 para Future: Predictions:",
+          "stimulus_en": "she doesn\u2019t often write to me - amazing",
+          "stimulus_es": "1. Often / she / write to me/ doesn\u2019t - amazing",
           "options": [
             {
               "id": "o2",
@@ -1444,7 +1499,7 @@
             },
             {
               "id": "o3",
-              "text": "Other 4678"
+              "text": "Other 515"
             },
             {
               "id": "o1",
@@ -1457,74 +1512,134 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Future: Predictions:",
+          "prompt_es": "Ordena 215 sobre Future: Predictions:",
           "options": [
             {
-              "id": "w0",
-              "text": "\u2018m/"
+              "id": "w7",
+              "text": "the"
             },
             {
-              "id": "w3",
+              "id": "w10",
+              "text": "at"
+            },
+            {
+              "id": "w12",
+              "text": "(es"
+            },
+            {
+              "id": "w13",
+              "text": "una"
+            },
+            {
+              "id": "w15",
               "text": "interesting"
             },
             {
-              "id": "w2",
-              "text": "etc)"
+              "id": "w3",
+              "text": "in"
+            },
+            {
+              "id": "w8",
+              "text": "evening"
+            },
+            {
+              "id": "w5",
+              "text": "afternoon"
+            },
+            {
+              "id": "w11",
+              "text": "night"
             },
             {
               "id": "w1",
-              "text": "\u2018s"
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "morning"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "in"
+            },
+            {
+              "id": "w14",
+              "text": "excepci\u00f3n)"
+            },
+            {
+              "id": "w9",
+              "text": "pero"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13",
+            "w14",
+            "w15"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U31_I66"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Future: Predictions):",
-          "stimulus_en": "I haven\u2019t got much money (remember, money is uncountable).... (___)",
+          "prompt_es": "Completa 246 (Future: Predictions):",
+          "stimulus_en": "Have you finished the project yet - interesting (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U31_I67"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Future: Predictions)",
-          "stimulus_en": "I don\u2019t have any friends who live near my house. (today)",
-          "stimulus_es": "Ref: Y en negativa (today)",
+          "prompt_es": "\u00bfCorrecto? 246 (Future: Predictions)",
+          "stimulus_en": "\u2018m/ \u2018s, etc) (today)",
+          "stimulus_es": "Ref: Se pueden contraer = \u2018ve got/ haven\u2019t got (to be (today)",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U31_I68"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
+          "prompt_es": "Relaciona 246 (Future: Predictions):",
           "pairs": [
             {
               "id": "p0",
-              "left": "6. Los juguetes de mis hijos (today)",
-              "right": "My children\u2019s toys (today)"
+              "left": "Te veo el s\u00e1bado!",
+              "right": "I\u2019ll see you on Saturday!"
             },
             {
               "id": "p1",
-              "left": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un n\u00famero delante y detr\u00e1s un sustantivo, entonces no ponemos la -s de plural, por ejemplo - interesting",
-              "right": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children. - interesting"
+              "left": "Encontraste algo ah\u00ed? - 682",
+              "right": "any + thing = en oraci\u00f3n INTERROGATIVA. - 682"
             },
             {
               "id": "p2",
-              "left": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son...",
-              "right": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar...."
+              "left": "Has visto a alguien? (today)",
+              "right": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb. (today)"
             },
             {
               "id": "p3",
-              "left": "M\u00e1s plurales irregulares que nos podemos encontrar son - interesting",
-              "right": "men, women, people, etc. - interesting"
+              "left": "often / money / Sally / her / borrows / friends / from...",
+              "right": "Sally often borrows money from her friends..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1532,31 +1647,31 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Future: Predictions):",
-          "tts_en": "Is she studying English - 544",
-          "correct_answer": "Is she studying English - 544",
+          "prompt_es": "Dictado 246 (Future: Predictions):",
+          "tts_en": "What\u2019s the happiest day you\u2019ve ever had - interesting",
+          "correct_answer": "What\u2019s the happiest day you\u2019ve ever had - interesting",
           "mastery_tag": "listening",
           "interaction_id": "U31_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 246:",
           "options": [
-            {
-              "id": "o4",
-              "text": "Slow7705"
-            },
             {
               "id": "o3",
               "text": "Paris"
+            },
+            {
+              "id": "o0",
+              "text": "London"
             },
             {
               "id": "o1",
               "text": "Tokyo"
             },
             {
-              "id": "o0",
-              "text": "London"
+              "id": "o4",
+              "text": "Slow463"
             },
             {
               "id": "o2",
@@ -1573,8 +1688,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "\u2013 Meses del a\u00f1o (today)",
-              "back": "in May, in August, etc. (today)"
+              "front": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca?...",
+              "back": "What\u2019s the funniest joke you\u2019ve ever been told..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1583,50 +1698,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 246 (Future: Predictions):",
-          "instruction_en": "Draft an email regarding Future: Predictions. [Ref: 43]",
+          "instruction_en": "Write a note about Future: Predictions. [Ref: 46]",
           "mastery_tag": "writing",
           "interaction_id": "U31_I73"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 246 (Future: Predictions):",
-          "stimulus_en": "Where is Future: Predictions? (472)",
+          "stimulus_en": "Study Future: Predictions now. (760)",
           "mastery_tag": "speaking",
           "interaction_id": "U31_I74"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
-          "stimulus": "Matching set 3077",
+          "prompt_es": "Une 216 (Future: Predictions):",
+          "stimulus": "Matching set 2561",
           "items": [
             {
               "id": "i0",
-              "text": "2. el primer elemento es un animal. Ejemplo!",
+              "text": "5. El zumo de tu abuela - 923",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Tienes hijos?!",
+              "text": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto...",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro?!",
+              "text": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba!",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "Were you having a beer when you saw Peter!"
-            },
-            {
               "id": "m1",
-              "text": "Do you have any children!"
+              "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019...."
             },
             {
               "id": "m0",
-              "text": "the bird\u2018s legs = las piernas del p\u00e1jaro.!"
+              "text": "Your grandmother\u2019s juice - 923"
+            },
+            {
+              "id": "m2",
+              "text": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM!"
             }
           ],
           "correct_answer": {
@@ -1639,7 +1754,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Future: Predictions):",
+          "prompt_es": "Clasifica 216 (Future: Predictions):",
           "categories": [
             {
               "id": "c1",
@@ -1647,7 +1762,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "when I was at primary school, I didn\u2019t wear uniform.!"
+                  "text": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. - interesting"
                 }
               ]
             },
@@ -1657,7 +1772,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Next to my house there is a nursery school...."
+                  "text": "film) Pel\u00edcula!"
                 }
               ]
             }
@@ -1667,19 +1782,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Future: Predictions):",
-          "main_text": "In Future: Predictions (4499), The nurse [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 216 (Future: Predictions):",
+          "main_text": "In Future: Predictions (1666), The chef [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "worked"
+                  "text": "cooked"
                 },
                 {
                   "id": "o2",
-                  "text": "work"
+                  "text": "cook"
                 }
               ]
             },
@@ -1688,11 +1803,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "created"
+                  "text": "prepared"
                 },
                 {
                   "id": "o2",
-                  "text": "create"
+                  "text": "prepare"
                 }
               ]
             }
@@ -1706,17 +1821,17 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Future: Predictions:",
-          "stimulus_en": "Do you think that unemployment will go down this year...",
-          "stimulus_es": "Crees que bajar\u00e1 el paro este a\u00f1o?...",
+          "prompt_es": "Elige 216 para Future: Predictions:",
+          "stimulus_en": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/. - amazing",
+          "stimulus_es": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales - amazing",
           "options": [
+            {
+              "id": "o3",
+              "text": "Other 7132"
+            },
             {
               "id": "o1",
               "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 2916"
             },
             {
               "id": "o2",
@@ -1729,35 +1844,91 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Future: Predictions:",
+          "prompt_es": "Ordena 216 sobre Future: Predictions:",
           "options": [
             {
-              "id": "w5",
-              "text": "please"
+              "id": "w19",
+              "text": "saj\u00f3n"
             },
             {
-              "id": "w3",
-              "text": "the"
+              "id": "w9",
+              "text": "de"
+            },
+            {
+              "id": "w10",
+              "text": "una"
+            },
+            {
+              "id": "w15",
+              "text": "aqu\u00ed"
             },
             {
               "id": "w1",
-              "text": "I"
-            },
-            {
-              "id": "w0",
-              "text": "may"
-            },
-            {
-              "id": "w6",
-              "text": "(today)"
-            },
-            {
-              "id": "w2",
-              "text": "open"
+              "text": "coche"
             },
             {
               "id": "w4",
-              "text": "window"
+              "text": "es"
+            },
+            {
+              "id": "w0",
+              "text": "el"
+            },
+            {
+              "id": "w12",
+              "text": "(coche"
+            },
+            {
+              "id": "w3",
+              "text": "Pedro"
+            },
+            {
+              "id": "w20",
+              "text": "(now)"
+            },
+            {
+              "id": "w5",
+              "text": "rojo"
+            },
+            {
+              "id": "w14",
+              "text": "Pedro)"
+            },
+            {
+              "id": "w18",
+              "text": "genitivo"
+            },
+            {
+              "id": "w13",
+              "text": "de"
+            },
+            {
+              "id": "w17",
+              "text": "el"
+            },
+            {
+              "id": "w2",
+              "text": "de"
+            },
+            {
+              "id": "w7",
+              "text": "estamos"
+            },
+            {
+              "id": "w16",
+              "text": "necesitamos"
+            },
+            {
+              "id": "w8",
+              "text": "hablando"
+            },
+            {
+              "id": "w6",
+              "text": "como"
+            },
+            {
+              "id": "w11",
+              "text": "posesi\u00f3n"
             }
           ],
           "correct_answer": [
@@ -1767,51 +1938,65 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13",
+            "w14",
+            "w15",
+            "w16",
+            "w17",
+            "w18",
+            "w19",
+            "w20"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U31_I79"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Future: Predictions):",
-          "stimulus_en": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on. - interesting (___)",
+          "prompt_es": "Completa 247 (Future: Predictions):",
+          "stimulus_en": "have you ever spoken English on the phone - 843 (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U31_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Future: Predictions)",
-          "stimulus_en": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019.!",
-          "stimulus_es": "Ref: \u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto!",
+          "prompt_es": "\u00bfCorrecto? 247 (Future: Predictions)",
+          "stimulus_en": "Does that computer work - interesting",
+          "stimulus_es": "Ref: Funciona ese ordenador? - interesting",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U31_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
+          "prompt_es": "Relaciona 247 (Future: Predictions):",
           "pairs": [
             {
               "id": "p0",
-              "left": "\u00bfEst\u00e1s estudiando franc\u00e9s? - amazing",
-              "right": "are you learning French? - amazing"
+              "left": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo - amazing",
+              "right": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno. - amazing"
             },
             {
               "id": "p1",
-              "left": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales - amazing",
-              "right": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/. - amazing"
+              "left": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo (now)",
+              "right": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. (now)"
             },
             {
               "id": "p2",
-              "left": "No me quiero sentar enfrente de \u00e9l (now)",
-              "right": "I don\u2019t want to sit opposite him. (now)"
+              "left": "Much, como se utiliza con uncountable, decimos.",
+              "right": "I haven\u2019t got much money (remember, money is uncountable).."
             },
             {
               "id": "p3",
-              "left": "De qui\u00e9n es ese m\u00f3vil? - 200",
-              "right": "Whose mobile is that - 200"
+              "left": "Cu\u00e1ndo iremos a la playa?...",
+              "right": "When are we going to the beach..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1819,35 +2004,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Future: Predictions):",
-          "tts_en": "The police always try to keep the order!",
-          "correct_answer": "The police always try to keep the order!",
+          "prompt_es": "Dictado 247 (Future: Predictions):",
+          "tts_en": "my birthday is in February. - 627",
+          "correct_answer": "my birthday is in February. - 627",
           "mastery_tag": "listening",
           "interaction_id": "U31_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 247:",
           "options": [
             {
-              "id": "o0",
-              "text": "London"
-            },
-            {
-              "id": "o3",
-              "text": "Paris"
-            },
-            {
               "id": "o1",
-              "text": "Tokyo"
+              "text": "Sad"
             },
             {
               "id": "o4",
-              "text": "Slow227"
+              "text": "Fast777"
             },
             {
               "id": "o2",
-              "text": "Berlin"
+              "text": "Angry"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
             }
           ],
           "correct_answer": "o4",
@@ -1860,8 +2045,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Otro common mistake (today)",
-              "back": "Have you a car? (today)"
+              "front": "2. Let\u2019s do the same with the first example (today)",
+              "back": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject! (today)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1870,50 +2055,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 247 (Future: Predictions):",
-          "instruction_en": "Review Future: Predictions from last week. [Ref: 52]",
+          "instruction_en": "A small story about Future: Predictions. [Ref: 87]",
           "mastery_tag": "writing",
           "interaction_id": "U31_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 247 (Future: Predictions):",
-          "stimulus_en": "Repeat Future: Predictions. (981)",
+          "stimulus_en": "Improve Future: Predictions. (111)",
           "mastery_tag": "speaking",
           "interaction_id": "U31_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
-          "stimulus": "Matching set 9962",
+          "prompt_es": "Une 217 (Future: Predictions):",
+          "stimulus": "Matching set 2378",
           "items": [
             {
               "id": "i0",
-              "text": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng (now)",
+              "text": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo - interesting",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Otro ejemplo - amazing",
+              "text": "7. read books slowly / I / always.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "The correct thing!",
+              "text": "Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "My friend has a lot of money.!"
+              "id": "m1",
+              "text": "I always read books slowly."
             },
             {
               "id": "m0",
-              "text": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the (now)"
+              "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta. - interesting"
             },
             {
-              "id": "m1",
-              "text": "My partner is the most beautiful woman in the world - amazing"
+              "id": "m2",
+              "text": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado.."
             }
           ],
           "correct_answer": {
@@ -1926,7 +2111,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Future: Predictions):",
+          "prompt_es": "Clasifica 217 (Future: Predictions):",
           "categories": [
             {
               "id": "c1",
@@ -1934,7 +2119,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "have you ever been to Canada..."
+                  "text": "My partner is the most beautiful woman in the world..."
                 }
               ]
             },
@@ -1944,7 +2129,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "I can to speak English. (now)"
+                  "text": "I went to a state school. - interesting"
                 }
               ]
             }
@@ -1954,19 +2139,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Future: Predictions):",
-          "main_text": "In Future: Predictions (9990), Sarah [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 217 (Future: Predictions):",
+          "main_text": "In Future: Predictions (839), Maria [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "sent"
+                  "text": "fixed"
                 },
                 {
                   "id": "o2",
-                  "text": "send"
+                  "text": "fix"
                 }
               ]
             },
@@ -1975,11 +2160,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "watched"
+                  "text": "sold"
                 },
                 {
                   "id": "o2",
-                  "text": "watch"
+                  "text": "sell"
                 }
               ]
             }
@@ -1993,17 +2178,17 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Future: Predictions:",
-          "stimulus_en": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet.",
-          "stimulus_es": "puedo abrir la ventana, por favor?.",
+          "prompt_es": "Elige 217 para Future: Predictions:",
+          "stimulus_en": "The girls\u2019 ball.",
+          "stimulus_es": "4. La pelota de las ni\u00f1as.",
           "options": [
-            {
-              "id": "o3",
-              "text": "Other 372"
-            },
             {
               "id": "o1",
               "text": "Option A"
+            },
+            {
+              "id": "o3",
+              "text": "Other 8346"
             },
             {
               "id": "o2",
@@ -2016,147 +2201,315 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Future: Predictions:",
+          "prompt_es": "Ordena 217 sobre Future: Predictions:",
           "options": [
             {
-              "id": "w15",
-              "text": "la"
-            },
-            {
-              "id": "w18",
-              "text": "con"
-            },
-            {
-              "id": "w5",
-              "text": "alta"
-            },
-            {
-              "id": "w11",
-              "text": "que"
-            },
-            {
-              "id": "w8",
-              "text": "clase"
+              "id": "w0",
+              "text": "como"
             },
             {
               "id": "w3",
-              "text": "chica"
+              "text": "son"
             },
             {
-              "id": "w6",
-              "text": "de"
+              "id": "w27",
+              "text": "hagas"
             },
             {
-              "id": "w2",
+              "id": "w74",
               "text": "la"
-            },
-            {
-              "id": "w31",
-              "text": "superlativo"
-            },
-            {
-              "id": "w26",
-              "text": "preposici\u00f3n"
-            },
-            {
-              "id": "w7",
-              "text": "su"
             },
             {
               "id": "w34",
-              "text": "amazing"
+              "text": "que"
             },
             {
-              "id": "w20",
-              "text": "superlativo"
-            },
-            {
-              "id": "w25",
-              "text": "la"
-            },
-            {
-              "id": "w9",
-              "text": "="
-            },
-            {
-              "id": "w28",
-              "text": "\u2018in\u2019"
-            },
-            {
-              "id": "w33",
-              "text": "tallest)"
-            },
-            {
-              "id": "w10",
-              "text": "mientras"
-            },
-            {
-              "id": "w13",
-              "text": "espa\u00f1ol"
-            },
-            {
-              "id": "w1",
-              "text": "es"
-            },
-            {
-              "id": "w23",
-              "text": "en"
-            },
-            {
-              "id": "w19",
+              "id": "w62",
               "text": "el"
             },
             {
+              "id": "w76",
+              "text": "columna"
+            },
+            {
+              "id": "w65",
+              "text": "de"
+            },
+            {
+              "id": "w31",
+              "text": "de"
+            },
+            {
+              "id": "w75",
+              "text": "segunda"
+            },
+            {
+              "id": "w5",
+              "text": "una"
+            },
+            {
+              "id": "w44",
+              "text": "irregulares)"
+            },
+            {
+              "id": "w1",
+              "text": "irregulares"
+            },
+            {
+              "id": "w48",
+              "text": "lista"
+            },
+            {
+              "id": "w45",
+              "text": "Ver\u00e1s"
+            },
+            {
+              "id": "w4",
+              "text": "tienen"
+            },
+            {
+              "id": "w43",
+              "text": "verbos"
+            },
+            {
+              "id": "w18",
+              "text": "se"
+            },
+            {
+              "id": "w23",
+              "text": "Te"
+            },
+            {
+              "id": "w37",
+              "text": "encontrar"
+            },
+            {
+              "id": "w22",
+              "text": "memoria"
+            },
+            {
+              "id": "w54",
+              "text": "infinitivo"
+            },
+            {
+              "id": "w58",
+              "text": "past"
+            },
+            {
               "id": "w12",
+              "text": "comentada"
+            },
+            {
+              "id": "w6",
+              "text": "forma"
+            },
+            {
+              "id": "w55",
+              "text": "past"
+            },
+            {
+              "id": "w35",
+              "text": "la"
+            },
+            {
+              "id": "w42",
+              "text": "de"
+            },
+            {
+              "id": "w19",
+              "text": "deben"
+            },
+            {
+              "id": "w32",
+              "text": "verbos"
+            },
+            {
+              "id": "w36",
+              "text": "puedes"
+            },
+            {
+              "id": "w67",
+              "text": "verbo"
+            },
+            {
+              "id": "w53",
+              "text": "columnas"
+            },
+            {
+              "id": "w61",
+              "text": "formar"
+            },
+            {
+              "id": "w40",
+              "text": "web"
+            },
+            {
+              "id": "w14",
+              "text": "el"
+            },
+            {
+              "id": "w41",
+              "text": "(lista"
+            },
+            {
+              "id": "w69",
+              "text": "tendr\u00e1s"
+            },
+            {
+              "id": "w70",
+              "text": "que"
+            },
+            {
+              "id": "w51",
+              "text": "en"
+            },
+            {
+              "id": "w21",
+              "text": "de"
+            },
+            {
+              "id": "w13",
               "text": "en"
             },
             {
               "id": "w16",
-              "text": "preposici\u00f3n"
+              "text": "1"
             },
             {
-              "id": "w14",
-              "text": "utilizo"
+              "id": "w9",
+              "text": "la"
             },
             {
-              "id": "w17",
-              "text": "\u2018de\u2019"
+              "id": "w26",
+              "text": "te"
             },
             {
-              "id": "w27",
-              "text": "es"
+              "id": "w60",
+              "text": "Para"
+            },
+            {
+              "id": "w50",
+              "text": "dividida"
+            },
+            {
+              "id": "w46",
+              "text": "que"
+            },
+            {
+              "id": "w73",
+              "text": "tanto"
+            },
+            {
+              "id": "w39",
+              "text": "nuestra"
             },
             {
               "id": "w30",
-              "text": "el"
+              "text": "lista"
             },
             {
-              "id": "w4",
-              "text": "m\u00e1s"
+              "id": "w15",
+              "text": "punto"
             },
             {
-              "id": "w24",
-              "text": "ingl\u00e9s"
+              "id": "w47",
+              "text": "esta"
             },
             {
-              "id": "w0",
-              "text": "Sharon"
+              "id": "w68",
+              "text": "irregular"
             },
             {
-              "id": "w32",
-              "text": "(the"
+              "id": "w52",
+              "text": "tres"
             },
             {
-              "id": "w22",
-              "text": "alta)"
+              "id": "w59",
+              "text": "participle"
             },
             {
-              "id": "w21",
-              "text": "(m\u00e1s"
+              "id": "w33",
+              "text": "irregulares"
+            },
+            {
+              "id": "w2",
+              "text": "que"
+            },
+            {
+              "id": "w11",
+              "text": "regular"
+            },
+            {
+              "id": "w20",
+              "text": "aprender"
+            },
+            {
+              "id": "w28",
+              "text": "con"
+            },
+            {
+              "id": "w49",
+              "text": "est\u00e1"
             },
             {
               "id": "w29",
+              "text": "una"
+            },
+            {
+              "id": "w25",
+              "text": "que"
+            },
+            {
+              "id": "w63",
+              "text": "past"
+            },
+            {
+              "id": "w10",
+              "text": "forma"
+            },
+            {
+              "id": "w66",
+              "text": "un"
+            },
+            {
+              "id": "w24",
+              "text": "recomiendo"
+            },
+            {
+              "id": "w72",
+              "text": "por"
+            },
+            {
+              "id": "w17",
               "text": "y"
+            },
+            {
+              "id": "w56",
+              "text": "simple"
+            },
+            {
+              "id": "w7",
+              "text": "distinta"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            },
+            {
+              "id": "w38",
+              "text": "en"
+            },
+            {
+              "id": "w64",
+              "text": "simple"
+            },
+            {
+              "id": "w57",
+              "text": "y"
+            },
+            {
+              "id": "w71",
+              "text": "utilizar"
             }
           ],
           "correct_answer": [
@@ -2194,51 +2547,93 @@
             "w31",
             "w32",
             "w33",
-            "w34"
+            "w34",
+            "w35",
+            "w36",
+            "w37",
+            "w38",
+            "w39",
+            "w40",
+            "w41",
+            "w42",
+            "w43",
+            "w44",
+            "w45",
+            "w46",
+            "w47",
+            "w48",
+            "w49",
+            "w50",
+            "w51",
+            "w52",
+            "w53",
+            "w54",
+            "w55",
+            "w56",
+            "w57",
+            "w58",
+            "w59",
+            "w60",
+            "w61",
+            "w62",
+            "w63",
+            "w64",
+            "w65",
+            "w66",
+            "w67",
+            "w68",
+            "w69",
+            "w70",
+            "w71",
+            "w72",
+            "w73",
+            "w74",
+            "w75",
+            "w76"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U31_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Future: Predictions):",
-          "stimulus_en": "How is your mum feeling... (___)",
+          "prompt_es": "Completa 248 (Future: Predictions):",
+          "stimulus_en": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo.! (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U31_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Future: Predictions)",
-          "stimulus_en": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado. (now)",
-          "stimulus_es": "Ref: Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo (now)",
+          "prompt_es": "\u00bfCorrecto? 248 (Future: Predictions)",
+          "stimulus_en": "chemist) Farmacia - interesting",
+          "stimulus_es": "Ref: Drugstore (Br Eng - interesting",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U31_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Future: Predictions):",
+          "prompt_es": "Relaciona 248 (Future: Predictions):",
           "pairs": [
             {
               "id": "p0",
-              "left": "car / I / drink / never / if / drive / I / alcohol / a (today)",
-              "right": "I never drink alcohol if I drive a car (today)"
+              "left": "Cookie (Br Eng - amazing",
+              "right": "biscuit) Galleta - amazing"
             },
             {
               "id": "p1",
-              "left": "Common mistake - amazing",
-              "right": "I don\u2019t know that I will do. - amazing"
+              "left": "\u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo!",
+              "right": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos.!"
             },
             {
               "id": "p2",
-              "left": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda? (now)",
-              "right": "How old is Mar\u00eda (now)"
+              "left": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n - interesting",
+              "right": "Sometimes I have lunch in a restaurant. - interesting"
             },
             {
               "id": "p3",
-              "left": "Movie theater (Br Eng.",
-              "right": "cinema) Cine."
+              "left": "Chips (Br Eng) (Am Eng - amazing",
+              "right": "biscuit) Patatas fritas - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2246,35 +2641,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Future: Predictions):",
-          "tts_en": "bookshop) Librer\u00eda.",
-          "correct_answer": "bookshop) Librer\u00eda.",
+          "prompt_es": "Dictado 248 (Future: Predictions):",
+          "tts_en": "Our English teacher is usually angry...",
+          "correct_answer": "Our English teacher is usually angry...",
           "mastery_tag": "listening",
           "interaction_id": "U31_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 248:",
           "options": [
             {
-              "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o4",
-              "text": "Hot3099"
-            },
-            {
               "id": "o3",
-              "text": "Planet"
+              "text": "Drums"
             },
             {
               "id": "o1",
-              "text": "Moon"
+              "text": "Piano"
             },
             {
               "id": "o2",
-              "text": "Star"
+              "text": "Flute"
+            },
+            {
+              "id": "o4",
+              "text": "Book5014"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar"
             }
           ],
           "correct_answer": "o4",
@@ -2287,8 +2682,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Por qu\u00e9 no me lo dijiste?.",
-              "back": "Why didn\u2019t you tell me."
+              "front": "Por tanto, podemos afirmar que -ed para personas y -ing para cosas o situaciones. Es cierto que a veces tambi\u00e9n utilizamos -ing para personas, y \u00bfcu\u00e1ndo? Debes tener en cuenta que la terminaci\u00f3n -ing indica una cualidad permanente, mientras que -ed es temporal. Si yo digo!",
+              "back": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora.!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2297,14 +2692,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 248 (Future: Predictions):",
-          "instruction_en": "Compare Future: Predictions with another topic. [Ref: 62]",
+          "instruction_en": "A small story about Future: Predictions. [Ref: 70]",
           "mastery_tag": "writing",
           "interaction_id": "U31_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 248 (Future: Predictions):",
-          "stimulus_en": "Repeat Future: Predictions. (601)",
+          "stimulus_en": "This is Future: Predictions. (824)",
           "mastery_tag": "speaking",
           "interaction_id": "U31_I100"
         }

@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Weather):",
-          "stimulus_en": "There are a lot of bars near my house.... (___)",
+          "prompt_es": "Completa 145 (Environment: Weather):",
+          "stimulus_en": "every days o every Tuesdays. - interesting (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U19_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Weather)",
-          "stimulus_en": "Your grandmother\u2019s juice - interesting",
-          "stimulus_es": "Ref: 5. El zumo de tu abuela - interesting",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 145 (Environment: Weather)",
+          "stimulus_en": "bookshop) Librer\u00eda.",
+          "stimulus_es": "Ref: Bookstore (Br Eng.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U19_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
+          "prompt_es": "Relaciona 145 (Environment: Weather):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La podemos contestar de la seguiente manera!",
-              "right": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l)!"
+              "left": "Alguien dijo mi nombre?.",
+              "right": "Did anybody say my name."
             },
             {
               "id": "p1",
-              "left": "A qu\u00e9 hora abre el supermercado? - 964",
-              "right": "What time does the supermarket open - 964"
+              "left": "2. La hamburguesa de Harry (now)",
+              "right": "Harry\u2019s burger (now)"
             },
             {
               "id": "p2",
-              "left": "Has visto alguna vez una pel\u00edcula en versi\u00f3n original? (today)",
-              "right": "have you ever seen a film in original version (today)"
+              "left": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo...",
+              "right": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural...."
             },
             {
               "id": "p3",
-              "left": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1...",
-              "right": "Can I have your ID/ passport/ credit card?...."
+              "left": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca? - amazing",
+              "right": "What\u2019s the funniest joke you\u2019ve ever been told - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Weather):",
-          "tts_en": "Harry\u2019s burger (today)",
-          "correct_answer": "Harry\u2019s burger (today)",
+          "prompt_es": "Dictado 145 (Environment: Weather):",
+          "tts_en": "Is she studying English (now)",
+          "correct_answer": "Is she studying English (now)",
           "mastery_tag": "listening",
           "interaction_id": "U19_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 145:",
           "options": [
             {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
               "id": "o4",
-              "text": "rain2602"
-            },
-            {
-              "id": "o0",
-              "text": "pizza"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
+              "text": "cat7901"
             },
             {
               "id": "o2",
-              "text": "salad"
+              "text": "train"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "1. el primer elemento (de esos tres que dec\u00edamos antes) es una persona. Ejemplo (today)",
-              "back": "John\u2018s job is boring. (today)"
+              "front": "The correct thing (now)",
+              "back": "Have you got a car? (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 145 (Environment: Weather):",
-          "instruction_en": "Compare Environment: Weather with another topic. [Ref: 85]",
+          "instruction_en": "Your daily routine in Environment: Weather. [Ref: 95]",
           "mastery_tag": "writing",
           "interaction_id": "U19_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 145 (Environment: Weather):",
-          "stimulus_en": "Talk about Environment: Weather. (487)",
+          "stimulus_en": "Look at Environment: Weather. (707)",
           "mastery_tag": "speaking",
           "interaction_id": "U19_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
-          "stimulus": "Matching set 4938",
+          "prompt_es": "Une 127 (Environment: Weather):",
+          "stimulus": "Matching set 9556",
           "items": [
             {
               "id": "i0",
-              "text": "2. Play football on Saturday afternoons / the boys / always.",
+              "text": "2. Siempre van antes del sustantivo, la regla es (today)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cookie (Br Eng!",
+              "text": "Has visto mis llaves en alg\u00fan sitio?!",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Cu\u00e1l es el pa\u00eds m\u00e1s fr\u00edo en el que has estado nunca? - amazing",
+              "text": "Has visto a alguien?.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "the boys always play football on Saturday afternoons."
-            },
-            {
               "id": "m1",
-              "text": "biscuit) Galleta!"
+              "text": "have you seen my keys anywhere!"
             },
             {
               "id": "m2",
-              "text": "What\u2019s the coldest country you\u2019ve ever been to - amazing"
+              "text": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb.."
+            },
+            {
+              "id": "m0",
+              "text": "ADJECTIVE + NOUN (today)"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Weather):",
+          "prompt_es": "Clasifica 127 (Environment: Weather):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I don\u2019t know that I will do. - amazing"
+                  "text": "I\u2019ll see you on Saturday..."
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "preguntas en ingl\u00e9s - 405"
+                  "text": "I have 3 children. - 450"
                 }
               ]
             }
@@ -202,351 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Weather):",
-          "main_text": "In Environment: Weather (1794), They [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 127 (Environment: Weather):",
+          "main_text": "In Environment: Weather (3989), Maria [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "planned"
+                  "text": "spoke"
                 },
                 {
                   "id": "o2",
-                  "text": "plan"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "cleaned"
-                },
-                {
-                  "id": "o2",
-                  "text": "clean"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U19_I12"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Weather:",
-          "stimulus_en": "The police always try to keep the order - amazing",
-          "stimulus_es": "try / police / keep / The / order / always / to / the - amazing",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 6474"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U19_I13"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Weather:",
-          "options": [
-            {
-              "id": "w13",
-              "text": "hundred"
-            },
-            {
-              "id": "w5",
-              "text": "mil"
-            },
-            {
-              "id": "w11",
-              "text": "/"
-            },
-            {
-              "id": "w1",
-              "text": "thousand"
-            },
-            {
-              "id": "w14",
-              "text": "children"
-            },
-            {
-              "id": "w6",
-              "text": "personas"
-            },
-            {
-              "id": "w4",
-              "text": "tres"
-            },
-            {
-              "id": "w0",
-              "text": "3"
-            },
-            {
-              "id": "w7",
-              "text": "/"
-            },
-            {
-              "id": "w12",
-              "text": "4"
-            },
-            {
-              "id": "w8",
-              "text": "2"
-            },
-            {
-              "id": "w9",
-              "text": "million"
-            },
-            {
-              "id": "w15",
-              "text": "interesting"
-            },
-            {
-              "id": "w3",
-              "text": "="
-            },
-            {
-              "id": "w10",
-              "text": "cars"
-            },
-            {
-              "id": "w2",
-              "text": "people"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U19_I14"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Weather):",
-          "stimulus_en": "on the Internet! (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U19_I15"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Weather)",
-          "stimulus_en": "the students often use the dictionary - interesting",
-          "stimulus_es": "Ref: dictionary / often / use / The / the / students - interesting",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U19_I16"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "1. La puerta de mi casa (now)",
-              "right": "the door of my house (now)"
-            },
-            {
-              "id": "p1",
-              "left": "me / Paul / helps / sometimes / my / with / homework - amazing",
-              "right": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework - amazing"
-            },
-            {
-              "id": "p2",
-              "left": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect!",
-              "right": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil.!"
-            },
-            {
-              "id": "p3",
-              "left": "Escribir ingl\u00e9s correctamente (now)",
-              "right": "uso de las may\u00fasculas (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U19_I17"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Weather):",
-          "tts_en": "Peter\u2019s sisters (now)",
-          "correct_answer": "Peter\u2019s sisters (now)",
-          "mastery_tag": "listening",
-          "interaction_id": "U19_I18"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Flute"
-            },
-            {
-              "id": "o4",
-              "text": "Book4273"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
-            },
-            {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o3",
-              "text": "Drums"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U19_I19"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 146 - Environment: Weather:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Has visto mis llaves en alg\u00fan sitio?!",
-              "back": "have you seen my keys anywhere!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U19_I20"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 146 (Environment: Weather):",
-          "instruction_en": "Review Environment: Weather from last week. [Ref: 45]",
-          "mastery_tag": "writing",
-          "interaction_id": "U19_I21"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 146 (Environment: Weather):",
-          "stimulus_en": "I like Environment: Weather. (980)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U19_I22"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
-          "stimulus": "Matching set 4625",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Cu\u00e1ndo iremos a la playa? (today)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Otro ejemplo!",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales...",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "My partner is the most beautiful woman in the world!"
-            },
-            {
-              "id": "m0",
-              "text": "When are we going to the beach (today)"
-            },
-            {
-              "id": "m2",
-              "text": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/...."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U19_I23"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Weather):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "would you like some coke? (today)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "in May, in August, etc. - 176"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U19_I24"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Weather):",
-          "main_text": "In Environment: Weather (434), The boss [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "read"
-                },
-                {
-                  "id": "o2",
-                  "text": "read"
+                  "text": "speak"
                 }
               ]
             },
@@ -569,17 +237,304 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
+          "interaction_id": "U19_I12"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 127 para Environment: Weather:",
+          "stimulus_en": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb..",
+          "stimulus_es": "Esto si es un precio exacto, pero \u00bfy si hay c\u00e9ntimos? Entonces dir\u00edamos.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option A"
+            },
+            {
+              "id": "o3",
+              "text": "Other 3426"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U19_I13"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 127 sobre Environment: Weather:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "sit"
+            },
+            {
+              "id": "w1",
+              "text": "don\u2019t"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "opposite"
+            },
+            {
+              "id": "w2",
+              "text": "want"
+            },
+            {
+              "id": "w6",
+              "text": "him"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U19_I14"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 146 (Environment: Weather):",
+          "stimulus_en": "I never drink alcohol if I drive a car (today) (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U19_I15"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 146 (Environment: Weather)",
+          "stimulus_en": "Why didn\u2019t you tell me...",
+          "stimulus_es": "Ref: Por qu\u00e9 no me lo dijiste?...",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U19_I16"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 146 (Environment: Weather):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar (now)",
+              "right": "read, write, eat, run, sleep, etc (now)"
+            },
+            {
+              "id": "p1",
+              "left": "Chips (Br Eng) (Am Eng...",
+              "right": "biscuit) Patatas fritas..."
+            },
+            {
+              "id": "p2",
+              "left": "D\u00f3nde te lo dijo? - 947",
+              "right": "Where did he/she tell you - 947"
+            },
+            {
+              "id": "p3",
+              "left": "Metre (Br Eng) (Am Eng - 306",
+              "right": "meter) Metro - 306"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U19_I17"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 146 (Environment: Weather):",
+          "tts_en": "she doesn\u2019t often write to me.",
+          "correct_answer": "she doesn\u2019t often write to me.",
+          "mastery_tag": "listening",
+          "interaction_id": "U19_I18"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 146:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o4",
+              "text": "Fast8563"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U19_I19"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 146 - Environment: Weather:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Escribir ingl\u00e9s correctamente - amazing",
+              "back": "uso de las may\u00fasculas - amazing"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U19_I20"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 146 (Environment: Weather):",
+          "instruction_en": "List 3 facts about Environment: Weather. [Ref: 70]",
+          "mastery_tag": "writing",
+          "interaction_id": "U19_I21"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 146 (Environment: Weather):",
+          "stimulus_en": "The Countable/Uncountable is here. (932)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U19_I22"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 128 (Environment: Weather):",
+          "stimulus": "Matching set 6774",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda? - interesting",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Algunos ejemplos - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar - amazing",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "read, write, eat, run, sleep, etc - amazing"
+            },
+            {
+              "id": "m1",
+              "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without - amazing"
+            },
+            {
+              "id": "m0",
+              "text": "How old is Mar\u00eda - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U19_I23"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 128 (Environment: Weather):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Have you got a car? (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "tire) Neum\u00e1tico!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U19_I24"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 128 (Environment: Weather):",
+          "main_text": "In Environment: Weather (2887), My brother [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "helped"
+                },
+                {
+                  "id": "o2",
+                  "text": "help"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "fixed"
+                },
+                {
+                  "id": "o2",
+                  "text": "fix"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U19_I25"
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Weather:",
-          "stimulus_en": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno.!",
-          "stimulus_es": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo!",
+          "prompt_es": "Elige 128 para Environment: Weather:",
+          "stimulus_en": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar. - interesting",
+          "stimulus_es": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son - interesting",
           "options": [
             {
               "id": "o3",
-              "text": "Other 8582"
+              "text": "Other 9993"
             },
             {
               "id": "o2",
@@ -596,67 +551,387 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Weather:",
+          "prompt_es": "Ordena 128 sobre Environment: Weather:",
           "options": [
             {
-              "id": "w10",
-              "text": "siguiente"
-            },
-            {
               "id": "w4",
-              "text": "etc"
-            },
-            {
-              "id": "w7",
-              "text": "que"
-            },
-            {
-              "id": "w9",
-              "text": "el"
-            },
-            {
-              "id": "w6",
-              "text": "aconsejo"
-            },
-            {
-              "id": "w1",
-              "text": "shirt"
-            },
-            {
-              "id": "w12",
-              "text": "y"
-            },
-            {
-              "id": "w3",
-              "text": "firm"
-            },
-            {
-              "id": "w14",
-              "text": "amazing"
-            },
-            {
-              "id": "w13",
-              "text": "practiqu\u00e9is"
+              "text": "lot"
             },
             {
               "id": "w5",
-              "text": "Os"
+              "text": "of"
             },
             {
               "id": "w2",
-              "text": "first"
+              "text": "has"
             },
             {
-              "id": "w8",
-              "text": "escuch\u00e9is"
+              "id": "w7",
+              "text": "(today)"
             },
             {
               "id": "w0",
-              "text": "skirt"
+              "text": "My"
+            },
+            {
+              "id": "w6",
+              "text": "money"
+            },
+            {
+              "id": "w1",
+              "text": "friend"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U19_I27"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 147 (Environment: Weather):",
+          "stimulus_en": "Go straight on and in front of the church there is a supermarket. - interesting (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U19_I28"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 147 (Environment: Weather)",
+          "stimulus_en": "Do you have any children - 396",
+          "stimulus_es": "Ref: Tienes hijos? - 396",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U19_I29"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 147 (Environment: Weather):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "often / money / Sally / her / borrows / friends / from (now)",
+              "right": "Sally often borrows money from her friends (now)"
+            },
+            {
+              "id": "p1",
+              "left": "my / My / spoils / neighbour / holidays / always!",
+              "right": "My neighbour always spoils my holidays!"
+            },
+            {
+              "id": "p2",
+              "left": "2. Let\u2019s do the same with the first example - interesting",
+              "right": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject! - interesting"
+            },
+            {
+              "id": "p3",
+              "left": "visits / Jonathan / usually / dentist / the...",
+              "right": "Jonathan usually visits the dentist..."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U19_I30"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 147 (Environment: Weather):",
+          "tts_en": "Is she studying English - interesting",
+          "correct_answer": "Is she studying English - interesting",
+          "mastery_tag": "listening",
+          "interaction_id": "U19_I31"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 147:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "London"
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
+            },
+            {
+              "id": "o4",
+              "text": "Slow2948"
+            },
+            {
+              "id": "o2",
+              "text": "Berlin"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U19_I32"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 147 - Environment: Weather:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Alguna vez has probado la comida tailandesa?...",
+              "back": "Have you ever tried Thai food..."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U19_I33"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 147 (Environment: Weather):",
+          "instruction_en": "Write a note about Environment: Weather. [Ref: 93]",
+          "mastery_tag": "writing",
+          "interaction_id": "U19_I34"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 147 (Environment: Weather):",
+          "stimulus_en": "Improve Environment: Weather. (260)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U19_I35"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 129 (Environment: Weather):",
+          "stimulus": "Matching set 7719",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Movie theater (Br Eng - 629",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Otro common mistake...",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "As any modal verb, they are followed by an infinitive without \u2018to\u2019, for example (today)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "Have you a car?..."
+            },
+            {
+              "id": "m0",
+              "text": "cinema) Cine - 629"
+            },
+            {
+              "id": "m2",
+              "text": "may come, might go. (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U19_I36"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 129 (Environment: Weather):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Paul\u2019s birthday is on 8th May..."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "do you have any shoes for the wedding - amazing"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U19_I37"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 129 (Environment: Weather):",
+          "main_text": "In Environment: Weather (1928), Maria [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "helped"
+                },
+                {
+                  "id": "o2",
+                  "text": "help"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "played"
+                },
+                {
+                  "id": "o2",
+                  "text": "play"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U19_I38"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 129 para Environment: Weather:",
+          "stimulus_en": "Were you having a beer when you saw Peter...",
+          "stimulus_es": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro?...",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option A"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o3",
+              "text": "Other 8126"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U19_I39"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 129 sobre Environment: Weather:",
+          "options": [
+            {
+              "id": "w14",
+              "text": "friend"
+            },
+            {
+              "id": "w7",
+              "text": "who"
+            },
+            {
+              "id": "w5",
+              "text": "old"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w19",
+              "text": "es"
+            },
+            {
+              "id": "w17",
+              "text": "my"
+            },
+            {
+              "id": "w8",
+              "text": "is"
+            },
+            {
+              "id": "w13",
+              "text": "my"
+            },
+            {
+              "id": "w18",
+              "text": "friend"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w1",
+              "text": "friend"
+            },
+            {
+              "id": "w10",
+              "text": "years"
+            },
+            {
+              "id": "w6",
+              "text": "="
+            },
+            {
+              "id": "w4",
+              "text": "years"
+            },
+            {
+              "id": "w15",
+              "text": "por"
+            },
+            {
+              "id": "w20",
+              "text": "el"
+            },
+            {
+              "id": "w3",
+              "text": "25"
             },
             {
               "id": "w11",
-              "text": "audio"
+              "text": "old?"
+            },
+            {
+              "id": "w21",
+              "text": "sujeto"
+            },
+            {
+              "id": "w12",
+              "text": "="
+            },
+            {
+              "id": "w16",
+              "text": "tanto"
+            },
+            {
+              "id": "w9",
+              "text": "25"
             }
           ],
           "correct_answer": [
@@ -674,333 +949,58 @@
             "w11",
             "w12",
             "w13",
-            "w14"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U19_I27"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Weather):",
-          "stimulus_en": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l) - 219 (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U19_I28"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Weather)",
-          "stimulus_en": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos.!",
-          "stimulus_es": "Ref: \u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo!",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U19_I29"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1.",
-              "right": "Can I have your ID/ passport/ credit card?.."
-            },
-            {
-              "id": "p1",
-              "left": "Alguien dijo mi nombre? (today)",
-              "right": "Did anybody say my name (today)"
-            },
-            {
-              "id": "p2",
-              "left": "Qu\u00e9 es lo que empieza? - amazing",
-              "right": "la pel\u00edcula, entonces SUBJECT = THE FILM - amazing"
-            },
-            {
-              "id": "p3",
-              "left": "\u2013 D\u00edas de la semana (now)",
-              "right": "on Monday, on Wednesday, etc. (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U19_I30"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Weather):",
-          "tts_en": "bookshop) Librer\u00eda (now)",
-          "correct_answer": "bookshop) Librer\u00eda (now)",
-          "mastery_tag": "listening",
-          "interaction_id": "U19_I31"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o4",
-              "text": "Fast9509"
-            },
-            {
-              "id": "o3",
-              "text": "Calm"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U19_I32"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 147 - Environment: Weather:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Al lado de mi casa hay una guarder\u00eda.",
-              "back": "Next to my house there is a nursery school.."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U19_I33"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 147 (Environment: Weather):",
-          "instruction_en": "Review Environment: Weather from last week. [Ref: 21]",
-          "mastery_tag": "writing",
-          "interaction_id": "U19_I34"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 147 (Environment: Weather):",
-          "stimulus_en": "Repeat Environment: Weather. (505)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U19_I35"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
-          "stimulus": "Matching set 3983",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo.",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Te veo el s\u00e1bado - interesting",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Has estado alguna vez en Canad\u00e1? (now)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "have you ever been to Canada (now)"
-            },
-            {
-              "id": "m1",
-              "text": "I\u2019ll see you on Saturday - interesting"
-            },
-            {
-              "id": "m0",
-              "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta.."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U19_I36"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Weather):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "rubber) Goma de borrar - interesting"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "I don\u2019t have many friends (friends is countable). - 108"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U19_I37"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Weather):",
-          "main_text": "In Environment: Weather (4329), The police officer [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "sold"
-                },
-                {
-                  "id": "o2",
-                  "text": "sell"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "bought"
-                },
-                {
-                  "id": "o2",
-                  "text": "buy"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U19_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Weather:",
-          "stimulus_en": "Have you got a car? - 161",
-          "stimulus_es": "The correct thing - 161",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o3",
-              "text": "Other 1410"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U19_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Weather:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "got"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "car"
-            },
-            {
-              "id": "w1",
-              "text": "haven\u2019t"
-            },
-            {
-              "id": "w5",
-              "text": "628"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w14",
+            "w15",
+            "w16",
+            "w17",
+            "w18",
+            "w19",
+            "w20",
+            "w21"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U19_I40"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Weather):",
-          "stimulus_en": "Does that computer work! (___)",
+          "prompt_es": "Completa 148 (Environment: Weather):",
+          "stimulus_en": "autumn) En oto\u00f1o (today) (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U19_I41"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Weather)",
-          "stimulus_en": "How is your mum feeling - amazing",
-          "stimulus_es": "Ref: C\u00f3mo se siente tu madre? - amazing",
+          "prompt_es": "\u00bfCorrecto? 148 (Environment: Weather)",
+          "stimulus_en": "chips) Patatas fritas - interesting",
+          "stimulus_es": "Ref: French fries (Br Eng - interesting",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U19_I42"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
+          "prompt_es": "Relaciona 148 (Environment: Weather):",
           "pairs": [
             {
               "id": "p0",
-              "left": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir (today)",
-              "right": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n. (today)"
+              "left": "2. Siempre van antes del sustantivo, la regla es.",
+              "right": "ADJECTIVE + NOUN."
             },
             {
               "id": "p1",
-              "left": "Qu\u00e9 quieres? (now)",
-              "right": "la respuesta es ilimitada, puede ser cualquier cosa. (now)"
+              "left": "A qu\u00e9 hora sale el autob\u00fas? - 937",
+              "right": "What time does the bus leave - 937"
             },
             {
               "id": "p2",
-              "left": "Common mistake (today)",
-              "right": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele. (today)"
+              "left": "3. usually/ arrives late / the bus - 950",
+              "right": "the bus usually arrives late - 950"
             },
             {
               "id": "p3",
-              "left": "2. Let\u2019s do the same with the first example!",
-              "right": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject!!"
+              "left": "angry / Our / teacher / English / usually / is.",
+              "right": "Our English teacher is usually angry."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1008,35 +1008,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Weather):",
-          "tts_en": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n) (today)",
-          "correct_answer": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n) (today)",
+          "prompt_es": "Dictado 148 (Environment: Weather):",
+          "tts_en": "I don\u2019t have any friends who live near my house. - interesting",
+          "correct_answer": "I don\u2019t have any friends who live near my house. - interesting",
           "mastery_tag": "listening",
           "interaction_id": "U19_I44"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 148:",
           "options": [
             {
-              "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
-            },
-            {
               "id": "o1",
-              "text": "Piano"
+              "text": "Chair"
             },
             {
               "id": "o4",
-              "text": "Book526"
+              "text": "Pen3"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
             },
             {
               "id": "o2",
-              "text": "Flute"
+              "text": "Sofa"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
             }
           ],
           "correct_answer": "o4",
@@ -1049,8 +1049,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca? (now)",
-              "back": "What\u2019s the funniest joke you\u2019ve ever been told (now)"
+              "front": "Common mistake (today)",
+              "back": "I hadn\u2019t got a mobile. (today)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1059,50 +1059,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 148 (Environment: Weather):",
-          "instruction_en": "Review Environment: Weather from last week. [Ref: 54]",
+          "instruction_en": "List 3 facts about Environment: Weather. [Ref: 42]",
           "mastery_tag": "writing",
           "interaction_id": "U19_I47"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 148 (Environment: Weather):",
-          "stimulus_en": "This is Environment: Weather. (602)",
+          "stimulus_en": "Study Environment: Weather now. (798)",
           "mastery_tag": "speaking",
           "interaction_id": "U19_I48"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
-          "stimulus": "Matching set 7780",
+          "prompt_es": "Une 130 (Environment: Weather):",
+          "stimulus": "Matching set 9671",
           "items": [
             {
               "id": "i0",
-              "text": "Otro ejemplo.",
+              "text": "2. Play football on Saturday afternoons / the boys / always - interesting",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Quieres m\u00e1s? - 408",
+              "text": "1. La puerta de mi casa!",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "7. La casa de mis primos es muy grande.",
+              "text": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo - 756",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "would you like some more - 408"
+              "id": "m2",
+              "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - 756"
             },
             {
-              "id": "m2",
-              "text": "My cousins\u2019 house is very big."
+              "id": "m1",
+              "text": "the door of my house!"
             },
             {
               "id": "m0",
-              "text": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big.."
+              "text": "the boys always play football on Saturday afternoons - interesting"
             }
           ],
           "correct_answer": {
@@ -1115,7 +1115,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Weather):",
+          "prompt_es": "Clasifica 130 (Environment: Weather):",
           "categories": [
             {
               "id": "c1",
@@ -1123,7 +1123,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "when I was at primary school, I didn\u2019t wear uniform. (now)"
+                  "text": "I have 3 children...."
                 }
               ]
             },
@@ -1133,7 +1133,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "What will the weather be like tomorrow? It\u2019ll be sunny.!"
+                  "text": "would you like some more."
                 }
               ]
             }
@@ -1143,19 +1143,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Weather):",
-          "main_text": "In Environment: Weather (4481), Sarah [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 130 (Environment: Weather):",
+          "main_text": "In Environment: Weather (2765), The waiter [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
+                  "text": "ate"
                 },
                 {
                   "id": "o2",
-                  "text": "organize"
+                  "text": "eat"
                 }
               ]
             },
@@ -1164,11 +1164,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "built"
+                  "text": "fixed"
                 },
                 {
                   "id": "o2",
-                  "text": "build"
+                  "text": "fix"
                 }
               ]
             }
@@ -1182,21 +1182,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Weather:",
-          "stimulus_en": "preguntas en ingl\u00e9s.",
-          "stimulus_es": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material.",
+          "prompt_es": "Elige 130 para Environment: Weather:",
+          "stimulus_en": "I haven\u2019t a car. (today)",
+          "stimulus_es": "Otro common mistake (today)",
           "options": [
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
             {
               "id": "o2",
               "text": "Option B"
             },
             {
               "id": "o3",
-              "text": "Other 9924"
+              "text": "Other 3179"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
             }
           ],
           "correct_answer": "o1",
@@ -1205,39 +1205,35 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Weather:",
+          "prompt_es": "Ordena 130 sobre Environment: Weather:",
           "options": [
             {
-              "id": "w1",
-              "text": "father"
+              "id": "w3",
+              "text": "going"
             },
             {
-              "id": "w0",
-              "text": "my"
+              "id": "w6",
+              "text": "beach"
             },
             {
               "id": "w4",
               "text": "to"
             },
             {
+              "id": "w0",
+              "text": "When"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
               "id": "w5",
-              "text": "work"
+              "text": "the"
             },
             {
               "id": "w2",
-              "text": "usually"
-            },
-            {
-              "id": "w6",
-              "text": "by"
-            },
-            {
-              "id": "w7",
-              "text": "bus"
-            },
-            {
-              "id": "w3",
-              "text": "goes"
+              "text": "we"
             }
           ],
           "correct_answer": [
@@ -1247,52 +1243,51 @@
             "w3",
             "w4",
             "w5",
-            "w6",
-            "w7"
+            "w6"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U19_I53"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Weather):",
-          "stimulus_en": "Jennifer usually goes out to see a concert! (___)",
+          "prompt_es": "Completa 149 (Environment: Weather):",
+          "stimulus_en": "I often go to bed before 11 (today) (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U19_I54"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Weather)",
-          "stimulus_en": "The girls\u2019 ball - interesting",
-          "stimulus_es": "Ref: 4. La pelota de las ni\u00f1as - interesting",
+          "prompt_es": "\u00bfCorrecto? 149 (Environment: Weather)",
+          "stimulus_en": "have you ever been to Canada - interesting",
+          "stimulus_es": "Ref: Has estado alguna vez en Canad\u00e1? - interesting",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U19_I55"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
+          "prompt_es": "Relaciona 149 (Environment: Weather):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Movie star (Br Eng - interesting",
-              "right": "film star) Estrella de cine - interesting"
+              "left": "5. never / drinks coffee in the evening / she - 790",
+              "right": "she never drinks coffee in the evening - 790"
             },
             {
               "id": "p1",
-              "left": "car / I / drink / never / if / drive / I / alcohol / a...",
-              "right": "I never drink alcohol if I drive a car..."
+              "left": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question ten\u00edamos la inversi\u00f3n entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet?\u00a0), en la indirect question, ya no hay inversi\u00f3n, sino que tenemos question word + subject + verb. Si te das cuenta, la inversi\u00f3n la tenemos en \u2018Can you tell me\u2026\u2019. Como ya tenemos una inversi\u00f3n al comenzar la pregunta, ya no podemos hacer otra inversi\u00f3n. Recuerda!",
+              "right": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n!!"
             },
             {
               "id": "p2",
-              "left": "The correct thing - amazing",
-              "right": "My friend has a lot of money. - amazing"
+              "left": "A lot of, countable y uncountable - interesting",
+              "right": "I have a lot of money and I have a lot of friends. - interesting"
             },
             {
               "id": "p3",
-              "left": "El marido de mi prima es alem\u00e1n y su madre irlandesa...",
-              "right": "my cousin\u2019s husband is German and his mother Irish...."
+              "left": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca?...",
+              "right": "Who\u2019s the shyest person you\u2019ve ever met..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1300,35 +1295,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Weather):",
-          "tts_en": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost...",
-          "correct_answer": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost...",
+          "prompt_es": "Dictado 149 (Environment: Weather):",
+          "tts_en": "John\u2018s job is boring. - 255",
+          "correct_answer": "John\u2018s job is boring. - 255",
           "mastery_tag": "listening",
           "interaction_id": "U19_I57"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 149:",
           "options": [
             {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
-            },
-            {
-              "id": "o0",
-              "text": "Sun"
+              "id": "o2",
+              "text": "train"
             },
             {
               "id": "o4",
-              "text": "Hot6996"
+              "text": "cat6555"
             },
             {
-              "id": "o2",
-              "text": "Star"
+              "id": "o1",
+              "text": "bus"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
             }
           ],
           "correct_answer": "o4",
@@ -1341,8 +1336,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que le\u00e1is la explicaci\u00f3n y aprend\u00e1is, o repas\u00e9is, qu\u00e9 es y c\u00f3mo se forman las indirect questions (preguntas indirectas). Aqu\u00ed lo puedes revisar (today)",
-              "back": "Indirect questions en ingl\u00e9s. (today)"
+              "front": "Cu\u00e1l es el pa\u00eds m\u00e1s fr\u00edo en el que has estado nunca?!",
+              "back": "What\u2019s the coldest country you\u2019ve ever been to!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1351,50 +1346,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 149 (Environment: Weather):",
-          "instruction_en": "Why is Environment: Weather important? [Ref: 38]",
+          "instruction_en": "Why is Environment: Weather important? [Ref: 35]",
           "mastery_tag": "writing",
           "interaction_id": "U19_I60"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 149 (Environment: Weather):",
-          "stimulus_en": "Study Environment: Weather now. (479)",
+          "stimulus_en": "Improve Environment: Weather. (594)",
           "mastery_tag": "speaking",
           "interaction_id": "U19_I61"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
-          "stimulus": "Matching set 3174",
+          "prompt_es": "Une 131 (Environment: Weather):",
+          "stimulus": "Matching set 9819",
           "items": [
             {
               "id": "i0",
-              "text": "Qu\u00e9 es \u00e9so?!",
+              "text": "Has visto alguna vez una pel\u00edcula en versi\u00f3n original?!",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Common mistake (now)",
+              "text": "C\u00f3mo se siente tu madre?...",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "En espa\u00f1ol dir\u00edamos!",
+              "text": "try / police / keep / The / order / always / to / the (now)",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "Had you got a motorbike\u2026? (now)"
+              "id": "m2",
+              "text": "The police always try to keep the order (now)"
             },
             {
-              "id": "m2",
-              "text": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest).!"
+              "id": "m1",
+              "text": "How is your mum feeling..."
             },
             {
               "id": "m0",
-              "text": "What\u2019s that!"
+              "text": "have you ever seen a film in original version!"
             }
           ],
           "correct_answer": {
@@ -1407,7 +1402,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Weather):",
+          "prompt_es": "Clasifica 131 (Environment: Weather):",
           "categories": [
             {
               "id": "c1",
@@ -1415,7 +1410,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM..."
+                  "text": "have you ever studied a foreign laguage apart from English - amazing"
                 }
               ]
             },
@@ -1425,7 +1420,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "verb patters...."
+                  "text": "What will the weather be like tomorrow? It\u2019ll be sunny. - interesting"
                 }
               ]
             }
@@ -1435,19 +1430,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Weather):",
-          "main_text": "In Environment: Weather (216), The waiter [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 131 (Environment: Weather):",
+          "main_text": "In Environment: Weather (3109), A colleague [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "drove"
+                  "text": "played"
                 },
                 {
                   "id": "o2",
-                  "text": "drive"
+                  "text": "play"
                 }
               ]
             },
@@ -1456,11 +1451,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "taught"
+                  "text": "walked"
                 },
                 {
                   "id": "o2",
-                  "text": "teach"
+                  "text": "walk"
                 }
               ]
             }
@@ -1474,21 +1469,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Weather:",
-          "stimulus_en": "she never drinks coffee in the evening - interesting",
-          "stimulus_es": "5. never / drinks coffee in the evening / she - interesting",
+          "prompt_es": "Elige 131 para Environment: Weather:",
+          "stimulus_en": "chemist) Farmacia - 665",
+          "stimulus_es": "Drugstore (Br Eng - 665",
           "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
             {
               "id": "o1",
               "text": "Option A"
             },
             {
               "id": "o3",
-              "text": "Other 904"
+              "text": "Other 2883"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
             }
           ],
           "correct_answer": "o1",
@@ -1497,27 +1492,27 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Weather:",
+          "prompt_es": "Ordena 131 sobre Environment: Weather:",
           "options": [
             {
               "id": "w4",
+              "text": "interesting"
+            },
+            {
+              "id": "w3",
+              "text": "that"
+            },
+            {
+              "id": "w1",
               "text": "car"
             },
             {
               "id": "w2",
-              "text": "have"
-            },
-            {
-              "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w3",
-              "text": "a"
+              "text": "is"
             },
             {
               "id": "w0",
-              "text": "do"
+              "text": "Whose"
             }
           ],
           "correct_answer": [
@@ -1532,44 +1527,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Weather):",
-          "stimulus_en": "autumn) En oto\u00f1o (today) (___)",
+          "prompt_es": "Completa 150 (Environment: Weather):",
+          "stimulus_en": "Had you got a motorbike\u2026? - interesting (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U19_I67"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Weather)",
-          "stimulus_en": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l).!",
-          "stimulus_es": "Ref: Para responder en plural, dir\u00edamos!",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 150 (Environment: Weather)",
+          "stimulus_en": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado. (today)",
+          "stimulus_es": "Ref: Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo (today)",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U19_I68"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
+          "prompt_es": "Relaciona 150 (Environment: Weather):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Much, como se utiliza con uncountable, decimos...",
-              "right": "I haven\u2019t got much money (remember, money is uncountable)...."
+              "left": "En un post anterior sobre verb patterns puedes revisar la diferencia entre allow y let!",
+              "right": "verb patters.!"
             },
             {
               "id": "p1",
-              "left": "Has visto alguna vez una pel\u00edcula en versi\u00f3n original?.",
-              "right": "have you ever seen a film in original version."
+              "left": "Te veo el s\u00e1bado (today)",
+              "right": "I\u2019ll see you on Saturday (today)"
             },
             {
               "id": "p2",
-              "left": "1. Often / she / write to me/ doesn\u2019t - 822",
-              "right": "she doesn\u2019t often write to me - 822"
+              "left": "Common mistake.",
+              "right": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele.."
             },
             {
               "id": "p3",
-              "left": "4. go to bed before 11 / often / I - 580",
-              "right": "I often go to bed before 11 - 580"
+              "left": "puedo abrir la ventana, por favor? - amazing",
+              "right": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1577,35 +1572,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Weather):",
-          "tts_en": "Your grandmother\u2019s juice (now)",
-          "correct_answer": "Your grandmother\u2019s juice (now)",
+          "prompt_es": "Dictado 150 (Environment: Weather):",
+          "tts_en": "Have you finished the project yet - amazing",
+          "correct_answer": "Have you finished the project yet - amazing",
           "mastery_tag": "listening",
           "interaction_id": "U19_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 150:",
           "options": [
             {
-              "id": "o4",
-              "text": "Book5671"
+              "id": "o0",
+              "text": "apple"
             },
             {
               "id": "o1",
-              "text": "Piano"
+              "text": "banana"
             },
             {
-              "id": "o2",
-              "text": "Flute"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
+              "id": "o4",
+              "text": "bike2199"
             },
             {
               "id": "o3",
-              "text": "Drums"
+              "text": "mango"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
             }
           ],
           "correct_answer": "o4",
@@ -1618,8 +1613,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Otro common mistake.",
-              "back": "Have you a car?."
+              "front": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo - interesting",
+              "back": "how often do you have Italian classes? = I have every Tuesday. - interesting"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1628,50 +1623,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 150 (Environment: Weather):",
-          "instruction_en": "Draft an email regarding Environment: Weather. [Ref: 52]",
+          "instruction_en": "Why is Environment: Weather important? [Ref: 97]",
           "mastery_tag": "writing",
           "interaction_id": "U19_I73"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 150 (Environment: Weather):",
-          "stimulus_en": "Study Environment: Weather now. (285)",
+          "stimulus_en": "Study Environment: Weather now. (340)",
           "mastery_tag": "speaking",
           "interaction_id": "U19_I74"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
-          "stimulus": "Matching set 9729",
+          "prompt_es": "Une 132 (Environment: Weather):",
+          "stimulus": "Matching set 6729",
           "items": [
             {
               "id": "i0",
-              "text": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir (today)",
+              "text": "De qui\u00e9n son esos libros?...",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Alguna vez has probado la comida tailandesa? (today)",
+              "text": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo - amazing",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Los adjetivos tienen tres formas - interesting",
+              "text": "El adjetivo dice una cualidad de algo, por ejemplo (now)",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. - interesting"
-            },
-            {
-              "id": "m1",
-              "text": "Have you ever tried Thai food (today)"
+              "text": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. (now)"
             },
             {
               "id": "m0",
-              "text": "I can to speak English. (today)"
+              "text": "Whose books are those= or Whose are those books..."
+            },
+            {
+              "id": "m1",
+              "text": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno. - amazing"
             }
           ],
           "correct_answer": {
@@ -1684,7 +1679,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Weather):",
+          "prompt_es": "Clasifica 132 (Environment: Weather):",
           "categories": [
             {
               "id": "c1",
@@ -1692,7 +1687,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a).!"
+                  "text": "men, women, people, etc. (today)"
                 }
               ]
             },
@@ -1702,7 +1697,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "I have 3 children...."
+                  "text": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the - amazing"
                 }
               ]
             }
@@ -1712,19 +1707,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Weather):",
-          "main_text": "In Environment: Weather (4475), The waiter [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 132 (Environment: Weather):",
+          "main_text": "In Environment: Weather (1954), The manager [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "taught"
+                  "text": "traveled"
                 },
                 {
                   "id": "o2",
-                  "text": "teach"
+                  "text": "travel"
                 }
               ]
             },
@@ -1733,11 +1728,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "checked"
+                  "text": "taught"
                 },
                 {
                   "id": "o2",
-                  "text": "check"
+                  "text": "teach"
                 }
               ]
             }
@@ -1751,21 +1746,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Weather:",
-          "stimulus_en": "lift) Ascensor (now)",
-          "stimulus_es": "Elevator (Br Eng (now)",
+          "prompt_es": "Elige 132 para Environment: Weather:",
+          "stimulus_en": "I don\u2019t want to sit opposite him. (today)",
+          "stimulus_es": "No me quiero sentar enfrente de \u00e9l (today)",
           "options": [
             {
+              "id": "o1",
+              "text": "Option A"
+            },
+            {
               "id": "o3",
-              "text": "Other 6588"
+              "text": "Other 7848"
             },
             {
               "id": "o2",
               "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
             }
           ],
           "correct_answer": "o1",
@@ -1774,127 +1769,107 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Weather:",
+          "prompt_es": "Ordena 132 sobre Environment: Weather:",
           "options": [
             {
-              "id": "w25",
-              "text": "es"
-            },
-            {
-              "id": "w26",
-              "text": "temporal"
-            },
-            {
-              "id": "w12",
-              "text": "es"
-            },
-            {
-              "id": "w3",
-              "text": "person"
-            },
-            {
-              "id": "w22",
-              "text": "="
-            },
-            {
-              "id": "w10",
-              "text": "soy"
-            },
-            {
-              "id": "w7",
-              "text": "persona"
-            },
-            {
-              "id": "w16",
-              "text": "ing"
-            },
-            {
-              "id": "w23",
-              "text": "estoy"
-            },
-            {
-              "id": "w11",
-              "text": "siempre"
-            },
-            {
-              "id": "w24",
-              "text": "aburrido"
-            },
-            {
-              "id": "w15",
-              "text": "eso"
-            },
-            {
-              "id": "w27",
-              "text": "es"
-            },
-            {
-              "id": "w13",
-              "text": "permanente"
-            },
-            {
               "id": "w17",
-              "text": "Pero"
-            },
-            {
-              "id": "w19",
-              "text": "digo"
-            },
-            {
-              "id": "w6",
-              "text": "una"
+              "text": "positiva"
             },
             {
               "id": "w5",
-              "text": "soy"
+              "text": "behaved"
             },
             {
-              "id": "w20",
-              "text": "I\u2019m"
-            },
-            {
-              "id": "w28",
-              "text": "s\u00f3lo"
-            },
-            {
-              "id": "w4",
-              "text": "="
-            },
-            {
-              "id": "w29",
-              "text": "ahora"
-            },
-            {
-              "id": "w1",
+              "id": "w10",
               "text": "a"
             },
             {
-              "id": "w14",
-              "text": "por"
-            },
-            {
-              "id": "w8",
-              "text": "aburrida"
-            },
-            {
-              "id": "w18",
-              "text": "si"
-            },
-            {
-              "id": "w21",
-              "text": "bored"
-            },
-            {
               "id": "w0",
-              "text": "I\u2019m"
+              "text": "many"
             },
             {
-              "id": "w2",
-              "text": "boring"
+              "id": "w11",
+              "text": "lot"
+            },
+            {
+              "id": "w1",
+              "text": "people"
+            },
+            {
+              "id": "w12",
+              "text": "of"
+            },
+            {
+              "id": "w24",
+              "text": "incontables"
+            },
+            {
+              "id": "w16",
+              "text": "oraci\u00f3n"
             },
             {
               "id": "w9",
-              "text": "lo"
+              "text": "lado"
+            },
+            {
+              "id": "w2",
+              "text": "think"
+            },
+            {
+              "id": "w18",
+              "text": "ya"
+            },
+            {
+              "id": "w21",
+              "text": "sustantivos"
+            },
+            {
+              "id": "w22",
+              "text": "contables"
+            },
+            {
+              "id": "w14",
+              "text": "seguido"
+            },
+            {
+              "id": "w20",
+              "text": "con"
+            },
+            {
+              "id": "w23",
+              "text": "o"
+            },
+            {
+              "id": "w19",
+              "text": "sea"
+            },
+            {
+              "id": "w13",
+              "text": "va"
+            },
+            {
+              "id": "w3",
+              "text": "that"
+            },
+            {
+              "id": "w8",
+              "text": "otro"
+            },
+            {
+              "id": "w4",
+              "text": "he"
+            },
+            {
+              "id": "w7",
+              "text": "Por"
+            },
+            {
+              "id": "w15",
+              "text": "de"
+            },
+            {
+              "id": "w6",
+              "text": "badly"
             }
           ],
           "correct_answer": [
@@ -1922,56 +1897,51 @@
             "w21",
             "w22",
             "w23",
-            "w24",
-            "w25",
-            "w26",
-            "w27",
-            "w28",
-            "w29"
+            "w24"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U19_I79"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Weather):",
-          "stimulus_en": "What\u2019s his name! (___)",
+          "prompt_es": "Completa 151 (Environment: Weather):",
+          "stimulus_en": "do you have any brothers or sisters... (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U19_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Weather)",
-          "stimulus_en": "Do you have any children (today)",
-          "stimulus_es": "Ref: Tienes hijos? (today)",
+          "prompt_es": "\u00bfCorrecto? 151 (Environment: Weather)",
+          "stimulus_en": "Your grandmother\u2019s juice - 595",
+          "stimulus_es": "Ref: 5. El zumo de tu abuela - 595",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U19_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
+          "prompt_es": "Relaciona 151 (Environment: Weather):",
           "pairs": [
             {
               "id": "p0",
-              "left": "on + train/ bus/ plane/ bike/ motorbike (now)",
-              "right": "cuando hablamos de forma m\u00e1s espec\u00edfica. (now)"
+              "left": "7. La casa de mis primos es muy grande.",
+              "right": "My cousins\u2019 house is very big."
             },
             {
               "id": "p1",
-              "left": "Si pasamos la oraci\u00f3n a interrogativa, quedar\u00eda as\u00ed (now)",
-              "right": "Do you have any friends who live near your house? = al ser interrogativa, any. (now)"
+              "left": "Has visto a alguien?!",
+              "right": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb.!"
             },
             {
               "id": "p2",
-              "left": "Sigue recto y delante de la iglesia hay un supermercado.",
-              "right": "Go straight on and in front of the church there is a supermarket.."
+              "left": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo (today)",
+              "right": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. (today)"
             },
             {
               "id": "p3",
-              "left": "Tyre (Am Eng - amazing",
-              "right": "tire) Neum\u00e1tico - amazing"
+              "left": "Cabe destacar que la palabra every es singular en ingl\u00e9s, por tanto, tanto \u00abday\u00bb como cualquiera de los d\u00edas que pongamos, deben ir en singular. Es incorrecto decir (today)",
+              "right": "every days o every Tuesdays. (today)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1979,35 +1949,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Weather):",
-          "tts_en": "the bus usually arrives late (today)",
-          "correct_answer": "the bus usually arrives late (today)",
+          "prompt_es": "Dictado 151 (Environment: Weather):",
+          "tts_en": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. - amazing",
+          "correct_answer": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. - amazing",
           "mastery_tag": "listening",
           "interaction_id": "U19_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 151:",
           "options": [
             {
-              "id": "o3",
-              "text": "pink"
+              "id": "o0",
+              "text": "Sun"
             },
             {
               "id": "o2",
-              "text": "green"
+              "text": "Star"
             },
             {
               "id": "o4",
-              "text": "run2242"
-            },
-            {
-              "id": "o0",
-              "text": "blue"
+              "text": "Hot996"
             },
             {
               "id": "o1",
-              "text": "red"
+              "text": "Moon"
+            },
+            {
+              "id": "o3",
+              "text": "Planet"
             }
           ],
           "correct_answer": "o4",
@@ -2020,8 +1990,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "1. el primer elemento (de esos tres que dec\u00edamos antes) es una persona. Ejemplo!",
-              "back": "John\u2018s job is boring.!"
+              "front": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir (now)",
+              "back": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n. (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2030,50 +2000,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 151 (Environment: Weather):",
-          "instruction_en": "Why is Environment: Weather important? [Ref: 39]",
+          "instruction_en": "List 3 facts about Environment: Weather. [Ref: 22]",
           "mastery_tag": "writing",
           "interaction_id": "U19_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 151 (Environment: Weather):",
-          "stimulus_en": "Study Environment: Weather now. (709)",
+          "stimulus_en": "Look at Environment: Weather. (312)",
           "mastery_tag": "speaking",
           "interaction_id": "U19_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
-          "stimulus": "Matching set 1078",
+          "prompt_es": "Une 133 (Environment: Weather):",
+          "stimulus": "Matching set 3515",
           "items": [
             {
               "id": "i0",
-              "text": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar - amazing",
+              "text": "A qu\u00e9 hora sale el tren? - amazing",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales (now)",
+              "text": "La podemos contestar de la seguiente manera...",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo - 707",
+              "text": "Otro ejemplo - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m2",
+              "text": "when I was at primary school, I didn\u2019t wear uniform. - amazing"
+            },
+            {
               "id": "m1",
-              "text": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio (now)"
+              "text": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l)..."
             },
             {
               "id": "m0",
-              "text": "read, write, eat, run, sleep, etc - amazing"
-            },
-            {
-              "id": "m2",
-              "text": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. - 707"
+              "text": "What time does the train leave - amazing"
             }
           ],
           "correct_answer": {
@@ -2086,7 +2056,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Weather):",
+          "prompt_es": "Clasifica 133 (Environment: Weather):",
           "categories": [
             {
               "id": "c1",
@@ -2094,7 +2064,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "every days o every Tuesdays. - amazing"
+                  "text": "\u2018m/ \u2018s, etc)!"
                 }
               ]
             },
@@ -2104,7 +2074,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "\u2018m/ \u2018s, etc) (today)"
+                  "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb...."
                 }
               ]
             }
@@ -2114,19 +2084,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Weather):",
-          "main_text": "In Environment: Weather (9647), He [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 133 (Environment: Weather):",
+          "main_text": "In Environment: Weather (7699), A colleague [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "checked"
+                  "text": "cleaned"
                 },
                 {
                   "id": "o2",
-                  "text": "check"
+                  "text": "clean"
                 }
               ]
             },
@@ -2135,11 +2105,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "studied"
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "study"
                 }
               ]
             }
@@ -2153,17 +2123,17 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Weather:",
-          "stimulus_en": "What time does the supermarket open (now)",
-          "stimulus_es": "A qu\u00e9 hora abre el supermercado? (now)",
+          "prompt_es": "Elige 133 para Environment: Weather:",
+          "stimulus_en": "any + thing = en oraci\u00f3n INTERROGATIVA. - interesting",
+          "stimulus_es": "Encontraste algo ah\u00ed? - interesting",
           "options": [
+            {
+              "id": "o3",
+              "text": "Other 8554"
+            },
             {
               "id": "o1",
               "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 9077"
             },
             {
               "id": "o2",
@@ -2176,244 +2146,69 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Weather:",
+          "prompt_es": "Ordena 133 sobre Environment: Weather:",
           "options": [
             {
-              "id": "w35",
-              "text": "s"
-            },
-            {
               "id": "w1",
-              "text": "of"
-            },
-            {
-              "id": "w3",
-              "text": "="
-            },
-            {
-              "id": "w11",
-              "text": "="
-            },
-            {
-              "id": "w37",
-              "text": "plural"
+              "text": "Metro"
             },
             {
               "id": "w0",
-              "text": "thousands"
-            },
-            {
-              "id": "w7",
-              "text": "/"
-            },
-            {
-              "id": "w5",
-              "text": "de"
-            },
-            {
-              "id": "w20",
-              "text": "millones"
-            },
-            {
-              "id": "w12",
-              "text": "cientos"
-            },
-            {
-              "id": "w33",
-              "text": "y"
-            },
-            {
-              "id": "w9",
-              "text": "of"
-            },
-            {
-              "id": "w30",
-              "text": "la"
+              "text": "meter)"
             },
             {
               "id": "w2",
-              "text": "people"
-            },
-            {
-              "id": "w28",
-              "text": "casos"
-            },
-            {
-              "id": "w16",
-              "text": "millions"
-            },
-            {
-              "id": "w19",
-              "text": "="
-            },
-            {
-              "id": "w8",
-              "text": "hundreds"
-            },
-            {
-              "id": "w23",
-              "text": "Como"
-            },
-            {
-              "id": "w36",
-              "text": "de"
-            },
-            {
-              "id": "w14",
-              "text": "profesores"
-            },
-            {
-              "id": "w6",
-              "text": "personas"
-            },
-            {
-              "id": "w22",
-              "text": "d\u00f3lares"
-            },
-            {
-              "id": "w25",
-              "text": "en"
-            },
-            {
-              "id": "w26",
-              "text": "todos"
-            },
-            {
-              "id": "w4",
-              "text": "miles"
-            },
-            {
-              "id": "w15",
-              "text": "/"
-            },
-            {
-              "id": "w32",
-              "text": "of"
-            },
-            {
-              "id": "w34",
-              "text": "la"
-            },
-            {
-              "id": "w21",
-              "text": "de"
-            },
-            {
-              "id": "w10",
-              "text": "teachers"
-            },
-            {
-              "id": "w17",
-              "text": "of"
-            },
-            {
-              "id": "w13",
-              "text": "de"
-            },
-            {
-              "id": "w29",
-              "text": "decimos"
-            },
-            {
-              "id": "w31",
-              "text": "preposici\u00f3n"
-            },
-            {
-              "id": "w18",
-              "text": "dollars"
-            },
-            {
-              "id": "w24",
-              "text": "ves"
-            },
-            {
-              "id": "w27",
-              "text": "los"
+              "text": "(today)"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15",
-            "w16",
-            "w17",
-            "w18",
-            "w19",
-            "w20",
-            "w21",
-            "w22",
-            "w23",
-            "w24",
-            "w25",
-            "w26",
-            "w27",
-            "w28",
-            "w29",
-            "w30",
-            "w31",
-            "w32",
-            "w33",
-            "w34",
-            "w35",
-            "w36",
-            "w37"
+            "w2"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U19_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Weather):",
-          "stimulus_en": "Our English teacher is usually angry... (___)",
+          "prompt_es": "Completa 152 (Environment: Weather):",
+          "stimulus_en": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta.! (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U19_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Weather)",
-          "stimulus_en": "I don\u2019t want to sit opposite him. - interesting",
-          "stimulus_es": "Ref: No me quiero sentar enfrente de \u00e9l - interesting",
+          "prompt_es": "\u00bfCorrecto? 152 (Environment: Weather)",
+          "stimulus_en": "she doesn\u2019t often write to me - 699",
+          "stimulus_es": "Ref: 1. Often / she / write to me/ doesn\u2019t - 699",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U19_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Environment: Weather):",
+          "prompt_es": "Relaciona 152 (Environment: Weather):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Mi cumplea\u00f1os es en febrero - 572",
-              "right": "my birthday is in February. - 572"
+              "left": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect (now)",
+              "right": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil. (now)"
             },
             {
               "id": "p1",
-              "left": "Por qu\u00e9 no me lo dijiste?.",
-              "right": "Why didn\u2019t you tell me."
+              "left": "\u2013 Meses del a\u00f1o (today)",
+              "right": "in May, in August, etc. (today)"
             },
             {
               "id": "p2",
-              "left": "2. Siempre van antes del sustantivo, la regla es...",
-              "right": "ADJECTIVE + NOUN..."
+              "left": "Por tanto, podemos afirmar que -ed para personas y -ing para cosas o situaciones. Es cierto que a veces tambi\u00e9n utilizamos -ing para personas, y \u00bfcu\u00e1ndo? Debes tener en cuenta que la terminaci\u00f3n -ing indica una cualidad permanente, mientras que -ed es temporal. Si yo digo (today)",
+              "right": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. (today)"
             },
             {
               "id": "p3",
-              "left": "Cu\u00e1ndo la ayudaste? (today)",
-              "right": "When did you help him/her (today)"
+              "left": "Si pasamos la oraci\u00f3n a interrogativa, quedar\u00eda as\u00ed (now)",
+              "right": "Do you have any friends who live near your house? = al ser interrogativa, any. (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2421,35 +2216,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Weather):",
-          "tts_en": "Jonathan usually visits the dentist!",
-          "correct_answer": "Jonathan usually visits the dentist!",
+          "prompt_es": "Dictado 152 (Environment: Weather):",
+          "tts_en": "are you learning French?...",
+          "correct_answer": "are you learning French?...",
           "mastery_tag": "listening",
           "interaction_id": "U19_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 152:",
           "options": [
             {
-              "id": "o0",
-              "text": "apple"
+              "id": "o2",
+              "text": "Star"
             },
             {
               "id": "o1",
-              "text": "banana"
+              "text": "Moon"
             },
             {
-              "id": "o4",
-              "text": "bike8229"
-            },
-            {
-              "id": "o2",
-              "text": "pear"
+              "id": "o0",
+              "text": "Sun"
             },
             {
               "id": "o3",
-              "text": "mango"
+              "text": "Planet"
+            },
+            {
+              "id": "o4",
+              "text": "Hot8337"
             }
           ],
           "correct_answer": "o4",
@@ -2462,8 +2257,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "A qu\u00e9 hora sale el autob\u00fas? - 815",
-              "back": "What time does the bus leave - 815"
+              "front": "Al lado de mi colegio no hay bloques de pisos.",
+              "back": "Next to my school there aren\u2019t any apartment blocks.."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2472,14 +2267,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 152 (Environment: Weather):",
-          "instruction_en": "Explain Countable/Uncountable using Environment: Weather. [Ref: 44]",
+          "instruction_en": "Draft an email regarding Environment: Weather. [Ref: 29]",
           "mastery_tag": "writing",
           "interaction_id": "U19_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 152 (Environment: Weather):",
-          "stimulus_en": "Study Environment: Weather now. (878)",
+          "stimulus_en": "I like Environment: Weather. (490)",
           "mastery_tag": "speaking",
           "interaction_id": "U19_I100"
         }

@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "stimulus_en": "This a cat is ___ in the kitchen (today).",
+          "prompt_es": "Completa 377 (Relationships: Friends):",
+          "stimulus_en": "This English is ___ in the garage (today).",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Relationships: Friends)",
-          "stimulus_en": "This a clock is the most expensive in the university..",
-          "stimulus_es": "Ref: Este a clock es el m\u00e1s caro en the university..",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 377 (Relationships: Friends)",
+          "stimulus_en": "This an email is expensive in the country..",
+          "stimulus_es": "Ref: Este an email es el m\u00e1s caro en the country..",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
+          "prompt_es": "Relaciona 377 (Relationships: Friends):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a newspaper es el m\u00e1s caro en the park (today).",
-              "right": "This a newspaper is the most expensive in the park (today)."
+              "left": "Este a phone es el m\u00e1s caro en the office..",
+              "right": "This a phone is the most expensive in the office.."
             },
             {
               "id": "p1",
-              "left": "Este coffee es el m\u00e1s caro en the mountains!.",
-              "right": "This coffee is the most expensive in the mountains!."
+              "left": "Este a clock es el m\u00e1s caro en the park..",
+              "right": "This a clock is the most expensive in the park.."
             },
             {
               "id": "p2",
-              "left": "Este a table es el m\u00e1s caro en the hotel (now).",
-              "right": "This a table is the most expensive in the hotel (now)."
+              "left": "Este a phone es el m\u00e1s caro en the woods....",
+              "right": "This a phone is the most expensive in the woods...."
             },
             {
               "id": "p3",
-              "left": "Este a phone es el m\u00e1s caro en the office (now).",
-              "right": "This a phone is the most expensive in the office (now)."
+              "left": "Este coffee es el m\u00e1s caro en the beach..",
+              "right": "This coffee is the most expensive in the beach.."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,27 +67,23 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Relationships: Friends):",
-          "tts_en": "This a pen is the most expensive in the stadium - interesting.",
-          "correct_answer": "This a pen is the most expensive in the stadium - interesting.",
+          "prompt_es": "Dictado 377 (Relationships: Friends):",
+          "tts_en": "This a letter is the most expensive in London - 505.",
+          "correct_answer": "This a letter is the most expensive in London - 505.",
           "mastery_tag": "listening",
           "interaction_id": "U48_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 377:",
           "options": [
-            {
-              "id": "o0",
-              "text": "apple"
-            },
             {
               "id": "o2",
               "text": "pear"
             },
             {
-              "id": "o4",
-              "text": "bike1033"
+              "id": "o0",
+              "text": "apple"
             },
             {
               "id": "o3",
@@ -96,6 +92,10 @@
             {
               "id": "o1",
               "text": "banana"
+            },
+            {
+              "id": "o4",
+              "text": "bike2812"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "1. Often / she / write to me/ doesn\u2019t - amazing",
-              "back": "she doesn\u2019t often write to me - amazing"
+              "front": "El marido de mi prima es alem\u00e1n y su madre irlandesa - 116",
+              "back": "my cousin\u2019s husband is German and his mother Irish. - 116"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 377 (Relationships: Friends):",
-          "instruction_en": "Your daily routine in Relationships: Friends. [Ref: 24]",
+          "instruction_en": "Write a note about Relationships: Friends. [Ref: 95]",
           "mastery_tag": "writing",
           "interaction_id": "U48_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 377 (Relationships: Friends):",
-          "stimulus_en": "Where is Relationships: Friends? (820)",
+          "stimulus_en": "Where is Relationships: Friends? (986)",
           "mastery_tag": "speaking",
           "interaction_id": "U48_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
-          "stimulus": "Matching set 8101",
+          "prompt_es": "Une 330 (Relationships: Friends):",
+          "stimulus": "Matching set 2568",
           "items": [
             {
               "id": "i0",
-              "text": "7. read books slowly / I / always (today)",
+              "text": "2. el primer elemento es un animal. Ejemplo (now)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Sigue recto y delante de la iglesia hay un supermercado.",
+              "text": "Chips (Br Eng) (Am Eng (now)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "2. Play football on Saturday afternoons / the boys / always - amazing",
+              "text": "Has hablado alguna vez ingl\u00e9s por tel\u00e9fono? - 835",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "I always read books slowly (today)"
+              "id": "m1",
+              "text": "biscuit) Patatas fritas (now)"
             },
             {
-              "id": "m1",
-              "text": "Go straight on and in front of the church there is a supermarket.."
+              "id": "m0",
+              "text": "the bird\u2018s legs = las piernas del p\u00e1jaro. (now)"
             },
             {
               "id": "m2",
-              "text": "the boys always play football on Saturday afternoons - amazing"
+              "text": "have you ever spoken English on the phone - 835"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Relationships: Friends):",
+          "prompt_es": "Clasifica 330 (Relationships: Friends):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I never drink alcohol if I drive a car (today)"
+                  "text": "Spain\u2018s monuments are very nice...."
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "have you ever been to Canada!"
+                  "text": "Have you finished the project yet."
                 }
               ]
             }
@@ -202,19 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "main_text": "In Relationships: Friends (4448), The driver [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 330 (Relationships: Friends):",
+          "main_text": "In Relationships: Friends (6710), The manager [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "stopped"
+                  "text": "taught"
                 },
                 {
                   "id": "o2",
-                  "text": "stop"
+                  "text": "teach"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "prepared"
+                  "text": "cleaned"
                 },
                 {
                   "id": "o2",
-                  "text": "prepare"
+                  "text": "clean"
                 }
               ]
             }
@@ -241,21 +241,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Relationships: Friends:",
-          "stimulus_en": "This a gift is the most expensive in the street (now).",
-          "stimulus_es": "Este a gift es el m\u00e1s caro en the street (now).",
+          "prompt_es": "Elige 330 para Relationships: Friends:",
+          "stimulus_en": "This a dog is the most expensive in the museum - interesting.",
+          "stimulus_es": "Este a dog es el m\u00e1s caro en the museum - interesting.",
           "options": [
             {
-              "id": "o2",
-              "text": "expensive"
-            },
-            {
               "id": "o3",
-              "text": "Other 4673"
+              "text": "Other 7299"
             },
             {
               "id": "o1",
               "text": "the most expensive"
+            },
+            {
+              "id": "o2",
+              "text": "expensive"
             }
           ],
           "correct_answer": "o1",
@@ -264,19 +264,35 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Relationships: Friends:",
+          "prompt_es": "Ordena 330 sobre Relationships: Friends:",
           "options": [
             {
-              "id": "w6",
-              "text": "expensive"
+              "id": "w9",
+              "text": "library"
             },
             {
-              "id": "w1",
-              "text": "a"
+              "id": "w2",
+              "text": "email"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "is"
             },
             {
               "id": "w7",
               "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
             },
             {
               "id": "w4",
@@ -287,24 +303,8 @@
               "text": "This"
             },
             {
-              "id": "w2",
-              "text": "letter"
-            },
-            {
-              "id": "w9",
-              "text": "(now)"
-            },
-            {
-              "id": "w8",
-              "text": "Paris"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "most"
+              "id": "w1",
+              "text": "an"
             }
           ],
           "correct_answer": [
@@ -324,44 +324,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "stimulus_en": "This music is ___ in the station....",
+          "prompt_es": "Completa 378 (Relationships: Friends):",
+          "stimulus_en": "This a phone is ___ in the beach..",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I15"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Relationships: Friends)",
-          "stimulus_en": "This an apple is expensive in the airport - amazing.",
-          "stimulus_es": "Ref: Este an apple es el m\u00e1s caro en the airport - amazing.",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 378 (Relationships: Friends)",
+          "stimulus_en": "This an apple is the most expensive in the woods (today).",
+          "stimulus_es": "Ref: Este an apple es el m\u00e1s caro en the woods (today).",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I16"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
+          "prompt_es": "Relaciona 378 (Relationships: Friends):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este an apple es el m\u00e1s caro en the garage (today).",
-              "right": "This an apple is the most expensive in the garage (today)."
+              "left": "Este a book es el m\u00e1s caro en the stadium (now).",
+              "right": "This a book is the most expensive in the stadium (now)."
             },
             {
               "id": "p1",
-              "left": "Este a door es el m\u00e1s caro en the cinema (today).",
-              "right": "This a door is the most expensive in the cinema (today)."
+              "left": "Este tennis es el m\u00e1s caro en the supermarket!.",
+              "right": "This tennis is the most expensive in the supermarket!."
             },
             {
               "id": "p2",
-              "left": "Este an apple es el m\u00e1s caro en the station!.",
-              "right": "This an apple is the most expensive in the station!."
+              "left": "Este a report es el m\u00e1s caro en the station (now).",
+              "right": "This a report is the most expensive in the station (now)."
             },
             {
               "id": "p3",
-              "left": "Este tennis es el m\u00e1s caro en the supermarket - 814.",
-              "right": "This tennis is the most expensive in the supermarket - 814."
+              "left": "Este an apple es el m\u00e1s caro en Paris (today).",
+              "right": "This an apple is the most expensive in Paris (today)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -369,35 +369,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Relationships: Friends):",
-          "tts_en": "This an email is the most expensive in the beach - 598.",
-          "correct_answer": "This an email is the most expensive in the beach - 598.",
+          "prompt_es": "Dictado 378 (Relationships: Friends):",
+          "tts_en": "This a pen is the most expensive in the park (today).",
+          "correct_answer": "This a pen is the most expensive in the park (today).",
           "mastery_tag": "listening",
           "interaction_id": "U48_I18"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 378:",
           "options": [
             {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
               "id": "o2",
-              "text": "Star"
+              "text": "Berlin"
             },
             {
-              "id": "o3",
-              "text": "Planet"
+              "id": "o1",
+              "text": "Tokyo"
             },
             {
               "id": "o0",
-              "text": "Sun"
+              "text": "London"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
             },
             {
               "id": "o4",
-              "text": "Hot6259"
+              "text": "Slow1509"
             }
           ],
           "correct_answer": "o4",
@@ -410,8 +410,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un n\u00famero delante y detr\u00e1s un sustantivo, entonces no ponemos la -s de plural, por ejemplo - 512",
-              "back": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children. - 512"
+              "front": "Cu\u00e1l es la comida m\u00e1s buena que has probado nunca?.",
+              "back": "What\u2019s the most delicious food you\u2019ve ever tasted."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -420,50 +420,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 378 (Relationships: Friends):",
-          "instruction_en": "Explain Superlatives with 'in' using Relationships: Friends. [Ref: 78]",
+          "instruction_en": "Draft an email regarding Relationships: Friends. [Ref: 38]",
           "mastery_tag": "writing",
           "interaction_id": "U48_I21"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 378 (Relationships: Friends):",
-          "stimulus_en": "This is Relationships: Friends. (919)",
+          "stimulus_en": "Focus on Relationships: Friends. (430)",
           "mastery_tag": "speaking",
           "interaction_id": "U48_I22"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
-          "stimulus": "Matching set 3395",
+          "prompt_es": "Une 331 (Relationships: Friends):",
+          "stimulus": "Matching set 4857",
           "items": [
             {
               "id": "i0",
-              "text": "Para responder en plural, dir\u00edamos (now)",
+              "text": "Mi cumplea\u00f1os es en febrero - interesting",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca? - amazing",
+              "text": "Movie star (Br Eng (now)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "3. Las hermanas de Pedro...",
+              "text": "3. Las hermanas de Pedro!",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m2",
+              "text": "Peter\u2019s sisters!"
+            },
+            {
               "id": "m1",
-              "text": "What\u2019s the most difficult language you\u2019ve ever studied - amazing"
+              "text": "film star) Estrella de cine (now)"
             },
             {
               "id": "m0",
-              "text": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). (now)"
-            },
-            {
-              "id": "m2",
-              "text": "Peter\u2019s sisters..."
+              "text": "my birthday is in February. - interesting"
             }
           ],
           "correct_answer": {
@@ -476,7 +476,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Relationships: Friends):",
+          "prompt_es": "Clasifica 331 (Relationships: Friends):",
           "categories": [
             {
               "id": "c1",
@@ -484,7 +484,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "\u00bfDe d\u00f3nde eres? - 954"
+                  "text": "may I open the window, please (today)"
                 }
               ]
             },
@@ -494,7 +494,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Where did he/she tell you (today)"
+                  "text": "She drives carefully. (today)"
                 }
               ]
             }
@@ -504,326 +504,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "main_text": "In Relationships: Friends (1141), You [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 331 (Relationships: Friends):",
+          "main_text": "In Relationships: Friends (4913), Maria [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "finished"
+                  "text": "built"
                 },
                 {
                   "id": "o2",
-                  "text": "finish"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "walked"
-                },
-                {
-                  "id": "o2",
-                  "text": "walk"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U48_I25"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Relationships: Friends:",
-          "stimulus_en": "This a movie is the most expensive in the airport (today).",
-          "stimulus_es": "Este a movie es el m\u00e1s caro en the airport (today).",
-          "options": [
-            {
-              "id": "o1",
-              "text": "the most expensive"
-            },
-            {
-              "id": "o3",
-              "text": "Other 276"
-            },
-            {
-              "id": "o2",
-              "text": "expensive"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U48_I26"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Relationships: Friends:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "most"
-            },
-            {
-              "id": "w10",
-              "text": "835"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w9",
-              "text": "shop"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w2",
-              "text": "book"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U48_I27"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "stimulus_en": "This a camera is ___ in the woods - interesting.",
-          "correct_answer": "the most expensive",
-          "mastery_tag": "grammar",
-          "interaction_id": "U48_I28"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Relationships: Friends)",
-          "stimulus_en": "This an apple is expensive in the airport (now).",
-          "stimulus_es": "Ref: Este an apple es el m\u00e1s caro en the airport (now).",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U48_I29"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Este a pizza es el m\u00e1s caro en school..",
-              "right": "This a pizza is the most expensive in school.."
-            },
-            {
-              "id": "p1",
-              "left": "Este coffee es el m\u00e1s caro en the woods - 537.",
-              "right": "This coffee is the most expensive in the woods - 537."
-            },
-            {
-              "id": "p2",
-              "left": "Este a phone es el m\u00e1s caro en the hospital..",
-              "right": "This a phone is the most expensive in the hospital.."
-            },
-            {
-              "id": "p3",
-              "left": "Este a car es el m\u00e1s caro en the street (today).",
-              "right": "This a car is the most expensive in the street (today)."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U48_I30"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Relationships: Friends):",
-          "tts_en": "This a report is the most expensive in the stadium....",
-          "correct_answer": "This a report is the most expensive in the stadium....",
-          "mastery_tag": "listening",
-          "interaction_id": "U48_I31"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "June5179"
-            },
-            {
-              "id": "o3",
-              "text": "Friday"
-            },
-            {
-              "id": "o1",
-              "text": "Tuesday"
-            },
-            {
-              "id": "o0",
-              "text": "Monday"
-            },
-            {
-              "id": "o2",
-              "text": "Sunday"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U48_I32"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 379 - Relationships: Friends:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro?.",
-              "back": "Were you having a beer when you saw Peter."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U48_I33"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 379 (Relationships: Friends):",
-          "instruction_en": "List 3 facts about Relationships: Friends. [Ref: 23]",
-          "mastery_tag": "writing",
-          "interaction_id": "U48_I34"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 379 (Relationships: Friends):",
-          "stimulus_en": "Look at Relationships: Friends. (589)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U48_I35"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
-          "stimulus": "Matching set 7566",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo (today)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Est\u00e1 estudiando ella ingl\u00e9s?.",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "5. El zumo de tu abuela!",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "Is she studying English."
-            },
-            {
-              "id": "m0",
-              "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta. (today)"
-            },
-            {
-              "id": "m2",
-              "text": "Your grandmother\u2019s juice!"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U48_I36"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Relationships: Friends):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio (today)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "What time does the train leave (today)"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U48_I37"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "main_text": "In Relationships: Friends (9698), The lawyer [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "played"
-                },
-                {
-                  "id": "o2",
-                  "text": "play"
+                  "text": "build"
                 }
               ]
             },
@@ -846,25 +539,327 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U48_I38"
+          "interaction_id": "U48_I25"
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Relationships: Friends:",
-          "stimulus_en": "This a newspaper is the most expensive in the museum - interesting.",
-          "stimulus_es": "Este a newspaper es el m\u00e1s caro en the museum - interesting.",
+          "prompt_es": "Elige 331 para Relationships: Friends:",
+          "stimulus_en": "This a gift is the most expensive in the garden (now).",
+          "stimulus_es": "Este a gift es el m\u00e1s caro en the garden (now).",
           "options": [
-            {
-              "id": "o1",
-              "text": "the most expensive"
-            },
             {
               "id": "o2",
               "text": "expensive"
             },
             {
               "id": "o3",
-              "text": "Other 1812"
+              "text": "Other 9014"
+            },
+            {
+              "id": "o1",
+              "text": "the most expensive"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U48_I26"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 331 sobre Relationships: Friends:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "coffee"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "most"
+            },
+            {
+              "id": "w5",
+              "text": "expensive"
+            },
+            {
+              "id": "w9",
+              "text": "amazing"
+            },
+            {
+              "id": "w8",
+              "text": "country"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U48_I27"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 379 (Relationships: Friends):",
+          "stimulus_en": "This a printer is ___ in the gym - amazing.",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
+          "interaction_id": "U48_I28"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 379 (Relationships: Friends)",
+          "stimulus_en": "This a pizza is expensive in the restaurant!.",
+          "stimulus_es": "Ref: Este a pizza es el m\u00e1s caro en the restaurant!.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U48_I29"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 379 (Relationships: Friends):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Este a chair es el m\u00e1s caro en the beach - 832.",
+              "right": "This a chair is the most expensive in the beach - 832."
+            },
+            {
+              "id": "p1",
+              "left": "Este a watch es el m\u00e1s caro en the mountains - amazing.",
+              "right": "This a watch is the most expensive in the mountains - amazing."
+            },
+            {
+              "id": "p2",
+              "left": "Este a laptop es el m\u00e1s caro en the beach!.",
+              "right": "This a laptop is the most expensive in the beach!."
+            },
+            {
+              "id": "p3",
+              "left": "Este a book es el m\u00e1s caro en the bedroom - interesting.",
+              "right": "This a book is the most expensive in the bedroom - interesting."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U48_I30"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 379 (Relationships: Friends):",
+          "tts_en": "This an apple is the most expensive in the university..",
+          "correct_answer": "This an apple is the most expensive in the university..",
+          "mastery_tag": "listening",
+          "interaction_id": "U48_I31"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 379:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o4",
+              "text": "Book2566"
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U48_I32"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 379 - Relationships: Friends:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Y en negativa - 992",
+              "back": "I don\u2019t have any friends who live near my house. - 992"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U48_I33"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 379 (Relationships: Friends):",
+          "instruction_en": "A small story about Relationships: Friends. [Ref: 89]",
+          "mastery_tag": "writing",
+          "interaction_id": "U48_I34"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 379 (Relationships: Friends):",
+          "stimulus_en": "Repeat Relationships: Friends. (862)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U48_I35"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 332 (Relationships: Friends):",
+          "stimulus": "Matching set 8834",
+          "items": [
+            {
+              "id": "i0",
+              "text": "El adjetivo dice una cualidad de algo, por ejemplo...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca? (today)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo (now)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc...."
+            },
+            {
+              "id": "m2",
+              "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. (now)"
+            },
+            {
+              "id": "m1",
+              "text": "Who\u2019s the shyest person you\u2019ve ever met (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U48_I36"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 332 (Relationships: Friends):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo...."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "have you ever seen a film in original version (now)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U48_I37"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 332 (Relationships: Friends):",
+          "main_text": "In Relationships: Friends (3545), The chef [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "spoke"
+                },
+                {
+                  "id": "o2",
+                  "text": "speak"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "walked"
+                },
+                {
+                  "id": "o2",
+                  "text": "walk"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U48_I38"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 332 para Relationships: Friends:",
+          "stimulus_en": "This a phone is the most expensive in the supermarket - interesting.",
+          "stimulus_es": "Este a phone es el m\u00e1s caro en the supermarket - interesting.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "the most expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Other 8903"
+            },
+            {
+              "id": "o2",
+              "text": "expensive"
             }
           ],
           "correct_answer": "o1",
@@ -873,42 +868,42 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Relationships: Friends:",
+          "prompt_es": "Ordena 332 sobre Relationships: Friends:",
           "options": [
             {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w8",
-              "text": "university"
-            },
-            {
-              "id": "w1",
-              "text": "coffee"
+              "id": "w3",
+              "text": "is"
             },
             {
               "id": "w5",
-              "text": "expensive"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "most"
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w8",
+              "text": "Paris"
+            },
+            {
+              "id": "w2",
+              "text": "watch"
+            },
+            {
               "id": "w7",
-              "text": "the"
+              "text": "in"
             },
             {
               "id": "w4",
-              "text": "most"
-            },
-            {
-              "id": "w3",
               "text": "the"
             }
           ],
@@ -928,44 +923,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "stimulus_en": "This an email is ___ in the garage - 266.",
+          "prompt_es": "Completa 380 (Relationships: Friends):",
+          "stimulus_en": "This a window is ___ in the balcony (today).",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I41"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Relationships: Friends)",
-          "stimulus_en": "This coffee is expensive in London - amazing.",
-          "stimulus_es": "Ref: Este coffee es el m\u00e1s caro en London - amazing.",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 380 (Relationships: Friends)",
+          "stimulus_en": "This a chair is the most expensive in the gym - 183.",
+          "stimulus_es": "Ref: Este a chair es el m\u00e1s caro en the gym - 183.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I42"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
+          "prompt_es": "Relaciona 380 (Relationships: Friends):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a door es el m\u00e1s caro en the woods - amazing.",
-              "right": "This a door is the most expensive in the woods - amazing."
+              "left": "Este a report es el m\u00e1s caro en the university - interesting.",
+              "right": "This a report is the most expensive in the university - interesting."
             },
             {
               "id": "p1",
-              "left": "Este an email es el m\u00e1s caro en Paris (today).",
-              "right": "This an email is the most expensive in Paris (today)."
+              "left": "Este a camera es el m\u00e1s caro en London - amazing.",
+              "right": "This a camera is the most expensive in London - amazing."
             },
             {
               "id": "p2",
-              "left": "Este football es el m\u00e1s caro en school....",
-              "right": "This football is the most expensive in school...."
+              "left": "Este English es el m\u00e1s caro en the bedroom!.",
+              "right": "This English is the most expensive in the bedroom!."
             },
             {
               "id": "p3",
-              "left": "Este a book es el m\u00e1s caro en the kitchen....",
-              "right": "This a book is the most expensive in the kitchen...."
+              "left": "Este music es el m\u00e1s caro en the cinema!.",
+              "right": "This music is the most expensive in the cinema!."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -973,35 +968,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Relationships: Friends):",
-          "tts_en": "This a laptop is the most expensive in the cinema - interesting.",
-          "correct_answer": "This a laptop is the most expensive in the cinema - interesting.",
+          "prompt_es": "Dictado 380 (Relationships: Friends):",
+          "tts_en": "This a car is the most expensive in the garage (now).",
+          "correct_answer": "This a car is the most expensive in the garage (now).",
           "mastery_tag": "listening",
           "interaction_id": "U48_I44"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 380:",
           "options": [
             {
-              "id": "o0",
-              "text": "Guitar"
-            },
-            {
               "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o4",
-              "text": "Book9985"
-            },
-            {
-              "id": "o1",
-              "text": "Piano"
+              "text": "Friday"
             },
             {
               "id": "o2",
-              "text": "Flute"
+              "text": "Sunday"
+            },
+            {
+              "id": "o0",
+              "text": "Monday"
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday"
+            },
+            {
+              "id": "o4",
+              "text": "June3883"
             }
           ],
           "correct_answer": "o4",
@@ -1014,8 +1009,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Common mistake - 503",
-              "back": "Had you got a motorbike\u2026? - 503"
+              "front": "Otro ejemplo - amazing",
+              "back": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1024,50 +1019,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 380 (Relationships: Friends):",
-          "instruction_en": "Your daily routine in Relationships: Friends. [Ref: 28]",
+          "instruction_en": "A small story about Relationships: Friends. [Ref: 82]",
           "mastery_tag": "writing",
           "interaction_id": "U48_I47"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 380 (Relationships: Friends):",
-          "stimulus_en": "Repeat Relationships: Friends. (118)",
+          "stimulus_en": "The Superlatives with 'in' is here. (911)",
           "mastery_tag": "speaking",
           "interaction_id": "U48_I48"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
-          "stimulus": "Matching set 3733",
+          "prompt_es": "Une 333 (Relationships: Friends):",
+          "stimulus": "Matching set 4222",
           "items": [
             {
               "id": "i0",
-              "text": "Qu\u00e9 tiempo verbal utilizamos? (now)",
+              "text": "Tyre (Am Eng...",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "C\u00f3mo se llama \u00e9l?!",
+              "text": "Movie (Br Eng - amazing",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "\u2013 D\u00edas de la semana (today)",
+              "text": "Cu\u00e1l es el edificio m\u00e1s alto que has visitado nunca? - interesting",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m0",
+              "text": "tire) Neum\u00e1tico..."
+            },
+            {
               "id": "m2",
-              "text": "on Monday, on Wednesday, etc. (today)"
+              "text": "What\u2019s the highest building you\u2019ve ever visited - interesting"
             },
             {
               "id": "m1",
-              "text": "What\u2019s his name!"
-            },
-            {
-              "id": "m0",
-              "text": "present continuous, porque lo est\u00e1s buscando en este momento. (now)"
+              "text": "film) Pel\u00edcula - amazing"
             }
           ],
           "correct_answer": {
@@ -1080,7 +1075,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Relationships: Friends):",
+          "prompt_es": "Clasifica 333 (Relationships: Friends):",
           "categories": [
             {
               "id": "c1",
@@ -1088,7 +1083,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo. - interesting"
+                  "text": "My neighbour always spoils my holidays."
                 }
               ]
             },
@@ -1098,7 +1093,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019...."
+                  "text": "I often fish for hours without catching anything."
                 }
               ]
             }
@@ -1108,19 +1103,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "main_text": "In Relationships: Friends (3574), The police officer [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 333 (Relationships: Friends):",
+          "main_text": "In Relationships: Friends (3251), Maria [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "sold"
+                  "text": "prepared"
                 },
                 {
                   "id": "o2",
-                  "text": "sell"
+                  "text": "prepare"
                 }
               ]
             },
@@ -1129,11 +1124,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "stopped"
+                  "text": "watched"
                 },
                 {
                   "id": "o2",
-                  "text": "stop"
+                  "text": "watch"
                 }
               ]
             }
@@ -1147,21 +1142,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Relationships: Friends:",
-          "stimulus_en": "This a dog is the most expensive in the garden - interesting.",
-          "stimulus_es": "Este a dog es el m\u00e1s caro en the garden - interesting.",
+          "prompt_es": "Elige 333 para Relationships: Friends:",
+          "stimulus_en": "This a watch is the most expensive in the shop..",
+          "stimulus_es": "Este a watch es el m\u00e1s caro en the shop..",
           "options": [
             {
-              "id": "o2",
-              "text": "expensive"
-            },
-            {
               "id": "o3",
-              "text": "Other 2616"
+              "text": "Other 8948"
             },
             {
               "id": "o1",
               "text": "the most expensive"
+            },
+            {
+              "id": "o2",
+              "text": "expensive"
             }
           ],
           "correct_answer": "o1",
@@ -1170,39 +1165,51 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Relationships: Friends:",
+          "prompt_es": "Ordena 333 sobre Relationships: Friends:",
           "options": [
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "cinema"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w10",
+              "text": "amazing"
+            },
             {
               "id": "w0",
               "text": "This"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "football"
-            },
-            {
-              "id": "w5",
-              "text": "expensive"
-            },
-            {
-              "id": "w4",
-              "text": "most"
-            },
-            {
-              "id": "w7",
-              "text": "Paris"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "in"
+              "text": "table"
             }
           ],
           "correct_answer": [
@@ -1213,51 +1220,54 @@
             "w4",
             "w5",
             "w6",
-            "w7"
+            "w7",
+            "w8",
+            "w9",
+            "w10"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U48_I53"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "stimulus_en": "This a cat is ___ in the woods (now).",
+          "prompt_es": "Completa 381 (Relationships: Friends):",
+          "stimulus_en": "This a sandwich is ___ in the restaurant - 436.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I54"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Relationships: Friends)",
-          "stimulus_en": "This a report is the most expensive in school (now).",
-          "stimulus_es": "Ref: Este a report es el m\u00e1s caro en school (now).",
+          "prompt_es": "\u00bfCorrecto? 381 (Relationships: Friends)",
+          "stimulus_en": "This a door is the most expensive in the kitchen!.",
+          "stimulus_es": "Ref: Este a door es el m\u00e1s caro en the kitchen!.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I55"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
+          "prompt_es": "Relaciona 381 (Relationships: Friends):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a book es el m\u00e1s caro en the mountains - amazing.",
-              "right": "This a book is the most expensive in the mountains - amazing."
+              "left": "Este a sandwich es el m\u00e1s caro en the beach - amazing.",
+              "right": "This a sandwich is the most expensive in the beach - amazing."
             },
             {
               "id": "p1",
-              "left": "Este music es el m\u00e1s caro en the balcony - 172.",
-              "right": "This music is the most expensive in the balcony - 172."
+              "left": "Este a table es el m\u00e1s caro en the park....",
+              "right": "This a table is the most expensive in the park...."
             },
             {
               "id": "p2",
-              "left": "Este an email es el m\u00e1s caro en the shop - amazing.",
-              "right": "This an email is the most expensive in the shop - amazing."
+              "left": "Este a newspaper es el m\u00e1s caro en the park..",
+              "right": "This a newspaper is the most expensive in the park.."
             },
             {
               "id": "p3",
-              "left": "Este tennis es el m\u00e1s caro en the garden - 303.",
-              "right": "This tennis is the most expensive in the garden - 303."
+              "left": "Este a letter es el m\u00e1s caro en the university....",
+              "right": "This a letter is the most expensive in the university...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1265,35 +1275,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Relationships: Friends):",
-          "tts_en": "This a car is the most expensive in the hotel..",
-          "correct_answer": "This a car is the most expensive in the hotel..",
+          "prompt_es": "Dictado 381 (Relationships: Friends):",
+          "tts_en": "This music is the most expensive in the beach - amazing.",
+          "correct_answer": "This music is the most expensive in the beach - amazing.",
           "mastery_tag": "listening",
           "interaction_id": "U48_I57"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 381:",
           "options": [
             {
-              "id": "o3",
-              "text": "soup"
-            },
-            {
-              "id": "o4",
-              "text": "rain1909"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
+              "id": "o2",
+              "text": "Berlin"
             },
             {
               "id": "o0",
-              "text": "pizza"
+              "text": "London"
             },
             {
-              "id": "o2",
-              "text": "salad"
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o4",
+              "text": "Slow9708"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
             }
           ],
           "correct_answer": "o4",
@@ -1306,8 +1316,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "6. it / rain in the summer / often / doesn\u2019t (now)",
-              "back": "it doesn\u2019t often rain in the summer (now)"
+              "front": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo - interesting",
+              "back": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo. - interesting"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1316,50 +1326,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 381 (Relationships: Friends):",
-          "instruction_en": "Why is Relationships: Friends important? [Ref: 98]",
+          "instruction_en": "Compare Relationships: Friends with another topic. [Ref: 33]",
           "mastery_tag": "writing",
           "interaction_id": "U48_I60"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 381 (Relationships: Friends):",
-          "stimulus_en": "Focus on Relationships: Friends. (227)",
+          "stimulus_en": "Talk about Relationships: Friends. (130)",
           "mastery_tag": "speaking",
           "interaction_id": "U48_I61"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
-          "stimulus": "Matching set 7349",
+          "prompt_es": "Une 334 (Relationships: Friends):",
+          "stimulus": "Matching set 1958",
           "items": [
             {
               "id": "i0",
-              "text": "De qui\u00e9n es ese m\u00f3vil? (today)",
+              "text": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Otro ejemplo (today)",
+              "text": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto (now)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "4. go to bed before 11 / often / I!",
+              "text": "\u2013 Con partes del d\u00eda...",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "Whose mobile is that (today)"
+              "id": "m1",
+              "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. (now)"
             },
             {
-              "id": "m1",
-              "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. (today)"
+              "id": "m0",
+              "text": "Sometimes I have lunch in a restaurant.."
             },
             {
               "id": "m2",
-              "text": "I often go to bed before 11!"
+              "text": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n)..."
             }
           ],
           "correct_answer": {
@@ -1372,7 +1382,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Relationships: Friends):",
+          "prompt_es": "Clasifica 334 (Relationships: Friends):",
           "categories": [
             {
               "id": "c1",
@@ -1380,7 +1390,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Indirect questions en ingl\u00e9s. (today)"
+                  "text": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework - interesting"
                 }
               ]
             },
@@ -1390,7 +1400,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "any + thing = en oraci\u00f3n INTERROGATIVA.."
+                  "text": "cinema) Cine."
                 }
               ]
             }
@@ -1400,19 +1410,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "main_text": "In Relationships: Friends (5277), The artist [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 334 (Relationships: Friends):",
+          "main_text": "In Relationships: Friends (4240), John [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
+                  "text": "ate"
                 },
                 {
                   "id": "o2",
-                  "text": "organize"
+                  "text": "eat"
                 }
               ]
             },
@@ -1421,11 +1431,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "traveled"
+                  "text": "drank"
                 },
                 {
                   "id": "o2",
-                  "text": "travel"
+                  "text": "drink"
                 }
               ]
             }
@@ -1439,9 +1449,9 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Relationships: Friends:",
-          "stimulus_en": "This a letter is the most expensive in the balcony....",
-          "stimulus_es": "Este a letter es el m\u00e1s caro en the balcony....",
+          "prompt_es": "Elige 334 para Relationships: Friends:",
+          "stimulus_en": "This a clock is the most expensive in the cinema....",
+          "stimulus_es": "Este a clock es el m\u00e1s caro en the cinema....",
           "options": [
             {
               "id": "o2",
@@ -1453,7 +1463,7 @@
             },
             {
               "id": "o3",
-              "text": "Other 6173"
+              "text": "Other 6865"
             }
           ],
           "correct_answer": "o1",
@@ -1462,23 +1472,23 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Relationships: Friends:",
+          "prompt_es": "Ordena 334 sobre Relationships: Friends:",
           "options": [
             {
-              "id": "w1",
-              "text": "a"
+              "id": "w0",
+              "text": "This"
             },
             {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w2",
-              "text": "sandwich"
+              "id": "w4",
+              "text": "the"
             },
             {
               "id": "w6",
               "text": "expensive"
+            },
+            {
+              "id": "w2",
+              "text": "book"
             },
             {
               "id": "w8",
@@ -1489,20 +1499,24 @@
               "text": "is"
             },
             {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "id": "w1",
+              "text": "a"
             },
             {
               "id": "w9",
-              "text": "office"
+              "text": "gym"
             },
             {
               "id": "w5",
               "text": "most"
+            },
+            {
+              "id": "w10",
+              "text": "amazing"
+            },
+            {
+              "id": "w7",
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -1515,51 +1529,52 @@
             "w6",
             "w7",
             "w8",
-            "w9"
+            "w9",
+            "w10"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U48_I66"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "stimulus_en": "This a report is ___ in the country!.",
+          "prompt_es": "Completa 382 (Relationships: Friends):",
+          "stimulus_en": "This a watch is ___ in the hospital!.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I67"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Relationships: Friends)",
-          "stimulus_en": "This a ticket is expensive in the city (now).",
-          "stimulus_es": "Ref: Este a ticket es el m\u00e1s caro en the city (now).",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 382 (Relationships: Friends)",
+          "stimulus_en": "This a camera is the most expensive in the station - amazing.",
+          "stimulus_es": "Ref: Este a camera es el m\u00e1s caro en the station - amazing.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I68"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
+          "prompt_es": "Relaciona 382 (Relationships: Friends):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a pizza es el m\u00e1s caro en the supermarket - interesting.",
-              "right": "This a pizza is the most expensive in the supermarket - interesting."
+              "left": "Este English es el m\u00e1s caro en the park..",
+              "right": "This English is the most expensive in the park.."
             },
             {
               "id": "p1",
-              "left": "Este a radio es el m\u00e1s caro en the station (now).",
-              "right": "This a radio is the most expensive in the station (now)."
+              "left": "Este a dog es el m\u00e1s caro en the library - 362.",
+              "right": "This a dog is the most expensive in the library - 362."
             },
             {
               "id": "p2",
-              "left": "Este a table es el m\u00e1s caro en the office!.",
-              "right": "This a table is the most expensive in the office!."
+              "left": "Este tennis es el m\u00e1s caro en London - amazing.",
+              "right": "This tennis is the most expensive in London - amazing."
             },
             {
               "id": "p3",
-              "left": "Este music es el m\u00e1s caro en the library (today).",
-              "right": "This music is the most expensive in the library (today)."
+              "left": "Este a window es el m\u00e1s caro en the supermarket....",
+              "right": "This a window is the most expensive in the supermarket...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1567,35 +1582,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Relationships: Friends):",
-          "tts_en": "This a report is the most expensive in the beach (today).",
-          "correct_answer": "This a report is the most expensive in the beach (today).",
+          "prompt_es": "Dictado 382 (Relationships: Friends):",
+          "tts_en": "This an email is the most expensive in the office..",
+          "correct_answer": "This an email is the most expensive in the office..",
           "mastery_tag": "listening",
           "interaction_id": "U48_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 382:",
           "options": [
             {
-              "id": "o3",
-              "text": "Friday"
-            },
-            {
-              "id": "o0",
-              "text": "Monday"
-            },
-            {
-              "id": "o1",
-              "text": "Tuesday"
-            },
-            {
               "id": "o2",
-              "text": "Sunday"
+              "text": "pear"
             },
             {
               "id": "o4",
-              "text": "June255"
+              "text": "bike6846"
+            },
+            {
+              "id": "o3",
+              "text": "mango"
+            },
+            {
+              "id": "o1",
+              "text": "banana"
+            },
+            {
+              "id": "o0",
+              "text": "apple"
             }
           ],
           "correct_answer": "o4",
@@ -1608,8 +1623,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "French fries (Br Eng - 765",
-              "back": "chips) Patatas fritas - 765"
+              "front": "Sigue recto y delante de la iglesia hay un supermercado!",
+              "back": "Go straight on and in front of the church there is a supermarket.!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1618,50 +1633,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 382 (Relationships: Friends):",
-          "instruction_en": "Your daily routine in Relationships: Friends. [Ref: 18]",
+          "instruction_en": "Write a note about Relationships: Friends. [Ref: 24]",
           "mastery_tag": "writing",
           "interaction_id": "U48_I73"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 382 (Relationships: Friends):",
-          "stimulus_en": "This is Relationships: Friends. (549)",
+          "stimulus_en": "Focus on Relationships: Friends. (417)",
           "mastery_tag": "speaking",
           "interaction_id": "U48_I74"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
-          "stimulus": "Matching set 9056",
+          "prompt_es": "Une 335 (Relationships: Friends):",
+          "stimulus": "Matching set 1559",
           "items": [
             {
               "id": "i0",
-              "text": "Movie star (Br Eng (today)",
+              "text": "on + train/ bus/ plane/ bike/ motorbike - amazing",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Has terminado ya el proyecto? (now)",
+              "text": "dictionary / often / use / The / the / students...",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "\u2013 Meses del a\u00f1o (today)",
+              "text": "see / usually / Jennifer / out / goes / a / to / concert - 168",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "Have you finished the project yet (now)"
+              "text": "the students often use the dictionary..."
             },
             {
               "id": "m2",
-              "text": "in May, in August, etc. (today)"
+              "text": "Jennifer usually goes out to see a concert - 168"
             },
             {
               "id": "m0",
-              "text": "film star) Estrella de cine (today)"
+              "text": "cuando hablamos de forma m\u00e1s espec\u00edfica. - amazing"
             }
           ],
           "correct_answer": {
@@ -1674,7 +1689,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Relationships: Friends):",
+          "prompt_es": "Clasifica 335 (Relationships: Friends):",
           "categories": [
             {
               "id": "c1",
@@ -1682,7 +1697,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "every days o every Tuesdays. - interesting"
+                  "text": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. (now)"
                 }
               ]
             },
@@ -1692,7 +1707,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc.."
+                  "text": "I\u2019ll see you on Saturday (now)"
                 }
               ]
             }
@@ -1702,19 +1717,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "main_text": "In Relationships: Friends (9150), The chef [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 335 (Relationships: Friends):",
+          "main_text": "In Relationships: Friends (3545), They [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "stopped"
+                  "text": "spoke"
                 },
                 {
                   "id": "o2",
-                  "text": "stop"
+                  "text": "speak"
                 }
               ]
             },
@@ -1723,11 +1738,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "prepared"
+                  "text": "learned"
                 },
                 {
                   "id": "o2",
-                  "text": "prepare"
+                  "text": "learn"
                 }
               ]
             }
@@ -1741,21 +1756,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Relationships: Friends:",
-          "stimulus_en": "This a computer is the most expensive in the country..",
-          "stimulus_es": "Este a computer es el m\u00e1s caro en the country..",
+          "prompt_es": "Elige 335 para Relationships: Friends:",
+          "stimulus_en": "This a cat is the most expensive in the cinema....",
+          "stimulus_es": "Este a cat es el m\u00e1s caro en the cinema....",
           "options": [
             {
               "id": "o3",
-              "text": "Other 6037"
-            },
-            {
-              "id": "o1",
-              "text": "the most expensive"
+              "text": "Other 4275"
             },
             {
               "id": "o2",
               "text": "expensive"
+            },
+            {
+              "id": "o1",
+              "text": "the most expensive"
             }
           ],
           "correct_answer": "o1",
@@ -1764,47 +1779,51 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Relationships: Friends:",
+          "prompt_es": "Ordena 335 sobre Relationships: Friends:",
           "options": [
-            {
-              "id": "w5",
-              "text": "most"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
             {
               "id": "w0",
               "text": "This"
-            },
-            {
-              "id": "w9",
-              "text": "restaurant"
             },
             {
               "id": "w8",
               "text": "the"
             },
             {
-              "id": "w2",
-              "text": "ticket"
+              "id": "w6",
+              "text": "expensive"
             },
             {
               "id": "w1",
               "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "report"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w10",
+              "text": "(today)"
+            },
+            {
+              "id": "w9",
+              "text": "garage"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -1817,51 +1836,52 @@
             "w6",
             "w7",
             "w8",
-            "w9"
+            "w9",
+            "w10"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U48_I79"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "stimulus_en": "This coffee is ___ in the balcony (today).",
+          "prompt_es": "Completa 383 (Relationships: Friends):",
+          "stimulus_en": "This an email is ___ in the balcony (today).",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Relationships: Friends)",
-          "stimulus_en": "This a radio is the most expensive in school (now).",
-          "stimulus_es": "Ref: Este a radio es el m\u00e1s caro en school (now).",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 383 (Relationships: Friends)",
+          "stimulus_en": "This tennis is expensive in the country - 441.",
+          "stimulus_es": "Ref: Este tennis es el m\u00e1s caro en the country - 441.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
+          "prompt_es": "Relaciona 383 (Relationships: Friends):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a gift es el m\u00e1s caro en the station - amazing.",
-              "right": "This a gift is the most expensive in the station - amazing."
+              "left": "Este a bike es el m\u00e1s caro en the university - interesting.",
+              "right": "This a bike is the most expensive in the university - interesting."
             },
             {
               "id": "p1",
-              "left": "Este a cat es el m\u00e1s caro en the airport (today).",
-              "right": "This a cat is the most expensive in the airport (today)."
+              "left": "Este a report es el m\u00e1s caro en the bedroom - interesting.",
+              "right": "This a report is the most expensive in the bedroom - interesting."
             },
             {
               "id": "p2",
-              "left": "Este an email es el m\u00e1s caro en school - amazing.",
-              "right": "This an email is the most expensive in school - amazing."
+              "left": "Este a door es el m\u00e1s caro en the park!.",
+              "right": "This a door is the most expensive in the park!."
             },
             {
               "id": "p3",
-              "left": "Este a clock es el m\u00e1s caro en the bedroom!.",
-              "right": "This a clock is the most expensive in the bedroom!."
+              "left": "Este a pizza es el m\u00e1s caro en the beach....",
+              "right": "This a pizza is the most expensive in the beach...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1869,35 +1889,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Relationships: Friends):",
-          "tts_en": "This a newspaper is the most expensive in Paris - interesting.",
-          "correct_answer": "This a newspaper is the most expensive in Paris - interesting.",
+          "prompt_es": "Dictado 383 (Relationships: Friends):",
+          "tts_en": "This a window is the most expensive in the garage - interesting.",
+          "correct_answer": "This a window is the most expensive in the garage - interesting.",
           "mastery_tag": "listening",
           "interaction_id": "U48_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 383:",
           "options": [
             {
               "id": "o1",
-              "text": "red"
-            },
-            {
-              "id": "o0",
-              "text": "blue"
-            },
-            {
-              "id": "o2",
-              "text": "green"
+              "text": "bus"
             },
             {
               "id": "o3",
-              "text": "pink"
+              "text": "plane"
             },
             {
               "id": "o4",
-              "text": "run7166"
+              "text": "cat6114"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o0",
+              "text": "car"
             }
           ],
           "correct_answer": "o4",
@@ -1910,8 +1930,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Has jugado alguna vez al ajedrez? - 331",
-              "back": "have you ever played chess - 331"
+              "front": "\u2013 Meses del a\u00f1o - amazing",
+              "back": "in May, in August, etc. - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1920,50 +1940,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 383 (Relationships: Friends):",
-          "instruction_en": "Describe Relationships: Friends in 5 words. [Ref: 54]",
+          "instruction_en": "Describe Relationships: Friends in 5 words. [Ref: 52]",
           "mastery_tag": "writing",
           "interaction_id": "U48_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 383 (Relationships: Friends):",
-          "stimulus_en": "This is Relationships: Friends. (956)",
+          "stimulus_en": "Look at Relationships: Friends. (289)",
           "mastery_tag": "speaking",
           "interaction_id": "U48_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
-          "stimulus": "Matching set 8460",
+          "prompt_es": "Une 336 (Relationships: Friends):",
+          "stimulus": "Matching set 6917",
           "items": [
             {
               "id": "i0",
-              "text": "Tienes hijos? (today)",
+              "text": "\u2022in the fall (Br Eng (now)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Mi cumplea\u00f1os es en febrero (today)",
+              "text": "D\u00f3nde te lo dijo?...",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Puedo abrir la ventana, por favor?!",
+              "text": "The correct thing - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "may I open the window, please!"
+              "id": "m1",
+              "text": "Where did he/she tell you..."
             },
             {
               "id": "m0",
-              "text": "Do you have any children (today)"
+              "text": "autumn) En oto\u00f1o (now)"
             },
             {
-              "id": "m1",
-              "text": "my birthday is in February. (today)"
+              "id": "m2",
+              "text": "I haven\u2019t got a car. - amazing"
             }
           ],
           "correct_answer": {
@@ -1976,7 +1996,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Relationships: Friends):",
+          "prompt_es": "Clasifica 336 (Relationships: Friends):",
           "categories": [
             {
               "id": "c1",
@@ -1984,7 +2004,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "What time does the bus leave."
+                  "text": "Do you have any friends who live near your house? = al ser interrogativa, any. (today)"
                 }
               ]
             },
@@ -1994,7 +2014,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n. (now)"
+                  "text": "What time does the bus leave..."
                 }
               ]
             }
@@ -2004,19 +2024,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "main_text": "In Relationships: Friends (6904), The boss [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 336 (Relationships: Friends):",
+          "main_text": "In Relationships: Friends (6235), Maria [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "prepared"
+                  "text": "watched"
                 },
                 {
                   "id": "o2",
-                  "text": "prepare"
+                  "text": "watch"
                 }
               ]
             },
@@ -2025,11 +2045,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "traveled"
+                  "text": "met"
                 },
                 {
                   "id": "o2",
-                  "text": "travel"
+                  "text": "meet"
                 }
               ]
             }
@@ -2043,21 +2063,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Relationships: Friends:",
-          "stimulus_en": "This a movie is the most expensive in the museum (today).",
-          "stimulus_es": "Este a movie es el m\u00e1s caro en the museum (today).",
+          "prompt_es": "Elige 336 para Relationships: Friends:",
+          "stimulus_en": "This a bag is the most expensive in school (now).",
+          "stimulus_es": "Este a bag es el m\u00e1s caro en school (now).",
           "options": [
-            {
-              "id": "o2",
-              "text": "expensive"
-            },
             {
               "id": "o1",
               "text": "the most expensive"
             },
             {
+              "id": "o2",
+              "text": "expensive"
+            },
+            {
               "id": "o3",
-              "text": "Other 233"
+              "text": "Other 3232"
             }
           ],
           "correct_answer": "o1",
@@ -2066,47 +2086,47 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Relationships: Friends:",
+          "prompt_es": "Ordena 336 sobre Relationships: Friends:",
           "options": [
             {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "radio"
-            },
-            {
-              "id": "w5",
-              "text": "most"
+              "id": "w3",
+              "text": "is"
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "in"
+              "id": "w2",
+              "text": "apple"
             },
             {
               "id": "w6",
               "text": "expensive"
             },
             {
-              "id": "w9",
-              "text": "bank"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
               "id": "w4",
               "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "hotel"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "an"
             }
           ],
           "correct_answer": [
@@ -2126,44 +2146,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Relationships: Friends):",
-          "stimulus_en": "This a pizza is ___ in the hospital - 962.",
+          "prompt_es": "Completa 384 (Relationships: Friends):",
+          "stimulus_en": "This a door is ___ in London....",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U48_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Relationships: Friends)",
-          "stimulus_en": "This a radio is expensive in the hotel!.",
-          "stimulus_es": "Ref: Este a radio es el m\u00e1s caro en the hotel!.",
+          "prompt_es": "\u00bfCorrecto? 384 (Relationships: Friends)",
+          "stimulus_en": "This a ticket is expensive in the city - 203.",
+          "stimulus_es": "Ref: Este a ticket es el m\u00e1s caro en the city - 203.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U48_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Relationships: Friends):",
+          "prompt_es": "Relaciona 384 (Relationships: Friends):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a laptop es el m\u00e1s caro en the country (today).",
-              "right": "This a laptop is the most expensive in the country (today)."
+              "left": "Este coffee es el m\u00e1s caro en the park - 656.",
+              "right": "This coffee is the most expensive in the park - 656."
             },
             {
               "id": "p1",
-              "left": "Este a pizza es el m\u00e1s caro en the museum - amazing.",
-              "right": "This a pizza is the most expensive in the museum - amazing."
+              "left": "Este a phone es el m\u00e1s caro en London - interesting.",
+              "right": "This a phone is the most expensive in London - interesting."
             },
             {
               "id": "p2",
-              "left": "Este a window es el m\u00e1s caro en the shop - amazing.",
-              "right": "This a window is the most expensive in the shop - amazing."
+              "left": "Este a phone es el m\u00e1s caro en the bank (now).",
+              "right": "This a phone is the most expensive in the bank (now)."
             },
             {
               "id": "p3",
-              "left": "Este an apple es el m\u00e1s caro en the balcony - interesting.",
-              "right": "This an apple is the most expensive in the balcony - interesting."
+              "left": "Este a pizza es el m\u00e1s caro en the woods (today).",
+              "right": "This a pizza is the most expensive in the woods (today)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2171,35 +2191,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Relationships: Friends):",
-          "tts_en": "This an email is the most expensive in the woods - amazing.",
-          "correct_answer": "This an email is the most expensive in the woods - amazing.",
+          "prompt_es": "Dictado 384 (Relationships: Friends):",
+          "tts_en": "This a cat is the most expensive in the street..",
+          "correct_answer": "This a cat is the most expensive in the street..",
           "mastery_tag": "listening",
           "interaction_id": "U48_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 384:",
           "options": [
             {
               "id": "o1",
-              "text": "Tokyo"
-            },
-            {
-              "id": "o0",
-              "text": "London"
-            },
-            {
-              "id": "o4",
-              "text": "Slow4121"
-            },
-            {
-              "id": "o3",
-              "text": "Paris"
+              "text": "bus"
             },
             {
               "id": "o2",
-              "text": "Berlin"
+              "text": "train"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o4",
+              "text": "cat7730"
             }
           ],
           "correct_answer": "o4",
@@ -2212,8 +2232,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "For example!",
-              "back": "She drives carefully.!"
+              "front": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca (now)",
+              "back": "I hardly ever go to the cinema = casi nunca voy al cine. (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2222,14 +2242,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 384 (Relationships: Friends):",
-          "instruction_en": "Draft an email regarding Relationships: Friends. [Ref: 64]",
+          "instruction_en": "Draft an email regarding Relationships: Friends. [Ref: 89]",
           "mastery_tag": "writing",
           "interaction_id": "U48_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 384 (Relationships: Friends):",
-          "stimulus_en": "Improve Relationships: Friends. (314)",
+          "stimulus_en": "Talk about Relationships: Friends. (103)",
           "mastery_tag": "speaking",
           "interaction_id": "U48_I100"
         }

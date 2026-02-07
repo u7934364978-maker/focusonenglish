@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "stimulus_en": "She ___ send a car at London (today).",
-          "correct_answer": "constantly",
+          "prompt_es": "Completa 25 (Work: Job Interviews):",
+          "stimulus_en": "The player ___ speak a pen at the airport - amazing.",
+          "correct_answer": "normally",
           "mastery_tag": "grammar",
           "interaction_id": "U4_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Job Interviews)",
-          "stimulus_en": "The baker usually clean a letter at the restaurant (now).",
-          "stimulus_es": "Ref: The baker usually clean a letter en the restaurant (now).",
+          "prompt_es": "\u00bfCorrecto? 25 (Work: Job Interviews)",
+          "stimulus_en": "He often eat English at the restaurant - amazing.",
+          "stimulus_es": "Ref: He often eat English en the restaurant - amazing.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U4_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
+          "prompt_es": "Relaciona 25 (Work: Job Interviews):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The chef rarely plan a house en the station....",
-              "right": "The chef rarely plan a house at the station...."
+              "left": "We regularly finish a watch en the bedroom - 736.",
+              "right": "We regularly finish a watch at the bedroom - 736."
             },
             {
               "id": "p1",
-              "left": "My brother constantly drink a television en the kitchen!.",
-              "right": "My brother constantly drink a television at the kitchen!."
+              "left": "The teacher often check a sandwich en the beach (now).",
+              "right": "The teacher often check a sandwich at the beach (now)."
             },
             {
               "id": "p2",
-              "left": "The coach rarely visit a table en the stadium!.",
-              "right": "The coach rarely visit a table at the stadium!."
+              "left": "The scientist sometimes listen an apple en the garage (today).",
+              "right": "The scientist sometimes listen an apple at the garage (today)."
             },
             {
               "id": "p3",
-              "left": "The nurse sometimes study a television en the stadium - interesting.",
-              "right": "The nurse sometimes study a television at the stadium - interesting."
+              "left": "The chef constantly finish a television en the station (now).",
+              "right": "The chef constantly finish a television at the station (now)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Job Interviews):",
-          "tts_en": "My brother hardly ever eat a book at the hotel - amazing.",
-          "correct_answer": "My brother hardly ever eat a book at the hotel - amazing.",
+          "prompt_es": "Dictado 25 (Work: Job Interviews):",
+          "tts_en": "The singer seldom stop a pizza at London (today).",
+          "correct_answer": "The singer seldom stop a pizza at London (today).",
           "mastery_tag": "listening",
           "interaction_id": "U4_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 25:",
           "options": [
             {
-              "id": "o3",
-              "text": "Bed"
+              "id": "o2",
+              "text": "green"
             },
             {
-              "id": "o0",
-              "text": "Table"
+              "id": "o3",
+              "text": "pink"
             },
             {
               "id": "o4",
-              "text": "Pen4273"
+              "text": "run4704"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
             },
             {
               "id": "o1",
-              "text": "Chair"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
+              "text": "red"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Common mistake (now)",
-              "back": "I hadn\u2019t got a mobile. (now)"
+              "front": "La podemos contestar de la seguiente manera (now)",
+              "back": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l) (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 25 (Work: Job Interviews):",
-          "instruction_en": "Explain Adverbs of Frequency using Work: Job Interviews. [Ref: 35]",
+          "instruction_en": "Why is Work: Job Interviews important? [Ref: 55]",
           "mastery_tag": "writing",
           "interaction_id": "U4_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 25 (Work: Job Interviews):",
-          "stimulus_en": "Improve Work: Job Interviews. (193)",
+          "stimulus_en": "Focus on Work: Job Interviews. (654)",
           "mastery_tag": "speaking",
           "interaction_id": "U4_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
-          "stimulus": "Matching set 626",
+          "prompt_es": "Une 22 (Work: Job Interviews):",
+          "stimulus": "Matching set 4113",
           "items": [
             {
               "id": "i0",
-              "text": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro?!",
+              "text": "1. Often / she / write to me/ doesn\u2019t - interesting",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "\u00bfEst\u00e1s estudiando franc\u00e9s? - amazing",
+              "text": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca? - amazing",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo.",
+              "text": "The correct thing - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular.."
+              "text": "I haven\u2019t got a car. - amazing"
             },
             {
               "id": "m1",
-              "text": "are you learning French? - amazing"
+              "text": "What\u2019s the funniest joke you\u2019ve ever been told - amazing"
             },
             {
               "id": "m0",
-              "text": "Were you having a beer when you saw Peter!"
+              "text": "she doesn\u2019t often write to me - interesting"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Work: Job Interviews):",
+          "prompt_es": "Clasifica 22 (Work: Job Interviews):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "My children\u2019s toys."
+                  "text": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. (now)"
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "bookshop) Librer\u00eda (now)"
+                  "text": "have you ever played chess - interesting"
                 }
               ]
             }
@@ -202,19 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "main_text": "In Work: Job Interviews (5934), The teacher [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 22 (Work: Job Interviews):",
+          "main_text": "In Work: Job Interviews (6599), The waiter [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "wrote"
+                  "text": "called"
                 },
                 {
                   "id": "o2",
-                  "text": "write"
+                  "text": "call"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "received"
+                  "text": "sold"
                 },
                 {
                   "id": "o2",
-                  "text": "receive"
+                  "text": "sell"
                 }
               ]
             }
@@ -241,21 +241,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Job Interviews:",
-          "stimulus_en": "Maria rarely teach a printer at the balcony (today).",
-          "stimulus_es": "Maria rarely teach a printer en the balcony (today).",
+          "prompt_es": "Elige 22 para Work: Job Interviews:",
+          "stimulus_en": "We normally study music at London (today).",
+          "stimulus_es": "We normally study music en London (today).",
           "options": [
-            {
-              "id": "o1",
-              "text": "rarely"
-            },
-            {
-              "id": "o3",
-              "text": "Other 669"
-            },
             {
               "id": "o2",
               "text": "never"
+            },
+            {
+              "id": "o1",
+              "text": "normally"
+            },
+            {
+              "id": "o3",
+              "text": "Other 7315"
             }
           ],
           "correct_answer": "o1",
@@ -264,350 +264,43 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Job Interviews:",
+          "prompt_es": "Ordena 22 sobre Work: Job Interviews:",
           "options": [
             {
-              "id": "w10",
-              "text": "(today)"
-            },
-            {
-              "id": "w9",
-              "text": "gym"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w7",
+              "id": "w6",
               "text": "at"
             },
             {
-              "id": "w6",
-              "text": "laptop"
+              "id": "w3",
+              "text": "drive"
             },
             {
               "id": "w2",
-              "text": "hardly"
-            },
-            {
-              "id": "w3",
-              "text": "ever"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "The"
+              "text": "constantly"
             },
             {
               "id": "w4",
-              "text": "teach"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U4_I14"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "stimulus_en": "The baker ___ watch a house at the stadium (now).",
-          "correct_answer": "hardly ever",
-          "mastery_tag": "grammar",
-          "interaction_id": "U4_I15"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Job Interviews)",
-          "stimulus_en": "The coach never speak a chair at the stadium....",
-          "stimulus_es": "Ref: The coach occasionally speak a chair en the stadium....",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U4_I16"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "The doctor seldom receive a clock en the garden - 514.",
-              "right": "The doctor seldom receive a clock at the garden - 514."
+              "text": "a"
             },
             {
-              "id": "p1",
-              "left": "She occasionally walk a clock en the supermarket (today).",
-              "right": "She occasionally walk a clock at the supermarket (today)."
-            },
-            {
-              "id": "p2",
-              "left": "The student occasionally stop a camera en the hospital - amazing.",
-              "right": "The student occasionally stop a camera at the hospital - amazing."
-            },
-            {
-              "id": "p3",
-              "left": "They usually cook a newspaper en the office - interesting.",
-              "right": "They usually cook a newspaper at the office - interesting."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U4_I17"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Job Interviews):",
-          "tts_en": "The doctor hardly ever buy a bike at the shop - 148.",
-          "correct_answer": "The doctor hardly ever buy a bike at the shop - 148.",
-          "mastery_tag": "listening",
-          "interaction_id": "U4_I18"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
-            },
-            {
-              "id": "o0",
-              "text": "pizza"
-            },
-            {
-              "id": "o4",
-              "text": "rain1594"
-            },
-            {
-              "id": "o2",
-              "text": "salad"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U4_I19"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 26 - Work: Job Interviews:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Tyre (Am Eng!",
-              "back": "tire) Neum\u00e1tico!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U4_I20"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 26 (Work: Job Interviews):",
-          "instruction_en": "A small story about Work: Job Interviews. [Ref: 56]",
-          "mastery_tag": "writing",
-          "interaction_id": "U4_I21"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 26 (Work: Job Interviews):",
-          "stimulus_en": "Focus on Work: Job Interviews. (562)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U4_I22"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
-          "stimulus": "Matching set 3071",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Se pueden contraer = \u2018ve got/ haven\u2019t got (to be...",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca - interesting",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Otro ejemplo...",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "\u2018m/ \u2018s, etc)..."
-            },
-            {
-              "id": "m2",
-              "text": "My partner is the most beautiful woman in the world..."
-            },
-            {
-              "id": "m1",
-              "text": "I hardly ever go to the cinema = casi nunca voy al cine. - interesting"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U4_I23"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Work: Job Interviews):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "Sometimes I have lunch in a restaurant. - amazing"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "read, write, eat, run, sleep, etc!"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U4_I24"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "main_text": "In Work: Job Interviews (5724), The waiter [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "received"
-                },
-                {
-                  "id": "o2",
-                  "text": "receive"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "spoke"
-                },
-                {
-                  "id": "o2",
-                  "text": "speak"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U4_I25"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Job Interviews:",
-          "stimulus_en": "The pilot normally sell tennis at the shop!.",
-          "stimulus_es": "The pilot normally sell tennis en the shop!.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "normally"
-            },
-            {
-              "id": "o2",
-              "text": "never"
-            },
-            {
-              "id": "o3",
-              "text": "Other 8654"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U4_I26"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Job Interviews:",
-          "options": [
-            {
-              "id": "w6",
+              "id": "w7",
               "text": "the"
             },
             {
               "id": "w8",
-              "text": "(today)"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "pizza"
-            },
-            {
-              "id": "w5",
-              "text": "at"
-            },
-            {
-              "id": "w2",
-              "text": "build"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w7",
-              "text": "mountains"
+              "text": "supermarket"
             },
             {
               "id": "w1",
-              "text": "occasionally"
+              "text": "brother"
+            },
+            {
+              "id": "w5",
+              "text": "movie"
+            },
+            {
+              "id": "w0",
+              "text": "My"
             }
           ],
           "correct_answer": [
@@ -622,48 +315,350 @@
             "w8"
           ],
           "mastery_tag": "syntax",
+          "interaction_id": "U4_I14"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 26 (Work: Job Interviews):",
+          "stimulus_en": "The coach ___ finish an apple at London - amazing.",
+          "correct_answer": "rarely",
+          "mastery_tag": "grammar",
+          "interaction_id": "U4_I15"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 26 (Work: Job Interviews)",
+          "stimulus_en": "Sarah occasionally prepare a ticket at the university - amazing.",
+          "stimulus_es": "Ref: Sarah occasionally prepare a ticket en the university - amazing.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U4_I16"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 26 (Work: Job Interviews):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The teacher regularly create a clock en the shop....",
+              "right": "The teacher regularly create a clock at the shop...."
+            },
+            {
+              "id": "p1",
+              "left": "The scientist periodically receive a report en the woods - amazing.",
+              "right": "The scientist periodically receive a report at the woods - amazing."
+            },
+            {
+              "id": "p2",
+              "left": "The player always create a house en the hospital - interesting.",
+              "right": "The player always create a house at the hospital - interesting."
+            },
+            {
+              "id": "p3",
+              "left": "The teacher occasionally buy a clock en the street....",
+              "right": "The teacher occasionally buy a clock at the street...."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U4_I17"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 26 (Work: Job Interviews):",
+          "tts_en": "The nurse usually work a table at the station..",
+          "correct_answer": "The nurse usually work a table at the station..",
+          "mastery_tag": "listening",
+          "interaction_id": "U4_I18"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 26:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "Pen2431"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U4_I19"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 26 - Work: Job Interviews:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Otro common mistake!",
+              "back": "Have you a car?!"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U4_I20"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 26 (Work: Job Interviews):",
+          "instruction_en": "A small story about Work: Job Interviews. [Ref: 42]",
+          "mastery_tag": "writing",
+          "interaction_id": "U4_I21"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 26 (Work: Job Interviews):",
+          "stimulus_en": "Talk about Work: Job Interviews. (789)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U4_I22"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 23 (Work: Job Interviews):",
+          "stimulus": "Matching set 278",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Otro ejemplo.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Chips (Br Eng) (Am Eng...",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir...",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto.."
+            },
+            {
+              "id": "m2",
+              "text": "I can to speak English...."
+            },
+            {
+              "id": "m1",
+              "text": "biscuit) Patatas fritas..."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U4_I23"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 23 (Work: Job Interviews):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "the students often use the dictionary (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "when I was at primary school, I didn\u2019t wear uniform. (today)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U4_I24"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 23 (Work: Job Interviews):",
+          "main_text": "In Work: Job Interviews (3529), You [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drank"
+                },
+                {
+                  "id": "o2",
+                  "text": "drink"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "met"
+                },
+                {
+                  "id": "o2",
+                  "text": "meet"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U4_I25"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 23 para Work: Job Interviews:",
+          "stimulus_en": "Maria seldom drink a computer at the gym - amazing.",
+          "stimulus_es": "Maria seldom drink a computer en the gym - amazing.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "seldom"
+            },
+            {
+              "id": "o2",
+              "text": "never"
+            },
+            {
+              "id": "o3",
+              "text": "Other 2544"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U4_I26"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 23 sobre Work: Job Interviews:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "police"
+            },
+            {
+              "id": "w9",
+              "text": "garage"
+            },
+            {
+              "id": "w7",
+              "text": "at"
+            },
+            {
+              "id": "w4",
+              "text": "sell"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "rarely"
+            },
+            {
+              "id": "w2",
+              "text": "officer"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "report"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U4_I27"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "stimulus_en": "The driver ___ receive a report at the office (now).",
-          "correct_answer": "constantly",
+          "prompt_es": "Completa 27 (Work: Job Interviews):",
+          "stimulus_en": "The baker ___ plan a computer at Paris (now).",
+          "correct_answer": "never",
           "mastery_tag": "grammar",
           "interaction_id": "U4_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Job Interviews)",
-          "stimulus_en": "The driver constantly watch a table at the beach (now).",
-          "stimulus_es": "Ref: The driver constantly watch a table en the beach (now).",
+          "prompt_es": "\u00bfCorrecto? 27 (Work: Job Interviews)",
+          "stimulus_en": "The doctor never study a printer at the gym..",
+          "stimulus_es": "Ref: The doctor never study a printer en the gym..",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U4_I29"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
+          "prompt_es": "Relaciona 27 (Work: Job Interviews):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Maria occasionally fix a chair en the beach (now).",
-              "right": "Maria occasionally fix a chair at the beach (now)."
+              "left": "The artist normally build a gift en the restaurant!.",
+              "right": "The artist normally build a gift at the restaurant!."
             },
             {
               "id": "p1",
-              "left": "The student always organize a bag en the beach - amazing.",
-              "right": "The student always organize a bag at the beach - amazing."
+              "left": "My friend hardly ever learn a book en the city - 709.",
+              "right": "My friend hardly ever learn a book at the city - 709."
             },
             {
               "id": "p2",
-              "left": "The actress rarely organize a bag en the city - amazing.",
-              "right": "The actress rarely organize a bag at the city - amazing."
+              "left": "Maria always walk a television en the street..",
+              "right": "Maria always walk a television at the street.."
             },
             {
               "id": "p3",
-              "left": "My sister always study an apple en the hotel - 918.",
-              "right": "My sister always study an apple at the hotel - 918."
+              "left": "My friend normally travel music en the office - amazing.",
+              "right": "My friend normally travel music at the office - amazing."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -671,35 +666,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Job Interviews):",
-          "tts_en": "He seldom cook football at the city....",
-          "correct_answer": "He seldom cook football at the city....",
+          "prompt_es": "Dictado 27 (Work: Job Interviews):",
+          "tts_en": "Our neighbors regularly play a bag at the restaurant!.",
+          "correct_answer": "Our neighbors regularly play a bag at the restaurant!.",
           "mastery_tag": "listening",
           "interaction_id": "U4_I31"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 27:",
           "options": [
             {
               "id": "o3",
-              "text": "Paris"
-            },
-            {
-              "id": "o1",
-              "text": "Tokyo"
-            },
-            {
-              "id": "o2",
-              "text": "Berlin"
+              "text": "Planet"
             },
             {
               "id": "o0",
-              "text": "London"
+              "text": "Sun"
             },
             {
               "id": "o4",
-              "text": "Slow1877"
+              "text": "Hot7186"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            },
+            {
+              "id": "o1",
+              "text": "Moon"
             }
           ],
           "correct_answer": "o4",
@@ -712,8 +707,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "A qu\u00e9 hora abre el supermercado?!",
-              "back": "What time does the supermarket open!"
+              "front": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca? (today)",
+              "back": "What\u2019s the hottest place you\u2019ve ever been to (today)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -722,50 +717,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 27 (Work: Job Interviews):",
-          "instruction_en": "List 3 facts about Work: Job Interviews. [Ref: 49]",
+          "instruction_en": "Your daily routine in Work: Job Interviews. [Ref: 35]",
           "mastery_tag": "writing",
           "interaction_id": "U4_I34"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 27 (Work: Job Interviews):",
-          "stimulus_en": "The Adverbs of Frequency is here. (817)",
+          "stimulus_en": "This is Work: Job Interviews. (507)",
           "mastery_tag": "speaking",
           "interaction_id": "U4_I35"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
-          "stimulus": "Matching set 617",
+          "prompt_es": "Une 24 (Work: Job Interviews):",
+          "stimulus": "Matching set 4659",
           "items": [
             {
               "id": "i0",
-              "text": "A qu\u00e9 hora tenemos el examen? (now)",
+              "text": "Encontraste algo ah\u00ed? - amazing",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo (today)",
+              "text": "Tienes hermanos? - interesting",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Para responder en plural, dir\u00edamos!",
+              "text": "Many, para countable, decimos (today)",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "What time do we have our exam (now)"
+              "text": "any + thing = en oraci\u00f3n INTERROGATIVA. - amazing"
             },
             {
               "id": "m1",
-              "text": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado. (today)"
+              "text": "do you have any brothers or sisters - interesting"
             },
             {
               "id": "m2",
-              "text": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l).!"
+              "text": "I don\u2019t have many friends (friends is countable). (today)"
             }
           ],
           "correct_answer": {
@@ -778,7 +773,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Work: Job Interviews):",
+          "prompt_es": "Clasifica 24 (Work: Job Interviews):",
           "categories": [
             {
               "id": "c1",
@@ -786,7 +781,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "she doesn\u2019t often write to me."
+                  "text": "durante o desde hace (today)"
                 }
               ]
             },
@@ -796,7 +791,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is. - interesting"
+                  "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet (now)"
                 }
               ]
             }
@@ -806,19 +801,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "main_text": "In Work: Job Interviews (4386), Our neighbors [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 24 (Work: Job Interviews):",
+          "main_text": "In Work: Job Interviews (1002), You [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "wrote"
+                  "text": "worked"
                 },
                 {
                   "id": "o2",
-                  "text": "write"
+                  "text": "work"
                 }
               ]
             },
@@ -827,11 +822,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "helped"
+                  "text": "taught"
                 },
                 {
                   "id": "o2",
-                  "text": "help"
+                  "text": "teach"
                 }
               ]
             }
@@ -845,21 +840,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Job Interviews:",
-          "stimulus_en": "They rarely read music at the station (today).",
-          "stimulus_es": "They rarely read music en the station (today).",
+          "prompt_es": "Elige 24 para Work: Job Interviews:",
+          "stimulus_en": "They normally clean a book at the hotel..",
+          "stimulus_es": "They normally clean a book en the hotel..",
           "options": [
+            {
+              "id": "o1",
+              "text": "normally"
+            },
             {
               "id": "o2",
               "text": "never"
             },
             {
-              "id": "o1",
-              "text": "rarely"
-            },
-            {
               "id": "o3",
-              "text": "Other 9473"
+              "text": "Other 376"
             }
           ],
           "correct_answer": "o1",
@@ -868,39 +863,43 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Job Interviews:",
+          "prompt_es": "Ordena 24 sobre Work: Job Interviews:",
           "options": [
             {
+              "id": "w8",
+              "text": "balcony"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
               "id": "w4",
-              "text": "football"
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "friend"
             },
             {
               "id": "w6",
+              "text": "at"
+            },
+            {
+              "id": "w3",
+              "text": "meet"
+            },
+            {
+              "id": "w5",
+              "text": "letter"
+            },
+            {
+              "id": "w7",
               "text": "the"
             },
             {
               "id": "w2",
-              "text": "normally"
-            },
-            {
-              "id": "w7",
-              "text": "airport"
-            },
-            {
-              "id": "w5",
-              "text": "at"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "drink"
-            },
-            {
-              "id": "w1",
-              "text": "nurse"
+              "text": "seldom"
             }
           ],
           "correct_answer": [
@@ -911,51 +910,52 @@
             "w4",
             "w5",
             "w6",
-            "w7"
+            "w7",
+            "w8"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U4_I40"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "stimulus_en": "The artist ___ travel a watch at the hotel....",
-          "correct_answer": "frequently",
+          "prompt_es": "Completa 28 (Work: Job Interviews):",
+          "stimulus_en": "The nurse ___ teach an email at the office....",
+          "correct_answer": "constantly",
           "mastery_tag": "grammar",
           "interaction_id": "U4_I41"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Job Interviews)",
-          "stimulus_en": "He occasionally travel a car at the country (now).",
-          "stimulus_es": "Ref: He occasionally travel a car en the country (now).",
+          "prompt_es": "\u00bfCorrecto? 28 (Work: Job Interviews)",
+          "stimulus_en": "She rarely speak a pizza at the city (today).",
+          "stimulus_es": "Ref: She rarely speak a pizza en the city (today).",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U4_I42"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
+          "prompt_es": "Relaciona 28 (Work: Job Interviews):",
           "pairs": [
             {
               "id": "p0",
-              "left": "John never travel a chair en the museum....",
-              "right": "John never travel a chair at the museum...."
+              "left": "The chef rarely work a report en the street (now).",
+              "right": "The chef rarely work a report at the street (now)."
             },
             {
               "id": "p1",
-              "left": "The pilot constantly travel a house en Paris - 633.",
-              "right": "The pilot constantly travel a house at Paris - 633."
+              "left": "My brother occasionally work a door en the mountains - 921.",
+              "right": "My brother occasionally work a door at the mountains - 921."
             },
             {
               "id": "p2",
-              "left": "The lawyer constantly learn a letter en the hotel..",
-              "right": "The lawyer constantly learn a letter at the hotel.."
+              "left": "The manager never watch a report en the city (today).",
+              "right": "The manager never watch a report at the city (today)."
             },
             {
               "id": "p3",
-              "left": "The teacher sometimes learn a movie en the bedroom (today).",
-              "right": "The teacher sometimes learn a movie at the bedroom (today)."
+              "left": "The driver sometimes watch a report en the shop (now).",
+              "right": "The driver sometimes watch a report at the shop (now)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -963,35 +963,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Job Interviews):",
-          "tts_en": "The actress sometimes receive a movie at the stadium!.",
-          "correct_answer": "The actress sometimes receive a movie at the stadium!.",
+          "prompt_es": "Dictado 28 (Work: Job Interviews):",
+          "tts_en": "The coach always plan a laptop at the museum....",
+          "correct_answer": "The coach always plan a laptop at the museum....",
           "mastery_tag": "listening",
           "interaction_id": "U4_I44"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 28:",
           "options": [
             {
-              "id": "o1",
-              "text": "red"
+              "id": "o4",
+              "text": "cat3747"
             },
             {
               "id": "o3",
-              "text": "pink"
-            },
-            {
-              "id": "o4",
-              "text": "run5961"
+              "text": "plane"
             },
             {
               "id": "o2",
-              "text": "green"
+              "text": "train"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
             },
             {
               "id": "o0",
-              "text": "blue"
+              "text": "car"
             }
           ],
           "correct_answer": "o4",
@@ -1004,8 +1004,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "The correct thing - interesting",
-              "back": "My friend has a lot of money. - interesting"
+              "front": "Los adjetivos tienen tres formas (today)",
+              "back": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. (today)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1014,50 +1014,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 28 (Work: Job Interviews):",
-          "instruction_en": "Why is Work: Job Interviews important? [Ref: 35]",
+          "instruction_en": "Your daily routine in Work: Job Interviews. [Ref: 83]",
           "mastery_tag": "writing",
           "interaction_id": "U4_I47"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 28 (Work: Job Interviews):",
-          "stimulus_en": "Improve Work: Job Interviews. (475)",
+          "stimulus_en": "Talk about Work: Job Interviews. (193)",
           "mastery_tag": "speaking",
           "interaction_id": "U4_I48"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
-          "stimulus": "Matching set 2391",
+          "prompt_es": "Une 25 (Work: Job Interviews):",
+          "stimulus": "Matching set 3926",
           "items": [
             {
               "id": "i0",
-              "text": "C\u00f3mo se llama \u00e9l?...",
+              "text": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question ten\u00edamos la inversi\u00f3n entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet?\u00a0), en la indirect question, ya no hay inversi\u00f3n, sino que tenemos question word + subject + verb. Si te das cuenta, la inversi\u00f3n la tenemos en \u2018Can you tell me\u2026\u2019. Como ya tenemos una inversi\u00f3n al comenzar la pregunta, ya no podemos hacer otra inversi\u00f3n. Recuerda...",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos (now)",
+              "text": "Eraser (Br Eng!",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Cu\u00e1nto cuesta? (now)",
+              "text": "7. read books slowly / I / always - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "What\u2019s his name..."
+              "id": "m2",
+              "text": "I always read books slowly - amazing"
             },
             {
-              "id": "m2",
-              "text": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost (now)"
+              "id": "m0",
+              "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n!..."
             },
             {
               "id": "m1",
-              "text": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle. (now)"
+              "text": "rubber) Goma de borrar!"
             }
           ],
           "correct_answer": {
@@ -1070,7 +1070,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Work: Job Interviews):",
+          "prompt_es": "Clasifica 25 (Work: Job Interviews):",
           "categories": [
             {
               "id": "c1",
@@ -1078,7 +1078,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Have you a car? (now)"
+                  "text": "every days o every Tuesdays...."
                 }
               ]
             },
@@ -1088,7 +1088,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "meter) Metro..."
+                  "text": "the bus usually arrives late - interesting"
                 }
               ]
             }
@@ -1098,19 +1098,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "main_text": "In Work: Job Interviews (7335), My friend [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 25 (Work: Job Interviews):",
+          "main_text": "In Work: Job Interviews (4312), The boss [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "studied"
+                  "text": "met"
                 },
                 {
                   "id": "o2",
-                  "text": "study"
+                  "text": "meet"
                 }
               ]
             },
@@ -1137,21 +1137,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Job Interviews:",
-          "stimulus_en": "They regularly create a chair at the park....",
-          "stimulus_es": "They regularly create a chair en the park....",
+          "prompt_es": "Elige 25 para Work: Job Interviews:",
+          "stimulus_en": "The coach always study a report at school - 292.",
+          "stimulus_es": "The coach always study a report en school - 292.",
           "options": [
+            {
+              "id": "o1",
+              "text": "always"
+            },
             {
               "id": "o2",
               "text": "never"
             },
             {
-              "id": "o1",
-              "text": "regularly"
-            },
-            {
               "id": "o3",
-              "text": "Other 6970"
+              "text": "Other 8306"
             }
           ],
           "correct_answer": "o1",
@@ -1160,47 +1160,43 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Job Interviews:",
+          "prompt_es": "Ordena 25 sobre Work: Job Interviews:",
           "options": [
-            {
-              "id": "w5",
-              "text": "television"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
             {
               "id": "w6",
               "text": "at"
             },
             {
-              "id": "w2",
-              "text": "always"
-            },
-            {
               "id": "w8",
-              "text": "museum"
+              "text": "supermarket"
             },
             {
               "id": "w3",
-              "text": "visit"
+              "text": "speak"
             },
             {
               "id": "w7",
               "text": "the"
             },
             {
-              "id": "w9",
-              "text": "interesting"
-            },
-            {
               "id": "w4",
               "text": "a"
             },
             {
+              "id": "w5",
+              "text": "door"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
               "id": "w1",
-              "text": "scientist"
+              "text": "brother"
+            },
+            {
+              "id": "w2",
+              "text": "always"
             }
           ],
           "correct_answer": [
@@ -1212,52 +1208,51 @@
             "w5",
             "w6",
             "w7",
-            "w8",
-            "w9"
+            "w8"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U4_I53"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "stimulus_en": "My sister ___ meet a window at the shop!.",
+          "prompt_es": "Completa 29 (Work: Job Interviews):",
+          "stimulus_en": "The lawyer ___ finish a house at the airport..",
           "correct_answer": "hardly ever",
           "mastery_tag": "grammar",
           "interaction_id": "U4_I54"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Job Interviews)",
-          "stimulus_en": "You never sell a newspaper at the bank (today).",
-          "stimulus_es": "Ref: You rarely sell a newspaper en the bank (today).",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 29 (Work: Job Interviews)",
+          "stimulus_en": "He never plan a gift at the museum..",
+          "stimulus_es": "Ref: He never plan a gift en the museum..",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U4_I55"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
+          "prompt_es": "Relaciona 29 (Work: Job Interviews):",
           "pairs": [
             {
               "id": "p0",
-              "left": "We occasionally watch football en the balcony (now).",
-              "right": "We occasionally watch football at the balcony (now)."
+              "left": "The manager constantly cook a house en the woods....",
+              "right": "The manager constantly cook a house at the woods...."
             },
             {
               "id": "p1",
-              "left": "The waiter periodically walk a cat en the kitchen (today).",
-              "right": "The waiter periodically walk a cat at the kitchen (today)."
+              "left": "I occasionally work a cat en the supermarket (today).",
+              "right": "I occasionally work a cat at the supermarket (today)."
             },
             {
               "id": "p2",
-              "left": "Maria frequently fix a laptop en Paris (now).",
-              "right": "Maria frequently fix a laptop at Paris (now)."
+              "left": "The player usually prepare a pizza en the supermarket (now).",
+              "right": "The player usually prepare a pizza at the supermarket (now)."
             },
             {
               "id": "p3",
-              "left": "The lawyer constantly organize a window en the supermarket - amazing.",
-              "right": "The lawyer constantly organize a window at the supermarket - amazing."
+              "left": "The police officer frequently send a pizza en the supermarket (now).",
+              "right": "The police officer frequently send a pizza at the supermarket (now)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1265,35 +1260,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Job Interviews):",
-          "tts_en": "The waiter regularly create a pizza at the bank (now).",
-          "correct_answer": "The waiter regularly create a pizza at the bank (now).",
+          "prompt_es": "Dictado 29 (Work: Job Interviews):",
+          "tts_en": "The boss regularly fix English at the bedroom - interesting.",
+          "correct_answer": "The boss regularly fix English at the bedroom - interesting.",
           "mastery_tag": "listening",
           "interaction_id": "U4_I57"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 29:",
           "options": [
             {
               "id": "o2",
-              "text": "Berlin"
-            },
-            {
-              "id": "o4",
-              "text": "Slow743"
-            },
-            {
-              "id": "o3",
-              "text": "Paris"
-            },
-            {
-              "id": "o0",
-              "text": "London"
+              "text": "Flute"
             },
             {
               "id": "o1",
-              "text": "Tokyo"
+              "text": "Piano"
+            },
+            {
+              "id": "o4",
+              "text": "Book9110"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar"
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
             }
           ],
           "correct_answer": "o4",
@@ -1306,8 +1301,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "3. usually/ arrives late / the bus (now)",
-              "back": "the bus usually arrives late (now)"
+              "front": "\u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo (today)",
+              "back": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos. (today)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1316,50 +1311,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 29 (Work: Job Interviews):",
-          "instruction_en": "Compare Work: Job Interviews with another topic. [Ref: 37]",
+          "instruction_en": "Draft an email regarding Work: Job Interviews. [Ref: 17]",
           "mastery_tag": "writing",
           "interaction_id": "U4_I60"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 29 (Work: Job Interviews):",
-          "stimulus_en": "The Adverbs of Frequency is here. (967)",
+          "stimulus_en": "This is Work: Job Interviews. (159)",
           "mastery_tag": "speaking",
           "interaction_id": "U4_I61"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
-          "stimulus": "Matching set 392",
+          "prompt_es": "Une 26 (Work: Job Interviews):",
+          "stimulus": "Matching set 3139",
           "items": [
             {
               "id": "i0",
-              "text": "Qu\u00e9 quieres? (today)",
+              "text": "Alguien dijo mi nombre? (now)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo - interesting",
+              "text": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1...",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "1. La puerta de mi casa!",
+              "text": "This is another translation (now)",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "the door of my house!"
+              "id": "m0",
+              "text": "Did anybody say my name (now)"
             },
             {
-              "id": "m0",
-              "text": "la respuesta es ilimitada, puede ser cualquier cosa. (today)"
+              "id": "m2",
+              "text": "igual hago algo\u2026 (but I\u2019m not sure\u2026). (now)"
             },
             {
               "id": "m1",
-              "text": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. - interesting"
+              "text": "Can I have your ID/ passport/ credit card?...."
             }
           ],
           "correct_answer": {
@@ -1372,7 +1367,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Work: Job Interviews):",
+          "prompt_es": "Clasifica 26 (Work: Job Interviews):",
           "categories": [
             {
               "id": "c1",
@@ -1380,7 +1375,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework!"
+                  "text": "may I open the window, please - amazing"
                 }
               ]
             },
@@ -1390,7 +1385,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "when I was at primary school, I didn\u2019t wear uniform. (today)"
+                  "text": "What\u2019s the most delicious food you\u2019ve ever tasted..."
                 }
               ]
             }
@@ -1400,19 +1395,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "main_text": "In Work: Job Interviews (240), The lawyer [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 26 (Work: Job Interviews):",
+          "main_text": "In Work: Job Interviews (2626), The waiter [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "wrote"
+                  "text": "cleaned"
                 },
                 {
                   "id": "o2",
-                  "text": "write"
+                  "text": "clean"
                 }
               ]
             },
@@ -1421,11 +1416,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "played"
+                  "text": "cooked"
                 },
                 {
                   "id": "o2",
-                  "text": "play"
+                  "text": "cook"
                 }
               ]
             }
@@ -1439,21 +1434,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Job Interviews:",
-          "stimulus_en": "John constantly clean a movie at the bank!.",
-          "stimulus_es": "John constantly clean a movie en the bank!.",
+          "prompt_es": "Elige 26 para Work: Job Interviews:",
+          "stimulus_en": "My friend usually travel music at the bedroom!.",
+          "stimulus_es": "My friend usually travel music en the bedroom!.",
           "options": [
-            {
-              "id": "o1",
-              "text": "constantly"
-            },
-            {
-              "id": "o3",
-              "text": "Other 1998"
-            },
             {
               "id": "o2",
               "text": "never"
+            },
+            {
+              "id": "o3",
+              "text": "Other 8733"
+            },
+            {
+              "id": "o1",
+              "text": "usually"
             }
           ],
           "correct_answer": "o1",
@@ -1462,35 +1457,39 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Job Interviews:",
+          "prompt_es": "Ordena 26 sobre Work: Job Interviews:",
           "options": [
+            {
+              "id": "w4",
+              "text": "tennis"
+            },
             {
               "id": "w5",
               "text": "at"
             },
             {
-              "id": "w4",
-              "text": "football"
-            },
-            {
-              "id": "w2",
-              "text": "never"
-            },
-            {
-              "id": "w3",
-              "text": "watch"
+              "id": "w1",
+              "text": "actress"
             },
             {
               "id": "w6",
-              "text": "Paris"
+              "text": "the"
             },
             {
-              "id": "w1",
-              "text": "waiter"
+              "id": "w2",
+              "text": "constantly"
             },
             {
               "id": "w0",
               "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "museum"
+            },
+            {
+              "id": "w3",
+              "text": "stop"
             }
           ],
           "correct_answer": [
@@ -1500,51 +1499,52 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U4_I66"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "stimulus_en": "The coach ___ prepare a printer at the cinema..",
-          "correct_answer": "usually",
+          "prompt_es": "Completa 30 (Work: Job Interviews):",
+          "stimulus_en": "Our neighbors ___ help a chair at the beach - interesting.",
+          "correct_answer": "seldom",
           "mastery_tag": "grammar",
           "interaction_id": "U4_I67"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Job Interviews)",
-          "stimulus_en": "The chef usually visit a car at school....",
-          "stimulus_es": "Ref: The chef usually visit a car en school....",
+          "prompt_es": "\u00bfCorrecto? 30 (Work: Job Interviews)",
+          "stimulus_en": "I seldom work an email at the beach (today).",
+          "stimulus_es": "Ref: I seldom work an email en the beach (today).",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U4_I68"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
+          "prompt_es": "Relaciona 30 (Work: Job Interviews):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The nurse constantly build a bag en the mountains - interesting.",
-              "right": "The nurse constantly build a bag at the mountains - interesting."
+              "left": "John usually travel a camera en the airport (now).",
+              "right": "John usually travel a camera at the airport (now)."
             },
             {
               "id": "p1",
-              "left": "My brother constantly travel a door en the station - 388.",
-              "right": "My brother constantly travel a door at the station - 388."
+              "left": "The nurse usually write a newspaper en the museum....",
+              "right": "The nurse usually write a newspaper at the museum...."
             },
             {
               "id": "p2",
-              "left": "The student frequently speak a computer en the gym - 700.",
-              "right": "The student frequently speak a computer at the gym - 700."
+              "left": "The police officer sometimes teach a ticket en the garage - 602.",
+              "right": "The police officer sometimes teach a ticket at the garage - 602."
             },
             {
               "id": "p3",
-              "left": "John usually write a cat en the bank - amazing.",
-              "right": "John usually write a cat at the bank - amazing."
+              "left": "My sister seldom create a clock en the woods - interesting.",
+              "right": "My sister seldom create a clock at the woods - interesting."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1552,35 +1552,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Job Interviews):",
-          "tts_en": "The boss frequently eat a watch at the cinema..",
-          "correct_answer": "The boss frequently eat a watch at the cinema..",
+          "prompt_es": "Dictado 30 (Work: Job Interviews):",
+          "tts_en": "The actress seldom drive coffee at the gym - amazing.",
+          "correct_answer": "The actress seldom drive coffee at the gym - amazing.",
           "mastery_tag": "listening",
           "interaction_id": "U4_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 30:",
           "options": [
             {
-              "id": "o3",
-              "text": "Friday"
-            },
-            {
-              "id": "o4",
-              "text": "June2533"
-            },
-            {
-              "id": "o1",
-              "text": "Tuesday"
+              "id": "o2",
+              "text": "Sofa"
             },
             {
               "id": "o0",
-              "text": "Monday"
+              "text": "Table"
             },
             {
-              "id": "o2",
-              "text": "Sunday"
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o4",
+              "text": "Pen9275"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
             }
           ],
           "correct_answer": "o4",
@@ -1593,8 +1593,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Cookie (Br Eng.",
-              "back": "biscuit) Galleta."
+              "front": "3. Las hermanas de Pedro (now)",
+              "back": "Peter\u2019s sisters (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1603,50 +1603,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 30 (Work: Job Interviews):",
-          "instruction_en": "Your daily routine in Work: Job Interviews. [Ref: 95]",
+          "instruction_en": "A small story about Work: Job Interviews. [Ref: 57]",
           "mastery_tag": "writing",
           "interaction_id": "U4_I73"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 30 (Work: Job Interviews):",
-          "stimulus_en": "Focus on Work: Job Interviews. (292)",
+          "stimulus_en": "Focus on Work: Job Interviews. (585)",
           "mastery_tag": "speaking",
           "interaction_id": "U4_I74"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
-          "stimulus": "Matching set 1363",
+          "prompt_es": "Une 27 (Work: Job Interviews):",
+          "stimulus": "Matching set 7878",
           "items": [
             {
               "id": "i0",
-              "text": "\u2013 D\u00edas de la semana.",
+              "text": "Drugstore (Br Eng!",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto (now)",
+              "text": "on + train/ bus/ plane/ bike/ motorbike!",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "This is another translation - amazing",
+              "text": "me / Paul / helps / sometimes / my / with / homework - interesting",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "igual hago algo\u2026 (but I\u2019m not sure\u2026). - amazing"
+              "text": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework - interesting"
             },
             {
               "id": "m0",
-              "text": "on Monday, on Wednesday, etc.."
+              "text": "chemist) Farmacia!"
             },
             {
               "id": "m1",
-              "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. (now)"
+              "text": "cuando hablamos de forma m\u00e1s espec\u00edfica.!"
             }
           ],
           "correct_answer": {
@@ -1659,7 +1659,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Work: Job Interviews):",
+          "prompt_es": "Clasifica 27 (Work: Job Interviews):",
           "categories": [
             {
               "id": "c1",
@@ -1667,7 +1667,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Have you finished the project yet - interesting"
+                  "text": "What\u2019s the coldest country you\u2019ve ever been to - interesting"
                 }
               ]
             },
@@ -1677,7 +1677,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "How old is Mar\u00eda (today)"
+                  "text": "I don\u2019t know that I will do. - 642"
                 }
               ]
             }
@@ -1687,19 +1687,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "main_text": "In Work: Job Interviews (2658), You [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 27 (Work: Job Interviews):",
+          "main_text": "In Work: Job Interviews (3928), A colleague [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "created"
+                  "text": "worked"
                 },
                 {
                   "id": "o2",
-                  "text": "create"
+                  "text": "work"
                 }
               ]
             },
@@ -1708,11 +1708,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "received"
+                  "text": "bought"
                 },
                 {
                   "id": "o2",
-                  "text": "receive"
+                  "text": "buy"
                 }
               ]
             }
@@ -1726,21 +1726,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Job Interviews:",
-          "stimulus_en": "A colleague periodically design a laptop at the bank (now).",
-          "stimulus_es": "A colleague periodically design a laptop en the bank (now).",
+          "prompt_es": "Elige 27 para Work: Job Interviews:",
+          "stimulus_en": "We occasionally learn a computer at the kitchen..",
+          "stimulus_es": "We occasionally learn a computer en the kitchen..",
           "options": [
+            {
+              "id": "o3",
+              "text": "Other 3318"
+            },
             {
               "id": "o2",
               "text": "never"
             },
             {
-              "id": "o3",
-              "text": "Other 9928"
-            },
-            {
               "id": "o1",
-              "text": "periodically"
+              "text": "occasionally"
             }
           ],
           "correct_answer": "o1",
@@ -1749,43 +1749,43 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Job Interviews:",
+          "prompt_es": "Ordena 27 sobre Work: Job Interviews:",
           "options": [
             {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "baker"
-            },
-            {
-              "id": "w2",
-              "text": "normally"
-            },
-            {
-              "id": "w8",
-              "text": "shop"
-            },
-            {
               "id": "w6",
-              "text": "at"
-            },
-            {
-              "id": "w7",
               "text": "the"
             },
             {
-              "id": "w5",
-              "text": "radio"
+              "id": "w7",
+              "text": "balcony"
             },
             {
-              "id": "w4",
-              "text": "a"
+              "id": "w8",
+              "text": "amazing"
             },
             {
               "id": "w3",
-              "text": "work"
+              "text": "an"
+            },
+            {
+              "id": "w1",
+              "text": "regularly"
+            },
+            {
+              "id": "w5",
+              "text": "at"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "plan"
+            },
+            {
+              "id": "w4",
+              "text": "apple"
             }
           ],
           "correct_answer": [
@@ -1804,44 +1804,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "stimulus_en": "The waiter ___ build a watch at the balcony..",
-          "correct_answer": "rarely",
+          "prompt_es": "Completa 31 (Work: Job Interviews):",
+          "stimulus_en": "The architect ___ stop a newspaper at the university..",
+          "correct_answer": "never",
           "mastery_tag": "grammar",
           "interaction_id": "U4_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Job Interviews)",
-          "stimulus_en": "The coach usually finish a clock at Paris - amazing.",
-          "stimulus_es": "Ref: The coach usually finish a clock en Paris - amazing.",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 31 (Work: Job Interviews)",
+          "stimulus_en": "They never teach a dog at school....",
+          "stimulus_es": "Ref: They seldom teach a dog en school....",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U4_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
+          "prompt_es": "Relaciona 31 (Work: Job Interviews):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The artist rarely design a table en the airport....",
-              "right": "The artist rarely design a table at the airport...."
+              "left": "The pilot never study a newspaper en the restaurant..",
+              "right": "The pilot never study a newspaper at the restaurant.."
             },
             {
               "id": "p1",
-              "left": "The player often teach a pen en the cinema!.",
-              "right": "The player often teach a pen at the cinema!."
+              "left": "The boss rarely design a chair en London - amazing.",
+              "right": "The boss rarely design a chair at London - amazing."
             },
             {
               "id": "p2",
-              "left": "You frequently finish a chair en the gym (now).",
-              "right": "You frequently finish a chair at the gym (now)."
+              "left": "He hardly ever visit a window en the street (now).",
+              "right": "He hardly ever visit a window at the street (now)."
             },
             {
               "id": "p3",
-              "left": "Maria seldom help a pen en the beach..",
-              "right": "Maria seldom help a pen at the beach.."
+              "left": "I periodically visit coffee en the cinema - amazing.",
+              "right": "I periodically visit coffee at the cinema - amazing."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1849,35 +1849,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Job Interviews):",
-          "tts_en": "The doctor rarely prepare a phone at the country....",
-          "correct_answer": "The doctor rarely prepare a phone at the country....",
+          "prompt_es": "Dictado 31 (Work: Job Interviews):",
+          "tts_en": "My brother usually write a gift at the gym - amazing.",
+          "correct_answer": "My brother usually write a gift at the gym - amazing.",
           "mastery_tag": "listening",
           "interaction_id": "U4_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 31:",
           "options": [
             {
               "id": "o3",
-              "text": "Bed"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
-            },
-            {
-              "id": "o0",
-              "text": "Table"
+              "text": "Friday"
             },
             {
               "id": "o1",
-              "text": "Chair"
+              "text": "Tuesday"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
             },
             {
               "id": "o4",
-              "text": "Pen1629"
+              "text": "June9021"
+            },
+            {
+              "id": "o0",
+              "text": "Monday"
             }
           ],
           "correct_answer": "o4",
@@ -1890,8 +1890,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Cu\u00e1l es la comida m\u00e1s buena que has probado nunca? (now)",
-              "back": "What\u2019s the most delicious food you\u2019ve ever tasted (now)"
+              "front": "Tienes hijos?!",
+              "back": "Do you have any children!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1900,50 +1900,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 31 (Work: Job Interviews):",
-          "instruction_en": "Compare Work: Job Interviews with another topic. [Ref: 64]",
+          "instruction_en": "A small story about Work: Job Interviews. [Ref: 33]",
           "mastery_tag": "writing",
           "interaction_id": "U4_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 31 (Work: Job Interviews):",
-          "stimulus_en": "The Adverbs of Frequency is here. (358)",
+          "stimulus_en": "Look at Work: Job Interviews. (962)",
           "mastery_tag": "speaking",
           "interaction_id": "U4_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
-          "stimulus": "Matching set 7355",
+          "prompt_es": "Une 28 (Work: Job Interviews):",
+          "stimulus": "Matching set 5774",
           "items": [
             {
               "id": "i0",
-              "text": "Est\u00e1 estudiando ella ingl\u00e9s?...",
+              "text": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que le\u00e1is la explicaci\u00f3n y aprend\u00e1is, o repas\u00e9is, qu\u00e9 es y c\u00f3mo se forman las indirect questions (preguntas indirectas). Aqu\u00ed lo puedes revisar...",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "\u2013 Con partes del d\u00eda!",
+              "text": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "La podemos contestar de la seguiente manera...",
+              "text": "Elevator (Br Eng - 247",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l)..."
-            },
-            {
               "id": "m1",
-              "text": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n)!"
+              "text": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo.."
             },
             {
               "id": "m0",
-              "text": "Is she studying English..."
+              "text": "Indirect questions en ingl\u00e9s...."
+            },
+            {
+              "id": "m2",
+              "text": "lift) Ascensor - 247"
             }
           ],
           "correct_answer": {
@@ -1956,7 +1956,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Work: Job Interviews):",
+          "prompt_es": "Clasifica 28 (Work: Job Interviews):",
           "categories": [
             {
               "id": "c1",
@@ -1964,7 +1964,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "cinema) Cine (now)"
+                  "text": "What\u2019s the most difficult language you\u2019ve ever studied - interesting"
                 }
               ]
             },
@@ -1974,7 +1974,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "do you have any brothers or sisters - amazing"
+                  "text": "Do you think that unemployment will go down this year (now)"
                 }
               ]
             }
@@ -1984,19 +1984,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "main_text": "In Work: Job Interviews (2687), The architect [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 28 (Work: Job Interviews):",
+          "main_text": "In Work: Job Interviews (5711), The waiter [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "drank"
+                  "text": "helped"
                 },
                 {
                   "id": "o2",
-                  "text": "drink"
+                  "text": "help"
                 }
               ]
             },
@@ -2005,11 +2005,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "wrote"
+                  "text": "fixed"
                 },
                 {
                   "id": "o2",
-                  "text": "write"
+                  "text": "fix"
                 }
               ]
             }
@@ -2023,9 +2023,9 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Work: Job Interviews:",
-          "stimulus_en": "My brother regularly read a watch at the beach!.",
-          "stimulus_es": "My brother regularly read a watch en the beach!.",
+          "prompt_es": "Elige 28 para Work: Job Interviews:",
+          "stimulus_en": "My brother hardly ever organize a ticket at the restaurant (now).",
+          "stimulus_es": "My brother hardly ever organize a ticket en the restaurant (now).",
           "options": [
             {
               "id": "o2",
@@ -2033,11 +2033,11 @@
             },
             {
               "id": "o1",
-              "text": "regularly"
+              "text": "hardly ever"
             },
             {
               "id": "o3",
-              "text": "Other 5869"
+              "text": "Other 2509"
             }
           ],
           "correct_answer": "o1",
@@ -2046,47 +2046,51 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Work: Job Interviews:",
+          "prompt_es": "Ordena 28 sobre Work: Job Interviews:",
           "options": [
             {
               "id": "w6",
-              "text": "at"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "Our"
-            },
-            {
-              "id": "w8",
-              "text": "mountains"
-            },
-            {
-              "id": "w1",
-              "text": "neighbors"
-            },
-            {
-              "id": "w2",
-              "text": "often"
-            },
-            {
-              "id": "w3",
-              "text": "help"
+              "text": "cat"
             },
             {
               "id": "w9",
+              "text": "station"
+            },
+            {
+              "id": "w3",
+              "text": "ever"
+            },
+            {
+              "id": "w2",
+              "text": "hardly"
+            },
+            {
+              "id": "w7",
+              "text": "at"
+            },
+            {
+              "id": "w10",
               "text": "interesting"
             },
             {
+              "id": "w8",
+              "text": "the"
+            },
+            {
               "id": "w4",
-              "text": "a"
+              "text": "organize"
             },
             {
               "id": "w5",
-              "text": "phone"
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "player"
             }
           ],
           "correct_answer": [
@@ -2099,51 +2103,52 @@
             "w6",
             "w7",
             "w8",
-            "w9"
+            "w9",
+            "w10"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U4_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Work: Job Interviews):",
-          "stimulus_en": "The manager ___ speak a phone at London....",
-          "correct_answer": "frequently",
+          "prompt_es": "Completa 32 (Work: Job Interviews):",
+          "stimulus_en": "The scientist ___ speak a car at the library - interesting.",
+          "correct_answer": "periodically",
           "mastery_tag": "grammar",
           "interaction_id": "U4_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Work: Job Interviews)",
-          "stimulus_en": "My brother sometimes organize music at the stadium - 886.",
-          "stimulus_es": "Ref: My brother sometimes organize music en the stadium - 886.",
+          "prompt_es": "\u00bfCorrecto? 32 (Work: Job Interviews)",
+          "stimulus_en": "My friend constantly build English at the balcony!.",
+          "stimulus_es": "Ref: My friend constantly build English en the balcony!.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U4_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Work: Job Interviews):",
+          "prompt_es": "Relaciona 32 (Work: Job Interviews):",
           "pairs": [
             {
               "id": "p0",
-              "left": "John seldom fix a bike en the stadium (today).",
-              "right": "John seldom fix a bike at the stadium (today)."
+              "left": "I always call English en the office - amazing.",
+              "right": "I always call English at the office - amazing."
             },
             {
               "id": "p1",
-              "left": "We sometimes create a printer en the restaurant (today).",
-              "right": "We sometimes create a printer at the restaurant (today)."
+              "left": "The pilot hardly ever prepare a radio en the university (now).",
+              "right": "The pilot hardly ever prepare a radio at the university (now)."
             },
             {
               "id": "p2",
-              "left": "The pilot sometimes travel a cat en the hotel - amazing.",
-              "right": "The pilot sometimes travel a cat at the hotel - amazing."
+              "left": "The student periodically meet a camera en school....",
+              "right": "The student periodically meet a camera at school...."
             },
             {
               "id": "p3",
-              "left": "They often call a house en Paris - 204.",
-              "right": "They often call a house at Paris - 204."
+              "left": "Sarah sometimes visit a newspaper en the kitchen....",
+              "right": "Sarah sometimes visit a newspaper at the kitchen...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2151,35 +2156,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Work: Job Interviews):",
-          "tts_en": "Sarah periodically speak a pen at the stadium - amazing.",
-          "correct_answer": "Sarah periodically speak a pen at the stadium - amazing.",
+          "prompt_es": "Dictado 32 (Work: Job Interviews):",
+          "tts_en": "She regularly sell a window at the mountains (today).",
+          "correct_answer": "She regularly sell a window at the mountains (today).",
           "mastery_tag": "listening",
           "interaction_id": "U4_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 32:",
           "options": [
             {
-              "id": "o2",
-              "text": "pear"
+              "id": "o0",
+              "text": "Guitar"
             },
             {
               "id": "o3",
-              "text": "mango"
+              "text": "Drums"
             },
             {
               "id": "o1",
-              "text": "banana"
+              "text": "Piano"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
             },
             {
               "id": "o4",
-              "text": "bike9317"
-            },
-            {
-              "id": "o0",
-              "text": "apple"
+              "text": "Book2933"
             }
           ],
           "correct_answer": "o4",
@@ -2192,8 +2197,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo!",
-              "back": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta.!"
+              "front": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda? (now)",
+              "back": "How old is Mar\u00eda (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2202,14 +2207,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 32 (Work: Job Interviews):",
-          "instruction_en": "Describe Work: Job Interviews in 5 words. [Ref: 13]",
+          "instruction_en": "List 3 facts about Work: Job Interviews. [Ref: 95]",
           "mastery_tag": "writing",
           "interaction_id": "U4_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 32 (Work: Job Interviews):",
-          "stimulus_en": "Improve Work: Job Interviews. (430)",
+          "stimulus_en": "The Adverbs of Frequency is here. (283)",
           "mastery_tag": "speaking",
           "interaction_id": "U4_I100"
         }

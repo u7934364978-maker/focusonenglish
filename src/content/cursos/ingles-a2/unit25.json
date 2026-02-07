@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "stimulus_en": "The singer likes a phone, ___ The singer prefers a newspaper (now).",
-          "correct_answer": "unfortunately",
+          "prompt_es": "Completa 193 (Entertainment: Books):",
+          "stimulus_en": "The player likes a radio, ___ The player prefers a window - amazing.",
+          "correct_answer": "however",
           "mastery_tag": "grammar",
           "interaction_id": "U25_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Entertainment: Books)",
-          "stimulus_en": "He likes a movie, however He prefers a report (now).",
-          "stimulus_es": "Ref: A He le gusta a movie, however He prefiere a report (now).",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 193 (Entertainment: Books)",
+          "stimulus_en": "The student likes a table, but The student prefers an apple (now).",
+          "stimulus_es": "Ref: A The student le gusta a table, moreover The student prefiere an apple (now).",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U25_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
+          "prompt_es": "Relaciona 193 (Entertainment: Books):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A The police officer le gusta a clock, whereas The police officer prefiere a book..",
-              "right": "The police officer likes a clock, whereas The police officer prefers a book.."
+              "left": "A My cousin le gusta a letter, nevertheless My cousin prefiere a camera!.",
+              "right": "My cousin likes a letter, nevertheless My cousin prefers a camera!."
             },
             {
               "id": "p1",
-              "left": "A The player le gusta an apple, while The player prefiere a chair..",
-              "right": "The player likes an apple, while The player prefers a chair.."
+              "left": "A The doctor le gusta a bag, unfortunately The doctor prefiere a chair - interesting.",
+              "right": "The doctor likes a bag, unfortunately The doctor prefers a chair - interesting."
             },
             {
               "id": "p2",
-              "left": "A The singer le gusta a table, however The singer prefiere a radio....",
-              "right": "The singer likes a table, however The singer prefers a radio...."
+              "left": "A Sarah le gusta a phone, while Sarah prefiere music - amazing.",
+              "right": "Sarah likes a phone, while Sarah prefers music - amazing."
             },
             {
               "id": "p3",
-              "left": "A The student le gusta a door, furthermore The student prefiere a clock - 388.",
-              "right": "The student likes a door, furthermore The student prefers a clock - 388."
+              "left": "A She le gusta a phone, otherwise She prefiere a bike....",
+              "right": "She likes a phone, otherwise She prefers a bike...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Entertainment: Books):",
-          "tts_en": "The driver likes a laptop, nonetheless The driver prefers coffee!.",
-          "correct_answer": "The driver likes a laptop, nonetheless The driver prefers coffee!.",
+          "prompt_es": "Dictado 193 (Entertainment: Books):",
+          "tts_en": "Maria likes a camera, nevertheless Maria prefers a sandwich - 980.",
+          "correct_answer": "Maria likes a camera, nevertheless Maria prefers a sandwich - 980.",
           "mastery_tag": "listening",
           "interaction_id": "U25_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 193:",
           "options": [
             {
               "id": "o0",
-              "text": "Guitar"
-            },
-            {
-              "id": "o2",
-              "text": "Flute"
+              "text": "car"
             },
             {
               "id": "o4",
-              "text": "Book8544"
+              "text": "cat3213"
             },
             {
               "id": "o3",
-              "text": "Drums"
+              "text": "plane"
+            },
+            {
+              "id": "o2",
+              "text": "train"
             },
             {
               "id": "o1",
-              "text": "Piano"
+              "text": "bus"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "This is another translation - 690",
-              "back": "igual hago algo\u2026 (but I\u2019m not sure\u2026). - 690"
+              "front": "\u2022in the fall (Br Eng...",
+              "back": "autumn) En oto\u00f1o..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 193 (Entertainment: Books):",
-          "instruction_en": "Write a note about Entertainment: Books. [Ref: 36]",
+          "instruction_en": "Why is Entertainment: Books important? [Ref: 87]",
           "mastery_tag": "writing",
           "interaction_id": "U25_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 193 (Entertainment: Books):",
-          "stimulus_en": "Talk about Entertainment: Books. (344)",
+          "stimulus_en": "The Connectors is here. (353)",
           "mastery_tag": "speaking",
           "interaction_id": "U25_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
-          "stimulus": "Matching set 4929",
+          "prompt_es": "Une 169 (Entertainment: Books):",
+          "stimulus": "Matching set 8990",
           "items": [
             {
               "id": "i0",
-              "text": "3. Las hermanas de Pedro - amazing",
+              "text": "4. go to bed before 11 / often / I - amazing",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir.",
+              "text": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca!",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Has hablado alguna vez ingl\u00e9s por tel\u00e9fono?...",
+              "text": "Qu\u00e9 es \u00e9so?...",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n.."
-            },
-            {
-              "id": "m0",
-              "text": "Peter\u2019s sisters - amazing"
+              "text": "I hardly ever go to the cinema = casi nunca voy al cine.!"
             },
             {
               "id": "m2",
-              "text": "have you ever spoken English on the phone..."
+              "text": "What\u2019s that..."
+            },
+            {
+              "id": "m0",
+              "text": "I often go to bed before 11 - amazing"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Entertainment: Books):",
+          "prompt_es": "Clasifica 169 (Entertainment: Books):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "my father usually goes to work by bus!"
+                  "text": "do you have a car - interesting"
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "I hardly ever go to the cinema = casi nunca voy al cine. (today)"
+                  "text": "What\u2019s the most delicious food you\u2019ve ever tasted (now)"
                 }
               ]
             }
@@ -202,19 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "main_text": "In Entertainment: Books (5319), The manager [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 169 (Entertainment: Books):",
+          "main_text": "In Entertainment: Books (1846), Our neighbors [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "fixed"
+                  "text": "ate"
                 },
                 {
                   "id": "o2",
-                  "text": "fix"
+                  "text": "eat"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "spoke"
+                  "text": "played"
                 },
                 {
                   "id": "o2",
-                  "text": "speak"
+                  "text": "play"
                 }
               ]
             }
@@ -241,21 +241,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Entertainment: Books:",
-          "stimulus_en": "The manager likes a cat, meanwhile The manager prefers music..",
-          "stimulus_es": "A The manager le gusta a cat, meanwhile The manager prefiere music..",
+          "prompt_es": "Elige 169 para Entertainment: Books:",
+          "stimulus_en": "The coach likes a gift, furthermore The coach prefers a movie - amazing.",
+          "stimulus_es": "A The coach le gusta a gift, furthermore The coach prefiere a movie - amazing.",
           "options": [
             {
-              "id": "o2",
-              "text": "but"
+              "id": "o3",
+              "text": "Other 7677"
             },
             {
               "id": "o1",
-              "text": "meanwhile"
+              "text": "furthermore"
             },
             {
-              "id": "o3",
-              "text": "Other 453"
+              "id": "o2",
+              "text": "but"
             }
           ],
           "correct_answer": "o1",
@@ -264,361 +264,55 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Entertainment: Books:",
+          "prompt_es": "Ordena 169 sobre Entertainment: Books:",
           "options": [
             {
-              "id": "w8",
-              "text": "apple"
-            },
-            {
-              "id": "w4",
-              "text": "furthermore"
-            },
-            {
-              "id": "w3",
-              "text": "house"
-            },
-            {
-              "id": "w7",
-              "text": "an"
-            },
-            {
-              "id": "w9",
-              "text": "(today)"
-            },
-            {
               "id": "w0",
-              "text": "They"
-            },
-            {
-              "id": "w5",
-              "text": "They"
-            },
-            {
-              "id": "w6",
-              "text": "prefers"
-            },
-            {
-              "id": "w1",
-              "text": "likes"
+              "text": "The"
             },
             {
               "id": "w2",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U25_I14"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "stimulus_en": "The scientist likes a movie, ___ The scientist prefers a door - 226.",
-          "correct_answer": "since",
-          "mastery_tag": "grammar",
-          "interaction_id": "U25_I15"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Entertainment: Books)",
-          "stimulus_en": "The pilot likes a watch, however The pilot prefers a movie - interesting.",
-          "stimulus_es": "Ref: A The pilot le gusta a watch, however The pilot prefiere a movie - interesting.",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U25_I16"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "A The lawyer le gusta a television, moreover The lawyer prefiere an email (today).",
-              "right": "The lawyer likes a television, moreover The lawyer prefers an email (today)."
+              "text": "likes"
             },
             {
-              "id": "p1",
-              "left": "A The singer le gusta a pizza, furthermore The singer prefiere a book (now).",
-              "right": "The singer likes a pizza, furthermore The singer prefers a book (now)."
-            },
-            {
-              "id": "p2",
-              "left": "A The scientist le gusta a door, therefore The scientist prefiere tennis..",
-              "right": "The scientist likes a door, therefore The scientist prefers tennis.."
-            },
-            {
-              "id": "p3",
-              "left": "A The actress le gusta a phone, nevertheless The actress prefiere coffee - interesting.",
-              "right": "The actress likes a phone, nevertheless The actress prefers coffee - interesting."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U25_I17"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Entertainment: Books):",
-          "tts_en": "The chef likes tennis, otherwise The chef prefers a pizza..",
-          "correct_answer": "The chef likes tennis, otherwise The chef prefers a pizza..",
-          "mastery_tag": "listening",
-          "interaction_id": "U25_I18"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o4",
-              "text": "Book7749"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
-            },
-            {
-              "id": "o2",
-              "text": "Flute"
-            },
-            {
-              "id": "o3",
-              "text": "Drums"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U25_I19"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 194 - Entertainment: Books:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba (now)",
-              "back": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U25_I20"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 194 (Entertainment: Books):",
-          "instruction_en": "Explain Connectors using Entertainment: Books. [Ref: 29]",
-          "mastery_tag": "writing",
-          "interaction_id": "U25_I21"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 194 (Entertainment: Books):",
-          "stimulus_en": "Where is Entertainment: Books? (346)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U25_I22"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
-          "stimulus": "Matching set 5601",
-          "items": [
-            {
-              "id": "i0",
-              "text": "I / fish / often / hours / for / catching / anything / without (today)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Has estado alguna vez en Canad\u00e1? (now)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Por ejemplo...",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "have you ever been to Canada (now)"
-            },
-            {
-              "id": "m2",
-              "text": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO...."
-            },
-            {
-              "id": "m0",
-              "text": "I often fish for hours without catching anything (today)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U25_I23"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Entertainment: Books):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. (today)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "What\u2019s the highest building you\u2019ve ever visited - amazing"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U25_I24"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "main_text": "In Entertainment: Books (2113), The baker [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "stopped"
-                },
-                {
-                  "id": "o2",
-                  "text": "stop"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "built"
-                },
-                {
-                  "id": "o2",
-                  "text": "build"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U25_I25"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Entertainment: Books:",
-          "stimulus_en": "The actress likes an email, since The actress prefers a radio (now).",
-          "stimulus_es": "A The actress le gusta an email, since The actress prefiere a radio (now).",
-          "options": [
-            {
-              "id": "o1",
+              "id": "w5",
               "text": "since"
             },
             {
-              "id": "o3",
-              "text": "Other 5553"
+              "id": "w1",
+              "text": "singer"
             },
             {
-              "id": "o2",
-              "text": "but"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U25_I26"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Entertainment: Books:",
-          "options": [
+              "id": "w6",
+              "text": "The"
+            },
             {
-              "id": "w5",
+              "id": "w7",
+              "text": "singer"
+            },
+            {
+              "id": "w9",
+              "text": "a"
+            },
+            {
+              "id": "w10",
               "text": "television"
             },
             {
-              "id": "w1",
-              "text": "police"
-            },
-            {
-              "id": "w12",
-              "text": "camera"
-            },
-            {
-              "id": "w4",
+              "id": "w3",
               "text": "a"
             },
             {
               "id": "w8",
-              "text": "police"
-            },
-            {
-              "id": "w11",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "nevertheless"
-            },
-            {
-              "id": "w7",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "officer"
-            },
-            {
-              "id": "w3",
-              "text": "likes"
-            },
-            {
-              "id": "w10",
               "text": "prefers"
             },
             {
-              "id": "w9",
-              "text": "officer"
+              "id": "w11",
+              "text": "(now)"
+            },
+            {
+              "id": "w4",
+              "text": "car"
             }
           ],
           "correct_answer": [
@@ -633,52 +327,338 @@
             "w8",
             "w9",
             "w10",
-            "w11",
-            "w12"
+            "w11"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U25_I14"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 194 (Entertainment: Books):",
+          "stimulus_en": "A colleague likes a laptop, ___ A colleague prefers a radio!.",
+          "correct_answer": "whereas",
+          "mastery_tag": "grammar",
+          "interaction_id": "U25_I15"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 194 (Entertainment: Books)",
+          "stimulus_en": "The artist likes a chair, nevertheless The artist prefers a cat (today).",
+          "stimulus_es": "Ref: A The artist le gusta a chair, nevertheless The artist prefiere a cat (today).",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U25_I16"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 194 (Entertainment: Books):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "A The artist le gusta a sandwich, nevertheless The artist prefiere a printer..",
+              "right": "The artist likes a sandwich, nevertheless The artist prefers a printer.."
+            },
+            {
+              "id": "p1",
+              "left": "A The actress le gusta a printer, consequently The actress prefiere a watch - 792.",
+              "right": "The actress likes a printer, consequently The actress prefers a watch - 792."
+            },
+            {
+              "id": "p2",
+              "left": "A The waiter le gusta a cat, as a consequence The waiter prefiere English - 785.",
+              "right": "The waiter likes a cat, as a consequence The waiter prefers English - 785."
+            },
+            {
+              "id": "p3",
+              "left": "A The teacher le gusta a television, besides The teacher prefiere a computer (now).",
+              "right": "The teacher likes a television, besides The teacher prefers a computer (now)."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U25_I17"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 194 (Entertainment: Books):",
+          "tts_en": "You likes a table, fortunately You prefers a computer - amazing.",
+          "correct_answer": "You likes a table, fortunately You prefers a computer - amazing.",
+          "mastery_tag": "listening",
+          "interaction_id": "U25_I18"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 194:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Friday"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
+            },
+            {
+              "id": "o0",
+              "text": "Monday"
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday"
+            },
+            {
+              "id": "o4",
+              "text": "June8777"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U25_I19"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 194 - Entertainment: Books:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "see / usually / Jennifer / out / goes / a / to / concert (today)",
+              "back": "Jennifer usually goes out to see a concert (today)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U25_I20"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 194 (Entertainment: Books):",
+          "instruction_en": "Draft an email regarding Entertainment: Books. [Ref: 86]",
+          "mastery_tag": "writing",
+          "interaction_id": "U25_I21"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 194 (Entertainment: Books):",
+          "stimulus_en": "I like Entertainment: Books. (744)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U25_I22"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 170 (Entertainment: Books):",
+          "stimulus": "Matching set 777",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Much, como se utiliza con uncountable, decimos...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "dictionary / often / use / The / the / students - interesting",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Est\u00e1 estudiando ella ingl\u00e9s? (today)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "the students often use the dictionary - interesting"
+            },
+            {
+              "id": "m2",
+              "text": "Is she studying English (today)"
+            },
+            {
+              "id": "m0",
+              "text": "I haven\u2019t got much money (remember, money is uncountable)...."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U25_I23"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 170 (Entertainment: Books):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "information, homework, work. - interesting"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "in summer, in winter. (today)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U25_I24"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 170 (Entertainment: Books):",
+          "main_text": "In Entertainment: Books (4241), Sarah [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "worked"
+                },
+                {
+                  "id": "o2",
+                  "text": "work"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "stopped"
+                },
+                {
+                  "id": "o2",
+                  "text": "stop"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U25_I25"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 170 para Entertainment: Books:",
+          "stimulus_en": "My friend likes a camera, nevertheless My friend prefers a radio (today).",
+          "stimulus_es": "A My friend le gusta a camera, nevertheless My friend prefiere a radio (today).",
+          "options": [
+            {
+              "id": "o2",
+              "text": "but"
+            },
+            {
+              "id": "o3",
+              "text": "Other 6398"
+            },
+            {
+              "id": "o1",
+              "text": "nevertheless"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U25_I26"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 170 sobre Entertainment: Books:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "likes"
+            },
+            {
+              "id": "w2",
+              "text": "tennis"
+            },
+            {
+              "id": "w4",
+              "text": "She"
+            },
+            {
+              "id": "w6",
+              "text": "football"
+            },
+            {
+              "id": "w3",
+              "text": "nonetheless"
+            },
+            {
+              "id": "w5",
+              "text": "prefers"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U25_I27"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "stimulus_en": "The singer likes a pen, ___ The singer prefers a dog (today).",
-          "correct_answer": "despite",
+          "prompt_es": "Completa 195 (Entertainment: Books):",
+          "stimulus_en": "The manager likes an apple, ___ The manager prefers a computer....",
+          "correct_answer": "nonetheless",
           "mastery_tag": "grammar",
           "interaction_id": "U25_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Entertainment: Books)",
-          "stimulus_en": "Sarah likes a table, but Sarah prefers a door!.",
-          "stimulus_es": "Ref: A Sarah le gusta a table, furthermore Sarah prefiere a door!.",
+          "prompt_es": "\u00bfCorrecto? 195 (Entertainment: Books)",
+          "stimulus_en": "The lawyer likes a newspaper, but The lawyer prefers a laptop (today).",
+          "stimulus_es": "Ref: A The lawyer le gusta a newspaper, despite The lawyer prefiere a laptop (today).",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U25_I29"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
+          "prompt_es": "Relaciona 195 (Entertainment: Books):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A The driver le gusta a laptop, nonetheless The driver prefiere a camera - interesting.",
-              "right": "The driver likes a laptop, nonetheless The driver prefers a camera - interesting."
+              "left": "A The artist le gusta tennis, whereas The artist prefiere a house (now).",
+              "right": "The artist likes tennis, whereas The artist prefers a house (now)."
             },
             {
               "id": "p1",
-              "left": "A A colleague le gusta a printer, despite A colleague prefiere a ticket - amazing.",
-              "right": "A colleague likes a printer, despite A colleague prefers a ticket - amazing."
+              "left": "A The nurse le gusta a ticket, meanwhile The nurse prefiere a clock..",
+              "right": "The nurse likes a ticket, meanwhile The nurse prefers a clock.."
             },
             {
               "id": "p2",
-              "left": "A John le gusta music, while John prefiere a camera (today).",
-              "right": "John likes music, while John prefers a camera (today)."
+              "left": "A The chef le gusta tennis, consequently The chef prefiere a pizza (today).",
+              "right": "The chef likes tennis, consequently The chef prefers a pizza (today)."
             },
             {
               "id": "p3",
-              "left": "A The lawyer le gusta an email, although The lawyer prefiere a movie - interesting.",
-              "right": "The lawyer likes an email, although The lawyer prefers a movie - interesting."
+              "left": "A The manager le gusta a letter, consequently The manager prefiere a pen - interesting.",
+              "right": "The manager likes a letter, consequently The manager prefers a pen - interesting."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -686,35 +666,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Entertainment: Books):",
-          "tts_en": "The manager likes a window, therefore The manager prefers a phone....",
-          "correct_answer": "The manager likes a window, therefore The manager prefers a phone....",
+          "prompt_es": "Dictado 195 (Entertainment: Books):",
+          "tts_en": "The singer likes a bike, while The singer prefers a house (today).",
+          "correct_answer": "The singer likes a bike, while The singer prefers a house (today).",
           "mastery_tag": "listening",
           "interaction_id": "U25_I31"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 195:",
           "options": [
             {
-              "id": "o2",
-              "text": "Sofa"
-            },
-            {
-              "id": "o4",
-              "text": "Pen5662"
-            },
-            {
-              "id": "o3",
-              "text": "Bed"
+              "id": "o1",
+              "text": "banana"
             },
             {
               "id": "o0",
-              "text": "Table"
+              "text": "apple"
             },
             {
-              "id": "o1",
-              "text": "Chair"
+              "id": "o4",
+              "text": "bike5843"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
+            },
+            {
+              "id": "o3",
+              "text": "mango"
             }
           ],
           "correct_answer": "o4",
@@ -727,8 +707,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Much, como se utiliza con uncountable, decimos!",
-              "back": "I haven\u2019t got much money (remember, money is uncountable).!"
+              "front": "Tienes zapatos para la boda? - amazing",
+              "back": "do you have any shoes for the wedding - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -737,50 +717,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 195 (Entertainment: Books):",
-          "instruction_en": "Your daily routine in Entertainment: Books. [Ref: 79]",
+          "instruction_en": "Your daily routine in Entertainment: Books. [Ref: 71]",
           "mastery_tag": "writing",
           "interaction_id": "U25_I34"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 195 (Entertainment: Books):",
-          "stimulus_en": "Improve Entertainment: Books. (975)",
+          "stimulus_en": "Talk about Entertainment: Books. (660)",
           "mastery_tag": "speaking",
           "interaction_id": "U25_I35"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
-          "stimulus": "Matching set 9059",
+          "prompt_es": "Une 171 (Entertainment: Books):",
+          "stimulus": "Matching set 2735",
           "items": [
             {
               "id": "i0",
-              "text": "2. La hamburguesa de Harry - amazing",
+              "text": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son...",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo (today)",
+              "text": "Cu\u00e1nto cuesta?...",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "6. Los juguetes de mis hijos (today)",
+              "text": "C\u00f3mo se siente tu madre?...",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "My children\u2019s toys (today)"
-            },
-            {
-              "id": "m1",
-              "text": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is. (today)"
+              "text": "How is your mum feeling..."
             },
             {
               "id": "m0",
-              "text": "Harry\u2019s burger - amazing"
+              "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar...."
+            },
+            {
+              "id": "m1",
+              "text": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost..."
             }
           ],
           "correct_answer": {
@@ -793,7 +773,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Entertainment: Books):",
+          "prompt_es": "Clasifica 171 (Entertainment: Books):",
           "categories": [
             {
               "id": "c1",
@@ -801,7 +781,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "verb patters. (now)"
+                  "text": "are there any peas in the fridge (now)"
                 }
               ]
             },
@@ -811,7 +791,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - 464"
+                  "text": "\u00bfDe d\u00f3nde eres?."
                 }
               ]
             }
@@ -821,19 +801,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "main_text": "In Entertainment: Books (8424), The artist [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 171 (Entertainment: Books):",
+          "main_text": "In Entertainment: Books (3742), The player [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "checked"
+                  "text": "planned"
                 },
                 {
                   "id": "o2",
-                  "text": "check"
+                  "text": "plan"
                 }
               ]
             },
@@ -842,11 +822,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "created"
+                  "text": "drove"
                 },
                 {
                   "id": "o2",
-                  "text": "create"
+                  "text": "drive"
                 }
               ]
             }
@@ -860,21 +840,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Entertainment: Books:",
-          "stimulus_en": "The scientist likes English, nevertheless The scientist prefers a cat!.",
-          "stimulus_es": "A The scientist le gusta English, nevertheless The scientist prefiere a cat!.",
+          "prompt_es": "Elige 171 para Entertainment: Books:",
+          "stimulus_en": "The baker likes a newspaper, whereas The baker prefers a house - amazing.",
+          "stimulus_es": "A The baker le gusta a newspaper, whereas The baker prefiere a house - amazing.",
           "options": [
-            {
-              "id": "o3",
-              "text": "Other 3439"
-            },
-            {
-              "id": "o1",
-              "text": "nevertheless"
-            },
             {
               "id": "o2",
               "text": "but"
+            },
+            {
+              "id": "o3",
+              "text": "Other 608"
+            },
+            {
+              "id": "o1",
+              "text": "whereas"
             }
           ],
           "correct_answer": "o1",
@@ -883,55 +863,55 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Entertainment: Books:",
+          "prompt_es": "Ordena 171 sobre Entertainment: Books:",
           "options": [
             {
-              "id": "w9",
-              "text": "a"
-            },
-            {
-              "id": "w10",
-              "text": "chair"
-            },
-            {
-              "id": "w11",
-              "text": "interesting"
-            },
-            {
-              "id": "w7",
-              "text": "boss"
-            },
-            {
-              "id": "w1",
-              "text": "boss"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "since"
-            },
-            {
               "id": "w4",
-              "text": "pizza"
+              "text": "apple"
             },
             {
               "id": "w8",
               "text": "prefers"
             },
             {
+              "id": "w1",
+              "text": "lawyer"
+            },
+            {
+              "id": "w7",
+              "text": "lawyer"
+            },
+            {
               "id": "w2",
               "text": "likes"
+            },
+            {
+              "id": "w6",
+              "text": "The"
+            },
+            {
+              "id": "w9",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "an"
+            },
+            {
+              "id": "w11",
+              "text": "(now)"
+            },
+            {
+              "id": "w10",
+              "text": "movie"
+            },
+            {
+              "id": "w5",
+              "text": "nonetheless"
             }
           ],
           "correct_answer": [
@@ -953,44 +933,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "stimulus_en": "My cousin likes a chair, ___ My cousin prefers football - 739.",
-          "correct_answer": "consequently",
+          "prompt_es": "Completa 196 (Entertainment: Books):",
+          "stimulus_en": "They likes a printer, ___ They prefers a television!.",
+          "correct_answer": "unfortunately",
           "mastery_tag": "grammar",
           "interaction_id": "U25_I41"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Entertainment: Books)",
-          "stimulus_en": "He likes an apple, but He prefers coffee!.",
-          "stimulus_es": "Ref: A He le gusta an apple, unfortunately He prefiere coffee!.",
+          "prompt_es": "\u00bfCorrecto? 196 (Entertainment: Books)",
+          "stimulus_en": "The driver likes a report, but The driver prefers a window (today).",
+          "stimulus_es": "Ref: A The driver le gusta a report, however The driver prefiere a window (today).",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U25_I42"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
+          "prompt_es": "Relaciona 196 (Entertainment: Books):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A The artist le gusta an email, whereas The artist prefiere a clock - amazing.",
-              "right": "The artist likes an email, whereas The artist prefers a clock - amazing."
+              "left": "A The nurse le gusta music, besides The nurse prefiere a sandwich - interesting.",
+              "right": "The nurse likes music, besides The nurse prefers a sandwich - interesting."
             },
             {
               "id": "p1",
-              "left": "A The boss le gusta coffee, besides The boss prefiere a window....",
-              "right": "The boss likes coffee, besides The boss prefers a window...."
+              "left": "A You le gusta a gift, nevertheless You prefiere a pen (now).",
+              "right": "You likes a gift, nevertheless You prefers a pen (now)."
             },
             {
               "id": "p2",
-              "left": "A My friend le gusta a computer, however My friend prefiere a report - 399.",
-              "right": "My friend likes a computer, however My friend prefers a report - 399."
+              "left": "A The driver le gusta an apple, as a consequence The driver prefiere a house....",
+              "right": "The driver likes an apple, as a consequence The driver prefers a house...."
             },
             {
               "id": "p3",
-              "left": "A Maria le gusta a movie, besides Maria prefiere a phone - interesting.",
-              "right": "Maria likes a movie, besides Maria prefers a phone - interesting."
+              "left": "A The doctor le gusta a computer, furthermore The doctor prefiere a camera..",
+              "right": "The doctor likes a computer, furthermore The doctor prefers a camera.."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -998,35 +978,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Entertainment: Books):",
-          "tts_en": "The doctor likes a newspaper, as a consequence The doctor prefers a book..",
-          "correct_answer": "The doctor likes a newspaper, as a consequence The doctor prefers a book..",
+          "prompt_es": "Dictado 196 (Entertainment: Books):",
+          "tts_en": "Sarah likes a car, although Sarah prefers a report (now).",
+          "correct_answer": "Sarah likes a car, although Sarah prefers a report (now).",
           "mastery_tag": "listening",
           "interaction_id": "U25_I44"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 196:",
           "options": [
             {
-              "id": "o0",
-              "text": "London"
+              "id": "o2",
+              "text": "green"
             },
             {
               "id": "o3",
-              "text": "Paris"
+              "text": "pink"
             },
             {
-              "id": "o1",
-              "text": "Tokyo"
-            },
-            {
-              "id": "o2",
-              "text": "Berlin"
+              "id": "o0",
+              "text": "blue"
             },
             {
               "id": "o4",
-              "text": "Slow8747"
+              "text": "run2856"
+            },
+            {
+              "id": "o1",
+              "text": "red"
             }
           ],
           "correct_answer": "o4",
@@ -1039,8 +1019,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo - 353",
-              "back": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. - 353"
+              "front": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n!",
+              "back": "Sometimes I have lunch in a restaurant.!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1049,50 +1029,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 196 (Entertainment: Books):",
-          "instruction_en": "List 3 facts about Entertainment: Books. [Ref: 52]",
+          "instruction_en": "List 3 facts about Entertainment: Books. [Ref: 65]",
           "mastery_tag": "writing",
           "interaction_id": "U25_I47"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 196 (Entertainment: Books):",
-          "stimulus_en": "Talk about Entertainment: Books. (882)",
+          "stimulus_en": "Study Entertainment: Books now. (670)",
           "mastery_tag": "speaking",
           "interaction_id": "U25_I48"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
-          "stimulus": "Matching set 4922",
+          "prompt_es": "Une 172 (Entertainment: Books):",
+          "stimulus": "Matching set 689",
           "items": [
             {
               "id": "i0",
-              "text": "\u2022in the fall (Br Eng - interesting",
+              "text": "Por qu\u00e9 no me lo dijiste? - 929",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Al lado de mi colegio no hay bloques de pisos.",
+              "text": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng (now)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo...",
+              "text": "Common mistake - interesting",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m0",
+              "text": "Why didn\u2019t you tell me - 929"
+            },
+            {
               "id": "m1",
-              "text": "Next to my school there aren\u2019t any apartment blocks.."
+              "text": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the (now)"
             },
             {
               "id": "m2",
-              "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta...."
-            },
-            {
-              "id": "m0",
-              "text": "autumn) En oto\u00f1o - interesting"
+              "text": "I don\u2019t know that I will do. - interesting"
             }
           ],
           "correct_answer": {
@@ -1105,7 +1085,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Entertainment: Books):",
+          "prompt_es": "Clasifica 172 (Entertainment: Books):",
           "categories": [
             {
               "id": "c1",
@@ -1113,7 +1093,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "What\u2019s the funniest joke you\u2019ve ever been told."
+                  "text": "I have 3 children. - amazing"
                 }
               ]
             },
@@ -1123,7 +1103,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "What\u2019s the saddest song you\u2019ve ever listened to - interesting"
+                  "text": "John\u2018s job is boring. (now)"
                 }
               ]
             }
@@ -1133,19 +1113,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "main_text": "In Entertainment: Books (6945), The singer [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 172 (Entertainment: Books):",
+          "main_text": "In Entertainment: Books (2348), Our neighbors [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "sold"
+                  "text": "planned"
                 },
                 {
                   "id": "o2",
-                  "text": "sell"
+                  "text": "plan"
                 }
               ]
             },
@@ -1154,11 +1134,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "cleaned"
+                  "text": "sent"
                 },
                 {
                   "id": "o2",
-                  "text": "clean"
+                  "text": "send"
                 }
               ]
             }
@@ -1172,21 +1152,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Entertainment: Books:",
-          "stimulus_en": "Sarah likes a ticket, whereas Sarah prefers music....",
-          "stimulus_es": "A Sarah le gusta a ticket, whereas Sarah prefiere music....",
+          "prompt_es": "Elige 172 para Entertainment: Books:",
+          "stimulus_en": "The student likes coffee, besides The student prefers a door....",
+          "stimulus_es": "A The student le gusta coffee, besides The student prefiere a door....",
           "options": [
+            {
+              "id": "o1",
+              "text": "besides"
+            },
             {
               "id": "o2",
               "text": "but"
             },
             {
               "id": "o3",
-              "text": "Other 604"
-            },
-            {
-              "id": "o1",
-              "text": "whereas"
+              "text": "Other 3246"
             }
           ],
           "correct_answer": "o1",
@@ -1195,43 +1175,51 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Entertainment: Books:",
+          "prompt_es": "Ordena 172 sobre Entertainment: Books:",
           "options": [
             {
-              "id": "w6",
-              "text": "an"
+              "id": "w9",
+              "text": "tennis"
             },
             {
-              "id": "w5",
-              "text": "prefers"
+              "id": "w6",
+              "text": "A"
             },
             {
               "id": "w7",
-              "text": "email"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w3",
-              "text": "however"
-            },
-            {
-              "id": "w4",
-              "text": "I"
-            },
-            {
-              "id": "w8",
-              "text": "391"
-            },
-            {
-              "id": "w2",
-              "text": "English"
+              "text": "colleague"
             },
             {
               "id": "w1",
+              "text": "colleague"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "unfortunately"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w2",
               "text": "likes"
+            },
+            {
+              "id": "w8",
+              "text": "prefers"
+            },
+            {
+              "id": "w4",
+              "text": "movie"
+            },
+            {
+              "id": "w10",
+              "text": "interesting"
             }
           ],
           "correct_answer": [
@@ -1243,51 +1231,53 @@
             "w5",
             "w6",
             "w7",
-            "w8"
+            "w8",
+            "w9",
+            "w10"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U25_I53"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "stimulus_en": "The artist likes a movie, ___ The artist prefers a pizza!.",
-          "correct_answer": "meanwhile",
+          "prompt_es": "Completa 197 (Entertainment: Books):",
+          "stimulus_en": "The baker likes a bike, ___ The baker prefers a camera - amazing.",
+          "correct_answer": "furthermore",
           "mastery_tag": "grammar",
           "interaction_id": "U25_I54"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Entertainment: Books)",
-          "stimulus_en": "We likes a pen, nevertheless We prefers a dog - amazing.",
-          "stimulus_es": "Ref: A We le gusta a pen, nevertheless We prefiere a dog - amazing.",
+          "prompt_es": "\u00bfCorrecto? 197 (Entertainment: Books)",
+          "stimulus_en": "Maria likes a gift, since Maria prefers a cat - amazing.",
+          "stimulus_es": "Ref: A Maria le gusta a gift, since Maria prefiere a cat - amazing.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U25_I55"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
+          "prompt_es": "Relaciona 197 (Entertainment: Books):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A The singer le gusta a window, otherwise The singer prefiere an apple - amazing.",
-              "right": "The singer likes a window, otherwise The singer prefers an apple - amazing."
+              "left": "A The manager le gusta a window, meanwhile The manager prefiere a television - amazing.",
+              "right": "The manager likes a window, meanwhile The manager prefers a television - amazing."
             },
             {
               "id": "p1",
-              "left": "A She le gusta a radio, meanwhile She prefiere a letter....",
-              "right": "She likes a radio, meanwhile She prefers a letter...."
+              "left": "A Maria le gusta a pizza, unfortunately Maria prefiere tennis - 729.",
+              "right": "Maria likes a pizza, unfortunately Maria prefers tennis - 729."
             },
             {
               "id": "p2",
-              "left": "A The teacher le gusta a television, moreover The teacher prefiere a sandwich - amazing.",
-              "right": "The teacher likes a television, moreover The teacher prefers a sandwich - amazing."
+              "left": "A She le gusta a computer, however She prefiere a cat (today).",
+              "right": "She likes a computer, however She prefers a cat (today)."
             },
             {
               "id": "p3",
-              "left": "A John le gusta a report, furthermore John prefiere a computer....",
-              "right": "John likes a report, furthermore John prefers a computer...."
+              "left": "A The artist le gusta a report, as a consequence The artist prefiere a window - 266.",
+              "right": "The artist likes a report, as a consequence The artist prefers a window - 266."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1295,35 +1285,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Entertainment: Books):",
-          "tts_en": "John likes a letter, unfortunately John prefers an email - amazing.",
-          "correct_answer": "John likes a letter, unfortunately John prefers an email - amazing.",
+          "prompt_es": "Dictado 197 (Entertainment: Books):",
+          "tts_en": "The manager likes an apple, otherwise The manager prefers a watch - 982.",
+          "correct_answer": "The manager likes an apple, otherwise The manager prefers a watch - 982.",
           "mastery_tag": "listening",
           "interaction_id": "U25_I57"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 197:",
           "options": [
             {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
               "id": "o0",
-              "text": "Sun"
+              "text": "Table"
             },
             {
               "id": "o1",
-              "text": "Moon"
+              "text": "Chair"
             },
             {
               "id": "o3",
-              "text": "Planet"
-            },
-            {
-              "id": "o2",
-              "text": "Star"
+              "text": "Bed"
             },
             {
               "id": "o4",
-              "text": "Hot891"
+              "text": "Pen9848"
             }
           ],
           "correct_answer": "o4",
@@ -1336,8 +1326,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Litre (Br Eng) (Am Eng (today)",
-              "back": "liter) Litro (today)"
+              "front": "C\u00f3mo se llama \u00e9l?!",
+              "back": "What\u2019s his name!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1346,50 +1336,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 197 (Entertainment: Books):",
-          "instruction_en": "Explain Connectors using Entertainment: Books. [Ref: 30]",
+          "instruction_en": "List 3 facts about Entertainment: Books. [Ref: 35]",
           "mastery_tag": "writing",
           "interaction_id": "U25_I60"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 197 (Entertainment: Books):",
-          "stimulus_en": "The Connectors is here. (624)",
+          "stimulus_en": "Improve Entertainment: Books. (552)",
           "mastery_tag": "speaking",
           "interaction_id": "U25_I61"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
-          "stimulus": "Matching set 1472",
+          "prompt_es": "Une 173 (Entertainment: Books):",
+          "stimulus": "Matching set 8629",
           "items": [
             {
               "id": "i0",
-              "text": "Otro ejemplo!",
+              "text": "Litre (Br Eng) (Am Eng (today)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Verbos irregulares - amazing",
+              "text": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales!",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "visits / Jonathan / usually / dentist / the - interesting",
+              "text": "Tyre (Am Eng!",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "Jonathan usually visits the dentist - interesting"
+              "text": "tire) Neum\u00e1tico!"
             },
             {
               "id": "m0",
-              "text": "when I was at primary school, I didn\u2019t wear uniform.!"
+              "text": "liter) Litro (today)"
             },
             {
               "id": "m1",
-              "text": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna. - amazing"
+              "text": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/.!"
             }
           ],
           "correct_answer": {
@@ -1402,7 +1392,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Entertainment: Books):",
+          "prompt_es": "Clasifica 173 (Entertainment: Books):",
           "categories": [
             {
               "id": "c1",
@@ -1410,7 +1400,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Had you got a motorbike\u2026?."
+                  "text": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc. - interesting"
                 }
               ]
             },
@@ -1420,7 +1410,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "When are we going to the beach - amazing"
+                  "text": "Our English teacher is usually angry!"
                 }
               ]
             }
@@ -1430,19 +1420,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "main_text": "In Entertainment: Books (4178), The pilot [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 173 (Entertainment: Books):",
+          "main_text": "In Entertainment: Books (636), My friend [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "sent"
+                  "text": "studied"
                 },
                 {
                   "id": "o2",
-                  "text": "send"
+                  "text": "study"
                 }
               ]
             },
@@ -1469,17 +1459,17 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Entertainment: Books:",
-          "stimulus_en": "The driver likes a laptop, unfortunately The driver prefers a pen - interesting.",
-          "stimulus_es": "A The driver le gusta a laptop, unfortunately The driver prefiere a pen - interesting.",
+          "prompt_es": "Elige 173 para Entertainment: Books:",
+          "stimulus_en": "The actress likes a pizza, however The actress prefers a phone (now).",
+          "stimulus_es": "A The actress le gusta a pizza, however The actress prefiere a phone (now).",
           "options": [
             {
               "id": "o3",
-              "text": "Other 5343"
+              "text": "Other 2869"
             },
             {
               "id": "o1",
-              "text": "unfortunately"
+              "text": "however"
             },
             {
               "id": "o2",
@@ -1492,370 +1482,63 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Entertainment: Books:",
+          "prompt_es": "Ordena 173 sobre Entertainment: Books:",
           "options": [
             {
-              "id": "w5",
-              "text": "A"
-            },
-            {
-              "id": "w8",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "colleague"
-            },
-            {
-              "id": "w9",
-              "text": "door"
-            },
-            {
-              "id": "w7",
-              "text": "prefers"
-            },
-            {
               "id": "w3",
-              "text": "football"
-            },
-            {
-              "id": "w4",
-              "text": "furthermore"
-            },
-            {
-              "id": "w2",
-              "text": "likes"
-            },
-            {
-              "id": "w1",
-              "text": "colleague"
+              "text": "a"
             },
             {
               "id": "w0",
-              "text": "A"
+              "text": "My"
             },
-            {
-              "id": "w10",
-              "text": "interesting"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U25_I66"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "stimulus_en": "My brother likes an apple, ___ My brother prefers a movie (today).",
-          "correct_answer": "since",
-          "mastery_tag": "grammar",
-          "interaction_id": "U25_I67"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Entertainment: Books)",
-          "stimulus_en": "The coach likes tennis, but The coach prefers a clock (now).",
-          "stimulus_es": "Ref: A The coach le gusta tennis, unfortunately The coach prefiere a clock (now).",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U25_I68"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "A My brother le gusta coffee, fortunately My brother prefiere an apple..",
-              "right": "My brother likes coffee, fortunately My brother prefers an apple.."
-            },
-            {
-              "id": "p1",
-              "left": "A The boss le gusta a phone, despite The boss prefiere a bike (today).",
-              "right": "The boss likes a phone, despite The boss prefers a bike (today)."
-            },
-            {
-              "id": "p2",
-              "left": "A The singer le gusta a newspaper, consequently The singer prefiere a car - interesting.",
-              "right": "The singer likes a newspaper, consequently The singer prefers a car - interesting."
-            },
-            {
-              "id": "p3",
-              "left": "A The actress le gusta a cat, therefore The actress prefiere a chair - amazing.",
-              "right": "The actress likes a cat, therefore The actress prefers a chair - amazing."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U25_I69"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Entertainment: Books):",
-          "tts_en": "The police officer likes English, while The police officer prefers a ticket!.",
-          "correct_answer": "The police officer likes English, while The police officer prefers a ticket!.",
-          "mastery_tag": "listening",
-          "interaction_id": "U25_I70"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Calm"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o4",
-              "text": "Fast4839"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U25_I71"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 198 - Entertainment: Books:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Cu\u00e1l es la comida m\u00e1s buena que has probado nunca? - 561",
-              "back": "What\u2019s the most delicious food you\u2019ve ever tasted - 561"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U25_I72"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 198 (Entertainment: Books):",
-          "instruction_en": "Write a note about Entertainment: Books. [Ref: 93]",
-          "mastery_tag": "writing",
-          "interaction_id": "U25_I73"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 198 (Entertainment: Books):",
-          "stimulus_en": "The Connectors is here. (895)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U25_I74"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
-          "stimulus": "Matching set 5558",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Alguna vez has probado la comida tailandesa?.",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "on + train/ bus/ plane/ bike/ motorbike - interesting",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Escribir ingl\u00e9s correctamente (today)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "uso de las may\u00fasculas (today)"
-            },
-            {
-              "id": "m1",
-              "text": "cuando hablamos de forma m\u00e1s espec\u00edfica. - interesting"
-            },
-            {
-              "id": "m0",
-              "text": "Have you ever tried Thai food."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U25_I75"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Entertainment: Books):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar. - 546"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "Our English teacher is usually angry - amazing"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U25_I76"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "main_text": "In Entertainment: Books (9012), Maria [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "ate"
-                },
-                {
-                  "id": "o2",
-                  "text": "eat"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "checked"
-                },
-                {
-                  "id": "o2",
-                  "text": "check"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U25_I77"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Entertainment: Books:",
-          "stimulus_en": "John likes a table, nevertheless John prefers a printer - 406.",
-          "stimulus_es": "A John le gusta a table, nevertheless John prefiere a printer - 406.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "nevertheless"
-            },
-            {
-              "id": "o2",
-              "text": "but"
-            },
-            {
-              "id": "o3",
-              "text": "Other 4293"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U25_I78"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Entertainment: Books:",
-          "options": [
             {
               "id": "w8",
-              "text": "The"
+              "text": "My"
+            },
+            {
+              "id": "w4",
+              "text": "gift"
             },
             {
               "id": "w9",
-              "text": "teacher"
-            },
-            {
-              "id": "w3",
-              "text": "a"
+              "text": "friend"
             },
             {
               "id": "w7",
               "text": "consequence"
             },
             {
-              "id": "w1",
-              "text": "teacher"
-            },
-            {
-              "id": "w4",
-              "text": "camera"
-            },
-            {
-              "id": "w6",
-              "text": "a"
+              "id": "w2",
+              "text": "likes"
             },
             {
               "id": "w10",
               "text": "prefers"
             },
             {
+              "id": "w13",
+              "text": "interesting"
+            },
+            {
               "id": "w11",
               "text": "a"
             },
             {
-              "id": "w0",
-              "text": "The"
-            },
-            {
               "id": "w12",
-              "text": "car"
+              "text": "bike"
             },
             {
-              "id": "w2",
-              "text": "likes"
+              "id": "w1",
+              "text": "friend"
+            },
+            {
+              "id": "w6",
+              "text": "a"
             },
             {
               "id": "w5",
               "text": "as"
-            },
-            {
-              "id": "w13",
-              "text": "amazing"
             }
           ],
           "correct_answer": [
@@ -1875,64 +1558,64 @@
             "w13"
           ],
           "mastery_tag": "syntax",
-          "interaction_id": "U25_I79"
+          "interaction_id": "U25_I66"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "stimulus_en": "The waiter likes a house, ___ The waiter prefers a newspaper - 673.",
+          "prompt_es": "Completa 198 (Entertainment: Books):",
+          "stimulus_en": "The coach likes a watch, ___ The coach prefers music..",
           "correct_answer": "nevertheless",
           "mastery_tag": "grammar",
-          "interaction_id": "U25_I80"
+          "interaction_id": "U25_I67"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Entertainment: Books)",
-          "stimulus_en": "They likes a printer, but They prefers a book..",
-          "stimulus_es": "Ref: A They le gusta a printer, meanwhile They prefiere a book..",
+          "prompt_es": "\u00bfCorrecto? 198 (Entertainment: Books)",
+          "stimulus_en": "The architect likes a bag, but The architect prefers a house....",
+          "stimulus_es": "Ref: A The architect le gusta a bag, despite The architect prefiere a house....",
           "correct_answer": false,
           "mastery_tag": "grammar",
-          "interaction_id": "U25_I81"
+          "interaction_id": "U25_I68"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
+          "prompt_es": "Relaciona 198 (Entertainment: Books):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A My brother le gusta music, despite My brother prefiere an apple..",
-              "right": "My brother likes music, despite My brother prefers an apple.."
+              "left": "A A colleague le gusta a book, as a consequence A colleague prefiere an email - amazing.",
+              "right": "A colleague likes a book, as a consequence A colleague prefers an email - amazing."
             },
             {
               "id": "p1",
-              "left": "A The pilot le gusta a television, as a consequence The pilot prefiere coffee - 820.",
-              "right": "The pilot likes a television, as a consequence The pilot prefers coffee - 820."
+              "left": "A John le gusta a pizza, despite John prefiere a radio..",
+              "right": "John likes a pizza, despite John prefers a radio.."
             },
             {
               "id": "p2",
-              "left": "A I le gusta a printer, furthermore I prefiere football - 279.",
-              "right": "I likes a printer, furthermore I prefers football - 279."
+              "left": "A The police officer le gusta a report, nonetheless The police officer prefiere a chair - interesting.",
+              "right": "The police officer likes a report, nonetheless The police officer prefers a chair - interesting."
             },
             {
               "id": "p3",
-              "left": "A The driver le gusta a movie, moreover The driver prefiere a clock (now).",
-              "right": "The driver likes a movie, moreover The driver prefers a clock (now)."
+              "left": "A They le gusta a car, while They prefiere a laptop - interesting.",
+              "right": "They likes a car, while They prefers a laptop - interesting."
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U25_I82"
+          "interaction_id": "U25_I69"
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Entertainment: Books):",
-          "tts_en": "He likes a movie, while He prefers a phone..",
-          "correct_answer": "He likes a movie, while He prefers a phone..",
+          "prompt_es": "Dictado 198 (Entertainment: Books):",
+          "tts_en": "The driver likes English, fortunately The driver prefers a book - interesting.",
+          "correct_answer": "The driver likes English, fortunately The driver prefers a book - interesting.",
           "mastery_tag": "listening",
-          "interaction_id": "U25_I83"
+          "interaction_id": "U25_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 198:",
           "options": [
             {
               "id": "o1",
@@ -1943,12 +1626,12 @@
               "text": "Happy"
             },
             {
-              "id": "o3",
-              "text": "Calm"
+              "id": "o4",
+              "text": "Fast8414"
             },
             {
-              "id": "o4",
-              "text": "Fast2628"
+              "id": "o3",
+              "text": "Calm"
             },
             {
               "id": "o2",
@@ -1957,68 +1640,68 @@
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary",
-          "interaction_id": "U25_I84"
+          "interaction_id": "U25_I71"
         },
         {
           "type": "flashcards",
-          "prompt_es": "Flashcard 199 - Entertainment: Books:",
+          "prompt_es": "Flashcard 198 - Entertainment: Books:",
           "cards": [
             {
               "id": "c1",
-              "front": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar (today)",
-              "back": "read, write, eat, run, sleep, etc (today)"
+              "front": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? - amazing",
+              "back": "What\u2019s the happiest day you\u2019ve ever had - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U25_I85"
+          "interaction_id": "U25_I72"
         },
         {
           "type": "writing_task",
-          "prompt_es": "Escribe 199 (Entertainment: Books):",
-          "instruction_en": "Write a note about Entertainment: Books. [Ref: 91]",
+          "prompt_es": "Escribe 198 (Entertainment: Books):",
+          "instruction_en": "Describe Entertainment: Books in 5 words. [Ref: 31]",
           "mastery_tag": "writing",
-          "interaction_id": "U25_I86"
+          "interaction_id": "U25_I73"
         },
         {
           "type": "speaking_task",
-          "prompt_es": "Habla 199 (Entertainment: Books):",
-          "stimulus_en": "Talk about Entertainment: Books. (848)",
+          "prompt_es": "Habla 198 (Entertainment: Books):",
+          "stimulus_en": "Focus on Entertainment: Books. (232)",
           "mastery_tag": "speaking",
-          "interaction_id": "U25_I87"
+          "interaction_id": "U25_I74"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
-          "stimulus": "Matching set 7774",
+          "prompt_es": "Une 174 (Entertainment: Books):",
+          "stimulus": "Matching set 3466",
           "items": [
             {
               "id": "i0",
-              "text": "7. La casa de mis primos es muy grande...",
+              "text": "Algunos ejemplos (now)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Bookstore (Br Eng - interesting",
+              "text": "2. Siempre van antes del sustantivo, la regla es - 646",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio!",
+              "text": "Qu\u00e9 quieres?!",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "My cousins\u2019 house is very big..."
+              "id": "m1",
+              "text": "ADJECTIVE + NOUN - 646"
             },
             {
               "id": "m2",
-              "text": "\u00bfDe d\u00f3nde eres?!"
+              "text": "la respuesta es ilimitada, puede ser cualquier cosa.!"
             },
             {
-              "id": "m1",
-              "text": "bookshop) Librer\u00eda - interesting"
+              "id": "m0",
+              "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without (now)"
             }
           ],
           "correct_answer": {
@@ -2027,11 +1710,11 @@
             "i2": "m2"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U25_I88"
+          "interaction_id": "U25_I75"
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Entertainment: Books):",
+          "prompt_es": "Clasifica 174 (Entertainment: Books):",
           "categories": [
             {
               "id": "c1",
@@ -2039,7 +1722,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos...."
+                  "text": "When are we going to the beach."
                 }
               ]
             },
@@ -2049,29 +1732,29 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "on the Internet - 216"
+                  "text": "Does that computer work..."
                 }
               ]
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U25_I89"
+          "interaction_id": "U25_I76"
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "main_text": "In Entertainment: Books (2453), The manager [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 174 (Entertainment: Books):",
+          "main_text": "In Entertainment: Books (7257), The lawyer [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "walked"
+                  "text": "drank"
                 },
                 {
                   "id": "o2",
-                  "text": "walk"
+                  "text": "drink"
                 }
               ]
             },
@@ -2080,11 +1763,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "started"
+                  "text": "designed"
                 },
                 {
                   "id": "o2",
-                  "text": "start"
+                  "text": "design"
                 }
               ]
             }
@@ -2094,38 +1777,38 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U25_I90"
+          "interaction_id": "U25_I77"
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Entertainment: Books:",
-          "stimulus_en": "You likes a ticket, moreover You prefers a letter..",
-          "stimulus_es": "A You le gusta a ticket, moreover You prefiere a letter..",
+          "prompt_es": "Elige 174 para Entertainment: Books:",
+          "stimulus_en": "My brother likes music, otherwise My brother prefers an apple - amazing.",
+          "stimulus_es": "A My brother le gusta music, otherwise My brother prefiere an apple - amazing.",
           "options": [
-            {
-              "id": "o3",
-              "text": "Other 3973"
-            },
             {
               "id": "o2",
               "text": "but"
             },
             {
+              "id": "o3",
+              "text": "Other 9515"
+            },
+            {
               "id": "o1",
-              "text": "moreover"
+              "text": "otherwise"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U25_I91"
+          "interaction_id": "U25_I78"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Entertainment: Books:",
+          "prompt_es": "Ordena 174 sobre Entertainment: Books:",
           "options": [
             {
-              "id": "w6",
-              "text": "The"
+              "id": "w10",
+              "text": "car"
             },
             {
               "id": "w8",
@@ -2133,39 +1816,39 @@
             },
             {
               "id": "w5",
-              "text": "fortunately"
+              "text": "furthermore"
+            },
+            {
+              "id": "w1",
+              "text": "actress"
+            },
+            {
+              "id": "w4",
+              "text": "watch"
+            },
+            {
+              "id": "w6",
+              "text": "The"
             },
             {
               "id": "w3",
               "text": "a"
             },
             {
-              "id": "w10",
-              "text": "house"
+              "id": "w2",
+              "text": "likes"
             },
             {
               "id": "w9",
               "text": "a"
             },
             {
-              "id": "w4",
-              "text": "dog"
-            },
-            {
-              "id": "w2",
-              "text": "likes"
+              "id": "w7",
+              "text": "actress"
             },
             {
               "id": "w0",
               "text": "The"
-            },
-            {
-              "id": "w7",
-              "text": "pilot"
-            },
-            {
-              "id": "w1",
-              "text": "pilot"
             }
           ],
           "correct_answer": [
@@ -2182,48 +1865,365 @@
             "w10"
           ],
           "mastery_tag": "syntax",
+          "interaction_id": "U25_I79"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 199 (Entertainment: Books):",
+          "stimulus_en": "John likes a door, ___ John prefers a phone (today).",
+          "correct_answer": "besides",
+          "mastery_tag": "grammar",
+          "interaction_id": "U25_I80"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 199 (Entertainment: Books)",
+          "stimulus_en": "The scientist likes a gift, fortunately The scientist prefers a report - interesting.",
+          "stimulus_es": "Ref: A The scientist le gusta a gift, fortunately The scientist prefiere a report - interesting.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U25_I81"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 199 (Entertainment: Books):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "A We le gusta a bike, however We prefiere English - amazing.",
+              "right": "We likes a bike, however We prefers English - amazing."
+            },
+            {
+              "id": "p1",
+              "left": "A The driver le gusta coffee, fortunately The driver prefiere a computer..",
+              "right": "The driver likes coffee, fortunately The driver prefers a computer.."
+            },
+            {
+              "id": "p2",
+              "left": "A The lawyer le gusta a book, unfortunately The lawyer prefiere a cat (today).",
+              "right": "The lawyer likes a book, unfortunately The lawyer prefers a cat (today)."
+            },
+            {
+              "id": "p3",
+              "left": "A The chef le gusta an email, otherwise The chef prefiere a house - amazing.",
+              "right": "The chef likes an email, otherwise The chef prefers a house - amazing."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U25_I82"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 199 (Entertainment: Books):",
+          "tts_en": "My sister likes a book, although My sister prefers a printer - 639.",
+          "correct_answer": "My sister likes a book, although My sister prefers a printer - 639.",
+          "mastery_tag": "listening",
+          "interaction_id": "U25_I83"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 199:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o4",
+              "text": "Book3610"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U25_I84"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 199 - Entertainment: Books:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "De qui\u00e9n ese coche?!",
+              "back": "Whose car is that!"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U25_I85"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 199 (Entertainment: Books):",
+          "instruction_en": "Explain Connectors using Entertainment: Books. [Ref: 21]",
+          "mastery_tag": "writing",
+          "interaction_id": "U25_I86"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 199 (Entertainment: Books):",
+          "stimulus_en": "Look at Entertainment: Books. (342)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U25_I87"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 175 (Entertainment: Books):",
+          "stimulus": "Matching set 8852",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Has visto alguna vez una pel\u00edcula en versi\u00f3n original? - interesting",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro? (today)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar - 533",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "have you ever seen a film in original version - interesting"
+            },
+            {
+              "id": "m2",
+              "text": "read, write, eat, run, sleep, etc - 533"
+            },
+            {
+              "id": "m1",
+              "text": "Were you having a beer when you saw Peter (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U25_I88"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 175 (Entertainment: Books):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Whose books are those= or Whose are those books - interesting"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "I\u2019ll see you on Saturday - 852"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U25_I89"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 175 (Entertainment: Books):",
+          "main_text": "In Entertainment: Books (5924), Our neighbors [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drove"
+                },
+                {
+                  "id": "o2",
+                  "text": "drive"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "read"
+                },
+                {
+                  "id": "o2",
+                  "text": "read"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U25_I90"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 175 para Entertainment: Books:",
+          "stimulus_en": "Maria likes a movie, since Maria prefers a table (now).",
+          "stimulus_es": "A Maria le gusta a movie, since Maria prefiere a table (now).",
+          "options": [
+            {
+              "id": "o2",
+              "text": "but"
+            },
+            {
+              "id": "o3",
+              "text": "Other 7065"
+            },
+            {
+              "id": "o1",
+              "text": "since"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U25_I91"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 175 sobre Entertainment: Books:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "likes"
+            },
+            {
+              "id": "w7",
+              "text": "consequence"
+            },
+            {
+              "id": "w10",
+              "text": "prefers"
+            },
+            {
+              "id": "w4",
+              "text": "dog"
+            },
+            {
+              "id": "w11",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "as"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "player"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w9",
+              "text": "player"
+            },
+            {
+              "id": "w8",
+              "text": "The"
+            },
+            {
+              "id": "w12",
+              "text": "gift"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U25_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Entertainment: Books):",
-          "stimulus_en": "The waiter likes an apple, ___ The waiter prefers a television..",
+          "prompt_es": "Completa 200 (Entertainment: Books):",
+          "stimulus_en": "The pilot likes football, ___ The pilot prefers music..",
           "correct_answer": "therefore",
           "mastery_tag": "grammar",
           "interaction_id": "U25_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Entertainment: Books)",
-          "stimulus_en": "Our neighbors likes a car, but Our neighbors prefers a gift!.",
-          "stimulus_es": "Ref: A Our neighbors le gusta a car, while Our neighbors prefiere a gift!.",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 200 (Entertainment: Books)",
+          "stimulus_en": "The student likes a gift, furthermore The student prefers a dog!.",
+          "stimulus_es": "Ref: A The student le gusta a gift, furthermore The student prefiere a dog!.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U25_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Entertainment: Books):",
+          "prompt_es": "Relaciona 200 (Entertainment: Books):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A She le gusta a camera, nevertheless She prefiere a pen (today).",
-              "right": "She likes a camera, nevertheless She prefers a pen (today)."
+              "left": "A They le gusta a newspaper, unfortunately They prefiere a door!.",
+              "right": "They likes a newspaper, unfortunately They prefers a door!."
             },
             {
               "id": "p1",
-              "left": "A My sister le gusta a bag, nevertheless My sister prefiere a sandwich - amazing.",
-              "right": "My sister likes a bag, nevertheless My sister prefers a sandwich - amazing."
+              "left": "A The coach le gusta a book, since The coach prefiere a television (today).",
+              "right": "The coach likes a book, since The coach prefers a television (today)."
             },
             {
               "id": "p2",
-              "left": "A Sarah le gusta a camera, unfortunately Sarah prefiere a ticket (now).",
-              "right": "Sarah likes a camera, unfortunately Sarah prefers a ticket (now)."
+              "left": "A The baker le gusta football, therefore The baker prefiere a chair!.",
+              "right": "The baker likes football, therefore The baker prefers a chair!."
             },
             {
               "id": "p3",
-              "left": "A My sister le gusta a pen, unfortunately My sister prefiere a house (today).",
-              "right": "My sister likes a pen, unfortunately My sister prefers a house (today)."
+              "left": "A The doctor le gusta a sandwich, however The doctor prefiere a printer!.",
+              "right": "The doctor likes a sandwich, however The doctor prefers a printer!."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2231,35 +2231,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Entertainment: Books):",
-          "tts_en": "He likes a window, besides He prefers a phone..",
-          "correct_answer": "He likes a window, besides He prefers a phone..",
+          "prompt_es": "Dictado 200 (Entertainment: Books):",
+          "tts_en": "The artist likes tennis, furthermore The artist prefers a watch....",
+          "correct_answer": "The artist likes tennis, furthermore The artist prefers a watch....",
           "mastery_tag": "listening",
           "interaction_id": "U25_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 200:",
           "options": [
             {
-              "id": "o4",
-              "text": "Slow3038"
+              "id": "o2",
+              "text": "Star"
             },
             {
-              "id": "o2",
-              "text": "Berlin"
+              "id": "o4",
+              "text": "Hot2445"
             },
             {
               "id": "o3",
-              "text": "Paris"
-            },
-            {
-              "id": "o0",
-              "text": "London"
+              "text": "Planet"
             },
             {
               "id": "o1",
-              "text": "Tokyo"
+              "text": "Moon"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
             }
           ],
           "correct_answer": "o4",
@@ -2272,8 +2272,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "me / Paul / helps / sometimes / my / with / homework (now)",
-              "back": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework (now)"
+              "front": "Si pasamos la oraci\u00f3n a interrogativa, quedar\u00eda as\u00ed...",
+              "back": "Do you have any friends who live near your house? = al ser interrogativa, any...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2282,14 +2282,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 200 (Entertainment: Books):",
-          "instruction_en": "Describe Entertainment: Books in 5 words. [Ref: 86]",
+          "instruction_en": "Describe Entertainment: Books in 5 words. [Ref: 12]",
           "mastery_tag": "writing",
           "interaction_id": "U25_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 200 (Entertainment: Books):",
-          "stimulus_en": "I like Entertainment: Books. (442)",
+          "stimulus_en": "The Connectors is here. (904)",
           "mastery_tag": "speaking",
           "interaction_id": "U25_I100"
         }

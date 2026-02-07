@@ -49,7 +49,14 @@ Create a detailed implementation plan based on `spec.md`.
 
 ### [x] Step: Audio Playback Resilience
 
-1. **Implement Fallback Logic**: Update `PremiumSession.tsx` and `FocusedSession.tsx` to include on-the-fly audio generation if static files fail to play.
-2. **Commit and Push**: Ensure all audio files and logic changes are pushed to the repository.
-   - **Commit**: `a144f93b` (Audio files) + `[Current Commit]` (Resilience logic)
+1. [x] **Implement Fallback Logic**: Update `PremiumSession.tsx` and `FocusedSession.tsx` to include on-the-fly audio generation if static files fail to play.
+2. [x] **Commit and Push**: Ensure all audio files and logic changes are pushed to the repository.
+   - **Commit**: `a144f93b` (Audio files) + `10dc2e26` (Resilience logic)
+
+### [ ] Step: Expansion Audio Generation (Missing Audios)
+
+1. [ ] **Identify Expansion Audios**: Verify if `_EXP_` interactions are missing audio.
+2. [ ] **Modify Generation Script**: Update `scripts/generate-a1-expansion-audio.ts` to use ElevenLabs and handle complex structures.
+3. [ ] **Run Expansion Generation**: Generate audio for the ~30 missing expansion exercises.
+4. [ ] **Final Push**: Push all generated expansion audios and updated JSONs.
 

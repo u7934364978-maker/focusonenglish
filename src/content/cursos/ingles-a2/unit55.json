@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "stimulus_en": "We has ___ spoken a pizza in the shop - 543.",
+          "prompt_es": "Completa 433 (Technology: Gadgets):",
+          "stimulus_en": "Sarah has ___ sold a door in the garage (now).",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U55_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Technology: Gadgets)",
-          "stimulus_en": "The coach has already bought a watch in the university (now).",
-          "stimulus_es": "Ref: The coach ya ha bought a watch en the university (now).",
+          "prompt_es": "\u00bfCorrecto? 433 (Technology: Gadgets)",
+          "stimulus_en": "Sarah has already drunk a cat in the mountains (now).",
+          "stimulus_es": "Ref: Sarah ya ha drunk a cat en the mountains (now).",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U55_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
+          "prompt_es": "Relaciona 433 (Technology: Gadgets):",
           "pairs": [
             {
               "id": "p0",
-              "left": "My sister ya ha taught a bike en the stadium!.",
-              "right": "My sister has already taught a bike in the stadium!."
+              "left": "We ya ha listened a bag en the park (today).",
+              "right": "We has already listened a bag in the park (today)."
             },
             {
               "id": "p1",
-              "left": "The driver ya ha received tennis en the country - interesting.",
-              "right": "The driver has already received tennis in the country - interesting."
+              "left": "My cousin ya ha sent a camera en school!.",
+              "right": "My cousin has already sent a camera in school!."
             },
             {
               "id": "p2",
-              "left": "They ya ha fixed a movie en the gym..",
-              "right": "They has already fixed a movie in the gym.."
+              "left": "The waiter ya ha prepared a cat en the library (today).",
+              "right": "The waiter has already prepared a cat in the library (today)."
             },
             {
               "id": "p3",
-              "left": "The waiter ya ha designed a sandwich en the shop....",
-              "right": "The waiter has already designed a sandwich in the shop...."
+              "left": "The artist ya ha cleaned an email en the balcony!.",
+              "right": "The artist has already cleaned an email in the balcony!."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Technology: Gadgets):",
-          "tts_en": "The pilot has already eaten a bike in Paris - 444.",
-          "correct_answer": "The pilot has already eaten a bike in Paris - 444.",
+          "prompt_es": "Dictado 433 (Technology: Gadgets):",
+          "tts_en": "He has already finished a camera in the stadium - 404.",
+          "correct_answer": "He has already finished a camera in the stadium - 404.",
           "mastery_tag": "listening",
           "interaction_id": "U55_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 433:",
           "options": [
             {
-              "id": "o1",
-              "text": "Chair"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
-            },
-            {
               "id": "o4",
-              "text": "Pen8218"
+              "text": "Slow469"
             },
             {
               "id": "o3",
-              "text": "Bed"
+              "text": "Paris"
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o2",
+              "text": "Berlin"
             },
             {
               "id": "o0",
-              "text": "Table"
+              "text": "London"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Hay guisantes en el frigo? (today)",
-              "back": "are there any peas in the fridge (today)"
+              "front": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto (today)",
+              "back": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. (today)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 433 (Technology: Gadgets):",
-          "instruction_en": "A small story about Technology: Gadgets. [Ref: 69]",
+          "instruction_en": "Review Technology: Gadgets from last week. [Ref: 88]",
           "mastery_tag": "writing",
           "interaction_id": "U55_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 433 (Technology: Gadgets):",
-          "stimulus_en": "Where is Technology: Gadgets? (736)",
+          "stimulus_en": "Focus on Technology: Gadgets. (114)",
           "mastery_tag": "speaking",
           "interaction_id": "U55_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
-          "stimulus": "Matching set 714",
+          "prompt_es": "Une 379 (Technology: Gadgets):",
+          "stimulus": "Matching set 6833",
           "items": [
             {
               "id": "i0",
-              "text": "Los adjetivos tienen tres formas (today)",
+              "text": "Cu\u00e1l es la comida m\u00e1s buena que has probado nunca?...",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Much, como se utiliza con uncountable, decimos...",
+              "text": "\u2022in the fall (Br Eng - interesting",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Encontraste algo ah\u00ed? - amazing",
+              "text": "Los adjetivos tienen tres formas (today)",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
+              "id": "m2",
               "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. (today)"
             },
             {
-              "id": "m1",
-              "text": "I haven\u2019t got much money (remember, money is uncountable)...."
+              "id": "m0",
+              "text": "What\u2019s the most delicious food you\u2019ve ever tasted..."
             },
             {
-              "id": "m2",
-              "text": "any + thing = en oraci\u00f3n INTERROGATIVA. - amazing"
+              "id": "m1",
+              "text": "autumn) En oto\u00f1o - interesting"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Technology: Gadgets):",
+          "prompt_es": "Clasifica 379 (Technology: Gadgets):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "igual hago algo\u2026 (but I\u2019m not sure\u2026). (now)"
+                  "text": "Whose books are those= or Whose are those books!"
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "My cousins\u2019 house is very big - interesting"
+                  "text": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/. - 621"
                 }
               ]
             }
@@ -202,19 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "main_text": "In Technology: Gadgets (5499), Maria [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 379 (Technology: Gadgets):",
+          "main_text": "In Technology: Gadgets (6240), The police officer [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "traveled"
+                  "text": "ate"
                 },
                 {
                   "id": "o2",
-                  "text": "travel"
+                  "text": "eat"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "studied"
+                  "text": "fixed"
                 },
                 {
                   "id": "o2",
-                  "text": "study"
+                  "text": "fix"
                 }
               ]
             }
@@ -241,21 +241,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Technology: Gadgets:",
-          "stimulus_en": "The police officer has already walked coffee in the street!.",
-          "stimulus_es": "The police officer ya ha walked coffee en the street!.",
+          "prompt_es": "Elige 379 para Technology: Gadgets:",
+          "stimulus_en": "The scientist has already eaten an apple in the stadium....",
+          "stimulus_es": "The scientist ya ha eaten an apple en the stadium....",
           "options": [
-            {
-              "id": "o2",
-              "text": "yet"
-            },
             {
               "id": "o1",
               "text": "already"
             },
             {
+              "id": "o2",
+              "text": "yet"
+            },
+            {
               "id": "o3",
-              "text": "Other 7709"
+              "text": "Other 7815"
             }
           ],
           "correct_answer": "o1",
@@ -264,47 +264,47 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Technology: Gadgets:",
+          "prompt_es": "Ordena 379 sobre Technology: Gadgets:",
           "options": [
             {
-              "id": "w6",
-              "text": "in"
+              "id": "w9",
+              "text": "airport"
+            },
+            {
+              "id": "w5",
+              "text": "a"
             },
             {
               "id": "w2",
               "text": "has"
             },
             {
-              "id": "w1",
-              "text": "lawyer"
-            },
-            {
-              "id": "w8",
-              "text": "beach"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
               "id": "w0",
               "text": "The"
             },
             {
-              "id": "w4",
-              "text": "visited"
-            },
-            {
-              "id": "w9",
-              "text": "742"
-            },
-            {
-              "id": "w5",
-              "text": "music"
-            },
-            {
               "id": "w3",
               "text": "already"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "radio"
+            },
+            {
+              "id": "w1",
+              "text": "driver"
+            },
+            {
+              "id": "w4",
+              "text": "spoken"
             }
           ],
           "correct_answer": [
@@ -324,44 +324,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "stimulus_en": "The teacher has ___ read a chair in the gym - interesting.",
+          "prompt_es": "Completa 434 (Technology: Gadgets):",
+          "stimulus_en": "You has ___ walked a bike in the airport....",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U55_I15"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Technology: Gadgets)",
-          "stimulus_en": "The artist has already bought a sandwich in the mountains - amazing.",
-          "stimulus_es": "Ref: The artist ya ha bought a sandwich en the mountains - amazing.",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 434 (Technology: Gadgets)",
+          "stimulus_en": "I has yet finished a table in the cinema....",
+          "stimulus_es": "Ref: I ya ha finished a table en the cinema....",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U55_I16"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
+          "prompt_es": "Relaciona 434 (Technology: Gadgets):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The scientist ya ha checked English en the cinema (now).",
-              "right": "The scientist has already checked English in the cinema (now)."
+              "left": "They ya ha organized tennis en the gym - amazing.",
+              "right": "They has already organized tennis in the gym - amazing."
             },
             {
               "id": "p1",
-              "left": "The actress ya ha cleaned a book en the station - 904.",
-              "right": "The actress has already cleaned a book in the station - 904."
+              "left": "She ya ha sold a radio en London....",
+              "right": "She has already sold a radio in London...."
             },
             {
               "id": "p2",
-              "left": "They ya ha helped a printer en the library..",
-              "right": "They has already helped a printer in the library.."
+              "left": "The actress ya ha worked a camera en the university!.",
+              "right": "The actress has already worked a camera in the university!."
             },
             {
               "id": "p3",
-              "left": "The chef ya ha fixed a printer en the country....",
-              "right": "The chef has already fixed a printer in the country...."
+              "left": "My sister ya ha cleaned a cat en the restaurant - interesting.",
+              "right": "My sister has already cleaned a cat in the restaurant - interesting."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -369,35 +369,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Technology: Gadgets):",
-          "tts_en": "My friend has already played a dog in the office....",
-          "correct_answer": "My friend has already played a dog in the office....",
+          "prompt_es": "Dictado 434 (Technology: Gadgets):",
+          "tts_en": "The student has already called a house in the museum..",
+          "correct_answer": "The student has already called a house in the museum..",
           "mastery_tag": "listening",
           "interaction_id": "U55_I18"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 434:",
           "options": [
             {
-              "id": "o3",
-              "text": "soup"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o4",
-              "text": "rain7895"
-            },
-            {
               "id": "o2",
-              "text": "salad"
+              "text": "train"
             },
             {
               "id": "o0",
-              "text": "pizza"
+              "text": "car"
+            },
+            {
+              "id": "o4",
+              "text": "cat7611"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
             }
           ],
           "correct_answer": "o4",
@@ -410,8 +410,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca? - 353",
-              "back": "What\u2019s the funniest joke you\u2019ve ever been told - 353"
+              "front": "Much, como se utiliza con uncountable, decimos - interesting",
+              "back": "I haven\u2019t got much money (remember, money is uncountable). - interesting"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -420,50 +420,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 434 (Technology: Gadgets):",
-          "instruction_en": "Why is Technology: Gadgets important? [Ref: 76]",
+          "instruction_en": "Write a note about Technology: Gadgets. [Ref: 91]",
           "mastery_tag": "writing",
           "interaction_id": "U55_I21"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 434 (Technology: Gadgets):",
-          "stimulus_en": "Look at Technology: Gadgets. (390)",
+          "stimulus_en": "Study Technology: Gadgets now. (972)",
           "mastery_tag": "speaking",
           "interaction_id": "U55_I22"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
-          "stimulus": "Matching set 3849",
+          "prompt_es": "Une 380 (Technology: Gadgets):",
+          "stimulus": "Matching set 776",
           "items": [
             {
               "id": "i0",
-              "text": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda? (now)",
+              "text": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir (now)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Alguien dijo mi nombre?!",
+              "text": "6. Los juguetes de mis hijos - interesting",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "\u2013 Seasons (estaciones) - amazing",
+              "text": "Al lado de mi colegio no hay bloques de pisos - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "in summer, in winter. - amazing"
+              "id": "m0",
+              "text": "I can to speak English. (now)"
             },
             {
-              "id": "m0",
-              "text": "How old is Mar\u00eda (now)"
+              "id": "m2",
+              "text": "Next to my school there aren\u2019t any apartment blocks. - amazing"
             },
             {
               "id": "m1",
-              "text": "Did anybody say my name!"
+              "text": "My children\u2019s toys - interesting"
             }
           ],
           "correct_answer": {
@@ -476,7 +476,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Technology: Gadgets):",
+          "prompt_es": "Clasifica 380 (Technology: Gadgets):",
           "categories": [
             {
               "id": "c1",
@@ -484,7 +484,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n. - interesting"
+                  "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta.!"
                 }
               ]
             },
@@ -494,7 +494,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Have you finished the project yet..."
+                  "text": "the students often use the dictionary!"
                 }
               ]
             }
@@ -504,305 +504,8 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "main_text": "In Technology: Gadgets (2514), She [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "sold"
-                },
-                {
-                  "id": "o2",
-                  "text": "sell"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "started"
-                },
-                {
-                  "id": "o2",
-                  "text": "start"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U55_I25"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Technology: Gadgets:",
-          "stimulus_en": "John has already cleaned a television in the office - interesting.",
-          "stimulus_es": "John ya ha cleaned a television en the office - interesting.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "yet"
-            },
-            {
-              "id": "o1",
-              "text": "already"
-            },
-            {
-              "id": "o3",
-              "text": "Other 1226"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U55_I26"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Technology: Gadgets:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "already"
-            },
-            {
-              "id": "w6",
-              "text": "newspaper"
-            },
-            {
-              "id": "w4",
-              "text": "called"
-            },
-            {
-              "id": "w8",
-              "text": "school"
-            },
-            {
-              "id": "w2",
-              "text": "has"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "Our"
-            },
-            {
-              "id": "w1",
-              "text": "neighbors"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U55_I27"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "stimulus_en": "The coach has ___ met a car in the beach (now).",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U55_I28"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Technology: Gadgets)",
-          "stimulus_en": "The coach has yet written a car in the balcony (today).",
-          "stimulus_es": "Ref: The coach ya ha written a car en the balcony (today).",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U55_I29"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "We ya ha met a letter en the park - amazing.",
-              "right": "We has already met a letter in the park - amazing."
-            },
-            {
-              "id": "p1",
-              "left": "The lawyer ya ha designed a clock en the mountains!.",
-              "right": "The lawyer has already designed a clock in the mountains!."
-            },
-            {
-              "id": "p2",
-              "left": "The coach ya ha organized a pen en the supermarket - interesting.",
-              "right": "The coach has already organized a pen in the supermarket - interesting."
-            },
-            {
-              "id": "p3",
-              "left": "The manager ya ha taught a table en the station - 980.",
-              "right": "The manager has already taught a table in the station - 980."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I30"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Technology: Gadgets):",
-          "tts_en": "The pilot has already taught a house in the stadium - interesting.",
-          "correct_answer": "The pilot has already taught a house in the stadium - interesting.",
-          "mastery_tag": "listening",
-          "interaction_id": "U55_I31"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Star"
-            },
-            {
-              "id": "o4",
-              "text": "Hot6589"
-            },
-            {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
-              "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I32"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 435 - Technology: Gadgets:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Escribir ingl\u00e9s correctamente - amazing",
-              "back": "uso de las may\u00fasculas - amazing"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I33"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 435 (Technology: Gadgets):",
-          "instruction_en": "Draft an email regarding Technology: Gadgets. [Ref: 94]",
-          "mastery_tag": "writing",
-          "interaction_id": "U55_I34"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 435 (Technology: Gadgets):",
-          "stimulus_en": "Look at Technology: Gadgets. (529)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U55_I35"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
-          "stimulus": "Matching set 8986",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca?...",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Otro ejemplo (today)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Drugstore (Br Eng (now)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "chemist) Farmacia (now)"
-            },
-            {
-              "id": "m0",
-              "text": "What\u2019s the saddest song you\u2019ve ever listened to..."
-            },
-            {
-              "id": "m1",
-              "text": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. (today)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U55_I36"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Technology: Gadgets):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "What\u2019s the most delicious food you\u2019ve ever tasted (today)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I37"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "main_text": "In Technology: Gadgets (2249), He [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 380 (Technology: Gadgets):",
+          "main_text": "In Technology: Gadgets (1818), We [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
@@ -814,927 +517,6 @@
                 {
                   "id": "o2",
                   "text": "fix"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "listened"
-                },
-                {
-                  "id": "o2",
-                  "text": "listen"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U55_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Technology: Gadgets:",
-          "stimulus_en": "The coach has already called a gift in the park - amazing.",
-          "stimulus_es": "The coach ya ha called a gift en the park - amazing.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "already"
-            },
-            {
-              "id": "o2",
-              "text": "yet"
-            },
-            {
-              "id": "o3",
-              "text": "Other 1538"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U55_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Technology: Gadgets:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w4",
-              "text": "taught"
-            },
-            {
-              "id": "w9",
-              "text": "hospital"
-            },
-            {
-              "id": "w10",
-              "text": "amazing"
-            },
-            {
-              "id": "w2",
-              "text": "has"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "already"
-            },
-            {
-              "id": "w1",
-              "text": "singer"
-            },
-            {
-              "id": "w6",
-              "text": "television"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U55_I40"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "stimulus_en": "You has ___ drunk a letter in the shop - 794.",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U55_I41"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Technology: Gadgets)",
-          "stimulus_en": "The police officer has yet read a dog in the stadium - 708.",
-          "stimulus_es": "Ref: The police officer ya ha read a dog en the stadium - 708.",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U55_I42"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "The coach ya ha fixed a television en the shop - 550.",
-              "right": "The coach has already fixed a television in the shop - 550."
-            },
-            {
-              "id": "p1",
-              "left": "The lawyer ya ha cooked an apple en the kitchen - amazing.",
-              "right": "The lawyer has already cooked an apple in the kitchen - amazing."
-            },
-            {
-              "id": "p2",
-              "left": "The doctor ya ha started a computer en the balcony - interesting.",
-              "right": "The doctor has already started a computer in the balcony - interesting."
-            },
-            {
-              "id": "p3",
-              "left": "My friend ya ha built an email en the airport!.",
-              "right": "My friend has already built an email in the airport!."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I43"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Technology: Gadgets):",
-          "tts_en": "Sarah has already played a camera in the stadium..",
-          "correct_answer": "Sarah has already played a camera in the stadium..",
-          "mastery_tag": "listening",
-          "interaction_id": "U55_I44"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "Book7369"
-            },
-            {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
-            },
-            {
-              "id": "o2",
-              "text": "Flute"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I45"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 436 - Technology: Gadgets:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Tienes hermanos?.",
-              "back": "do you have any brothers or sisters."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I46"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 436 (Technology: Gadgets):",
-          "instruction_en": "Your daily routine in Technology: Gadgets. [Ref: 43]",
-          "mastery_tag": "writing",
-          "interaction_id": "U55_I47"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 436 (Technology: Gadgets):",
-          "stimulus_en": "Study Technology: Gadgets now. (983)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U55_I48"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
-          "stimulus": "Matching set 476",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que le\u00e1is la explicaci\u00f3n y aprend\u00e1is, o repas\u00e9is, qu\u00e9 es y c\u00f3mo se forman las indirect questions (preguntas indirectas). Aqu\u00ed lo puedes revisar...",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Tienes coche? - amazing",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "For example.",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "She drives carefully.."
-            },
-            {
-              "id": "m0",
-              "text": "Indirect questions en ingl\u00e9s...."
-            },
-            {
-              "id": "m1",
-              "text": "do you have a car - amazing"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U55_I49"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Technology: Gadgets):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "preguntas en ingl\u00e9s..."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework - 979"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I50"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "main_text": "In Technology: Gadgets (4951), The architect [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "met"
-                },
-                {
-                  "id": "o2",
-                  "text": "meet"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "prepared"
-                },
-                {
-                  "id": "o2",
-                  "text": "prepare"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U55_I51"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Technology: Gadgets:",
-          "stimulus_en": "My friend has already cleaned a clock in school!.",
-          "stimulus_es": "My friend ya ha cleaned a clock en school!.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "yet"
-            },
-            {
-              "id": "o3",
-              "text": "Other 5819"
-            },
-            {
-              "id": "o1",
-              "text": "already"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U55_I52"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Technology: Gadgets:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "fixed"
-            },
-            {
-              "id": "w2",
-              "text": "officer"
-            },
-            {
-              "id": "w3",
-              "text": "has"
-            },
-            {
-              "id": "w11",
-              "text": "123"
-            },
-            {
-              "id": "w6",
-              "text": "an"
-            },
-            {
-              "id": "w1",
-              "text": "police"
-            },
-            {
-              "id": "w10",
-              "text": "cinema"
-            },
-            {
-              "id": "w7",
-              "text": "apple"
-            },
-            {
-              "id": "w4",
-              "text": "already"
-            },
-            {
-              "id": "w9",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U55_I53"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "stimulus_en": "The player has ___ organized a window in the university....",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U55_I54"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Technology: Gadgets)",
-          "stimulus_en": "My sister has yet checked an email in the hospital (now).",
-          "stimulus_es": "Ref: My sister ya ha checked an email en the hospital (now).",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U55_I55"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "The manager ya ha checked a bike en the office (today).",
-              "right": "The manager has already checked a bike in the office (today)."
-            },
-            {
-              "id": "p1",
-              "left": "The player ya ha walked English en school..",
-              "right": "The player has already walked English in school.."
-            },
-            {
-              "id": "p2",
-              "left": "The driver ya ha built an email en the balcony - amazing.",
-              "right": "The driver has already built an email in the balcony - amazing."
-            },
-            {
-              "id": "p3",
-              "left": "The student ya ha created football en the city - interesting.",
-              "right": "The student has already created football in the city - interesting."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I56"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Technology: Gadgets):",
-          "tts_en": "The doctor has already watched a newspaper in the office (today).",
-          "correct_answer": "The doctor has already watched a newspaper in the office (today).",
-          "mastery_tag": "listening",
-          "interaction_id": "U55_I57"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "Hot1581"
-            },
-            {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
-            },
-            {
-              "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o2",
-              "text": "Star"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I58"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 437 - Technology: Gadgets:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Un ejemplo de to seguido de infinitivo es!",
-              "back": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n!!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I59"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 437 (Technology: Gadgets):",
-          "instruction_en": "Draft an email regarding Technology: Gadgets. [Ref: 44]",
-          "mastery_tag": "writing",
-          "interaction_id": "U55_I60"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 437 (Technology: Gadgets):",
-          "stimulus_en": "This is Technology: Gadgets. (318)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U55_I61"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
-          "stimulus": "Matching set 8276",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Common mistake!",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "A qu\u00e9 hora tenemos el examen? - amazing",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "8. \u00a0usually / my father / goes to work by bus - amazing",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "Had you got a motorbike\u2026?!"
-            },
-            {
-              "id": "m2",
-              "text": "my father usually goes to work by bus - amazing"
-            },
-            {
-              "id": "m1",
-              "text": "What time do we have our exam - amazing"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U55_I62"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Technology: Gadgets):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l).!"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "When did you help him/her."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I63"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "main_text": "In Technology: Gadgets (5677), The police officer [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "received"
-                },
-                {
-                  "id": "o2",
-                  "text": "receive"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "studied"
-                },
-                {
-                  "id": "o2",
-                  "text": "study"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U55_I64"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Technology: Gadgets:",
-          "stimulus_en": "The baker has already planned a pen in the office..",
-          "stimulus_es": "The baker ya ha planned a pen en the office..",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 5282"
-            },
-            {
-              "id": "o2",
-              "text": "yet"
-            },
-            {
-              "id": "o1",
-              "text": "already"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U55_I65"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Technology: Gadgets:",
-          "options": [
-            {
-              "id": "w9",
-              "text": "971"
-            },
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "television"
-            },
-            {
-              "id": "w3",
-              "text": "planned"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w8",
-              "text": "garage"
-            },
-            {
-              "id": "w2",
-              "text": "already"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U55_I66"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "stimulus_en": "My cousin has ___ sent a camera in the street (now).",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U55_I67"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Technology: Gadgets)",
-          "stimulus_en": "She has already cleaned an apple in the garage..",
-          "stimulus_es": "Ref: She ya ha cleaned an apple en the garage..",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U55_I68"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "You ya ha written an apple en the office!.",
-              "right": "You has already written an apple in the office!."
-            },
-            {
-              "id": "p1",
-              "left": "They ya ha sold a television en London (today).",
-              "right": "They has already sold a television in London (today)."
-            },
-            {
-              "id": "p2",
-              "left": "The nurse ya ha played a table en the balcony....",
-              "right": "The nurse has already played a table in the balcony...."
-            },
-            {
-              "id": "p3",
-              "left": "They ya ha learned tennis en the library - interesting.",
-              "right": "They has already learned tennis in the library - interesting."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I69"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Technology: Gadgets):",
-          "tts_en": "The coach has already driven a window in the hospital!.",
-          "correct_answer": "The coach has already driven a window in the hospital!.",
-          "mastery_tag": "listening",
-          "interaction_id": "U55_I70"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "Fast1316"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o3",
-              "text": "Calm"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I71"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 438 - Technology: Gadgets:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Sigue recto y delante de la iglesia hay un supermercado - amazing",
-              "back": "Go straight on and in front of the church there is a supermarket. - amazing"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I72"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 438 (Technology: Gadgets):",
-          "instruction_en": "Compare Technology: Gadgets with another topic. [Ref: 41]",
-          "mastery_tag": "writing",
-          "interaction_id": "U55_I73"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 438 (Technology: Gadgets):",
-          "stimulus_en": "Study Technology: Gadgets now. (237)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U55_I74"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
-          "stimulus": "Matching set 1509",
-          "items": [
-            {
-              "id": "i0",
-              "text": "The correct thing!",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "\u2013 Con partes del d\u00eda - 209",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "on + train/ bus/ plane/ bike/ motorbike - interesting",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "cuando hablamos de forma m\u00e1s espec\u00edfica. - interesting"
-            },
-            {
-              "id": "m0",
-              "text": "I went to a state school.!"
-            },
-            {
-              "id": "m1",
-              "text": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n) - 209"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U55_I75"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Technology: Gadgets):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado. (today)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "she doesn\u2019t often write to me..."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U55_I76"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "main_text": "In Technology: Gadgets (1554), She [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "drank"
-                },
-                {
-                  "id": "o2",
-                  "text": "drink"
                 }
               ]
             },
@@ -1757,66 +539,78 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U55_I77"
+          "interaction_id": "U55_I25"
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Technology: Gadgets:",
-          "stimulus_en": "I has already worked a printer in the beach - 165.",
-          "stimulus_es": "I ya ha worked a printer en the beach - 165.",
+          "prompt_es": "Elige 380 para Technology: Gadgets:",
+          "stimulus_en": "They has already planned a door in the museum!.",
+          "stimulus_es": "They ya ha planned a door en the museum!.",
           "options": [
             {
               "id": "o3",
-              "text": "Other 6712"
-            },
-            {
-              "id": "o2",
-              "text": "yet"
+              "text": "Other 3946"
             },
             {
               "id": "o1",
               "text": "already"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U55_I78"
+          "interaction_id": "U55_I26"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Technology: Gadgets:",
+          "prompt_es": "Ordena 380 sobre Technology: Gadgets:",
           "options": [
             {
-              "id": "w6",
-              "text": "the"
+              "id": "w4",
+              "text": "studied"
+            },
+            {
+              "id": "w9",
+              "text": "hotel"
             },
             {
               "id": "w3",
-              "text": "organized"
-            },
-            {
-              "id": "w4",
-              "text": "football"
-            },
-            {
-              "id": "w2",
               "text": "already"
             },
             {
               "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "You"
-            },
-            {
-              "id": "w7",
-              "text": "garden"
+              "text": "a"
             },
             {
               "id": "w1",
+              "text": "pilot"
+            },
+            {
+              "id": "w6",
+              "text": "bag"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w10",
+              "text": "(today)"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w2",
               "text": "has"
+            },
+            {
+              "id": "w7",
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -1827,51 +621,1272 @@
             "w4",
             "w5",
             "w6",
-            "w7"
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U55_I27"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 435 (Technology: Gadgets):",
+          "stimulus_en": "Our neighbors has ___ driven a pen in the gym - amazing.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U55_I28"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 435 (Technology: Gadgets)",
+          "stimulus_en": "The driver has already cleaned an apple in the library (today).",
+          "stimulus_es": "Ref: The driver ya ha cleaned an apple en the library (today).",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U55_I29"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 435 (Technology: Gadgets):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The student ya ha watched a watch en the city (today).",
+              "right": "The student has already watched a watch in the city (today)."
+            },
+            {
+              "id": "p1",
+              "left": "The police officer ya ha cleaned a television en school - interesting.",
+              "right": "The police officer has already cleaned a television in school - interesting."
+            },
+            {
+              "id": "p2",
+              "left": "He ya ha planned a laptop en the balcony (now).",
+              "right": "He has already planned a laptop in the balcony (now)."
+            },
+            {
+              "id": "p3",
+              "left": "A colleague ya ha listened a gift en the country....",
+              "right": "A colleague has already listened a gift in the country...."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I30"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 435 (Technology: Gadgets):",
+          "tts_en": "The player has already drunk an email in the street - 133.",
+          "correct_answer": "The player has already drunk an email in the street - 133.",
+          "mastery_tag": "listening",
+          "interaction_id": "U55_I31"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 435:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "Slow3393"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
+            },
+            {
+              "id": "o2",
+              "text": "Berlin"
+            },
+            {
+              "id": "o0",
+              "text": "London"
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I32"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 435 - Technology: Gadgets:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "The correct thing.",
+              "back": "on the Internet."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I33"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 435 (Technology: Gadgets):",
+          "instruction_en": "Review Technology: Gadgets from last week. [Ref: 91]",
+          "mastery_tag": "writing",
+          "interaction_id": "U55_I34"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 435 (Technology: Gadgets):",
+          "stimulus_en": "Where is Technology: Gadgets? (952)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U55_I35"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 381 (Technology: Gadgets):",
+          "stimulus": "Matching set 7892",
+          "items": [
+            {
+              "id": "i0",
+              "text": "6. it / rain in the summer / often / doesn\u2019t - amazing",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo - interesting",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "\u2013 Seasons (estaciones)...",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "in summer, in winter...."
+            },
+            {
+              "id": "m1",
+              "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. - interesting"
+            },
+            {
+              "id": "m0",
+              "text": "it doesn\u2019t often rain in the summer - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U55_I36"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 381 (Technology: Gadgets):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado...."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Sally often borrows money from her friends!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I37"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 381 (Technology: Gadgets):",
+          "main_text": "In Technology: Gadgets (6050), My sister [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "listened"
+                },
+                {
+                  "id": "o2",
+                  "text": "listen"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drove"
+                },
+                {
+                  "id": "o2",
+                  "text": "drive"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U55_I38"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 381 para Technology: Gadgets:",
+          "stimulus_en": "The waiter has already drunk a newspaper in the university....",
+          "stimulus_es": "The waiter ya ha drunk a newspaper en the university....",
+          "options": [
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o3",
+              "text": "Other 3694"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U55_I39"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 381 sobre Technology: Gadgets:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "spoken"
+            },
+            {
+              "id": "w10",
+              "text": "interesting"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "gift"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w9",
+              "text": "restaurant"
+            },
+            {
+              "id": "w1",
+              "text": "player"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U55_I40"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 436 (Technology: Gadgets):",
+          "stimulus_en": "Sarah has ___ worked coffee in the university!.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U55_I41"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 436 (Technology: Gadgets)",
+          "stimulus_en": "The scientist has yet traveled a door in the balcony - amazing.",
+          "stimulus_es": "Ref: The scientist ya ha traveled a door en the balcony - amazing.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U55_I42"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 436 (Technology: Gadgets):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Maria ya ha spoken a bag en Paris - interesting.",
+              "right": "Maria has already spoken a bag in Paris - interesting."
+            },
+            {
+              "id": "p1",
+              "left": "They ya ha eaten a door en the woods..",
+              "right": "They has already eaten a door in the woods.."
+            },
+            {
+              "id": "p2",
+              "left": "The baker ya ha stopped a printer en the hotel (today).",
+              "right": "The baker has already stopped a printer in the hotel (today)."
+            },
+            {
+              "id": "p3",
+              "left": "The scientist ya ha drunk a dog en the university - interesting.",
+              "right": "The scientist has already drunk a dog in the university - interesting."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I43"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 436 (Technology: Gadgets):",
+          "tts_en": "You has already met a window in the stadium - interesting.",
+          "correct_answer": "You has already met a window in the stadium - interesting.",
+          "mastery_tag": "listening",
+          "interaction_id": "U55_I44"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 436:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "pizza"
+            },
+            {
+              "id": "o2",
+              "text": "salad"
+            },
+            {
+              "id": "o1",
+              "text": "burger"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            },
+            {
+              "id": "o4",
+              "text": "rain2575"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I45"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 436 - Technology: Gadgets:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "1. el primer elemento (de esos tres que dec\u00edamos antes) es una persona. Ejemplo - 462",
+              "back": "John\u2018s job is boring. - 462"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I46"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 436 (Technology: Gadgets):",
+          "instruction_en": "A small story about Technology: Gadgets. [Ref: 20]",
+          "mastery_tag": "writing",
+          "interaction_id": "U55_I47"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 436 (Technology: Gadgets):",
+          "stimulus_en": "Study Technology: Gadgets now. (778)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U55_I48"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 382 (Technology: Gadgets):",
+          "stimulus": "Matching set 173",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Has jugado alguna vez al ajedrez?!",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "A qu\u00e9 hora sale el autob\u00fas?.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "have you ever played chess!"
+            },
+            {
+              "id": "m2",
+              "text": "how often do you have Italian classes? = I have every Tuesday.."
+            },
+            {
+              "id": "m1",
+              "text": "What time does the bus leave."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U55_I49"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 382 (Technology: Gadgets):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Why didn\u2019t you tell me (now)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "I haven\u2019t got a car. - interesting"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I50"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 382 (Technology: Gadgets):",
+          "main_text": "In Technology: Gadgets (853), The police officer [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "read"
+                },
+                {
+                  "id": "o2",
+                  "text": "read"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cooked"
+                },
+                {
+                  "id": "o2",
+                  "text": "cook"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U55_I51"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 382 para Technology: Gadgets:",
+          "stimulus_en": "John has already read coffee in the office (today).",
+          "stimulus_es": "John ya ha read coffee en the office (today).",
+          "options": [
+            {
+              "id": "o2",
+              "text": "yet"
+            },
+            {
+              "id": "o3",
+              "text": "Other 7025"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U55_I52"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 382 sobre Technology: Gadgets:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "actress"
+            },
+            {
+              "id": "w8",
+              "text": "beach"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w5",
+              "text": "music"
+            },
+            {
+              "id": "w4",
+              "text": "walked"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w9",
+              "text": "846"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U55_I53"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 437 (Technology: Gadgets):",
+          "stimulus_en": "The police officer has ___ eaten a bag in the kitchen (today).",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U55_I54"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 437 (Technology: Gadgets)",
+          "stimulus_en": "The scientist has yet spoken a sandwich in the stadium (now).",
+          "stimulus_es": "Ref: The scientist ya ha spoken a sandwich en the stadium (now).",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U55_I55"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 437 (Technology: Gadgets):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "My brother ya ha prepared an apple en the station..",
+              "right": "My brother has already prepared an apple in the station.."
+            },
+            {
+              "id": "p1",
+              "left": "The teacher ya ha organized a printer en the museum (now).",
+              "right": "The teacher has already organized a printer in the museum (now)."
+            },
+            {
+              "id": "p2",
+              "left": "The artist ya ha studied a chair en the office....",
+              "right": "The artist has already studied a chair in the office...."
+            },
+            {
+              "id": "p3",
+              "left": "They ya ha designed a door en the park..",
+              "right": "They has already designed a door in the park.."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I56"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 437 (Technology: Gadgets):",
+          "tts_en": "My cousin has already learned music in the university (now).",
+          "correct_answer": "My cousin has already learned music in the university (now).",
+          "mastery_tag": "listening",
+          "interaction_id": "U55_I57"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 437:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "bike3135"
+            },
+            {
+              "id": "o1",
+              "text": "banana"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
+            },
+            {
+              "id": "o0",
+              "text": "apple"
+            },
+            {
+              "id": "o3",
+              "text": "mango"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I58"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 437 - Technology: Gadgets:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "The correct thing...",
+              "back": "I went to a state school...."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I59"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 437 (Technology: Gadgets):",
+          "instruction_en": "Compare Technology: Gadgets with another topic. [Ref: 66]",
+          "mastery_tag": "writing",
+          "interaction_id": "U55_I60"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 437 (Technology: Gadgets):",
+          "stimulus_en": "Focus on Technology: Gadgets. (347)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U55_I61"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 383 (Technology: Gadgets):",
+          "stimulus": "Matching set 1917",
+          "items": [
+            {
+              "id": "i0",
+              "text": "3. usually/ arrives late / the bus...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "car / I / drink / never / if / drive / I / alcohol / a (today)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1 - amazing",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "I never drink alcohol if I drive a car (today)"
+            },
+            {
+              "id": "m0",
+              "text": "the bus usually arrives late..."
+            },
+            {
+              "id": "m2",
+              "text": "Can I have your ID/ passport/ credit card?. - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U55_I62"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 383 (Technology: Gadgets):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "any + thing = en oraci\u00f3n INTERROGATIVA.."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural.!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I63"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 383 (Technology: Gadgets):",
+          "main_text": "In Technology: Gadgets (6757), The boss [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "learned"
+                },
+                {
+                  "id": "o2",
+                  "text": "learn"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "finished"
+                },
+                {
+                  "id": "o2",
+                  "text": "finish"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U55_I64"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 383 para Technology: Gadgets:",
+          "stimulus_en": "The boss has already eaten a door in the bedroom....",
+          "stimulus_es": "The boss ya ha eaten a door en the bedroom....",
+          "options": [
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o3",
+              "text": "Other 7976"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U55_I65"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 383 sobre Technology: Gadgets:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "brother"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w10",
+              "text": "interesting"
+            },
+            {
+              "id": "w6",
+              "text": "house"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "kitchen"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w4",
+              "text": "bought"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U55_I66"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 438 (Technology: Gadgets):",
+          "stimulus_en": "John has ___ built a report in the supermarket!.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U55_I67"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 438 (Technology: Gadgets)",
+          "stimulus_en": "The student has yet prepared a television in the restaurant (now).",
+          "stimulus_es": "Ref: The student ya ha prepared a television en the restaurant (now).",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U55_I68"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 438 (Technology: Gadgets):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The nurse ya ha watched a ticket en the library!.",
+              "right": "The nurse has already watched a ticket in the library!."
+            },
+            {
+              "id": "p1",
+              "left": "I ya ha drunk a dog en the kitchen!.",
+              "right": "I has already drunk a dog in the kitchen!."
+            },
+            {
+              "id": "p2",
+              "left": "The coach ya ha sold a printer en the park (today).",
+              "right": "The coach has already sold a printer in the park (today)."
+            },
+            {
+              "id": "p3",
+              "left": "The doctor ya ha visited an apple en the gym (now).",
+              "right": "The doctor has already visited an apple in the gym (now)."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I69"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 438 (Technology: Gadgets):",
+          "tts_en": "My sister has already watched a clock in the mountains!.",
+          "correct_answer": "My sister has already watched a clock in the mountains!.",
+          "mastery_tag": "listening",
+          "interaction_id": "U55_I70"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 438:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Berlin"
+            },
+            {
+              "id": "o0",
+              "text": "London"
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o4",
+              "text": "Slow5896"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I71"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 438 - Technology: Gadgets:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "\u2013 For + period of time (not defined) - amazing",
+              "back": "durante o desde hace - amazing"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I72"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 438 (Technology: Gadgets):",
+          "instruction_en": "Describe Technology: Gadgets in 5 words. [Ref: 92]",
+          "mastery_tag": "writing",
+          "interaction_id": "U55_I73"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 438 (Technology: Gadgets):",
+          "stimulus_en": "Focus on Technology: Gadgets. (931)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U55_I74"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 384 (Technology: Gadgets):",
+          "stimulus": "Matching set 3325",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Funciona ese ordenador? (today)",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Y por \u00faltimo, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo - 422",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Litre (Br Eng) (Am Eng.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "would you like some coke? - 422"
+            },
+            {
+              "id": "m0",
+              "text": "Does that computer work (today)"
+            },
+            {
+              "id": "m2",
+              "text": "liter) Litro."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U55_I75"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 384 (Technology: Gadgets):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "preguntas en ingl\u00e9s (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Have you finished the project yet."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U55_I76"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 384 (Technology: Gadgets):",
+          "main_text": "In Technology: Gadgets (5954), The boss [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "listened"
+                },
+                {
+                  "id": "o2",
+                  "text": "listen"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "called"
+                },
+                {
+                  "id": "o2",
+                  "text": "call"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U55_I77"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 384 para Technology: Gadgets:",
+          "stimulus_en": "The driver has already stopped a bag in the bedroom..",
+          "stimulus_es": "The driver ya ha stopped a bag en the bedroom..",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 3605"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U55_I78"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 384 sobre Technology: Gadgets:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "ticket"
+            },
+            {
+              "id": "w3",
+              "text": "visited"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w9",
+              "text": "(now)"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "already"
+            },
+            {
+              "id": "w8",
+              "text": "hotel"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U55_I79"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "stimulus_en": "My brother has ___ cleaned a pen in the station - amazing.",
+          "prompt_es": "Completa 439 (Technology: Gadgets):",
+          "stimulus_en": "The manager has ___ received a watch in the garden..",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U55_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Technology: Gadgets)",
-          "stimulus_en": "The student has yet met a report in London..",
-          "stimulus_es": "Ref: The student ya ha met a report en London..",
+          "prompt_es": "\u00bfCorrecto? 439 (Technology: Gadgets)",
+          "stimulus_en": "Our neighbors has yet helped a dog in the garage!.",
+          "stimulus_es": "Ref: Our neighbors ya ha helped a dog en the garage!.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U55_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
+          "prompt_es": "Relaciona 439 (Technology: Gadgets):",
           "pairs": [
             {
               "id": "p0",
-              "left": "I ya ha listened a door en the office (today).",
-              "right": "I has already listened a door in the office (today)."
+              "left": "The police officer ya ha organized a phone en school - amazing.",
+              "right": "The police officer has already organized a phone in school - amazing."
             },
             {
               "id": "p1",
-              "left": "My friend ya ha stopped a movie en the shop - 450.",
-              "right": "My friend has already stopped a movie in the shop - 450."
+              "left": "The lawyer ya ha read a sandwich en the country (today).",
+              "right": "The lawyer has already read a sandwich in the country (today)."
             },
             {
               "id": "p2",
-              "left": "My friend ya ha played English en the city (today).",
-              "right": "My friend has already played English in the city (today)."
+              "left": "The player ya ha written English en the museum (now).",
+              "right": "The player has already written English in the museum (now)."
             },
             {
               "id": "p3",
-              "left": "The doctor ya ha learned a movie en the hotel (now).",
-              "right": "The doctor has already learned a movie in the hotel (now)."
+              "left": "The manager ya ha created English en the park - amazing.",
+              "right": "The manager has already created English in the park - amazing."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1879,31 +1894,31 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Technology: Gadgets):",
-          "tts_en": "The scientist has already visited a letter in the gym (now).",
-          "correct_answer": "The scientist has already visited a letter in the gym (now).",
+          "prompt_es": "Dictado 439 (Technology: Gadgets):",
+          "tts_en": "My sister has already worked a pizza in the gym..",
+          "correct_answer": "My sister has already worked a pizza in the gym..",
           "mastery_tag": "listening",
           "interaction_id": "U55_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 439:",
           "options": [
             {
-              "id": "o2",
-              "text": "train"
-            },
-            {
-              "id": "o4",
-              "text": "cat4034"
+              "id": "o3",
+              "text": "plane"
             },
             {
               "id": "o1",
               "text": "bus"
             },
             {
-              "id": "o3",
-              "text": "plane"
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o4",
+              "text": "cat1661"
             },
             {
               "id": "o0",
@@ -1920,8 +1935,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "often / money / Sally / her / borrows / friends / from - amazing",
-              "back": "Sally often borrows money from her friends - amazing"
+              "front": "Has estudiado alguna vez un idioma extranjero diferente al ingl\u00e9s?...",
+              "back": "have you ever studied a foreign laguage apart from English..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1930,50 +1945,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 439 (Technology: Gadgets):",
-          "instruction_en": "Compare Technology: Gadgets with another topic. [Ref: 32]",
+          "instruction_en": "Describe Technology: Gadgets in 5 words. [Ref: 34]",
           "mastery_tag": "writing",
           "interaction_id": "U55_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 439 (Technology: Gadgets):",
-          "stimulus_en": "This is Technology: Gadgets. (566)",
+          "stimulus_en": "Focus on Technology: Gadgets. (815)",
           "mastery_tag": "speaking",
           "interaction_id": "U55_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
-          "stimulus": "Matching set 6251",
+          "prompt_es": "Une 385 (Technology: Gadgets):",
+          "stimulus": "Matching set 4304",
           "items": [
             {
               "id": "i0",
-              "text": "Otro ejemplo - interesting",
+              "text": "Common mistake - interesting",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Esto si es un precio exacto, pero \u00bfy si hay c\u00e9ntimos? Entonces dir\u00edamos.",
+              "text": "A qu\u00e9 hora sale el tren? - amazing",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca?...",
+              "text": "The correct thing - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb.."
+              "id": "m2",
+              "text": "Have you got a car? - amazing"
             },
             {
               "id": "m0",
-              "text": "My partner is the most beautiful woman in the world - interesting"
+              "text": "I hadn\u2019t got a mobile. - interesting"
             },
             {
-              "id": "m2",
-              "text": "What\u2019s the happiest day you\u2019ve ever had..."
+              "id": "m1",
+              "text": "What time does the train leave - amazing"
             }
           ],
           "correct_answer": {
@@ -1986,7 +2001,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Technology: Gadgets):",
+          "prompt_es": "Clasifica 385 (Technology: Gadgets):",
           "categories": [
             {
               "id": "c1",
@@ -1994,7 +2009,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "have you ever played chess - interesting"
+                  "text": "Have you ever tried Thai food - 111"
                 }
               ]
             },
@@ -2004,7 +2019,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "liter) Litro."
+                  "text": "The police always try to keep the order - 548"
                 }
               ]
             }
@@ -2014,19 +2029,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "main_text": "In Technology: Gadgets (6928), The student [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 385 (Technology: Gadgets):",
+          "main_text": "In Technology: Gadgets (6319), Maria [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "fixed"
+                  "text": "visited"
                 },
                 {
                   "id": "o2",
-                  "text": "fix"
+                  "text": "visit"
                 }
               ]
             },
@@ -2035,11 +2050,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "traveled"
+                  "text": "learned"
                 },
                 {
                   "id": "o2",
-                  "text": "travel"
+                  "text": "learn"
                 }
               ]
             }
@@ -2053,21 +2068,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Technology: Gadgets:",
-          "stimulus_en": "The manager has already spoken a clock in the garage..",
-          "stimulus_es": "The manager ya ha spoken a clock en the garage..",
+          "prompt_es": "Elige 385 para Technology: Gadgets:",
+          "stimulus_en": "The manager has already started a report in the restaurant - interesting.",
+          "stimulus_es": "The manager ya ha started a report en the restaurant - interesting.",
           "options": [
             {
-              "id": "o1",
-              "text": "already"
-            },
-            {
               "id": "o3",
-              "text": "Other 4634"
+              "text": "Other 400"
             },
             {
               "id": "o2",
               "text": "yet"
+            },
+            {
+              "id": "o1",
+              "text": "already"
             }
           ],
           "correct_answer": "o1",
@@ -2076,34 +2091,50 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Technology: Gadgets:",
+          "prompt_es": "Ordena 385 sobre Technology: Gadgets:",
           "options": [
             {
-              "id": "w1",
-              "text": "has"
-            },
-            {
               "id": "w4",
-              "text": "football"
-            },
-            {
-              "id": "w3",
-              "text": "organized"
+              "text": "eaten"
             },
             {
               "id": "w0",
-              "text": "They"
+              "text": "The"
             },
             {
-              "id": "w5",
+              "id": "w1",
+              "text": "player"
+            },
+            {
+              "id": "w7",
               "text": "in"
             },
             {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "country"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
               "id": "w6",
-              "text": "Paris"
+              "text": "door"
+            },
+            {
+              "id": "w10",
+              "text": "(today)"
             },
             {
               "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w3",
               "text": "already"
             }
           ],
@@ -2114,51 +2145,55 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U55_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Technology: Gadgets):",
-          "stimulus_en": "He has ___ sold a dog in the supermarket - 482.",
+          "prompt_es": "Completa 440 (Technology: Gadgets):",
+          "stimulus_en": "Our neighbors has ___ finished a watch in the library (today).",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U55_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Technology: Gadgets)",
-          "stimulus_en": "A colleague has yet sold a radio in the stadium....",
-          "stimulus_es": "Ref: A colleague ya ha sold a radio en the stadium....",
+          "prompt_es": "\u00bfCorrecto? 440 (Technology: Gadgets)",
+          "stimulus_en": "My cousin has yet helped a newspaper in the hotel..",
+          "stimulus_es": "Ref: My cousin ya ha helped a newspaper en the hotel..",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U55_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Technology: Gadgets):",
+          "prompt_es": "Relaciona 440 (Technology: Gadgets):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The singer ya ha called a door en the bank....",
-              "right": "The singer has already called a door in the bank...."
+              "left": "I ya ha visited a ticket en the street (today).",
+              "right": "I has already visited a ticket in the street (today)."
             },
             {
               "id": "p1",
-              "left": "The baker ya ha organized a pen en the restaurant (now).",
-              "right": "The baker has already organized a pen in the restaurant (now)."
+              "left": "She ya ha sent football en the airport (now).",
+              "right": "She has already sent football in the airport (now)."
             },
             {
               "id": "p2",
-              "left": "The player ya ha cleaned a report en the airport - 442.",
-              "right": "The player has already cleaned a report in the airport - 442."
+              "left": "They ya ha checked music en the country (now).",
+              "right": "They has already checked music in the country (now)."
             },
             {
               "id": "p3",
-              "left": "The doctor ya ha cooked a ticket en the station!.",
-              "right": "The doctor has already cooked a ticket in the station!."
+              "left": "The artist ya ha learned a laptop en the mountains - amazing.",
+              "right": "The artist has already learned a laptop in the mountains - amazing."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2166,35 +2201,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Technology: Gadgets):",
-          "tts_en": "The baker has already visited a door in the balcony....",
-          "correct_answer": "The baker has already visited a door in the balcony....",
+          "prompt_es": "Dictado 440 (Technology: Gadgets):",
+          "tts_en": "My brother has already sold an apple in the beach (today).",
+          "correct_answer": "My brother has already sold an apple in the beach (today).",
           "mastery_tag": "listening",
           "interaction_id": "U55_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 440:",
           "options": [
             {
-              "id": "o1",
-              "text": "Moon"
+              "id": "o4",
+              "text": "Pen5836"
             },
             {
               "id": "o2",
-              "text": "Star"
-            },
-            {
-              "id": "o4",
-              "text": "Hot5398"
+              "text": "Sofa"
             },
             {
               "id": "o3",
-              "text": "Planet"
+              "text": "Bed"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
             },
             {
               "id": "o0",
-              "text": "Sun"
+              "text": "Table"
             }
           ],
           "correct_answer": "o4",
@@ -2207,8 +2242,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Crees que bajar\u00e1 el paro este a\u00f1o? - amazing",
-              "back": "Do you think that unemployment will go down this year - amazing"
+              "front": "Al lado de mi casa hay una guarder\u00eda - interesting",
+              "back": "Next to my house there is a nursery school. - interesting"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2217,14 +2252,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 440 (Technology: Gadgets):",
-          "instruction_en": "Describe Technology: Gadgets in 5 words. [Ref: 93]",
+          "instruction_en": "Explain Present Perfect basics using Technology: Gadgets. [Ref: 81]",
           "mastery_tag": "writing",
           "interaction_id": "U55_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 440 (Technology: Gadgets):",
-          "stimulus_en": "This is Technology: Gadgets. (574)",
+          "stimulus_en": "Look at Technology: Gadgets. (231)",
           "mastery_tag": "speaking",
           "interaction_id": "U55_I100"
         }

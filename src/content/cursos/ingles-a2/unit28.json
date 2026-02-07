@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "stimulus_en": "This a printer is ___ in the cinema - 326.",
+          "prompt_es": "Completa 217 (Past: My Childhood):",
+          "stimulus_en": "This a cat is ___ in the station....",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
-          "stimulus_en": "This a book is the most expensive in the hospital....",
-          "stimulus_es": "Ref: Este a book es el m\u00e1s caro en the hospital....",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 217 (Past: My Childhood)",
+          "stimulus_en": "This English is expensive in the stadium (now).",
+          "stimulus_es": "Ref: Este English es el m\u00e1s caro en the stadium (now).",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
+          "prompt_es": "Relaciona 217 (Past: My Childhood):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a radio es el m\u00e1s caro en the office (today).",
-              "right": "This a radio is the most expensive in the office (today)."
+              "left": "Este a bag es el m\u00e1s caro en the garage (now).",
+              "right": "This a bag is the most expensive in the garage (now)."
             },
             {
               "id": "p1",
-              "left": "Este football es el m\u00e1s caro en the station - interesting.",
-              "right": "This football is the most expensive in the station - interesting."
+              "left": "Este a movie es el m\u00e1s caro en the museum..",
+              "right": "This a movie is the most expensive in the museum.."
             },
             {
               "id": "p2",
-              "left": "Este a sandwich es el m\u00e1s caro en the garage - 754.",
-              "right": "This a sandwich is the most expensive in the garage - 754."
+              "left": "Este a report es el m\u00e1s caro en the beach - 697.",
+              "right": "This a report is the most expensive in the beach - 697."
             },
             {
               "id": "p3",
-              "left": "Este a window es el m\u00e1s caro en the cinema - 726.",
-              "right": "This a window is the most expensive in the cinema - 726."
+              "left": "Este a printer es el m\u00e1s caro en the bedroom (today).",
+              "right": "This a printer is the most expensive in the bedroom (today)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Past: My Childhood):",
-          "tts_en": "This a gift is the most expensive in the country (today).",
-          "correct_answer": "This a gift is the most expensive in the country (today).",
+          "prompt_es": "Dictado 217 (Past: My Childhood):",
+          "tts_en": "This a pizza is the most expensive in the restaurant - interesting.",
+          "correct_answer": "This a pizza is the most expensive in the restaurant - interesting.",
           "mastery_tag": "listening",
           "interaction_id": "U28_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 217:",
           "options": [
             {
+              "id": "o2",
+              "text": "green"
+            },
+            {
               "id": "o4",
-              "text": "June3142"
+              "text": "run8048"
             },
             {
               "id": "o1",
-              "text": "Tuesday"
+              "text": "red"
             },
             {
               "id": "o0",
-              "text": "Monday"
+              "text": "blue"
             },
             {
               "id": "o3",
-              "text": "Friday"
-            },
-            {
-              "id": "o2",
-              "text": "Sunday"
+              "text": "pink"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Al lado de mi colegio no hay bloques de pisos!",
-              "back": "Next to my school there aren\u2019t any apartment blocks.!"
+              "front": "Tienes hijos? - amazing",
+              "back": "Do you have any children - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 217 (Past: My Childhood):",
-          "instruction_en": "Draft an email regarding Past: My Childhood. [Ref: 57]",
+          "instruction_en": "List 3 facts about Past: My Childhood. [Ref: 98]",
           "mastery_tag": "writing",
           "interaction_id": "U28_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 217 (Past: My Childhood):",
-          "stimulus_en": "Talk about Past: My Childhood. (953)",
+          "stimulus_en": "Study Past: My Childhood now. (731)",
           "mastery_tag": "speaking",
           "interaction_id": "U28_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
-          "stimulus": "Matching set 7125",
+          "prompt_es": "Une 190 (Past: My Childhood):",
+          "stimulus": "Matching set 5543",
           "items": [
             {
               "id": "i0",
-              "text": "A lot of, countable y uncountable.",
+              "text": "A qu\u00e9 hora sale el autob\u00fas?...",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "The correct thing (today)",
+              "text": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo - amazing",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "me / Paul / helps / sometimes / my / with / homework (now)",
+              "text": "C\u00f3mo se llama \u00e9l? - interesting",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m0",
+              "text": "What time does the bus leave..."
+            },
+            {
               "id": "m1",
-              "text": "I have 3 children. (today)"
+              "text": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. - amazing"
             },
             {
               "id": "m2",
-              "text": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework (now)"
-            },
-            {
-              "id": "m0",
-              "text": "I have a lot of money and I have a lot of friends.."
+              "text": "What\u2019s his name - interesting"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Past: My Childhood):",
+          "prompt_es": "Clasifica 190 (Past: My Childhood):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I\u2019ll see you on Saturday - interesting"
+                  "text": "information, homework, work. - interesting"
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "preguntas en ingl\u00e9s..."
+                  "text": "What\u2019s the highest building you\u2019ve ever visited - amazing"
                 }
               ]
             }
@@ -202,24 +202,11 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "main_text": "In Past: My Childhood (3263), The waiter [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 190 (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (8086), I [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "checked"
-                },
-                {
-                  "id": "o2",
-                  "text": "check"
-                }
-              ]
-            },
-            {
-              "id": "2",
               "options": [
                 {
                   "id": "o1",
@@ -228,6 +215,19 @@
                 {
                   "id": "o2",
                   "text": "meet"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "organized"
+                },
+                {
+                  "id": "o2",
+                  "text": "organize"
                 }
               ]
             }
@@ -241,21 +241,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Past: My Childhood:",
-          "stimulus_en": "This a computer is the most expensive in the hotel - amazing.",
-          "stimulus_es": "Este a computer es el m\u00e1s caro en the hotel - amazing.",
+          "prompt_es": "Elige 190 para Past: My Childhood:",
+          "stimulus_en": "This a bag is the most expensive in school (now).",
+          "stimulus_es": "Este a bag es el m\u00e1s caro en school (now).",
           "options": [
-            {
-              "id": "o1",
-              "text": "the most expensive"
-            },
-            {
-              "id": "o3",
-              "text": "Other 9166"
-            },
             {
               "id": "o2",
               "text": "expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Other 7151"
+            },
+            {
+              "id": "o1",
+              "text": "the most expensive"
             }
           ],
           "correct_answer": "o1",
@@ -264,43 +264,43 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Past: My Childhood:",
+          "prompt_es": "Ordena 190 sobre Past: My Childhood:",
           "options": [
             {
               "id": "w5",
-              "text": "most"
+              "text": "expensive"
+            },
+            {
+              "id": "w8",
+              "text": "amazing"
             },
             {
               "id": "w6",
-              "text": "expensive"
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "tennis"
+            },
+            {
+              "id": "w7",
+              "text": "school"
+            },
+            {
+              "id": "w2",
+              "text": "is"
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w2",
-              "text": "dog"
-            },
-            {
-              "id": "w8",
-              "text": "Paris"
-            },
-            {
-              "id": "w7",
-              "text": "in"
+              "id": "w4",
+              "text": "most"
             },
             {
               "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w4",
               "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "a"
             }
           ],
           "correct_answer": [
@@ -319,44 +319,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "stimulus_en": "This a dog is ___ in the office - 666.",
+          "prompt_es": "Completa 218 (Past: My Childhood):",
+          "stimulus_en": "This football is ___ in the library (now).",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I15"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
-          "stimulus_en": "This English is expensive in the hospital (today).",
-          "stimulus_es": "Ref: Este English es el m\u00e1s caro en the hospital (today).",
+          "prompt_es": "\u00bfCorrecto? 218 (Past: My Childhood)",
+          "stimulus_en": "This a television is expensive in the park - amazing.",
+          "stimulus_es": "Ref: Este a television es el m\u00e1s caro en the park - amazing.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I16"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
+          "prompt_es": "Relaciona 218 (Past: My Childhood):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a printer es el m\u00e1s caro en the garage - interesting.",
-              "right": "This a printer is the most expensive in the garage - interesting."
+              "left": "Este a window es el m\u00e1s caro en the beach!.",
+              "right": "This a window is the most expensive in the beach!."
             },
             {
               "id": "p1",
-              "left": "Este a television es el m\u00e1s caro en the park - interesting.",
-              "right": "This a television is the most expensive in the park - interesting."
+              "left": "Este a computer es el m\u00e1s caro en the mountains!.",
+              "right": "This a computer is the most expensive in the mountains!."
             },
             {
               "id": "p2",
-              "left": "Este a phone es el m\u00e1s caro en the restaurant - 816.",
-              "right": "This a phone is the most expensive in the restaurant - 816."
+              "left": "Este a printer es el m\u00e1s caro en the bedroom!.",
+              "right": "This a printer is the most expensive in the bedroom!."
             },
             {
               "id": "p3",
-              "left": "Este a bike es el m\u00e1s caro en the gym..",
-              "right": "This a bike is the most expensive in the gym.."
+              "left": "Este a sandwich es el m\u00e1s caro en the garage - 677.",
+              "right": "This a sandwich is the most expensive in the garage - 677."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -364,35 +364,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Past: My Childhood):",
-          "tts_en": "This a table is the most expensive in the supermarket!.",
-          "correct_answer": "This a table is the most expensive in the supermarket!.",
+          "prompt_es": "Dictado 218 (Past: My Childhood):",
+          "tts_en": "This football is the most expensive in the street - amazing.",
+          "correct_answer": "This football is the most expensive in the street - amazing.",
           "mastery_tag": "listening",
           "interaction_id": "U28_I18"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 218:",
           "options": [
             {
+              "id": "o4",
+              "text": "run5571"
+            },
+            {
               "id": "o2",
-              "text": "Angry"
+              "text": "green"
             },
             {
               "id": "o1",
-              "text": "Sad"
+              "text": "red"
             },
             {
               "id": "o3",
-              "text": "Calm"
+              "text": "pink"
             },
             {
               "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o4",
-              "text": "Fast3977"
+              "text": "blue"
             }
           ],
           "correct_answer": "o4",
@@ -405,8 +405,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "2. La hamburguesa de Harry - amazing",
-              "back": "Harry\u2019s burger - amazing"
+              "front": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo (now)",
+              "back": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -415,50 +415,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 218 (Past: My Childhood):",
-          "instruction_en": "Describe Past: My Childhood in 5 words. [Ref: 22]",
+          "instruction_en": "Review Past: My Childhood from last week. [Ref: 53]",
           "mastery_tag": "writing",
           "interaction_id": "U28_I21"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 218 (Past: My Childhood):",
-          "stimulus_en": "Look at Past: My Childhood. (991)",
+          "stimulus_en": "Repeat Past: My Childhood. (247)",
           "mastery_tag": "speaking",
           "interaction_id": "U28_I22"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
-          "stimulus": "Matching set 3174",
+          "prompt_es": "Une 191 (Past: My Childhood):",
+          "stimulus": "Matching set 8075",
           "items": [
             {
               "id": "i0",
-              "text": "I / fish / often / hours / for / catching / anything / without...",
+              "text": "Y por \u00faltimo, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo (now)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo - amazing",
+              "text": "Has visto alguna vez una pel\u00edcula en versi\u00f3n original? (now)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca?.",
+              "text": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo - 320",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. - amazing"
-            },
-            {
               "id": "m0",
-              "text": "I often fish for hours without catching anything..."
+              "text": "would you like some coke? (now)"
             },
             {
               "id": "m2",
-              "text": "What\u2019s the funniest joke you\u2019ve ever been told."
+              "text": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. - 320"
+            },
+            {
+              "id": "m1",
+              "text": "have you ever seen a film in original version (now)"
             }
           ],
           "correct_answer": {
@@ -471,7 +471,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Past: My Childhood):",
+          "prompt_es": "Clasifica 191 (Past: My Childhood):",
           "categories": [
             {
               "id": "c1",
@@ -479,7 +479,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Jonathan usually visits the dentist (now)"
+                  "text": "The girls\u2019 ball..."
                 }
               ]
             },
@@ -489,7 +489,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "My friend has a lot of money. (now)"
+                  "text": "Spain\u2018s monuments are very nice. - amazing"
                 }
               ]
             }
@@ -499,19 +499,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "main_text": "In Past: My Childhood (1860), The player [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 191 (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (5898), The waiter [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "walked"
+                  "text": "learned"
                 },
                 {
                   "id": "o2",
-                  "text": "walk"
+                  "text": "learn"
                 }
               ]
             },
@@ -520,11 +520,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "visited"
+                  "text": "designed"
                 },
                 {
                   "id": "o2",
-                  "text": "visit"
+                  "text": "design"
                 }
               ]
             }
@@ -538,21 +538,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Past: My Childhood:",
-          "stimulus_en": "This a movie is the most expensive in the museum - interesting.",
-          "stimulus_es": "Este a movie es el m\u00e1s caro en the museum - interesting.",
+          "prompt_es": "Elige 191 para Past: My Childhood:",
+          "stimulus_en": "This a computer is the most expensive in the shop (now).",
+          "stimulus_es": "Este a computer es el m\u00e1s caro en the shop (now).",
           "options": [
             {
               "id": "o3",
-              "text": "Other 3396"
-            },
-            {
-              "id": "o2",
-              "text": "expensive"
+              "text": "Other 761"
             },
             {
               "id": "o1",
               "text": "the most expensive"
+            },
+            {
+              "id": "o2",
+              "text": "expensive"
             }
           ],
           "correct_answer": "o1",
@@ -561,51 +561,47 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Past: My Childhood:",
+          "prompt_es": "Ordena 191 sobre Past: My Childhood:",
           "options": [
             {
-              "id": "w9",
-              "text": "university"
-            },
-            {
-              "id": "w1",
-              "text": "a"
+              "id": "w4",
+              "text": "the"
             },
             {
               "id": "w5",
               "text": "most"
             },
             {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w10",
-              "text": "(now)"
-            },
-            {
-              "id": "w7",
-              "text": "in"
+              "id": "w8",
+              "text": "London"
             },
             {
               "id": "w6",
               "text": "expensive"
             },
             {
-              "id": "w2",
-              "text": "printer"
-            },
-            {
               "id": "w3",
               "text": "is"
             },
             {
-              "id": "w8",
-              "text": "the"
+              "id": "w7",
+              "text": "in"
             },
             {
               "id": "w0",
               "text": "This"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "camera"
+            },
+            {
+              "id": "w9",
+              "text": "amazing"
             }
           ],
           "correct_answer": [
@@ -618,52 +614,51 @@
             "w6",
             "w7",
             "w8",
-            "w9",
-            "w10"
+            "w9"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U28_I27"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "stimulus_en": "This a letter is ___ in the country!.",
+          "prompt_es": "Completa 219 (Past: My Childhood):",
+          "stimulus_en": "This a car is ___ in the restaurant (today).",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
-          "stimulus_en": "This a letter is expensive in the bedroom - interesting.",
-          "stimulus_es": "Ref: Este a letter es el m\u00e1s caro en the bedroom - interesting.",
+          "prompt_es": "\u00bfCorrecto? 219 (Past: My Childhood)",
+          "stimulus_en": "This a bike is expensive in the city - 724.",
+          "stimulus_es": "Ref: Este a bike es el m\u00e1s caro en the city - 724.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I29"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
+          "prompt_es": "Relaciona 219 (Past: My Childhood):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a movie es el m\u00e1s caro en the restaurant - interesting.",
-              "right": "This a movie is the most expensive in the restaurant - interesting."
+              "left": "Este a chair es el m\u00e1s caro en the museum!.",
+              "right": "This a chair is the most expensive in the museum!."
             },
             {
               "id": "p1",
-              "left": "Este a television es el m\u00e1s caro en the mountains (now).",
-              "right": "This a television is the most expensive in the mountains (now)."
+              "left": "Este a printer es el m\u00e1s caro en the garage - 938.",
+              "right": "This a printer is the most expensive in the garage - 938."
             },
             {
               "id": "p2",
-              "left": "Este a bike es el m\u00e1s caro en the supermarket - amazing.",
-              "right": "This a bike is the most expensive in the supermarket - amazing."
+              "left": "Este a laptop es el m\u00e1s caro en the library - amazing.",
+              "right": "This a laptop is the most expensive in the library - amazing."
             },
             {
               "id": "p3",
-              "left": "Este a pen es el m\u00e1s caro en the museum (today).",
-              "right": "This a pen is the most expensive in the museum (today)."
+              "left": "Este a gift es el m\u00e1s caro en the park....",
+              "right": "This a gift is the most expensive in the park...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -671,35 +666,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Past: My Childhood):",
-          "tts_en": "This a television is the most expensive in the office!.",
-          "correct_answer": "This a television is the most expensive in the office!.",
+          "prompt_es": "Dictado 219 (Past: My Childhood):",
+          "tts_en": "This a bag is the most expensive in the country (today).",
+          "correct_answer": "This a bag is the most expensive in the country (today).",
           "mastery_tag": "listening",
           "interaction_id": "U28_I31"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 219:",
           "options": [
             {
-              "id": "o3",
-              "text": "mango"
-            },
-            {
-              "id": "o4",
-              "text": "bike9197"
-            },
-            {
               "id": "o0",
-              "text": "apple"
-            },
-            {
-              "id": "o2",
-              "text": "pear"
+              "text": "Guitar"
             },
             {
               "id": "o1",
-              "text": "banana"
+              "text": "Piano"
+            },
+            {
+              "id": "o4",
+              "text": "Book2443"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
             }
           ],
           "correct_answer": "o4",
@@ -712,8 +707,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales!",
-              "back": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio!"
+              "front": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca - interesting",
+              "back": "I hardly ever go to the cinema = casi nunca voy al cine. - interesting"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -722,50 +717,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 219 (Past: My Childhood):",
-          "instruction_en": "Compare Past: My Childhood with another topic. [Ref: 38]",
+          "instruction_en": "Compare Past: My Childhood with another topic. [Ref: 46]",
           "mastery_tag": "writing",
           "interaction_id": "U28_I34"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 219 (Past: My Childhood):",
-          "stimulus_en": "Where is Past: My Childhood? (772)",
+          "stimulus_en": "Talk about Past: My Childhood. (866)",
           "mastery_tag": "speaking",
           "interaction_id": "U28_I35"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
-          "stimulus": "Matching set 1567",
+          "prompt_es": "Une 192 (Past: My Childhood):",
+          "stimulus": "Matching set 7048",
           "items": [
             {
               "id": "i0",
-              "text": "Verbos irregulares - 618",
+              "text": "on + train/ bus/ plane/ bike/ motorbike.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Encontraste algo ah\u00ed?!",
+              "text": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos!",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "\u2013 For + period of time (not defined).",
+              "text": "De qui\u00e9n es ese m\u00f3vil? - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m2",
+              "text": "Whose mobile is that - amazing"
+            },
+            {
               "id": "m0",
-              "text": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna. - 618"
+              "text": "cuando hablamos de forma m\u00e1s espec\u00edfica.."
             },
             {
               "id": "m1",
-              "text": "any + thing = en oraci\u00f3n INTERROGATIVA.!"
-            },
-            {
-              "id": "m2",
-              "text": "durante o desde hace."
+              "text": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle.!"
             }
           ],
           "correct_answer": {
@@ -778,7 +773,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Past: My Childhood):",
+          "prompt_es": "Clasifica 192 (Past: My Childhood):",
           "categories": [
             {
               "id": "c1",
@@ -786,7 +781,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I don\u2019t have many friends (friends is countable). - 883"
+                  "text": "I can to speak English. - amazing"
                 }
               ]
             },
@@ -796,7 +791,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "in summer, in winter. (today)"
+                  "text": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the..."
                 }
               ]
             }
@@ -806,19 +801,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "main_text": "In Past: My Childhood (7477), The architect [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 192 (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (2688), The coach [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "ate"
+                  "text": "wrote"
                 },
                 {
                   "id": "o2",
-                  "text": "eat"
+                  "text": "write"
                 }
               ]
             },
@@ -827,11 +822,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "finished"
+                  "text": "taught"
                 },
                 {
                   "id": "o2",
-                  "text": "finish"
+                  "text": "teach"
                 }
               ]
             }
@@ -845,21 +840,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Past: My Childhood:",
-          "stimulus_en": "This coffee is the most expensive in the supermarket - amazing.",
-          "stimulus_es": "Este coffee es el m\u00e1s caro en the supermarket - amazing.",
+          "prompt_es": "Elige 192 para Past: My Childhood:",
+          "stimulus_en": "This a ticket is the most expensive in the station - interesting.",
+          "stimulus_es": "Este a ticket es el m\u00e1s caro en the station - interesting.",
           "options": [
             {
               "id": "o3",
-              "text": "Other 7502"
-            },
-            {
-              "id": "o1",
-              "text": "the most expensive"
+              "text": "Other 8603"
             },
             {
               "id": "o2",
               "text": "expensive"
+            },
+            {
+              "id": "o1",
+              "text": "the most expensive"
             }
           ],
           "correct_answer": "o1",
@@ -868,47 +863,47 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Past: My Childhood:",
+          "prompt_es": "Ordena 192 sobre Past: My Childhood:",
           "options": [
             {
               "id": "w5",
               "text": "most"
             },
             {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "table"
-            },
-            {
-              "id": "w8",
-              "text": "the"
+              "id": "w6",
+              "text": "expensive"
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w9",
-              "text": "office"
+              "id": "w1",
+              "text": "a"
             },
             {
               "id": "w4",
               "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "printer"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "hospital"
             }
           ],
           "correct_answer": [
@@ -928,44 +923,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "stimulus_en": "This a pen is ___ in the city..",
+          "prompt_es": "Completa 220 (Past: My Childhood):",
+          "stimulus_en": "This coffee is ___ in the woods - 199.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I41"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
-          "stimulus_en": "This an apple is expensive in the park!.",
-          "stimulus_es": "Ref: Este an apple es el m\u00e1s caro en the park!.",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 220 (Past: My Childhood)",
+          "stimulus_en": "This a letter is the most expensive in the stadium - amazing.",
+          "stimulus_es": "Ref: Este a letter es el m\u00e1s caro en the stadium - amazing.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I42"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
+          "prompt_es": "Relaciona 220 (Past: My Childhood):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a laptop es el m\u00e1s caro en the museum!.",
-              "right": "This a laptop is the most expensive in the museum!."
+              "left": "Este tennis es el m\u00e1s caro en the hospital!.",
+              "right": "This tennis is the most expensive in the hospital!."
             },
             {
               "id": "p1",
-              "left": "Este a table es el m\u00e1s caro en the supermarket (now).",
-              "right": "This a table is the most expensive in the supermarket (now)."
+              "left": "Este English es el m\u00e1s caro en the bank - amazing.",
+              "right": "This English is the most expensive in the bank - amazing."
             },
             {
               "id": "p2",
-              "left": "Este a house es el m\u00e1s caro en the park - 319.",
-              "right": "This a house is the most expensive in the park - 319."
+              "left": "Este a chair es el m\u00e1s caro en Paris (now).",
+              "right": "This a chair is the most expensive in Paris (now)."
             },
             {
               "id": "p3",
-              "left": "Este a car es el m\u00e1s caro en the library - interesting.",
-              "right": "This a car is the most expensive in the library - interesting."
+              "left": "Este a dog es el m\u00e1s caro en the airport!.",
+              "right": "This a dog is the most expensive in the airport!."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -973,35 +968,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Past: My Childhood):",
-          "tts_en": "This a bag is the most expensive in the shop..",
-          "correct_answer": "This a bag is the most expensive in the shop..",
+          "prompt_es": "Dictado 220 (Past: My Childhood):",
+          "tts_en": "This music is the most expensive in the balcony - 994.",
+          "correct_answer": "This music is the most expensive in the balcony - 994.",
           "mastery_tag": "listening",
           "interaction_id": "U28_I44"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 220:",
           "options": [
             {
-              "id": "o1",
-              "text": "banana"
+              "id": "o2",
+              "text": "Flute"
             },
             {
               "id": "o3",
-              "text": "mango"
+              "text": "Drums"
             },
             {
               "id": "o0",
-              "text": "apple"
-            },
-            {
-              "id": "o2",
-              "text": "pear"
+              "text": "Guitar"
             },
             {
               "id": "o4",
-              "text": "bike2523"
+              "text": "Book366"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
             }
           ],
           "correct_answer": "o4",
@@ -1014,8 +1009,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "A qu\u00e9 hora sale el autob\u00fas?...",
-              "back": "What time does the bus leave..."
+              "front": "La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo...",
+              "back": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1024,50 +1019,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 220 (Past: My Childhood):",
-          "instruction_en": "Compare Past: My Childhood with another topic. [Ref: 19]",
+          "instruction_en": "Why is Past: My Childhood important? [Ref: 83]",
           "mastery_tag": "writing",
           "interaction_id": "U28_I47"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 220 (Past: My Childhood):",
-          "stimulus_en": "Where is Past: My Childhood? (585)",
+          "stimulus_en": "This is Past: My Childhood. (832)",
           "mastery_tag": "speaking",
           "interaction_id": "U28_I48"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
-          "stimulus": "Matching set 3428",
+          "prompt_es": "Une 193 (Past: My Childhood):",
+          "stimulus": "Matching set 1500",
           "items": [
             {
               "id": "i0",
-              "text": "5. El zumo de tu abuela...",
+              "text": "Puedo abrir la ventana, por favor? - interesting",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "on + train/ bus/ plane/ bike/ motorbike - interesting",
+              "text": "Tyre (Am Eng (today)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Hay muchos bares cerca de mi casa (today)",
+              "text": "Al lado de mi colegio no hay bloques de pisos.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "cuando hablamos de forma m\u00e1s espec\u00edfica. - interesting"
+              "id": "m0",
+              "text": "may I open the window, please - interesting"
             },
             {
               "id": "m2",
-              "text": "There are a lot of bars near my house. (today)"
+              "text": "Next to my school there aren\u2019t any apartment blocks.."
             },
             {
-              "id": "m0",
-              "text": "Your grandmother\u2019s juice..."
+              "id": "m1",
+              "text": "tire) Neum\u00e1tico (today)"
             }
           ],
           "correct_answer": {
@@ -1080,7 +1075,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Past: My Childhood):",
+          "prompt_es": "Clasifica 193 (Past: My Childhood):",
           "categories": [
             {
               "id": "c1",
@@ -1088,7 +1083,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "lift) Ascensor - amazing"
+                  "text": "I never drink alcohol if I drive a car..."
                 }
               ]
             },
@@ -1098,7 +1093,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "\u00bfDe d\u00f3nde eres? (now)"
+                  "text": "Who\u2019s the shyest person you\u2019ve ever met (today)"
                 }
               ]
             }
@@ -1108,19 +1103,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "main_text": "In Past: My Childhood (5640), The coach [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 193 (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (959), The singer [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "sent"
+                  "text": "ate"
                 },
                 {
                   "id": "o2",
-                  "text": "send"
+                  "text": "eat"
                 }
               ]
             },
@@ -1129,11 +1124,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "created"
+                  "text": "designed"
                 },
                 {
                   "id": "o2",
-                  "text": "create"
+                  "text": "design"
                 }
               ]
             }
@@ -1147,9 +1142,9 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Past: My Childhood:",
-          "stimulus_en": "This a bike is the most expensive in the library (now).",
-          "stimulus_es": "Este a bike es el m\u00e1s caro en the library (now).",
+          "prompt_es": "Elige 193 para Past: My Childhood:",
+          "stimulus_en": "This a pen is the most expensive in Paris - amazing.",
+          "stimulus_es": "Este a pen es el m\u00e1s caro en Paris - amazing.",
           "options": [
             {
               "id": "o2",
@@ -1161,7 +1156,7 @@
             },
             {
               "id": "o3",
-              "text": "Other 6039"
+              "text": "Other 7647"
             }
           ],
           "correct_answer": "o1",
@@ -1170,10 +1165,38 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Past: My Childhood:",
+          "prompt_es": "Ordena 193 sobre Past: My Childhood:",
           "options": [
             {
+              "id": "w10",
+              "text": "interesting"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
               "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "bank"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w8",
               "text": "the"
             },
             {
@@ -1181,40 +1204,12 @@
               "text": "in"
             },
             {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w10",
-              "text": "(now)"
+              "id": "w2",
+              "text": "movie"
             },
             {
               "id": "w0",
               "text": "This"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w2",
-              "text": "cat"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "most"
-            },
-            {
-              "id": "w9",
-              "text": "shop"
             }
           ],
           "correct_answer": [
@@ -1235,44 +1230,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "stimulus_en": "This a pizza is ___ in the office!.",
+          "prompt_es": "Completa 221 (Past: My Childhood):",
+          "stimulus_en": "This a house is ___ in the garage - amazing.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I54"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
-          "stimulus_en": "This a table is the most expensive in the bank - amazing.",
-          "stimulus_es": "Ref: Este a table es el m\u00e1s caro en the bank - amazing.",
+          "prompt_es": "\u00bfCorrecto? 221 (Past: My Childhood)",
+          "stimulus_en": "This a newspaper is the most expensive in the office (today).",
+          "stimulus_es": "Ref: Este a newspaper es el m\u00e1s caro en the office (today).",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I55"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
+          "prompt_es": "Relaciona 221 (Past: My Childhood):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a laptop es el m\u00e1s caro en the country....",
-              "right": "This a laptop is the most expensive in the country...."
+              "left": "Este a chair es el m\u00e1s caro en the city (today).",
+              "right": "This a chair is the most expensive in the city (today)."
             },
             {
               "id": "p1",
-              "left": "Este English es el m\u00e1s caro en the airport - amazing.",
-              "right": "This English is the most expensive in the airport - amazing."
+              "left": "Este a dog es el m\u00e1s caro en the hospital - interesting.",
+              "right": "This a dog is the most expensive in the hospital - interesting."
             },
             {
               "id": "p2",
-              "left": "Este a window es el m\u00e1s caro en the country - interesting.",
-              "right": "This a window is the most expensive in the country - interesting."
+              "left": "Este a letter es el m\u00e1s caro en the office....",
+              "right": "This a letter is the most expensive in the office...."
             },
             {
               "id": "p3",
-              "left": "Este a movie es el m\u00e1s caro en the bank - 616.",
-              "right": "This a movie is the most expensive in the bank - 616."
+              "left": "Este a bag es el m\u00e1s caro en the hospital!.",
+              "right": "This a bag is the most expensive in the hospital!."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1280,35 +1275,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Past: My Childhood):",
-          "tts_en": "This a pizza is the most expensive in the garage - 797.",
-          "correct_answer": "This a pizza is the most expensive in the garage - 797.",
+          "prompt_es": "Dictado 221 (Past: My Childhood):",
+          "tts_en": "This a gift is the most expensive in the stadium - 138.",
+          "correct_answer": "This a gift is the most expensive in the stadium - 138.",
           "mastery_tag": "listening",
           "interaction_id": "U28_I57"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 221:",
           "options": [
             {
               "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
-            },
-            {
-              "id": "o4",
-              "text": "Book2398"
-            },
-            {
-              "id": "o3",
-              "text": "Drums"
+              "text": "Chair"
             },
             {
               "id": "o2",
-              "text": "Flute"
+              "text": "Sofa"
+            },
+            {
+              "id": "o4",
+              "text": "Pen7325"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
             }
           ],
           "correct_answer": "o4",
@@ -1321,8 +1316,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Bookstore (Br Eng (today)",
-              "back": "bookshop) Librer\u00eda (today)"
+              "front": "Verbos irregulares...",
+              "back": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1331,50 +1326,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 221 (Past: My Childhood):",
-          "instruction_en": "A small story about Past: My Childhood. [Ref: 51]",
+          "instruction_en": "Compare Past: My Childhood with another topic. [Ref: 16]",
           "mastery_tag": "writing",
           "interaction_id": "U28_I60"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 221 (Past: My Childhood):",
-          "stimulus_en": "I like Past: My Childhood. (273)",
+          "stimulus_en": "Repeat Past: My Childhood. (745)",
           "mastery_tag": "speaking",
           "interaction_id": "U28_I61"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
-          "stimulus": "Matching set 1278",
+          "prompt_es": "Une 194 (Past: My Childhood):",
+          "stimulus": "Matching set 8435",
           "items": [
             {
               "id": "i0",
-              "text": "El marido de mi prima es alem\u00e1n y su madre irlandesa...",
+              "text": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales - interesting",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Alguien dijo mi nombre? - 858",
+              "text": "Eraser (Br Eng - interesting",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "1. el primer elemento (de esos tres que dec\u00edamos antes) es una persona. Ejemplo...",
+              "text": "Metre (Br Eng) (Am Eng!",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "Did anybody say my name - 858"
-            },
-            {
               "id": "m2",
-              "text": "John\u2018s job is boring...."
+              "text": "meter) Metro!"
             },
             {
               "id": "m0",
-              "text": "my cousin\u2019s husband is German and his mother Irish...."
+              "text": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/. - interesting"
+            },
+            {
+              "id": "m1",
+              "text": "rubber) Goma de borrar - interesting"
             }
           ],
           "correct_answer": {
@@ -1387,7 +1382,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Past: My Childhood):",
+          "prompt_es": "Clasifica 194 (Past: My Childhood):",
           "categories": [
             {
               "id": "c1",
@@ -1395,7 +1390,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I hadn\u2019t got a mobile. - interesting"
+                  "text": "on Monday, on Wednesday, etc. (today)"
                 }
               ]
             },
@@ -1405,7 +1400,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/.!"
+                  "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n!..."
                 }
               ]
             }
@@ -1415,618 +1410,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "main_text": "In Past: My Childhood (2811), The student [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 194 (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (6528), They [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "built"
+                  "text": "cleaned"
                 },
                 {
                   "id": "o2",
-                  "text": "build"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "met"
-                },
-                {
-                  "id": "o2",
-                  "text": "meet"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U28_I64"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Past: My Childhood:",
-          "stimulus_en": "This a cat is the most expensive in the beach!.",
-          "stimulus_es": "Este a cat es el m\u00e1s caro en the beach!.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "the most expensive"
-            },
-            {
-              "id": "o3",
-              "text": "Other 6164"
-            },
-            {
-              "id": "o2",
-              "text": "expensive"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U28_I65"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Past: My Childhood:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w1",
-              "text": "coffee"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w5",
-              "text": "expensive"
-            },
-            {
-              "id": "w4",
-              "text": "most"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w7",
-              "text": "London"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U28_I66"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "stimulus_en": "This a clock is ___ in Paris....",
-          "correct_answer": "the most expensive",
-          "mastery_tag": "grammar",
-          "interaction_id": "U28_I67"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
-          "stimulus_en": "This a phone is the most expensive in the supermarket - 257.",
-          "stimulus_es": "Ref: Este a phone es el m\u00e1s caro en the supermarket - 257.",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U28_I68"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Este a printer es el m\u00e1s caro en school....",
-              "right": "This a printer is the most expensive in school...."
-            },
-            {
-              "id": "p1",
-              "left": "Este a bike es el m\u00e1s caro en the hotel (now).",
-              "right": "This a bike is the most expensive in the hotel (now)."
-            },
-            {
-              "id": "p2",
-              "left": "Este a gift es el m\u00e1s caro en the woods (today).",
-              "right": "This a gift is the most expensive in the woods (today)."
-            },
-            {
-              "id": "p3",
-              "left": "Este a house es el m\u00e1s caro en the cinema....",
-              "right": "This a house is the most expensive in the cinema...."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U28_I69"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Past: My Childhood):",
-          "tts_en": "This an apple is the most expensive in the hospital..",
-          "correct_answer": "This an apple is the most expensive in the hospital..",
-          "mastery_tag": "listening",
-          "interaction_id": "U28_I70"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "rain7648"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o0",
-              "text": "pizza"
-            },
-            {
-              "id": "o2",
-              "text": "salad"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U28_I71"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 222 - Past: My Childhood:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "A qu\u00e9 hora sale el tren?!",
-              "back": "What time does the train leave!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U28_I72"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 222 (Past: My Childhood):",
-          "instruction_en": "Review Past: My Childhood from last week. [Ref: 62]",
-          "mastery_tag": "writing",
-          "interaction_id": "U28_I73"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 222 (Past: My Childhood):",
-          "stimulus_en": "Repeat Past: My Childhood. (396)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U28_I74"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
-          "stimulus": "Matching set 4639",
-          "items": [
-            {
-              "id": "i0",
-              "text": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir (today)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Algunos ejemplos...",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "car / I / drink / never / if / drive / I / alcohol / a!",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "I never drink alcohol if I drive a car!"
-            },
-            {
-              "id": "m1",
-              "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without..."
-            },
-            {
-              "id": "m0",
-              "text": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n. (today)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U28_I75"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Past: My Childhood):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. - amazing"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "\u2018m/ \u2018s, etc) (today)"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U28_I76"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "main_text": "In Past: My Childhood (1835), The teacher [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "helped"
-                },
-                {
-                  "id": "o2",
-                  "text": "help"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "started"
-                },
-                {
-                  "id": "o2",
-                  "text": "start"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U28_I77"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Past: My Childhood:",
-          "stimulus_en": "This a movie is the most expensive in the balcony!.",
-          "stimulus_es": "Este a movie es el m\u00e1s caro en the balcony!.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 2022"
-            },
-            {
-              "id": "o2",
-              "text": "expensive"
-            },
-            {
-              "id": "o1",
-              "text": "the most expensive"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U28_I78"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Past: My Childhood:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w2",
-              "text": "radio"
-            },
-            {
-              "id": "w9",
-              "text": "stadium"
-            },
-            {
-              "id": "w5",
-              "text": "most"
-            },
-            {
-              "id": "w10",
-              "text": "amazing"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U28_I79"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "stimulus_en": "This English is ___ in the street - amazing.",
-          "correct_answer": "the most expensive",
-          "mastery_tag": "grammar",
-          "interaction_id": "U28_I80"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
-          "stimulus_en": "This a pen is the most expensive in the kitchen (today).",
-          "stimulus_es": "Ref: Este a pen es el m\u00e1s caro en the kitchen (today).",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U28_I81"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Este tennis es el m\u00e1s caro en the beach....",
-              "right": "This tennis is the most expensive in the beach...."
-            },
-            {
-              "id": "p1",
-              "left": "Este a bag es el m\u00e1s caro en the office..",
-              "right": "This a bag is the most expensive in the office.."
-            },
-            {
-              "id": "p2",
-              "left": "Este a gift es el m\u00e1s caro en the university - interesting.",
-              "right": "This a gift is the most expensive in the university - interesting."
-            },
-            {
-              "id": "p3",
-              "left": "Este a gift es el m\u00e1s caro en the city (now).",
-              "right": "This a gift is the most expensive in the city (now)."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U28_I82"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Past: My Childhood):",
-          "tts_en": "This a camera is the most expensive in the university - interesting.",
-          "correct_answer": "This a camera is the most expensive in the university - interesting.",
-          "mastery_tag": "listening",
-          "interaction_id": "U28_I83"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Flute"
-            },
-            {
-              "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
-            },
-            {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o4",
-              "text": "Book2832"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U28_I84"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 223 - Past: My Childhood:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "TV / ever / hardly / I / in / watch / evenings / the.",
-              "back": "I hardly ever watch TV in the evenings."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U28_I85"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 223 (Past: My Childhood):",
-          "instruction_en": "List 3 facts about Past: My Childhood. [Ref: 57]",
-          "mastery_tag": "writing",
-          "interaction_id": "U28_I86"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 223 (Past: My Childhood):",
-          "stimulus_en": "Study Past: My Childhood now. (193)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U28_I87"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
-          "stimulus": "Matching set 2086",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Un ejemplo de to seguido de infinitivo es (today)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "The correct thing - amazing",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "2. Let\u2019s do the same with the first example - interesting",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject! - interesting"
-            },
-            {
-              "id": "m1",
-              "text": "on the Internet - amazing"
-            },
-            {
-              "id": "m0",
-              "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! (today)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U28_I88"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Past: My Childhood):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "What will the weather be like tomorrow? It\u2019ll be sunny. (now)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "What\u2019s the most difficult language you\u2019ve ever studied!"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U28_I89"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "main_text": "In Past: My Childhood (8825), The artist [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "created"
-                },
-                {
-                  "id": "o2",
-                  "text": "create"
+                  "text": "clean"
                 }
               ]
             },
@@ -2049,74 +1445,78 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U28_I90"
+          "interaction_id": "U28_I64"
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Past: My Childhood:",
-          "stimulus_en": "This a computer is the most expensive in the city - amazing.",
-          "stimulus_es": "Este a computer es el m\u00e1s caro en the city - amazing.",
+          "prompt_es": "Elige 194 para Past: My Childhood:",
+          "stimulus_en": "This a pen is the most expensive in the beach (today).",
+          "stimulus_es": "Este a pen es el m\u00e1s caro en the beach (today).",
           "options": [
             {
+              "id": "o2",
+              "text": "expensive"
+            },
+            {
               "id": "o3",
-              "text": "Other 1624"
+              "text": "Other 5297"
             },
             {
               "id": "o1",
               "text": "the most expensive"
-            },
-            {
-              "id": "o2",
-              "text": "expensive"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U28_I91"
+          "interaction_id": "U28_I65"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Past: My Childhood:",
+          "prompt_es": "Ordena 194 sobre Past: My Childhood:",
           "options": [
             {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
               "id": "w8",
-              "text": "Paris"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w4",
               "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "cat"
-            },
-            {
-              "id": "w1",
-              "text": "a"
             },
             {
               "id": "w5",
               "text": "most"
             },
             {
-              "id": "w9",
-              "text": "(today)"
-            },
-            {
               "id": "w6",
               "text": "expensive"
+            },
+            {
+              "id": "w9",
+              "text": "supermarket"
+            },
+            {
+              "id": "w2",
+              "text": "television"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w10",
+              "text": "interesting"
+            },
+            {
+              "id": "w7",
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -2129,51 +1529,656 @@
             "w6",
             "w7",
             "w8",
-            "w9"
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U28_I66"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 222 (Past: My Childhood):",
+          "stimulus_en": "This a ticket is ___ in the park..",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
+          "interaction_id": "U28_I67"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 222 (Past: My Childhood)",
+          "stimulus_en": "This a gift is expensive in the cinema - interesting.",
+          "stimulus_es": "Ref: Este a gift es el m\u00e1s caro en the cinema - interesting.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U28_I68"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 222 (Past: My Childhood):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Este a watch es el m\u00e1s caro en the street - amazing.",
+              "right": "This a watch is the most expensive in the street - amazing."
+            },
+            {
+              "id": "p1",
+              "left": "Este a ticket es el m\u00e1s caro en the restaurant - 542.",
+              "right": "This a ticket is the most expensive in the restaurant - 542."
+            },
+            {
+              "id": "p2",
+              "left": "Este a movie es el m\u00e1s caro en the library - amazing.",
+              "right": "This a movie is the most expensive in the library - amazing."
+            },
+            {
+              "id": "p3",
+              "left": "Este a cat es el m\u00e1s caro en the stadium - interesting.",
+              "right": "This a cat is the most expensive in the stadium - interesting."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U28_I69"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 222 (Past: My Childhood):",
+          "tts_en": "This a gift is the most expensive in the hotel (now).",
+          "correct_answer": "This a gift is the most expensive in the hotel (now).",
+          "mastery_tag": "listening",
+          "interaction_id": "U28_I70"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 222:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "pink"
+            },
+            {
+              "id": "o2",
+              "text": "green"
+            },
+            {
+              "id": "o1",
+              "text": "red"
+            },
+            {
+              "id": "o4",
+              "text": "run5942"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U28_I71"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 222 - Past: My Childhood:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Cabe destacar que la palabra every es singular en ingl\u00e9s, por tanto, tanto \u00abday\u00bb como cualquiera de los d\u00edas que pongamos, deben ir en singular. Es incorrecto decir (now)",
+              "back": "every days o every Tuesdays. (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U28_I72"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 222 (Past: My Childhood):",
+          "instruction_en": "Explain Superlatives with 'in' using Past: My Childhood. [Ref: 30]",
+          "mastery_tag": "writing",
+          "interaction_id": "U28_I73"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 222 (Past: My Childhood):",
+          "stimulus_en": "Where is Past: My Childhood? (603)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U28_I74"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 195 (Past: My Childhood):",
+          "stimulus": "Matching set 8393",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Common mistake - amazing",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "2. el primer elemento es un animal. Ejemplo - 822",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "Sometimes I have lunch in a restaurant.."
+            },
+            {
+              "id": "m0",
+              "text": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele. - amazing"
+            },
+            {
+              "id": "m2",
+              "text": "the bird\u2018s legs = las piernas del p\u00e1jaro. - 822"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U28_I75"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 195 (Past: My Childhood):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "\u00bfDe d\u00f3nde eres? - interesting"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "What\u2019s the hottest place you\u2019ve ever been to (today)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U28_I76"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 195 (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (3961), The artist [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "learned"
+                },
+                {
+                  "id": "o2",
+                  "text": "learn"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "played"
+                },
+                {
+                  "id": "o2",
+                  "text": "play"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U28_I77"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 195 para Past: My Childhood:",
+          "stimulus_en": "This a car is the most expensive in the garden - amazing.",
+          "stimulus_es": "Este a car es el m\u00e1s caro en the garden - amazing.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "the most expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Other 3267"
+            },
+            {
+              "id": "o2",
+              "text": "expensive"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U28_I78"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 195 sobre Past: My Childhood:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "sandwich"
+            },
+            {
+              "id": "w10",
+              "text": "interesting"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w9",
+              "text": "street"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U28_I79"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 223 (Past: My Childhood):",
+          "stimulus_en": "This a camera is ___ in the beach (today).",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
+          "interaction_id": "U28_I80"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 223 (Past: My Childhood)",
+          "stimulus_en": "This a dog is the most expensive in the bank - interesting.",
+          "stimulus_es": "Ref: Este a dog es el m\u00e1s caro en the bank - interesting.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U28_I81"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 223 (Past: My Childhood):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Este a cat es el m\u00e1s caro en the supermarket (today).",
+              "right": "This a cat is the most expensive in the supermarket (today)."
+            },
+            {
+              "id": "p1",
+              "left": "Este football es el m\u00e1s caro en the cinema (now).",
+              "right": "This football is the most expensive in the cinema (now)."
+            },
+            {
+              "id": "p2",
+              "left": "Este coffee es el m\u00e1s caro en the balcony..",
+              "right": "This coffee is the most expensive in the balcony.."
+            },
+            {
+              "id": "p3",
+              "left": "Este English es el m\u00e1s caro en the gym - 773.",
+              "right": "This English is the most expensive in the gym - 773."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U28_I82"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 223 (Past: My Childhood):",
+          "tts_en": "This a book is the most expensive in the shop - 862.",
+          "correct_answer": "This a book is the most expensive in the shop - 862.",
+          "mastery_tag": "listening",
+          "interaction_id": "U28_I83"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 223:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o4",
+              "text": "Fast6766"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U28_I84"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 223 - Past: My Childhood:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "De qui\u00e9n son esos libros? (today)",
+              "back": "Whose books are those= or Whose are those books (today)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U28_I85"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 223 (Past: My Childhood):",
+          "instruction_en": "Your daily routine in Past: My Childhood. [Ref: 82]",
+          "mastery_tag": "writing",
+          "interaction_id": "U28_I86"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 223 (Past: My Childhood):",
+          "stimulus_en": "The Superlatives with 'in' is here. (254)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U28_I87"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 196 (Past: My Childhood):",
+          "stimulus": "Matching set 9541",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Qu\u00e9 es \u00e9so? - interesting",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "1. Often / she / write to me/ doesn\u2019t - interesting",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Se pueden contraer = \u2018ve got/ haven\u2019t got (to be (today)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "What\u2019s that - interesting"
+            },
+            {
+              "id": "m1",
+              "text": "she doesn\u2019t often write to me - interesting"
+            },
+            {
+              "id": "m2",
+              "text": "\u2018m/ \u2018s, etc) (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U28_I88"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 196 (Past: My Childhood):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Peter\u2019s sisters (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject! (today)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U28_I89"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 196 (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (8886), The waiter [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "designed"
+                },
+                {
+                  "id": "o2",
+                  "text": "design"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "prepared"
+                },
+                {
+                  "id": "o2",
+                  "text": "prepare"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U28_I90"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 196 para Past: My Childhood:",
+          "stimulus_en": "This a watch is the most expensive in the stadium..",
+          "stimulus_es": "Este a watch es el m\u00e1s caro en the stadium..",
+          "options": [
+            {
+              "id": "o2",
+              "text": "expensive"
+            },
+            {
+              "id": "o1",
+              "text": "the most expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Other 7358"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U28_I91"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 196 sobre Past: My Childhood:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "cinema"
+            },
+            {
+              "id": "w5",
+              "text": "expensive"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w1",
+              "text": "coffee"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "most"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U28_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Past: My Childhood):",
-          "stimulus_en": "This a report is ___ in the supermarket - 280.",
+          "prompt_es": "Completa 224 (Past: My Childhood):",
+          "stimulus_en": "This tennis is ___ in the garden..",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
-          "stimulus_en": "This a pizza is the most expensive in the cinema....",
-          "stimulus_es": "Ref: Este a pizza es el m\u00e1s caro en the cinema....",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 224 (Past: My Childhood)",
+          "stimulus_en": "This a house is expensive in the garden (now).",
+          "stimulus_es": "Ref: Este a house es el m\u00e1s caro en the garden (now).",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Past: My Childhood):",
+          "prompt_es": "Relaciona 224 (Past: My Childhood):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a door es el m\u00e1s caro en the bank (now).",
-              "right": "This a door is the most expensive in the bank (now)."
+              "left": "Este football es el m\u00e1s caro en the cinema!.",
+              "right": "This football is the most expensive in the cinema!."
             },
             {
               "id": "p1",
-              "left": "Este a newspaper es el m\u00e1s caro en London - interesting.",
-              "right": "This a newspaper is the most expensive in London - interesting."
+              "left": "Este an email es el m\u00e1s caro en the office - interesting.",
+              "right": "This an email is the most expensive in the office - interesting."
             },
             {
               "id": "p2",
-              "left": "Este a phone es el m\u00e1s caro en the stadium - amazing.",
-              "right": "This a phone is the most expensive in the stadium - amazing."
+              "left": "Este a radio es el m\u00e1s caro en the office..",
+              "right": "This a radio is the most expensive in the office.."
             },
             {
               "id": "p3",
-              "left": "Este a laptop es el m\u00e1s caro en the mountains - 786.",
-              "right": "This a laptop is the most expensive in the mountains - 786."
+              "left": "Este football es el m\u00e1s caro en the park - 624.",
+              "right": "This football is the most expensive in the park - 624."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2181,35 +2186,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Past: My Childhood):",
-          "tts_en": "This a computer is the most expensive in the hotel - 648.",
-          "correct_answer": "This a computer is the most expensive in the hotel - 648.",
+          "prompt_es": "Dictado 224 (Past: My Childhood):",
+          "tts_en": "This a window is the most expensive in the beach (today).",
+          "correct_answer": "This a window is the most expensive in the beach (today).",
           "mastery_tag": "listening",
           "interaction_id": "U28_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 224:",
           "options": [
             {
-              "id": "o0",
-              "text": "apple"
-            },
-            {
               "id": "o3",
-              "text": "mango"
-            },
-            {
-              "id": "o2",
-              "text": "pear"
+              "text": "Planet"
             },
             {
               "id": "o1",
-              "text": "banana"
+              "text": "Moon"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
             },
             {
               "id": "o4",
-              "text": "bike1722"
+              "text": "Hot8405"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
             }
           ],
           "correct_answer": "o4",
@@ -2222,8 +2227,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n - interesting",
-              "back": "Sometimes I have lunch in a restaurant. - interesting"
+              "front": "Para responder en plural, dir\u00edamos.",
+              "back": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l).."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2232,14 +2237,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 224 (Past: My Childhood):",
-          "instruction_en": "Describe Past: My Childhood in 5 words. [Ref: 56]",
+          "instruction_en": "A small story about Past: My Childhood. [Ref: 14]",
           "mastery_tag": "writing",
           "interaction_id": "U28_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 224 (Past: My Childhood):",
-          "stimulus_en": "The Superlatives with 'in' is here. (580)",
+          "stimulus_en": "Talk about Past: My Childhood. (658)",
           "mastery_tag": "speaking",
           "interaction_id": "U28_I100"
         }

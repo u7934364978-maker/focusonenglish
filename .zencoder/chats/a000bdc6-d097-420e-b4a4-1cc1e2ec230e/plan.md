@@ -2,6 +2,15 @@
 
 ## Workflow Steps
 
+### [x] Step: Keyword Authority Study
+
+Perform a detailed study of the target keywords and the articles linked to them.
+
+1. [x] Analyze `seo-keyword-categorization.json` and `top_700_keywords.md` to identify target keywords.
+2. [x] Extract keywords from all blog posts in `src/content/blog`.
+3. [x] Generate a comprehensive report [keyword-authority-study.md](./keyword-authority-study.md) showing coverage and gaps.
+4. [x] Group keywords by search intent (Informational, Transactional, Navigational, Commercial). Result in [keyword-intent-grouping.md](./keyword-intent-grouping.md).
+
 ### [ ] Step: Requirements
 
 Create a Product Requirements Document (PRD) based on the feature description.

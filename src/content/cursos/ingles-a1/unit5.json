@@ -377,7 +377,8 @@
           ],
           "correct_answer": "opt1",
           "explanation": "El adjetivo \"good\" debe ir antes del sustantivo \"coffee\".",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "audioUrl": "/audio/courses/ingles-a1/expansion/unit5_exp_0_0.mp3"
         },
         {
           "interaction_id": "UNIT5_EXP_0_1",
@@ -399,7 +400,8 @@
           ],
           "correct_answer": "opt0",
           "explanation": "En inglés usamos \"cheese and tomato sandwich\" y el adjetivo \"expensive\" no cambia si es plural o singular.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "audioUrl": "/audio/courses/ingles-a1/expansion/unit5_exp_0_1.mp3"
         },
         {
           "interaction_id": "UNIT5_EXP_0_2",
@@ -421,7 +423,8 @@
           ],
           "correct_answer": "opt1",
           "explanation": "Adjetivo (tall) + Sustantivo (woman).",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "audioUrl": "/audio/courses/ingles-a1/expansion/unit5_exp_0_2.mp3"
         }
       ]
     }

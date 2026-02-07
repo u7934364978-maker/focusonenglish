@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "stimulus_en": "John likes a door, ___ John prefers an email....",
-          "correct_answer": "meanwhile",
+          "prompt_es": "Completa 353 (Daily Life: Weekends):",
+          "stimulus_en": "The boss likes an apple, ___ The boss prefers a laptop..",
+          "correct_answer": "although",
           "mastery_tag": "grammar",
           "interaction_id": "U45_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Weekends)",
-          "stimulus_en": "My sister likes a gift, but My sister prefers an email - interesting.",
-          "stimulus_es": "Ref: A My sister le gusta a gift, moreover My sister prefiere an email - interesting.",
+          "prompt_es": "\u00bfCorrecto? 353 (Daily Life: Weekends)",
+          "stimulus_en": "The player likes a clock, but The player prefers a window (today).",
+          "stimulus_es": "Ref: A The player le gusta a clock, therefore The player prefiere a window (today).",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U45_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
+          "prompt_es": "Relaciona 353 (Daily Life: Weekends):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A John le gusta a house, meanwhile John prefiere an apple (now).",
-              "right": "John likes a house, meanwhile John prefers an apple (now)."
+              "left": "A John le gusta a clock, consequently John prefiere a newspaper - amazing.",
+              "right": "John likes a clock, consequently John prefers a newspaper - amazing."
             },
             {
               "id": "p1",
-              "left": "A My brother le gusta a pen, besides My brother prefiere a movie - interesting.",
-              "right": "My brother likes a pen, besides My brother prefers a movie - interesting."
+              "left": "A The manager le gusta a watch, therefore The manager prefiere coffee..",
+              "right": "The manager likes a watch, therefore The manager prefers coffee.."
             },
             {
               "id": "p2",
-              "left": "A The nurse le gusta a phone, while The nurse prefiere a computer - amazing.",
-              "right": "The nurse likes a phone, while The nurse prefers a computer - amazing."
+              "left": "A The baker le gusta a computer, meanwhile The baker prefiere a sandwich - 371.",
+              "right": "The baker likes a computer, meanwhile The baker prefers a sandwich - 371."
             },
             {
               "id": "p3",
-              "left": "A The driver le gusta a cat, meanwhile The driver prefiere a gift..",
-              "right": "The driver likes a cat, meanwhile The driver prefers a gift.."
+              "left": "A The boss le gusta a watch, furthermore The boss prefiere a radio - interesting.",
+              "right": "The boss likes a watch, furthermore The boss prefers a radio - interesting."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Weekends):",
-          "tts_en": "The boss likes a clock, therefore The boss prefers a report..",
-          "correct_answer": "The boss likes a clock, therefore The boss prefers a report..",
+          "prompt_es": "Dictado 353 (Daily Life: Weekends):",
+          "tts_en": "The baker likes a movie, although The baker prefers a printer....",
+          "correct_answer": "The baker likes a movie, although The baker prefers a printer....",
           "mastery_tag": "listening",
           "interaction_id": "U45_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 353:",
           "options": [
             {
               "id": "o0",
-              "text": "Monday"
-            },
-            {
-              "id": "o2",
-              "text": "Sunday"
-            },
-            {
-              "id": "o3",
-              "text": "Friday"
-            },
-            {
-              "id": "o4",
-              "text": "June2161"
+              "text": "pizza"
             },
             {
               "id": "o1",
-              "text": "Tuesday"
+              "text": "burger"
+            },
+            {
+              "id": "o2",
+              "text": "salad"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            },
+            {
+              "id": "o4",
+              "text": "rain5411"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Qu\u00e9 quieres? (today)",
-              "back": "la respuesta es ilimitada, puede ser cualquier cosa. (today)"
+              "front": "Movie star (Br Eng!",
+              "back": "film star) Estrella de cine!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 353 (Daily Life: Weekends):",
-          "instruction_en": "Compare Daily Life: Weekends with another topic. [Ref: 57]",
+          "instruction_en": "Why is Daily Life: Weekends important? [Ref: 35]",
           "mastery_tag": "writing",
           "interaction_id": "U45_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 353 (Daily Life: Weekends):",
-          "stimulus_en": "Improve Daily Life: Weekends. (550)",
+          "stimulus_en": "Where is Daily Life: Weekends? (643)",
           "mastery_tag": "speaking",
           "interaction_id": "U45_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
-          "stimulus": "Matching set 7985",
+          "prompt_es": "Une 309 (Daily Life: Weekends):",
+          "stimulus": "Matching set 5549",
           "items": [
             {
               "id": "i0",
-              "text": "in + car/ taxi - amazing",
+              "text": "La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo (now)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Common mistake - 945",
+              "text": "Elevator (Br Eng...",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Qu\u00e9 tiempo verbal utilizamos? - interesting",
+              "text": "6. it / rain in the summer / often / doesn\u2019t - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "Had you got a motorbike\u2026? - 945"
+              "text": "lift) Ascensor..."
             },
             {
               "id": "m0",
-              "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). - amazing"
+              "text": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is. (now)"
             },
             {
               "id": "m2",
-              "text": "present continuous, porque lo est\u00e1s buscando en este momento. - interesting"
+              "text": "it doesn\u2019t often rain in the summer - amazing"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Weekends):",
+          "prompt_es": "Clasifica 309 (Daily Life: Weekends):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "my birthday is in February. - 235"
+                  "text": "Indirect questions en ingl\u00e9s. - interesting"
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "durante o desde hace - interesting"
+                  "text": "chemist) Farmacia."
                 }
               ]
             }
@@ -202,19 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "main_text": "In Daily Life: Weekends (2110), Maria [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 309 (Daily Life: Weekends):",
+          "main_text": "In Daily Life: Weekends (3676), Sarah [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "worked"
+                  "text": "finished"
                 },
                 {
                   "id": "o2",
-                  "text": "work"
+                  "text": "finish"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "received"
+                  "text": "designed"
                 },
                 {
                   "id": "o2",
-                  "text": "receive"
+                  "text": "design"
                 }
               ]
             }
@@ -241,21 +241,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Weekends:",
-          "stimulus_en": "The singer likes a sandwich, nonetheless The singer prefers music - 770.",
-          "stimulus_es": "A The singer le gusta a sandwich, nonetheless The singer prefiere music - 770.",
+          "prompt_es": "Elige 309 para Daily Life: Weekends:",
+          "stimulus_en": "We likes a phone, nevertheless We prefers a pen (today).",
+          "stimulus_es": "A We le gusta a phone, nevertheless We prefiere a pen (today).",
           "options": [
             {
-              "id": "o1",
-              "text": "nonetheless"
+              "id": "o3",
+              "text": "Other 5729"
             },
             {
               "id": "o2",
               "text": "but"
             },
             {
-              "id": "o3",
-              "text": "Other 6365"
+              "id": "o1",
+              "text": "nevertheless"
             }
           ],
           "correct_answer": "o1",
@@ -264,59 +264,668 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Weekends:",
+          "prompt_es": "Ordena 309 sobre Daily Life: Weekends:",
           "options": [
             {
-              "id": "w10",
-              "text": "prefers"
+              "id": "w1",
+              "text": "colleague"
             },
             {
               "id": "w0",
-              "text": "My"
+              "text": "A"
+            },
+            {
+              "id": "w7",
+              "text": "colleague"
             },
             {
               "id": "w6",
+              "text": "A"
+            },
+            {
+              "id": "w9",
+              "text": "tennis"
+            },
+            {
+              "id": "w5",
+              "text": "nevertheless"
+            },
+            {
+              "id": "w8",
+              "text": "prefers"
+            },
+            {
+              "id": "w3",
               "text": "a"
             },
             {
               "id": "w4",
-              "text": "email"
+              "text": "radio"
             },
             {
-              "id": "w13",
-              "text": "amazing"
+              "id": "w2",
+              "text": "likes"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U45_I14"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 354 (Daily Life: Weekends):",
+          "stimulus_en": "My brother likes a gift, ___ My brother prefers an apple!.",
+          "correct_answer": "since",
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I15"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 354 (Daily Life: Weekends)",
+          "stimulus_en": "The player likes a movie, but The player prefers a pizza - interesting.",
+          "stimulus_es": "Ref: A The player le gusta a movie, as a consequence The player prefiere a pizza - interesting.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I16"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 354 (Daily Life: Weekends):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "A The teacher le gusta a ticket, furthermore The teacher prefiere a car....",
+              "right": "The teacher likes a ticket, furthermore The teacher prefers a car...."
             },
             {
-              "id": "w12",
-              "text": "laptop"
+              "id": "p1",
+              "left": "A A colleague le gusta a clock, while A colleague prefiere a book (today).",
+              "right": "A colleague likes a clock, while A colleague prefers a book (today)."
+            },
+            {
+              "id": "p2",
+              "left": "A The baker le gusta a window, although The baker prefiere a television..",
+              "right": "The baker likes a window, although The baker prefers a television.."
+            },
+            {
+              "id": "p3",
+              "left": "A The pilot le gusta a book, despite The pilot prefiere coffee - interesting.",
+              "right": "The pilot likes a book, despite The pilot prefers coffee - interesting."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I17"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 354 (Daily Life: Weekends):",
+          "tts_en": "The architect likes a pizza, since The architect prefers a report (today).",
+          "correct_answer": "The architect likes a pizza, since The architect prefers a report (today).",
+          "mastery_tag": "listening",
+          "interaction_id": "U45_I18"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 354:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "apple"
+            },
+            {
+              "id": "o4",
+              "text": "bike7499"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
+            },
+            {
+              "id": "o3",
+              "text": "mango"
+            },
+            {
+              "id": "o1",
+              "text": "banana"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I19"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 354 - Daily Life: Weekends:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Qu\u00e9 tiempo verbal utilizamos? - 424",
+              "back": "present continuous, porque lo est\u00e1s buscando en este momento. - 424"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I20"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 354 (Daily Life: Weekends):",
+          "instruction_en": "Why is Daily Life: Weekends important? [Ref: 68]",
+          "mastery_tag": "writing",
+          "interaction_id": "U45_I21"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 354 (Daily Life: Weekends):",
+          "stimulus_en": "The Connectors is here. (348)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U45_I22"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 310 (Daily Life: Weekends):",
+          "stimulus": "Matching set 2236",
+          "items": [
+            {
+              "id": "i0",
+              "text": "I / fish / often / hours / for / catching / anything / without (today)",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo!",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "puedo abrir la ventana, por favor? (now)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet (now)"
+            },
+            {
+              "id": "m0",
+              "text": "I often fish for hours without catching anything (today)"
+            },
+            {
+              "id": "m1",
+              "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables.!"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U45_I23"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 310 (Daily Life: Weekends):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "la respuesta es ilimitada, puede ser cualquier cosa. - 987"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest).!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I24"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 310 (Daily Life: Weekends):",
+          "main_text": "In Daily Life: Weekends (7973), The actress [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "sent"
+                },
+                {
+                  "id": "o2",
+                  "text": "send"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "studied"
+                },
+                {
+                  "id": "o2",
+                  "text": "study"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U45_I25"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 310 para Daily Life: Weekends:",
+          "stimulus_en": "Sarah likes a camera, while Sarah prefers a newspaper (today).",
+          "stimulus_es": "A Sarah le gusta a camera, while Sarah prefiere a newspaper (today).",
+          "options": [
+            {
+              "id": "o1",
+              "text": "while"
+            },
+            {
+              "id": "o2",
+              "text": "but"
+            },
+            {
+              "id": "o3",
+              "text": "Other 1171"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I26"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 310 sobre Daily Life: Weekends:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "prefers"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w10",
+              "text": "ticket"
+            },
+            {
+              "id": "w4",
+              "text": "pizza"
+            },
+            {
+              "id": "w9",
+              "text": "a"
             },
             {
               "id": "w7",
-              "text": "consequence"
-            },
-            {
-              "id": "w3",
-              "text": "an"
+              "text": "student"
             },
             {
               "id": "w2",
               "text": "likes"
             },
             {
-              "id": "w9",
-              "text": "cousin"
+              "id": "w5",
+              "text": "whereas"
             },
             {
-              "id": "w8",
-              "text": "My"
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "The"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U45_I27"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 355 (Daily Life: Weekends):",
+          "stimulus_en": "Sarah likes a sandwich, ___ Sarah prefers a gift - interesting.",
+          "correct_answer": "moreover",
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I28"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 355 (Daily Life: Weekends)",
+          "stimulus_en": "The scientist likes a printer, but The scientist prefers football....",
+          "stimulus_es": "Ref: A The scientist le gusta a printer, nevertheless The scientist prefiere football....",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I29"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 355 (Daily Life: Weekends):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "A My friend le gusta a phone, furthermore My friend prefiere a laptop....",
+              "right": "My friend likes a phone, furthermore My friend prefers a laptop...."
+            },
+            {
+              "id": "p1",
+              "left": "A They le gusta a computer, nonetheless They prefiere a cat....",
+              "right": "They likes a computer, nonetheless They prefers a cat...."
+            },
+            {
+              "id": "p2",
+              "left": "A The chef le gusta an email, moreover The chef prefiere a sandwich!.",
+              "right": "The chef likes an email, moreover The chef prefers a sandwich!."
+            },
+            {
+              "id": "p3",
+              "left": "A The pilot le gusta an email, besides The pilot prefiere tennis....",
+              "right": "The pilot likes an email, besides The pilot prefers tennis...."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I30"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 355 (Daily Life: Weekends):",
+          "tts_en": "The waiter likes a clock, besides The waiter prefers a watch!.",
+          "correct_answer": "The waiter likes a clock, besides The waiter prefers a watch!.",
+          "mastery_tag": "listening",
+          "interaction_id": "U45_I31"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 355:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "rain4372"
+            },
+            {
+              "id": "o0",
+              "text": "pizza"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            },
+            {
+              "id": "o1",
+              "text": "burger"
+            },
+            {
+              "id": "o2",
+              "text": "salad"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I32"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 355 - Daily Life: Weekends:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Hay muchos bares cerca de mi casa (today)",
+              "back": "There are a lot of bars near my house. (today)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I33"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 355 (Daily Life: Weekends):",
+          "instruction_en": "Review Daily Life: Weekends from last week. [Ref: 65]",
+          "mastery_tag": "writing",
+          "interaction_id": "U45_I34"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 355 (Daily Life: Weekends):",
+          "stimulus_en": "Study Daily Life: Weekends now. (866)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U45_I35"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 311 (Daily Life: Weekends):",
+          "stimulus": "Matching set 5966",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "The correct thing (today)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca? - amazing",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "I went to a state school. (today)"
+            },
+            {
+              "id": "m0",
+              "text": "Can I have your ID/ passport/ credit card?...."
+            },
+            {
+              "id": "m2",
+              "text": "Who\u2019s the shyest person you\u2019ve ever met - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U45_I36"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 311 (Daily Life: Weekends):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "My neighbour always spoils my holidays - 930"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "autumn) En oto\u00f1o - interesting"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I37"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 311 (Daily Life: Weekends):",
+          "main_text": "In Daily Life: Weekends (1378), The actress [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "finished"
+                },
+                {
+                  "id": "o2",
+                  "text": "finish"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "watched"
+                },
+                {
+                  "id": "o2",
+                  "text": "watch"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U45_I38"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 311 para Daily Life: Weekends:",
+          "stimulus_en": "My cousin likes a bike, meanwhile My cousin prefers a dog (today).",
+          "stimulus_es": "A My cousin le gusta a bike, meanwhile My cousin prefiere a dog (today).",
+          "options": [
+            {
+              "id": "o1",
+              "text": "meanwhile"
+            },
+            {
+              "id": "o2",
+              "text": "but"
+            },
+            {
+              "id": "o3",
+              "text": "Other 9181"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I39"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 311 sobre Daily Life: Weekends:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "since"
+            },
+            {
+              "id": "w7",
+              "text": "The"
             },
             {
               "id": "w1",
-              "text": "cousin"
+              "text": "police"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w13",
+              "text": "interesting"
+            },
+            {
+              "id": "w12",
+              "text": "sandwich"
+            },
+            {
+              "id": "w3",
+              "text": "likes"
+            },
+            {
+              "id": "w10",
+              "text": "prefers"
+            },
+            {
+              "id": "w8",
+              "text": "police"
+            },
+            {
+              "id": "w2",
+              "text": "officer"
+            },
+            {
+              "id": "w9",
+              "text": "officer"
             },
             {
               "id": "w5",
-              "text": "as"
+              "text": "book"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w11",
@@ -340,667 +949,48 @@
             "w13"
           ],
           "mastery_tag": "syntax",
-          "interaction_id": "U45_I14"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "stimulus_en": "The doctor likes a bag, ___ The doctor prefers a newspaper (today).",
-          "correct_answer": "meanwhile",
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I15"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Weekends)",
-          "stimulus_en": "The boss likes coffee, nevertheless The boss prefers football....",
-          "stimulus_es": "Ref: A The boss le gusta coffee, nevertheless The boss prefiere football....",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I16"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "A The teacher le gusta coffee, despite The teacher prefiere English - 466.",
-              "right": "The teacher likes coffee, despite The teacher prefers English - 466."
-            },
-            {
-              "id": "p1",
-              "left": "A The chef le gusta a ticket, since The chef prefiere a newspaper - amazing.",
-              "right": "The chef likes a ticket, since The chef prefers a newspaper - amazing."
-            },
-            {
-              "id": "p2",
-              "left": "A The manager le gusta a television, unfortunately The manager prefiere a pen....",
-              "right": "The manager likes a television, unfortunately The manager prefers a pen...."
-            },
-            {
-              "id": "p3",
-              "left": "A John le gusta an email, despite John prefiere a chair - interesting.",
-              "right": "John likes an email, despite John prefers a chair - interesting."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I17"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Weekends):",
-          "tts_en": "The coach likes a report, although The coach prefers an email - amazing.",
-          "correct_answer": "The coach likes a report, although The coach prefers an email - amazing.",
-          "mastery_tag": "listening",
-          "interaction_id": "U45_I18"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Calm"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o4",
-              "text": "Fast1472"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I19"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 354 - Daily Life: Weekends:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Hay guisantes en el frigo? - amazing",
-              "back": "are there any peas in the fridge - amazing"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I20"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 354 (Daily Life: Weekends):",
-          "instruction_en": "Draft an email regarding Daily Life: Weekends. [Ref: 32]",
-          "mastery_tag": "writing",
-          "interaction_id": "U45_I21"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 354 (Daily Life: Weekends):",
-          "stimulus_en": "This is Daily Life: Weekends. (375)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U45_I22"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
-          "stimulus": "Matching set 4884",
-          "items": [
-            {
-              "id": "i0",
-              "text": "A qu\u00e9 hora abre el supermercado?.",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question ten\u00edamos la inversi\u00f3n entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet?\u00a0), en la indirect question, ya no hay inversi\u00f3n, sino que tenemos question word + subject + verb. Si te das cuenta, la inversi\u00f3n la tenemos en \u2018Can you tell me\u2026\u2019. Como ya tenemos una inversi\u00f3n al comenzar la pregunta, ya no podemos hacer otra inversi\u00f3n. Recuerda (today)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto (today)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "What time does the supermarket open."
-            },
-            {
-              "id": "m2",
-              "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. (today)"
-            },
-            {
-              "id": "m1",
-              "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n! (today)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U45_I23"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Weekends):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "Were you having a beer when you saw Peter..."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "What time is it..."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I24"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "main_text": "In Daily Life: Weekends (8436), They [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "visited"
-                },
-                {
-                  "id": "o2",
-                  "text": "visit"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "planned"
-                },
-                {
-                  "id": "o2",
-                  "text": "plan"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U45_I25"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Weekends:",
-          "stimulus_en": "My brother likes a television, unfortunately My brother prefers a printer - 370.",
-          "stimulus_es": "A My brother le gusta a television, unfortunately My brother prefiere a printer - 370.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "but"
-            },
-            {
-              "id": "o1",
-              "text": "unfortunately"
-            },
-            {
-              "id": "o3",
-              "text": "Other 1738"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I26"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Weekends:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "prefers"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "likes"
-            },
-            {
-              "id": "w4",
-              "text": "television"
-            },
-            {
-              "id": "w11",
-              "text": "(now)"
-            },
-            {
-              "id": "w1",
-              "text": "player"
-            },
-            {
-              "id": "w7",
-              "text": "player"
-            },
-            {
-              "id": "w6",
-              "text": "The"
-            },
-            {
-              "id": "w10",
-              "text": "clock"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w9",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "while"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U45_I27"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "stimulus_en": "Maria likes a chair, ___ Maria prefers a newspaper (now).",
-          "correct_answer": "meanwhile",
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I28"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Weekends)",
-          "stimulus_en": "The pilot likes a radio, fortunately The pilot prefers a clock..",
-          "stimulus_es": "Ref: A The pilot le gusta a radio, fortunately The pilot prefiere a clock..",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I29"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "A The police officer le gusta a pen, since The police officer prefiere football!.",
-              "right": "The police officer likes a pen, since The police officer prefers football!."
-            },
-            {
-              "id": "p1",
-              "left": "A A colleague le gusta an apple, as a consequence A colleague prefiere a letter - 651.",
-              "right": "A colleague likes an apple, as a consequence A colleague prefers a letter - 651."
-            },
-            {
-              "id": "p2",
-              "left": "A The waiter le gusta a window, whereas The waiter prefiere a chair - interesting.",
-              "right": "The waiter likes a window, whereas The waiter prefers a chair - interesting."
-            },
-            {
-              "id": "p3",
-              "left": "A The baker le gusta coffee, besides The baker prefiere a newspaper - amazing.",
-              "right": "The baker likes coffee, besides The baker prefers a newspaper - amazing."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I30"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Weekends):",
-          "tts_en": "John likes a bike, besides John prefers a computer - interesting.",
-          "correct_answer": "John likes a bike, besides John prefers a computer - interesting.",
-          "mastery_tag": "listening",
-          "interaction_id": "U45_I31"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o3",
-              "text": "Calm"
-            },
-            {
-              "id": "o4",
-              "text": "Fast8518"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I32"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 355 - Daily Life: Weekends:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "The correct thing - 624",
-              "back": "My friend has a lot of money. - 624"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I33"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 355 (Daily Life: Weekends):",
-          "instruction_en": "A small story about Daily Life: Weekends. [Ref: 85]",
-          "mastery_tag": "writing",
-          "interaction_id": "U45_I34"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 355 (Daily Life: Weekends):",
-          "stimulus_en": "Repeat Daily Life: Weekends. (502)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U45_I35"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
-          "stimulus": "Matching set 1439",
-          "items": [
-            {
-              "id": "i0",
-              "text": "3. Las hermanas de Pedro (today)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo - amazing",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca? - interesting",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. - amazing"
-            },
-            {
-              "id": "m2",
-              "text": "What\u2019s the hottest place you\u2019ve ever been to - interesting"
-            },
-            {
-              "id": "m0",
-              "text": "Peter\u2019s sisters (today)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U45_I36"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Weekends):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l).!"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. - 337"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I37"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "main_text": "In Daily Life: Weekends (721), He [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "cleaned"
-                },
-                {
-                  "id": "o2",
-                  "text": "clean"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "spoke"
-                },
-                {
-                  "id": "o2",
-                  "text": "speak"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U45_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Weekends:",
-          "stimulus_en": "The teacher likes a ticket, fortunately The teacher prefers a television - interesting.",
-          "stimulus_es": "A The teacher le gusta a ticket, fortunately The teacher prefiere a television - interesting.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "fortunately"
-            },
-            {
-              "id": "o3",
-              "text": "Other 7853"
-            },
-            {
-              "id": "o2",
-              "text": "but"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Weekends:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "besides"
-            },
-            {
-              "id": "w6",
-              "text": "The"
-            },
-            {
-              "id": "w10",
-              "text": "amazing"
-            },
-            {
-              "id": "w4",
-              "text": "bike"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "pilot"
-            },
-            {
-              "id": "w8",
-              "text": "prefers"
-            },
-            {
-              "id": "w2",
-              "text": "likes"
-            },
-            {
-              "id": "w9",
-              "text": "music"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w7",
-              "text": "pilot"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax",
           "interaction_id": "U45_I40"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "stimulus_en": "My sister likes a sandwich, ___ My sister prefers a computer (now).",
-          "correct_answer": "nonetheless",
+          "prompt_es": "Completa 356 (Daily Life: Weekends):",
+          "stimulus_en": "The singer likes a gift, ___ The singer prefers a letter..",
+          "correct_answer": "although",
           "mastery_tag": "grammar",
           "interaction_id": "U45_I41"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Weekends)",
-          "stimulus_en": "They likes a radio, meanwhile They prefers music....",
-          "stimulus_es": "Ref: A They le gusta a radio, meanwhile They prefiere music....",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 356 (Daily Life: Weekends)",
+          "stimulus_en": "John likes a movie, but John prefers music..",
+          "stimulus_es": "Ref: A John le gusta a movie, consequently John prefiere music..",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U45_I42"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
+          "prompt_es": "Relaciona 356 (Daily Life: Weekends):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A Our neighbors le gusta a watch, since Our neighbors prefiere a bike - 368.",
-              "right": "Our neighbors likes a watch, since Our neighbors prefers a bike - 368."
+              "left": "A The teacher le gusta a camera, furthermore The teacher prefiere a chair (now).",
+              "right": "The teacher likes a camera, furthermore The teacher prefers a chair (now)."
             },
             {
               "id": "p1",
-              "left": "A I le gusta a book, whereas I prefiere a pen....",
-              "right": "I likes a book, whereas I prefers a pen...."
+              "left": "A The pilot le gusta an apple, besides The pilot prefiere a radio (now).",
+              "right": "The pilot likes an apple, besides The pilot prefers a radio (now)."
             },
             {
               "id": "p2",
-              "left": "A Maria le gusta football, otherwise Maria prefiere a ticket (now).",
-              "right": "Maria likes football, otherwise Maria prefers a ticket (now)."
+              "left": "A The driver le gusta a letter, besides The driver prefiere a pizza....",
+              "right": "The driver likes a letter, besides The driver prefers a pizza...."
             },
             {
               "id": "p3",
-              "left": "A The teacher le gusta a book, despite The teacher prefiere a window (now).",
-              "right": "The teacher likes a book, despite The teacher prefers a window (now)."
+              "left": "A The lawyer le gusta a pen, however The lawyer prefiere a radio....",
+              "right": "The lawyer likes a pen, however The lawyer prefers a radio...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1008,35 +998,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Weekends):",
-          "tts_en": "The singer likes football, whereas The singer prefers a window!.",
-          "correct_answer": "The singer likes football, whereas The singer prefers a window!.",
+          "prompt_es": "Dictado 356 (Daily Life: Weekends):",
+          "tts_en": "The nurse likes a laptop, meanwhile The nurse prefers a car..",
+          "correct_answer": "The nurse likes a laptop, meanwhile The nurse prefers a car..",
           "mastery_tag": "listening",
           "interaction_id": "U45_I44"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 356:",
           "options": [
             {
-              "id": "o1",
-              "text": "red"
-            },
-            {
-              "id": "o3",
-              "text": "pink"
-            },
-            {
               "id": "o4",
-              "text": "run5909"
+              "text": "bike6672"
+            },
+            {
+              "id": "o1",
+              "text": "banana"
             },
             {
               "id": "o2",
-              "text": "green"
+              "text": "pear"
+            },
+            {
+              "id": "o3",
+              "text": "mango"
             },
             {
               "id": "o0",
-              "text": "blue"
+              "text": "apple"
             }
           ],
           "correct_answer": "o4",
@@ -1049,8 +1039,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "2. Let\u2019s do the same with the first example - amazing",
-              "back": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject! - amazing"
+              "front": "Puedo abrir la ventana, por favor? - interesting",
+              "back": "may I open the window, please - interesting"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1059,50 +1049,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 356 (Daily Life: Weekends):",
-          "instruction_en": "Describe Daily Life: Weekends in 5 words. [Ref: 43]",
+          "instruction_en": "Draft an email regarding Daily Life: Weekends. [Ref: 68]",
           "mastery_tag": "writing",
           "interaction_id": "U45_I47"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 356 (Daily Life: Weekends):",
-          "stimulus_en": "Where is Daily Life: Weekends? (317)",
+          "stimulus_en": "Where is Daily Life: Weekends? (674)",
           "mastery_tag": "speaking",
           "interaction_id": "U45_I48"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
-          "stimulus": "Matching set 8462",
+          "prompt_es": "Une 312 (Daily Life: Weekends):",
+          "stimulus": "Matching set 6472",
           "items": [
             {
               "id": "i0",
-              "text": "C\u00f3mo se siente tu madre? (today)",
+              "text": "D\u00f3nde te lo dijo? (today)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Tienes zapatos para la boda?...",
+              "text": "Has terminado ya el proyecto? - amazing",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "my / My / spoils / neighbour / holidays / always.",
+              "text": "El adjetivo dice una cualidad de algo, por ejemplo - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m1",
+              "text": "Have you finished the project yet - amazing"
+            },
+            {
               "id": "m2",
-              "text": "My neighbour always spoils my holidays."
+              "text": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. - amazing"
             },
             {
               "id": "m0",
-              "text": "How is your mum feeling (today)"
-            },
-            {
-              "id": "m1",
-              "text": "do you have any shoes for the wedding..."
+              "text": "Where did he/she tell you (today)"
             }
           ],
           "correct_answer": {
@@ -1115,7 +1105,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Weekends):",
+          "prompt_es": "Clasifica 312 (Daily Life: Weekends):",
           "categories": [
             {
               "id": "c1",
@@ -1123,7 +1113,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Did anybody say my name - 783"
+                  "text": "would you like some coke? (now)"
                 }
               ]
             },
@@ -1133,7 +1123,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb.."
+                  "text": "The girls\u2019 ball (today)"
                 }
               ]
             }
@@ -1143,924 +1133,8 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "main_text": "In Daily Life: Weekends (3968), The student [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "built"
-                },
-                {
-                  "id": "o2",
-                  "text": "build"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "met"
-                },
-                {
-                  "id": "o2",
-                  "text": "meet"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U45_I51"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Weekends:",
-          "stimulus_en": "Maria likes a pen, as a consequence Maria prefers a house - 224.",
-          "stimulus_es": "A Maria le gusta a pen, as a consequence Maria prefiere a house - 224.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 1425"
-            },
-            {
-              "id": "o2",
-              "text": "but"
-            },
-            {
-              "id": "o1",
-              "text": "as a consequence"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I52"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Weekends:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "since"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "likes"
-            },
-            {
-              "id": "w8",
-              "text": "phone"
-            },
-            {
-              "id": "w6",
-              "text": "prefers"
-            },
-            {
-              "id": "w3",
-              "text": "bike"
-            },
-            {
-              "id": "w9",
-              "text": "amazing"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w5",
-              "text": "She"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U45_I53"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "stimulus_en": "The lawyer likes a bag, ___ The lawyer prefers a book - 208.",
-          "correct_answer": "moreover",
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I54"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Weekends)",
-          "stimulus_en": "The artist likes an apple, but The artist prefers a printer - 354.",
-          "stimulus_es": "Ref: A The artist le gusta an apple, despite The artist prefiere a printer - 354.",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I55"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "A My friend le gusta a laptop, although My friend prefiere a cat!.",
-              "right": "My friend likes a laptop, although My friend prefers a cat!."
-            },
-            {
-              "id": "p1",
-              "left": "A He le gusta a printer, therefore He prefiere a computer - 618.",
-              "right": "He likes a printer, therefore He prefers a computer - 618."
-            },
-            {
-              "id": "p2",
-              "left": "A They le gusta a chair, besides They prefiere a pizza - interesting.",
-              "right": "They likes a chair, besides They prefers a pizza - interesting."
-            },
-            {
-              "id": "p3",
-              "left": "A The artist le gusta music, since The artist prefiere a window (now).",
-              "right": "The artist likes music, since The artist prefers a window (now)."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I56"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Weekends):",
-          "tts_en": "The driver likes a table, however The driver prefers a report (now).",
-          "correct_answer": "The driver likes a table, however The driver prefers a report (now).",
-          "mastery_tag": "listening",
-          "interaction_id": "U45_I57"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "train"
-            },
-            {
-              "id": "o0",
-              "text": "car"
-            },
-            {
-              "id": "o1",
-              "text": "bus"
-            },
-            {
-              "id": "o4",
-              "text": "cat1816"
-            },
-            {
-              "id": "o3",
-              "text": "plane"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I58"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 357 - Daily Life: Weekends:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo - 545",
-              "back": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. - 545"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I59"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 357 (Daily Life: Weekends):",
-          "instruction_en": "Write a note about Daily Life: Weekends. [Ref: 15]",
-          "mastery_tag": "writing",
-          "interaction_id": "U45_I60"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 357 (Daily Life: Weekends):",
-          "stimulus_en": "I like Daily Life: Weekends. (800)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U45_I61"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
-          "stimulus": "Matching set 343",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Common mistake (today)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Funciona ese ordenador? - amazing",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Por qu\u00e9 no me lo dijiste? (now)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "Does that computer work - amazing"
-            },
-            {
-              "id": "m0",
-              "text": "I don\u2019t know that I will do. (today)"
-            },
-            {
-              "id": "m2",
-              "text": "Why didn\u2019t you tell me (now)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U45_I62"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Weekends):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "Sally often borrows money from her friends..."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without (now)"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I63"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "main_text": "In Daily Life: Weekends (9441), The architect [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "checked"
-                },
-                {
-                  "id": "o2",
-                  "text": "check"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "sent"
-                },
-                {
-                  "id": "o2",
-                  "text": "send"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U45_I64"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Weekends:",
-          "stimulus_en": "The doctor likes a cat, whereas The doctor prefers a computer (today).",
-          "stimulus_es": "A The doctor le gusta a cat, whereas The doctor prefiere a computer (today).",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 6154"
-            },
-            {
-              "id": "o1",
-              "text": "whereas"
-            },
-            {
-              "id": "o2",
-              "text": "but"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I65"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Weekends:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w12",
-              "text": "dog"
-            },
-            {
-              "id": "w1",
-              "text": "police"
-            },
-            {
-              "id": "w10",
-              "text": "prefers"
-            },
-            {
-              "id": "w11",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "likes"
-            },
-            {
-              "id": "w5",
-              "text": "window"
-            },
-            {
-              "id": "w2",
-              "text": "officer"
-            },
-            {
-              "id": "w8",
-              "text": "police"
-            },
-            {
-              "id": "w7",
-              "text": "The"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "moreover"
-            },
-            {
-              "id": "w9",
-              "text": "officer"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U45_I66"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "stimulus_en": "You likes a ticket, ___ You prefers a camera - amazing.",
-          "correct_answer": "nonetheless",
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I67"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Weekends)",
-          "stimulus_en": "My brother likes football, although My brother prefers a pizza (today).",
-          "stimulus_es": "Ref: A My brother le gusta football, although My brother prefiere a pizza (today).",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I68"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "A The singer le gusta a table, however The singer prefiere a dog....",
-              "right": "The singer likes a table, however The singer prefers a dog...."
-            },
-            {
-              "id": "p1",
-              "left": "A They le gusta a car, furthermore They prefiere English - 340.",
-              "right": "They likes a car, furthermore They prefers English - 340."
-            },
-            {
-              "id": "p2",
-              "left": "A My friend le gusta a letter, moreover My friend prefiere a chair....",
-              "right": "My friend likes a letter, moreover My friend prefers a chair...."
-            },
-            {
-              "id": "p3",
-              "left": "A She le gusta a radio, nevertheless She prefiere an email - interesting.",
-              "right": "She likes a radio, nevertheless She prefers an email - interesting."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I69"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Weekends):",
-          "tts_en": "The police officer likes a report, as a consequence The police officer prefers a book....",
-          "correct_answer": "The police officer likes a report, as a consequence The police officer prefers a book....",
-          "mastery_tag": "listening",
-          "interaction_id": "U45_I70"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "train"
-            },
-            {
-              "id": "o1",
-              "text": "bus"
-            },
-            {
-              "id": "o3",
-              "text": "plane"
-            },
-            {
-              "id": "o4",
-              "text": "cat4968"
-            },
-            {
-              "id": "o0",
-              "text": "car"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I71"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 358 - Daily Life: Weekends:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Much, como se utiliza con uncountable, decimos - 498",
-              "back": "I haven\u2019t got much money (remember, money is uncountable). - 498"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I72"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 358 (Daily Life: Weekends):",
-          "instruction_en": "Your daily routine in Daily Life: Weekends. [Ref: 78]",
-          "mastery_tag": "writing",
-          "interaction_id": "U45_I73"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 358 (Daily Life: Weekends):",
-          "stimulus_en": "Look at Daily Life: Weekends. (177)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U45_I74"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
-          "stimulus": "Matching set 7961",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Crees que bajar\u00e1 el paro este a\u00f1o?.",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar - amazing",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "De qui\u00e9n son esos libros? (today)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "Whose books are those= or Whose are those books (today)"
-            },
-            {
-              "id": "m0",
-              "text": "Do you think that unemployment will go down this year."
-            },
-            {
-              "id": "m1",
-              "text": "read, write, eat, run, sleep, etc - amazing"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U45_I75"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Weekends):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "Did anybody say my name - amazing"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "Who\u2019s the shyest person you\u2019ve ever met - 831"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I76"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "main_text": "In Daily Life: Weekends (9366), The police officer [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "prepared"
-                },
-                {
-                  "id": "o2",
-                  "text": "prepare"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "created"
-                },
-                {
-                  "id": "o2",
-                  "text": "create"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U45_I77"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Weekends:",
-          "stimulus_en": "They likes English, furthermore They prefers a book....",
-          "stimulus_es": "A They le gusta English, furthermore They prefiere a book....",
-          "options": [
-            {
-              "id": "o1",
-              "text": "furthermore"
-            },
-            {
-              "id": "o2",
-              "text": "but"
-            },
-            {
-              "id": "o3",
-              "text": "Other 6619"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I78"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Weekends:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w6",
-              "text": "prefers"
-            },
-            {
-              "id": "w7",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "I"
-            },
-            {
-              "id": "w3",
-              "text": "newspaper"
-            },
-            {
-              "id": "w8",
-              "text": "bag"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "consequently"
-            },
-            {
-              "id": "w1",
-              "text": "likes"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U45_I79"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "stimulus_en": "Our neighbors likes a gift, ___ Our neighbors prefers a computer - 670.",
-          "correct_answer": "although",
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I80"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Weekends)",
-          "stimulus_en": "The student likes football, but The student prefers a car!.",
-          "stimulus_es": "Ref: A The student le gusta football, despite The student prefiere a car!.",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U45_I81"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "A The architect le gusta a clock, therefore The architect prefiere English - amazing.",
-              "right": "The architect likes a clock, therefore The architect prefers English - amazing."
-            },
-            {
-              "id": "p1",
-              "left": "A My brother le gusta a ticket, although My brother prefiere a gift - amazing.",
-              "right": "My brother likes a ticket, although My brother prefers a gift - amazing."
-            },
-            {
-              "id": "p2",
-              "left": "A The baker le gusta tennis, although The baker prefiere an email!.",
-              "right": "The baker likes tennis, although The baker prefers an email!."
-            },
-            {
-              "id": "p3",
-              "left": "A My friend le gusta a cat, therefore My friend prefiere a table - amazing.",
-              "right": "My friend likes a cat, therefore My friend prefers a table - amazing."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I82"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Weekends):",
-          "tts_en": "The manager likes a dog, despite The manager prefers an apple!.",
-          "correct_answer": "The manager likes a dog, despite The manager prefers an apple!.",
-          "mastery_tag": "listening",
-          "interaction_id": "U45_I83"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "banana"
-            },
-            {
-              "id": "o0",
-              "text": "apple"
-            },
-            {
-              "id": "o4",
-              "text": "bike7860"
-            },
-            {
-              "id": "o3",
-              "text": "mango"
-            },
-            {
-              "id": "o2",
-              "text": "pear"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I84"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 359 - Daily Life: Weekends:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Alguna vez has probado la comida tailandesa? - amazing",
-              "back": "Have you ever tried Thai food - amazing"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I85"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 359 (Daily Life: Weekends):",
-          "instruction_en": "Draft an email regarding Daily Life: Weekends. [Ref: 41]",
-          "mastery_tag": "writing",
-          "interaction_id": "U45_I86"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 359 (Daily Life: Weekends):",
-          "stimulus_en": "Focus on Daily Life: Weekends. (784)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U45_I87"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
-          "stimulus": "Matching set 8045",
-          "items": [
-            {
-              "id": "i0",
-              "text": "M\u00e1s plurales irregulares que nos podemos encontrar son...",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Tienes coche?!",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Cu\u00e1l es el edificio m\u00e1s alto que has visitado nunca?.",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "men, women, people, etc...."
-            },
-            {
-              "id": "m1",
-              "text": "do you have a car!"
-            },
-            {
-              "id": "m2",
-              "text": "What\u2019s the highest building you\u2019ve ever visited."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U45_I88"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Weekends):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM - interesting"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "My cousins\u2019 house is very big..."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U45_I89"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "main_text": "In Daily Life: Weekends (8557), The player [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 312 (Daily Life: Weekends):",
+          "main_text": "In Daily Life: Weekends (5004), The actress [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
@@ -2080,11 +1154,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "visited"
+                  "text": "traveled"
                 },
                 {
                   "id": "o2",
-                  "text": "visit"
+                  "text": "travel"
                 }
               ]
             }
@@ -2094,21 +1168,21 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U45_I90"
+          "interaction_id": "U45_I51"
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Weekends:",
-          "stimulus_en": "The teacher likes a cat, although The teacher prefers a pen - amazing.",
-          "stimulus_es": "A The teacher le gusta a cat, although The teacher prefiere a pen - amazing.",
+          "prompt_es": "Elige 312 para Daily Life: Weekends:",
+          "stimulus_en": "The manager likes an apple, unfortunately The manager prefers English..",
+          "stimulus_es": "A The manager le gusta an apple, unfortunately The manager prefiere English..",
           "options": [
             {
               "id": "o1",
-              "text": "although"
+              "text": "unfortunately"
             },
             {
               "id": "o3",
-              "text": "Other 8175"
+              "text": "Other 5030"
             },
             {
               "id": "o2",
@@ -2117,51 +1191,51 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U45_I91"
+          "interaction_id": "U45_I52"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Weekends:",
+          "prompt_es": "Ordena 312 sobre Daily Life: Weekends:",
           "options": [
             {
               "id": "w2",
-              "text": "a"
+              "text": "an"
+            },
+            {
+              "id": "w9",
+              "text": "(now)"
             },
             {
               "id": "w8",
-              "text": "gift"
-            },
-            {
-              "id": "w3",
-              "text": "radio"
-            },
-            {
-              "id": "w4",
-              "text": "while"
-            },
-            {
-              "id": "w5",
-              "text": "You"
-            },
-            {
-              "id": "w0",
-              "text": "You"
-            },
-            {
-              "id": "w1",
-              "text": "likes"
+              "text": "car"
             },
             {
               "id": "w6",
               "text": "prefers"
             },
             {
-              "id": "w9",
-              "text": "434"
+              "id": "w5",
+              "text": "We"
             },
             {
               "id": "w7",
               "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "moreover"
+            },
+            {
+              "id": "w1",
+              "text": "likes"
+            },
+            {
+              "id": "w3",
+              "text": "email"
+            },
+            {
+              "id": "w0",
+              "text": "We"
             }
           ],
           "correct_answer": [
@@ -2177,48 +1251,974 @@
             "w9"
           ],
           "mastery_tag": "syntax",
+          "interaction_id": "U45_I53"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 357 (Daily Life: Weekends):",
+          "stimulus_en": "I likes a camera, ___ I prefers a gift..",
+          "correct_answer": "meanwhile",
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I54"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 357 (Daily Life: Weekends)",
+          "stimulus_en": "My brother likes a pizza, fortunately My brother prefers a gift....",
+          "stimulus_es": "Ref: A My brother le gusta a pizza, fortunately My brother prefiere a gift....",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I55"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 357 (Daily Life: Weekends):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "A The manager le gusta a dog, besides The manager prefiere a letter..",
+              "right": "The manager likes a dog, besides The manager prefers a letter.."
+            },
+            {
+              "id": "p1",
+              "left": "A She le gusta a bike, nonetheless She prefiere a watch (now).",
+              "right": "She likes a bike, nonetheless She prefers a watch (now)."
+            },
+            {
+              "id": "p2",
+              "left": "A Our neighbors le gusta a phone, however Our neighbors prefiere football (today).",
+              "right": "Our neighbors likes a phone, however Our neighbors prefers football (today)."
+            },
+            {
+              "id": "p3",
+              "left": "A He le gusta a report, fortunately He prefiere a window..",
+              "right": "He likes a report, fortunately He prefers a window.."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I56"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 357 (Daily Life: Weekends):",
+          "tts_en": "Maria likes tennis, despite Maria prefers a ticket (today).",
+          "correct_answer": "Maria likes tennis, despite Maria prefers a ticket (today).",
+          "mastery_tag": "listening",
+          "interaction_id": "U45_I57"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 357:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "Pen6938"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I58"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 357 - Daily Life: Weekends:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Verbos irregulares...",
+              "back": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna...."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I59"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 357 (Daily Life: Weekends):",
+          "instruction_en": "List 3 facts about Daily Life: Weekends. [Ref: 52]",
+          "mastery_tag": "writing",
+          "interaction_id": "U45_I60"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 357 (Daily Life: Weekends):",
+          "stimulus_en": "The Connectors is here. (360)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U45_I61"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 313 (Daily Life: Weekends):",
+          "stimulus": "Matching set 4443",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo (today)",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Est\u00e1 estudiando ella ingl\u00e9s? - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales...",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/...."
+            },
+            {
+              "id": "m1",
+              "text": "Is she studying English - amazing"
+            },
+            {
+              "id": "m0",
+              "text": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U45_I62"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 313 (Daily Life: Weekends):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n.!"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost (today)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I63"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 313 (Daily Life: Weekends):",
+          "main_text": "In Daily Life: Weekends (3530), The player [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "started"
+                },
+                {
+                  "id": "o2",
+                  "text": "start"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "watched"
+                },
+                {
+                  "id": "o2",
+                  "text": "watch"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U45_I64"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 313 para Daily Life: Weekends:",
+          "stimulus_en": "The student likes a car, while The student prefers a pizza (now).",
+          "stimulus_es": "A The student le gusta a car, while The student prefiere a pizza (now).",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 1999"
+            },
+            {
+              "id": "o1",
+              "text": "while"
+            },
+            {
+              "id": "o2",
+              "text": "but"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I65"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 313 sobre Daily Life: Weekends:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "likes"
+            },
+            {
+              "id": "w10",
+              "text": "door"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "prefers"
+            },
+            {
+              "id": "w7",
+              "text": "cousin"
+            },
+            {
+              "id": "w4",
+              "text": "movie"
+            },
+            {
+              "id": "w9",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "however"
+            },
+            {
+              "id": "w11",
+              "text": "(today)"
+            },
+            {
+              "id": "w1",
+              "text": "cousin"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U45_I66"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 358 (Daily Life: Weekends):",
+          "stimulus_en": "She likes a bag, ___ She prefers tennis..",
+          "correct_answer": "meanwhile",
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I67"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 358 (Daily Life: Weekends)",
+          "stimulus_en": "The player likes a camera, since The player prefers a report - amazing.",
+          "stimulus_es": "Ref: A The player le gusta a camera, since The player prefiere a report - amazing.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I68"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 358 (Daily Life: Weekends):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "A The boss le gusta a car, however The boss prefiere a radio (today).",
+              "right": "The boss likes a car, however The boss prefers a radio (today)."
+            },
+            {
+              "id": "p1",
+              "left": "A The nurse le gusta a sandwich, moreover The nurse prefiere a report..",
+              "right": "The nurse likes a sandwich, moreover The nurse prefers a report.."
+            },
+            {
+              "id": "p2",
+              "left": "A The actress le gusta a radio, whereas The actress prefiere tennis - 194.",
+              "right": "The actress likes a radio, whereas The actress prefers tennis - 194."
+            },
+            {
+              "id": "p3",
+              "left": "A The chef le gusta a ticket, since The chef prefiere a window..",
+              "right": "The chef likes a ticket, since The chef prefers a window.."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I69"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 358 (Daily Life: Weekends):",
+          "tts_en": "The police officer likes a report, besides The police officer prefers a house....",
+          "correct_answer": "The police officer likes a report, besides The police officer prefers a house....",
+          "mastery_tag": "listening",
+          "interaction_id": "U45_I70"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 358:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "London"
+            },
+            {
+              "id": "o2",
+              "text": "Berlin"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o4",
+              "text": "Slow5589"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I71"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 358 - Daily Life: Weekends:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "A qu\u00e9 hora sale el tren? - interesting",
+              "back": "What time does the train leave - interesting"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I72"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 358 (Daily Life: Weekends):",
+          "instruction_en": "Draft an email regarding Daily Life: Weekends. [Ref: 66]",
+          "mastery_tag": "writing",
+          "interaction_id": "U45_I73"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 358 (Daily Life: Weekends):",
+          "stimulus_en": "I like Daily Life: Weekends. (701)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U45_I74"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 314 (Daily Life: Weekends):",
+          "stimulus": "Matching set 1829",
+          "items": [
+            {
+              "id": "i0",
+              "text": "As any modal verb, they are followed by an infinitive without \u2018to\u2019, for example!",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "5. El zumo de tu abuela - 782",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Por ejemplo...",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO...."
+            },
+            {
+              "id": "m1",
+              "text": "Your grandmother\u2019s juice - 782"
+            },
+            {
+              "id": "m0",
+              "text": "may come, might go.!"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U45_I75"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 314 (Daily Life: Weekends):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "bookshop) Librer\u00eda - interesting"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019...."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I76"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 314 (Daily Life: Weekends):",
+          "main_text": "In Daily Life: Weekends (955), They [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "organized"
+                },
+                {
+                  "id": "o2",
+                  "text": "organize"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "taught"
+                },
+                {
+                  "id": "o2",
+                  "text": "teach"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U45_I77"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 314 para Daily Life: Weekends:",
+          "stimulus_en": "The scientist likes tennis, since The scientist prefers a dog..",
+          "stimulus_es": "A The scientist le gusta tennis, since The scientist prefiere a dog..",
+          "options": [
+            {
+              "id": "o2",
+              "text": "but"
+            },
+            {
+              "id": "o3",
+              "text": "Other 4046"
+            },
+            {
+              "id": "o1",
+              "text": "since"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I78"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 314 sobre Daily Life: Weekends:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w12",
+              "text": "table"
+            },
+            {
+              "id": "w8",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "scientist"
+            },
+            {
+              "id": "w5",
+              "text": "as"
+            },
+            {
+              "id": "w7",
+              "text": "consequence"
+            },
+            {
+              "id": "w2",
+              "text": "likes"
+            },
+            {
+              "id": "w4",
+              "text": "camera"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w10",
+              "text": "prefers"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "scientist"
+            },
+            {
+              "id": "w11",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U45_I79"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 359 (Daily Life: Weekends):",
+          "stimulus_en": "John likes a camera, ___ John prefers a watch..",
+          "correct_answer": "meanwhile",
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I80"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 359 (Daily Life: Weekends)",
+          "stimulus_en": "The player likes a television, meanwhile The player prefers a table..",
+          "stimulus_es": "Ref: A The player le gusta a television, meanwhile The player prefiere a table..",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I81"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 359 (Daily Life: Weekends):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "A The chef le gusta an email, while The chef prefiere a watch (today).",
+              "right": "The chef likes an email, while The chef prefers a watch (today)."
+            },
+            {
+              "id": "p1",
+              "left": "A My sister le gusta a dog, furthermore My sister prefiere an email - 706.",
+              "right": "My sister likes a dog, furthermore My sister prefers an email - 706."
+            },
+            {
+              "id": "p2",
+              "left": "A The chef le gusta a door, nevertheless The chef prefiere a letter - 990.",
+              "right": "The chef likes a door, nevertheless The chef prefers a letter - 990."
+            },
+            {
+              "id": "p3",
+              "left": "A My friend le gusta a ticket, otherwise My friend prefiere music....",
+              "right": "My friend likes a ticket, otherwise My friend prefers music...."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I82"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 359 (Daily Life: Weekends):",
+          "tts_en": "He likes a newspaper, therefore He prefers a dog (now).",
+          "correct_answer": "He likes a newspaper, therefore He prefers a dog (now).",
+          "mastery_tag": "listening",
+          "interaction_id": "U45_I83"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 359:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "June6095"
+            },
+            {
+              "id": "o3",
+              "text": "Friday"
+            },
+            {
+              "id": "o0",
+              "text": "Monday"
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I84"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 359 - Daily Life: Weekends:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "2. Play football on Saturday afternoons / the boys / always (now)",
+              "back": "the boys always play football on Saturday afternoons (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I85"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 359 (Daily Life: Weekends):",
+          "instruction_en": "Describe Daily Life: Weekends in 5 words. [Ref: 84]",
+          "mastery_tag": "writing",
+          "interaction_id": "U45_I86"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 359 (Daily Life: Weekends):",
+          "stimulus_en": "Look at Daily Life: Weekends. (703)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U45_I87"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 315 (Daily Life: Weekends):",
+          "stimulus": "Matching set 3504",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca? - amazing",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "The correct thing (now)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng - amazing",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "I have 3 children. (now)"
+            },
+            {
+              "id": "m2",
+              "text": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the - amazing"
+            },
+            {
+              "id": "m0",
+              "text": "What\u2019s the saddest song you\u2019ve ever listened to - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U45_I88"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 315 (Daily Life: Weekends):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). - interesting"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar. (now)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U45_I89"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 315 (Daily Life: Weekends):",
+          "main_text": "In Daily Life: Weekends (8523), We [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "wrote"
+                },
+                {
+                  "id": "o2",
+                  "text": "write"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "finished"
+                },
+                {
+                  "id": "o2",
+                  "text": "finish"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U45_I90"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 315 para Daily Life: Weekends:",
+          "stimulus_en": "My sister likes a ticket, whereas My sister prefers a printer - interesting.",
+          "stimulus_es": "A My sister le gusta a ticket, whereas My sister prefiere a printer - interesting.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "whereas"
+            },
+            {
+              "id": "o3",
+              "text": "Other 4565"
+            },
+            {
+              "id": "o2",
+              "text": "but"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U45_I91"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 315 sobre Daily Life: Weekends:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "prefers"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "likes"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "consequently"
+            },
+            {
+              "id": "w3",
+              "text": "window"
+            },
+            {
+              "id": "w8",
+              "text": "watch"
+            },
+            {
+              "id": "w5",
+              "text": "She"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U45_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Weekends):",
-          "stimulus_en": "The doctor likes a ticket, ___ The doctor prefers a book (today).",
-          "correct_answer": "moreover",
+          "prompt_es": "Completa 360 (Daily Life: Weekends):",
+          "stimulus_en": "You likes a pen, ___ You prefers a window (today).",
+          "correct_answer": "fortunately",
           "mastery_tag": "grammar",
           "interaction_id": "U45_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Weekends)",
-          "stimulus_en": "The architect likes a television, consequently The architect prefers a dog!.",
-          "stimulus_es": "Ref: A The architect le gusta a television, consequently The architect prefiere a dog!.",
+          "prompt_es": "\u00bfCorrecto? 360 (Daily Life: Weekends)",
+          "stimulus_en": "My sister likes a door, since My sister prefers a printer - 587.",
+          "stimulus_es": "Ref: A My sister le gusta a door, since My sister prefiere a printer - 587.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U45_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Weekends):",
+          "prompt_es": "Relaciona 360 (Daily Life: Weekends):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A We le gusta a movie, however We prefiere a cat - 107.",
-              "right": "We likes a movie, however We prefers a cat - 107."
+              "left": "A The doctor le gusta a chair, furthermore The doctor prefiere English..",
+              "right": "The doctor likes a chair, furthermore The doctor prefers English.."
             },
             {
               "id": "p1",
-              "left": "A The scientist le gusta a television, as a consequence The scientist prefiere a printer!.",
-              "right": "The scientist likes a television, as a consequence The scientist prefers a printer!."
+              "left": "A A colleague le gusta coffee, whereas A colleague prefiere a camera - interesting.",
+              "right": "A colleague likes coffee, whereas A colleague prefers a camera - interesting."
             },
             {
               "id": "p2",
-              "left": "A Our neighbors le gusta a door, although Our neighbors prefiere a chair....",
-              "right": "Our neighbors likes a door, although Our neighbors prefers a chair...."
+              "left": "A The architect le gusta a camera, nonetheless The architect prefiere a bike....",
+              "right": "The architect likes a camera, nonetheless The architect prefers a bike...."
             },
             {
               "id": "p3",
-              "left": "A My friend le gusta a dog, besides My friend prefiere tennis - 231.",
-              "right": "My friend likes a dog, besides My friend prefers tennis - 231."
+              "left": "A The police officer le gusta a report, consequently The police officer prefiere a pen..",
+              "right": "The police officer likes a report, consequently The police officer prefers a pen.."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2226,35 +2226,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Weekends):",
-          "tts_en": "The chef likes an email, nevertheless The chef prefers football - 980.",
-          "correct_answer": "The chef likes an email, nevertheless The chef prefers football - 980.",
+          "prompt_es": "Dictado 360 (Daily Life: Weekends):",
+          "tts_en": "My friend likes a ticket, although My friend prefers English - amazing.",
+          "correct_answer": "My friend likes a ticket, although My friend prefers English - amazing.",
           "mastery_tag": "listening",
           "interaction_id": "U45_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 360:",
           "options": [
             {
-              "id": "o3",
-              "text": "mango"
+              "id": "o1",
+              "text": "Moon"
             },
             {
               "id": "o0",
-              "text": "apple"
-            },
-            {
-              "id": "o2",
-              "text": "pear"
+              "text": "Sun"
             },
             {
               "id": "o4",
-              "text": "bike5586"
+              "text": "Hot5158"
             },
             {
-              "id": "o1",
-              "text": "banana"
+              "id": "o3",
+              "text": "Planet"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
             }
           ],
           "correct_answer": "o4",
@@ -2267,8 +2267,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Has visto alguna vez una pel\u00edcula en versi\u00f3n original? - interesting",
-              "back": "have you ever seen a film in original version - interesting"
+              "front": "Otro common mistake...",
+              "back": "Have you a car?..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2277,14 +2277,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 360 (Daily Life: Weekends):",
-          "instruction_en": "Draft an email regarding Daily Life: Weekends. [Ref: 12]",
+          "instruction_en": "Review Daily Life: Weekends from last week. [Ref: 27]",
           "mastery_tag": "writing",
           "interaction_id": "U45_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 360 (Daily Life: Weekends):",
-          "stimulus_en": "The Connectors is here. (221)",
+          "stimulus_en": "This is Daily Life: Weekends. (562)",
           "mastery_tag": "speaking",
           "interaction_id": "U45_I100"
         }

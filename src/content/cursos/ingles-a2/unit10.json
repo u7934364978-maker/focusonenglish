@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Food: Shopping):",
-          "stimulus_en": "The girls\u2019 ball - interesting (___)",
+          "prompt_es": "Completa 73 (Food: Shopping):",
+          "stimulus_en": "film) Pel\u00edcula (now) (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U10_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Food: Shopping)",
-          "stimulus_en": "Our English teacher is usually angry - 791",
-          "stimulus_es": "Ref: angry / Our / teacher / English / usually / is - 791",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 73 (Food: Shopping)",
+          "stimulus_en": "would you like some more - amazing",
+          "stimulus_es": "Ref: Quieres m\u00e1s? - amazing",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U10_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
+          "prompt_es": "Relaciona 73 (Food: Shopping):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Qu\u00e9 es \u00e9so? (now)",
-              "right": "What\u2019s that (now)"
+              "left": "Otro ejemplo (now)",
+              "right": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. (now)"
             },
             {
               "id": "p1",
-              "left": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio...",
-              "right": "\u00bfDe d\u00f3nde eres?..."
+              "left": "A qu\u00e9 hora abre el supermercado? - 896",
+              "right": "What time does the supermarket open - 896"
             },
             {
               "id": "p2",
-              "left": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca? - amazing",
-              "right": "Who\u2019s the shyest person you\u2019ve ever met - amazing"
+              "left": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo - 668",
+              "right": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno. - 668"
             },
             {
               "id": "p3",
-              "left": "El adjetivo dice una cualidad de algo, por ejemplo - interesting",
-              "right": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. - interesting"
+              "left": "I / fish / often / hours / for / catching / anything / without...",
+              "right": "I often fish for hours without catching anything..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Food: Shopping):",
-          "tts_en": "What time does the supermarket open - 305",
-          "correct_answer": "What time does the supermarket open - 305",
+          "prompt_es": "Dictado 73 (Food: Shopping):",
+          "tts_en": "have you ever spoken English on the phone.",
+          "correct_answer": "have you ever spoken English on the phone.",
           "mastery_tag": "listening",
           "interaction_id": "U10_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 73:",
           "options": [
             {
-              "id": "o0",
-              "text": "apple"
-            },
-            {
               "id": "o3",
-              "text": "mango"
-            },
-            {
-              "id": "o1",
-              "text": "banana"
-            },
-            {
-              "id": "o4",
-              "text": "bike7695"
+              "text": "pink"
             },
             {
               "id": "o2",
-              "text": "pear"
+              "text": "green"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
+            },
+            {
+              "id": "o4",
+              "text": "run4434"
+            },
+            {
+              "id": "o1",
+              "text": "red"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Quieres m\u00e1s? (now)",
-              "back": "would you like some more (now)"
+              "front": "En un post anterior sobre verb patterns puedes revisar la diferencia entre allow y let (today)",
+              "back": "verb patters. (today)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 73 (Food: Shopping):",
-          "instruction_en": "Review Food: Shopping from last week. [Ref: 79]",
+          "instruction_en": "A small story about Food: Shopping. [Ref: 20]",
           "mastery_tag": "writing",
           "interaction_id": "U10_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 73 (Food: Shopping):",
-          "stimulus_en": "Talk about Food: Shopping. (536)",
+          "stimulus_en": "Study Food: Shopping now. (369)",
           "mastery_tag": "speaking",
           "interaction_id": "U10_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
-          "stimulus": "Matching set 6610",
+          "prompt_es": "Une 64 (Food: Shopping):",
+          "stimulus": "Matching set 7225",
           "items": [
             {
               "id": "i0",
-              "text": "Encontraste algo ah\u00ed? (today)",
+              "text": "puedo abrir la ventana, por favor? (now)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "2. La hamburguesa de Harry (today)",
+              "text": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n (today)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Sigue recto y delante de la iglesia hay un supermercado...",
+              "text": "7. La casa de mis primos es muy grande - interesting",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m1",
+              "text": "Sometimes I have lunch in a restaurant. (today)"
+            },
+            {
               "id": "m0",
-              "text": "any + thing = en oraci\u00f3n INTERROGATIVA. (today)"
+              "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet (now)"
             },
             {
               "id": "m2",
-              "text": "Go straight on and in front of the church there is a supermarket...."
-            },
-            {
-              "id": "m1",
-              "text": "Harry\u2019s burger (today)"
+              "text": "My cousins\u2019 house is very big - interesting"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Food: Shopping):",
+          "prompt_es": "Clasifica 64 (Food: Shopping):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost!"
+                  "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! - 163"
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "What\u2019s the happiest day you\u2019ve ever had (now)"
+                  "text": "ADJECTIVE + NOUN - 345"
                 }
               ]
             }
@@ -202,19 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Food: Shopping):",
-          "main_text": "In Food: Shopping (9206), She [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 64 (Food: Shopping):",
+          "main_text": "In Food: Shopping (4496), The teacher [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "drank"
+                  "text": "sent"
                 },
                 {
                   "id": "o2",
-                  "text": "drink"
+                  "text": "send"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
+                  "text": "helped"
                 },
                 {
                   "id": "o2",
-                  "text": "organize"
+                  "text": "help"
                 }
               ]
             }
@@ -241,21 +241,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Food: Shopping:",
-          "stimulus_en": "Do you have any children - amazing",
-          "stimulus_es": "Tienes hijos? - amazing",
+          "prompt_es": "Elige 64 para Food: Shopping:",
+          "stimulus_en": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. (now)",
+          "stimulus_es": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto (now)",
           "options": [
             {
-              "id": "o1",
-              "text": "Option A"
+              "id": "o3",
+              "text": "Other 2126"
             },
             {
               "id": "o2",
               "text": "Option B"
             },
             {
-              "id": "o3",
-              "text": "Other 1103"
+              "id": "o1",
+              "text": "Option A"
             }
           ],
           "correct_answer": "o1",
@@ -264,43 +264,27 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Food: Shopping:",
+          "prompt_es": "Ordena 64 sobre Food: Shopping:",
           "options": [
             {
-              "id": "w5",
-              "text": "buscando"
-            },
-            {
-              "id": "w6",
-              "text": "en"
-            },
-            {
               "id": "w2",
-              "text": "porque"
-            },
-            {
-              "id": "w7",
-              "text": "este"
+              "text": "you"
             },
             {
               "id": "w1",
-              "text": "continuous"
-            },
-            {
-              "id": "w4",
-              "text": "est\u00e1s"
-            },
-            {
-              "id": "w8",
-              "text": "momento"
+              "text": "see"
             },
             {
               "id": "w3",
-              "text": "lo"
+              "text": "on"
             },
             {
               "id": "w0",
-              "text": "present"
+              "text": "I\u2019ll"
+            },
+            {
+              "id": "w4",
+              "text": "Saturday"
             }
           ],
           "correct_answer": [
@@ -308,55 +292,51 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w4"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U10_I14"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Food: Shopping):",
-          "stimulus_en": "are you learning French? (now) (___)",
+          "prompt_es": "Completa 74 (Food: Shopping):",
+          "stimulus_en": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the - 673 (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U10_I15"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Food: Shopping)",
-          "stimulus_en": "I hardly ever go to the cinema = casi nunca voy al cine....",
-          "stimulus_es": "Ref: 3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca...",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 74 (Food: Shopping)",
+          "stimulus_en": "Spain\u2018s monuments are very nice. (today)",
+          "stimulus_es": "Ref: 3. el primer elemento es un pa\u00eds/ciudad/pueblo\u2026 Ejemplo (today)",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U10_I16"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
+          "prompt_es": "Relaciona 74 (Food: Shopping):",
           "pairs": [
             {
               "id": "p0",
-              "left": "3. Las hermanas de Pedro - 614",
-              "right": "Peter\u2019s sisters - 614"
+              "left": "Por ejemplo (today)",
+              "right": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. (today)"
             },
             {
               "id": "p1",
-              "left": "\u2013 For + period of time (not defined)!",
-              "right": "durante o desde hace!"
+              "left": "often / money / Sally / her / borrows / friends / from - 996",
+              "right": "Sally often borrows money from her friends - 996"
             },
             {
               "id": "p2",
-              "left": "\u2013 Meses del a\u00f1o - 393",
-              "right": "in May, in August, etc. - 393"
+              "left": "Common mistake - amazing",
+              "right": "I hadn\u2019t got a mobile. - amazing"
             },
             {
               "id": "p3",
-              "left": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo!",
-              "right": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular.!"
+              "left": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio - amazing",
+              "right": "\u00bfDe d\u00f3nde eres? - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -364,35 +344,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Food: Shopping):",
-          "tts_en": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the!",
-          "correct_answer": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the!",
+          "prompt_es": "Dictado 74 (Food: Shopping):",
+          "tts_en": "on Monday, on Wednesday, etc.!",
+          "correct_answer": "on Monday, on Wednesday, etc.!",
           "mastery_tag": "listening",
           "interaction_id": "U10_I18"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 74:",
           "options": [
             {
-              "id": "o1",
-              "text": "banana"
+              "id": "o3",
+              "text": "plane"
             },
             {
               "id": "o0",
-              "text": "apple"
+              "text": "car"
             },
             {
-              "id": "o3",
-              "text": "mango"
-            },
-            {
-              "id": "o2",
-              "text": "pear"
+              "id": "o1",
+              "text": "bus"
             },
             {
               "id": "o4",
-              "text": "bike8159"
+              "text": "cat8794"
+            },
+            {
+              "id": "o2",
+              "text": "train"
             }
           ],
           "correct_answer": "o4",
@@ -405,8 +385,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Hay guisantes en el frigo? - interesting",
-              "back": "are there any peas in the fridge - interesting"
+              "front": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir (now)",
+              "back": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n. (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -415,50 +395,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 74 (Food: Shopping):",
-          "instruction_en": "Review Food: Shopping from last week. [Ref: 98]",
+          "instruction_en": "Write a note about Food: Shopping. [Ref: 10]",
           "mastery_tag": "writing",
           "interaction_id": "U10_I21"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 74 (Food: Shopping):",
-          "stimulus_en": "Repeat Food: Shopping. (500)",
+          "stimulus_en": "Study Food: Shopping now. (498)",
           "mastery_tag": "speaking",
           "interaction_id": "U10_I22"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
-          "stimulus": "Matching set 5790",
+          "prompt_es": "Une 65 (Food: Shopping):",
+          "stimulus": "Matching set 5666",
           "items": [
             {
               "id": "i0",
-              "text": "\u2022in the fall (Br Eng - 954",
+              "text": "1. Often / she / write to me/ doesn\u2019t - interesting",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "visits / Jonathan / usually / dentist / the!",
+              "text": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos (today)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Many, para countable, decimos (today)",
+              "text": "The correct thing - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "Jonathan usually visits the dentist!"
-            },
-            {
               "id": "m2",
-              "text": "I don\u2019t have many friends (friends is countable). (today)"
+              "text": "on the Internet - amazing"
             },
             {
               "id": "m0",
-              "text": "autumn) En oto\u00f1o - 954"
+              "text": "she doesn\u2019t often write to me - interesting"
+            },
+            {
+              "id": "m1",
+              "text": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle. (today)"
             }
           ],
           "correct_answer": {
@@ -471,7 +451,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Food: Shopping):",
+          "prompt_es": "Clasifica 65 (Food: Shopping):",
           "categories": [
             {
               "id": "c1",
@@ -479,7 +459,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I haven\u2019t a car. (today)"
+                  "text": "la respuesta es ilimitada, puede ser cualquier cosa. - amazing"
                 }
               ]
             },
@@ -489,7 +469,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "I hardly ever watch TV in the evenings."
+                  "text": "The police always try to keep the order (today)"
                 }
               ]
             }
@@ -499,19 +479,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Food: Shopping):",
-          "main_text": "In Food: Shopping (4236), A colleague [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 65 (Food: Shopping):",
+          "main_text": "In Food: Shopping (3346), The scientist [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "planned"
+                  "text": "received"
                 },
                 {
                   "id": "o2",
-                  "text": "plan"
+                  "text": "receive"
                 }
               ]
             },
@@ -520,11 +500,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "bought"
+                  "text": "helped"
                 },
                 {
                   "id": "o2",
-                  "text": "buy"
+                  "text": "help"
                 }
               ]
             }
@@ -538,21 +518,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Food: Shopping:",
-          "stimulus_en": "have you ever been to Canada.",
-          "stimulus_es": "Has estado alguna vez en Canad\u00e1?.",
+          "prompt_es": "Elige 65 para Food: Shopping:",
+          "stimulus_en": "my cousin\u2019s husband is German and his mother Irish.!",
+          "stimulus_es": "El marido de mi prima es alem\u00e1n y su madre irlandesa!",
           "options": [
             {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
               "id": "o3",
-              "text": "Other 4035"
+              "text": "Other 3887"
             },
             {
               "id": "o1",
               "text": "Option A"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
             }
           ],
           "correct_answer": "o1",
@@ -561,1017 +541,91 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Food: Shopping:",
+          "prompt_es": "Ordena 65 sobre Food: Shopping:",
           "options": [
-            {
-              "id": "w6",
-              "text": "tomorrow?"
-            },
-            {
-              "id": "w1",
-              "text": "will"
-            },
-            {
-              "id": "w9",
-              "text": "sunny"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "weather"
-            },
-            {
-              "id": "w8",
-              "text": "be"
-            },
-            {
-              "id": "w5",
-              "text": "like"
-            },
-            {
-              "id": "w7",
-              "text": "It\u2019ll"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w4",
-              "text": "be"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U10_I27"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Food: Shopping):",
-          "stimulus_en": "Can I have your ID/ passport/ credit card?. (today) (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U10_I28"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Food: Shopping)",
-          "stimulus_en": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora..",
-          "stimulus_es": "Ref: Por tanto, podemos afirmar que -ed para personas y -ing para cosas o situaciones. Es cierto que a veces tambi\u00e9n utilizamos -ing para personas, y \u00bfcu\u00e1ndo? Debes tener en cuenta que la terminaci\u00f3n -ing indica una cualidad permanente, mientras que -ed es temporal. Si yo digo.",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U10_I29"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "car / I / drink / never / if / drive / I / alcohol / a.",
-              "right": "I never drink alcohol if I drive a car."
-            },
-            {
-              "id": "p1",
-              "left": "1. Often / she / write to me/ doesn\u2019t...",
-              "right": "she doesn\u2019t often write to me..."
-            },
-            {
-              "id": "p2",
-              "left": "\u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo - amazing",
-              "right": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos. - amazing"
-            },
-            {
-              "id": "p3",
-              "left": "Otro ejemplo (today)",
-              "right": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. (today)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I30"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Food: Shopping):",
-          "tts_en": "What time does the train leave - 469",
-          "correct_answer": "What time does the train leave - 469",
-          "mastery_tag": "listening",
-          "interaction_id": "U10_I31"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "Pen6729"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
-            },
-            {
-              "id": "o0",
-              "text": "Table"
-            },
-            {
-              "id": "o3",
-              "text": "Bed"
-            },
-            {
-              "id": "o1",
-              "text": "Chair"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I32"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 75 - Food: Shopping:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "6. Los juguetes de mis hijos - interesting",
-              "back": "My children\u2019s toys - interesting"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I33"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 75 (Food: Shopping):",
-          "instruction_en": "Draft an email regarding Food: Shopping. [Ref: 71]",
-          "mastery_tag": "writing",
-          "interaction_id": "U10_I34"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 75 (Food: Shopping):",
-          "stimulus_en": "Look at Food: Shopping. (396)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U10_I35"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
-          "stimulus": "Matching set 752",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material (today)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Has jugado alguna vez al ajedrez? - amazing",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Has hablado alguna vez ingl\u00e9s por tel\u00e9fono? - amazing",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "have you ever played chess - amazing"
-            },
-            {
-              "id": "m0",
-              "text": "preguntas en ingl\u00e9s (today)"
-            },
-            {
-              "id": "m2",
-              "text": "have you ever spoken English on the phone - amazing"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U10_I36"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Food: Shopping):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "Why didn\u2019t you tell me."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "John\u2018s job is boring. - interesting"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I37"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Food: Shopping):",
-          "main_text": "In Food: Shopping (2467), The artist [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "cooked"
-                },
-                {
-                  "id": "o2",
-                  "text": "cook"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "read"
-                },
-                {
-                  "id": "o2",
-                  "text": "read"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U10_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Food: Shopping:",
-          "stimulus_en": "biscuit) Galleta - 739",
-          "stimulus_es": "Cookie (Br Eng - 739",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 2328"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U10_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Food: Shopping:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "possessive"
-            },
-            {
-              "id": "w3",
-              "text": "\u00e9sta"
-            },
-            {
-              "id": "w6",
-              "text": "lleva"
-            },
-            {
-              "id": "w1",
-              "text": "espec\u00edfica"
-            },
-            {
-              "id": "w7",
-              "text": "un"
-            },
-            {
-              "id": "w10",
-              "text": "(my"
-            },
-            {
-              "id": "w4",
-              "text": "opci\u00f3n"
-            },
             {
               "id": "w20",
-              "text": "(a)"
-            },
-            {
-              "id": "w18",
-              "text": "art\u00edculo"
-            },
-            {
-              "id": "w19",
-              "text": "indefinido"
-            },
-            {
-              "id": "w15",
-              "text": "their)"
-            },
-            {
-              "id": "w11",
-              "text": "your"
-            },
-            {
-              "id": "w2",
-              "text": "="
-            },
-            {
-              "id": "w21",
               "text": "interesting"
             },
             {
-              "id": "w16",
-              "text": "o"
-            },
-            {
-              "id": "w9",
-              "text": "adjective"
-            },
-            {
-              "id": "w12",
-              "text": "his"
-            },
-            {
-              "id": "w13",
-              "text": "her"
-            },
-            {
-              "id": "w5",
-              "text": "siempre"
-            },
-            {
-              "id": "w0",
-              "text": "situaci\u00f3n"
-            },
-            {
-              "id": "w14",
-              "text": "our"
-            },
-            {
-              "id": "w17",
-              "text": "un"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15",
-            "w16",
-            "w17",
-            "w18",
-            "w19",
-            "w20",
-            "w21"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U10_I40"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Food: Shopping):",
-          "stimulus_en": "When did you help him/her - 791 (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U10_I41"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Food: Shopping)",
-          "stimulus_en": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. - 771",
-          "stimulus_es": "Ref: \u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto - 771",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U10_I42"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "De qui\u00e9n es ese m\u00f3vil?...",
-              "right": "Whose mobile is that..."
-            },
-            {
-              "id": "p1",
-              "left": "Est\u00e1 estudiando ella ingl\u00e9s? - amazing",
-              "right": "Is she studying English - amazing"
-            },
-            {
-              "id": "p2",
-              "left": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo...",
-              "right": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno...."
-            },
-            {
-              "id": "p3",
-              "left": "Y por \u00faltimo, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo (now)",
-              "right": "would you like some coke? (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I43"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Food: Shopping):",
-          "tts_en": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! - interesting",
-          "correct_answer": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! - interesting",
-          "mastery_tag": "listening",
-          "interaction_id": "U10_I44"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Calm"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o4",
-              "text": "Fast8168"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I45"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 76 - Food: Shopping:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar!",
-              "back": "read, write, eat, run, sleep, etc!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I46"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 76 (Food: Shopping):",
-          "instruction_en": "Why is Food: Shopping important? [Ref: 56]",
-          "mastery_tag": "writing",
-          "interaction_id": "U10_I47"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 76 (Food: Shopping):",
-          "stimulus_en": "Talk about Food: Shopping. (117)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U10_I48"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
-          "stimulus": "Matching set 6315",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Tienes coche? (now)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "The correct thing.",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "try / police / keep / The / order / always / to / the.",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "The police always try to keep the order."
-            },
-            {
-              "id": "m0",
-              "text": "do you have a car (now)"
-            },
-            {
-              "id": "m1",
-              "text": "on the Internet."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U10_I49"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Food: Shopping):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "Why didn\u2019t you tell me - amazing"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/.."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I50"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Food: Shopping):",
-          "main_text": "In Food: Shopping (9931), The manager [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "sold"
-                },
-                {
-                  "id": "o2",
-                  "text": "sell"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "traveled"
-                },
-                {
-                  "id": "o2",
-                  "text": "travel"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U10_I51"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Food: Shopping:",
-          "stimulus_en": "Were you having a beer when you saw Peter (now)",
-          "stimulus_es": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro? (now)",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 7639"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U10_I52"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Food: Shopping:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "What\u2019s"
-            },
-            {
-              "id": "w1",
-              "text": "that"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U10_I53"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Food: Shopping):",
-          "stimulus_en": "Is she studying English - amazing (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U10_I54"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Food: Shopping)",
-          "stimulus_en": "how often do you have Italian classes? = I have every Tuesday.!",
-          "stimulus_es": "Ref: Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo!",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U10_I55"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n!",
-              "right": "Sometimes I have lunch in a restaurant.!"
-            },
-            {
-              "id": "p1",
-              "left": "Common mistake - interesting",
-              "right": "I don\u2019t know that I will do. - interesting"
-            },
-            {
-              "id": "p2",
-              "left": "Cu\u00e1nto cuesta?...",
-              "right": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost..."
-            },
-            {
-              "id": "p3",
-              "left": "Tyre (Am Eng.",
-              "right": "tire) Neum\u00e1tico."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I56"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Food: Shopping):",
-          "tts_en": "in summer, in winter. - amazing",
-          "correct_answer": "in summer, in winter. - amazing",
-          "mastery_tag": "listening",
-          "interaction_id": "U10_I57"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o4",
-              "text": "Fast9491"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o3",
-              "text": "Calm"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I58"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 77 - Food: Shopping:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Chips (Br Eng) (Am Eng (now)",
-              "back": "biscuit) Patatas fritas (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I59"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 77 (Food: Shopping):",
-          "instruction_en": "A small story about Food: Shopping. [Ref: 21]",
-          "mastery_tag": "writing",
-          "interaction_id": "U10_I60"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 77 (Food: Shopping):",
-          "stimulus_en": "Look at Food: Shopping. (396)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U10_I61"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
-          "stimulus": "Matching set 477",
-          "items": [
-            {
-              "id": "i0",
-              "text": "The correct thing - amazing",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Un ejemplo de to seguido de infinitivo es (today)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Al lado de mi casa hay una guarder\u00eda (today)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "Next to my house there is a nursery school. (today)"
-            },
-            {
-              "id": "m0",
-              "text": "information, homework, work. - amazing"
-            },
-            {
-              "id": "m1",
-              "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! (today)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U10_I62"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Food: Shopping):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "are there any peas in the fridge!"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "\u2018m/ \u2018s, etc) (now)"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I63"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Food: Shopping):",
-          "main_text": "In Food: Shopping (4701), The teacher [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "studied"
-                },
-                {
-                  "id": "o2",
-                  "text": "study"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "drank"
-                },
-                {
-                  "id": "o2",
-                  "text": "drink"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U10_I64"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Food: Shopping:",
-          "stimulus_en": "What\u2019s his name - interesting",
-          "stimulus_es": "C\u00f3mo se llama \u00e9l? - interesting",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 4179"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U10_I65"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Food: Shopping:",
-          "options": [
-            {
-              "id": "w15",
-              "text": "mis"
-            },
-            {
-              "id": "w9",
-              "text": "rainy"
+              "id": "w19",
+              "text": "etc"
             },
             {
               "id": "w11",
-              "text": "="
-            },
-            {
-              "id": "w3",
-              "text": "my"
-            },
-            {
-              "id": "w8",
-              "text": "a"
+              "text": "una"
             },
             {
               "id": "w10",
-              "text": "day"
+              "text": "decir"
             },
             {
-              "id": "w17",
-              "text": "salir"
-            },
-            {
-              "id": "w1",
-              "text": "don\u2019t"
-            },
-            {
-              "id": "w20",
-              "text": "lluviosos"
-            },
-            {
-              "id": "w14",
-              "text": "a"
-            },
-            {
-              "id": "w16",
-              "text": "hijos"
-            },
-            {
-              "id": "w4",
-              "text": "children"
-            },
-            {
-              "id": "w13",
-              "text": "dejo"
-            },
-            {
-              "id": "w18",
-              "text": "en"
-            },
-            {
-              "id": "w6",
-              "text": "out"
-            },
-            {
-              "id": "w12",
-              "text": "no"
-            },
-            {
-              "id": "w2",
-              "text": "let"
-            },
-            {
-              "id": "w19",
-              "text": "d\u00edas"
-            },
-            {
-              "id": "w7",
-              "text": "on"
-            },
-            {
-              "id": "w5",
-              "text": "go"
+              "id": "w9",
+              "text": "puedo"
             },
             {
               "id": "w0",
-              "text": "I"
+              "text": "se"
+            },
+            {
+              "id": "w6",
+              "text": "palabra"
+            },
+            {
+              "id": "w16",
+              "text": "mesas"
+            },
+            {
+              "id": "w1",
+              "text": "pueden"
+            },
+            {
+              "id": "w5",
+              "text": "la"
+            },
+            {
+              "id": "w8",
+              "text": "yo"
+            },
+            {
+              "id": "w15",
+              "text": "tres"
+            },
+            {
+              "id": "w13",
+              "text": "dos"
+            },
+            {
+              "id": "w14",
+              "text": "mesas"
+            },
+            {
+              "id": "w12",
+              "text": "mesa"
+            },
+            {
+              "id": "w7",
+              "text": "mesa"
+            },
+            {
+              "id": "w2",
+              "text": "contar"
+            },
+            {
+              "id": "w3",
+              "text": "Es"
+            },
+            {
+              "id": "w17",
+              "text": "500"
+            },
+            {
+              "id": "w18",
+              "text": "mesas"
+            },
+            {
+              "id": "w4",
+              "text": "decir"
             }
           ],
           "correct_answer": [
@@ -1598,72 +652,627 @@
             "w20"
           ],
           "mastery_tag": "syntax",
-          "interaction_id": "U10_I66"
+          "interaction_id": "U10_I27"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Food: Shopping):",
-          "stimulus_en": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna. - amazing (___)",
+          "prompt_es": "Completa 75 (Food: Shopping):",
+          "stimulus_en": "la pel\u00edcula, entonces SUBJECT = THE FILM - 713 (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
-          "interaction_id": "U10_I67"
+          "interaction_id": "U10_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Food: Shopping)",
-          "stimulus_en": "Sally often borrows money from her friends - interesting",
-          "stimulus_es": "Ref: often / money / Sally / her / borrows / friends / from - interesting",
+          "prompt_es": "\u00bfCorrecto? 75 (Food: Shopping)",
+          "stimulus_en": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is.!",
+          "stimulus_es": "Ref: La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo!",
           "correct_answer": false,
           "mastery_tag": "grammar",
-          "interaction_id": "U10_I68"
+          "interaction_id": "U10_I29"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
+          "prompt_es": "Relaciona 75 (Food: Shopping):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Otro ejemplo.",
-              "right": "when I was at primary school, I didn\u2019t wear uniform.."
+              "left": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un n\u00famero delante y detr\u00e1s un sustantivo, entonces no ponemos la -s de plural, por ejemplo - 822",
+              "right": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children. - 822"
             },
             {
               "id": "p1",
-              "left": "Te veo el s\u00e1bado - interesting",
-              "right": "I\u2019ll see you on Saturday - interesting"
+              "left": "De qui\u00e9n ese coche?...",
+              "right": "Whose car is that..."
             },
             {
               "id": "p2",
-              "left": "The correct thing (today)",
-              "right": "Have you got a car? (today)"
+              "left": "Otro common mistake...",
+              "right": "I haven\u2019t a car...."
             },
             {
               "id": "p3",
-              "left": "Elevator (Br Eng (now)",
-              "right": "lift) Ascensor (now)"
+              "left": "in + car/ taxi (now)",
+              "right": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). (now)"
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U10_I69"
+          "interaction_id": "U10_I30"
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Food: Shopping):",
-          "tts_en": "Peter\u2019s sisters!",
-          "correct_answer": "Peter\u2019s sisters!",
+          "prompt_es": "Dictado 75 (Food: Shopping):",
+          "tts_en": "biscuit) Patatas fritas!",
+          "correct_answer": "biscuit) Patatas fritas!",
           "mastery_tag": "listening",
-          "interaction_id": "U10_I70"
+          "interaction_id": "U10_I31"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 75:",
           "options": [
             {
-              "id": "o4",
-              "text": "bike6000"
+              "id": "o0",
+              "text": "Sun"
             },
             {
               "id": "o1",
-              "text": "banana"
+              "text": "Moon"
+            },
+            {
+              "id": "o4",
+              "text": "Hot2381"
+            },
+            {
+              "id": "o3",
+              "text": "Planet"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I32"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 75 - Food: Shopping:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Encontraste algo ah\u00ed? (today)",
+              "back": "any + thing = en oraci\u00f3n INTERROGATIVA. (today)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I33"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 75 (Food: Shopping):",
+          "instruction_en": "Describe Food: Shopping in 5 words. [Ref: 32]",
+          "mastery_tag": "writing",
+          "interaction_id": "U10_I34"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 75 (Food: Shopping):",
+          "stimulus_en": "Focus on Food: Shopping. (196)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U10_I35"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 66 (Food: Shopping):",
+          "stimulus": "Matching set 6188",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son - amazing",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Litre (Br Eng) (Am Eng - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Cu\u00e1l es el edificio m\u00e1s alto que has visitado nunca? - 288",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "What\u2019s the highest building you\u2019ve ever visited - 288"
+            },
+            {
+              "id": "m1",
+              "text": "liter) Litro - amazing"
+            },
+            {
+              "id": "m0",
+              "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar. - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U10_I36"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 66 (Food: Shopping):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I don\u2019t have many friends (friends is countable).."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Harry\u2019s burger (today)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I37"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 66 (Food: Shopping):",
+          "main_text": "In Food: Shopping (3737), She [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cleaned"
+                },
+                {
+                  "id": "o2",
+                  "text": "clean"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "played"
+                },
+                {
+                  "id": "o2",
+                  "text": "play"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U10_I38"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 66 para Food: Shopping:",
+          "stimulus_en": "Who\u2019s the shyest person you\u2019ve ever met.",
+          "stimulus_es": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca?.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option A"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o3",
+              "text": "Other 1275"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U10_I39"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 66 sobre Food: Shopping:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "o"
+            },
+            {
+              "id": "w2",
+              "text": "desde"
+            },
+            {
+              "id": "w0",
+              "text": "durante"
+            },
+            {
+              "id": "w3",
+              "text": "hace"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U10_I40"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 76 (Food: Shopping):",
+          "stimulus_en": "Have you got a car?... (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U10_I41"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 76 (Food: Shopping)",
+          "stimulus_en": "Have you ever tried Thai food - 713",
+          "stimulus_es": "Ref: Alguna vez has probado la comida tailandesa? - 713",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U10_I42"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 76 (Food: Shopping):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The correct thing (today)",
+              "right": "I haven\u2019t got a car. (today)"
+            },
+            {
+              "id": "p1",
+              "left": "Common mistake - interesting",
+              "right": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele. - interesting"
+            },
+            {
+              "id": "p2",
+              "left": "En qu\u00e9 trabaja Juan? (today)",
+              "right": "What does Juan do (today)"
+            },
+            {
+              "id": "p3",
+              "left": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro? (now)",
+              "right": "Were you having a beer when you saw Peter (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I43"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 76 (Food: Shopping):",
+          "tts_en": "My friend has a lot of money. - 146",
+          "correct_answer": "My friend has a lot of money. - 146",
+          "mastery_tag": "listening",
+          "interaction_id": "U10_I44"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 76:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "cat3266"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I45"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 76 - Food: Shopping:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda? (now)",
+              "back": "How old is Mar\u00eda (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I46"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 76 (Food: Shopping):",
+          "instruction_en": "A small story about Food: Shopping. [Ref: 62]",
+          "mastery_tag": "writing",
+          "interaction_id": "U10_I47"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 76 (Food: Shopping):",
+          "stimulus_en": "Focus on Food: Shopping. (326)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U10_I48"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 67 (Food: Shopping):",
+          "stimulus": "Matching set 93",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca? (now)",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "4. La pelota de las ni\u00f1as - interesting",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca? (today)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "What\u2019s the saddest song you\u2019ve ever listened to (today)"
+            },
+            {
+              "id": "m1",
+              "text": "The girls\u2019 ball - interesting"
+            },
+            {
+              "id": "m0",
+              "text": "What\u2019s the saddest song you\u2019ve ever listened to (now)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U10_I49"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 67 (Food: Shopping):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "durante o desde hace - amazing"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc. - interesting"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I50"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 67 (Food: Shopping):",
+          "main_text": "In Food: Shopping (9312), The teacher [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "worked"
+                },
+                {
+                  "id": "o2",
+                  "text": "work"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "spoke"
+                },
+                {
+                  "id": "o2",
+                  "text": "speak"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U10_I51"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 67 para Food: Shopping:",
+          "stimulus_en": "Your grandmother\u2019s juice.",
+          "stimulus_es": "5. El zumo de tu abuela.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option A"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o3",
+              "text": "Other 4721"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U10_I52"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 67 sobre Food: Shopping:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "restaurant"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w0",
+              "text": "Sometimes"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "lunch"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U10_I53"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 77 (Food: Shopping):",
+          "stimulus_en": "she never drinks coffee in the evening - interesting (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U10_I54"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 77 (Food: Shopping)",
+          "stimulus_en": "Have you got a car?...",
+          "stimulus_es": "Ref: The correct thing...",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U10_I55"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 77 (Food: Shopping):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Te veo el s\u00e1bado!",
+              "right": "I\u2019ll see you on Saturday!"
+            },
+            {
+              "id": "p1",
+              "left": "Escribir ingl\u00e9s correctamente (today)",
+              "right": "uso de las may\u00fasculas (today)"
+            },
+            {
+              "id": "p2",
+              "left": "dictionary / often / use / The / the / students (now)",
+              "right": "the students often use the dictionary (now)"
+            },
+            {
+              "id": "p3",
+              "left": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? (now)",
+              "right": "What\u2019s the happiest day you\u2019ve ever had (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I56"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 77 (Food: Shopping):",
+          "tts_en": "What\u2019s the funniest joke you\u2019ve ever been told (now)",
+          "correct_answer": "What\u2019s the funniest joke you\u2019ve ever been told (now)",
+          "mastery_tag": "listening",
+          "interaction_id": "U10_I57"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 77:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "bike9664"
             },
             {
               "id": "o2",
@@ -1674,8 +1283,294 @@
               "text": "mango"
             },
             {
+              "id": "o1",
+              "text": "banana"
+            },
+            {
               "id": "o0",
               "text": "apple"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I58"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 77 - Food: Shopping:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "in + car/ taxi - amazing",
+              "back": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). - amazing"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I59"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 77 (Food: Shopping):",
+          "instruction_en": "Describe Food: Shopping in 5 words. [Ref: 39]",
+          "mastery_tag": "writing",
+          "interaction_id": "U10_I60"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 77 (Food: Shopping):",
+          "stimulus_en": "Look at Food: Shopping. (928)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U10_I61"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 68 (Food: Shopping):",
+          "stimulus": "Matching set 7218",
+          "items": [
+            {
+              "id": "i0",
+              "text": "3. el primer elemento es un pa\u00eds/ciudad/pueblo\u2026 Ejemplo (now)",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "A qu\u00e9 hora sale el tren? - 387",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "What time does the train leave - 387"
+            },
+            {
+              "id": "m1",
+              "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta.."
+            },
+            {
+              "id": "m0",
+              "text": "Spain\u2018s monuments are very nice. (now)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U10_I62"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 68 (Food: Shopping):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele. - 558"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "I don\u2019t have many friends (friends is countable).!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I63"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 68 (Food: Shopping):",
+          "main_text": "In Food: Shopping (5758), He [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "stopped"
+                },
+                {
+                  "id": "o2",
+                  "text": "stop"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "studied"
+                },
+                {
+                  "id": "o2",
+                  "text": "study"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U10_I64"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 68 para Food: Shopping:",
+          "stimulus_en": "bookshop) Librer\u00eda!",
+          "stimulus_es": "Bookstore (Br Eng!",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
+            },
+            {
+              "id": "o3",
+              "text": "Other 1977"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U10_I65"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 68 sobre Food: Shopping:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Why"
+            },
+            {
+              "id": "w5",
+              "text": "190"
+            },
+            {
+              "id": "w3",
+              "text": "tell"
+            },
+            {
+              "id": "w4",
+              "text": "me"
+            },
+            {
+              "id": "w1",
+              "text": "didn\u2019t"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U10_I66"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 78 (Food: Shopping):",
+          "stimulus_en": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular.... (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U10_I67"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 78 (Food: Shopping)",
+          "stimulus_en": "every days o every Tuesdays. - interesting",
+          "stimulus_es": "Ref: Cabe destacar que la palabra every es singular en ingl\u00e9s, por tanto, tanto \u00abday\u00bb como cualquiera de los d\u00edas que pongamos, deben ir en singular. Es incorrecto decir - interesting",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U10_I68"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 78 (Food: Shopping):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "A qu\u00e9 hora abre el supermercado? - 698",
+              "right": "What time does the supermarket open - 698"
+            },
+            {
+              "id": "p1",
+              "left": "2. Play football on Saturday afternoons / the boys / always!",
+              "right": "the boys always play football on Saturday afternoons!"
+            },
+            {
+              "id": "p2",
+              "left": "Tienes hijos?!",
+              "right": "Do you have any children!"
+            },
+            {
+              "id": "p3",
+              "left": "A qu\u00e9 hora tenemos el examen?.",
+              "right": "What time do we have our exam."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U10_I69"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 78 (Food: Shopping):",
+          "tts_en": "how often do you have Italian classes? = I have every Tuesday..",
+          "correct_answer": "how often do you have Italian classes? = I have every Tuesday..",
+          "mastery_tag": "listening",
+          "interaction_id": "U10_I70"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 78:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "cat7836"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
+            },
+            {
+              "id": "o0",
+              "text": "car"
             }
           ],
           "correct_answer": "o4",
@@ -1688,8 +1583,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Algunos ejemplos!",
-              "back": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without!"
+              "front": "El cumplea\u00f1os de Pablo es el 8 de mayo!",
+              "back": "Paul\u2019s birthday is on 8th May!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1698,50 +1593,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 78 (Food: Shopping):",
-          "instruction_en": "Your daily routine in Food: Shopping. [Ref: 34]",
+          "instruction_en": "List 3 facts about Food: Shopping. [Ref: 51]",
           "mastery_tag": "writing",
           "interaction_id": "U10_I73"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 78 (Food: Shopping):",
-          "stimulus_en": "Talk about Food: Shopping. (433)",
+          "stimulus_en": "Repeat Food: Shopping. (988)",
           "mastery_tag": "speaking",
           "interaction_id": "U10_I74"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
-          "stimulus": "Matching set 8230",
+          "prompt_es": "Une 69 (Food: Shopping):",
+          "stimulus": "Matching set 7044",
           "items": [
             {
               "id": "i0",
-              "text": "Tienes hijos? - interesting",
+              "text": "6. it / rain in the summer / often / doesn\u2019t!",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Y en negativa - amazing",
+              "text": "De qui\u00e9n son esos libros? - amazing",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Has hablado alguna vez ingl\u00e9s por tel\u00e9fono? (today)",
+              "text": "TV / ever / hardly / I / in / watch / evenings / the...",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m1",
+              "text": "Whose books are those= or Whose are those books - amazing"
+            },
+            {
               "id": "m0",
-              "text": "Do you have any children - interesting"
+              "text": "it doesn\u2019t often rain in the summer!"
             },
             {
               "id": "m2",
-              "text": "have you ever spoken English on the phone (today)"
-            },
-            {
-              "id": "m1",
-              "text": "I don\u2019t have any friends who live near my house. - amazing"
+              "text": "I hardly ever watch TV in the evenings..."
             }
           ],
           "correct_answer": {
@@ -1754,7 +1649,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Food: Shopping):",
+          "prompt_es": "Clasifica 69 (Food: Shopping):",
           "categories": [
             {
               "id": "c1",
@@ -1762,7 +1657,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "What\u2019s the saddest song you\u2019ve ever listened to (now)"
+                  "text": "in May, in August, etc...."
                 }
               ]
             },
@@ -1772,7 +1667,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - amazing"
+                  "text": "What will the weather be like tomorrow? It\u2019ll be sunny. - 934"
                 }
               ]
             }
@@ -1782,19 +1677,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Food: Shopping):",
-          "main_text": "In Food: Shopping (8175), The teacher [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 69 (Food: Shopping):",
+          "main_text": "In Food: Shopping (5950), The actress [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "studied"
+                  "text": "designed"
                 },
                 {
                   "id": "o2",
-                  "text": "study"
+                  "text": "design"
                 }
               ]
             },
@@ -1803,11 +1698,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "sent"
+                  "text": "met"
                 },
                 {
                   "id": "o2",
-                  "text": "send"
+                  "text": "meet"
                 }
               ]
             }
@@ -1821,21 +1716,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Food: Shopping:",
-          "stimulus_en": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio - amazing",
-          "stimulus_es": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales - amazing",
+          "prompt_es": "Elige 69 para Food: Shopping:",
+          "stimulus_en": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. - amazing",
+          "stimulus_es": "Otro ejemplo - amazing",
           "options": [
             {
               "id": "o1",
               "text": "Option A"
             },
             {
-              "id": "o2",
-              "text": "Option B"
+              "id": "o3",
+              "text": "Other 1018"
             },
             {
-              "id": "o3",
-              "text": "Other 3719"
+              "id": "o2",
+              "text": "Option B"
             }
           ],
           "correct_answer": "o1",
@@ -1844,27 +1739,31 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Food: Shopping:",
+          "prompt_es": "Ordena 69 sobre Food: Shopping:",
           "options": [
             {
-              "id": "w1",
-              "text": "does"
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w5",
+              "text": "(now)"
             },
             {
               "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w2",
-              "text": "Juan"
-            },
-            {
-              "id": "w3",
-              "text": "do"
+              "text": "When"
             },
             {
               "id": "w4",
-              "text": "interesting"
+              "text": "him/her"
+            },
+            {
+              "id": "w3",
+              "text": "help"
+            },
+            {
+              "id": "w1",
+              "text": "did"
             }
           ],
           "correct_answer": [
@@ -1872,51 +1771,52 @@
             "w1",
             "w2",
             "w3",
-            "w4"
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U10_I79"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Food: Shopping):",
-          "stimulus_en": "chips) Patatas fritas (today) (___)",
+          "prompt_es": "Completa 79 (Food: Shopping):",
+          "stimulus_en": "\u00bfDe d\u00f3nde eres? (now) (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U10_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Food: Shopping)",
-          "stimulus_en": "cuando hablamos de forma m\u00e1s espec\u00edfica.!",
-          "stimulus_es": "Ref: on + train/ bus/ plane/ bike/ motorbike!",
+          "prompt_es": "\u00bfCorrecto? 79 (Food: Shopping)",
+          "stimulus_en": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc..",
+          "stimulus_es": "Ref: El adjetivo dice una cualidad de algo, por ejemplo.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U10_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
+          "prompt_es": "Relaciona 79 (Food: Shopping):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Common mistake!",
-              "right": "I hadn\u2019t got a mobile.!"
+              "left": "Has visto a alguien?!",
+              "right": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb.!"
             },
             {
               "id": "p1",
-              "left": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng (now)",
-              "right": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the (now)"
+              "left": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo - interesting",
+              "right": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. - interesting"
             },
             {
               "id": "p2",
-              "left": "Funciona ese ordenador? - 727",
-              "right": "Does that computer work - 727"
+              "left": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca - interesting",
+              "right": "I hardly ever go to the cinema = casi nunca voy al cine. - interesting"
             },
             {
               "id": "p3",
-              "left": "\u2013 D\u00edas de la semana - interesting",
-              "right": "on Monday, on Wednesday, etc. - interesting"
+              "left": "The correct thing (now)",
+              "right": "I went to a state school. (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1924,35 +1824,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Food: Shopping):",
-          "tts_en": "I haven\u2019t got a car..",
-          "correct_answer": "I haven\u2019t got a car..",
+          "prompt_es": "Dictado 79 (Food: Shopping):",
+          "tts_en": "Harry\u2019s burger - 216",
+          "correct_answer": "Harry\u2019s burger - 216",
           "mastery_tag": "listening",
           "interaction_id": "U10_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 79:",
           "options": [
             {
               "id": "o4",
-              "text": "rain9343"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o2",
-              "text": "salad"
+              "text": "cat6569"
             },
             {
               "id": "o0",
-              "text": "pizza"
+              "text": "car"
             },
             {
               "id": "o3",
-              "text": "soup"
+              "text": "plane"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
+            },
+            {
+              "id": "o2",
+              "text": "train"
             }
           ],
           "correct_answer": "o4",
@@ -1965,8 +1865,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Cu\u00e1l es el pa\u00eds m\u00e1s fr\u00edo en el que has estado nunca? - 824",
-              "back": "What\u2019s the coldest country you\u2019ve ever been to - 824"
+              "front": "Crees que bajar\u00e1 el paro este a\u00f1o? (now)",
+              "back": "Do you think that unemployment will go down this year (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1975,50 +1875,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 79 (Food: Shopping):",
-          "instruction_en": "Write a note about Food: Shopping. [Ref: 99]",
+          "instruction_en": "A small story about Food: Shopping. [Ref: 76]",
           "mastery_tag": "writing",
           "interaction_id": "U10_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 79 (Food: Shopping):",
-          "stimulus_en": "Talk about Food: Shopping. (152)",
+          "stimulus_en": "Improve Food: Shopping. (509)",
           "mastery_tag": "speaking",
           "interaction_id": "U10_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
-          "stimulus": "Matching set 3424",
+          "prompt_es": "Une 70 (Food: Shopping):",
+          "stimulus": "Matching set 1813",
           "items": [
             {
               "id": "i0",
-              "text": "Bookstore (Br Eng - interesting",
+              "text": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda?...",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Por ejemplo - 699",
+              "text": "Algunos ejemplos - amazing",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "6. Los juguetes de mis hijos (now)",
+              "text": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba (now)",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m0",
+              "text": "How old is Mar\u00eda..."
+            },
+            {
               "id": "m2",
-              "text": "My children\u2019s toys (now)"
+              "text": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM (now)"
             },
             {
               "id": "m1",
-              "text": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. - 699"
-            },
-            {
-              "id": "m0",
-              "text": "bookshop) Librer\u00eda - interesting"
+              "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without - amazing"
             }
           ],
           "correct_answer": {
@@ -2031,7 +1931,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Food: Shopping):",
+          "prompt_es": "Clasifica 70 (Food: Shopping):",
           "categories": [
             {
               "id": "c1",
@@ -2039,7 +1939,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. (now)"
+                  "text": "I always read books slowly - 759"
                 }
               ]
             },
@@ -2049,7 +1949,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos. - 208"
+                  "text": "She drives carefully. (now)"
                 }
               ]
             }
@@ -2059,19 +1959,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Food: Shopping):",
-          "main_text": "In Food: Shopping (6345), The lawyer [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 70 (Food: Shopping):",
+          "main_text": "In Food: Shopping (8791), The driver [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "fixed"
+                  "text": "met"
                 },
                 {
                   "id": "o2",
-                  "text": "fix"
+                  "text": "meet"
                 }
               ]
             },
@@ -2080,11 +1980,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "learned"
+                  "text": "called"
                 },
                 {
                   "id": "o2",
-                  "text": "learn"
+                  "text": "call"
                 }
               ]
             }
@@ -2098,21 +1998,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Food: Shopping:",
-          "stimulus_en": "igual hago algo\u2026 (but I\u2019m not sure\u2026). - 406",
-          "stimulus_es": "This is another translation - 406",
+          "prompt_es": "Elige 70 para Food: Shopping:",
+          "stimulus_en": "biscuit) Patatas fritas - amazing",
+          "stimulus_es": "Chips (Br Eng) (Am Eng - amazing",
           "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
             {
               "id": "o1",
               "text": "Option A"
             },
             {
               "id": "o3",
-              "text": "Other 1198"
+              "text": "Other 4101"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
             }
           ],
           "correct_answer": "o1",
@@ -2121,149 +2021,74 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Food: Shopping:",
+          "prompt_es": "Ordena 70 sobre Food: Shopping:",
           "options": [
             {
-              "id": "w0",
-              "text": "who"
-            },
-            {
-              "id": "w17",
-              "text": "auxiliar"
-            },
-            {
-              "id": "w8",
-              "text": "when"
-            },
-            {
-              "id": "w7",
-              "text": "embargo"
-            },
-            {
-              "id": "w11",
-              "text": "y"
-            },
-            {
-              "id": "w1",
-              "text": "what"
-            },
-            {
-              "id": "w16",
-              "text": "llevar"
-            },
-            {
-              "id": "w10",
-              "text": "why"
-            },
-            {
-              "id": "w14",
-              "text": "han"
-            },
-            {
-              "id": "w2",
-              "text": "which"
-            },
-            {
-              "id": "w4",
-              "text": "how"
-            },
-            {
-              "id": "w9",
-              "text": "where"
-            },
-            {
-              "id": "w18",
+              "id": "w3",
               "text": "interesting"
             },
             {
-              "id": "w12",
-              "text": "how"
+              "id": "w2",
+              "text": "etc)"
             },
             {
-              "id": "w15",
-              "text": "de"
+              "id": "w0",
+              "text": "\u2018m/"
             },
             {
-              "id": "w5",
-              "text": "many/much"
-            },
-            {
-              "id": "w6",
-              "text": "Sin"
-            },
-            {
-              "id": "w13",
-              "text": "siempre"
-            },
-            {
-              "id": "w3",
-              "text": "y"
+              "id": "w1",
+              "text": "\u2018s"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15",
-            "w16",
-            "w17",
-            "w18"
+            "w3"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U10_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Food: Shopping):",
-          "stimulus_en": "Indirect questions en ingl\u00e9s.. (___)",
+          "prompt_es": "Completa 80 (Food: Shopping):",
+          "stimulus_en": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest). - amazing (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U10_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Food: Shopping)",
-          "stimulus_en": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on.!",
-          "stimulus_es": "Ref: \u2013 Fechas concretas!",
+          "prompt_es": "\u00bfCorrecto? 80 (Food: Shopping)",
+          "stimulus_en": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE)..",
+          "stimulus_es": "Ref: Empecemos analizando el siguiente ejemplo.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U10_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Food: Shopping):",
+          "prompt_es": "Relaciona 80 (Food: Shopping):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Para responder en plural, dir\u00edamos.",
-              "right": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l).."
+              "left": "This is another translation.",
+              "right": "igual hago algo\u2026 (but I\u2019m not sure\u2026).."
             },
             {
               "id": "p1",
-              "left": "\u2013 Meses del a\u00f1o (today)",
-              "right": "in May, in August, etc. (today)"
+              "left": "Tienes zapatos para la boda? (now)",
+              "right": "do you have any shoes for the wedding (now)"
             },
             {
               "id": "p2",
-              "left": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca?...",
-              "right": "What\u2019s the hottest place you\u2019ve ever been to..."
+              "left": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo - interesting",
+              "right": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - interesting"
             },
             {
               "id": "p3",
-              "left": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question ten\u00edamos la inversi\u00f3n entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet?\u00a0), en la indirect question, ya no hay inversi\u00f3n, sino que tenemos question word + subject + verb. Si te das cuenta, la inversi\u00f3n la tenemos en \u2018Can you tell me\u2026\u2019. Como ya tenemos una inversi\u00f3n al comenzar la pregunta, ya no podemos hacer otra inversi\u00f3n. Recuerda.",
-              "right": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n!."
+              "left": "The correct thing - amazing",
+              "right": "I have 3 children. - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2271,35 +2096,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Food: Shopping):",
-          "tts_en": "she never drinks coffee in the evening (today)",
-          "correct_answer": "she never drinks coffee in the evening (today)",
+          "prompt_es": "Dictado 80 (Food: Shopping):",
+          "tts_en": "chemist) Farmacia (today)",
+          "correct_answer": "chemist) Farmacia (today)",
           "mastery_tag": "listening",
           "interaction_id": "U10_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 80:",
           "options": [
             {
               "id": "o2",
-              "text": "Berlin"
+              "text": "green"
             },
             {
               "id": "o3",
-              "text": "Paris"
-            },
-            {
-              "id": "o1",
-              "text": "Tokyo"
+              "text": "pink"
             },
             {
               "id": "o4",
-              "text": "Slow2532"
+              "text": "run9802"
+            },
+            {
+              "id": "o1",
+              "text": "red"
             },
             {
               "id": "o0",
-              "text": "London"
+              "text": "blue"
             }
           ],
           "correct_answer": "o4",
@@ -2312,8 +2137,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo - 556",
-              "back": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. - 556"
+              "front": "Mi cumplea\u00f1os es en febrero (now)",
+              "back": "my birthday is in February. (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2322,14 +2147,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 80 (Food: Shopping):",
-          "instruction_en": "Draft an email regarding Food: Shopping. [Ref: 20]",
+          "instruction_en": "Explain Enough using Food: Shopping. [Ref: 32]",
           "mastery_tag": "writing",
           "interaction_id": "U10_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 80 (Food: Shopping):",
-          "stimulus_en": "The Enough is here. (615)",
+          "stimulus_en": "Focus on Food: Shopping. (563)",
           "mastery_tag": "speaking",
           "interaction_id": "U10_I100"
         }

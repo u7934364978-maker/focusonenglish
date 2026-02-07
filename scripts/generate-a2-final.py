@@ -176,7 +176,7 @@ class ExerciseGenerator:
 
     def gen_dictation(self, int_id, grammar, theme):
         en, es, _, _ = self.get_sentence(grammar, theme)
-        ex = {"type": "dictation_guided", "prompt_es": f"Escribe {self.counters['dictation_guided']} ({theme}):", "tts_en": en, "correct_answer": en, "mastery_tag": "listening", "interaction_id": int_id}
+        ex = {"type": "dictation_guided", "prompt_es": f"Dictado {self.counters['dictation_guided']} ({theme}):", "tts_en": en, "correct_answer": en, "mastery_tag": "listening", "interaction_id": int_id}
         self.counters['dictation_guided'] += 1
         return ex
 
@@ -189,20 +189,20 @@ class ExerciseGenerator:
 
     def gen_flash(self, int_id, theme):
         en, es, _, _ = self.get_sentence("Review", theme)
-        ex = {"type": "flashcards", "prompt_es": f"Flashcard {self.flash_counter} - {theme}:", "cards": [{"id": "c1", "front": es, "back": en}], "mastery_tag": "vocabulary", "interaction_id": int_id}
-        self.flash_counter += 1
+        ex = {"type": "flashcards", "prompt_es": f"Flashcard {self.counters['flashcards']} - {theme}:", "cards": [{"id": "c1", "front": es, "back": en}], "mastery_tag": "vocabulary", "interaction_id": int_id}
+        self.counters['flashcards'] += 1
         return ex
 
     def gen_writing(self, int_id, theme, grammar):
         t = [f"Write a note about {theme}.", f"Describe {theme} in 5 words.", f"Why is {theme} important?", f"Your daily routine in {theme}.", f"A small story about {theme}.", f"Explain {grammar} using {theme}.", f"Draft an email regarding {theme}.", f"Compare {theme} with another topic.", f"Review {theme} from last week.", f"List 3 facts about {theme}."]
-        ex = {"type": "writing_task", "prompt_es": f"Escribe {self.writing_counter} ({theme}):", "instruction_en": random.choice(t) + f" [Ref: {random.randint(10,99)}]", "mastery_tag": "writing", "interaction_id": int_id}
-        self.writing_counter += 1
+        ex = {"type": "writing_task", "prompt_es": f"Escribe {self.counters['writing_task']} ({theme}):", "instruction_en": random.choice(t) + f" [Ref: {random.randint(10,99)}]", "mastery_tag": "writing", "interaction_id": int_id}
+        self.counters['writing_task'] += 1
         return ex
 
     def gen_speaking(self, int_id, theme, grammar):
         s = [f"I like {theme}.", f"The {grammar} is here.", f"Look at {theme}.", f"Talk about {theme}.", f"Repeat {theme}.", f"Study {theme} now.", f"Improve {theme}.", f"Focus on {theme}.", f"This is {theme}.", f"Where is {theme}?"]
-        ex = {"type": "speaking_task", "prompt_es": f"Habla {self.speaking_counter} ({theme}):", "stimulus_en": random.choice(s) + f" ({random.randint(100,999)})", "mastery_tag": "speaking", "interaction_id": int_id}
-        self.speaking_counter += 1
+        ex = {"type": "speaking_task", "prompt_es": f"Habla {self.counters['speaking_task']} ({theme}):", "stimulus_en": random.choice(s) + f" ({random.randint(100,999)})", "mastery_tag": "speaking", "interaction_id": int_id}
+        self.counters['speaking_task'] += 1
         return ex
 
     def gen_mm(self, int_id, theme):
@@ -210,16 +210,22 @@ class ExerciseGenerator:
         for j in range(3):
             en, es, _, _ = self.get_sentence("Match", theme); i.append({"id": f"i{j}", "text": es, "match_id": f"m{j}"}); m.append({"id": f"m{j}", "text": en})
         random.shuffle(m)
-        return {"type": "multiple_matching", "prompt_es": f"Relaciona ({theme}):", "stimulus": f"Matching set {random.randint(1,9999)}", "items": i, "matches": m, "correct_answer": {it["id"]: it["match_id"] for it in i}, "mastery_tag": "reading", "interaction_id": int_id}
+        ex = {"type": "multiple_matching", "prompt_es": f"Une {self.counters['multiple_matching']} ({theme}):", "stimulus": f"Matching set {random.randint(1,9999)}", "items": i, "matches": m, "correct_answer": {it["id"]: it["match_id"] for it in i}, "mastery_tag": "reading", "interaction_id": int_id}
+        self.counters['multiple_matching'] += 1
+        return ex
 
     def gen_cat(self, int_id, theme):
         en1, _, _, _ = self.get_sentence("C", theme); en2, _, _, _ = self.get_sentence("C", theme)
-        return {"type": "categorization", "prompt_es": f"Clasifica ({theme}):", "categories": [{"id": "c1", "title": "Group 1", "items": [{"id": "t1", "text": en1}]}, {"id": "c2", "title": "Group 2", "items": [{"id": "t2", "text": en2}]}], "mastery_tag": "vocabulary", "interaction_id": int_id}
+        ex = {"type": "categorization", "prompt_es": f"Clasifica {self.counters['categorization']} ({theme}):", "categories": [{"id": "c1", "title": "Group 1", "items": [{"id": "t1", "text": en1}]}, {"id": "c2", "title": "Group 2", "items": [{"id": "t2", "text": en2}]}], "mastery_tag": "vocabulary", "interaction_id": int_id}
+        self.counters['categorization'] += 1
+        return ex
 
     def gen_mc_cloze(self, int_id, grammar, theme):
         s = random.choice(VOCAB["subjects"]); v1 = random.choice(VOCAB["verbs_present"]); v2 = random.choice(VOCAB["verbs_present"]); v1_p = VOCAB["verbs_past"][VOCAB["verbs_present"].index(v1)]; v2_p = VOCAB["verbs_past"][VOCAB["verbs_present"].index(v2)]
         t = f"In {theme} ({random.randint(1,9999)}), {s} [GAP 1] and [GAP 2]."
-        return {"type": "multiple_choice_cloze", "prompt_es": f"Completa ({theme}):", "main_text": t, "gaps": [{"id": "1", "options": [{"id": "o1", "text": v1_p}, {"id": "o2", "text": v1}]}, {"id": "2", "options": [{"id": "o1", "text": v2_p}, {"id": "o2", "text": v2}]}], "correct_answer": {"1": "o1", "2": "o1"}, "mastery_tag": "reading", "interaction_id": int_id}
+        ex = {"type": "multiple_choice_cloze", "prompt_es": f"Rellena {self.counters['multiple_choice_cloze']} ({theme}):", "main_text": t, "gaps": [{"id": "1", "options": [{"id": "o1", "text": v1_p}, {"id": "o2", "text": v1}]}, {"id": "2", "options": [{"id": "o1", "text": v2_p}, {"id": "o2", "text": v2}]}], "correct_answer": {"1": "o1", "2": "o1"}, "mastery_tag": "reading", "interaction_id": int_id}
+        self.counters['multiple_choice_cloze'] += 1
+        return ex
 
 def main():
     gen = ExerciseGenerator()

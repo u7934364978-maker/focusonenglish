@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "stimulus_en": "Have you a car? - amazing (___)",
+          "prompt_es": "Completa 1 (Travel: Booking a Hotel):",
+          "stimulus_en": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos.... (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U1_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Travel: Booking a Hotel)",
-          "stimulus_en": "I don\u2019t know that I will do.!",
-          "stimulus_es": "Ref: Common mistake!",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 1 (Travel: Booking a Hotel)",
+          "stimulus_en": "Why didn\u2019t you tell me - 780",
+          "stimulus_es": "Ref: Por qu\u00e9 no me lo dijiste? - 780",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U1_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
+          "prompt_es": "Relaciona 1 (Travel: Booking a Hotel):",
           "pairs": [
             {
               "id": "p0",
-              "left": "dictionary / often / use / The / the / students...",
-              "right": "the students often use the dictionary..."
+              "left": "Otro ejemplo (now)",
+              "right": "My partner is the most beautiful woman in the world (now)"
             },
             {
               "id": "p1",
-              "left": "Cu\u00e1ndo la ayudaste? - interesting",
-              "right": "When did you help him/her - interesting"
+              "left": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales!",
+              "right": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio!"
             },
             {
               "id": "p2",
-              "left": "Qu\u00e9 quieres?!",
-              "right": "la respuesta es ilimitada, puede ser cualquier cosa.!"
+              "left": "Chips (Br Eng) (Am Eng...",
+              "right": "biscuit) Patatas fritas..."
             },
             {
               "id": "p3",
-              "left": "8. \u00a0usually / my father / goes to work by bus (today)",
-              "right": "my father usually goes to work by bus (today)"
+              "left": "Common mistake.",
+              "right": "I don\u2019t know that I will do.."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Travel: Booking a Hotel):",
-          "tts_en": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. - interesting",
-          "correct_answer": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. - interesting",
+          "prompt_es": "Dictado 1 (Travel: Booking a Hotel):",
+          "tts_en": "autumn) En oto\u00f1o (now)",
+          "correct_answer": "autumn) En oto\u00f1o (now)",
           "mastery_tag": "listening",
           "interaction_id": "U1_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 1:",
           "options": [
             {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
               "id": "o0",
-              "text": "Guitar"
+              "text": "Sun"
             },
             {
               "id": "o2",
-              "text": "Flute"
+              "text": "Star"
             },
             {
               "id": "o4",
-              "text": "Book8864"
+              "text": "Hot7385"
             },
             {
               "id": "o3",
-              "text": "Drums"
+              "text": "Planet"
+            },
+            {
+              "id": "o1",
+              "text": "Moon"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "The correct thing (today)",
-              "back": "I haven\u2019t got a car. (today)"
+              "front": "Hay muchos bares cerca de mi casa...",
+              "back": "There are a lot of bars near my house...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 1 (Travel: Booking a Hotel):",
-          "instruction_en": "Describe Travel: Booking a Hotel in 5 words. [Ref: 95]",
+          "instruction_en": "Explain Adjectives: Position using Travel: Booking a Hotel. [Ref: 83]",
           "mastery_tag": "writing",
           "interaction_id": "U1_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 1 (Travel: Booking a Hotel):",
-          "stimulus_en": "Talk about Travel: Booking a Hotel. (651)",
+          "stimulus_en": "Study Travel: Booking a Hotel now. (258)",
           "mastery_tag": "speaking",
           "interaction_id": "U1_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
-          "stimulus": "Matching set 3154",
+          "prompt_es": "Une 1 (Travel: Booking a Hotel):",
+          "stimulus": "Matching set 6553",
           "items": [
             {
               "id": "i0",
-              "text": "TV / ever / hardly / I / in / watch / evenings / the - amazing",
+              "text": "Common mistake - amazing",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "my / My / spoils / neighbour / holidays / always (now)",
+              "text": "2. el primer elemento es un animal. Ejemplo.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "\u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo.",
+              "text": "D\u00f3nde te lo dijo? - 469",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos.."
-            },
-            {
-              "id": "m0",
-              "text": "I hardly ever watch TV in the evenings - amazing"
+              "text": "Where did he/she tell you - 469"
             },
             {
               "id": "m1",
-              "text": "My neighbour always spoils my holidays (now)"
+              "text": "the bird\u2018s legs = las piernas del p\u00e1jaro.."
+            },
+            {
+              "id": "m0",
+              "text": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele. - amazing"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Travel: Booking a Hotel):",
+          "prompt_es": "Clasifica 1 (Travel: Booking a Hotel):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Your grandmother\u2019s juice - interesting"
+                  "text": "What\u2019s his name (now)"
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest). (today)"
+                  "text": "Next to my house there is a nursery school. - amazing"
                 }
               ]
             }
@@ -202,19 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "main_text": "In Travel: Booking a Hotel (4518), The waiter [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 1 (Travel: Booking a Hotel):",
+          "main_text": "In Travel: Booking a Hotel (3385), Sarah [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "stopped"
+                  "text": "worked"
                 },
                 {
                   "id": "o2",
-                  "text": "stop"
+                  "text": "work"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "checked"
+                  "text": "worked"
                 },
                 {
                   "id": "o2",
-                  "text": "check"
+                  "text": "work"
                 }
               ]
             }
@@ -241,21 +241,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Travel: Booking a Hotel:",
-          "stimulus_en": "I never drink alcohol if I drive a car (now)",
-          "stimulus_es": "car / I / drink / never / if / drive / I / alcohol / a (now)",
+          "prompt_es": "Elige 1 para Travel: Booking a Hotel:",
+          "stimulus_en": "What\u2019s the hottest place you\u2019ve ever been to (today)",
+          "stimulus_es": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca? (today)",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 4484"
+              "id": "o1",
+              "text": "Option A"
             },
             {
               "id": "o2",
               "text": "Option B"
             },
             {
-              "id": "o1",
-              "text": "Option A"
+              "id": "o3",
+              "text": "Other 5163"
             }
           ],
           "correct_answer": "o1",
@@ -264,244 +264,69 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Travel: Booking a Hotel:",
+          "prompt_es": "Ordena 1 sobre Travel: Booking a Hotel:",
           "options": [
             {
-              "id": "w19",
-              "text": "de"
+              "id": "w2",
+              "text": "NOUN"
             },
             {
               "id": "w1",
-              "text": "oh"
-            },
-            {
-              "id": "w5",
-              "text": "que"
-            },
-            {
-              "id": "w6",
-              "text": "el"
-            },
-            {
-              "id": "w33",
-              "text": "lo"
-            },
-            {
-              "id": "w10",
-              "text": "decimos"
-            },
-            {
-              "id": "w14",
-              "text": "n\u00famero"
-            },
-            {
-              "id": "w35",
-              "text": "en"
-            },
-            {
-              "id": "w34",
-              "text": "veremos"
-            },
-            {
-              "id": "w17",
-              "text": "puede"
-            },
-            {
-              "id": "w9",
-              "text": "lo"
-            },
-            {
-              "id": "w18",
-              "text": "expresar"
-            },
-            {
-              "id": "w7",
-              "text": "n\u00famero"
-            },
-            {
-              "id": "w37",
-              "text": "amazing"
-            },
-            {
-              "id": "w31",
-              "text": "Ahora"
-            },
-            {
-              "id": "w30",
-              "text": "utilizando"
-            },
-            {
-              "id": "w21",
-              "text": "formas"
-            },
-            {
-              "id": "w27",
-              "text": "c\u00f3mo"
-            },
-            {
-              "id": "w22",
-              "text": "distintas"
-            },
-            {
-              "id": "w2",
-              "text": "three"
-            },
-            {
-              "id": "w11",
-              "text": "aqu\u00ed"
-            },
-            {
-              "id": "w16",
-              "text": "se"
-            },
-            {
-              "id": "w4",
-              "text": "encuenta"
-            },
-            {
-              "id": "w24",
-              "text": "ingl\u00e9s"
-            },
-            {
-              "id": "w32",
-              "text": "despu\u00e9s"
-            },
-            {
-              "id": "w3",
-              "text": "Ten"
-            },
-            {
-              "id": "w12",
-              "text": "\u00aboh\u00bb"
-            },
-            {
-              "id": "w25",
-              "text": "seg\u00fan"
-            },
-            {
-              "id": "w28",
-              "text": "se"
-            },
-            {
-              "id": "w8",
-              "text": "cero"
+              "text": "+"
             },
             {
               "id": "w0",
-              "text": "nineteen"
-            },
-            {
-              "id": "w15",
-              "text": "cero"
-            },
-            {
-              "id": "w23",
-              "text": "en"
-            },
-            {
-              "id": "w29",
-              "text": "est\u00e9"
-            },
-            {
-              "id": "w26",
-              "text": "de"
-            },
-            {
-              "id": "w36",
-              "text": "detalle"
-            },
-            {
-              "id": "w20",
-              "text": "muchas"
-            },
-            {
-              "id": "w13",
-              "text": "El"
+              "text": "ADJECTIVE"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15",
-            "w16",
-            "w17",
-            "w18",
-            "w19",
-            "w20",
-            "w21",
-            "w22",
-            "w23",
-            "w24",
-            "w25",
-            "w26",
-            "w27",
-            "w28",
-            "w29",
-            "w30",
-            "w31",
-            "w32",
-            "w33",
-            "w34",
-            "w35",
-            "w36",
-            "w37"
+            "w2"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U1_I14"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "stimulus_en": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). (now) (___)",
+          "prompt_es": "Completa 2 (Travel: Booking a Hotel):",
+          "stimulus_en": "Our English teacher is usually angry - interesting (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U1_I15"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Travel: Booking a Hotel)",
-          "stimulus_en": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. (today)",
-          "stimulus_es": "Ref: Los adjetivos tienen tres formas (today)",
+          "prompt_es": "\u00bfCorrecto? 2 (Travel: Booking a Hotel)",
+          "stimulus_en": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb. (today)",
+          "stimulus_es": "Ref: Has visto a alguien? (today)",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U1_I16"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
+          "prompt_es": "Relaciona 2 (Travel: Booking a Hotel):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Qu\u00e9 es lo que empieza? - interesting",
-              "right": "la pel\u00edcula, entonces SUBJECT = THE FILM - interesting"
+              "left": "La podemos contestar de la seguiente manera (now)",
+              "right": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l) (now)"
             },
             {
               "id": "p1",
-              "left": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question ten\u00edamos la inversi\u00f3n entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet?\u00a0), en la indirect question, ya no hay inversi\u00f3n, sino que tenemos question word + subject + verb. Si te das cuenta, la inversi\u00f3n la tenemos en \u2018Can you tell me\u2026\u2019. Como ya tenemos una inversi\u00f3n al comenzar la pregunta, ya no podemos hacer otra inversi\u00f3n. Recuerda - 703",
-              "right": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n! - 703"
+              "left": "Movie (Br Eng (now)",
+              "right": "film) Pel\u00edcula (now)"
             },
             {
               "id": "p2",
-              "left": "Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca? (now)",
-              "right": "What\u2019s the most difficult language you\u2019ve ever studied (now)"
+              "left": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n (today)",
+              "right": "Sometimes I have lunch in a restaurant. (today)"
             },
             {
               "id": "p3",
-              "left": "Has hablado alguna vez ingl\u00e9s por tel\u00e9fono?...",
-              "right": "have you ever spoken English on the phone..."
+              "left": "Qu\u00e9 quieres?...",
+              "right": "la respuesta es ilimitada, puede ser cualquier cosa...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -509,15 +334,292 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Travel: Booking a Hotel):",
-          "tts_en": "Paul\u2019s birthday is on 8th May (now)",
-          "correct_answer": "Paul\u2019s birthday is on 8th May (now)",
+          "prompt_es": "Dictado 2 (Travel: Booking a Hotel):",
+          "tts_en": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. - interesting",
+          "correct_answer": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. - interesting",
           "mastery_tag": "listening",
           "interaction_id": "U1_I18"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 2:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "Guitar"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o4",
+              "text": "Book4468"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I19"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 2 - Travel: Booking a Hotel:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos.",
+              "back": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle.."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I20"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 2 (Travel: Booking a Hotel):",
+          "instruction_en": "Explain Adjectives: Position using Travel: Booking a Hotel. [Ref: 44]",
+          "mastery_tag": "writing",
+          "interaction_id": "U1_I21"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 2 (Travel: Booking a Hotel):",
+          "stimulus_en": "Repeat Travel: Booking a Hotel. (738)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U1_I22"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 2 (Travel: Booking a Hotel):",
+          "stimulus": "Matching set 9318",
+          "items": [
+            {
+              "id": "i0",
+              "text": "\u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo - 484",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material - 939",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Elevator (Br Eng.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos. - 484"
+            },
+            {
+              "id": "m2",
+              "text": "lift) Ascensor."
+            },
+            {
+              "id": "m1",
+              "text": "preguntas en ingl\u00e9s - 939"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U1_I23"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 2 (Travel: Booking a Hotel):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I haven\u2019t got much money (remember, money is uncountable). (now)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I24"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 2 (Travel: Booking a Hotel):",
+          "main_text": "In Travel: Booking a Hotel (3910), The scientist [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "prepared"
+                },
+                {
+                  "id": "o2",
+                  "text": "prepare"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "studied"
+                },
+                {
+                  "id": "o2",
+                  "text": "study"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U1_I25"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 2 para Travel: Booking a Hotel:",
+          "stimulus_en": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. (now)",
+          "stimulus_es": "Otro ejemplo (now)",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o3",
+              "text": "Other 7031"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I26"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 2 sobre Travel: Booking a Hotel:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "does"
+            },
+            {
+              "id": "w4",
+              "text": "interesting"
+            },
+            {
+              "id": "w3",
+              "text": "do"
+            },
+            {
+              "id": "w2",
+              "text": "Juan"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U1_I27"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 3 (Travel: Booking a Hotel):",
+          "stimulus_en": "in summer, in winter.. (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I28"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 3 (Travel: Booking a Hotel)",
+          "stimulus_en": "What time does the train leave - interesting",
+          "stimulus_es": "Ref: A qu\u00e9 hora sale el tren? - interesting",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I29"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 3 (Travel: Booking a Hotel):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "2. La hamburguesa de Harry!",
+              "right": "Harry\u2019s burger!"
+            },
+            {
+              "id": "p1",
+              "left": "1. el primer elemento (de esos tres que dec\u00edamos antes) es una persona. Ejemplo (today)",
+              "right": "John\u2018s job is boring. (today)"
+            },
+            {
+              "id": "p2",
+              "left": "Otro ejemplo!",
+              "right": "when I was at primary school, I didn\u2019t wear uniform.!"
+            },
+            {
+              "id": "p3",
+              "left": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo (now)",
+              "right": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo. (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I30"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 3 (Travel: Booking a Hotel):",
+          "tts_en": "Whose books are those= or Whose are those books (today)",
+          "correct_answer": "Whose books are those= or Whose are those books (today)",
+          "mastery_tag": "listening",
+          "interaction_id": "U1_I31"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 3:",
           "options": [
             {
               "id": "o2",
@@ -537,294 +639,7 @@
             },
             {
               "id": "o4",
-              "text": "bike3965"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I19"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 2 - Travel: Booking a Hotel:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "A qu\u00e9 hora abre el supermercado? - interesting",
-              "back": "What time does the supermarket open - interesting"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I20"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 2 (Travel: Booking a Hotel):",
-          "instruction_en": "Write a note about Travel: Booking a Hotel. [Ref: 15]",
-          "mastery_tag": "writing",
-          "interaction_id": "U1_I21"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 2 (Travel: Booking a Hotel):",
-          "stimulus_en": "I like Travel: Booking a Hotel. (255)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U1_I22"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
-          "stimulus": "Matching set 4562",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng.",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "visits / Jonathan / usually / dentist / the - 362",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Mi cumplea\u00f1os es en febrero (today)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "Jonathan usually visits the dentist - 362"
-            },
-            {
-              "id": "m0",
-              "text": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the."
-            },
-            {
-              "id": "m2",
-              "text": "my birthday is in February. (today)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U1_I23"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Travel: Booking a Hotel):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "it doesn\u2019t often rain in the summer..."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "cuando hablamos de forma m\u00e1s espec\u00edfica. - amazing"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I24"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "main_text": "In Travel: Booking a Hotel (8210), The player [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "planned"
-                },
-                {
-                  "id": "o2",
-                  "text": "plan"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "watched"
-                },
-                {
-                  "id": "o2",
-                  "text": "watch"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U1_I25"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Travel: Booking a Hotel:",
-          "stimulus_en": "I can to speak English....",
-          "stimulus_es": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir...",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 8022"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I26"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Travel: Booking a Hotel:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "Canada"
-            },
-            {
-              "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w3",
-              "text": "been"
-            },
-            {
-              "id": "w2",
-              "text": "ever"
-            },
-            {
-              "id": "w0",
-              "text": "have"
-            },
-            {
-              "id": "w6",
-              "text": "102"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U1_I27"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "stimulus_en": "meter) Metro - interesting (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I28"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Travel: Booking a Hotel)",
-          "stimulus_en": "Have you ever tried Thai food (today)",
-          "stimulus_es": "Ref: Alguna vez has probado la comida tailandesa? (today)",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I29"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo.",
-              "right": "how often do you have Italian classes? = I have every Tuesday.."
-            },
-            {
-              "id": "p1",
-              "left": "Al lado de mi colegio no hay bloques de pisos...",
-              "right": "Next to my school there aren\u2019t any apartment blocks...."
-            },
-            {
-              "id": "p2",
-              "left": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material - amazing",
-              "right": "preguntas en ingl\u00e9s - amazing"
-            },
-            {
-              "id": "p3",
-              "left": "Encontraste algo ah\u00ed? (today)",
-              "right": "any + thing = en oraci\u00f3n INTERROGATIVA. (today)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I30"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Travel: Booking a Hotel):",
-          "tts_en": "I have a lot of money and I have a lot of friends. - interesting",
-          "correct_answer": "I have a lot of money and I have a lot of friends. - interesting",
-          "mastery_tag": "listening",
-          "interaction_id": "U1_I31"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o0",
-              "text": "Table"
-            },
-            {
-              "id": "o4",
-              "text": "Pen9389"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
-            },
-            {
-              "id": "o3",
-              "text": "Bed"
-            },
-            {
-              "id": "o1",
-              "text": "Chair"
+              "text": "bike7032"
             }
           ],
           "correct_answer": "o4",
@@ -837,8 +652,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "This is another translation - 364",
-              "back": "igual hago algo\u2026 (but I\u2019m not sure\u2026). - 364"
+              "front": "3. el primer elemento es un pa\u00eds/ciudad/pueblo\u2026 Ejemplo - amazing",
+              "back": "Spain\u2018s monuments are very nice. - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -847,50 +662,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 3 (Travel: Booking a Hotel):",
-          "instruction_en": "Why is Travel: Booking a Hotel important? [Ref: 83]",
+          "instruction_en": "Describe Travel: Booking a Hotel in 5 words. [Ref: 17]",
           "mastery_tag": "writing",
           "interaction_id": "U1_I34"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 3 (Travel: Booking a Hotel):",
-          "stimulus_en": "Look at Travel: Booking a Hotel. (570)",
+          "stimulus_en": "Repeat Travel: Booking a Hotel. (722)",
           "mastery_tag": "speaking",
           "interaction_id": "U1_I35"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
-          "stimulus": "Matching set 6008",
+          "prompt_es": "Une 3 (Travel: Booking a Hotel):",
+          "stimulus": "Matching set 8498",
           "items": [
             {
               "id": "i0",
-              "text": "Empecemos analizando el siguiente ejemplo.",
+              "text": "Si pasamos la oraci\u00f3n a interrogativa, quedar\u00eda as\u00ed - interesting",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Tienes hermanos?...",
+              "text": "Common mistake (now)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Hay guisantes en el frigo? (now)",
+              "text": "2. Play football on Saturday afternoons / the boys / always...",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE).."
+              "text": "Do you have any friends who live near your house? = al ser interrogativa, any. - interesting"
             },
             {
               "id": "m2",
-              "text": "are there any peas in the fridge (now)"
+              "text": "the boys always play football on Saturday afternoons..."
             },
             {
               "id": "m1",
-              "text": "do you have any brothers or sisters..."
+              "text": "Had you got a motorbike\u2026? (now)"
             }
           ],
           "correct_answer": {
@@ -903,7 +718,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Travel: Booking a Hotel):",
+          "prompt_es": "Clasifica 3 (Travel: Booking a Hotel):",
           "categories": [
             {
               "id": "c1",
@@ -911,7 +726,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc.."
+                  "text": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc. - 438"
                 }
               ]
             },
@@ -921,7 +736,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! - interesting"
+                  "text": "I don\u2019t have any friends who live near my house. - interesting"
                 }
               ]
             }
@@ -931,19 +746,875 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "main_text": "In Travel: Booking a Hotel (3216), My brother [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 3 (Travel: Booking a Hotel):",
+          "main_text": "In Travel: Booking a Hotel (1710), Our neighbors [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "worked"
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "work"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "sent"
+                },
+                {
+                  "id": "o2",
+                  "text": "send"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U1_I38"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 3 para Travel: Booking a Hotel:",
+          "stimulus_en": "the bus usually arrives late - 795",
+          "stimulus_es": "3. usually/ arrives late / the bus - 795",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
+            },
+            {
+              "id": "o3",
+              "text": "Other 1980"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I39"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 3 sobre Travel: Booking a Hotel:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "(today)"
+            },
+            {
+              "id": "w4",
+              "text": "car?"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "got"
+            },
+            {
+              "id": "w1",
+              "text": "you"
+            },
+            {
+              "id": "w0",
+              "text": "Have"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U1_I40"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 4 (Travel: Booking a Hotel):",
+          "stimulus_en": "My cousins\u2019 house is very big! (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I41"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 4 (Travel: Booking a Hotel)",
+          "stimulus_en": "Paul\u2019s birthday is on 8th May.",
+          "stimulus_es": "Ref: El cumplea\u00f1os de Pablo es el 8 de mayo.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I42"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 4 (Travel: Booking a Hotel):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The correct thing - amazing",
+              "right": "My friend has a lot of money. - amazing"
+            },
+            {
+              "id": "p1",
+              "left": "Cu\u00e1l es la playa m\u00e1s larga en la que has estado nunca? - interesting",
+              "right": "What\u2019s the longest beach you\u2019ve ever been to - interesting"
+            },
+            {
+              "id": "p2",
+              "left": "visits / Jonathan / usually / dentist / the.",
+              "right": "Jonathan usually visits the dentist."
+            },
+            {
+              "id": "p3",
+              "left": "Eraser (Br Eng!",
+              "right": "rubber) Goma de borrar!"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I43"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 4 (Travel: Booking a Hotel):",
+          "tts_en": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular.!",
+          "correct_answer": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular.!",
+          "mastery_tag": "listening",
+          "interaction_id": "U1_I44"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 4:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar"
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o4",
+              "text": "Book5422"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I45"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 4 - Travel: Booking a Hotel:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Bookstore (Br Eng (now)",
+              "back": "bookshop) Librer\u00eda (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I46"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 4 (Travel: Booking a Hotel):",
+          "instruction_en": "Why is Travel: Booking a Hotel important? [Ref: 47]",
+          "mastery_tag": "writing",
+          "interaction_id": "U1_I47"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 4 (Travel: Booking a Hotel):",
+          "stimulus_en": "Repeat Travel: Booking a Hotel. (288)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U1_I48"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 4 (Travel: Booking a Hotel):",
+          "stimulus": "Matching set 709",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo - interesting",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Movie theater (Br Eng - 983",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "French fries (Br Eng!",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "chips) Patatas fritas!"
+            },
+            {
+              "id": "m0",
+              "text": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado. - interesting"
+            },
+            {
+              "id": "m1",
+              "text": "cinema) Cine - 983"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U1_I49"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 4 (Travel: Booking a Hotel):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "are there any peas in the fridge - amazing"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "would you like some more - 206"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I50"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 4 (Travel: Booking a Hotel):",
+          "main_text": "In Travel: Booking a Hotel (2669), They [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drove"
+                },
+                {
+                  "id": "o2",
+                  "text": "drive"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "visited"
+                },
+                {
+                  "id": "o2",
+                  "text": "visit"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U1_I51"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 4 para Travel: Booking a Hotel:",
+          "stimulus_en": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n. - interesting",
+          "stimulus_es": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir - interesting",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 4865"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I52"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 4 sobre Travel: Booking a Hotel:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "When"
+            },
+            {
+              "id": "w4",
+              "text": "him/her"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w5",
+              "text": "268"
+            },
+            {
+              "id": "w1",
+              "text": "did"
+            },
+            {
+              "id": "w3",
+              "text": "help"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U1_I53"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 5 (Travel: Booking a Hotel):",
+          "stimulus_en": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children.! (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I54"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 5 (Travel: Booking a Hotel)",
+          "stimulus_en": "cuando hablamos de forma m\u00e1s espec\u00edfica....",
+          "stimulus_es": "Ref: on + train/ bus/ plane/ bike/ motorbike...",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I55"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 5 (Travel: Booking a Hotel):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo - 254",
+              "right": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is. - 254"
+            },
+            {
+              "id": "p1",
+              "left": "car / I / drink / never / if / drive / I / alcohol / a (today)",
+              "right": "I never drink alcohol if I drive a car (today)"
+            },
+            {
+              "id": "p2",
+              "left": "\u2013 For + period of time (not defined)!",
+              "right": "durante o desde hace!"
+            },
+            {
+              "id": "p3",
+              "left": "Al lado de mi colegio no hay bloques de pisos...",
+              "right": "Next to my school there aren\u2019t any apartment blocks...."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I56"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 5 (Travel: Booking a Hotel):",
+          "tts_en": "I haven\u2019t got a car. - 694",
+          "correct_answer": "I haven\u2019t got a car. - 694",
+          "mastery_tag": "listening",
+          "interaction_id": "U1_I57"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 5:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Moon"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
+            },
+            {
+              "id": "o4",
+              "text": "Hot4029"
+            },
+            {
+              "id": "o3",
+              "text": "Planet"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I58"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 5 - Travel: Booking a Hotel:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca? (today)",
+              "back": "What\u2019s the saddest song you\u2019ve ever listened to (today)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I59"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 5 (Travel: Booking a Hotel):",
+          "instruction_en": "Describe Travel: Booking a Hotel in 5 words. [Ref: 50]",
+          "mastery_tag": "writing",
+          "interaction_id": "U1_I60"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 5 (Travel: Booking a Hotel):",
+          "stimulus_en": "Improve Travel: Booking a Hotel. (202)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U1_I61"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 5 (Travel: Booking a Hotel):",
+          "stimulus": "Matching set 6081",
+          "items": [
+            {
+              "id": "i0",
+              "text": "see / usually / Jennifer / out / goes / a / to / concert - amazing",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "dictionary / often / use / The / the / students (now)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? - amazing",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "What\u2019s the happiest day you\u2019ve ever had - amazing"
+            },
+            {
+              "id": "m1",
+              "text": "the students often use the dictionary (now)"
+            },
+            {
+              "id": "m0",
+              "text": "Jennifer usually goes out to see a concert - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U1_I62"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 5 (Travel: Booking a Hotel):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I always read books slowly (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "have you ever studied a foreign laguage apart from English (now)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I63"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 5 (Travel: Booking a Hotel):",
+          "main_text": "In Travel: Booking a Hotel (8362), My friend [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "received"
+                },
+                {
+                  "id": "o2",
+                  "text": "receive"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "worked"
+                },
+                {
+                  "id": "o2",
+                  "text": "work"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U1_I64"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 5 para Travel: Booking a Hotel:",
+          "stimulus_en": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc....",
+          "stimulus_es": "El adjetivo dice una cualidad de algo, por ejemplo...",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
+            },
+            {
+              "id": "o3",
+              "text": "Other 3735"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I65"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 5 sobre Travel: Booking a Hotel:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w7",
+              "text": "countable)"
+            },
+            {
+              "id": "w1",
+              "text": "don\u2019t"
+            },
+            {
+              "id": "w4",
+              "text": "friends"
+            },
+            {
+              "id": "w5",
+              "text": "(friends"
+            },
+            {
+              "id": "w3",
+              "text": "many"
+            },
+            {
+              "id": "w6",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U1_I66"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 6 (Travel: Booking a Hotel):",
+          "stimulus_en": "What\u2019s the coldest country you\u2019ve ever been to - amazing (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I67"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 6 (Travel: Booking a Hotel)",
+          "stimulus_en": "What\u2019s the most delicious food you\u2019ve ever tasted.",
+          "stimulus_es": "Ref: Cu\u00e1l es la comida m\u00e1s buena que has probado nunca?.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U1_I68"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 6 (Travel: Booking a Hotel):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca? (today)",
+              "right": "Who\u2019s the shyest person you\u2019ve ever met (today)"
+            },
+            {
+              "id": "p1",
+              "left": "Uncountable nouns...",
+              "right": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb...."
+            },
+            {
+              "id": "p2",
+              "left": "3. Las hermanas de Pedro - 901",
+              "right": "Peter\u2019s sisters - 901"
+            },
+            {
+              "id": "p3",
+              "left": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto - amazing",
+              "right": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. - amazing"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I69"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 6 (Travel: Booking a Hotel):",
+          "tts_en": "information, homework, work. - interesting",
+          "correct_answer": "information, homework, work. - interesting",
+          "mastery_tag": "listening",
+          "interaction_id": "U1_I70"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 6:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
+            },
+            {
+              "id": "o2",
+              "text": "Berlin"
+            },
+            {
+              "id": "o4",
+              "text": "Slow9319"
+            },
+            {
+              "id": "o0",
+              "text": "London"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I71"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 6 - Travel: Booking a Hotel:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Te veo el s\u00e1bado (now)",
+              "back": "I\u2019ll see you on Saturday (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I72"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 6 (Travel: Booking a Hotel):",
+          "instruction_en": "Draft an email regarding Travel: Booking a Hotel. [Ref: 57]",
+          "mastery_tag": "writing",
+          "interaction_id": "U1_I73"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 6 (Travel: Booking a Hotel):",
+          "stimulus_en": "Focus on Travel: Booking a Hotel. (981)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U1_I74"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 6 (Travel: Booking a Hotel):",
+          "stimulus": "Matching set 1886",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda? (now)",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Movie star (Br Eng - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio (now)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "\u00bfDe d\u00f3nde eres? (now)"
+            },
+            {
+              "id": "m0",
+              "text": "How old is Mar\u00eda (now)"
+            },
+            {
+              "id": "m1",
+              "text": "film star) Estrella de cine - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U1_I75"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 6 (Travel: Booking a Hotel):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna. - 181"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil. - 368"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U1_I76"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 6 (Travel: Booking a Hotel):",
+          "main_text": "In Travel: Booking a Hotel (7575), The scientist [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cooked"
+                },
+                {
+                  "id": "o2",
+                  "text": "cook"
                 }
               ]
             },
@@ -966,901 +1637,25 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U1_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Travel: Booking a Hotel:",
-          "stimulus_en": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. - amazing",
-          "stimulus_es": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo - amazing",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o3",
-              "text": "Other 1299"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Travel: Booking a Hotel:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "leave"
-            },
-            {
-              "id": "w4",
-              "text": "train"
-            },
-            {
-              "id": "w1",
-              "text": "time"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w2",
-              "text": "does"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U1_I40"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "stimulus_en": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM - interesting (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I41"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Travel: Booking a Hotel)",
-          "stimulus_en": "chips) Patatas fritas...",
-          "stimulus_es": "Ref: French fries (Br Eng...",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I42"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Cu\u00e1nto cuesta?...",
-              "right": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost..."
-            },
-            {
-              "id": "p1",
-              "left": "La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo!",
-              "right": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is.!"
-            },
-            {
-              "id": "p2",
-              "left": "Qu\u00e9 tiempo verbal utilizamos? - amazing",
-              "right": "present continuous, porque lo est\u00e1s buscando en este momento. - amazing"
-            },
-            {
-              "id": "p3",
-              "left": "\u2013 Fechas concretas (now)",
-              "right": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on. (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I43"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Travel: Booking a Hotel):",
-          "tts_en": "What\u2019s the most delicious food you\u2019ve ever tasted!",
-          "correct_answer": "What\u2019s the most delicious food you\u2019ve ever tasted!",
-          "mastery_tag": "listening",
-          "interaction_id": "U1_I44"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "Hot1531"
-            },
-            {
-              "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
-            },
-            {
-              "id": "o2",
-              "text": "Star"
-            },
-            {
-              "id": "o1",
-              "text": "Moon"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I45"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 4 - Travel: Booking a Hotel:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? (today)",
-              "back": "What\u2019s the happiest day you\u2019ve ever had (today)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I46"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 4 (Travel: Booking a Hotel):",
-          "instruction_en": "Review Travel: Booking a Hotel from last week. [Ref: 97]",
-          "mastery_tag": "writing",
-          "interaction_id": "U1_I47"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 4 (Travel: Booking a Hotel):",
-          "stimulus_en": "The Adjectives: Position is here. (995)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U1_I48"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
-          "stimulus": "Matching set 6800",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Common mistake - amazing",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo - 538",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Elevator (Br Eng - interesting",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "lift) Ascensor - interesting"
-            },
-            {
-              "id": "m0",
-              "text": "I hadn\u2019t got a mobile. - amazing"
-            },
-            {
-              "id": "m1",
-              "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - 538"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U1_I49"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Travel: Booking a Hotel):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO.!"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "My children\u2019s toys..."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I50"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "main_text": "In Travel: Booking a Hotel (1251), My friend [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "sent"
-                },
-                {
-                  "id": "o2",
-                  "text": "send"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "played"
-                },
-                {
-                  "id": "o2",
-                  "text": "play"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U1_I51"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Travel: Booking a Hotel:",
-          "stimulus_en": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno. (today)",
-          "stimulus_es": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo (today)",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 6062"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I52"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Travel: Booking a Hotel:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "go"
-            },
-            {
-              "id": "w1",
-              "text": "often"
-            },
-            {
-              "id": "w5",
-              "text": "before"
-            },
-            {
-              "id": "w4",
-              "text": "bed"
-            },
-            {
-              "id": "w7",
-              "text": "(today)"
-            },
-            {
-              "id": "w3",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "11"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U1_I53"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "stimulus_en": "My partner is the most beautiful woman in the world... (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I54"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Travel: Booking a Hotel)",
-          "stimulus_en": "may I open the window, please - amazing",
-          "stimulus_es": "Ref: Puedo abrir la ventana, por favor? - amazing",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I55"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Bookstore (Br Eng!",
-              "right": "bookshop) Librer\u00eda!"
-            },
-            {
-              "id": "p1",
-              "left": "1. el primer elemento (de esos tres que dec\u00edamos antes) es una persona. Ejemplo (now)",
-              "right": "John\u2018s job is boring. (now)"
-            },
-            {
-              "id": "p2",
-              "left": "7. read books slowly / I / always - interesting",
-              "right": "I always read books slowly - interesting"
-            },
-            {
-              "id": "p3",
-              "left": "Much, como se utiliza con uncountable, decimos!",
-              "right": "I haven\u2019t got much money (remember, money is uncountable).!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I56"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Travel: Booking a Hotel):",
-          "tts_en": "Jennifer usually goes out to see a concert.",
-          "correct_answer": "Jennifer usually goes out to see a concert.",
-          "mastery_tag": "listening",
-          "interaction_id": "U1_I57"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o4",
-              "text": "Fast2889"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o3",
-              "text": "Calm"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I58"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 5 - Travel: Booking a Hotel:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Cookie (Br Eng!",
-              "back": "biscuit) Galleta!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I59"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 5 (Travel: Booking a Hotel):",
-          "instruction_en": "A small story about Travel: Booking a Hotel. [Ref: 69]",
-          "mastery_tag": "writing",
-          "interaction_id": "U1_I60"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 5 (Travel: Booking a Hotel):",
-          "stimulus_en": "Look at Travel: Booking a Hotel. (670)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U1_I61"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
-          "stimulus": "Matching set 7432",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda?!",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "A qu\u00e9 hora sale el autob\u00fas?.",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Otro ejemplo (now)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "How old is Mar\u00eda!"
-            },
-            {
-              "id": "m2",
-              "text": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. (now)"
-            },
-            {
-              "id": "m1",
-              "text": "What time does the bus leave."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U1_I62"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Travel: Booking a Hotel):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "she never drinks coffee in the evening!"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "information, homework, work. - interesting"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I63"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "main_text": "In Travel: Booking a Hotel (3028), The coach [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "cleaned"
-                },
-                {
-                  "id": "o2",
-                  "text": "clean"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "bought"
-                },
-                {
-                  "id": "o2",
-                  "text": "buy"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U1_I64"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Travel: Booking a Hotel:",
-          "stimulus_en": "What time is it (now)",
-          "stimulus_es": "Qu\u00e9 hora es? (now)",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 5628"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I65"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Travel: Booking a Hotel:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w7",
-              "text": "It\u2019ll"
-            },
-            {
-              "id": "w5",
-              "text": "like"
-            },
-            {
-              "id": "w9",
-              "text": "sunny"
-            },
-            {
-              "id": "w6",
-              "text": "tomorrow?"
-            },
-            {
-              "id": "w3",
-              "text": "weather"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "be"
-            },
-            {
-              "id": "w1",
-              "text": "will"
-            },
-            {
-              "id": "w8",
-              "text": "be"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U1_I66"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "stimulus_en": "she doesn\u2019t often write to me - amazing (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I67"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Travel: Booking a Hotel)",
-          "stimulus_en": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele.!",
-          "stimulus_es": "Ref: Common mistake!",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U1_I68"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1 (today)",
-              "right": "Can I have your ID/ passport/ credit card?. (today)"
-            },
-            {
-              "id": "p1",
-              "left": "The correct thing - amazing",
-              "right": "on the Internet - amazing"
-            },
-            {
-              "id": "p2",
-              "left": "I / fish / often / hours / for / catching / anything / without...",
-              "right": "I often fish for hours without catching anything..."
-            },
-            {
-              "id": "p3",
-              "left": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca!",
-              "right": "I hardly ever go to the cinema = casi nunca voy al cine.!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I69"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Travel: Booking a Hotel):",
-          "tts_en": "Go straight on and in front of the church there is a supermarket..",
-          "correct_answer": "Go straight on and in front of the church there is a supermarket..",
-          "mastery_tag": "listening",
-          "interaction_id": "U1_I70"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "salad"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
-            },
-            {
-              "id": "o0",
-              "text": "pizza"
-            },
-            {
-              "id": "o4",
-              "text": "rain2490"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I71"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 6 - Travel: Booking a Hotel:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Drugstore (Br Eng (today)",
-              "back": "chemist) Farmacia (today)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I72"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 6 (Travel: Booking a Hotel):",
-          "instruction_en": "List 3 facts about Travel: Booking a Hotel. [Ref: 86]",
-          "mastery_tag": "writing",
-          "interaction_id": "U1_I73"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 6 (Travel: Booking a Hotel):",
-          "stimulus_en": "Improve Travel: Booking a Hotel. (976)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U1_I74"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
-          "stimulus": "Matching set 3403",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Est\u00e1 estudiando ella ingl\u00e9s?...",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "For example - 123",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Otro common mistake...",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "She drives carefully. - 123"
-            },
-            {
-              "id": "m2",
-              "text": "I haven\u2019t a car...."
-            },
-            {
-              "id": "m0",
-              "text": "Is she studying English..."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U1_I75"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Travel: Booking a Hotel):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "on Monday, on Wednesday, etc...."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l) - 324"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U1_I76"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "main_text": "In Travel: Booking a Hotel (3341), A colleague [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "created"
-                },
-                {
-                  "id": "o2",
-                  "text": "create"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "cleaned"
-                },
-                {
-                  "id": "o2",
-                  "text": "clean"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
           "interaction_id": "U1_I77"
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Travel: Booking a Hotel:",
-          "stimulus_en": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet!",
-          "stimulus_es": "puedo abrir la ventana, por favor?!",
+          "prompt_es": "Elige 6 para Travel: Booking a Hotel:",
+          "stimulus_en": "she doesn\u2019t often write to me...",
+          "stimulus_es": "1. Often / she / write to me/ doesn\u2019t...",
           "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
             {
               "id": "o1",
               "text": "Option A"
             },
             {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
               "id": "o3",
-              "text": "Other 1726"
+              "text": "Other 4687"
             }
           ],
           "correct_answer": "o1",
@@ -1869,163 +1664,35 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Travel: Booking a Hotel:",
+          "prompt_es": "Ordena 6 sobre Travel: Booking a Hotel:",
           "options": [
             {
-              "id": "w35",
-              "text": "s"
-            },
-            {
-              "id": "w28",
-              "text": "casos"
-            },
-            {
-              "id": "w0",
-              "text": "thousands"
-            },
-            {
-              "id": "w10",
-              "text": "teachers"
-            },
-            {
-              "id": "w2",
-              "text": "people"
-            },
-            {
-              "id": "w11",
-              "text": "="
-            },
-            {
-              "id": "w20",
-              "text": "millones"
-            },
-            {
-              "id": "w14",
-              "text": "profesores"
-            },
-            {
-              "id": "w6",
-              "text": "personas"
-            },
-            {
-              "id": "w33",
-              "text": "y"
-            },
-            {
-              "id": "w15",
-              "text": "/"
-            },
-            {
-              "id": "w37",
-              "text": "plural"
-            },
-            {
-              "id": "w31",
-              "text": "preposici\u00f3n"
-            },
-            {
-              "id": "w34",
-              "text": "la"
-            },
-            {
-              "id": "w19",
-              "text": "="
-            },
-            {
-              "id": "w30",
-              "text": "la"
-            },
-            {
-              "id": "w5",
-              "text": "de"
-            },
-            {
-              "id": "w32",
-              "text": "of"
-            },
-            {
-              "id": "w7",
-              "text": "/"
-            },
-            {
-              "id": "w23",
-              "text": "Como"
-            },
-            {
-              "id": "w17",
-              "text": "of"
-            },
-            {
-              "id": "w12",
-              "text": "cientos"
-            },
-            {
-              "id": "w36",
-              "text": "de"
-            },
-            {
-              "id": "w26",
-              "text": "todos"
-            },
-            {
-              "id": "w24",
-              "text": "ves"
-            },
-            {
-              "id": "w38",
-              "text": "amazing"
-            },
-            {
-              "id": "w29",
-              "text": "decimos"
-            },
-            {
-              "id": "w16",
-              "text": "millions"
-            },
-            {
-              "id": "w27",
-              "text": "los"
-            },
-            {
-              "id": "w8",
-              "text": "hundreds"
+              "id": "w3",
+              "text": "spoils"
             },
             {
               "id": "w1",
-              "text": "of"
+              "text": "neighbour"
             },
             {
-              "id": "w25",
-              "text": "en"
+              "id": "w0",
+              "text": "My"
             },
             {
-              "id": "w21",
-              "text": "de"
+              "id": "w6",
+              "text": "(today)"
             },
             {
-              "id": "w18",
-              "text": "dollars"
+              "id": "w2",
+              "text": "always"
+            },
+            {
+              "id": "w5",
+              "text": "holidays"
             },
             {
               "id": "w4",
-              "text": "miles"
-            },
-            {
-              "id": "w9",
-              "text": "of"
-            },
-            {
-              "id": "w3",
-              "text": "="
-            },
-            {
-              "id": "w22",
-              "text": "d\u00f3lares"
-            },
-            {
-              "id": "w13",
-              "text": "de"
+              "text": "my"
             }
           ],
           "correct_answer": [
@@ -2035,83 +1702,51 @@
             "w3",
             "w4",
             "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15",
-            "w16",
-            "w17",
-            "w18",
-            "w19",
-            "w20",
-            "w21",
-            "w22",
-            "w23",
-            "w24",
-            "w25",
-            "w26",
-            "w27",
-            "w28",
-            "w29",
-            "w30",
-            "w31",
-            "w32",
-            "w33",
-            "w34",
-            "w35",
-            "w36",
-            "w37",
-            "w38"
+            "w6"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U1_I79"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "stimulus_en": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework! (___)",
+          "prompt_es": "Completa 7 (Travel: Booking a Hotel):",
+          "stimulus_en": "I often go to bed before 11... (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U1_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Travel: Booking a Hotel)",
-          "stimulus_en": "I went to a state school. - amazing",
-          "stimulus_es": "Ref: The correct thing - amazing",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 7 (Travel: Booking a Hotel)",
+          "stimulus_en": "The girls\u2019 ball - 366",
+          "stimulus_es": "Ref: 4. La pelota de las ni\u00f1as - 366",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U1_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
+          "prompt_es": "Relaciona 7 (Travel: Booking a Hotel):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Qu\u00e9 es \u00e9so? - interesting",
-              "right": "What\u2019s that - interesting"
+              "left": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo!",
+              "right": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural.!"
             },
             {
               "id": "p1",
-              "left": "Alguien dijo mi nombre?!",
-              "right": "Did anybody say my name!"
+              "left": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro? - amazing",
+              "right": "Were you having a beer when you saw Peter - amazing"
             },
             {
               "id": "p2",
-              "left": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect - amazing",
-              "right": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil. - amazing"
+              "left": "Encontraste algo ah\u00ed? (now)",
+              "right": "any + thing = en oraci\u00f3n INTERROGATIVA. (now)"
             },
             {
               "id": "p3",
-              "left": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son.",
-              "right": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar.."
+              "left": "1. La puerta de mi casa.",
+              "right": "the door of my house."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2119,35 +1754,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Travel: Booking a Hotel):",
-          "tts_en": "my cousin\u2019s husband is German and his mother Irish. (now)",
-          "correct_answer": "my cousin\u2019s husband is German and his mother Irish. (now)",
+          "prompt_es": "Dictado 7 (Travel: Booking a Hotel):",
+          "tts_en": "may I open the window, please - amazing",
+          "correct_answer": "may I open the window, please - amazing",
           "mastery_tag": "listening",
           "interaction_id": "U1_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 7:",
           "options": [
             {
               "id": "o3",
-              "text": "Paris"
-            },
-            {
-              "id": "o4",
-              "text": "Slow3771"
-            },
-            {
-              "id": "o2",
-              "text": "Berlin"
+              "text": "Bed"
             },
             {
               "id": "o1",
-              "text": "Tokyo"
+              "text": "Chair"
+            },
+            {
+              "id": "o4",
+              "text": "Pen5551"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
             },
             {
               "id": "o0",
-              "text": "London"
+              "text": "Table"
             }
           ],
           "correct_answer": "o4",
@@ -2160,8 +1795,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un n\u00famero delante y detr\u00e1s un sustantivo, entonces no ponemos la -s de plural, por ejemplo!",
-              "back": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children.!"
+              "front": "This is another translation...",
+              "back": "igual hago algo\u2026 (but I\u2019m not sure\u2026)...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2170,50 +1805,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 7 (Travel: Booking a Hotel):",
-          "instruction_en": "Write a note about Travel: Booking a Hotel. [Ref: 34]",
+          "instruction_en": "Draft an email regarding Travel: Booking a Hotel. [Ref: 17]",
           "mastery_tag": "writing",
           "interaction_id": "U1_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 7 (Travel: Booking a Hotel):",
-          "stimulus_en": "I like Travel: Booking a Hotel. (523)",
+          "stimulus_en": "The Adjectives: Position is here. (653)",
           "mastery_tag": "speaking",
           "interaction_id": "U1_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
-          "stimulus": "Matching set 5477",
+          "prompt_es": "Une 7 (Travel: Booking a Hotel):",
+          "stimulus": "Matching set 658",
           "items": [
             {
               "id": "i0",
-              "text": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo - 812",
+              "text": "Cabe destacar que la palabra every es singular en ingl\u00e9s, por tanto, tanto \u00abday\u00bb como cualquiera de los d\u00edas que pongamos, deben ir en singular. Es incorrecto decir.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Has estudiado alguna vez un idioma extranjero diferente al ingl\u00e9s? - 560",
+              "text": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son - 882",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "in + car/ taxi - interesting",
+              "text": "Alguna vez has probado la comida tailandesa? - interesting",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). - interesting"
-            },
-            {
-              "id": "m0",
-              "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta. - 812"
+              "text": "Have you ever tried Thai food - interesting"
             },
             {
               "id": "m1",
-              "text": "have you ever studied a foreign laguage apart from English - 560"
+              "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar. - 882"
+            },
+            {
+              "id": "m0",
+              "text": "every days o every Tuesdays.."
             }
           ],
           "correct_answer": {
@@ -2226,7 +1861,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Travel: Booking a Hotel):",
+          "prompt_es": "Clasifica 7 (Travel: Booking a Hotel):",
           "categories": [
             {
               "id": "c1",
@@ -2234,7 +1869,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "when I was at primary school, I didn\u2019t wear uniform. - interesting"
+                  "text": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on. (today)"
                 }
               ]
             },
@@ -2244,7 +1879,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Harry\u2019s burger - 176"
+                  "text": "verb patters.."
                 }
               ]
             }
@@ -2254,19 +1889,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "main_text": "In Travel: Booking a Hotel (25), The scientist [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 7 (Travel: Booking a Hotel):",
+          "main_text": "In Travel: Booking a Hotel (3330), I [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "fixed"
+                  "text": "built"
                 },
                 {
                   "id": "o2",
-                  "text": "fix"
+                  "text": "build"
                 }
               ]
             },
@@ -2275,11 +1910,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "stopped"
+                  "text": "planned"
                 },
                 {
                   "id": "o2",
-                  "text": "stop"
+                  "text": "plan"
                 }
               ]
             }
@@ -2293,10 +1928,14 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Travel: Booking a Hotel:",
-          "stimulus_en": "The police always try to keep the order - amazing",
-          "stimulus_es": "try / police / keep / The / order / always / to / the - amazing",
+          "prompt_es": "Elige 7 para Travel: Booking a Hotel:",
+          "stimulus_en": "it doesn\u2019t often rain in the summer - amazing",
+          "stimulus_es": "6. it / rain in the summer / often / doesn\u2019t - amazing",
           "options": [
+            {
+              "id": "o3",
+              "text": "Other 6197"
+            },
             {
               "id": "o1",
               "text": "Option A"
@@ -2304,10 +1943,6 @@
             {
               "id": "o2",
               "text": "Option B"
-            },
-            {
-              "id": "o3",
-              "text": "Other 6260"
             }
           ],
           "correct_answer": "o1",
@@ -2316,444 +1951,74 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Travel: Booking a Hotel:",
+          "prompt_es": "Ordena 7 sobre Travel: Booking a Hotel:",
           "options": [
             {
-              "id": "w1",
-              "text": "irregulares"
-            },
-            {
-              "id": "w74",
-              "text": "la"
-            },
-            {
-              "id": "w28",
-              "text": "con"
-            },
-            {
-              "id": "w65",
-              "text": "de"
-            },
-            {
-              "id": "w51",
-              "text": "en"
-            },
-            {
-              "id": "w53",
-              "text": "columnas"
-            },
-            {
               "id": "w3",
-              "text": "son"
-            },
-            {
-              "id": "w9",
-              "text": "la"
-            },
-            {
-              "id": "w75",
-              "text": "segunda"
-            },
-            {
-              "id": "w38",
-              "text": "en"
-            },
-            {
-              "id": "w73",
-              "text": "tanto"
-            },
-            {
-              "id": "w58",
-              "text": "past"
-            },
-            {
-              "id": "w42",
-              "text": "de"
-            },
-            {
-              "id": "w71",
-              "text": "utilizar"
-            },
-            {
-              "id": "w50",
-              "text": "dividida"
-            },
-            {
-              "id": "w20",
-              "text": "aprender"
-            },
-            {
-              "id": "w16",
-              "text": "1"
-            },
-            {
-              "id": "w49",
-              "text": "est\u00e1"
-            },
-            {
-              "id": "w72",
-              "text": "por"
-            },
-            {
-              "id": "w21",
-              "text": "de"
-            },
-            {
-              "id": "w60",
-              "text": "Para"
-            },
-            {
-              "id": "w62",
-              "text": "el"
-            },
-            {
-              "id": "w25",
-              "text": "que"
-            },
-            {
-              "id": "w14",
-              "text": "el"
-            },
-            {
-              "id": "w8",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "una"
-            },
-            {
-              "id": "w29",
-              "text": "una"
-            },
-            {
-              "id": "w19",
-              "text": "deben"
-            },
-            {
-              "id": "w52",
-              "text": "tres"
-            },
-            {
-              "id": "w67",
-              "text": "verbo"
-            },
-            {
-              "id": "w13",
-              "text": "en"
-            },
-            {
-              "id": "w27",
-              "text": "hagas"
-            },
-            {
-              "id": "w45",
-              "text": "Ver\u00e1s"
-            },
-            {
-              "id": "w57",
-              "text": "y"
-            },
-            {
-              "id": "w68",
-              "text": "irregular"
-            },
-            {
-              "id": "w56",
-              "text": "simple"
-            },
-            {
-              "id": "w61",
-              "text": "formar"
-            },
-            {
-              "id": "w12",
-              "text": "comentada"
-            },
-            {
-              "id": "w2",
-              "text": "que"
-            },
-            {
-              "id": "w66",
-              "text": "un"
-            },
-            {
-              "id": "w69",
-              "text": "tendr\u00e1s"
-            },
-            {
-              "id": "w7",
-              "text": "distinta"
-            },
-            {
-              "id": "w18",
-              "text": "se"
-            },
-            {
-              "id": "w15",
-              "text": "punto"
-            },
-            {
-              "id": "w26",
-              "text": "te"
-            },
-            {
-              "id": "w70",
-              "text": "que"
-            },
-            {
-              "id": "w55",
-              "text": "past"
-            },
-            {
-              "id": "w63",
-              "text": "past"
-            },
-            {
-              "id": "w46",
-              "text": "que"
-            },
-            {
-              "id": "w11",
-              "text": "regular"
-            },
-            {
-              "id": "w31",
-              "text": "de"
-            },
-            {
-              "id": "w77",
-              "text": "475"
+              "text": "(today)"
             },
             {
               "id": "w0",
-              "text": "como"
+              "text": "on"
             },
             {
-              "id": "w64",
-              "text": "simple"
+              "id": "w2",
+              "text": "Internet"
             },
             {
-              "id": "w35",
-              "text": "la"
-            },
-            {
-              "id": "w34",
-              "text": "que"
-            },
-            {
-              "id": "w44",
-              "text": "irregulares)"
-            },
-            {
-              "id": "w23",
-              "text": "Te"
-            },
-            {
-              "id": "w4",
-              "text": "tienen"
-            },
-            {
-              "id": "w48",
-              "text": "lista"
-            },
-            {
-              "id": "w59",
-              "text": "participle"
-            },
-            {
-              "id": "w41",
-              "text": "(lista"
-            },
-            {
-              "id": "w37",
-              "text": "encontrar"
-            },
-            {
-              "id": "w43",
-              "text": "verbos"
-            },
-            {
-              "id": "w76",
-              "text": "columna"
-            },
-            {
-              "id": "w30",
-              "text": "lista"
-            },
-            {
-              "id": "w47",
-              "text": "esta"
-            },
-            {
-              "id": "w24",
-              "text": "recomiendo"
-            },
-            {
-              "id": "w39",
-              "text": "nuestra"
-            },
-            {
-              "id": "w6",
-              "text": "forma"
-            },
-            {
-              "id": "w40",
-              "text": "web"
-            },
-            {
-              "id": "w32",
-              "text": "verbos"
-            },
-            {
-              "id": "w22",
-              "text": "memoria"
-            },
-            {
-              "id": "w36",
-              "text": "puedes"
-            },
-            {
-              "id": "w10",
-              "text": "forma"
-            },
-            {
-              "id": "w33",
-              "text": "irregulares"
-            },
-            {
-              "id": "w17",
-              "text": "y"
-            },
-            {
-              "id": "w54",
-              "text": "infinitivo"
+              "id": "w1",
+              "text": "the"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15",
-            "w16",
-            "w17",
-            "w18",
-            "w19",
-            "w20",
-            "w21",
-            "w22",
-            "w23",
-            "w24",
-            "w25",
-            "w26",
-            "w27",
-            "w28",
-            "w29",
-            "w30",
-            "w31",
-            "w32",
-            "w33",
-            "w34",
-            "w35",
-            "w36",
-            "w37",
-            "w38",
-            "w39",
-            "w40",
-            "w41",
-            "w42",
-            "w43",
-            "w44",
-            "w45",
-            "w46",
-            "w47",
-            "w48",
-            "w49",
-            "w50",
-            "w51",
-            "w52",
-            "w53",
-            "w54",
-            "w55",
-            "w56",
-            "w57",
-            "w58",
-            "w59",
-            "w60",
-            "w61",
-            "w62",
-            "w63",
-            "w64",
-            "w65",
-            "w66",
-            "w67",
-            "w68",
-            "w69",
-            "w70",
-            "w71",
-            "w72",
-            "w73",
-            "w74",
-            "w75",
-            "w76",
-            "w77"
+            "w3"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U1_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Travel: Booking a Hotel):",
-          "stimulus_en": "would you like some more - 856 (___)",
+          "prompt_es": "Completa 8 (Travel: Booking a Hotel):",
+          "stimulus_en": "She drives carefully.... (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U1_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Travel: Booking a Hotel)",
-          "stimulus_en": "Were you having a beer when you saw Peter - 379",
-          "stimulus_es": "Ref: Estabas tom\u00e1ndote una cerveza cuando viste a Pedro? - 379",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 8 (Travel: Booking a Hotel)",
+          "stimulus_en": "Have you finished the project yet (today)",
+          "stimulus_es": "Ref: Has terminado ya el proyecto? (today)",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U1_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Travel: Booking a Hotel):",
+          "prompt_es": "Relaciona 8 (Travel: Booking a Hotel):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Te veo el s\u00e1bado (now)",
-              "right": "I\u2019ll see you on Saturday (now)"
+              "left": "A qu\u00e9 hora abre el supermercado? - 935",
+              "right": "What time does the supermarket open - 935"
             },
             {
               "id": "p1",
-              "left": "Chips (Br Eng) (Am Eng (today)",
-              "right": "biscuit) Patatas fritas (today)"
+              "left": "Has hablado alguna vez ingl\u00e9s por tel\u00e9fono? - 334",
+              "right": "have you ever spoken English on the phone - 334"
             },
             {
               "id": "p2",
-              "left": "Eraser (Br Eng - interesting",
-              "right": "rubber) Goma de borrar - interesting"
+              "left": "Qu\u00e9 hora es?...",
+              "right": "What time is it..."
             },
             {
               "id": "p3",
-              "left": "Tienes hijos?.",
-              "right": "Do you have any children."
+              "left": "Cu\u00e1nto cuesta? (now)",
+              "right": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2761,35 +2026,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Travel: Booking a Hotel):",
-          "tts_en": "ADJECTIVE + NOUN - interesting",
-          "correct_answer": "ADJECTIVE + NOUN - interesting",
+          "prompt_es": "Dictado 8 (Travel: Booking a Hotel):",
+          "tts_en": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n) (today)",
+          "correct_answer": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n) (today)",
           "mastery_tag": "listening",
           "interaction_id": "U1_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 8:",
           "options": [
             {
-              "id": "o1",
-              "text": "Tuesday"
-            },
-            {
-              "id": "o4",
-              "text": "June5612"
+              "id": "o2",
+              "text": "Sunday"
             },
             {
               "id": "o0",
               "text": "Monday"
             },
             {
-              "id": "o2",
-              "text": "Sunday"
-            },
-            {
               "id": "o3",
               "text": "Friday"
+            },
+            {
+              "id": "o4",
+              "text": "June8339"
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday"
             }
           ],
           "correct_answer": "o4",
@@ -2802,8 +2067,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Cu\u00e1l es la playa m\u00e1s larga en la que has estado nunca?!",
-              "back": "What\u2019s the longest beach you\u2019ve ever been to!"
+              "front": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo!",
+              "back": "how often do you have Italian classes? = I have every Tuesday.!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2812,14 +2077,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 8 (Travel: Booking a Hotel):",
-          "instruction_en": "Write a note about Travel: Booking a Hotel. [Ref: 91]",
+          "instruction_en": "A small story about Travel: Booking a Hotel. [Ref: 74]",
           "mastery_tag": "writing",
           "interaction_id": "U1_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 8 (Travel: Booking a Hotel):",
-          "stimulus_en": "This is Travel: Booking a Hotel. (598)",
+          "stimulus_en": "This is Travel: Booking a Hotel. (932)",
           "mastery_tag": "speaking",
           "interaction_id": "U1_I100"
         }

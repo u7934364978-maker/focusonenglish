@@ -367,7 +367,8 @@
           ],
           "correct_answer": "opt0",
           "explanation": "Poseedor (Maria) + 's + Objeto (house).",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "audioUrl": "/audio/courses/ingles-a1/expansion/unit7_exp_0_0.mp3"
         },
         {
           "interaction_id": "UNIT7_EXP_0_1",

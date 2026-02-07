@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Chores):",
-          "stimulus_en": "This music is ___ in the airport....",
+          "prompt_es": "Completa 209 (Home: Chores):",
+          "stimulus_en": "This a sandwich is ___ in school!.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Chores)",
-          "stimulus_en": "This a house is expensive in the museum - amazing.",
-          "stimulus_es": "Ref: Este a house es el m\u00e1s caro en the museum - amazing.",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 209 (Home: Chores)",
+          "stimulus_en": "This a dog is the most expensive in the bedroom....",
+          "stimulus_es": "Ref: Este a dog es el m\u00e1s caro en the bedroom....",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Chores):",
+          "prompt_es": "Relaciona 209 (Home: Chores):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a letter es el m\u00e1s caro en school (now).",
-              "right": "This a letter is the most expensive in school (now)."
+              "left": "Este a sandwich es el m\u00e1s caro en the beach - 328.",
+              "right": "This a sandwich is the most expensive in the beach - 328."
             },
             {
               "id": "p1",
-              "left": "Este a laptop es el m\u00e1s caro en the bank (now).",
-              "right": "This a laptop is the most expensive in the bank (now)."
+              "left": "Este a letter es el m\u00e1s caro en the garage!.",
+              "right": "This a letter is the most expensive in the garage!."
             },
             {
               "id": "p2",
-              "left": "Este a chair es el m\u00e1s caro en the kitchen....",
-              "right": "This a chair is the most expensive in the kitchen...."
+              "left": "Este football es el m\u00e1s caro en the airport....",
+              "right": "This football is the most expensive in the airport...."
             },
             {
               "id": "p3",
-              "left": "Este a dog es el m\u00e1s caro en London - 605.",
-              "right": "This a dog is the most expensive in London - 605."
+              "left": "Este a bike es el m\u00e1s caro en the supermarket....",
+              "right": "This a bike is the most expensive in the supermarket...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Chores):",
-          "tts_en": "This a printer is the most expensive in the garage....",
-          "correct_answer": "This a printer is the most expensive in the garage....",
+          "prompt_es": "Dictado 209 (Home: Chores):",
+          "tts_en": "This a clock is the most expensive in school!.",
+          "correct_answer": "This a clock is the most expensive in school!.",
           "mastery_tag": "listening",
           "interaction_id": "U27_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 209:",
           "options": [
             {
-              "id": "o1",
-              "text": "Tuesday"
+              "id": "o0",
+              "text": "car"
             },
             {
               "id": "o4",
-              "text": "June7767"
-            },
-            {
-              "id": "o0",
-              "text": "Monday"
+              "text": "cat8520"
             },
             {
               "id": "o2",
-              "text": "Sunday"
+              "text": "train"
             },
             {
               "id": "o3",
-              "text": "Friday"
+              "text": "plane"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "This is another translation...",
-              "back": "igual hago algo\u2026 (but I\u2019m not sure\u2026)...."
+              "front": "dictionary / often / use / The / the / students - amazing",
+              "back": "the students often use the dictionary - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 209 (Home: Chores):",
-          "instruction_en": "Review Home: Chores from last week. [Ref: 76]",
+          "instruction_en": "Explain Superlatives using Home: Chores. [Ref: 98]",
           "mastery_tag": "writing",
           "interaction_id": "U27_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 209 (Home: Chores):",
-          "stimulus_en": "Improve Home: Chores. (857)",
+          "stimulus_en": "Focus on Home: Chores. (824)",
           "mastery_tag": "speaking",
           "interaction_id": "U27_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Chores):",
-          "stimulus": "Matching set 8986",
+          "prompt_es": "Une 183 (Home: Chores):",
+          "stimulus": "Matching set 5601",
           "items": [
             {
               "id": "i0",
-              "text": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba - 273",
+              "text": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect (today)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "The correct thing.",
+              "text": "A qu\u00e9 hora sale el tren? - amazing",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Movie theater (Br Eng - interesting",
+              "text": "Movie star (Br Eng.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "Have you got a car?."
+              "text": "What time does the train leave - amazing"
             },
             {
               "id": "m2",
-              "text": "cinema) Cine - interesting"
+              "text": "film star) Estrella de cine."
             },
             {
               "id": "m0",
-              "text": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM - 273"
+              "text": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil. (today)"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Home: Chores):",
+          "prompt_es": "Clasifica 183 (Home: Chores):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "have you ever played chess."
+                  "text": "What\u2019s the most difficult language you\u2019ve ever studied."
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n! (today)"
+                  "text": "She drives carefully. (now)"
                 }
               ]
             }
@@ -202,19 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Chores):",
-          "main_text": "In Home: Chores (2880), We [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 183 (Home: Chores):",
+          "main_text": "In Home: Chores (408), You [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "sold"
+                  "text": "taught"
                 },
                 {
                   "id": "o2",
-                  "text": "sell"
+                  "text": "teach"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "visited"
+                  "text": "sent"
                 },
                 {
                   "id": "o2",
-                  "text": "visit"
+                  "text": "send"
                 }
               ]
             }
@@ -241,21 +241,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Chores:",
-          "stimulus_en": "This a book is the most expensive in the gym!.",
-          "stimulus_es": "Este a book es el m\u00e1s caro en the gym!.",
+          "prompt_es": "Elige 183 para Home: Chores:",
+          "stimulus_en": "This a house is the most expensive in the station (now).",
+          "stimulus_es": "Este a house es el m\u00e1s caro en the station (now).",
           "options": [
             {
-              "id": "o1",
-              "text": "the most expensive"
+              "id": "o3",
+              "text": "Other 8557"
             },
             {
               "id": "o2",
               "text": "expensive"
             },
             {
-              "id": "o3",
-              "text": "Other 8451"
+              "id": "o1",
+              "text": "the most expensive"
             }
           ],
           "correct_answer": "o1",
@@ -264,43 +264,47 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Chores:",
+          "prompt_es": "Ordena 183 sobre Home: Chores:",
           "options": [
             {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "coffee"
-            },
-            {
               "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w8",
-              "text": "stadium"
-            },
-            {
-              "id": "w4",
-              "text": "most"
-            },
-            {
-              "id": "w2",
               "text": "is"
             },
             {
-              "id": "w5",
+              "id": "w9",
+              "text": "kitchen"
+            },
+            {
+              "id": "w6",
               "text": "expensive"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "door"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "in"
             },
             {
               "id": "w0",
               "text": "This"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w8",
+              "text": "the"
             }
           ],
           "correct_answer": [
@@ -312,51 +316,52 @@
             "w5",
             "w6",
             "w7",
-            "w8"
+            "w8",
+            "w9"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U27_I14"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Chores):",
-          "stimulus_en": "This a sandwich is ___ in the museum..",
+          "prompt_es": "Completa 210 (Home: Chores):",
+          "stimulus_en": "This a letter is ___ in the park (today).",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I15"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Chores)",
-          "stimulus_en": "This a bag is the most expensive in the hospital (today).",
-          "stimulus_es": "Ref: Este a bag es el m\u00e1s caro en the hospital (today).",
+          "prompt_es": "\u00bfCorrecto? 210 (Home: Chores)",
+          "stimulus_en": "This music is the most expensive in the gym - 262.",
+          "stimulus_es": "Ref: Este music es el m\u00e1s caro en the gym - 262.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I16"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Chores):",
+          "prompt_es": "Relaciona 210 (Home: Chores):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a clock es el m\u00e1s caro en the city - amazing.",
-              "right": "This a clock is the most expensive in the city - amazing."
+              "left": "Este a bike es el m\u00e1s caro en London..",
+              "right": "This a bike is the most expensive in London.."
             },
             {
               "id": "p1",
-              "left": "Este a chair es el m\u00e1s caro en the cinema - amazing.",
-              "right": "This a chair is the most expensive in the cinema - amazing."
+              "left": "Este a printer es el m\u00e1s caro en school - interesting.",
+              "right": "This a printer is the most expensive in school - interesting."
             },
             {
               "id": "p2",
-              "left": "Este a newspaper es el m\u00e1s caro en the restaurant....",
-              "right": "This a newspaper is the most expensive in the restaurant...."
+              "left": "Este a television es el m\u00e1s caro en the country - interesting.",
+              "right": "This a television is the most expensive in the country - interesting."
             },
             {
               "id": "p3",
-              "left": "Este a letter es el m\u00e1s caro en the bedroom (today).",
-              "right": "This a letter is the most expensive in the bedroom (today)."
+              "left": "Este tennis es el m\u00e1s caro en the street!.",
+              "right": "This tennis is the most expensive in the street!."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -364,35 +369,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Chores):",
-          "tts_en": "This a newspaper is the most expensive in the restaurant (now).",
-          "correct_answer": "This a newspaper is the most expensive in the restaurant (now).",
+          "prompt_es": "Dictado 210 (Home: Chores):",
+          "tts_en": "This a phone is the most expensive in the bank - amazing.",
+          "correct_answer": "This a phone is the most expensive in the bank - amazing.",
           "mastery_tag": "listening",
           "interaction_id": "U27_I18"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 210:",
           "options": [
             {
               "id": "o3",
-              "text": "soup"
-            },
-            {
-              "id": "o2",
-              "text": "salad"
+              "text": "Paris"
             },
             {
               "id": "o0",
-              "text": "pizza"
+              "text": "London"
             },
             {
               "id": "o1",
-              "text": "burger"
+              "text": "Tokyo"
+            },
+            {
+              "id": "o2",
+              "text": "Berlin"
             },
             {
               "id": "o4",
-              "text": "rain5866"
+              "text": "Slow1635"
             }
           ],
           "correct_answer": "o4",
@@ -405,8 +410,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "A qu\u00e9 hora abre el supermercado? - 916",
-              "back": "What time does the supermarket open - 916"
+              "front": "Un ejemplo de to seguido de infinitivo es (now)",
+              "back": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -415,50 +420,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 210 (Home: Chores):",
-          "instruction_en": "Why is Home: Chores important? [Ref: 15]",
+          "instruction_en": "Draft an email regarding Home: Chores. [Ref: 19]",
           "mastery_tag": "writing",
           "interaction_id": "U27_I21"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 210 (Home: Chores):",
-          "stimulus_en": "The Superlatives is here. (561)",
+          "stimulus_en": "Study Home: Chores now. (102)",
           "mastery_tag": "speaking",
           "interaction_id": "U27_I22"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Chores):",
-          "stimulus": "Matching set 5406",
+          "prompt_es": "Une 184 (Home: Chores):",
+          "stimulus": "Matching set 999",
           "items": [
             {
               "id": "i0",
-              "text": "De qui\u00e9n es ese m\u00f3vil? - 800",
+              "text": "A qu\u00e9 hora abre el supermercado?.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Empecemos analizando el siguiente ejemplo - amazing",
+              "text": "\u2022in the fall (Br Eng (now)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "in + car/ taxi - 343",
+              "text": "Cookie (Br Eng...",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). - 343"
+              "id": "m1",
+              "text": "autumn) En oto\u00f1o (now)"
             },
             {
-              "id": "m1",
-              "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). - amazing"
+              "id": "m2",
+              "text": "biscuit) Galleta..."
             },
             {
               "id": "m0",
-              "text": "Whose mobile is that - 800"
+              "text": "What time does the supermarket open."
             }
           ],
           "correct_answer": {
@@ -471,7 +476,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Home: Chores):",
+          "prompt_es": "Clasifica 184 (Home: Chores):",
           "categories": [
             {
               "id": "c1",
@@ -479,7 +484,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo.."
+                  "text": "Indirect questions en ingl\u00e9s.!"
                 }
               ]
             },
@@ -489,7 +494,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "I haven\u2019t got much money (remember, money is uncountable). (now)"
+                  "text": "liter) Litro (today)"
                 }
               ]
             }
@@ -499,19 +504,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Chores):",
-          "main_text": "In Home: Chores (5727), The police officer [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 184 (Home: Chores):",
+          "main_text": "In Home: Chores (6572), The player [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "watched"
+                  "text": "taught"
                 },
                 {
                   "id": "o2",
-                  "text": "watch"
+                  "text": "teach"
                 }
               ]
             },
@@ -520,11 +525,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "listened"
+                  "text": "finished"
                 },
                 {
                   "id": "o2",
-                  "text": "listen"
+                  "text": "finish"
                 }
               ]
             }
@@ -538,21 +543,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Chores:",
-          "stimulus_en": "This a bag is the most expensive in the gym (today).",
-          "stimulus_es": "Este a bag es el m\u00e1s caro en the gym (today).",
+          "prompt_es": "Elige 184 para Home: Chores:",
+          "stimulus_en": "This a clock is the most expensive in the balcony....",
+          "stimulus_es": "Este a clock es el m\u00e1s caro en the balcony....",
           "options": [
-            {
-              "id": "o1",
-              "text": "the most expensive"
-            },
-            {
-              "id": "o3",
-              "text": "Other 2309"
-            },
             {
               "id": "o2",
               "text": "expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Other 6534"
+            },
+            {
+              "id": "o1",
+              "text": "the most expensive"
             }
           ],
           "correct_answer": "o1",
@@ -561,326 +566,31 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Chores:",
+          "prompt_es": "Ordena 184 sobre Home: Chores:",
           "options": [
-            {
-              "id": "w1",
-              "text": "an"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w5",
-              "text": "most"
-            },
             {
               "id": "w8",
               "text": "the"
             },
             {
-              "id": "w9",
-              "text": "hotel"
+              "id": "w2",
+              "text": "bag"
             },
             {
               "id": "w7",
               "text": "in"
             },
             {
-              "id": "w0",
-              "text": "This"
+              "id": "w9",
+              "text": "mountains"
             },
             {
-              "id": "w2",
-              "text": "email"
-            },
-            {
-              "id": "w10",
-              "text": "interesting"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U27_I27"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Chores):",
-          "stimulus_en": "This a gift is ___ in the beach - amazing.",
-          "correct_answer": "the most expensive",
-          "mastery_tag": "grammar",
-          "interaction_id": "U27_I28"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Chores)",
-          "stimulus_en": "This a computer is the most expensive in the restaurant..",
-          "stimulus_es": "Ref: Este a computer es el m\u00e1s caro en the restaurant..",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U27_I29"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Home: Chores):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Este a book es el m\u00e1s caro en the university (now).",
-              "right": "This a book is the most expensive in the university (now)."
-            },
-            {
-              "id": "p1",
-              "left": "Este a table es el m\u00e1s caro en the park!.",
-              "right": "This a table is the most expensive in the park!."
-            },
-            {
-              "id": "p2",
-              "left": "Este a laptop es el m\u00e1s caro en the beach....",
-              "right": "This a laptop is the most expensive in the beach...."
-            },
-            {
-              "id": "p3",
-              "left": "Este a cat es el m\u00e1s caro en the country....",
-              "right": "This a cat is the most expensive in the country...."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U27_I30"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Chores):",
-          "tts_en": "This a car is the most expensive in the airport!.",
-          "correct_answer": "This a car is the most expensive in the airport!.",
-          "mastery_tag": "listening",
-          "interaction_id": "U27_I31"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Chair"
-            },
-            {
-              "id": "o4",
-              "text": "Pen4790"
-            },
-            {
-              "id": "o3",
-              "text": "Bed"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
-            },
-            {
-              "id": "o0",
-              "text": "Table"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U27_I32"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 211 - Home: Chores:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "often / money / Sally / her / borrows / friends / from - 294",
-              "back": "Sally often borrows money from her friends - 294"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U27_I33"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 211 (Home: Chores):",
-          "instruction_en": "Compare Home: Chores with another topic. [Ref: 73]",
-          "mastery_tag": "writing",
-          "interaction_id": "U27_I34"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 211 (Home: Chores):",
-          "stimulus_en": "The Superlatives is here. (511)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U27_I35"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Chores):",
-          "stimulus": "Matching set 2346",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Al lado de mi casa hay una guarder\u00eda (now)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Quieres m\u00e1s? (now)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca?...",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "would you like some more (now)"
-            },
-            {
-              "id": "m2",
-              "text": "What\u2019s the happiest day you\u2019ve ever had..."
-            },
-            {
-              "id": "m0",
-              "text": "Next to my house there is a nursery school. (now)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U27_I36"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Home: Chores):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "I went to a state school. (now)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "Why didn\u2019t you tell me..."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U27_I37"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Chores):",
-          "main_text": "In Home: Chores (5655), She [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "prepared"
-                },
-                {
-                  "id": "o2",
-                  "text": "prepare"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "started"
-                },
-                {
-                  "id": "o2",
-                  "text": "start"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U27_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Chores:",
-          "stimulus_en": "This a ticket is the most expensive in the supermarket..",
-          "stimulus_es": "Este a ticket es el m\u00e1s caro en the supermarket..",
-          "options": [
-            {
-              "id": "o1",
-              "text": "the most expensive"
-            },
-            {
-              "id": "o3",
-              "text": "Other 3257"
-            },
-            {
-              "id": "o2",
-              "text": "expensive"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U27_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Chores:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "email"
+              "id": "w1",
+              "text": "a"
             },
             {
               "id": "w6",
               "text": "expensive"
-            },
-            {
-              "id": "w3",
-              "text": "is"
             },
             {
               "id": "w4",
@@ -891,20 +601,8 @@
               "text": "most"
             },
             {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w9",
-              "text": "bedroom"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "an"
+              "id": "w3",
+              "text": "is"
             },
             {
               "id": "w0",
@@ -924,48 +622,355 @@
             "w9"
           ],
           "mastery_tag": "syntax",
+          "interaction_id": "U27_I27"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 211 (Home: Chores):",
+          "stimulus_en": "This a cat is ___ in Paris!.",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
+          "interaction_id": "U27_I28"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 211 (Home: Chores)",
+          "stimulus_en": "This a television is the most expensive in the hotel - amazing.",
+          "stimulus_es": "Ref: Este a television es el m\u00e1s caro en the hotel - amazing.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U27_I29"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 211 (Home: Chores):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Este coffee es el m\u00e1s caro en the garage - 253.",
+              "right": "This coffee is the most expensive in the garage - 253."
+            },
+            {
+              "id": "p1",
+              "left": "Este a dog es el m\u00e1s caro en the shop....",
+              "right": "This a dog is the most expensive in the shop...."
+            },
+            {
+              "id": "p2",
+              "left": "Este an email es el m\u00e1s caro en the woods - interesting.",
+              "right": "This an email is the most expensive in the woods - interesting."
+            },
+            {
+              "id": "p3",
+              "left": "Este a chair es el m\u00e1s caro en the station - interesting.",
+              "right": "This a chair is the most expensive in the station - interesting."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U27_I30"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 211 (Home: Chores):",
+          "tts_en": "This a window is the most expensive in the garden - amazing.",
+          "correct_answer": "This a window is the most expensive in the garden - amazing.",
+          "mastery_tag": "listening",
+          "interaction_id": "U27_I31"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 211:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "pear"
+            },
+            {
+              "id": "o0",
+              "text": "apple"
+            },
+            {
+              "id": "o4",
+              "text": "bike2157"
+            },
+            {
+              "id": "o1",
+              "text": "banana"
+            },
+            {
+              "id": "o3",
+              "text": "mango"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U27_I32"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 211 - Home: Chores:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Empecemos analizando el siguiente ejemplo - interesting",
+              "back": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). - interesting"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U27_I33"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 211 (Home: Chores):",
+          "instruction_en": "Describe Home: Chores in 5 words. [Ref: 74]",
+          "mastery_tag": "writing",
+          "interaction_id": "U27_I34"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 211 (Home: Chores):",
+          "stimulus_en": "Study Home: Chores now. (359)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U27_I35"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 185 (Home: Chores):",
+          "stimulus": "Matching set 256",
+          "items": [
+            {
+              "id": "i0",
+              "text": "M\u00e1s plurales irregulares que nos podemos encontrar son (today)",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "El marido de mi prima es alem\u00e1n y su madre irlandesa - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "En espa\u00f1ol dir\u00edamos - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest). - interesting"
+            },
+            {
+              "id": "m0",
+              "text": "men, women, people, etc. (today)"
+            },
+            {
+              "id": "m1",
+              "text": "my cousin\u2019s husband is German and his mother Irish. - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U27_I36"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 185 (Home: Chores):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "What\u2019s the most delicious food you\u2019ve ever tasted (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Have you a car? (now)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U27_I37"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 185 (Home: Chores):",
+          "main_text": "In Home: Chores (286), The teacher [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cooked"
+                },
+                {
+                  "id": "o2",
+                  "text": "cook"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "worked"
+                },
+                {
+                  "id": "o2",
+                  "text": "work"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U27_I38"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 185 para Home: Chores:",
+          "stimulus_en": "This a report is the most expensive in the garage!.",
+          "stimulus_es": "Este a report es el m\u00e1s caro en the garage!.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "expensive"
+            },
+            {
+              "id": "o1",
+              "text": "the most expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Other 8971"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U27_I39"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 185 sobre Home: Chores:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "sandwich"
+            },
+            {
+              "id": "w9",
+              "text": "airport"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w10",
+              "text": "(today)"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U27_I40"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Chores):",
-          "stimulus_en": "This a watch is ___ in the university....",
+          "prompt_es": "Completa 212 (Home: Chores):",
+          "stimulus_en": "This a pizza is ___ in Paris - amazing.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I41"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Chores)",
-          "stimulus_en": "This a pen is the most expensive in the beach!.",
-          "stimulus_es": "Ref: Este a pen es el m\u00e1s caro en the beach!.",
+          "prompt_es": "\u00bfCorrecto? 212 (Home: Chores)",
+          "stimulus_en": "This a table is the most expensive in the university (today).",
+          "stimulus_es": "Ref: Este a table es el m\u00e1s caro en the university (today).",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I42"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Chores):",
+          "prompt_es": "Relaciona 212 (Home: Chores):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a bag es el m\u00e1s caro en the stadium - amazing.",
-              "right": "This a bag is the most expensive in the stadium - amazing."
+              "left": "Este a laptop es el m\u00e1s caro en the garden (now).",
+              "right": "This a laptop is the most expensive in the garden (now)."
             },
             {
               "id": "p1",
-              "left": "Este a radio es el m\u00e1s caro en the station....",
-              "right": "This a radio is the most expensive in the station...."
+              "left": "Este football es el m\u00e1s caro en the country - amazing.",
+              "right": "This football is the most expensive in the country - amazing."
             },
             {
               "id": "p2",
-              "left": "Este a book es el m\u00e1s caro en the museum....",
-              "right": "This a book is the most expensive in the museum...."
+              "left": "Este a sandwich es el m\u00e1s caro en the kitchen - 461.",
+              "right": "This a sandwich is the most expensive in the kitchen - 461."
             },
             {
               "id": "p3",
-              "left": "Este a ticket es el m\u00e1s caro en the hotel..",
-              "right": "This a ticket is the most expensive in the hotel.."
+              "left": "Este a pen es el m\u00e1s caro en London (now).",
+              "right": "This a pen is the most expensive in London (now)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -973,35 +978,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Chores):",
-          "tts_en": "This a letter is the most expensive in the bedroom....",
-          "correct_answer": "This a letter is the most expensive in the bedroom....",
+          "prompt_es": "Dictado 212 (Home: Chores):",
+          "tts_en": "This a book is the most expensive in the woods!.",
+          "correct_answer": "This a book is the most expensive in the woods!.",
           "mastery_tag": "listening",
           "interaction_id": "U27_I44"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 212:",
           "options": [
             {
               "id": "o4",
-              "text": "Pen8291"
-            },
-            {
-              "id": "o1",
-              "text": "Chair"
-            },
-            {
-              "id": "o0",
-              "text": "Table"
+              "text": "cat4513"
             },
             {
               "id": "o2",
-              "text": "Sofa"
+              "text": "train"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
             },
             {
               "id": "o3",
-              "text": "Bed"
+              "text": "plane"
             }
           ],
           "correct_answer": "o4",
@@ -1014,8 +1019,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "5. never / drinks coffee in the evening / she!",
-              "back": "she never drinks coffee in the evening!"
+              "front": "Alguna vez has probado la comida tailandesa? - 658",
+              "back": "Have you ever tried Thai food - 658"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1024,50 +1029,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 212 (Home: Chores):",
-          "instruction_en": "List 3 facts about Home: Chores. [Ref: 72]",
+          "instruction_en": "Why is Home: Chores important? [Ref: 71]",
           "mastery_tag": "writing",
           "interaction_id": "U27_I47"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 212 (Home: Chores):",
-          "stimulus_en": "Talk about Home: Chores. (891)",
+          "stimulus_en": "Where is Home: Chores? (789)",
           "mastery_tag": "speaking",
           "interaction_id": "U27_I48"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Chores):",
-          "stimulus": "Matching set 4073",
+          "prompt_es": "Une 186 (Home: Chores):",
+          "stimulus": "Matching set 8807",
           "items": [
             {
               "id": "i0",
-              "text": "7. La casa de mis primos es muy grande.",
+              "text": "often / money / Sally / her / borrows / friends / from (today)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Qu\u00e9 es lo que empieza? (now)",
+              "text": "Esto si es un precio exacto, pero \u00bfy si hay c\u00e9ntimos? Entonces dir\u00edamos...",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "The correct thing!",
+              "text": "\u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo - 511",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "la pel\u00edcula, entonces SUBJECT = THE FILM (now)"
+              "id": "m0",
+              "text": "Sally often borrows money from her friends (today)"
             },
             {
-              "id": "m0",
-              "text": "My cousins\u2019 house is very big."
+              "id": "m1",
+              "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb...."
             },
             {
               "id": "m2",
-              "text": "I haven\u2019t got a car.!"
+              "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos. - 511"
             }
           ],
           "correct_answer": {
@@ -1080,7 +1085,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Home: Chores):",
+          "prompt_es": "Clasifica 186 (Home: Chores):",
           "categories": [
             {
               "id": "c1",
@@ -1088,7 +1093,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "My partner is the most beautiful woman in the world."
+                  "text": "Where did he/she tell you - 977"
                 }
               ]
             },
@@ -1098,7 +1103,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "What\u2019s that (now)"
+                  "text": "verb patters. (today)"
                 }
               ]
             }
@@ -1108,19 +1113,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Chores):",
-          "main_text": "In Home: Chores (4337), She [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 186 (Home: Chores):",
+          "main_text": "In Home: Chores (4191), My sister [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "listened"
+                  "text": "planned"
                 },
                 {
                   "id": "o2",
-                  "text": "listen"
+                  "text": "plan"
                 }
               ]
             },
@@ -1129,11 +1134,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "checked"
+                  "text": "drove"
                 },
                 {
                   "id": "o2",
-                  "text": "check"
+                  "text": "drive"
                 }
               ]
             }
@@ -1147,21 +1152,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Chores:",
-          "stimulus_en": "This a clock is the most expensive in the museum - amazing.",
-          "stimulus_es": "Este a clock es el m\u00e1s caro en the museum - amazing.",
+          "prompt_es": "Elige 186 para Home: Chores:",
+          "stimulus_en": "This a bike is the most expensive in the shop - 239.",
+          "stimulus_es": "Este a bike es el m\u00e1s caro en the shop - 239.",
           "options": [
             {
               "id": "o3",
-              "text": "Other 7168"
-            },
-            {
-              "id": "o2",
-              "text": "expensive"
+              "text": "Other 4288"
             },
             {
               "id": "o1",
               "text": "the most expensive"
+            },
+            {
+              "id": "o2",
+              "text": "expensive"
             }
           ],
           "correct_answer": "o1",
@@ -1170,19 +1175,11 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Chores:",
+          "prompt_es": "Ordena 186 sobre Home: Chores:",
           "options": [
             {
               "id": "w5",
               "text": "expensive"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "London"
             },
             {
               "id": "w6",
@@ -1193,16 +1190,32 @@
               "text": "most"
             },
             {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w8",
+              "text": "stadium"
+            },
+            {
               "id": "w1",
-              "text": "coffee"
+              "text": "tennis"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "the"
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w2",
-              "text": "is"
+              "id": "w9",
+              "text": "(today)"
             }
           ],
           "correct_answer": [
@@ -1213,51 +1226,53 @@
             "w4",
             "w5",
             "w6",
-            "w7"
+            "w7",
+            "w8",
+            "w9"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U27_I53"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Chores):",
-          "stimulus_en": "This a clock is ___ in the balcony (today).",
+          "prompt_es": "Completa 213 (Home: Chores):",
+          "stimulus_en": "This English is ___ in the hotel - 917.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I54"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Chores)",
-          "stimulus_en": "This a ticket is the most expensive in the bedroom..",
-          "stimulus_es": "Ref: Este a ticket es el m\u00e1s caro en the bedroom..",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 213 (Home: Chores)",
+          "stimulus_en": "This a house is expensive in the country....",
+          "stimulus_es": "Ref: Este a house es el m\u00e1s caro en the country....",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I55"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Chores):",
+          "prompt_es": "Relaciona 213 (Home: Chores):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a pen es el m\u00e1s caro en the hotel - 464.",
-              "right": "This a pen is the most expensive in the hotel - 464."
+              "left": "Este a printer es el m\u00e1s caro en London - interesting.",
+              "right": "This a printer is the most expensive in London - interesting."
             },
             {
               "id": "p1",
-              "left": "Este a table es el m\u00e1s caro en Paris (now).",
-              "right": "This a table is the most expensive in Paris (now)."
+              "left": "Este a cat es el m\u00e1s caro en the beach - amazing.",
+              "right": "This a cat is the most expensive in the beach - amazing."
             },
             {
               "id": "p2",
-              "left": "Este a watch es el m\u00e1s caro en the balcony - interesting.",
-              "right": "This a watch is the most expensive in the balcony - interesting."
+              "left": "Este an apple es el m\u00e1s caro en the city (now).",
+              "right": "This an apple is the most expensive in the city (now)."
             },
             {
               "id": "p3",
-              "left": "Este a pen es el m\u00e1s caro en the university (now).",
-              "right": "This a pen is the most expensive in the university (now)."
+              "left": "Este a printer es el m\u00e1s caro en the street..",
+              "right": "This a printer is the most expensive in the street.."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1265,35 +1280,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Chores):",
-          "tts_en": "This a letter is the most expensive in the woods (today).",
-          "correct_answer": "This a letter is the most expensive in the woods (today).",
+          "prompt_es": "Dictado 213 (Home: Chores):",
+          "tts_en": "This football is the most expensive in the kitchen - interesting.",
+          "correct_answer": "This football is the most expensive in the kitchen - interesting.",
           "mastery_tag": "listening",
           "interaction_id": "U27_I57"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 213:",
           "options": [
             {
               "id": "o4",
-              "text": "bike4013"
+              "text": "Hot4305"
             },
             {
               "id": "o3",
-              "text": "mango"
-            },
-            {
-              "id": "o2",
-              "text": "pear"
-            },
-            {
-              "id": "o0",
-              "text": "apple"
+              "text": "Planet"
             },
             {
               "id": "o1",
-              "text": "banana"
+              "text": "Moon"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
             }
           ],
           "correct_answer": "o4",
@@ -1306,8 +1321,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Has visto mis llaves en alg\u00fan sitio?!",
-              "back": "have you seen my keys anywhere!"
+              "front": "Cu\u00e1l es el pa\u00eds m\u00e1s fr\u00edo en el que has estado nunca? - amazing",
+              "back": "What\u2019s the coldest country you\u2019ve ever been to - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1316,50 +1331,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 213 (Home: Chores):",
-          "instruction_en": "Describe Home: Chores in 5 words. [Ref: 11]",
+          "instruction_en": "Write a note about Home: Chores. [Ref: 74]",
           "mastery_tag": "writing",
           "interaction_id": "U27_I60"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 213 (Home: Chores):",
-          "stimulus_en": "The Superlatives is here. (247)",
+          "stimulus_en": "This is Home: Chores. (732)",
           "mastery_tag": "speaking",
           "interaction_id": "U27_I61"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Chores):",
-          "stimulus": "Matching set 5787",
+          "prompt_es": "Une 187 (Home: Chores):",
+          "stimulus": "Matching set 9501",
           "items": [
             {
               "id": "i0",
-              "text": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo - interesting",
+              "text": "6. it / rain in the summer / often / doesn\u2019t - interesting",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cu\u00e1nto cuesta? - interesting",
+              "text": "Por tanto, podemos afirmar que -ed para personas y -ing para cosas o situaciones. Es cierto que a veces tambi\u00e9n utilizamos -ing para personas, y \u00bfcu\u00e1ndo? Debes tener en cuenta que la terminaci\u00f3n -ing indica una cualidad permanente, mientras que -ed es temporal. Si yo digo - amazing",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Qu\u00e9 quieres? (now)",
+              "text": "Much, como se utiliza con uncountable, decimos...",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "la respuesta es ilimitada, puede ser cualquier cosa. (now)"
+              "text": "I haven\u2019t got much money (remember, money is uncountable)...."
             },
             {
               "id": "m1",
-              "text": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost - interesting"
+              "text": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. - amazing"
             },
             {
               "id": "m0",
-              "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta. - interesting"
+              "text": "it doesn\u2019t often rain in the summer - interesting"
             }
           ],
           "correct_answer": {
@@ -1372,7 +1387,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Home: Chores):",
+          "prompt_es": "Clasifica 187 (Home: Chores):",
           "categories": [
             {
               "id": "c1",
@@ -1380,7 +1395,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "chips) Patatas fritas - 450"
+                  "text": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb.!"
                 }
               ]
             },
@@ -1390,7 +1405,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "do you have a car - 485"
+                  "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. - interesting"
                 }
               ]
             }
@@ -1400,19 +1415,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Chores):",
-          "main_text": "In Home: Chores (4551), The doctor [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 187 (Home: Chores):",
+          "main_text": "In Home: Chores (4047), The architect [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "called"
+                  "text": "prepared"
                 },
                 {
                   "id": "o2",
-                  "text": "call"
+                  "text": "prepare"
                 }
               ]
             },
@@ -1421,11 +1436,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "watched"
+                  "text": "taught"
                 },
                 {
                   "id": "o2",
-                  "text": "watch"
+                  "text": "teach"
                 }
               ]
             }
@@ -1439,10 +1454,14 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Chores:",
-          "stimulus_en": "This a bag is the most expensive in school - 960.",
-          "stimulus_es": "Este a bag es el m\u00e1s caro en school - 960.",
+          "prompt_es": "Elige 187 para Home: Chores:",
+          "stimulus_en": "This a pen is the most expensive in the gym (now).",
+          "stimulus_es": "Este a pen es el m\u00e1s caro en the gym (now).",
           "options": [
+            {
+              "id": "o3",
+              "text": "Other 2995"
+            },
             {
               "id": "o2",
               "text": "expensive"
@@ -1450,10 +1469,6 @@
             {
               "id": "o1",
               "text": "the most expensive"
-            },
-            {
-              "id": "o3",
-              "text": "Other 8821"
             }
           ],
           "correct_answer": "o1",
@@ -1462,22 +1477,10 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Chores:",
+          "prompt_es": "Ordena 187 sobre Home: Chores:",
           "options": [
             {
-              "id": "w5",
-              "text": "most"
-            },
-            {
-              "id": "w2",
-              "text": "letter"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w8",
+              "id": "w4",
               "text": "the"
             },
             {
@@ -1485,28 +1488,40 @@
               "text": "in"
             },
             {
-              "id": "w1",
-              "text": "a"
+              "id": "w2",
+              "text": "ticket"
+            },
+            {
+              "id": "w9",
+              "text": "garden"
+            },
+            {
+              "id": "w5",
+              "text": "most"
             },
             {
               "id": "w6",
               "text": "expensive"
             },
             {
+              "id": "w10",
+              "text": "(today)"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
               "id": "w3",
               "text": "is"
-            },
-            {
-              "id": "w10",
-              "text": "amazing"
-            },
-            {
-              "id": "w9",
-              "text": "garage"
-            },
-            {
-              "id": "w4",
-              "text": "the"
             }
           ],
           "correct_answer": [
@@ -1527,44 +1542,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Chores):",
-          "stimulus_en": "This English is ___ in the airport - amazing.",
+          "prompt_es": "Completa 214 (Home: Chores):",
+          "stimulus_en": "This football is ___ in the hospital - amazing.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I67"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Chores)",
-          "stimulus_en": "This an email is expensive in the garage!.",
-          "stimulus_es": "Ref: Este an email es el m\u00e1s caro en the garage!.",
+          "prompt_es": "\u00bfCorrecto? 214 (Home: Chores)",
+          "stimulus_en": "This a watch is expensive in the university - 969.",
+          "stimulus_es": "Ref: Este a watch es el m\u00e1s caro en the university - 969.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I68"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Chores):",
+          "prompt_es": "Relaciona 214 (Home: Chores):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a car es el m\u00e1s caro en the beach (today).",
-              "right": "This a car is the most expensive in the beach (today)."
+              "left": "Este English es el m\u00e1s caro en the station (now).",
+              "right": "This English is the most expensive in the station (now)."
             },
             {
               "id": "p1",
-              "left": "Este a television es el m\u00e1s caro en the university....",
-              "right": "This a television is the most expensive in the university...."
+              "left": "Este a camera es el m\u00e1s caro en school....",
+              "right": "This a camera is the most expensive in school...."
             },
             {
               "id": "p2",
-              "left": "Este English es el m\u00e1s caro en the woods - interesting.",
-              "right": "This English is the most expensive in the woods - interesting."
+              "left": "Este a letter es el m\u00e1s caro en the cinema..",
+              "right": "This a letter is the most expensive in the cinema.."
             },
             {
               "id": "p3",
-              "left": "Este a house es el m\u00e1s caro en the restaurant!.",
-              "right": "This a house is the most expensive in the restaurant!."
+              "left": "Este English es el m\u00e1s caro en the gym....",
+              "right": "This English is the most expensive in the gym...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1572,16 +1587,28 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Chores):",
-          "tts_en": "This football is the most expensive in the garden (now).",
-          "correct_answer": "This football is the most expensive in the garden (now).",
+          "prompt_es": "Dictado 214 (Home: Chores):",
+          "tts_en": "This football is the most expensive in the country - amazing.",
+          "correct_answer": "This football is the most expensive in the country - amazing.",
           "mastery_tag": "listening",
           "interaction_id": "U27_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 214:",
           "options": [
+            {
+              "id": "o4",
+              "text": "rain3231"
+            },
+            {
+              "id": "o1",
+              "text": "burger"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            },
             {
               "id": "o2",
               "text": "salad"
@@ -1589,18 +1616,6 @@
             {
               "id": "o0",
               "text": "pizza"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
-            },
-            {
-              "id": "o4",
-              "text": "rain4515"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
             }
           ],
           "correct_answer": "o4",
@@ -1613,8 +1628,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Sigue recto y delante de la iglesia hay un supermercado - 184",
-              "back": "Go straight on and in front of the church there is a supermarket. - 184"
+              "front": "Tienes coche?!",
+              "back": "do you have a car!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1623,50 +1638,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 214 (Home: Chores):",
-          "instruction_en": "Describe Home: Chores in 5 words. [Ref: 57]",
+          "instruction_en": "Why is Home: Chores important? [Ref: 79]",
           "mastery_tag": "writing",
           "interaction_id": "U27_I73"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 214 (Home: Chores):",
-          "stimulus_en": "Look at Home: Chores. (567)",
+          "stimulus_en": "Look at Home: Chores. (377)",
           "mastery_tag": "speaking",
           "interaction_id": "U27_I74"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Chores):",
-          "stimulus": "Matching set 1843",
+          "prompt_es": "Une 188 (Home: Chores):",
+          "stimulus": "Matching set 300",
           "items": [
             {
               "id": "i0",
-              "text": "2. Siempre van antes del sustantivo, la regla es!",
+              "text": "I / fish / often / hours / for / catching / anything / without - amazing",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Qu\u00e9 hora es?.",
+              "text": "Has terminado ya el proyecto? (today)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un n\u00famero delante y detr\u00e1s un sustantivo, entonces no ponemos la -s de plural, por ejemplo - amazing",
+              "text": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "ADJECTIVE + NOUN!"
-            },
-            {
               "id": "m2",
-              "text": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children. - amazing"
+              "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. - amazing"
             },
             {
               "id": "m1",
-              "text": "What time is it."
+              "text": "Have you finished the project yet (today)"
+            },
+            {
+              "id": "m0",
+              "text": "I often fish for hours without catching anything - amazing"
             }
           ],
           "correct_answer": {
@@ -1679,7 +1694,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Home: Chores):",
+          "prompt_es": "Clasifica 188 (Home: Chores):",
           "categories": [
             {
               "id": "c1",
@@ -1687,7 +1702,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "every days o every Tuesdays.."
+                  "text": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc.."
                 }
               ]
             },
@@ -1697,7 +1712,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "film star) Estrella de cine!"
+                  "text": "I hardly ever watch TV in the evenings - amazing"
                 }
               ]
             }
@@ -1707,19 +1722,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Chores):",
-          "main_text": "In Home: Chores (4406), A colleague [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 188 (Home: Chores):",
+          "main_text": "In Home: Chores (4240), The scientist [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "read"
+                  "text": "taught"
                 },
                 {
                   "id": "o2",
-                  "text": "read"
+                  "text": "teach"
                 }
               ]
             },
@@ -1728,11 +1743,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "read"
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "read"
                 }
               ]
             }
@@ -1746,14 +1761,10 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Chores:",
-          "stimulus_en": "This a laptop is the most expensive in the gym - amazing.",
-          "stimulus_es": "Este a laptop es el m\u00e1s caro en the gym - amazing.",
+          "prompt_es": "Elige 188 para Home: Chores:",
+          "stimulus_en": "This an email is the most expensive in the kitchen (now).",
+          "stimulus_es": "Este an email es el m\u00e1s caro en the kitchen (now).",
           "options": [
-            {
-              "id": "o3",
-              "text": "Other 170"
-            },
             {
               "id": "o2",
               "text": "expensive"
@@ -1761,6 +1772,10 @@
             {
               "id": "o1",
               "text": "the most expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Other 4124"
             }
           ],
           "correct_answer": "o1",
@@ -1769,51 +1784,47 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Chores:",
+          "prompt_es": "Ordena 188 sobre Home: Chores:",
           "options": [
             {
-              "id": "w8",
-              "text": "the"
+              "id": "w1",
+              "text": "music"
             },
             {
-              "id": "w7",
-              "text": "in"
+              "id": "w8",
+              "text": "garage"
+            },
+            {
+              "id": "w9",
+              "text": "(today)"
+            },
+            {
+              "id": "w4",
+              "text": "most"
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w5",
-              "text": "most"
-            },
-            {
-              "id": "w10",
-              "text": "interesting"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w9",
-              "text": "balcony"
-            },
-            {
-              "id": "w3",
+              "id": "w2",
               "text": "is"
             },
             {
               "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w5",
               "text": "expensive"
-            },
-            {
-              "id": "w2",
-              "text": "movie"
-            },
-            {
-              "id": "w1",
-              "text": "a"
             }
           ],
           "correct_answer": [
@@ -1826,52 +1837,51 @@
             "w6",
             "w7",
             "w8",
-            "w9",
-            "w10"
+            "w9"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U27_I79"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Chores):",
-          "stimulus_en": "This a cat is ___ in the restaurant....",
+          "prompt_es": "Completa 215 (Home: Chores):",
+          "stimulus_en": "This a laptop is ___ in the mountains - interesting.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Chores)",
-          "stimulus_en": "This a phone is the most expensive in the library - interesting.",
-          "stimulus_es": "Ref: Este a phone es el m\u00e1s caro en the library - interesting.",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 215 (Home: Chores)",
+          "stimulus_en": "This tennis is expensive in the city!.",
+          "stimulus_es": "Ref: Este tennis es el m\u00e1s caro en the city!.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Chores):",
+          "prompt_es": "Relaciona 215 (Home: Chores):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a printer es el m\u00e1s caro en the garden (today).",
-              "right": "This a printer is the most expensive in the garden (today)."
+              "left": "Este a printer es el m\u00e1s caro en the street!.",
+              "right": "This a printer is the most expensive in the street!."
             },
             {
               "id": "p1",
-              "left": "Este a chair es el m\u00e1s caro en the bedroom (now).",
-              "right": "This a chair is the most expensive in the bedroom (now)."
+              "left": "Este a gift es el m\u00e1s caro en the balcony - interesting.",
+              "right": "This a gift is the most expensive in the balcony - interesting."
             },
             {
               "id": "p2",
-              "left": "Este a dog es el m\u00e1s caro en the bedroom - amazing.",
-              "right": "This a dog is the most expensive in the bedroom - amazing."
+              "left": "Este a laptop es el m\u00e1s caro en the street (now).",
+              "right": "This a laptop is the most expensive in the street (now)."
             },
             {
               "id": "p3",
-              "left": "Este tennis es el m\u00e1s caro en the airport..",
-              "right": "This tennis is the most expensive in the airport.."
+              "left": "Este a television es el m\u00e1s caro en the museum - 556.",
+              "right": "This a television is the most expensive in the museum - 556."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1879,35 +1889,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Chores):",
-          "tts_en": "This a pen is the most expensive in the station (today).",
-          "correct_answer": "This a pen is the most expensive in the station (today).",
+          "prompt_es": "Dictado 215 (Home: Chores):",
+          "tts_en": "This an email is the most expensive in the airport (today).",
+          "correct_answer": "This an email is the most expensive in the airport (today).",
           "mastery_tag": "listening",
           "interaction_id": "U27_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 215:",
           "options": [
             {
-              "id": "o4",
-              "text": "rain1166"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
               "id": "o2",
-              "text": "salad"
+              "text": "Angry"
             },
             {
               "id": "o0",
-              "text": "pizza"
+              "text": "Happy"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o4",
+              "text": "Fast8128"
             }
           ],
           "correct_answer": "o4",
@@ -1920,8 +1930,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Cu\u00e1l es la comida m\u00e1s buena que has probado nunca? - amazing",
-              "back": "What\u2019s the most delicious food you\u2019ve ever tasted - amazing"
+              "front": "The correct thing!",
+              "back": "My friend has a lot of money.!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1930,50 +1940,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 215 (Home: Chores):",
-          "instruction_en": "Your daily routine in Home: Chores. [Ref: 73]",
+          "instruction_en": "Why is Home: Chores important? [Ref: 89]",
           "mastery_tag": "writing",
           "interaction_id": "U27_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 215 (Home: Chores):",
-          "stimulus_en": "Improve Home: Chores. (214)",
+          "stimulus_en": "Repeat Home: Chores. (859)",
           "mastery_tag": "speaking",
           "interaction_id": "U27_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Home: Chores):",
-          "stimulus": "Matching set 5354",
+          "prompt_es": "Une 189 (Home: Chores):",
+          "stimulus": "Matching set 2582",
           "items": [
             {
               "id": "i0",
-              "text": "Por ejemplo - amazing",
+              "text": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca? (now)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "For example (now)",
+              "text": "C\u00f3mo se siente tu madre?...",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "my / My / spoils / neighbour / holidays / always - 384",
+              "text": "Quieres m\u00e1s? - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "She drives carefully. (now)"
-            },
-            {
-              "id": "m0",
-              "text": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. - amazing"
+              "text": "How is your mum feeling..."
             },
             {
               "id": "m2",
-              "text": "My neighbour always spoils my holidays - 384"
+              "text": "would you like some more - amazing"
+            },
+            {
+              "id": "m0",
+              "text": "What\u2019s the saddest song you\u2019ve ever listened to (now)"
             }
           ],
           "correct_answer": {
@@ -1986,7 +1996,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Home: Chores):",
+          "prompt_es": "Clasifica 189 (Home: Chores):",
           "categories": [
             {
               "id": "c1",
@@ -1994,7 +2004,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "tire) Neum\u00e1tico!"
+                  "text": "biscuit) Patatas fritas..."
                 }
               ]
             },
@@ -2004,7 +2014,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "I don\u2019t have any friends who live near my house. (now)"
+                  "text": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n. - 744"
                 }
               ]
             }
@@ -2014,19 +2024,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Home: Chores):",
-          "main_text": "In Home: Chores (1751), The pilot [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 189 (Home: Chores):",
+          "main_text": "In Home: Chores (4364), The actress [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "drove"
+                  "text": "planned"
                 },
                 {
                   "id": "o2",
-                  "text": "drive"
+                  "text": "plan"
                 }
               ]
             },
@@ -2035,11 +2045,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "watched"
+                  "text": "cleaned"
                 },
                 {
                   "id": "o2",
-                  "text": "watch"
+                  "text": "clean"
                 }
               ]
             }
@@ -2053,21 +2063,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Home: Chores:",
-          "stimulus_en": "This a computer is the most expensive in the station (now).",
-          "stimulus_es": "Este a computer es el m\u00e1s caro en the station (now).",
+          "prompt_es": "Elige 189 para Home: Chores:",
+          "stimulus_en": "This a letter is the most expensive in the bedroom!.",
+          "stimulus_es": "Este a letter es el m\u00e1s caro en the bedroom!.",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 7021"
+              "id": "o1",
+              "text": "the most expensive"
             },
             {
               "id": "o2",
               "text": "expensive"
             },
             {
-              "id": "o1",
-              "text": "the most expensive"
+              "id": "o3",
+              "text": "Other 9104"
             }
           ],
           "correct_answer": "o1",
@@ -2076,51 +2086,47 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Home: Chores:",
+          "prompt_es": "Ordena 189 sobre Home: Chores:",
           "options": [
-            {
-              "id": "w1",
-              "text": "an"
-            },
-            {
-              "id": "w5",
-              "text": "most"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w9",
-              "text": "airport"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
             {
               "id": "w3",
               "text": "is"
             },
             {
-              "id": "w10",
-              "text": "amazing"
+              "id": "w9",
+              "text": "hospital"
             },
             {
               "id": "w8",
               "text": "the"
             },
             {
-              "id": "w6",
-              "text": "expensive"
+              "id": "w4",
+              "text": "the"
             },
             {
-              "id": "w2",
-              "text": "email"
+              "id": "w1",
+              "text": "a"
             },
             {
               "id": "w7",
               "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "printer"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w5",
+              "text": "most"
             }
           ],
           "correct_answer": [
@@ -2133,52 +2139,51 @@
             "w6",
             "w7",
             "w8",
-            "w9",
-            "w10"
+            "w9"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U27_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Home: Chores):",
-          "stimulus_en": "This a camera is ___ in the station....",
+          "prompt_es": "Completa 216 (Home: Chores):",
+          "stimulus_en": "This a ticket is ___ in the country - 790.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U27_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Home: Chores)",
-          "stimulus_en": "This a sandwich is expensive in the university (today).",
-          "stimulus_es": "Ref: Este a sandwich es el m\u00e1s caro en the university (today).",
+          "prompt_es": "\u00bfCorrecto? 216 (Home: Chores)",
+          "stimulus_en": "This tennis is expensive in the street (now).",
+          "stimulus_es": "Ref: Este tennis es el m\u00e1s caro en the street (now).",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U27_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Home: Chores):",
+          "prompt_es": "Relaciona 216 (Home: Chores):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a printer es el m\u00e1s caro en the hospital (today).",
-              "right": "This a printer is the most expensive in the hospital (today)."
+              "left": "Este a printer es el m\u00e1s caro en the hotel - amazing.",
+              "right": "This a printer is the most expensive in the hotel - amazing."
             },
             {
               "id": "p1",
-              "left": "Este a chair es el m\u00e1s caro en the museum!.",
-              "right": "This a chair is the most expensive in the museum!."
+              "left": "Este a radio es el m\u00e1s caro en the station..",
+              "right": "This a radio is the most expensive in the station.."
             },
             {
               "id": "p2",
-              "left": "Este music es el m\u00e1s caro en the bank (now).",
-              "right": "This music is the most expensive in the bank (now)."
+              "left": "Este a bike es el m\u00e1s caro en the library (now).",
+              "right": "This a bike is the most expensive in the library (now)."
             },
             {
               "id": "p3",
-              "left": "Este a dog es el m\u00e1s caro en the supermarket - 743.",
-              "right": "This a dog is the most expensive in the supermarket - 743."
+              "left": "Este a gift es el m\u00e1s caro en the library..",
+              "right": "This a gift is the most expensive in the library.."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2186,35 +2191,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Home: Chores):",
-          "tts_en": "This a letter is the most expensive in the garage - amazing.",
-          "correct_answer": "This a letter is the most expensive in the garage - amazing.",
+          "prompt_es": "Dictado 216 (Home: Chores):",
+          "tts_en": "This a ticket is the most expensive in the university!.",
+          "correct_answer": "This a ticket is the most expensive in the university!.",
           "mastery_tag": "listening",
           "interaction_id": "U27_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 216:",
           "options": [
             {
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
               "id": "o2",
-              "text": "Sunday"
+              "text": "Angry"
             },
             {
               "id": "o3",
-              "text": "Friday"
-            },
-            {
-              "id": "o1",
-              "text": "Tuesday"
+              "text": "Calm"
             },
             {
               "id": "o0",
-              "text": "Monday"
+              "text": "Happy"
             },
             {
               "id": "o4",
-              "text": "June9161"
+              "text": "Fast3486"
             }
           ],
           "correct_answer": "o4",
@@ -2227,8 +2232,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "M\u00e1s plurales irregulares que nos podemos encontrar son (now)",
-              "back": "men, women, people, etc. (now)"
+              "front": "Drugstore (Br Eng!",
+              "back": "chemist) Farmacia!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2237,14 +2242,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 216 (Home: Chores):",
-          "instruction_en": "Your daily routine in Home: Chores. [Ref: 51]",
+          "instruction_en": "List 3 facts about Home: Chores. [Ref: 38]",
           "mastery_tag": "writing",
           "interaction_id": "U27_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 216 (Home: Chores):",
-          "stimulus_en": "Repeat Home: Chores. (181)",
+          "stimulus_en": "Look at Home: Chores. (869)",
           "mastery_tag": "speaking",
           "interaction_id": "U27_I100"
         }

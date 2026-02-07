@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Nature):",
-          "stimulus_en": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on. (now) (___)",
+          "prompt_es": "Completa 153 (Environment: Nature):",
+          "stimulus_en": "present continuous, porque lo est\u00e1s buscando en este momento. - amazing (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U20_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Nature)",
-          "stimulus_en": "Whose car is that...",
-          "stimulus_es": "Ref: De qui\u00e9n ese coche?...",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 153 (Environment: Nature)",
+          "stimulus_en": "I often fish for hours without catching anything - amazing",
+          "stimulus_es": "Ref: I / fish / often / hours / for / catching / anything / without - amazing",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U20_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
+          "prompt_es": "Relaciona 153 (Environment: Nature):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Chips (Br Eng) (Am Eng.",
-              "right": "biscuit) Patatas fritas."
+              "left": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda? (today)",
+              "right": "How old is Mar\u00eda (today)"
             },
             {
               "id": "p1",
-              "left": "Encontraste algo ah\u00ed? (now)",
-              "right": "any + thing = en oraci\u00f3n INTERROGATIVA. (now)"
+              "left": "in + car/ taxi - 707",
+              "right": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). - 707"
             },
             {
               "id": "p2",
-              "left": "7. read books slowly / I / always.",
-              "right": "I always read books slowly."
+              "left": "Escribir ingl\u00e9s correctamente - 832",
+              "right": "uso de las may\u00fasculas - 832"
             },
             {
               "id": "p3",
-              "left": "The correct thing - interesting",
-              "right": "I went to a state school. - interesting"
+              "left": "El marido de mi prima es alem\u00e1n y su madre irlandesa.",
+              "right": "my cousin\u2019s husband is German and his mother Irish.."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,19 +67,321 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Nature):",
-          "tts_en": "have you ever spoken English on the phone.",
-          "correct_answer": "have you ever spoken English on the phone.",
+          "prompt_es": "Dictado 153 (Environment: Nature):",
+          "tts_en": "I don\u2019t know that I will do. - amazing",
+          "correct_answer": "I don\u2019t know that I will do. - amazing",
           "mastery_tag": "listening",
           "interaction_id": "U20_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 153:",
           "options": [
             {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar"
+            },
+            {
               "id": "o4",
-              "text": "Pen2360"
+              "text": "Book5815"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U20_I6"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 153 - Environment: Nature:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "The correct thing!",
+              "back": "I haven\u2019t got a car.!"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U20_I7"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 153 (Environment: Nature):",
+          "instruction_en": "Draft an email regarding Environment: Nature. [Ref: 74]",
+          "mastery_tag": "writing",
+          "interaction_id": "U20_I8"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 153 (Environment: Nature):",
+          "stimulus_en": "Improve Environment: Nature. (334)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U20_I9"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 134 (Environment: Nature):",
+          "stimulus": "Matching set 9387",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Cu\u00e1nto cuesta?...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Un ejemplo de to seguido de infinitivo es.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "The correct thing - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n!."
+            },
+            {
+              "id": "m0",
+              "text": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost..."
+            },
+            {
+              "id": "m2",
+              "text": "on the Internet - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U20_I10"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 134 (Environment: Nature):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "\u00bfDe d\u00f3nde eres? (today)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U20_I11"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 134 (Environment: Nature):",
+          "main_text": "In Environment: Nature (7378), The chef [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "sent"
+                },
+                {
+                  "id": "o2",
+                  "text": "send"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "built"
+                },
+                {
+                  "id": "o2",
+                  "text": "build"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U20_I12"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 134 para Environment: Nature:",
+          "stimulus_en": "What\u2019s the most difficult language you\u2019ve ever studied - interesting",
+          "stimulus_es": "Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca? - interesting",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option A"
+            },
+            {
+              "id": "o3",
+              "text": "Other 9687"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U20_I13"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 134 sobre Environment: Nature:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "alcohol"
+            },
+            {
+              "id": "w8",
+              "text": "car"
+            },
+            {
+              "id": "w9",
+              "text": "(today)"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "never"
+            },
+            {
+              "id": "w2",
+              "text": "drink"
+            },
+            {
+              "id": "w5",
+              "text": "I"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "if"
+            },
+            {
+              "id": "w6",
+              "text": "drive"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U20_I14"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 154 (Environment: Nature):",
+          "stimulus_en": "Why didn\u2019t you tell me. (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U20_I15"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 154 (Environment: Nature)",
+          "stimulus_en": "la pel\u00edcula, entonces SUBJECT = THE FILM - interesting",
+          "stimulus_es": "Ref: Qu\u00e9 es lo que empieza? - interesting",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U20_I16"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 154 (Environment: Nature):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "En qu\u00e9 trabaja Juan? - interesting",
+              "right": "What does Juan do - interesting"
+            },
+            {
+              "id": "p1",
+              "left": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo (now)",
+              "right": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. (now)"
+            },
+            {
+              "id": "p2",
+              "left": "dictionary / often / use / The / the / students (now)",
+              "right": "the students often use the dictionary (now)"
+            },
+            {
+              "id": "p3",
+              "left": "Cu\u00e1l es el edificio m\u00e1s alto que has visitado nunca?!",
+              "right": "What\u2019s the highest building you\u2019ve ever visited!"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U20_I17"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 154 (Environment: Nature):",
+          "tts_en": "rubber) Goma de borrar (now)",
+          "correct_answer": "rubber) Goma de borrar (now)",
+          "mastery_tag": "listening",
+          "interaction_id": "U20_I18"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 154:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Chair"
             },
             {
               "id": "o2",
@@ -94,300 +396,8 @@
               "text": "Table"
             },
             {
-              "id": "o1",
-              "text": "Chair"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U20_I6"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 153 - Environment: Nature:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Uncountable nouns - 935",
-              "back": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. - 935"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U20_I7"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 153 (Environment: Nature):",
-          "instruction_en": "List 3 facts about Environment: Nature. [Ref: 60]",
-          "mastery_tag": "writing",
-          "interaction_id": "U20_I8"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 153 (Environment: Nature):",
-          "stimulus_en": "Where is Environment: Nature? (184)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U20_I9"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
-          "stimulus": "Matching set 616",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question ten\u00edamos la inversi\u00f3n entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet?\u00a0), en la indirect question, ya no hay inversi\u00f3n, sino que tenemos question word + subject + verb. Si te das cuenta, la inversi\u00f3n la tenemos en \u2018Can you tell me\u2026\u2019. Como ya tenemos una inversi\u00f3n al comenzar la pregunta, ya no podemos hacer otra inversi\u00f3n. Recuerda (today)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Puedo abrir la ventana, por favor?!",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "I / fish / often / hours / for / catching / anything / without - 802",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n! (today)"
-            },
-            {
-              "id": "m1",
-              "text": "may I open the window, please!"
-            },
-            {
-              "id": "m2",
-              "text": "I often fish for hours without catching anything - 802"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U20_I10"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Nature):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "in summer, in winter. - interesting"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "men, women, people, etc...."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U20_I11"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Nature):",
-          "main_text": "In Environment: Nature (1966), The police officer [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "prepared"
-                },
-                {
-                  "id": "o2",
-                  "text": "prepare"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "drove"
-                },
-                {
-                  "id": "o2",
-                  "text": "drive"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U20_I12"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Nature:",
-          "stimulus_en": "film) Pel\u00edcula - interesting",
-          "stimulus_es": "Movie (Br Eng - interesting",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 146"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U20_I13"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Nature:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "to"
-            },
-            {
-              "id": "w4",
-              "text": "you\u2019ve"
-            },
-            {
-              "id": "w6",
-              "text": "been"
-            },
-            {
-              "id": "w5",
-              "text": "ever"
-            },
-            {
-              "id": "w3",
-              "text": "country"
-            },
-            {
-              "id": "w0",
-              "text": "What\u2019s"
-            },
-            {
-              "id": "w2",
-              "text": "coldest"
-            },
-            {
-              "id": "w1",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U20_I14"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Nature):",
-          "stimulus_en": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO.. (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U20_I15"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Nature)",
-          "stimulus_en": "What\u2019s the most difficult language you\u2019ve ever studied (today)",
-          "stimulus_es": "Ref: Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca? (today)",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U20_I16"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "French fries (Br Eng - amazing",
-              "right": "chips) Patatas fritas - amazing"
-            },
-            {
-              "id": "p1",
-              "left": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio - interesting",
-              "right": "\u00bfDe d\u00f3nde eres? - interesting"
-            },
-            {
-              "id": "p2",
-              "left": "D\u00f3nde te lo dijo? - interesting",
-              "right": "Where did he/she tell you - interesting"
-            },
-            {
-              "id": "p3",
-              "left": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda?.",
-              "right": "How old is Mar\u00eda."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U20_I17"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Nature):",
-          "tts_en": "I haven\u2019t a car. (today)",
-          "correct_answer": "I haven\u2019t a car. (today)",
-          "mastery_tag": "listening",
-          "interaction_id": "U20_I18"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
               "id": "o4",
-              "text": "Hot8561"
-            },
-            {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
-              "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o2",
-              "text": "Star"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
+              "text": "Pen2221"
             }
           ],
           "correct_answer": "o4",
@@ -400,8 +410,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Common mistake (today)",
-              "back": "I hadn\u2019t got a mobile. (today)"
+              "front": "Hay muchos bares cerca de mi casa - interesting",
+              "back": "There are a lot of bars near my house. - interesting"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -410,50 +420,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 154 (Environment: Nature):",
-          "instruction_en": "Draft an email regarding Environment: Nature. [Ref: 84]",
+          "instruction_en": "List 3 facts about Environment: Nature. [Ref: 28]",
           "mastery_tag": "writing",
           "interaction_id": "U20_I21"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 154 (Environment: Nature):",
-          "stimulus_en": "Study Environment: Nature now. (655)",
+          "stimulus_en": "Look at Environment: Nature. (329)",
           "mastery_tag": "speaking",
           "interaction_id": "U20_I22"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
-          "stimulus": "Matching set 1247",
+          "prompt_es": "Une 135 (Environment: Nature):",
+          "stimulus": "Matching set 4114",
           "items": [
             {
               "id": "i0",
-              "text": "Est\u00e1 estudiando ella ingl\u00e9s? (now)",
+              "text": "\u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo - amazing",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cu\u00e1l es la playa m\u00e1s larga en la que has estado nunca?.",
+              "text": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca - 361",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "For example.",
+              "text": "Many, para countable, decimos!",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "What\u2019s the longest beach you\u2019ve ever been to."
-            },
-            {
               "id": "m0",
-              "text": "Is she studying English (now)"
+              "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos. - amazing"
             },
             {
               "id": "m2",
-              "text": "She drives carefully.."
+              "text": "I don\u2019t have many friends (friends is countable).!"
+            },
+            {
+              "id": "m1",
+              "text": "I hardly ever go to the cinema = casi nunca voy al cine. - 361"
             }
           ],
           "correct_answer": {
@@ -466,7 +476,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Nature):",
+          "prompt_es": "Clasifica 135 (Environment: Nature):",
           "categories": [
             {
               "id": "c1",
@@ -474,7 +484,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "have you ever played chess (today)"
+                  "text": "What time is it!"
                 }
               ]
             },
@@ -484,7 +494,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "I hardly ever go to the cinema = casi nunca voy al cine. (today)"
+                  "text": "Do you think that unemployment will go down this year..."
                 }
               ]
             }
@@ -494,19 +504,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Nature):",
-          "main_text": "In Environment: Nature (8326), She [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 135 (Environment: Nature):",
+          "main_text": "In Environment: Nature (7938), The baker [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "worked"
+                  "text": "wrote"
                 },
                 {
                   "id": "o2",
-                  "text": "work"
+                  "text": "write"
                 }
               ]
             },
@@ -515,11 +525,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "read"
+                  "text": "finished"
                 },
                 {
                   "id": "o2",
-                  "text": "read"
+                  "text": "finish"
                 }
               ]
             }
@@ -533,21 +543,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Nature:",
-          "stimulus_en": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo..",
-          "stimulus_es": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo.",
+          "prompt_es": "Elige 135 para Environment: Nature:",
+          "stimulus_en": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM...",
+          "stimulus_es": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba...",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 2636"
+              "id": "o2",
+              "text": "Option B"
             },
             {
               "id": "o1",
               "text": "Option A"
             },
             {
-              "id": "o2",
-              "text": "Option B"
+              "id": "o3",
+              "text": "Other 6041"
             }
           ],
           "correct_answer": "o1",
@@ -556,27 +566,47 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Nature:",
+          "prompt_es": "Ordena 135 sobre Environment: Nature:",
           "options": [
             {
-              "id": "w1",
-              "text": "o"
-            },
-            {
-              "id": "w3",
-              "text": "hace"
+              "id": "w9",
+              "text": "(now)"
             },
             {
               "id": "w4",
-              "text": "(today)"
+              "text": "there"
+            },
+            {
+              "id": "w1",
+              "text": "to"
             },
             {
               "id": "w0",
-              "text": "durante"
+              "text": "Next"
             },
             {
               "id": "w2",
-              "text": "desde"
+              "text": "my"
+            },
+            {
+              "id": "w8",
+              "text": "school"
+            },
+            {
+              "id": "w3",
+              "text": "house"
+            },
+            {
+              "id": "w7",
+              "text": "nursery"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "is"
             }
           ],
           "correct_answer": [
@@ -584,51 +614,56 @@
             "w1",
             "w2",
             "w3",
-            "w4"
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U20_I27"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Nature):",
-          "stimulus_en": "What\u2019s the most delicious food you\u2019ve ever tasted - interesting (___)",
+          "prompt_es": "Completa 155 (Environment: Nature):",
+          "stimulus_en": "la respuesta es ilimitada, puede ser cualquier cosa. - interesting (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U20_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Nature)",
-          "stimulus_en": "may come, might go..",
-          "stimulus_es": "Ref: As any modal verb, they are followed by an infinitive without \u2018to\u2019, for example.",
+          "prompt_es": "\u00bfCorrecto? 155 (Environment: Nature)",
+          "stimulus_en": "have you ever played chess!",
+          "stimulus_es": "Ref: Has jugado alguna vez al ajedrez?!",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U20_I29"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
+          "prompt_es": "Relaciona 155 (Environment: Nature):",
           "pairs": [
             {
               "id": "p0",
-              "left": "puedo abrir la ventana, por favor? (now)",
-              "right": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet (now)"
+              "left": "2. el primer elemento es un animal. Ejemplo - 990",
+              "right": "the bird\u2018s legs = las piernas del p\u00e1jaro. - 990"
             },
             {
               "id": "p1",
-              "left": "Crees que bajar\u00e1 el paro este a\u00f1o?!",
-              "right": "Do you think that unemployment will go down this year!"
+              "left": "For example.",
+              "right": "She drives carefully.."
             },
             {
               "id": "p2",
-              "left": "Has terminado ya el proyecto? (today)",
-              "right": "Have you finished the project yet (today)"
+              "left": "En espa\u00f1ol dir\u00edamos (today)",
+              "right": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest). (today)"
             },
             {
               "id": "p3",
-              "left": "Hay muchos bares cerca de mi casa.",
-              "right": "There are a lot of bars near my house.."
+              "left": "Cu\u00e1l es la playa m\u00e1s larga en la que has estado nunca? - 811",
+              "right": "What\u2019s the longest beach you\u2019ve ever been to - 811"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -636,35 +671,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Nature):",
-          "tts_en": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! - interesting",
-          "correct_answer": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! - interesting",
+          "prompt_es": "Dictado 155 (Environment: Nature):",
+          "tts_en": "on Monday, on Wednesday, etc....",
+          "correct_answer": "on Monday, on Wednesday, etc....",
           "mastery_tag": "listening",
           "interaction_id": "U20_I31"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 155:",
           "options": [
             {
-              "id": "o0",
-              "text": "Monday"
-            },
-            {
-              "id": "o1",
-              "text": "Tuesday"
+              "id": "o3",
+              "text": "Planet"
             },
             {
               "id": "o4",
-              "text": "June4602"
-            },
-            {
-              "id": "o3",
-              "text": "Friday"
+              "text": "Hot6307"
             },
             {
               "id": "o2",
-              "text": "Sunday"
+              "text": "Star"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
+            },
+            {
+              "id": "o1",
+              "text": "Moon"
             }
           ],
           "correct_answer": "o4",
@@ -677,8 +712,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Y en negativa...",
-              "back": "I don\u2019t have any friends who live near my house...."
+              "front": "C\u00f3mo se llama \u00e9l?...",
+              "back": "What\u2019s his name..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -687,50 +722,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 155 (Environment: Nature):",
-          "instruction_en": "Draft an email regarding Environment: Nature. [Ref: 22]",
+          "instruction_en": "Why is Environment: Nature important? [Ref: 86]",
           "mastery_tag": "writing",
           "interaction_id": "U20_I34"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 155 (Environment: Nature):",
-          "stimulus_en": "Where is Environment: Nature? (321)",
+          "stimulus_en": "Talk about Environment: Nature. (527)",
           "mastery_tag": "speaking",
           "interaction_id": "U20_I35"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
-          "stimulus": "Matching set 8587",
+          "prompt_es": "Une 136 (Environment: Nature):",
+          "stimulus": "Matching set 1905",
           "items": [
             {
               "id": "i0",
-              "text": "Cookie (Br Eng (now)",
+              "text": "\u2013 Fechas concretas - amazing",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "En qu\u00e9 trabaja Juan?.",
+              "text": "Has hablado alguna vez ingl\u00e9s por tel\u00e9fono? - 738",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son...",
+              "text": "2. La hamburguesa de Harry - 965",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "biscuit) Galleta (now)"
-            },
-            {
               "id": "m2",
-              "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar...."
+              "text": "Harry\u2019s burger - 965"
             },
             {
               "id": "m1",
-              "text": "What does Juan do."
+              "text": "have you ever spoken English on the phone - 738"
+            },
+            {
+              "id": "m0",
+              "text": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on. - amazing"
             }
           ],
           "correct_answer": {
@@ -743,7 +778,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Nature):",
+          "prompt_es": "Clasifica 136 (Environment: Nature):",
           "categories": [
             {
               "id": "c1",
@@ -751,7 +786,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "the boys always play football on Saturday afternoons - amazing"
+                  "text": "When did you help him/her - interesting"
                 }
               ]
             },
@@ -761,7 +796,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Spain\u2018s monuments are very nice. - interesting"
+                  "text": "may I open the window, please - interesting"
                 }
               ]
             }
@@ -771,8 +806,8 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Nature):",
-          "main_text": "In Environment: Nature (8823), The nurse [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 136 (Environment: Nature):",
+          "main_text": "In Environment: Nature (1060), Maria [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
@@ -792,11 +827,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "prepared"
+                  "text": "sent"
                 },
                 {
                   "id": "o2",
-                  "text": "prepare"
+                  "text": "send"
                 }
               ]
             }
@@ -810,14 +845,10 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Nature:",
-          "stimulus_en": "What\u2019s the highest building you\u2019ve ever visited...",
-          "stimulus_es": "Cu\u00e1l es el edificio m\u00e1s alto que has visitado nunca?...",
+          "prompt_es": "Elige 136 para Environment: Nature:",
+          "stimulus_en": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. (now)",
+          "stimulus_es": "Por ejemplo (now)",
           "options": [
-            {
-              "id": "o3",
-              "text": "Other 2405"
-            },
             {
               "id": "o1",
               "text": "Option A"
@@ -825,6 +856,10 @@
             {
               "id": "o2",
               "text": "Option B"
+            },
+            {
+              "id": "o3",
+              "text": "Other 7880"
             }
           ],
           "correct_answer": "o1",
@@ -833,43 +868,71 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Nature:",
+          "prompt_es": "Ordena 136 sobre Environment: Nature:",
           "options": [
             {
-              "id": "w2",
-              "text": "ever"
+              "id": "w5",
+              "text": "utilizar"
             },
             {
               "id": "w6",
-              "text": "the"
+              "text": "zero"
             },
             {
-              "id": "w3",
-              "text": "watch"
+              "id": "w13",
+              "text": "es"
             },
             {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "hardly"
-            },
-            {
-              "id": "w7",
-              "text": "evenings"
-            },
-            {
-              "id": "w4",
-              "text": "TV"
-            },
-            {
-              "id": "w8",
+              "id": "w15",
               "text": "interesting"
             },
             {
               "id": "w0",
-              "text": "I"
+              "text": "nought"
+            },
+            {
+              "id": "w9",
+              "text": "la"
+            },
+            {
+              "id": "w3",
+              "text": "se"
+            },
+            {
+              "id": "w4",
+              "text": "puede"
+            },
+            {
+              "id": "w11",
+              "text": "de"
+            },
+            {
+              "id": "w8",
+              "text": "importante"
+            },
+            {
+              "id": "w12",
+              "text": "nought"
+            },
+            {
+              "id": "w2",
+              "text": "tambi\u00e9n"
+            },
+            {
+              "id": "w1",
+              "text": "pero"
+            },
+            {
+              "id": "w7",
+              "text": "Muy"
+            },
+            {
+              "id": "w14",
+              "text": "/nooot/"
+            },
+            {
+              "id": "w10",
+              "text": "pronunciaci\u00f3n"
             }
           ],
           "correct_answer": [
@@ -881,51 +944,58 @@
             "w5",
             "w6",
             "w7",
-            "w8"
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13",
+            "w14",
+            "w15"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U20_I40"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Nature):",
-          "stimulus_en": "chemist) Farmacia (today) (___)",
+          "prompt_es": "Completa 156 (Environment: Nature):",
+          "stimulus_en": "What time do we have our exam - 267 (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U20_I41"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Nature)",
-          "stimulus_en": "What time do we have our exam (today)",
-          "stimulus_es": "Ref: A qu\u00e9 hora tenemos el examen? (today)",
+          "prompt_es": "\u00bfCorrecto? 156 (Environment: Nature)",
+          "stimulus_en": "Did anybody say my name (today)",
+          "stimulus_es": "Ref: Alguien dijo mi nombre? (today)",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U20_I42"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
+          "prompt_es": "Relaciona 156 (Environment: Nature):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Countable nouns - interesting",
-              "right": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc. - interesting"
+              "left": "Movie star (Br Eng!",
+              "right": "film star) Estrella de cine!"
             },
             {
               "id": "p1",
-              "left": "De qui\u00e9n son esos libros? (today)",
-              "right": "Whose books are those= or Whose are those books (today)"
+              "left": "6. it / rain in the summer / often / doesn\u2019t...",
+              "right": "it doesn\u2019t often rain in the summer..."
             },
             {
               "id": "p2",
-              "left": "Qu\u00e9 hora es? (now)",
-              "right": "What time is it (now)"
+              "left": "Hay guisantes en el frigo? (today)",
+              "right": "are there any peas in the fridge (today)"
             },
             {
               "id": "p3",
-              "left": "De qui\u00e9n es ese m\u00f3vil? (now)",
-              "right": "Whose mobile is that (now)"
+              "left": "Otro ejemplo!",
+              "right": "My partner is the most beautiful woman in the world!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -933,35 +1003,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Nature):",
-          "tts_en": "information, homework, work....",
-          "correct_answer": "information, homework, work....",
+          "prompt_es": "Dictado 156 (Environment: Nature):",
+          "tts_en": "durante o desde hace...",
+          "correct_answer": "durante o desde hace...",
           "mastery_tag": "listening",
           "interaction_id": "U20_I44"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 156:",
           "options": [
             {
-              "id": "o0",
-              "text": "pizza"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
               "id": "o2",
-              "text": "salad"
+              "text": "pear"
+            },
+            {
+              "id": "o0",
+              "text": "apple"
             },
             {
               "id": "o4",
-              "text": "rain3999"
+              "text": "bike9411"
+            },
+            {
+              "id": "o1",
+              "text": "banana"
+            },
+            {
+              "id": "o3",
+              "text": "mango"
             }
           ],
           "correct_answer": "o4",
@@ -974,8 +1044,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "This is another translation (today)",
-              "back": "igual hago algo\u2026 (but I\u2019m not sure\u2026). (today)"
+              "front": "TV / ever / hardly / I / in / watch / evenings / the...",
+              "back": "I hardly ever watch TV in the evenings..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -984,50 +1054,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 156 (Environment: Nature):",
-          "instruction_en": "Describe Environment: Nature in 5 words. [Ref: 86]",
+          "instruction_en": "Review Environment: Nature from last week. [Ref: 73]",
           "mastery_tag": "writing",
           "interaction_id": "U20_I47"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 156 (Environment: Nature):",
-          "stimulus_en": "Study Environment: Nature now. (548)",
+          "stimulus_en": "Focus on Environment: Nature. (953)",
           "mastery_tag": "speaking",
           "interaction_id": "U20_I48"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
-          "stimulus": "Matching set 3349",
+          "prompt_es": "Une 137 (Environment: Nature):",
+          "stimulus": "Matching set 1028",
           "items": [
             {
               "id": "i0",
-              "text": "\u00bfEst\u00e1s estudiando franc\u00e9s?!",
+              "text": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1 (now)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Common mistake - amazing",
+              "text": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n - 476",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "try / police / keep / The / order / always / to / the - amazing",
+              "text": "Empecemos analizando el siguiente ejemplo (today)",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "The police always try to keep the order - amazing"
-            },
-            {
               "id": "m1",
-              "text": "I don\u2019t know that I will do. - amazing"
+              "text": "Sometimes I have lunch in a restaurant. - 476"
             },
             {
               "id": "m0",
-              "text": "are you learning French?!"
+              "text": "Can I have your ID/ passport/ credit card?. (now)"
+            },
+            {
+              "id": "m2",
+              "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). (today)"
             }
           ],
           "correct_answer": {
@@ -1040,7 +1110,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Nature):",
+          "prompt_es": "Clasifica 137 (Environment: Nature):",
           "categories": [
             {
               "id": "c1",
@@ -1048,7 +1118,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. - interesting"
+                  "text": "would you like some coke?!"
                 }
               ]
             },
@@ -1058,7 +1128,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna...."
+                  "text": "bookshop) Librer\u00eda (today)"
                 }
               ]
             }
@@ -1068,19 +1138,281 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Nature):",
-          "main_text": "In Environment: Nature (2584), The police officer [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 137 (Environment: Nature):",
+          "main_text": "In Environment: Nature (398), The manager [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "drank"
+                  "text": "drove"
                 },
                 {
                   "id": "o2",
-                  "text": "drink"
+                  "text": "drive"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "read"
+                },
+                {
+                  "id": "o2",
+                  "text": "read"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U20_I51"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 137 para Environment: Nature:",
+          "stimulus_en": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. - amazing",
+          "stimulus_es": "Los adjetivos tienen tres formas - amazing",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o3",
+              "text": "Other 851"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U20_I52"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 137 sobre Environment: Nature:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "What\u2019s"
+            },
+            {
+              "id": "w1",
+              "text": "that"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U20_I53"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 157 (Environment: Nature):",
+          "stimulus_en": "I went to a state school.. (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U20_I54"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 157 (Environment: Nature)",
+          "stimulus_en": "liter) Litro.",
+          "stimulus_es": "Ref: Litre (Br Eng) (Am Eng.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U20_I55"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 157 (Environment: Nature):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Much, como se utiliza con uncountable, decimos (now)",
+              "right": "I haven\u2019t got much money (remember, money is uncountable). (now)"
+            },
+            {
+              "id": "p1",
+              "left": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales!",
+              "right": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio!"
+            },
+            {
+              "id": "p2",
+              "left": "This is another translation - interesting",
+              "right": "igual hago algo\u2026 (but I\u2019m not sure\u2026). - interesting"
+            },
+            {
+              "id": "p3",
+              "left": "Cuando \u00abnada\u00bb, \u00abnadie\u00bb o \u00abning\u00fan sitio\u00bb NO va en primera posici\u00f3n (no es el sujeto, sino el objeto), podemos utilizar \u00abany\u00bb o \u00abno\u00bb, dependiendo de c\u00f3mo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos \u00abany\u00bb y si lo pongo sin negar (es positivo), entonces utilizamos \u00abno\u00bb. Esto es as\u00ed porque en ingl\u00e9s s\u00f3lo es posible poner una palabra negativa en una oraci\u00f3n, nunca dos, como sucede en espa\u00f1ol. Yo es espa\u00f1ol puedo decir - 519",
+              "right": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos. - 519"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U20_I56"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 157 (Environment: Nature):",
+          "tts_en": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). - interesting",
+          "correct_answer": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). - interesting",
+          "mastery_tag": "listening",
+          "interaction_id": "U20_I57"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 157:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o4",
+              "text": "Book2174"
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U20_I58"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 157 - Environment: Nature:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "on + train/ bus/ plane/ bike/ motorbike.",
+              "back": "cuando hablamos de forma m\u00e1s espec\u00edfica.."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U20_I59"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 157 (Environment: Nature):",
+          "instruction_en": "Draft an email regarding Environment: Nature. [Ref: 90]",
+          "mastery_tag": "writing",
+          "interaction_id": "U20_I60"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 157 (Environment: Nature):",
+          "stimulus_en": "Study Environment: Nature now. (598)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U20_I61"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 138 (Environment: Nature):",
+          "stimulus": "Matching set 1958",
+          "items": [
+            {
+              "id": "i0",
+              "text": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir!",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "me / Paul / helps / sometimes / my / with / homework...",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Chips (Br Eng) (Am Eng - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework..."
+            },
+            {
+              "id": "m0",
+              "text": "I can to speak English.!"
+            },
+            {
+              "id": "m2",
+              "text": "biscuit) Patatas fritas - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U20_I62"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 138 (Environment: Nature):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "What\u2019s the saddest song you\u2019ve ever listened to (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "lift) Ascensor."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U20_I63"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 138 (Environment: Nature):",
+          "main_text": "In Environment: Nature (7087), Our neighbors [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "received"
+                },
+                {
+                  "id": "o2",
+                  "text": "receive"
                 }
               ]
             },
@@ -1103,327 +1435,25 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U20_I51"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Nature:",
-          "stimulus_en": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc.!",
-          "stimulus_es": "El adjetivo dice una cualidad de algo, por ejemplo!",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o3",
-              "text": "Other 8783"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U20_I52"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Nature:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "there"
-            },
-            {
-              "id": "w9",
-              "text": "amazing"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "Next"
-            },
-            {
-              "id": "w6",
-              "text": "any"
-            },
-            {
-              "id": "w5",
-              "text": "aren\u2019t"
-            },
-            {
-              "id": "w3",
-              "text": "school"
-            },
-            {
-              "id": "w7",
-              "text": "apartment"
-            },
-            {
-              "id": "w8",
-              "text": "blocks"
-            },
-            {
-              "id": "w2",
-              "text": "my"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U20_I53"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Nature):",
-          "stimulus_en": "how often do you have Italian classes? = I have every Tuesday.! (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U20_I54"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Nature)",
-          "stimulus_en": "Who\u2019s the shyest person you\u2019ve ever met (today)",
-          "stimulus_es": "Ref: Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca? (today)",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U20_I55"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Qu\u00e9 tiempo verbal utilizamos?!",
-              "right": "present continuous, porque lo est\u00e1s buscando en este momento.!"
-            },
-            {
-              "id": "p1",
-              "left": "6. it / rain in the summer / often / doesn\u2019t.",
-              "right": "it doesn\u2019t often rain in the summer."
-            },
-            {
-              "id": "p2",
-              "left": "my / My / spoils / neighbour / holidays / always - interesting",
-              "right": "My neighbour always spoils my holidays - interesting"
-            },
-            {
-              "id": "p3",
-              "left": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n (now)",
-              "right": "Sometimes I have lunch in a restaurant. (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U20_I56"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Nature):",
-          "tts_en": "Sally often borrows money from her friends (today)",
-          "correct_answer": "Sally often borrows money from her friends (today)",
-          "mastery_tag": "listening",
-          "interaction_id": "U20_I57"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "run1801"
-            },
-            {
-              "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o1",
-              "text": "red"
-            },
-            {
-              "id": "o3",
-              "text": "pink"
-            },
-            {
-              "id": "o0",
-              "text": "blue"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U20_I58"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 157 - Environment: Nature:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Cuando \u00abnada\u00bb, \u00abnadie\u00bb o \u00abning\u00fan sitio\u00bb NO va en primera posici\u00f3n (no es el sujeto, sino el objeto), podemos utilizar \u00abany\u00bb o \u00abno\u00bb, dependiendo de c\u00f3mo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos \u00abany\u00bb y si lo pongo sin negar (es positivo), entonces utilizamos \u00abno\u00bb. Esto es as\u00ed porque en ingl\u00e9s s\u00f3lo es posible poner una palabra negativa en una oraci\u00f3n, nunca dos, como sucede en espa\u00f1ol. Yo es espa\u00f1ol puedo decir (today)",
-              "back": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos. (today)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U20_I59"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 157 (Environment: Nature):",
-          "instruction_en": "Describe Environment: Nature in 5 words. [Ref: 84]",
-          "mastery_tag": "writing",
-          "interaction_id": "U20_I60"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 157 (Environment: Nature):",
-          "stimulus_en": "I like Environment: Nature. (669)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U20_I61"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
-          "stimulus": "Matching set 2121",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Movie theater (Br Eng (now)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Otro ejemplo - amazing",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos - amazing",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "cinema) Cine (now)"
-            },
-            {
-              "id": "m2",
-              "text": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle. - amazing"
-            },
-            {
-              "id": "m1",
-              "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. - amazing"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U20_I62"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Nature):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "What\u2019s the saddest song you\u2019ve ever listened to!"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "Were you having a beer when you saw Peter (now)"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U20_I63"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Nature):",
-          "main_text": "In Environment: Nature (6156), The artist [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "watched"
-                },
-                {
-                  "id": "o2",
-                  "text": "watch"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "met"
-                },
-                {
-                  "id": "o2",
-                  "text": "meet"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
           "interaction_id": "U20_I64"
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Nature:",
-          "stimulus_en": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb..",
-          "stimulus_es": "Has visto a alguien?.",
+          "prompt_es": "Elige 138 para Environment: Nature:",
+          "stimulus_en": "My children\u2019s toys!",
+          "stimulus_es": "6. Los juguetes de mis hijos!",
           "options": [
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 8322"
-            },
             {
               "id": "o2",
               "text": "Option B"
+            },
+            {
+              "id": "o3",
+              "text": "Other 118"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
             }
           ],
           "correct_answer": "o1",
@@ -1432,64 +1462,74 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Nature:",
+          "prompt_es": "Ordena 138 sobre Environment: Nature:",
           "options": [
             {
               "id": "w0",
-              "text": "liter)"
+              "text": "Does"
+            },
+            {
+              "id": "w3",
+              "text": "work"
+            },
+            {
+              "id": "w2",
+              "text": "computer"
             },
             {
               "id": "w1",
-              "text": "Litro"
+              "text": "that"
             }
           ],
           "correct_answer": [
             "w0",
-            "w1"
+            "w1",
+            "w2",
+            "w3"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U20_I66"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Nature):",
-          "stimulus_en": "Paul\u2019s birthday is on 8th May. (___)",
+          "prompt_es": "Completa 158 (Environment: Nature):",
+          "stimulus_en": "biscuit) Galleta (now) (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U20_I67"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Nature)",
-          "stimulus_en": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. (now)",
-          "stimulus_es": "Ref: Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo (now)",
+          "prompt_es": "\u00bfCorrecto? 158 (Environment: Nature)",
+          "stimulus_en": "have you seen my keys anywhere (today)",
+          "stimulus_es": "Ref: Has visto mis llaves en alg\u00fan sitio? (today)",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U20_I68"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
+          "prompt_es": "Relaciona 158 (Environment: Nature):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo (today)",
-              "right": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado. (today)"
+              "left": "see / usually / Jennifer / out / goes / a / to / concert!",
+              "right": "Jennifer usually goes out to see a concert!"
             },
             {
               "id": "p1",
-              "left": "Metre (Br Eng) (Am Eng...",
-              "right": "meter) Metro..."
+              "left": "The correct thing...",
+              "right": "information, homework, work...."
             },
             {
               "id": "p2",
-              "left": "Empecemos analizando el siguiente ejemplo...",
-              "right": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE)...."
+              "left": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca?!",
+              "right": "What\u2019s the hottest place you\u2019ve ever been to!"
             },
             {
               "id": "p3",
-              "left": "A lot of, countable y uncountable - interesting",
-              "right": "I have a lot of money and I have a lot of friends. - interesting"
+              "left": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos (now)",
+              "right": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle. (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1497,35 +1537,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Nature):",
-          "tts_en": "Harry\u2019s burger (now)",
-          "correct_answer": "Harry\u2019s burger (now)",
+          "prompt_es": "Dictado 158 (Environment: Nature):",
+          "tts_en": "The girls\u2019 ball - interesting",
+          "correct_answer": "The girls\u2019 ball - interesting",
           "mastery_tag": "listening",
           "interaction_id": "U20_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 158:",
           "options": [
             {
-              "id": "o3",
-              "text": "Planet"
+              "id": "o1",
+              "text": "Tokyo"
             },
             {
               "id": "o0",
-              "text": "Sun"
+              "text": "London"
             },
             {
               "id": "o2",
-              "text": "Star"
+              "text": "Berlin"
             },
             {
               "id": "o4",
-              "text": "Hot8125"
+              "text": "Slow5264"
             },
             {
-              "id": "o1",
-              "text": "Moon"
+              "id": "o3",
+              "text": "Paris"
             }
           ],
           "correct_answer": "o4",
@@ -1538,8 +1578,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Has estudiado alguna vez un idioma extranjero diferente al ingl\u00e9s?!",
-              "back": "have you ever studied a foreign laguage apart from English!"
+              "front": "Countable nouns...",
+              "back": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1548,50 +1588,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 158 (Environment: Nature):",
-          "instruction_en": "Compare Environment: Nature with another topic. [Ref: 60]",
+          "instruction_en": "A small story about Environment: Nature. [Ref: 53]",
           "mastery_tag": "writing",
           "interaction_id": "U20_I73"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 158 (Environment: Nature):",
-          "stimulus_en": "Talk about Environment: Nature. (180)",
+          "stimulus_en": "The Articles A/An/The is here. (503)",
           "mastery_tag": "speaking",
           "interaction_id": "U20_I74"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
-          "stimulus": "Matching set 9496",
+          "prompt_es": "Une 139 (Environment: Nature):",
+          "stimulus": "Matching set 2378",
           "items": [
             {
               "id": "i0",
-              "text": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? (now)",
+              "text": "Verbos irregulares (now)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo - amazing",
+              "text": "Cu\u00e1l es la comida m\u00e1s buena que has probado nunca? (today)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "6. Los juguetes de mis hijos - interesting",
+              "text": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca?!",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. - amazing"
-            },
-            {
-              "id": "m2",
-              "text": "My children\u2019s toys - interesting"
+              "text": "What\u2019s the most delicious food you\u2019ve ever tasted (today)"
             },
             {
               "id": "m0",
-              "text": "What\u2019s the happiest day you\u2019ve ever had (now)"
+              "text": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna. (now)"
+            },
+            {
+              "id": "m2",
+              "text": "What\u2019s the happiest day you\u2019ve ever had!"
             }
           ],
           "correct_answer": {
@@ -1604,7 +1644,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Nature):",
+          "prompt_es": "Clasifica 139 (Environment: Nature):",
           "categories": [
             {
               "id": "c1",
@@ -1612,7 +1652,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "do you have any brothers or sisters (today)"
+                  "text": "in summer, in winter.."
                 }
               ]
             },
@@ -1622,7 +1662,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. (now)"
+                  "text": "Spain\u2018s monuments are very nice.."
                 }
               ]
             }
@@ -1632,19 +1672,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Nature):",
-          "main_text": "In Environment: Nature (2605), The coach [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 139 (Environment: Nature):",
+          "main_text": "In Environment: Nature (9652), The scientist [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "sold"
+                  "text": "met"
                 },
                 {
                   "id": "o2",
-                  "text": "sell"
+                  "text": "meet"
                 }
               ]
             },
@@ -1653,11 +1693,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "cooked"
+                  "text": "studied"
                 },
                 {
                   "id": "o2",
-                  "text": "cook"
+                  "text": "study"
                 }
               ]
             }
@@ -1671,9 +1711,9 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Nature:",
-          "stimulus_en": "What\u2019s the hottest place you\u2019ve ever been to - 850",
-          "stimulus_es": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca? - 850",
+          "prompt_es": "Elige 139 para Environment: Nature:",
+          "stimulus_en": "Where did he/she tell you!",
+          "stimulus_es": "D\u00f3nde te lo dijo?!",
           "options": [
             {
               "id": "o1",
@@ -1685,7 +1725,7 @@
             },
             {
               "id": "o3",
-              "text": "Other 7015"
+              "text": "Other 9308"
             }
           ],
           "correct_answer": "o1",
@@ -1694,87 +1734,35 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Nature:",
+          "prompt_es": "Ordena 139 sobre Environment: Nature:",
           "options": [
             {
-              "id": "w14",
-              "text": "pass"
-            },
-            {
-              "id": "w9",
-              "text": "day"
-            },
-            {
-              "id": "w19",
-              "text": "939"
-            },
-            {
-              "id": "w15",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "part"
-            },
-            {
-              "id": "w17",
-              "text": "on"
-            },
-            {
-              "id": "w7",
-              "text": "of"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "Parrot"
-            },
-            {
-              "id": "w0",
-              "text": "car"
-            },
-            {
-              "id": "w13",
-              "text": "\u2022You"
-            },
-            {
-              "id": "w18",
-              "text": "the"
-            },
-            {
-              "id": "w10",
-              "text": "Partner"
-            },
-            {
               "id": "w4",
-              "text": "\u2022The"
-            },
-            {
-              "id": "w12",
-              "text": "Pass"
-            },
-            {
-              "id": "w11",
-              "text": "Party"
-            },
-            {
-              "id": "w16",
-              "text": "station"
-            },
-            {
-              "id": "w5",
-              "text": "best"
+              "text": "supermarket"
             },
             {
               "id": "w1",
-              "text": "park)"
+              "text": "time"
             },
             {
               "id": "w3",
-              "text": "Part"
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w5",
+              "text": "open"
+            },
+            {
+              "id": "w2",
+              "text": "does"
+            },
+            {
+              "id": "w6",
+              "text": "interesting"
             }
           ],
           "correct_answer": [
@@ -1784,64 +1772,51 @@
             "w3",
             "w4",
             "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15",
-            "w16",
-            "w17",
-            "w18",
-            "w19"
+            "w6"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U20_I79"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Nature):",
-          "stimulus_en": "What time does the train leave. (___)",
+          "prompt_es": "Completa 159 (Environment: Nature):",
+          "stimulus_en": "Indirect questions en ingl\u00e9s. (today) (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U20_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Nature)",
-          "stimulus_en": "do you have any shoes for the wedding.",
-          "stimulus_es": "Ref: Tienes zapatos para la boda?.",
+          "prompt_es": "\u00bfCorrecto? 159 (Environment: Nature)",
+          "stimulus_en": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is. (now)",
+          "stimulus_es": "Ref: La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo (now)",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U20_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
+          "prompt_es": "Relaciona 159 (Environment: Nature):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The correct thing (today)",
-              "right": "I haven\u2019t got a car. (today)"
+              "left": "8. \u00a0usually / my father / goes to work by bus - 161",
+              "right": "my father usually goes to work by bus - 161"
             },
             {
               "id": "p1",
-              "left": "En qu\u00e9 trabaja Juan? - interesting",
-              "right": "What does Juan do - interesting"
+              "left": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca?!",
+              "right": "What\u2019s the funniest joke you\u2019ve ever been told!"
             },
             {
               "id": "p2",
-              "left": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo - amazing",
-              "right": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. - amazing"
+              "left": "Tienes coche?!",
+              "right": "do you have a car!"
             },
             {
               "id": "p3",
-              "left": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect (now)",
-              "right": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil. (now)"
+              "left": "Movie (Br Eng - amazing",
+              "right": "film) Pel\u00edcula - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1849,35 +1824,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Nature):",
-          "tts_en": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. - 873",
-          "correct_answer": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. - 873",
+          "prompt_es": "Dictado 159 (Environment: Nature):",
+          "tts_en": "Peter\u2019s sisters!",
+          "correct_answer": "Peter\u2019s sisters!",
           "mastery_tag": "listening",
           "interaction_id": "U20_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 159:",
           "options": [
             {
               "id": "o3",
-              "text": "Friday"
-            },
-            {
-              "id": "o4",
-              "text": "June580"
-            },
-            {
-              "id": "o2",
-              "text": "Sunday"
-            },
-            {
-              "id": "o0",
-              "text": "Monday"
+              "text": "pink"
             },
             {
               "id": "o1",
-              "text": "Tuesday"
+              "text": "red"
+            },
+            {
+              "id": "o4",
+              "text": "run6478"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
+            },
+            {
+              "id": "o2",
+              "text": "green"
             }
           ],
           "correct_answer": "o4",
@@ -1890,8 +1865,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo!",
-              "back": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo.!"
+              "front": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un n\u00famero delante y detr\u00e1s un sustantivo, entonces no ponemos la -s de plural, por ejemplo...",
+              "back": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1900,50 +1875,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 159 (Environment: Nature):",
-          "instruction_en": "Compare Environment: Nature with another topic. [Ref: 26]",
+          "instruction_en": "Compare Environment: Nature with another topic. [Ref: 93]",
           "mastery_tag": "writing",
           "interaction_id": "U20_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 159 (Environment: Nature):",
-          "stimulus_en": "Where is Environment: Nature? (905)",
+          "stimulus_en": "Repeat Environment: Nature. (490)",
           "mastery_tag": "speaking",
           "interaction_id": "U20_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
-          "stimulus": "Matching set 6302",
+          "prompt_es": "Une 140 (Environment: Nature):",
+          "stimulus": "Matching set 5650",
           "items": [
             {
               "id": "i0",
-              "text": "El marido de mi prima es alem\u00e1n y su madre irlandesa - amazing",
+              "text": "Mi cumplea\u00f1os es en febrero.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca? - 193",
+              "text": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo (today)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir!",
+              "text": "7. read books slowly / I / always - interesting",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "my cousin\u2019s husband is German and his mother Irish. - amazing"
+              "text": "my birthday is in February.."
             },
             {
               "id": "m2",
-              "text": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n.!"
+              "text": "I always read books slowly - interesting"
             },
             {
               "id": "m1",
-              "text": "What\u2019s the most difficult language you\u2019ve ever studied - 193"
+              "text": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo. (today)"
             }
           ],
           "correct_answer": {
@@ -1956,7 +1931,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Environment: Nature):",
+          "prompt_es": "Clasifica 140 (Environment: Nature):",
           "categories": [
             {
               "id": "c1",
@@ -1964,7 +1939,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I often go to bed before 11."
+                  "text": "Whose mobile is that."
                 }
               ]
             },
@@ -1974,7 +1949,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n)."
+                  "text": "preguntas en ingl\u00e9s."
                 }
               ]
             }
@@ -1984,19 +1959,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Environment: Nature):",
-          "main_text": "In Environment: Nature (107), A colleague [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 140 (Environment: Nature):",
+          "main_text": "In Environment: Nature (9992), The nurse [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "learned"
+                  "text": "ate"
                 },
                 {
                   "id": "o2",
-                  "text": "learn"
+                  "text": "eat"
                 }
               ]
             },
@@ -2005,11 +1980,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "visited"
+                  "text": "bought"
                 },
                 {
                   "id": "o2",
-                  "text": "visit"
+                  "text": "buy"
                 }
               ]
             }
@@ -2023,21 +1998,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Environment: Nature:",
-          "stimulus_en": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele. - 449",
-          "stimulus_es": "Common mistake - 449",
+          "prompt_es": "Elige 140 para Environment: Nature:",
+          "stimulus_en": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019..",
+          "stimulus_es": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto.",
           "options": [
             {
+              "id": "o1",
+              "text": "Option A"
+            },
+            {
               "id": "o3",
-              "text": "Other 4287"
+              "text": "Other 1148"
             },
             {
               "id": "o2",
               "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
             }
           ],
           "correct_answer": "o1",
@@ -2046,79 +2021,67 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Environment: Nature:",
+          "prompt_es": "Ordena 140 sobre Environment: Nature:",
           "options": [
             {
-              "id": "w4",
-              "text": "es"
-            },
-            {
-              "id": "w14",
-              "text": "por"
-            },
-            {
-              "id": "w11",
-              "text": "refiere?"
-            },
-            {
-              "id": "w3",
-              "text": "\u00bf\u00bbGuapo\u00bb"
-            },
-            {
-              "id": "w1",
-              "text": "es"
-            },
-            {
-              "id": "w8",
-              "text": "\u00bfA"
-            },
-            {
-              "id": "w16",
-              "text": "ADJETIVO"
-            },
-            {
-              "id": "w0",
-              "text": "\u00c9l"
-            },
-            {
-              "id": "w9",
-              "text": "qui\u00e9n"
-            },
-            {
-              "id": "w10",
-              "text": "se"
-            },
-            {
-              "id": "w6",
-              "text": "o"
-            },
-            {
-              "id": "w15",
-              "text": "tanto"
-            },
-            {
-              "id": "w13",
-              "text": "\u00e9l"
-            },
-            {
               "id": "w5",
-              "text": "adjetivo"
-            },
-            {
-              "id": "w12",
-              "text": "A"
+              "text": "afternoon"
             },
             {
               "id": "w2",
-              "text": "guapo"
+              "text": "morning"
+            },
+            {
+              "id": "w11",
+              "text": "night"
             },
             {
               "id": "w7",
-              "text": "adverbio?"
+              "text": "the"
             },
             {
-              "id": "w17",
-              "text": "413"
+              "id": "w10",
+              "text": "at"
+            },
+            {
+              "id": "w8",
+              "text": "evening"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w9",
+              "text": "pero"
+            },
+            {
+              "id": "w13",
+              "text": "una"
+            },
+            {
+              "id": "w0",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w14",
+              "text": "excepci\u00f3n)"
+            },
+            {
+              "id": "w12",
+              "text": "(es"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "in"
             }
           ],
           "correct_answer": [
@@ -2136,54 +2099,51 @@
             "w11",
             "w12",
             "w13",
-            "w14",
-            "w15",
-            "w16",
-            "w17"
+            "w14"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U20_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Environment: Nature):",
-          "stimulus_en": "My friend has a lot of money. - 535 (___)",
+          "prompt_es": "Completa 160 (Environment: Nature):",
+          "stimulus_en": "chips) Patatas fritas - interesting (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U20_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Environment: Nature)",
-          "stimulus_en": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM.",
-          "stimulus_es": "Ref: \u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba.",
+          "prompt_es": "\u00bfCorrecto? 160 (Environment: Nature)",
+          "stimulus_en": "What time does the train leave (today)",
+          "stimulus_es": "Ref: A qu\u00e9 hora sale el tren? (today)",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U20_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Environment: Nature):",
+          "prompt_es": "Relaciona 160 (Environment: Nature):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Tyre (Am Eng.",
-              "right": "tire) Neum\u00e1tico."
+              "left": "El adjetivo dice una cualidad de algo, por ejemplo (now)",
+              "right": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. (now)"
             },
             {
               "id": "p1",
-              "left": "Los adjetivos tienen tres formas...",
-              "right": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo...."
+              "left": "on + train/ bus/ plane/ bike/ motorbike (today)",
+              "right": "cuando hablamos de forma m\u00e1s espec\u00edfica. (today)"
             },
             {
               "id": "p2",
-              "left": "Cu\u00e1nto cuesta? - interesting",
-              "right": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost - interesting"
+              "left": "\u2013 Con partes del d\u00eda (now)",
+              "right": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n) (now)"
             },
             {
               "id": "p3",
-              "left": "Bookstore (Br Eng - 540",
-              "right": "bookshop) Librer\u00eda - 540"
+              "left": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1.",
+              "right": "Can I have your ID/ passport/ credit card?.."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2191,35 +2151,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Environment: Nature):",
-          "tts_en": "film star) Estrella de cine.",
-          "correct_answer": "film star) Estrella de cine.",
+          "prompt_es": "Dictado 160 (Environment: Nature):",
+          "tts_en": "What\u2019s the most difficult language you\u2019ve ever studied!",
+          "correct_answer": "What\u2019s the most difficult language you\u2019ve ever studied!",
           "mastery_tag": "listening",
           "interaction_id": "U20_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 160:",
           "options": [
             {
-              "id": "o4",
-              "text": "rain394"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
+              "id": "o1",
+              "text": "red"
             },
             {
               "id": "o2",
-              "text": "salad"
+              "text": "green"
+            },
+            {
+              "id": "o3",
+              "text": "pink"
+            },
+            {
+              "id": "o4",
+              "text": "run285"
             },
             {
               "id": "o0",
-              "text": "pizza"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
+              "text": "blue"
             }
           ],
           "correct_answer": "o4",
@@ -2232,8 +2192,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Si pasamos la oraci\u00f3n a interrogativa, quedar\u00eda as\u00ed (today)",
-              "back": "Do you have any friends who live near your house? = al ser interrogativa, any. (today)"
+              "front": "Alguna vez has probado la comida tailandesa?.",
+              "back": "Have you ever tried Thai food."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2242,14 +2202,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 160 (Environment: Nature):",
-          "instruction_en": "Your daily routine in Environment: Nature. [Ref: 39]",
+          "instruction_en": "Describe Environment: Nature in 5 words. [Ref: 92]",
           "mastery_tag": "writing",
           "interaction_id": "U20_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 160 (Environment: Nature):",
-          "stimulus_en": "Improve Environment: Nature. (130)",
+          "stimulus_en": "Focus on Environment: Nature. (357)",
           "mastery_tag": "speaking",
           "interaction_id": "U20_I100"
         }

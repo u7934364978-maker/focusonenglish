@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "stimulus_en": "A a newspaper is ___ than a a television - 636.",
+          "prompt_es": "Completa 361 (Daily Life: Morning Routine):",
+          "stimulus_en": "A a pizza is ___ than a a door..",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U46_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Morning Routine)",
-          "stimulus_en": "A a ticket is more useful than a a chair (today).",
-          "stimulus_es": "Ref: Un a ticket es m\u00e1s \u00fatil que un a chair (today).",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 361 (Daily Life: Morning Routine)",
+          "stimulus_en": "A a newspaper is useful than a a letter....",
+          "stimulus_es": "Ref: Un a newspaper es m\u00e1s \u00fatil que un a letter....",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U46_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
+          "prompt_es": "Relaciona 361 (Daily Life: Morning Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un a book es m\u00e1s \u00fatil que un a cat!.",
-              "right": "A a book is more useful than a a cat!."
+              "left": "Un a bag es m\u00e1s \u00fatil que un an email - 847.",
+              "right": "A a bag is more useful than a an email - 847."
             },
             {
               "id": "p1",
-              "left": "Un a pen es m\u00e1s \u00fatil que un a bike..",
-              "right": "A a pen is more useful than a a bike.."
+              "left": "Un a cat es m\u00e1s \u00fatil que un a laptop (now).",
+              "right": "A a cat is more useful than a a laptop (now)."
             },
             {
               "id": "p2",
-              "left": "Un a chair es m\u00e1s \u00fatil que un a clock (now).",
-              "right": "A a chair is more useful than a a clock (now)."
+              "left": "Un a television es m\u00e1s \u00fatil que un a computer (today).",
+              "right": "A a television is more useful than a a computer (today)."
             },
             {
               "id": "p3",
-              "left": "Un a phone es m\u00e1s \u00fatil que un a report (today).",
-              "right": "A a phone is more useful than a a report (today)."
+              "left": "Un a car es m\u00e1s \u00fatil que un coffee - 761.",
+              "right": "A a car is more useful than a coffee - 761."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,27 +67,27 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Morning Routine):",
-          "tts_en": "A a sandwich is more useful than a a printer - amazing.",
-          "correct_answer": "A a sandwich is more useful than a a printer - amazing.",
+          "prompt_es": "Dictado 361 (Daily Life: Morning Routine):",
+          "tts_en": "A a radio is more useful than a a clock - 829.",
+          "correct_answer": "A a radio is more useful than a a clock - 829.",
           "mastery_tag": "listening",
           "interaction_id": "U46_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 361:",
           "options": [
-            {
-              "id": "o2",
-              "text": "Star"
-            },
-            {
-              "id": "o4",
-              "text": "Hot7104"
-            },
             {
               "id": "o1",
               "text": "Moon"
+            },
+            {
+              "id": "o4",
+              "text": "Hot6910"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
             },
             {
               "id": "o3",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "A qu\u00e9 hora abre el supermercado? - amazing",
-              "back": "What time does the supermarket open - amazing"
+              "front": "2. Let\u2019s do the same with the first example - 654",
+              "back": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject! - 654"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 361 (Daily Life: Morning Routine):",
-          "instruction_en": "Review Daily Life: Morning Routine from last week. [Ref: 85]",
+          "instruction_en": "Write a note about Daily Life: Morning Routine. [Ref: 73]",
           "mastery_tag": "writing",
           "interaction_id": "U46_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 361 (Daily Life: Morning Routine):",
-          "stimulus_en": "I like Daily Life: Morning Routine. (485)",
+          "stimulus_en": "I like Daily Life: Morning Routine. (699)",
           "mastery_tag": "speaking",
           "interaction_id": "U46_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
-          "stimulus": "Matching set 8559",
+          "prompt_es": "Une 316 (Daily Life: Morning Routine):",
+          "stimulus": "Matching set 335",
           "items": [
             {
               "id": "i0",
-              "text": "Cu\u00e1nto cuesta? - amazing",
+              "text": "6. Los juguetes de mis hijos.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Escribir ingl\u00e9s correctamente...",
+              "text": "Qu\u00e9 hora es? - 532",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1...",
+              "text": "Movie theater (Br Eng (now)",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost - amazing"
-            },
-            {
-              "id": "m1",
-              "text": "uso de las may\u00fasculas..."
+              "text": "My children\u2019s toys."
             },
             {
               "id": "m2",
-              "text": "Can I have your ID/ passport/ credit card?...."
+              "text": "cinema) Cine (now)"
+            },
+            {
+              "id": "m1",
+              "text": "What time is it - 532"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Morning Routine):",
+          "prompt_es": "Clasifica 316 (Daily Life: Morning Routine):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Jonathan usually visits the dentist!"
+                  "text": "Sally often borrows money from her friends."
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "I went to a state school. - amazing"
+                  "text": "have you ever been to Canada!"
                 }
               ]
             }
@@ -202,316 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "main_text": "In Daily Life: Morning Routine (3264), She [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 316 (Daily Life: Morning Routine):",
+          "main_text": "In Daily Life: Morning Routine (6840), My brother [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "studied"
+                  "text": "called"
                 },
                 {
                   "id": "o2",
-                  "text": "study"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "created"
-                },
-                {
-                  "id": "o2",
-                  "text": "create"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U46_I12"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Morning Routine:",
-          "stimulus_en": "A a laptop is more useful than a a printer - interesting.",
-          "stimulus_es": "Un a laptop es m\u00e1s \u00fatil que un a printer - interesting.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "useful"
-            },
-            {
-              "id": "o3",
-              "text": "Other 2493"
-            },
-            {
-              "id": "o1",
-              "text": "more useful"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U46_I13"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Morning Routine:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "than"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w7",
-              "text": "tennis"
-            },
-            {
-              "id": "w4",
-              "text": "useful"
-            },
-            {
-              "id": "w0",
-              "text": "A"
-            },
-            {
-              "id": "w1",
-              "text": "music"
-            },
-            {
-              "id": "w3",
-              "text": "more"
-            },
-            {
-              "id": "w6",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "103"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U46_I14"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "stimulus_en": "A tennis is ___ than a a window....",
-          "correct_answer": "more useful",
-          "mastery_tag": "grammar",
-          "interaction_id": "U46_I15"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Morning Routine)",
-          "stimulus_en": "A a printer is useful than a a report (today).",
-          "stimulus_es": "Ref: Un a printer es m\u00e1s \u00fatil que un a report (today).",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U46_I16"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Un a gift es m\u00e1s \u00fatil que un music....",
-              "right": "A a gift is more useful than a music...."
-            },
-            {
-              "id": "p1",
-              "left": "Un a report es m\u00e1s \u00fatil que un a chair..",
-              "right": "A a report is more useful than a a chair.."
-            },
-            {
-              "id": "p2",
-              "left": "Un a pizza es m\u00e1s \u00fatil que un music (today).",
-              "right": "A a pizza is more useful than a music (today)."
-            },
-            {
-              "id": "p3",
-              "left": "Un a book es m\u00e1s \u00fatil que un a ticket - amazing.",
-              "right": "A a book is more useful than a a ticket - amazing."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U46_I17"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Morning Routine):",
-          "tts_en": "A a door is more useful than a a printer..",
-          "correct_answer": "A a door is more useful than a a printer..",
-          "mastery_tag": "listening",
-          "interaction_id": "U46_I18"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "train"
-            },
-            {
-              "id": "o4",
-              "text": "cat9371"
-            },
-            {
-              "id": "o1",
-              "text": "bus"
-            },
-            {
-              "id": "o3",
-              "text": "plane"
-            },
-            {
-              "id": "o0",
-              "text": "car"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U46_I19"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 362 - Daily Life: Morning Routine:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Cu\u00e1ndo la ayudaste?...",
-              "back": "When did you help him/her..."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U46_I20"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 362 (Daily Life: Morning Routine):",
-          "instruction_en": "Explain Comparatives using Daily Life: Morning Routine. [Ref: 67]",
-          "mastery_tag": "writing",
-          "interaction_id": "U46_I21"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 362 (Daily Life: Morning Routine):",
-          "stimulus_en": "Look at Daily Life: Morning Routine. (249)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U46_I22"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
-          "stimulus": "Matching set 4957",
-          "items": [
-            {
-              "id": "i0",
-              "text": "En un post anterior sobre verb patterns puedes revisar la diferencia entre allow y let - 310",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "A lot of, countable y uncountable (today)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "4. La pelota de las ni\u00f1as (today)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "I have a lot of money and I have a lot of friends. (today)"
-            },
-            {
-              "id": "m2",
-              "text": "The girls\u2019 ball (today)"
-            },
-            {
-              "id": "m0",
-              "text": "verb patters. - 310"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U46_I23"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Morning Routine):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "the bus usually arrives late - 783"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject!!"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U46_I24"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "main_text": "In Daily Life: Morning Routine (2485), The coach [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "finished"
-                },
-                {
-                  "id": "o2",
-                  "text": "finish"
+                  "text": "call"
                 }
               ]
             },
@@ -534,319 +237,17 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U46_I25"
+          "interaction_id": "U46_I12"
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Morning Routine:",
-          "stimulus_en": "A a book is more useful than a football..",
-          "stimulus_es": "Un a book es m\u00e1s \u00fatil que un football..",
-          "options": [
-            {
-              "id": "o2",
-              "text": "useful"
-            },
-            {
-              "id": "o3",
-              "text": "Other 751"
-            },
-            {
-              "id": "o1",
-              "text": "more useful"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U46_I26"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Morning Routine:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "more"
-            },
-            {
-              "id": "w0",
-              "text": "A"
-            },
-            {
-              "id": "w6",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "table"
-            },
-            {
-              "id": "w9",
-              "text": "interesting"
-            },
-            {
-              "id": "w4",
-              "text": "useful"
-            },
-            {
-              "id": "w1",
-              "text": "music"
-            },
-            {
-              "id": "w5",
-              "text": "than"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U46_I27"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "stimulus_en": "A a computer is ___ than a a sandwich - interesting.",
-          "correct_answer": "more useful",
-          "mastery_tag": "grammar",
-          "interaction_id": "U46_I28"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Morning Routine)",
-          "stimulus_en": "A a chair is useful than a a bag - amazing.",
-          "stimulus_es": "Ref: Un a chair es m\u00e1s \u00fatil que un a bag - amazing.",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U46_I29"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Un a newspaper es m\u00e1s \u00fatil que un a cat!.",
-              "right": "A a newspaper is more useful than a a cat!."
-            },
-            {
-              "id": "p1",
-              "left": "Un a television es m\u00e1s \u00fatil que un a house - amazing.",
-              "right": "A a television is more useful than a a house - amazing."
-            },
-            {
-              "id": "p2",
-              "left": "Un a laptop es m\u00e1s \u00fatil que un football (now).",
-              "right": "A a laptop is more useful than a football (now)."
-            },
-            {
-              "id": "p3",
-              "left": "Un a door es m\u00e1s \u00fatil que un a sandwich - 171.",
-              "right": "A a door is more useful than a a sandwich - 171."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U46_I30"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Morning Routine):",
-          "tts_en": "A a cat is more useful than a a gift!.",
-          "correct_answer": "A a cat is more useful than a a gift!.",
-          "mastery_tag": "listening",
-          "interaction_id": "U46_I31"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "run4058"
-            },
-            {
-              "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o3",
-              "text": "pink"
-            },
-            {
-              "id": "o1",
-              "text": "red"
-            },
-            {
-              "id": "o0",
-              "text": "blue"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U46_I32"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 363 - Daily Life: Morning Routine:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "A qu\u00e9 hora tenemos el examen?.",
-              "back": "What time do we have our exam."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U46_I33"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 363 (Daily Life: Morning Routine):",
-          "instruction_en": "Explain Comparatives using Daily Life: Morning Routine. [Ref: 58]",
-          "mastery_tag": "writing",
-          "interaction_id": "U46_I34"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 363 (Daily Life: Morning Routine):",
-          "stimulus_en": "Where is Daily Life: Morning Routine? (461)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U46_I35"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
-          "stimulus": "Matching set 4458",
-          "items": [
-            {
-              "id": "i0",
-              "text": "\u2013 Fechas concretas - amazing",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "2. el primer elemento es un animal. Ejemplo - 379",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "I / fish / often / hours / for / catching / anything / without...",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on. - amazing"
-            },
-            {
-              "id": "m1",
-              "text": "the bird\u2018s legs = las piernas del p\u00e1jaro. - 379"
-            },
-            {
-              "id": "m2",
-              "text": "I often fish for hours without catching anything..."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U46_I36"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Morning Routine):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "What will the weather be like tomorrow? It\u2019ll be sunny. - interesting"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "on the Internet..."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U46_I37"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "main_text": "In Daily Life: Morning Routine (1343), We [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "called"
-                },
-                {
-                  "id": "o2",
-                  "text": "call"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "received"
-                },
-                {
-                  "id": "o2",
-                  "text": "receive"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U46_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Morning Routine:",
-          "stimulus_en": "A an apple is more useful than a a table!.",
-          "stimulus_es": "Un an apple es m\u00e1s \u00fatil que un a table!.",
+          "prompt_es": "Elige 316 para Daily Life: Morning Routine:",
+          "stimulus_en": "A a radio is more useful than a a letter (now).",
+          "stimulus_es": "Un a radio es m\u00e1s \u00fatil que un a letter (now).",
           "options": [
             {
               "id": "o3",
-              "text": "Other 7875"
+              "text": "Other 4858"
             },
             {
               "id": "o2",
@@ -859,51 +260,51 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U46_I39"
+          "interaction_id": "U46_I13"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Morning Routine:",
+          "prompt_es": "Ordena 316 sobre Daily Life: Morning Routine:",
           "options": [
-            {
-              "id": "w4",
-              "text": "more"
-            },
-            {
-              "id": "w2",
-              "text": "house"
-            },
-            {
-              "id": "w9",
-              "text": "window"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "a"
-            },
             {
               "id": "w3",
               "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "than"
-            },
-            {
-              "id": "w8",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "A"
             },
             {
               "id": "w10",
-              "text": "interesting"
+              "text": "(today)"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w6",
+              "text": "than"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "more"
+            },
+            {
+              "id": "w2",
+              "text": "sandwich"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "computer"
+            },
+            {
+              "id": "w1",
+              "text": "a"
             },
             {
               "id": "w5",
@@ -924,150 +325,150 @@
             "w10"
           ],
           "mastery_tag": "syntax",
-          "interaction_id": "U46_I40"
+          "interaction_id": "U46_I14"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "stimulus_en": "A a newspaper is ___ than a a window (today).",
+          "prompt_es": "Completa 362 (Daily Life: Morning Routine):",
+          "stimulus_en": "A a television is ___ than a a window (today).",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
-          "interaction_id": "U46_I41"
+          "interaction_id": "U46_I15"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Morning Routine)",
-          "stimulus_en": "A a printer is useful than a a phone - 411.",
-          "stimulus_es": "Ref: Un a printer es m\u00e1s \u00fatil que un a phone - 411.",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 362 (Daily Life: Morning Routine)",
+          "stimulus_en": "A a book is more useful than a a pen..",
+          "stimulus_es": "Ref: Un a book es m\u00e1s \u00fatil que un a pen..",
+          "correct_answer": true,
           "mastery_tag": "grammar",
-          "interaction_id": "U46_I42"
+          "interaction_id": "U46_I16"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
+          "prompt_es": "Relaciona 362 (Daily Life: Morning Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un a movie es m\u00e1s \u00fatil que un English..",
-              "right": "A a movie is more useful than a English.."
+              "left": "Un a printer es m\u00e1s \u00fatil que un a laptop - amazing.",
+              "right": "A a printer is more useful than a a laptop - amazing."
             },
             {
               "id": "p1",
-              "left": "Un a table es m\u00e1s \u00fatil que un music - 800.",
-              "right": "A a table is more useful than a music - 800."
+              "left": "Un music es m\u00e1s \u00fatil que un a bag - 120.",
+              "right": "A music is more useful than a a bag - 120."
             },
             {
               "id": "p2",
-              "left": "Un a door es m\u00e1s \u00fatil que un a gift (today).",
-              "right": "A a door is more useful than a a gift (today)."
+              "left": "Un an apple es m\u00e1s \u00fatil que un a report - amazing.",
+              "right": "A an apple is more useful than a a report - amazing."
             },
             {
               "id": "p3",
-              "left": "Un a dog es m\u00e1s \u00fatil que un a laptop - interesting.",
-              "right": "A a dog is more useful than a a laptop - interesting."
+              "left": "Un a pizza es m\u00e1s \u00fatil que un a car (now).",
+              "right": "A a pizza is more useful than a a car (now)."
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U46_I43"
+          "interaction_id": "U46_I17"
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Morning Routine):",
-          "tts_en": "A an apple is more useful than a a computer (today).",
-          "correct_answer": "A an apple is more useful than a a computer (today).",
+          "prompt_es": "Dictado 362 (Daily Life: Morning Routine):",
+          "tts_en": "A a television is more useful than a football (today).",
+          "correct_answer": "A a television is more useful than a football (today).",
           "mastery_tag": "listening",
-          "interaction_id": "U46_I44"
+          "interaction_id": "U46_I18"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 362:",
           "options": [
             {
               "id": "o2",
-              "text": "Sofa"
+              "text": "Berlin"
             },
             {
               "id": "o0",
-              "text": "Table"
-            },
-            {
-              "id": "o3",
-              "text": "Bed"
+              "text": "London"
             },
             {
               "id": "o1",
-              "text": "Chair"
+              "text": "Tokyo"
             },
             {
               "id": "o4",
-              "text": "Pen3420"
+              "text": "Slow9258"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
             }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary",
-          "interaction_id": "U46_I45"
+          "interaction_id": "U46_I19"
         },
         {
           "type": "flashcards",
-          "prompt_es": "Flashcard 364 - Daily Life: Morning Routine:",
+          "prompt_es": "Flashcard 362 - Daily Life: Morning Routine:",
           "cards": [
             {
               "id": "c1",
-              "front": "Qu\u00e9 es \u00e9so? (now)",
-              "back": "What\u2019s that (now)"
+              "front": "Tienes coche?.",
+              "back": "do you have a car."
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U46_I46"
+          "interaction_id": "U46_I20"
         },
         {
           "type": "writing_task",
-          "prompt_es": "Escribe 364 (Daily Life: Morning Routine):",
-          "instruction_en": "Compare Daily Life: Morning Routine with another topic. [Ref: 41]",
+          "prompt_es": "Escribe 362 (Daily Life: Morning Routine):",
+          "instruction_en": "Explain Comparatives using Daily Life: Morning Routine. [Ref: 98]",
           "mastery_tag": "writing",
-          "interaction_id": "U46_I47"
+          "interaction_id": "U46_I21"
         },
         {
           "type": "speaking_task",
-          "prompt_es": "Habla 364 (Daily Life: Morning Routine):",
-          "stimulus_en": "This is Daily Life: Morning Routine. (522)",
+          "prompt_es": "Habla 362 (Daily Life: Morning Routine):",
+          "stimulus_en": "Talk about Daily Life: Morning Routine. (837)",
           "mastery_tag": "speaking",
-          "interaction_id": "U46_I48"
+          "interaction_id": "U46_I22"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
-          "stimulus": "Matching set 2555",
+          "prompt_es": "Une 317 (Daily Life: Morning Routine):",
+          "stimulus": "Matching set 130",
           "items": [
             {
               "id": "i0",
-              "text": "Has hablado alguna vez ingl\u00e9s por tel\u00e9fono?...",
+              "text": "Hay guisantes en el frigo?...",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo...",
+              "text": "Tienes hermanos?...",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Eraser (Br Eng.",
+              "text": "De qui\u00e9n es ese m\u00f3vil?.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m1",
+              "text": "do you have any brothers or sisters..."
+            },
+            {
               "id": "m2",
-              "text": "rubber) Goma de borrar."
+              "text": "Whose mobile is that."
             },
             {
               "id": "m0",
-              "text": "have you ever spoken English on the phone..."
-            },
-            {
-              "id": "m1",
-              "text": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno...."
+              "text": "are there any peas in the fridge..."
             }
           ],
           "correct_answer": {
@@ -1076,11 +477,11 @@
             "i2": "m2"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U46_I49"
+          "interaction_id": "U46_I23"
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Morning Routine):",
+          "prompt_es": "Clasifica 317 (Daily Life: Morning Routine):",
           "categories": [
             {
               "id": "c1",
@@ -1088,7 +489,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I don\u2019t want to sit opposite him. - interesting"
+                  "text": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc.!"
                 }
               ]
             },
@@ -1098,29 +499,29 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "I haven\u2019t a car. - 876"
+                  "text": "do you have any shoes for the wedding..."
                 }
               ]
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U46_I50"
+          "interaction_id": "U46_I24"
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "main_text": "In Daily Life: Morning Routine (2915), My cousin [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 317 (Daily Life: Morning Routine):",
+          "main_text": "In Daily Life: Morning Routine (8702), Maria [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "drove"
+                  "text": "built"
                 },
                 {
                   "id": "o2",
-                  "text": "drive"
+                  "text": "build"
                 }
               ]
             },
@@ -1143,66 +544,78 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U46_I51"
+          "interaction_id": "U46_I25"
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Morning Routine:",
-          "stimulus_en": "A a house is more useful than a an email..",
-          "stimulus_es": "Un a house es m\u00e1s \u00fatil que un an email..",
+          "prompt_es": "Elige 317 para Daily Life: Morning Routine:",
+          "stimulus_en": "A a bike is more useful than a a bag - 450.",
+          "stimulus_es": "Un a bike es m\u00e1s \u00fatil que un a bag - 450.",
           "options": [
             {
               "id": "o2",
               "text": "useful"
             },
             {
-              "id": "o1",
-              "text": "more useful"
+              "id": "o3",
+              "text": "Other 463"
             },
             {
-              "id": "o3",
-              "text": "Other 854"
+              "id": "o1",
+              "text": "more useful"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U46_I52"
+          "interaction_id": "U46_I26"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Morning Routine:",
+          "prompt_es": "Ordena 317 sobre Daily Life: Morning Routine:",
           "options": [
             {
-              "id": "w6",
-              "text": "a"
-            },
-            {
               "id": "w2",
-              "text": "is"
+              "text": "radio"
             },
             {
               "id": "w1",
-              "text": "tennis"
-            },
-            {
-              "id": "w3",
-              "text": "more"
-            },
-            {
-              "id": "w7",
-              "text": "English"
-            },
-            {
-              "id": "w5",
-              "text": "than"
+              "text": "a"
             },
             {
               "id": "w0",
               "text": "A"
             },
             {
-              "id": "w4",
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w10",
+              "text": "(now)"
+            },
+            {
+              "id": "w5",
               "text": "useful"
+            },
+            {
+              "id": "w4",
+              "text": "more"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "than"
+            },
+            {
+              "id": "w9",
+              "text": "letter"
             }
           ],
           "correct_answer": [
@@ -1213,51 +626,663 @@
             "w4",
             "w5",
             "w6",
-            "w7"
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U46_I27"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 363 (Daily Life: Morning Routine):",
+          "stimulus_en": "A a dog is ___ than a a newspaper (today).",
+          "correct_answer": "more useful",
+          "mastery_tag": "grammar",
+          "interaction_id": "U46_I28"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 363 (Daily Life: Morning Routine)",
+          "stimulus_en": "A a door is useful than a a window - 794.",
+          "stimulus_es": "Ref: Un a door es m\u00e1s \u00fatil que un a window - 794.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U46_I29"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 363 (Daily Life: Morning Routine):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Un a phone es m\u00e1s \u00fatil que un music (today).",
+              "right": "A a phone is more useful than a music (today)."
+            },
+            {
+              "id": "p1",
+              "left": "Un a house es m\u00e1s \u00fatil que un a watch....",
+              "right": "A a house is more useful than a a watch...."
+            },
+            {
+              "id": "p2",
+              "left": "Un tennis es m\u00e1s \u00fatil que un an apple - amazing.",
+              "right": "A tennis is more useful than a an apple - amazing."
+            },
+            {
+              "id": "p3",
+              "left": "Un coffee es m\u00e1s \u00fatil que un an email!.",
+              "right": "A coffee is more useful than a an email!."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U46_I30"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 363 (Daily Life: Morning Routine):",
+          "tts_en": "A a ticket is more useful than a a radio (now).",
+          "correct_answer": "A a ticket is more useful than a a radio (now).",
+          "mastery_tag": "listening",
+          "interaction_id": "U46_I31"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 363:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o4",
+              "text": "Fast8003"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U46_I32"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 363 - Daily Life: Morning Routine:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Litre (Br Eng) (Am Eng!",
+              "back": "liter) Litro!"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U46_I33"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 363 (Daily Life: Morning Routine):",
+          "instruction_en": "A small story about Daily Life: Morning Routine. [Ref: 59]",
+          "mastery_tag": "writing",
+          "interaction_id": "U46_I34"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 363 (Daily Life: Morning Routine):",
+          "stimulus_en": "Look at Daily Life: Morning Routine. (431)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U46_I35"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 318 (Daily Life: Morning Routine):",
+          "stimulus": "Matching set 9561",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales - amazing",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect (now)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Funciona ese ordenador? (today)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "Does that computer work (today)"
+            },
+            {
+              "id": "m1",
+              "text": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil. (now)"
+            },
+            {
+              "id": "m0",
+              "text": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U46_I36"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 318 (Daily Life: Morning Routine):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Have you ever tried Thai food."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar.!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U46_I37"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 318 (Daily Life: Morning Routine):",
+          "main_text": "In Daily Life: Morning Routine (4245), The scientist [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "designed"
+                },
+                {
+                  "id": "o2",
+                  "text": "design"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "taught"
+                },
+                {
+                  "id": "o2",
+                  "text": "teach"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U46_I38"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 318 para Daily Life: Morning Routine:",
+          "stimulus_en": "A a clock is more useful than a a ticket!.",
+          "stimulus_es": "Un a clock es m\u00e1s \u00fatil que un a ticket!.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "more useful"
+            },
+            {
+              "id": "o3",
+              "text": "Other 8642"
+            },
+            {
+              "id": "o2",
+              "text": "useful"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U46_I39"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 318 sobre Daily Life: Morning Routine:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "more"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w9",
+              "text": "ticket"
+            },
+            {
+              "id": "w2",
+              "text": "car"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "useful"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "than"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U46_I40"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 364 (Daily Life: Morning Routine):",
+          "stimulus_en": "A a radio is ___ than a a chair..",
+          "correct_answer": "more useful",
+          "mastery_tag": "grammar",
+          "interaction_id": "U46_I41"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 364 (Daily Life: Morning Routine)",
+          "stimulus_en": "A football is more useful than a a door - amazing.",
+          "stimulus_es": "Ref: Un football es m\u00e1s \u00fatil que un a door - amazing.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U46_I42"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 364 (Daily Life: Morning Routine):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Un a television es m\u00e1s \u00fatil que un a table - 622.",
+              "right": "A a television is more useful than a a table - 622."
+            },
+            {
+              "id": "p1",
+              "left": "Un a letter es m\u00e1s \u00fatil que un a camera!.",
+              "right": "A a letter is more useful than a a camera!."
+            },
+            {
+              "id": "p2",
+              "left": "Un a laptop es m\u00e1s \u00fatil que un a letter - interesting.",
+              "right": "A a laptop is more useful than a a letter - interesting."
+            },
+            {
+              "id": "p3",
+              "left": "Un an email es m\u00e1s \u00fatil que un a window....",
+              "right": "A an email is more useful than a a window...."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U46_I43"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 364 (Daily Life: Morning Routine):",
+          "tts_en": "A a radio is more useful than a a newspaper (now).",
+          "correct_answer": "A a radio is more useful than a a newspaper (now).",
+          "mastery_tag": "listening",
+          "interaction_id": "U46_I44"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 364:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o4",
+              "text": "Pen6111"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U46_I45"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 364 - Daily Life: Morning Routine:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "\u2013 Fechas concretas (today)",
+              "back": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on. (today)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U46_I46"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 364 (Daily Life: Morning Routine):",
+          "instruction_en": "Explain Comparatives using Daily Life: Morning Routine. [Ref: 10]",
+          "mastery_tag": "writing",
+          "interaction_id": "U46_I47"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 364 (Daily Life: Morning Routine):",
+          "stimulus_en": "Study Daily Life: Morning Routine now. (132)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U46_I48"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 319 (Daily Life: Morning Routine):",
+          "stimulus": "Matching set 1541",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "try / police / keep / The / order / always / to / the...",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "8. \u00a0usually / my father / goes to work by bus.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "The police always try to keep the order..."
+            },
+            {
+              "id": "m0",
+              "text": "read, write, eat, run, sleep, etc."
+            },
+            {
+              "id": "m2",
+              "text": "my father usually goes to work by bus."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U46_I49"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 319 (Daily Life: Morning Routine):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I can to speak English. (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele.!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U46_I50"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 319 (Daily Life: Morning Routine):",
+          "main_text": "In Daily Life: Morning Routine (3955), The driver [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "spoke"
+                },
+                {
+                  "id": "o2",
+                  "text": "speak"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cleaned"
+                },
+                {
+                  "id": "o2",
+                  "text": "clean"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U46_I51"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 319 para Daily Life: Morning Routine:",
+          "stimulus_en": "A a ticket is more useful than a a newspaper (today).",
+          "stimulus_es": "Un a ticket es m\u00e1s \u00fatil que un a newspaper (today).",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 829"
+            },
+            {
+              "id": "o2",
+              "text": "useful"
+            },
+            {
+              "id": "o1",
+              "text": "more useful"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U46_I52"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 319 sobre Daily Life: Morning Routine:",
+          "options": [
+            {
+              "id": "w10",
+              "text": "(today)"
+            },
+            {
+              "id": "w2",
+              "text": "computer"
+            },
+            {
+              "id": "w4",
+              "text": "more"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "door"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "useful"
+            },
+            {
+              "id": "w6",
+              "text": "than"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U46_I53"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "stimulus_en": "A a dog is ___ than a a gift..",
+          "prompt_es": "Completa 365 (Daily Life: Morning Routine):",
+          "stimulus_en": "A an email is ___ than a a sandwich - amazing.",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U46_I54"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Morning Routine)",
-          "stimulus_en": "A a phone is more useful than a a ticket - interesting.",
-          "stimulus_es": "Ref: Un a phone es m\u00e1s \u00fatil que un a ticket - interesting.",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 365 (Daily Life: Morning Routine)",
+          "stimulus_en": "A a ticket is useful than a a book..",
+          "stimulus_es": "Ref: Un a ticket es m\u00e1s \u00fatil que un a book..",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U46_I55"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
+          "prompt_es": "Relaciona 365 (Daily Life: Morning Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un an apple es m\u00e1s \u00fatil que un a ticket..",
-              "right": "A an apple is more useful than a a ticket.."
+              "left": "Un a house es m\u00e1s \u00fatil que un football - interesting.",
+              "right": "A a house is more useful than a football - interesting."
             },
             {
               "id": "p1",
-              "left": "Un a chair es m\u00e1s \u00fatil que un a house..",
-              "right": "A a chair is more useful than a a house.."
+              "left": "Un a newspaper es m\u00e1s \u00fatil que un an email (today).",
+              "right": "A a newspaper is more useful than a an email (today)."
             },
             {
               "id": "p2",
-              "left": "Un a door es m\u00e1s \u00fatil que un a bag - interesting.",
-              "right": "A a door is more useful than a a bag - interesting."
+              "left": "Un a window es m\u00e1s \u00fatil que un a sandwich....",
+              "right": "A a window is more useful than a a sandwich...."
             },
             {
               "id": "p3",
-              "left": "Un coffee es m\u00e1s \u00fatil que un a phone (today).",
-              "right": "A coffee is more useful than a a phone (today)."
+              "left": "Un a computer es m\u00e1s \u00fatil que un a chair....",
+              "right": "A a computer is more useful than a a chair...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1265,35 +1290,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Morning Routine):",
-          "tts_en": "A a movie is more useful than a a sandwich (today).",
-          "correct_answer": "A a movie is more useful than a a sandwich (today).",
+          "prompt_es": "Dictado 365 (Daily Life: Morning Routine):",
+          "tts_en": "A a radio is more useful than a a dog (today).",
+          "correct_answer": "A a radio is more useful than a a dog (today).",
           "mastery_tag": "listening",
           "interaction_id": "U46_I57"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 365:",
           "options": [
             {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
               "id": "o0",
-              "text": "London"
+              "text": "Happy"
             },
             {
               "id": "o4",
-              "text": "Slow3955"
-            },
-            {
-              "id": "o2",
-              "text": "Berlin"
+              "text": "Fast9777"
             },
             {
               "id": "o1",
-              "text": "Tokyo"
+              "text": "Sad"
             },
             {
-              "id": "o3",
-              "text": "Paris"
+              "id": "o2",
+              "text": "Angry"
             }
           ],
           "correct_answer": "o4",
@@ -1306,8 +1331,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material!",
-              "back": "preguntas en ingl\u00e9s!"
+              "front": "Eraser (Br Eng - 190",
+              "back": "rubber) Goma de borrar - 190"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1316,50 +1341,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 365 (Daily Life: Morning Routine):",
-          "instruction_en": "Write a note about Daily Life: Morning Routine. [Ref: 97]",
+          "instruction_en": "Compare Daily Life: Morning Routine with another topic. [Ref: 39]",
           "mastery_tag": "writing",
           "interaction_id": "U46_I60"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 365 (Daily Life: Morning Routine):",
-          "stimulus_en": "Study Daily Life: Morning Routine now. (736)",
+          "stimulus_en": "This is Daily Life: Morning Routine. (797)",
           "mastery_tag": "speaking",
           "interaction_id": "U46_I61"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
-          "stimulus": "Matching set 6222",
+          "prompt_es": "Une 320 (Daily Life: Morning Routine):",
+          "stimulus": "Matching set 7188",
           "items": [
             {
               "id": "i0",
-              "text": "Countable nouns - 779",
+              "text": "Otro common mistake - amazing",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Otro ejemplo.",
+              "text": "Veamos una oraci\u00f3n con futuro (today)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Qu\u00e9 hora es? - 105",
+              "text": "The correct thing.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "What time is it - 105"
-            },
-            {
-              "id": "m0",
-              "text": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc. - 779"
+              "text": "Have you got a car?."
             },
             {
               "id": "m1",
-              "text": "when I was at primary school, I didn\u2019t wear uniform.."
+              "text": "What will the weather be like tomorrow? It\u2019ll be sunny. (today)"
+            },
+            {
+              "id": "m0",
+              "text": "I haven\u2019t a car. - amazing"
             }
           ],
           "correct_answer": {
@@ -1372,7 +1397,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Morning Routine):",
+          "prompt_es": "Clasifica 320 (Daily Life: Morning Routine):",
           "categories": [
             {
               "id": "c1",
@@ -1380,7 +1405,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I\u2019ll see you on Saturday..."
+                  "text": "Why didn\u2019t you tell me - interesting"
                 }
               ]
             },
@@ -1390,7 +1415,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos.!"
+                  "text": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. - interesting"
                 }
               ]
             }
@@ -1400,19 +1425,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "main_text": "In Daily Life: Morning Routine (6676), They [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 320 (Daily Life: Morning Routine):",
+          "main_text": "In Daily Life: Morning Routine (6081), A colleague [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "stopped"
+                  "text": "started"
                 },
                 {
                   "id": "o2",
-                  "text": "stop"
+                  "text": "start"
                 }
               ]
             },
@@ -1421,11 +1446,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "watched"
+                  "text": "taught"
                 },
                 {
                   "id": "o2",
-                  "text": "watch"
+                  "text": "teach"
                 }
               ]
             }
@@ -1439,21 +1464,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Morning Routine:",
-          "stimulus_en": "A a window is more useful than a an apple - amazing.",
-          "stimulus_es": "Un a window es m\u00e1s \u00fatil que un an apple - amazing.",
+          "prompt_es": "Elige 320 para Daily Life: Morning Routine:",
+          "stimulus_en": "A a dog is more useful than a tennis - amazing.",
+          "stimulus_es": "Un a dog es m\u00e1s \u00fatil que un tennis - amazing.",
           "options": [
             {
-              "id": "o2",
-              "text": "useful"
-            },
-            {
               "id": "o3",
-              "text": "Other 1136"
+              "text": "Other 1427"
             },
             {
               "id": "o1",
               "text": "more useful"
+            },
+            {
+              "id": "o2",
+              "text": "useful"
             }
           ],
           "correct_answer": "o1",
@@ -1462,51 +1487,51 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Morning Routine:",
+          "prompt_es": "Ordena 320 sobre Daily Life: Morning Routine:",
           "options": [
             {
-              "id": "w2",
-              "text": "watch"
-            },
-            {
-              "id": "w6",
-              "text": "than"
-            },
-            {
-              "id": "w9",
-              "text": "pen"
-            },
-            {
-              "id": "w0",
-              "text": "A"
-            },
-            {
               "id": "w10",
-              "text": "695"
-            },
-            {
-              "id": "w5",
-              "text": "useful"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w8",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "a"
+              "text": "218"
             },
             {
               "id": "w4",
               "text": "more"
             },
             {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w6",
+              "text": "than"
+            },
+            {
               "id": "w1",
               "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "printer"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "useful"
+            },
+            {
+              "id": "w2",
+              "text": "computer"
             }
           ],
           "correct_answer": [
@@ -1527,44 +1552,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "stimulus_en": "A a chair is ___ than a a pizza - 228.",
+          "prompt_es": "Completa 366 (Daily Life: Morning Routine):",
+          "stimulus_en": "A a laptop is ___ than a music (now).",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U46_I67"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Morning Routine)",
-          "stimulus_en": "A a radio is more useful than a a letter..",
-          "stimulus_es": "Ref: Un a radio es m\u00e1s \u00fatil que un a letter..",
+          "prompt_es": "\u00bfCorrecto? 366 (Daily Life: Morning Routine)",
+          "stimulus_en": "A an apple is more useful than a a phone - interesting.",
+          "stimulus_es": "Ref: Un an apple es m\u00e1s \u00fatil que un a phone - interesting.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U46_I68"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
+          "prompt_es": "Relaciona 366 (Daily Life: Morning Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un tennis es m\u00e1s \u00fatil que un a sandwich..",
-              "right": "A tennis is more useful than a a sandwich.."
+              "left": "Un a printer es m\u00e1s \u00fatil que un a television - amazing.",
+              "right": "A a printer is more useful than a a television - amazing."
             },
             {
               "id": "p1",
-              "left": "Un an apple es m\u00e1s \u00fatil que un music..",
-              "right": "A an apple is more useful than a music.."
+              "left": "Un a pizza es m\u00e1s \u00fatil que un a ticket - 299.",
+              "right": "A a pizza is more useful than a a ticket - 299."
             },
             {
               "id": "p2",
-              "left": "Un a movie es m\u00e1s \u00fatil que un a pizza (today).",
-              "right": "A a movie is more useful than a a pizza (today)."
+              "left": "Un a movie es m\u00e1s \u00fatil que un a door - amazing.",
+              "right": "A a movie is more useful than a a door - amazing."
             },
             {
               "id": "p3",
-              "left": "Un a report es m\u00e1s \u00fatil que un a computer!.",
-              "right": "A a report is more useful than a a computer!."
+              "left": "Un a radio es m\u00e1s \u00fatil que un football - 439.",
+              "right": "A a radio is more useful than a football - 439."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1572,35 +1597,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Morning Routine):",
-          "tts_en": "A a letter is more useful than a a pizza - interesting.",
-          "correct_answer": "A a letter is more useful than a a pizza - interesting.",
+          "prompt_es": "Dictado 366 (Daily Life: Morning Routine):",
+          "tts_en": "A a phone is more useful than a a bag..",
+          "correct_answer": "A a phone is more useful than a a bag..",
           "mastery_tag": "listening",
           "interaction_id": "U46_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 366:",
           "options": [
             {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
+              "id": "o0",
+              "text": "pizza"
             },
             {
               "id": "o3",
-              "text": "Calm"
+              "text": "soup"
             },
             {
-              "id": "o0",
-              "text": "Happy"
+              "id": "o2",
+              "text": "salad"
             },
             {
               "id": "o4",
-              "text": "Fast1516"
+              "text": "rain5572"
+            },
+            {
+              "id": "o1",
+              "text": "burger"
             }
           ],
           "correct_answer": "o4",
@@ -1613,8 +1638,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son - amazing",
-              "back": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar. - amazing"
+              "front": "Tienes zapatos para la boda? - 125",
+              "back": "do you have any shoes for the wedding - 125"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1623,50 +1648,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 366 (Daily Life: Morning Routine):",
-          "instruction_en": "Why is Daily Life: Morning Routine important? [Ref: 70]",
+          "instruction_en": "Why is Daily Life: Morning Routine important? [Ref: 58]",
           "mastery_tag": "writing",
           "interaction_id": "U46_I73"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 366 (Daily Life: Morning Routine):",
-          "stimulus_en": "Repeat Daily Life: Morning Routine. (917)",
+          "stimulus_en": "The Comparatives is here. (213)",
           "mastery_tag": "speaking",
           "interaction_id": "U46_I74"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
-          "stimulus": "Matching set 8320",
+          "prompt_es": "Une 321 (Daily Life: Morning Routine):",
+          "stimulus": "Matching set 2194",
           "items": [
             {
               "id": "i0",
-              "text": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales.",
+              "text": "Al lado de mi casa hay una guarder\u00eda - amazing",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "La podemos contestar de la seguiente manera (now)",
+              "text": "Para responder en plural, dir\u00edamos.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "The correct thing - interesting",
+              "text": "As any modal verb, they are followed by an infinitive without \u2018to\u2019, for example - interesting",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l) (now)"
-            },
-            {
-              "id": "m0",
-              "text": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/.."
+              "text": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l).."
             },
             {
               "id": "m2",
-              "text": "I have 3 children. - interesting"
+              "text": "may come, might go. - interesting"
+            },
+            {
+              "id": "m0",
+              "text": "Next to my house there is a nursery school. - amazing"
             }
           ],
           "correct_answer": {
@@ -1679,7 +1704,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Morning Routine):",
+          "prompt_es": "Clasifica 321 (Daily Life: Morning Routine):",
           "categories": [
             {
               "id": "c1",
@@ -1687,7 +1712,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Spain\u2018s monuments are very nice.."
+                  "text": "I often go to bed before 11 (today)"
                 }
               ]
             },
@@ -1697,7 +1722,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Have you a car? (today)"
+                  "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). - 244"
                 }
               ]
             }
@@ -1707,19 +1732,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "main_text": "In Daily Life: Morning Routine (2298), The manager [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 321 (Daily Life: Morning Routine):",
+          "main_text": "In Daily Life: Morning Routine (8189), The artist [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "worked"
+                  "text": "ate"
                 },
                 {
                   "id": "o2",
-                  "text": "work"
+                  "text": "eat"
                 }
               ]
             },
@@ -1728,11 +1753,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "read"
+                  "text": "played"
                 },
                 {
                   "id": "o2",
-                  "text": "read"
+                  "text": "play"
                 }
               ]
             }
@@ -1746,9 +1771,9 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Morning Routine:",
-          "stimulus_en": "A coffee is more useful than a a television (now).",
-          "stimulus_es": "Un coffee es m\u00e1s \u00fatil que un a television (now).",
+          "prompt_es": "Elige 321 para Daily Life: Morning Routine:",
+          "stimulus_en": "A a phone is more useful than a a bike....",
+          "stimulus_es": "Un a phone es m\u00e1s \u00fatil que un a bike....",
           "options": [
             {
               "id": "o1",
@@ -1756,7 +1781,7 @@
             },
             {
               "id": "o3",
-              "text": "Other 3516"
+              "text": "Other 645"
             },
             {
               "id": "o2",
@@ -1769,47 +1794,47 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Morning Routine:",
+          "prompt_es": "Ordena 321 sobre Daily Life: Morning Routine:",
           "options": [
             {
-              "id": "w5",
-              "text": "useful"
+              "id": "w6",
+              "text": "a"
             },
             {
               "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w8",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "than"
-            },
-            {
-              "id": "w9",
-              "text": "watch"
-            },
-            {
-              "id": "w2",
-              "text": "apple"
-            },
-            {
-              "id": "w4",
               "text": "more"
             },
             {
-              "id": "w1",
-              "text": "an"
+              "id": "w2",
+              "text": "is"
             },
             {
               "id": "w0",
               "text": "A"
+            },
+            {
+              "id": "w8",
+              "text": "email"
+            },
+            {
+              "id": "w7",
+              "text": "an"
+            },
+            {
+              "id": "w1",
+              "text": "coffee"
+            },
+            {
+              "id": "w9",
+              "text": "269"
+            },
+            {
+              "id": "w5",
+              "text": "than"
+            },
+            {
+              "id": "w4",
+              "text": "useful"
             }
           ],
           "correct_answer": [
@@ -1829,44 +1854,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "stimulus_en": "A a pen is ___ than a a newspaper - interesting.",
+          "prompt_es": "Completa 367 (Daily Life: Morning Routine):",
+          "stimulus_en": "A a sandwich is ___ than a an email....",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U46_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Morning Routine)",
-          "stimulus_en": "A a table is useful than a a pizza - amazing.",
-          "stimulus_es": "Ref: Un a table es m\u00e1s \u00fatil que un a pizza - amazing.",
+          "prompt_es": "\u00bfCorrecto? 367 (Daily Life: Morning Routine)",
+          "stimulus_en": "A a car is useful than a a pen - 376.",
+          "stimulus_es": "Ref: Un a car es m\u00e1s \u00fatil que un a pen - 376.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U46_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
+          "prompt_es": "Relaciona 367 (Daily Life: Morning Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un a computer es m\u00e1s \u00fatil que un a house!.",
-              "right": "A a computer is more useful than a a house!."
+              "left": "Un a camera es m\u00e1s \u00fatil que un a door - 426.",
+              "right": "A a camera is more useful than a a door - 426."
             },
             {
               "id": "p1",
-              "left": "Un a letter es m\u00e1s \u00fatil que un tennis....",
-              "right": "A a letter is more useful than a tennis...."
+              "left": "Un a gift es m\u00e1s \u00fatil que un a pizza - 594.",
+              "right": "A a gift is more useful than a a pizza - 594."
             },
             {
               "id": "p2",
-              "left": "Un a camera es m\u00e1s \u00fatil que un a bike - 651.",
-              "right": "A a camera is more useful than a a bike - 651."
+              "left": "Un a watch es m\u00e1s \u00fatil que un English (today).",
+              "right": "A a watch is more useful than a English (today)."
             },
             {
               "id": "p3",
-              "left": "Un a sandwich es m\u00e1s \u00fatil que un a clock - amazing.",
-              "right": "A a sandwich is more useful than a a clock - amazing."
+              "left": "Un a pizza es m\u00e1s \u00fatil que un a radio..",
+              "right": "A a pizza is more useful than a a radio.."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1874,35 +1899,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Morning Routine):",
-          "tts_en": "A a sandwich is more useful than a a door!.",
-          "correct_answer": "A a sandwich is more useful than a a door!.",
+          "prompt_es": "Dictado 367 (Daily Life: Morning Routine):",
+          "tts_en": "A a newspaper is more useful than a a television....",
+          "correct_answer": "A a newspaper is more useful than a a television....",
           "mastery_tag": "listening",
           "interaction_id": "U46_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 367:",
           "options": [
             {
-              "id": "o2",
-              "text": "Berlin"
-            },
-            {
               "id": "o4",
-              "text": "Slow2531"
+              "text": "cat7076"
             },
             {
               "id": "o3",
-              "text": "Paris"
-            },
-            {
-              "id": "o0",
-              "text": "London"
+              "text": "plane"
             },
             {
               "id": "o1",
-              "text": "Tokyo"
+              "text": "bus"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o0",
+              "text": "car"
             }
           ],
           "correct_answer": "o4",
@@ -1915,8 +1940,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos - interesting",
-              "back": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle. - interesting"
+              "front": "Otro ejemplo...",
+              "back": "My partner is the most beautiful woman in the world..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1925,50 +1950,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 367 (Daily Life: Morning Routine):",
-          "instruction_en": "Review Daily Life: Morning Routine from last week. [Ref: 56]",
+          "instruction_en": "Write a note about Daily Life: Morning Routine. [Ref: 55]",
           "mastery_tag": "writing",
           "interaction_id": "U46_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 367 (Daily Life: Morning Routine):",
-          "stimulus_en": "The Comparatives is here. (944)",
+          "stimulus_en": "Where is Daily Life: Morning Routine? (521)",
           "mastery_tag": "speaking",
           "interaction_id": "U46_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
-          "stimulus": "Matching set 1489",
+          "prompt_es": "Une 322 (Daily Life: Morning Routine):",
+          "stimulus": "Matching set 7038",
           "items": [
             {
               "id": "i0",
-              "text": "5. never / drinks coffee in the evening / she.",
+              "text": "Many, para countable, decimos!",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "\u2013 For + period of time (not defined) (today)",
+              "text": "Algunos ejemplos - interesting",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "\u00bfEst\u00e1s estudiando franc\u00e9s? (now)",
+              "text": "Tienes coche? - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "she never drinks coffee in the evening."
-            },
-            {
               "id": "m2",
-              "text": "are you learning French? (now)"
+              "text": "do you have a car - amazing"
             },
             {
               "id": "m1",
-              "text": "durante o desde hace (today)"
+              "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without - interesting"
+            },
+            {
+              "id": "m0",
+              "text": "I don\u2019t have many friends (friends is countable).!"
             }
           ],
           "correct_answer": {
@@ -1981,7 +2006,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Daily Life: Morning Routine):",
+          "prompt_es": "Clasifica 322 (Daily Life: Morning Routine):",
           "categories": [
             {
               "id": "c1",
@@ -1989,7 +2014,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "What\u2019s the hottest place you\u2019ve ever been to (today)"
+                  "text": "biscuit) Galleta - interesting"
                 }
               ]
             },
@@ -1999,7 +2024,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Next to my school there aren\u2019t any apartment blocks.."
+                  "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet (now)"
                 }
               ]
             }
@@ -2009,19 +2034,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "main_text": "In Daily Life: Morning Routine (6622), Our neighbors [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 322 (Daily Life: Morning Routine):",
+          "main_text": "In Daily Life: Morning Routine (6684), The boss [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "sold"
+                  "text": "received"
                 },
                 {
                   "id": "o2",
-                  "text": "sell"
+                  "text": "receive"
                 }
               ]
             },
@@ -2030,11 +2055,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "finished"
+                  "text": "cooked"
                 },
                 {
                   "id": "o2",
-                  "text": "finish"
+                  "text": "cook"
                 }
               ]
             }
@@ -2048,21 +2073,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Daily Life: Morning Routine:",
-          "stimulus_en": "A a letter is more useful than a a newspaper - interesting.",
-          "stimulus_es": "Un a letter es m\u00e1s \u00fatil que un a newspaper - interesting.",
+          "prompt_es": "Elige 322 para Daily Life: Morning Routine:",
+          "stimulus_en": "A English is more useful than a a dog (today).",
+          "stimulus_es": "Un English es m\u00e1s \u00fatil que un a dog (today).",
           "options": [
             {
               "id": "o3",
-              "text": "Other 9659"
-            },
-            {
-              "id": "o1",
-              "text": "more useful"
+              "text": "Other 338"
             },
             {
               "id": "o2",
               "text": "useful"
+            },
+            {
+              "id": "o1",
+              "text": "more useful"
             }
           ],
           "correct_answer": "o1",
@@ -2071,47 +2096,47 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Daily Life: Morning Routine:",
+          "prompt_es": "Ordena 322 sobre Daily Life: Morning Routine:",
           "options": [
             {
-              "id": "w2",
-              "text": "house"
+              "id": "w6",
+              "text": "than"
             },
             {
               "id": "w1",
               "text": "a"
             },
             {
-              "id": "w5",
-              "text": "useful"
-            },
-            {
               "id": "w7",
               "text": "a"
             },
             {
-              "id": "w4",
-              "text": "more"
+              "id": "w8",
+              "text": "a"
             },
             {
               "id": "w3",
               "text": "is"
             },
             {
-              "id": "w6",
-              "text": "than"
+              "id": "w2",
+              "text": "sandwich"
             },
             {
-              "id": "w9",
-              "text": "pizza"
+              "id": "w5",
+              "text": "useful"
             },
             {
               "id": "w0",
               "text": "A"
             },
             {
-              "id": "w8",
-              "text": "a"
+              "id": "w9",
+              "text": "chair"
+            },
+            {
+              "id": "w4",
+              "text": "more"
             }
           ],
           "correct_answer": [
@@ -2131,44 +2156,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Daily Life: Morning Routine):",
-          "stimulus_en": "A football is ___ than a a ticket (today).",
+          "prompt_es": "Completa 368 (Daily Life: Morning Routine):",
+          "stimulus_en": "A a report is ___ than a a bag!.",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U46_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Daily Life: Morning Routine)",
-          "stimulus_en": "A a printer is useful than a a pizza - amazing.",
-          "stimulus_es": "Ref: Un a printer es m\u00e1s \u00fatil que un a pizza - amazing.",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 368 (Daily Life: Morning Routine)",
+          "stimulus_en": "A a television is more useful than a English..",
+          "stimulus_es": "Ref: Un a television es m\u00e1s \u00fatil que un English..",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U46_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Daily Life: Morning Routine):",
+          "prompt_es": "Relaciona 368 (Daily Life: Morning Routine):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un music es m\u00e1s \u00fatil que un football!.",
-              "right": "A music is more useful than a football!."
+              "left": "Un a chair es m\u00e1s \u00fatil que un a pizza - amazing.",
+              "right": "A a chair is more useful than a a pizza - amazing."
             },
             {
               "id": "p1",
-              "left": "Un a radio es m\u00e1s \u00fatil que un a sandwich - amazing.",
-              "right": "A a radio is more useful than a a sandwich - amazing."
+              "left": "Un a watch es m\u00e1s \u00fatil que un a television (today).",
+              "right": "A a watch is more useful than a a television (today)."
             },
             {
               "id": "p2",
-              "left": "Un a window es m\u00e1s \u00fatil que un a house (now).",
-              "right": "A a window is more useful than a a house (now)."
+              "left": "Un a house es m\u00e1s \u00fatil que un a dog..",
+              "right": "A a house is more useful than a a dog.."
             },
             {
               "id": "p3",
-              "left": "Un a bike es m\u00e1s \u00fatil que un music - interesting.",
-              "right": "A a bike is more useful than a music - interesting."
+              "left": "Un an email es m\u00e1s \u00fatil que un a movie....",
+              "right": "A an email is more useful than a a movie...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2176,15 +2201,15 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Daily Life: Morning Routine):",
-          "tts_en": "A an email is more useful than a a movie - interesting.",
-          "correct_answer": "A an email is more useful than a a movie - interesting.",
+          "prompt_es": "Dictado 368 (Daily Life: Morning Routine):",
+          "tts_en": "A a clock is more useful than a English (today).",
+          "correct_answer": "A a clock is more useful than a English (today).",
           "mastery_tag": "listening",
           "interaction_id": "U46_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 368:",
           "options": [
             {
               "id": "o2",
@@ -2196,7 +2221,7 @@
             },
             {
               "id": "o4",
-              "text": "bike9274"
+              "text": "bike6141"
             },
             {
               "id": "o0",
@@ -2217,8 +2242,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Movie (Br Eng...",
-              "back": "film) Pel\u00edcula..."
+              "front": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material.",
+              "back": "preguntas en ingl\u00e9s."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2227,14 +2252,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 368 (Daily Life: Morning Routine):",
-          "instruction_en": "Review Daily Life: Morning Routine from last week. [Ref: 82]",
+          "instruction_en": "List 3 facts about Daily Life: Morning Routine. [Ref: 88]",
           "mastery_tag": "writing",
           "interaction_id": "U46_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 368 (Daily Life: Morning Routine):",
-          "stimulus_en": "The Comparatives is here. (956)",
+          "stimulus_en": "Look at Daily Life: Morning Routine. (994)",
           "mastery_tag": "speaking",
           "interaction_id": "U46_I100"
         }

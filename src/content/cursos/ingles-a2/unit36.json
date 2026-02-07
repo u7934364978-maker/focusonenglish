@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "stimulus_en": "We has ___ read a gift in the bedroom....",
+          "prompt_es": "Completa 281 (Sports: Olympic Games):",
+          "stimulus_en": "The actress has ___ taught music in school - interesting.",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U36_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Sports: Olympic Games)",
-          "stimulus_en": "My brother has already called a letter in the woods (now).",
-          "stimulus_es": "Ref: My brother ya ha called a letter en the woods (now).",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 281 (Sports: Olympic Games)",
+          "stimulus_en": "The artist has yet checked a camera in the country (today).",
+          "stimulus_es": "Ref: The artist ya ha checked a camera en the country (today).",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U36_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
+          "prompt_es": "Relaciona 281 (Sports: Olympic Games):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The actress ya ha cleaned a bike en the hotel (now).",
-              "right": "The actress has already cleaned a bike in the hotel (now)."
+              "left": "We ya ha planned a movie en school - interesting.",
+              "right": "We has already planned a movie in school - interesting."
             },
             {
               "id": "p1",
-              "left": "The artist ya ha visited a cat en the gym (today).",
-              "right": "The artist has already visited a cat in the gym (today)."
+              "left": "The teacher ya ha sent a letter en the park - amazing.",
+              "right": "The teacher has already sent a letter in the park - amazing."
             },
             {
               "id": "p2",
-              "left": "Our neighbors ya ha sold English en the cinema..",
-              "right": "Our neighbors has already sold English in the cinema.."
+              "left": "She ya ha spoken coffee en Paris - amazing.",
+              "right": "She has already spoken coffee in Paris - amazing."
             },
             {
               "id": "p3",
-              "left": "The singer ya ha built English en the beach....",
-              "right": "The singer has already built English in the beach...."
+              "left": "The baker ya ha watched a house en the bank (now).",
+              "right": "The baker has already watched a house in the bank (now)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Sports: Olympic Games):",
-          "tts_en": "He has already built a clock in the library (now).",
-          "correct_answer": "He has already built a clock in the library (now).",
+          "prompt_es": "Dictado 281 (Sports: Olympic Games):",
+          "tts_en": "The singer has already bought an apple in the bank (today).",
+          "correct_answer": "The singer has already bought an apple in the bank (today).",
           "mastery_tag": "listening",
           "interaction_id": "U36_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 281:",
           "options": [
             {
-              "id": "o4",
-              "text": "Pen8833"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
-            },
-            {
-              "id": "o0",
-              "text": "Table"
-            },
-            {
               "id": "o1",
-              "text": "Chair"
+              "text": "banana"
             },
             {
               "id": "o3",
-              "text": "Bed"
+              "text": "mango"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
+            },
+            {
+              "id": "o0",
+              "text": "apple"
+            },
+            {
+              "id": "o4",
+              "text": "bike4575"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "3. el primer elemento es un pa\u00eds/ciudad/pueblo\u2026 Ejemplo - 450",
-              "back": "Spain\u2018s monuments are very nice. - 450"
+              "front": "Movie star (Br Eng!",
+              "back": "film star) Estrella de cine!"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 281 (Sports: Olympic Games):",
-          "instruction_en": "Why is Sports: Olympic Games important? [Ref: 13]",
+          "instruction_en": "Explain Present Perfect with Yet/Already using Sports: Olympic Games. [Ref: 80]",
           "mastery_tag": "writing",
           "interaction_id": "U36_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 281 (Sports: Olympic Games):",
-          "stimulus_en": "Where is Sports: Olympic Games? (436)",
+          "stimulus_en": "I like Sports: Olympic Games. (789)",
           "mastery_tag": "speaking",
           "interaction_id": "U36_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
-          "stimulus": "Matching set 7452",
+          "prompt_es": "Une 246 (Sports: Olympic Games):",
+          "stimulus": "Matching set 9416",
           "items": [
             {
               "id": "i0",
-              "text": "2. Siempre van antes del sustantivo, la regla es - 986",
+              "text": "Cu\u00e1l es el edificio m\u00e1s alto que has visitado nunca?!",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda? - interesting",
+              "text": "\u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo - amazing",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son - interesting",
+              "text": "8. \u00a0usually / my father / goes to work by bus!",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar. - interesting"
+              "id": "m1",
+              "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos. - amazing"
             },
             {
-              "id": "m1",
-              "text": "How old is Mar\u00eda - interesting"
+              "id": "m2",
+              "text": "my father usually goes to work by bus!"
             },
             {
               "id": "m0",
-              "text": "ADJECTIVE + NOUN - 986"
+              "text": "What\u2019s the highest building you\u2019ve ever visited!"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Sports: Olympic Games):",
+          "prompt_es": "Clasifica 246 (Sports: Olympic Games):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "la respuesta es ilimitada, puede ser cualquier cosa. - interesting"
+                  "text": "Have you ever tried Thai food."
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "how often do you have Italian classes? = I have every Tuesday...."
+                  "text": "Can I have your ID/ passport/ credit card?. (today)"
                 }
               ]
             }
@@ -202,1529 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "main_text": "In Sports: Olympic Games (8446), She [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 246 (Sports: Olympic Games):",
+          "main_text": "In Sports: Olympic Games (1440), I [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "taught"
+                  "text": "bought"
                 },
                 {
                   "id": "o2",
-                  "text": "teach"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "watched"
-                },
-                {
-                  "id": "o2",
-                  "text": "watch"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U36_I12"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Sports: Olympic Games:",
-          "stimulus_en": "My cousin has already played a car in the supermarket - 773.",
-          "stimulus_es": "My cousin ya ha played a car en the supermarket - 773.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 1663"
-            },
-            {
-              "id": "o1",
-              "text": "already"
-            },
-            {
-              "id": "o2",
-              "text": "yet"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I13"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Sports: Olympic Games:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "finished"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w2",
-              "text": "already"
-            },
-            {
-              "id": "w7",
-              "text": "hospital"
-            },
-            {
-              "id": "w0",
-              "text": "John"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w4",
-              "text": "English"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U36_I14"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "stimulus_en": "The police officer has ___ listened coffee in school (today).",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I15"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Sports: Olympic Games)",
-          "stimulus_en": "The manager has already organized a bike in the library - interesting.",
-          "stimulus_es": "Ref: The manager ya ha organized a bike en the library - interesting.",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I16"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "He ya ha stopped tennis en the stadium - interesting.",
-              "right": "He has already stopped tennis in the stadium - interesting."
-            },
-            {
-              "id": "p1",
-              "left": "The manager ya ha sent a bike en the bank..",
-              "right": "The manager has already sent a bike in the bank.."
-            },
-            {
-              "id": "p2",
-              "left": "Maria ya ha learned a television en the shop....",
-              "right": "Maria has already learned a television in the shop...."
-            },
-            {
-              "id": "p3",
-              "left": "The teacher ya ha driven a door en the garage....",
-              "right": "The teacher has already driven a door in the garage...."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I17"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Sports: Olympic Games):",
-          "tts_en": "The doctor has already organized a cat in the city (now).",
-          "correct_answer": "The doctor has already organized a cat in the city (now).",
-          "mastery_tag": "listening",
-          "interaction_id": "U36_I18"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Flute"
-            },
-            {
-              "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
-            },
-            {
-              "id": "o4",
-              "text": "Book7157"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I19"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 282 - Sports: Olympic Games:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Mi cumplea\u00f1os es en febrero...",
-              "back": "my birthday is in February...."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I20"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 282 (Sports: Olympic Games):",
-          "instruction_en": "Review Sports: Olympic Games from last week. [Ref: 34]",
-          "mastery_tag": "writing",
-          "interaction_id": "U36_I21"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 282 (Sports: Olympic Games):",
-          "stimulus_en": "Focus on Sports: Olympic Games. (784)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U36_I22"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
-          "stimulus": "Matching set 1933",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Otro ejemplo (now)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "\u2013 For + period of time (not defined)...",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "A qu\u00e9 hora tenemos el examen? - interesting",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "durante o desde hace..."
-            },
-            {
-              "id": "m0",
-              "text": "when I was at primary school, I didn\u2019t wear uniform. (now)"
-            },
-            {
-              "id": "m2",
-              "text": "What time do we have our exam - interesting"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U36_I23"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Sports: Olympic Games):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "The police always try to keep the order - interesting"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "Did anybody say my name..."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I24"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "main_text": "In Sports: Olympic Games (5075), The singer [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "drove"
-                },
-                {
-                  "id": "o2",
-                  "text": "drive"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "wrote"
-                },
-                {
-                  "id": "o2",
-                  "text": "write"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U36_I25"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Sports: Olympic Games:",
-          "stimulus_en": "The baker has already learned a letter in the balcony - amazing.",
-          "stimulus_es": "The baker ya ha learned a letter en the balcony - amazing.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "yet"
-            },
-            {
-              "id": "o3",
-              "text": "Other 9442"
-            },
-            {
-              "id": "o1",
-              "text": "already"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I26"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Sports: Olympic Games:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "has"
-            },
-            {
-              "id": "w6",
-              "text": "table"
-            },
-            {
-              "id": "w4",
-              "text": "walked"
-            },
-            {
-              "id": "w1",
-              "text": "cousin"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w9",
-              "text": "museum"
-            },
-            {
-              "id": "w3",
-              "text": "already"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U36_I27"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "stimulus_en": "The singer has ___ bought a door in the station - 481.",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I28"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Sports: Olympic Games)",
-          "stimulus_en": "The boss has yet met a pizza in the library - amazing.",
-          "stimulus_es": "Ref: The boss ya ha met a pizza en the library - amazing.",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I29"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sarah ya ha built a watch en the university - 468.",
-              "right": "Sarah has already built a watch in the university - 468."
-            },
-            {
-              "id": "p1",
-              "left": "The boss ya ha watched music en school - amazing.",
-              "right": "The boss has already watched music in school - amazing."
-            },
-            {
-              "id": "p2",
-              "left": "The architect ya ha planned a table en the hotel (today).",
-              "right": "The architect has already planned a table in the hotel (today)."
-            },
-            {
-              "id": "p3",
-              "left": "They ya ha visited a camera en the kitchen - 272.",
-              "right": "They has already visited a camera in the kitchen - 272."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I30"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Sports: Olympic Games):",
-          "tts_en": "Our neighbors has already listened a clock in the museum..",
-          "correct_answer": "Our neighbors has already listened a clock in the museum..",
-          "mastery_tag": "listening",
-          "interaction_id": "U36_I31"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o0",
-              "text": "Guitar"
-            },
-            {
-              "id": "o4",
-              "text": "Book9044"
-            },
-            {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o2",
-              "text": "Flute"
-            },
-            {
-              "id": "o3",
-              "text": "Drums"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I32"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 283 - Sports: Olympic Games:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Many, para countable, decimos!",
-              "back": "I don\u2019t have many friends (friends is countable).!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I33"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 283 (Sports: Olympic Games):",
-          "instruction_en": "Why is Sports: Olympic Games important? [Ref: 22]",
-          "mastery_tag": "writing",
-          "interaction_id": "U36_I34"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 283 (Sports: Olympic Games):",
-          "stimulus_en": "Improve Sports: Olympic Games. (423)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U36_I35"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
-          "stimulus": "Matching set 3760",
-          "items": [
-            {
-              "id": "i0",
-              "text": "2. Let\u2019s do the same with the first example - amazing",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Has visto alguna vez una pel\u00edcula en versi\u00f3n original? - interesting",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "7. read books slowly / I / always - amazing",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "I always read books slowly - amazing"
-            },
-            {
-              "id": "m0",
-              "text": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject! - amazing"
-            },
-            {
-              "id": "m1",
-              "text": "have you ever seen a film in original version - interesting"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U36_I36"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Sports: Olympic Games):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l)...."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "would you like some more..."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I37"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "main_text": "In Sports: Olympic Games (5121), The nurse [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "wrote"
-                },
-                {
-                  "id": "o2",
-                  "text": "write"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "prepared"
-                },
-                {
-                  "id": "o2",
-                  "text": "prepare"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U36_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Sports: Olympic Games:",
-          "stimulus_en": "I has already taught an email in the country - 997.",
-          "stimulus_es": "I ya ha taught an email en the country - 997.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "already"
-            },
-            {
-              "id": "o3",
-              "text": "Other 6406"
-            },
-            {
-              "id": "o2",
-              "text": "yet"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Sports: Olympic Games:",
-          "options": [
-            {
-              "id": "w11",
-              "text": "(today)"
-            },
-            {
-              "id": "w4",
-              "text": "already"
-            },
-            {
-              "id": "w1",
-              "text": "police"
-            },
-            {
-              "id": "w2",
-              "text": "officer"
-            },
-            {
-              "id": "w3",
-              "text": "has"
-            },
-            {
-              "id": "w9",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "a"
-            },
-            {
-              "id": "w10",
-              "text": "garage"
-            },
-            {
-              "id": "w8",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w7",
-              "text": "book"
-            },
-            {
-              "id": "w5",
-              "text": "helped"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U36_I40"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "stimulus_en": "The boss has ___ met a laptop in the shop!.",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I41"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Sports: Olympic Games)",
-          "stimulus_en": "You has already traveled a radio in the beach!.",
-          "stimulus_es": "Ref: You ya ha traveled a radio en the beach!.",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I42"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "She ya ha traveled tennis en London!.",
-              "right": "She has already traveled tennis in London!."
-            },
-            {
-              "id": "p1",
-              "left": "The teacher ya ha organized a computer en the city - interesting.",
-              "right": "The teacher has already organized a computer in the city - interesting."
-            },
-            {
-              "id": "p2",
-              "left": "My cousin ya ha walked English en the hospital (today).",
-              "right": "My cousin has already walked English in the hospital (today)."
-            },
-            {
-              "id": "p3",
-              "left": "The driver ya ha created a ticket en Paris - interesting.",
-              "right": "The driver has already created a ticket in Paris - interesting."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I43"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Sports: Olympic Games):",
-          "tts_en": "She has already studied a report in the city!.",
-          "correct_answer": "She has already studied a report in the city!.",
-          "mastery_tag": "listening",
-          "interaction_id": "U36_I44"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Planet"
-            },
-            {
-              "id": "o2",
-              "text": "Star"
-            },
-            {
-              "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
-              "id": "o4",
-              "text": "Hot9172"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I45"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 284 - Sports: Olympic Games:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "8. \u00a0usually / my father / goes to work by bus...",
-              "back": "my father usually goes to work by bus..."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I46"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 284 (Sports: Olympic Games):",
-          "instruction_en": "Why is Sports: Olympic Games important? [Ref: 85]",
-          "mastery_tag": "writing",
-          "interaction_id": "U36_I47"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 284 (Sports: Olympic Games):",
-          "stimulus_en": "Where is Sports: Olympic Games? (735)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U36_I48"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
-          "stimulus": "Matching set 9799",
-          "items": [
-            {
-              "id": "i0",
-              "text": "M\u00e1s plurales irregulares que nos podemos encontrar son!",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Has visto a alguien?!",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Countable nouns - interesting",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc. - interesting"
-            },
-            {
-              "id": "m1",
-              "text": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb.!"
-            },
-            {
-              "id": "m0",
-              "text": "men, women, people, etc.!"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U36_I49"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Sports: Olympic Games):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "my cousin\u2019s husband is German and his mother Irish. (today)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - amazing"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I50"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "main_text": "In Sports: Olympic Games (784), He [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "drank"
-                },
-                {
-                  "id": "o2",
-                  "text": "drink"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "prepared"
-                },
-                {
-                  "id": "o2",
-                  "text": "prepare"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U36_I51"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Sports: Olympic Games:",
-          "stimulus_en": "They has already met a dog in the station - 190.",
-          "stimulus_es": "They ya ha met a dog en the station - 190.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "already"
-            },
-            {
-              "id": "o2",
-              "text": "yet"
-            },
-            {
-              "id": "o3",
-              "text": "Other 3221"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I52"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Sports: Olympic Games:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "has"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "pizza"
-            },
-            {
-              "id": "w3",
-              "text": "already"
-            },
-            {
-              "id": "w4",
-              "text": "traveled"
-            },
-            {
-              "id": "w9",
-              "text": "kitchen"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w10",
-              "text": "interesting"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U36_I53"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "stimulus_en": "The doctor has ___ played football in the country (now).",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I54"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Sports: Olympic Games)",
-          "stimulus_en": "Maria has yet organized football in the hospital..",
-          "stimulus_es": "Ref: Maria ya ha organized football en the hospital..",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I55"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "The actress ya ha prepared a laptop en the restaurant!.",
-              "right": "The actress has already prepared a laptop in the restaurant!."
-            },
-            {
-              "id": "p1",
-              "left": "The player ya ha met a bike en the kitchen - interesting.",
-              "right": "The player has already met a bike in the kitchen - interesting."
-            },
-            {
-              "id": "p2",
-              "left": "The pilot ya ha eaten English en the garden - amazing.",
-              "right": "The pilot has already eaten English in the garden - amazing."
-            },
-            {
-              "id": "p3",
-              "left": "The nurse ya ha eaten a bike en the airport!.",
-              "right": "The nurse has already eaten a bike in the airport!."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I56"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Sports: Olympic Games):",
-          "tts_en": "The singer has already cooked a window in the bedroom....",
-          "correct_answer": "The singer has already cooked a window in the bedroom....",
-          "mastery_tag": "listening",
-          "interaction_id": "U36_I57"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "Fast4716"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o3",
-              "text": "Calm"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I58"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 285 - Sports: Olympic Games:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "The correct thing - interesting",
-              "back": "My friend has a lot of money. - interesting"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I59"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 285 (Sports: Olympic Games):",
-          "instruction_en": "Describe Sports: Olympic Games in 5 words. [Ref: 26]",
-          "mastery_tag": "writing",
-          "interaction_id": "U36_I60"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 285 (Sports: Olympic Games):",
-          "stimulus_en": "Study Sports: Olympic Games now. (458)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U36_I61"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
-          "stimulus": "Matching set 4195",
-          "items": [
-            {
-              "id": "i0",
-              "text": "A qu\u00e9 hora abre el supermercado?...",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "my / My / spoils / neighbour / holidays / always (today)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Otro common mistake...",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "What time does the supermarket open..."
-            },
-            {
-              "id": "m2",
-              "text": "Have you a car?..."
-            },
-            {
-              "id": "m1",
-              "text": "My neighbour always spoils my holidays (today)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U36_I62"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Sports: Olympic Games):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. (now)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "I don\u2019t have any friends who live near my house. - interesting"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I63"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "main_text": "In Sports: Olympic Games (1033), He [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "sold"
-                },
-                {
-                  "id": "o2",
-                  "text": "sell"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "organized"
-                },
-                {
-                  "id": "o2",
-                  "text": "organize"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U36_I64"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Sports: Olympic Games:",
-          "stimulus_en": "The lawyer has already studied a phone in the supermarket..",
-          "stimulus_es": "The lawyer ya ha studied a phone en the supermarket..",
-          "options": [
-            {
-              "id": "o2",
-              "text": "yet"
-            },
-            {
-              "id": "o3",
-              "text": "Other 5823"
-            },
-            {
-              "id": "o1",
-              "text": "already"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I65"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Sports: Olympic Games:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Sarah"
-            },
-            {
-              "id": "w7",
-              "text": "garden"
-            },
-            {
-              "id": "w8",
-              "text": "interesting"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w4",
-              "text": "football"
-            },
-            {
-              "id": "w3",
-              "text": "listened"
-            },
-            {
-              "id": "w2",
-              "text": "already"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U36_I66"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "stimulus_en": "John has ___ read English in the office....",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I67"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Sports: Olympic Games)",
-          "stimulus_en": "The baker has yet watched a radio in the hospital!.",
-          "stimulus_es": "Ref: The baker ya ha watched a radio en the hospital!.",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U36_I68"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "The student ya ha planned a watch en the garage - 572.",
-              "right": "The student has already planned a watch in the garage - 572."
-            },
-            {
-              "id": "p1",
-              "left": "Maria ya ha studied a clock en the garage (now).",
-              "right": "Maria has already studied a clock in the garage (now)."
-            },
-            {
-              "id": "p2",
-              "left": "The coach ya ha helped a printer en the university - amazing.",
-              "right": "The coach has already helped a printer in the university - amazing."
-            },
-            {
-              "id": "p3",
-              "left": "The waiter ya ha cleaned a phone en the bedroom..",
-              "right": "The waiter has already cleaned a phone in the bedroom.."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I69"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Sports: Olympic Games):",
-          "tts_en": "The teacher has already finished a letter in the balcony!.",
-          "correct_answer": "The teacher has already finished a letter in the balcony!.",
-          "mastery_tag": "listening",
-          "interaction_id": "U36_I70"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o4",
-              "text": "run8234"
-            },
-            {
-              "id": "o1",
-              "text": "red"
-            },
-            {
-              "id": "o3",
-              "text": "pink"
-            },
-            {
-              "id": "o0",
-              "text": "blue"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I71"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 286 - Sports: Olympic Games:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "\u2013 Con partes del d\u00eda - interesting",
-              "back": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n) - interesting"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I72"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 286 (Sports: Olympic Games):",
-          "instruction_en": "A small story about Sports: Olympic Games. [Ref: 83]",
-          "mastery_tag": "writing",
-          "interaction_id": "U36_I73"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 286 (Sports: Olympic Games):",
-          "stimulus_en": "Repeat Sports: Olympic Games. (159)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U36_I74"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
-          "stimulus": "Matching set 3235",
-          "items": [
-            {
-              "id": "i0",
-              "text": "on + train/ bus/ plane/ bike/ motorbike!",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Al lado de mi colegio no hay bloques de pisos - amazing",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Si pasamos la oraci\u00f3n a interrogativa, quedar\u00eda as\u00ed.",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "cuando hablamos de forma m\u00e1s espec\u00edfica.!"
-            },
-            {
-              "id": "m2",
-              "text": "Do you have any friends who live near your house? = al ser interrogativa, any.."
-            },
-            {
-              "id": "m1",
-              "text": "Next to my school there aren\u2019t any apartment blocks. - amazing"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U36_I75"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Sports: Olympic Games):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet (now)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "Whose car is that (now)"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U36_I76"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "main_text": "In Sports: Olympic Games (6661), She [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "studied"
-                },
-                {
-                  "id": "o2",
-                  "text": "study"
+                  "text": "buy"
                 }
               ]
             },
@@ -1747,21 +237,907 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U36_I77"
+          "interaction_id": "U36_I12"
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Sports: Olympic Games:",
-          "stimulus_en": "The architect has already finished a camera in the street - amazing.",
-          "stimulus_es": "The architect ya ha finished a camera en the street - amazing.",
+          "prompt_es": "Elige 246 para Sports: Olympic Games:",
+          "stimulus_en": "The chef has already taught a car in the street..",
+          "stimulus_es": "The chef ya ha taught a car en the street..",
           "options": [
             {
+              "id": "o2",
+              "text": "yet"
+            },
+            {
               "id": "o3",
-              "text": "Other 6237"
+              "text": "Other 2203"
             },
             {
               "id": "o1",
               "text": "already"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I13"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 246 sobre Sports: Olympic Games:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "school"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "checked"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w0",
+              "text": "John"
+            },
+            {
+              "id": "w5",
+              "text": "house"
+            },
+            {
+              "id": "w2",
+              "text": "already"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U36_I14"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 282 (Sports: Olympic Games):",
+          "stimulus_en": "The police officer has ___ built coffee in the beach!.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I15"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 282 (Sports: Olympic Games)",
+          "stimulus_en": "We has already fixed a newspaper in the library (today).",
+          "stimulus_es": "Ref: We ya ha fixed a newspaper en the library (today).",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I16"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 282 (Sports: Olympic Games):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "He ya ha worked a dog en the university....",
+              "right": "He has already worked a dog in the university...."
+            },
+            {
+              "id": "p1",
+              "left": "The coach ya ha learned a house en the cinema (today).",
+              "right": "The coach has already learned a house in the cinema (today)."
+            },
+            {
+              "id": "p2",
+              "left": "The teacher ya ha called a watch en the balcony (today).",
+              "right": "The teacher has already called a watch in the balcony (today)."
+            },
+            {
+              "id": "p3",
+              "left": "My cousin ya ha met a radio en the street....",
+              "right": "My cousin has already met a radio in the street...."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I17"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 282 (Sports: Olympic Games):",
+          "tts_en": "John has already started music in the city (today).",
+          "correct_answer": "John has already started music in the city (today).",
+          "mastery_tag": "listening",
+          "interaction_id": "U36_I18"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 282:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "Monday"
+            },
+            {
+              "id": "o4",
+              "text": "June2278"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday"
+            },
+            {
+              "id": "o3",
+              "text": "Friday"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I19"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 282 - Sports: Olympic Games:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Common mistake - amazing",
+              "back": "I don\u2019t know that I will do. - amazing"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I20"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 282 (Sports: Olympic Games):",
+          "instruction_en": "Your daily routine in Sports: Olympic Games. [Ref: 48]",
+          "mastery_tag": "writing",
+          "interaction_id": "U36_I21"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 282 (Sports: Olympic Games):",
+          "stimulus_en": "Focus on Sports: Olympic Games. (823)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U36_I22"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 247 (Sports: Olympic Games):",
+          "stimulus": "Matching set 1095",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Tienes coche? - 853",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "\u2013 Seasons (estaciones)!",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "my / My / spoils / neighbour / holidays / always (today)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "in summer, in winter.!"
+            },
+            {
+              "id": "m2",
+              "text": "My neighbour always spoils my holidays (today)"
+            },
+            {
+              "id": "m0",
+              "text": "do you have a car - 853"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U36_I23"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 247 (Sports: Olympic Games):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject! - 242"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "\u2018m/ \u2018s, etc) - 961"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I24"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 247 (Sports: Olympic Games):",
+          "main_text": "In Sports: Olympic Games (448), The chef [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cleaned"
+                },
+                {
+                  "id": "o2",
+                  "text": "clean"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "learned"
+                },
+                {
+                  "id": "o2",
+                  "text": "learn"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U36_I25"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 247 para Sports: Olympic Games:",
+          "stimulus_en": "The lawyer has already learned a sandwich in the beach - interesting.",
+          "stimulus_es": "The lawyer ya ha learned a sandwich en the beach - interesting.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "yet"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o3",
+              "text": "Other 9689"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I26"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 247 sobre Sports: Olympic Games:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "computer"
+            },
+            {
+              "id": "w7",
+              "text": "London"
+            },
+            {
+              "id": "w2",
+              "text": "already"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w0",
+              "text": "John"
+            },
+            {
+              "id": "w3",
+              "text": "organized"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U36_I27"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 283 (Sports: Olympic Games):",
+          "stimulus_en": "Maria has ___ listened a pizza in the restaurant (today).",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I28"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 283 (Sports: Olympic Games)",
+          "stimulus_en": "The driver has already met an email in the woods..",
+          "stimulus_es": "Ref: The driver ya ha met an email en the woods..",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I29"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 283 (Sports: Olympic Games):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "My sister ya ha created a watch en the cinema..",
+              "right": "My sister has already created a watch in the cinema.."
+            },
+            {
+              "id": "p1",
+              "left": "The chef ya ha listened a laptop en the station - interesting.",
+              "right": "The chef has already listened a laptop in the station - interesting."
+            },
+            {
+              "id": "p2",
+              "left": "We ya ha taught a bike en the airport - amazing.",
+              "right": "We has already taught a bike in the airport - amazing."
+            },
+            {
+              "id": "p3",
+              "left": "My sister ya ha helped English en the airport..",
+              "right": "My sister has already helped English in the airport.."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I30"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 283 (Sports: Olympic Games):",
+          "tts_en": "You has already checked a house in the bedroom (now).",
+          "correct_answer": "You has already checked a house in the bedroom (now).",
+          "mastery_tag": "listening",
+          "interaction_id": "U36_I31"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 283:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Planet"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            },
+            {
+              "id": "o1",
+              "text": "Moon"
+            },
+            {
+              "id": "o4",
+              "text": "Hot7947"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I32"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 283 - Sports: Olympic Games:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "La podemos contestar de la seguiente manera...",
+              "back": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l)..."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I33"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 283 (Sports: Olympic Games):",
+          "instruction_en": "Review Sports: Olympic Games from last week. [Ref: 52]",
+          "mastery_tag": "writing",
+          "interaction_id": "U36_I34"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 283 (Sports: Olympic Games):",
+          "stimulus_en": "Improve Sports: Olympic Games. (719)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U36_I35"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 248 (Sports: Olympic Games):",
+          "stimulus": "Matching set 1675",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Cabe destacar que la palabra every es singular en ingl\u00e9s, por tanto, tanto \u00abday\u00bb como cualquiera de los d\u00edas que pongamos, deben ir en singular. Es incorrecto decir.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Qu\u00e9 es lo que empieza? (today)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "angry / Our / teacher / English / usually / is - 220",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "every days o every Tuesdays.."
+            },
+            {
+              "id": "m2",
+              "text": "Our English teacher is usually angry - 220"
+            },
+            {
+              "id": "m1",
+              "text": "la pel\u00edcula, entonces SUBJECT = THE FILM (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U36_I36"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 248 (Sports: Olympic Games):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno. - 112"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "What will the weather be like tomorrow? It\u2019ll be sunny.."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I37"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 248 (Sports: Olympic Games):",
+          "main_text": "In Sports: Olympic Games (9756), The driver [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "finished"
+                },
+                {
+                  "id": "o2",
+                  "text": "finish"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "read"
+                },
+                {
+                  "id": "o2",
+                  "text": "read"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U36_I38"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 248 para Sports: Olympic Games:",
+          "stimulus_en": "Maria has already met a camera in the city!.",
+          "stimulus_es": "Maria ya ha met a camera en the city!.",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 4398"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I39"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 248 sobre Sports: Olympic Games:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "football"
+            },
+            {
+              "id": "w1",
+              "text": "sister"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w4",
+              "text": "started"
+            },
+            {
+              "id": "w8",
+              "text": "university"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w9",
+              "text": "(now)"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U36_I40"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 284 (Sports: Olympic Games):",
+          "stimulus_en": "Maria has ___ stopped a bag in the country....",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I41"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 284 (Sports: Olympic Games)",
+          "stimulus_en": "The singer has already organized a cat in the hospital!.",
+          "stimulus_es": "Ref: The singer ya ha organized a cat en the hospital!.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I42"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 284 (Sports: Olympic Games):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "My friend ya ha driven a cat en the country (today).",
+              "right": "My friend has already driven a cat in the country (today)."
+            },
+            {
+              "id": "p1",
+              "left": "The actress ya ha taught a table en the shop..",
+              "right": "The actress has already taught a table in the shop.."
+            },
+            {
+              "id": "p2",
+              "left": "I ya ha drunk a camera en London - 491.",
+              "right": "I has already drunk a camera in London - 491."
+            },
+            {
+              "id": "p3",
+              "left": "Maria ya ha watched an apple en the station - 465.",
+              "right": "Maria has already watched an apple in the station - 465."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I43"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 284 (Sports: Olympic Games):",
+          "tts_en": "The scientist has already worked a computer in the cinema (today).",
+          "correct_answer": "The scientist has already worked a computer in the cinema (today).",
+          "mastery_tag": "listening",
+          "interaction_id": "U36_I44"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 284:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "pink"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
+            },
+            {
+              "id": "o1",
+              "text": "red"
+            },
+            {
+              "id": "o4",
+              "text": "run9110"
+            },
+            {
+              "id": "o2",
+              "text": "green"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I45"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 284 - Sports: Olympic Games:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "5. never / drinks coffee in the evening / she!",
+              "back": "she never drinks coffee in the evening!"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I46"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 284 (Sports: Olympic Games):",
+          "instruction_en": "Why is Sports: Olympic Games important? [Ref: 36]",
+          "mastery_tag": "writing",
+          "interaction_id": "U36_I47"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 284 (Sports: Olympic Games):",
+          "stimulus_en": "Where is Sports: Olympic Games? (920)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U36_I48"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 249 (Sports: Olympic Games):",
+          "stimulus": "Matching set 9268",
+          "items": [
+            {
+              "id": "i0",
+              "text": "A qu\u00e9 hora sale el tren?.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Otro ejemplo!",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "often / money / Sally / her / borrows / friends / from - 846",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "Sally often borrows money from her friends - 846"
+            },
+            {
+              "id": "m0",
+              "text": "What time does the train leave."
+            },
+            {
+              "id": "m1",
+              "text": "My partner is the most beautiful woman in the world!"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U36_I49"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 249 (Sports: Olympic Games):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "What\u2019s his name - interesting"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. (now)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I50"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 249 (Sports: Olympic Games):",
+          "main_text": "In Sports: Olympic Games (2585), The coach [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cooked"
+                },
+                {
+                  "id": "o2",
+                  "text": "cook"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "helped"
+                },
+                {
+                  "id": "o2",
+                  "text": "help"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U36_I51"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 249 para Sports: Olympic Games:",
+          "stimulus_en": "The boss has already checked football in the woods!.",
+          "stimulus_es": "The boss ya ha checked football en the woods!.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o3",
+              "text": "Other 3241"
             },
             {
               "id": "o2",
@@ -1770,39 +1146,47 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U36_I78"
+          "interaction_id": "U36_I52"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Sports: Olympic Games:",
+          "prompt_es": "Ordena 249 sobre Sports: Olympic Games:",
           "options": [
             {
-              "id": "w3",
-              "text": "already"
-            },
-            {
-              "id": "w6",
-              "text": "window"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "finished"
-            },
-            {
-              "id": "w2",
-              "text": "has"
+              "id": "w10",
+              "text": "amazing"
             },
             {
               "id": "w7",
               "text": "in"
             },
             {
+              "id": "w4",
+              "text": "drunk"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w9",
+              "text": "restaurant"
+            },
+            {
+              "id": "w6",
+              "text": "gift"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
               "id": "w8",
-              "text": "school"
+              "text": "the"
             },
             {
               "id": "w0",
@@ -1810,7 +1194,306 @@
             },
             {
               "id": "w1",
-              "text": "artist"
+              "text": "singer"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U36_I53"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 285 (Sports: Olympic Games):",
+          "stimulus_en": "The doctor has ___ created a book in the library..",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I54"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 285 (Sports: Olympic Games)",
+          "stimulus_en": "The coach has yet driven a chair in the restaurant (now).",
+          "stimulus_es": "Ref: The coach ya ha driven a chair en the restaurant (now).",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I55"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 285 (Sports: Olympic Games):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The singer ya ha taught a pen en the museum..",
+              "right": "The singer has already taught a pen in the museum.."
+            },
+            {
+              "id": "p1",
+              "left": "John ya ha sold a gift en the office!.",
+              "right": "John has already sold a gift in the office!."
+            },
+            {
+              "id": "p2",
+              "left": "Our neighbors ya ha walked a cat en the station - 551.",
+              "right": "Our neighbors has already walked a cat in the station - 551."
+            },
+            {
+              "id": "p3",
+              "left": "The doctor ya ha finished a letter en the beach....",
+              "right": "The doctor has already finished a letter in the beach...."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I56"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 285 (Sports: Olympic Games):",
+          "tts_en": "The scientist has already spoken a house in school (today).",
+          "correct_answer": "The scientist has already spoken a house in school (today).",
+          "mastery_tag": "listening",
+          "interaction_id": "U36_I57"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 285:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "London"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o2",
+              "text": "Berlin"
+            },
+            {
+              "id": "o4",
+              "text": "Slow1382"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I58"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 285 - Sports: Olympic Games:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Escribir ingl\u00e9s correctamente (now)",
+              "back": "uso de las may\u00fasculas (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I59"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 285 (Sports: Olympic Games):",
+          "instruction_en": "Draft an email regarding Sports: Olympic Games. [Ref: 64]",
+          "mastery_tag": "writing",
+          "interaction_id": "U36_I60"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 285 (Sports: Olympic Games):",
+          "stimulus_en": "Where is Sports: Olympic Games? (263)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U36_I61"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 250 (Sports: Olympic Games):",
+          "stimulus": "Matching set 9952",
+          "items": [
+            {
+              "id": "i0",
+              "text": "5. El zumo de tu abuela...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "The correct thing...",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "C\u00f3mo se siente tu madre? - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "I have 3 children...."
+            },
+            {
+              "id": "m0",
+              "text": "Your grandmother\u2019s juice..."
+            },
+            {
+              "id": "m2",
+              "text": "How is your mum feeling - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U36_I62"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 250 (Sports: Olympic Games):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I don\u2019t want to sit opposite him.!"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Is she studying English (now)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I63"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 250 (Sports: Olympic Games):",
+          "main_text": "In Sports: Olympic Games (9930), My cousin [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drank"
+                },
+                {
+                  "id": "o2",
+                  "text": "drink"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "played"
+                },
+                {
+                  "id": "o2",
+                  "text": "play"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U36_I64"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 250 para Sports: Olympic Games:",
+          "stimulus_en": "She has already helped football in the park (now).",
+          "stimulus_es": "She ya ha helped football en the park (now).",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 5845"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I65"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 250 sobre Sports: Olympic Games:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "television"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "boss"
+            },
+            {
+              "id": "w8",
+              "text": "London"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "built"
+            },
+            {
+              "id": "w3",
+              "text": "already"
             }
           ],
           "correct_answer": [
@@ -1825,48 +1508,350 @@
             "w8"
           ],
           "mastery_tag": "syntax",
+          "interaction_id": "U36_I66"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 286 (Sports: Olympic Games):",
+          "stimulus_en": "He has ___ prepared a bag in the museum....",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I67"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 286 (Sports: Olympic Games)",
+          "stimulus_en": "My friend has already read a ticket in the shop - amazing.",
+          "stimulus_es": "Ref: My friend ya ha read a ticket en the shop - amazing.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I68"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 286 (Sports: Olympic Games):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "A colleague ya ha taught a window en the university - 344.",
+              "right": "A colleague has already taught a window in the university - 344."
+            },
+            {
+              "id": "p1",
+              "left": "You ya ha received a bike en the mountains (now).",
+              "right": "You has already received a bike in the mountains (now)."
+            },
+            {
+              "id": "p2",
+              "left": "The coach ya ha planned a watch en the cinema!.",
+              "right": "The coach has already planned a watch in the cinema!."
+            },
+            {
+              "id": "p3",
+              "left": "They ya ha stopped a ticket en the stadium (today).",
+              "right": "They has already stopped a ticket in the stadium (today)."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I69"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 286 (Sports: Olympic Games):",
+          "tts_en": "He has already driven a bike in the bank..",
+          "correct_answer": "He has already driven a bike in the bank..",
+          "mastery_tag": "listening",
+          "interaction_id": "U36_I70"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 286:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o4",
+              "text": "Book2576"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I71"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 286 - Sports: Olympic Games:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "En espa\u00f1ol dir\u00edamos - 844",
+              "back": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest). - 844"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I72"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 286 (Sports: Olympic Games):",
+          "instruction_en": "Draft an email regarding Sports: Olympic Games. [Ref: 54]",
+          "mastery_tag": "writing",
+          "interaction_id": "U36_I73"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 286 (Sports: Olympic Games):",
+          "stimulus_en": "Focus on Sports: Olympic Games. (997)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U36_I74"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 251 (Sports: Olympic Games):",
+          "stimulus": "Matching set 7347",
+          "items": [
+            {
+              "id": "i0",
+              "text": "M\u00e1s plurales irregulares que nos podemos encontrar son - amazing",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "\u2013 Seasons (estaciones)!",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Crees que bajar\u00e1 el paro este a\u00f1o? - amazing",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "men, women, people, etc. - amazing"
+            },
+            {
+              "id": "m2",
+              "text": "Do you think that unemployment will go down this year - amazing"
+            },
+            {
+              "id": "m1",
+              "text": "in summer, in winter.!"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U36_I75"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 251 (Sports: Olympic Games):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb...."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U36_I76"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 251 (Sports: Olympic Games):",
+          "main_text": "In Sports: Olympic Games (8986), The singer [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "received"
+                },
+                {
+                  "id": "o2",
+                  "text": "receive"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "ate"
+                },
+                {
+                  "id": "o2",
+                  "text": "eat"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U36_I77"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 251 para Sports: Olympic Games:",
+          "stimulus_en": "The boss has already worked a radio in Paris (today).",
+          "stimulus_es": "The boss ya ha worked a radio en Paris (today).",
+          "options": [
+            {
+              "id": "o2",
+              "text": "yet"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o3",
+              "text": "Other 942"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U36_I78"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 251 sobre Sports: Olympic Games:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "checked"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w1",
+              "text": "friend"
+            },
+            {
+              "id": "w6",
+              "text": "car"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w9",
+              "text": "219"
+            },
+            {
+              "id": "w8",
+              "text": "Paris"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U36_I79"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "stimulus_en": "A colleague has ___ received a bike in the station (today).",
+          "prompt_es": "Completa 287 (Sports: Olympic Games):",
+          "stimulus_en": "The driver has ___ created a clock in the museum..",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U36_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Sports: Olympic Games)",
-          "stimulus_en": "The pilot has yet taught a bike in the stadium (today).",
-          "stimulus_es": "Ref: The pilot ya ha taught a bike en the stadium (today).",
+          "prompt_es": "\u00bfCorrecto? 287 (Sports: Olympic Games)",
+          "stimulus_en": "The police officer has yet finished a computer in the woods - amazing.",
+          "stimulus_es": "Ref: The police officer ya ha finished a computer en the woods - amazing.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U36_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
+          "prompt_es": "Relaciona 287 (Sports: Olympic Games):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The actress ya ha studied a radio en the university (today).",
-              "right": "The actress has already studied a radio in the university (today)."
+              "left": "The police officer ya ha sold a laptop en the stadium - 637.",
+              "right": "The police officer has already sold a laptop in the stadium - 637."
             },
             {
               "id": "p1",
-              "left": "The manager ya ha met a pizza en the supermarket!.",
-              "right": "The manager has already met a pizza in the supermarket!."
+              "left": "She ya ha written a dog en the stadium!.",
+              "right": "She has already written a dog in the stadium!."
             },
             {
               "id": "p2",
-              "left": "The artist ya ha finished a newspaper en the hospital..",
-              "right": "The artist has already finished a newspaper in the hospital.."
+              "left": "The student ya ha worked a chair en the library..",
+              "right": "The student has already worked a chair in the library.."
             },
             {
               "id": "p3",
-              "left": "We ya ha planned a bag en the garage (today).",
-              "right": "We has already planned a bag in the garage (today)."
+              "left": "A colleague ya ha drunk a printer en the balcony (now).",
+              "right": "A colleague has already drunk a printer in the balcony (now)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1874,35 +1859,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Sports: Olympic Games):",
-          "tts_en": "The boss has already watched a computer in the stadium - 468.",
-          "correct_answer": "The boss has already watched a computer in the stadium - 468.",
+          "prompt_es": "Dictado 287 (Sports: Olympic Games):",
+          "tts_en": "The teacher has already walked a printer in the hospital (today).",
+          "correct_answer": "The teacher has already walked a printer in the hospital (today).",
           "mastery_tag": "listening",
           "interaction_id": "U36_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 287:",
           "options": [
             {
-              "id": "o2",
-              "text": "salad"
-            },
-            {
-              "id": "o4",
-              "text": "rain8275"
-            },
-            {
               "id": "o3",
-              "text": "soup"
+              "text": "pink"
             },
             {
               "id": "o1",
-              "text": "burger"
+              "text": "red"
+            },
+            {
+              "id": "o2",
+              "text": "green"
+            },
+            {
+              "id": "o4",
+              "text": "run3354"
             },
             {
               "id": "o0",
-              "text": "pizza"
+              "text": "blue"
             }
           ],
           "correct_answer": "o4",
@@ -1915,8 +1900,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Los adjetivos tienen tres formas...",
-              "back": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo...."
+              "front": "6. it / rain in the summer / often / doesn\u2019t - 575",
+              "back": "it doesn\u2019t often rain in the summer - 575"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1925,50 +1910,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 287 (Sports: Olympic Games):",
-          "instruction_en": "Draft an email regarding Sports: Olympic Games. [Ref: 99]",
+          "instruction_en": "Why is Sports: Olympic Games important? [Ref: 33]",
           "mastery_tag": "writing",
           "interaction_id": "U36_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 287 (Sports: Olympic Games):",
-          "stimulus_en": "Look at Sports: Olympic Games. (311)",
+          "stimulus_en": "Where is Sports: Olympic Games? (727)",
           "mastery_tag": "speaking",
           "interaction_id": "U36_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
-          "stimulus": "Matching set 2452",
+          "prompt_es": "Une 252 (Sports: Olympic Games):",
+          "stimulus": "Matching set 7276",
           "items": [
             {
               "id": "i0",
-              "text": "Litre (Br Eng) (Am Eng - amazing",
+              "text": "Common mistake - interesting",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Por ejemplo - 367",
+              "text": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que le\u00e1is la explicaci\u00f3n y aprend\u00e1is, o repas\u00e9is, qu\u00e9 es y c\u00f3mo se forman las indirect questions (preguntas indirectas). Aqu\u00ed lo puedes revisar.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo - interesting",
+              "text": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? - interesting",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "liter) Litro - amazing"
+              "id": "m2",
+              "text": "What\u2019s the happiest day you\u2019ve ever had - interesting"
             },
             {
-              "id": "m2",
-              "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. - interesting"
+              "id": "m0",
+              "text": "I hadn\u2019t got a mobile. - interesting"
             },
             {
               "id": "m1",
-              "text": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. - 367"
+              "text": "Indirect questions en ingl\u00e9s.."
             }
           ],
           "correct_answer": {
@@ -1981,7 +1966,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Sports: Olympic Games):",
+          "prompt_es": "Clasifica 252 (Sports: Olympic Games):",
           "categories": [
             {
               "id": "c1",
@@ -1989,7 +1974,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "do you have a car."
+                  "text": "What will the weather be like tomorrow? It\u2019ll be sunny. (today)"
                 }
               ]
             },
@@ -1999,7 +1984,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "may I open the window, please - amazing"
+                  "text": "chemist) Farmacia..."
                 }
               ]
             }
@@ -2009,19 +1994,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "main_text": "In Sports: Olympic Games (8300), The pilot [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 252 (Sports: Olympic Games):",
+          "main_text": "In Sports: Olympic Games (5552), The student [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "designed"
+                  "text": "drank"
                 },
                 {
                   "id": "o2",
-                  "text": "design"
+                  "text": "drink"
                 }
               ]
             },
@@ -2030,11 +2015,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "bought"
+                  "text": "listened"
                 },
                 {
                   "id": "o2",
-                  "text": "buy"
+                  "text": "listen"
                 }
               ]
             }
@@ -2048,21 +2033,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Sports: Olympic Games:",
-          "stimulus_en": "The architect has already spoken tennis in the office - amazing.",
-          "stimulus_es": "The architect ya ha spoken tennis en the office - amazing.",
+          "prompt_es": "Elige 252 para Sports: Olympic Games:",
+          "stimulus_en": "The lawyer has already written a pizza in the shop (now).",
+          "stimulus_es": "The lawyer ya ha written a pizza en the shop (now).",
           "options": [
-            {
-              "id": "o2",
-              "text": "yet"
-            },
-            {
-              "id": "o3",
-              "text": "Other 2298"
-            },
             {
               "id": "o1",
               "text": "already"
+            },
+            {
+              "id": "o3",
+              "text": "Other 4103"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
             }
           ],
           "correct_answer": "o1",
@@ -2071,35 +2056,51 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Sports: Olympic Games:",
+          "prompt_es": "Ordena 252 sobre Sports: Olympic Games:",
           "options": [
             {
               "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w0",
-              "text": "She"
+              "text": "coach"
             },
             {
               "id": "w6",
-              "text": "school"
+              "text": "report"
             },
             {
               "id": "w3",
-              "text": "written"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w2",
               "text": "already"
             },
             {
+              "id": "w10",
+              "text": "(now)"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w9",
+              "text": "hospital"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
               "id": "w4",
-              "text": "coffee"
+              "text": "started"
+            },
+            {
+              "id": "w2",
+              "text": "has"
             }
           ],
           "correct_answer": [
@@ -2109,51 +2110,55 @@
             "w3",
             "w4",
             "w5",
-            "w6"
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U36_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Sports: Olympic Games):",
-          "stimulus_en": "They has ___ walked a television in the hotel (today).",
+          "prompt_es": "Completa 288 (Sports: Olympic Games):",
+          "stimulus_en": "You has ___ stopped a window in Paris (now).",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U36_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Sports: Olympic Games)",
-          "stimulus_en": "The player has yet visited a door in the airport....",
-          "stimulus_es": "Ref: The player ya ha visited a door en the airport....",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 288 (Sports: Olympic Games)",
+          "stimulus_en": "The driver has already called a clock in the hospital!.",
+          "stimulus_es": "Ref: The driver ya ha called a clock en the hospital!.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U36_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Sports: Olympic Games):",
+          "prompt_es": "Relaciona 288 (Sports: Olympic Games):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A colleague ya ha planned football en the beach (today).",
-              "right": "A colleague has already planned football in the beach (today)."
+              "left": "My friend ya ha walked a radio en the university - amazing.",
+              "right": "My friend has already walked a radio in the university - amazing."
             },
             {
               "id": "p1",
-              "left": "The doctor ya ha eaten football en the cinema - interesting.",
-              "right": "The doctor has already eaten football in the cinema - interesting."
+              "left": "The student ya ha finished a clock en the stadium..",
+              "right": "The student has already finished a clock in the stadium.."
             },
             {
               "id": "p2",
-              "left": "She ya ha stopped a printer en the bank - 299.",
-              "right": "She has already stopped a printer in the bank - 299."
+              "left": "I ya ha drunk a television en the balcony....",
+              "right": "I has already drunk a television in the balcony...."
             },
             {
               "id": "p3",
-              "left": "The actress ya ha prepared a table en the shop (today).",
-              "right": "The actress has already prepared a table in the shop (today)."
+              "left": "You ya ha read English en the street (now).",
+              "right": "You has already read English in the street (now)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2161,35 +2166,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Sports: Olympic Games):",
-          "tts_en": "The player has already listened an email in the shop - 210.",
-          "correct_answer": "The player has already listened an email in the shop - 210.",
+          "prompt_es": "Dictado 288 (Sports: Olympic Games):",
+          "tts_en": "The player has already walked a bag in the airport..",
+          "correct_answer": "The player has already walked a bag in the airport..",
           "mastery_tag": "listening",
           "interaction_id": "U36_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 288:",
           "options": [
             {
-              "id": "o0",
-              "text": "London"
+              "id": "o2",
+              "text": "Angry"
             },
             {
               "id": "o4",
-              "text": "Slow403"
+              "text": "Fast1864"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
             },
             {
               "id": "o1",
-              "text": "Tokyo"
-            },
-            {
-              "id": "o2",
-              "text": "Berlin"
+              "text": "Sad"
             },
             {
               "id": "o3",
-              "text": "Paris"
+              "text": "Calm"
             }
           ],
           "correct_answer": "o4",
@@ -2202,8 +2207,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "car / I / drink / never / if / drive / I / alcohol / a - 153",
-              "back": "I never drink alcohol if I drive a car - 153"
+              "front": "Countable nouns - 484",
+              "back": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc. - 484"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2212,14 +2217,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 288 (Sports: Olympic Games):",
-          "instruction_en": "A small story about Sports: Olympic Games. [Ref: 85]",
+          "instruction_en": "Compare Sports: Olympic Games with another topic. [Ref: 96]",
           "mastery_tag": "writing",
           "interaction_id": "U36_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 288 (Sports: Olympic Games):",
-          "stimulus_en": "Talk about Sports: Olympic Games. (562)",
+          "stimulus_en": "Study Sports: Olympic Games now. (741)",
           "mastery_tag": "speaking",
           "interaction_id": "U36_I100"
         }

@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "stimulus_en": "The Phone: Making Calls was exhausting, so The actress was ___!.",
-          "correct_answer": "exhausted",
+          "prompt_es": "Completa 329 (Phone: Making Calls):",
+          "stimulus_en": "The Phone: Making Calls was amazing, so My brother was ___ - amazing.",
+          "correct_answer": "interested",
           "mastery_tag": "grammar",
           "interaction_id": "U42_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Phone: Making Calls)",
-          "stimulus_en": "The Phone: Making Calls was exciting, so The boss was exciting!.",
-          "stimulus_es": "Ref: La Phone: Making Calls fue exciting, as\u00ed que The boss estuvo exhausted!.",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 329 (Phone: Making Calls)",
+          "stimulus_en": "The Phone: Making Calls was satisfying, so We was amazed - amazing.",
+          "stimulus_es": "Ref: La Phone: Making Calls fue satisfying, as\u00ed que We estuvo amazed - amazing.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
+          "prompt_es": "Relaciona 329 (Phone: Making Calls):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Phone: Making Calls fue shocked, as\u00ed que Sarah estuvo inspired (today).",
-              "right": "The Phone: Making Calls was shocked, so Sarah was inspired (today)."
+              "left": "La Phone: Making Calls fue tiring, as\u00ed que We estuvo interested - amazing.",
+              "right": "The Phone: Making Calls was tiring, so We was interested - amazing."
             },
             {
               "id": "p1",
-              "left": "La Phone: Making Calls fue frightening, as\u00ed que The police officer estuvo satisfied (today).",
-              "right": "The Phone: Making Calls was frightening, so The police officer was satisfied (today)."
+              "left": "La Phone: Making Calls fue depressing, as\u00ed que The waiter estuvo exhausted!.",
+              "right": "The Phone: Making Calls was depressing, so The waiter was exhausted!."
             },
             {
               "id": "p2",
-              "left": "La Phone: Making Calls fue embarrassing, as\u00ed que She estuvo confused..",
-              "right": "The Phone: Making Calls was embarrassing, so She was confused.."
+              "left": "La Phone: Making Calls fue puzzling, as\u00ed que We estuvo relaxed!.",
+              "right": "The Phone: Making Calls was puzzling, so We was relaxed!."
             },
             {
               "id": "p3",
-              "left": "La Phone: Making Calls fue worrying, as\u00ed que She estuvo relaxed - 648.",
-              "right": "The Phone: Making Calls was worrying, so She was relaxed - 648."
+              "left": "La Phone: Making Calls fue boring, as\u00ed que The police officer estuvo amazed!.",
+              "right": "The Phone: Making Calls was boring, so The police officer was amazed!."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Phone: Making Calls):",
-          "tts_en": "The Phone: Making Calls was tiring, so My brother was surprised (today).",
-          "correct_answer": "The Phone: Making Calls was tiring, so My brother was surprised (today).",
+          "prompt_es": "Dictado 329 (Phone: Making Calls):",
+          "tts_en": "The Phone: Making Calls was amusing, so The waiter was bored!.",
+          "correct_answer": "The Phone: Making Calls was amusing, so The waiter was bored!.",
           "mastery_tag": "listening",
           "interaction_id": "U42_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 329:",
           "options": [
             {
               "id": "o1",
-              "text": "red"
-            },
-            {
-              "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o0",
-              "text": "blue"
-            },
-            {
-              "id": "o3",
-              "text": "pink"
+              "text": "Tokyo"
             },
             {
               "id": "o4",
-              "text": "run7475"
+              "text": "Slow8872"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
+            },
+            {
+              "id": "o0",
+              "text": "London"
+            },
+            {
+              "id": "o2",
+              "text": "Berlin"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Has visto a alguien?.",
-              "back": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb.."
+              "front": "Por tanto, podemos afirmar que -ed para personas y -ing para cosas o situaciones. Es cierto que a veces tambi\u00e9n utilizamos -ing para personas, y \u00bfcu\u00e1ndo? Debes tener en cuenta que la terminaci\u00f3n -ing indica una cualidad permanente, mientras que -ed es temporal. Si yo digo - amazing",
+              "back": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 329 (Phone: Making Calls):",
-          "instruction_en": "Compare Phone: Making Calls with another topic. [Ref: 63]",
+          "instruction_en": "Compare Phone: Making Calls with another topic. [Ref: 84]",
           "mastery_tag": "writing",
           "interaction_id": "U42_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 329 (Phone: Making Calls):",
-          "stimulus_en": "This is Phone: Making Calls. (195)",
+          "stimulus_en": "Talk about Phone: Making Calls. (408)",
           "mastery_tag": "speaking",
           "interaction_id": "U42_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
-          "stimulus": "Matching set 1862",
+          "prompt_es": "Une 288 (Phone: Making Calls):",
+          "stimulus": "Matching set 1868",
           "items": [
             {
               "id": "i0",
-              "text": "Esto si es un precio exacto, pero \u00bfy si hay c\u00e9ntimos? Entonces dir\u00edamos - interesting",
+              "text": "Has estado alguna vez en Canad\u00e1? (now)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Movie theater (Br Eng - amazing",
+              "text": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo...",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "\u00bfEst\u00e1s estudiando franc\u00e9s?...",
+              "text": "Cu\u00e1ndo iremos a la playa? - 828",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. - interesting"
+              "id": "m1",
+              "text": "how often do you have Italian classes? = I have every Tuesday...."
             },
             {
               "id": "m2",
-              "text": "are you learning French?..."
+              "text": "When are we going to the beach - 828"
             },
             {
-              "id": "m1",
-              "text": "cinema) Cine - amazing"
+              "id": "m0",
+              "text": "have you ever been to Canada (now)"
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Phone: Making Calls):",
+          "prompt_es": "Clasifica 288 (Phone: Making Calls):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "present continuous, porque lo est\u00e1s buscando en este momento. - 930"
+                  "text": "What\u2019s the longest beach you\u2019ve ever been to (now)"
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "I don\u2019t have many friends (friends is countable).!"
+                  "text": "she doesn\u2019t often write to me."
                 }
               ]
             }
@@ -202,321 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "main_text": "In Phone: Making Calls (4843), The player [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 288 (Phone: Making Calls):",
+          "main_text": "In Phone: Making Calls (9865), The baker [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "prepared"
+                  "text": "drank"
                 },
                 {
                   "id": "o2",
-                  "text": "prepare"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "started"
-                },
-                {
-                  "id": "o2",
-                  "text": "start"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U42_I12"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Phone: Making Calls:",
-          "stimulus_en": "The Phone: Making Calls was worrying, so The police officer was thrilled....",
-          "stimulus_es": "La Phone: Making Calls fue worrying, as\u00ed que The police officer estuvo thrilled....",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 7326"
-            },
-            {
-              "id": "o1",
-              "text": "thrilled"
-            },
-            {
-              "id": "o2",
-              "text": "worrying"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U42_I13"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Phone: Making Calls:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "was"
-            },
-            {
-              "id": "w9",
-              "text": "amused"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "so"
-            },
-            {
-              "id": "w2",
-              "text": "Making"
-            },
-            {
-              "id": "w3",
-              "text": "Calls"
-            },
-            {
-              "id": "w7",
-              "text": "Sarah"
-            },
-            {
-              "id": "w4",
-              "text": "was"
-            },
-            {
-              "id": "w1",
-              "text": "Phone:"
-            },
-            {
-              "id": "w5",
-              "text": "boring"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U42_I14"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "stimulus_en": "The Phone: Making Calls was satisfying, so Maria was ___..",
-          "correct_answer": "disappointed",
-          "mastery_tag": "grammar",
-          "interaction_id": "U42_I15"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Phone: Making Calls)",
-          "stimulus_en": "The Phone: Making Calls was surprising, so The architect was surprising (now).",
-          "stimulus_es": "Ref: La Phone: Making Calls fue surprising, as\u00ed que The architect estuvo worried (now).",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U42_I16"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "La Phone: Making Calls fue amusing, as\u00ed que The waiter estuvo tired (today).",
-              "right": "The Phone: Making Calls was amusing, so The waiter was tired (today)."
-            },
-            {
-              "id": "p1",
-              "left": "La Phone: Making Calls fue overwhelming, as\u00ed que The police officer estuvo interested - interesting.",
-              "right": "The Phone: Making Calls was overwhelming, so The police officer was interested - interesting."
-            },
-            {
-              "id": "p2",
-              "left": "La Phone: Making Calls fue surprising, as\u00ed que My cousin estuvo pleased (now).",
-              "right": "The Phone: Making Calls was surprising, so My cousin was pleased (now)."
-            },
-            {
-              "id": "p3",
-              "left": "La Phone: Making Calls fue surprising, as\u00ed que We estuvo embarrassed!.",
-              "right": "The Phone: Making Calls was surprising, so We was embarrassed!."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U42_I17"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Phone: Making Calls):",
-          "tts_en": "The Phone: Making Calls was puzzling, so A colleague was inspired - interesting.",
-          "correct_answer": "The Phone: Making Calls was puzzling, so A colleague was inspired - interesting.",
-          "mastery_tag": "listening",
-          "interaction_id": "U42_I18"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Berlin"
-            },
-            {
-              "id": "o3",
-              "text": "Paris"
-            },
-            {
-              "id": "o0",
-              "text": "London"
-            },
-            {
-              "id": "o4",
-              "text": "Slow8552"
-            },
-            {
-              "id": "o1",
-              "text": "Tokyo"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U42_I19"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 330 - Phone: Making Calls:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng!",
-              "back": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U42_I20"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 330 (Phone: Making Calls):",
-          "instruction_en": "Describe Phone: Making Calls in 5 words. [Ref: 46]",
-          "mastery_tag": "writing",
-          "interaction_id": "U42_I21"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 330 (Phone: Making Calls):",
-          "stimulus_en": "Look at Phone: Making Calls. (471)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U42_I22"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
-          "stimulus": "Matching set 1614",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Qu\u00e9 quieres? (now)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir - amazing",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos...",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n. - amazing"
-            },
-            {
-              "id": "m2",
-              "text": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle...."
-            },
-            {
-              "id": "m0",
-              "text": "la respuesta es ilimitada, puede ser cualquier cosa. (now)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U42_I23"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Phone: Making Calls):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "uso de las may\u00fasculas - 165"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "Why didn\u2019t you tell me!"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U42_I24"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "main_text": "In Phone: Making Calls (7504), The driver [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "played"
-                },
-                {
-                  "id": "o2",
-                  "text": "play"
+                  "text": "drink"
                 }
               ]
             },
@@ -539,25 +237,327 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
+          "interaction_id": "U42_I12"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 288 para Phone: Making Calls:",
+          "stimulus_en": "The Phone: Making Calls was worrying, so The lawyer was overwhelmed (now).",
+          "stimulus_es": "La Phone: Making Calls fue worrying, as\u00ed que The lawyer estuvo overwhelmed (now).",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 2623"
+            },
+            {
+              "id": "o1",
+              "text": "overwhelmed"
+            },
+            {
+              "id": "o2",
+              "text": "worrying"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U42_I13"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 288 sobre Phone: Making Calls:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "exhausted"
+            },
+            {
+              "id": "w1",
+              "text": "Phone:"
+            },
+            {
+              "id": "w7",
+              "text": "He"
+            },
+            {
+              "id": "w8",
+              "text": "was"
+            },
+            {
+              "id": "w6",
+              "text": "so"
+            },
+            {
+              "id": "w3",
+              "text": "Calls"
+            },
+            {
+              "id": "w2",
+              "text": "Making"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "was"
+            },
+            {
+              "id": "w5",
+              "text": "surprising"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U42_I14"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 330 (Phone: Making Calls):",
+          "stimulus_en": "The Phone: Making Calls was worrying, so The artist was ___ - 392.",
+          "correct_answer": "satisfied",
+          "mastery_tag": "grammar",
+          "interaction_id": "U42_I15"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 330 (Phone: Making Calls)",
+          "stimulus_en": "The Phone: Making Calls was frightening, so They was frightening (now).",
+          "stimulus_es": "Ref: La Phone: Making Calls fue frightening, as\u00ed que They estuvo amused (now).",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U42_I16"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 330 (Phone: Making Calls):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "La Phone: Making Calls fue relaxing, as\u00ed que The scientist estuvo thrilled - amazing.",
+              "right": "The Phone: Making Calls was relaxing, so The scientist was thrilled - amazing."
+            },
+            {
+              "id": "p1",
+              "left": "La Phone: Making Calls fue tiring, as\u00ed que The manager estuvo thrilled - interesting.",
+              "right": "The Phone: Making Calls was tiring, so The manager was thrilled - interesting."
+            },
+            {
+              "id": "p2",
+              "left": "La Phone: Making Calls fue worrying, as\u00ed que She estuvo bored....",
+              "right": "The Phone: Making Calls was worrying, so She was bored...."
+            },
+            {
+              "id": "p3",
+              "left": "La Phone: Making Calls fue puzzling, as\u00ed que The student estuvo interested..",
+              "right": "The Phone: Making Calls was puzzling, so The student was interested.."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U42_I17"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 330 (Phone: Making Calls):",
+          "tts_en": "The Phone: Making Calls was overwhelming, so The scientist was embarrassed!.",
+          "correct_answer": "The Phone: Making Calls was overwhelming, so The scientist was embarrassed!.",
+          "mastery_tag": "listening",
+          "interaction_id": "U42_I18"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 330:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Planet"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            },
+            {
+              "id": "o4",
+              "text": "Hot7492"
+            },
+            {
+              "id": "o1",
+              "text": "Moon"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U42_I19"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 330 - Phone: Making Calls:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Los adjetivos tienen tres formas (today)",
+              "back": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. (today)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U42_I20"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 330 (Phone: Making Calls):",
+          "instruction_en": "Explain Adjectives -ed vs -ing using Phone: Making Calls. [Ref: 95]",
+          "mastery_tag": "writing",
+          "interaction_id": "U42_I21"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 330 (Phone: Making Calls):",
+          "stimulus_en": "Repeat Phone: Making Calls. (143)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U42_I22"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 289 (Phone: Making Calls):",
+          "stimulus": "Matching set 6563",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo - 932",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "\u2013 Con partes del d\u00eda!",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "7. read books slowly / I / always!",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - 932"
+            },
+            {
+              "id": "m1",
+              "text": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n)!"
+            },
+            {
+              "id": "m2",
+              "text": "I always read books slowly!"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U42_I23"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 289 (Phone: Making Calls):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "autumn) En oto\u00f1o - 856"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "I hardly ever go to the cinema = casi nunca voy al cine. (today)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U42_I24"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 289 (Phone: Making Calls):",
+          "main_text": "In Phone: Making Calls (7741), The player [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cleaned"
+                },
+                {
+                  "id": "o2",
+                  "text": "clean"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "sold"
+                },
+                {
+                  "id": "o2",
+                  "text": "sell"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U42_I25"
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Phone: Making Calls:",
-          "stimulus_en": "The Phone: Making Calls was relaxing, so My brother was exhausted!.",
-          "stimulus_es": "La Phone: Making Calls fue relaxing, as\u00ed que My brother estuvo exhausted!.",
+          "prompt_es": "Elige 289 para Phone: Making Calls:",
+          "stimulus_en": "The Phone: Making Calls was puzzling, so A colleague was inspired - 353.",
+          "stimulus_es": "La Phone: Making Calls fue puzzling, as\u00ed que A colleague estuvo inspired - 353.",
           "options": [
             {
               "id": "o3",
-              "text": "Other 9401"
-            },
-            {
-              "id": "o2",
-              "text": "relaxing"
+              "text": "Other 2967"
             },
             {
               "id": "o1",
-              "text": "exhausted"
+              "text": "inspired"
+            },
+            {
+              "id": "o2",
+              "text": "puzzling"
             }
           ],
           "correct_answer": "o1",
@@ -566,8 +566,12 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Phone: Making Calls:",
+          "prompt_es": "Ordena 289 sobre Phone: Making Calls:",
           "options": [
+            {
+              "id": "w5",
+              "text": "exciting"
+            },
             {
               "id": "w4",
               "text": "was"
@@ -577,40 +581,36 @@
               "text": "The"
             },
             {
-              "id": "w7",
-              "text": "The"
-            },
-            {
               "id": "w6",
               "text": "so"
-            },
-            {
-              "id": "w8",
-              "text": "baker"
-            },
-            {
-              "id": "w2",
-              "text": "Making"
-            },
-            {
-              "id": "w1",
-              "text": "Phone:"
-            },
-            {
-              "id": "w9",
-              "text": "was"
             },
             {
               "id": "w3",
               "text": "Calls"
             },
             {
-              "id": "w10",
-              "text": "confused"
+              "id": "w1",
+              "text": "Phone:"
             },
             {
-              "id": "w5",
-              "text": "satisfying"
+              "id": "w2",
+              "text": "Making"
+            },
+            {
+              "id": "w10",
+              "text": "amazing"
+            },
+            {
+              "id": "w7",
+              "text": "You"
+            },
+            {
+              "id": "w9",
+              "text": "worried"
+            },
+            {
+              "id": "w8",
+              "text": "was"
             }
           ],
           "correct_answer": [
@@ -631,44 +631,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "stimulus_en": "The Phone: Making Calls was tiring, so A colleague was ___....",
-          "correct_answer": "worried",
+          "prompt_es": "Completa 331 (Phone: Making Calls):",
+          "stimulus_en": "The Phone: Making Calls was exciting, so I was ___!.",
+          "correct_answer": "depressed",
           "mastery_tag": "grammar",
           "interaction_id": "U42_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Phone: Making Calls)",
-          "stimulus_en": "The Phone: Making Calls was amusing, so The baker was confused - amazing.",
-          "stimulus_es": "Ref: La Phone: Making Calls fue amusing, as\u00ed que The baker estuvo confused - amazing.",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 331 (Phone: Making Calls)",
+          "stimulus_en": "The Phone: Making Calls was exhausting, so Sarah was exhausting!.",
+          "stimulus_es": "Ref: La Phone: Making Calls fue exhausting, as\u00ed que Sarah estuvo frightened!.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I29"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
+          "prompt_es": "Relaciona 331 (Phone: Making Calls):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Phone: Making Calls fue shocked, as\u00ed que My cousin estuvo overwhelmed - amazing.",
-              "right": "The Phone: Making Calls was shocked, so My cousin was overwhelmed - amazing."
+              "left": "La Phone: Making Calls fue embarrassing, as\u00ed que The lawyer estuvo satisfied - 794.",
+              "right": "The Phone: Making Calls was embarrassing, so The lawyer was satisfied - 794."
             },
             {
               "id": "p1",
-              "left": "La Phone: Making Calls fue worrying, as\u00ed que My sister estuvo exhausted - amazing.",
-              "right": "The Phone: Making Calls was worrying, so My sister was exhausted - amazing."
+              "left": "La Phone: Making Calls fue shocked, as\u00ed que The boss estuvo worried - amazing.",
+              "right": "The Phone: Making Calls was shocked, so The boss was worried - amazing."
             },
             {
               "id": "p2",
-              "left": "La Phone: Making Calls fue shocked, as\u00ed que The student estuvo depressed..",
-              "right": "The Phone: Making Calls was shocked, so The student was depressed.."
+              "left": "La Phone: Making Calls fue thrilling, as\u00ed que The baker estuvo exhausted - amazing.",
+              "right": "The Phone: Making Calls was thrilling, so The baker was exhausted - amazing."
             },
             {
               "id": "p3",
-              "left": "La Phone: Making Calls fue shocked, as\u00ed que I estuvo tired (today).",
-              "right": "The Phone: Making Calls was shocked, so I was tired (today)."
+              "left": "La Phone: Making Calls fue annoying, as\u00ed que A colleague estuvo shocked - interesting.",
+              "right": "The Phone: Making Calls was annoying, so A colleague was shocked - interesting."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -676,35 +676,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Phone: Making Calls):",
-          "tts_en": "The Phone: Making Calls was frightening, so I was tired (today).",
-          "correct_answer": "The Phone: Making Calls was frightening, so I was tired (today).",
+          "prompt_es": "Dictado 331 (Phone: Making Calls):",
+          "tts_en": "The Phone: Making Calls was depressing, so The student was thrilled!.",
+          "correct_answer": "The Phone: Making Calls was depressing, so The student was thrilled!.",
           "mastery_tag": "listening",
           "interaction_id": "U42_I31"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 331:",
           "options": [
             {
               "id": "o1",
-              "text": "red"
+              "text": "Tuesday"
             },
             {
               "id": "o0",
-              "text": "blue"
-            },
-            {
-              "id": "o4",
-              "text": "run9272"
+              "text": "Monday"
             },
             {
               "id": "o3",
-              "text": "pink"
+              "text": "Friday"
             },
             {
               "id": "o2",
-              "text": "green"
+              "text": "Sunday"
+            },
+            {
+              "id": "o4",
+              "text": "June557"
             }
           ],
           "correct_answer": "o4",
@@ -717,8 +717,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "I / fish / often / hours / for / catching / anything / without - 506",
-              "back": "I often fish for hours without catching anything - 506"
+              "front": "El cumplea\u00f1os de Pablo es el 8 de mayo...",
+              "back": "Paul\u2019s birthday is on 8th May..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -727,50 +727,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 331 (Phone: Making Calls):",
-          "instruction_en": "Your daily routine in Phone: Making Calls. [Ref: 44]",
+          "instruction_en": "Review Phone: Making Calls from last week. [Ref: 35]",
           "mastery_tag": "writing",
           "interaction_id": "U42_I34"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 331 (Phone: Making Calls):",
-          "stimulus_en": "This is Phone: Making Calls. (485)",
+          "stimulus_en": "Look at Phone: Making Calls. (886)",
           "mastery_tag": "speaking",
           "interaction_id": "U42_I35"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
-          "stimulus": "Matching set 9386",
+          "prompt_es": "Une 290 (Phone: Making Calls):",
+          "stimulus": "Matching set 3294",
           "items": [
             {
               "id": "i0",
-              "text": "2. el primer elemento es un animal. Ejemplo (now)",
+              "text": "This is another translation.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "see / usually / Jennifer / out / goes / a / to / concert!",
+              "text": "8. \u00a0usually / my father / goes to work by bus - interesting",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "The correct thing - interesting",
+              "text": "see / usually / Jennifer / out / goes / a / to / concert - 627",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "the bird\u2018s legs = las piernas del p\u00e1jaro. (now)"
+              "id": "m2",
+              "text": "Jennifer usually goes out to see a concert - 627"
             },
             {
               "id": "m1",
-              "text": "Jennifer usually goes out to see a concert!"
+              "text": "my father usually goes to work by bus - interesting"
             },
             {
-              "id": "m2",
-              "text": "My friend has a lot of money. - interesting"
+              "id": "m0",
+              "text": "igual hago algo\u2026 (but I\u2019m not sure\u2026).."
             }
           ],
           "correct_answer": {
@@ -783,7 +783,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Phone: Making Calls):",
+          "prompt_es": "Clasifica 290 (Phone: Making Calls):",
           "categories": [
             {
               "id": "c1",
@@ -791,7 +791,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "I hardly ever watch TV in the evenings (now)"
+                  "text": "Have you a car?!"
                 }
               ]
             },
@@ -801,7 +801,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "the door of my house!"
+                  "text": "What time does the train leave (today)"
                 }
               ]
             }
@@ -811,19 +811,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "main_text": "In Phone: Making Calls (6344), I [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 290 (Phone: Making Calls):",
+          "main_text": "In Phone: Making Calls (1990), He [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "created"
+                  "text": "organized"
                 },
                 {
                   "id": "o2",
-                  "text": "create"
+                  "text": "organize"
                 }
               ]
             },
@@ -832,11 +832,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "drank"
+                  "text": "built"
                 },
                 {
                   "id": "o2",
-                  "text": "drink"
+                  "text": "build"
                 }
               ]
             }
@@ -850,21 +850,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Phone: Making Calls:",
-          "stimulus_en": "The Phone: Making Calls was shocked, so The player was thrilled....",
-          "stimulus_es": "La Phone: Making Calls fue shocked, as\u00ed que The player estuvo thrilled....",
+          "prompt_es": "Elige 290 para Phone: Making Calls:",
+          "stimulus_en": "The Phone: Making Calls was annoying, so The scientist was bored..",
+          "stimulus_es": "La Phone: Making Calls fue annoying, as\u00ed que The scientist estuvo bored..",
           "options": [
             {
+              "id": "o3",
+              "text": "Other 8272"
+            },
+            {
               "id": "o1",
-              "text": "thrilled"
+              "text": "bored"
             },
             {
               "id": "o2",
-              "text": "shocked"
-            },
-            {
-              "id": "o3",
-              "text": "Other 8146"
+              "text": "annoying"
             }
           ],
           "correct_answer": "o1",
@@ -873,18 +873,34 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Phone: Making Calls:",
+          "prompt_es": "Ordena 290 sobre Phone: Making Calls:",
           "options": [
             {
-              "id": "w11",
-              "text": "amazing"
-            },
-            {
-              "id": "w4",
+              "id": "w8",
               "text": "was"
             },
             {
               "id": "w9",
+              "text": "disappointed"
+            },
+            {
+              "id": "w5",
+              "text": "amusing"
+            },
+            {
+              "id": "w6",
+              "text": "so"
+            },
+            {
+              "id": "w7",
+              "text": "She"
+            },
+            {
+              "id": "w3",
+              "text": "Calls"
+            },
+            {
+              "id": "w4",
               "text": "was"
             },
             {
@@ -892,36 +908,12 @@
               "text": "Phone:"
             },
             {
-              "id": "w10",
-              "text": "puzzled"
-            },
-            {
-              "id": "w6",
-              "text": "so"
-            },
-            {
-              "id": "w8",
-              "text": "player"
-            },
-            {
-              "id": "w2",
-              "text": "Making"
-            },
-            {
-              "id": "w3",
-              "text": "Calls"
-            },
-            {
               "id": "w0",
               "text": "The"
             },
             {
-              "id": "w5",
-              "text": "exhausting"
-            },
-            {
-              "id": "w7",
-              "text": "The"
+              "id": "w2",
+              "text": "Making"
             }
           ],
           "correct_answer": [
@@ -934,53 +926,51 @@
             "w6",
             "w7",
             "w8",
-            "w9",
-            "w10",
-            "w11"
+            "w9"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U42_I40"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "stimulus_en": "The Phone: Making Calls was thrilling, so John was ___....",
-          "correct_answer": "embarrassed",
+          "prompt_es": "Completa 332 (Phone: Making Calls):",
+          "stimulus_en": "The Phone: Making Calls was inspiring, so The doctor was ___ (now).",
+          "correct_answer": "amused",
           "mastery_tag": "grammar",
           "interaction_id": "U42_I41"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Phone: Making Calls)",
-          "stimulus_en": "The Phone: Making Calls was relaxing, so The player was amused....",
-          "stimulus_es": "Ref: La Phone: Making Calls fue relaxing, as\u00ed que The player estuvo amused....",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? 332 (Phone: Making Calls)",
+          "stimulus_en": "The Phone: Making Calls was frightening, so They was frightening....",
+          "stimulus_es": "Ref: La Phone: Making Calls fue frightening, as\u00ed que They estuvo shocked....",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I42"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
+          "prompt_es": "Relaciona 332 (Phone: Making Calls):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Phone: Making Calls fue interesting, as\u00ed que John estuvo satisfied (today).",
-              "right": "The Phone: Making Calls was interesting, so John was satisfied (today)."
+              "left": "La Phone: Making Calls fue exciting, as\u00ed que We estuvo tired - interesting.",
+              "right": "The Phone: Making Calls was exciting, so We was tired - interesting."
             },
             {
               "id": "p1",
-              "left": "La Phone: Making Calls fue thrilling, as\u00ed que The player estuvo amused - interesting.",
-              "right": "The Phone: Making Calls was thrilling, so The player was amused - interesting."
+              "left": "La Phone: Making Calls fue disappointing, as\u00ed que Maria estuvo bored - amazing.",
+              "right": "The Phone: Making Calls was disappointing, so Maria was bored - amazing."
             },
             {
               "id": "p2",
-              "left": "La Phone: Making Calls fue amazing, as\u00ed que A colleague estuvo frightened - 701.",
-              "right": "The Phone: Making Calls was amazing, so A colleague was frightened - 701."
+              "left": "La Phone: Making Calls fue inspiring, as\u00ed que The baker estuvo exhausted - amazing.",
+              "right": "The Phone: Making Calls was inspiring, so The baker was exhausted - amazing."
             },
             {
               "id": "p3",
-              "left": "La Phone: Making Calls fue surprising, as\u00ed que The driver estuvo embarrassed (now).",
-              "right": "The Phone: Making Calls was surprising, so The driver was embarrassed (now)."
+              "left": "La Phone: Making Calls fue satisfying, as\u00ed que The architect estuvo bored (today).",
+              "right": "The Phone: Making Calls was satisfying, so The architect was bored (today)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -988,35 +978,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Phone: Making Calls):",
-          "tts_en": "The Phone: Making Calls was thrilling, so The player was thrilled....",
-          "correct_answer": "The Phone: Making Calls was thrilling, so The player was thrilled....",
+          "prompt_es": "Dictado 332 (Phone: Making Calls):",
+          "tts_en": "The Phone: Making Calls was shocked, so You was surprised - interesting.",
+          "correct_answer": "The Phone: Making Calls was shocked, so You was surprised - interesting.",
           "mastery_tag": "listening",
           "interaction_id": "U42_I44"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 332:",
           "options": [
             {
-              "id": "o2",
-              "text": "Flute"
+              "id": "o1",
+              "text": "banana"
             },
             {
               "id": "o0",
-              "text": "Guitar"
+              "text": "apple"
             },
             {
               "id": "o4",
-              "text": "Book2499"
+              "text": "bike867"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
             },
             {
               "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o1",
-              "text": "Piano"
+              "text": "mango"
             }
           ],
           "correct_answer": "o4",
@@ -1029,8 +1019,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca...",
-              "back": "I hardly ever go to the cinema = casi nunca voy al cine...."
+              "front": "5. El zumo de tu abuela...",
+              "back": "Your grandmother\u2019s juice..."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1039,50 +1029,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 332 (Phone: Making Calls):",
-          "instruction_en": "Explain Adjectives -ed vs -ing using Phone: Making Calls. [Ref: 27]",
+          "instruction_en": "A small story about Phone: Making Calls. [Ref: 52]",
           "mastery_tag": "writing",
           "interaction_id": "U42_I47"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 332 (Phone: Making Calls):",
-          "stimulus_en": "I like Phone: Making Calls. (995)",
+          "stimulus_en": "I like Phone: Making Calls. (798)",
           "mastery_tag": "speaking",
           "interaction_id": "U42_I48"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
-          "stimulus": "Matching set 9519",
+          "prompt_es": "Une 291 (Phone: Making Calls):",
+          "stimulus": "Matching set 4894",
           "items": [
             {
               "id": "i0",
-              "text": "Otro ejemplo - amazing",
+              "text": "Y por \u00faltimo, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "1. Often / she / write to me/ doesn\u2019t - 481",
+              "text": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro? - 552",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Cookie (Br Eng - interesting",
+              "text": "Has terminado ya el proyecto? - amazing",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "when I was at primary school, I didn\u2019t wear uniform. - amazing"
-            },
-            {
-              "id": "m2",
-              "text": "biscuit) Galleta - interesting"
+              "text": "would you like some coke?."
             },
             {
               "id": "m1",
-              "text": "she doesn\u2019t often write to me - 481"
+              "text": "Were you having a beer when you saw Peter - 552"
+            },
+            {
+              "id": "m2",
+              "text": "Have you finished the project yet - amazing"
             }
           ],
           "correct_answer": {
@@ -1095,7 +1085,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Phone: Making Calls):",
+          "prompt_es": "Clasifica 291 (Phone: Making Calls):",
           "categories": [
             {
               "id": "c1",
@@ -1103,7 +1093,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Can I have your ID/ passport/ credit card?. (today)"
+                  "text": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children. - 568"
                 }
               ]
             },
@@ -1113,7 +1103,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "verb patters. (today)"
+                  "text": "on the Internet (today)"
                 }
               ]
             }
@@ -1123,19 +1113,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "main_text": "In Phone: Making Calls (3306), The teacher [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 291 (Phone: Making Calls):",
+          "main_text": "In Phone: Making Calls (8819), We [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "studied"
+                  "text": "read"
                 },
                 {
                   "id": "o2",
-                  "text": "study"
+                  "text": "read"
                 }
               ]
             },
@@ -1144,11 +1134,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "studied"
+                  "text": "walked"
                 },
                 {
                   "id": "o2",
-                  "text": "study"
+                  "text": "walk"
                 }
               ]
             }
@@ -1162,21 +1152,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Phone: Making Calls:",
-          "stimulus_en": "The Phone: Making Calls was confusing, so She was annoyed - amazing.",
-          "stimulus_es": "La Phone: Making Calls fue confusing, as\u00ed que She estuvo annoyed - amazing.",
+          "prompt_es": "Elige 291 para Phone: Making Calls:",
+          "stimulus_en": "The Phone: Making Calls was interesting, so My brother was puzzled!.",
+          "stimulus_es": "La Phone: Making Calls fue interesting, as\u00ed que My brother estuvo puzzled!.",
           "options": [
             {
-              "id": "o1",
-              "text": "annoyed"
-            },
-            {
               "id": "o2",
-              "text": "confusing"
+              "text": "interesting"
             },
             {
               "id": "o3",
-              "text": "Other 3278"
+              "text": "Other 4681"
+            },
+            {
+              "id": "o1",
+              "text": "puzzled"
             }
           ],
           "correct_answer": "o1",
@@ -1185,51 +1175,51 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Phone: Making Calls:",
+          "prompt_es": "Ordena 291 sobre Phone: Making Calls:",
           "options": [
             {
-              "id": "w7",
-              "text": "Maria"
+              "id": "w4",
+              "text": "was"
             },
             {
               "id": "w1",
               "text": "Phone:"
             },
             {
-              "id": "w3",
-              "text": "Calls"
+              "id": "w7",
+              "text": "The"
+            },
+            {
+              "id": "w9",
+              "text": "was"
             },
             {
               "id": "w6",
               "text": "so"
             },
             {
-              "id": "w0",
-              "text": "The"
+              "id": "w10",
+              "text": "overwhelmed"
             },
             {
               "id": "w2",
               "text": "Making"
             },
             {
-              "id": "w4",
-              "text": "was"
-            },
-            {
               "id": "w8",
-              "text": "was"
+              "text": "boss"
             },
             {
-              "id": "w10",
-              "text": "(now)"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "w9",
-              "text": "confused"
+              "id": "w3",
+              "text": "Calls"
             },
             {
               "id": "w5",
-              "text": "amazing"
+              "text": "puzzling"
             }
           ],
           "correct_answer": [
@@ -1250,44 +1240,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "stimulus_en": "The Phone: Making Calls was amazing, so The coach was ___ - interesting.",
-          "correct_answer": "embarrassed",
+          "prompt_es": "Completa 333 (Phone: Making Calls):",
+          "stimulus_en": "The Phone: Making Calls was interesting, so A colleague was ___ - amazing.",
+          "correct_answer": "confused",
           "mastery_tag": "grammar",
           "interaction_id": "U42_I54"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Phone: Making Calls)",
-          "stimulus_en": "The Phone: Making Calls was exhausting, so The nurse was exhausting (today).",
-          "stimulus_es": "Ref: La Phone: Making Calls fue exhausting, as\u00ed que The nurse estuvo amazed (today).",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 333 (Phone: Making Calls)",
+          "stimulus_en": "The Phone: Making Calls was annoying, so The coach was bored - amazing.",
+          "stimulus_es": "Ref: La Phone: Making Calls fue annoying, as\u00ed que The coach estuvo bored - amazing.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I55"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
+          "prompt_es": "Relaciona 333 (Phone: Making Calls):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Phone: Making Calls fue pleasing, as\u00ed que A colleague estuvo pleased - interesting.",
-              "right": "The Phone: Making Calls was pleasing, so A colleague was pleased - interesting."
+              "left": "La Phone: Making Calls fue amusing, as\u00ed que You estuvo surprised - amazing.",
+              "right": "The Phone: Making Calls was amusing, so You was surprised - amazing."
             },
             {
               "id": "p1",
-              "left": "La Phone: Making Calls fue depressing, as\u00ed que I estuvo surprised....",
-              "right": "The Phone: Making Calls was depressing, so I was surprised...."
+              "left": "La Phone: Making Calls fue exhausting, as\u00ed que The scientist estuvo depressed!.",
+              "right": "The Phone: Making Calls was exhausting, so The scientist was depressed!."
             },
             {
               "id": "p2",
-              "left": "La Phone: Making Calls fue confusing, as\u00ed que We estuvo thrilled!.",
-              "right": "The Phone: Making Calls was confusing, so We was thrilled!."
+              "left": "La Phone: Making Calls fue amusing, as\u00ed que I estuvo thrilled....",
+              "right": "The Phone: Making Calls was amusing, so I was thrilled...."
             },
             {
               "id": "p3",
-              "left": "La Phone: Making Calls fue surprising, as\u00ed que She estuvo disappointed..",
-              "right": "The Phone: Making Calls was surprising, so She was disappointed.."
+              "left": "La Phone: Making Calls fue interesting, as\u00ed que The manager estuvo worried - amazing.",
+              "right": "The Phone: Making Calls was interesting, so The manager was worried - amazing."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1295,35 +1285,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Phone: Making Calls):",
-          "tts_en": "The Phone: Making Calls was disappointing, so My sister was exhausted..",
-          "correct_answer": "The Phone: Making Calls was disappointing, so My sister was exhausted..",
+          "prompt_es": "Dictado 333 (Phone: Making Calls):",
+          "tts_en": "The Phone: Making Calls was disappointing, so The scientist was worried....",
+          "correct_answer": "The Phone: Making Calls was disappointing, so The scientist was worried....",
           "mastery_tag": "listening",
           "interaction_id": "U42_I57"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 333:",
           "options": [
             {
               "id": "o1",
-              "text": "Tuesday"
-            },
-            {
-              "id": "o3",
-              "text": "Friday"
-            },
-            {
-              "id": "o0",
-              "text": "Monday"
+              "text": "red"
             },
             {
               "id": "o4",
-              "text": "June3929"
+              "text": "run4031"
             },
             {
               "id": "o2",
-              "text": "Sunday"
+              "text": "green"
+            },
+            {
+              "id": "o3",
+              "text": "pink"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
             }
           ],
           "correct_answer": "o4",
@@ -1336,8 +1326,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Mi cumplea\u00f1os es en febrero - 293",
-              "back": "my birthday is in February. - 293"
+              "front": "Otro ejemplo - 240",
+              "back": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. - 240"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1346,50 +1336,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 333 (Phone: Making Calls):",
-          "instruction_en": "Compare Phone: Making Calls with another topic. [Ref: 79]",
+          "instruction_en": "Draft an email regarding Phone: Making Calls. [Ref: 47]",
           "mastery_tag": "writing",
           "interaction_id": "U42_I60"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 333 (Phone: Making Calls):",
-          "stimulus_en": "Focus on Phone: Making Calls. (832)",
+          "stimulus_en": "This is Phone: Making Calls. (111)",
           "mastery_tag": "speaking",
           "interaction_id": "U42_I61"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
-          "stimulus": "Matching set 9115",
+          "prompt_es": "Une 292 (Phone: Making Calls):",
+          "stimulus": "Matching set 331",
           "items": [
             {
               "id": "i0",
-              "text": "Has jugado alguna vez al ajedrez? (today)",
+              "text": "Cu\u00e1l es el pa\u00eds m\u00e1s fr\u00edo en el que has estado nunca?!",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "El adjetivo dice una cualidad de algo, por ejemplo - interesting",
+              "text": "Qu\u00e9 tiempo verbal utilizamos?!",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Qu\u00e9 hora es? - amazing",
+              "text": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "What time is it - amazing"
+              "text": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil.."
             },
             {
               "id": "m0",
-              "text": "have you ever played chess (today)"
+              "text": "What\u2019s the coldest country you\u2019ve ever been to!"
             },
             {
               "id": "m1",
-              "text": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. - interesting"
+              "text": "present continuous, porque lo est\u00e1s buscando en este momento.!"
             }
           ],
           "correct_answer": {
@@ -1402,7 +1392,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Phone: Making Calls):",
+          "prompt_es": "Clasifica 292 (Phone: Making Calls):",
           "categories": [
             {
               "id": "c1",
@@ -1410,7 +1400,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "Have you finished the project yet!"
+                  "text": "What time does the bus leave (today)"
                 }
               ]
             },
@@ -1420,7 +1410,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l)!"
+                  "text": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. (today)"
                 }
               ]
             }
@@ -1430,19 +1420,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "main_text": "In Phone: Making Calls (2371), They [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 292 (Phone: Making Calls):",
+          "main_text": "In Phone: Making Calls (7344), You [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "cleaned"
+                  "text": "drove"
                 },
                 {
                   "id": "o2",
-                  "text": "clean"
+                  "text": "drive"
                 }
               ]
             },
@@ -1451,11 +1441,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "learned"
+                  "text": "walked"
                 },
                 {
                   "id": "o2",
-                  "text": "learn"
+                  "text": "walk"
                 }
               ]
             }
@@ -1469,21 +1459,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Phone: Making Calls:",
-          "stimulus_en": "The Phone: Making Calls was surprising, so The teacher was pleased - interesting.",
-          "stimulus_es": "La Phone: Making Calls fue surprising, as\u00ed que The teacher estuvo pleased - interesting.",
+          "prompt_es": "Elige 292 para Phone: Making Calls:",
+          "stimulus_en": "The Phone: Making Calls was confusing, so John was shocked!.",
+          "stimulus_es": "La Phone: Making Calls fue confusing, as\u00ed que John estuvo shocked!.",
           "options": [
             {
               "id": "o3",
-              "text": "Other 8107"
-            },
-            {
-              "id": "o2",
-              "text": "surprising"
+              "text": "Other 392"
             },
             {
               "id": "o1",
-              "text": "pleased"
+              "text": "shocked"
+            },
+            {
+              "id": "o2",
+              "text": "confusing"
             }
           ],
           "correct_answer": "o1",
@@ -1492,55 +1482,55 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Phone: Making Calls:",
+          "prompt_es": "Ordena 292 sobre Phone: Making Calls:",
           "options": [
             {
-              "id": "w4",
+              "id": "w9",
               "text": "was"
             },
             {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "Calls"
-            },
-            {
-              "id": "w1",
-              "text": "Phone:"
-            },
-            {
-              "id": "w2",
-              "text": "Making"
+              "id": "w11",
+              "text": "(now)"
             },
             {
               "id": "w8",
-              "text": "police"
+              "text": "baker"
+            },
+            {
+              "id": "w6",
+              "text": "so"
             },
             {
               "id": "w7",
               "text": "The"
             },
             {
-              "id": "w11",
-              "text": "disappointed"
-            },
-            {
-              "id": "w10",
-              "text": "was"
-            },
-            {
-              "id": "w9",
-              "text": "officer"
+              "id": "w2",
+              "text": "Making"
             },
             {
               "id": "w5",
-              "text": "shocked"
+              "text": "thrilling"
             },
             {
-              "id": "w6",
-              "text": "so"
+              "id": "w1",
+              "text": "Phone:"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "was"
+            },
+            {
+              "id": "w10",
+              "text": "pleased"
+            },
+            {
+              "id": "w3",
+              "text": "Calls"
             }
           ],
           "correct_answer": [
@@ -1562,44 +1552,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "stimulus_en": "The Phone: Making Calls was pleasing, so Our neighbors was ___....",
-          "correct_answer": "thrilled",
+          "prompt_es": "Completa 334 (Phone: Making Calls):",
+          "stimulus_en": "The Phone: Making Calls was exhausting, so My friend was ___!.",
+          "correct_answer": "frightened",
           "mastery_tag": "grammar",
           "interaction_id": "U42_I67"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Phone: Making Calls)",
-          "stimulus_en": "The Phone: Making Calls was amusing, so The pilot was amusing!.",
-          "stimulus_es": "Ref: La Phone: Making Calls fue amusing, as\u00ed que The pilot estuvo frightened!.",
+          "prompt_es": "\u00bfCorrecto? 334 (Phone: Making Calls)",
+          "stimulus_en": "The Phone: Making Calls was annoying, so The doctor was annoying..",
+          "stimulus_es": "Ref: La Phone: Making Calls fue annoying, as\u00ed que The doctor estuvo interested..",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I68"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
+          "prompt_es": "Relaciona 334 (Phone: Making Calls):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Phone: Making Calls fue thrilling, as\u00ed que The police officer estuvo bored - amazing.",
-              "right": "The Phone: Making Calls was thrilling, so The police officer was bored - amazing."
+              "left": "La Phone: Making Calls fue pleasing, as\u00ed que The chef estuvo exhausted - amazing.",
+              "right": "The Phone: Making Calls was pleasing, so The chef was exhausted - amazing."
             },
             {
               "id": "p1",
-              "left": "La Phone: Making Calls fue worrying, as\u00ed que The chef estuvo depressed (today).",
-              "right": "The Phone: Making Calls was worrying, so The chef was depressed (today)."
+              "left": "La Phone: Making Calls fue depressing, as\u00ed que My friend estuvo annoyed (now).",
+              "right": "The Phone: Making Calls was depressing, so My friend was annoyed (now)."
             },
             {
               "id": "p2",
-              "left": "La Phone: Making Calls fue embarrassing, as\u00ed que The manager estuvo confused (now).",
-              "right": "The Phone: Making Calls was embarrassing, so The manager was confused (now)."
+              "left": "La Phone: Making Calls fue interesting, as\u00ed que She estuvo exhausted..",
+              "right": "The Phone: Making Calls was interesting, so She was exhausted.."
             },
             {
               "id": "p3",
-              "left": "La Phone: Making Calls fue exhausting, as\u00ed que My sister estuvo surprised - interesting.",
-              "right": "The Phone: Making Calls was exhausting, so My sister was surprised - interesting."
+              "left": "La Phone: Making Calls fue amusing, as\u00ed que The baker estuvo pleased!.",
+              "right": "The Phone: Making Calls was amusing, so The baker was pleased!."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1607,35 +1597,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Phone: Making Calls):",
-          "tts_en": "The Phone: Making Calls was frightening, so My friend was thrilled (now).",
-          "correct_answer": "The Phone: Making Calls was frightening, so My friend was thrilled (now).",
+          "prompt_es": "Dictado 334 (Phone: Making Calls):",
+          "tts_en": "The Phone: Making Calls was puzzling, so The architect was annoyed....",
+          "correct_answer": "The Phone: Making Calls was puzzling, so The architect was annoyed....",
           "mastery_tag": "listening",
           "interaction_id": "U42_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 334:",
           "options": [
             {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
-            },
-            {
-              "id": "o2",
-              "text": "salad"
-            },
-            {
               "id": "o0",
-              "text": "pizza"
+              "text": "Happy"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
             },
             {
               "id": "o4",
-              "text": "rain839"
+              "text": "Fast7659"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o2",
+              "text": "Angry"
             }
           ],
           "correct_answer": "o4",
@@ -1648,8 +1638,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Otro ejemplo...",
-              "back": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto...."
+              "front": "Qu\u00e9 es lo que empieza? - interesting",
+              "back": "la pel\u00edcula, entonces SUBJECT = THE FILM - interesting"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1658,50 +1648,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 334 (Phone: Making Calls):",
-          "instruction_en": "Review Phone: Making Calls from last week. [Ref: 54]",
+          "instruction_en": "Your daily routine in Phone: Making Calls. [Ref: 94]",
           "mastery_tag": "writing",
           "interaction_id": "U42_I73"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 334 (Phone: Making Calls):",
-          "stimulus_en": "Improve Phone: Making Calls. (844)",
+          "stimulus_en": "Improve Phone: Making Calls. (326)",
           "mastery_tag": "speaking",
           "interaction_id": "U42_I74"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
-          "stimulus": "Matching set 3174",
+          "prompt_es": "Une 293 (Phone: Making Calls):",
+          "stimulus": "Matching set 4011",
           "items": [
             {
               "id": "i0",
-              "text": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que le\u00e1is la explicaci\u00f3n y aprend\u00e1is, o repas\u00e9is, qu\u00e9 es y c\u00f3mo se forman las indirect questions (preguntas indirectas). Aqu\u00ed lo puedes revisar (now)",
+              "text": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo (today)",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio!",
+              "text": "visits / Jonathan / usually / dentist / the.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "1. La puerta de mi casa...",
+              "text": "Tyre (Am Eng!",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "Indirect questions en ingl\u00e9s. (now)"
+              "text": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. (today)"
             },
             {
               "id": "m2",
-              "text": "the door of my house..."
+              "text": "tire) Neum\u00e1tico!"
             },
             {
               "id": "m1",
-              "text": "\u00bfDe d\u00f3nde eres?!"
+              "text": "Jonathan usually visits the dentist."
             }
           ],
           "correct_answer": {
@@ -1714,7 +1704,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Phone: Making Calls):",
+          "prompt_es": "Clasifica 293 (Phone: Making Calls):",
           "categories": [
             {
               "id": "c1",
@@ -1722,7 +1712,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "cuando hablamos de forma m\u00e1s espec\u00edfica. - 561"
+                  "text": "film star) Estrella de cine - 707"
                 }
               ]
             },
@@ -1742,19 +1732,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "main_text": "In Phone: Making Calls (8489), The lawyer [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 293 (Phone: Making Calls):",
+          "main_text": "In Phone: Making Calls (7374), My sister [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "built"
+                  "text": "drank"
                 },
                 {
                   "id": "o2",
-                  "text": "build"
+                  "text": "drink"
                 }
               ]
             },
@@ -1763,11 +1753,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "learned"
+                  "text": "cleaned"
                 },
                 {
                   "id": "o2",
-                  "text": "learn"
+                  "text": "clean"
                 }
               ]
             }
@@ -1781,21 +1771,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Phone: Making Calls:",
-          "stimulus_en": "The Phone: Making Calls was shocked, so My friend was disappointed (now).",
-          "stimulus_es": "La Phone: Making Calls fue shocked, as\u00ed que My friend estuvo disappointed (now).",
+          "prompt_es": "Elige 293 para Phone: Making Calls:",
+          "stimulus_en": "The Phone: Making Calls was exhausting, so Maria was disappointed!.",
+          "stimulus_es": "La Phone: Making Calls fue exhausting, as\u00ed que Maria estuvo disappointed!.",
           "options": [
             {
-              "id": "o1",
-              "text": "disappointed"
+              "id": "o2",
+              "text": "exhausting"
             },
             {
               "id": "o3",
-              "text": "Other 3329"
+              "text": "Other 3141"
             },
             {
-              "id": "o2",
-              "text": "shocked"
+              "id": "o1",
+              "text": "disappointed"
             }
           ],
           "correct_answer": "o1",
@@ -1804,26 +1794,14 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Phone: Making Calls:",
+          "prompt_es": "Ordena 293 sobre Phone: Making Calls:",
           "options": [
             {
-              "id": "w2",
-              "text": "Making"
+              "id": "w1",
+              "text": "Phone:"
             },
             {
               "id": "w9",
-              "text": "officer"
-            },
-            {
-              "id": "w7",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "Calls"
-            },
-            {
-              "id": "w10",
               "text": "was"
             },
             {
@@ -1831,32 +1809,40 @@
               "text": "The"
             },
             {
-              "id": "w4",
-              "text": "was"
-            },
-            {
-              "id": "w5",
-              "text": "exciting"
-            },
-            {
-              "id": "w11",
-              "text": "worried"
-            },
-            {
-              "id": "w8",
-              "text": "police"
-            },
-            {
               "id": "w6",
               "text": "so"
             },
             {
-              "id": "w1",
-              "text": "Phone:"
+              "id": "w10",
+              "text": "bored"
             },
             {
-              "id": "w12",
-              "text": "interesting"
+              "id": "w11",
+              "text": "(now)"
+            },
+            {
+              "id": "w5",
+              "text": "disappointing"
+            },
+            {
+              "id": "w4",
+              "text": "was"
+            },
+            {
+              "id": "w8",
+              "text": "student"
+            },
+            {
+              "id": "w3",
+              "text": "Calls"
+            },
+            {
+              "id": "w2",
+              "text": "Making"
+            },
+            {
+              "id": "w7",
+              "text": "The"
             }
           ],
           "correct_answer": [
@@ -1871,52 +1857,51 @@
             "w8",
             "w9",
             "w10",
-            "w11",
-            "w12"
+            "w11"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U42_I79"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "stimulus_en": "The Phone: Making Calls was annoying, so A colleague was ___ - interesting.",
-          "correct_answer": "amazed",
+          "prompt_es": "Completa 335 (Phone: Making Calls):",
+          "stimulus_en": "The Phone: Making Calls was surprising, so My sister was ___!.",
+          "correct_answer": "interested",
           "mastery_tag": "grammar",
           "interaction_id": "U42_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Phone: Making Calls)",
-          "stimulus_en": "The Phone: Making Calls was exhausting, so Sarah was satisfied (now).",
-          "stimulus_es": "Ref: La Phone: Making Calls fue exhausting, as\u00ed que Sarah estuvo satisfied (now).",
+          "prompt_es": "\u00bfCorrecto? 335 (Phone: Making Calls)",
+          "stimulus_en": "The Phone: Making Calls was interesting, so Maria was exhausted....",
+          "stimulus_es": "Ref: La Phone: Making Calls fue interesting, as\u00ed que Maria estuvo exhausted....",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
+          "prompt_es": "Relaciona 335 (Phone: Making Calls):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Phone: Making Calls fue surprising, as\u00ed que The singer estuvo depressed!.",
-              "right": "The Phone: Making Calls was surprising, so The singer was depressed!."
+              "left": "La Phone: Making Calls fue exhausting, as\u00ed que We estuvo amused..",
+              "right": "The Phone: Making Calls was exhausting, so We was amused.."
             },
             {
               "id": "p1",
-              "left": "La Phone: Making Calls fue amazing, as\u00ed que The baker estuvo annoyed - interesting.",
-              "right": "The Phone: Making Calls was amazing, so The baker was annoyed - interesting."
+              "left": "La Phone: Making Calls fue annoying, as\u00ed que The singer estuvo bored (now).",
+              "right": "The Phone: Making Calls was annoying, so The singer was bored (now)."
             },
             {
               "id": "p2",
-              "left": "La Phone: Making Calls fue satisfying, as\u00ed que They estuvo relaxed (now).",
-              "right": "The Phone: Making Calls was satisfying, so They was relaxed (now)."
+              "left": "La Phone: Making Calls fue depressing, as\u00ed que The chef estuvo tired (today).",
+              "right": "The Phone: Making Calls was depressing, so The chef was tired (today)."
             },
             {
               "id": "p3",
-              "left": "La Phone: Making Calls fue worrying, as\u00ed que Maria estuvo pleased..",
-              "right": "The Phone: Making Calls was worrying, so Maria was pleased.."
+              "left": "La Phone: Making Calls fue amazing, as\u00ed que My sister estuvo confused (now).",
+              "right": "The Phone: Making Calls was amazing, so My sister was confused (now)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1924,35 +1909,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Phone: Making Calls):",
-          "tts_en": "The Phone: Making Calls was shocked, so Our neighbors was interested!.",
-          "correct_answer": "The Phone: Making Calls was shocked, so Our neighbors was interested!.",
+          "prompt_es": "Dictado 335 (Phone: Making Calls):",
+          "tts_en": "The Phone: Making Calls was confusing, so The singer was relaxed - amazing.",
+          "correct_answer": "The Phone: Making Calls was confusing, so The singer was relaxed - amazing.",
           "mastery_tag": "listening",
           "interaction_id": "U42_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 335:",
           "options": [
             {
-              "id": "o3",
-              "text": "Friday"
+              "id": "o0",
+              "text": "apple"
             },
             {
               "id": "o1",
-              "text": "Tuesday"
+              "text": "banana"
             },
             {
-              "id": "o0",
-              "text": "Monday"
+              "id": "o3",
+              "text": "mango"
             },
             {
               "id": "o2",
-              "text": "Sunday"
+              "text": "pear"
             },
             {
               "id": "o4",
-              "text": "June4550"
+              "text": "bike8669"
             }
           ],
           "correct_answer": "o4",
@@ -1965,8 +1950,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Otro common mistake - interesting",
-              "back": "Have you a car? - interesting"
+              "front": "Has hablado alguna vez ingl\u00e9s por tel\u00e9fono? - 998",
+              "back": "have you ever spoken English on the phone - 998"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1975,50 +1960,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 335 (Phone: Making Calls):",
-          "instruction_en": "Compare Phone: Making Calls with another topic. [Ref: 66]",
+          "instruction_en": "A small story about Phone: Making Calls. [Ref: 91]",
           "mastery_tag": "writing",
           "interaction_id": "U42_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 335 (Phone: Making Calls):",
-          "stimulus_en": "I like Phone: Making Calls. (954)",
+          "stimulus_en": "Study Phone: Making Calls now. (439)",
           "mastery_tag": "speaking",
           "interaction_id": "U42_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
-          "stimulus": "Matching set 5066",
+          "prompt_es": "Une 294 (Phone: Making Calls):",
+          "stimulus": "Matching set 3038",
           "items": [
             {
               "id": "i0",
-              "text": "Has hablado alguna vez ingl\u00e9s por tel\u00e9fono?!",
+              "text": "French fries (Br Eng!",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Otro ejemplo - amazing",
+              "text": "Esto si es un precio exacto, pero \u00bfy si hay c\u00e9ntimos? Entonces dir\u00edamos (today)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Los adjetivos tienen tres formas - amazing",
+              "text": "Otro ejemplo - interesting",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "when I was at primary school, I didn\u2019t wear uniform. - amazing"
+              "id": "m2",
+              "text": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. - interesting"
             },
             {
               "id": "m0",
-              "text": "have you ever spoken English on the phone!"
+              "text": "chips) Patatas fritas!"
             },
             {
-              "id": "m2",
-              "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. - amazing"
+              "id": "m1",
+              "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. (today)"
             }
           ],
           "correct_answer": {
@@ -2031,7 +2016,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Phone: Making Calls):",
+          "prompt_es": "Clasifica 294 (Phone: Making Calls):",
           "categories": [
             {
               "id": "c1",
@@ -2039,7 +2024,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "she doesn\u2019t often write to me..."
+                  "text": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos. (now)"
                 }
               ]
             },
@@ -2049,7 +2034,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele. (now)"
+                  "text": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo. - amazing"
                 }
               ]
             }
@@ -2059,19 +2044,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "main_text": "In Phone: Making Calls (9184), The player [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 294 (Phone: Making Calls):",
+          "main_text": "In Phone: Making Calls (3947), The player [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "built"
+                  "text": "planned"
                 },
                 {
                   "id": "o2",
-                  "text": "build"
+                  "text": "plan"
                 }
               ]
             },
@@ -2080,11 +2065,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
+                  "text": "spoke"
                 },
                 {
                   "id": "o2",
-                  "text": "organize"
+                  "text": "speak"
                 }
               ]
             }
@@ -2098,21 +2083,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Phone: Making Calls:",
-          "stimulus_en": "The Phone: Making Calls was overwhelming, so He was inspired - 376.",
-          "stimulus_es": "La Phone: Making Calls fue overwhelming, as\u00ed que He estuvo inspired - 376.",
+          "prompt_es": "Elige 294 para Phone: Making Calls:",
+          "stimulus_en": "The Phone: Making Calls was annoying, so The doctor was tired....",
+          "stimulus_es": "La Phone: Making Calls fue annoying, as\u00ed que The doctor estuvo tired....",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 2276"
+              "id": "o2",
+              "text": "annoying"
             },
             {
-              "id": "o2",
-              "text": "overwhelming"
+              "id": "o3",
+              "text": "Other 8875"
             },
             {
               "id": "o1",
-              "text": "inspired"
+              "text": "tired"
             }
           ],
           "correct_answer": "o1",
@@ -2121,15 +2106,27 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Phone: Making Calls:",
+          "prompt_es": "Ordena 294 sobre Phone: Making Calls:",
           "options": [
             {
               "id": "w10",
-              "text": "excited"
+              "text": "inspired"
             },
             {
-              "id": "w3",
-              "text": "Calls"
+              "id": "w5",
+              "text": "thrilling"
+            },
+            {
+              "id": "w2",
+              "text": "Making"
+            },
+            {
+              "id": "w9",
+              "text": "was"
+            },
+            {
+              "id": "w8",
+              "text": "baker"
             },
             {
               "id": "w1",
@@ -2137,39 +2134,27 @@
             },
             {
               "id": "w11",
-              "text": "(now)"
+              "text": "interesting"
             },
             {
-              "id": "w5",
-              "text": "satisfying"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w9",
-              "text": "was"
-            },
-            {
-              "id": "w4",
-              "text": "was"
+              "id": "w3",
+              "text": "Calls"
             },
             {
               "id": "w7",
               "text": "The"
             },
             {
-              "id": "w2",
-              "text": "Making"
-            },
-            {
-              "id": "w8",
-              "text": "actress"
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w6",
               "text": "so"
+            },
+            {
+              "id": "w4",
+              "text": "was"
             }
           ],
           "correct_answer": [
@@ -2191,44 +2176,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Phone: Making Calls):",
-          "stimulus_en": "The Phone: Making Calls was puzzling, so My friend was ___!.",
+          "prompt_es": "Completa 336 (Phone: Making Calls):",
+          "stimulus_en": "The Phone: Making Calls was satisfying, so The player was ___ - 344.",
           "correct_answer": "bored",
           "mastery_tag": "grammar",
           "interaction_id": "U42_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Phone: Making Calls)",
-          "stimulus_en": "The Phone: Making Calls was pleasing, so The manager was embarrassed - amazing.",
-          "stimulus_es": "Ref: La Phone: Making Calls fue pleasing, as\u00ed que The manager estuvo embarrassed - amazing.",
+          "prompt_es": "\u00bfCorrecto? 336 (Phone: Making Calls)",
+          "stimulus_en": "The Phone: Making Calls was exhausting, so John was pleased - amazing.",
+          "stimulus_es": "Ref: La Phone: Making Calls fue exhausting, as\u00ed que John estuvo pleased - amazing.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U42_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Phone: Making Calls):",
+          "prompt_es": "Relaciona 336 (Phone: Making Calls):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Phone: Making Calls fue exhausting, as\u00ed que The boss estuvo amazed....",
-              "right": "The Phone: Making Calls was exhausting, so The boss was amazed...."
+              "left": "La Phone: Making Calls fue satisfying, as\u00ed que A colleague estuvo depressed (now).",
+              "right": "The Phone: Making Calls was satisfying, so A colleague was depressed (now)."
             },
             {
               "id": "p1",
-              "left": "La Phone: Making Calls fue shocked, as\u00ed que The player estuvo overwhelmed....",
-              "right": "The Phone: Making Calls was shocked, so The player was overwhelmed...."
+              "left": "La Phone: Making Calls fue amazing, as\u00ed que John estuvo inspired - interesting.",
+              "right": "The Phone: Making Calls was amazing, so John was inspired - interesting."
             },
             {
               "id": "p2",
-              "left": "La Phone: Making Calls fue exhausting, as\u00ed que The coach estuvo excited - 273.",
-              "right": "The Phone: Making Calls was exhausting, so The coach was excited - 273."
+              "left": "La Phone: Making Calls fue disappointing, as\u00ed que The teacher estuvo disappointed (now).",
+              "right": "The Phone: Making Calls was disappointing, so The teacher was disappointed (now)."
             },
             {
               "id": "p3",
-              "left": "La Phone: Making Calls fue exhausting, as\u00ed que My brother estuvo relaxed..",
-              "right": "The Phone: Making Calls was exhausting, so My brother was relaxed.."
+              "left": "La Phone: Making Calls fue surprising, as\u00ed que The manager estuvo pleased....",
+              "right": "The Phone: Making Calls was surprising, so The manager was pleased...."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2236,35 +2221,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Phone: Making Calls):",
-          "tts_en": "The Phone: Making Calls was amusing, so The singer was excited - 979.",
-          "correct_answer": "The Phone: Making Calls was amusing, so The singer was excited - 979.",
+          "prompt_es": "Dictado 336 (Phone: Making Calls):",
+          "tts_en": "The Phone: Making Calls was surprising, so The lawyer was amused - amazing.",
+          "correct_answer": "The Phone: Making Calls was surprising, so The lawyer was amused - amazing.",
           "mastery_tag": "listening",
           "interaction_id": "U42_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 336:",
           "options": [
             {
-              "id": "o4",
-              "text": "Hot1307"
-            },
-            {
               "id": "o2",
-              "text": "Star"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
-            },
-            {
-              "id": "o0",
-              "text": "Sun"
+              "text": "Sunday"
             },
             {
               "id": "o1",
-              "text": "Moon"
+              "text": "Tuesday"
+            },
+            {
+              "id": "o4",
+              "text": "June9026"
+            },
+            {
+              "id": "o0",
+              "text": "Monday"
+            },
+            {
+              "id": "o3",
+              "text": "Friday"
             }
           ],
           "correct_answer": "o4",
@@ -2277,8 +2262,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "A qu\u00e9 hora tenemos el examen?!",
-              "back": "What time do we have our exam!"
+              "front": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo - amazing",
+              "back": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta. - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2287,14 +2272,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 336 (Phone: Making Calls):",
-          "instruction_en": "Review Phone: Making Calls from last week. [Ref: 15]",
+          "instruction_en": "Compare Phone: Making Calls with another topic. [Ref: 79]",
           "mastery_tag": "writing",
           "interaction_id": "U42_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 336 (Phone: Making Calls):",
-          "stimulus_en": "Focus on Phone: Making Calls. (791)",
+          "stimulus_en": "Look at Phone: Making Calls. (403)",
           "mastery_tag": "speaking",
           "interaction_id": "U42_I100"
         }

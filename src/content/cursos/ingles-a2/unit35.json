@@ -22,44 +22,44 @@
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "stimulus_en": "You has ___ designed a table in the restaurant....",
+          "prompt_es": "Completa 273 (Culture: Traditions):",
+          "stimulus_en": "The nurse has ___ played a printer in the library - 657.",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U35_I2"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Culture: Traditions)",
-          "stimulus_en": "The police officer has already checked an email in the office (now).",
-          "stimulus_es": "Ref: The police officer ya ha checked an email en the office (now).",
+          "prompt_es": "\u00bfCorrecto? 273 (Culture: Traditions)",
+          "stimulus_en": "You has already listened tennis in the station - 214.",
+          "stimulus_es": "Ref: You ya ha listened tennis en the station - 214.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U35_I3"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
+          "prompt_es": "Relaciona 273 (Culture: Traditions):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The architect ya ha planned a camera en the mountains (today).",
-              "right": "The architect has already planned a camera in the mountains (today)."
+              "left": "He ya ha traveled a gift en the airport - amazing.",
+              "right": "He has already traveled a gift in the airport - amazing."
             },
             {
               "id": "p1",
-              "left": "The waiter ya ha taught a book en the street - interesting.",
-              "right": "The waiter has already taught a book in the street - interesting."
+              "left": "The baker ya ha drunk a movie en Paris (now).",
+              "right": "The baker has already drunk a movie in Paris (now)."
             },
             {
               "id": "p2",
-              "left": "The player ya ha designed a bike en the university..",
-              "right": "The player has already designed a bike in the university.."
+              "left": "The pilot ya ha received a bike en the office - amazing.",
+              "right": "The pilot has already received a bike in the office - amazing."
             },
             {
               "id": "p3",
-              "left": "She ya ha played a radio en the garden - interesting.",
-              "right": "She has already played a radio in the garden - interesting."
+              "left": "We ya ha planned a phone en the supermarket (today).",
+              "right": "We has already planned a phone in the supermarket (today)."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -67,35 +67,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Culture: Traditions):",
-          "tts_en": "The architect has already listened a computer in the woods - interesting.",
-          "correct_answer": "The architect has already listened a computer in the woods - interesting.",
+          "prompt_es": "Dictado 273 (Culture: Traditions):",
+          "tts_en": "She has already created football in the street (now).",
+          "correct_answer": "She has already created football in the street (now).",
           "mastery_tag": "listening",
           "interaction_id": "U35_I5"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 273:",
           "options": [
             {
-              "id": "o3",
-              "text": "Paris"
-            },
-            {
-              "id": "o1",
-              "text": "Tokyo"
+              "id": "o2",
+              "text": "Star"
             },
             {
               "id": "o4",
-              "text": "Slow5363"
+              "text": "Hot8284"
             },
             {
-              "id": "o2",
-              "text": "Berlin"
+              "id": "o3",
+              "text": "Planet"
+            },
+            {
+              "id": "o1",
+              "text": "Moon"
             },
             {
               "id": "o0",
-              "text": "London"
+              "text": "Sun"
             }
           ],
           "correct_answer": "o4",
@@ -108,8 +108,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng.",
-              "back": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the."
+              "front": "El cumplea\u00f1os de Pablo es el 8 de mayo (now)",
+              "back": "Paul\u2019s birthday is on 8th May (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -118,50 +118,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 273 (Culture: Traditions):",
-          "instruction_en": "Why is Culture: Traditions important? [Ref: 95]",
+          "instruction_en": "Your daily routine in Culture: Traditions. [Ref: 61]",
           "mastery_tag": "writing",
           "interaction_id": "U35_I8"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 273 (Culture: Traditions):",
-          "stimulus_en": "Talk about Culture: Traditions. (171)",
+          "stimulus_en": "Improve Culture: Traditions. (780)",
           "mastery_tag": "speaking",
           "interaction_id": "U35_I9"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
-          "stimulus": "Matching set 1171",
+          "prompt_es": "Une 239 (Culture: Traditions):",
+          "stimulus": "Matching set 7322",
           "items": [
             {
               "id": "i0",
-              "text": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? (now)",
+              "text": "A qu\u00e9 hora abre el supermercado?.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Te veo el s\u00e1bado.",
+              "text": "me / Paul / helps / sometimes / my / with / homework - amazing",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "El cumplea\u00f1os de Pablo es el 8 de mayo...",
+              "text": "French fries (Br Eng - 219",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "I\u2019ll see you on Saturday."
-            },
-            {
-              "id": "m0",
-              "text": "What\u2019s the happiest day you\u2019ve ever had (now)"
+              "text": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework - amazing"
             },
             {
               "id": "m2",
-              "text": "Paul\u2019s birthday is on 8th May..."
+              "text": "chips) Patatas fritas - 219"
+            },
+            {
+              "id": "m0",
+              "text": "What time does the supermarket open."
             }
           ],
           "correct_answer": {
@@ -174,7 +174,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Culture: Traditions):",
+          "prompt_es": "Clasifica 239 (Culture: Traditions):",
           "categories": [
             {
               "id": "c1",
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "What\u2019s the saddest song you\u2019ve ever listened to!"
+                  "text": "When are we going to the beach."
                 }
               ]
             },
@@ -192,7 +192,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject! - amazing"
+                  "text": "Go straight on and in front of the church there is a supermarket.."
                 }
               ]
             }
@@ -202,19 +202,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "main_text": "In Culture: Traditions (8564), The artist [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 239 (Culture: Traditions):",
+          "main_text": "In Culture: Traditions (7412), The chef [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "ate"
+                  "text": "sold"
                 },
                 {
                   "id": "o2",
-                  "text": "eat"
+                  "text": "sell"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "visited"
+                  "text": "organized"
                 },
                 {
                   "id": "o2",
-                  "text": "visit"
+                  "text": "organize"
                 }
               ]
             }
@@ -241,9 +241,9 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Culture: Traditions:",
-          "stimulus_en": "The student has already learned a movie in the woods (now).",
-          "stimulus_es": "The student ya ha learned a movie en the woods (now).",
+          "prompt_es": "Elige 239 para Culture: Traditions:",
+          "stimulus_en": "The baker has already cleaned English in the stadium - interesting.",
+          "stimulus_es": "The baker ya ha cleaned English en the stadium - interesting.",
           "options": [
             {
               "id": "o2",
@@ -251,7 +251,7 @@
             },
             {
               "id": "o3",
-              "text": "Other 957"
+              "text": "Other 6068"
             },
             {
               "id": "o1",
@@ -264,47 +264,948 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Culture: Traditions:",
+          "prompt_es": "Ordena 239 sobre Culture: Traditions:",
           "options": [
             {
-              "id": "w10",
-              "text": "(today)"
-            },
-            {
               "id": "w5",
-              "text": "a"
+              "text": "printer"
             },
             {
               "id": "w3",
-              "text": "already"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "dog"
-            },
-            {
-              "id": "w9",
-              "text": "kitchen"
+              "text": "cleaned"
             },
             {
               "id": "w4",
-              "text": "cooked"
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "already"
+            },
+            {
+              "id": "w1",
+              "text": "has"
             },
             {
               "id": "w8",
+              "text": "shop"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "Maria"
+            },
+            {
+              "id": "w7",
               "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U35_I14"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 274 (Culture: Traditions):",
+          "stimulus_en": "The singer has ___ traveled an email in the cinema (now).",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U35_I15"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 274 (Culture: Traditions)",
+          "stimulus_en": "They has already cleaned a movie in the hospital - 295.",
+          "stimulus_es": "Ref: They ya ha cleaned a movie en the hospital - 295.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U35_I16"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 274 (Culture: Traditions):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The scientist ya ha helped a printer en the park - 488.",
+              "right": "The scientist has already helped a printer in the park - 488."
+            },
+            {
+              "id": "p1",
+              "left": "The baker ya ha watched a movie en the cinema (now).",
+              "right": "The baker has already watched a movie in the cinema (now)."
+            },
+            {
+              "id": "p2",
+              "left": "The waiter ya ha cleaned a chair en London!.",
+              "right": "The waiter has already cleaned a chair in London!."
+            },
+            {
+              "id": "p3",
+              "left": "The boss ya ha worked tennis en London - 702.",
+              "right": "The boss has already worked tennis in London - 702."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I17"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 274 (Culture: Traditions):",
+          "tts_en": "The chef has already sent a camera in the country - 975.",
+          "correct_answer": "The chef has already sent a camera in the country - 975.",
+          "mastery_tag": "listening",
+          "interaction_id": "U35_I18"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 274:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "bus"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o4",
+              "text": "cat8965"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I19"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 274 - Culture: Traditions:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca? (today)",
+              "back": "What\u2019s the saddest song you\u2019ve ever listened to (today)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I20"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 274 (Culture: Traditions):",
+          "instruction_en": "Review Culture: Traditions from last week. [Ref: 68]",
+          "mastery_tag": "writing",
+          "interaction_id": "U35_I21"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 274 (Culture: Traditions):",
+          "stimulus_en": "Talk about Culture: Traditions. (727)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U35_I22"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 240 (Culture: Traditions):",
+          "stimulus": "Matching set 4282",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca?...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "puedo abrir la ventana, por favor? (now)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "3. Las hermanas de Pedro!",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet (now)"
+            },
+            {
+              "id": "m0",
+              "text": "What\u2019s the most difficult language you\u2019ve ever studied..."
+            },
+            {
+              "id": "m2",
+              "text": "Peter\u2019s sisters!"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U35_I23"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 240 (Culture: Traditions):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "the students often use the dictionary - interesting"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "The police always try to keep the order..."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I24"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 240 (Culture: Traditions):",
+          "main_text": "In Culture: Traditions (227), The singer [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "watched"
+                },
+                {
+                  "id": "o2",
+                  "text": "watch"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "created"
+                },
+                {
+                  "id": "o2",
+                  "text": "create"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U35_I25"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 240 para Culture: Traditions:",
+          "stimulus_en": "The pilot has already sent a window in the university - amazing.",
+          "stimulus_es": "The pilot ya ha sent a window en the university - amazing.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o3",
+              "text": "Other 4801"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U35_I26"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 240 sobre Culture: Traditions:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "supermarket"
+            },
+            {
+              "id": "w1",
+              "text": "nurse"
             },
             {
               "id": "w2",
               "text": "has"
             },
             {
+              "id": "w9",
+              "text": "(today)"
+            },
+            {
+              "id": "w4",
+              "text": "started"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "music"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U35_I27"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 275 (Culture: Traditions):",
+          "stimulus_en": "My sister has ___ spoken an email in the university (today).",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U35_I28"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 275 (Culture: Traditions)",
+          "stimulus_en": "A colleague has already worked a door in the bank - interesting.",
+          "stimulus_es": "Ref: A colleague ya ha worked a door en the bank - interesting.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U35_I29"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 275 (Culture: Traditions):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The boss ya ha taught a camera en school..",
+              "right": "The boss has already taught a camera in school.."
+            },
+            {
+              "id": "p1",
+              "left": "He ya ha checked a report en the woods (now).",
+              "right": "He has already checked a report in the woods (now)."
+            },
+            {
+              "id": "p2",
+              "left": "The artist ya ha prepared tennis en the park (today).",
+              "right": "The artist has already prepared tennis in the park (today)."
+            },
+            {
+              "id": "p3",
+              "left": "The actress ya ha received tennis en the library..",
+              "right": "The actress has already received tennis in the library.."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I30"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 275 (Culture: Traditions):",
+          "tts_en": "The artist has already built a ticket in school - interesting.",
+          "correct_answer": "The artist has already built a ticket in school - interesting.",
+          "mastery_tag": "listening",
+          "interaction_id": "U35_I31"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 275:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o4",
+              "text": "Fast1366"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
+              "id": "o2",
+              "text": "Angry"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I32"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 275 - Culture: Traditions:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "The correct thing - amazing",
+              "back": "I haven\u2019t got a car. - amazing"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I33"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 275 (Culture: Traditions):",
+          "instruction_en": "A small story about Culture: Traditions. [Ref: 51]",
+          "mastery_tag": "writing",
+          "interaction_id": "U35_I34"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 275 (Culture: Traditions):",
+          "stimulus_en": "Where is Culture: Traditions? (241)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U35_I35"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 241 (Culture: Traditions):",
+          "stimulus": "Matching set 4651",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Algunos ejemplos...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Cu\u00e1nto cuesta? - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "6. Los juguetes de mis hijos - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without..."
+            },
+            {
+              "id": "m2",
+              "text": "My children\u2019s toys - interesting"
+            },
+            {
+              "id": "m1",
+              "text": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U35_I36"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 241 (Culture: Traditions):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. - amazing"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "on Monday, on Wednesday, etc. - 897"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I37"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 241 (Culture: Traditions):",
+          "main_text": "In Culture: Traditions (2788), My sister [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cooked"
+                },
+                {
+                  "id": "o2",
+                  "text": "cook"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "designed"
+                },
+                {
+                  "id": "o2",
+                  "text": "design"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U35_I38"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 241 para Culture: Traditions:",
+          "stimulus_en": "I has already studied a dog in the bank - interesting.",
+          "stimulus_es": "I ya ha studied a dog en the bank - interesting.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "yet"
+            },
+            {
+              "id": "o3",
+              "text": "Other 8279"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U35_I39"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 241 sobre Culture: Traditions:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "balcony"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w6",
+              "text": "window"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "checked"
+            },
+            {
               "id": "w1",
-              "text": "artist"
+              "text": "manager"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U35_I40"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 276 (Culture: Traditions):",
+          "stimulus_en": "The manager has ___ met English in the bedroom (now).",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U35_I41"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 276 (Culture: Traditions)",
+          "stimulus_en": "You has yet listened a newspaper in the mountains - amazing.",
+          "stimulus_es": "Ref: You ya ha listened a newspaper en the mountains - amazing.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U35_I42"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 276 (Culture: Traditions):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The scientist ya ha cleaned a dog en London....",
+              "right": "The scientist has already cleaned a dog in London...."
+            },
+            {
+              "id": "p1",
+              "left": "My sister ya ha walked a sandwich en the hotel!.",
+              "right": "My sister has already walked a sandwich in the hotel!."
+            },
+            {
+              "id": "p2",
+              "left": "The scientist ya ha sent a television en the beach (today).",
+              "right": "The scientist has already sent a television in the beach (today)."
+            },
+            {
+              "id": "p3",
+              "left": "They ya ha planned a house en the mountains (now).",
+              "right": "They has already planned a house in the mountains (now)."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I43"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 276 (Culture: Traditions):",
+          "tts_en": "My cousin has already learned a house in the cinema (today).",
+          "correct_answer": "My cousin has already learned a house in the cinema (today).",
+          "mastery_tag": "listening",
+          "interaction_id": "U35_I44"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 276:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "Hot2447"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
+            },
+            {
+              "id": "o1",
+              "text": "Moon"
+            },
+            {
+              "id": "o3",
+              "text": "Planet"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I45"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 276 - Culture: Traditions:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo (today)",
+              "back": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado. (today)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I46"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 276 (Culture: Traditions):",
+          "instruction_en": "List 3 facts about Culture: Traditions. [Ref: 89]",
+          "mastery_tag": "writing",
+          "interaction_id": "U35_I47"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 276 (Culture: Traditions):",
+          "stimulus_en": "I like Culture: Traditions. (701)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U35_I48"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 242 (Culture: Traditions):",
+          "stimulus": "Matching set 8170",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Qu\u00e9 hora es?...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Much, como se utiliza con uncountable, decimos (today)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "2. La hamburguesa de Harry (today)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "What time is it..."
+            },
+            {
+              "id": "m1",
+              "text": "I haven\u2019t got much money (remember, money is uncountable). (today)"
+            },
+            {
+              "id": "m2",
+              "text": "Harry\u2019s burger (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U35_I49"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 242 (Culture: Traditions):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). (now)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora.!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I50"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 242 (Culture: Traditions):",
+          "main_text": "In Culture: Traditions (1964), My cousin [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cooked"
+                },
+                {
+                  "id": "o2",
+                  "text": "cook"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "built"
+                },
+                {
+                  "id": "o2",
+                  "text": "build"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U35_I51"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 242 para Culture: Traditions:",
+          "stimulus_en": "You has already prepared a television in the street - amazing.",
+          "stimulus_es": "You ya ha prepared a television en the street - amazing.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "yet"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o3",
+              "text": "Other 3242"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U35_I52"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 242 sobre Culture: Traditions:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w9",
+              "text": "hospital"
+            },
+            {
+              "id": "w4",
+              "text": "met"
+            },
+            {
+              "id": "w10",
+              "text": "amazing"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w6",
+              "text": "ticket"
+            },
+            {
+              "id": "w1",
+              "text": "student"
+            },
+            {
+              "id": "w2",
+              "text": "has"
             },
             {
               "id": "w7",
@@ -325,150 +1226,150 @@
             "w10"
           ],
           "mastery_tag": "syntax",
-          "interaction_id": "U35_I14"
+          "interaction_id": "U35_I53"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "stimulus_en": "He has ___ traveled music in the museum - 714.",
+          "prompt_es": "Completa 277 (Culture: Traditions):",
+          "stimulus_en": "Maria has ___ started a radio in the beach....",
           "correct_answer": "already",
           "mastery_tag": "grammar",
-          "interaction_id": "U35_I15"
+          "interaction_id": "U35_I54"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Culture: Traditions)",
-          "stimulus_en": "Sarah has yet drunk a report in the park..",
-          "stimulus_es": "Ref: Sarah ya ha drunk a report en the park..",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 277 (Culture: Traditions)",
+          "stimulus_en": "He has already played a window in the garden (today).",
+          "stimulus_es": "Ref: He ya ha played a window en the garden (today).",
+          "correct_answer": true,
           "mastery_tag": "grammar",
-          "interaction_id": "U35_I16"
+          "interaction_id": "U35_I55"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
+          "prompt_es": "Relaciona 277 (Culture: Traditions):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Maria ya ha cooked a computer en the supermarket....",
-              "right": "Maria has already cooked a computer in the supermarket...."
+              "left": "The scientist ya ha learned a book en the shop (now).",
+              "right": "The scientist has already learned a book in the shop (now)."
             },
             {
               "id": "p1",
-              "left": "The singer ya ha listened a ticket en the gym - amazing.",
-              "right": "The singer has already listened a ticket in the gym - amazing."
+              "left": "John ya ha learned a computer en the beach....",
+              "right": "John has already learned a computer in the beach...."
             },
             {
               "id": "p2",
-              "left": "Our neighbors ya ha learned a letter en the shop - interesting.",
-              "right": "Our neighbors has already learned a letter in the shop - interesting."
+              "left": "He ya ha cleaned a pizza en the station..",
+              "right": "He has already cleaned a pizza in the station.."
             },
             {
               "id": "p3",
-              "left": "He ya ha created a television en the shop....",
-              "right": "He has already created a television in the shop...."
+              "left": "The baker ya ha worked a camera en the street - amazing.",
+              "right": "The baker has already worked a camera in the street - amazing."
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I17"
+          "interaction_id": "U35_I56"
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Culture: Traditions):",
-          "tts_en": "We has already worked an apple in the mountains - interesting.",
-          "correct_answer": "We has already worked an apple in the mountains - interesting.",
+          "prompt_es": "Dictado 277 (Culture: Traditions):",
+          "tts_en": "The baker has already cleaned a pizza in the balcony - amazing.",
+          "correct_answer": "The baker has already cleaned a pizza in the balcony - amazing.",
           "mastery_tag": "listening",
-          "interaction_id": "U35_I18"
+          "interaction_id": "U35_I57"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 277:",
           "options": [
             {
-              "id": "o0",
-              "text": "London"
+              "id": "o1",
+              "text": "Moon"
             },
             {
               "id": "o4",
-              "text": "Slow5577"
+              "text": "Hot3966"
             },
             {
-              "id": "o3",
-              "text": "Paris"
+              "id": "o0",
+              "text": "Sun"
             },
             {
               "id": "o2",
-              "text": "Berlin"
+              "text": "Star"
             },
             {
-              "id": "o1",
-              "text": "Tokyo"
+              "id": "o3",
+              "text": "Planet"
             }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I19"
+          "interaction_id": "U35_I58"
         },
         {
           "type": "flashcards",
-          "prompt_es": "Flashcard 274 - Culture: Traditions:",
+          "prompt_es": "Flashcard 277 - Culture: Traditions:",
           "cards": [
             {
               "id": "c1",
-              "front": "Los adjetivos tienen tres formas (today)",
-              "back": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. (today)"
+              "front": "En un post anterior sobre verb patterns puedes revisar la diferencia entre allow y let (now)",
+              "back": "verb patters. (now)"
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I20"
+          "interaction_id": "U35_I59"
         },
         {
           "type": "writing_task",
-          "prompt_es": "Escribe 274 (Culture: Traditions):",
-          "instruction_en": "Write a note about Culture: Traditions. [Ref: 69]",
+          "prompt_es": "Escribe 277 (Culture: Traditions):",
+          "instruction_en": "Your daily routine in Culture: Traditions. [Ref: 19]",
           "mastery_tag": "writing",
-          "interaction_id": "U35_I21"
+          "interaction_id": "U35_I60"
         },
         {
           "type": "speaking_task",
-          "prompt_es": "Habla 274 (Culture: Traditions):",
-          "stimulus_en": "I like Culture: Traditions. (663)",
+          "prompt_es": "Habla 277 (Culture: Traditions):",
+          "stimulus_en": "The Present Perfect basics is here. (246)",
           "mastery_tag": "speaking",
-          "interaction_id": "U35_I22"
+          "interaction_id": "U35_I61"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
-          "stimulus": "Matching set 5772",
+          "prompt_es": "Une 243 (Culture: Traditions):",
+          "stimulus": "Matching set 9692",
           "items": [
             {
               "id": "i0",
-              "text": "Crees que bajar\u00e1 el paro este a\u00f1o? (today)",
+              "text": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales - interesting",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "La podemos contestar de la seguiente manera (today)",
+              "text": "Common mistake...",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Y por \u00faltimo, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo - 610",
+              "text": "Tienes hermanos?.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m1",
+              "text": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele...."
+            },
+            {
               "id": "m0",
-              "text": "Do you think that unemployment will go down this year (today)"
+              "text": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/. - interesting"
             },
             {
               "id": "m2",
-              "text": "would you like some coke? - 610"
-            },
-            {
-              "id": "m1",
-              "text": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l) (today)"
+              "text": "do you have any brothers or sisters."
             }
           ],
           "correct_answer": {
@@ -477,11 +1378,11 @@
             "i2": "m2"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U35_I23"
+          "interaction_id": "U35_I62"
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Culture: Traditions):",
+          "prompt_es": "Clasifica 243 (Culture: Traditions):",
           "categories": [
             {
               "id": "c1",
@@ -489,7 +1390,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "have you seen my keys anywhere - interesting"
+                  "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n! - interesting"
                 }
               ]
             },
@@ -499,617 +1400,18 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "Can I have your ID/ passport/ credit card?. - interesting"
+                  "text": "information, homework, work. - interesting"
                 }
               ]
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I24"
+          "interaction_id": "U35_I63"
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "main_text": "In Culture: Traditions (2234), John [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "worked"
-                },
-                {
-                  "id": "o2",
-                  "text": "work"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "taught"
-                },
-                {
-                  "id": "o2",
-                  "text": "teach"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U35_I25"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Culture: Traditions:",
-          "stimulus_en": "Maria has already drunk a television in London!.",
-          "stimulus_es": "Maria ya ha drunk a television en London!.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 9135"
-            },
-            {
-              "id": "o2",
-              "text": "yet"
-            },
-            {
-              "id": "o1",
-              "text": "already"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U35_I26"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Culture: Traditions:",
-          "options": [
-            {
-              "id": "w9",
-              "text": "airport"
-            },
-            {
-              "id": "w2",
-              "text": "has"
-            },
-            {
-              "id": "w4",
-              "text": "prepared"
-            },
-            {
-              "id": "w3",
-              "text": "already"
-            },
-            {
-              "id": "w6",
-              "text": "bike"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "manager"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U35_I27"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "stimulus_en": "The nurse has ___ started a radio in the beach - interesting.",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U35_I28"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Culture: Traditions)",
-          "stimulus_en": "You has yet learned a television in the city!.",
-          "stimulus_es": "Ref: You ya ha learned a television en the city!.",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U35_I29"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "The architect ya ha played a camera en the garden - 294.",
-              "right": "The architect has already played a camera in the garden - 294."
-            },
-            {
-              "id": "p1",
-              "left": "The police officer ya ha watched a book en the street..",
-              "right": "The police officer has already watched a book in the street.."
-            },
-            {
-              "id": "p2",
-              "left": "The artist ya ha driven a door en the cinema!.",
-              "right": "The artist has already driven a door in the cinema!."
-            },
-            {
-              "id": "p3",
-              "left": "John ya ha prepared a camera en the university - amazing.",
-              "right": "John has already prepared a camera in the university - amazing."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I30"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Culture: Traditions):",
-          "tts_en": "You has already helped English in the garden - interesting.",
-          "correct_answer": "You has already helped English in the garden - interesting.",
-          "mastery_tag": "listening",
-          "interaction_id": "U35_I31"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o4",
-              "text": "Fast7817"
-            },
-            {
-              "id": "o3",
-              "text": "Calm"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I32"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 275 - Culture: Traditions:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda?.",
-              "back": "How old is Mar\u00eda."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I33"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 275 (Culture: Traditions):",
-          "instruction_en": "Why is Culture: Traditions important? [Ref: 66]",
-          "mastery_tag": "writing",
-          "interaction_id": "U35_I34"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 275 (Culture: Traditions):",
-          "stimulus_en": "Talk about Culture: Traditions. (117)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U35_I35"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
-          "stimulus": "Matching set 9089",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Has estudiado alguna vez un idioma extranjero diferente al ingl\u00e9s?...",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Verbos irregulares...",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca?!",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "What\u2019s the most difficult language you\u2019ve ever studied!"
-            },
-            {
-              "id": "m1",
-              "text": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna...."
-            },
-            {
-              "id": "m0",
-              "text": "have you ever studied a foreign laguage apart from English..."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U35_I36"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Culture: Traditions):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "What\u2019s the most delicious food you\u2019ve ever tasted."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "my father usually goes to work by bus!"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I37"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "main_text": "In Culture: Traditions (6013), Maria [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "studied"
-                },
-                {
-                  "id": "o2",
-                  "text": "study"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "bought"
-                },
-                {
-                  "id": "o2",
-                  "text": "buy"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U35_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Culture: Traditions:",
-          "stimulus_en": "Sarah has already prepared a letter in the university (today).",
-          "stimulus_es": "Sarah ya ha prepared a letter en the university (today).",
-          "options": [
-            {
-              "id": "o1",
-              "text": "already"
-            },
-            {
-              "id": "o2",
-              "text": "yet"
-            },
-            {
-              "id": "o3",
-              "text": "Other 7395"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U35_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Culture: Traditions:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "Paris"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w4",
-              "text": "taught"
-            },
-            {
-              "id": "w3",
-              "text": "already"
-            },
-            {
-              "id": "w1",
-              "text": "friend"
-            },
-            {
-              "id": "w6",
-              "text": "letter"
-            },
-            {
-              "id": "w2",
-              "text": "has"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U35_I40"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "stimulus_en": "My friend has ___ read English in London - interesting.",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U35_I41"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Culture: Traditions)",
-          "stimulus_en": "Maria has yet cooked a bike in the city - 567.",
-          "stimulus_es": "Ref: Maria ya ha cooked a bike en the city - 567.",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U35_I42"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "The lawyer ya ha learned a camera en the cinema - amazing.",
-              "right": "The lawyer has already learned a camera in the cinema - amazing."
-            },
-            {
-              "id": "p1",
-              "left": "The driver ya ha played a watch en school (now).",
-              "right": "The driver has already played a watch in school (now)."
-            },
-            {
-              "id": "p2",
-              "left": "My brother ya ha built a camera en the garage (now).",
-              "right": "My brother has already built a camera in the garage (now)."
-            },
-            {
-              "id": "p3",
-              "left": "The baker ya ha cleaned tennis en the hospital (now).",
-              "right": "The baker has already cleaned tennis in the hospital (now)."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I43"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Culture: Traditions):",
-          "tts_en": "The chef has already eaten a cat in the station..",
-          "correct_answer": "The chef has already eaten a cat in the station..",
-          "mastery_tag": "listening",
-          "interaction_id": "U35_I44"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "cat7156"
-            },
-            {
-              "id": "o3",
-              "text": "plane"
-            },
-            {
-              "id": "o2",
-              "text": "train"
-            },
-            {
-              "id": "o0",
-              "text": "car"
-            },
-            {
-              "id": "o1",
-              "text": "bus"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I45"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 276 - Culture: Traditions:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Common mistake - 289",
-              "back": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele. - 289"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I46"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 276 (Culture: Traditions):",
-          "instruction_en": "Write a note about Culture: Traditions. [Ref: 46]",
-          "mastery_tag": "writing",
-          "interaction_id": "U35_I47"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 276 (Culture: Traditions):",
-          "stimulus_en": "Repeat Culture: Traditions. (490)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U35_I48"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
-          "stimulus": "Matching set 4419",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Movie (Br Eng - amazing",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "2. La hamburguesa de Harry...",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "puedo abrir la ventana, por favor? (now)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet (now)"
-            },
-            {
-              "id": "m0",
-              "text": "film) Pel\u00edcula - amazing"
-            },
-            {
-              "id": "m1",
-              "text": "Harry\u2019s burger..."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U35_I49"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Culture: Traditions):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "Jennifer usually goes out to see a concert - amazing"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "lift) Ascensor - interesting"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I50"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "main_text": "In Culture: Traditions (9597), The artist [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 243 (Culture: Traditions):",
+          "main_text": "In Culture: Traditions (2498), The student [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
@@ -1143,333 +1445,21 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U35_I51"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Culture: Traditions:",
-          "stimulus_en": "The driver has already cleaned a newspaper in the balcony - 241.",
-          "stimulus_es": "The driver ya ha cleaned a newspaper en the balcony - 241.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "already"
-            },
-            {
-              "id": "o3",
-              "text": "Other 8180"
-            },
-            {
-              "id": "o2",
-              "text": "yet"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U35_I52"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Culture: Traditions:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "report"
-            },
-            {
-              "id": "w2",
-              "text": "officer"
-            },
-            {
-              "id": "w9",
-              "text": "the"
-            },
-            {
-              "id": "w10",
-              "text": "museum"
-            },
-            {
-              "id": "w8",
-              "text": "in"
-            },
-            {
-              "id": "w6",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "already"
-            },
-            {
-              "id": "w3",
-              "text": "has"
-            },
-            {
-              "id": "w11",
-              "text": "interesting"
-            },
-            {
-              "id": "w5",
-              "text": "read"
-            },
-            {
-              "id": "w1",
-              "text": "police"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U35_I53"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "stimulus_en": "The manager has ___ received a bag in the beach (now).",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U35_I54"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Culture: Traditions)",
-          "stimulus_en": "My cousin has already studied a car in the airport (now).",
-          "stimulus_es": "Ref: My cousin ya ha studied a car en the airport (now).",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U35_I55"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "The waiter ya ha written a pizza en the city - 746.",
-              "right": "The waiter has already written a pizza in the city - 746."
-            },
-            {
-              "id": "p1",
-              "left": "A colleague ya ha worked a house en London..",
-              "right": "A colleague has already worked a house in London.."
-            },
-            {
-              "id": "p2",
-              "left": "The police officer ya ha visited a house en the kitchen - interesting.",
-              "right": "The police officer has already visited a house in the kitchen - interesting."
-            },
-            {
-              "id": "p3",
-              "left": "My sister ya ha written a movie en the university (now).",
-              "right": "My sister has already written a movie in the university (now)."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I56"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Culture: Traditions):",
-          "tts_en": "The lawyer has already written a pizza in the garage....",
-          "correct_answer": "The lawyer has already written a pizza in the garage....",
-          "mastery_tag": "listening",
-          "interaction_id": "U35_I57"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o0",
-              "text": "blue"
-            },
-            {
-              "id": "o3",
-              "text": "pink"
-            },
-            {
-              "id": "o1",
-              "text": "red"
-            },
-            {
-              "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o4",
-              "text": "run180"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I58"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 277 - Culture: Traditions:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Drugstore (Br Eng (today)",
-              "back": "chemist) Farmacia (today)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I59"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 277 (Culture: Traditions):",
-          "instruction_en": "Your daily routine in Culture: Traditions. [Ref: 60]",
-          "mastery_tag": "writing",
-          "interaction_id": "U35_I60"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 277 (Culture: Traditions):",
-          "stimulus_en": "Focus on Culture: Traditions. (970)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U35_I61"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
-          "stimulus": "Matching set 7365",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca? - interesting",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "French fries (Br Eng - amazing",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Eraser (Br Eng - 831",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "chips) Patatas fritas - amazing"
-            },
-            {
-              "id": "m2",
-              "text": "rubber) Goma de borrar - 831"
-            },
-            {
-              "id": "m0",
-              "text": "What\u2019s the hottest place you\u2019ve ever been to - interesting"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U35_I62"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Culture: Traditions):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "liter) Litro (today)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "I don\u2019t want to sit opposite him.."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I63"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "main_text": "In Culture: Traditions (7458), The lawyer [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "cooked"
-                },
-                {
-                  "id": "o2",
-                  "text": "cook"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "created"
-                },
-                {
-                  "id": "o2",
-                  "text": "create"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
           "interaction_id": "U35_I64"
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Culture: Traditions:",
-          "stimulus_en": "The lawyer has already sent a sandwich in the street - 978.",
-          "stimulus_es": "The lawyer ya ha sent a sandwich en the street - 978.",
+          "prompt_es": "Elige 243 para Culture: Traditions:",
+          "stimulus_en": "The baker has already organized a gift in the library!.",
+          "stimulus_es": "The baker ya ha organized a gift en the library!.",
           "options": [
+            {
+              "id": "o3",
+              "text": "Other 5205"
+            },
             {
               "id": "o2",
               "text": "yet"
-            },
-            {
-              "id": "o3",
-              "text": "Other 1252"
             },
             {
               "id": "o1",
@@ -1482,343 +1472,51 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Culture: Traditions:",
+          "prompt_es": "Ordena 243 sobre Culture: Traditions:",
           "options": [
             {
-              "id": "w7",
-              "text": "Paris"
-            },
-            {
-              "id": "w3",
-              "text": "cooked"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "already"
-            },
-            {
-              "id": "w6",
-              "text": "in"
+              "id": "w9",
+              "text": "street"
             },
             {
               "id": "w5",
-              "text": "watch"
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "in"
             },
             {
               "id": "w4",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U35_I66"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "stimulus_en": "The driver has ___ taught a car in the city (today).",
-          "correct_answer": "already",
-          "mastery_tag": "grammar",
-          "interaction_id": "U35_I67"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Culture: Traditions)",
-          "stimulus_en": "The singer has yet organized music in the museum (now).",
-          "stimulus_es": "Ref: The singer ya ha organized music en the museum (now).",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U35_I68"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "The singer ya ha helped a pizza en the museum (now).",
-              "right": "The singer has already helped a pizza in the museum (now)."
+              "text": "eaten"
             },
-            {
-              "id": "p1",
-              "left": "The student ya ha watched a newspaper en the mountains....",
-              "right": "The student has already watched a newspaper in the mountains...."
-            },
-            {
-              "id": "p2",
-              "left": "The baker ya ha sent coffee en the country (today).",
-              "right": "The baker has already sent coffee in the country (today)."
-            },
-            {
-              "id": "p3",
-              "left": "A colleague ya ha drunk a gift en school....",
-              "right": "A colleague has already drunk a gift in school...."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I69"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe (Culture: Traditions):",
-          "tts_en": "You has already visited a laptop in the street - 128.",
-          "correct_answer": "You has already visited a laptop in the street - 128.",
-          "mastery_tag": "listening",
-          "interaction_id": "U35_I70"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "rain8505"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o0",
-              "text": "pizza"
-            },
-            {
-              "id": "o2",
-              "text": "salad"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I71"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 278 - Culture: Traditions:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "angry / Our / teacher / English / usually / is.",
-              "back": "Our English teacher is usually angry."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I72"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 278 (Culture: Traditions):",
-          "instruction_en": "Compare Culture: Traditions with another topic. [Ref: 57]",
-          "mastery_tag": "writing",
-          "interaction_id": "U35_I73"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 278 (Culture: Traditions):",
-          "stimulus_en": "Focus on Culture: Traditions. (409)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U35_I74"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
-          "stimulus": "Matching set 1904",
-          "items": [
-            {
-              "id": "i0",
-              "text": "As any modal verb, they are followed by an infinitive without \u2018to\u2019, for example - 979",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "The correct thing!",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Bookstore (Br Eng (today)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "information, homework, work.!"
-            },
-            {
-              "id": "m0",
-              "text": "may come, might go. - 979"
-            },
-            {
-              "id": "m2",
-              "text": "bookshop) Librer\u00eda (today)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U35_I75"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica (Culture: Traditions):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "The girls\u2019 ball - 699"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables...."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U35_I76"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "main_text": "In Culture: Traditions (5672), We [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "finished"
-                },
-                {
-                  "id": "o2",
-                  "text": "finish"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "studied"
-                },
-                {
-                  "id": "o2",
-                  "text": "study"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U35_I77"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige para Culture: Traditions:",
-          "stimulus_en": "Sarah has already taught a newspaper in the bank - 807.",
-          "stimulus_es": "Sarah ya ha taught a newspaper en the bank - 807.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "yet"
-            },
-            {
-              "id": "o3",
-              "text": "Other 6687"
-            },
-            {
-              "id": "o1",
-              "text": "already"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U35_I78"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena sobre Culture: Traditions:",
-          "options": [
             {
               "id": "w1",
-              "text": "police"
+              "text": "baker"
+            },
+            {
+              "id": "w6",
+              "text": "clock"
             },
             {
               "id": "w0",
               "text": "The"
             },
             {
-              "id": "w10",
-              "text": "interesting"
-            },
-            {
-              "id": "w7",
-              "text": "movie"
-            },
-            {
               "id": "w8",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "has"
-            },
-            {
-              "id": "w5",
-              "text": "created"
+              "text": "the"
             },
             {
               "id": "w2",
-              "text": "officer"
+              "text": "has"
             },
             {
-              "id": "w4",
+              "id": "w10",
+              "text": "(now)"
+            },
+            {
+              "id": "w3",
               "text": "already"
-            },
-            {
-              "id": "w9",
-              "text": "London"
-            },
-            {
-              "id": "w6",
-              "text": "a"
             }
           ],
           "correct_answer": [
@@ -1835,48 +1533,350 @@
             "w10"
           ],
           "mastery_tag": "syntax",
+          "interaction_id": "U35_I66"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa 278 (Culture: Traditions):",
+          "stimulus_en": "The student has ___ walked a letter in the park (now).",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
+          "interaction_id": "U35_I67"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? 278 (Culture: Traditions)",
+          "stimulus_en": "The baker has already stopped a pen in the stadium....",
+          "stimulus_es": "Ref: The baker ya ha stopped a pen en the stadium....",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U35_I68"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona 278 (Culture: Traditions):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The player ya ha played a report en the garden - interesting.",
+              "right": "The player has already played a report in the garden - interesting."
+            },
+            {
+              "id": "p1",
+              "left": "A colleague ya ha cooked a ticket en the hospital (today).",
+              "right": "A colleague has already cooked a ticket in the hospital (today)."
+            },
+            {
+              "id": "p2",
+              "left": "My friend ya ha fixed a radio en the beach - interesting.",
+              "right": "My friend has already fixed a radio in the beach - interesting."
+            },
+            {
+              "id": "p3",
+              "left": "She ya ha checked a sandwich en the balcony..",
+              "right": "She has already checked a sandwich in the balcony.."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I69"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Dictado 278 (Culture: Traditions):",
+          "tts_en": "The waiter has already taught a door in the stadium (today).",
+          "correct_answer": "The waiter has already taught a door in the stadium (today).",
+          "mastery_tag": "listening",
+          "interaction_id": "U35_I70"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Intruso 278:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o4",
+              "text": "Pen6269"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I71"
+        },
+        {
+          "type": "flashcards",
+          "prompt_es": "Flashcard 278 - Culture: Traditions:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Has estado alguna vez en Canad\u00e1? (today)",
+              "back": "have you ever been to Canada (today)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I72"
+        },
+        {
+          "type": "writing_task",
+          "prompt_es": "Escribe 278 (Culture: Traditions):",
+          "instruction_en": "A small story about Culture: Traditions. [Ref: 62]",
+          "mastery_tag": "writing",
+          "interaction_id": "U35_I73"
+        },
+        {
+          "type": "speaking_task",
+          "prompt_es": "Habla 278 (Culture: Traditions):",
+          "stimulus_en": "Where is Culture: Traditions? (104)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U35_I74"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Une 244 (Culture: Traditions):",
+          "stimulus": "Matching set 6038",
+          "items": [
+            {
+              "id": "i0",
+              "text": "see / usually / Jennifer / out / goes / a / to / concert.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Qu\u00e9 quieres? (today)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Y en negativa - amazing",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "I don\u2019t have any friends who live near my house. - amazing"
+            },
+            {
+              "id": "m0",
+              "text": "Jennifer usually goes out to see a concert."
+            },
+            {
+              "id": "m1",
+              "text": "la respuesta es ilimitada, puede ser cualquier cosa. (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U35_I75"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica 244 (Culture: Traditions):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc.."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Is she studying English!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U35_I76"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Rellena 244 (Culture: Traditions):",
+          "main_text": "In Culture: Traditions (1077), The nurse [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drank"
+                },
+                {
+                  "id": "o2",
+                  "text": "drink"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "ate"
+                },
+                {
+                  "id": "o2",
+                  "text": "eat"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U35_I77"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige 244 para Culture: Traditions:",
+          "stimulus_en": "I has already planned a pizza in the museum!.",
+          "stimulus_es": "I ya ha planned a pizza en the museum!.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "yet"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o3",
+              "text": "Other 6599"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U35_I78"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena 244 sobre Culture: Traditions:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w9",
+              "text": "gym"
+            },
+            {
+              "id": "w1",
+              "text": "nurse"
+            },
+            {
+              "id": "w4",
+              "text": "checked"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "movie"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U35_I79"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "stimulus_en": "She has ___ visited a movie in the university..",
+          "prompt_es": "Completa 279 (Culture: Traditions):",
+          "stimulus_en": "John has ___ cleaned a letter in the university - interesting.",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U35_I80"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Culture: Traditions)",
-          "stimulus_en": "The artist has yet studied a bike in the park (today).",
-          "stimulus_es": "Ref: The artist ya ha studied a bike en the park (today).",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 279 (Culture: Traditions)",
+          "stimulus_en": "The actress has already started a letter in the park (today).",
+          "stimulus_es": "Ref: The actress ya ha started a letter en the park (today).",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U35_I81"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
+          "prompt_es": "Relaciona 279 (Culture: Traditions):",
           "pairs": [
             {
               "id": "p0",
-              "left": "You ya ha built a pen en the stadium (now).",
-              "right": "You has already built a pen in the stadium (now)."
+              "left": "The lawyer ya ha bought a gift en London - amazing.",
+              "right": "The lawyer has already bought a gift in London - amazing."
             },
             {
               "id": "p1",
-              "left": "The police officer ya ha finished a door en the supermarket - amazing.",
-              "right": "The police officer has already finished a door in the supermarket - amazing."
+              "left": "The artist ya ha eaten a car en the hospital - interesting.",
+              "right": "The artist has already eaten a car in the hospital - interesting."
             },
             {
               "id": "p2",
-              "left": "You ya ha traveled a window en the garage - 238.",
-              "right": "You has already traveled a window in the garage - 238."
+              "left": "The driver ya ha spoken football en the kitchen (now).",
+              "right": "The driver has already spoken football in the kitchen (now)."
             },
             {
               "id": "p3",
-              "left": "The singer ya ha listened a newspaper en the mountains!.",
-              "right": "The singer has already listened a newspaper in the mountains!."
+              "left": "The singer ya ha traveled a gift en London - amazing.",
+              "right": "The singer has already traveled a gift in London - amazing."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1884,31 +1884,31 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Culture: Traditions):",
-          "tts_en": "The lawyer has already watched a letter in school (today).",
-          "correct_answer": "The lawyer has already watched a letter in school (today).",
+          "prompt_es": "Dictado 279 (Culture: Traditions):",
+          "tts_en": "The student has already read a window in the office - 427.",
+          "correct_answer": "The student has already read a window in the office - 427.",
           "mastery_tag": "listening",
           "interaction_id": "U35_I83"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 279:",
           "options": [
             {
-              "id": "o3",
-              "text": "Paris"
+              "id": "o0",
+              "text": "London"
             },
             {
               "id": "o2",
               "text": "Berlin"
             },
             {
-              "id": "o4",
-              "text": "Slow3376"
+              "id": "o3",
+              "text": "Paris"
             },
             {
-              "id": "o0",
-              "text": "London"
+              "id": "o4",
+              "text": "Slow1881"
             },
             {
               "id": "o1",
@@ -1925,8 +1925,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Common mistake - interesting",
-              "back": "I don\u2019t know that I will do. - interesting"
+              "front": "Tienes zapatos para la boda? - 127",
+              "back": "do you have any shoes for the wedding - 127"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -1935,50 +1935,50 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 279 (Culture: Traditions):",
-          "instruction_en": "Write a note about Culture: Traditions. [Ref: 17]",
+          "instruction_en": "A small story about Culture: Traditions. [Ref: 76]",
           "mastery_tag": "writing",
           "interaction_id": "U35_I86"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 279 (Culture: Traditions):",
-          "stimulus_en": "The Present Perfect basics is here. (398)",
+          "stimulus_en": "This is Culture: Traditions. (514)",
           "mastery_tag": "speaking",
           "interaction_id": "U35_I87"
         },
         {
           "type": "multiple_matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
-          "stimulus": "Matching set 4735",
+          "prompt_es": "Une 245 (Culture: Traditions):",
+          "stimulus": "Matching set 8314",
           "items": [
             {
               "id": "i0",
-              "text": "\u2013 D\u00edas de la semana - amazing",
+              "text": "Elevator (Br Eng - amazing",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "As any modal verb, they are followed by an infinitive without \u2018to\u2019, for example - 631",
+              "text": "\u2013 Fechas concretas - 462",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "El cumplea\u00f1os de Pablo es el 8 de mayo - 841",
+              "text": "C\u00f3mo se llama \u00e9l? (now)",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m1",
+              "text": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on. - 462"
+            },
+            {
               "id": "m2",
-              "text": "Paul\u2019s birthday is on 8th May - 841"
+              "text": "What\u2019s his name (now)"
             },
             {
               "id": "m0",
-              "text": "on Monday, on Wednesday, etc. - amazing"
-            },
-            {
-              "id": "m1",
-              "text": "may come, might go. - 631"
+              "text": "lift) Ascensor - amazing"
             }
           ],
           "correct_answer": {
@@ -1991,7 +1991,7 @@
         },
         {
           "type": "categorization",
-          "prompt_es": "Clasifica (Culture: Traditions):",
+          "prompt_es": "Clasifica 245 (Culture: Traditions):",
           "categories": [
             {
               "id": "c1",
@@ -1999,7 +1999,7 @@
               "items": [
                 {
                   "id": "t1",
-                  "text": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the..."
+                  "text": "have you ever studied a foreign laguage apart from English - interesting"
                 }
               ]
             },
@@ -2009,7 +2009,7 @@
               "items": [
                 {
                   "id": "t2",
-                  "text": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is.!"
+                  "text": "Next to my house there is a nursery school.!"
                 }
               ]
             }
@@ -2019,19 +2019,19 @@
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "main_text": "In Culture: Traditions (9676), My friend [GAP 1] and [GAP 2].",
+          "prompt_es": "Rellena 245 (Culture: Traditions):",
+          "main_text": "In Culture: Traditions (1677), My friend [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "cleaned"
+                  "text": "drove"
                 },
                 {
                   "id": "o2",
-                  "text": "clean"
+                  "text": "drive"
                 }
               ]
             },
@@ -2040,11 +2040,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "watched"
+                  "text": "spoke"
                 },
                 {
                   "id": "o2",
-                  "text": "watch"
+                  "text": "speak"
                 }
               ]
             }
@@ -2058,21 +2058,21 @@
         },
         {
           "type": "multiple_choice",
-          "prompt_es": "Elige para Culture: Traditions:",
-          "stimulus_en": "He has already bought a letter in the woods..",
-          "stimulus_es": "He ya ha bought a letter en the woods..",
+          "prompt_es": "Elige 245 para Culture: Traditions:",
+          "stimulus_en": "Maria has already cleaned a watch in the airport....",
+          "stimulus_es": "Maria ya ha cleaned a watch en the airport....",
           "options": [
             {
+              "id": "o1",
+              "text": "already"
+            },
+            {
               "id": "o3",
-              "text": "Other 7341"
+              "text": "Other 6447"
             },
             {
               "id": "o2",
               "text": "yet"
-            },
-            {
-              "id": "o1",
-              "text": "already"
             }
           ],
           "correct_answer": "o1",
@@ -2081,47 +2081,51 @@
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena sobre Culture: Traditions:",
+          "prompt_es": "Ordena 245 sobre Culture: Traditions:",
           "options": [
             {
+              "id": "w5",
+              "text": "designed"
+            },
+            {
               "id": "w3",
-              "text": "already"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "Our"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w2",
               "text": "has"
             },
             {
-              "id": "w1",
-              "text": "neighbors"
-            },
-            {
-              "id": "w5",
-              "text": "football"
-            },
-            {
-              "id": "w8",
-              "text": "shop"
-            },
-            {
               "id": "w4",
-              "text": "driven"
+              "text": "already"
+            },
+            {
+              "id": "w2",
+              "text": "officer"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w9",
-              "text": "(today)"
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "an"
+            },
+            {
+              "id": "w10",
+              "text": "office"
+            },
+            {
+              "id": "w8",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "police"
+            },
+            {
+              "id": "w7",
+              "text": "email"
             }
           ],
           "correct_answer": [
@@ -2134,51 +2138,52 @@
             "w6",
             "w7",
             "w8",
-            "w9"
+            "w9",
+            "w10"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U35_I92"
         },
         {
           "type": "fill_blanks",
-          "prompt_es": "Completa (Culture: Traditions):",
-          "stimulus_en": "Our neighbors has ___ met a door in the restaurant - interesting.",
+          "prompt_es": "Completa 280 (Culture: Traditions):",
+          "stimulus_en": "The manager has ___ received a pizza in the shop - amazing.",
           "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U35_I93"
         },
         {
           "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? (Culture: Traditions)",
-          "stimulus_en": "They has yet cooked a gift in the hospital - amazing.",
-          "stimulus_es": "Ref: They ya ha cooked a gift en the hospital - amazing.",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? 280 (Culture: Traditions)",
+          "stimulus_en": "The player has already stopped an apple in school - interesting.",
+          "stimulus_es": "Ref: The player ya ha stopped an apple en school - interesting.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U35_I94"
         },
         {
           "type": "matching",
-          "prompt_es": "Relaciona (Culture: Traditions):",
+          "prompt_es": "Relaciona 280 (Culture: Traditions):",
           "pairs": [
             {
               "id": "p0",
-              "left": "You ya ha started a door en the shop - interesting.",
-              "right": "You has already started a door in the shop - interesting."
+              "left": "My cousin ya ha designed a clock en the balcony..",
+              "right": "My cousin has already designed a clock in the balcony.."
             },
             {
               "id": "p1",
-              "left": "The chef ya ha taught a watch en the park - 136.",
-              "right": "The chef has already taught a watch in the park - 136."
+              "left": "Sarah ya ha designed a movie en the university....",
+              "right": "Sarah has already designed a movie in the university...."
             },
             {
               "id": "p2",
-              "left": "She ya ha played a clock en the beach (now).",
-              "right": "She has already played a clock in the beach (now)."
+              "left": "A colleague ya ha finished a phone en the garage - 884.",
+              "right": "A colleague has already finished a phone in the garage - 884."
             },
             {
               "id": "p3",
-              "left": "You ya ha cleaned a television en the hotel!.",
-              "right": "You has already cleaned a television in the hotel!."
+              "left": "The singer ya ha received an apple en the mountains - amazing.",
+              "right": "The singer has already received an apple in the mountains - amazing."
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2186,35 +2191,35 @@
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escribe (Culture: Traditions):",
-          "tts_en": "We has already helped a watch in the shop..",
-          "correct_answer": "We has already helped a watch in the shop..",
+          "prompt_es": "Dictado 280 (Culture: Traditions):",
+          "tts_en": "The pilot has already called a chair in the balcony!.",
+          "correct_answer": "The pilot has already called a chair in the balcony!.",
           "mastery_tag": "listening",
           "interaction_id": "U35_I96"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Intruso:",
+          "prompt_es": "Intruso 280:",
           "options": [
             {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o4",
-              "text": "Fast8155"
+              "id": "o1",
+              "text": "Tokyo"
             },
             {
               "id": "o3",
-              "text": "Calm"
+              "text": "Paris"
+            },
+            {
+              "id": "o4",
+              "text": "Slow3864"
             },
             {
               "id": "o0",
-              "text": "Happy"
+              "text": "London"
             },
             {
-              "id": "o1",
-              "text": "Sad"
+              "id": "o2",
+              "text": "Berlin"
             }
           ],
           "correct_answer": "o4",
@@ -2227,8 +2232,8 @@
           "cards": [
             {
               "id": "c1",
-              "front": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo - amazing",
-              "back": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo. - amazing"
+              "front": "En qu\u00e9 trabaja Juan? (now)",
+              "back": "What does Juan do (now)"
             }
           ],
           "mastery_tag": "vocabulary",
@@ -2237,14 +2242,14 @@
         {
           "type": "writing_task",
           "prompt_es": "Escribe 280 (Culture: Traditions):",
-          "instruction_en": "List 3 facts about Culture: Traditions. [Ref: 24]",
+          "instruction_en": "Describe Culture: Traditions in 5 words. [Ref: 12]",
           "mastery_tag": "writing",
           "interaction_id": "U35_I99"
         },
         {
           "type": "speaking_task",
           "prompt_es": "Habla 280 (Culture: Traditions):",
-          "stimulus_en": "The Present Perfect basics is here. (621)",
+          "stimulus_en": "Study Culture: Traditions now. (641)",
           "mastery_tag": "speaking",
           "interaction_id": "U35_I100"
         }
