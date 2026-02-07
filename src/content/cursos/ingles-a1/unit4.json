@@ -1,447 +1,142 @@
 {
   "course": {
     "unit_id": "unit4",
-    "unit_title": "Alphabet & Spelling",
+    "unit_title": "Sequence & Time",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Alphabet & Spelling"
+    "Diferenciar entre 'After', 'Then' y 'Afterwards'",
+    "Aprender los números ordinales básicos",
+    "Saber escribir y decir la fecha en inglés",
+    "Comprender la diferencia entre el formato británico y americano de fechas"
   ],
   "blocks": [
     {
       "block_id": "B4",
-      "title": "Lección Principal",
+      "title": "Conectores y Secuencia",
       "content": [
         {
           "interaction_id": "U4_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Deletrear'?",
+          "prompt_es": "¿Cuál de estos se traduce por 'después de' y va seguido de sustantivo?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Letter"
-            },
-            {
-              "id": "o1",
-              "text": "Spell"
-            },
-            {
-              "id": "o3",
-              "text": "Word"
-            }
+            { "id": "o1", "text": "After" },
+            { "id": "o2", "text": "Then" },
+            { "id": "o3", "text": "Afterwards" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "explanation": "'After' es una preposición que significa 'después de': 'After lunch'.",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U4_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Spell",
-              "right": "Deletrear"
-            },
-            {
-              "id": "p1",
-              "left": "Vowel",
-              "right": "Vocal"
-            },
-            {
-              "id": "p2",
-              "left": "Letter",
-              "right": "Letra"
-            },
-            {
-              "id": "p3",
-              "left": "Consonant",
-              "right": "Consonante"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿'Then' siempre va seguido de Sujeto y Verbo?",
+          "correct_answer": true,
+          "explanation": "'Then' es un adverbio que indica correlación: 'I get up and then I get dressed'.",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U4_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "word"
-            },
-            {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w2",
-              "text": "letters"
-            },
-            {
-              "id": "w3",
-              "text": "are"
-            },
-            {
-              "id": "w1",
-              "text": "many"
-            },
-            {
-              "id": "w0",
-              "text": "How"
-            },
-            {
-              "id": "w5",
-              "text": "this"
-            }
+          "type": "matching",
+          "prompt_es": "Une los números ordinales con su abreviatura:",
+          "pairs": [
+            { "id": "p1", "left": "First", "right": "1st" },
+            { "id": "p2", "left": "Second", "right": "2nd" },
+            { "id": "p3", "left": "Third", "right": "3rd" },
+            { "id": "p4", "left": "Fourth", "right": "4th" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U4_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"How many letters are in thare word?\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase: 'Desayuno después de ducharme.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "breakfast" },
+            { "id": "w4", "text": "after" },
+            { "id": "w5", "text": "I" },
+            { "id": "w6", "text": "have" },
+            { "id": "w7", "text": "a" },
+            { "id": "w8", "text": "shower" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U4_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "There are 26 (letras) ________ in English.",
-          "correct_answer": "letters",
+          "prompt_es": "Completa con el conector correcto: 'I get up and ________ I have a shower.'",
+          "stimulus_en": "I get up and ________ I have a shower.",
+          "correct_answer": "then",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U4_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
-          "mastery_tag": "vocabulary"
+          "type": "categorization",
+          "prompt_es": "Clasifica según el formato de fecha:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Británico (Día + Mes)",
+              "items": ["24th September", "18th May"]
+            },
+            {
+              "id": "c2",
+              "title": "Americano (Mes + Día)",
+              "items": ["September 24th", "May 18th"]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "culture"
         },
         {
           "interaction_id": "U4_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Letter",
-          "correct_answer": "Letra",
+          "type": "short_writing",
+          "prompt_es": "Escribe en inglés: '10 de mayo' (Formato británico)",
+          "stimulus_es": "10 de mayo",
+          "correct_answer": "10th May",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U4_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Cat"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Ball"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
+          "type": "flashcard",
+          "prompt_es": "¿Cuál es el ordinal de 'twelve' (doce)?",
+          "stimulus_en": "Twelfth",
+          "correct_answer": "12th",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U4_I9",
           "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Spell your name for me. Can you spell that, please? English has five vowels.",
-          "question": "¿De qué trata este texto?",
+          "title": "A Morning Routine",
+          "text": "He wakes up and then he has a shower. After his shower, he has an orange juice for breakfast and then he leaves home. Today is the 22nd of April.",
+          "question": "¿Qué toma para desayunar?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Alphabet & Spelling"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "An orange juice." },
+            { "id": "o2", "text": "Coffee." },
+            { "id": "o3", "text": "Nothing." }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U4_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/4c1c9813025aa9048e1f4050b948bfa0.mp3",
-          "text": "English has five vowels.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U4_I11",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra'?",
+          "prompt_es": "¿Cómo se dice '421º' en ordinal?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Word"
-            },
-            {
-              "id": "o2",
-              "text": "Consonant"
-            },
-            {
-              "id": "o3",
-              "text": "Cat"
-            }
+            { "id": "o1", "text": "four hundred and twenty-first" },
+            { "id": "o2", "text": "four hundred and twenty-one" },
+            { "id": "o3", "text": "four hundred and twenty-th" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Ball",
-              "right": "Pelota"
-            },
-            {
-              "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
-            },
-            {
-              "id": "p2",
-              "left": "Spell",
-              "right": "Deletrear"
-            },
-            {
-              "id": "p3",
-              "left": "Vowel",
-              "right": "Vocal"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "word"
-            },
-            {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "many"
-            },
-            {
-              "id": "w2",
-              "text": "letters"
-            },
-            {
-              "id": "w0",
-              "text": "How"
-            },
-            {
-              "id": "w3",
-              "text": "are"
-            },
-            {
-              "id": "w5",
-              "text": "this"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U4_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Spell your name for me.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U4_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "'A' is a (vocal) ________.",
-          "correct_answer": "vowel",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U4_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Manzana",
-          "correct_answer": "Apple",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Letter",
-          "correct_answer": "Letra",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Ball"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Alphabet"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "How many letters are in this word? English has five vowels. Can you spell that, please?",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Alphabet & Spelling"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U4_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/517a614223c4cdc2ff25e910dedf8273.mp3",
-          "text": "Can you spell that, please?",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "UNIT4_EXP_0_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcta?",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "I have 3 childrens."
-            },
-            {
-              "id": "opt1",
-              "text": "I have 3 children."
-            },
-            {
-              "id": "opt2",
-              "text": "I have 3 childs."
-            }
-          ],
-          "correct_answer": "opt1",
-          "explanation": "\"Children\" ya es plural, no necesita -s.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT4_EXP_0_1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice: \"en Internet\"?",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "in Internet"
-            },
-            {
-              "id": "opt1",
-              "text": "on Internet"
-            },
-            {
-              "id": "opt2",
-              "text": "on the Internet"
-            }
-          ],
-          "correct_answer": "opt2",
-          "explanation": "La expresión correcta es siempre \"on the Internet\".",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT4_EXP_0_2",
-          "type": "multiple_choice",
-          "prompt_es": "I need some ___ (información).",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "informations"
-            },
-            {
-              "id": "opt1",
-              "text": "information"
-            },
-            {
-              "id": "opt2",
-              "text": "an information"
-            }
-          ],
-          "correct_answer": "opt1",
-          "explanation": "\"Information\" es incontable, nunca lleva -s.",
-          "mastery_tag": "grammar"
         }
       ]
     }

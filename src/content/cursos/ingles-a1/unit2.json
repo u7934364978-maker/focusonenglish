@@ -1,356 +1,138 @@
 {
   "course": {
     "unit_id": "unit2",
-    "unit_title": "Nice to meet you!",
+    "unit_title": "How We Do Things: Adverbs",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Nice to meet you!"
+    "Diferenciar entre adjetivos y adverbios",
+    "Aprender a formar adverbios con la terminación -ly",
+    "Conocer los adverbios irregulares más comunes (well, hard, fast)",
+    "Aplicar la 'prueba del cómo' para identificar adverbios"
   ],
   "blocks": [
     {
       "block_id": "B2",
-      "title": "Lección Principal",
+      "title": "Adjetivos vs Adverbios",
       "content": [
         {
           "interaction_id": "U2_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Niño'?",
+          "prompt_es": "¿Qué pregunta le haces al verbo para saber si necesitas un adverbio?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Boy"
-            },
-            {
-              "id": "o2",
-              "text": "He"
-            },
-            {
-              "id": "o3",
-              "text": "Friend"
-            }
+            { "id": "o1", "text": "¿Cómo? (How?)" },
+            { "id": "o2", "text": "¿Quién? (Who?)" },
+            { "id": "o3", "text": "¿Qué? (What?)" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "explanation": "Si le preguntas '¿cómo?' al verbo y obtienes respuesta, necesitas un adverbio.",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Classmate",
-              "right": "Compañero/a de clase"
-            },
-            {
-              "id": "p1",
-              "left": "Nice to meet you",
-              "right": "Mucho gusto"
-            },
-            {
-              "id": "p2",
-              "left": "Woman",
-              "right": "Mujer"
-            },
-            {
-              "id": "p3",
-              "left": "Man",
-              "right": "Hombre"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿En la frase 'He drives slow', la palabra 'slow' es correcta?",
+          "correct_answer": false,
+          "explanation": "Incorrecto. Debería ser 'slowly' porque describe CÓMO conduce (adverbio).",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w2",
-              "text": "my"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "friend"
-            },
-            {
-              "id": "w3",
-              "text": "best"
-            }
+          "type": "matching",
+          "prompt_es": "Une el adjetivo con su adverbio correspondiente:",
+          "pairs": [
+            { "id": "p1", "left": "Quick", "right": "Quickly" },
+            { "id": "p2", "left": "Beautiful", "right": "Beautifully" },
+            { "id": "p3", "left": "Bad", "right": "Badly" },
+            { "id": "p4", "left": "Dangerous", "right": "Dangerously" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Is she your classmate?\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase: 'Él escribe bien.'",
+          "options": [
+            { "id": "w1", "text": "He" },
+            { "id": "w2", "text": "writes" },
+            { "id": "w3", "text": "well" }
+          ],
+          "correct_answer": ["w1", "w2", "w3"],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "He (ser/estar - él) ________ my friend.",
-          "correct_answer": "is",
+          "prompt_es": "Completa con el adverbio de 'good': 'She sings very ________.'",
+          "stimulus_en": "She sings very ________.",
+          "correct_answer": "well",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Amigo/a",
-          "correct_answer": "Friend",
-          "mastery_tag": "vocabulary"
+          "type": "categorization",
+          "prompt_es": "Clasifica estos adverbios en Regulares e Irregulares:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Regulares (-ly)",
+              "items": ["slowly", "quickly", "badly"]
+            },
+            {
+              "id": "c2",
+              "title": "Irregulares",
+              "items": ["well", "hard", "fast"]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Welcome",
-          "correct_answer": "Bienvenido",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés: 'Él conduce peligrosamente.'",
+          "stimulus_es": "Él conduce peligrosamente.",
+          "correct_answer": "He drives dangerously",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Friend"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Boy"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
+          "type": "flashcard",
+          "prompt_es": "¿Cuál es el adverbio de 'fast'?",
+          "stimulus_en": "Fast",
+          "correct_answer": "Fast",
+          "explanation": "'Fast' es un adverbio irregular y no cambia.",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I9",
           "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Welcome to our school. He is my best friend. She is a very good girl.",
-          "question": "¿De qué trata este texto?",
+          "title": "Adjective or Adverb?",
+          "text": "He is a dangerous driver. He drives dangerously because he is always in a hurry. However, he is a good person and speaks English well.",
+          "question": "¿Por qué usamos 'well' en lugar de 'good' al final?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Nice to meet you!"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "Porque describe cómo habla (verbo)." },
+            { "id": "o2", "text": "Porque se refiere a la persona (sustantivo)." },
+            { "id": "o3", "text": "Porque es una excepción rara." }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U2_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/95b12b567d1a57a13a18be6facfe1707.mp3",
-          "text": "Is she your classmate?",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U2_I11",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mucho gusto'?",
+          "prompt_es": "Completa: 'You've cooked that meat ________ (wonderful).'",
           "options": [
-            {
-              "id": "o3",
-              "text": "She"
-            },
-            {
-              "id": "o2",
-              "text": "He"
-            },
-            {
-              "id": "o1",
-              "text": "Nice to meet you"
-            }
+            { "id": "o1", "text": "wonderfully" },
+            { "id": "o2", "text": "wonderful" },
+            { "id": "o3", "text": "wonderfuly" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Girl",
-              "right": "Niña"
-            },
-            {
-              "id": "p1",
-              "left": "Welcome",
-              "right": "Bienvenido"
-            },
-            {
-              "id": "p2",
-              "left": "Nice to meet you",
-              "right": "Mucho gusto"
-            },
-            {
-              "id": "p3",
-              "left": "He",
-              "right": "Él"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w2",
-              "text": "our"
-            },
-            {
-              "id": "w3",
-              "text": "school"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U2_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"She is a very good girl.\"",
-          "correct_answer": true,
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "They (ser/estar - ellos) ________ students.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Mujer",
-          "correct_answer": "Woman",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Nice to meet you",
-          "correct_answer": "Mucho gusto",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Man"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "She"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Is she your classmate? They are from London. She is a very good girl.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Nice to meet you!"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U2_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/95b12b567d1a57a13a18be6facfe1707.mp3",
-          "text": "Is she your classmate?",
-          "mastery_tag": "listening"
         }
       ]
     }

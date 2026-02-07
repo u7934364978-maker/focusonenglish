@@ -1,395 +1,146 @@
 {
   "course": {
     "unit_id": "unit7",
-    "unit_title": "Colors & Describing Things",
+    "unit_title": "Location & Directions",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Colors & Describing Things"
+    "Usar correctamente las preposiciones de lugar (near, next to, etc.)",
+    "Evitar el error común de usar 'of' después de 'near'",
+    "Diferenciar entre 'in front of' (delante) y 'opposite' (enfrente)",
+    "Hacer descripciones básicas de la ubicación de lugares"
   ],
   "blocks": [
     {
       "block_id": "B7",
-      "title": "Lección Principal",
+      "title": "Preposiciones de Lugar",
       "content": [
         {
           "interaction_id": "U7_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Viejo'?",
+          "prompt_es": "¿Cuál de estas opciones es CORRECTA?",
           "options": [
-            {
-              "id": "o2",
-              "text": "White"
-            },
-            {
-              "id": "o3",
-              "text": "Big"
-            },
-            {
-              "id": "o1",
-              "text": "Old"
-            }
+            { "id": "o1", "text": "Near my house" },
+            { "id": "o2", "text": "Near of my house" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "explanation": "'Near' no necesita la preposición 'of'.",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Small",
-              "right": "Pequeño"
-            },
-            {
-              "id": "p1",
-              "left": "Red",
-              "right": "Rojo"
-            },
-            {
-              "id": "p2",
-              "left": "Yellow",
-              "right": "Amarillo"
-            },
-            {
-              "id": "p3",
-              "left": "Green",
-              "right": "Verde"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿'In front of' significa 'enfrente de'?",
+          "correct_answer": false,
+          "explanation": "No. 'In front of' significa 'delante de'. 'Enfrente de' se dice 'opposite'.",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "grass"
-            },
-            {
-              "id": "w3",
-              "text": "green"
-            }
+          "type": "matching",
+          "prompt_es": "Une las preposiciones con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Next to", "right": "Al lado de" },
+            { "id": "p2", "left": "Opposite", "right": "Enfrente de" },
+            { "id": "p3", "left": "In front of", "right": "Delante de" },
+            { "id": "p4", "left": "Close to", "right": "Cerca de" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I have a new computer.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase: 'Al lado del colegio hay una parada de autobús.'",
+          "options": [
+            { "id": "w1", "text": "Next" },
+            { "id": "w2", "text": "to" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "school" },
+            { "id": "w5", "text": "there" },
+            { "id": "w6", "text": "is" },
+            { "id": "w7", "text": "a" },
+            { "id": "w8", "text": "bus" },
+            { "id": "w9", "text": "stop" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "It is an (antiguo) ________ book.",
-          "correct_answer": "old",
+          "prompt_es": "Completa con la preposición correcta: 'The table is close ________ the TV.'",
+          "stimulus_en": "The table is close ________ the TV.",
+          "correct_answer": "to",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Grande",
-          "correct_answer": "Big",
-          "mastery_tag": "vocabulary"
+          "type": "categorization",
+          "prompt_es": "Clasifica según necesiten 'to', 'of' o nada:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Usan 'to'",
+              "items": ["Next", "Close"]
+            },
+            {
+              "id": "c2",
+              "title": "Usan 'of'",
+              "items": ["In front"]
+            },
+            {
+              "id": "c3",
+              "title": "No usan nada",
+              "items": ["Near", "Opposite"]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "White",
-          "correct_answer": "Blanco",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés: 'Hay muchos bares cerca de mi casa.'",
+          "stimulus_es": "Hay muchos bares cerca de mi casa.",
+          "correct_answer": "There are a lot of bars near my house",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Black"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Big"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
+          "type": "flashcard",
+          "prompt_es": "¿Qué significa 'Go straight on'?",
+          "stimulus_en": "Go straight on",
+          "correct_answer": "Sigue recto",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I9",
           "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "The white house is beautiful. The grass is green. My favorite color is yellow.",
-          "question": "¿De qué trata este texto?",
+          "title": "Around the Town",
+          "text": "There is a supermarket near my house. Go straight on and in front of the church there is a bank. Next to my school there aren't any apartment blocks, but I sat opposite a beautiful woman on the train.",
+          "question": "¿Dónde está el banco?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Colors & Describing Things"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "Delante de la iglesia." },
+            { "id": "o2", "text": "Al lado de la escuela." },
+            { "id": "o3", "text": "Enfrente de la iglesia." }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U7_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/ef5195ebed5035327244974ade2d8196.mp3",
-          "text": "My favorite color is yellow.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U7_I11",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Grande'?",
+          "prompt_es": "Traduce: 'No me quiero sentar enfrente de él.'",
           "options": [
-            {
-              "id": "o3",
-              "text": "Black"
-            },
-            {
-              "id": "o2",
-              "text": "Old"
-            },
-            {
-              "id": "o1",
-              "text": "Big"
-            }
+            { "id": "o1", "text": "I don't want to sit opposite him." },
+            { "id": "o2", "text": "I don't want to sit in front of him." },
+            { "id": "o3", "text": "I don't want to sit opposite to him." }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "White",
-              "right": "Blanco"
-            },
-            {
-              "id": "p1",
-              "left": "Black",
-              "right": "Negro"
-            },
-            {
-              "id": "p2",
-              "left": "Green",
-              "right": "Verde"
-            },
-            {
-              "id": "p3",
-              "left": "Yellow",
-              "right": "Amarillo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "grass"
-            },
-            {
-              "id": "w3",
-              "text": "green"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U7_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I have a new computer.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "The sky (ser/estar - ello) ________ blue.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pequeño",
-          "correct_answer": "Small",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Old",
-          "correct_answer": "Viejo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Black"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Yellow"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "The white house is beautiful. That is a very small dog. The grass is green.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Colors & Describing Things"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U7_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/0018ef8ac1348ce2a85fa3f258787f65.mp3",
-          "text": "That is a very small dog.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "UNIT7_EXP_0_0",
-          "type": "multiple_choice",
-          "prompt_es": "Traduce: La casa de María.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "Maria's house"
-            },
-            {
-              "id": "opt1",
-              "text": "The house of Maria"
-            },
-            {
-              "id": "opt2",
-              "text": "Marias house"
-            }
-          ],
-          "correct_answer": "opt0",
-          "explanation": "Poseedor (Maria) + 's + Objeto (house).",
-          "mastery_tag": "grammar",
-          "audioUrl": "/audio/courses/ingles-a1/expansion/unit7_exp_0_0.mp3"
-        },
-        {
-          "interaction_id": "UNIT7_EXP_0_1",
-          "type": "multiple_choice",
-          "prompt_es": "La casa de mis padres (plural).",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "My parent's house"
-            },
-            {
-              "id": "opt1",
-              "text": "My parents' house"
-            },
-            {
-              "id": "opt2",
-              "text": "The house of my parents"
-            }
-          ],
-          "correct_answer": "opt1",
-          "explanation": "En plurales que terminan en -s, solo añadimos el apóstrofo.",
           "mastery_tag": "grammar"
         }
       ]

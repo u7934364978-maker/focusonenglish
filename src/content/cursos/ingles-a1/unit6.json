@@ -1,366 +1,142 @@
 {
   "course": {
     "unit_id": "unit6",
-    "unit_title": "Family Members",
+    "unit_title": "Moving Around",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Family Members"
+    "Usar correctamente las preposiciones con transportes (by, on, in)",
+    "Diferenciar entre situaciones generales y específicas en transportes",
+    "Aprender los verbos para subir y bajar de diferentes vehículos",
+    "Expresar desplazamientos a pie correctamente"
   ],
   "blocks": [
     {
       "block_id": "B6",
-      "title": "Lección Principal",
+      "title": "Transportes y Preposiciones",
       "content": [
         {
           "interaction_id": "U6_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Padre'?",
+          "prompt_es": "¿Qué preposición usamos para hablar de un medio de transporte en sentido general?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Father"
-            },
-            {
-              "id": "o2",
-              "text": "Grandmother"
-            },
-            {
-              "id": "o3",
-              "text": "Baby"
-            }
+            { "id": "o1", "text": "By (Ej: by car, by train)" },
+            { "id": "o2", "text": "In (Ej: in car)" },
+            { "id": "o3", "text": "On (Ej: on train)" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "explanation": "'By' va directamente seguido del transporte sin artículos ni posesivos.",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Son",
-              "right": "Hijo"
-            },
-            {
-              "id": "p1",
-              "left": "Grandmother",
-              "right": "Abuela"
-            },
-            {
-              "id": "p2",
-              "left": "Father",
-              "right": "Padre"
-            },
-            {
-              "id": "p3",
-              "left": "Sister",
-              "right": "Hermana"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcto decir 'I go to work by my car'?",
+          "correct_answer": false,
+          "explanation": "Incorrecto. Con 'by' no se usa posesivo. Debería ser 'by car' o 'in my car'.",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "family"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "small"
-            }
+          "type": "matching",
+          "prompt_es": "Une cada acción con el transporte adecuado:",
+          "pairs": [
+            { "id": "p1", "left": "Get on", "right": "A bus / A train" },
+            { "id": "p2", "left": "Get into", "right": "A car / A taxi" },
+            { "id": "p3", "left": "Get off", "right": "A plane / A bike" },
+            { "id": "p4", "left": "Get out of", "right": "A taxi / A car" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"His father is a doctor.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase: 'Voy al trabajo a pie todos los días.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "go" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "work" },
+            { "id": "w5", "text": "on" },
+            { "id": "w6", "text": "foot" },
+            { "id": "w7", "text": "every" },
+            { "id": "w8", "text": "day" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U6_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "This is (mi) ________ mother.",
-          "correct_answer": "my",
+          "prompt_es": "Completa con la preposición específica: 'I saw an accident when I was ________ my car.'",
+          "stimulus_en": "I saw an accident when I was ________ my car.",
+          "correct_answer": "in",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Hijo",
-          "correct_answer": "Son",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Brother",
-          "correct_answer": "Hermano",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I8",
           "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
+          "prompt_es": "Clasifica los verbos según si subes o bajas:",
           "categories": [
             {
               "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Family"
-              ]
+              "title": "Subirse",
+              "items": ["Get on", "Get into"]
             },
             {
               "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Son"
-              ]
+              "title": "Bajarse",
+              "items": ["Get off", "Get out of"]
             }
           ],
           "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U6_I7",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés: 'Llámame cuando te subas al tren.'",
+          "stimulus_es": "Llámame cuando te subas al tren.",
+          "correct_answer": "Phone me when you get on the train",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I8",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se dice 'ir andando'? (2 formas)",
+          "stimulus_en": "On foot / Walk",
+          "correct_answer": "On foot / Walk",
+          "mastery_tag": "vocabulary"
+        },
+        {
           "interaction_id": "U6_I9",
           "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Do you have any brothers or sisters? Our grandmother is eighty years old. Her sister is a student.",
-          "question": "¿De qué trata este texto?",
+          "title": "Travel Diary",
+          "text": "Peter always goes to work by bus as he hates driving. However, today he is on the train because the bus is broken. He usually walks home on foot in the evening.",
+          "question": "¿Cómo suele ir Peter a trabajar?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Family Members"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "By bus." },
+            { "id": "o2", "text": "By train." },
+            { "id": "o3", "text": "By car." }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U6_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/58caccf815e29865a5fae7bc07dabb7a.mp3",
-          "text": "Her sister is a student.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U6_I11",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Madre'?",
+          "prompt_es": "Completa: 'We can have a sandwich ________ the train while going to Madrid.'",
           "options": [
-            {
-              "id": "o2",
-              "text": "Son"
-            },
-            {
-              "id": "o1",
-              "text": "Mother"
-            },
-            {
-              "id": "o3",
-              "text": "Grandfather"
-            }
+            { "id": "o1", "text": "on" },
+            { "id": "o2", "text": "by" },
+            { "id": "o3", "text": "in" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Family",
-              "right": "Familia"
-            },
-            {
-              "id": "p1",
-              "left": "Father",
-              "right": "Padre"
-            },
-            {
-              "id": "p2",
-              "left": "Mother",
-              "right": "Madre"
-            },
-            {
-              "id": "p3",
-              "left": "Baby",
-              "right": "Bebé"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "old"
-            },
-            {
-              "id": "w1",
-              "text": "grandmother"
-            },
-            {
-              "id": "w0",
-              "text": "Our"
-            },
-            {
-              "id": "w3",
-              "text": "eighty"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "years"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U6_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Her sister is a student.\"",
-          "correct_answer": true,
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "This is (mi) ________ mother.",
-          "correct_answer": "my",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Hija",
-          "correct_answer": "Daughter",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Family",
-          "correct_answer": "Familia",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Family"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Brother"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "His father is a doctor. Do you have any brothers or sisters? Her sister is a student.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Family Members"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U6_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/b1115f0428794fdc8a572faf3922c59e.mp3",
-          "text": "His father is a doctor.",
-          "mastery_tag": "listening"
         }
       ]
     }

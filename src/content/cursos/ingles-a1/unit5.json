@@ -1,430 +1,137 @@
 {
   "course": {
     "unit_id": "unit5",
-    "unit_title": "Countries & Nationalities",
+    "unit_title": "Belonging & Possession",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Countries & Nationalities"
+    "Dominar el uso del genitivo sajón ('s) para posesión",
+    "Saber cuándo usar 'of' en lugar del genitivo sajón",
+    "Aplicar las reglas de posesión en plurales regulares e irregulares",
+    "Usar correctamente los adjetivos posesivos básicos"
   ],
   "blocks": [
     {
       "block_id": "B5",
-      "title": "Lección Principal",
+      "title": "El Genitivo Sajón",
       "content": [
         {
           "interaction_id": "U5_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Italiano/a'?",
+          "prompt_es": "¿Cuál es la estructura correcta del genitivo sajón?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Mexico"
-            },
-            {
-              "id": "o1",
-              "text": "Italian"
-            },
-            {
-              "id": "o3",
-              "text": "France"
-            }
+            { "id": "o1", "text": "Objeto + 's + Persona" },
+            { "id": "o2", "text": "Persona + 's + Objeto" }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2",
+          "explanation": "Primero va el poseedor y luego lo poseído: 'Peter's car'.",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U5_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "British",
-              "right": "Británico/a"
-            },
-            {
-              "id": "p1",
-              "left": "Italy",
-              "right": "Italia"
-            },
-            {
-              "id": "p2",
-              "left": "The UK",
-              "right": "El Reino Unido"
-            },
-            {
-              "id": "p3",
-              "left": "France",
-              "right": "Francia"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcto decir 'the hotel's manager'?",
+          "correct_answer": false,
+          "explanation": "Incorrecto. Como 'hotel' es inanimado, usamos 'of': 'the manager of the hotel'.",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U5_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "from"
-            },
-            {
-              "id": "w0",
-              "text": "Are"
-            },
-            {
-              "id": "w1",
-              "text": "they"
-            },
-            {
-              "id": "w4",
-              "text": "UK"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            }
+          "type": "matching",
+          "prompt_es": "Une las frases con su traducción correcta:",
+          "pairs": [
+            { "id": "p1", "left": "Peter's car", "right": "El coche de Pedro" },
+            { "id": "p2", "left": "The bird's legs", "right": "Las piernas del pájaro" },
+            { "id": "p3", "left": "Spain's monuments", "right": "Los monumentos de España" },
+            { "id": "p4", "left": "The end of the film", "right": "El final de la película" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U5_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He speaks French and Englareh.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase: 'La casa de mis padres.'",
+          "options": [
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "parents'" },
+            { "id": "w3", "text": "house" }
+          ],
+          "correct_answer": ["w1", "w2", "w3"],
+          "explanation": "En plurales regulares que acaban en -s, solo se añade el apóstrofo.",
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U5_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Are you (americano) ________?",
-          "correct_answer": "American",
+          "prompt_es": "Completa con el genitivo sajón: 'Los juguetes de los niños.'",
+          "stimulus_en": "The ________ (children) toys are in the pool.",
+          "correct_answer": "children's",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U5_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Americano/a",
-          "correct_answer": "American",
-          "mastery_tag": "vocabulary"
+          "type": "categorization",
+          "prompt_es": "Clasifica según el tipo de poseedor:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Genitivo Sajón ('s)",
+              "items": ["John's job", "The cat's tail", "London's parks"]
+            },
+            {
+              "id": "c2",
+              "title": "Uso de 'of'",
+              "items": ["The door of the car", "The page of the book", "The roof of the house"]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U5_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "The USA",
-          "correct_answer": "Los EE.UU.",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés: 'El perro de James es encantador.'",
+          "stimulus_es": "El perro de James es encantador.",
+          "correct_answer": "James' dog is lovely",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U5_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "France"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "The UK"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se dice 'los hijos de mis hermanos'?",
+          "stimulus_en": "My brothers' children",
+          "correct_answer": "Los hijos de mis hermanos",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U5_I9",
           "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "She is very proud to be Italian. I am from Madrid, Spain. Mexico is a beautiful country.",
-          "question": "¿De qué trata este texto?",
+          "title": "Possession Rules",
+          "text": "John's job is boring, but he likes it. My parents' house is very big. The chidren's toys are everywhere. However, the end of the day is always peaceful.",
+          "question": "¿Por qué escribimos 'parents'' con el apóstrofo al final?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Countries & Nationalities"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "Porque es un plural que termina en -s." },
+            { "id": "o2", "text": "Porque es un nombre propio." },
+            { "id": "o3", "text": "Es un error del texto." }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U5_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/29f24172fda6b1172c49312426f6a903.mp3",
-          "text": "I am from Madrid, Spain.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U5_I11",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'El Reino Unido'?",
+          "prompt_es": "¿Cuál es la diferencia entre 'My brother's children' y 'My brothers' children'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "The UK"
-            },
-            {
-              "id": "o2",
-              "text": "Italy"
-            },
-            {
-              "id": "o3",
-              "text": "France"
-            }
+            { "id": "o1", "text": "El primero es un hermano, el segundo son varios." },
+            { "id": "o2", "text": "El segundo es un hermano, el primero son varios." },
+            { "id": "o3", "text": "No hay ninguna diferencia." }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U5_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "British",
-              "right": "Británico/a"
-            },
-            {
-              "id": "p1",
-              "left": "Spanish",
-              "right": "Español/a"
-            },
-            {
-              "id": "p2",
-              "left": "Italian",
-              "right": "Italiano/a"
-            },
-            {
-              "id": "p3",
-              "left": "The USA",
-              "right": "Los EE.UU."
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U5_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "and"
-            },
-            {
-              "id": "w2",
-              "text": "French"
-            },
-            {
-              "id": "w4",
-              "text": "English"
-            },
-            {
-              "id": "w1",
-              "text": "speaks"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U5_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"She is very proud to be Italian.\"",
-          "correct_answer": true,
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U5_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "They (ser/estar - ellos) ________ from Mexico.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U5_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Francia",
-          "correct_answer": "France",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U5_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Spain",
-          "correct_answer": "España",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U5_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "British"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "French"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U5_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I am from Madrid, Spain. Are they from the UK? He speaks French and English.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Countries & Nationalities"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U5_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/2322ef30abc1518f71204e51aa292434.mp3",
-          "text": "She is very proud to be Italian.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "UNIT5_EXP_0_0",
-          "type": "multiple_choice",
-          "prompt_es": "Traduce: Éste es un café bueno.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "This is a coffee good."
-            },
-            {
-              "id": "opt1",
-              "text": "This is a good coffee."
-            },
-            {
-              "id": "opt2",
-              "text": "This is a good coffees."
-            }
-          ],
-          "correct_answer": "opt1",
-          "explanation": "El adjetivo \"good\" debe ir antes del sustantivo \"coffee\".",
-          "mastery_tag": "grammar",
-          "audioUrl": "/audio/courses/ingles-a1/expansion/unit5_exp_0_0.mp3"
-        },
-        {
-          "interaction_id": "UNIT5_EXP_0_1",
-          "type": "multiple_choice",
-          "prompt_es": "Traduce: El sandwich de queso y tomate es caro.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "The cheese and tomato sandwich is expensive."
-            },
-            {
-              "id": "opt1",
-              "text": "The sandwich of cheese and tomato is expensive."
-            },
-            {
-              "id": "opt2",
-              "text": "The cheese and tomato sandwich is expensives."
-            }
-          ],
-          "correct_answer": "opt0",
-          "explanation": "En inglés usamos \"cheese and tomato sandwich\" y el adjetivo \"expensive\" no cambia si es plural o singular.",
-          "mastery_tag": "grammar",
-          "audioUrl": "/audio/courses/ingles-a1/expansion/unit5_exp_0_1.mp3"
-        },
-        {
-          "interaction_id": "UNIT5_EXP_0_2",
-          "type": "multiple_choice",
-          "prompt_es": "Traduce: Una mujer alta.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "A woman tall."
-            },
-            {
-              "id": "opt1",
-              "text": "A tall woman."
-            },
-            {
-              "id": "opt2",
-              "text": "A talls woman."
-            }
-          ],
-          "correct_answer": "opt1",
-          "explanation": "Adjetivo (tall) + Sustantivo (woman).",
-          "mastery_tag": "grammar",
-          "audioUrl": "/audio/courses/ingles-a1/expansion/unit5_exp_0_2.mp3"
         }
       ]
     }
