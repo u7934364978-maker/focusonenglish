@@ -1,0 +1,1331 @@
+[
+  {
+    "id": "a2-m1-l3-ex1",
+    "type": "multiple-choice",
+    "category": "grammar",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "title": "Family Members and Possessive Adjectives",
+      "instructions": "Choose the correct option to complete each sentence about family members and relationships.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "This is my brother. ___ name is John.",
+          "options": [
+            "A) His",
+            "B) Her",
+            "C) Their",
+            "D) Its"
+          ],
+          "correctAnswer": "A",
+          "explanation": "La respuesta correcta es 'His' porque estamos hablando del hermano, que es masculino, por lo tanto usamos el adjetivo posesivo 'His'."
+        },
+        {
+          "id": "q2",
+          "question": "Maria is my aunt. She is my mother's sister. She is ___ aunt.",
+          "options": [
+            "A) my",
+            "B) their",
+            "C) our",
+            "D) her"
+          ],
+          "correctAnswer": "A",
+          "explanation": "La respuesta correcta es 'my' porque estamos hablando de 'mi' tía, lo que indica posesión desde el punto de vista del hablante."
+        },
+        {
+          "id": "q3",
+          "question": "This is my parents' house. It's ___ house.",
+          "options": [
+            "A) their",
+            "B) her",
+            "C) his",
+            "D) our"
+          ],
+          "correctAnswer": "A",
+          "explanation": "La respuesta correcta es 'their' porque 'parents' es plural y el adjetivo posesivo 'their' se usa para indicar posesión de algo que pertenece a más de una persona."
+        },
+        {
+          "id": "q4",
+          "question": "Julia's husband is my uncle. He is ___ uncle.",
+          "options": [
+            "A) my",
+            "B) his",
+            "C) your",
+            "D) our"
+          ],
+          "correctAnswer": "A",
+          "explanation": "La respuesta correcta es 'my' porque estamos hablando de 'mi' tío, lo que indica posesión desde el punto de vista del hablante."
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:07:26.008Z",
+    "estimatedTime": 5,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex2",
+    "type": "fill-blank",
+    "category": "grammar",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "questions": [
+        {
+          "sentence": "You should eat ___ vegetables every day to stay healthy.",
+          "answer": [
+            "some"
+          ],
+          "explanation": "Usamos 'some' cuando hablamos de cantidades no específicas en afirmaciones. En este caso, se recomienda comer algunas verduras diariamente.",
+          "points": 1
+        },
+        {
+          "sentence": "I don't have ___ money, so I can't buy the book.",
+          "answer": [
+            "any"
+          ],
+          "explanation": "Usamos 'any' en oraciones negativas para indicar que no hay cantidad de algo. Aquí, no tengo dinero para comprar el libro.",
+          "points": 1
+        },
+        {
+          "sentence": "She is going to visit her grandparents ___ the weekend.",
+          "answer": [
+            "at"
+          ],
+          "explanation": "Usamos 'at' para hablar de momentos específicos, como 'at the weekend'. Indica el tiempo en que ella planea visitar a sus abuelos.",
+          "points": 1
+        },
+        {
+          "sentence": "He has to clean his room before his friends arrive.",
+          "answer": [
+            "has to"
+          ],
+          "explanation": "'Has to' se usa para mostrar obligación personal o externa. En este caso, él debe limpiar su habitación antes de que lleguen sus amigos.",
+          "points": 1
+        },
+        {
+          "sentence": "There aren't ___ chairs in the room.",
+          "answer": [
+            "many"
+          ],
+          "explanation": "Usamos 'many' con sustantivos contables en plural en oraciones negativas o preguntas. Aquí, no hay muchas sillas en la habitación.",
+          "points": 1
+        },
+        {
+          "sentence": "We are going to have a picnic if it doesn't rain.",
+          "answer": [
+            "going to"
+          ],
+          "explanation": "Usamos 'going to' para planes futuros ya decididos. Aquí, planeamos hacer un picnic si no llueve.",
+          "points": 1
+        },
+        {
+          "sentence": "Is there ___ milk in the fridge?",
+          "answer": [
+            "any"
+          ],
+          "explanation": "Usamos 'any' en preguntas para preguntar sobre la cantidad de algo. Aquí, se pregunta si hay leche en la nevera.",
+          "points": 1
+        },
+        {
+          "sentence": "This is the most interesting book I have ever read.",
+          "answer": [
+            "most interesting"
+          ],
+          "explanation": "Usamos superlativos para expresar el grado más alto de una cualidad entre varios elementos. En este caso, es el libro más interesante que ha leído.",
+          "points": 1
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:07:34.154Z",
+    "estimatedTime": 7,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex3",
+    "type": "sentence-building",
+    "category": "grammar",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "sentences": [
+        {
+          "id": 1,
+          "words": [
+            "have",
+            "to",
+            "a",
+            "You",
+            "lot",
+            "of",
+            "family",
+            "visit",
+            "."
+          ],
+          "correctOrder": [
+            "You",
+            "have",
+            "to",
+            "visit",
+            "a",
+            "lot",
+            "of",
+            "family",
+            "."
+          ],
+          "translation": "Tienes que visitar a muchos familiares.",
+          "hint": "Use 'have to' followed by the base form of the verb.",
+          "points": 2
+        },
+        {
+          "id": 2,
+          "words": [
+            "enough",
+            "money",
+            "We",
+            "don't",
+            "have",
+            "to",
+            "buy",
+            "a",
+            "big",
+            "house",
+            "."
+          ],
+          "correctOrder": [
+            "We",
+            "don't",
+            "have",
+            "enough",
+            "money",
+            "to",
+            "buy",
+            "a",
+            "big",
+            "house",
+            "."
+          ],
+          "translation": "No tenemos suficiente dinero para comprar una casa grande.",
+          "hint": "Use 'enough' before the noun it qualifies.",
+          "points": 2
+        },
+        {
+          "id": 3,
+          "words": [
+            "must",
+            "You",
+            "not",
+            "forget",
+            "your",
+            "cousin's",
+            "birthday",
+            "."
+          ],
+          "correctOrder": [
+            "You",
+            "must",
+            "not",
+            "forget",
+            "your",
+            "cousin's",
+            "birthday",
+            "."
+          ],
+          "translation": "No debes olvidar el cumpleaños de tu primo.",
+          "hint": "Use 'must not' to express prohibition.",
+          "points": 2
+        },
+        {
+          "id": 4,
+          "words": [
+            "is",
+            "Her",
+            "really",
+            "family",
+            "big",
+            "."
+          ],
+          "correctOrder": [
+            "Her",
+            "family",
+            "is",
+            "really",
+            "big",
+            "."
+          ],
+          "translation": "Su familia es realmente grande.",
+          "hint": "Use 'really' to emphasize the adjective.",
+          "points": 2
+        },
+        {
+          "id": 5,
+          "words": [
+            "My",
+            "aunt's",
+            "house",
+            "is",
+            "too",
+            "far",
+            "."
+          ],
+          "correctOrder": [
+            "My",
+            "aunt's",
+            "house",
+            "is",
+            "too",
+            "far",
+            "."
+          ],
+          "translation": "La casa de mi tía está demasiado lejos.",
+          "hint": "Use 'too' before an adjective to express excess.",
+          "points": 2
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:07:41.211Z",
+    "estimatedTime": 6,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex4",
+    "type": "speaking-analysis",
+    "category": "speaking",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "title": "Speaking Analysis: Family Members",
+      "instructions": "Choose the most appropriate option for each speaking situation",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "scenario": "You meet a friend's family for the first time. They introduce you to their sister.",
+          "question": "What is the most appropriate response to the introduction?",
+          "options": [
+            "A) Nice to meet your sister.",
+            "B) Nice to meet you, sister.",
+            "C) Hello, sister.",
+            "D) Hi, who is this?"
+          ],
+          "correctAnswer": "A",
+          "explanation": "La opción A es la respuesta más adecuada porque utiliza un saludo apropiado para conocer a un miembro de la familia de un amigo.",
+          "points": 2
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "scenario": "You are talking to your friend's mother in a formal setting.",
+          "question": "Which register is most appropriate for this situation?",
+          "options": [
+            "A) Hi, how's it going?",
+            "B) Hello, how do you do?",
+            "C) Hey, what's up?",
+            "D) Hiya, how are you?"
+          ],
+          "correctAnswer": "B",
+          "explanation": "La opción B es la respuesta más formal y adecuada para una conversación con la madre de un amigo en un ambiente formal.",
+          "points": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "scenario": "You are describing your cousin's relationship with your brother.",
+          "question": "Which phrase correctly uses the Saxon genitive?",
+          "options": [
+            "A) My cousin brother's friend.",
+            "B) My brother's cousin's friend.",
+            "C) Cousin of my brother's friend.",
+            "D) Friend of my brother cousin's."
+          ],
+          "correctAnswer": "B",
+          "explanation": "La opción B usa correctamente el genitivo sajón para describir la relación entre el hermano y el primo.",
+          "points": 2
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "scenario": "You are talking about your uncle's marital status.",
+          "question": "Which sentence correctly describes his status?",
+          "options": [
+            "A) My uncle is married with two children.",
+            "B) My uncle's is married with two children.",
+            "C) My uncle married with two children.",
+            "D) My uncle, he is married with two children."
+          ],
+          "correctAnswer": "A",
+          "explanation": "La opción A es la forma correcta de expresar el estado civil de tu tío.",
+          "points": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "scenario": "You are introducing your family members to a friend.",
+          "question": "Which informal expression fits the casual context?",
+          "options": [
+            "A) This is my father, pleased to meet you.",
+            "B) Here's my dad, nice to meet ya!",
+            "C) Let me introduce you to my father.",
+            "D) Allow me to present my father."
+          ],
+          "correctAnswer": "B",
+          "explanation": "La opción B es una expresión informal adecuada para presentar a tu padre en un contexto casual.",
+          "points": 2
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "scenario": "You are describing your aunt's job change to a colleague.",
+          "question": "Which discourse marker best introduces the topic?",
+          "options": [
+            "A) However, my aunt has a new job.",
+            "B) Therefore, my aunt has a new job.",
+            "C) By the way, my aunt has a new job.",
+            "D) Nonetheless, my aunt has a new job."
+          ],
+          "correctAnswer": "C",
+          "explanation": "La opción C utiliza el marcador discursivo 'By the way' que es adecuado para introducir un nuevo tema de conversación.",
+          "points": 2
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:07:57.106Z",
+    "estimatedTime": 8,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex5",
+    "type": "word-search",
+    "category": "vocabulary",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "title": "Word Search: Family Members",
+      "instructions": "Find the hidden words in the grid",
+      "words": [
+        "FATHER",
+        "MOTHER",
+        "BROTHER",
+        "SISTER",
+        "UNCLE",
+        "AUNT",
+        "COUSIN",
+        "GRANDMA",
+        "GRANDPA",
+        "HUSBAND",
+        "WIFE",
+        "CHILDREN"
+      ],
+      "gridSize": 10,
+      "clues": [
+        {
+          "word": "FATHER",
+          "clue": "Padre"
+        },
+        {
+          "word": "MOTHER",
+          "clue": "Madre"
+        },
+        {
+          "word": "BROTHER",
+          "clue": "Hermano"
+        },
+        {
+          "word": "SISTER",
+          "clue": "Hermana"
+        },
+        {
+          "word": "UNCLE",
+          "clue": "Tío"
+        },
+        {
+          "word": "AUNT",
+          "clue": "Tía"
+        },
+        {
+          "word": "COUSIN",
+          "clue": "Primo/Prima"
+        },
+        {
+          "word": "GRANDMA",
+          "clue": "Abuela"
+        },
+        {
+          "word": "GRANDPA",
+          "clue": "Abuelo"
+        },
+        {
+          "word": "HUSBAND",
+          "clue": "Esposo"
+        },
+        {
+          "word": "WIFE",
+          "clue": "Esposa"
+        },
+        {
+          "word": "CHILDREN",
+          "clue": "Hijos"
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:08:00.860Z",
+    "estimatedTime": 5,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex6",
+    "type": "crossword",
+    "category": "vocabulary",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "title": "Crossword: Family Members",
+      "instructions": "Complete the crossword puzzle",
+      "items": [
+        {
+          "word": "MOTHER",
+          "clue": "My father's wife is my ____.",
+          "direction": "across",
+          "row": 0,
+          "col": 0
+        },
+        {
+          "word": "BROTHER",
+          "clue": "My mother's son is my ____.",
+          "direction": "down",
+          "row": 0,
+          "col": 2
+        },
+        {
+          "word": "FATHER",
+          "clue": "My mother's husband is my ____.",
+          "direction": "across",
+          "row": 2,
+          "col": 0
+        },
+        {
+          "word": "SISTER",
+          "clue": "My father's daughter is my ____.",
+          "direction": "down",
+          "row": 1,
+          "col": 4
+        },
+        {
+          "word": "UNCLE",
+          "clue": "My father's brother is my ____.",
+          "direction": "across",
+          "row": 4,
+          "col": 0
+        },
+        {
+          "word": "COUSIN",
+          "clue": "My uncle's child is my ____.",
+          "direction": "across",
+          "row": 6,
+          "col": 0
+        },
+        {
+          "word": "HUSBAND",
+          "clue": "My sister's spouse is her ____.",
+          "direction": "across",
+          "row": 8,
+          "col": 0
+        },
+        {
+          "word": "WIFE",
+          "clue": "My brother's spouse is his ____.",
+          "direction": "down",
+          "row": 4,
+          "col": 6
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:08:06.355Z",
+    "estimatedTime": 10,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex7",
+    "type": "reading-comprehension",
+    "category": "reading",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "title": "Meet My Family",
+      "textPassage": "I live in a small town with my family. My father's name is John, and he is a doctor. My mother, Susan, is a teacher at the local school. I have one brother and one sister. My brother's name is Alex, and he is twelve years old. My sister's name is Emma, and she is ten. We also have a pet dog called Max. Every evening, our family has dinner together. My mother's cooking is delicious, and we all love her spaghetti. After dinner, my father helps us with homework. On weekends, we visit my grandparents. My grandfather's stories are always interesting, and my grandmother's garden is beautiful. We love spending time with them.",
+      "wordCount": 120,
+      "estimatedReadingTime": 2,
+      "questions": [
+        {
+          "question": "What is the main idea of the passage?",
+          "options": [
+            "A description of the speaker's family and activities.",
+            "A detailed story about a trip.",
+            "A conversation between friends.",
+            "An explanation of a school project."
+          ],
+          "answer": "A description of the speaker's family and activities.",
+          "explanation": "La idea principal es sobre la familia del hablante y sus actividades cotidianas."
+        },
+        {
+          "question": "How many siblings does the speaker have?",
+          "options": [
+            "One brother and two sisters.",
+            "Two brothers.",
+            "One brother and one sister.",
+            "No siblings."
+          ],
+          "answer": "One brother and one sister.",
+          "explanation": "El hablante menciona tener un hermano y una hermana."
+        },
+        {
+          "question": "What is the profession of the speaker's father?",
+          "options": [
+            "A teacher.",
+            "A doctor.",
+            "An engineer.",
+            "A chef."
+          ],
+          "answer": "A doctor.",
+          "explanation": "El texto dice que el padre del hablante es doctor."
+        },
+        {
+          "question": "True or False: The family has dinner together every evening.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "True",
+          "explanation": "El texto menciona que la familia cena junta todas las noches."
+        },
+        {
+          "question": "What activity do they do on weekends?",
+          "options": [
+            "Visit friends.",
+            "Go to the park.",
+            "Visit their grandparents.",
+            "Go to the cinema."
+          ],
+          "answer": "Visit their grandparents.",
+          "explanation": "El texto indica que los fines de semana visitan a sus abuelos."
+        },
+        {
+          "question": "What is the name of the speaker's pet?",
+          "options": [
+            "Bella",
+            "Max",
+            "Charlie",
+            "Buddy"
+          ],
+          "answer": "Max",
+          "explanation": "El texto menciona que tienen un perro llamado Max."
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:08:15.627Z",
+    "estimatedTime": 15,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex8",
+    "type": "pronunciation-practice",
+    "category": "pronunciation",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "title": "Practica de Pronunciación: Énfasis en el Estrés de las Palabras",
+      "instructions": "Practica la pronunciación enfocándote en el estrés de las palabras en las siguientes oraciones. Escucha el audio y repite cada oración, prestando atención a cómo se enfatizan ciertas palabras. Usa las transcripciones fonéticas como guía.",
+      "targetSentences": [
+        {
+          "sentence": "This is my mother's favorite book.",
+          "translation": "Este es el libro favorito de mi madre.",
+          "phoneticTranscription": "ˈmʌðərz ˈfeɪvərɪt bʊk",
+          "audioModelURL": "https://example.com/audio1",
+          "pronunciationTips": "Enfoca el estrés en 'mother's' y 'favorite'.",
+          "focusPoints": "El estrés recae en las palabras posesivas y adjetivos.",
+          "commonMistakes": "No enfatizar correctamente las palabras posesivas."
+        },
+        {
+          "sentence": "My brother's car is very fast.",
+          "translation": "El coche de mi hermano es muy rápido.",
+          "phoneticTranscription": "ˈbrʌðərz kɑːr ˈveri fɑːst",
+          "audioModelURL": "https://example.com/audio2",
+          "pronunciationTips": "Asegúrate de enfatizar 'brother's' y 'fast'.",
+          "focusPoints": "El estrés en posesiones y adjetivos comparativos.",
+          "commonMistakes": "No hacer una pausa clara entre 'car' y 'is'."
+        },
+        {
+          "sentence": "Our family's vacation was amazing.",
+          "translation": "Las vacaciones de nuestra familia fueron increíbles.",
+          "phoneticTranscription": "ˈfæmɪliz vəˈkeɪʃən əˈmeɪzɪŋ",
+          "audioModelURL": "https://example.com/audio3",
+          "pronunciationTips": "Enfoca en 'family's' y 'amazing'.",
+          "focusPoints": "El estrés en los sustantivos posesivos y adjetivos calificativos.",
+          "commonMistakes": "Subestimar el énfasis en 'vacation'."
+        },
+        {
+          "sentence": "Her husband's job is interesting.",
+          "translation": "El trabajo de su esposo es interesante.",
+          "phoneticTranscription": "ˈhʌzbəndz dʒɒb ˈɪntrəstɪŋ",
+          "audioModelURL": "https://example.com/audio4",
+          "pronunciationTips": "Pon atención al estrés en 'husband's' y 'interesting'.",
+          "focusPoints": "El estrés en los posesivos y adjetivos descriptivos.",
+          "commonMistakes": "Olvidar el estrés en 'job'."
+        },
+        {
+          "sentence": "My sister's friend is a teacher.",
+          "translation": "La amiga de mi hermana es maestra.",
+          "phoneticTranscription": "ˈsɪstərz frend ə ˈtiːtʃər",
+          "audioModelURL": "https://example.com/audio5",
+          "pronunciationTips": "Asegúrate de enfatizar 'sister's' y 'teacher'.",
+          "focusPoints": "El estrés en los posesivos y profesiones.",
+          "commonMistakes": "No enfatizar 'teacher' correctamente."
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:08:24.308Z",
+    "estimatedTime": 8,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex9",
+    "type": "multiple-choice",
+    "category": "grammar",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "title": "Family Members and Possessive Adjectives",
+      "instructions": "Choose the correct answer for each question.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Who is Sarah's brother?",
+          "options": [
+            "A) My brother",
+            "B) Her brother",
+            "C) Their brother",
+            "D) His brother"
+          ],
+          "correctAnswer": "B",
+          "explanation": "La pregunta se refiere al hermano de Sarah, por lo tanto, usamos 'her' porque es el adjetivo posesivo que corresponde a la tercera persona del singular femenino."
+        },
+        {
+          "id": "q2",
+          "question": "Is this your parents' house?",
+          "options": [
+            "A) Yes, it's mine.",
+            "B) No, it's theirs.",
+            "C) Yes, it's ours.",
+            "D) No, it's his."
+          ],
+          "correctAnswer": "B",
+          "explanation": "La pregunta utiliza 'your parents', lo que significa que la casa no pertenece a la persona que responde, sino a los padres de alguien más. Por eso, la respuesta correcta es 'theirs'."
+        },
+        {
+          "id": "q3",
+          "question": "Jessica's father is married. Who is his wife?",
+          "options": [
+            "A) Jessica's aunt",
+            "B) Jessica's mother",
+            "C) Jessica's cousin",
+            "D) Jessica's sister"
+          ],
+          "correctAnswer": "B",
+          "explanation": "El padre de Jessica está casado, por lo tanto, su esposa sería la madre de Jessica. 'Married' indica el estado civil, y 'wife' se refiere a la esposa."
+        },
+        {
+          "id": "q4",
+          "question": "Whose book is this? It's my ___.",
+          "options": [
+            "A) brother",
+            "B) brother's",
+            "C) brothers",
+            "D) brothers'"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Para indicar posesión, utilizamos el genitivo sajón. En este caso, 'brother's' muestra que el libro pertenece al hermano."
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:08:31.454Z",
+    "estimatedTime": 5,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex10",
+    "type": "fill-blank",
+    "category": "grammar",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "questions": [
+        {
+          "sentence": "I would like to visit ___ (mi) grandmother this weekend.",
+          "gap": "my",
+          "explanation": "Usamos 'my' para referirnos a algo que nos pertenece. En este caso, 'mi abuela'.",
+          "points": 1
+        },
+        {
+          "sentence": "She should call ___ (su) brother before dinner.",
+          "gap": "her",
+          "explanation": "Usamos 'her' para referirnos a algo que pertenece a ella. En este caso, 'su hermano'.",
+          "points": 1
+        },
+        {
+          "sentence": "John's father is a doctor. ___ (Su) clinic is in the city.",
+          "gap": "His",
+          "explanation": "'His' se usa porque estamos hablando de algo que pertenece a John. En este caso, 'su clínica'.",
+          "points": 1
+        },
+        {
+          "sentence": "My parents' house is bigger than ___ (sus) house.",
+          "gap": "their",
+          "explanation": "Usamos 'their' para hablar de algo que pertenece a ellos. En este caso, 'su casa'.",
+          "points": 1
+        },
+        {
+          "sentence": "We have to visit ___ (nuestros) cousins during the holidays.",
+          "gap": "our",
+          "explanation": "Usamos 'our' para referirnos a algo que nos pertenece a nosotros. En este caso, 'nuestros primos'.",
+          "points": 1
+        },
+        {
+          "sentence": "Is this ___ (tu) sister's book?",
+          "gap": "your",
+          "explanation": "Usamos 'your' para referirnos a algo que pertenece a la persona con la que hablamos. En este caso, 'tu hermana'.",
+          "points": 1
+        },
+        {
+          "sentence": "They should visit ___ (sus) grandparents more often.",
+          "gap": "their",
+          "explanation": "Usamos 'their' para hablar de algo que pertenece a ellos. En este caso, 'sus abuelos'.",
+          "points": 1
+        },
+        {
+          "sentence": "___ (Mi) brother's guitar is very old.",
+          "gap": "My",
+          "explanation": "Usamos 'my' para hablar de algo que es mío. En este caso, 'la guitarra de mi hermano'.",
+          "points": 1
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:08:38.470Z",
+    "estimatedTime": 7,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex11",
+    "type": "sentence-building",
+    "category": "grammar",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "sentences": [
+        {
+          "id": 1,
+          "words": [
+            "some",
+            "a",
+            "have",
+            "of",
+            "I",
+            "cousins",
+            "."
+          ],
+          "correctOrder": [
+            "I",
+            "have",
+            "some",
+            "cousins",
+            "."
+          ],
+          "translation": "Tengo algunos primos.",
+          "hint": "Use 'some' for an unspecified amount.",
+          "points": 2
+        },
+        {
+          "id": 2,
+          "words": [
+            "she",
+            "is",
+            "wedding",
+            "a",
+            "planning",
+            "her",
+            "for",
+            "next",
+            "week",
+            "."
+          ],
+          "correctOrder": [
+            "She",
+            "is",
+            "planning",
+            "a",
+            "wedding",
+            "for",
+            "her",
+            "next",
+            "week",
+            "."
+          ],
+          "translation": "Ella está planeando una boda para la próxima semana.",
+          "hint": "Use 'is planning' to talk about future arrangements.",
+          "points": 2
+        },
+        {
+          "id": 3,
+          "words": [
+            "How",
+            "many",
+            "brothers",
+            "do",
+            "you",
+            "have",
+            "?"
+          ],
+          "correctOrder": [
+            "How",
+            "many",
+            "brothers",
+            "do",
+            "you",
+            "have",
+            "?"
+          ],
+          "translation": "¿Cuántos hermanos tienes?",
+          "hint": "Use 'How many' for countable items.",
+          "points": 2
+        },
+        {
+          "id": 4,
+          "words": [
+            "would",
+            "you",
+            "like",
+            "to",
+            "meet",
+            "my",
+            "parents",
+            "?"
+          ],
+          "correctOrder": [
+            "Would",
+            "you",
+            "like",
+            "to",
+            "meet",
+            "my",
+            "parents",
+            "?"
+          ],
+          "translation": "¿Te gustaría conocer a mis padres?",
+          "hint": "Use 'Would like to' for polite offers or requests.",
+          "points": 2
+        },
+        {
+          "id": 5,
+          "words": [
+            "My",
+            "sister",
+            "is",
+            "really",
+            "intelligent",
+            "."
+          ],
+          "correctOrder": [
+            "My",
+            "sister",
+            "is",
+            "really",
+            "intelligent",
+            "."
+          ],
+          "translation": "Mi hermana es realmente inteligente.",
+          "hint": "Use 'really' to emphasize an adjective.",
+          "points": 2
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:08:47.032Z",
+    "estimatedTime": 6,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex12",
+    "type": "speaking-analysis",
+    "category": "speaking",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "title": "Speaking Analysis: Family Members",
+      "instructions": "Choose the most appropriate option for each speaking situation",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "scenario": "You are talking about your family to a new friend.",
+          "question": "Which is the correct possessive adjective to use? '___ brother is older than me.'",
+          "options": [
+            "A. My",
+            "B. Your",
+            "C. His",
+            "D. Their"
+          ],
+          "correctAnswer": "A",
+          "explanation": "La frase habla sobre 'tu' hermano, por lo que el adjetivo posesivo correcto es 'my' para indicar posesión.",
+          "points": 2
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "scenario": "You're introducing your cousin to a group of friends.",
+          "question": "Which phrase is correct? 'This is ___ cousin, Alex.'",
+          "options": [
+            "A. my",
+            "B. the",
+            "C. a",
+            "D. an"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Se utiliza 'my' para mostrar que Alex es 'tu' primo.",
+          "points": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "scenario": "You are talking about your uncle's house.",
+          "question": "Which is the correct way to express possession? 'This is my ___ house.'",
+          "options": [
+            "A. uncle's",
+            "B. uncles'",
+            "C. uncle",
+            "D. uncles"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Se usa el genitivo sajón ('s) para indicar que la casa pertenece a tu tío.",
+          "points": 2
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "scenario": "Discussing your sister's marital status with a friend.",
+          "question": "Which statement is correct? 'My sister ___ married.'",
+          "options": [
+            "A. is",
+            "B. are",
+            "C. has",
+            "D. have"
+          ],
+          "correctAnswer": "A",
+          "explanation": "La forma correcta del verbo 'to be' en tercera persona singular es 'is'.",
+          "points": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "scenario": "You are describing your family to someone new.",
+          "question": "Choose the correct word: 'My parents' ___ is very strong.'",
+          "options": [
+            "A. relationship",
+            "B. relationships",
+            "C. relation",
+            "D. relatives"
+          ],
+          "correctAnswer": "A",
+          "explanation": "La palabra correcta es 'relationship' ya que se refiere a la conexión entre tus padres.",
+          "points": 2
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "scenario": "Talking about your brother's new job.",
+          "question": "Which is the correct sentence? 'My brother's job is ___ interesting.'",
+          "options": [
+            "A. very",
+            "B. much",
+            "C. many",
+            "D. more"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Se usa 'very' para intensificar adjetivos como 'interesting'.",
+          "points": 2
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:09:00.172Z",
+    "estimatedTime": 8,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex13",
+    "type": "word-search",
+    "category": "vocabulary",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "title": "Word Search: Family Members",
+      "instructions": "Find the hidden words in the grid",
+      "words": [
+        "MOTHER",
+        "FATHER",
+        "BROTHER",
+        "SISTER",
+        "UNCLE",
+        "AUNT",
+        "COUSIN",
+        "GRANDMA",
+        "GRANDPA",
+        "HUSBAND",
+        "WIFE",
+        "SON"
+      ],
+      "gridSize": 10,
+      "clues": [
+        {
+          "word": "MOTHER",
+          "clue": "The female parent"
+        },
+        {
+          "word": "FATHER",
+          "clue": "The male parent"
+        },
+        {
+          "word": "BROTHER",
+          "clue": "A male sibling"
+        },
+        {
+          "word": "SISTER",
+          "clue": "A female sibling"
+        },
+        {
+          "word": "UNCLE",
+          "clue": "Your parent's brother"
+        },
+        {
+          "word": "AUNT",
+          "clue": "Your parent's sister"
+        },
+        {
+          "word": "COUSIN",
+          "clue": "Your uncle's or aunt's child"
+        },
+        {
+          "word": "GRANDMA",
+          "clue": "Your mother's or father's mother"
+        },
+        {
+          "word": "GRANDPA",
+          "clue": "Your mother's or father's father"
+        },
+        {
+          "word": "HUSBAND",
+          "clue": "A married man"
+        },
+        {
+          "word": "WIFE",
+          "clue": "A married woman"
+        },
+        {
+          "word": "SON",
+          "clue": "A male child"
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:09:02.928Z",
+    "estimatedTime": 5,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex14",
+    "type": "crossword",
+    "category": "vocabulary",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "title": "Crossword: Family Members",
+      "instructions": "Complete the crossword puzzle",
+      "items": [
+        {
+          "word": "SISTER",
+          "clue": "Your mother's daughter is your ___.",
+          "direction": "across",
+          "row": 0,
+          "col": 0
+        },
+        {
+          "word": "MOTHER",
+          "clue": "She is my father's wife.",
+          "direction": "down",
+          "row": 0,
+          "col": 0
+        },
+        {
+          "word": "BROTHER",
+          "clue": "Your father's son is your ___.",
+          "direction": "across",
+          "row": 2,
+          "col": 0
+        },
+        {
+          "word": "UNCLE",
+          "clue": "My father's brother is my ___.",
+          "direction": "down",
+          "row": 0,
+          "col": 4
+        },
+        {
+          "word": "COUSIN",
+          "clue": "My uncle's son is my ___.",
+          "direction": "across",
+          "row": 4,
+          "col": 0
+        },
+        {
+          "word": "WIFE",
+          "clue": "A married woman is a ___.",
+          "direction": "down",
+          "row": 0,
+          "col": 6
+        },
+        {
+          "word": "HUSBAND",
+          "clue": "A married man is a ___.",
+          "direction": "across",
+          "row": 6,
+          "col": 0
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:09:06.615Z",
+    "estimatedTime": 10,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  },
+  {
+    "id": "a2-m1-l3-ex15",
+    "type": "reading-comprehension",
+    "category": "reading",
+    "topic": "Family Members",
+    "difficulty": "medium",
+    "level": "A2",
+    "content": {
+      "title": "A Day with My Family",
+      "textPassage": "Yesterday, I spent a wonderful day with my family. My brother, Tom, and his wife, Anna, invited us all for lunch at their house. Tom's house is very big, and it has a lovely garden. My parents, my sister Lucy, and I went together. My mom brought a delicious cake, and my dad helped Tom with the barbecue. Lucy played with Tom and Anna's children, who are very energetic. After lunch, we all sat in the garden and talked about many things. Tom's dog, Max, ran around and made us laugh. It was a sunny day, and everyone was happy. Before leaving, Anna showed us her new paintings. She is very talented. We had a great time, and I am grateful for my family.",
+      "wordCount": 127,
+      "estimatedReadingTime": 1,
+      "questions": [
+        {
+          "question": "What is the main idea of the passage?",
+          "options": [
+            "A family reunion at Tom's house",
+            "A day at the beach",
+            "A visit to the city",
+            "A shopping trip"
+          ],
+          "answer": "A family reunion at Tom's house",
+          "explanation": "El texto describe un día que la familia pasó junta en la casa de Tom, destacando las actividades que realizaron."
+        },
+        {
+          "question": "Who brought a cake?",
+          "options": [
+            "Anna",
+            "Tom",
+            "Mom",
+            "Lucy"
+          ],
+          "answer": "Mom",
+          "explanation": "En el texto se menciona que la mamá llevó un pastel delicioso."
+        },
+        {
+          "question": "What did Lucy do at Tom’s house?",
+          "options": [
+            "She cooked the barbecue",
+            "She watched TV",
+            "She played with Tom and Anna's children",
+            "She painted with Anna"
+          ],
+          "answer": "She played with Tom and Anna's children",
+          "explanation": "El texto dice que Lucy jugó con los hijos de Tom y Anna."
+        },
+        {
+          "question": "TRUE or FALSE: Tom's house has a small garden.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": "FALSE",
+          "explanation": "El texto menciona que la casa de Tom tiene un jardín encantador, no pequeño."
+        },
+        {
+          "question": "What kind of day was it?",
+          "options": [
+            "Rainy",
+            "Cloudy",
+            "Sunny",
+            "Windy"
+          ],
+          "answer": "Sunny",
+          "explanation": "Se menciona que fue un día soleado, lo que hizo que todos estuvieran felices."
+        },
+        {
+          "question": "What can we infer about Anna?",
+          "options": [
+            "She is a professional chef",
+            "She likes gardening",
+            "She is an artist",
+            "She is a teacher"
+          ],
+          "answer": "She is an artist",
+          "explanation": "Al final del texto se menciona que Anna mostró sus nuevas pinturas, lo que sugiere que es una artista."
+        }
+      ]
+    },
+    "createdAt": "2026-02-07T16:09:17.576Z",
+    "estimatedTime": 15,
+    "unitId": 3,
+    "moduleId": 1,
+    "lessonId": "a2-m1-l3"
+  }
+]

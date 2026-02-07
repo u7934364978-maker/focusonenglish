@@ -65,7 +65,11 @@ const categoryMetadata: Record<string, { name: string, description: string, icon
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }) {
   const { category: rawCategory } = await params;
-  const category = rawCategory.toLowerCase();
+  const category = decodeURIComponent(rawCategory)
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+    
   const meta = categoryMetadata[category];
   
   if (!meta) return { title: "Categoría no encontrada" };
@@ -81,7 +85,13 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
 
 export default async function CategoryPage({ params }: { params: Promise<{ category: string }> }) {
   const { category: rawCategory } = await params;
-  const category = rawCategory.toLowerCase();
+  
+  // Normalize category to handle accents (e.g., gramática -> gramatica)
+  const category = decodeURIComponent(rawCategory)
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+
   const articles = getArticlesByCategory(category);
   const meta = categoryMetadata[category] || {
     name: category.charAt(0).toUpperCase() + category.slice(1),

@@ -17,6 +17,36 @@ const nextConfig = {
     return [
       // SEO - Redirecciones de Cluster a Blog
       {
+        source: '/precios',
+        destination: '/planes',
+        statusCode: 301,
+      },
+      {
+        source: '/registro',
+        destination: '/cuenta/registro',
+        statusCode: 301,
+      },
+      {
+        source: '/rutas/certificaciones-ingles',
+        destination: '/certificaciones-ingles-oficiales',
+        statusCode: 301,
+      },
+      {
+        source: '/rutas/ingles-para-trabajo',
+        destination: '/blog/seo/ingles-para-trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/rutas/ingles-para-hosteleria',
+        destination: '/blog/seo/ingles-para-hosteleria',
+        statusCode: 301,
+      },
+      {
+        source: '/rutas/ingles-para-atencion-al-cliente',
+        destination: '/blog/seo/ingles-para-atencion-al-cliente',
+        statusCode: 301,
+      },
+      {
         source: '/curso-ingles-aprender-ingles',
         destination: '/aprender-ingles',
         statusCode: 301,

@@ -4,7 +4,7 @@ date: "2026-02-07"
 author: "Focus English"
 title: "Curso de Inglés C1: Nivel Avanzado (CAE) | Focus English"
 description: "Domina el inglés a un nivel profesional y académico avanzado. Prepárate para el Certificate in Advanced English (CAE) de Cambridge con nuestro método online."
-keywords: ["curso ingles c1", "ingles avanzado", "preparacion cae cambridge", "ingles nivel avanzado online", "aprender ingles c1"]
+keywords: ["curso ingles c1", "ingles avanzado", "preparacion cae cambridge", "ingles nivel avanzado online", "aprender ingles c1", "focus english c1"]
 canonical: "https://www.focus-on-english.com/blog/seo/ingles-c1"
 related_routes: ["ingles-b2", "ingles-c2", "trucos-writing-c1-advanced"]
 faqs:

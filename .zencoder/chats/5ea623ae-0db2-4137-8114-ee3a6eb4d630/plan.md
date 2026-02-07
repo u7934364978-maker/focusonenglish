@@ -67,3 +67,10 @@ Implement articles for English learning apps and AI tools.
 - [x] Create articles for "mejores apps ingles 2026", "aprender ingles con ia", etc.
 - [x] Compare Focus English with other apps.
 - [x] Verify final linking structure and canonical URLs.
+
+### [x] Step: Phase 6: 404 Troubleshooting & Keyword Coverage
+Fix reported 404 errors and ensure all requested keywords are covered.
+- [x] Normalize category hubs to handle accents (e.g., /blog/gramática).
+- [x] Add missing long-tail keywords to article metadata (e.g., career english).
+- [x] Add 301 redirects for legacy URLs and `/rutas/` paths.
+- [x] Verify that all user-provided URLs now resolve to the correct content.
