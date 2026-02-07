@@ -10,6 +10,7 @@ export interface BlogPost {
   date: string;
   author: string;
   excerpt: string;
+  description?: string;
   category: string;
   readTime: string;
   image?: string;
@@ -67,7 +68,8 @@ export function getBlogArticles(): BlogPost[] {
       title: data.title || "Untitled",
       date: data.date || new Date().toISOString(),
       author: data.author || "Focus English",
-      excerpt: data.excerpt || "",
+      excerpt: data.excerpt || data.description || "",
+      description: data.description || data.excerpt,
       category: normalizeCategory(data.category || "General"),
       readTime: data.readTime || "5 min",
       image: data.image,
@@ -103,7 +105,8 @@ export function getArticleBySlug(slug: string): BlogPost | null {
     title: data.title || "Untitled",
     date: data.date || new Date().toISOString(),
     author: data.author || "Focus English",
-    excerpt: data.excerpt || "",
+    excerpt: data.excerpt || data.description || "",
+    description: data.description || data.excerpt,
     category: normalizeCategory(data.category || "General"),
     readTime: data.readTime || "5 min",
     image: data.image,

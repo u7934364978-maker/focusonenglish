@@ -15,5 +15,13 @@
 
 ### 3. Verification
 - [x] Check if images are referenced correctly in the markdown files.
-- [ ] Run `npm run build` (optional but recommended if possible).
-- [x] Final check of the affected URLs if a local dev server can be started (or just trust the file fixes).
+- [x] Final check of the affected URLs.
+
+### 4. Canonical URLs
+- [x] Add `canonical` field support to `BlogPost` interface and parsing logic in `src/lib/blog.ts`.
+- [x] Update metadata generation in `src/app/blog/[category]/[slug]/page.tsx` to use the canonical field.
+- [x] Add canonical tags to requested travel guides in `src/content/blog/viajes/`.
+
+### 5. Meta Descriptions
+- [x] Update `src/lib/blog.ts` to map `description` frontmatter field to `excerpt`.
+- [x] Verify meta descriptions for all requested SEO blog posts in `src/content/blog/seo/`.
