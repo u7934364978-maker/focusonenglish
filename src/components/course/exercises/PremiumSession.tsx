@@ -1475,8 +1475,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
       case 'gapped_text':
       case 'multiple_choice_cloze':
-        const parts = interaction.main_text.split(/(\[GAP \d+\])/g);
-        const fullTextForTTS = interaction.main_text.replace(/\[GAP \d+\]/g, '...');
+        const parts = (interaction.main_text || "").split(/(\[GAP \d+\])/g);
+        const fullTextForTTS = (interaction.main_text || "").replace(/\[GAP \d+\]/g, '...');
         return (
           <div className="space-y-6">
             <div className="p-6 bg-white border rounded-xl leading-relaxed text-gray-800 shadow-sm whitespace-pre-wrap relative group">
@@ -1690,7 +1690,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 </div>
               )}
               <div className="grid gap-4">
-                {interaction.options.map((opt: any) => (
+                {(interaction.options || []).map((opt: any) => (
                   <div
                     key={opt.id}
                     role="button"
