@@ -1771,8 +1771,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         const isSolutionInPrompt = interaction.prompt_es && interaction.correct_answer && 
                                    interaction.prompt_es.toLowerCase().trim() === interaction.correct_answer.toLowerCase().trim();
         
-        // Fallback for transformation exercises that are actually multiple choice
-        if (!hasBlank && interaction.options && interaction.options.length > 0) {
+        // Fallback for exercises that are actually multiple choice (they have options)
+        if (interaction.options && interaction.options.length > 0) {
           return (
             <div className="w-full max-w-2xl mx-auto space-y-8">
               <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
