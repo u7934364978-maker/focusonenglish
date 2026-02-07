@@ -4,7 +4,7 @@ date: "2026-02-07"
 author: "Focus English"
 title: "Curso de Inglés para el Sector Salud: Médico y Enfermería | Focus English"
 description: "Especialízate en inglés médico. Domina el vocabulario clínico, la atención al paciente y la comunicación profesional en entornos sanitarios internacionales."
-keywords: ["inglés para salud", "inglés médico", "inglés para enfermería", "vocabulario clínico inglés", "atención al paciente inglés", "inglés médico online"]
+keywords: ["inglés para salud", "inglés médico", "inglés para enfermería", "vocabulario clínico inglés", "atención al paciente inglés", "inglés médico online", "vocabulario médico básico inglés", "pedir ayuda en inglés"]
 canonical: "https://www.focus-on-english.com/blog/seo/ingles-para-salud"
 related_routes: ["ingles-para-trabajo", "ingles-b2"]
 ---

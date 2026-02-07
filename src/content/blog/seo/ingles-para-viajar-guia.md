@@ -4,7 +4,7 @@ date: "2026-02-07"
 author: "Focus English"
 title: "Inglés para Viajar: Guía de Supervivencia y Frases Útiles | Focus English"
 description: "Aprende el inglés necesario para tus viajes. Frases para el aeropuerto, hoteles, restaurantes y emergencias. El mejor curso de inglés para viajar."
-keywords: ["inglés para viajar", "frases de inglés para viajar", "aprender inglés para viajar", "curso de inglés para turistas", "vocabulario de viaje en inglés", "frases básicas inglés viaje", "mejor curso de ingles para viajar"]
+keywords: ["inglés para viajar", "frases de inglés para viajar", "aprender inglés para viajar", "curso de inglés para turistas", "vocabulario de viaje en inglés", "frases básicas inglés viaje", "mejor curso de ingles para viajar", "ingles para turistas", "frases en ingles para viajar", "mejor curso de ingles para viajar", "aprender inglés para turistas", "inglés para viajeros", "frases de viaje en inglés", "vocabulario viajes inglés", "viajar a estados unidos inglés", "conversación inglés turismo", "guía inglés viajeros"]
 canonical: "https://www.focus-on-english.com/blog/seo/ingles-para-viajar-guia"
 related_routes: ["ingles-a1", "ingles-restaurantes-guia", "ingles-aeropuertos-checklist"]
 ---

@@ -4,7 +4,7 @@ date: "2026-02-07"
 author: "Focus English"
 title: "Curso de Inglés para Ingenieros: Técnico y Profesional | Focus English"
 description: "Domina el inglés técnico para ingeniería. Mejora tu comunicación en proyectos internacionales, redacción de informes técnicos y reuniones de equipo."
-keywords: ["inglés para ingenieros", "inglés técnico", "vocabulario ingeniería inglés", "technical english", "inglés para proyectos", "technical english for engineers"]
+keywords: ["inglés para ingenieros", "inglés técnico", "vocabulario ingeniería inglés", "technical english", "inglés para proyectos", "technical english for engineers", "inglés para soporte", "soporte técnico inglés"]
 canonical: "https://www.focus-on-english.com/blog/seo/ingles-para-ingenieros"
 related_routes: ["ingles-para-trabajo", "ingles-b2"]
 ---

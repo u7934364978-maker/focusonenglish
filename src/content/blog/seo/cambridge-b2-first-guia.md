@@ -4,7 +4,7 @@ date: "2026-02-07"
 author: "Focus English"
 title: "Examen B2 First (FCE) de Cambridge: Guía de Preparación | Focus English"
 description: "Todo sobre el examen B2 First (FCE) de Cambridge. Cómo preparar el First, estructura del examen, consejos para el Speaking y Writing FCE."
-keywords: ["fce first certificate in english exam", "b2 first cambridge", "examen cambridge first", "first certificate exam fce", "preparacion b2 first"]
+keywords: ["fce first certificate in english exam", "b2 first cambridge", "examen cambridge first", "first certificate exam fce", "preparacion b2 first", "cambridge first", "fce preparación", "estudiar inglés b2", "phrasal verbs b2", "gramatica b2", "voz pasiva en ingles", "gramatica b1 b2"]
 canonical: "https://www.focus-on-english.com/blog/seo/cambridge-b2-first-guia"
 related_routes: ["certificaciones-ingles", "ingles-b2", "precios-examenes-cambridge"]
 ---
