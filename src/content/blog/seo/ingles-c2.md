@@ -3,7 +3,7 @@ category: "seo"
 date: "2026-02-07"
 author: "Focus English"
 title: "Curso de Inglés C2: Nivel Maestría (CPE) | Focus English"
-description: "Alcanza la maestría total del idioma inglés. Prepárate para el Proficiency (CPE) y demuestra una competencia lingüística equivalente a la de un nativo culto."
+description: "Alcanza la maestría total del idioma inglés. Prepárate para el Proficiency (CPE) y demuestra una competencia lingüística profesional equivalente a un nativo culto."
 keywords: ["curso ingles c2", "ingles proficiency", "preparacion cpe cambridge", "maestria ingles online", "focus english c2"]
 canonical: "https://www.focus-on-english.com/blog/seo/ingles-c2"
 related_routes: ["ingles-c1", "trucos-writing-c1-advanced"]

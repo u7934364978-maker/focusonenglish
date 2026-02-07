@@ -3,7 +3,7 @@ category: "seo"
 date: "2026-02-07"
 author: "Focus English"
 title: "Examen C2 Proficiency (CPE): Máximo Nivel de Inglés | Focus English"
-description: "Guía de preparación para el C2 Proficiency (CPE) de Cambridge. Domina el inglés al más alto nivel académico y profesional."
+description: "Guía de preparación para el examen C2 Proficiency (CPE) de Cambridge. Domina el inglés al más alto nivel académico y profesional con nuestros trucos y consejos."
 keywords: ["curso ingles c2", "ingles proficiency", "preparacion cpe cambridge", "maestria ingles online", "focus english c2"]
 canonical: "https://www.focus-on-english.com/blog/seo/cambridge-c2-proficiency-guia"
 related_routes: ["certificaciones-ingles", "ingles-c2", "cambridge-c1-advanced-guia"]

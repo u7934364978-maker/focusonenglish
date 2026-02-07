@@ -3,7 +3,7 @@ category: "seo"
 date: "2026-02-07"
 author: "Focus English"
 title: "Curso de Inglés A2: Nivel Elemental | Focus English"
-description: "Da el salto del nivel básico al elemental con nuestro curso A2. Mejora tu gramática, amplía tu vocabulario y empieza a tener conversaciones reales sobre tu vida y planes."
+description: "Sube de nivel con nuestro curso de inglés A2. Mejora tu gramática, amplía tu vocabulario y empieza a tener conversaciones reales sobre tu vida diaria y planes."
 keywords: ["curso inglés a2", "nivel elemental inglés", "mejorar inglés", "conversación básica inglés", "gramática nivel a2", "estudiar inglés elemental"]
 canonical: "https://www.focus-on-english.com/blog/seo/ingles-a2"
 related_routes: ["ingles-a1", "ingles-b1", "ingles-para-viajar"]

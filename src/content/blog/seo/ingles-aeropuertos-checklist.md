@@ -3,7 +3,7 @@ category: "seo"
 date: "2026-02-07"
 author: "Focus English"
 title: "Inglés en el Aeropuerto: Guía de Frases y Vocabulario | Focus English"
-description: "Guía completa de inglés en el aeropuerto. Aprende frases para el check-in, control de pasaportes y vocabulario de viajes en inglés."
+description: "Guía completa de inglés en el aeropuerto. Aprende frases clave para el check-in, control de pasaportes y todo el vocabulario de viajes necesario en inglés."
 keywords: ["inglés en el aeropuerto", "frases aeropuerto inglés", "vocabulario viajes inglés", "frases check-in inglés", "preguntas inmigración inglés", "vocabulario aeropuerto inglés"]
 canonical: "https://www.focus-on-english.com/blog/seo/ingles-aeropuertos-checklist"
 related_routes: ["ingles-para-viajar-guia", "ingles-a1"]

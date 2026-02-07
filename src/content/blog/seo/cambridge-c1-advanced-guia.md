@@ -3,7 +3,7 @@ category: "seo"
 date: "2026-02-07"
 author: "Focus English"
 title: "Guía C1 Advanced (CAE): Trucos para el Writing y Más | Focus English"
-description: "Prepara el examen C1 Advanced (CAE) de Cambridge. Trucos writing c1 advanced, estructuras avanzadas, conectores y consejos para aprobar."
+description: "Prepara el examen C1 Advanced (CAE) de Cambridge con éxito. Trucos para el writing, estructuras avanzadas, conectores y consejos de expertos para aprobar."
 keywords: ["trucos writing c1 advanced", "consejos cae writing", "conectores ingles c1", "como aprobar writing cambridge c1", "estructuras avanzadas ingles c1", "preparacion cae cambridge", "aprender ingles c1", "focus english c1", "ingles avanzado", "ingles nivel avanzado online", "voz pasiva avanzada ingles", "impersonal passive examples", "have something done grammar", "it is said that passive", "gramatica c1 advanced", "gramatica b2 c1"]
 canonical: "https://www.focus-on-english.com/blog/seo/cambridge-c1-advanced-guia"
 related_routes: ["certificaciones-ingles", "ingles-c1", "cambridge-b2-first-guia"]

@@ -3,7 +3,7 @@ category: "seo"
 date: "2026-02-07"
 author: "Focus English"
 title: "Emergencias en Inglés: Frases de Auxilio y Seguridad | Focus English"
-description: "Guía de supervivencia para emergencias en inglés. Aprende frases de auxilio, cómo pedir ayuda médica y consejos de seguridad en viajes."
+description: "Guía de supervivencia para emergencias en inglés. Aprende frases clave de auxilio, cómo pedir ayuda médica y consejos de seguridad esenciales para tus viajes."
 keywords: ["emergencias en inglés", "frases de auxilio inglés", "seguridad en viajes inglés", "vocabulario médico básico inglés", "pedir ayuda en inglés"]
 canonical: "https://www.focus-on-english.com/blog/seo/ingles-emergencias-viaje"
 related_routes: ["ingles-para-viajar-guia", "ingles-hoteles-guia"]

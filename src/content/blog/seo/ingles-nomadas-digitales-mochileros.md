@@ -3,7 +3,7 @@ category: "seo"
 date: "2026-02-07"
 author: "Focus English"
 title: "Inglés para Nómadas Digitales y Viajes Largos | Focus English"
-description: "Guía de inglés para nómadas digitales, mochileros y viajeros de larga duración. Aprende a trabajar y vivir en el extranjero con fluidez."
+description: "Guía de inglés para nómadas digitales y mochileros. Aprende a trabajar y vivir en el extranjero con fluidez mientras viajas por el mundo con Focus English."
 keywords: ["inglés para nómadas digitales", "inglés para viajes largos", "aprender inglés para mochileros", "preparación idiomas viaje", "trabajo remoto inglés"]
 canonical: "https://www.focus-on-english.com/blog/seo/ingles-nomadas-digitales-mochileros"
 related_routes: ["ingles-para-viajar-guia", "ingles-para-trabajo"]

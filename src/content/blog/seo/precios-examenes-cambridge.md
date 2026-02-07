@@ -3,7 +3,7 @@ category: "seo"
 date: "2026-02-07"
 author: "Focus English"
 title: "Precios Exámenes Cambridge 2026: Tasas y Guía de Costes | Focus English"
-description: "Consulta los precios de los exámenes Cambridge para 2026. Tasas del First (FCE), Advanced (CAE) y PET. ¿Cuánto cuesta certificarse?"
+description: "Consulta los precios actualizados de los exámenes Cambridge para 2026. Tasas del First (FCE), Advanced (CAE) y PET. Descubre cuánto cuesta certificarse hoy mismo."
 keywords: ["precios examenes cambridge", "precio certificacion cambridge", "tasas cambridge 2026", "cuanto cuesta el examen first", "tasas fce 2026"]
 canonical: "https://www.focus-on-english.com/blog/seo/precios-examenes-cambridge"
 related_routes: ["certificaciones-ingles", "preparacion-examen-b1-cambridge"]
