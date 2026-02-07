@@ -68,6 +68,8 @@ export function getSolutionText(interaction: PremiumInteraction): string {
     case 'transformation':
     case 'fill_blanks':
     case 'fill_blank':
+    case 'fill-blank':
+    case 'fill-blanks':
       if (typeof interaction.correct_answer === 'string') {
         return `${prefix}${interaction.correct_answer}`;
       }

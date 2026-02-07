@@ -160,8 +160,20 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       if (normalized.answers && !normalized.correct_answer) {
         normalized.correct_answer = Array.isArray(normalized.answers) ? normalized.answers.join(' / ') : normalized.answers;
       }
+      if (normalized.acceptableAnswers && !normalized.correct_answer) {
+        normalized.correct_answer = Array.isArray(normalized.acceptableAnswers) ? normalized.acceptableAnswers.join(' / ') : normalized.acceptableAnswers;
+      }
       if (normalized.answer && !normalized.correct_answer) {
         normalized.correct_answer = normalized.answer;
+      }
+      
+      // Clean up stimulus_en for fill_blank if it contains the answer in brackets
+      if ((normalized.type === 'fill_blanks' || normalized.type === 'fill_blank') && normalized.stimulus_en) {
+        // If it looks like "Sentence ______ (answer) rest of sentence"
+        if (normalized.stimulus_en.includes('______')) {
+          // Remove the answer in brackets if it exists right after the blank
+          normalized.stimulus_en = normalized.stimulus_en.replace(/_{2,}\s*\([^)]+\)/g, '______');
+        }
       }
 
       // Normalize pairs for matching
@@ -230,6 +242,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             if (q.sentence && !flattened.stimulus_en) {
               flattened.stimulus_en = q.sentence;
             }
+            if (q.question && !flattened.stimulus_en) {
+              flattened.stimulus_en = q.question;
+            }
             if (content.textPassage && !flattened.stimulus_en) {
               flattened.stimulus_en = content.textPassage;
             }
@@ -250,6 +265,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             }
             if (q.correct_answer && !flattened.correct_answer) {
               flattened.correct_answer = q.correct_answer;
+            }
+            if (q.acceptableAnswers && !flattened.correct_answer) {
+              flattened.correct_answer = Array.isArray(q.acceptableAnswers) ? q.acceptableAnswers.join(' / ') : q.acceptableAnswers;
             }
             if (q.correct_answer_es && !flattened.correct_answer_es) {
               flattened.correct_answer_es = q.correct_answer_es;
