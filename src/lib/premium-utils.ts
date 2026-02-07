@@ -85,7 +85,7 @@ export function getSolutionText(interaction: PremiumInteraction): string {
     case 'fill_blank':
     case 'fill-blank':
     case 'fill-blanks':
-      const solutionText = interaction.correct_answer || interaction.correctAnswer || interaction.answer;
+      const solutionText = interaction.correct_answer || interaction.correctAnswer || interaction.answer || interaction.gap;
       if (solutionText) {
         return `${prefix}${Array.isArray(solutionText) ? solutionText.join(' / ') : solutionText}`;
       }

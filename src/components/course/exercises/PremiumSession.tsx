@@ -65,7 +65,12 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
       // Standardize correct_answer
       if (!normalized.correct_answer) {
-        normalized.correct_answer = normalized.correctAnswer || normalized.answer || normalized.solution || normalized.correct_answer_en;
+        normalized.correct_answer = normalized.correctAnswer || normalized.answer || normalized.solution || normalized.correct_answer_en || normalized.correct_answer_es || normalized.gap;
+      }
+
+      // Handle cases where correct_answer is an object (like in matching) but type is wrong
+      if (typeof normalized.correct_answer === 'object' && !Array.isArray(normalized.correct_answer) && normalized.type !== 'matching') {
+        normalized.type = 'matching';
       }
 
       // Normalize type (handle camelCase from migrations)
@@ -2244,7 +2249,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             className="w-full max-w-5xl mx-auto px-6 flex flex-col justify-start md:justify-center min-h-[60vh]"
           >
             {currentItem?.main_instructions && 
-             currentItem.main_instructions !== "Lesson Exercises" && 
+             !["Lesson Exercises", "Exercise", "Unit Exercise", "Práctica"].includes(currentItem.main_instructions) && 
              currentItem.main_instructions !== currentItem.prompt_es && (
                <div className="mb-8 bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-2 border-indigo-100 shadow-sm max-w-2xl mx-auto w-full">
                   <div className="flex items-center gap-3 mb-2">
