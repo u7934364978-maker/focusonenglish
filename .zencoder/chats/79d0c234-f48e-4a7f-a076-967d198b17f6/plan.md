@@ -14,8 +14,13 @@
 - [x] Push Units 1-10 to repository and inform user of Supabase steps.
 - [x] Fix 404 error by updating `premiumCourseServerService` to support database-only units.
 - [x] Troubleshoot and fix SQL syntax errors by using safer `$_$` delimiters.
-- [x] **Harden Rendering Engine**: Updated `PremiumSession.tsx` to handle diverse AI-generated fields (mapping `multiple-choice` to `multiple_choice`, flattening `questions`/`items`/`transformations` arrays, and adding scrolling to long stimulus texts).
-- [x] **Fix Exercise Presentation**: Resolved duplicate stimulus/instructions and missing solutions in the feedback bar by improving `getSolutionText` and adding aggressive AI-pattern cleanup in `PremiumSession.tsx`.
+- [x] **Harden Rendering Engine**: Updated `PremiumSession.tsx` to handle diverse AI-generated fields, flattening sub-questions, and mapping complex types to standard layouts.
+- [x] **UI & Logic Stabilization**: 
+    - [x] Fixed empty solution bar by robustifying `getSolutionText` and normalization.
+    - [x] Resolved "double instructions" by improving deduplication logic.
+    - [x] Implemented "Dynamic Word Bank" for fill-blanks: collects all answers in a block to provide selection options if none were generated.
+    - [x] Supported multiple correct answers (separated by `/`) in fill-blanks.
+    - [x] Advanced stimulus cleanup to remove solutions hidden in parentheses like `(often)`.
 
 ## Phase 3: Batch Generation (Remaining Units)
 - [ ] Generate Batch 2 (Units 11-20).

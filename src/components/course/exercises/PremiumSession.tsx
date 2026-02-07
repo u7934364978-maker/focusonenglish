@@ -65,7 +65,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
       // Standardize correct_answer
       if (!normalized.correct_answer) {
-        normalized.correct_answer = normalized.correctAnswer || normalized.answer || normalized.solution || normalized.correct_answer_en || normalized.correct_answer_es || normalized.gap;
+        normalized.correct_answer = normalized.correctAnswer || normalized.answer || normalized.solution || normalized.correct_answer_en || normalized.correct_answer_es || normalized.gap || (Array.isArray(normalized.acceptableAnswers) ? normalized.acceptableAnswers[0] : normalized.acceptableAnswers);
       }
 
       // Handle cases where correct_answer is an object (like in matching) but type is wrong
@@ -273,15 +273,29 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         const subQuestions = content.questions || content.transformations || content.items || (content.type === 'reading-comprehension' ? content.reading : null);
         
         if (subQuestions && Array.isArray(subQuestions)) {
+          // Collect all correct answers to use as a word bank if it's a fill-blank exercise without options
+          const isFillBlankBlock = ['fill_blank', 'fill-blank', 'fill_blanks', 'transformation'].includes(content.type as string);
+          let blockWordBank: any[] = [];
+          if (isFillBlankBlock) {
+            const allPossibleAnswers = new Set<string>();
+            subQuestions.forEach(q => {
+              const answers = q.acceptableAnswers || q.answer || q.correct_answer || q.correctAnswer || q.gap;
+              if (Array.isArray(answers)) answers.forEach(a => allPossibleAnswers.add(String(a)));
+              else if (answers) allPossibleAnswers.add(String(answers));
+            });
+            blockWordBank = Array.from(allPossibleAnswers).map((text, idx) => ({ id: text, text }));
+          }
+
           subQuestions.forEach((q: any, qIdx: number) => {
             // Ensure we don't lose the main instructions or title, but avoid duplicates
-            const rawInstructions = q.instructions || content.instructions || content.prompt_es || content.topic || content.title || block.title;
-            const qText = q.question || q.prompt || q.scenario || q.sentence || "";
+            const rawInstructions = (q.instructions || content.instructions || content.prompt_es || content.topic || content.title || block.title || "").trim();
+            const qText = (q.question || q.prompt || q.scenario || q.sentence || "").trim();
             
-            // If instructions are almost identical to the question, use a generic placeholder or the block title
+            // Stronger duplication check
+            const clean = (t: string) => t.toLowerCase().replace(/[.:!¡¿?]/g, '').trim();
             const isDuplicate = qText && rawInstructions && 
-                              (rawInstructions.toLowerCase().includes(qText.toLowerCase().substring(0, 20)) ||
-                               qText.toLowerCase().includes(rawInstructions.toLowerCase().substring(0, 20)));
+                              (clean(rawInstructions).includes(clean(qText).substring(0, 20)) ||
+                               clean(qText).includes(clean(rawInstructions).substring(0, 20)));
 
             const flattened = {
               ...content,
@@ -290,6 +304,11 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
               main_instructions: isDuplicate ? (block.title || "Exercise") : rawInstructions,
               blockTitle: block.title
             };
+
+            // Apply word bank if it's a fill-blank block and current question has no options
+            if (isFillBlankBlock && (!flattened.options || flattened.options.length === 0) && blockWordBank.length > 1) {
+              flattened.options = blockWordBank;
+            }
             
             // Map question-specific fields to standard fields
             if (q.question && !flattened.prompt_es) {
@@ -711,8 +730,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     } else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
       const input = (optionId as string).trim().toLowerCase();
       const q = interaction;
-      const correct = String(q.correct_answer || q.correctAnswer || interaction.correct_answer).toLowerCase().trim();
-      isAnswerCorrect = input === correct;
+      const correctText = String(q.correct_answer || q.correctAnswer || q.answer || q.gap || "").toLowerCase().trim();
+      // Support multiple correct answers separated by / or ,
+      const possibleAnswers = correctText.split(/[\\/]+/).map(a => a.trim().toLowerCase()).filter(Boolean);
+      isAnswerCorrect = possibleAnswers.length > 0 ? possibleAnswers.includes(input) : input.length > 0;
     } else if (interaction.type === 'writing_task') {
       const input = (optionId as string).trim();
       const minWords = interaction.word_count_min || 100;
@@ -2249,8 +2270,13 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             className="w-full max-w-5xl mx-auto px-6 flex flex-col justify-start md:justify-center min-h-[60vh]"
           >
             {currentItem?.main_instructions && 
-             !["Lesson Exercises", "Exercise", "Unit Exercise", "Práctica"].includes(currentItem.main_instructions) && 
-             currentItem.main_instructions !== currentItem.prompt_es && (
+             !["Lesson Exercises", "Exercise", "Unit Exercise", "Práctica", "Actividad"].includes(currentItem.main_instructions) && 
+             (() => {
+                const clean = (t: string) => t.toLowerCase().replace(/[.:!¡¿?]/g, '').trim();
+                const instr = clean(currentItem.main_instructions);
+                const prompt = clean(currentItem.prompt_es || "");
+                return instr !== prompt && !instr.includes(prompt.substring(0, 30)) && !prompt.includes(instr.substring(0, 30));
+             })() && (
                <div className="mb-8 bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-2 border-indigo-100 shadow-sm max-w-2xl mx-auto w-full">
                   <div className="flex items-center gap-3 mb-2">
                     <div className="bg-indigo-100 p-2 rounded-xl">
