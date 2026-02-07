@@ -4,8 +4,8 @@ date: "2026-02-07"
 author: "Focus English"
 title: "Cursos Online de Inglés B1: Consigue tu Título Oficial | Focus English"
 description: "Prepara tu examen B1 de inglés con nuestro curso online. Temario completo de gramática, vocabulario y simulacros de examen para Cambridge, Aptis y Oxford."
-keywords: ["cursos online ingles b1", "preparacion examen b1 ingles", "ingles b1 online gratis", "título b1 ingles online", "ejercicios b1 ingles"]
-canonical: "https://focusonenglish.ai/cursos-online-ingles-b1"
+keywords: ["cursos online ingles b1", "preparacion examen b1 ingles", "ingles b1 online gratis", "título b1 ingles online", "ejercicios b1 ingles", "gramatica ingles b1", "tiempos verbales b1", "condicionales ingles b1", "ejercicios gramatica b1"]
+canonical: "https://www.focus-on-english.com/blog/seo/cursos-online-ingles-b1"
 related_routes: ["preparacion-examen-b1-cambridge", "gramatica-ingles-b1-guia", "vocabulario-b1-ingles-trabajo"]
 faqs:
   - question: "¿Qué nivel de inglés es el B1?"
@@ -20,36 +20,38 @@ faqs:
 
 ¿Necesitas el **B1 de inglés** para tu carrera universitaria, un ascenso en el trabajo o simplemente para viajar con confianza? Has llegado al lugar indicado. En **Focus English**, hemos diseñado una estrategia de aprendizaje optimizada para que consigas tu certificado oficial de la manera más rápida y eficiente.
 
+Si buscas **[cursos online de inglés B1](/blog/seo/cursos-online-ingles-b1)** con **[ejercicios de inglés B1](/blog/seo/cursos-online-ingles-b1)** prácticos, nuestra plataforma es la solución ideal.
+
 ## ¿Por qué elegir nuestro curso de Inglés B1 Online?
 
 A diferencia de otros cursos generalistas, nosotros nos enfocamos en lo que realmente importa para aprobar los exámenes oficiales y usar el inglés en el mundo real:
 
 1.  **Temario Adaptado al MCER**: Cubrimos todos los puntos de gramática y vocabulario requeridos para el nivel B1.
 2.  **Simulacros de Examen**: Practica con exámenes reales de Cambridge, Aptis y Oxford.
-3.  **Flexibilidad Total**: Estudia a tu ritmo, desde cualquier dispositivo y en cualquier momento.
-4.  **IA Personalizada**: Nuestra plataforma utiliza inteligencia artificial para detectar tus puntos débiles y reforzarlos.
+3.  **IA Personalizada**: Nuestra plataforma utiliza inteligencia artificial para detectar tus puntos débiles y reforzarlos.
 
 ## Contenido del Curso B1
 
 Nuestro programa se divide en módulos clave para asegurar tu dominio de las cuatro destrezas:
 
 ### Gramática B1
-- **Tiempos Verbales**: Present Perfect vs Past Simple, voz pasiva básica y condicionales (Type 0, 1 & 2).
-- **Modales**: Dominio de *should, must, have to* y *might*.
-- **Oraciones de Relativo**: Uso correcto de *who, which, that, where*.
+Domina la **[gramática de inglés B1](/blog/seo/gramatica-ingles-b1-guia)** en nuestro **[hub de gramática](/blog/gramatica)**.
+*   **Tiempos Verbales**: Present Perfect vs Past Simple, voz pasiva básica.
+*   **Condicionales**: Type 0, 1 & 2. Consulta nuestra guía de **[condicionales en inglés](/blog/metodos/condicionales-ingles-guia-completa)**.
+*   **Modales**: Dominio de *should, must, have to* y *might*.
 
 ### Vocabulario B1
-- **Trabajo y Educación**: Cómo desenvolverte en entornos profesionales.
-- **Viajes y Ocio**: Vocabulario esencial para aeropuertos, hoteles y turismo.
-- **Sentimientos y Opiniones**: Expresar acuerdo y desacuerdo de forma natural.
+Explora nuestro **[hub de vocabulario](/blog/vocabulario)** para aprender:
+*   **Trabajo y Educación**: Cómo desenvolverte en entornos profesionales.
+*   **Viajes y Ocio**: Vocabulario esencial para aeropuertos, hoteles y turismo.
 
 ## Prepárate para los Exámenes Oficiales
 
 No solo aprendes inglés, te enseñamos **cómo aprobar**. Ofrecemos guías específicas para:
 
-- **Cambridge PET**: Estrategias para el Reading y Writing.
-- **Aptis General**: Cómo maximizar tu puntuación en el Speaking interactivo.
-- **EOI**: Preparación para las pruebas de certificación de las escuelas oficiales.
+*   **Cambridge PET**: Estrategias para el Reading y Writing.
+*   **Aptis General**: Cómo maximizar tu puntuación en el Speaking interactivo.
+*   **EOI**: Preparación para las pruebas de certificación de las escuelas oficiales.
 
 ---
 

@@ -38,32 +38,32 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. Each task should reference relevant contracts and include verification steps
 3. Replace the Implementation step below with the planned tasks
 
-### [ ] Step: Implementation - Phase 1: Levels & General SEO
+### [x] Step: Implementation - Phase 1: Levels & General SEO
 Implement articles for levels A1-C2 and general online course keywords.
-- [ ] Create articles for A1, A2, B1, B2, C1, C2 guides.
-- [ ] Create articles for "cursos online ingles b1", "aprender ingles desde cero", etc.
-- [ ] Verify internal linking to hubs.
+- [x] Create articles for A1, A2, B1, B2, C1, C2 guides.
+- [x] Create articles for "cursos online ingles b1", "aprender ingles desde cero", etc.
+- [x] Verify internal linking to hubs.
 
-### [ ] Step: Implementation - Phase 2: Professional & Business English
+### [x] Step: Implementation - Phase 2: Professional & Business English
 Implement articles for career, interviews, and specialized sectors.
-- [ ] Create articles for CVs, interviews, and LinkedIn in English.
-- [ ] Create articles for Engineering, Health, and Hospitality sectors.
-- [ ] Verify CTA placement to business/pro plans.
+- [x] Create articles for CVs, interviews, and LinkedIn in English.
+- [x] Create articles for Engineering, Health, and Hospitality sectors.
+- [x] Verify CTA placement to business/pro plans.
 
-### [ ] Step: Implementation - Phase 3: Exams & Certifications
+### [x] Step: Implementation - Phase 3: Exams & Certifications
 Implement articles for official certifications.
-- [ ] Create articles for Cambridge, Aptis, IELTS, and TOEFL.
-- [ ] Create guides for pricing and preparation strategies.
-- [ ] Link to `/rutas/certificaciones-ingles`.
+- [x] Create articles for Cambridge, Aptis, IELTS, and TOEFL.
+- [x] Create guides for pricing and preparation strategies.
+- [x] Link to `/rutas/certificaciones-ingles`.
 
-### [ ] Step: Implementation - Phase 4: Travel & Survival English
+### [x] Step: Implementation - Phase 4: Travel & Survival English
 Implement articles for tourism and survival.
-- [ ] Create articles for airport, restaurant, and hotel vocabulary.
-- [ ] Create guides for emergencies and digital nomads.
-- [ ] Link to `/blog/temas/ingles para viajar`.
+- [x] Create articles for airport, restaurant, and hotel vocabulary.
+- [x] Create guides for emergencies and digital nomads.
+- [x] Link to `/blog/temas/ingles para viajar`.
 
-### [ ] Step: Implementation - Phase 5: Tools & AI
+### [x] Step: Implementation - Phase 5: Tools & AI
 Implement articles for English learning apps and AI tools.
-- [ ] Create articles for "mejores apps ingles 2026", "aprender ingles con ia", etc.
-- [ ] Compare Focus English with other apps.
-- [ ] Verify final linking structure and canonical URLs.
+- [x] Create articles for "mejores apps ingles 2026", "aprender ingles con ia", etc.
+- [x] Compare Focus English with other apps.
+- [x] Verify final linking structure and canonical URLs.

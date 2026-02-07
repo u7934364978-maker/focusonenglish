@@ -42,6 +42,24 @@ const categoryMetadata: Record<string, { name: string, description: string, icon
     description: "Aprende con nuestras guías completas por niveles y cursos especializados para profesionales y viajeros.",
     icon: "🎓",
     color: "from-blue-600 to-indigo-600"
+  },
+  gramatica: {
+    name: "Gramática Inglesa",
+    description: "Domina las estructuras, tiempos verbales y reglas gramaticales con nuestras guías simplificadas.",
+    icon: "📚",
+    color: "from-indigo-600 to-blue-700"
+  },
+  vocabulario: {
+    name: "Vocabulario y Expresiones",
+    description: "Amplía tu léxico con listas de palabras, phrasal verbs y expresiones idiomáticas para cada situación.",
+    icon: "🔤",
+    color: "from-emerald-600 to-teal-700"
+  },
+  habilidades: {
+    name: "Habilidades Lingüísticas",
+    description: "Mejora tu Speaking, Listening, Reading y Writing con técnicas y ejercicios prácticos.",
+    icon: "🗣️",
+    color: "from-violet-600 to-purple-700"
   }
 };
 

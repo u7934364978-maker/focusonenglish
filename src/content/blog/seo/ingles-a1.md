@@ -6,7 +6,7 @@ title: "Curso de Inglés A1: Aprende desde Cero | Focus English"
 description: "Empieza tu camino en el inglés hoy mismo. Curso de nivel A1 para principiantes absolutos. Lecciones interactivas, tutor de IA y certificación oficial."
 keywords: ["curso inglés a1", "aprender inglés desde cero", "inglés para principiantes", "nivel a1 inglés", "gramática básica inglés", "inglés básico online"]
 canonical: "https://www.focus-on-english.com/blog/seo/ingles-a1"
-related_routes: ["ingles-a2", "aprender-ingles"]
+related_routes: ["ingles-a2", "aprender-ingles", "gramatica-ingles-b1-guia"]
 faqs:
   - question: "¿Qué se aprende en el nivel A1 de inglés?"
     answer: "El nivel A1 es la base. Aprenderás a presentarte, saludar, los números, los días de la semana y a formar frases sencillas en presente sobre tu vida diaria."
@@ -20,15 +20,16 @@ faqs:
 
 El **Nivel A1** (Acceso) es el peldaño más importante de tu aprendizaje: es el momento en el que decides que el inglés dejará de ser una asignatura pendiente para convertirse en una habilidad real. 
 
-En **Focus English**, hemos diseñado este curso para que pierdas el miedo desde el primer minuto, utilizando una metodología que prioriza la confianza y la utilidad práctica.
+Si estás buscando un **[curso de inglés para principiantes](/blog/seo/ingles-a1)** o quieres **[aprender inglés desde cero](/blog/seo/ingles-a1)**, has llegado al lugar correcto. En **Focus English**, hemos diseñado este curso para que pierdas el miedo desde el primer minuto.
 
 ## ¿Qué habilidades adquirirás en este nivel?
 
 Al finalizar el curso A1, siguiendo los estándares del Marco Común Europeo (MCER), serás capaz de:
 
-*   **Comprender y usar expresiones cotidianas**: Saludar, despedirte y dar las gracias con naturalidad.
+*   **Comprender y usar expresiones cotidianas**: Consulta nuestro **[hub de vocabulario](/blog/vocabulario)** para más recursos.
+*   **Dominar la gramática básica**: Aprende las estructuras fundamentales en nuestro **[hub de gramática](/blog/gramatica)**.
 *   **Presentarte a ti mismo y a otros**: Dar información básica sobre tu nombre, nacionalidad, profesión y familia.
-*   **Interactuar de forma sencilla**: Hacer preguntas básicas (¿dónde está...?, ¿cuánto cuesta...?) y entender respuestas si se dan de forma pausada.
+*   **Interactuar de forma sencilla**: Hacer preguntas básicas y entender respuestas si se dan de forma pausada.
 *   **Vocabulario Esencial**: Dominarás más de 500 palabras clave sobre el hogar, el trabajo y el tiempo libre.
 
 ## Contenido Estructurado para el Éxito

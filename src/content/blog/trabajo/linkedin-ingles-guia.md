@@ -12,86 +12,53 @@ keywords:
   - "perfil LinkedIn inglés"
   - "headline LinkedIn inglés"
   - "networking en inglés"
-  - "Career advice"
+  - "career advice"
+canonical: "https://www.focus-on-english.com/blog/trabajo/linkedin-ingles-guia"
 faqs:
   - question: "¿Cómo pongo mi perfil de LinkedIn en dos idiomas?"
-    answer: "LinkedIn tiene una función específica de 'Añadir perfil en otro idioma'. Esto permite que los reclutadores vean tu perfil en el idioma que tengan configurado, manteniendo las URLs y recomendaciones unificadas."
+    answer: "LinkedIn tiene una función específica de 'Añadir perfil en otro idioma'. Esto permite que los reclutadores vean tu perfil en el idioma que tengan configurado."
   - question: "¿Debo traducir mi nombre o cargos actuales?"
-    answer: "Tu nombre no se traduce. Los cargos deben adaptarse a términos equivalentes en la industria (ej. 'Administrativo' -> 'Administrative Assistant') pero siempre reflejando la realidad de tu rol."
+    answer: "Tu nombre no se traduce. Los cargos deben adaptarse a términos equivalentes en la industria (ej. 'Administrativo' -> 'Administrative Assistant')."
 ---
 
-## Tu escaparate profesional al mundo en 2026
+# LinkedIn en Inglés: Tu Escaparate Profesional al Mundo
 
-En el mercado laboral actual, LinkedIn no es solo una red social; es tu **hoja de vida dinámica** y global. Si tu objetivo es trabajar en una multinacional o para una empresa en el extranjero, tener tu perfil solo en español te está cerrando el 80% de las puertas.
+En el mercado laboral actual, tener un **[perfil de LinkedIn en inglés](/blog/trabajo/linkedin-ingles-guia)** no es opcional; es tu hoja de vida dinámica y global. Si tu objetivo es trabajar en una multinacional, consulta nuestro **[hub de inglés para el trabajo](/blog/trabajo)**.
 
-En esta guía, aprenderás a proyectar una imagen profesional bilingüe que genere confianza y atraiga oportunidades.
+## 🎯 El Titular (Headline) de LinkedIn en Inglés
 
----
-
-## 🛠️ Paso 1: Activa el perfil multiidioma
-
-Antes de traducir, no borres tu perfil en español. LinkedIn permite tener **versiones paralelas**.
-1. Ve a tu perfil.
-2. Haz clic en "Añadir perfil en otro idioma".
-3. Selecciona **English**.
-
-Esto te permite mantener tu red local mientras te haces visible para reclutadores que buscan en inglés.
-
----
-
-## 🎯 El Titular (Headline): Más que un cargo
-
-Tu titular es lo primero que ve un reclutador en los resultados de búsqueda. Evita el aburrido *"Software Developer at Company X"*.
-
-### La Fórmula de Éxito:
+Tu titular es lo primero que ve un reclutador. Evita lo genérico. Usa esta fórmula:
 **[Cargo Actual] + [Keywords Clave] + [Logro o Valor que aportas]**
 
-- ❌ **Wrong:** Marketing Manager.
-- ✅ **Right:** Marketing Manager | Digital Strategy & Growth Hacking | Helping SaaS startups scale to $1M ARR.
+*   ✅ **Right:** Marketing Manager | Digital Strategy & Growth Hacking | Helping SaaS startups scale.
+*   Consulta más términos en nuestro **[hub de vocabulario](/blog/vocabulario)**.
 
----
+## 📝 El Extracto (About): Storytelling en Inglés Profesional
 
-## 📝 El Extracto (About): Tu Storytelling Profesional
+Esta es la sección para destacar tu valor. Usa la estructura **P-P-F (Past, Present, Future)** y aprovecha los consejos de nuestra guía de **[inglés profesional](/blog/seo/ingles-para-trabajo)**.
 
-Esta es la sección donde dejas de ser un currículum y empiezas a ser una persona. Usa la estructura **P-P-F (Past, Present, Future)**.
+## 🤝 Networking: Plantillas para conectar en Inglés
 
-### Estructura Recomendada:
-1. **Hook:** ¿Qué problema resuelves y por qué te apasiona?
-2. **Impact:** Logros cuantificables (usa los *Action Verbs* de nuestro artículo sobre el CV).
-3. **Values:** ¿Cómo trabajas y qué te hace único?
-4. **Call to Action (CTA):** *"Let's connect or reach out at email@address.com"*.
+El networking es clave. No envíes solicitudes vacías. Usa estas estructuras de **[networking en inglés](/blog/trabajo/linkedin-ingles-guia)**:
 
----
-
-## 🤝 Networking: Plantillas para conectar en inglés
-
-El 70% de los empleos se consiguen por networking. No envíes solicitudes vacías.
-
-| Objetivo | Plantilla en Inglés (Profesional) |
+| Objetivo | Plantilla en Inglés |
 | :--- | :--- |
-| **Conectar con Reclutador** | "Hi [Name], I've been following [Company] for some time and I'm impressed by your recent projects. I'd love to connect and stay updated on future opportunities." |
-| **Seguimiento de Vacante** | "Dear [Name], I recently applied for the [Position] role. I'm very excited about the possibility of joining your team and would love to briefly discuss how my background fits your needs." |
-| **Petición de Información** | "Hi [Name], I see you're working as a [Role] at [Company]. I'm looking to transition into this field and would value 10 minutes of your time for some career advice." |
+| **Conectar con Reclutador** | "Hi [Name], I've been following [Company] and I'm impressed by your projects..." |
+| **Seguimiento de Vacante** | "Dear [Name], I recently applied for the [Position] role. I'm very excited..." |
+
+## 💡 Career Advice para tu LinkedIn
+
+1.  **Headline de impacto**: Usa el **[headline LinkedIn inglés](/blog/trabajo/linkedin-ingles-guia)** para aparecer en búsquedas.
+2.  **Pide recomendaciones**: Las validaciones en inglés dan credibilidad.
+3.  **Habilidades Técnicas**: Asegúrate de que herramientas como Jira, Python o SEO aparezcan en tus *Skills*.
 
 ---
 
-## 💡 Consejos "Focus English" para destacar
+### 🎓 Conclusión: Tu marca no tiene fronteras
 
-1. **Pide recomendaciones en inglés:** Tener validaciones en inglés de antiguos jefes o colegas da una credibilidad inmensa a tu nivel de idioma.
-2. **Publica contenido:** No hace falta escribir ensayos. Compartir un artículo interesante con un breve comentario en inglés demuestra que eres un profesional activo y capaz de comunicarte.
-3. **Usa palabras clave técnicas:** Los reclutadores usan filtros. Asegúrate de que herramientas y habilidades específicas aparezcan en tu sección de "Skills".
+Optimizar tu LinkedIn es una inversión mínima con resultados globales. En **Focus English**, te ayudamos con:
+*   **Networking Scripts**: Plantillas efectivas.
+*   **Simuladores de Pitch**: Practica cómo te presentas.
+*   **Feedback Personalizado**: Revisamos tu perfil.
 
-> 🚀 **Dato Extra:** En la plataforma Focus English, tenemos un módulo dedicado exclusivamente a **Social Networking**, donde aprendes a escribir posts y comentarios que te posicionen como un líder de opinión en tu industria.
-
----
-
-## 🎓 Conclusión: Tu marca no tiene fronteras
-
-Optimizar tu LinkedIn en inglés es una inversión de una tarde que puede cambiar el rumbo de tu carrera. No busques la perfección gramatical extrema; busca la **claridad y el impacto**.
-
-**¿Quieres que revisemos tu perfil?**
-Nuestros tutores expertos en Business English ofrecen sesiones de feedback personalizadas para que tu LinkedIn sea irresistible.
-
-[👉 Únete a Focus English y despega internacionalmente](/cuenta/registro?plan=work)
-
-¡Nos vemos en la cima profesional! 🚀💼
+[**👉 Únete a Focus English y despega internacionalmente**](/cuenta/registro?plan=work)
