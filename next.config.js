@@ -22,6 +22,16 @@ const nextConfig = {
         statusCode: 301,
       },
       {
+        source: '/certificaciones-ingles',
+        destination: '/certificaciones-ingles-oficiales',
+        statusCode: 301,
+      },
+      {
+        source: '/ingles-para-el-trabajo',
+        destination: '/blog/seo/ingles-para-trabajo',
+        statusCode: 301,
+      },
+      {
         source: '/curso-ingles-trabajo',
         destination: '/blog/seo/ingles-para-trabajo',
         statusCode: 301,
