@@ -52,6 +52,12 @@ export default function BlogPage() {
       icon: "🎯",
       color: "from-amber-600 to-orange-600"
     },
+    seo: {
+      name: "Cursos y Guías de Inglés",
+      description: "Aprende con nuestras guías completas por niveles y cursos especializados para profesionales y viajeros.",
+      icon: "🎓",
+      color: "from-blue-600 to-indigo-600"
+    },
     "material-estudio": {
       name: "Material de Estudio",
       description: "Guías completas y recursos estructurados para aprender inglés",
@@ -60,7 +66,8 @@ export default function BlogPage() {
     }
   };
 
-  const categories = Array.from(new Set(articles.map(a => a.category))).map(catSlug => {
+  const categories = Array.from(new Set(articles.map(a => a.category))).map(rawCatSlug => {
+    const catSlug = rawCatSlug.toLowerCase();
     const meta = categoryMetadata[catSlug] || {
       name: catSlug.charAt(0).toUpperCase() + catSlug.slice(1),
       description: `Artículos sobre ${catSlug}`,

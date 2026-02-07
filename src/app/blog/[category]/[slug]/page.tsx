@@ -88,9 +88,11 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
     examenes: "Preparación de Exámenes",
     aprendizaje: "Aprendizaje",
     metodos: "Métodos",
+    seo: "Cursos y Guías de Inglés",
   };
 
-  const categoryLabel = categoryLabels[article.category] || article.category;
+  const normalizedCategory = article.category.toLowerCase();
+  const categoryLabel = categoryLabels[normalizedCategory] || article.category;
 
   const articleSchema = generateArticleSchema({
     title: article.title,
@@ -215,9 +217,10 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
     examenes: "bg-amber-100 text-amber-800 border-amber-200",
     aprendizaje: "bg-amber-100 text-amber-800 border-amber-200",
     metodos: "bg-pink-100 text-pink-800 border-pink-200",
+    seo: "bg-blue-100 text-blue-800 border-blue-200",
   };
 
-  const categoryColor = categoryColors[article.category] || "bg-slate-100 text-slate-800";
+  const categoryColor = categoryColors[normalizedCategory] || "bg-slate-100 text-slate-800";
 
   const relatedArticles = getRelatedArticles(slug, article.category);
 

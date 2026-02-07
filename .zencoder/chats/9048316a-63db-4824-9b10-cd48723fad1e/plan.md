@@ -59,5 +59,5 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/90
 
 ---
 
-### [ ] Step: Deployment
+### [x] Step: Deployment
 1. **Commit and Push**: Save changes to the repository and push to remote.
