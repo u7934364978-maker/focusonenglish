@@ -68,6 +68,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         'multipleChoice': 'multiple_choice',
         'multiple-choice': 'multiple_choice',
         'speaking-analysis': 'multiple_choice',
+        'reading-comprehension': 'multiple_choice',
         'pronunciation-practice': 'audio_player',
         'fillBlanks': 'fill_blanks',
         'fill_blank': 'fill_blanks',
@@ -101,8 +102,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
       // Normalize options (handle array of strings from migrations)
       if (normalized.options && normalized.options.length > 0 && typeof normalized.options[0] === 'string') {
+        const ans = normalized.correctAnswer || normalized.answer || normalized.correct_answer;
+        const hasLetterAnswer = typeof ans === 'string' && /^[A-E]$/.test(ans);
         normalized.options = normalized.options.map((opt: string, idx: number) => ({
-          id: idx.toString(),
+          id: hasLetterAnswer ? String.fromCharCode(65 + idx) : idx.toString(),
           text: opt
         }));
       }
@@ -172,14 +175,23 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             if (q.scenario && !flattened.stimulus_en) {
               flattened.stimulus_en = q.scenario;
             }
+            if (q.sentence && !flattened.stimulus_en) {
+              flattened.stimulus_en = q.sentence;
+            }
+            if (content.textPassage && !flattened.stimulus_en) {
+              flattened.stimulus_en = content.textPassage;
+            }
             if (q.options && typeof q.options[0] === 'string') {
               flattened.options = q.options.map((opt: string, idx: number) => ({
-                id: String.fromCharCode(65 + idx), // A, B, C...
-                text: opt
+                id: q.type === 'multiple-choice' && opt.includes(') ') ? opt.split(') ')[0] : String.fromCharCode(65 + idx),
+                text: opt.includes(') ') ? opt.split(') ')[1] : opt
               }));
             }
             if (q.correctAnswer && !flattened.correct_answer) {
               flattened.correct_answer = q.correctAnswer;
+            }
+            if (q.answer && !flattened.correct_answer) {
+              flattened.correct_answer = q.answer;
             }
             if (q.explanation && !flattened.feedback_correct_es) {
               flattened.feedback_correct_es = q.explanation;
@@ -209,10 +221,12 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
               ...s,
               type: 'audio_player',
               interaction_id: `${content.interaction_id || 'ex'}-p${sIdx}`,
-              prompt_es: s.spanish,
-              stimulus_en: s.english,
+              prompt_es: s.spanish || s.spanishTranslation || content.instructions || "Escucha y repite:",
+              stimulus_en: s.english || s.englishSentence,
               audioUrl: s.audioModelURL || s.audioModelUrl,
-              tts_en: s.english,
+              tts_en: s.english || s.englishSentence,
+              pronunciationTips: s.pronunciationTips || s.pronunciation_tips,
+              phonetic: s.phonetic || s.phoneticTranscription,
               blockTitle: block.title
             }));
           });
@@ -748,28 +762,54 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       case 'audio_player':
         return (
           <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
-            <div className="bg-blue-50 p-8 rounded-3xl border-2 border-blue-100 w-full text-center">
-              <Play className="w-16 h-16 text-blue-600 mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-blue-900 mb-2">Listening Task</h3>
-              <p className="text-slate-600">{interaction.prompt_es || interaction.instructions}</p>
+            <div className="bg-indigo-50 p-8 rounded-3xl border-2 border-indigo-100 w-full text-center space-y-6 relative group">
+              <PronunciationButton text={interaction.stimulus_en || interaction.text || interaction.tts_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+              <div className="space-y-2">
+                <p className="text-slate-400 font-bold uppercase tracking-widest text-sm italic">ESCUCHA Y PRONUNCIA</p>
+                <h3 className="text-3xl md:text-4xl font-black text-indigo-900 leading-tight">
+                  {interaction.stimulus_en || interaction.text || interaction.tts_en}
+                </h3>
+              </div>
+              
+              <div className="p-4 bg-white/50 rounded-2xl border border-indigo-50">
+                <p className="text-xl font-medium text-slate-600 italic">
+                  &quot;{interaction.prompt_es || interaction.spanish || interaction.instructions}&quot;
+                </p>
+              </div>
+
+              {interaction.phonetic && (
+                <p className="text-2xl font-mono text-indigo-400 font-bold">{interaction.phonetic}</p>
+              )}
+
+              {interaction.pronunciationTips && (
+                <div className="bg-amber-50 p-6 rounded-2xl border-2 border-amber-100 text-left">
+                  <div className="flex items-center gap-2 mb-2">
+                    <Lightbulb className="w-5 h-5 text-amber-500" />
+                    <span className="font-bold text-amber-800 uppercase text-xs tracking-wider">Consejos de Pronunciación</span>
+                  </div>
+                  <p className="text-amber-900 font-medium leading-relaxed">
+                    {interaction.pronunciationTips}
+                  </p>
+                </div>
+              )}
             </div>
             
-            <div className="flex flex-col items-center gap-4 w-full">
+            <div className="flex flex-col items-center gap-6 w-full">
               <button
-                onClick={() => playAudio(interaction.audioUrl || interaction.audio_url, interaction.text || interaction.tts_en)}
-                className="bg-blue-600 text-white px-10 py-4 rounded-2xl font-black text-xl hover:bg-blue-700 transition-all shadow-lg flex items-center gap-3 active:scale-95"
+                onClick={() => playAudio(interaction.audioUrl || interaction.audio_url, interaction.stimulus_en || interaction.text || interaction.tts_en)}
+                className="bg-indigo-600 text-white px-12 py-6 rounded-[2rem] font-black text-2xl hover:bg-indigo-700 transition-all shadow-xl shadow-indigo-100 flex items-center gap-4 active:scale-95 border-b-8 border-indigo-800"
               >
-                <Volume2 className="w-6 h-6" />
-                Play Audio
+                <Volume2 className="w-10 h-10" />
+                ESCUCHAR
               </button>
               
-              {!isInteractionDisabled && (
-                <button
+              {!feedback && (
+                <Button
                   onClick={() => handleCheckAnswer(true)}
-                  className="mt-4 text-slate-400 font-bold hover:text-slate-600 transition-colors"
+                  className="mt-4 bg-green-500 hover:bg-green-600 text-white font-black px-12 py-4 rounded-2xl border-b-4 border-green-700 active:translate-y-1 transition-all"
                 >
-                  I have finished listening
-                </button>
+                  ¡LO HE DICHO BIEN!
+                </Button>
               )}
             </div>
           </div>
@@ -787,9 +827,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           <div className="w-full max-w-2xl mx-auto space-y-8">
             <h2 className="text-2xl font-black text-slate-800 text-center">{readingContent.title || interaction.title || "Reading Comprehension"}</h2>
             {readingContent.text && (
-               <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 mb-8 max-h-[40vh] overflow-y-auto relative group">
+               <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 mb-8 max-h-[60vh] overflow-y-auto relative group scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent">
                   <PronunciationButton text={readingContent.text} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-xl text-slate-700 leading-relaxed whitespace-pre-line">
+                  <p className="text-xl text-slate-700 leading-relaxed whitespace-pre-line text-left">
                     {readingContent.text}
                   </p>
                </div>
@@ -846,8 +886,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           <div className="w-full max-w-3xl mx-auto space-y-8">
             <h2 className="text-3xl font-black text-slate-800 text-center">{interaction.title || "Email Analysis"}</h2>
             
-            <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 mb-8 max-h-[40vh] overflow-y-auto">
-              <p className="text-xl text-slate-700 leading-relaxed whitespace-pre-line font-serif italic">
+            <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 mb-8 max-h-[60vh] overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent">
+              <p className="text-xl text-slate-700 leading-relaxed whitespace-pre-line font-serif italic text-left">
                 {analysisContent.text}
               </p>
             </div>
@@ -1532,9 +1572,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           <div className="w-full max-w-2xl mx-auto space-y-8">
             <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
             {interaction.stimulus_en && (
-               <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 max-h-[40vh] overflow-y-auto relative group">
+               <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 max-h-[60vh] overflow-y-auto relative group scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent">
                   <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-2xl font-bold text-slate-700 leading-relaxed whitespace-pre-line">
+                  <p className="text-xl md:text-2xl font-bold text-slate-700 leading-relaxed whitespace-pre-line text-left">
                     {interaction.stimulus_en}
                   </p>
                </div>
@@ -1783,7 +1823,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             <div className="space-y-6 text-center">
               <h2 className="text-2xl font-black text-slate-800 leading-tight">{interaction.prompt_es}</h2>
               {interaction.stimulus_en && (
-                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 max-h-[40vh] overflow-y-auto relative group">
+                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 max-h-[60vh] overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent relative group">
                   <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                   <p className="text-2xl font-bold text-slate-700 leading-relaxed">
                     {interaction.stimulus_en}
