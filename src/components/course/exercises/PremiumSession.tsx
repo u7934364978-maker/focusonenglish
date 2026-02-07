@@ -167,13 +167,44 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         normalized.correct_answer = normalized.answer;
       }
       
-      // Clean up stimulus_en for fill_blank if it contains the answer in brackets
-      if ((normalized.type === 'fill_blanks' || normalized.type === 'fill_blank') && normalized.stimulus_en) {
-        // If it looks like "Sentence ______ (answer) rest of sentence"
-        if (normalized.stimulus_en.includes('______')) {
-          // Remove the answer in brackets if it exists right after the blank
-          normalized.stimulus_en = normalized.stimulus_en.replace(/_{2,}\s*\([^)]+\)/g, '______');
+      // Clean up stimulus_en for fill_blank if it contains the answer in brackets or parentheses
+      if (['fill_blanks', 'fill_blank', 'fill-blank', 'fill-blanks-mc', 'transformation'].includes(normalized.type) && normalized.stimulus_en) {
+        // Remove bracketed or parenthesized answers even if they don't have underscores yet
+        // Patterns: (answer), [answer], ______ (answer), (answer) ______, etc.
+        const cleanStimulus = (text: string) => {
+          if (!text) return text;
+          let cleaned = text;
+          
+          // 1. Remove parenthesized/bracketed text that matches the correct answer
+          if (normalized.correct_answer) {
+            const ans = String(normalized.correct_answer).toLowerCase().trim();
+            const escapedAns = ans.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const ansRegex = new RegExp(`\\s*[\\(\\[]${escapedAns}[\\)\\]]\\s*`, 'gi');
+            cleaned = cleaned.replace(ansRegex, ' ');
+          }
+
+          // 2. Remove common AI patterns like "______ (answer)" or "______ [answer]"
+          cleaned = cleaned.replace(/_{2,}\s*[\(\[][^\]\)]+[\)\]]/g, '______');
+          cleaned = cleaned.replace(/[\(\[][^\]\)]+[\)\]]\s*_{2,}/g, '______');
+          
+          // 3. Remove standalone parenthesized words if they look like answers (1-3 words)
+          // This is riskier but often necessary for AI generated content
+          cleaned = cleaned.replace(/\s*\([^)]+\)\s*/g, ' ').replace(/\s*\[[^\]]+\]\s*/g, ' ');
+
+          return cleaned.trim().replace(/\s+/g, ' ');
+        };
+
+        normalized.stimulus_en = cleanStimulus(normalized.stimulus_en);
+        
+        if (normalized.prompt_es) {
+          normalized.prompt_es = cleanStimulus(normalized.prompt_es);
         }
+      }
+
+      // Final check: if stimulus_en and prompt_es are identical, clear prompt_es
+      if (normalized.stimulus_en && normalized.prompt_es && 
+          normalized.stimulus_en.toLowerCase().trim() === normalized.prompt_es.toLowerCase().trim()) {
+        normalized.prompt_es = "Completa el espacio:";
       }
 
       // Normalize pairs for matching
@@ -223,12 +254,20 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         
         if (subQuestions && Array.isArray(subQuestions)) {
           subQuestions.forEach((q: any, qIdx: number) => {
+            // Ensure we don't lose the main instructions or title, but avoid duplicates
+            const rawInstructions = q.instructions || content.instructions || content.prompt_es || content.topic || content.title || block.title;
+            const qText = q.question || q.prompt || q.scenario || q.sentence || "";
+            
+            // If instructions are almost identical to the question, use a generic placeholder or the block title
+            const isDuplicate = qText && rawInstructions && 
+                              (rawInstructions.toLowerCase().includes(qText.toLowerCase().substring(0, 20)) ||
+                               qText.toLowerCase().includes(rawInstructions.toLowerCase().substring(0, 20)));
+
             const flattened = {
               ...content,
               ...q,
               interaction_id: `${content.interaction_id || 'ex'}-q${qIdx}`,
-              // Ensure we don't lose the main instructions or title
-              main_instructions: q.instructions || q.prompt || q.question || q.title || content.instructions || content.prompt_es || content.topic || content.title || block.title,
+              main_instructions: isDuplicate ? (block.title || "Exercise") : rawInstructions,
               blockTitle: block.title
             };
             

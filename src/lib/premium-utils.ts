@@ -28,6 +28,8 @@ export function getSolutionText(interaction: PremiumInteraction): string {
     case 'role_play':
     case 'reading-comprehension':
     case 'writing-analysis':
+    case 'listening_image_mc':
+    case 'fill-blanks-mc':
       const q = (interaction.type === 'reading-comprehension' || interaction.type === 'writing-analysis')
         ? ((interaction.options && interaction.options.length > 0) ? interaction : (interaction.content?.questions?.[0] || interaction.content || interaction))
         : interaction;
@@ -35,11 +37,11 @@ export function getSolutionText(interaction: PremiumInteraction): string {
       const options = q.options || interaction.options;
       const correctAnswer = q.correct_answer || q.correctAnswer || interaction.correct_answer;
 
-      if (options && correctAnswer) {
+      if (options && (correctAnswer !== undefined && correctAnswer !== null)) {
         const correctOption = options.find((opt: any) => 
-          (opt.id && opt.id === correctAnswer) || 
-          (opt.text && opt.text === correctAnswer) ||
-          (opt === correctAnswer)
+          (opt.id && String(opt.id) === String(correctAnswer)) || 
+          (opt.text && String(opt.text) === String(correctAnswer)) ||
+          (String(opt) === String(correctAnswer))
         );
         return correctOption ? `${prefix}${typeof correctOption === 'string' ? correctOption : correctOption.text}` : String(correctAnswer);
       }
@@ -53,13 +55,24 @@ export function getSolutionText(interaction: PremiumInteraction): string {
           .join(" ");
         return `${prefix}${solution}`;
       }
+      // Fallback for string correct_answer in reorder_words
+      if (typeof interaction.correct_answer === 'string') {
+        return `${prefix}${interaction.correct_answer}`;
+      }
       break;
 
     case 'matching':
     case 'vocabulary-match':
+    case 'multiple_matching':
       if (interaction.pairs) {
         const solution = interaction.pairs
           .map(pair => `${pair.left} → ${pair.right}`)
+          .join(", ");
+        return `${prefix}${solution}`;
+      }
+      if (interaction.correct_answer && typeof interaction.correct_answer === 'object') {
+        const solution = Object.entries(interaction.correct_answer)
+          .map(([k, v]) => `${k} → ${v}`)
           .join(", ");
         return `${prefix}${solution}`;
       }
@@ -70,8 +83,8 @@ export function getSolutionText(interaction: PremiumInteraction): string {
     case 'fill_blank':
     case 'fill-blank':
     case 'fill-blanks':
-      if (typeof interaction.correct_answer === 'string') {
-        return `${prefix}${interaction.correct_answer}`;
+      if (interaction.correct_answer) {
+        return `${prefix}${Array.isArray(interaction.correct_answer) ? interaction.correct_answer.join(' / ') : interaction.correct_answer}`;
       }
       break;
 
