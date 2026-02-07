@@ -26,3 +26,7 @@
 - [x] Optimize static page titles (Planes, Frases, Contacto, etc.)
 - [x] Optimize blog post titles in `src/content/blog/`
 - [x] Optimize category/topic page titles in `src/app/blog/[category]/page.tsx` or similar
+
+### 7. Bug Fixes
+- [x] Fix metadata export error in `src/app/tutor-privado/page.tsx` by separating client logic into `TutorPrivadoClient.tsx`.
+- [x] Verify build success after the fix.
