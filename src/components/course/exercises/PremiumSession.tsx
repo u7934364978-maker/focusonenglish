@@ -684,7 +684,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       setFailCount(prev => ({ ...prev, [id]: currentFails }));
       
       let message = "";
-      if (currentFails >= 1) {
+      if (currentFails >= 3) {
         message = getSolutionText(interaction);
       } else {
         message = interaction.feedback_incorrect_es || getEncouragingMessage(false, currentFails);
@@ -708,7 +708,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       return;
     }
 
-    if (feedback?.correct || ((failCount[id] || 0) >= 1)) {
+    if (feedback?.correct || ((failCount[id] || 0) >= 3)) {
       if (isVideoMode) {
         setInteractionIndex(interactionIndex + 1);
         setShowInteraction(false);
@@ -2214,7 +2214,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                   </div>
                   <div className="space-y-0.5">
                     <h3 className={`text-xl font-black ${feedback.correct ? 'text-[#4b7e02]' : 'text-[#ea2b2b]'}`}>
-                      {feedback.correct ? getEncouragingMessage(true, 0) : ((failCount[id] || 0) >= 1 ? 'La solución es:' : '¡Uy! Casi...')}
+                      {feedback.correct ? getEncouragingMessage(true, 0) : ((failCount[id] || 0) >= 3 ? 'La solución es:' : '¡Uy! Casi...')}
                     </h3>
                     <p className={`text-base font-bold whitespace-pre-line ${feedback.correct ? 'text-[#4b7e02]/80' : 'text-[#ea2b2b]/80'}`}>
                       {feedback.message}
