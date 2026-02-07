@@ -366,6 +366,182 @@
           "audioUrl": "/audio/courses/ingles-a1/shared/c7b8b4fe3959d63396c149a3a4cc71f9.mp3",
           "text": "She works in a big office.",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "UNIT9_EXP_0_0",
+          "type": "multiple_choice",
+          "prompt_es": "He drives ___ (slow).",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "slow"
+            },
+            {
+              "id": "opt1",
+              "text": "slowly"
+            },
+            {
+              "id": "opt2",
+              "text": "slows"
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "¿Cómo conduce él? Despacio. Necesitamos un adverbio: slow + ly.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT9_EXP_0_1",
+          "type": "multiple_choice",
+          "prompt_es": "She sings very ___ (good).",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "good"
+            },
+            {
+              "id": "opt1",
+              "text": "goodly"
+            },
+            {
+              "id": "opt2",
+              "text": "well"
+            }
+          ],
+          "correct_answer": "opt2",
+          "explanation": "\"Well\" es el adverbio irregular de \"good\".",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT9_EXP_0_2",
+          "type": "multiple_choice",
+          "prompt_es": "He is a ___ (dangerous) driver.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "dangerous"
+            },
+            {
+              "id": "opt1",
+              "text": "dangerously"
+            },
+            {
+              "id": "opt2",
+              "text": "dangerousely"
+            }
+          ],
+          "correct_answer": "opt0",
+          "explanation": "Aquí acompaña a \"driver\" (sustantivo), por lo tanto necesitamos un adjetivo.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT9_EXP_1_0",
+          "type": "multiple_choice",
+          "prompt_es": "Ordena: to the mountains / never / we go",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "We never go to the mountains."
+            },
+            {
+              "id": "opt1",
+              "text": "We go never to the mountains."
+            },
+            {
+              "id": "opt2",
+              "text": "Never we go to the mountains."
+            }
+          ],
+          "correct_answer": "opt0",
+          "explanation": "El adverbio \"never\" va entre el sujeto (we) y el verbo (go).",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT9_EXP_1_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "Our teacher usually is angry."
+            },
+            {
+              "id": "opt1",
+              "text": "Our teacher is usually angry."
+            },
+            {
+              "id": "opt2",
+              "text": "Usually our teacher is angry."
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "Con el verbo \"to be\" (is), el adverbio va después.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT9_EXP_2_0",
+          "type": "multiple_choice",
+          "prompt_es": "We can discuss it ___________ lunch.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "after"
+            },
+            {
+              "id": "opt1",
+              "text": "then"
+            },
+            {
+              "id": "opt2",
+              "text": "afterwards"
+            }
+          ],
+          "correct_answer": "opt0",
+          "explanation": "Usamos \"after\" seguido de un sustantivo (lunch). \"Después de la comida\".",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT9_EXP_2_1",
+          "type": "multiple_choice",
+          "prompt_es": "I get up and ___________ I get dressed.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "after"
+            },
+            {
+              "id": "opt1",
+              "text": "then"
+            },
+            {
+              "id": "opt2",
+              "text": "afterwards"
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "\"Then\" indica una correlación de hechos: \"y después me visto\".",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT9_EXP_2_2",
+          "type": "multiple_choice",
+          "prompt_es": "___________ I have a shower, I go to bed.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "After"
+            },
+            {
+              "id": "opt1",
+              "text": "Then"
+            },
+            {
+              "id": "opt2",
+              "text": "Afterwards"
+            }
+          ],
+          "correct_answer": "opt0",
+          "explanation": "\"After\" seguido de una oración (I have a shower). \"Después de ducharme\".",
+          "mastery_tag": "grammar"
         }
       ]
     }

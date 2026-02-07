@@ -356,6 +356,72 @@
           "audioUrl": "/audio/courses/ingles-a1/shared/a054d04bbf7e2cca87da7eb47f614610.mp3",
           "text": "Answer the questions carefully.",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "UNIT10_EXP_0_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "I'm learning english."
+            },
+            {
+              "id": "opt1",
+              "text": "I'm learning English."
+            },
+            {
+              "id": "opt2",
+              "text": "i'm learning english."
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "Los idiomas siempre van con mayúscula en inglés.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT10_EXP_0_1",
+          "type": "multiple_choice",
+          "prompt_es": "My birthday is in ___ (mayo).",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "may"
+            },
+            {
+              "id": "opt1",
+              "text": "May"
+            },
+            {
+              "id": "opt2",
+              "text": "mAy"
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "Los meses del año siempre van con mayúscula.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT10_EXP_1_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se escribe: 22 de abril?",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "22th April"
+            },
+            {
+              "id": "opt1",
+              "text": "22st April"
+            },
+            {
+              "id": "opt2",
+              "text": "22nd April"
+            }
+          ],
+          "correct_answer": "opt2",
+          "explanation": "El ordinal de 22 es \"twenty-second\", por tanto termina en \"nd\".",
+          "mastery_tag": "grammar"
         }
       ]
     }

@@ -356,6 +356,72 @@
           "audioUrl": "/audio/courses/ingles-a1/shared/2322ef30abc1518f71204e51aa292434.mp3",
           "text": "She is very proud to be Italian.",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "UNIT5_EXP_0_0",
+          "type": "multiple_choice",
+          "prompt_es": "Traduce: Éste es un café bueno.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "This is a coffee good."
+            },
+            {
+              "id": "opt1",
+              "text": "This is a good coffee."
+            },
+            {
+              "id": "opt2",
+              "text": "This is a good coffees."
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "El adjetivo \"good\" debe ir antes del sustantivo \"coffee\".",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT5_EXP_0_1",
+          "type": "multiple_choice",
+          "prompt_es": "Traduce: El sandwich de queso y tomate es caro.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "The cheese and tomato sandwich is expensive."
+            },
+            {
+              "id": "opt1",
+              "text": "The sandwich of cheese and tomato is expensive."
+            },
+            {
+              "id": "opt2",
+              "text": "The cheese and tomato sandwich is expensives."
+            }
+          ],
+          "correct_answer": "opt0",
+          "explanation": "En inglés usamos \"cheese and tomato sandwich\" y el adjetivo \"expensive\" no cambia si es plural o singular.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT5_EXP_0_2",
+          "type": "multiple_choice",
+          "prompt_es": "Traduce: Una mujer alta.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "A woman tall."
+            },
+            {
+              "id": "opt1",
+              "text": "A tall woman."
+            },
+            {
+              "id": "opt2",
+              "text": "A talls woman."
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "Adjetivo (tall) + Sustantivo (woman).",
+          "mastery_tag": "grammar"
         }
       ]
     }

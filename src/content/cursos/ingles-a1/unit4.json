@@ -376,6 +376,72 @@
           "audioUrl": "/audio/courses/ingles-a1/shared/517a614223c4cdc2ff25e910dedf8273.mp3",
           "text": "Can you spell that, please?",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "UNIT4_EXP_0_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "I have 3 childrens."
+            },
+            {
+              "id": "opt1",
+              "text": "I have 3 children."
+            },
+            {
+              "id": "opt2",
+              "text": "I have 3 childs."
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "\"Children\" ya es plural, no necesita -s.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT4_EXP_0_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice: \"en Internet\"?",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "in Internet"
+            },
+            {
+              "id": "opt1",
+              "text": "on Internet"
+            },
+            {
+              "id": "opt2",
+              "text": "on the Internet"
+            }
+          ],
+          "correct_answer": "opt2",
+          "explanation": "La expresión correcta es siempre \"on the Internet\".",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT4_EXP_0_2",
+          "type": "multiple_choice",
+          "prompt_es": "I need some ___ (información).",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "informations"
+            },
+            {
+              "id": "opt1",
+              "text": "information"
+            },
+            {
+              "id": "opt2",
+              "text": "an information"
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "\"Information\" es incontable, nunca lleva -s.",
+          "mastery_tag": "grammar"
         }
       ]
     }

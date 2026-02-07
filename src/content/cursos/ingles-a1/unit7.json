@@ -346,6 +346,50 @@
           "audioUrl": "/audio/courses/ingles-a1/shared/0018ef8ac1348ce2a85fa3f258787f65.mp3",
           "text": "That is a very small dog.",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "UNIT7_EXP_0_0",
+          "type": "multiple_choice",
+          "prompt_es": "Traduce: La casa de María.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "Maria's house"
+            },
+            {
+              "id": "opt1",
+              "text": "The house of Maria"
+            },
+            {
+              "id": "opt2",
+              "text": "Marias house"
+            }
+          ],
+          "correct_answer": "opt0",
+          "explanation": "Poseedor (Maria) + 's + Objeto (house).",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT7_EXP_0_1",
+          "type": "multiple_choice",
+          "prompt_es": "La casa de mis padres (plural).",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "My parent's house"
+            },
+            {
+              "id": "opt1",
+              "text": "My parents' house"
+            },
+            {
+              "id": "opt2",
+              "text": "The house of my parents"
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "En plurales que terminan en -s, solo añadimos el apóstrofo.",
+          "mastery_tag": "grammar"
         }
       ]
     }

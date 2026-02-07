@@ -356,6 +356,182 @@
           "audioUrl": "/audio/courses/ingles-a1/shared/f333d6ed3484a7e4615cfe67667dc9c3.mp3",
           "text": "They eat dinner at 8 o'clock.",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "UNIT17_EXP_0_0",
+          "type": "multiple_choice",
+          "prompt_es": "I go to work ___ car.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "by"
+            },
+            {
+              "id": "opt1",
+              "text": "in"
+            },
+            {
+              "id": "opt2",
+              "text": "on"
+            }
+          ],
+          "correct_answer": "opt0",
+          "explanation": "Uso general del medio de transporte.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT17_EXP_0_1",
+          "type": "multiple_choice",
+          "prompt_es": "I came ___ my car.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "by"
+            },
+            {
+              "id": "opt1",
+              "text": "in"
+            },
+            {
+              "id": "opt2",
+              "text": "on"
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "Cuando es específico (\"my car\"), usamos \"in\".",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT17_EXP_0_2",
+          "type": "multiple_choice",
+          "prompt_es": "I go to school ___ foot.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "by"
+            },
+            {
+              "id": "opt1",
+              "text": "in"
+            },
+            {
+              "id": "opt2",
+              "text": "on"
+            }
+          ],
+          "correct_answer": "opt2",
+          "explanation": "La expresión para ir andando es siempre \"on foot\".",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT17_EXP_1_0",
+          "type": "multiple_choice",
+          "prompt_es": "Phone me when you ___ the train.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "get into"
+            },
+            {
+              "id": "opt1",
+              "text": "get on"
+            },
+            {
+              "id": "opt2",
+              "text": "get in"
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "Para trenes usamos \"get on\".",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT17_EXP_1_1",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ the taxi and paid the driver.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "got off"
+            },
+            {
+              "id": "opt1",
+              "text": "got out of"
+            },
+            {
+              "id": "opt2",
+              "text": "got out"
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "Para salir de un taxi usamos \"get out of\".",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT17_EXP_2_0",
+          "type": "multiple_choice",
+          "prompt_es": "There is a supermarket ___ my house.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "near of"
+            },
+            {
+              "id": "opt1",
+              "text": "near"
+            },
+            {
+              "id": "opt2",
+              "text": "close"
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "\"Near\" no necesita \"of\".",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT17_EXP_2_1",
+          "type": "multiple_choice",
+          "prompt_es": "I sat ___ a beautiful woman on the train.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "opposite"
+            },
+            {
+              "id": "opt1",
+              "text": "opposite to"
+            },
+            {
+              "id": "opt2",
+              "text": "in front of"
+            }
+          ],
+          "correct_answer": "opt0",
+          "explanation": "\"Opposite\" significa cara a cara, sin preposiciones adicionales.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "UNIT17_EXP_2_2",
+          "type": "multiple_choice",
+          "prompt_es": "Traduce: Al lado de mi casa hay una guardería.",
+          "options": [
+            {
+              "id": "opt0",
+              "text": "Near my house..."
+            },
+            {
+              "id": "opt1",
+              "text": "Next to my house..."
+            },
+            {
+              "id": "opt2",
+              "text": "In front of my house..."
+            }
+          ],
+          "correct_answer": "opt1",
+          "explanation": "\"Next to\" es \"al lado de\".",
+          "mastery_tag": "grammar"
         }
       ]
     }
