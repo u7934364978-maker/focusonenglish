@@ -144,8 +144,67 @@ export const premiumCourseServerService = {
         .eq('unit_id', unitId)
         .single();
 
-      if (error || !data) return null;
-      return data.content as UnitData;
+      if (!error && data) return data.content as UnitData;
+
+      // New: Support fetching from course_lessons and course_exercises (Dynamic A2/A1 content)
+      if (courseId.startsWith('ingles-')) {
+        const cefrLevel = courseId.split('-')[1].toUpperCase();
+        
+        // Fetch the lesson
+        const { data: lesson, error: lessonError } = await supabase
+          .from('course_lessons')
+          .select(`
+            id,
+            title,
+            course_modules!inner (course_level),
+            course_exercises (
+              id,
+              type,
+              title,
+              content,
+              order_index
+            )
+          `)
+          .eq('id', unitId)
+          .eq('course_modules.course_level', cefrLevel)
+          .single();
+
+        if (lesson && !lessonError) {
+          // Transform database format to UnitData format
+          const exercises = (lesson.course_exercises as any[]) || [];
+          exercises.sort((a, b) => a.order_index - b.order_index);
+
+          const blocks: PremiumBlock[] = [{
+            block_id: `block-${lesson.id}`,
+            title: 'Lesson Exercises',
+            duration_minutes: exercises.length * 2, // Estimate 2 mins per exercise
+            content: exercises.map(ex => {
+              // The JSON in DB content field for course_exercises is different
+              // We need to map it to PremiumInteraction
+              const dbContent = ex.content;
+              return {
+                interaction_id: ex.id,
+                type: ex.type,
+                ...dbContent
+              };
+            })
+          }];
+
+          return {
+            course: {
+              unit_id: lesson.id,
+              unit_title: lesson.title,
+              level: cefrLevel,
+              total_duration_minutes: blocks[0].duration_minutes,
+              language_ui: 'es',
+              target_language: 'en'
+            },
+            blocks
+          } as UnitData;
+        }
+      }
+
+      return null;
     } catch (e) {
       console.error('Error fetching unit data:', e);
       return null;

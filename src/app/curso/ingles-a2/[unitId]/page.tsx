@@ -1,21 +1,12 @@
 import React from 'react';
-import fs from 'fs';
-import path from 'path';
 import { notFound } from 'next/navigation';
 import PremiumUnitViewer from '@/components/course/PremiumUnitViewer';
-import { UnitData } from '@/types/premium-course';
+import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
 
 export default async function PremiumUnitPage({ params }: { params: Promise<{ unitId: string }> }) {
   const { unitId } = await params;
   
-  let unitData: UnitData | null = null;
-
-  const fileName = `${unitId.toLowerCase()}.json`;
-  const filePath = path.join(process.cwd(), 'src/content/cursos/ingles-a2', fileName);
-  
-  if (fs.existsSync(filePath)) {
-    unitData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-  }
+  const unitData = await premiumCourseServerService.getUnitData('ingles-a2', unitId);
 
   if (!unitData) {
     notFound();
@@ -23,7 +14,7 @@ export default async function PremiumUnitPage({ params }: { params: Promise<{ un
 
   return (
     <div className="min-h-screen bg-white">
-      <PremiumUnitViewer unitData={unitData!} />
+      <PremiumUnitViewer unitData={unitData} />
     </div>
   );
 }
